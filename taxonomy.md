@@ -37,12 +37,16 @@ suspension
 abuse
 remote-access
 technical-environment
+user-program
+monitoring
+cache
+mailing-lists
+vpn
+notifications
 
 shared-servers
 vps-server
 dedicated-server
-
-
 
 apache
 htaccess
@@ -108,6 +112,12 @@ pip
 luarocks
 luajit
 wkhtmltopdf
+websocket
+git
 
-user-program
+outlook
+thunderbird
+apple-mail
+gmail
+
 
