@@ -119,6 +119,7 @@ wkhtmltopdf
 websocket
 git
 framework
+newrelic
 
 outlook
 thunderbird
