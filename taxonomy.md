@@ -6,13 +6,15 @@ draft: true
 
 # Lists of taxons
 
-emails
-sites
-domains
-analytics
+email
+site
+domain
+analytic
+database
 financial
 billing
 sponsoring
+profile
 ssl
 https
 waf
@@ -21,12 +23,12 @@ ftp
 sftp
 webdav
 http
-backups
-troobleshooting
+backup
+troubleshooting
 security
 2FA
 api
-scheduled-tasks
+scheduled-task
 migration
 dns
 infrastructure
@@ -40,13 +42,15 @@ technical-environment
 user-program
 monitoring
 cache
-mailing-lists
+mailing-list
 vpn
-notifications
+notification
+ban
 
-shared-servers
+shared-server
 vps-server
 dedicated-server
+free-plan
 
 apache
 htaccess
@@ -114,6 +118,7 @@ luajit
 wkhtmltopdf
 websocket
 git
+framework
 
 outlook
 thunderbird
