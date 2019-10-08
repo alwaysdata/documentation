@@ -9,11 +9,11 @@ draft = false
 
 Via the **Advanced > Scheduled tasks** menu of you administration interface, enter commands you want to run, URLs you want to access at regular interval and set the repeat period of these tasks.
 
-Caution :
+CAUTION:
 
 - If the task is scheduled at a certain frequency but the previous task is not completed the current job will be skipped;
 - Tasks are are executed in a minute range. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59;
-- A log report is automatically created and available in the ~/admin/logs/jobs/ directory. It gives the start and stop of the task;
+- A log report is automatically created and available in the _~/admin/logs/jobs/_ directory. It gives the start and stop of the task;
 - For account being on shared servers, the consumption must remain reasonable. If the scheduled task is a heavy treatment the frequency has to be reduced.
 
 > Although it is contraindicated clients with dedicated and VPS serveurs can also use `crontab -e` command. It's two separate systems.

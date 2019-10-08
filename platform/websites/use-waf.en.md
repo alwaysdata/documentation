@@ -1,6 +1,6 @@
 +++
 title = "How To use the Web Application Firewall (WAF)"
-menuTitle = "Use WAF"
+menuTitle = "Use the WAF"
 date = 2019-10-07T15:56:12+02:00
 layout = "howto"
 weight = 10
@@ -32,7 +32,7 @@ To manage the Web Application Firewal, go on the administration interface in **W
 
 Depending on your use case, the **WAF's behavior may be too restrictive**. It also can generate **false positives** during its analysis. If you think its behavior is not right, it is possible to exclude certain rules normally used during the analysis.
 
-Only the **ID of the rules to exclude** have to be specified. You will find it in the Sites logs (~/admin/logs/sites). Example:
+Only the **ID of the rules to exclude** have to be specified. You will find it in the Sites logs (_~/admin/logs/sites_). Example:
 
 <font size="-1">
 

@@ -1,5 +1,5 @@
 +++
-title = "Sftp"
+title = "SFTP"
 date = 2019-09-12T12:29:59+02:00
 weight = 5
 chapter = true
