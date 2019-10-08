@@ -34,11 +34,13 @@ Depending on your use case, the **WAF's behavior may be too restrictive**. It al
 
 Only the **ID of the rules to exclude** have to be specified. You will find it in the Sites logs (~/admin/logs/sites). Example:
 
-```
-[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: "><script>alert(1);</script>
-[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: <script>
-[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: <script>
-```
+<font size="-1">
+
+* [08/Jan/2019:11:09:19 +0100] [waf] - \<attack IP\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: ">\<script\>alert(1);\</script>
+* [08/Jan/2019:11:09:19 +0100] [waf] - \<attack IP\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: \<script\>
+* [08/Jan/2019:11:09:19 +0100] [waf] - \<attack IP\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: \<script\>
+
+</font>
 
 941100, 941110 and 941160 might be indicated.
 
