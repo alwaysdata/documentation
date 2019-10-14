@@ -52,7 +52,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - _SSH users_: install SSH keys to simplify access to the server's different accounts;
 - _Firewall rules_: create firewall rules and check the automatic IP bans;
 - _SMTP configuration_: manage some SMTP parameters and check the email waiting queue;
-- _Database users_: give server's databases global access;
+- _Database users_: give server's databases global accesses;
 - _SSL configuration_: choose SSL certificates to returned globally (*.alwaysdata.net per default);
 - _HTTP configuration_: choose a website which will be the default home;
 - _Usage_: track the disk space consumption on the whole server;

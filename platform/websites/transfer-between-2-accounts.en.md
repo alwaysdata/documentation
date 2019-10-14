@@ -7,9 +7,7 @@ weight = 10
 draft = false
 +++
 
-This article explains how move a website in another alwaysdata account.
-
-You need to have **appropriate permissions** on original et destination accounts to proceed the transfer.
+This article explains how move a website in another alwaysdata account. You need to have **appropriate permissions** on original et destination accounts to proceed the transfer.
 
 To do it, we will use the [SSH access]() rather than FTP which requires to locally repatriate the files to then transfer them to the destination account.
 In our example, we consider following information:
