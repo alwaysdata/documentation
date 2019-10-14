@@ -1,6 +1,6 @@
 +++
-title = "How To restore a website's backup"
-menuTitle = "Restore website's backup"
+title = "How To restore a website from backups"
+menuTitle = "Restore a website"
 date =  2019-09-12T09:45:29+02:00
 layout = "howto"
 weight = 5
