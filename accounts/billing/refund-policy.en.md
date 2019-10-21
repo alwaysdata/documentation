@@ -1,6 +1,6 @@
 +++
-title = "Refund Policy Overview"
-menuTitle = "Refund Policy"
+title = "Refund policy Overview"
+menuTitle = "Refund policy"
 date = 2019-09-12T12:52:37+02:00
 layout = "man"
 weight = 5

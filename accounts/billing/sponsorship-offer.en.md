@@ -11,7 +11,7 @@ The sponsorship system allows you to earn commissions on payments made by your p
 
 ## Recruiting a protégé
 
-- communicate your sponsoring link (Billing > Sponsorship section);
+- communicate your sponsoring link (**Billing > Sponsorship** section);
 - any person signing up to our service thanks to your sponsoring link will benefit a **10% discount** and becomes your protégé (the registration can occur up to 14 days after having clicked on your link).
 
 ## Earning a commission

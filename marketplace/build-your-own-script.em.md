@@ -1,6 +1,6 @@
 +++
-title = "Build Its Own Script Overview"
-menuTitle = "Build Its Own Script"
+title = "Build its own script Overview"
+menuTitle = "Build its own script"
 date = 2019-09-12T09:31:47+02:00
 layout = "man"
 weight = 5
