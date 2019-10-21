@@ -7,6 +7,8 @@ weight = 5
 draft = true
 +++
 
-// Here's a little introduction //
 
-## 
+Free plan aside, each time you change of plan, a prorata refund is automatically done on your prepaid account. It will serves to pay next bills.
+
+
+Any request for refund to a bank account is rejected. 

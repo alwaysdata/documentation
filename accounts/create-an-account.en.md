@@ -4,11 +4,14 @@ menuTitle = "Create an Account"
 date = 2019-09-12T12:38:11+02:00
 layout = "howto"
 weight = 10
-draft = true
+draft = false
 +++
 
-// Here's a little introduction //
+Go in  **Accounts** menu of your client interface. After clicking in **Add account** you will face a form to choose:
 
-## 1. // Step name //
+- its name;
+- the plan taken;
+- the type of billing engagment (monthly or yearly);
+- its localization: shared servers, VPS or dedicated server.
 
-// First step
+If the account is on a VPS or dedicated server, the plan and type aren't meaningful.
