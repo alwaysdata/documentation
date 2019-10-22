@@ -1,6 +1,6 @@
 +++
 title = "Plate-forme"
-weight = 5
+weight = 1
 chapter = true
 pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
