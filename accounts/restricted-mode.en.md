@@ -1,7 +1,6 @@
 +++
 title = "Restricted mode Overview"
 menuTitle = "Restricted mode"
-date = 2019-09-12T12:38:11+02:00
 layout = "man"
 weight = 5
 draft = false

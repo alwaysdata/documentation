@@ -11,7 +11,7 @@ Every user can propose a script written in the *langage of its choice* to allowi
 Scripts includes two parts:
 
 * the **dataset** in YAML format, to configure the website and ask the user needed information for the script (FORM_* variables). It can be divided in three:
-    * **site**: check the [API documentation]() which resumes all possible options.
+    * **site**: check the [API documentation]("API") which resumes all possible options.
     * **database**: mysql, postgresql, mongodb, couchdb, rabbitmq.
     * **form**: all variables asked to the user who create the website. Example: site title, administrator login, email address, administrator lastname/firstname...
 
@@ -41,20 +41,19 @@ Scripts includes two parts:
 |0.0.0.0 or IP|Specific IP for websites using User program, Node.js or Elixir types (prefer 0.0.0.0 to IP)||
 
 
-If other variables are needed, open a support ticket.
+If other variables are needed, open a [support ticket](https://admin.alwaysdata.com/support/add/ "support").
 
 ## Notes and tips
 
 * The script must start with `set -e` to stop when it failed;
 * It's advocated to indicate the **used langage version** (PHP, Python, Ruby, Node.js and Elixir) to avoid to depend of the environment default configuration;
 * The root directory enter by the user (INSTALL_PATH) serves as root for the script (an <font color=red>export HOME=</font> is executed);
-* It is wise to ask a minimal number of informations to avoid to make the script exhaustive. *Users will be able to adjust their application configuration later on.*
+* It is wise to ask a minimal number of informations to avoid to make the script exhaustive. _Users will be able to adjust their application configuration later on._
 * To add a **optional** form field, you need to put the <font color=red>required</font> option to <font color=red>false</font>. If the user indicates nothing the field will remain empty.
 
-
-> To make its script accessible to users of the alwaysdata platform you need to check the box to make it *public*. **Any script tagged as public will be verified by alwaysdata team.**
+> To make its script accessible to users of the alwaysdata platform you need to check the box to make it _public_. **Any script tagged as public will be verified by alwaysdata team.**
 >
-> A *URI source* can be given to facilitate maintenance. In that case, once changes are pushed in the repository you just need to update the application via the button provided for this purpose.
+> A _URI source_ can be given to facilitate maintenance. In that case, once changes are pushed in the repository you just need to update the application via the button provided for this purpose.
 
 
 ## Example - WordPress installation script

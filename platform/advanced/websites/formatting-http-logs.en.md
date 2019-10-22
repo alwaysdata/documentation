@@ -9,7 +9,7 @@ draft = false
 To customize the format of HTTP access logs, you must first choose a name for your customized log file. Enter a name of your choice in the **File name** field in the **Logs** menu of your website.
 This file will be stored in the _~/admin/logs/http/_ directory.
 
-The format of log lines is customizable in the *Format* field. This field accepts strings and a number of variables listed below.
+The format of log lines is customizable in the **Format** field. This field accepts strings and a number of variables listed below.
 The required syntax to see its value in the access log lines is <font color="red">{variable_name}</font>.
 
 The default format is the following:

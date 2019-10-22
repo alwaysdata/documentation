@@ -1,7 +1,6 @@
 +++
 title = "How To access your analytics"
 menuTitle = "Access your Analytics"
-date = 2019-09-12T12:13:28+02:00
 layout = "howto"
 weight = 10
 draft = false
@@ -17,12 +16,12 @@ To manage it, go on the **Web > Analytics** section.
 * Add users and manage their rights in the **Piwik user** menu.
 
 
-> Note that our statistics aren't currently created in real time, there is usually 2/3 days of delay.
+> Our statistics aren't currently created in real time, there is usually 2-3 days of delay.
 
 
 
 ## Troubleshooting
 
-### You are logged in as 'user' but it seems you don't have any permission set in Matomo.
+**You are logged in as 'user' but it seems you don't have any permission set in Matomo.**
 
 The creation of your Matomo user encounters an issue. Contact us by [ticket](https://admin.alwaysdata.com/support/add).

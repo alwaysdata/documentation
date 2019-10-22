@@ -52,7 +52,7 @@ This exclusion type allows to **avoid the analysis of webpages starting by the s
 So to rule out the analysis <font color=grey>_www.mon-site.com/whatever/fooT/_</font>, _whatever_ and _T_ being any character, the path to exclude will be: <font color=red>/\*/foo?/</font>.
 
 Example: let's take the case of a WordPress website which has similar logs as those presented earlier. If these rules are activated in the blog administration interface, it is possible to permanently exclude them.<br>
-However the blog will not be protected against these attempted attacks. In this case, it is wise to exclude the path (example: /wp-admin/*): all operations in the administration interface  won't be affected by the WAF analysis.
+However the blog will not be protected against these attempted attacks. In this case, it is wise to exclude the path (example: /wp-admin/\*): all operations in the administration interface won't be affected by the WAF analysis.
 
 
 ## Exclude IPs

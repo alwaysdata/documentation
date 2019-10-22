@@ -6,53 +6,53 @@ chapter = true
 
 # Permissions
 
-As it is usual to involve several different players in its data hosting, our administration interface allows to give permissions different granular levels.
+Parce que l'hébergement de vos données implique très souvent différents acteurs, notre interface d'administration vous permet d'octroyer des permissions sur différents niveaux de granularité.
 
 - [QuickStart]()
 - [How-Tos]()
 - [Troubleshooting and FAQs]()
 
-## Global permissions
+## Permissions globales
 
-- _Account management_: delegate the account opening to your partners;
-- _[Billing]()_: Allows accounting or administrative departments to receive alert when your account balance is negative or when a ticket regarding billing is opening by our services;
-- _Technical at accounts level_: Allows technical teams to handle the purely technical aspect of your hosting (websites, emails, databases...) without taking care of its management and billing;
-- _Technical at servers level_: Available on VPS and dedicated servers, your network administrator would be able to manage firewall rules, email waiting queue among other things...
+- _Gestion des comptes_ : délègue l'ouverture de comptes à vos associés  ;
+- _[Facturation]()_ : permet aux services comptables ou administratifs de recevoir une alerte lorsque le solde de votre compte est négatif ou lors de l'ouverture d'un ticket concernant la facturation par nos services ;
+- _Technique au niveau des comptes_ : permet aux équipes techniques de gérer l'aspect purement technique de votre hébergement (sites, emails, bases de données..) sans se soucier de sa gestion et facturation ;
+- _Technique au niveau des serveurs_ : disponible sur serveurs dédiés et VPS, votre administrateur réseau pourra gérer règles de firewall, queue d'envoi des emails et bien d'autres...
 
-## Technical permissions
+## Permissions techniques
 
 <div style="text-align: left">
-Whether for the purely technical aspect of your accounts or your servers, your organization imposes a division of technical responsibilities internally between several people or groups of people or between external subcontractors who even need restricted access. You can then define permissions per <b>service</b> and per <b>account</b> or <b>server</b>.
+Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, votre organisation impose un découpage des responsabilités techniques en interne entre plusieurs personnes ou groupes de personnes ou entre sous-traitants externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des permissions par <b>service</b> et par <b>compte</b> ou <b>serveur</b>.
 </div>
 
-### Per account
+### Par compte
 
-- _Technical contact_: alert when our services open a technical ticket regarding the concerned account;
-- _Usage_: track the disk space consumption;
-- _[Statistics]()_: check websites's visits;
-- _[Sites]()_;
-- _[Domains]()_;
-- _[Emails]()_;
-- _[Databases]()_;
-- _[FTP]()_;
-- _[SSH]()_;
-- _[WebDAV]()_;
-- _[Environment]()_: configure programming languages;
-- _[Processes]()_: ongoing HTTP processes that can be analyzed or killed;
-- _IP addresses_: buy dedicated IP addresses for HTTP or SMTP;
-- _[SSL Certificates]()_;
-- _[Migration]()_;
-- _[Scheduled tasks]()_;
-- _[Backups]()_.
+- _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant le compte ;
+- _Consommation_ : suivez la consommation d'espace disque ;
+- _[Statistiques]()_ : analysez les visites de vos sites ;
+- _[Sites]()_ : configurez les sites web et l'environnement Apache ;
+- _[Domaines]()_ ;
+- _[Emails]()_ ;
+- _[Bases de données]()_ ;
+- _[FTP]()_ ;
+- _[SSH]()_ ;
+- _[WebDAV]()_ ;
+- _[Environnement]()_ : configurez les langages de programmation ;
+- _[Processus]()_ : processus HTTP en exécution pouvant être analysés ou tués ;
+- _Adresses IP_ : achetez des IP dédiées pour HTTP ou SMTP ;
+- _[Certificats SSL]()_ ;
+- _[Migration]()_ ;
+- _[Tâches planifiées]()_ ;
+- _[Sauvegardes]()_.
 
-### Per server
+### Par serveur
 
-- _Technical contact_: alert when our services open a technical ticket regarding the server in question;
-- _SSH users_: install SSH keys to simplify access to the server's different accounts;
-- _Firewall rules_: create firewall rules and check the automatic IP bans;
-- _SMTP configuration_: manage some SMTP parameters and check the email waiting queue;
-- _Database users_: give server's databases global accesses;
-- _SSL configuration_: choose SSL certificates to returned globally (*.alwaysdata.net per default);
-- _HTTP configuration_: choose a website which will be the default home;
-- _Usage_: track the disk space consumption on the whole server;
-- _Resources_: change resources's restrictions per account (ex: RAM consumption).
+- _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
+- _Utilisateurs SSH_ : installez des [clés SSH]() pour un accès simplifié aux différents comptes ;
+- _[Règles firewall]()_ : créez des règles firewall et consultez le bannissement automatique d'IP ;
+- _Configuration SMTP_ : gérez la queue d'envoi d'emails, du relais SMTP et score de spam ;
+- _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
+- _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (*.alwaysdata.net par défaut) ;
+- _Configuration HTTP_ : choisissez un site web qui sera la page d'acceuil par défaut ;
+- _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
+- _Ressources_ : modifiez les limitations de ressources par compte (ex : consommation RAM).

@@ -21,7 +21,7 @@ In our example, we consider following information:
 
 ## 1. Files copy
 
-We use the [scp](https://linux.die.net/man/1/scp "scp") command after [log in SSH]() on the **destination** account.
+We use the [scp](https://linux.die.net/man/1/scp) command after [log in SSH]() on the **destination** account.
 
 ```
 bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/

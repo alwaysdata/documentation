@@ -22,7 +22,7 @@ Dans notre exemple, considérons les informations suivantes :
 
 ## 1. Copie des fichiers
 
-Nous utilisons la commande [scp](https://linux.die.net/man/1/scp "scp") après s'être [connecté en SSH]() sur le compte de **destination**.
+Nous utilisons la commande [scp](https://linux.die.net/man/1/scp) après s'être [connecté en SSH]() sur le compte de **destination**.
 
 ```
 bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
