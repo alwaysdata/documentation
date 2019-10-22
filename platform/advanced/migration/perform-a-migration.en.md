@@ -1,7 +1,6 @@
 +++
 title = "How To perform a migration"
 menuTitle = "Perform a migration"
-date = 2019-10-10T14:34:58+02:00
 layout = "howto"
 weight = 10
 draft = false

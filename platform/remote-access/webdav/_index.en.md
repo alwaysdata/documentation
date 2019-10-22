@@ -5,7 +5,7 @@ weight = 5
 chapter = true
 +++
 
-# Webdav
+# WebDAV
 
 // Here's a little introduction //
 

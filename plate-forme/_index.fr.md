@@ -1,11 +1,11 @@
 +++
-title = "Administration"
-date = 2019-09-10T16:28:30+02:00
+title = "Plate-forme"
 weight = 5
 chapter = true
+pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Administration
+# Plate-forme
 
 // Here's a little introduction //
 

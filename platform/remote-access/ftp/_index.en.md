@@ -5,7 +5,7 @@ weight = 5
 chapter = true
 +++
 
-# Ftp
+# FTP
 
 // Here's a little introduction //
 

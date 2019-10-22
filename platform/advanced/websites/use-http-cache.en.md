@@ -1,7 +1,6 @@
 +++
-title = "How To use http cache"
-menuTitle = "Use Http Cache"
-date = 2019-09-12T12:32:46+02:00
+title = "How To use HTTP cache"
+menuTitle = "Use HTTP Cache"
 layout = "howto"
 weight = 10
 draft = true

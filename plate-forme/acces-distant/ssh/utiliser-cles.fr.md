@@ -1,7 +1,7 @@
 +++
-title = "How To customize http logs"
-menuTitle = "Customize Http Logs"
-date = 2019-09-12T12:26:24+02:00
+title = "How To use keys"
+menuTitle = "Use Keys"
+date = 2019-09-12T12:29:42+02:00
 layout = "howto"
 weight = 10
 draft = true

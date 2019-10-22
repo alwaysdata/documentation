@@ -1,6 +1,5 @@
 +++
 title = "Maketplace Troubleshooting — Troubleshooting and FAQs"
-date = 2019-09-12T09:31:23+02:00
 layout = "faq"
 hidden = true
 draft = true

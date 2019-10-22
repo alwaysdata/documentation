@@ -5,7 +5,7 @@ weight = 5
 chapter = true
 +++
 
-# Ssh
+# SSH
 
 // Here's a little introduction //
 

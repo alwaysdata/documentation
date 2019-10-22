@@ -1,7 +1,6 @@
 +++
 title = "Formatting HTTP access logs Overview"
 menuTitle = "Formatting HTTP logs"
-date = 2019-10-08T16:09:25+02:00
 layout = "man"
 weight = 5
 draft = false
