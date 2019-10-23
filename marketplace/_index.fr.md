@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/applithèque"
+title = "Applithèque"
+weight = 3
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
+pre = "<i class='fas fa-store'></i>&nbsp;"
 +++
 
-# Platform
+# Applithèque
 
 // Here's a little introduction //
 

@@ -1,6 +1,6 @@
 +++
 title = "Student Unemployed programm Overview"
-menuTitle = "Student Unemployed programm"
+menuTitle = "Student/Unemployed"
 layout = "man"
 weight = 5
 draft = false

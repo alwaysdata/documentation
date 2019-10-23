@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/domaines/"
+title = "Domaines"
+date = 2019-09-22
+weight = 40
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Domaines
 
 // Here's a little introduction //
 

@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/langages/"
+title = "Langages"
+weight = 20
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Langages
 
 // Here's a little introduction //
 

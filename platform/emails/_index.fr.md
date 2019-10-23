@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/emails/"
+title = "Emails"
+weight = 40
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Emails
 
 // Here's a little introduction //
 

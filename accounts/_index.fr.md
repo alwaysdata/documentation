@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/comptes/support/"
+title = "Comptes & Facturation"
+weight = 5
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
+pre = "<i class='fas fa-user-circle'></i>&nbsp;"
 +++
 
-# Platform
+# Comptes
 
 // Here's a little introduction //
 

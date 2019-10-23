@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/accès/"
+title = "Accès"
+date = 2019-09-22
+weight = 75
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Accéder à votre compte via la Plate-forme
 
 // Here's a little introduction //
 

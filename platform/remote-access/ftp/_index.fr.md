@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/accès-distant/ftp/"
+title = "FTP"
+date = 2019-09-22
+weight = 5
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# FTP
 
 // Here's a little introduction //
 

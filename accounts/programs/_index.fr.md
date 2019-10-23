@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/comptes/programmes/"
+title = "Programmes"
+weight = 5
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Programmes
 
 // Here's a little introduction //
 

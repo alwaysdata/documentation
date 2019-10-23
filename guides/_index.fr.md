@@ -1,4 +1,5 @@
 +++
+url = "/fr/guides/"
 title = "Guides"
 weight = 2
 chapter = true

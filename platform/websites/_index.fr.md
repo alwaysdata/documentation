@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/sites/"
+title = "Sites web"
+weight = 10
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Sites web
 
 // Here's a little introduction //
 

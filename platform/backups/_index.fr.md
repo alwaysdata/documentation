@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/sauvegardes"
+title = "Sauvegardes"
+weight = 60
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# Sauvegardes
 
 // Here's a little introduction //
 

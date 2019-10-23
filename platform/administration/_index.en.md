@@ -1,5 +1,4 @@
 +++
-url = "/en/platform/administration/"
 title = "Platform administration"
 menuTitle = "Administration"
 weight = 70

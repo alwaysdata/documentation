@@ -1,12 +1,12 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/accès-distant/sftp/"
+title = "SFTP"
+date = 2019-09-12T12:29:59+02:00
+weight = 5
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# SFTP
 
 // Here's a little introduction //
 

@@ -1,12 +1,11 @@
 +++
-title = "alwaysdata Platform"
-menuTitle = "Platform"
-weight = 1
+url = "/fr/plate-forme/accès-distant/webDAV/"
+title = "WebDAV"
+weight = 5
 chapter = true
-pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Platform
+# WebDAV
 
 // Here's a little introduction //
 
