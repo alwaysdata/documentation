@@ -1,7 +1,10 @@
 +++
-title = "Administration"
+url = "/fr/plateforme/administration/"
+title = "Administration de la plateforme"
+menuTitle = "Administration"
 weight = 5
 chapter = true
+tags = ["administration"]
 +++
 
 # Administration
