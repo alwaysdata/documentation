@@ -1,7 +1,6 @@
 +++
 title = "How To create an account"
 menuTitle = "Create an account"
-date = 2019-09-12T12:38:11+02:00
 layout = "howto"
 weight = 10
 draft = false

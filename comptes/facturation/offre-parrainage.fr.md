@@ -1,7 +1,6 @@
 +++
 title = "Comment offrir un parrainage"
 menuTitle = "Parrainer"
-date = 2019-09-12T12:52:07+02:00
 layout = "howto"
 weight = 10
 draft = false

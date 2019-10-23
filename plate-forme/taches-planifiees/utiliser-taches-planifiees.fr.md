@@ -5,6 +5,7 @@ date = 2019-10-07
 layout = "howto"
 weight = 10
 draft = false
+tags = ["scheduled-tasks"]
 +++
 
 Via le menu **Avancé > Tâches planifiées** de votre interface d'administration, entrez les commandes que vous souhaitez exécuter, les URL auxquelles vous souhaitez accéder à intervalle régulier et définissez la période de répétition de ses tâches. 

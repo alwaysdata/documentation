@@ -1,7 +1,6 @@
 +++
-title = "Student Unemployed Programm Overview"
-menuTitle = "Student Unmployed Programm"
-date = 2019-09-12T09:25:43+02:00
+title = "Student Unemployed programm Overview"
+menuTitle = "Student Unemployed programm"
 layout = "man"
 weight = 5
 draft = false

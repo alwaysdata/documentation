@@ -2,6 +2,7 @@
 title = "Migration"
 weight = 5
 chapter = true
+tags = ["migration"]
 +++
 
 # Migration

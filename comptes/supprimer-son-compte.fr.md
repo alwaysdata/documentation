@@ -7,8 +7,16 @@ weight = 10
 draft = false
 +++
 
-Vous pouvez supprimer un compte (superman) ou votre profil (superman@exemple.tld propriétaire du compte superman).
+Vous pouvez supprimer un _compte_ (superman) ou votre _profil_ (superman@exemple.tld propriétaire du compte superman).
 
-Pour le premier, allez dans le menu **Comptes** et cliquez sur la poubelle. Cela va supprimer tous les domaines, adresses emails, sites web, fichiers, bases de données (...) liés à ce compte.
+## Supprimer un compte 
 
-Pour le second, allez dans le menu **Profil** et cliquez sur _Supprimer ce profil_. Cela va supprimer tous les comptes attachés et votre historique.
+Allez dans le menu **Comptes** et cliquez sur la _poubelle_ du compte à supprimer.
+
+Cela va supprimer tous les domaines, adresses emails, sites web, fichiers, bases de données (...) liés à ce compte.
+
+## Supprimer son profil
+
+Allez dans le menu **Profil** et cliquez sur _Supprimer ce profil_.
+
+Cela va supprimer tous les comptes attachés et votre historique.

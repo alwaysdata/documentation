@@ -4,29 +4,30 @@ menuTitle = "Utiliser le WAF"
 layout = "howto"
 weight = 10
 draft = false
+tags = ["http", "site", "waf"] 
 +++
 
 Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'administration dans **Web > Sites > Détails du site > WAF**. 
 
 ## Profils disponibles
 
-Profil | Description
-----|----
-Aucun | (par défaut)
-Basique | Respect strict du pro­to­cole
-| HTTP Détection de robots mal­veillants
-Fort | L’ensemble des règles du pro­fil basique
-| Détection d’exécution de code à dis­tance (RCE)
-| Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)
-| Détection d’[injec­tion SQL](https://fr.wikipedia.org/wiki/Injection_SQL)
-Complet | L’ensemble des règles du pro­fil fort
-| Détection d’attaques rela­tives au lan­gage PHP
-| Détection d’attaque par inclu­sion de fichier local (LFI)
-| Détection d’attaque par [inclu­sion de fichier dis­tant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)
-WordPress | L’ensemble des règles du pro­fil com­plet
-| Règles spé­ci­fiques à WordPress
-Drupal | L’ensemble des règles du pro­fil com­plet
-|Règles spé­ci­fiques à Drupal
+|Profil|Description|
+|----|----|
+|Aucun|(par défaut)|
+|Basique|Respect strict du pro­to­cole|
+||HTTP Détection de robots mal­veillants|
+|Fort|L’ensemble des règles du pro­fil basique|
+||Détection d’exécution de code à dis­tance (RCE)|
+||Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)|
+||Détection d’[injec­tion SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
+|Complet|L’ensemble des règles du pro­fil fort|
+||Détection d’attaques rela­tives au lan­gage PHP|
+||Détection d’attaque par inclu­sion de fichier local (LFI)|
+||Détection d’attaque par [inclu­sion de fichier dis­tant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
+|WordPress|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à WordPress|
+|Drupal|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à Drupal|
 
 ## Exclure des règles
 

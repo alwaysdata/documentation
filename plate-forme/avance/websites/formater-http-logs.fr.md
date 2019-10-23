@@ -4,6 +4,7 @@ menuTitle = "Formater les logs HTTP"
 layout = "man"
 weight = 5
 draft = false
+tags = ["http", "site"]
 +++
 
 Afin de personnaliser le format des logs d'accès HTTP, vous devez au préalable choisir un nom pour votre fichier de log personnalisé. Pour cela, renseignez un nom de votre choix dans le champ **Nom de fichier** dans l'onglet **Logs** de votre site.

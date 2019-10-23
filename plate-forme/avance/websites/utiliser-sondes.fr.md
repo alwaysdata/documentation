@@ -4,6 +4,7 @@ menuTitle = "Utiliser les sondes"
 layout = "howto"
 weight = 10
 draft = true
+tags = ["dedicated-server", "site"]
 +++
 
 Pour nos clients qui disposent d'un serveur dédié, il est possible de programmer des sondes de monitoring afin de vérifier qu'un site web fonctionne correctement. Si un problème est constaté par une sonde, une alerte est envoyée à notre équipe.
