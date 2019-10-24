@@ -12,7 +12,7 @@ Tout utilisateur peut proposer un script dans le *langage de son choix* qui perm
 Les scripts se composent de deux parties :
 
 * le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables FORM_*). On peut le diviser en trois :
-    * **site** : voir la [documentation API]("API") qui reprend toutes les options possibles.
+    * **site** : voir la [documentation API]({{< ref "platform/api/references" >}}) qui reprend toutes les options possibles.
     * **database** : mysql, postgresql, mongodb, couchdb, rabbitmq.
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 
@@ -40,7 +40,7 @@ FORM\_\* | Autres variables explicitement demandées à l'utilisateur dans la se
 PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js ou Elixir |
 0.0.0.0 ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js ou Elixir (préférer 0.0.0.0 à IP) |
 
-Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/ "support").
+Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
 
 ### Notes et astuces
 

@@ -1,10 +1,11 @@
 +++
-title = "Firewall"
+url = "/fr/securité/pare-feu/"
+title = "Pare-feu"
 weight = 5
 chapter = true
 +++
 
-# Firewall
+# Pare-feu
 
 // Here's a little introduction //
 

@@ -7,7 +7,7 @@ weight = 10
 draft = false
 +++
 
-Interface Matomo : https://analytics.alwaysdata.com.
+**[Interface Matomo](https://analytics.alwaysdata.com)**
 
 Pour le gérer, allez dans la section **Web > Analytics**.
 

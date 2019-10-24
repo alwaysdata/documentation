@@ -1,7 +1,6 @@
 +++
 title = "How To restore a website from backups"
 menuTitle = "Restore a website"
-date =  2019-09-12T09:45:29+02:00
 layout = "howto"
 weight = 5
 draft = false
@@ -20,7 +19,7 @@ Choose the due date then:
 > Recovery time depends on the size of the files to be restored.
 
 
-## By SSH ##
+## By SSH
 
 If you want to manually restore a backup.
 
@@ -34,14 +33,21 @@ $ rsync -av --delete ~/admin/backup/<date>/files/<directory>/ ~/<directory>/
 WARNING: `--delete` will delete all files from this directory which have been created since the backup date.
 To perform a test add `-n`.
 
-* Restore a MySQL database:
+- Restore a MySQL database:
 
 ```
-$ xzcat ~/admin/backup/<date>/<database_type>/<database_name>.sql.xz | mysql -h mysql-<account_name>.alwaysdata.net -u <user> -p <database_name>
+$ xzcat ~/admin/backup/<date>/mysql/<database_name>.sql.xz | mysql -h mysql-<account_name>.alwaysdata.net -u <user> -p <database_name>
 ```
 
-* Restore a PostgreSQL database:
+- Restore a PostgreSQL database:
 
 ```
-$ xzcat ~/admin/backup/<date>/<database_type>/<database_name>.sql.xz | psql -h postgresql-<account_name>.alwaysdata.net -U <user> -d <database_name>
+$ xzcat ~/admin/backup/<date>/postgresql/<database_name>.sql.xz | psql -h postgresql-<account_name>.alwaysdata.net -U <user> -W -d <database_name>
 ```
+
+- Restore a MongoDB database:
+
+```
+$ xzcat ~/admin/backup/<date>/mongodb/<database_name>.xz | mongorestore -h mongodb-<account_name>.alwaysdata.net -u <user> -p -d <database_name>
+```
+

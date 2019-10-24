@@ -32,7 +32,7 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 This stage is only required if your website is connected to a [database]().
 Beforehand you need to have created the database on the _destination_ account.
 
-For MySQL:
+- MySQL:
 
 ```
 bar@ssh:~$ mysqldump -u foo -p -h mysql-foo.alwaysdata.net foo_base > foo_base.sql
@@ -40,11 +40,19 @@ bar@ssh:~$ mysql -h mysql-bar.alwaysdata.net -u bar -p bar_base < foo_base.sql
 bar@ssh:~$ rm foo_base.sql
 ```
 
-For PostgreSQL:
+- PostgreSQL:
 
 ```
 bar@ssh:~$ pg_dump -U foo -W -h postgresql-foo.alwaysdata.net foo_base > foo_base.sql
 bar@ssh:~$ psql -h postgresql-bar.alwaysdata.net -U bar -W -d bar_base < foo_base.sql
+bar@ssh:~$ rm foo_base.sql
+```
+
+- MongoDB :
+
+```
+bar@ssh:~$ mongoexport -u foo -p -h mongodb-foo.alwaysdata.net foo_base > foo_base.json
+bar@ssh:~$ mongoimport -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.json
 bar@ssh:~$ rm foo_base.sql
 ```
 
