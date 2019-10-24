@@ -5,6 +5,7 @@ menuTitle = "Migrations VPS/dédié"
 layout = "howto"
 weight = 10
 draft = false
+hidden = true
 tags = ["dedicated server", "migration", "vps server"]
 +++
 

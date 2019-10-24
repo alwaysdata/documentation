@@ -3,8 +3,8 @@ url = "/fr/plate-forme/avancé/sites/utiliser-les-sondes-de-monitoring/"
 title = "Comment utiliser les sondes de monitoring"
 menuTitle = "Utiliser les sondes"
 layout = "howto"
-weight = 10
-draft = true
+weight = 40
+draft = false
 tags = ["dedicated server", "site"]
 +++
 

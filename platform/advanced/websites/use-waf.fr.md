@@ -3,8 +3,9 @@ url = "/fr/plate-forme/avancé/sites/utiliser-le-pare-feu-applicatif_waf/"
 title = "Comment utiliser le Pare-feu applicatif web (WAF)"
 menuTitle = "Utiliser le WAF"
 layout = "howto"
-weight = 10
+weight = 20
 draft = false
+hidden = true
 tags = ["http", "site", "waf"] 
 +++
 
@@ -29,6 +30,9 @@ Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'adm
 ||Règles spé­ci­fiques à WordPress|
 |Drupal|L’ensemble des règles du pro­fil com­plet|
 ||Règles spé­ci­fiques à Drupal|
+
+> L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une légère aug­men­ta­tion de la latence lors du trai­te­ment d’une requête HTTP. Cette latence, de l’ordre de quelques mil­li­se­condes, aug­mente avec le degré de pro­tec­tion.
+
 
 ## Exclure des règles
 
@@ -63,3 +67,6 @@ Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'a
 Il peut être intéressant d'exclure des **IP sûres** pour éviter à des outils ou des personnes d'être bloqués. 
 
 Prenons l'exemple de [WPScan](https://wpscan.org/) : en l'activant sur un site WordPress certaines des requêtes qu'il effectue peuvent être bloquées. Exclure des règles ou des chemins ne serait pas efficace comme il observe de nombreuses URLs. La solution est donc d'exclure le serveur HTTP sur lequel est installé WPScan pour qu'il puisse fonctionner normalement.
+
+
+

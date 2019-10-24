@@ -2,8 +2,9 @@
 title = "How To use the Web Application Firewall (WAF)"
 menuTitle = "Use the WAF"
 layout = "howto"
-weight = 10
+weight = 20
 draft = false
+hidden = true
 +++
 
 To manage the Web Application Firewal, go on the administration interface in **Web > Sites > site details > WAF** menu. 

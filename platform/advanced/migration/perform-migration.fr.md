@@ -6,6 +6,7 @@ layout = "howto"
 weight = 10
 draft = false
 tags = ["migration"]
+hidden = true
 +++
 
 Chaque migration amène des changements qui peuvent provoquer des incompatibilités avec vos applications. C'est pourquoi nous vous conseillons la plus grande vigilance lorsque vous effectuez une migration, d'autant qu'il n'est pas possible de revenir en arrière.

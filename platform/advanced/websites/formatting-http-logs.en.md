@@ -2,7 +2,7 @@
 title = "Formatting HTTP access logs Overview"
 menuTitle = "Formatting HTTP logs"
 layout = "man"
-weight = 5
+weight = 10
 draft = false
 +++
 

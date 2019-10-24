@@ -4,6 +4,7 @@ menuTitle = "Perform a migration"
 layout = "howto"
 weight = 10
 draft = false
+hidden = true
 +++
 
 Each migration results in changes that may cause incompatibilities with your applications. For this reason, we advise you to be especially careful when performing a migration, all the more since it is not possible to go back.
