@@ -5,6 +5,7 @@ menuTitle = "Utiliser des tâches planifiées"
 layout = "howto"
 weight = 10
 draft = false
+hidden = true
 tags = ["scheduled tasks"]
 +++
 

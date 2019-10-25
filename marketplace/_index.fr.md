@@ -3,15 +3,16 @@ url = "/fr/applithèque"
 title = "Applithèque"
 weight = 3
 chapter = true
+layout = "readme"
 pre = "<i class='fas fa-store'></i>&nbsp;"
 +++
 
 # Applithèque
 
-// Here's a little introduction //
+Déployez facilement et rapidement des applications ou frameworks dans votre espace utilisateur.
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
+![Alt text](/en/marketplace/administration-panel_1click_applications_FR.jpeg "Interface d'administration : accès à l'installation en 1-clic")
 
-## // Section //
+Les applications sont mises en place avec une confi­gu­ra­tion sécu­ri­sée standard. Libre à vous de modi­fier, mettre à jour, ou per­son­na­li­ser votre ins­tal­la­tion par la suite.
+
+- [Créer un script d'installation applicatif]({{< ref "marketplace/build-application-script" >}})

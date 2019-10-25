@@ -4,10 +4,15 @@ title = "Créer son propre script d'application"
 menuTitle = "Créer son propre script"
 layout = "man"
 weight = 5
+hidden = true
 draft = false
 +++
 
 Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.
+
+
+![Alt text](/en/marketplace/administration-interface_create-script_FR.png "Interface d'administration : ajouter un nouveau script")
+
 
 Les scripts se composent de deux parties :
 
@@ -17,6 +22,7 @@ Les scripts se composent de deux parties :
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 
 * le **script** en lui-même
+
 
 ## Variables d’environnement
 
@@ -41,6 +47,7 @@ PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js ou
 0.0.0.0 ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js ou Elixir (préférer 0.0.0.0 à IP) |
 
 Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
+
 
 ### Notes et astuces
 
