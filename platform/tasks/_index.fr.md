@@ -3,7 +3,6 @@ url = "/fr/plate-forme/tâches-planifiées/"
 title = "Tâches planifiées"
 weight = 55
 chapter = true
-layout = "readme"
 tags = ["scheduled tasks"]
 +++
 
@@ -19,9 +18,9 @@ Deux types d’in­for­ma­tions sont à fournir à four­nir :
 - La (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter ;
 - La pério­di­ci­té de votre tâche : vous pou­vez spé­ci­fiez une heure fixe, ou un inter­valle.
 
-![Alt text](/en/platform/tasks/administration-panel_create-task_FR.png "Interface d’ad­mi­nis­tra­tion : créer une tâche pla­ni­fiée")
+![Interface d’ad­mi­nis­tra­tion : créer une tâche pla­ni­fiée](/en/platform/tasks/administration-panel_create-task_FR.png)
 
 
 - [Utiliser les tâches planifiées]({{< ref "platform/tasks/use-scheduled-tasks" >}})
-- [Référence API]({{< ref "platform/api/references/job" >}})
+- [Référence API](https://api.alwaysdata.com/v1/job/doc/)
 - [Troubleshooting and FAQs]()

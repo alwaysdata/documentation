@@ -9,7 +9,12 @@ draft = false
 
 Cet article explique comment transférer un domaine _et_ ses adresses emails sur un autre compte alwaysdata.
 
-Dans le menu **Domaines** du compte initial choisissez l'action **Céder à un autre compte** et suivez les étapes.
+1. Dans le menu **Domaines** du compte initial ;
+
+2. Choisissez l'action **Céder à un autre compte** ;
+![Interface d'administration : déplacement de domaine - étape 1](/en/platform/domains/admin-panel_domain-move_fr.png)
+3. Et suivez les étapes.
+![Interface d'administration : déplacement de domaine - étape 2](/en/platform/domains/admin_panel_domain-move-2_fr.png)
 
 > Seul le _propriétaire du compte_ peut initier la cession mais, contrairement à la cession de site, il n'a pas besoin de permissions sur le compte de destination.
 

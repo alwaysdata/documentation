@@ -3,14 +3,11 @@ url = "/fr/plate-forme/statistiques/"
 title = "Statistiques"
 weight = 50
 chapter = true
-layout = readme
 +++
 
 # Statistiques
 
 À partir des logs bruts HTTP (_~/admin/logs/http) nous générons des statistiques [Matomo](https://fr.matomo.org/).
-
-Du fait de la différente méthode de com
 
 - [Interface Matomo](https://analytics.alwaysdata.com)
 - [Comment accéder à ses statistiques]({{< ref "platform/analytics/access-your-analytics" >}})

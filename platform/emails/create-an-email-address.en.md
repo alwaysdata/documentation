@@ -1,7 +1,6 @@
 +++
 title = "How To create an email address"
-menuTitle = "Create an Email Address"
-date = 2019-09-12T12:18:32+02:00
+menuTitle = "Create an email address"
 layout = "howto"
 weight = 10
 draft = true

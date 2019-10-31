@@ -2,7 +2,6 @@
 title = "Migration"
 weight = 50
 chapter = true
-layout= "readme"
 +++
 
 # Migration

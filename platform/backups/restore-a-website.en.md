@@ -8,11 +8,11 @@ draft = false
 
 The backups of your files and databases are located in the _~/admin/backup_ directory of your account.  You can restore them via the **Advanced > Backup recovery** menu.
 
-Choose the due date then:
+1. Choose the due date;
+![Admin panel: backup recovery - step 1](/en/platform/backups/admin_panel_restoration1_en.png)
 
-- check the database(s);
-- and/or the directory(ies) desired.
-
+2. Then check the database(s) and/or the directory(ies) desired.
+![Admin panel: backup recovery - step 2](/en/platform/backups/admin_panel_restoration2-site_en.png)
 
 > The recovery overwrites the current configuration, so manually make a backup.
 >
@@ -23,7 +23,7 @@ Choose the due date then:
 
 If you want to manually restore a backup.
 
-- Connect to your [SSH]() account;
+- Connect to your [SSH]({{< ref "platform/remote-access/ssh" >}}) account;
 - Restore files:
 
 ```

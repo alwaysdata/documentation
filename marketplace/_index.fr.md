@@ -3,7 +3,6 @@ url = "/fr/applithèque"
 title = "Applithèque"
 weight = 3
 chapter = true
-layout = "readme"
 pre = "<i class='fas fa-store'></i>&nbsp;"
 +++
 
@@ -11,7 +10,7 @@ pre = "<i class='fas fa-store'></i>&nbsp;"
 
 Déployez facilement et rapidement des applications ou frameworks dans votre espace utilisateur.
 
-![Alt text](/en/marketplace/administration-panel_1click_applications_FR.jpeg "Interface d'administration : accès à l'installation en 1-clic")
+![Interface d'administration : accès à l'installation en 1-clic](/en/marketplace/administration-panel_1click_applications_FR.jpeg)
 
 Les applications sont mises en place avec une confi­gu­ra­tion sécu­ri­sée standard. Libre à vous de modi­fier, mettre à jour, ou per­son­na­li­ser votre ins­tal­la­tion par la suite.
 

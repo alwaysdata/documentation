@@ -5,16 +5,19 @@ menuTitle = "Ajouter un enregistrement DNS"
 layout = "howto"
 weight = 10
 draft = false
+tags = ["dns", "domaine"]
 +++
 
-Dans cet exemple, nous considérerons que notre domaine se nomme *domaine.tld*.
-
 1. Allez dans **Domaines > Details de domaine.tld (roue crantée) > enregistrements DNS** ;
+![Interface d'administration : liste des enregistrements DNS](/en/platform/domains/admin-panel_dns-record-list_fr.png)
 2. Choisissez **Ajouter un enregistrement DNS** ;
 3. Renseignez le formulaire.
+![Interface d'administration : ajouter un enregistrement DNS](/en/platform/domains/admin_panel_add-record_fr.png)
 
 > Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour _www.domaine.tld.domaine.tld_.
 
+- [Ajouter un enregistrement SRV]({{< ref "platform/domains/add-srv-record" >}})
+- [Utiliser des MX externes]({{< ref "platform/domains/use-external-mx" >}})
 
 ## Liens
 

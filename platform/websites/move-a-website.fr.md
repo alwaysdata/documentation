@@ -64,5 +64,12 @@ bar@ssh:~$ rm foo_base.sql
 ## 3. Déplacement des adresses
 
 Reste à déplacer les adresses joignant le site et leur certificat auto-généré.
-Rendez-vous dans la section **Web > Sites** du compte d'origine, choisissez l'action **Céder à un autre compte** et suivez les étapes.
+1. Rendez-vous dans la section **Web > Sites** du compte d'origine ;
+
+2. Choisissez l'action **Céder à un autre compte** ;
+![Interface d'administration : déplacement de site - étape 1](/en/platform/websites/admin-panel_move-website1_fr.png)
+3. Et suivez les étapes.
+![Interface d'administration : déplacement de site - étape 2](/en/platform/websites/admin-panel_move-website2_fr.png)
+
+> Pour le déplacer dans un autre de _ses_ comptes il n'y a qu'à indiquer sa propre adresse email.
 

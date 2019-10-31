@@ -3,7 +3,6 @@ url = "/fr/plate-forme/avancé/migration/"
 title = "Migration"
 weight = 20
 chapter = true
-layout= "readme"
 tags = ["migration"]
 +++
 

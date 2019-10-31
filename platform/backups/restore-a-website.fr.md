@@ -9,10 +9,11 @@ draft = false
 
 Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire _~/admin/backup_ de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
 
-Choisissez la date voulue puis cochez :
+1. Choisissez la date voulue ;
+![Interface d'administration : restauration de sauvegarde - étape 1](/en/platform/backups/admin_panel_restoration1_fr.png)
 
-- la/les base(s) de données ;
-- et/ou le/les répertoire(s) voulu(s).
+2. Puis cochez la/les base(s) de données et/ou le/les répertoire(s) voulu(s).
+![Interface d'administration : restauration de sauvegarde - étape 2](/en/platform/backups/admin_panel_restoration2-site_fr.png)
 
 
 > La restauration va écraser la configuration actuelle, effectuez donc auparavant une sauvegarde.
@@ -24,7 +25,7 @@ Choisissez la date voulue puis cochez :
 
 Si vous souhaitez restaurer une sauvegarde manuellement.
 
-- Connectez-vous à votre compte [en SSH]() ;
+- Connectez-vous à votre compte [en SSH]({{< ref "platform/remote-access/ssh" >}}) ;
 - Restaurer des fichiers :
 
 ```

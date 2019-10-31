@@ -9,7 +9,12 @@ draft = false
 
 This article explains how to transfer a domain _and_ its associated malboxes to another alwaysdata account.
 
-In the **Domains** section of the original account, choose the **Transfer to another account** action and follow steps.
+1. In the **Domains** section of the original account;
+
+2. Choose the **Transfer to another account** action;
+![Admin interface: Domain move - step 1](/en/platform/domains/admin-panel_domain-move_en.png)
+3. And follow steps.
+![Admin interface: Domain move - step 2](/en/platform/domains/admin_panel_domain-move-2_en.png)
 
 > Only the _account owner_ can initiate the transfer but, unlike the website transfer, it does not need permissions on the destination account.
 

@@ -9,7 +9,11 @@ draft = false
 
 Les sauvegardes de vos emails se trouvent dans le répertoire _~/admin/backup_ de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
 
-Choisissez la date voulue puis cochez la/les boîte(s) email(s).
+1. Choisissez la date voulue ;
+![Interface d'administration : restauration de sauvegarde - étape 1](/en/platform/backups/admin_panel_restoration1_fr.png)
+
+2. Puis cochez la/les boîte(s) email(s).
+![Interface d'administration : restauration de sauvegarde - étape 2](/en/platform/backups/admin_panel_restoration2-email_fr.png)
 
 > Le temps de restauration dépend de la taille des fichiers à restaurer.
 
@@ -18,7 +22,7 @@ Choisissez la date voulue puis cochez la/les boîte(s) email(s).
 
 Si vous souhaitez restaurer une sauvegarde manuellement.
 
-- Connectez-vous à votre compte [en SSH]() ;
+- Connectez-vous à votre compte [en SSH]({{< ref "platform/remote-access/ssh" >}}) ;
 - Restaurer des emails :
 
 ```

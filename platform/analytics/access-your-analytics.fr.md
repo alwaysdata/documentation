@@ -8,9 +8,7 @@ draft = false
 hidden = true
 +++
 
-**[Interface Matomo](https://analytics.alwaysdata.com)**
-
-Pour le gérer, allez dans la section **Web > Analytics**.
+Rendez-vous dans la section **Web > Analytics**.
 
 
 ## Segmenter les sites
@@ -25,3 +23,6 @@ Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segment
 
 Pour ajouter des utilisateurs et gérer leurs droits, rendez-vous dans le menu **Utilisateurs Piwik**.
 
+----
+
+* [Interface Matomo](https://analytics.alwaysdata.com)

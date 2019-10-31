@@ -25,5 +25,5 @@ Il n'est donc pas possible d'ajouter des tages Javascript. Tournez-vous sur l'in
 
 ## Différences de vues avec mes statistiques Google Analytics
 
-C'est lié à la différence de méthode de comptage (Javascript pour Google Analytics, logs ser­veurs pour notre Matomo)
+C'est lié à la différence de méthode de comptage (Javascript pour Google Analytics, logs ser­veurs pour notre Matomo).
 

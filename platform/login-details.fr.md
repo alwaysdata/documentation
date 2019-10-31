@@ -8,9 +8,9 @@ draft = false
 +++
 
 
-> Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non .com comme les autres domaines d'alwaysdata.
->
-> Chaque fois que vous rencontrez la forme *-[compte].alwaysdata.net, vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.
+Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non .com comme les autres domaines d'alwaysdata.
+
+Chaque fois que vous rencontrez la forme *-[compte].alwaysdata.net, vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.
 
 
 
@@ -19,8 +19,9 @@ draft = false
 |**Générique**||
 |DNS|Primaire : dns1.alwaysdata.com|
 ||Secondaire : dns2.alwaysdata.com|
-|MX|Primaire : mx1.alwaysdata.com|
-||Secondaire : mx2.alwaysdata.com|
+|MX|Primaire : mx1.alwaysdata.com (TTL : 10)|
+||Secondaire : mx2.alwaysdata.com (TTL : 20)|
+||si serveur VPS/dédié : [serveur].alwaysdata.net (TTL : 5)|
 |**Bases de données**||
 |MySQL|Hôte : mysql-[compte].alwaysdata.net|
 ||Port : 3306|
@@ -30,7 +31,7 @@ draft = false
 ||Interface d'administration : [phppgAdmin](https://phppgadmin.alwaysdata.com)|
 |MongoDB|Hôte : mongodb-[compte].alwaysdata.net|
 ||Port : 27017|
-||Connexion : mongodb://user:pwd@mongodb-[compte].alwaysdata.net/bd|
+||Connexion : mongodb://utilisateur:mdp@mongodb-[compte].alwaysdata.net/bdd|
 |CouchDB|Hôte : couchdb-[compte].alwaysdata.net|
 ||Port : 5984|
 |**Emails**||
@@ -51,4 +52,4 @@ draft = false
 |WebDAV|Hôte : webdav-[compte].alwaysdata.net|
 ||Port : 80|
 |**Statistiques web**|
-||Interface d'administration : [Matomo](https://analytics.alwaysdata.com)|
+|Interface d'administration|[Matomo](https://analytics.alwaysdata.com)|
