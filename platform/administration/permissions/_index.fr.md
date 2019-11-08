@@ -22,9 +22,7 @@ Parce que l'hébergement de vos données implique très souvent différents acte
 
 ## Permissions techniques
 
-<div style="text-align: left">
-Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, votre organisation impose un découpage des responsabilités techniques en interne entre plusieurs personnes ou groupes de personnes ou entre sous-traitants externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des permissions par <b>service</b> et par <b>compte</b> ou <b>serveur</b>.
-</div>
+Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, votre organisation impose un découpage des responsabilités techniques en interne entre plusieurs personnes ou groupes de personnes ou entre sous-traitants externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des permissions par **service** et par **compte** ou **serveur**.
 
 ### Par compte
 

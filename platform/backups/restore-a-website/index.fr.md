@@ -30,7 +30,7 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
 - Restaurez des fichiers :
 
 ```
-$ rsync -av --delete ~/admin/backup/<date>/files/<répertoire>/ ~/<répertoire>/
+$ rsync -av --delete ~/admin/backup/[date]/files/[répertoire]/ ~/[répertoire]/
 ```
 
 {{% notice warning %}}
@@ -41,17 +41,17 @@ Pour effectuer un test ajoutez `-n`.
 - Restaurer une base de données MySQL :
 
 ```
-$ xzcat ~/admin/backup/<date>/mysql/<base>.sql.xz | mysql -h mysql-<compte>.alwaysdata.net -u <utilisateur> -p <base>
+$ xzcat ~/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
 ```
 
 - Restaurer une base de données PostgreSQL :
 
 ```
-$ xzcat ~/admin/backup/<date>/postgresql/<base>.sql.xz | psql -h postgresql-<compte>.alwaysdata.net -U <utilisateur> -W -d <base>
+$ xzcat ~/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
 ```
 
 - Restaurer une base de données MongoDB :
 
 ```
-$ xzcat ~/admin/backup/<date>/mongodb/<base>.xz | mongorestore -h mongodb-<compte>.alwaysdata.net -u <utilisateur> -p -d <base>
+$ xzcat ~/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[compte].alwaysdata.net -u [utilisateur] -p -d [base]
 ```

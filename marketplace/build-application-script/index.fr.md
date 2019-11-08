@@ -15,7 +15,7 @@ Tout utilisateur peut proposer un script dans le *langage de son choix* qui perm
 Les scripts se composent de deux parties :
 
 * le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en trois :
-    * **site** : voir la [documentation API]({{< ref "platform/api/references" >}}) qui reprend toutes les options possibles.
+    * **site** : voir la [documentation API]({{< ref "platform/api" >}}) qui reprend toutes les options possibles.
     * **database** : mysql, postgresql, mongodb, couchdb, rabbitmq.
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même
@@ -50,9 +50,9 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 
 * Le script doit commencer par `set -e` pour le stopper lorsqu’il échoue ;
 * Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
-* Le répertoire racine indiqué par l'utilisateur (INSTALL_PATH) sert de racine pour le script (un <font color=red>export HOME=</font> est exécuté par défaut) ;
+* Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
-* pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option <font color=red>required</font> à <font color=red>false</font>. Si l'utilisateur n'indique rien le champ restera vide.
+* pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide.
 
 >Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public sera à minima vérifié par l’équipe d’alwaysdata.**
 >

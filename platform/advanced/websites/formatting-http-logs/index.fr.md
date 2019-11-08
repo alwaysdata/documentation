@@ -11,7 +11,7 @@ Afin de personnaliser le format des logs d'accès HTTP, vous devez au préalable
 Ce fichier sera stocké dans le répertoire _~/admin/logs/http/_.
 
 La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
-La syntaxe à respecter est <font color="red">{nom_de_variable}</font> pour voir apparaître sa valeur dans les lignes de logs d'accès.
+La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur dans les lignes de logs d'accès.
 
 Le format par défaut est le suivant :
 

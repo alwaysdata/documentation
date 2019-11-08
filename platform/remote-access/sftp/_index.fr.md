@@ -12,19 +12,17 @@ Le protocole SFTP (pour [SSH File Transfer Protocol](https://fr.wikipedia.org/wi
 
 ## Comment se connecter via le protocole SFTP
 
-<div style="text-align: left">
-Dans <b>Accès distant > SSH</b> autorisez la <i>connexion par mot de passe</i> à votre utilisateur SSH.<br>
-Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte <i>test</i> et du client FTP <a href=https://filezilla-project.org/>FileZilla</a> :
-<ul>
-<li> utilisateur : test</li>
-<li> mot de passe</li>
-<li> nom d'hôte : ssh-test.alwaysdata.net</li>
-<li> port : 22</li>
-</ul>
-</div>
+Dans **Accès distant > SSH** autorisez la *connexion par mot de passe* à votre utilisateur SSH.
 
-![Interface FileZilla : connexion SFTP](/en/platform/remote-access/sftp/filezilla_sftp-connection_fr.png)
+Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte *test* et du client FTP [FileZilla](https://filezilla-project.org/) :
 
+* utilisateur : test
+* mot de passe
+* nom d'hôte : ssh-test.alwaysdata.net
+* port : 22
 
+{{< fig "filezilla_sftp-connection.fr.png" "Interface FileZilla : connexion SFTP" >}}
 
-> Il ne doit pas être confondu avec le protocole [FTPS] ({{< ref "platform/remote-access/ftp" >}}) : transfert FTP sécurisé par les protocoles SSL ou TLS.
+{{% notice info %}}
+Il ne doit pas être confondu avec le protocole [FTPS] ({{< ref "platform/remote-access/ftp" >}}) : transfert FTP sécurisé par les protocoles SSL ou TLS.
+{{% /notice %}}
