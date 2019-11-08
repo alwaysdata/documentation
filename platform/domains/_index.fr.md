@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/"
+url = "/fr/plateforme/domaines/"
 title = "Domaines"
 date = 2019-09-22
 weight = 40

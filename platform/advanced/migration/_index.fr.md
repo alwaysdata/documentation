@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/avancé/migration/"
+url = "/fr/plateforme/avancé/migration/"
 title = "Migration"
 weight = 20
 chapter = true

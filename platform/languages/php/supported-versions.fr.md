@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/php/versions/"
+url = "/fr/plateforme/langages/php/versions/"
 title = "Supported Versions Overview"
 menuTitle = "Supported Versions"
 date = 2019-09-12T12:27:04+02:00

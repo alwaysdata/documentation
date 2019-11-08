@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/tâches-planifiées/"
+url = "/fr/plateforme/tâches-planifiées/"
 title = "Tâches planifiées"
 weight = 55
 chapter = true

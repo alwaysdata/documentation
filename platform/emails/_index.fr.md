@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/emails/"
+url = "/fr/plateforme/emails/"
 title = "Emails"
 weight = 40
 chapter = true

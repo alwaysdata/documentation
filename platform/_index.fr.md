@@ -1,13 +1,13 @@
 +++
-url = "/fr/plate-forme/"
-title = "La plate-forme alwaysdata"
-menuTitle = "Plate-forme"
+url = "/fr/plateforme/"
+title = "La plateforme alwaysdata"
+menuTitle = "Plateforme"
 weight = 1
 chapter = true
 pre = "<i class='fas fa-server'></i>&nbsp;"
 +++
 
-# Plate-forme
+# Plateforme
 
 // Here's a little introduction //
 

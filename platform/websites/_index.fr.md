@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/sites/"
+url = "/fr/plateforme/sites/"
 title = "Sites web"
 weight = 10
 chapter = true

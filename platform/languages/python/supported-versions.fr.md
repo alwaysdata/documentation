@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/python/versions/"
+url = "/fr/plateforme/langages/python/versions/"
 title = "Supported Versions Overview"
 menuTitle = "Supported Versions"
 date = 2019-09-12T12:27:24+02:00

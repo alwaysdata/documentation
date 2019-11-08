@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/statistiques/accéder-aux-statistiques/"
+url = "/fr/plateforme/statistiques/accéder-aux-statistiques/"
 title = "Comment accéder à ses statistiques de visite"
 menuTitle = "Accéder à ses statistiques"
 layout = "howto"

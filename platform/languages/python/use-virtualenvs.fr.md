@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/python/utiliser-virtualenv/"
+url = "/fr/plateforme/langages/python/utiliser-virtualenv/"
 title = "How To use virtualenvs"
 menuTitle = "Use Virtualenvs"
 date = 2019-09-12T12:34:48+02:00

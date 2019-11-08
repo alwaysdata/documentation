@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/login-details/"
+url = "/fr/plateforme/login-details/"
 title = "Informations de connexion"
 menuTitle = "Informations de connexions"
 layout = "faq"

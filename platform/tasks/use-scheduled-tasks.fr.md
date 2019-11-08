@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/tâches-planifiées/utiliser-les-tâches-planifiées/"
+url = "/fr/plateforme/tâches-planifiées/utiliser-les-tâches-planifiées/"
 title = "Comment utiliser des tâches planifiées"
 menuTitle = "Utiliser des tâches planifiées"
 layout = "howto"

@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/accès-distant/ftp/"
+url = "/fr/plateforme/accès-distant/ftp/"
 title = "FTP"
 date = 2019-09-22
 weight = 5

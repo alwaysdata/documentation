@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/accès-distant/ssh/"
+url = "/fr/plateforme/accès-distant/ssh/"
 title = "SSH"
 date = 2019-09-22
 weight = 5

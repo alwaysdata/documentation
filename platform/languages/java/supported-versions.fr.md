@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/java/versions/"
+url = "/fr/plateforme/langages/java/versions/"
 title = "Supported Versions Overview"
 menuTitle = "Supported Versions"
 date = 2019-09-12T12:38:41+02:00

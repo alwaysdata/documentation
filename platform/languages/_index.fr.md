@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/"
+url = "/fr/plateforme/langages/"
 title = "Langages"
 weight = 20
 chapter = true

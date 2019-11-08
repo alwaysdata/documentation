@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/administration/permissions/"
+url = "/fr/plateforme/administration/permissions/"
 title = "Permissions"
 weight = 5
 chapter = true

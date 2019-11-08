@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/accès-distant/sftp/"
+url = "/fr/plateforme/accès-distant/sftp/"
 title = "SFTP"
 date = 2019-09-12T12:29:59+02:00
 weight = 5

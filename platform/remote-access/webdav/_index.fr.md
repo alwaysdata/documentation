@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/accès-distant/webDAV/"
+url = "/fr/plateforme/accès-distant/webDAV/"
 title = "WebDAV"
 weight = 5
 chapter = true

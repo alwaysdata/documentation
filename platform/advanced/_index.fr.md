@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/avancé/"
+url = "/fr/plateforme/avancé/"
 title = "Avancé"
 weight = 99
 chapter = true

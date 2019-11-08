@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/ruby/versions/"
+url = "/fr/plateforme/langages/ruby/versions/"
 title = "Supported Versions Overview"
 menuTitle = "Supported Versions"
 date = 2019-09-12T12:27:18+02:00
