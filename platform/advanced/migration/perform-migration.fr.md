@@ -30,4 +30,6 @@ Vous pourrez alors vous connecter au serveur temporaire, dont l'adresse sera ind
 
 Une fois que vous avez testé la migration et que vous vous êtes assuré que tout fonctionne correctement, vous pourrez réellement exécuter la migration. Durant la migration, votre compte pourra être indisponible pendant une très courte durée (quelques secondes voire minutes, selon le volume de données de votre compte). _Vous n'avez pas besoin d'arrêter vos sites ou vos bases de données : nous nous occupons de tout_.
 
-> Attention : une fois la migration effectuée, il ne sera pas possible de revenir en arrière.
+{{% notice warning %}}
+Attention : une fois la migration effectuée, il ne sera pas possible de revenir en arrière.
+{{% /notice %}}

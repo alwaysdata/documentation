@@ -17,41 +17,47 @@ Attention :
 - Un log est automatiquement créé et disponible dans le répertoire *~/admin/logs/jobs/*. Il vous donne le démarrage et l'arrêt de la tâche.
 - Pour les comptes étant sur les serveurs mutualisés, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
-> Même si c'est contre-indiqué, les clients en serveurs dédiés et VPS peuvent aussi utiliser la commande ```crontab -e```. Les deux systèmes sont distincts.
-
+{{% notice note %}}
+Même si c'est contre-indiqué, les clients en serveurs dédiés et VPS peuvent aussi utiliser la commande ```crontab -e```. Les deux systèmes sont distincts.
+{{% /notice %}}
 
 ## Exemples
 
-- Lancement, toutes les dix minutes, de l'outil [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) pour exécuter leurs tâches planifiées
+### Wordpress
 
-> Interface d'administration alwaysdata
->
->> valeur : ```php $HOME/wordpress/htdocs/wp cron event run --due-now```
->>
->> fréquence : deuxième choix - Toutes les 10 minutes
->
-> Syntaxe crontab
->
->> ```*/10 * * * * php $HOME/wordpress/htdocs/wp cron event run --due-now```
+Lancement, toutes les dix minutes, de l'outil [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) pour exécuter leurs tâches planifiées :
 
+Interface d'administration alwaysdata :
 
+- _valeur_ : `php $HOME/wordpress/htdocs/wp cron event run --due-now`
+- _fréquence_ : deuxième choix - Toutes les 10 minutes
 
-- [Rafraîchissement d'un backend RSS](https://git.tt-rss.org/fox/tt-rss/wiki/UpdatingFeeds#periodical-updating-from-crontab-using-update-script-updatephp---feeds) avec TT-rss, tous les jours à 10:30
+Syntaxe crontab équivalente :
 
-> Interface d'administration alwaysdata
->
->> valeur : ```php $HOME/tt-rss/update.php --feeds --quiet```
->>
->> fréquence : premier choix - Tous les jours à 10:30
->
-> Syntaxe crontab
->
->> ```30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet```
+```
+*/10 * * * * php $HOME/wordpress/htdocs/wp cron event run --due-now
+```
+
+### tt-rss
+
+[Rafraîchissement d'un backend RSS](https://git.tt-rss.org/fox/tt-rss/wiki/UpdatingFeeds#periodical-updating-from-crontab-using-update-script-updatephp---feeds) avec TT-rss, tous les jours à 10:30 :
+
+Interface d'administration alwaysdata :
+
+- _valeur_ : `php $HOME/tt-rss/update.php --feeds --quiet`
+- _fréquence_ : premier choix - Tous les jours à 10:30
+
+Syntaxe crontab équivalente :
+
+```
+30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
+```
 
 
 ## Liens
 
 * En savoir plus sur la [syntaxe du crontab](https://fr.wikipedia.org/wiki/Crontab)
 
----
+{{% notice note %}}
 Les raccourcis en **@** - exemples _@hourly_ ou _@reboot_ - ne sont pas acceptés (syntaxe non-normalisée).
+{{% /notice %}}

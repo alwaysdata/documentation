@@ -9,7 +9,6 @@ hidden = true
 
 Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.
 
-
 {{< fig "images/create-script.fr.png" "Créer un script d'application" >}}
 
 Les scripts se composent de deux parties :
@@ -54,10 +53,13 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
 * pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide.
 
->Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public sera à minima vérifié par l’équipe d’alwaysdata.**
->
->Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
+{{% notice note %}}
+Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public sera à minima vérifié par l’équipe d’alwaysdata.**
+{{% /notice %}}
 
+{{% notice tip %}}
+Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
+{{% /notice %}}
 
 ## Exemple - script d’installation WordPress
 
