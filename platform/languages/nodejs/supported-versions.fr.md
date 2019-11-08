@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/nodejs/versions/"
+url = "/fr/plateforme/langages/nodejs/versions/"
 title = "Supported Versions Overview"
 menuTitle = "Supported Versions"
 date = 2019-09-12T12:27:29+02:00

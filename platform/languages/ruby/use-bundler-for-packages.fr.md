@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/ruby/utiliser-bundler/"
+url = "/fr/plateforme/langages/ruby/utiliser-bundler/"
 title = "How To use bundler for packages"
 menuTitle = "Use Bundler for Packages"
 date = 2019-09-12T12:34:37+02:00

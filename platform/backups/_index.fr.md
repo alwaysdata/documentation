@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/sauvegardes"
+url = "/fr/plateforme/sauvegardes"
 title = "Sauvegardes"
 weight = 60
 chapter = true

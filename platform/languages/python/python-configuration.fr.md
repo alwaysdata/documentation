@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/python/configuration/"
+url = "/fr/plateforme/langages/python/configuration/"
 title = "Python Configuration Overview"
 menuTitle = "Python Configuration"
 date = 2019-09-12T12:34:10+02:00

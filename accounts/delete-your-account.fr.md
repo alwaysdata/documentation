@@ -4,7 +4,6 @@ title = "Comment supprimer un compte"
 menuTitle = "Supprimer un compte"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Vous pouvez supprimer un _compte_ (superman) ou votre _profil_ (superman@exemple.tld propriétaire du compte superman).

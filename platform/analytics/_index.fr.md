@@ -1,17 +1,14 @@
 +++
-url = "/fr/plate-forme/statistiques/"
+url = "/fr/plateforme/statistiques/"
 title = "Statistiques"
-date = 2019-09-22
 weight = 50
 chapter = true
 +++
 
 # Statistiques
 
-// Here's a little introduction //
+À partir des logs bruts HTTP (_$HOME/admin/logs/http_) nous générons des statistiques [Matomo](https://fr.matomo.org/).
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## // Section //
+- [Interface Matomo](https://analytics.alwaysdata.com)
+- [Comment accéder à ses statistiques]({{< ref "platform/analytics/access-your-analytics" >}})
+- [Assistance Matomo]({{< ref "platform/analytics/troubleshooting-matomo" >}})

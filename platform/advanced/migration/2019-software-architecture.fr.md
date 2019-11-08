@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/avancé/migration/architecture-logicielle-2019/"
+url = "/fr/plateforme/avancé/migration/architecture-logicielle-2019/"
 title = "Architecture Logicielle 2019"
 menuTitle = "Architecture Logicielle 2019"
 layout = "man"

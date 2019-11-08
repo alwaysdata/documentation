@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/ruby/configuration/"
+url = "/fr/plateforme/langages/ruby/configuration/"
 title = "Ruby Configuration Overview"
 menuTitle = "Ruby Configuration"
 date = 2019-09-12T12:34:01+02:00

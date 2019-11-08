@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/php/installer-une-extension-pecl/"
+url = "/fr/plateforme/langages/php/installer-une-extension-pecl/"
 title = "How To install pecl extensions"
 menuTitle = "Install Pecl Extensions"
 date = 2019-09-12T12:31:24+02:00

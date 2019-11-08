@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/php/configuration/"
+url = "/fr/plateforme/langages/php/configuration/"
 title = "Php Configuration Overview"
 menuTitle = "Php Configuration"
 date = 2019-09-12T12:33:52+02:00

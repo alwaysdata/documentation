@@ -4,7 +4,6 @@ title = "Comment offrir un parrainage"
 menuTitle = "Parrainer"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Le système de parrainage vous permet de toucher des commissions sur les paiements effectués par vos filleuls.

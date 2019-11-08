@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/nodejs/utiliser-yarn/"
+url = "/fr/plateforme/langages/nodejs/utiliser-yarn/"
 title = "How To use yarn for packages"
 menuTitle = "Use Yarn for Packages"
 date = 2019-09-12T12:35:08+02:00

@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/administration/permissions/"
+url = "/fr/plateforme/administration/permissions/"
 title = "Permissions"
 weight = 5
 chapter = true
@@ -22,29 +22,27 @@ Parce que l'hébergement de vos données implique très souvent différents acte
 
 ## Permissions techniques
 
-<div style="text-align: left">
-Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, votre organisation impose un découpage des responsabilités techniques en interne entre plusieurs personnes ou groupes de personnes ou entre sous-traitants externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des permissions par <b>service</b> et par <b>compte</b> ou <b>serveur</b>.
-</div>
+Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, votre organisation impose un découpage des responsabilités techniques en interne entre plusieurs personnes ou groupes de personnes ou entre sous-traitants externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des permissions par **service** et par **compte** ou **serveur**.
 
 ### Par compte
 
 - _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant le compte ;
 - _Consommation_ : suivez la consommation d'espace disque ;
-- _[Statistiques]()_ : analysez les visites de vos sites ;
-- _[Sites]()_ : configurez les sites web et l'environnement Apache ;
-- _[Domaines]()_ ;
-- _[Emails]()_ ;
+- _[Statistiques]({{< ref "platform/analytics" >}})_ : analysez les visites de vos sites ;
+- _[Sites]({{< ref "platform/websites" >}})_ : configurez les sites web et l'environnement Apache ;
+- _[Domaines]({{< ref "platform/domains" >}})_ ;
+- _[Emails]({{< ref "platform/emails" >}})_ ;
 - _[Bases de données]()_ ;
-- _[FTP]()_ ;
-- _[SSH]()_ ;
-- _[WebDAV]()_ ;
+- _[FTP]({{< ref "platform/remote-access/ftp" >}})_ ;
+- _[SSH]({{< ref "platform/remote-access/ssh" >}})_ ;
+- _[WebDAV]({{< ref "platform/remote-access/webdav" >}})_ ;
 - _[Environnement]()_ : configurez les langages de programmation ;
 - _[Processus]()_ : processus HTTP en exécution pouvant être analysés ou tués ;
 - _Adresses IP_ : achetez des IP dédiées pour HTTP ou SMTP ;
-- _[Certificats SSL]()_ ;
-- _[Migration]()_ ;
-- _[Tâches planifiées]()_ ;
-- _[Sauvegardes]()_.
+- _[Certificats SSL]({{< ref "security/certificates" >}})_ ;
+- _[Migration]({{< ref "platform/advanced/migration" >}})_ ;
+- _[Tâches planifiées]({{< ref "platform/tasks" >}})_ ;
+- _[Sauvegardes]({{< ref "platform/backups" >}})_.
 
 ### Par serveur
 

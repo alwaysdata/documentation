@@ -4,7 +4,6 @@ title = "Comment créer un compte"
 menuTitle = "Créer un compte"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Allez dans le menu **Comptes** de votre interface client. Après avoir cliqué sur **Ouvrir un nouveau compte** vous trouverez un formulaire pour choisir :

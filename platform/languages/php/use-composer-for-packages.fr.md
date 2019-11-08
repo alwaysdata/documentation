@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/php/utiliser-composer/"
+url = "/fr/plateforme/langages/php/utiliser-composer/"
 title = "How To use composer for packages"
 menuTitle = "Use Composer for Packages"
 date = 2019-09-12T12:35:21+02:00

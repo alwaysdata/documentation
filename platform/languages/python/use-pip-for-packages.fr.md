@@ -1,5 +1,5 @@
 +++
-url = "/fr/plate-forme/langages/python/utiliser-pip/"
+url = "/fr/plateforme/langages/python/utiliser-pip/"
 title = "How To use pip for packages"
 menuTitle = "Use Pip for Packages"
 date = 2019-09-12T12:34:27+02:00
