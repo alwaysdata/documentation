@@ -3,7 +3,6 @@ title = "How To use the Web Application Firewall (WAF)"
 menuTitle = "Use the WAF"
 layout = "howto"
 weight = 20
-draft = false
 hidden = true
 +++
 

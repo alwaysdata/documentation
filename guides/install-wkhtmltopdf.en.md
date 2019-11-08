@@ -4,7 +4,6 @@ menuTitle = "Install wkhtmltopdf"
 date = 2019-09-12T12:32:06+02:00
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 [wkhtmltopdf](https://wkhtmltopdf.org/) gives two command line tools to render HTML into PDF and image formats.

@@ -3,7 +3,6 @@ title = "How To delete your account"
 menuTitle = "Delete your account"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 You can delete an _account_ (superman) or your _profile_ (superman@example.tld owner of the superman account).

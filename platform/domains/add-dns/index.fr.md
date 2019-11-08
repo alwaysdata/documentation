@@ -4,7 +4,6 @@ title = "Comment ajouter un enregistrement DNS"
 menuTitle = "Ajouter un enregistrement DNS"
 layout = "howto"
 weight = 10
-draft = false
 tags = ["dns", "domaine"]
 +++
 

@@ -4,7 +4,6 @@ title = "Statistiques Matomo : Assitance"
 menuTitle = "Assistance Matomo"
 layout = "faq"
 weight = 10
-draft = false
 hidden = true
 +++
 

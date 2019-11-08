@@ -4,7 +4,6 @@ title = "Comment déplacer un site web"
 menuTitle = "Déplacer un site web"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata. Vous devez avoir les **permissions nécessaires** sur le compte d'origine et celui de destination pour pouvoir procéder au transfert.

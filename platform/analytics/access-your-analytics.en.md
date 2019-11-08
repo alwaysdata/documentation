@@ -3,7 +3,6 @@ title = "How To access your analytics"
 menuTitle = "Access your Analytics"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Matomo interface: https://analytics.alwaysdata.com.

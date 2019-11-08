@@ -3,7 +3,6 @@ title = "Restricted mode Overview"
 menuTitle = "Restricted mode"
 layout = "man"
 weight = 5
-draft = false
 +++
 
 We always wanted to offer a free and full-featured service for users that need a low consumption profile. This way we're allowed to give to our upcoming users an unlimited testing platform. We never regret it, but this offer comes with some disadvantages, starting with malicious users that try to abuse the service.

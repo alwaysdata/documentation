@@ -4,7 +4,6 @@ title = "Comment acheter un domaine"
 menuTitle = "Acheter un domaine"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine**.

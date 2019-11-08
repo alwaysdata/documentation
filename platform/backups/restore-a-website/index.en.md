@@ -3,7 +3,6 @@ title = "How To restore a website from backups"
 menuTitle = "Restore a website"
 layout = "howto"
 weight = 5
-draft = false
 +++
 
 The backups of your files and databases are located in the _~/admin/backup_ directory of your account.  You can restore them via the **Advanced > Backup recovery** menu.

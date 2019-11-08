@@ -3,7 +3,6 @@ title = "How To restore emails"
 menuTitle = "Restore emails"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 

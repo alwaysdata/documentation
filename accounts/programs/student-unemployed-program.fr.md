@@ -5,7 +5,6 @@ menuTitle = "Étudiants / Sans emploi"
 date = 2019-09-12T09:25:43+02:00
 layout = "man"
 weight = 5
-draft = false
 +++
 
 Une **réduction de 50 %** sur nos [PaaS mutualisés](https://www.alwaysdata.com/fr/tarifs/#shared) est offerte aux étudiantes et personnes sans emploi. Pour en bénéficier :

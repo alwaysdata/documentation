@@ -3,7 +3,6 @@ title = "Accounts — Troubleshooting and FAQs"
 date = 2019-09-10T16:31:07+02:00
 layout = "faq"
 hidden = true
-draft = false
 +++
 
 // Here's your presentation content about the main topic //

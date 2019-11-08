@@ -4,7 +4,6 @@ title = "Comment utiliser les sondes de monitoring"
 menuTitle = "Utiliser les sondes"
 layout = "howto"
 weight = 40
-draft = false
 tags = ["dedicated server", "site"]
 +++
 

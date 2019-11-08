@@ -3,7 +3,6 @@ url = "/fr/plateforme/avancé/sites/cache-http/"
 title = "Cache HTTP"
 menuTitle = "Cache HTTP"
 weight = 5
-draft = false
 +++
 
 Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : pages HTML, docu­ments CSS, images) pour dimi­nuer la latence induite par le ser­veur lors­qu’il doit ser­vir une page et/ou réduire sa charge de tra­vail.

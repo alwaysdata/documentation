@@ -4,7 +4,6 @@ menuTitle = "Move a domain"
 date = 2019-10-14T16:29:57+02:00
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 This article explains how to transfer a domain _and_ its associated malboxes to another alwaysdata account.

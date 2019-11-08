@@ -4,7 +4,6 @@ title = "Comment utiliser le Pare-feu applicatif web (WAF)"
 menuTitle = "Utiliser le WAF"
 layout = "howto"
 weight = 20
-draft = false
 hidden = true
 tags = ["http", "site", "waf"] 
 +++

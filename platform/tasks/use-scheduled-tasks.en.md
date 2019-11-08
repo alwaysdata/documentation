@@ -4,7 +4,6 @@ menuTitle = "Use scheduled tasks"
 date = 2019-10-07
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Via the **Advanced > Scheduled tasks** menu of you administration interface, enter commands you want to run, URLs you want to access at regular interval and set the repeat period of these tasks.

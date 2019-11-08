@@ -4,7 +4,6 @@ title = "Comment restaurer un site web"
 menuTitle = "Restaurer un site"
 layout = "howto"
 weight = 5
-draft = false
 +++
 
 Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire _$HOME/admin/backup_ de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.

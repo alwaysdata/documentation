@@ -4,7 +4,6 @@ menuTitle = "Add SRV Records"
 date = 2019-10-14T17:10:59+02:00
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 +++
 

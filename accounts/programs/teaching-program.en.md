@@ -3,7 +3,6 @@ title = "Teaching programm Overview"
 menuTitle = "Teaching programm"
 layout = "man"
 weight = 5
-draft = false
 +++
 
 This program gives teachers a place to host their students's projects.

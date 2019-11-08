@@ -3,7 +3,6 @@ title = "How To perform a migration"
 menuTitle = "Perform a migration"
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 +++
 

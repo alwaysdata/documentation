@@ -3,7 +3,6 @@ title = "How To create an account"
 menuTitle = "Create an account"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Go in  **Accounts** menu of your client interface. After clicking in **Add account** you will face a form to choose:

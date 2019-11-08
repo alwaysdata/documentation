@@ -4,7 +4,6 @@ title = "Comment configurer Thunderbird"
 menuTitle = "Thunderbird"
 layout = "howto"
 weight = 70
-draft = false
 tags = ["email", "thunderbird"]
 hidden = true
 +++

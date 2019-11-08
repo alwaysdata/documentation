@@ -4,7 +4,6 @@ menuTitle = "Install New Relic"
 date = 2019-09-12T12:32:14+02:00
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 [New Relic](https://newrelic.com/products/application-monitoring) monitors apps and helps to optimize them. It offers agents for several languages and we will present here the steps to install the PHP agent.

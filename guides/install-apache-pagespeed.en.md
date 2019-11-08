@@ -4,7 +4,6 @@ menuTitle = "Install Apache PageSpeed"
 date = 2019-09-12T12:37:04+02:00
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 [PageSpeed](https://www.modpagespeed.com/) automatically optimize your website by changing the resources on that web page to implement web performance [best practices](https://developers.google.com/speed/docs/best-practices/rules_intro). Tu use it Apache **mod_pagespeed** must be installed on the account. As of our infrastructure particularities, their installation script is not usable on our servers, so here are steps to follow:

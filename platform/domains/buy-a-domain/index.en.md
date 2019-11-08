@@ -3,7 +3,6 @@ title = "How To buy a domain"
 menuTitle = "Buy a domain"
 weight = 5
 layout = "howto"
-draft = false
 +++
 
 In your administration interface, go in **Domains > Add a domain**.

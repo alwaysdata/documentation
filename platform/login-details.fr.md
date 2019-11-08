@@ -4,7 +4,6 @@ title = "Informations de connexion"
 menuTitle = "Informations de connexions"
 layout = "faq"
 weight = 10
-draft = false
 +++
 
 

@@ -3,7 +3,6 @@ title = "Student Unemployed programm Overview"
 menuTitle = "Student/Unemployed"
 layout = "man"
 weight = 5
-draft = false
 +++
 
 A **50% discount** on [shared PaaS](https://www.alwaysdata.com/en/pricing/#shared) is offered to students and unemployed people. To benefit:

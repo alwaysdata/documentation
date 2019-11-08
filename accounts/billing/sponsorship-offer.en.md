@@ -4,7 +4,6 @@ menuTitle = "Sponsorship offer"
 date = 2019-09-12T12:52:07+02:00
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 The sponsorship system allows you to earn commissions on payments made by your protégés.

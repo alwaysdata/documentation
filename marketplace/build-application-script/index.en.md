@@ -3,7 +3,6 @@ title = "Build its own script Overview"
 menuTitle = "Build its own script"
 layout = "man"
 weight = 5
-draft = false
 +++
 
 Every user can propose a script written in the *langage of its choice* to allowing to users to install its application. This script will be executed with the *rights of the account on which the installation takes place* and must start with a comment in YAML format.

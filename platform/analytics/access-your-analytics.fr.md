@@ -4,7 +4,6 @@ title = "Comment accéder à ses statistiques de visite"
 menuTitle = "Accéder à ses statistiques"
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 +++
 

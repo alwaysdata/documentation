@@ -3,7 +3,6 @@ title = "Formatting HTTP access logs Overview"
 menuTitle = "Formatting HTTP logs"
 layout = "man"
 weight = 10
-draft = false
 +++
 
 To customize the format of HTTP access logs, you must first choose a name for your customized log file. Enter a name of your choice in the **File name** field in the **Logs** menu of your website.

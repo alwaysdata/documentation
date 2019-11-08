@@ -4,7 +4,6 @@ menuTitle = "Use HTTP Cache"
 layout = "howto"
 hidden = true
 weight = 10
-draft = false
 +++
 
 // Here's a little introduction //

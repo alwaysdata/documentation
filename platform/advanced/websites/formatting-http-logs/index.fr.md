@@ -4,7 +4,6 @@ title = "Formater les logs HTTP"
 menuTitle = "Formater les logs HTTP"
 layout = "man"
 weight = 10
-draft = false
 tags = ["http", "site"]
 +++
 

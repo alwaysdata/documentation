@@ -5,7 +5,6 @@ menuTitle = "Créer son propre script"
 layout = "man"
 weight = 5
 hidden = true
-draft = false
 +++
 
 Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.

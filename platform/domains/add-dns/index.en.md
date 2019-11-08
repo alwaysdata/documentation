@@ -3,7 +3,6 @@ title = "How To add a DNS record"
 menuTitle = "Add a DNS record"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 In this example, we will consider our domain name is *domain.tld*.

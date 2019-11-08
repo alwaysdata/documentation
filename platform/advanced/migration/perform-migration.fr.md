@@ -4,7 +4,6 @@ title = "Comment effectuer une migration"
 menuTitle = "Effectuer une migration"
 layout = "howto"
 weight = 10
-draft = false
 tags = ["migration"]
 hidden = true
 +++

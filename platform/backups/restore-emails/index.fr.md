@@ -4,7 +4,6 @@ title = "Comment restaurer des emails"
 menuTitle = "Restaurer des emails"
 layout = "howto"
 weight = 10
-draft = false
 +++
 
 Les sauvegardes de vos emails se trouvent dans le répertoire _~/admin/backup_ de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.

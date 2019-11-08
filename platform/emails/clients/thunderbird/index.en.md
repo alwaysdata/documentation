@@ -3,7 +3,6 @@ title = "How To configure Thunderbird"
 menuTitle = "Thunderbird"
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 tags = ["e-mail", "thunderbird"]
 +++

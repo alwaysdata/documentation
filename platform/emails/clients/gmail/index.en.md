@@ -3,7 +3,6 @@ title = "How To configure Gmail"
 menuTitle = "Gmail"
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 tags = ["e-mail", "gmail"]
 +++

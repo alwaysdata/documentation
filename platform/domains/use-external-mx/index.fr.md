@@ -4,7 +4,6 @@ title = "Comment utiliser un serveur mail externe"
 menuTitle = "Utiliser des MX externes"
 layout = "howto"
 weight = 10
-draft = false
 hidden = true
 tags = ["dns", "domaine", "email"]
 +++
