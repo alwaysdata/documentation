@@ -23,7 +23,7 @@ $ hugo new navigation/to/my-page.md
 
 The path leads to the navigation structure (see [Update the content](#update-the-content) above).
 
-#### i18n
+### i18n
 
 Please keep in mind that:
 
@@ -38,7 +38,7 @@ $ hugo new path/to/page.en.md
 $ hugo new path/to/page.fr.md
 ```
 
-**/!\** Pay attention: all localized versions of a given page **must** have the same filename and must be in the same folder. You **only** have to update the extension to use the correct ISO locale (e.g. here above the extension `.en.md` becomes `.fr.md` for the french version).
+⚠ Pay attention: all localized versions of a given page **must** have the same filename and must be in the same folder. You **only** have to update the extension to use the correct ISO locale (e.g. here above the extension `.en.md` becomes `.fr.md` for the french version).
 
 If you write a page that is _not_ in english, you should add a `url` entry in the front headers to fill the localized page url.
 
