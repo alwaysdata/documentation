@@ -8,20 +8,11 @@ If you want to run the documentation project locally, take a look at the [main r
 
 ### Update the content
 
-Pages of documentation are located in the `content` directory. The folder tree represent the naviagation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
-
-If you run the `hugo serve` command, then the preview is hot-reloaded when you save your changes.
+Pages of documentation are located in the `content` directory. The [folder tree](#files-organization) represent the navigation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
 
 ### Adding new pages
 
-If you need to add new pages, you can rely on the dedicated hugo command:
-
-```sh
-$ cd my_sources_dir/aldocs
-$ hugo new navigation/to/my-page.md
-```
-
-The path leads to the navigation structure (see [Update the content](#update-the-content) above).
+When adding new pages, please take care of the [folder tree](#files-organization) to stay consistent with the overall documents architecture.
 
 ### i18n
 
