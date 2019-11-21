@@ -1,5 +1,5 @@
 +++
-url = "/fr/platforme/emails/utiliser-une-adresse-email/"
+url = "/fr/plateforme/emails/utiliser-une-adresse-email/"
 title = "Comment consulter une adresse email"
 menuTitle = "Consulter une adresse email"
 layout = "howto"
@@ -7,10 +7,7 @@ weight = 10
 tags = ["email"]
 +++
 
-
 Il est possible de consulter vos emails de plusieurs manières. Voici les 2 les plus courantes.
-
-## Rappel des informations de connexion
 
 ## Client email
 
@@ -36,10 +33,10 @@ L'authentification est **nécessaire** pour utiliser notre serveur SMTP, renseig
 
 Il peut arriver que votre fournisseur d'accès bloque le port _25_ destiné à l'envoi de vos emails. Dans ce cas, vous pouvez modifier le port en faveur du _587_ ou utiliser le serveur SMTP de votre fournisseur.
 
-<!--* [Configurer Apple mail]()-->
+* [Configurer Apple/iOS]({{< ref "platform/emails/clients/apple-ios" >}})
 * [Configurer Gmail]({{< ref "platform/emails/clients/gmail" >}})
 * [Configurer Mozilla Thunderbird]({{< ref "platform/emails/clients/thunderbird" >}})
-<!--* [Configurer Outlook]()-->
+* [Configurer Outlook]({{< ref "platform/emails/clients/outlook" >}})
 
 ## Webmail
 
@@ -55,4 +52,4 @@ Par défaut, le webmail est en anglais. Pour changer de langue, cliquez sur **Se
 
 - Les mails sont sauvegardés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
 - Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des tentatives régulières de renvoi ;
-- La taille limite des emails envoyés est fixée à* *50 Mo**.
+- La taille limite des emails envoyés est fixée à **50 Mo**.
