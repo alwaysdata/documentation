@@ -23,3 +23,4 @@ Laissez l'authentification par mot de passe.
 ## iOS (iPhone, iPad) : application Mail
 
 Rendez-vous dans **Réglages > Mots de passes et comptes > Ajouter un compte > Autre > Ajouter un compte mail**.
+{{< fig "images/mail_ipad.fr.png" "Mail sur mobile" >}}
