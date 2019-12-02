@@ -1,14 +1,16 @@
 +++
-url = "/fr/plateforme/sites/déplacer-un-site-web/"
+url = "/fr/plateforme/sites/déplacer-un-site/"
 title = "Comment déplacer un site web"
-menuTitle = "Déplacer un site web"
+menuTitle = "Déplacer un site"
 layout = "howto"
-weight = 10
+weight = 50
+hidden = true
+tags = ["site"]
 +++
 
 Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata. Vous devez avoir les **permissions nécessaires** sur le compte d'origine et celui de destination pour pouvoir procéder au transfert.
 
-Pour ce faire, nous utiliserons l'[accès SSH]() plutôt que FTP qui nécessite de rapatrier les fichiers localement pour ensuite les transférer sur le compte de destination.
+Pour ce faire, nous utiliserons l'[accès SSH]({{< ref "platform/remote-access/ssh" >}}) plutôt que FTP qui nécessite de rapatrier les fichiers localement pour ensuite les transférer sur le compte de destination.
 
 Dans notre exemple, considérons les informations suivantes :
 
@@ -63,7 +65,7 @@ Modifiez le fichier de configuration du site copié précédemment pour qu'il po
  
 ## 3. Déplacement des adresses
 
-Reste à déplacer les adresses joignant le site et leur certificat auto-généré.
+Reste à déplacer les adresses joignant le site et leur certificat SSL auto-généré.
 
 1. Rendez-vous dans la section **Web > Sites** du compte d'origine ;
 2. Choisissez l'action **Céder à un autre compte** ;
