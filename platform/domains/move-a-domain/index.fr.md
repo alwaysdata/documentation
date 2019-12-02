@@ -4,6 +4,8 @@ title = "Comment déplacer un domaine"
 menuTitle = "Déplacer un domaine"
 layout = "howto"
 weight = 10
+hidden = true
+tags = ["domaine", "email"]
 +++
 
 Cet article explique comment transférer un domaine _et_ ses adresses emails sur un autre compte alwaysdata.

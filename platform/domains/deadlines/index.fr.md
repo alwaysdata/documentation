@@ -1,0 +1,352 @@
++++
+url = "/fr/plateforme/domaines/dates-limites/"
+title = "Dates limites de renouvellement"
+menuTitle = "Dates limites"
+layout = "man"
+weight = 80
+hidden = true
+tags = ["domaine"]
++++
+
+Différentes dates existent :
+
+- Renouvellement : process _normal_ pour ajouter une ou plusieurs années à la date d’expiration actuelle du domaine.
+- Renouvellement tardif : délai optionnel proposé par le registre vous permettant de renouveler le domaine après sa date d’expiration.
+- Effacement chez alwaysdata : date à laquelle le domaine n'est plus être géré chez alwaysdata mais peut optionnellement être restauré auprès du registre. Contactez notre [support](https://admin.alwaysdata.com/support/add/).
+- Restauration possible : le domaine est en _rédemption_ ; il peut être restaurer auprès du registre, mais sa facturation est _plus chère_ par le registre.
+- Destruction au registre : date à partir de laquelle le domaine peut _redevenir disponible_ à l’enregistrement. Certains registres ajoute une période aléatoire à cette date avant la destruction du domaine afin de permettre l’application de la règle "premier arrivé, premier servi".
+
+| Extension    | Renouvellement possible           |	Renouvellement tardif possible    | Effacement chez alwaysdata | Restauration possible                            | Destruction par le registre                                       |
+| ------------ | --------------------------------- | --------------------------------- | -------------------------- | ------------------------------------------------ | ----------------------------------------------------------------- |
+| .academy	   | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .accountants | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .actor       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .aero        | Jusqu’à expiration                | Jusqu’à expiration                | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .af          | Jusqu’à 1 jour avant expiration   | Impossible                        | 1 jour avant expiration    | Entre 1 jour avant et 27 jours après expiration  | 27 jours après expiration                                         |
+| .ag          | Jusqu’à expiration                | Jusqu’à 44 jours après expiration | 44 jours après expiration  | Entre 44 et 74 jours après expiration            | 79 jours après expiration                                         |
+| .agency      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .alsace      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .am          | Jusqu’à 2 jours avant expiration  | Impossible                        | 2 jours avant expiration   | Entre 2 jours avant et 26 jours après expiration | 26 jours après expiration                                         |
+| .app         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .archi       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .art         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .band        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bar         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration	           | 80 jours après expiration                                         |
+| .bargains    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bayern      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .be          | Jusqu’à expiration                | Impossible                        | Jour de l’expiration       | Jusqu’à 40 jours après expiration                | 40 jours après expiration                                         |
+| .beer        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .best        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bid         | Jusqu’à expiration	               | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bike        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bio         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .biz         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .black       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .blue        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .boutique    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .brussels    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .build       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .builders    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .business    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .buzz        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bz          | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .bzh         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .ca          | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .cab         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .camera      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .camp        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .capetown    | Jusqu’à expiration                | Jusqu’à 10 jours après expiration | 10 jours après expiration  | Entre 10 et 30 jours après expiration            | 30 jours après expiration                                         |
+| .capital     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cards       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .care        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .careers     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .casa        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cash        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cat         | Jusqu’à expiration                | Jusqu’à 44 jours après expiration | 44 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .catering    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cc          | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 30 et 60 jours après expiration            | 65 jours après expiration                                         |
+| .center      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .ceo         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .ch          | Jusqu’à expiration                | Jusqu’à 9 jours après expiration  | 9 jours après expiration   | Entre 9 et 49 jours après expiration             | 49 jours après expiration                                         |
+| .cheap       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .church      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .city        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .claims      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cleaning    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .click       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 225 jours après expiration           | 230 jours après expiration                                        |
+| .clinic      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .clothing    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .club        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .cm          | Jusqu’à 1 jour avant expiration   | Impossible                        | 1 jour avant expiration    | Impossible                                       | 1 jour avant expiration                                           |
+| .co          | Jusqu’à expiration                | Jusqu’à 30 jours après expiration | 30 jours après expiration  | Entre 30 et 45 jours après expiration            | 50 jours après expiration                                         |
+| .coach       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .codes       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .coffee      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .co.uk       | Entre 180 jours avant et 30 jours après expiration | Entre 30 et 90 jours après expiration | 90 jours après expiration | Impossible                   | 92 jours après expiration                                         |
+| .dance       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .dating      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .de          | Jusqu’à expiration                | Impossible             | Jour de l’expiration | Contactez le [support](https://admin.alwaysdata.com/support/add/) | Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .deals       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .degree      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .delivery    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .democrat    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .dental      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .dentist     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .design      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .dev         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .diamonds    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .diet        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 225 jours après expiration           | 230 jours après expiration                                        |
+| .digital     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .direct      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .directory   | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .dk          | Jusqu’à 25 jours avant expiration | Impossible                        | 25 jours avant expiration  | Impossible                                       | 25 jours avant expiration                                         |
+| .domains     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .durban      | Jusqu’à expiration                | Jusqu’à 10 jours après expiration | 10 jours après expiration  | Entre 10 et 30 jours après expiration            | 30 jours après expiration                                         |
+| .education   | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .email       | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .energy      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .engineering | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .enterprises | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .equipment   | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .es          | Jusqu’à 6 jours avant expiration  | Impossible                        | 6 jours avant expiration   | Entre 6 jours avant et 4 jours après expiration  | 4 jours après expiration                                          |
+| .estate      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .eu          | Jusqu’à expiration                | Impossible                        | Jour de l’expiration       | Jusqu’à 40 jours après expiration                | 40 jours après expiration                                         |
+| .eus         | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .events      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .exchange    | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .expert      | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .exposed     | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .fail        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .farm        | Jusqu’à expiration                | Jusqu’à 45 jours après expiration | 45 jours après expiration  | Entre 45 et 75 jours après expiration            | 80 jours après expiration                                         |
+| .fashion | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .finance | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .financial | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .fish | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .fit | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .flights | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .florist | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .fm | Jusqu’à expiration | Jusqu’à 44 jours après expiration | 44 jours après expiration | Entre 44 jours et 79 jours après expiration | 84 jours après expiration |
+| .forsale | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .foundation | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .fr | Jusqu’à expiration | Jusqu’à 28 jours après expiration | 28 jours après expiration | Entre 28 et 58 jours après expiration | 58 jours après expiration |
+| .fund | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .gallery | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .garden	| Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .gd | Jusqu’à 1 jour avant expiration | Impossible | 1 jour avant expiration | Jusqu’à 30 jours après expiration | 35 jours après expiration |
+| .gent	| Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .gift |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration | Entre 45 et 225 jours après expiration | 230 jours après expiration |
+| .gifts |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .gives | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .gl	| Jusqu’à expiration	| Impossible | Jour de l’expiration	| Jusqu’à 30 jours après expiration | 30 jours après expiration |
+| .glass |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .global |	Jusqu’à expiration | Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .gr | Jusqu’à 1 jour avant expiration	| Impossible | 1 jour avant expiration | Entre 1 jour avant et 14 jours après expiration | 14 jours après expiration |
+| .graphics |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .gratis	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .green	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .gripe	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .gs       | Jusqu’à 1 jour avant expiration	| Impossible | 1 jour avant expiration	| Entre 1 jour avant et 27 jours après expiration	| 27 jours après expiration |
+| .guide    | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .guitars | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 225 jours après expiration | 230 jours après expiration |
+| .guru	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .gy	| Jusqu’à 1 jour avant expiration	| Impossible | 1 jour avant expiration |	Entre 1 jour avant et 27 jours après expiration | 27 jours après expiration |
+| .haus	| Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .help	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .hiphop	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration | Entre 45 et 225 jours après expiration | 230 jours après expiration |
+| .hk	| Jusqu’à 2 jours avant expiration | Impossible | 2 jours avant expiration | Entre 2 jours avant et 58 jours après expiration | 58 jours après expiration |
+| .hn | Jusqu’à 4 jours après expiration | | | | quarantaine de 15 jours |
+| .holdings | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .holiday | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .host	| Jusqu’à expiration | Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .hosting | Jusqu’à expiration | Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .house | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .how | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .ht |	Jusqu’à 1 jour avant expiration | Impossible | 1 jour avant expiration	| Entre 1 jour avant et 27 jours après expiration	| 34 jours après expiration |
+| .im |	Jusqu’à expiration	| Jusqu’à 30 jours après expiration	| 30 jours après expiration	| Impossible |	30 jours après expiration |
+| .immo | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .immobilien |	Jusqu’à expiration | Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .in |	Jusqu’à expiration	| Jusqu’à 30 jours après expiration	| 30 jours après expiration | Entre 30 jours après et 60 jours après expiration | 65 jours après expiration |
+| .industries |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .info	| Jusqu’à expiration | Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ink	| Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .institute | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .insure | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .international | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .investments | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .io |	Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration | Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .it |	Jusqu’à expiration | Jusqu’à 14 jours après expiration | 14 jours après expiration	| Entre 14 et 44 jours après expiration | Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .jetzt | Jusqu’à expiration |	Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .joburg | Jusqu’à expiration	| Jusqu’à 10 jours après expiration	| 10 jours après expiration	| Entre 10 et 30 jours après expiration	| 30 jours après expiration |
+| .jp	| Entre 30 jours avant et 6 jours avant expiration | Impossible | 6 jours avant expiration | Contactez le [support](https://admin.alwaysdata.com/support/add/) | Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .juegos | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 225 jours après expiration | 230 jours après expiration |
+| .kitchen | Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .kiwi	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .koeln |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .la	| Jusqu’à expiration	| Jusqu’à 40 jours après expiration	| 40 jours après expiration	| Entre 40 et 70 jours après expiration | 75 jours après expiration |
+| .land | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .lawyer | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .lc | Jusqu’à expiration | Jusqu’à 44 jours après expiration | 44 jours après expiration |	Entre 44 jours après et 74 jours après expiration |	79 jours après expiration |
+| .lease	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .legal | Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .lgbt | Jusqu’à expiration | Jusqu’à 45 jours après expiration | 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .li	| Jusqu’à 1 jour avant expiration |	Impossible	| 1 jour avant expiration	| Jusqu’à 40 jours après expiration |	40 jours après expiration |
+| .life	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .lighting	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .limited	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .limo	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .link | Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .loans |	Jusqu’à expiration | Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .london | Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ltda	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .lu	| Jusqu’à 1 jour avant expiration |	Impossible	| 1 jour avant expiration |	Entre 1 jour avant et 29 jours après expiration |	29 jours après expiration |
+| .luxury	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .lv	| Jusqu’à 1 jour avant expiration	| Impossible |	1 jour avant expiration |	Entre 1 jour avant et 29 jours après expiration |	29 jours après expiration |
+| .maison	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .management	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .market	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .marketing | Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .me	| Jusqu’à expiration	| Jusqu’à 30 jours après expiration |	30 jours après expiration |	Entre 30 et 60 jours après expiration	| 65 jours après expiration |
+| .media	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .memorial |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .menu |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .me.uk	| Entre 180 jours avant et 30 jours après expiration |	Entre 30 jours après et 90 jours après expiration |	90 jours après expiration | Impossible	| 92 jours après expiration |
+| .mn	| Jusqu’à expiration |	Jusqu’à 30 jours après expiration |	30 jours après expiration | Entre 30 jours après et 60 jours après expiration |	65 jours après expiration |
+| .mobi	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .moda	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration | 80 jours après expiration |
+| .moe	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .money	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .monster |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .mortgage |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ms	| Jusqu’à 1 jour avant expiration |	Impossible | 1 jour avant expiration | Entre 1 jour avant et 27 jours après expiration | Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .mu |	Jusqu’à 1 jour avant expiration	| Impossible	| 1 jour avant expiration	| Entre 1 jour avant et 15 jours après expiration |	Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .mx	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 75 jours après expiration |
+| .nagoya	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .name |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .net | Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .network	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ninja |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .nl |	Jusqu’à 1 jour avant expiration |	Impossible	| 1 jour avant expiration	| Entre 1 jour avant et 39 jours après expiration |	39 jours après expiration |
+| .no	| Jusqu’à 1 jour avant expiration |	Impossible	| 1 jour avant expiration |	Entre 1 jour avant et 89 jours après expiration |	89 jours après expiration |
+| .nu |	Jusqu’à 1 jour avant expiration	| Impossible |	1 jour avant expiration |	Entre 1 jour avant et 59 jours après expiration	| 66 jours après expiration |
+| .nyc |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .onl |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .org |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .org.uk	| Entre 180 jours avant et 30 jours après expiration |	Entre 30 jours après et 90 jours après expiration	| 90 jours après expiration | Impossible |	92 jours après expiration |
+| .osaka	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .paris |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .partners	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .parts |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .party	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .pe	| Jusqu’à 1 jour avant expiration |	Impossible |	1 jour avant expiration	| Impossible |	1 jour avant expiration |
+| .ph |	Jusqu’à expiration	| Jusqu’à 59 jours après expiration	| 59 jours après expiration	| Impossible	| 59 jours après expiration |
+| .photo	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 225 jours après expiration |	230 jours après expiration |
+| .photography |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .photos |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .pics |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .pictures |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+|.pink	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .pizza	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .pl |	Entre 30 et 2 jours avant expiration	| Impossible |	1 jour avant expiration	| Impossible |	1 jour avant expiration |
+| .place	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .plumbing	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .pm	| Jusqu’à expiration	| Jusqu’à 28 jours après expiration |	28 jours après expiration |	Entre 28 et 58 jours après expiration	| 58 jours après expiration |
+| .poker	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .press	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .pro | Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .productions	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .properties |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration
+| .property	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .pt | Jusqu’à 2 jours avant expiration | | | | 30 jours de quarantaine|
+| .pub |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .qpon	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .re	| Jusqu’à expiration |	Jusqu’à 28 jours après expiration |	28 jours après expiration	| Entre 28 et 58 jours après expiration	| 58 jours après expiration |
+| .recipes	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .red	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .rehab |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .reisen |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .rentals	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .repair |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .report |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .republican |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .rest	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .restaurant |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .reviews |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .rip	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .rocks	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .ru	| Jusqu’à 2 jours avant expiration	| Impossible	| 2 jours avant expiration | Entre 2 jours avant et 28 jours après expiration |	28 jours après expiration |
+| .ruhr |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	Contactez le [support](https://admin.alwaysdata.com/support/add/) |
+| .sarl	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .sb	| Entre 120 et 1 jour avant expiration	| Impossible	| 1 jour avant expiration |	Entre 1 jour avant et 27 jours après expiration |	27 jours après expiration |
+| .sc	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .science	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .se	| Jusqu’à 1 jour avant expiration |	Impossible |	1 jour avant expiration |	Entre 1 jour avant et 59 jours après expiration |	64 jours après expiration |
+| .services	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .sexy |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration | 45 jours après expiration |	Entre 45 et 225 jours après expiration	| 230 jours après expiration |
+| .shiksha	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .shoes	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .shop |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .singles |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .so	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .social |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .software |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .solar	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .solutions |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .soy |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .space | Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .st | Jusqu’à expiration | Jusqu’à 40 jours après expiration |	40 jours après expiration |	Entre 40 et 70 jours après expiration |	75 jours après expiration |
+| .supplies	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .supply	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .support	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .surf	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .surgery	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .systems |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .tattoo |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 225 jours après expiration |	230 jours après expiration |
+| .tax |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .tc	| Jusqu’à 1 jour avant expiration	| Impossible	| 1 jour avant expiration	| Entre 1 jour avant et 28 jours après expiration	| 33 jours après expiration |
+| .tech	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .technology |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .tienda |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .tips	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .tires	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .tl	| Jusqu’à 1 jour avant expiration |	Impossible	| 1 jour avant expiration |	Entre 1 jour avant et 27 jours après expiration |	35 jours après expiration |
+| .today |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .tools	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .top	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .town	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .toys	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .trade |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .training |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .travel |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	75 jours après expiration |
+| .tv |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .tw |	Jusqu’à expiration |	Jusqu’à 30 jours après expiration |	30 jours après expiration	| Impossible |	33 jours après expiration |
+| .uk	| Entre 180 jours avant et 30 jours après expiration	| Entre 30 et 90 jours après expiration |	90 jours après expiration	| Impossible |	92 jours après expiration |
+| .university |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .uno	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .us |	Jusqu’à expiration |	Jusqu’à 30 jours après expiration	| 30 jours après expiration |	Entre 30 et 60 jours après expiration |	65 jours après expiration |
+| .vacations	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .vc |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ventures	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .vg	| Jusqu’à 1 jour avant expiration |	Impossible |	1 jour avant expiration |	Entre 1 jour avant et 29 jours après expiration |	34 jours après expiration |
+| .viajes |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .villas |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .vision |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .vlaanderen | Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration|
+| .vote	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .voto |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .voyage	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .watch	| Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .webcam |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .website |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .wedding |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .wien	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .work |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .works |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .world	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .ws |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .wtf |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .xxx |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .xyz |	Jusqu’à expiration	| Jusqu’à 45 jours après expiration	| 45 jours après expiration	| Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .yoga |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+| .yokohama |	Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration	| 80 jours après expiration |
+| .zone	| Jusqu’à expiration |	Jusqu’à 45 jours après expiration |	45 jours après expiration |	Entre 45 et 75 jours après expiration |	80 jours après expiration |
+

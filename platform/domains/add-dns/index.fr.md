@@ -3,7 +3,7 @@ url = "/fr/plateforme/domaines/ajouter-un-enregistrement-dns/"
 title = "Comment ajouter un enregistrement DNS"
 menuTitle = "Ajouter un enregistrement DNS"
 layout = "howto"
-weight = 10
+weight = 70
 tags = ["dns", "domaine"]
 +++
 
@@ -14,8 +14,7 @@ tags = ["dns", "domaine"]
 {{< fig "images/admin_panel_add-record.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
 {{% notice info %}}
-Ne mettez pas la racine dans **Nom d'hôte**.
-Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour _www.domaine.tld.domaine.tld_.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour _www.domaine.tld.domaine.tld_.
 {{% /notice %}}
 
 - [Ajouter un enregistrement SRV]({{< ref "platform/domains/add-srv-record" >}})
