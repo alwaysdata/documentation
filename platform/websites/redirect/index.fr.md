@@ -32,4 +32,4 @@ Pour les sites de type PHP, Fichiers statiques et Apache personnalisé, vous pou
 
 ## Rediriger via uWSGI
 
-Pour les sites de type Python WSGI, Ruby Rack et Ruby on Rails <= 2.x, vous pouvez également utiliser la méthode [InternalRouting](https://uwsgi-docs.readthedocs.io/en/latest/InternalRouting.html) et son plugin ```router-redirect``` dans la configuration avancée du site.
+Pour les sites de type Python WSGI, Ruby Rack et Ruby on Rails <= 2.x, vous pouvez également utiliser la méthode [InternalRouting](https://uwsgi-docs.readthedocs.io/en/latest/InternalRouting.html) et son plugin `router-redirect` dans la configuration avancée du site.

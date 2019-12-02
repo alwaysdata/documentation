@@ -10,7 +10,7 @@ tags = ["http", "dépannage", "site"]
 
 Cette fonctionnalité permet aux développeurs expérimentés d'observer le comportement de leurs applications et améliorer leurs performances.
 
-L'analyse des processus produit un fichier, disponible à la racine de votre compte (nommé *analysis_\<date\>-\<heure\>.log* et consultable en [SSH]({{< ref "platform/remote-access/ssh" >}}) ou [FTP]({{< ref "platform/remote-access/ftp" >}})) décrivant les opérations exécutées par le processus pendant une durée déterminée.
+L'analyse des processus produit un fichier, disponible à la racine de votre compte (nommé `analysis_[date]-[heure].log` et consultable en [SSH]({{< ref "platform/remote-access/ssh" >}}) ou [FTP]({{< ref "platform/remote-access/ftp" >}})) décrivant les opérations exécutées par le processus pendant une durée déterminée.
 
 ## 1. Démarrer l'analyse
 

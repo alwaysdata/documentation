@@ -12,8 +12,7 @@ Les [serveurs DNS](https://fr.wikipedia.org/wiki/Domain_Name_System) définissen
 
 1. Demandez à votre nouveau prestataire ses serveurs DNS ;
 2. Dans votre interface d'administration, allez dans **Domaines > Détails** du domaine concerné **> Modifier** ses serveurs DNS ;
-{{< fig "images/admin-panel_domain-details.fr.png" "Interface d'administration : Détails d'un domaine" >}}
-
+   {{< fig "images/admin-panel_domain-details.fr.png" "Interface d'administration : Détails d'un domaine" >}}
 3. Indiquez les adresses de vos nouveaux serveurs DNS.
-{{< fig "images/admin-panel_change-dns.fr.png" "Interface d'administration : Changer de serveurs DNS" >}}
+   {{< fig "images/admin-panel_change-dns.fr.png" "Interface d'administration : Changer de serveurs DNS" >}}
 
