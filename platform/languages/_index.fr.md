@@ -7,10 +7,9 @@ chapter = true
 
 # Langages
 
-// Here's a little introduction //
+Retrouvez-toutes les informations sur les technologies propulsées par nos serveurs :
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## // Section //
+* [Node.js]({{< ref "platform/languages/nodejs" >}})
+* [PHP]({{< ref "platform/languages/php" >}})
+* [Python]({{< ref "platform/languages/python" >}})
+* [Ruby]({{< ref "platform/languages/ruby" >}})
