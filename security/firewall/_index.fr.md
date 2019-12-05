@@ -7,10 +7,6 @@ chapter = true
 
 # Pare-feu
 
-// Here's a little introduction //
+alwaysdata utilise [Fail2ban](http://www.fail2ban.org/ sur tous ses serveurs comme pare-feu. Après une dizaine de tentatives de connexion échouées, il va bloquer l'IP durant 30 minutes.
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## // Section //
+Les clients propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}})
