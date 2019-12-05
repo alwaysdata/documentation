@@ -14,6 +14,8 @@ Le pare-feu se gère dans le menu **Firewall** du serveur dédié.
 Menu pour retrouver, créer et ajuster ses règles de parefeu.
 {{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de pare-feu actives" >}}
 
+Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres. 
+
 ### Ajouter une règle
 Pour ajouter une règle, choisissez :
 
@@ -35,8 +37,8 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 | Protocole  | UDP/TCP                                          |
 | Type       | ACCEPT                                           |
 | Direction  | Entrée                                           |
-| Hôtes      | <votre IP>                                       |
-| Ports      | <ne rien indiquer>                               |
+| Hôtes      | \<votre IP\>                                     |
+| Ports      | \<ne rien indiquer\>                             |
 | Version IP | IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées) |
 {{< fig "images/rule-example.fr.png" "Exemple" >}}
 
