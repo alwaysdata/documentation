@@ -70,5 +70,5 @@ SECRET_KEY_BASE=Biy2sah8ohsh5ov
 ```
 
 {{% notice warning %}}
-Ne copiez pas la clé ci-dessus mais générez la vôtre avec la commande rake secret.
+Ne copiez pas la clé ci-dessus mais générez la vôtre avec la commande `rake secret`.
 {{% /notice %}}
