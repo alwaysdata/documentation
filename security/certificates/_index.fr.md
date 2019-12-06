@@ -7,6 +7,7 @@ chapter = true
 
 # Certificats
 
+- [API](https://api.alwaysdata.com/v1/ssl/doc/)
 - [Rediriger HTTP vers HTTPS]({{< relref "redirect-http-to-https" >}})
 - [Ajouter un certificat SSL]({{< relref "add-a-ssl-certificate" >}})
 - [Certificats Let's Encrypt]({{< relref "lets-encrypt" >}})

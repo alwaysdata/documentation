@@ -14,7 +14,10 @@ Le pare-feu se gère dans le menu **Firewall** du serveur dédié.
 Menu pour retrouver, créer et ajuster ses règles de parefeu.
 {{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de pare-feu actives" >}}
 
-Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres. 
+Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres.
+
+- [Ressource API](https://api.alwaysdata.com/v1/firewall/doc/)
+
 
 ### Ajouter une règle
 Pour ajouter une règle, choisissez :
