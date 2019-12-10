@@ -9,4 +9,4 @@ chapter = true
 
 alwaysdata utilise [Fail2ban](http://www.fail2ban.org/) sur tous ses serveurs comme pare-feu. Après une dizaine de tentatives de connexion échouées, cet outil va bloquer l'IP durant 30 minutes.
 
-Les clients propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}})
+Les clients propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}}).
