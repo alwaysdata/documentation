@@ -3,7 +3,7 @@ url = "/fr/sécurité/mode-restreint/"
 title = "Mode restreint"
 menuTitle = "Mode restreint"
 layout = "man"
-weight = 5
+weight = 10
 tags = ["sécurité"]
 +++
 
