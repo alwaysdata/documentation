@@ -50,7 +50,7 @@ Suivant cette notation, le message sera expédié via une adresse IP ayant une r
 Ce système utilise [SpamAssassin](https://spamassassin.apache.org/) et un ensemble de règles propres à son système :
 
 - +1: Mass emails : le compte a envoyé plus de 15 emails dans les 30 dernières minutes ;
-- +1: Customer is [restricted]({{<ref "accounts/restricted-mode">}}) ;
+- +1: Customer is [restricted]({{<ref "security/restricted-mode">}}) ;
 - +1: New customer : cela fait moins de 30 jours que le profil est créé ; 
 - +X: Too many bounces (XX %) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à 10 %, le système rajoutera 1 point et s'il est supérieur à 30 %, 2 points.
 

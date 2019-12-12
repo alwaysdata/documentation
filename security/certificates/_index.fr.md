@@ -7,10 +7,10 @@ chapter = true
 
 # Certificats
 
-// Here's a little introduction //
-
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## // Section //
+- [API](https://api.alwaysdata.com/v1/ssl/doc/)
+- [Rediriger HTTP vers HTTPS]({{< relref "redirect-http-to-https" >}})
+- [Ajouter un certificat SSL]({{< relref "add-a-ssl-certificate" >}})
+- [Certificats Let's Encrypt]({{< relref "lets-encrypt" >}})
+- [Générer une CSR]({{< relref "csr" >}})
+- [Utiliser un certificat SAN]({{< relref "use-san-certificate" >}})
+- [Priorité des certificats]({{< relref "certificates-priorities" >}})
