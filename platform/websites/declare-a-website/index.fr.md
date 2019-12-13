@@ -20,17 +20,17 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
 {{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
 
 - Configuration : spécifique à chaque type de site :
-    - [PHP]() ;
-    - [Python WSGI]() ;
-    - [Ruby Rack]() ;
-    - [Ruby on Rails <= 2.x]() ;
-    - [Node.js]() ;
-    - [Elixir]() ;
+    - [PHP]({{< ref "platform/languages/php" >}}) ;
+    - [Python WSGI]({{< ref "platform/languages/python" >}}) ;
+    - [Ruby Rack]({{< ref "platform/languages/ruby" >}}) ;
+    - [Ruby on Rails <= 2.x]({{< ref "platform/languages/ruby/ruby-on-rails" >}}) ;
+    - [Node.js]({{< ref "platform/languages/nodejs" >}}) ;
+    - Elixir ;
     - [Redirection]({{< ref "platform/websites/redirect" >}}) ;
     - [Fichiers statiques]({{< ref "platform/websites/static-files" >}}) : pour gérer des sites ou fichiers statiques ;
     - [Apache personnalisé]({{< ref "platform/websites/apache-custom" >}}) : pour totalement configurer son serveur Apache ;
     - [Programme utilisateur]({{< ref "platform/websites/user-program" >}}) : pour faire tourner n'importe quel serveur web.
-    
+
 Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis par [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack et Ruby on Rails <= 2.x utilisent [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
 - [SSL]() : rediriger le HTTP vers HTTPS ;
