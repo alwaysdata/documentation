@@ -8,10 +8,9 @@ chapter = true
 
 # Accès distant
 
-// Here's a little introduction //
+Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## Liste des services
+* [FTP]({{< relref "ftp" >}})
+* [SFTP]({{< relref "sftp" >}})
+* [SSH]({{< relref "ssh" >}})
+* [WebDAV]({{< relref "webdav" >}})

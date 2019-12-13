@@ -47,7 +47,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 ### Par serveur
 
 - _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
-- _Utilisateurs SSH_ : installez des [clés SSH]() pour un accès simplifié aux différents comptes ;
+- _Utilisateurs SSH_ : installez des [clés SSH]({{< ref "platform/remote-access/ssh/install-globally-ssh-keys" >}}) pour un accès simplifié aux différents comptes ;
 - _[Règles firewall]()_ : créez des règles firewall et consultez le bannissement automatique d'IP ;
 - _Configuration SMTP_ : gérez la queue d'envoi d'emails, du relais SMTP et score de spam ;
 - _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
