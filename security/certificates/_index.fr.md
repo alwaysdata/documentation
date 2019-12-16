@@ -3,6 +3,8 @@ url = "/fr/securité/certificats/"
 title = "Certificats"
 weight = 5
 chapter = true
+layout = "readme"
+tags = ["https", "sécurité", "ssl"]
 +++
 
 # Certificats

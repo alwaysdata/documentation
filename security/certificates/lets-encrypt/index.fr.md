@@ -23,6 +23,6 @@ Compte tenu de la propagation DNS, la génération d'un certificat peut mettre d
 
 ## Liens
 
-- [Liste de compatibilités des navigateurs)(https://letsencrypt.org/docs/certificate-compatibility/) ;
+- [Liste de compatibilités des navigateurs](https://letsencrypt.org/docs/certificate-compatibility/) ;
 - [Certbot](https://certbot.eff.org/) : ACME client pour générer vos propres certificats (wildcard).
 
