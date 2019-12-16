@@ -1,7 +1,7 @@
 +++
-url = "/fr/plateforme/avancé/migration/"
+url = "/fr/plateforme/migration/"
 title = "Migration"
-weight = 20
+weight = 99
 chapter = true
 tags = ["migration"]
 +++

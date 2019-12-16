@@ -1,5 +1,5 @@
 +++
-url = "/fr/plateforme/avancé/migration/effectuer-une-migration-vps-ou-dédié/"
+url = "/fr/plateforme/migration/effectuer-une-migration-vps-ou-dédié/"
 title = "Comment effectuer une migration en serveur VPS/dédié"
 menuTitle = "Migrations VPS/dédié"
 layout = "howto"

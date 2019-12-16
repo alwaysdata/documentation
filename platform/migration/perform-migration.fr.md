@@ -1,5 +1,5 @@
 +++
-url = "/fr/plateforme/avancé/migration/effectuer-une-migration/"
+url = "/fr/plateforme/migration/effectuer-une-migration/"
 title = "Comment effectuer une migration"
 menuTitle = "Effectuer une migration"
 layout = "howto"
