@@ -7,10 +7,6 @@ chapter = true
 
 # Sauvegardes
 
-// Here's a little introduction //
+Une sauvegarde est effectuée **quotidiennement**, gardée durant **30 jours** et disponible dans le répertoire `$HOME/admin/backup` de votre compte.
 
-- [QuickStart]()
-- [How-Tos]()
-- [Troubleshooting and FAQs]()
-
-## // Section //
+Vous pouvez restaurer [un site web]({{< relref "restore-a-website" >}}) ou des [emails]({{< relref "restore-emails" >}}) dans l'onglet **Avancé > Restauration de sauvegardes** de votre interface d'administration.
