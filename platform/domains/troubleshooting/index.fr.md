@@ -12,23 +12,23 @@ tags = ["dépannage", "domaine"]
 
 Domaine protégé contre les transferts un `whois` renverra :
 
-```
+{{% notice %}}
 Domain Status: clientTransferProhibited
-```
+{{% /notice %}}
 
 La protection doit être supprimée chez le registrar actuel.
 
-## "Invalid Authorization Code"
+### "Invalid Authorization Code"
 Vérifiez qu'aucune faute de frappe n'a été effectuée en reprenant le code d'autorisation ou régénérez un code d'autorisation.
 
 {{% notice info %}}
 Pour le régénérer lors d'un transfert sortant contactez notre [support](https://admin.alwaysdata.com/support/add).
 {{% /notice %}}
 
-## "Registry error - 2308 : Data management policy violation (domain expired)"
+### "Registry error - 2308 : Data management policy violation (domain expired)"
 Domaine expiré, renouvelez-le avant de relancer le transfert.
 
-## "Transfer Refused by Registrar (Queue Message #18523205)"
+### "Transfer Refused by Registrar (Queue Message #18523205)"
 Le prestataire actuel du domaine a bloqué le transfert. Contactez-les pour en connaître la cause avant de relancer le transfert.
 
 ## Changement de propriétaire
@@ -40,15 +40,16 @@ L'[ICANN](https://www.icann.org/fr) vérifie les adresses emails des propriétai
 
 Un `whois` indiquera le message suivant :
 
-```
- Domain Status: clientHold
-```
+{{% notice %}}
+Domain Status: clientHold
+{{% /notice %}}
+
 
 Dans l'interface d'administration alwaysdata, le message suivant - onglet **Domaines > Détails** du domaine **> Statut** - vous permettra de renvoyer l'email :
 
-```
+{{% notice %}}
 Ce domaine a été suspendu par l'ICANN car son propriétaire n'a pas confirmé son adresse email dans les 15 jours suivant sa création, son transfert ou sa cession.
-```
+{{% /notice %}}
 
 Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le détail du contact propriétaire, menu **Domaines > Gestion des contacts** :
 {{< fig "images/admin-panel_domains-list.fr.png" "Interface d'administration : accès au menu Gestion des contacts" >}}
@@ -56,4 +57,4 @@ Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le dét
 
 ## Liens
 
-- [Glossaire codes de statut EPP](https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en)Le
+- [Glossaire des codes de statut EPP](https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en)

@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/python/"
 title = "Python"
 chapter = true
+layout= "readme"
+width = 10
+tags = ["python"]
 +++
 
 # Python

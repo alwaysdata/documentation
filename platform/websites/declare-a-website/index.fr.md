@@ -23,7 +23,7 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
     - [PHP]({{< ref "platform/languages/php" >}}) ;
     - [Python WSGI]({{< ref "platform/languages/python" >}}) ;
     - [Ruby Rack]({{< ref "platform/languages/ruby" >}}) ;
-    - [Ruby on Rails <= 2.x]({{< ref "platform/languages/ruby/ruby-on-rails" >}}) ;
+    - [Ruby on Rails <= 2.x]({{< ref "platform/languages/ruby" >}}) ;
     - [Node.js]({{< ref "platform/languages/nodejs" >}}) ;
     - Elixir ;
     - [Redirection]({{< ref "platform/websites/redirect" >}}) ;
@@ -33,7 +33,7 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
 
 Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis par [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack et Ruby on Rails <= 2.x utilisent [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
-- [SSL]() : rediriger le HTTP vers HTTPS ;
+- [SSL]({{< ref "security/certificates/redirect-http-to-https" >}}) : rediriger le HTTP vers HTTPS ;
 {{< fig "images/admin-panel_add-site-ssl.fr.png" "Ajouter un site : SSL" >}}
 
 - [WAF]({{< ref "platform/websites/waf" >}}) : configurer le parefeu web applicatif ;

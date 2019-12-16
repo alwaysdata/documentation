@@ -3,6 +3,7 @@ url = "/fr/securité/pare-feu/"
 title = "Pare-feu"
 weight = 5
 chapter = true
+tags = ["sécurité"]
 +++
 
 # Pare-feu

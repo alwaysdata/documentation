@@ -1,11 +1,14 @@
 +++
 url = "/fr/plateforme/bases-de-donnees/couchdb/"
 title = "CouchDB"
+layout = "man"
+width = 40
+tags = ["base de données", "couchdb"]
 +++
 
 ## Connexion
 
-| | |
+|                   |                                   |
 |-------------------|-----------------------------------|
 | **Serveur**       | couchdb-[compte].alwaysdata.net   |
 | **Port**          | 5984 (Port CouchDB par défaut)    |

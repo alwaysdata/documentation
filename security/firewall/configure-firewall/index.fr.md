@@ -5,7 +5,7 @@ menuTitle = "Configurer le parefeu"
 layout = "faq"
 weight = 10
 hidden = true
-tags = ["securité", "serveur dédié", "serveur vps"]
+tags = ["sécurité", "serveur dédié", "serveur vps"]
 +++
 
 Le pare-feu se gère dans le menu **Firewall** du serveur dédié.

@@ -4,7 +4,7 @@ title = "Mode restreint"
 menuTitle = "Mode restreint"
 layout = "man"
 weight = 10
-tags = ["sécurité"]
+tags = ["administration", "sécurité"]
 +++
 
 Depuis toujours, nous offrons à nos utilisateurs la possibilité d'être hébergé gratuitement, afin de répondre par exemple à des besoins très peu gourmands, ou tout simplement pour tester notre plateforme avant de s'engager dans un abonnement. C'est une offre que nous ne regrettons pas, mais qui a quelques inconvénients assez évidents venant principalement d'abus d'utilisateurs mal intentionnés.

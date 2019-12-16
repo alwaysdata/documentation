@@ -1,7 +1,10 @@
 +++
 url = "/fr/plateforme/langages/ruby/ruby-on-rails/"
-title = "Installer une application Ruby-on-Rails"
+title = "Comment installer une application Ruby-on-Rails"
 hidden = true
+layout = "howto"
+width = 50
+tags = ["ruby"]
 +++
 
 Une application [Ruby on Rails](http://rubyonrails.org/) se déploie chez alwaysdata comme n'importe quelle application Rack. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.

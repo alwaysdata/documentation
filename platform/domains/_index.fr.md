@@ -4,6 +4,7 @@ title = "Domaines"
 date = 2019-09-22
 weight = 40
 chapter = true
+tags = ["dns", "domaines"]
 +++
 
 # Domaines
@@ -22,6 +23,7 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 - [Déléguer un sous-domaine]({{< relref "delegate-a-subdomain" >}})
 - [Détruire un domaine]({{< relref "wipe-a-domain" >}})
 - [Transfert sortant]({{< relref "outgoing-transfer" >}})
+- [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 
 ## Gestion DNS
 

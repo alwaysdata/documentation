@@ -1,7 +1,10 @@
 +++
 url = "/fr/plateforme/langages/php/installer-un-paquet/"
-title = "Installer un paquet PHP"
+title = "Comment installer un paquet PHP"
 hidden = true
+layout = "howto"
+width = 40
+tags = ["php"]
 +++
 
 ## Gestion des paquets

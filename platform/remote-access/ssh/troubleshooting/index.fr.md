@@ -15,7 +15,7 @@ Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [utilis
 Remplacez utilisateur par le nom de votre utilisateur SSH et ssh-[compte].alwaysdata.net par votre nom d’hôte SSH.
 {{% /notice %}}
 
-Un [blocage d'IP]() a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Un [blocage d'IP]({{< ref "security/firewall" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 ### Too many authentication failures
 C'est un problème de clés SSH, précisez la clé correspondante. Si vous ne la trouvez pas, connectez-vous par mot de passe et mettez à jour le fichier `$HOME/.ssh/authorized_keys`.

@@ -3,6 +3,7 @@ url = "/fr/plateforme/emails/"
 title = "Emails"
 weight = 40
 chapter = true
+tags = ["email"]
 +++
 
 # Emails

@@ -1,8 +1,8 @@
 +++
 url = "/fr/plateforme/api/"
 title = "API"
-date = 2019-09-22
 weight = 80
+tags = ["api"]
 +++
 
 Une [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) (pour Application

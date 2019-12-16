@@ -1,11 +1,11 @@
 +++
-url = "/fr/plateforme/migration/effectuer-une-migration-vps-ou-dédié/"
+url = "/fr/plateforme/migrations/effectuer-une-migration-vps-ou-dédié/"
 title = "Comment effectuer une migration en serveur VPS/dédié"
 menuTitle = "Migrations VPS/dédié"
 layout = "howto"
 weight = 10
 hidden = true
-tags = ["dedicated server", "migration", "vps server"]
+tags = ["migration", "serveur dédié", "serveur vps"]
 +++
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.

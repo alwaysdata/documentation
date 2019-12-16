@@ -3,7 +3,8 @@ url = "/fr/guides/installer-ffmpeg/"
 title = "Comment installer FFmeg"
 menuTitle = "Installer FFmpeg"
 layout = "howto"
-weight = 60
+weight = 20
+hidden = true
 +++
 
 [FFmpeg](https://www.ffmpeg.org/) fournit des outils destinés au traitement de flux audio ou vidéo.

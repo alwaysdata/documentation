@@ -13,8 +13,8 @@ tags = ["dns", "domaine"]
 3. Renseignez le formulaire.
 {{< fig "images/admin_panel_add-record.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
-{{% notice info %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour _www.domaine.tld.domaine.tld_.
+{{% notice warning %}}
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour *www.domaine.tld.domaine.tld*.
 {{% /notice %}}
 
 - [Ajouter un enregistrement SRV]({{< ref "platform/domains/add-srv-record" >}})

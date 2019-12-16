@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/ruby/configuration/"
 title = "Configurer Ruby"
 hidden = true
+layout = "man"
+width = 20
+tags = ["ruby"]
 +++
 
 ## Versions supportées

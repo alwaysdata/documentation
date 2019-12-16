@@ -74,7 +74,7 @@ Subject: Test sources
 Message-ID: <8a6782ecf30c333f037193c7bdfc546c@alwaysdata.net>
 X-Sender: test@alwaysdata.net
 User-Agent: Roundcube Webmail/1.3.10
-```̀
+```
 
 - d'éléments liés aux antivirus, antispams :
 

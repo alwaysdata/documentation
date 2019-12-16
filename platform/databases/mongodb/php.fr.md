@@ -1,7 +1,10 @@
 +++
 url = "/fr/plateforme/bases-de-donnees/mongodb/php/"
-title = "Configurer une application PHP avec MongoDB"
+title = "Comment configurer une application PHP avec MongoDB"
 hidden = true
+layout = "howto"
+width = 60
+tags = ["base de données", "mongodb", "php"]
 +++
 
 ## Configuration
@@ -15,7 +18,7 @@ $ ad_install_pecl mongodb
 N'oubliez pas ensuite d'[ajouter l'extension dans votre php.ini]({{< ref "platform/languages/php/configuration" >}}#paramètres-php-ini) :
 
 ```
-extension=/home/[compte]/path/to/mongo.so
+extension=/home/[compte]/path/to/mongodb.so
 ```
 
 ## Connexion

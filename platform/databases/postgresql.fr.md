@@ -1,15 +1,18 @@
 +++
 url = "/fr/plateforme/bases-de-donnees/postgresql/"
 title = "PostgreSQL"
+layout = "man"
+width = 20
+tags = ["base de données", "postgresql"]
 +++
 
 ## Connexion
 
-| | |
-|-------------------|---------------------------------------------------------------------------|
-| **Serveur**       | postgresql-[compte].alwaysdata.net                                        |
-| **Port**          | 5432 (Port MySQL par défaut)                                              |
-| **Interface web** | [https://phppgadmin.alwaysdata.com](https://phppgadmin.alwaysdata.com/)   |
+|                   |                                                  |
+|-------------------|--------------------------------------------------|
+| **Serveur**       | postgresql-[compte].alwaysdata.net               |
+| **Port**          | 5432 (Port MySQL par défaut)                     |
+| **Interface web** | [phpPgAdmin](https://phppgadmin.alwaysdata.com/) |
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > PostgreSQL** de l'interface d'administration.
 

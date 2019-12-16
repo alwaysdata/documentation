@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/ruby/"
 title = "Ruby"
 chapter = true
+layout = "readme"
+width = 10
+tags = ["ruby"]
 +++
 
 # Ruby

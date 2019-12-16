@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/php/"
 title = "PHP"
 chapter = true
+layout= "readme"
+width = 10
+tags = ["php"]
 +++
 
 # PHP

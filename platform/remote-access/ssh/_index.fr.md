@@ -48,7 +48,7 @@ Remplacez _utilisateur_ par le nom de votre utilisateur SSH et _ssh-[compte].alw
 
 Utile si vous êtes derrière un firewall, notre interface web vous permet d'utiliser le protocole SSH à partir de votre navigateur. Attention toutefois, cette solution peu fiable et lente ne remplace pas un client.
 
-{{% notice warning %}}
+{{% notice info %}}
 Cette interface n'est pas compatible avec les hébergements dédiés et VPS.
 {{% /notice %}}
 

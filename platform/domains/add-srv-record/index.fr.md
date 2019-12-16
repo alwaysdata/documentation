@@ -15,9 +15,9 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
 3. Renseignez le formulaire.
 {{< fig "images/admin-panel_add-srv.fr.png" "Interface d'administration : ajouter un enregistrement SRV" >}}
 
-{{% notice info %}}
+{{% notice warning %}}
 Ne mettez pas la racine dans **Nom d'hôte**.
-Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour _www.domaine.tld.domaine.tld_.
+Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez un enregistrement pour *www.domaine.tld.domaine.tld*.
 {{% /notice %}}
 
 ## Quelques exemples

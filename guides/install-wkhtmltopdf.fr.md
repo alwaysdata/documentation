@@ -4,6 +4,7 @@ title = "Comment installer wkhtmltopdf"
 menuTitle = "Installer wkhtmltopdf"
 layout = "howto"
 weight = 50
+hidden = true
 +++
 
 [wkhtmltopdf](https://wkhtmltopdf.org/) fournit deux outils de ligne de commande permettant de rendre du HTML aux formats PDF et image.

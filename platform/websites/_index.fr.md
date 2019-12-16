@@ -3,6 +3,7 @@ url = "/fr/plateforme/sites/"
 title = "Sites web"
 weight = 10
 chapter = true
+tags = ["http", "site"]
 +++
 
 # Sites web

@@ -5,6 +5,7 @@ menuTitle = "Assistance Matomo"
 layout = "faq"
 weight = 10
 hidden = true
+tags = ["dépannage", "statistiques", "site"]
 +++
 
 {{% notice info %}}

@@ -3,6 +3,7 @@ url = "/fr/comptes/programmes/"
 title = "Programmes"
 weight = 10
 chapter = true
+tags = ["facturation"]
 +++
 
 # Programmes

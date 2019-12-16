@@ -1,8 +1,8 @@
 +++
 url = "/fr/plateforme/api/utilisation/"
 title = "Utilisation"
-date = 2019-10-24T19:25:24+02:00
 weight = 5
+tags = ["api"]
 +++
 
 ## Identification

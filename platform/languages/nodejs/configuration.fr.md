@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/nodejs/configuration/"
 title = "Configurer Node.js"
 hidden = true
+layout = "man"
+width = 10
+tags = ["nodejs"]
 +++
 
 ## Versions supportées

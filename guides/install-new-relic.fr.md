@@ -4,6 +4,8 @@ title = "Comment installer New Relic"
 menuTitle = "Installer New Relic"
 layout = "howto"
 weight = 20
+hidden = true
+tags = ["surveillance"]
 +++
 
 [New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer l'_agent PHP_.

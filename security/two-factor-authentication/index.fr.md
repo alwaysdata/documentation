@@ -5,7 +5,7 @@ menuTitle = "Double authentification"
 layout = "man"
 hidden = true
 weight = 20
-tags = ["profil", "sécurité"]
+tags = ["2fa", "profil", "sécurité"]
 +++
 
 

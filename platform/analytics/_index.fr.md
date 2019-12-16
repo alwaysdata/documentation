@@ -3,11 +3,12 @@ url = "/fr/plateforme/statistiques/"
 title = "Statistiques"
 weight = 50
 chapter = true
+tags = ["http", "statistiques", "site"]
 +++
 
 # Statistiques
 
-À partir des logs bruts HTTP (_$HOME/admin/logs/http_) nous générons des statistiques [Matomo](https://fr.matomo.org/).
+À partir des logs bruts HTTP (`$HOME/admin/logs/http`) nous générons des statistiques [Matomo](https://fr.matomo.org/).
 
 
 ## Accéder à ses statistiques

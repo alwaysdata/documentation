@@ -14,7 +14,7 @@ tags = ["accès distant", "dépannage", "ftp"]
 alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
 {{% /notice %}}
 
-Un [blocage d'IP]() a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Un [blocage d'IP]({{< ref "security/firewall" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 ### 530 Home Directory does not exist
 Vérifiez que le répertoire racine indiqué dans **Accès distant > FTP** existe bien. Si vous n'êtes pas sûr, indiquez la racine du compte : `/`.

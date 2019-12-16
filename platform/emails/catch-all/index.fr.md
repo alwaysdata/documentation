@@ -10,7 +10,7 @@ tags = ["email"]
 
 Pour collecter tout ce qui est envoyé vers des adresses de son domaine n'existant pas, une adresse collectrice (ou [catch-all](https://fr.wikipedia.org/wiki/Catch-all)) peut être créée.
 
-Représentation : `*@exemple.tld`
+Représentation : *@exemple.tld
 
 ## Mise en garde
 

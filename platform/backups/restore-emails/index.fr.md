@@ -4,9 +4,10 @@ title = "Comment restaurer des emails"
 menuTitle = "Restaurer des emails"
 layout = "howto"
 weight = 10
+tags = ["email", "sauvegarde"]
 +++
 
-Les sauvegardes de vos emails se trouvent dans le répertoire _~/admin/backup_ de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
+Les sauvegardes de vos emails se trouvent dans le répertoire `$HOME/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
 
 1. Choisissez la date voulue ;
 {{< fig "images/admin-panel_restoration.fr.png" "Interface d'administration : restauration de sauvegarde - étape 1" >}}
@@ -26,7 +27,7 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
 - Restaurer des emails :
 
 ```
-$ rsync -av ~/admin/backup/[date]/mails/[domaine]/[boîte_email]/ ~/admin/mail/[domaine]/[boîte_email]/
+$ rsync -av $HOME/admin/backup/[date]/mails/[domaine]/[boîte_email]/ $HOME/admin/mail/[domaine]/[boîte_email]/
 ```
 
 {{% notice info %}}

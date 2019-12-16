@@ -4,6 +4,7 @@ title = "Comptes & Facturation"
 weight = 5
 chapter = true
 pre = "<i class='fas fa-user-circle'></i>&nbsp;"
+tags = ["administration", "compte", "facturation", "profil"]
 +++
 
 # Comptes
@@ -18,7 +19,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Créer un compte]({{< relref "create-an-account" >}})
 - [Supprimer un compte]({{< relref "delete-an-account" >}})
 - [Programmes]({{< relref "programs" >}})
-- [Compte restreint]()
+- [Compte restreint]({{< ref "security/restricted-mode" >}})
 - [Serveur dédié : tickets urgent]({{< relref "urgent-ticket" >}})
 - [Système d'alertes]({{< relref "warning-system" >}})
 - [Suspension de profil]({{< relref "suspension-of-profile" >}})

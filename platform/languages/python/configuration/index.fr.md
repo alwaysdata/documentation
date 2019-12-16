@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/python/configuration/"
 title = "Configurer Python"
 hidden = true
+layout = "man"
+width = 20
+tags = ["python"]
 +++
 
 ## Versions supportées

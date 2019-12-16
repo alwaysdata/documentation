@@ -11,7 +11,7 @@ tags = ["email", "infection", "spam"]
 On observe 2 principaux types des raisons à un envoi de spam :
 
 - [une infection de site internet]() ;
-- un vol de mot de passe. C'est de cette dernière que nous allons présenter ici.
+- un vol de mot de passe. C'est cette dernière que nous allons présenter ici.
 
 ----
 

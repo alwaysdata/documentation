@@ -2,6 +2,7 @@
 url = "/fr/plateforme/api/ressources/"
 title = "Ressources"
 weight = 10
+tags = ["administration", "api"]
 +++
 
 | Nom                   | Description                          | Documentation                                         |

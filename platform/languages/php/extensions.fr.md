@@ -1,7 +1,10 @@
 +++
 url = "/fr/plateforme/langages/php/installer-une-extension/"
-title = "Installer une extension PHP"
+title = "Comment installer une extension PHP"
 hidden = true
+layout = "howto"
+width = 30
+tags = ["php"]
 +++
 
 ## Gestion des extensions

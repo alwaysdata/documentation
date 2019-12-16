@@ -7,7 +7,7 @@ weight = 5
 tags = ["email"]
 +++
 
-À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir [ajouté un nom de domaine]()).
+À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine]({{< ref "platform/domains" >}})).
 
 {{< fig "images/admin-panel_mailbox-list.fr.png" "Interface d'administration : Liste des boîtes emails" >}}
 

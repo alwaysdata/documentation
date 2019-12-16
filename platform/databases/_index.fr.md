@@ -2,6 +2,7 @@
 url = "/fr/plateforme/bases-de-donnees/"
 title = "Bases de données"
 weight = 30
+tags = ["base de données"]
 +++
 
 ## Généralités
@@ -11,7 +12,7 @@ Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous pr
 Certains systèmes, comme par exemple *Elasticsearch*, ne sont accessibles qu'en environnement dédié.
 
 {{% notice info %}}
-Pour des raisons de sécurité, la création des bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API]({{< ref "platform/api" >}}). Ce n'est donc pas possible par une application tiers (par exemple PhpMyAdmin).
+Pour des raisons de sécurité, la création des bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API]({{< ref "platform/api" >}}). Ce n'est donc pas possible par une application tiers (par exemple phpMyAdmin).
 {{% /notice %}}
 
 {{% notice warning %}}
@@ -20,8 +21,19 @@ Il est interdit d'héberger **uniquement** des bases de données sur le pack gra
 
 ## Les SGBD supportés
 
-* [MariaDB/MySQL]({{< ref "platform/databases/mariadb" >}})
-* [PostgreSQL]({{< ref "platform/databases/postgresql" >}})
-* [MongoDB]({{< ref "platform/databases/mongodb" >}})
-* [CouchDB]({{< ref "platform/databases/couchdb" >}})
-* Elasticsearch
+- [MariaDB/MySQL]({{< ref "platform/databases/mariadb" >}})
+- [PostgreSQL]({{< ref "platform/databases/postgresql" >}})
+- [MongoDB]({{< ref "platform/databases/mongodb" >}})
+- [CouchDB]({{< ref "platform/databases/couchdb" >}})
+- RabbitMQ
+
+En plans VPS et dédiés :
+
+- Elasticsearch
+- Memcached
+- Redis
+
+
+---
+
+- Ressources API : [base de données](https://api.alwaysdata.com/v1/database/doc/), [utilisateur de base de données](https://api.alwaysdata.com/v1/database/user/doc/)

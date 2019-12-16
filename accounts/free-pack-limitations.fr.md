@@ -5,7 +5,7 @@ menuTitle = "Compte gratuit : limitations"
 layout = "man"
 weight = 45
 hidden = true
-tags = ["abuse", "plan gratuit"]
+tags = ["abus", "plan gratuit"]
 +++
 
 Voici la liste des interdictions :

@@ -2,6 +2,9 @@
 url = "/fr/plateforme/langages/php/configuration/"
 title = "Configurer PHP"
 hidden = true
+layout = "man"
+width = 20
+tags = ["php"]
 +++
 
 ## Versions supportées
