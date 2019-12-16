@@ -5,7 +5,7 @@ menuTitle = "Obligations légales sur internet"
 layout = "man"
 weight = 90
 hidden = true
-tags = ["légal"]
+tags = ["légal", "site"]
 +++
 
 En France, tout éditeur de site internet (physique ou moral), qu’il le soit à titre personnel ou professionnel, se doit de respecter un certain nombre d'obligations légales précises.
