@@ -1,7 +1,7 @@
 +++
-url = "/fr/plateforme/domaines/problèmes-fréquentes/"
-title = "Problèmes fréquentes"
-menuTitle = "Problèmes fréquentes"
+url = "/fr/plateforme/domaines/problèmes-fréquents/"
+title = "Problèmes fréquents"
+menuTitle = "Problèmes fréquents"
 layout = "faq"
 weight = 50
 tags = ["dépannage", "domaine"]
