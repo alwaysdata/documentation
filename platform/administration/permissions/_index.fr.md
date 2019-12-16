@@ -40,7 +40,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _[Processus]()_ : processus HTTP en exécution pouvant être analysés ou tués ;
 - _Adresses IP_ : achetez des IP dédiées pour HTTP ou SMTP ;
 - _[Certificats SSL]({{< ref "security/certificates" >}})_ ;
-- _[Migration]({{< ref "platform/advanced/migration" >}})_ ;
+- _[Migration]({{< ref "platform/migration" >}})_ ;
 - _[Tâches planifiées]({{< ref "platform/tasks" >}})_ ;
 - _[Sauvegardes]({{< ref "platform/backups" >}})_.
 

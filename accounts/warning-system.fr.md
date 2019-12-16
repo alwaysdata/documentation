@@ -48,7 +48,7 @@ Ce type d'alerte ne concerne que les _plans gratuits_ et a pour but de ne pas en
 
 ### Migration de compte
 
-- événement déclencheur : une [migration]({{< ref "platform/advanced/migration" >}}) concernant un compte est programmée ;
+- événement déclencheur : une [migration]({{< ref "platform/migration" >}}) concernant un compte est programmée ;
 - résolution : appliquer la migration ;
 - expiration : la migration sera appliquée automatiquement (pas nécessairement le jour même de l'expiration).
 

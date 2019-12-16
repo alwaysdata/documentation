@@ -15,5 +15,5 @@ Les migrations disponibles apparaissent dans le menu **Avancé > Migrations** de
 Certaines migrations sont facultatives : nous vous laissons le choix de l'effectuer ou non. D'autres migrations sont obligatoires : vous disposez alors d'un certain temps pour les effectuer. Une fois la date limite atteinte, les migrations non effectuées le seront automatiquement.
 
 
-- [Effectuer une migration]({{< ref "platform/advanced/migration/perform-migration" >}})
-- [Migrations VPS/dédié]({{< ref "platform/advanced/migration/vps-and-dedicated-migrations" >}})
+- [Effectuer une migration]({{< ref "platform/migration/perform-migration" >}})
+- [Migrations VPS/dédié]({{< ref "platform/migration/vps-and-dedicated-migrations" >}})
