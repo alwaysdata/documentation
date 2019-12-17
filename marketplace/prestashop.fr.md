@@ -1,0 +1,28 @@
++++
+url = "/fr/applithèque/prestashop/"
+title = "PrestaShop"
+menuTitle = "PrestaShop"
+layout = "man"
+weight = 20
+tags = ["prestashop"]
++++
+
+## Installation
+La dernière version de PrestaShop fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+
+Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
+
+- téléchargez la version souhaitée sur le [site officiel](https://www.prestashop.com/fr/telecharger) ;
+- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "platform/remote-access/ftp" >}}) ;
+- créez votre [base de données]({{< ref "platform/databases" >}}) MySQL ;
+- créez votre [site]({{< ref "platform/websites/declare-a-website" >}}) ;
+- accédez à la page web de votre application pour finaliser son installation ;
+- supprimez le dossier `$HOME/chemin/vers/l'application/install` obsolète après le déploiement.
+
+Si vous migrez une application PrestaShop, précédemment hébergée chez un autre prestataire, modifiez :
+
+- les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_shop_url` de la base de données ;
+- les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_configuration` de la base de données ;
+- le fichier `$HOME/chemin/vers/l'application/app/config/parameters.php`.
+
+La valeur **localhost** du paramètre _physical\_URI_ de la table `ps_shop_url` doit être remplacée par **/**.
