@@ -3,7 +3,7 @@ url = "/fr/sécurité/certificats/ajouter-un-certificat-ssl"
 title = "Comment ajouter un certificat SSL à son site"
 menuTitle = "Ajouter un certificat SSL"
 layout = "howto"
-weight = 20
+weight = 10
 tags = ["https", "sécurité", "ssl"]
 +++
 

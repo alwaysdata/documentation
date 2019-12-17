@@ -1,9 +1,8 @@
 +++
-url = "/fr/comptes/support/système-dalertes/"
+url = "/fr/comptes/support/système-d-alertes/"
 title = "Système d'alertes"
 menuTitle = "Système d'alertes"
 layout = "man"
-weight = 50
 hidden = true
 tags = ["profil"]
 +++
@@ -48,7 +47,7 @@ Ce type d'alerte ne concerne que les _plans gratuits_ et a pour but de ne pas en
 
 ### Migration de compte
 
-- événement déclencheur : une [migration]({{< ref "platform/migrations" >}}) concernant un compte est programmée ;
+- événement déclencheur : une [migration]({{< ref "advanced/migrations" >}}) concernant un compte est programmée ;
 - résolution : appliquer la migration ;
 - expiration : la migration sera appliquée automatiquement (pas nécessairement le jour même de l'expiration).
 

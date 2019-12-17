@@ -1,8 +1,8 @@
 +++
 url = "/fr/securité/"
 title = "Politiques de sécurité"
-menuTitle = "Securité"
-weight = 4
+menuTitle = "Sécurité"
+weight = 35
 chapter = true
 pre = "<i class='fas fa-shield-alt'></i>&nbsp;"
 tags = ["sécurité"]

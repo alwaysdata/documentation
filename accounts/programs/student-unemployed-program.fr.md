@@ -3,7 +3,6 @@ url = "/fr/comptes/programmes/étudiants_sans-emploi"
 title = "Programme étudiants / sans emploi"
 menuTitle = "Étudiants / Sans emploi"
 layout = "man"
-weight = 5
 tags = ["facturation"]
 +++
 

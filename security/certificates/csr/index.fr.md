@@ -3,7 +3,6 @@ url = "/fr/sécurité/certificats/génération-de-csr"
 title = "Comment générer une CSR"
 menuTitle = "Générer une CSR"
 layout = "howto"
-weight = 40
 hidden = true
 tags = ["https", "sécurité", "ssl"]
 +++

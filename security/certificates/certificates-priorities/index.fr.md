@@ -3,7 +3,6 @@ url = "/fr/sécurité/certificats/priorité-de-renvoi-des-certificats-ssl"
 title = "Quel certificat SSL est renvoyé par défaut ?"
 menuTitle = "Priorité des certificats SSL"
 layout = "faq"
-weight = 70
 hidden = true
 tags = ["https", "ssl"]
 +++

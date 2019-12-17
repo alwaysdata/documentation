@@ -3,7 +3,6 @@ url = "/fr/comptes/programmes/enseignants"
 title = "Programme enseignants"
 menuTitle = "Enseignants"
 layout = "man"
-weight = 5
 tags = ["facturation", "patronage"]
 +++
 
@@ -16,4 +15,4 @@ Ce programme donne aux professeurs un endroit pour héberger les projets de leur
 
 Pour en bénéficier [ouvrez un ticket](https://admin.alwaysdata.com/support/add/). C'est gratuit pour les éta­blis­se­ments publics et via des partenariats pour les structures privées.
 
-Une fois la classe finie, les étudiants peuvent garder leurs comptes, [changer d'offre]() et supprimer les [permissions]({{< ref "platform/administration/permissions" >}}) données à leur professeur.
+Une fois la classe finie, les étudiants peuvent garder leurs comptes, [changer d'offre]() et supprimer les [permissions]({{< ref "accounts/permissions" >}}) données à leur professeur.

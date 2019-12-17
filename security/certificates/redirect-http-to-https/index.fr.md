@@ -3,7 +3,7 @@ url = "/fr/sécurité/certificats/rediriger-HTTP-vers-HTTPS"
 title = "Comment rediriger les requêtes HTTP vers HTTPS"
 menuTitle = "Rediriger HTTP vers HTTPS"
 layout = "howto"
-weight = 10
+weight = 1
 tags = ["https", "sécurité", "ssl"]
 +++
 

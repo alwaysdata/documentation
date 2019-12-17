@@ -3,8 +3,7 @@ url = "/fr/sécurité/double-authentification/"
 title = "Double authentification"
 menuTitle = "Double authentification"
 layout = "man"
-hidden = true
-weight = 20
+weight = 10
 tags = ["2fa", "profil", "sécurité"]
 +++
 

@@ -13,9 +13,9 @@ La dernière version de PrestaShop fait partie de nos applications auto-installa
 Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
 
 - téléchargez la version souhaitée sur le [site officiel](https://www.prestashop.com/fr/telecharger) ;
-- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "platform/remote-access/ftp" >}}) ;
-- créez votre [base de données]({{< ref "platform/databases" >}}) MySQL ;
-- créez votre [site]({{< ref "platform/websites/declare-a-website" >}}) ;
+- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;
+- créez votre [base de données]({{< ref "/databases" >}}) MySQL ;
+- créez votre [site]({{< ref "sites/add-a-site" >}}) ;
 - accédez à la page web de votre application pour finaliser son installation ;
 - supprimez le dossier `$HOME/chemin/vers/l'application/install` obsolète après le déploiement.
 

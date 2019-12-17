@@ -3,7 +3,7 @@ url = "/fr/sécurité/certificats/certificats-lets-encrypt"
 title = "Certificats Let's Encrypt"
 menuTitle = "Let's Encrypt"
 layout = "man"
-weight = 30
+weight = 2
 tags = ["https", "sécurité", "ssl"]
 +++
 

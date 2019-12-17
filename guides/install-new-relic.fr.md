@@ -3,7 +3,6 @@ url = "/fr/guides/installer-new-relic/"
 title = "Comment installer New Relic"
 menuTitle = "Installer New Relic"
 layout = "howto"
-weight = 20
 hidden = true
 tags = ["surveillance"]
 +++
@@ -12,7 +11,7 @@ tags = ["surveillance"]
 
 Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "platform/remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de New Relic : `$HOME/newrelic/`

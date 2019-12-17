@@ -1,7 +1,7 @@
 +++
 url = "/fr/guides/"
 title = "Guides"
-weight = 2
+weight = 100
 chapter = true
 pre = "<i class='fas fa-book-open'></i>&nbsp;"
 +++
@@ -16,5 +16,5 @@ pre = "<i class='fas fa-book-open'></i>&nbsp;"
 
 ## Installation de framework
 
-- [Django]({{< ref "platform/languages/python/django" >}})
-- [Ruby on Rails]({{< ref "platform/languages/ruby/ruby-on-rails" >}})
+- [Django]({{< ref "/languages/python/django" >}})
+- [Ruby on Rails]({{< ref "/languages/ruby/ruby-on-rails" >}})

@@ -1,7 +1,7 @@
 +++
 url = "/fr/comptes/programmes/"
 title = "Programmes"
-weight = 10
+weight = 30
 chapter = true
 tags = ["facturation"]
 +++

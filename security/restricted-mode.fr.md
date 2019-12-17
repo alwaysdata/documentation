@@ -1,9 +1,8 @@
 +++
 url = "/fr/sécurité/mode-restreint/"
-title = "Mode restreint"
-menuTitle = "Mode restreint"
+title = "Lever le mode restreint"
 layout = "man"
-weight = 10
+weight = 90
 tags = ["administration", "sécurité"]
 +++
 

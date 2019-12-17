@@ -3,7 +3,6 @@ url = "/fr/sécurité/parefeu/configurer-son-pare-feu"
 title = "Serveurs VPS et dédiés : configurer le pare-feu"
 menuTitle = "Configurer le parefeu"
 layout = "faq"
-weight = 10
 hidden = true
 tags = ["sécurité", "serveur dédié", "serveur vps"]
 +++

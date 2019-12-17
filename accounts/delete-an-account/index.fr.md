@@ -4,7 +4,6 @@ title = "Comment supprimer un compte"
 menuTitle = "Supprimer un compte"
 layout = "howto"
 hidden = true
-weight = 10
 tags = ["compte", "profil"]
 +++
 

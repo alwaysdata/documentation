@@ -4,11 +4,16 @@
 
 Apprenez comment commencer à utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
 
+- Retrouvez toutes les [informations de connexion]({{<ref "remote-access/login-details">}}) liées à votre compte ;
 - Connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
-- créez un [site web]({{< ref "platform/websites/declare-a-website" >}}), [achetez]({{< ref "platform/domains/buy-a-domain" >}}) ou [transférez]({{< ref "platform/domains/transfer-a-domain" >}}) un domaine, créez des [adresses emails]({{< ref "platform/emails/create-an-email-address" >}}) ;
-- transférez vos fichiers en utilisant un protocole d'accès distant - [FTP]({{< ref "platform/remote-access/ftp" >}}) par exemple - et créez votre [base de données]().
+- créez un [site web]({{< ref "sites/add-a-site" >}}), [achetez]({{< ref "domains/buy-a-domain" >}}) ou [transférez]({{< ref "domains/transfer-a-domain" >}}) un domaine, créez des [adresses emails]({{< ref "e-mails/create-an-email-address" >}}) ;
+- transférez vos fichiers en utilisant un protocole d'accès distant - [FTP]({{< ref "remote-access/ftp" >}}) par exemple - et créez votre [base de données]().
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).
+
+{{% notice tip %}}
+Toute publication sur Internet comporte des [obligations légales]({{<ref "accounts/legal-obligations-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.
+{{% /notice %}}
 
 ## Terminologie
 
@@ -28,7 +33,3 @@ Si vous souhaitez nous aider à améliorer cette documentation, n'hésitez surto
 
 - la syntaxe [Markdown](https://daringfireball.net/projects/markdown/) ;
 - le style [encyclopédique](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Style_encyclop%C3%A9dique).
-
-----
-
-- [Obligations légales sur internet]({{< relref "legal-obligations-on-internet" >}})

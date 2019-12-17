@@ -3,7 +3,6 @@ url = "/fr/applithèque/créer-son-script-d-application/"
 title = "Créer son propre script d'application"
 menuTitle = "Créer son propre script"
 layout = "man"
-weight = 5
 hidden = true
 +++
 
@@ -14,7 +13,7 @@ Tout utilisateur peut proposer un script dans le *langage de son choix* qui perm
 Les scripts se composent de deux parties :
 
 * le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en trois :
-    * **site** : voir la [documentation API]({{< ref "platform/api" >}}) qui reprend toutes les options possibles.
+    * **site** : voir la [documentation API]({{< ref "api" >}}) qui reprend toutes les options possibles.
     * **database** : mysql, postgresql, mongodb, couchdb, rabbitmq.
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même

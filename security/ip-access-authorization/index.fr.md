@@ -4,7 +4,6 @@ title = "Autorisation d'accès à l'interface d'administration selon l'IP"
 menuTitle = "Autorisation d'accès selon IP"
 layout = "man"
 hidden = true
-weight = 30
 tags = ["profil", "sécurité"]
 +++
 

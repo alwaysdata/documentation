@@ -16,9 +16,9 @@ La dernière version de WordPress fait partie de nos applications auto-installab
 Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
 
 - téléchargez la version souhaitée sur le [site officiel](http://www.WordPress-fr.net/telechargements/) ;
-- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "platform/remote-access/ftp" >}}) ;
-- créez votre [base de données]({{< ref "platform/databases" >}}) MySQL ;
-- créez votre [site]({{< ref "platform/websites/declare-a-website" >}}) ;
+- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;
+- créez votre [base de données]({{< ref "/databases" >}}) MySQL ;
+- créez votre [site]({{< ref "sites/add-a-site" >}}) ;
 - accédez à la page web de votre application pour finaliser son installation.
 
 Si vous migrez une application WordPress, précédemment hébergée chez un autre prestataire, modifiez :
@@ -50,7 +50,7 @@ add_filter('login_errors',create_function('$a', "return null;"));
 Pour masquer les erreurs de connexion.
 
 - supprimez le compte "admin" créé par défaut ;
-- d'[autres règles]({{<ref "platform/websites/desinfect-a-website" >}}##3-supprimer-les-vecteurs-dinfection).
+- d'[autres règles]({{<ref "sites/desinfect-a-site" >}}##3-supprimer-les-vecteurs-dinfection).
 
 ## Liens utiles
 

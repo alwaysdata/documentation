@@ -1,12 +1,10 @@
 +++
-url = "/fr/securité/pare-feu/"
+url = "/fr/securité/pare-feu"
 title = "Pare-feu"
-weight = 5
-chapter = true
+weight = 30
+layout = "man"
 tags = ["sécurité"]
 +++
-
-# Pare-feu
 
 alwaysdata utilise [Fail2ban](http://www.fail2ban.org/) sur tous ses serveurs comme pare-feu. Après une dizaine de tentatives de connexion échouées, cet outil va bloquer l'IP durant 30 minutes.
 

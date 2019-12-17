@@ -3,7 +3,6 @@ url = "/fr/comptes/support/ticket-urgent/"
 title = "Ticket urgent"
 menuTitle = "Serveur dédié : ticket urgent"
 layout = "man"
-weight = 35
 hidden = true
 tags = ["serveur dédié", "surveillance"]
 +++
