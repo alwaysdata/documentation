@@ -141,8 +141,5 @@ RewriteRule (.*) - [F]
 
 - [Sucuri](http://sucuri.net/) : Scanne et identifie les failles potentielles de votre site ;
 - [Patchman](https://www.patchman.co/): Neutralise les malwares et supprime les failles ;
-- [Better WP Security](http://wordpress.org/plugins/better-wp-security/) : Améliore la sécurité d'un site WordPress ;
-- [WP Security Scan](http://wordpress.org/plugins/wp-security-scan/) : Vérifie la présence de failles de sécurité dans votre site et propose des actions correctives ;
-- [Theme Authenticity Checker](http://wordpress.org/plugins/tac/) : Recherche la présence de codes indésirables dans les fichiers de votre thème ;
 - [Google Webmaster Tools](https://www.google.com/webmasters/tools/home) : fournit des rapports détaillés sur la visibilité de votre site.
 
