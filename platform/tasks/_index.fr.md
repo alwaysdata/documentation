@@ -3,7 +3,7 @@ url = "/fr/plateforme/tâches-planifiées/"
 title = "Tâches planifiées"
 weight = 55
 chapter = true
-tags = ["scheduled tasks"]
+tags = ["tâches planifiées"]
 +++
 
 # Tâches planifiées

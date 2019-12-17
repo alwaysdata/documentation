@@ -5,7 +5,7 @@ menuTitle = "Utiliser des tâches planifiées"
 layout = "howto"
 weight = 10
 hidden = true
-tags = ["scheduled tasks"]
+tags = ["tâches planifiées"]
 +++
 
 Via le menu **Avancé > Tâches planifiées** de votre interface d'administration, entrez les commandes que vous souhaitez exécuter, les URL auxquelles vous souhaitez accéder à intervalle régulier et définissez la période de répétition de ses tâches. 
