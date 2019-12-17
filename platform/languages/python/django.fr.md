@@ -4,7 +4,7 @@ title = "Comment installer une application Django"
 hidden = true
 layout = "howto"
 width = 50
-tags = ["python"]
+tags = ["django", "python"]
 +++
 
 Une application Django se déploie chez alwaysdata comme n'importe quelle application WSGI. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.
