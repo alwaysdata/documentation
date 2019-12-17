@@ -23,6 +23,5 @@ Si vous migrez une application PrestaShop, précédemment hébergée chez un aut
 
 - les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_shop_url` de la base de données ;
 - les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_configuration` de la base de données ;
+- la valeur **localhost** du paramètre _physical\_URI_ de la table `ps_shop_url` par **/** ;
 - le fichier `$HOME/chemin/vers/l'application/app/config/parameters.php`.
-
-La valeur **localhost** du paramètre _physical\_URI_ de la table `ps_shop_url` doit être remplacée par **/**.
