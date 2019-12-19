@@ -1,7 +1,7 @@
 +++
 url = "/fr/langages/nodejs/"
 title = "Node.js"
-pre = "<i class='fas fa-node-js'></i>&nbsp;"
+pre = "<i class='fab fa-node-js'></i>&nbsp;"
 chapter = true
 weight = 1
 +++
