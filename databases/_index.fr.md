@@ -10,7 +10,7 @@ tags = ["base de données"]
 
 Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous proposons sont **entièrement infogérés**, sur toutes nos offres : nous nous chargeons de l'installation, la configuration, la maintenance et la sécurisation de vos bases de données. Ainsi, vous vous occupez uniquement des interactions entre vos applications et vos bases de données.
 
-Certains systèmes, comme par exemple *Elasticsearch*, ne sont accessibles qu'en environnement dédié.
+Certains systèmes, comme par exemple *Elasticsearch*, ne sont accessibles qu'en environnements VPS ou dédiés.
 
 {{% notice info %}}
 Pour des raisons de sécurité, la création des bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API]({{< ref "api" >}}). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
@@ -26,13 +26,13 @@ Il est interdit d'héberger **uniquement** des bases de données sur le pack gra
 - [PostgreSQL]({{< ref "databases/postgresql" >}})
 - [MongoDB]({{< ref "databases/mongodb" >}})
 - [CouchDB]({{< ref "databases/couchdb" >}})
-- RabbitMQ
+- [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 
 En plans VPS et dédiés :
 
-- Elasticsearch
-- Memcached
-- Redis
+- [Elasticsearch]({{< ref "databases/elasticsearch" >}})
+- [Memcached]({{< ref "databases/memcached" >}})
+- [Redis]({{< ref "databases/redis" >}})
 
 ---
 

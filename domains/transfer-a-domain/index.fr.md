@@ -3,7 +3,7 @@ url = "/fr/domaines/transférer-un-domaine/"
 title = "Comment transférer un domaine"
 menuTitle = "Transférer un domaine"
 layout = "howto"
-weight = 12
+weight = 2
 tags = ["domaine"]
 +++
 

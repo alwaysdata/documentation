@@ -1,9 +1,9 @@
 +++
 url = "/fr/emails/ajouter-une-règle-de-filtrage/"
 title = "Comment ajouter une règle de filtrage"
-menuTitle = "Ajouter un filtre"
+menuTitle = "Ajouter une règle de filtrage"
 layout = "howto"
-hidden = true
+weight = 25
 tags = ["email"]
 +++
 

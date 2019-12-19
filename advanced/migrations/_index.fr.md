@@ -3,7 +3,7 @@ url = "/fr/avancé/migrations/"
 title = "Migrations"
 weight = 20
 chapter = true
-tags = ["migration"]
+tags = ["infrastructure", "migration"]
 +++
 
 # Migrations
@@ -17,3 +17,16 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 - [Effectuer une migration]({{< ref "advanced/migrations/perform-migration" >}})
 - [Migrations VPS/dédié]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
+
+
+## Migrations actuellement proposées
+
+- MariaDB 10.3 depuis [MariaDB 10.1](https://mariadb.com/kb/en/library/upgrading-from-mariadb-101-to-mariadb-102/) ou [MariaDB 10.2](https://mariadb.com/kb/en/library/upgrading-from-mariadb-102-to-mariadb-103/) ;
+- [PostgreSQL 10](https://www.postgresql.org/docs/10/release.html) depuis PostgreSQL 9.6 ; les changements notables sont :
+    - les paramètres `escape_string_warning` et `standard_conforming_strings` sont mis à "on" ;
+    - l'extension [tsearch2](https://www.postgresql.org/docs/9.6/static/tsearch2.html) est obsolète.
+- [CouchDB 2.2](http://docs.couchdb.org/en/2.2.0/whatsnew/2.2.html) depuis CouchDB 1.7.
+
+## Anciennes migrations
+
+- [Infrastructure logicielle 2017]({{< ref "advanced/migrations/2017-software-architecture" >}}) 

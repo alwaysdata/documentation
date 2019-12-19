@@ -63,7 +63,7 @@ Ou alors :
 ?>
 ```
 
-Tous ses fichiers doivent être **supprimés**.
+Tous ces fichiers doivent être **supprimés**.
 
 - Inspectez vos sources à la recherche de dossiers cachés contenant une copie des malwares précédemment supprimés :
 

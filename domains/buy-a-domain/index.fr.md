@@ -3,7 +3,7 @@ url = "/fr/domaines/acheter-un-domaine/"
 title = "Comment acheter un domaine"
 menuTitle = "Acheter un domaine"
 layout = "howto"
-weight = 10
+weight = 1
 tags = ["domaine"]
 +++
 
@@ -25,4 +25,5 @@ Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org
 Le domaine sera créé quelques minutes après le paiement.
 {{% /notice %}}
 
-
+## Quelle extension de domaine dois-je choisir ?
+Beaucoup d’extensions existent, certaines sont géographiques et rattachées à un pays ou une zone institutionnelle, d’autres sont génériques. L’extension à choisir, dépend de votre besoin, de votre budget mais aussi de la nationalité du propriétaire.

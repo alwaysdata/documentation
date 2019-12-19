@@ -3,7 +3,7 @@ url = "/fr/emails/utiliser-les-scripts-sieve/"
 title = "Comment utiliser les scripts Sieve"
 menuTitle = "Utiliser les scripts Sieve"
 layout = "howto"
-weight = 25
+hidden = true
 tags = ["email"]
 +++
 

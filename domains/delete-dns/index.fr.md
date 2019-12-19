@@ -3,7 +3,7 @@ url = "/fr/domaines/supprimer-un-enregistrement-dns/"
 title = "Comment supprimer un enregistrement DNS"
 menuTitle = "Supprimer un enregistrement DNS"
 layout = "howto"
-weight = 9
+hidden = true
 tags = ["dns", "domaine"]
 +++
 

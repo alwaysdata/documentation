@@ -42,6 +42,7 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 | Hôtes      | \<votre IP\>                                     |
 | Ports      | \<ne rien indiquer\>                             |
 | Version IP | IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées) |
+
 {{< fig "images/rule-example.fr.png" "Exemple" >}}
 
 ## Banissements

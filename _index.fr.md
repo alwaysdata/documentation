@@ -5,11 +5,15 @@
 Apprenez comment commencer à utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
 
 - Retrouvez toutes les [informations de connexion]({{<ref "remote-access/login-details">}}) liées à votre compte ;
-- Connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
+- connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
 - créez un [site web]({{< ref "sites/add-a-site" >}}), [achetez]({{< ref "domains/buy-a-domain" >}}) ou [transférez]({{< ref "domains/transfer-a-domain" >}}) un domaine, créez des [adresses emails]({{< ref "e-mails/create-an-email-address" >}}) ;
-- transférez vos fichiers en utilisant un protocole d'accès distant - [FTP]({{< ref "remote-access/ftp" >}}) par exemple - et créez votre [base de données]().
+- transférez vos fichiers en utilisant un protocole d'accès distant - [FTP]({{< ref "remote-access/ftp" >}}) par exemple - et créez votre [base de données]({{< ref "databases" >}}).
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).
+
+Vous n'êtes pas encore client ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/#contact) et inscrivez-vous sur notre [plateforme](https://www.alwaysdata.com/fr/inscription/).
+
+Quelle que soit la question, vous pouvez aussi nous contacter via notre [canal IRC](irc://irc.freenode.net/alwaysdata) ou [Twitter](https://twitter.com/alwaysdata).
 
 {{% notice tip %}}
 Toute publication sur Internet comporte des [obligations légales]({{<ref "accounts/legal-obligations-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.

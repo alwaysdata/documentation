@@ -24,6 +24,10 @@ Nous proposons ces différentes méthodes :
 Les alimentations de compte par _virement_ ou _chèque_ apparaîtront dans votre interface dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.
 {{% /notice %}}
 
+### Cartes bancaires acceptées
+
+Les cartes bancaires autorisées par notre prestataire de paiement sont : CB, Visa et MasterCard.
+
 ## Prélèvement automatique
 
 Entrez vos coordonnées bancaires - compte ou carte - dans votre administration, menu **Facturation > Moyens de paiement**.

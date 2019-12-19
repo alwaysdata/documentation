@@ -8,7 +8,7 @@ tags = ["prestashop"]
 +++
 
 ## Installation
-La dernière version de PrestaShop fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+La dernière version de [PrestaShop](https://www.prestashop.com/fr) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 
 Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
 

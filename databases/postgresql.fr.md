@@ -10,7 +10,7 @@ tags = ["base de données", "postgresql"]
 |                   |                                                  |
 |-------------------|--------------------------------------------------|
 | **Serveur**       | postgresql-[compte].alwaysdata.net               |
-| **Port**          | 5432 (Port MySQL par défaut)                     |
+| **Port**          | 5432 (Port PostgreSQL par défaut)                |
 | **Interface web** | [phpPgAdmin](https://phppgadmin.alwaysdata.com/) |
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > PostgreSQL** de l'interface d'administration.
@@ -43,3 +43,11 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 
 * **locale** : détermine l'encodage, `LC_COLLATE` et `LC_CTYPE` ;
 * **extensions** : vous pouvez installer d'un simple clic des extensions PostgreSQL (`hstore`, `pgcrypto`, `PostGIS`, etc.). Si vous avez besoin d'une extension non listée, vous pouvez tout à fait contacter notre équipe.
+
+{{% notice note %}}
+Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé, mais l'accès ne se fait, bien entendu, qu'en lecture seule.
+{{% /notice %}}
+
+---
+
+- [Documentation PostgreSQL](https://www.postgresql.org/docs/)

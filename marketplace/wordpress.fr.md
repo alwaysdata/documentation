@@ -11,7 +11,7 @@ WordPress est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_c
 
 ## Installation
 
-La dernière version de WordPress fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+La dernière version de [WordPress](https://fr.wordpress.org/) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 
 Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
 
@@ -54,6 +54,6 @@ Pour masquer les erreurs de connexion.
 
 ## Liens utiles
 
-* [Better WP Security](http://wordpress.org/plugins/better-wp-security/ "Better WP Security") : Améliore la sécurité de votre site WordPress.
-* [WP Security Scan](http://wordpress.org/plugins/wp-security-scan/ "WP Security Scan") : Vérifie la présence de failles de sécurité dans votre site et propose des actions correctives.
-* [Theme Authenticity Checker](http://wordpress.org/plugins/tac/ "Theme Authenticity Checker") : Recherche la présence de codes indésirables dans les fichiers de votre thème.
+* [Better WP Security](http://wordpress.org/plugins/better-wp-security/) : Améliore la sécurité de votre site WordPress.
+* [WP Security Scan](http://wordpress.org/plugins/wp-security-scan/) : Vérifie la présence de failles de sécurité dans votre site et propose des actions correctives.
+* [Theme Authenticity Checker](http://wordpress.org/plugins/tac/) : Recherche la présence de codes indésirables dans les fichiers de votre thème.

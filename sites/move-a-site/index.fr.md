@@ -53,8 +53,8 @@ bar@ssh:~$ rm foo_base.sql
 - MongoDB :
 
 ```
-bar@ssh:~$ mongoexport -u foo -p -h mongodb-foo.alwaysdata.net foo_base > foo_base.json
-bar@ssh:~$ mongoimport -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.json
+bar@ssh:~$ mongodump -u foo -p -h mongodb-foo.alwaysdata.net -d foo_base > foo_base.bson
+bar@ssh:~$ mongorestore -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.bson
 bar@ssh:~$ rm foo_base.sql
 ```
 

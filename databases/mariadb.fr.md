@@ -32,3 +32,7 @@ MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est t
 {{% notice info %}}
 MariaDB est proposé par défaut sur nos serveurs mais les clients VPS et dédiés peuvent demander à utiliser MySQL.
 {{% /notice %}}
+
+---
+
+- Documentation [MariaDB](https://mariadb.com/kb/en/library/documentation/) et [MySQL](https://dev.mysql.com/doc/)

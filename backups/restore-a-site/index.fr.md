@@ -19,7 +19,7 @@ Les sauvegardes de vos fichiers et bases de données se trouvent dans le répert
 La restauration va écraser la configuration actuelle, effectuez donc auparavant une sauvegarde.
 {{% /notice %}}
 
-{{% notice info %}}
+{{% notice note %}}
 Le temps de restauration dépend de la taille des fichiers à restaurer.
 {{% /notice %}}
 

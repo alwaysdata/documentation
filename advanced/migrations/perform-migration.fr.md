@@ -4,7 +4,7 @@ title = "Comment effectuer une migration"
 menuTitle = "Effectuer une migration"
 layout = "howto"
 hidden = true
-tags = ["migration"]
+tags = ["infrastructure", "migration"]
 +++
 
 Chaque migration amène des changements qui peuvent provoquer des incompatibilités avec vos applications. C'est pourquoi nous vous conseillons la plus grande vigilance lorsque vous effectuez une migration, d'autant qu'il n'est pas possible de revenir en arrière.

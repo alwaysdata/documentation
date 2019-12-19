@@ -2,7 +2,7 @@
 url = "/fr/langages/nodejs/"
 title = "Node.js"
 chapter = true
-weight = 1
+tags = ["nodejs"]
 +++
 
 # Node.js
@@ -11,3 +11,6 @@ Le fonctionnement de [Node.js](https://nodejs.org/) chez alwaysdata est très st
 
 * les [versions proposées]({{< ref "languages/nodejs/configuration" >}}#versions-supportées) vont de la 6.14.4 à la 12.0.0 ;
 * la [configuration d'environnement]({{< ref "languages/nodejs/configuration" >}}#environnement) se fait très simplement.
+
+Le framework [Express.js](https://expressjs.com/fr/) fait partie de nos applications autoinstallables. 
+

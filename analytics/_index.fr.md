@@ -7,8 +7,6 @@ weight = 40
 tags = ["http", "statistiques", "site"]
 +++
 
-# Statistiques
-
 À partir des logs bruts HTTP (`$HOME/admin/logs/http`) nous générons des statistiques [Matomo](https://fr.matomo.org/).
 
 

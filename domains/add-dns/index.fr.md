@@ -3,7 +3,7 @@ url = "/fr/domaines/ajouter-un-enregistrement-dns/"
 title = "Comment ajouter un enregistrement DNS"
 menuTitle = "Ajouter un enregistrement DNS"
 layout = "howto"
-weight = 3
+weight = 6
 tags = ["dns", "domaine"]
 +++
 

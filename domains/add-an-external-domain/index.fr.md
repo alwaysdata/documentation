@@ -3,7 +3,7 @@ url = "/fr/domaines/ajouter-un-domaine-externe/"
 title = "Comment ajouter un domaine externe"
 menuTitle = "Ajouter un domaine externe"
 layout = "howto"
-weight = 2
+weight = 5
 tags = ["domaine"]
 +++
 

@@ -25,7 +25,7 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
     - [Ruby Rack]({{< ref "languages/ruby" >}}) ;
     - [Ruby on Rails <= 2.x]({{< ref "languages/ruby/ruby-on-rails" >}}) ;
     - [Node.js]({{< ref "languages/nodejs" >}}) ;
-    - Elixir ;
+    - [Elixir]({{< ref "languages/elixir" >}}) ;
     - [Redirection]({{< ref "sites/redirect" >}}) ;
     - [Fichiers statiques]({{< ref "sites/static-files" >}}) : pour gérer des sites ou fichiers statiques ;
     - [Apache personnalisé]({{< ref "sites/apache-custom" >}}) : pour totalement configurer son serveur Apache ;
