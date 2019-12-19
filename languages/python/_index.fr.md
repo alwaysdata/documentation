@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/python/"
 title = "Python"
-pre = "<i class='fab fa-python'></i>&nbsp;"
 chapter = true
 weight = 3
 +++

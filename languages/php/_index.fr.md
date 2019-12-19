@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/php/"
 title = "PHP"
-pre = "<i class='fab fa-php'></i>&nbsp;"
 chapter = true
 weight = 5
 +++

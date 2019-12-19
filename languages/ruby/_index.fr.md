@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/ruby/"
 title = "Ruby"
-pre = "<i class='far fa-gem'></i>&nbsp;"
 chapter = true
 weight = 6
 +++
