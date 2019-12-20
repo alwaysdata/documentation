@@ -12,9 +12,9 @@ Une facture est émise quelques heures après avoir souscrit à un service d'alw
 
 Vous disposez de **30 jours** pour la régler dans **Facturation > Factures > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte** grâce à différents [moyens de paiement]({{< relref "payment-methods" >}}).
 
-- [Parrainer]({{< relref "sponsorship" >}})
+- [Choisir son plan d'hébergement]({{< relref "choose-its-paas" >}})
 - [Changer d'offre]({{< relref "upgrade-your-plan" >}})
+- [Parrainer]({{< relref "sponsorship" >}})
 - [Diverses questions]({{< relref "./misc" >}})
-
 
 L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Factures**.

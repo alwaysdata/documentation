@@ -32,6 +32,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 ## Facturation
 
 - [Payer ses factures]({{< relref "billing" >}})
+- [Choisir son plan d'hébergement]({{< relref "billing/choose-its-paas" >}})
 - [Moyens de paiement]({{< relref "billing/payment-methods" >}})
 - [Parrainage]({{< relref "billing/sponsorship" >}})
 - [Changer d'offre]({{< relref "billing/upgrade-your-plan" >}})
