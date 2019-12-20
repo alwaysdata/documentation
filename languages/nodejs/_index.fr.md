@@ -14,3 +14,4 @@ Le fonctionnement de [Node.js](https://nodejs.org/) chez alwaysdata est très st
 
 Le framework [Express.js](https://expressjs.com/fr/) fait partie de nos applications autoinstallables. 
 
+* [Ressource API](https://api.alwaysdata.com/v1/environment/nodejs/doc/)

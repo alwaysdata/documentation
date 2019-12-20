@@ -12,10 +12,11 @@ Le fonctionnement de Python chez alwaysdata est très standard. Si vous avez l'h
 * les [versions proposées]({{< ref "languages/python/configuration" >}}#versions-supportées) vont de la 2.4 à la 3.8 ;
 * la [configuration d'environnement]({{< ref "languages/python/configuration" >}}#environnement) se fait très simplement.
 
-Les frameworks [Django](https://www.djangoproject.com/) et [Flask](https://flask.palletsprojects.com/) font partie de nos applications autoinstallables. 
+Les frameworks [Django](https://www.djangoproject.com/) et [Flask](https://flask.palletsprojects.com/) font partie de nos applications autoinstallables.
+
+* [Ressource API](https://api.alwaysdata.com/v1/environment/python/doc/)
 
 ---
-
 Retrouvez nos guides :
 
 * [Déployer une application Django]({{< ref "languages/python/django" >}})

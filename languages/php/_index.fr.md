@@ -17,3 +17,4 @@ Le fonctionnement de PHP chez alwaysdata est très standard. Si vous avez l'habi
 
 Les frameworks [CakePHP](https://cakephp.org/), [Laravel](https://laravel.com/), [Symfony](https://symfony.com/) et [Zend](https://framework.zend.com/) font partie de nos applications autoinstallables. 
 
+* [Ressource API](https://api.alwaysdata.com/v1/environment/php/doc/)

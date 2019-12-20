@@ -14,8 +14,9 @@ Le fonctionnement de Ruby chez alwaysdata est très standard. Si vous avez l'hab
 
 Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sinatrarb.com/) font partie de nos applications autoinstallables. 
 
----
+* [Ressource API](https://api.alwaysdata.com/v1/environment/ruby/doc/)
 
+---
 Retrouvez nos guides :
 
 * [Déployer une application Ruby on Rails]({{< ref "languages/ruby/ruby-on-rails" >}})
