@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/go/"
 title = "Go"
-pre = "<i class='fas fa-go'></i>&nbsp;"
 chapter = true
 tags = ["golang"]
 +++

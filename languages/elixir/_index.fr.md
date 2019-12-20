@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/elixir/"
 title = "Elixir"
-pre = "<i class='fas fa-elixir'></i>&nbsp;"
 chapter = true
 tags = ["elixir"]
 +++

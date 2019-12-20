@@ -1,7 +1,6 @@
 +++
 url = "/fr/langages/lua/"
 title = "Lua"
-pre = "<i class='fas fa-lua'></i>&nbsp;"
 chapter = true
 tags = ["lua"]
 +++
