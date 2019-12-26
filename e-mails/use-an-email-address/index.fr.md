@@ -50,6 +50,6 @@ Par défaut, le webmail est en anglais. Pour changer de langue, cliquez sur **Se
 
 ## Remarques
 
-- Les mails sont sauvegardés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
+- Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
 - Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des tentatives régulières de renvoi ;
 - La taille limite des emails envoyés est fixée à **50 Mo**.

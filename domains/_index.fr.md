@@ -9,7 +9,7 @@ tags = ["dns", "domaine"]
 
 # Domaines
 
-Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez](https://www.alwaysdata.com/fr/domaines/#main), transférez ou ajoutez en gestion votre domaine. Revendeurs GANDI, nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
+Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez](https://www.alwaysdata.com/fr/domaines/#main), transférez ou ajoutez en gestion votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
 
 ## Ressources
 

@@ -35,7 +35,7 @@ $ ls $(php-config --extension-dir)
 Pour voir la liste des extensions déjà chargées sur votre compte :
 
 ```
-$ grep extension admin/config/php/php.ini
+$ grep extension $HOME/admin/config/php/php.ini
 ```
 
 Pour charger une extension incluse dans PHP, vous n'aurez pas besoin de spécifier le répertoire complet, seul le nom du fichier suffit. Par exemple :

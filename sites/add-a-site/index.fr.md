@@ -36,7 +36,7 @@ Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis pa
 - [SSL]({{< ref "security/certificates/redirect-http-to-https" >}}) : rediriger le HTTP vers HTTPS ;
 {{< fig "images/admin-panel_add-site-ssl.fr.png" "Ajouter un site : SSL" >}}
 
-- [WAF]({{< ref "sites/waf" >}}) : configurer le parefeu web applicatif ;
+- [WAF]({{< ref "sites/waf" >}}) : configurer le pare-feu web applicatif ;
 {{< fig "images/admin-panel_add-site-waf.fr.png" "Ajouter un site : WAF" >}}
 
 - [Cache]({{< ref "sites/http-cache" >}}) : mettre en place le cache HTTP ;
@@ -47,5 +47,7 @@ Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis pa
 
 - Avancé.
 {{< fig "images/admin-panel_add-site-advanced.fr.png" "Ajouter un site : avancé" >}}
+
+---
 
 Les logs HTTP sont disponibles dans le répertoire `$HOME/admin/logs/http/`. Les logs _sites_ reprenant les lancements, arrêts et dysfonctionnements des serveurs web "upstream" sont disponibles dans `$HOME/admin/logs/sites/`.

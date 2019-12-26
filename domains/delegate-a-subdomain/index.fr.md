@@ -13,6 +13,6 @@ Pour ce faire, rendez-vous dans **Domaines > Détails** du domaine concerné **>
 {{< fig "images/admin-panel_subdomain-delegation-list.fr.png" "Menu des délégations" >}}
 {{< fig "images/admin-panel_subdomain-add-delegation.fr.png" "Ajout d'une délégation : formulaire" >}}
 {{% notice info %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez une délégation pour _www.domaine.tld.domaine.tld_.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _www.domaine.tld_ dans cette case, vous créerez une délégation pour _www.domaine\.tld.domaine\.tld_.
 {{% /notice %}}
 {{< fig "images/admin-panel_subdomain-delegation-result.fr.png" "Ajout d'une délégation : résultat" >}}

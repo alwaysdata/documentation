@@ -99,10 +99,10 @@ Si l'infection est **récente** et la recherche de l'infection compliquée, il e
 ## 3. Supprimer les vecteurs d'infection
 
 - **Mettez régulièrement à jour** l'application, ses plugins et thèmes ;
-- Supprimer tous les plugins et thèmes inactifs ;
+- Supprimez tous les plugins et thèmes inactifs ;
 - Informez-vous sur les rapports de bugs et failles de sécurité des applications/plugins avant de les installer ;
 - Mettez en place le [pare-feu applicatif web]({{< ref "sites/waf" >}}) ;
-- Modifiez le préfixe du nom des tables de vote base de données (par exemple pour WordPress _wp\__) ;
+- Modifiez le préfixe du nom des tables de votre base de données (par exemple pour WordPress _wp\__) ;
 - Supprimez le fichier readme.txt à la racine de votre application ;
 - Supprimez les utilisateurs créés par défaut ;
 - Protégez-vous du [hotlinking](http://fr.wikipedia.org/wiki/Hotlinking) en ajoutant au fichier .htaccess :
@@ -119,7 +119,7 @@ RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?votredomaine.com [NC]
 RewriteCond %{HTTP_REFERER}  !search\?q=cache               [NC]
 RewriteCond %{HTTP_REFERER}  !google\.                      [NC]
 
-# Renvoi d'une image alternative en cas d'emploi abusif des votre
+# Renvoi d'une image alternative en cas d'emploi abusif des vôtres
 RewriteRule \.(gif|jpg|png)$ http://domain.tld/hotlink.jpg  [R,NC,L]
 ```
 
@@ -139,7 +139,7 @@ RewriteRule (.*) - [F]
 
 ## Liens
 
-- [Sucuri](http://sucuri.net/) : Scanne et identifie les failles potentielles de votre site ;
-- [Patchman](https://www.patchman.co/): Neutralise les malwares et supprime les failles ;
+- [Sucuri](http://sucuri.net/) : scanne et identifie les failles potentielles de votre site ;
+- [Patchman](https://www.patchman.co/): neutralise les malwares et supprime les failles ;
 - [Google Webmaster Tools](https://www.google.com/webmasters/tools/home) : fournit des rapports détaillés sur la visibilité de votre site.
 

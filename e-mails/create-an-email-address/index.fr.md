@@ -18,7 +18,7 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 {{< fig "images/admin-panel_create-mailbox_required-infos.fr.png" "Interface d'administration : Emails - informations obligatoire" >}}
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
-- _Partie locale_ : partie à gauche du @ de l'adresse email (par exemple, si vous voulez créer contact@exemple.fr, la partie locale sera contact). Vous pouvez aussi créer une adresse collectrice (catch-all).
+- _Partie locale_ : partie à gauche du @ de l'adresse email (par exemple, si vous voulez créer contact@exemple.fr, la partie locale sera contact). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
 - _Mot de passe_ : mot de passe nécessaire pour la connexion à cette adresse email.
 
 ## Antispam
@@ -83,10 +83,4 @@ Sans précision de la taille maximum d'une boîte email, c'est l'espace disponib
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 
-Cette technologie permet d'effectuer des opérations plus précises à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.
-
-- _Script_ : script au format [Sieve](http://fr.wikipedia.org/wiki/Sieve).
-
-{{% notice info %}}
-N'utilisez pas la directive require, elle est déjà inclue par défaut. Le script final (avec nos propres directives) est stocké dans le fichier `~/admin/mail/[domaine]/[boite]/filter.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
-{{% /notice %}}
+Cette technologie permet d'effectuer des [opérations plus précises]({{< ref "e-mails/use-sieve-scripts" >}}) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.

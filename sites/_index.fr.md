@@ -13,7 +13,7 @@ Pour gérer vos sites, ajoutez les adresses dans **Web > Sites**. Choisissez le 
 
 Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même compte. À noter que cela entraîne cependant un risque de sécurité, l'isolation étant au niveau des comptes.
 
-## Resources
+## Ressources
 
 - [API](https://api.alwaysdata.com/v1/site/doc/)
 - [Déclarer un site]({{< relref "./add-a-site" >}})

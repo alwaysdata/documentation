@@ -9,7 +9,7 @@ tags = ["ruby"]
 
 Le fonctionnement de Ruby chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Ruby sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
-* les [versions proposées]({{< ref "languages/ruby/configuration" >}}#versions-supportées) vont de la 1.8.7 à la 2.5 ;
+* les [versions proposées]({{< ref "languages/ruby/configuration" >}}#versions-supportées) vont de la 1.8 à la 2.6 ;
 * la [configuration d'environnement]({{< ref "languages/ruby/configuration" >}}#environnement) se fait très simplement.
 
 Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sinatrarb.com/) font partie de nos applications autoinstallables. 

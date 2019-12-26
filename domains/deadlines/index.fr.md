@@ -11,8 +11,8 @@ Différentes dates existent :
 
 - Renouvellement : process _normal_ pour ajouter une ou plusieurs années à la date d’expiration actuelle du domaine.
 - Renouvellement tardif : délai optionnel proposé par le registre vous permettant de renouveler le domaine après sa date d’expiration.
-- Effacement chez alwaysdata : date à laquelle le domaine n'est plus être géré chez alwaysdata mais peut optionnellement être restauré auprès du registre. Contactez notre [support](https://admin.alwaysdata.com/support/add/).
-- Restauration possible : le domaine est en _rédemption_ ; il peut être restaurer auprès du registre, mais sa facturation est _plus chère_ par le registre.
+- Effacement chez alwaysdata : date à laquelle le domaine n'est plus géré chez alwaysdata mais peut optionnellement être restauré auprès du registre. Contactez notre [support](https://admin.alwaysdata.com/support/add/).
+- Restauration possible : le domaine est en _rédemption_ ; il peut être restauré auprès du registre, mais sa facturation est _plus chère_ par le registre.
 - Destruction au registre : date à partir de laquelle le domaine peut _redevenir disponible_ à l’enregistrement. Certains registres ajoute une période aléatoire à cette date avant la destruction du domaine afin de permettre l’application de la règle "premier arrivé, premier servi".
 
 | Extension      | Renouvellement possible                            | Renouvellement tardif possible                    | Effacement chez alwaysdata | Restauration possible                                             | Destruction par le registre                                       |

@@ -20,7 +20,7 @@ Avant de lancer l'opération le propriétaire doit :
 Ces informations doivent se récupérer dans l'onglet **Domaines > Détails** du domaine :
 {{< fig "images/admin-panel_domain-details.fr.png" "Préparer un transfert" >}}
 
-Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un autre transfert.
+Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
 
 

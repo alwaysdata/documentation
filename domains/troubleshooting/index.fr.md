@@ -35,7 +35,7 @@ Le prestataire actuel du domaine a bloqué le transfert. Contactez-les pour en c
 Un changement de propriétaire doit être accepté par l'ancien et le nouveau propriétaire dans un délai de 15 jours. Vérifiez les adresses emails des deux contacts.
 
 ## Domaine suspendu par l'ICANN
-L'[ICANN](https://www.icann.org/fr) vérifie les adresses emails des propriétaires de domaine pour s'assurer de leur bon fonctionnement. Les propriétaires ont 15 jours pour valider l'email qu'ils envoient.
+L'[ICANN](https://www.icann.org/fr) vérifie les adresses emails des propriétaires de domaine pour s'assurer de leur bon fonctionnement. Les propriétaires ont 15 jours pour valider l'email envoyé par l'ICANN.
 
 Un `whois` indiquera le message suivant :
 

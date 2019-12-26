@@ -8,13 +8,13 @@ tags = ["php"]
 
 ## Versions supportées
 
-| Majeure | Mineures                |
-|---------|-------------------------|
-| 7       | 7.4, 7.3, 7.2, 7.1, 7.0 |
-| 5       | 5.6, 5.5, 5.4, 5.3, 5.2 |
-| 4       | 4.4                     |
+| Majeures                |
+|-------------------------|
+| 7.4, 7.3, 7.2, 7.1, 7.0 |
+| 5.6, 5.5, 5.4, 5.3, 5.2 |
+| 4.4                     |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez PHP.
+La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
 
 ## Logs d'erreur
 
