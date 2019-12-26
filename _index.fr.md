@@ -2,7 +2,7 @@
 
 ## Débuter
 
-Apprenez comment commencer à utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
+Apprenez comment utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
 
 - Retrouvez toutes les [informations de connexion]({{<ref "remote-access/login-details">}}) liées à votre compte ;
 - connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
