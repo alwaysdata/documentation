@@ -8,16 +8,16 @@ tags = ["nodejs"]
 
 ## Versions supportées
 
-| Majeure | Mineures                                    |
-|---------|---------------------------------------------|
-| 12      | 12.0.0                                      |
-| 11      | 11.12.0, 11.8.0, 11.1.0, 11.0.0             |
-| 10      | 10.15.3, 10.15.1, 10.13.0, 10.12.0, 10.9.0  |
-| 9       | 9.11.2                                      |
-| 8       | 8.15.1, 8.15.0, 8.12.0, 8.11.4              |
-| 6       | 6.17.0, 6.16.0, 6.14.4                      |
+| Majeures |
+|----------|
+| 12       |
+| 11       |
+| 10       |
+| 9        |
+| 8        |
+| 6        |
 
-La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez node.
+La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 
 ## Binaire à utiliser
 
@@ -26,10 +26,10 @@ Vous devez toujours utiliser `node` (ou `/usr/bin/node`). N'utilisez jamais `nod
 Pour forcer une version de Node.js différente de celle par défaut, définissez la variable d'environnement `NODEJS_VERSION` :
 
 ```
-$ NODEJS_VERSION=8.4.0 node
+$ NODEJS_VERSION=12 node
 ```
 
-Dans vos scripts, utilisez `/usr/bin/nodejs` comme *shebang* :
+Dans vos scripts, utilisez `/usr/bin/node` comme *shebang* :
 
 ```
 #!/usr/bin/nodejs

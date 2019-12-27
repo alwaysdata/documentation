@@ -8,12 +8,12 @@ tags = ["java"]
 
 ## Versions supportées
 
-| Majeure | Commande                                                    |
-|---------|-------------------------------------------------------------|
-| 10      | `/usr/lib/jvm/java-10-openjdk-amd64/jre/bin/java`           |
-| 9       | `/usr/lib/jvm/java-9-openjdk-amd64/jre/bin/java`            |
-| 8       | `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java`            |
-| 7       |  `java` ou `/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java` |
+| Majeures | Commande                                                    |
+|----------|-------------------------------------------------------------|
+| 10       | `/usr/lib/jvm/java-10-openjdk-amd64/jre/bin/java`           |
+| 9        | `/usr/lib/jvm/java-9-openjdk-amd64/jre/bin/java`            |
+| 8        | `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java`            |
+| 7        |  `java` ou `/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java` |
 
 La version par défaut est Java 1.7. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 

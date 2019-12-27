@@ -8,7 +8,7 @@ chapter = true
 
 # Langages
 
-Retrouvez-toutes les informations sur les technologies propulsées par nos serveurs :
+Retrouvez toutes les informations sur les technologies propulsées par nos serveurs :
 
 * [Elixir]({{< ref "languages/elixir" >}})
 * [Go]({{< ref "languages/go" >}})

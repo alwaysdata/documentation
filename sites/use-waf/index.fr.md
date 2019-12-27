@@ -38,7 +38,7 @@ L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une 
 
 Selon votre cas d'utilisation, le **comportement du WAF peut être trop restrictif**. Il est aussi possible qu'il génère de **faux positifs** lors de son analyse. Si vous jugez que son comportement n'est pas approprié, vous avez la possibilité d'exclure certaines règles utilisées lors de l'analyse.
 
-Seul le **numéro de la règle à exclure** doit être spécifié. Vous le retrouverez dans les logs Sites (_~/admin/logs/sites_). Exemple :
+Seul le **numéro de la règle à exclure** doit être spécifié. Vous le retrouverez dans les logs Sites (`$HOME/admin/logs/sites`). Exemple :
 
 ```
 [08/Jan/2019:11:09:19 +0100] [waf] - \<IP attaquante\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: ">\<script\>alert(1);\</script>

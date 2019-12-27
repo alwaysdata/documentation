@@ -12,12 +12,12 @@ tags = ["domaine"]
 2. Renseignez les noms de domaines que vous souhaitez acheter ;
 {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
 {{% notice info %}}
-Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non ww.example.org.
+Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.example\.org.
 {{% /notice %}}
 
 3. Choisissez de l'_enregistrer_. **Acheter** peut ne pas être proposé : quand le domaine existe déjà, si alwaysdata ne génère pas l'extension, si le domaine est déjà renseigné sur un autre compte alwaysdata...
 {{< fig "images/admin-panel_add-domain-2.fr.png" "Interface d'administration : étape 2" >}}
-4. Choisissez le _nombre d'années_ d'existence du domaine. Il pourra être renouvelé par la suite ;
+4. Choisissez la _durée d'existence_ du domaine. Il pourra être renouvelé par la suite ;
 5. Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
 {{< fig "images/admin-panel_add-domain-3.fr.png" "Interface d'administration : étape 3" >}}
 

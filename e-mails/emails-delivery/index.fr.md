@@ -12,12 +12,12 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
 ## L'expéditeur
 
 - Vérifiez le nom de l'expéditeur ainsi que l'adresse email d'envoi ;
-- Utilisez les [protocoles d'identification]({< ref "e-mails/set-up-spf-dkim-dmarc">}}) ;
+- Utilisez les [protocoles d'identification]({{< ref "e-mails/set-up-spf-dkim-dmarc">}}) ;
 - Le _SENDER FROM_ doit correspondre au _FROM_ dans vos en-têtes.
 
 ## Les destinataires
 
-- Supprimzr les adresses inexistantes ou inactives ;
+- Supprimer les adresses inexistantes ou inactives ;
 - Vérifiez les fautes d'orthographes dans les adresses ;
 - Évitez l'envoi de masse ;
 - Renseignez les adresses emails dans le champ Cc (ou Cci) plutôt que les unes à la suite des autres dans le champ To (Pour) lors d'un envoi groupé.

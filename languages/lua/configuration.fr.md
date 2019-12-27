@@ -8,17 +8,17 @@ tags = ["lua"]
 
 ## Versions supportées
 
-| Majeure | 
-|---------|
-| 5.3     |
-| 5.2     |
-| 5.1     | 
+| Majeures | 
+|----------|
+| 5.3      |
+| 5.2      |
+| 5.1      | 
 
 La version par défaut est Lua 5.3. C'est cette version qui est notamment utilisée lorsque vous démarrez `lua`.
 
 ## Binaire à utiliser
 
-Pour se servir d'une version de Java différente que celle par défaut utilisez `lua5.X`.
+Pour se servir d'une version de Lua différente que celle par défaut utilisez `lua5.X`.
 
 ## Environnement
 

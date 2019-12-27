@@ -27,7 +27,7 @@ Si une facture vient d'être émise vous pouvez _exceptionnellement_ contactez l
 Ils sont disponibles dans **Facturation > Factures > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte**.
 
 ## Devis et factures proforma
-Les factures sont émise à la livraison d'un service. Nous pouvons cependant émettre des devis et factures proforma sur demande. Contactez le [support](https://admin.alwaysdata.com/support/add).
+Les factures sont émises à la livraison d'un service. Nous pouvons cependant émettre des devis et factures proforma sur demande. Contactez le [support](https://admin.alwaysdata.com/support/add).
 
 ## Supprimer avant échéance
 Aucun remboursement n'aura lieu lors de la suppression d'un compte ou le décommissionnement d'un serveur avant son échéance.

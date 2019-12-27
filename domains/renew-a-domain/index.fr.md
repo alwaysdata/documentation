@@ -22,7 +22,7 @@ Pour mettre en place le renouvellement automatique sur tous les domaines d'un co
 Un domaine pour lequel le renouvellement automatique est activé a une icône l'indiquant :
 {{< fig "images/auto-renew.fr.png" "Domaine en renouvellement automatique" >}}
 
-{{% notice note %}}
+{{% notice warning %}}
 Le renouvellement automatique d'un domaine ne peut avoir lieu que si le compte prépayé à le solde nécessaire pour le payer OU qu'une carte bancaire est renseignée en prélévement automatique.
 {{% /notice %}}
 

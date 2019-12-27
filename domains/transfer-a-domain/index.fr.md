@@ -17,19 +17,19 @@ Avant de lancer l'opération le propriétaire doit :
 - vérifier que les informations du propriétaire sont correctes et visibles dans le `whois` ;
 - récupérer le code d'autorisation.
 
-Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un autre transfert.
+Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
 
 ## Lancement du transfert
 
 1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
    {{< fig "images/admin-panel_domain-list.fr.png" "Interface d'administration : liste des domaines" >}}
-   Si le domain a déjà été [ajouté]({{< ref "domains/add-an-external-domain" >}}) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **>Transférer**.
+   Si le domaine a déjà été [ajouté]({{< ref "domains/add-an-external-domain" >}}) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
    {{< fig "images/admin-panel_transfer-domain.fr.png" "Interface d'administration : Transfert d'un domaine déjà en gestion" >}}
 2. Renseignez les noms de domaines que vous souhaitez acheter ;
    {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
    {{% notice info %}}
-   Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non ww.example.org.
+   Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.example\.org.
    {{% /notice %}}
 3. Choisissez de le **transférer** ;
    {{< fig "images/admin-panel_add-domain-2.fr.png" "Interface d'administration : étape 2" >}}
@@ -38,7 +38,9 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un aut
    - Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
      {{< fig "images/admin-panel_add-domain-3.fr.png" "Interface d'administration : étape 3" >}}
 
+{{% notice warning %}}
 Un email de validation est envoyé pour un certain nombre d'extensions. Sans validation, le transfert est abandonné.
+{{% /notice %}}
 
 {{% notice note %}}
 Un transfert prend en moyenne 6 à 8 jours, cela peut être accéléré en contactant votre prestataire actuel.

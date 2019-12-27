@@ -13,7 +13,7 @@ Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de dispos
 {{< fig "images/admin-panel_list-webdav-users.fr.png" "Interface d'administration : liste des utilisateurs WebDAV">}}
 
 - Nom : nom de l'utilisateur SSH, préfixé du nom de votre compte ;
-- Mot de passe : mot de passe associé à l'utilisateur.
+- Mot de passe : mot de passe associé à l'utilisateur ;
 - Répertoire racine : répertoire dans lequel l'utilisateur arrive à sa connexion.
 
 {{< fig "images/admin-panel_add-webdav-user.fr.png" "Interface d'administration : ajout d'utilisateur WebDAV">}}

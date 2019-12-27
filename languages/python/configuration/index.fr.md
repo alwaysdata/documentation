@@ -8,12 +8,12 @@ tags = ["python"]
 
 ## Versions supportées
 
-| Majeure | Mineures                     |
-|---------|------------------------------|
-| 3       | 3.8, 3.7, 3.6, 3.5, 3.4, 3.3 |
-| 2       | 2.7, 2.6, 2.5, 2.4           |
+| Majeures                     |
+|------------------------------|
+| 3.8, 3.7, 3.6, 3.5, 3.4, 3.3 |
+| 2.7, 2.6, 2.5, 2.4           |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Python**. C'est cette version qui est notamment utilisée lorsque vous démarrez python.
+La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Python**. C'est cette version qui est notamment utilisée lorsque vous démarrez `python`.
 
 ## Logs d'erreur
 

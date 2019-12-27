@@ -12,7 +12,7 @@ tags = ["email"]
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 
-Une fois vos scripts Sieve écrits vous les retrouverez dans le fichier `$HOME/admin/mail/[domaine]/[partie-locale]/filter\_user.sieve_`.
+Le script final (avec nos propres directives) est stocké dans le fichier `~/admin/mail/[domaine]/[boite]/filter.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
 
 ## Extensions supportées
 
@@ -43,6 +43,10 @@ Une fois vos scripts Sieve écrits vous les retrouverez dans le fichier `$HOME/a
 |subaddress                |Teste des éléments délimités de la partie locage des adresses                           |
 |vacation                  |Réponses automatiques                                                                   |
 |variables                 |Permet d'ajouter des variables                                                          |
+
+{{% notice info %}}
+N'utilisez pas la directive `require`, elle est déjà inclue par défaut.
+{{% /notice %}}
 
 ## Exemples
 

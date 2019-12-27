@@ -7,7 +7,7 @@ hidden = true
 tags = ["domaine", "email"]
 +++
 
-Cet article explique comment transférer un domaine _et_ ses adresses emails sur un autre compte alwaysdata.
+Cet article explique comment transférer un domaine _et_ ses adresses emails sur **un autre compte alwaysdata**.
 
 1. Dans le menu **Domaines** du compte initial ;
 

@@ -27,7 +27,7 @@ Chaque fois que vous rencontrez la forme *-[compte].alwaysdata.net, vous devez r
 |                            | Interface d'administration : [phpMyAdmin](https://phpmyadmin.alwaysdata.com) |
 | PostgreSQL                 | Hôte : postgresql-[compte].alwaysdata.net                                    |
 |                            | Port : 5432                                                                  |
-|                            | Interface d'administration : [phppgAdmin](https://phppgadmin.alwaysdata.com) |
+|                            | Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com) |
 | MongoDB                    | Hôte : mongodb-[compte].alwaysdata.net                                       |
 |                            | Port : 27017                                                                 |
 |                            | Connexion : mongodb://utilisateur:mdp@mongodb-[compte].alwaysdata.net/bdd    |
@@ -53,6 +53,8 @@ Chaque fois que vous rencontrez la forme *-[compte].alwaysdata.net, vous devez r
 | **Accès distant**          |                                                                              |
 | FTP                        | Hôte : ftp-[compte].alwaysdata.net                                           |
 |                            | Port : 21                                                                    |
+| SFTP                       | Hôte : ssh-[compte].alwaysdata.net                                           |
+|                            | Port : 22                                                                    |
 | SSH                        | Hôte : ssh-[compte].alwaysdata.net                                           |
 |                            | Port : 22                                                                    |
 |                            | Accès web (via Shell in a box) : https://ssh-[compte].alwaysdata.net         |

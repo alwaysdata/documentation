@@ -10,7 +10,7 @@ Pour accélérer sensiblement l'accès à votre site internet, vous pouvez mettr
 
 ## 1. Vérifiez que votre application gère le cache
 
-Pour que le cache puisse interroger l'upstream dans le but de savoir si la resource visée n'a pas été modifiée, l'application **doit** fournir l'en-tête `Etag` et/ou `Last-Modified`.
+Pour que le cache puisse interroger l'upstream dans le but de savoir si la ressource visée n'a pas été modifiée, l'application **doit** fournir l'en-tête `Etag` et/ou `Last-Modified`.
 
 Une réponse ne peut **PAS** être cachée si :
 

@@ -13,7 +13,7 @@ tags = ["base de données", "memcached"]
 | **Serveur** | localhost ou 127.0.0.1            |
 | **Port**    | 11211 (Port Memcached par défaut) |
 
-Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
+Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
 Memcached n'est disponible qu'en environnements VPS et dédiés.

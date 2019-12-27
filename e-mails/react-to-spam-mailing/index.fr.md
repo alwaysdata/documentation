@@ -9,7 +9,7 @@ tags = ["email", "infection", "spam"]
 
 On observe 2 principaux types des raisons à un envoi de spam :
 
-- [une infection de site internet]() ;
+- [une infection de site internet]({{< ref "sites/desinfect-a-site" >}}) ;
 - un vol de mot de passe. C'est cette dernière que nous allons présenter ici.
 
 ----

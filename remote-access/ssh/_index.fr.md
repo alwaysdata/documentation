@@ -8,7 +8,7 @@ chapter = true
 
 # SSH
 
-SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est protocole de connexion sécurisé par un échange de clés de chiffrement en début de connexion. alwaysdata le propose sur TOUS ses environnements.
+SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un protocole de connexion sécurisé par un échange de clés de chiffrement en début de connexion. alwaysdata le propose sur TOUS ses environnements.
 
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
 - [Créer un utilisateur SSH]({{< relref "create-a-ssh-user" >}})
@@ -17,7 +17,7 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est protoc
 - [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}}) (option de serveurs VPS et dédiés)
 
 {{% notice info %}}
-Toutes nos offres sont infogérés et ne permettent pas d'avoir un accès _root_.
+Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès _root_.
 {{% /notice %}}
 
 ## Se connecter en SSH
@@ -49,7 +49,7 @@ Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].a
 Utile si vous êtes derrière un firewall, notre interface web vous permet d'utiliser le protocole SSH à partir de votre navigateur. Attention toutefois, cette solution peu fiable et lente ne remplace pas un client.
 
 {{% notice info %}}
-Cette interface n'est pas compatible avec les hébergements dédiés et VPS.
+Cette interface n'est pas compatible avec les hébergements VPS et dédiés.
 {{% /notice %}}
 
 

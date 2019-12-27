@@ -8,11 +8,11 @@ tags = ["elixir"]
 
 ## Versions supportées
 
-| Majeure | Mineures     |
-|---------|--------------|
-| 1.7     | 1.7.4, 1.7.3 |
-| 1.6     | 1.6.6        |
-| 1.5     | 1.5.3        |
+| Majeures |
+|----------|
+| 1.7      |
+| 1.6      |
+| 1.5      |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Elixir**. C'est cette version qui est notamment utilisée lorsque vous démarrez `mix`.
 
@@ -21,7 +21,7 @@ La version par défaut est modifiable dans l'administration, section **Environne
 Pour forcer une version de Elixir différente de celle par défaut, définissez la variable d'environnement `ELIXIR_VERSION` :
 
 ```
-$ ELIXIR_VERSION=1.7.4 elixir
+$ ELIXIR_VERSION=1.7 elixir
 ```
 
 Dans vos scripts, utilisez `/usr/bin/elixir` comme *shebang* :

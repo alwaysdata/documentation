@@ -11,7 +11,7 @@ Une **réduction de 50 %** sur nos [PaaS mutualisés](https://www.alwaysdata.com
 - ouvrez un [ticket](https://admin.alwaysdata.com/support/add/) ;
 - [envoyez-nous](mailto:contact@alwaysdata.com) une preuve pour l'année en cours :
     - pour les étudiants : certificat de scolarité ou attestation d'inscription ;
-    - pour les personnes sans emploi : avis de situation pole-emploi ou attestation d'allocation.
+    - pour les personnes sans emploi : avis de situation Pôle-emploi ou attestation d'allocation.
 
 Ces certificats seront demandés chaque année.
 

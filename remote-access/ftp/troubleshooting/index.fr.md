@@ -10,11 +10,11 @@ tags = ["accès distant", "dépannage", "ftp"]
 
 ## Connexion
 
+Un [blocage d'IP]({{< ref "security/firewall" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
+
 {{% notice info %}}
 alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
 {{% /notice %}}
-
-Un [blocage d'IP]({{< ref "security/firewall" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 ### 530 Home Directory does not exist
 Vérifiez que le répertoire racine indiqué dans **Accès distant > FTP** existe bien. Si vous n'êtes pas sûr, indiquez la racine du compte : `/`.
@@ -31,8 +31,8 @@ Vous tentez de vous connecter en FTPS, changez pour le protocole **FTP simple**.
 La connexion se bloque avant d'arriver aux serveurs alwaysdata, vérifiez :
 
 - si vous êtes en mode **actif** ou **passif** : en mode actif le serveur FTP va déterminer le port à utiliser et initialiser la connexion, alors qu'en mode passif c'est le client FTP qui initialise la connexion. Ce dernier est donc préconisé ;
-    - Pour **Filezilla** rendez-vous dans _Édition > Paramètres > Connexion > FTP_.
-- que vous n'avez pas de logiciel qui feraient pare-feu ;
+    - Pour **FileZilla** rendez-vous dans _Édition > Paramètres > Connexion > FTP_.
+- que vous n'avez pas de logiciel qui ferait pare-feu ;
 - en changeant d'appareil ;
 - en changeant de connexion internet.
 
@@ -46,5 +46,5 @@ Les connexions Wi-Fi des établissements scolaires et hôtels bloquent fréquemm
 ### Certains fichiers ne sont pas visibles
 Les répertoires et fichiers "cachés", par exemple les `.htaccess`, ne sont pas forcément visibles par défaut ; c'est une **option de votre client FTP**.
 
-Pour **Filezilla** rendez-vous dans _Serveur > Forcer l'affichage des fichiers cachés_.
+Pour **FileZilla** rendez-vous dans _Serveur > Forcer l'affichage des fichiers cachés_.
 
