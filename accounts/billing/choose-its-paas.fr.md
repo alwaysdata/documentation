@@ -7,7 +7,7 @@ weight = 1
 tags = ["facturation", "serveur dédié", "serveur mutualisé", "serveur vps"]
 +++
 
-L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service) : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS, inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les clients n'ont à s'occuper que de leurs applications, déploiements, sécurisations et mises à jours.
+L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service)¹ : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS, inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les clients n'ont à s'occuper que de leurs applications, déploiements, sécurisations et mises à jours.
 
 alwaysdata propose quatre types d'environnement :
 
@@ -29,4 +29,6 @@ alwaysdata propose quatre types d'environnement :
 | Sauvegardes       | Quotidiennes, conservées 30 jours et disponible directement sur le compte | Quotidiennes, conservées 30 jours et disponible directement sur le compte | Quotidiennes, conservées 30 jours et disponible directement sur le compte | Quotidiennes, conservées 30 jours et disponible directement sur le compte |
 | Autres services   | [API]({{< ref "api" >}}), [tâches planifiées]({{< ref "tasks" >}}) | [API]({{< ref "api" >}}), [tâches planifiées]({{< ref "tasks" >}}), gestion du pare-feu | [API]({{< ref "api" >}}), [tâches planifiées]({{< ref "tasks" >}}), gestion du pare-feu, [VPN](https://www.alwaysdata.com/fr/services/vpn/) | [API]({{< ref "api" >}}), [tâches planifiées]({{< ref "tasks" >}}), gestion du pare-feu, [VPN](https://www.alwaysdata.com/fr/services/vpn/) |
 
-\* Le plan gratuit offre 100 Mo d'espace disque à usage non lucratif.
+\* Le plan gratuit en environnement mutualisé offre 100 Mo d'espace disque à usage non lucratif.
+
+¹ De ce fait, les clients n'ont pas les droits root et ne peuvent utiliser `sudo`.
