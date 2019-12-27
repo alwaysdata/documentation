@@ -21,7 +21,6 @@ Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suiv
 
 Si vous migrez une application PrestaShop, précédemment hébergée chez un autre prestataire, modifiez :
 
-- les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_shop_url` de la base de données ;
-- les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans la table `ps_configuration` de la base de données ;
+- les paramètres _ps\_shop\_domain_, _ps\_shop\_domain\_ssl_ présents dans les tables `ps_shop_url` et `ps_configuration` de la base de données ;
 - la valeur **localhost** du paramètre _physical\_URI_ de la table `ps_shop_url` par **/** ;
 - le fichier `$HOME/chemin/vers/l'application/app/config/parameters.php`.

@@ -15,7 +15,7 @@ La dernière version de [WordPress](https://fr.wordpress.org/) fait partie de no
 
 Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
 
-- téléchargez la version souhaitée sur le [site officiel](http://www.WordPress-fr.net/telechargements/) ;
+- téléchargez la version souhaitée sur le [site officiel](https://fr.wordpress.org/download/) ;
 - décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;
 - créez votre [base de données]({{< ref "/databases" >}}) MySQL ;
 - créez votre [site]({{< ref "sites/add-a-site" >}}) ;
@@ -50,10 +50,9 @@ add_filter('login_errors',create_function('$a', "return null;"));
 Pour masquer les erreurs de connexion.
 
 - supprimez le compte "admin" créé par défaut ;
-- d'[autres règles]({{<ref "sites/desinfect-a-site" >}}##3-supprimer-les-vecteurs-dinfection).
+- d'[autres règles]({{<ref "sites/desinfect-a-site" >}}#3-supprimer-les-vecteurs-dinfection).
 
 ## Liens utiles
 
-* [Better WP Security](http://wordpress.org/plugins/better-wp-security/) : Améliore la sécurité de votre site WordPress.
-* [WP Security Scan](http://wordpress.org/plugins/wp-security-scan/) : Vérifie la présence de failles de sécurité dans votre site et propose des actions correctives.
-* [Theme Authenticity Checker](http://wordpress.org/plugins/tac/) : Recherche la présence de codes indésirables dans les fichiers de votre thème.
+- [iThemes Security](http://wordpress.org/plugins/better-wp-security/) : améliore la sécurité de votre site WordPress
+- [WordFence](https://wordpress.org/plugins/wordfence/): scanne votre site à la recherche de faille, WAF et autres outils de sécurisation de votre interface WordPress

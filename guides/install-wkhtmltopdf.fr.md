@@ -6,7 +6,7 @@ layout = "howto"
 hidden = true
 +++
 
-[wkhtmltopdf](https://wkhtmltopdf.org/) fournit deux outils de ligne de commande permettant de rendre du HTML aux formats PDF et image.
+[wkhtmltopdf](https://wkhtmltopdf.org/) fournit deux outils en ligne de commande permettant de rendre du HTML aux formats PDF et image.
 
 Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
 
