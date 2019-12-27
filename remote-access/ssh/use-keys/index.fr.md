@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/utiliser-des-clefs-ssh/"
+url = "/fr/accès-distant/ssh/utiliser-des-clés-ssh/"
 title = "Comment utiliser des clés SSH"
 menuTitle = "Utiliser des clés"
 layout = "howto"
@@ -16,7 +16,7 @@ Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible 
 
 1. Générer la clé privée :
     - Lancez **PuTTYGen** (fourni par PuTTy) ;
-    - Générez une paire de clés **SSH-2 RSA de 1024 bits** ;
+    - Générez une paire de clés **SSH-2 ED25519 de 2048 bits** ;
     - Sauvegardez la clé privée sur votre poste ;
 2. Déclarez la clé sur le serveur en copiant cette clé dans le fichier `$HOME/.ssh/authorized_keys` de votre compte alwaysdata ;
 3. Se connecter en SSH : configurez votre session **PuTTY**, dans la catégorie *Auth*, puis dans *Private Key file for auth*, chargez votre clé privée.
@@ -28,7 +28,7 @@ Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible 
 ```
 $ mkdir -p $HOME/.ssh
 $ chmod 0700 $HOME/.ssh
-$ ssh-keygen -t rsa -f $HOME/.ssh/id_rsa
+$ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
 ```
 
 {{% notice tip %}}
@@ -37,7 +37,7 @@ Si vous voulez ne jamais avoir à rentrer votre mot de passe lorsque vous vous c
 2. Déclarer la clé sur le serveur :
 
 ```
-$ ssh-copy-id -i $HOME/.ssh/id_rsa.pub [utilisateur]@ssh-[compte].alwaysdata.net
+$ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [utilisateur]@ssh-[compte].alwaysdata.net
 ```
     
 Ou en copiant le contenu de ce fichier dans le fichier `$HOME/.ssh/authorized_keys` de votre compte alwaysdata.

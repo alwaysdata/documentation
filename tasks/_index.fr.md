@@ -11,7 +11,7 @@ Les Web apps ou ser­vices ont par­fois besoin d’exé­cu­ter des tâches p�
 
 Notre pla­te­forme s’ap­puie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais permet de les gérer directement dans notre [interface d'administration](https://admin.alwaysdata.com) et de faciliter l'utilisation. 
 
-Deux types d’in­for­ma­tions sont à fournir à four­nir :
+Deux types d’in­for­ma­tions sont à fournir :
 
 - La (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter ;
 - La pério­di­ci­té de votre tâche : vous pou­vez spé­ci­fiez une heure fixe, ou un inter­valle.

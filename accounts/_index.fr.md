@@ -10,7 +10,7 @@ tags = ["administration", "compte", "facturation", "profil"]
 # Comptes
 
 {{% notice info %}}
-Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen privilégié pour contacter ou alerter à tout propos les clients d'alwaysdata. L'email renseigné dans le **Profil** doit donc régulièrement être vérifié.
+Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen que nous privilégions pour contacter ou alerter à tout propos les clients d'alwaysdata. L'email renseigné dans le **Profil** doit donc régulièrement être vérifié.
 {{% /notice %}}
 
 

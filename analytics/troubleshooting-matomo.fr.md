@@ -15,10 +15,10 @@ Nos statistiques ne sont pas créées en temps réel, il y a généralement 2-3 
 ## Personnalisation des statistiques
 Notre plateforme étant exclusivent basée sur les logs HTTP, il n'est pas possible d'y ajouter des paramètres personnalisés.
 
-Il n'est donc pas possible d'ajouter des tages Javascript. Tournez-vous sur l'installation de votre propre logiciel de mesure de statistiques web.
+Il n'est donc pas possible d'ajouter des tags JavaScript. Tournez-vous sur l'installation de votre propre logiciel de mesure de statistiques web.
 
 ## Différences de vues avec mes statistiques Google Analytics
-C'est lié à la différence de méthode de comptage (Javascript pour Google Analytics, logs ser­veurs pour notre Matomo).
+C'est lié à la différence de méthode de comptage (JavaScript pour Google Analytics, logs ser­veurs pour notre Matomo).
 
 ## Messages d'erreur possibles
 ### You are logged in as 'user' but it seems you don't have any permission set in Matomo.

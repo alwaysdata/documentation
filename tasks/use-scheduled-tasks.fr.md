@@ -14,16 +14,16 @@ Attention :
 
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
-- Un log est automatiquement créé et disponible dans le répertoire *~/admin/logs/jobs/*. Il vous donne le démarrage et l'arrêt de la tâche.
+- Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
 - Pour les comptes étant sur les serveurs mutualisés, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
 {{% notice note %}}
-Même si c'est contre-indiqué, les clients en serveurs dédiés et VPS peuvent aussi utiliser la commande ```crontab -e```. Les deux systèmes sont distincts.
+Même si c'est contre-indiqué, les clients en serveurs dédiés et VPS peuvent aussi utiliser la commande `crontab -e`. Les deux systèmes sont distincts.
 {{% /notice %}}
 
 ## Exemples
 
-### Wordpress
+### WordPress
 
 Lancement, toutes les dix minutes, de l'outil [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) pour exécuter leurs tâches planifiées :
 

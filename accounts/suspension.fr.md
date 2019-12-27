@@ -10,7 +10,7 @@ tags = ["compte", "profil", "suspension"]
 Il peut arriver que votre profil soit suspendu (mention **Account suspended** sur votre site, blocage des différents services FTP, SQL, etc.) et ce pour plusieurs raisons.
 
 ## Inactivité
-Dans le cas où vous ne vous êtes pas connecté à votre interface d'administration dans les _120 derniers jours_ (pour un compte gratuit), alors votre profil sera automatiquement suspendu. Le simple fait de se connecter à l'interface d'administration lèvera cette suspension et votre site ainsi que vos services seront aussitôt disponibles.
+Dans le cas d'un **compte gratuit**, si vous ne vous êtes pas connecté à votre interface d'administration dans les _120 derniers jours_, alors votre profil sera automatiquement suspendu. Le simple fait de se connecter à l'interface d'administration lèvera cette suspension et votre site ainsi que vos services seront aussitôt disponibles.
 
 ## Contenu illicite
 En vous inscrivant sur notre site et donc en créant un profil, vous vous engagez à respecter strictement la législation française en terme de contenu numérique. Parmi ces activités, **toute utilisation illégale avérée aura pour conséquence la suspension immédiate de votre compte**. Quelques exemples :

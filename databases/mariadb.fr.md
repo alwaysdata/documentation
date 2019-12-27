@@ -20,7 +20,7 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 À la création de vos bases et utilisateurs MySQL, vous avez la possibilité de donner les permissions suivantes :
 
 * tous les droits (GRANT ALL PRIVILEGES) ;
-* lecteure seule (GRANT READONLY)
+* lecture seule (GRANT READONLY)
 * aucun droit.
 
 {{% notice warning %}}

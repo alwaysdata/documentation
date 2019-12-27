@@ -7,7 +7,7 @@ weight = 1
 tags = ["facturation"]
 +++
 
-Il existe deux façons 2 façons différentes de payer vos factures alwaysdata.
+Il existe deux façons différentes de payer vos factures alwaysdata.
 
 ## Compte prépayé
 

@@ -30,9 +30,8 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > WebDAV** d
 
 ### Avec Windows
 
-1. Faites un clic droit sur l'icône **Poste de travail** ou **(Ordinateur)** ;
+1. Faites un clic droit sur l'icône **Poste de travail** ou **Ordinateur** ;
 2. Choisissez **Connecter un lecteur réseau**. Dans le champ _Dossier_, indiquez :
-    - Sous XP : `http://webdav-[compte].alwaysdata.net/root/`
     - sous Vista et supérieurs : `https://webdav-[compte].alwaysdata.net/` 
 3. Cliquez sur _Se connecter_ sous un nom d'utilisateur différent, puis rentrez vos identifiants. Validez et cliquez sur _Terminer_.
 
