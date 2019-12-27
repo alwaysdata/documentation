@@ -9,7 +9,7 @@ tags = ["http", "site"]
 
 Afin de personnaliser le format des logs d'accès HTTP, vous devez au préalable choisir un nom pour votre fichier de log personnalisé. Pour cela, renseignez un nom de votre choix dans le champ **Nom de fichier** dans l'onglet **Logs** de votre site (menu **Web > Sites**).
 {{< fig "images/admin-panel_add-site-logs.fr.png" "Ajouter un site : logs HTTP" >}}
-Ce fichier sera stocké dans le répertoire _~/admin/logs/http/_.
+Ce fichier sera stocké dans le répertoire `$HOME/admin/logs/http/`.
 
 La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
 La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur dans les lignes de logs d'accès.
