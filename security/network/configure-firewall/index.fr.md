@@ -1,7 +1,7 @@
 +++
-url = "/fr/sécurité/parefeu/configurer-son-pare-feu"
+url = "/fr/sécurité/réseau/configurer-son-pare-feu"
 title = "Serveurs VPS et dédiés : configurer le pare-feu"
-menuTitle = "Configurer le parefeu"
+menuTitle = "Configurer le pare-feu"
 layout = "faq"
 hidden = true
 tags = ["sécurité", "serveur dédié", "serveur vps"]
@@ -10,7 +10,7 @@ tags = ["sécurité", "serveur dédié", "serveur vps"]
 Le pare-feu se gère dans le menu **Firewall** du serveur dédié.
 
 ## Règles
-Menu pour retrouver, créer et ajuster ses règles de parefeu.
+Menu pour retrouver, créer et ajuster ses règles de pare(feu.
 {{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de pare-feu actives" >}}
 
 Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres.
@@ -49,7 +49,7 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
 {{< fig "images/admin-panel_list-bans.fr.png" "Interface d'administration : liste des bannissements en cours" >}}
 
-Si vous vous retrouvez bloquer sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire. 
+Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire. 
 
 {{% notice tip %}}
 Le banissement dure 30 minutes par défaut et a lieu après une dizaine d'échecs de connexion.

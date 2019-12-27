@@ -19,4 +19,4 @@ tags = ["sécurité"]
 
 - [Certificats SSL]({{< relref "certificates" >}})
 - [Mode restreint]({{< relref "restricted-mode" >}}) : limitation des désagréments liés aux abus clients
-- [Pare-feu]({{< relref "firewall" >}}) : sécurisation des serveurs alwaysdata contre les pirates informatiques
+- [Réseau]({{< relref "network" >}}) : gestion du réseau et protections contre les pirates informatiques
