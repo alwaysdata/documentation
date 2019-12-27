@@ -19,3 +19,9 @@ Il n'est actuellement pas possible de changer le nom d'un compte. Voici un moyen
 2. y déplacer les [sites]({{< ref "sites/move-a-site" >}}) et [domaines]({{< ref "domains/move-a-domain" >}}) ;
 3. supprimer l'ancien compte ;
 4. contacter le [support](https://admin.alwaysdata.com/support/add/) pour qu'il s'occupe de la facturation.
+
+## Cycle de suppression automatique
+
+La suppression automatique d'un profil a lieu _30 jours_ après sa suspension. Pour l'éviter, il faut effectuer l'action correctrice.
+
+Si la raison de la suspension n'est pas claire, consultez vos tickets, notifications et alertes sur votre interface d'administration alwaysdata.
