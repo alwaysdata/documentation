@@ -24,7 +24,8 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 - MariaDB 10.3 depuis [MariaDB 10.1](https://mariadb.com/kb/en/library/upgrading-from-mariadb-101-to-mariadb-102/) ou [MariaDB 10.2](https://mariadb.com/kb/en/library/upgrading-from-mariadb-102-to-mariadb-103/) ;
 - [PostgreSQL 10](https://www.postgresql.org/docs/10/release.html) depuis PostgreSQL 9.6 ; les changements notables sont :
     - les paramètres `escape_string_warning` et `standard_conforming_strings` sont mis à "on" ;
-    - l'extension [tsearch2](https://www.postgresql.org/docs/9.6/static/tsearch2.html) est obsolète.
+    - l'extension [tsearch2](https://www.postgresql.org/docs/9.6/static/tsearch2.html) est obsolète ;
+    - elle s'accompagne d'une mise à jour de PostGIS en version [2.4](https://postgis.net/docs/manual-2.4/).
 - [CouchDB 2.2](http://docs.couchdb.org/en/2.2.0/whatsnew/2.2.html) depuis CouchDB 1.7.
 
 ## Anciennes migrations
