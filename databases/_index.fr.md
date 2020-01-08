@@ -20,6 +20,8 @@ Pour des raisons de sécurité, la création des bases de données n'est possibl
 Il est interdit d'héberger **uniquement** des bases de données sur le pack gratuit.
 {{% /notice %}}
 
+Le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en serveurs VPS et dédiés.
+
 ## Les SGBD supportés
 
 - [MariaDB/MySQL]({{< ref "databases/mariadb" >}})
@@ -37,3 +39,4 @@ En plans VPS et dédiés :
 ---
 
 - Ressources API : [base de données](https://api.alwaysdata.com/v1/database/doc/), [utilisateur de base de données](https://api.alwaysdata.com/v1/database/user/doc/)
+- [Problèmes fréquents]({{< ref "databases/troubleshooting" >}})
