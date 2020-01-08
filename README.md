@@ -33,7 +33,7 @@ $ hugo new path/to/page.fr.md
 
 If you write a page that is _not_ in english, you should add a `url` entry in the front headers to fill the localized page url.
 
-## Redacting content
+## Redacting content
 
 ### Types of pages 
 
@@ -51,7 +51,7 @@ Available types are:
 - `man`: concept page that explain ideas, concepts, and point to more details how-tos; they can be used for `_index.[ln].md` pages
 - `faq`: QnA sections related to a given domain; they should not appear in menu
 
-### Files organization
+### Files organization
 
 Files in the `content` folder are organized in [branches and leaf bundles][8]. Here's how you may keep your contents organized to stay consistent:
 
@@ -59,20 +59,20 @@ Files in the `content` folder are organized in [branches and leaf bundles][8]. H
 content
 ├── guides                                <-- A section
 │   ├── _index.en.md                      <-- Section main page (aka chapter), en_US
-│   └── _index.fr.md                      <-- Section main page, fr_FR
+│   └── _index.fr.md                      <-- Section main page, fr_FR
 ├── marketplace
 │   ├── admin-panel_1click_app.en.jpg     <-- Screenshot usable in the chapter, en_US
-│   ├── admin-panel_1click_app.fr.jpg     <-- Same screenshot, fr_FR version
-│   ├── build-application-script          <-- A page (leaf) bundle
-│   │   ├── images                        <-- Page images assets
+|   ├── admin-panel_1click_app.fr.jpg     <-- Same screenshot, fr_FR version
+|   ├── build-application-script          <-- A page (leaf) bundle
+|   |   ├── images                        <-- Page images assets
 │   │   │   ├── create-script.en.png      <-- Screenshot used in the page, en_US
-│   │   │   └── create-script.fr.png      <-- Same screenshot, fr_FR version
+|   |   |   └── create-script.fr.png      <-- Same screenshot, fr_FR version
 │   │   ├── index.en.md                   <-- Page bundle content, en_US
-│   │   └── index.fr.md                   <-- Page bundle content, fr_FR
-│   ├── install-an-application.en.md      <-- A Page leaf unbundled, en_US
-│   ├── install-an-application.fr.md      <-- Same Page leaf, fr_FR version
+|   |   └── index.fr.md                   <-- Page bundle content, fr_FR
+│   ├── install-an-application.en.md      <-- A Page leaf unbundled, en_US
+|   ├── install-an-application.fr.md      <-- Same Page leaf, fr_FR version
 │   ├── _index.en.md                      <-- Section chapter page, en_US
-│   └── _index.fr.md                      <-- Section chpater page, fr_FR
+|   └── _index.fr.md                      <-- Section chpater page, fr_FR
 ├── _index.en.md                          <-- Documentation Homepage, en_US
 └── _index.fr.md                          <-- Documentation Homepage, fr_FR
 ```
@@ -82,7 +82,7 @@ content
 - If you need to add assets to a page, you **must** bundle them, and place images in a `images` folder into the bundle.
 - If you need to add assets to a section page (aka chapter), you **must** put them at the same level as the branch page.
 
-### Files naming
+### Files naming
 
 Here's the conventions about files naming you have to follow:
 
@@ -97,7 +97,7 @@ Here's the conventions about files naming you have to follow:
 
 ### Available shortcodes
 
-You can extend the markdown markup by using shortcodes that will render custom HTML in your page.
+You can extend the commonmark (markdown) syntax by using shortcodes that will render custom HTML in your page.
 
 #### Images: `fig`
 
@@ -115,7 +115,7 @@ The `url` parameter in mandatory and refer to the image path relatively to the m
 
 The second parameter contains a caption for the image an is optional.
 
-The shortcode will render a `<figure>` HTML tag.
+The shortcode will render a `<figure>` HTML tag.
 
 #### Permalinks: `ref`
 
@@ -133,7 +133,7 @@ I.e. to link the _Install an application_ page in the _Marketplace_ section, use
 
 The `pagename` parameter may be a folder (internally resolved as it index file) or a file, with or without extension, or locale suffix. The locale is detected automatically from the current page one.
 
-#### Notices: `notice [type]`
+#### Notices: `notice [type]`
 
 If you need to embed some insert to highlight aside contents in your page (like a _warning_ or a _tip_ aside content), you can rely on the `notice` shortcode:
 
@@ -150,15 +150,15 @@ You've got four types available:
 - `note`: _blue_, for some extra but optional content
 - `tip`: _green_, for useful tips
 
-### Tables
+### Tables
 
-Tables are formatted using the [MultiMarkdown][9] syntax:
+Tables are formatted using the [Github Flavored][9] syntax:
 
 ```
 | Header 1      | Header 2     | Header 3      |
 |:--------------|--------------|--------------:|
-| left aligned  | auto aligned | right aligned |
-| 2nd line      | Merged cells                ||
+| left aligned  | auto aligned | right aligned |
+| 2nd line      | regular cell | regular cell  |
 | 3rd line      | regular cell | regular cell  |
 ```
 
@@ -167,7 +167,20 @@ Tables are formatted using the [MultiMarkdown][9] syntax:
 - Headers separator **may** indicate the column alignment with the colon `:` marker
 - Cells **must** be padded to ensure a consistent alignment with monospaced fonts (see example above)
 
-### Conventions
+### Footnotes
+
+You can rely on the [PHP Markdown Extra Footnotes syntax][10] to dynamically generate footnotes:
+
+```md
+Hello World[^1]
+
+
+[^1]: this is an associated footnote
+```
+
+Please note that the separator line and the anchor links are auto-generated.
+
+### Conventions
 
 Here's some conventions we use to write our documentation. Please stick to them.
 
@@ -178,7 +191,7 @@ Here's some conventions we use to write our documentation. Please stick to them.
 5. Codeblocks should use the backtick notation <code>```</code> optionally followed by the syntax marker (e.g. <code>python</code>)
 6. Variables and inline command/code **must** be surrounded by backticks
 7. Emphasis is done by using one underscore surrounding; strong by using double stars sourrounding
-8. Avoid the use of HTML tags and markup in your content, Markdown is enough (i.e. no `<br>` nor `<font>` tags)
+8. Avoid the use of HTML tags and markup in your content, Markdown is enough (i.e. no `<br>` nor `<font>` tags)
 9. We use the following names for replacement:
   - `foo`: for a lambda name, username, etc
   - `bar`: for a second one
@@ -186,7 +199,7 @@ Here's some conventions we use to write our documentation. Please stick to them.
 
 ### Front Matter
 
-Pages **must** start with a Front Matter block,. it may be written in YAML (using a `---` surrounding block marker) or in TOML (`+++` block marker):
+Pages **must** start with a Front Matter block,. it may be written in YAML (using a `---` surrounding block marker) or in TOML (`+++` block marker):
 
 ```
 +++
@@ -213,7 +226,7 @@ You can add more metadata to your pages in the Front Matter:
 
 Please keep in mind to entirely remove the `draft` field when your page is ready to be published rather than putting it to `false`.
 
-### Tags
+### Tags
 
 To add new tag(s) to a page, add a tags entry in the front headers:
 
@@ -237,4 +250,4 @@ More documentation is available on [Hugo doc][6].
 [2]: https://git.madslab.net/alwaysdata/aldocs
 [6]: https://gohugo.io/documentation/
 [8]: https://gohugo.io/content-management/page-bundles/ 
-[9]: http://fletcher.github.io/MultiMarkdown-5/tables.html
+[9]: https://github.github.com/gfm/#tables-extension-

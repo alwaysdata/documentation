@@ -30,7 +30,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 | Variables          | Description                                                                                                            |
 | ------------------ | -----------------------------------------------------------------------------------------------------------------------|
 | {client_ip}        | Adresse IP du client ayant émis la requête                                                                             |
-| {completion_date}  | Date à laquelle la requête a été servie¹                                                                               |
+| {completion_date}  | Date à laquelle la requête a été servie [^1]                                                                           |
 | {duration}         | Temps pris pour servir la requête en secondes                                                                          |
 | {peer_ip}          | Adresse IP du pair ayant envoyé la requête (proxy ou client original le cas échéant)                                   |
 | {protocol}         | Mécanisme du protocole de la requête (http, https, ws)                                                                 |
@@ -41,12 +41,12 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 | {request_method}   | Méthode utilisée dans la requête (GET, POST, ...)                                                                      |
 | {request_path}     | Chemin demandé dans la requête, incluant la chaîne d'interrogations                                                    |
 | {request_protocol} | Protocole utilisé dans la requête (HTTP/1.1, HTTP/2, ...)                                                              |
-| {request_time}     | Date à laquelle la requête a été reçue¹                                                                                |
+| {request_time}     | Date à laquelle la requête a été reçue [^1]                                                                            |
 | {response_header}  | En-têtes de la réponse                                                                                                 |
 | {response_size}    | Taille de la réponse en bytes, en-têtes HTTP exclus                                                                    |
 | {status}           | Code de status de la réponse (200, 301, 404, 500, ...)                                                                 |
 | {user_agent}       | Valeur de l'en-tête [User-Agent](https://fr.wikipedia.org/wiki/User_agent) transmis par la requête                     |
 
-----
-¹ Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
-*Exemples : `{completion_date:{%d/%b/%Y}}` --> 16/Jul/2018, `{completion_date:{%H:%M:%S}}` --> 12:04:07*
+
+[^1]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
+*Exemples : `{completion_date:{%d/%b/%Y}}` → 16/Jul/2018, `{completion_date:{%H:%M:%S}}` → 12:04:07*

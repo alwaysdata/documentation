@@ -19,7 +19,7 @@ La fonctionnalité d'analyse de processus est disponible via **Avancé > Process
 
 - _PIDs_ : liste des PID des processus à auditer, séparés par un espace.  Si ce champ reste vide, tous les processus répondant à des requêtes HTTP seront analysés.
 - _Durée d'analyse_ : une fois l'analyse lancée, celle-ci durera pendant le temps indiqué (en secondes). Généralement, 30 à 60 secondes suffisent. L'analyse ne fonctionne que si des pages de votre site sont affichées, il faut donc laisser du temps pour afficher quelques pages, mais éviter d'enregistrer trop de données qui risquent de compliquer la lecture du résultat.
-- _Interpréter_ : par défaut, le résultat de l'analyse correspond au résultat d'un appel à `strace`¹, qui peut être difficile à lire. Si cette option est activée, le résultat sera interprété et filtré.
+- _Interpréter_ : par défaut, le résultat de l'analyse correspond au résultat d'un appel à `strace` [^1], qui peut être difficile à lire. Si cette option est activée, le résultat sera interprété et filtré.
 - _Opérations lentes_ : en activant cette option, seules les opérations considérées comme lentes (durant au moins 1ms) ou importantes seront affichées.
 
 Une fois l'analyse démarrée, il suffit de consulter les pages que l'on souhaite surveiller depuis son navigateur, pendant la durée de l'analyse.
@@ -59,5 +59,6 @@ Il peut arriver que l'analyse d'un processus débute alors que ce dernier était
 73510 16:53:04.551317 1.08 s   Wait for incoming connection from socket...
 ```
     
------
-¹ Plus d'informations sur [l'outil strace](https://fr.wikipedia.org/wiki/Strace).
+
+
+[^1]: Plus d'informations sur [l'outil strace](https://fr.wikipedia.org/wiki/Strace).
