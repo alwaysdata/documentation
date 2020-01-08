@@ -3,7 +3,7 @@ url = "/fr/comptes/programmes/enseignants"
 title = "Programme enseignants"
 menuTitle = "Enseignants"
 layout = "man"
-tags = ["facturation", "patronage"]
+tags = ["facturation", "parrainage"]
 +++
 
 Ce programme donne aux professeurs un endroit pour héberger les projets de leurs étudiants.

@@ -4,7 +4,7 @@ title = "Ticket urgent"
 menuTitle = "Serveur dédié : ticket urgent"
 layout = "man"
 hidden = true
-tags = ["serveur dédié", "surveillance"]
+tags = ["serveur dédié", "monitoring"]
 +++
 
 L'ouverture d'un ticket urgent, réservée aux clients possesseurs d'un serveur dédié, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
