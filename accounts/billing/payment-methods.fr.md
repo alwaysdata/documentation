@@ -3,7 +3,7 @@ url = "/fr/comptes/facturation/moyens-de-paiement/"
 title = "Moyens de paiement"
 menuTitle = "Moyens de paiement"
 layout = "man"
-weight = 1
+weight = 2
 tags = ["facturation"]
 +++
 
