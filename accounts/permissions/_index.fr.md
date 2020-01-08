@@ -43,7 +43,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 
 - _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
 - _[Utilisateurs SSH]({{< ref "remote-access/ssh/install-globally-ssh-keys" >}})_ : installez des clés SSH pour un accès simplifié aux différents comptes ;
-- _[Règles firewall]({{< ref "security/firewall" >}})_ : créez des règles firewall et consultez le bannissement automatique d'IP ;
+- _[Règles firewall]({{< ref "security/network/configure-firewall" >}})_ : créez des règles firewall et consultez le bannissement automatique d'IP ;
 - _Configuration SMTP_ : gérez la queue d'envoi d'emails, du relais SMTP et score de spam ;
 - _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
 - _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (*.alwaysdata.net par défaut) ;

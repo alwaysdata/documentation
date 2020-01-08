@@ -10,7 +10,7 @@ tags = ["accès distant", "dépannage", "ftp"]
 
 ## Connexion
 
-Un [blocage d'IP]({{< ref "security/firewall" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Un [blocage d'IP]({{< ref "security/network" >}}) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 {{% notice info %}}
 alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
