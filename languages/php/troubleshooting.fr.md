@@ -21,7 +21,7 @@ Process 1822026 attached
 [pid 1822026] flock(8, LOCK_EX
 ```
 
-Vous retrouverez sur cette [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-blocking-in-requests/) plus d'informations et solutions pour corriger ces sessions problématiques. La bonne pratique, permettant de diminuer la période durant laquelle la session est bloquée, est d'appeler `session_start()` le plus tard possible et `session_close()` le plus tôt possible.
+Vous retrouverez sur cette [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-blocking-in-requests/) plus d'informations et solutions pour corriger ces sessions problématiques. La bonne pratique, permettant de limiter la période durant laquelle la session est bloquée, est d'appeler `session_start()` le plus tard possible et `session_close()` le plus tôt possible.
 
 ## Messages d'erreurs
 
