@@ -20,7 +20,6 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-email-address" >}})
 - [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
 - [Lire la source d'un email]({{< relref "read-an-email-source" >}})
 - [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
-- [POP et IMAP : quelle différence ?]({{< relref "pop-imap-difference" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
 
