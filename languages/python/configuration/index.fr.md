@@ -17,7 +17,7 @@ La version par défaut est modifiable dans l'administration alwaysdata, **Enviro
 
 ## Logs d'erreur
 
-Vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section Web > Sites.
+Python tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
 ## Binaire à utiliser
 

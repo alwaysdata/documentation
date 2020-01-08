@@ -24,7 +24,7 @@ Une option du [php.ini]({{< ref "languages/php/configuration" >}}#paramètres-ph
 
 ```
 log_errors = On
-error_log = /home/[moncompte]/[chemin_vers_fichier_de_log]
+error_log = /home/[compte]/[chemin_vers_fichier_de_log]
 ```
 
 ## Paramètres (php.ini)
