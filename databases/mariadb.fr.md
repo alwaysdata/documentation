@@ -27,6 +27,7 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 Si vous modifiez les permissions de vos utilisateurs via une application tierce, toute validation via l'interface d'administration (ou via l'API) réinitialisera les permissions selon les directives ci-dessus.
 {{% /notice %}}
 
+## Autres informations
 MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Gérer les utilisateurs**.
 
 {{% notice info %}}

@@ -44,9 +44,11 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 * **locale** : détermine l'encodage, `LC_COLLATE` et `LC_CTYPE` ;
 * **extensions** : vous pouvez installer d'un simple clic des extensions PostgreSQL (`hstore`, `pgcrypto`, `PostGIS`, etc.). Si vous avez besoin d'une extension non listée, vous pouvez contacter le [support](https://admin.alwaysdata.com/support/add/).
 
-{{% notice note %}}
+## Autres informations
+
 Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé.
-{{% /notice %}}
+
+Les langages PostgreSQL *untrusted*, permettant d'exécuter du code arbitraire sous les droits de l'utilisateur administrateur (faisant tourner PostgreSQL), ne peuvent être utilisés sur nos serveurs.
 
 ---
 
