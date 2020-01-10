@@ -9,7 +9,7 @@ tags = ["dépannage", "domaine"]
 ## Transfert
 ### "2304 : Object status prohibits operation", "Transfer Prohibited from Registry Request" ou "2308 : Data management policy violation (domain [domain.tld] has invalid status (clientTransferProhibited))"
 
-Domaine protégé contre les transferts un `whois` renverra :
+Domaine protégé contre les transferts un `whois`[^1] renverra :
 
 {{% notice %}}
 Domain Status: clientTransferProhibited
@@ -57,3 +57,5 @@ Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le dét
 ## Liens
 
 - [Glossaire des codes de statut EPP](https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en)
+
+[^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)
