@@ -19,3 +19,5 @@ Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :
 * [SFTP]({{< relref "sftp" >}})
 * [SSH]({{< relref "ssh" >}})
 * [WebDAV]({{< relref "webdav" >}})
+
+- [Présentation du répertoire admin]({{< relref "admin-directory" >}})
