@@ -45,6 +45,8 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
 
 Afin d'éviter les abus et optimiser la délivrabilité des emails envoyés par ses serveurs, alwaysdata a mis en place un système de notation qui se base sur différents critères comme l'analyse du contenu et la fréquence des envois.
 
+Plus la note est basse mieux l'email sera noté et l'envoi accepté. En serveurs mutualisés, tout email ayant une note supérieure à _3_ sera bloqué. En serveurs VPS et dédiés, la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur.
+
 Suivant cette notation, le message sera expédié via une adresse IP ayant une réputation plus ou moins bonne. Ainsi, en optimisant la qualité de vos emails et leurs envois, vous aurez moins de chance pour que votre message soit considéré comme indésirable.
 
 Ce système utilise [SpamAssassin](https://spamassassin.apache.org/) et un ensemble de règles propres à son système :
@@ -54,6 +56,7 @@ Ce système utilise [SpamAssassin](https://spamassassin.apache.org/) et un ensem
 - +1: New customer : cela fait moins de 30 jours que le profil est créé ; 
 - +X: Too many bounces (XX %) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à 10 %, le système rajoutera 1 point et s'il est supérieur à 30 %, 2 points.
 
+Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez enfin configurer pour quelles notes données par l'antispam, les emails seront envoyés par cette IP.
 
 ## Remarques
 
