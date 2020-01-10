@@ -4,6 +4,7 @@ title = "Informations de connexion"
 menuTitle = "Informations de connexions"
 layout = "faq"
 weight = 1
+tags = ["compte", "environnement technique"]
 +++
 
 
