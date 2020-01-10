@@ -5,7 +5,13 @@ layout = "man"
 hidden = true
 tags = ["dépannage", "php"]
 +++
-## Sessions bloquées
+
+## mod_fcgid: can't apply process slot
+Ce message d'erreur renvoyé par le log Apache (`$HOME/admin/logs/apache/`) indique que la limite du nombre de processus PHP (*20*) à un instant T a été atteinte et que les nouvelles connexions sont en attente qu'un processus PHP soit disponible.
+
+Pour faire repartir rapidement le site vous pouvez le redémarrer dans **Web > Sites**. Cela ne réglera cependant "qu'artificiellement" et temporairement le problème. Vous pouvez [analyser les processus]({{< ref "sites/analyze-processes" >}}) ou utiliser des services de profiling PHP tels [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) ou [Blackfire](https://blackfire.io/) pour en trouver la source.
+
+### Sessions bloquées
 
 Chaque fois qu'une session PHP est démarrée, un fichier est créé (`session.save_path`) reprenant toutes ses informations et lui allouera un ID. Lorsqu'un utilisateur revient il fournira cet ID qui permettra a `session_start()` de récupérer ses données de session. Chaque fois que `session_start()` est démarré le fichier de session est verrouillé à l'aide de `flock`.
 
