@@ -3,7 +3,7 @@ url = "/fr/guides/"
 title = "Guides"
 weight = 100
 chapter = true
-pre = "<i class='fas fa-book-open'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-book-open'></i> "
 +++
 
 # Guides

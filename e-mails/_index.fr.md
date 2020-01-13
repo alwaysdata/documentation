@@ -1,7 +1,7 @@
 +++
 url = "/fr/emails/"
 title = "Emails"
-pre = "<i class='fas fa-paper-plane'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-paper-plane'></i> "
 weight = 15
 chapter = true
 tags = ["email"]

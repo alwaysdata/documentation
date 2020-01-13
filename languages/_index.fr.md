@@ -1,7 +1,7 @@
 +++
 url = "/fr/langages/"
 title = "Langages"
-pre = "<i class='fas fa-code'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-code'></i> &nbsp;"
 weight = 11
 chapter = true
 +++

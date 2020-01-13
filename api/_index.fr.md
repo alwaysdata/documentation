@@ -1,7 +1,7 @@
 +++
 url = "/fr/api/"
 title = "API"
-pre = "<i class='fas fa-plug'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-plug'></i> "
 weight = 80
 tags = ["api"]
 +++

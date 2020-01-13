@@ -1,7 +1,7 @@
 +++
 url = "/fr/accès-distant/"
 title = "Accès distant"
-pre = "<i class='fas fa-network-wired'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-network-wired'></i> "
 weight = 30
 chapter = true
 tags = ["accès distant", "compte"]

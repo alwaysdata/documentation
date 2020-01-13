@@ -1,7 +1,7 @@
 +++
 url = "/fr/bases-de-données/"
 title = "Bases de données"
-pre = "<i class='fas fa-database'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-database'></i> "
 weight = 20
 tags = ["base de données"]
 +++

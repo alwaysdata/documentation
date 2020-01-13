@@ -4,7 +4,7 @@ title = "Politiques de sécurité"
 menuTitle = "Sécurité"
 weight = 35
 chapter = true
-pre = "<i class='fas fa-shield-alt'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-shield-alt'></i> "
 tags = ["sécurité"]
 +++
 

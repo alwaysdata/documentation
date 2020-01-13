@@ -2,7 +2,7 @@
 url = "/fr/applithèque"
 title = "Applithèque"
 weight = 110
-pre = "<i class='fas fa-store'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-store'></i> "
 +++
 
 Déployez facilement et rapidement des applications ou frameworks dans votre espace utilisateur.

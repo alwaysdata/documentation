@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/"
 title = "Sites web"
-pre = "<i class='fas fa-globe'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-globe'></i> "
 chapter = true
 weight = 10
 tags = ["http", "site"]

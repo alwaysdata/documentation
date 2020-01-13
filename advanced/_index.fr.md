@@ -1,7 +1,7 @@
 +++
 url = "/fr/avancé/"
 title = "Avancé"
-pre = "<i class='fas fa-asterisk'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-asterisk'></i> "
 weight = 99
 chapter = true
 +++

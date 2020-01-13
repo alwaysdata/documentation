@@ -3,7 +3,7 @@ url = "/fr/comptes/"
 title = "Comptes & Facturation"
 weight = 60
 chapter = true
-pre = "<i class='fas fa-user-circle'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-user-circle'></i> "
 tags = ["administration", "compte", "facturation", "profil"]
 +++
 

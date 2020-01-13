@@ -1,7 +1,7 @@
 +++
 url = "/fr/tâches-planifiées/"
 title = "Tâches planifiées"
-pre = "<i class='fas fa-stopwatch'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-stopwatch'></i> "
 weight = 32
 layout = "man"
 tags = ["tâches planifiées"]

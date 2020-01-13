@@ -1,7 +1,7 @@
 +++
 url = "/fr/domaines/"
 title = "Domaines"
-pre = "<i class='fas fa-server'></i>&nbsp;"
+pre = "<i class='fas fa-fw fa-server'></i> "
 weight = 16
 chapter = true
 tags = ["dns", "domaine"]
