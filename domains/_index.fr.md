@@ -17,7 +17,6 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 - [Acheter un domaine]({{< relref "buy-a-domain" >}})
 - [Transférer un domaine]({{< relref "transfer-a-domain" >}})
 - [Ajouter un domaine externe]({{< relref "add-an-external-domain" >}})
-- [Règles d'extensions]({{< relref "extensions-rules" >}})
 - [Renouveler un domaine]({{< relref "renew-a-domain" >}})
 - [Dates limites]({{< relref "deadlines" >}})
 - [Déplacer un domaine]({{< relref "move-a-domain" >}})
