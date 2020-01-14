@@ -16,9 +16,9 @@ etc.) depuis votre code.
 
 ## Adresse
 
-| Version   | Adresse                           |
-|-----------|-----------------------------------|
-| 1.0       | https://api.alwaysdata.com/v1/    |
+| Version | URL Racine             | Documentation                   |
+|:--------|:-----------------------|:--------------------------------|
+| 1.0     | api.alwaysdata.com/v1 | https://api.alwaysdata.com/doc/ |
 
 ## Exemple rapide
 
