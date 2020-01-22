@@ -21,7 +21,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Gestion des permissions]({{< ref "permissions" >}})
 - [Programmes]({{< ref "programs" >}})
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
-- [Serveur dédié : tickets urgent]({{< ref "urgent-ticket" >}})
+- [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
 - [Système d'alertes]({{< ref "warning-system" >}})
 - [Suspension de profil]({{< ref "suspension" >}})
 - [Compte gratuit : limitations]({{< ref "free-pack-limitations" >}})
