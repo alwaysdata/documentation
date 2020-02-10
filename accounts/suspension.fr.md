@@ -1,7 +1,6 @@
 +++
 url = "/fr/comptes/support/suspension-de-profil/"
 title = "Profil suspendu"
-menuTitle = "Suspension de profil"
 layout = "man"
 hidden = true
 tags = ["compte", "profil", "suspension"]

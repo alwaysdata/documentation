@@ -1,7 +1,6 @@
 +++
 url = "/fr/sécurité/certificats/utiliser-un-certificat-san"
 title = "Comment utiliser un certificat SAN (multi-domaines)"
-menuTitle = "Utiliser un certificat SAN"
 layout = "howto"
 hidden = true
 tags = ["https", "sécurité", "ssl"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/comptes/support/ticket-urgent/"
 title = "Ticket urgent"
-menuTitle = "Serveur dédié : ticket urgent"
 layout = "man"
 hidden = true
 tags = ["serveur dédié", "monitoring"]

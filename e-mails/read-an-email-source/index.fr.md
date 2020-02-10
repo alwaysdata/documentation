@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/lire-la-source-dun-email/"
 title = "Comment lire la source d'un email"
-menuTitle = "Lire la source d'un email"
 layout = "howto"
 hidden = true
 tags = ["email"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/utiliser-les-scripts-sieve/"
 title = "Comment utiliser les scripts Sieve"
-menuTitle = "Utiliser les scripts Sieve"
 layout = "howto"
 hidden = true
 tags = ["email"]
@@ -50,7 +49,7 @@ N'utilisez pas la directive `require`, elle est déjà inclue par défaut.
 
 ## Exemples
 
-* Ajouter un préfixe "\<SPAM>" au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte) :
+* Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte) :
 
 ```
 require ["editheader", "variables", "body"] ;

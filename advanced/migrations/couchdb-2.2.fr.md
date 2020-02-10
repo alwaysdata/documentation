@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/couchdb-2.2/"
 title = "Migration CouchDB 2.2"
-menuTitle = "CouchDB 2.2"
 layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]

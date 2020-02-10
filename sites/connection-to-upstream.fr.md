@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/erreurs-connection-to-upstream/"
 title = 'Corriger les erreurs "Connection to upstream refused/skipped"'
-menuTitle = "Connection to upstream"
 layout = "howto"
 hidden = true
 tags = ["http", "dépannage", "site"]

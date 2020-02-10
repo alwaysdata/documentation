@@ -1,7 +1,6 @@
 +++
 url = "/fr/sécurité/autorisation-daccès-selon-IP/"
 title = "Autorisation d'accès à l'interface d'administration selon l'IP"
-menuTitle = "Autorisation d'accès selon IP"
 layout = "man"
 hidden = true
 tags = ["profil", "sécurité"]

@@ -1,12 +1,10 @@
 +++
 url = "/fr/comptes/facturation/changer-doffre/"
 title = "Changer d'offre"
-menuTitle = "Changer d'offre"
 layout = "man"
 hidden = true
 tags = ["facturation"]
 +++
-
 
 Pour changer d'offre, rendez-vous dans **Comptes >Modifier** le compte concerné :
 {{< fig "images/list-accounts.fr.png" "Interface d'administration : liste de ses comptes" >}}

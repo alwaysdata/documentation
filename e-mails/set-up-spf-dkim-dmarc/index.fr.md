@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/configurer-spf-dkim-dmarc/"
 title = "Comment configurer SPF/DKIM/DMARC"
-menuTitle = "Configurer SPF/DKIM/DMARC"
 layout = "howto"
 hidden = true
 tags = ["email", "dns"]

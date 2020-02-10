@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/adresses-collectrice/"
 title = "Adresse collectrice (catch-all)"
-menuTitle = "Catch-all"
 layout = "faq"
 hidden = true
 tags = ["http", "site", "sous-domaine"]

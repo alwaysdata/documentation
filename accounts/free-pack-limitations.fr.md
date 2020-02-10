@@ -1,7 +1,6 @@
 +++
 url = "/fr/comptes/support/limitations-du-compte-gratuit/"
 title = "Limitations du compte gratuit"
-menuTitle = "Compte gratuit : limitations"
 layout = "man"
 hidden = true
 tags = ["abus", "plan gratuit"]

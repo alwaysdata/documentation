@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/utiliser-le-pare-feu-applicatif_waf/"
 title = "Comment utiliser le Pare-feu applicatif web (WAF)"
-menuTitle = "Utiliser le WAF"
 layout = "howto"
 hidden = true
 tags = ["http", "site", "waf"] 
@@ -41,9 +40,9 @@ Selon votre cas d'utilisation, le **comportement du WAF peut être trop restrict
 Seul le **numéro de la règle à exclure** doit être spécifié. Vous le retrouverez dans les logs Sites (`$HOME/admin/logs/sites`). Exemple :
 
 ```
-[08/Jan/2019:11:09:19 +0100] [waf] - \<IP attaquante\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: ">\<script\>alert(1);\</script>
-[08/Jan/2019:11:09:19 +0100] [waf] - \<IP attaquante\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: \<script\>
-[08/Jan/2019:11:09:19 +0100] [waf] - \<IP attaquante\> "GET /?param=%22>\<script\>alert(1);\</script\> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: \<script\>
+[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: "><script>alert(1);</script>
+[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: <script>
+[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: <script>
 ```
 
 Ce serait donc `941100`, `941110` et `941160` qui pourraient être indiqués.

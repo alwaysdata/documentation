@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/ftp/créer-un-utilisateur-ftp/"
 title = "Comment créer un utilisateur FTP"
-menuTitle = "Créer un utilisateur FTP"
 layout = "howto"
 weight = 30
 hidden = true

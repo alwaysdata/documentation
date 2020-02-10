@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/postgresql-10/"
 title = "Migration PostgreSQL 10"
-menuTitle = "PostgreSQL 10"
 layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/tâches-planifiées/utiliser-les-tâches-planifiées/"
 title = "Comment utiliser des tâches planifiées"
-menuTitle = "Utiliser des tâches planifiées"
 layout = "howto"
 weight = 10
 hidden = true

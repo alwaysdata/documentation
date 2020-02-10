@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/détruire-un-domaine/"
 title = "Comment détruire un domaine"
-menuTitle = "Détruire un domaine"
 layout = "howto"
 hidden = true
 tags = ["domaine"]

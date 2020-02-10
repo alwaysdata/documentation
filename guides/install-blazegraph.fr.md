@@ -1,7 +1,6 @@
 +++
 url = "/fr/guides/installer-blazegraph/"
 title = "Comment installer Blazegraph"
-menuTitle = "Installer Blazegraph"
 layout = "howto"
 hidden = true
 +++

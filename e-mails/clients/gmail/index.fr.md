@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/clients/gmail/"
 title = "Comment configurer Gmail"
-menuTitle = "Gmail"
 layout = "howto"
 hidden = true
 tags = ["email", "gmail"]

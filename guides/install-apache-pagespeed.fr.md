@@ -1,7 +1,6 @@
 +++
 url = "/fr/guides/installer-apache-pagespeed/"
 title = "Comment installer Apache PageSpeed"
-menuTitle = "Installer Apache PageSpeed"
 layout = "howto"
 hidden = true
 +++

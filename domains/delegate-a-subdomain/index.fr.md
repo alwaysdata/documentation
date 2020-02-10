@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/déléguer-un-sous-domaine/"
 title = "Comment déléguer un sous-domaine"
-menuTitle = "Déléguer un sous-domaine"
 layout = "howto"
 hidden = true
 tags = ["domaine", "sites"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/formater-les-logs-http/"
 title = "Formater les logs HTTP"
-menuTitle = "Formater les logs HTTP"
 layout = "man"
 hidden = true
 tags = ["http", "site"]

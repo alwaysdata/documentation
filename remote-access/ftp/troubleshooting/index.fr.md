@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/ftp/problèmes-fréquents/"
 title = "FTP : problèmes fréquents"
-menuTitle = "Problèmes fréquents"
 layout = "faq"
 weight = 50
 hidden = true

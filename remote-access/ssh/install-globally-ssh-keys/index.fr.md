@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/ssh/clés-ssh-globales/"
 title = "Comment accéder globalement à son serveur avec des clés SSH"
-menuTitle = "Clés SSH globales"
 layout = "howto"
 weight = 80
 hidden = true

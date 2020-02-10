@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/utiliser-les-sondes-de-monitoring/"
 title = "Comment utiliser les sondes de monitoring"
-menuTitle = "Sondes de monitoring"
 layout = "howto"
 hidden = true
 tags = ["http", "serveur dédié", "site"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/guides/installer-new-relic/"
 title = "Comment installer New Relic"
-menuTitle = "Installer New Relic"
 layout = "howto"
 hidden = true
 tags = ["monitoring"]

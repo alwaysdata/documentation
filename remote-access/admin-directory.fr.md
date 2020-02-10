@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/répertoire-admin/"
 title = "Répertoire admin : présentation"
-menuTitle = "Répertoire admin"
 layout = "man"
 hidden = true
 tags = ["compte", "environnement technique"]

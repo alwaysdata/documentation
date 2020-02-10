@@ -1,7 +1,6 @@
 +++
 url = "/fr/comptes/support/système-d-alertes/"
 title = "Système d'alertes"
-menuTitle = "Système d'alertes"
 layout = "man"
 hidden = true
 tags = ["profil"]

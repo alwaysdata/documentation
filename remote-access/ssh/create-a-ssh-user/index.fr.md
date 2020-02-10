@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/ssh/créer-un-utilisateur-ssh/"
 title = "Comment créer un utilisateur SSH"
-menuTitle = "Créer un utilisateur SSH"
 layout = "howto"
 weight = 30
 hidden = true

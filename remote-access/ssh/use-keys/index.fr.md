@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/ssh/utiliser-des-clés-ssh/"
 title = "Comment utiliser des clés SSH"
-menuTitle = "Utiliser des clés"
 layout = "howto"
 weight = 20
 hidden = true

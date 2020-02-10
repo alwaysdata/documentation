@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/apache-personnalisé/"
 title = "Comment utiliser le type Apache personnalisé"
-menuTitle = "Apache personnalisé"
 layout = "howto"
 hidden = true
 tags = ["apache", "http", "site"]

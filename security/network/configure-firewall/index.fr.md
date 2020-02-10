@@ -1,7 +1,6 @@
 +++
 url = "/fr/sécurité/réseau/configurer-son-pare-feu"
 title = "Serveurs VPS et dédiés : configurer le pare-feu"
-menuTitle = "Configurer le pare-feu"
 layout = "faq"
 hidden = true
 tags = ["sécurité", "serveur dédié", "serveur vps"]
@@ -39,8 +38,8 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 | Protocole  | UDP/TCP                                          |
 | Type       | ACCEPT                                           |
 | Direction  | Entrée                                           |
-| Hôtes      | \<votre IP\>                                     |
-| Ports      | \<ne rien indiquer\>                             |
+| Hôtes      | \<votre IP>                                      |
+| Ports      | \<ne rien indiquer>                              |
 | Version IP | IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées) |
 
 {{< fig "images/rule-example.fr.png" "Exemple" >}}

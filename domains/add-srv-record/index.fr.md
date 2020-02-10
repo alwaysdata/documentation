@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/ajouter-un-enregistrement-srv/"
 title = "Comment ajouter un enregistrement SRV"
-menuTitle = "Ajouter un enregistrement SRV"
 layout = "howto"
 hidden = true
 +++

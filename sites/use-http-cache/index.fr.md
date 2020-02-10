@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/utiliser-le-cache-http/"
 title = "Comment utiliser le cache HTTP"
-menuTitle = "Utiliser le cache HTTP"
 layout = "howto"
 hidden = true
 tags = ["cache", "http", "site"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/fichier-htaccess/"
 title = "Fichier .htaccess"
-menuTitle = ".htaccess"
 layout = "man"
 hidden = true
 tags = ["apache", "http", "site"]
@@ -28,7 +27,7 @@ Pour créer ce fichier `.htpasswd` :
 `htpasswd -c .htpasswd <utilisateur>`
 
 
-En remplaçant *\<utilisateur\>* par le nom d'utilisateur souhaité. L'outil demande d'entrer à deux reprises le mot de passe correspondant.
+En remplaçant `<utilisateur>` par le nom d'utilisateur souhaité. L'outil demande d'entrer à deux reprises le mot de passe correspondant.
 
 ## Limiter l'accès à un répertoire
 

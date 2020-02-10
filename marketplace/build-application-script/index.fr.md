@@ -1,7 +1,6 @@
 +++
 url = "/fr/applithèque/créer-son-script-d-application/"
 title = "Créer son propre script d'application"
-menuTitle = "Créer son propre script"
 layout = "man"
 hidden = true
 +++

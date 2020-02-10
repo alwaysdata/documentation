@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/mariadb10.3/"
 title = "Migration MariaDB 10.3"
-menuTitle = "MariaDB 10.3"
 layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]

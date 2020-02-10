@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/anticiper-un-pic-daudience/"
 title = "Comment anticiper un pic d'audience"
-menuTitle = "Pic d'audience"
 layout = "howto"
 hidden = true
 tags = ["http", "site"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/dates-limites/"
 title = "Dates limites de renouvellement"
-menuTitle = "Dates limites"
 layout = "man"
 hidden = true
 tags = ["domaine"]

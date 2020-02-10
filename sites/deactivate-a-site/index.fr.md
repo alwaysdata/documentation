@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/désactiver-un-site/"
 title = "Comment désactiver un site web"
-menuTitle = "Désactiver un site"
 layout = "howto"
 hidden = true
 tags = ["http", "site"]

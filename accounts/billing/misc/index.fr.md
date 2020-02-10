@@ -1,11 +1,11 @@
 +++
 url = "/fr/comptes/facturation/divers/"
 title = "Diverses questions"
-menuTitle = "Facturation - divers"
 layout = "man"
 hidden = true
 tags = ["facturation"]
 +++
+
 ## Souscrire à un plan VPS ou dédié
 Pour souscrire à ces offres, contactez-nous par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/#contact) ou [téléphone](tel:0184162340), nous vous guiderons sur la démarche à suivre.
 
@@ -15,6 +15,7 @@ Il n'y a pas de frais d'installation mais un engagement minimum de 3 mois sera d
 Il est possible de choisir le jour du mois de facturation, plus souple et pratique lorsque vous avez plusieurs abonnements (hébergement, adresse IP, etc.).
 
 Pour le faire, rendez-vous dans **Facturation > Moyens de paiement > Paramètres > Jour de facturation**.
+
 {{< fig "images/payment-methods.fr.png" "Interface d'administration : mettre en place le jour de facturation" >}}
 
 Une _facture de prorata_ (sur chaque produit souscrit) est générée lors de la mise en place de cette fonctionnalité afin d’aligner les dates.

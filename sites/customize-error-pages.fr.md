@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/personnaliser-les-pages-derreurs/"
 title = "Comment personnaliser les pages d'erreurs"
-menuTitle = "Personnaliser les pages d'erreurs"
 layout = "howto"
 hidden = true
 tags = ["http", "site"]

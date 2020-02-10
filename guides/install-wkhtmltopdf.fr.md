@@ -1,7 +1,6 @@
 +++
 url = "/fr/guides/installer-wkhtmltopdf/"
 title = "Comment installer wkhtmltopdf"
-menuTitle = "Installer wkhtmltopdf"
 layout = "howto"
 hidden = true
 +++

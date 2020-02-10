@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/architecture-logicielle-2017/"
 title = "Architecture Logicielle 2017"
-menuTitle = "Architecture Logicielle 2017"
 layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]
@@ -35,7 +34,6 @@ Ce document ne décrit pas les nouvelles fonctionnalités apportées par l'infra
 ### PHP
 
 * Les extensions de fichiers `.php4` et `.php5` ne sont plus supportées, seuls les fichiers `.php` sont interprétés par PHP par défaut. Vous pouvez néanmoins retrouver l'ancien comportement en créant un fichier `.htaccess` à la racine de votre compte. Par exemple, pour que les fichiers `.php5` soient interprétés par PHP, il devra contenir :
-
 ```
 AddHandler fcgid-script .php5
 FCGIWrapper /usr/bin/php-cgi .php5
@@ -235,9 +233,9 @@ Vous avez une application Python (par exemple, utilisant [Django](https://www.dj
 
 * en SSH, installez l'ensemble des bibliothèques dont vous avez besoin, par exemple :
 
-```
-$ mkdir $HOME/python_libs; PYTHONPATH=$HOME/python_libs easy_install --always-copy --install-dir $HOME/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
-```
+    ```
+    $ mkdir $HOME/python_libs; PYTHONPATH=$HOME/python_libs easy_install --always-copy --install-dir $HOME/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
+    ```
 
 * modifiez votre fichier `.fcgi` pour remplacer le shebang (la première ligne), généralement `#!/usr/bin/python`, par `#!/usr/bin/eval PYTHONPATH=/home/foo/python_libs python`, `foo` étant à remplacer par le nom de votre compte.
 
@@ -261,8 +259,8 @@ Vous avez un site de type *Apache personnalisé* qui charge le module système `
 
 * télécharger le fichier https://files.alwaysdata.com/migrations/software-2017/mod_wsgi.so-2.6 sur votre compte :
 
-```
-wget https://files.alwaysdata.com/migrations/software-2017/mod_wsgi.so-2.6
-```
+    ```
+    wget https://files.alwaysdata.com/migrations/software-2017/mod_wsgi.so-2.6
+    ```
 
 * remplacer le chemin `/usr/lib/apache2/modules/mod_wsgi.so-2.6` dans les directives de votre site *Apache personnalisé* par le chemin du fichier téléchargé sur votre compte, par exemple `/home/foo/mod_wsgi.so-2.6`.

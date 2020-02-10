@@ -1,7 +1,6 @@
 +++
 url = "/fr/statistiques/assistance-matomo/"
 title = "Statistiques Matomo : Assistance"
-menuTitle = "Assistance Matomo"
 layout = "faq"
 weight = 10
 hidden = true

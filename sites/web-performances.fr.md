@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/performances-web/"
 title = "Comment améliorer ses performances web"
-menuTitle = "Performances web"
 layout = "howto"
 hidden = true
 tags = ["http", "site"]

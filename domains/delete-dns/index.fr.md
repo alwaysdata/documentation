@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/supprimer-un-enregistrement-dns/"
 title = "Comment supprimer un enregistrement DNS"
-menuTitle = "Supprimer un enregistrement DNS"
 layout = "howto"
 hidden = true
 tags = ["dns", "domaine"]

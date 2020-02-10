@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/migrer-un-site-lors-dun-changement-de-prestataire/"
 title = "Changement de prestataire : comment migrer un site"
-menuTitle = "Changer de prestataire"
 layout = "howto"
 hidden = true
 tags = ["site"]

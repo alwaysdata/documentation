@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/"
 title = "Comment effectuer une migration en serveur VPS/dédié"
-menuTitle = "Migrations VPS/dédié"
 layout = "howto"
 hidden = true
 tags = ["migration", "serveur dédié", "serveur vps"]

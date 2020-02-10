@@ -1,7 +1,6 @@
 +++
 url = "/fr/accès-distant/webdav/créer-un-utilisateur-webdav/"
 title = "Comment créer un utilisateur WebDAV"
-menuTitle = "Créer un utilisateur WebDAV"
 layout = "howto"
 weight = 30
 hidden = true

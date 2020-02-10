@@ -1,7 +1,6 @@
 +++
 url = "/fr/avancé/migrations/effectuer-une-migration/"
 title = "Comment effectuer une migration"
-menuTitle = "Effectuer une migration"
 layout = "howto"
 hidden = true
 tags = ["infrastructure", "migration"]

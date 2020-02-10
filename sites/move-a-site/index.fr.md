@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/déplacer-un-site/"
 title = "Comment déplacer un site web"
-menuTitle = "Déplacer un site"
 layout = "howto"
 hidden = true
 tags = ["site"]

@@ -1,7 +1,6 @@
 +++
 url = "/fr/domaines/changer-de-propriétaire/"
 title = "Comment changer le propriétaire d'un domaine"
-menuTitle = "Changer de propriétaire"
 layout = "howto"
 hidden = true
 tags = ["domaine"]

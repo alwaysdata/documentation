@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/clients/apple-ios/"
 title = "Comment configurer Mail (Apple/iOS)"
-menuTitle = "Mail Apple/iOS"
 layout = "howto"
 tags = ["email", "mail apple", "ios"]
 hidden = true

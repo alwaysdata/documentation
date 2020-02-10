@@ -1,7 +1,6 @@
 +++
 url = "/fr/emails/réagir-à-un-envoi-de-spam/"
 title = "Comment réagir à un envoi de spam"
-menuTitle = "Réagir à un envoi de spam"
 layout = "howto"
 hidden = true
 tags = ["email", "infection", "spam"]
