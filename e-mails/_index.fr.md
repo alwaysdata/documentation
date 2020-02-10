@@ -11,14 +11,14 @@ tags = ["email"]
 
 Nos serveurs emails sont classiques ; nous utilisons [Exim](https://www.exim.org/) et [Dovecot](https://www.dovecot.org/).
 
-Vous pouvez [créer une adresse email]({{< relref "create-an-email-address" >}}) dans l'onglet **Emails** de votre interface d'administration alwaysdata et [consulter vos emails]({{< relref "use-an-email-address" >}}) via un client mail de votre choix ou notre [webmail](https://webmail.alwaysdata.com).
+Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}) dans l'onglet **Emails** de votre interface d'administration alwaysdata et [consulter vos emails]({{< relref "use-an-e-mail-address" >}}) via un client mail de votre choix ou notre [webmail](https://webmail.alwaysdata.com).
 
 ## Ressources
 
-- [Délivrabilité : bonnes pratiques]({{< relref "emails-delivery" >}})
+- [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
 - [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
 - [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
-- [Lire la source d'un email]({{< relref "read-an-email-source" >}})
+- [Lire la source d'un email]({{< relref "read-an-e-mail-source" >}})
 - [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})

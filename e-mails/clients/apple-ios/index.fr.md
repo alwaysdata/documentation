@@ -6,7 +6,7 @@ tags = ["email", "mail apple", "ios"]
 hidden = true
 +++
 
-[Rappel des informations de connexion]({{< ref "e-mails/use-an-email-address">}})
+[Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
 
 ## MacOS : application Mail
 

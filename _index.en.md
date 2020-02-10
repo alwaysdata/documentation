@@ -10,7 +10,7 @@ Learn how to use *alwaysdata*. Find out how to set up an account. Discover how t
 
 - Find all of the [connection information]({{<ref "remote-access/login-details">}}) linked to your account,
 - Connect to your [administration interface](https://admin.alwaysdata.com),
-- Create a [website]({{< ref "sites/add-a-site" >}}), [buy]({{< ref "domains/buy-a-domain" >}}) or [transfer]({{< ref "domains/transfer-a-domain" >}}) a domain, create [email addresses]({{< ref "e-mails/create-an-email-address" >}}),
+- Create a [website]({{< ref "sites/add-a-site" >}}), [buy]({{< ref "domains/buy-a-domain" >}}) or [transfer]({{< ref "domains/transfer-a-domain" >}}) a domain, create [email addresses]({{< ref "e-mails/create-an-e-mail-address" >}}),
 - Transfer your files using a remote access protocol - [SFTP]({{< ref "remote-access/sftp" >}}) for instance - and create your [database]({{< ref "databases" >}}).
 
 A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).

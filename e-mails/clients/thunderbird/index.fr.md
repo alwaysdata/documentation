@@ -6,7 +6,7 @@ tags = ["email", "thunderbird"]
 hidden = true
 +++
 
-[Rappel des informations de connexion]({{< ref "e-mails/use-an-email-address">}})
+[Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
 
 Rendez-vous dans **Comptes > Configurer un compte : Courrier électronique**.
 

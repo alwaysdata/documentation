@@ -12,7 +12,7 @@ A backup of your files, databases and emails is made **daily**, retained for a r
 
 Backups are stored in a dedicated data center that is tens of kilometers away from the production center, using another contractor.
 
-You can restore [a website]({{< relref "restore-a-site" >}}) or [emails]({{< relref "restore-emails" >}}) from the **Advanced > Restore backups** tab in your administration interface.
+You can restore [a website]({{< relref "restore-a-site" >}}) or [emails]({{< relref "restore-e-mails" >}}) from the **Advanced > Restore backups** tab in your administration interface.
 
 {{% notice info %}}
 Backups are not counted as part of an account’s disk space quota.

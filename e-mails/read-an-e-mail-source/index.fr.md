@@ -1,4 +1,4 @@
-+++
+PPPPPP+++
 url = "/fr/emails/lire-la-source-dun-email/"
 title = "Comment lire la source d'un email"
 layout = "howto"
@@ -103,4 +103,4 @@ X-alwaysdata-Spam-Report: Content analysis details:   (-2.5 points, 5.0 required
 Le mail ne contient pas de virus détecté par [ClamAV](https://www.clamav.net/) et [SpamAssassin](https://spamassassin.apache.org/) donne une note basse permettant l'envoi du message.
 
 ----
-- [Delivrabilité des emails : bonnes pratiques]({{< ref "e-mails/emails-delivery">}})
+- [Delivrabilité des emails : bonnes pratiques]({{< ref "e-mails/delivery">}})

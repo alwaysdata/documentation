@@ -34,7 +34,7 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 
 ## Personnalisation
 
-- [Personnaliser les pages d'erreurs]({{< relref "customize-error-pages" >}})
+- [Personnaliser les pages d'erreurs]({{< relref "custom-error-pages" >}})
 - [Analyser des processus]({{< relref "analyze-processes" >}})
 - [Performances web]({{< relref "web-performances" >}})
 - [Pic d'audience]({{< relref "anticipate-peak-audience" >}})

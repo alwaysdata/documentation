@@ -24,4 +24,4 @@ Cela va ajouter le domaine en tant que _domaine externe_ dans la liste.
 
 {{< fig "images/admin-panel_domain-list2.fr.png" "Interface d'administration : Domaine externe" >}}
 
-Vous pourrez alors lui créer des [adresses emails]({{< ref "e-mails/create-an-email-address" >}}) et gérer les [enregistrements DNS]({{< ref "domains/add-dns" >}}).
+Vous pourrez alors lui créer des [adresses emails]({{< ref "e-mails/create-an-e-mail-address" >}}) et gérer les [enregistrements DNS]({{< ref "domains/add-dns" >}}).

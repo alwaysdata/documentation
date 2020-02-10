@@ -51,7 +51,7 @@ Un transfert prend en moyenne 6 à 8 jours, cela peut être accéléré en conta
 Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
 
 - mettant à jour vos [enregistrements DNS]({{< ref "domains/add-dns" >}}) si vous utilisez d'autres serveurs pour certains services ;
-- créant les [adresses emails]({{< ref "e-mails/create-an-email-address" >}}).
+- créant les [adresses emails]({{< ref "e-mails/create-an-e-mail-address" >}}).
 
 Concernant le site internet, plusieurs choix sont possibles :
 

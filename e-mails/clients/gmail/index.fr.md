@@ -5,7 +5,7 @@ layout = "howto"
 hidden = true
 tags = ["email", "gmail"]
 +++
-[Rappel des informations de connexion]({{< ref "e-mails/use-an-email-address">}})
+[Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
 
 ## Ordinateur
 
