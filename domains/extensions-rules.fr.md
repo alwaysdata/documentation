@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/règles-dextensions/"
+url = "/fr/domaines/règles-d-extensions/"
 title = "Règles d'extensions"
 layout = "man"
 hidden = true
