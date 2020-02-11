@@ -13,30 +13,42 @@ Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet 
 
 Avant de lancer l'opération le propriétaire doit :
 
+<!-- TODO: Update EN content when available -->
 - enlever la protection contre les transferts ;
-- vérifier que les informations du propriétaire sont correctes et visibles dans le `whois`[^1] ;
-- récupérer le code d'autorisation.
+- vérifier que les informations du propriétaire sont correctes et visibles dans le `whois` [^1] ;
+- obtenir le code d'autorisation ;
+- récupérer une sauvegarde de ses données (notamment les emails).
 
 Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
 
 ## Lancement du transfert
 
-1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
-   {{< fig "images/admin-panel_domain-list.fr.png" "Interface d'administration : liste des domaines" >}}
-   Si le domaine a déjà été [ajouté]({{< ref "domains/add-an-external-domain" >}}) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
-   {{< fig "images/admin-panel_transfer-domain.fr.png" "Interface d'administration : Transfert d'un domaine déjà en gestion" >}}
-2. Renseignez les noms de domaines que vous souhaitez acheter ;
-   {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
-   {{% notice info %}}
-   Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.example\.org.
-   {{% /notice %}}
-3. Choisissez de le **transférer** ;
-   {{< fig "images/admin-panel_add-domain-2.fr.png" "Interface d'administration : étape 2" >}}
-4. - Indiquez le _code d'authorisation_ si l'extension le demande ;
-   - Choisissez d'utiliser ou non nos serveurs DNS : cela entraîne le transfert de la gestion technique du domaine chez alwaysdata ;
-   - Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
-     {{< fig "images/admin-panel_add-domain-3.fr.png" "Interface d'administration : étape 3" >}}
+1.  Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
+    
+    {{< fig "images/admin-panel_domain-list.fr.png" "Interface d'administration : liste des domaines" >}}
+    
+    Si le domaine a déjà été [ajouté]({{< ref "domains/add-an-external-domain" >}}) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
+    
+    {{< fig "images/admin-panel_transfer-domain.fr.png" "Interface d'administration : Transfert d'un domaine déjà en gestion" >}}
+
+2.  Renseignez les noms de domaines que vous souhaitez acheter ;
+   
+    {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
+
+{{% notice info %}}
+Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : `example.org` et non `www.example.org`.
+{{% /notice %}}
+
+3.  Choisissez de le **transférer** ;
+    {{< fig "images/admin-panel_add-domain-2.fr.png" "Interface d'administration : étape 2" >}}
+
+4. 
+    - Indiquez le _code d'authorisation_ si l'extension le demande ;
+    - Choisissez d'utiliser ou non nos serveurs DNS : cela entraîne le transfert de la gestion technique du domaine chez alwaysdata ;
+    - Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
+   
+    {{< fig "images/admin-panel_add-domain-3.fr.png" "Interface d'administration : étape 3" >}}
 
 {{% notice warning %}}
 Un email de validation est envoyé pour un certain nombre d'extensions. Sans validation, le transfert est abandonné.
@@ -58,6 +70,7 @@ Concernant le site internet, plusieurs choix sont possibles :
 - ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt]({{< ref "security/certificates/lets-encrypt" >}}) ;
 - préparer le site sur une autre adresse et attendre le dernier moment pour ajouter les adresses au site. Il peut alors se passer un temps où le site n'est plus accessible.
 
+---
 
 ## Liens
 
