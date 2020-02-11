@@ -9,7 +9,7 @@ tags = ["sécurité", "serveur dédié", "serveur vps"]
 Le pare-feu se gère dans le menu **Firewall** du serveur dédié.
 
 ## Règles
-Menu pour retrouver, créer et ajuster ses règles de pare(feu.
+Menu pour retrouver, créer et ajuster ses règles de pare-feu.
 {{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de pare-feu actives" >}}
 
 Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres.
