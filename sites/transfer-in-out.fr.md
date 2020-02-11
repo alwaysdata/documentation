@@ -1,25 +1,20 @@
 +++
-url = "/fr/sites/migrer-un-site-lors-dun-changement-de-prestataire/"
-title = "Changement de prestataire : comment migrer un site"
+url = "/fr/sites/migrer-un-site-chez-alwaysdata/"
+title = "Migrer un site chez alwaysdata"
 layout = "howto"
 hidden = true
 tags = ["site"]
 +++
 
-Cet article explique comment procéder au déplacement d'un site d'un prestataire à un autre.
-
-1. Récupérez les fichiers et la base de données chez le prestataire actuel ;
-2. Mettez en place le site chez le nouvel hébergeur avec une adresse de préproduction ;
-    - il faudra modifier les fichiers de configuration et vérifier la base de données.
-3. Migrez les adresses du site. Vous pouvez en même temps transférer le domaine.
+Cet article explique comment procéder à la migration d'un site chez alwaysdata.
 
 <!-- TODO: add same mention in EN when available -->
 {{% notice tip %}}
-Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire spécialisé : la société [déménageur-site](https://www.demenageur-site.com) par exemple connait bien notre plateforme et propose même un code promo pour une migration vers alwaysdata ([contactez notre support][1]).
+Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire spécialisé : la société [Déménageur de Site](https://www.demenageur-site.com) par exemple connaît bien notre plateforme et propose même un code promo pour une migration vers alwaysdata ([contactez notre support](https://admin.alwaysdata.com/support/add)).
 {{% /notice %}}
 
 
-## Transfert chez alwaysdata
+## Transfert manuel
 
 1. Récupérez les fichiers et la base de données chez le prestataire actuel ;
     - copiez les fichiers dans votre compte alwaysdata en utilisant [FTP]({{< ref "remote-access/ftp" >}}) ou [SSH]({{< ref "remote-access/ssh" >}}) ;
@@ -33,6 +28,3 @@ Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire 
 {{% notice tip %}}
 Pour les commandes vous pouvez suivre la documentation [Déplacer un site]({{< ref "sites/move-a-site" >}}).
 {{% /notice %}}
-
-
-[1]: https://gooranga.alwaysdata.com/support/?status=open
