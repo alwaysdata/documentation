@@ -8,7 +8,7 @@ tags = ["infrastructure", "migration"]
 <!-- TODO: Create EN version -->
 
 {{% notice info %}}
-Cette migration n'est pour le moment seulement disponible en serveurs mutualisés. Si vous êtes en serveurs VPS ou dédiés, nous vous proposons la migration [PostgreSQL 10]({{< ref postgresql-10 >}}).
+Cette migration est pour le moment seulement disponible en serveurs mutualisés. Si vous êtes en serveur VPS ou dédié, nous vous proposons la migration [PostgreSQL 10]({{< ref postgresql-10 >}}).
 {{% /notice %}}
 
 Cette migration migre vos bases de données vers la version 12 de PostgreSQL (depuis PostgreSQL 9.6 ou 10) : https://www.postgresql.org/docs/12/release-12.html.
