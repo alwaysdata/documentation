@@ -13,6 +13,10 @@ Cet article explique comment procéder au déplacement d'un site d'un prestatair
     - il faudra modifier les fichiers de configuration et vérifier la base de données.
 3. Migrez les adresses du site. Vous pouvez en même temps transférer le domaine.
 
+<!-- TODO: add same mention in EN when available -->
+{{% notice tip %}}
+Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire spécialisé : la société [déménageur-site](https://www.demenageur-site.com) par exemple connait bien notre plateforme et propose même un code promo pour une migration vers alwaysdata ([contactez notre support][1]).
+{{% /notice %}}
 
 
 ## Transfert chez alwaysdata
@@ -29,3 +33,6 @@ Cet article explique comment procéder au déplacement d'un site d'un prestatair
 {{% notice tip %}}
 Pour les commandes vous pouvez suivre la documentation [Déplacer un site]({{< ref "sites/move-a-site" >}}).
 {{% /notice %}}
+
+
+[1]: https://gooranga.alwaysdata.com/support/?status=open
