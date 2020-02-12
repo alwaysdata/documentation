@@ -1,6 +1,6 @@
 +++
 url = "/fr/api/ressources/"
-title = "Ressources"
+title = "Ressources API"
 weight = 10
 tags = ["administration", "api"]
 +++
