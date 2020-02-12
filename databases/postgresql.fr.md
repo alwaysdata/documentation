@@ -21,17 +21,17 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 
 * REVOKE ALL PRIVILEGES sur la base et ses schémas ;
 * Si votre utilisateur doit avoir **tous les droits** :
-  * GRANT ALL PRIVILEGES sur la base et ses schémas ;
-  * ALTER DEFAULT PRIVILEGES : GRANT ALL PRIVILEGES sur les TABLES, SEQUENCES et FUNCTIONS ;
-  * GRANT ALL PRIVILEGES sur les TABLES, SEQUENCES et FUNCTIONS.
+    * GRANT ALL PRIVILEGES sur la base et ses schémas ;
+    * ALTER DEFAULT PRIVILEGES : GRANT ALL PRIVILEGES sur les TABLES, SEQUENCES et FUNCTIONS ;
+    * GRANT ALL PRIVILEGES sur les TABLES, SEQUENCES et FUNCTIONS.
 * Si votre utilisateur doit avoir le droit **lecture seule** :
-  * GRANT CONNECT sur la base ;
-  * GRANT USAGE sur les schémas ;
-  * ALTER DEFAULT PRIVILEGES :
+    * GRANT CONNECT sur la base ;
+    * GRANT USAGE sur les schémas ;
+    * ALTER DEFAULT PRIVILEGES :
         * GRANT SELECT sur les TABLES, SEQUENCES ;
         * GRANT EXECUTE sur les FUNCTIONS.
-  * GRANT SELECT sur les TABLES, SEQUENCES ;
-  * GRANT EXECUTE sur les FUNCTIONS.
+    * GRANT SELECT sur les TABLES, SEQUENCES ;
+    * GRANT EXECUTE sur les FUNCTIONS.
 
 {{% notice warning %}}
 Si vous modifiez les permissions de vos utilisateurs via une application tierce, toute validation via l'interface d'administration (ou via l'API) réinitialisera les permissions selon les directives ci-dessus.

@@ -14,7 +14,7 @@ L'utilisation de Mongo en PHP nécessite l'[installation d'une extension PECL]({
 $ ad_install_pecl mongodb
 ```
 
-N'oubliez pas ensuite d'[ajouter l'extension dans votre php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) :
+N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) :
 
 ```
 extension=/home/[compte]/path/to/mongodb.so
@@ -24,7 +24,7 @@ extension=/home/[compte]/path/to/mongodb.so
 
 Pour tester votre base, vous pouvez utiliser ce code (en remplaçant les informations de connexion) :
 
-```
+```php
 $m = new Mongo("mongodb://user:password@mongodb-[compte].alwaysdata.com/database_name");
 var_dump($m);
 $db = $m->selectDB('database_name');

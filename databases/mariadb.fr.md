@@ -36,4 +36,5 @@ MariaDB est proposé par défaut sur nos serveurs mais les clients VPS et dédi�
 
 ---
 
-- Documentation [MariaDB](https://mariadb.com/kb/en/library/documentation/) et [MySQL](https://dev.mysql.com/doc/)
+- [Documentation MariaDB](https://mariadb.com/kb/en/library/documentation/)
+- [Documentation MySQL](https://dev.mysql.com/doc/)

@@ -23,6 +23,8 @@ La création d'un utilisateur MongoDB correspond à une entrée dans la collecti
 
 - [Documentation MongoDB](https://docs.mongodb.com/)
 
+---
+
 Retrouvez nos guides :
 
 - [Configurer une application PHP avec MongoDB]({{< ref "databases/mongodb/php" >}})
