@@ -1,7 +1,6 @@
 +++
 url = "/fr/comptes/facturation/moyens-de-paiement/"
 title = "Moyens de paiement"
-menuTitle = "Moyens de paiement"
 layout = "man"
 weight = 2
 tags = ["facturation"]

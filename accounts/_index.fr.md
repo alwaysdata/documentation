@@ -22,11 +22,11 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Programmes]({{< ref "programs" >}})
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
-- [Système d'alertes]({{< ref "warning-system" >}})
+- [Système d'alertes]({{< ref "notifications" >}})
 - [Suspension de profil]({{< ref "suspension" >}})
-- [Compte gratuit : limitations]({{< ref "free-pack-limitations" >}})
+- [Compte gratuit : limitations]({{< ref "free-pack-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
-- [Obligations légales sur Internet]({{<ref "./legal-obligations-on-internet">}})
+- [Obligations légales sur Internet]({{<ref "./legal-requirements-on-internet">}})
 
 
 ## Facturation
