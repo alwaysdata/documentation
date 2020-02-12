@@ -1,68 +1,28 @@
 +++
-url = "/fr/sites/utiliser-le-cache-http/"
-title = "Comment utiliser le cache HTTP"
-layout = "howto"
-hidden = true
+url = "/fr/sites/cache-http/"
+title = "Cache HTTP"
+menuTitle = "Cache HTTP"
+weight = 50
 tags = ["cache", "http", "site"]
 +++
-<!-- TODO: translate to EN -->
 
-Pour accélérer sensiblement l'accès à votre site internet, vous pouvez mettre en place le cache HTTP. Voici les étapes à suivre pour le faire :
+Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : pages HTML, docu­ments CSS, images) pour dimi­nuer la latence induite par le ser­veur lors­qu’il doit ser­vir une page et/ou réduire sa charge de tra­vail.
 
+- [Utiliser le Cache HTTP]({{< ref "sites/use-http-cache" >}})
 
-## 1. Vérifiez que votre application gère le cache
+## Concept
 
-Pour que le cache puisse interroger l'upstream dans le but de savoir si la ressource visée n'a pas été modifiée, l'application **doit** fournir l'en-tête `Etag` et / ou `Last-Modified`.
+Lorsqu’un client tente d'accéder à une page, le serveur web correspondant va géné­rer une page et l’en­voyer sur le réseau. Le cache inter­cepte alors la réponse pour la stocker dans sa mémoire locale avant de la ser­vir au client.
 
-Une réponse ne peut **PAS** être cachée si :
+{{< fig "images/http-cache_part-1.fr.png" "Mise en cache d’une res­source lors de sa reqête" >}}
 
-1. l'en-tête `Vary` vaut  `*` ;
-2. l'en-tête `Content-Type` n'est pas présent ;
-3. Le `Content-Type` de la ressource n'est pas une des valeurs :
-    - `text/html`,
-    - `text/xml`,
-    - `application/xml`,
-    - `application/html+xml`,
-    - `application/rss+xml`,
-    - `application/rdf+xml`,
-    - `application/atom+xml`,
-    - `text/javascript` ;
-4. l'en-tête `Cache-Control` vaut une des valeurs :
-    - `private`,
-    - `no-store`,
-    - `no-cache`,
-    - `no-transform` ;
-5. l'en-tête `Set-Cookie` est présent ;
-6. l'en-tête `Authorization` existe, mais que `Cache-Control` n'a aucune des valeurs suivantes :
-    - `public`,
-    - `must-revalidate`,
-    - `proxy-revalidate`,
-    - `s-maxage` ;
-7. Le _code de status HTTP_ n'est pas l'un des suivants :
-    - 200,
-    - 203,
-    - 204,
-    - 206,
-    - 300,
-    - 301,
-    - 404,
-    - 405,
-    - 410,
-    - 414,
-    - 501.
+Lorsqu’une requête pour la même page est émise par le même ou un autre client, le cache la restituera comme il détient alors une copie de la res­source deman­dée. Le ser­veur web ne sera plus inter­ro­gé.
 
+{{< fig "images/http-cache_part-2.fr.png" "Restitution d’une res­source pré­cé­dement mise en cache" >}}
 
-## 2. Activez le cache HTTP
+## Implémentation
 
-Cela se passe dans **Web > Sites > Modifier** le site **> Cache**.
+Les spé­ci­fi­ca­tions du stan­dard sont exposées dans la [RFC 7234](https://tools.ietf.org/html/rfc7234). Le verbe HTTP _PURGE_ est aussi proposé pour supprimer une entrée dans le cache en l’ap­pe­lant sur son URL.
 
-{{< fig "images/admin-panel_add-site-cache.fr.png" "Ajouter un site : cache HTTP" >}}
-
-
-## Utilisation de `PURGE`
-
-`PURGE` peut être exécuté de trois manières différentes chez alwaysdata :
-
-1. en utilisant l'URL complète de la ressource (ex : `https://test.alwaysdata.net/foo/bar`). Cela supprimera l'entrée de cache qui lui est liée et ses variations (générées par l'en-tête `Vary`) ;
-2. en ajoutant l'entête `X-Cache-Purge-Match : wildcard` et en ajoutant un wildcard à votre URL (ex : `https://test.alwaysdata.net/*`). Cela supprimera toutes les entrées correspondant au modèle d'URL ;
-3. en ajoutant l'entête `X-Cache-Purge-Match : startswith` et en ajoutant un chemin partiel à votre URL (ex : `https://test.alwaysdata.net/foo`). Cela supprimera toutes les entrées correspondant au modèle d'URL (et donc `https://test.alwaysdata.net/foo/bar`).
+---
+Icônes : The Noun Project
