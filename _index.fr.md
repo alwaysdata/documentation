@@ -20,7 +20,7 @@ Vous n'êtes pas encore client ? Contactez notre [service commercial](https://ww
 Quelle que soit la question, vous pouvez aussi nous contacter via notre [canal IRC](irc://irc.freenode.net/alwaysdata) ou [Twitter](https://twitter.com/alwaysdata).
 
 {{% notice tip %}}
-Toute publication sur Internet comporte des [obligations légales]({{<ref "accounts/legal-obligations-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.
+Toute publication sur Internet comporte des [obligations légales]({{<ref "accounts/legal-requirements-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.
 {{% /notice %}}
 
 ## Terminologie

@@ -20,11 +20,11 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Programs]({{< ref "programs" >}})
 - [Restricted account]({{< ref "security/restricted-mode" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
-- [Warning system]({{< ref "warning-system" >}})
+- [Warning system]({{< ref "notifications" >}})
 - [Profile suspension]({{< ref "suspension" >}})
-- [Free account: limitations]({{< ref "free-pack-limitations" >}})
+- [Free account: limitations]({{< ref "free-pack-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
-- [Legal obligations on Internet]({{<ref "./legal-obligations-on-internet">}})
+- [Legal obligations on Internet]({{<ref "./legal-requirements-on-internet">}})
 
 ## Billing
 

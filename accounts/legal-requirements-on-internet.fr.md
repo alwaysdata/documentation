@@ -13,10 +13,11 @@ En France, tout éditeur de site internet (physique ou moral), qu’il le soit �
 
 Les mentions légales doivent obligatoirement apparaître de façon claire sur un site web. Celles-ci protègent  les internautes et leur permettre d'identifier et de contacter le ou les éditeurs de toute site internet afin de faire respecter leurs droits.
 
-- **Hébergeur**
-    - sa raison sociale ;
-    - son adresse ;
-    - son numéro de téléphone.
+### **Hébergeur**
+
+- sa raison sociale ;
+- son adresse ;
+- son numéro de téléphone.
 
 Exemple pouvant être placé sur votre site :
 
@@ -25,11 +26,12 @@ Hébergeur : ce site est hébergé par la société à responsabilité limitée 
 {{% /notice %}}
 
 
-- **Personne morale**
-    - sa raison sociale ;
-    - l'adresse de son siège ;
-    - un numéro de téléphone ;
-    - le nom du directeur de la publication.
+### **Personne morale**
+
+- sa raison sociale ;
+- l'adresse de son siège ;
+- un numéro de téléphone ;
+- le nom du directeur de la publication.
 
 Les personnes **physiques** ne doivent fournir que les informations sur l'hébergeur. Ces informations sont généralement déjà accessibles via le système `whois`.
 
