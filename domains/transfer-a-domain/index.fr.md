@@ -13,7 +13,6 @@ Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet 
 
 Avant de lancer l'opération le propriétaire doit :
 
-<!-- TODO: Update EN content when available -->
 - enlever la protection contre les transferts ;
 - vérifier que les informations du propriétaire sont correctes et visibles dans le `whois` [^1] ;
 - obtenir le code d'autorisation ;
@@ -37,7 +36,8 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
     {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
 
 {{% notice info %}}
-Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : `example.org` et non `www.example.org`.
+Saisissez uniquement le domaine, sans le sous-domaine.
+Par exemple : `example.org` et non `www.example.org`.
 {{% /notice %}}
 
 3.  Choisissez de le **transférer** ;

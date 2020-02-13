@@ -11,4 +11,4 @@ Rendez-vous dans **Domaines > Détails** du domaine concerné **> Changer** (en 
 
 Un email de confirmation est envoyé aux deux parties. _Vérifiez les adresses emails avant de lancer l'opération_.
 
-L'opération est payante pour les extensions suivantes : .am, .be, .me.uk.
+L'opération est payante pour les extensions suivantes : _.am_, _.be_, _.me.uk_.
