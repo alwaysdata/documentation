@@ -6,12 +6,11 @@ hidden = true
 tags = ["email"]
 +++
 
-
 [Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage]({{< ref "e-mails/add-a-filter-rule">}}).
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 
-Le script final (avec nos propres directives) est stocké dans le fichier `~/admin/mail/[domaine]/[boite]/filter.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
+Le script final (avec nos propres directives) est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/filter.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
 
 ## Extensions supportées
 
@@ -49,27 +48,28 @@ N'utilisez pas la directive `require`, elle est déjà inclue par défaut.
 
 ## Exemples
 
-* Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte) :
+-   Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte) :
+    ```
+    require ["editheader", "variables", "body"] ;
+    if allof (
+    header :contains "subject" "mot",
+    header :matches "Subject" "*"
+    )
+    {
+    deleteheader "Subject";
+    addheader "Subject" "<SPAM> ${1}";
+    }
+    elsif allof (
+    body :content "text" :contains "mot",
+    header :matches "Subject" "*"
+    )
+    {
+    deleteheader "Subject";
+    addheader "Subject" "<SPAM> ${1}";
+    }
+    ```
 
-```
-require ["editheader", "variables", "body"] ;
-if allof (
-header :contains "subject" "mot",
-header :matches "Subject" "*"
-)
-{
-deleteheader "Subject";
-addheader "Subject" "<SPAM> ${1}";
-}
-elsif allof (
-body :content "text" :contains "mot",
-header :matches "Subject" "*"
-)
-{
-deleteheader "Subject";
-addheader "Subject" "<SPAM> ${1}";
-}
-```
+---
 
 ## Liens
 

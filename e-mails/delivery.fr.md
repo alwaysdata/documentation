@@ -20,7 +20,7 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
 - Supprimer les adresses inexistantes ou inactives ;
 - Vérifiez les fautes d'orthographes dans les adresses ;
 - Évitez l'envoi de masse ;
-- Renseignez les adresses emails dans le champ Cc (ou Cci) plutôt que les unes à la suite des autres dans le champ To (Pour) lors d'un envoi groupé.
+- Renseignez les adresses emails dans le champ `Cc` (ou `Cci`) plutôt que les unes à la suite des autres dans le champ `To` (Pour) lors d'un envoi groupé.
 
 ## Le contenu
 
@@ -29,7 +29,7 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
     - d'utiliser trop de ponctuation à la suite ;
     - d'écrire en rouge ;
     - d'écrire en majuscule ;
-    - d'utiliser des "[spam words](https://www.pme-web.com/wp-content/uploads/2014/08/Emailing-Guide-Ultime-des-Mots-Interdits-PME-Web.pdf)".
+    - d'utiliser des [spam words](https://www.pme-web.com/wp-content/uploads/2014/08/Emailing-Guide-Ultime-des-Mots-Interdits-PME-Web.pdf).
 - Soignez le sujet de l'email.
 
 ## Emailing
@@ -51,17 +51,16 @@ Suivant cette notation, le message sera expédié via une adresse IP ayant une r
 
 Ce système utilise [SpamAssassin](https://spamassassin.apache.org/). Selon son score, il va enclencher une règle de notre antispam :
 
-- +1 SpamAssassin score: medium => le score de SpamAssassin est compris entre 0 et 3 ;
-- +2 SpamAssassin score: high => le score de SpamAssassin est compris entre 3 et 8 ;
-- +3 SpamAssassin score: very high => le score de SpamAssassin est supérieur à 8.
+- `+1` SpamAssassin score: medium => le score de SpamAssassin est compris entre 0 et 3 ;
+- `+2` SpamAssassin score: high => le score de SpamAssassin est compris entre 3 et 8 ;
+- `+3` SpamAssassin score: very high => le score de SpamAssassin est supérieur à 8.
 
 Et un ensemble de règles propres à son système :
 
-- +1: Mass emails : le compte a envoyé plus de 15 emails dans les 30 dernières minutes ;
-- +1: Customer is [restricted]({{<ref "security/restricted-mode">}}) ;
-- +1: New customer : cela fait moins de 30 jours que le profil est créé ; 
-- +X: Too many bounces (XX %) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à 10 %, le système rajoutera 1 point et s'il est supérieur à 30 %, 2 points.
-
+- `+1`: Mass emails : le compte a envoyé plus de 15 emails dans les 30 dernières minutes ;
+- `+1`: Customer is [restricted]({{<ref "security/restricted-mode">}}) ;
+- `+1`: New customer : cela fait moins de 30 jours que le profil est créé ; 
+- `+X`: Too many bounces (in percentile) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
 
 Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez enfin configurer pour quelles notes données par l'antispam, les emails seront envoyés par cette IP.
 

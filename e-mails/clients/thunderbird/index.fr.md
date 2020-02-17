@@ -2,7 +2,7 @@
 url = "/fr/emails/clients/thunderbird/"
 title = "Comment configurer Thunderbird"
 layout = "howto"
-tags = ["email", "thunderbird"]
+tags = ["email", "thunderbird", "mozilla"]
 hidden = true
 +++
 

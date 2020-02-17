@@ -28,5 +28,5 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}
 
 - [iOS]({{< relref "clients/apple-ios" >}})
 - [Gmail]({{< relref "clients/gmail" >}})
-- [Outlook]({{< relref "Outlook" >}})
+- [Outlook]({{< relref "clients/outlook" >}})
 - [Thunderbird]({{< relref "clients/thunderbird" >}})

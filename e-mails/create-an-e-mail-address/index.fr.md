@@ -18,7 +18,7 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 {{< fig "images/admin-panel_create-mailbox_required-infos.fr.png" "Interface d'administration : Emails - informations obligatoire" >}}
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
-- _Partie locale_ : partie à gauche du @ de l'adresse email (par exemple, si vous voulez créer contact@exemple.fr, la partie locale sera contact). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
+- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@exemple.fr`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
 - _Mot de passe_ : mot de passe nécessaire pour la connexion à cette adresse email.
 
 ## Antispam
@@ -28,7 +28,7 @@ L'antispam utilisé pour filtrer le courrier électronique publicitaire non souh
 {{< fig "images/admin-panel_mailbox_antispam.fr.png" "Interface d'administration : Emails - Antispam" >}}
 
 - _Score_ : l'anti-spam attribue à chaque message un score suivant la probabilité qu'il s'agisse d'un spam. Les messages dépassant ce score seront stockés dans un dossier. Plus le score est bas, plus un email a la possibilité d'être marqué comme spam, il est donc préférable de laisser la valeur par défaut ;
-- _Dossier_ : dossier dans lequel les spams seront déplacés. Pour indiquer la corbeille, mettez « Trash » ;
+- _Dossier_ : dossier dans lequel les spams seront déplacés. Pour indiquer la corbeille, mettez `Trash` ;
 - _Score des spams à supprimer_ : les messages dépassant ce score seront directement supprimés, sans même être stockés dans le dossier des spams. À moins de savoir ce que vous faites, laissez la valeur par défaut.
 
 ## Antivirus
@@ -37,7 +37,7 @@ L'antivirus utilisé pour filtrer le courrier électronique potentiellement infe
 
 {{< fig "images/admin-panel_mailbox_antivirus.fr.png" "Interface d'administration : Emails - Antivirus" >}}
 
-- _Dossier_ : si l'antivirus a jugé le message comme infecté, alors celui-ci est déplacé dans ce dossier. Pour indiquer la corbeille, mettez « Trash ». 
+- _Dossier_ : si l'antivirus a jugé le message comme infecté, alors celui-ci est déplacé dans ce dossier. Pour indiquer la corbeille, mettez `Trash`. 
 
 ## Purge des dossiers
 
@@ -61,7 +61,7 @@ Cette fonctionnalité est pertinente lors de l'utilisation de l'antispam et/ou l
 Si vous utilisez l'antivirus et/ou l'antispam, les emails considérés comme frauduleux ne sont jamais redirigés, afin d'éviter de relayer ces mauvais messages vers des fournisseurs externes.
 {{% /notice %}}
 
-## Répondeur
+## Réponse automatique
 
 {{< fig "images/admin-panel_mailbox_responder.fr.png" "Interface d'administration : Emails - Répondeur automatique" >}}
 

@@ -116,11 +116,12 @@ Pour le mettre en place, un enregistrement TXT doit être créé dans l'onglet *
 
 {{< fig "images/dmarc-record.png" "Enregistrement DMARC" >}}
 
+---
+
 ### Liens
 
 - [Site officiel](https://dmarc.org/)
 - [RFC 7489](https://tools.ietf.org/html/rfc7489)
-
 
 -----
 

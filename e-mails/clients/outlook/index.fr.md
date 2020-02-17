@@ -2,7 +2,7 @@
 url = "/fr/emails/clients/outlook/"
 title = "Comment configurer Outlook"
 layout = "howto"
-tags = ["email", "outlook"]
+tags = ["email", "outlook", "microsoft"]
 hidden = true
 +++
 

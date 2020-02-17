@@ -1,0 +1,20 @@
++++
+title = "Adding a Filter Rule"
+layout = "howto"
+weight = 25
+tags = ["e-mail"]
++++
+
+To better manage e-mails and sort them automatically, filtering rules are available. These rules can be created at the email client or server level.
+
+To create them on the latter, go to **Emails > Addresses > Change** the desired address **> Filter rules**.
+
+{{< fig "images/filter-rule1.en.png" "Administration interface: go to the filtering rules" >}}
+
+You will find a list of your rules that you can add to.
+
+{{< fig "images/filter-rule2.en.png" "List of your filter rules" >}}
+
+{{< fig "images/filter-rule3.en.png" "Add a filter rule" >}}
+
+Filtering rules are translated into [Sieve](http://sieve.info/) format and you can find it in the `$HOME/admin/mail/[domain]/[local-part]/filter.sieve` file in your file space.
