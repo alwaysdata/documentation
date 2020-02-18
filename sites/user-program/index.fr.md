@@ -15,7 +15,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 {{< fig "images/admin-panel_sites-list.fr.png" "Interface d'administration : liste des sites" >}}
 
 - Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
-- Adresses : les adresses pour joindre votre site (*.exemple.fr pour les catch-all) ;
+- Adresses : les adresses pour joindre votre site (`*.exemple.org` pour les _catch-all_) ;
 
 {{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
 

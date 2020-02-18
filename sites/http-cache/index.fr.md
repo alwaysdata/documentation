@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/cache-http/"
 title = "Cache HTTP"
-menuTitle = "Cache HTTP"
 weight = 50
 tags = ["cache", "http", "site"]
 +++

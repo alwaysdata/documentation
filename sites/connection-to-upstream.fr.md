@@ -87,7 +87,7 @@ Le répertoire de travail indiqué dans **Web > Sites** n'existe pas.
 
 ```
 STDERR: internal/modules/cjs/loader.js:589
-[1STDERR:     throw err;
+STDERR:     throw err;
 STDERR:     ^
 STDERR: 
 STDERR: Error: Cannot find module '/home/foo/www/app.js'

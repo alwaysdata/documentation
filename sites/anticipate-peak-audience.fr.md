@@ -5,6 +5,7 @@ layout = "howto"
 hidden = true
 tags = ["http", "site"]
 +++
+
 Vous prévoyez un passage télévision/radio qui risque d'entraîner un nombre plus important de visites et n'êtes pas sûr que votre site supporte la charge ? Voici des actions pouvant être entreprises en amont :
 
 - **isoler le site** par compte - pour ne pas gêner d'autres sites, les ressources étant partagées au niveau du compte ;
