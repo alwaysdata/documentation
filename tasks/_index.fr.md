@@ -18,5 +18,6 @@ Deux types d’in­for­ma­tions sont à fournir :
 
 {{< fig "admin-panel_create-task.fr.png" "Interface d’ad­mi­nis­tra­tion : créer une tâche pla­ni­fiée" >}}
 
+---
 - [Utiliser les tâches planifiées]({{< ref "tasks/use-scheduled-tasks" >}})
 - [Référence API](https://api.alwaysdata.com/v1/job/doc/)
