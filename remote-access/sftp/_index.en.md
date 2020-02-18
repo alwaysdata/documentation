@@ -22,8 +22,7 @@ Then from your FTP client, fill-in the SSH connection information. Let us take t
   - hostname: `ssh-test.alwaysdata.net`
   - port: `22`
 
-{{< fig "filezilla_sftp-connection.en.png" "FileZilla interface: SFTP
-connection" >}}
+{{< fig "filezilla_sftp-connection.en.png" "FileZilla interface: SFTP connection" >}}
 
 {{% notice info %}}
 This must not be confused with the [FTPS] protocol({{< ref "remote-access/ftp" >}}): FTP transfer secured by SSL or TLS protocols.

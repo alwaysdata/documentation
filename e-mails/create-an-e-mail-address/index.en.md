@@ -1,5 +1,5 @@
 +++
-title = "Creating an E-mail Address""
+title = "Creating an E-mail Address"
 layout = "howto"
 weight = 1
 tags = ["e-mail"]
