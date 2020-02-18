@@ -33,6 +33,7 @@ $ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
 {{% notice tip %}}
 Si vous voulez ne jamais avoir à rentrer votre mot de passe lorsque vous vous connecterez en SSH, indiquez une « passphrase » vide.
 {{% /notice %}} 
+
 2. Déclarer la clé sur le serveur :
 
 ```
@@ -40,7 +41,9 @@ $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [utilisateur]@ssh-[compte].alwaysdata
 ```
     
 Ou en copiant le contenu de ce fichier dans le fichier `$HOME/.ssh/authorized_keys` de votre compte alwaysdata.
+
 {{% notice note %}}
-Remplacez _utilisateur_ par le nom de votre utilisateur SSH et _ssh-[compte].alwaysdata.net_ par votre nom d'hôte SSH.
+Remplacez `utilisateur` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d'hôte SSH.
 {{% /notice %}}
+
 3. Se connecter en SSH : à la prochaine connexion SSH, votre passphrase vous sera demandée (ou rien du tout si votre passphrase est vide).

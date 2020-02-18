@@ -17,7 +17,7 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 - [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}}) (option de serveurs VPS et dédiés)
 
 {{% notice info %}}
-Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès _root_.
+Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès `root`.
 {{% /notice %}}
 
 ## Se connecter en SSH
@@ -52,7 +52,7 @@ Utile si vous êtes derrière un firewall, notre interface web vous permet d'uti
 Cette interface n'est pas compatible avec les hébergements VPS et dédiés.
 {{% /notice %}}
 
-
+---
 ## Liens
 
 - [OpenSSH](https://www.openssh.com/) ;

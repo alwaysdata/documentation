@@ -11,7 +11,7 @@ tags = ["accès distant", "dépannage", "ssh"]
 Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [utilisateur]@ssh-[compte].alwaysdata.net` pour avoir plus d'informations.
 
 {{% notice note %}}
-Remplacez utilisateur par le nom de votre utilisateur SSH et ssh-[compte].alwaysdata.net par votre nom d’hôte SSH.
+Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d’hôte SSH.
 {{% /notice %}}
 
 Un [blocage d'IP]({{< ref "security/network" >}}#Prévention des intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.

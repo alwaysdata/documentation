@@ -18,10 +18,10 @@ Dans **Accès distant > SSH** autorisez la *connexion par mot de passe* à votre
 
 Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte *test* et du client FTP [FileZilla](https://filezilla-project.org/) :
 
-* utilisateur : _test_
+* utilisateur : `test`
 * mot de passe
-* nom d'hôte : _ssh-test.alwaysdata.net_
-* port : _22_
+* nom d'hôte : `ssh-test.alwaysdata.net`
+* port : `22`
 
 {{< fig "filezilla_sftp-connection.fr.png" "Interface FileZilla : connexion SFTP" >}}
 

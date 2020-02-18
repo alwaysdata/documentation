@@ -7,7 +7,7 @@ hidden = true
 tags = ["accès distant", "webdav"]
 +++
 
-Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un utilisateur du nom de votre _compte_ est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous le souhaitez que vous pouvez administrer depuis votre interface d'administration, onglet **Accès distant > WebDAV**.
+Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un utilisateur du nom de votre `[compte]` est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous le souhaitez que vous pouvez administrer depuis votre interface d'administration, onglet **Accès distant > WebDAV**.
 
 {{< fig "images/admin-panel_list-webdav-users.fr.png" "Interface d'administration : liste des utilisateurs WebDAV">}}
 

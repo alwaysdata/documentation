@@ -50,6 +50,6 @@ $ sudo mount.davfs https://webdav-[compte].alwaysdata.net/ /mnt/alwaysdata
 ```
 
 {{% notice note %}}
-Remplacez _webdav-[compte].alwaysdata.net_ par votre nom d'hôte WebDAV, disponible dans **Accès distant > WebDAV**.
+Remplacez `webdav-[compte].alwaysdata.net` par votre nom d'hôte WebDAV, disponible dans **Accès distant > WebDAV**.
 {{% /notice %}}
 

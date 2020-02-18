@@ -26,7 +26,8 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de v
 {{< fig "admin-panel_list-ftp-users.fr.png" "Interface d'administration : liste des utilisateurs FTP" >}}
 
 {{% notice note %}}
-Remplacez _ftp-[compte].alwaysdata.net_ par votre nom d'hôte FTP.
+Remplacez `ftp-[compte].alwaysdata.net` par votre nom d'hôte FTP.
 {{% /notice %}}
 
+---
 - [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit.
