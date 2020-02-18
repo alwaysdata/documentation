@@ -14,6 +14,7 @@ Le fonctionnement de Python chez alwaysdata est très standard. Si vous avez l'h
 
 Les frameworks [Django](https://www.djangoproject.com/) et [Flask](https://flask.palletsprojects.com/) font partie de nos applications autoinstallables.
 
+---
 * [Ressource API](https://api.alwaysdata.com/v1/environment/python/doc/)
 
 ---

@@ -19,7 +19,7 @@ La version par défaut est Java 1.7. C'est cette version qui est notamment utili
 
 ## Binaire à utiliser
 
-Pour se servir d'une version de Java différente que celle par défaut utilisez `/usr/lib/jvm/java-[X]-openjdk-amd64/jre/bin/java` (en remplaçant [X] par la version de Java voulue).
+Pour se servir d'une version de Java différente que celle par défaut utilisez `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (en remplaçant `[VERSION]` par la version de Java voulue).
 
 ## Environnement
 

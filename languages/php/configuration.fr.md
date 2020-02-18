@@ -51,7 +51,6 @@ mysql.default_socket = /run/mysqld/mysqld.sock
 session.save_path = /home/sandbox/admin/tmp
 upload_tmp_dir = /home/sandbox/admin/tmp
 
-
 ; Extensions
 extension_dir = "/usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-20170718"
 
@@ -81,7 +80,6 @@ extension = pdo_pgsql.so
 
 extension = fileinfo.so
 extension = phar.so
-
 
 ; Zend extensions
 zend_extension = /usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-20170718/opcache.so

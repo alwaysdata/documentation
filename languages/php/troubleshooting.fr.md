@@ -1,6 +1,6 @@
 +++
 url = "/fr/langages/php/problèmes-fréquents/"
-title = "Problèmes fréquents"
+title = "PHP - Problèmes fréquents"
 layout = "man"
 hidden = true
 tags = ["dépannage", "php"]
@@ -20,7 +20,7 @@ Cela peut entraîner des problèmes lorsque deux processus PHP tentent d'accéde
 L'analyse de vos processus HTTP renvoient :
 
 ```
-~$ strace -f -p1821543 -p1822026 
+$ strace -f -p1821543 -p1822026 
 Process 1821543 attached
 Process 1822026 attached
 [pid 1821543] flock(8, LOCK_EX <unfinished ...>

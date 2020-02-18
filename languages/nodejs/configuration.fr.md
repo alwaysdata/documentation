@@ -1,6 +1,6 @@
 +++
 url = "/fr/langages/nodejs/configuration/"
-title = "Configurer Node.js"
+title = "Configurer Node.js®"
 hidden = true
 layout = "man"
 tags = ["nodejs"]

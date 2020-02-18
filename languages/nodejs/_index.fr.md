@@ -1,6 +1,6 @@
 +++
 url = "/fr/langages/nodejs/"
-title = "Node.js"
+title = "Node.js®"
 chapter = true
 tags = ["nodejs"]
 +++
