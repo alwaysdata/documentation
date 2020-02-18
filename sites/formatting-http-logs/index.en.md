@@ -5,7 +5,11 @@ hidden = true
 tags = ["http", "site"]
 +++
 
-To customize the format of the HTTP access logs you need to first choose a name for your custom log file. To do this, fill-in the name of your choice in the **Filename** field in the **Logs** tab in your site (**Web > Sites** menu). {{< fig "images/admin-panel_add-site-logs.fr.png""Add a site: HTTP logs" >}} This file will be stored in directory `$HOME/admin/logs/http/`.
+To customize the format of the HTTP access logs you need to first choose a name for your custom log file. To do this, fill-in the name of your choice in the **Filename** field in the **Logs** tab in your site (**Web > Sites** menu).
+
+{{< fig "images/admin-panel_add-site-logs.en.png""Add a site: HTTP logs" >}} 
+
+This file will be stored in directory `$HOME/admin/logs/http/`.
 
 The log lines are customized in the **Format** field. This field accepts character strings as well as a number of variables listed below. The syntax to use is `{variable_name}` to see its value appear in the access log lines.
 

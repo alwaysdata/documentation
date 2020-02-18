@@ -32,7 +32,7 @@ You can have as many sites as you wish in a single account. Note that this does 
 
 ## Customizing
 
-- [Customize error pages]({{< relref "./customize-error-pages">}})
+- [Customize error pages]({{< relref "./custom-error-pages">}})
 - [Analyze processes]({{< relref "./analyze-processes" >}})
 - [Peak audience]({{< relref "./anticipate-peak-audience" >}})
 - [Format HTTP logs]({{< relref "./formatting-http-logs" >}})

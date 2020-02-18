@@ -16,7 +16,6 @@ Domains are managed from the **Domains** tab in your administration interface. [
 - [Buy a domain]({{< relref "buy-a-domain" >}})
 - [Transfer a domain]({{< relref "transfer-a-domain" >}})
 - [Add an external domain]({{< relref "add-an-external-domain">}})
-- [Extension rules]({{< relref "extensions-rules" >}})
 - [Renew a domain]({{< relref "renew-a-domain" >}})
 - [Deadlines]({{< relref "deadlines" >}})
 - [Move a domain]({{< relref "move-a-domain" >}})

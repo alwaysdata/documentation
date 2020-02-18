@@ -61,7 +61,7 @@ A transfer takes on average 6 to 8 days but this can be accelerated by contactin
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
 
   - updating your [DNS records]({{< ref "domains/add-dns" >}}) if you use other servers for certain services,
-  - creating the [email addresses]({{< ref "e-mails/create-an-email-address" >}}).
+  - creating the [email addresses]({{< ref "e-mails/create-an-e-mail-address" >}}).
 
 Regarding the website, there are a number of possible choices:
 

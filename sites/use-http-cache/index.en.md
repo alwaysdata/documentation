@@ -2,8 +2,7 @@
 title = "Using HTTP Cache"
 layout = "howto"
 hidden = true
-tags = ["cache"
--"http", "site"]
+tags = ["cache", "http", "site"]
 +++
 
 To speed up access to your website, you can set up the HTTP cache. Here are the steps required to do this:

@@ -5,7 +5,6 @@ layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]
 +++
-<!-- TODO: Create EN version -->
 
 {{% notice info %}}
 Cette migration est disponible pour les serveurs VPS et dédiés. Si vous êtes en serveurs mutualisés, tournez-vous vers la migration [PostgreSQL 12]({{< ref postgresql-12 >}}).

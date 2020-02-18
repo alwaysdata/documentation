@@ -5,7 +5,7 @@ tags = ["e-mail", "thunderbird", "mozilla"]
 hidden = true
 +++
 
-[Connection information reminder]({{< ref "e-mails/use-an-email-address">}})
+[Connection information reminder]({{< ref "e-mails/use-an-e-mail-address">}})
 
 Go to **Settings > Configure an account: Email**.
 

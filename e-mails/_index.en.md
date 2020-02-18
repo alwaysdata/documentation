@@ -10,7 +10,7 @@ tags = ["e-mail"]
 
 Our email servers are conventional ones, we use [Exim](https://www.exim.org/) and [Dovecot](https://www.dovecot.org/).
 
-You can [create an email address]({{< relref "create-an-email-address" >}}) from the **Emails** tab in your alwaysdata administration interface and [view your emails]({{< relref "use-an-email-address" >}}) via the email client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.
+You can [create an email address]({{< relref "create-an-e-mail-address" >}}) from the **Emails** tab in your alwaysdata administration interface and [view your emails]({{< relref "use-an-e-mail-address" >}}) via the email client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.
 
 ## Resources
 

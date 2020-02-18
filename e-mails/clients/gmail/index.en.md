@@ -6,7 +6,7 @@ hidden = true
 tags = ["e-mail", "gmail"]
 +++
 
-[Connection information reminder]({{< ref "e-mails/use-an-email-address">}})
+[Connection information reminder]({{< ref "e-mails/use-an-e-mail-address">}})
 
 ## Computer
 

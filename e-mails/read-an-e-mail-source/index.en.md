@@ -98,4 +98,4 @@ The email source comprises:
 
 ---
 
-- [Email deliverability: best practices]({{< ref "e-mails/emails-delivery">}})
+- [Email deliverability: best practices]({{< ref "e-mails/delivery">}})
