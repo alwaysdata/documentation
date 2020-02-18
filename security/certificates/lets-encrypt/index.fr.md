@@ -21,6 +21,7 @@ Pour éviter les doublons, alwaysdata bloque la génération de certificats Let'
 La création de ces certificats est dépendante de la propagation DNS : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les 30 minutes durant 24 heures. Cela passe ensuite à une fois par jour.
 {{% /notice %}}
 
+---
 ## Liens
 
 - [Liste de compatibilités des navigateurs](https://letsencrypt.org/docs/certificate-compatibility/) ;
