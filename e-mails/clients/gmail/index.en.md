@@ -1,5 +1,5 @@
 +++
-title = "Comment configurer Gmail"
+title = "Configuring Gmail"
 layout = "howto"
 hidden = true
 tags = ["e-mail", "gmail"]

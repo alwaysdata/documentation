@@ -6,7 +6,7 @@ tags = ["infrastructure", "migration"]
 +++
 
 {{% notice info %}}
-This migration is available for VPS and dedicated servers. If you are on shared plans, turn to [PostgreSQL 12]({{< ref postgresql-12 >}} migration.)
+This migration is available for VPS and dedicated servers. If you are on shared plans, turn to [PostgreSQL 12]({{< ref postgresql-12 >}}) migration.
 {{% /notice %}}
 
 This migration migrates your databases to PostgreSQL version 10 (since PostgreSQL 9.6): https://www.postgresql.org/docs/10/static/release.html.
