@@ -29,7 +29,7 @@ For example, by putting `www.example.org` in this box, you will create a record 
     » TTL : 300
     ```
   
--   Use Lync (formerly) with `_sip._tls` and `_sipfederationtls._tcp` :
+-   Use Lync (formerly Skype) with `_sip._tls` and `_sipfederationtls._tcp` :
     ```
     » Host name: _sip._tls
     » Valeur : 1 443 sipdir.online.lync.com

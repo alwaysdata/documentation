@@ -6,7 +6,7 @@ weight = 40
 tags = ["http", "analytics", "site"]
 +++
 
-From the raw HTTP logs (`$HOME/admin/logs/http`) we generate [Matomo](https://fr.matomo.org/) statistics.
+From the raw HTTP logs (`$HOME/admin/logs/http`) we generate [Matomo](https://matomo.org/) statistics.
 
 ## Accessing analytics
 
@@ -18,9 +18,9 @@ By default, all of the sites will be on the same Piwik site. You can segment the
 
 {{< fig "admin-panel_stats.en.png" "Matomo statistics menu" >}}
 
-- Edit the default site to deselect the websites,
-- Add a Piwik for every website.
-{{< fig "admin-panel_section-sites.en.png" "Segment Matomo sites" >}}
+-   Edit the default site to deselect the websites,
+-   Add a Piwik site.
+    {{< fig "admin-panel_section-sites.en.png" "Segment Matomo sites" >}}
 
 ### Adding users
 

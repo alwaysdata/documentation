@@ -1,17 +1,17 @@
 +++
-title = "How to restore emails"
-menuTitle = "Restore emails"
+title = "How to restore e-mails"
+menuTitle = "Restore e-mails"
 layout = "howto"
 weight = 10
 tags = ["e-mail", "backup"]
 +++
 
-Backups of your emails are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
+Backups of your e-mails are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
 
 1.  Choose the required date,
     {{< fig "images/admin-panel_restoration.en.png" "Administration interface: restore backups - step 1" >}}
 
-2.  Then check the one or more email boxes.
+2.  Then check the one or more e-mail boxes.
     {{< fig "images/admin-panel_restoration-emails.en.png" "Administration interface: restore backups - step 2" >}}
 
 {{% notice note %}}
@@ -24,12 +24,12 @@ To restore a backup manually.
 
 - Connect to your account [in SSH]({{< ref "remote-access/ssh">}}) ;
 
-- Restore emails:
+- Restore e-mails:
 
     ```
-    $ rsync -av $HOME/admin/backup/[date]/mails/[domaine]/[boîte_email]/ $HOME/admin/mail/[domaine]/[boîte_email]/
+    $ rsync -av $HOME/admin/backup/[date]/mails/[domain]/[mailbox]/ $HOME/admin/mail/[domain]/[mailbox]/
     ```
 
 {{% notice info %}}
-Here the emails present on the backup date will be restored. No email sent or received since will be deleted.
+Here the e-mails present on the backup date will be restored. No e-mail sent or received since will be deleted.
 {{% /notice %}}

@@ -7,7 +7,7 @@ tags = ["php"]
 
 # PHP
 
-Le fonctionnement de PHP chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser PHP sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
+Le fonctionnement de [PHP](https://www.php.net) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser PHP sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées]({{< ref "languages/php/configuration" >}}#versions-supportées) vont de la 4.4 à la 7.4 ;
 * il est tout à fait possible de [personnaliser le fichier php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) ;

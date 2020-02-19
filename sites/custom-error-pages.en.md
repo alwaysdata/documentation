@@ -9,7 +9,7 @@ We recommend creating custom for your error pages (HTTP codes 404, 500, etc.). T
 
 ## Web server
 
-  - [Apache](https://httpd.apache.org/docs/2.4/fr/custom-error.html),
+  - [Apache](https://httpd.apache.org/docs/2.4/en/custom-error.html),
   - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/Options.html).
 
 ## Application

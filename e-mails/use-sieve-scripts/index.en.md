@@ -5,9 +5,9 @@ hidden = true
 tags = ["e-mail"]
 +++
 
-[Sieve](http://sieve.info/) is a language for filtering emails. It is used to add complex rules that cannot be added via the [filtering rules]({{< ref "e-mails/add-a-filter-rule">}}).
+[Sieve](http://sieve.info/) is a language for filtering e-mails. It is used to add complex rules that cannot be added via the [filtering rules]({{< ref "e-mails/add-a-filter-rule">}}).
 
-{{< fig "images/admin-panel_mailbox_sieve.en.png" "Administration interface: Emails - Script Sieve" >}}
+{{< fig "images/admin-panel_mailbox_sieve.en.png" "Administration interface: E-mails - Script Sieve" >}}
 
 The final script (with our own directives) is stored in the `$HOME/admin/mail/[domain]/[box]/filter.sieve` file in your account. You can read it to help debug your script, but you cannot edit it.
 
@@ -15,18 +15,18 @@ The final script (with our own directives) is stored in the `$HOME/admin/mail/[d
 
 |Extension|Description|
 |--- |--- |
-|body|Checks the presence of one or more character strings in the email message body|
+|body|Checks the presence of one or more character strings in the e-mail message body|
 |comparator-i;ascii-numeric|Extracts numbers from the test and compares them to see if it matches|
 |copy|Specifies that a copy should be used to perform the action|
-|date|Performs actions based on the date/time when an email is sent/received|
+|date|Performs actions based on the date/time when an e-mail is sent/received|
 |duplicate|Detects whether it is a duplicate|
 |editheader|Adds or deletes text in the headers|
 |encoded-character|Allows encoding special characters|
 |enotify|Sends notifications|
 |envelope|Assesses the envelope ("from", "to", etc.)|
 |environment|Tests different labeled values in the execution environment|
-|fileinto|Delivers the email to the specified folder|
-|foreverypart|Allows commands to be run in all MIME parts of the email|
+|fileinto|Delivers the e-mail to the specified folder|
+|foreverypart|Allows commands to be run in all MIME parts of the e-mail|
 |ihave|Tests whether a Sieve extension is available and, if so, executes its action|
 |imap4flags|Adds IMAP indicators and key words to messages|
 |include|Used to include a Sieve script in another one|

@@ -5,7 +5,7 @@ hidden = true
 tags = ["domains", "e-mail"]
 +++
 
-This article explains how to transfer a domain *and* its email addresses to **another alwaysdata account**.
+This article explains how to transfer a domain *and* its e-mail addresses to **another alwaysdata account**.
 
 1.  From the **Domains** menu in the initial account,
 
@@ -19,8 +19,8 @@ This article explains how to transfer a domain *and* its email addresses to **an
 Only the *account owner* can initiate a transfer, but unlike a site transfer, there is no need for permissions on the destination account.
 {{% /notice %}}
 
-The destination profile needs only to accept it from the **Transfers** section and wait until the email boxes copy to their account. As this action depends on the size of the email boxes, this may take time.
+The destination profile needs only to accept it from the **Transfers** section and wait until the e-mail boxes copy to their account. As this action depends on the size of the e-mail boxes, this may take time.
 
 {{% notice tip %}}
-To move it to another of *your* accounts, simply provide this account email address.
+To move it to another of *your* accounts, simply provide this account e-mail address.
 {{% /notice %}}

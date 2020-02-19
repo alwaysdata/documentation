@@ -7,7 +7,7 @@ tags = ["account", "profile"]
 
 ## Transferring an account to another person
 
-Go to **Accounts > Transfer to another user**. Specify the email address of the target profile that can accept it from the **Transfers** tab in their client interface. This will close the current subscription and open a new one in the target profile.
+Go to **Accounts > Transfer to another user**. Specify the e-mail address of the target profile that can accept it from the **Transfers** tab in their client interface. This will close the current subscription and open a new one in the target profile.
 
 If you only have one account you can just as easily change the profile information in **Profile** with no need to use the transfer process.
 

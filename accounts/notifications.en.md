@@ -7,8 +7,8 @@ tags = ["profile"]
 
 For many reasons, an alert may be triggered by our system. Here is how it works:
 
-- Alert **opening** (by a triggering event) with an email sent informing the one or more users involved,
-- **reminder** emails,
+- Alert **opening** (by a triggering event) with an e-mail sent informing the one or more users involved,
+- **reminder** e-mails,
 - Alert **expiry** (if no corrective action is taken) with possible action.
 
 ## Types of notifications

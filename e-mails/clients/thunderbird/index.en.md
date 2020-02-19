@@ -7,7 +7,7 @@ hidden = true
 
 [Connection information reminder]({{< ref "e-mails/use-an-e-mail-address">}})
 
-Go to **Settings > Configure an account: Email**.
+Go to **Settings > Configure an account: E-mail**.
 
 {{< fig "images/thunderbird_new-account.en.png" "Thunderbird: create an account" >}}
 

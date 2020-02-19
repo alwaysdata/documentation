@@ -6,7 +6,7 @@ layout = "howto"
 tags = ["django", "python"]
 +++
 
-Une application Django se déploie chez alwaysdata comme n'importe quelle application WSGI. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.
+Une application [Django](https://www.djangoproject.com/) se déploie chez alwaysdata comme n'importe quelle application WSGI. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.
 
 ## Créer un environnement virtuel
 

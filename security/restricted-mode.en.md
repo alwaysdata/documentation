@@ -25,4 +25,4 @@ If on the other hand no credit card is provided for your account and you have no
 This restriction is not an inhibiting one for the relevant account but it does allow us to limit possible misuse. For example:
 
 - HTTP: processing may take a bit longer as requests will be filtered using rules that are a little stricter,
-- emails: the ability to send messages from our SMTP servers may also be restricted in quantity and/or in time.
+- e-mails: the ability to send messages from our SMTP servers may also be restricted in quantity and/or in time.

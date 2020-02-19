@@ -68,5 +68,5 @@ Now what remains is to move the addresses that link the site and the automatical
     {{< fig "images/admin-panel_move-website-2.en.png" "Administration interface: move site - step 2" >}}
 
 {{% notice tip %}}
-To move it to another of *their* accounts, simply provide their own email address.
+To move it to another of *their* accounts, simply provide their own e-mail address.
 {{% /notice %}}

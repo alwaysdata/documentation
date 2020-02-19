@@ -24,4 +24,4 @@ This will add the domain as an *external domain* in the list.
 
 {{< fig "images/admin-panel_domain-list2.en.png" "Administration interface: External domain" >}}
 
-Then you can create [email addresses]({{< ref "e-mails/create-an-e-mail-address" >}}) for it and manage the [DNS records]({{< ref "domains/add-dns" >}}).
+Then you can create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}) for it and manage the [DNS records]({{< ref "domains/add-dns" >}}).

@@ -22,5 +22,5 @@ To observe the behavior of your application you can also run a **load test** (e.
     - [Load impact](https://loadimpact.com/)
   
 
-[^1] These two applications are available on VPS and dedicated
+[^1]: These two applications are available on VPS and dedicated
 environments.

@@ -22,8 +22,8 @@ tags = ["administration", "api"]
 |ftp user|FTP users|https://api.alwaysdata.com/v1/ftp/doc/|
 |ip address|IP addresses|https://api.alwaysdata.com/v1/ip/doc/|
 |job|Scheduled tasks|https://api.alwaysdata.com/v1/job/doc/|
-|mailbox|Email boxes|https://api.alwaysdata.com/v1/mailbox/doc/|
-|mailbox rule|Filtering rules for email boxes|https://api.alwaysdata.com/v1/mailbox/rule/doc/|
+|mailbox|E-mail boxes|https://api.alwaysdata.com/v1/mailbox/doc/|
+|mailbox rule|Filtering rules for e-mail boxes|https://api.alwaysdata.com/v1/mailbox/rule/doc/|
 |object transfer|Transfer|https://api.alwaysdata.com/v1/object_transfer/doc/|
 |product|Products|https://api.alwaysdata.com/v1/product/doc/|
 |server|Servers|https://api.alwaysdata.com/v1/server/doc/|

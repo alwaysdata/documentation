@@ -11,8 +11,8 @@ Because hosting your data often involves different players, our administration l
 
 - *Account management*: delegates account opening to your associates,
 - *[Billing]({{< ref "accounts/billing" >}})*: lets accounting or administrative departments receive an alert when your account balance is negative or when a ticket relating to billing is opened by us,
-- *Technical at account level*: lets technical teams manage the purely technical aspects of your hosting (sites, emails, databases) without worrying about its management or billing,
-- *Technical at server level*: available on dedicated and VPS servers, your network administrator can manage the rules for the firewalls, email send queues and many other aspects.
+- *Technical at account level*: lets technical teams manage the purely technical aspects of your hosting (sites, e-mails, databases) without worrying about its management or billing,
+- *Technical at server level*: available on dedicated and VPS servers, your network administrator can manage the rules for the firewalls, e-mail send queues and many other aspects.
 
 ## Technical permissions
 
@@ -25,7 +25,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *[Statistics]({{< ref "analytics" >}})*: analyze the visits to your sites,
 - *[Sites]({{< ref "sites" >}})*: configure the websites and the Apache environment,
 - *[Domains]({{< ref "domains" >}})*,
-- *[Emails]({{< ref "e-mails" >}})*,
+- *[E-mails]({{< ref "e-mails" >}})*,
 - *[Databases]({{< ref "databases" >}})*,
 - *[FTP]({{< ref "remote-access/ftp" >}})*,
 - *[SSH]({{< ref "remote-access/ssh" >}})*,
@@ -43,7 +43,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *Technical contact*: be notified when a technical ticket is opened by our services relating to a server,
 - *[SSH users]({{< ref "remote-access/ssh/install-globally-ssh-keys" >}})*: install SSH keys for simplified access to the various accounts,
 - *[Firewall rules]({{< ref "security/network/configure-firewall">}})*: create firewall rules and refer to automatic IP banning,
-- *SMTP configuration*: manage the email send queue, SMTP relaying and spam score,
+- *SMTP configuration*: manage the e-mail send queue, SMTP relaying and spam score,
 - *Database users*: permit overall access to databases for all accounts,
 - *SSL configuration*: choose the SSL certificate to return to the server (`*.alwaysdata.net` by default),
 - *HTTP configuration*: choose a website that will be the default home page,

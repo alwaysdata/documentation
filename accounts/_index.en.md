@@ -9,7 +9,7 @@ tags = ["administration", "account", "billing", "profile"]
 # Accounts
 
 {{% notice info %}}
-Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred way to contact or notify alwaysdata customers. The email address provided in the **Profile** must therefore be checked regularly.
+Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred way to contact or notify alwaysdata customers. The e-mail address provided in the **Profile** must therefore be checked regularly.
 {{% /notice %}}
 
 ## Support

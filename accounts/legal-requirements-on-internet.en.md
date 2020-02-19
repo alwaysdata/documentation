@@ -34,13 +34,13 @@ Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limi
 
 France's [Law for Trust in the Digital Economy of June 2004](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000005789847&dateTexte=20080724) (LCEN) plans to make available to web surfers an easily identifiable and accessible page comprising this legal information.
 
-Publishers are liable for everything that is accessible on their website (including comments of all kinds that the publisher is required to control and moderate). They are required to implement some way (email address, contact form, etc.) for visitors to report any shocking or illegal content.
+Publishers are liable for everything that is accessible on their website (including comments of all kinds that the publisher is required to control and moderate). They are required to implement some way (e-mail address, contact form, etc.) for visitors to report any shocking or illegal content.
 
 ## Personal data
 
 If a website records personal data (name, date of birth, address, social security number, etc.) on its members, it is required to *inform the people involved when they register* and it must state whether this data is optional or required, as well as how long the data is retained for. This does not generally apply to connection data (IP address, time of connection, etc.) so long as this data is only used for statistical purposes and retained for a reasonable period of time.
 
-The website should allow people to *change information* relating to them (whether via a dedicated interface or simply by email) and inform them of this right.
+The website should allow people to *change information* relating to them (whether via a dedicated interface or simply by e-mail) and inform them of this right.
 
 ## CNIL declaration
 

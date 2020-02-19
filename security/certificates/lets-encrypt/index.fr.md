@@ -18,7 +18,7 @@ Vous pouvez les consulter dans la section **Avancé > Certificats SSL > Certific
 Pour éviter les doublons, alwaysdata bloque la génération de certificats Let's Encrypt pour toute adresse déjà automatiquement gérée, vous pouvez contacter le [support](https://admin.alwaysdata.com/support/add) si vous souhaitez totalement gérer la génération des certificats SSL d'un domaine.
 
 {{% notice warning %}}
-La création de ces certificats est dépendante de la propagation DNS : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les 30 minutes durant 24 heures. Cela passe ensuite à une fois par jour.
+The creation of these certificates is dependent on DNS propagation: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate every 30 minutes for 24 hours. This will then change to once a day.
 {{% /notice %}}
 
 ---

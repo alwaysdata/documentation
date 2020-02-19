@@ -18,6 +18,6 @@ Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de dispos
 {{< fig "images/admin-panel_add-webdav-user.fr.png" "Interface d'administration : ajout d'utilisateur WebDAV">}}
 
 {{% notice note %}}
-FTP propose une isolation : l'utilisateur ne pourra pas circuler librement sur les répertoires parents de son répertoire racine.
+WebDAV propose une isolation : l'utilisateur ne pourra pas circuler librement sur les répertoires parents de son répertoire racine.
 {{% /notice %}}
 

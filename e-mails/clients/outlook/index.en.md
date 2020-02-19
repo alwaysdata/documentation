@@ -11,7 +11,7 @@ hidden = true
 
 Go to **Files > Information > Add an account**.
 
-{{< fig "images/outlook_desktop_interface2_en.png" "Outlook: email interface" >}}
+{{< fig "images/outlook_desktop_interface2_en.png" "Outlook: e-mail interface" >}}
 
 {{< fig "images/outlook_desktop_interface1_en.png" "Outlook: Files menu" >}}
 

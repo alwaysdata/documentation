@@ -14,7 +14,7 @@ To do this, go to **Domains > Details** for the relevant domain **> Delegations 
 {{< fig "images/admin-panel_subdomain-add-delegation.en.png" "Add a delegation: form" >}}
 
 {{% notice info %}}
-Do not place the root in **Hostname**.
+Do not place the root in **Subdomain**.
 For example, by putting `www.example.org` in this box, you will create a delegation for `www.example.org.example.org`.
 {{% /notice %}}
 

@@ -5,7 +5,7 @@ weight = 21
 tags = ["dns", "domains"]
 +++
 
-The[DNS servers](https://en.wikipedia.org/wiki/Domain_Name_System) define which servers to contact for every service. Therefore they are defined at the registrar - the provider that handles the domain’s administrative management.
+The [DNS servers](https://en.wikipedia.org/wiki/Domain_Name_System) define which servers to contact for every service. Therefore they are defined at the registrar - the provider that handles the domain’s administrative management.
 
 1.  Ask your new provider for their DNS servers,
 

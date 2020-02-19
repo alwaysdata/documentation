@@ -25,5 +25,5 @@ To ease your migration, you can also hire a service provider: the company [D√©m√
     - You can couple it using a [domain transfer]({{< ref "domains/transfer-a-domain" >}}).
 
 {{% notice tip %}}
-For the commands you can follow the [Move a site] documentation instructions({{< ref "sites/move-a-site" >}}).
+For the commands you can follow the [Move a site]({{< ref "sites/move-a-site" >}}) documentation instructions.
 {{% /notice %}}

@@ -12,4 +12,4 @@ Illustration: `*@example.org`
 ## Warning
 
 - This address may collect plenty of spam. We therefore recommend enabling the anti-spam function on this address.
-- Error emails normally sent for addresses that do not exist will no longer be sent. It is up to you to warn senders who may believe that the address is a valid one.
+- Error e-mails normally sent for addresses that do not exist will no longer be sent. It is up to you to warn senders who may believe that the address is a valid one.

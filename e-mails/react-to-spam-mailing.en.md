@@ -12,8 +12,8 @@ There are two main reasons for sending spam:
 
 When the alwaysdata team encounters spam sent due to a password theft, they will:
 
-- stop sending by changing the password for the affected email address,
-- delete all related emails awaiting sending,
+- stop sending by changing the password for the affected e-mail address,
+- delete all related e-mails awaiting sending,
 - warn the customer.
 
 Then the customer can provide a new, **more secure**, password to again allow access to their address.

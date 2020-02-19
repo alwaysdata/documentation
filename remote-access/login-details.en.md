@@ -39,7 +39,7 @@ it was created.
 ||Port: 6380|
 |Memcached|Host: localhost or 127.0.0.1|
 ||Port: 11211|
-|Emails||
+|E-mails||
 |Webmail|[RoundCube](https://webmail.alwaysdata.com)|
 |IMAP|Host: imap-[account].alwaysdata.net|
 ||Ports: 143, secure: 993 & 585|
@@ -47,7 +47,7 @@ it was created.
 ||Ports: 110, secure: 995|
 |SMTP|Host: smtp-[account].alwaysdata.net|
 ||Ports: 25 & 587, secure: 465|
-||Identification: email (address and the password assigned to it)|
+||Identification: e-mail (address and the password assigned to it)|
 |Remote access||
 |FTP|Host: ftp-[account].alwaysdata.net|
 ||Port: 21|

@@ -1,5 +1,5 @@
 +++
-title = "network"
+title = "Network"
 weight = 30
 layout = "man"
 tags = ["infrastructure", "security"]

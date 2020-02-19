@@ -17,5 +17,5 @@ To connect to your account using *WebDAV*, you need to have a user. By default, 
 {{< fig "images/admin-panel_add-webdav-user.en.png" "Administration interface: add WebDAV users">}}
 
 {{% notice note %}}
-FTP proposes isolation: the user cannot move around freely in their root directory's parent directories.
+WebDAV proposes isolation: the user cannot move around freely in their root directory's parent directories.
 {{% /notice %}}

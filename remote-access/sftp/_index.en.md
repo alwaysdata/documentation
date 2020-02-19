@@ -25,5 +25,5 @@ Then from your FTP client, fill-in the SSH connection information. Let us take t
 {{< fig "filezilla_sftp-connection.en.png" "FileZilla interface: SFTP connection" >}}
 
 {{% notice info %}}
-This must not be confused with the [FTPS] protocol({{< ref "remote-access/ftp" >}}): FTP transfer secured by SSL or TLS protocols.
+This must not be confused with the [FTPS]({{< ref "remote-access/ftp" >}}) protocol: FTP transfer secured by SSL or TLS protocols.
 {{% /notice %}}

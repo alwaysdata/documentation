@@ -114,7 +114,7 @@ If you use a virtual environment, there is no need to specify `--user`.
 
 So that a WSGI application is accessible by the web, you need to add a site in the administration **Web > Sites** section:
 
-{{< fig "images/python-wsgi.png" >}}
+{{< fig "images/python-wsgi.png" "Python WSGI Site Type">}}
 
 - type: choose Python WSGI,
 - application path: the path to your WSGI application.

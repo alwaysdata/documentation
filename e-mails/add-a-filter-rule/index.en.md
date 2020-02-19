@@ -5,9 +5,9 @@ weight = 25
 tags = ["e-mail"]
 +++
 
-To better manage e-mails and sort them automatically, filtering rules are available. These rules can be created at the email client or server level.
+To better manage e-mails and sort them automatically, filtering rules are available. These rules can be created at the e-mail client or server level.
 
-To create them on the latter, go to **Emails > Addresses > Change** the desired address **> Filter rules**.
+To create them on the latter, go to **E-mails > Addresses > Change** the desired address **> Filter rules**.
 
 {{< fig "images/filter-rule1.en.png" "Administration interface: go to the filtering rules" >}}
 

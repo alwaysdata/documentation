@@ -6,7 +6,7 @@ tags = ["api"]
 
 ## Identification
 
-With an ID (profile email and related password):
+With an ID (profile e-mail and related password):
 
 ```
 $ curl --basic --user foobar@example.org https://api.alwaysdata.com/v1/account/
@@ -27,7 +27,7 @@ To use your API key, don't forget the colon (`:`) after it, meaning that the pas
 If you access resources linked to a user or a specific account, then you will need to specify this with your authentication while specifying one or more parameter(s):
 
 - **account**: this is the account you wish to access. If for example you have a number of accounts but you wish to access a resource in a specific account.
-- **customer**: if you have certain permissions on another user, then you need to specify their email address.
+- **customer**: if you have certain permissions on another user, then you need to specify their e-mail address.
 
 For example, accessing the FTP users of your *mycompany* in this way:
 

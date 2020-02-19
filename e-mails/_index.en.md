@@ -8,21 +8,21 @@ tags = ["e-mail"]
 
 # E-mails
 
-Our email servers are conventional ones, we use [Exim](https://www.exim.org/) and [Dovecot](https://www.dovecot.org/).
+Our e-mail servers are conventional ones, we use [Exim](https://www.exim.org/) and [Dovecot](https://www.dovecot.org/).
 
-You can [create an email address]({{< relref "create-an-e-mail-address" >}}) from the **Emails** tab in your alwaysdata administration interface and [view your emails]({{< relref "use-an-e-mail-address" >}}) via the email client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.
+You can [create an e-mail address]({{< relref "create-an-e-mail-address" >}}) from the **E-mails** tab in your alwaysdata administration interface and [view your e-mails]({{< relref "use-an-e-mail-address" >}}) via the e-mail client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.
 
 ## Resources
 
 - [Deliverability: best practices]({{< relref "delivery">}})
 - [Add a filter rule]({{< relref "add-a-filter-rule" >}})
 - [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
-- [Read an email source]({{< relref "read-an-e-mail-source" >}})
+- [Read an e-mail source]({{< relref "read-an-e-mail-source" >}})
 - [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
 
-## Email clients
+## E-mail clients
 
 - [iOS]({{< relref "clients/apple-ios" >}})
 - [Gmail]({{< relref "clients/gmail" >}})

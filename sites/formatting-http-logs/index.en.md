@@ -48,4 +48,4 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 |{user_agent}|Value of the User-Agent header sent by the request|
 
 
-[^1]: May be formatted in line with the [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior) syntax. *Examples:* `{completion_date:{%d/%b/%Y}}` *→ 16/Jul/2018,* `{completion_date:{%H:%M:%S}}` *→ 12:04:07*
+[^1]: May be formatted in line with the [strftime](https://docs.python.org/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior) syntax. *Examples:* `{completion_date:{%d/%b/%Y}}` *→ 16/Jul/2018,* `{completion_date:{%H:%M:%S}}` *→ 12:04:07*

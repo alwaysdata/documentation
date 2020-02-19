@@ -1,6 +1,5 @@
 +++
-url = "/fr/tâches-planifiées/utiliser-les-tâches-planifiées/"
-title = "Comment utiliser des tâches planifiées"
+title = "Using Scheduled Tasks"
 layout = "howto"
 weight = 10
 hidden = true

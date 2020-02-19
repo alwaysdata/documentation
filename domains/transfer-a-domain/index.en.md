@@ -5,7 +5,7 @@ weight = 2
 tags = ["domains"]
 +++
 
-This operation is [charged](https://www.alwaysdata.com/en/domains/#main)for. It allows transferring the *administrative* management of your domain to alwaysdata.
+This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.
 
 ## Preparation ahead of time
 
@@ -14,7 +14,7 @@ Before starting the operation the owner must :
 - remove the protection against transfers,
 - check that the owner’s information is correct and visible in the `whois` [^1],
 - get the authorization code,
-- retrieve a backup of his data (including email).
+- retrieve a backup of his data (including e-mail).
 
 A transfer cannot take place within 60 days of its creation or a previous transfer.
 
@@ -49,7 +49,7 @@ For example: `example.org` and not `www.example.org`.
     {{< fig "images/admin-panel_add-domain-3.en.png" "Administration interface: step 3" >}}
 
 {{% notice warning %}}
-A validation email is set for a certain number of extensions. Without validation, the transfer is aborted.
+A validation e-mail is set for a certain number of extensions. Without validation, the transfer is aborted.
 {{% /notice %}}
 
 {{% notice note %}}
@@ -61,7 +61,7 @@ A transfer takes on average 6 to 8 days but this can be accelerated by contactin
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
 
   - updating your [DNS records]({{< ref "domains/add-dns" >}}) if you use other servers for certain services,
-  - creating the [email addresses]({{< ref "e-mails/create-an-e-mail-address" >}}).
+  - creating the [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}).
 
 Regarding the website, there are a number of possible choices:
 

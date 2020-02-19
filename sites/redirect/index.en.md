@@ -26,7 +26,7 @@ Go to the **Web > Sites > Add a site** menu.
 
 ## Redirect via Apache
 
-For PHP sites, static files and custom Apache sites you can also use a `.htaccess` file and the [Redirect](https://httpd.apache.org/docs/2.4/fr/mod/mod_alias.html#redirect) directive.
+For PHP sites, static files and custom Apache sites you can also use a `.htaccess` file and the [Redirect](https://httpd.apache.org/docs/2.4/en/mod/mod_alias.html#redirect) directive.
 
 ## Redirect via uWSGI
 

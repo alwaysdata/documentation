@@ -11,6 +11,6 @@ The way [Node.js](https://nodejs.org/) works at alwaysdata is very standard. If 
 - the [proposed versions]({{< ref "languages/nodejs/configuration">}}#versions-supported) range from 6 to 12,
 - the [environment configuration]({{< ref "languages/nodejs/configuration" >}}#environment) is easy to set up.
 
-The [Express.js](https://expressjs.com/fr/) framework is one of our autoinstallable applications.
+The [Express.js](https://expressjs.com/) framework is one of our autoinstallable applications.
 
 - [API resource](https://api.alwaysdata.com/v1/environment/nodejs/doc/)

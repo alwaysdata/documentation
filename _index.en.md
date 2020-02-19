@@ -10,7 +10,7 @@ Learn how to use *alwaysdata*. Find out how to set up an account. Discover how t
 
 - Find all of the [connection information]({{<ref "remote-access/login-details">}}) linked to your account,
 - Connect to your [administration interface](https://admin.alwaysdata.com),
-- Create a [website]({{< ref "sites/add-a-site" >}}), [buy]({{< ref "domains/buy-a-domain" >}}) or [transfer]({{< ref "domains/transfer-a-domain" >}}) a domain, create [email addresses]({{< ref "e-mails/create-an-e-mail-address" >}}),
+- Create a [website]({{< ref "sites/add-a-site" >}}), [buy]({{< ref "domains/buy-a-domain" >}}) or [transfer]({{< ref "domains/transfer-a-domain" >}}) a domain, create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}),
 - Transfer your files using a remote access protocol - [SFTP]({{< ref "remote-access/sftp" >}}) for instance - and create your [database]({{< ref "databases" >}}).
 
 A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
@@ -26,7 +26,7 @@ Any publication on Internet entails [legal obligations]({{<ref "accounts/legal-r
 ## Terminology
 
 - **API** (Application Programming Interface): is a programming interface used to automate how you manage your resources.
-- **Account**: a hosting space where sites, domains, emails, etc. are located. Linked to a profile and located on one (or more) servers.
+- **Account**: a hosting space where sites, domains, e-mails, etc. are located. Linked to a profile and located on one (or more) servers.
 - **Administration**, **Admin** or **client space**: a private space that is accessible [online](https://admin.alwaysdata.com) comprising information relating to alwaysdata services and allowing management operations relating to these services.
 - **Profile** or **client**: alwaysdata administration interface user. This physical or corporate entity has validated the [alwaysdata contracts](https://www.alwaysdata.com/en/terms-and-legal/).
 - **Server**: a computer system where accounts are located. This may be a physical server or a virtual machine.

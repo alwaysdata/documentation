@@ -5,16 +5,16 @@ hidden = true
 tags = ["e-mail"]
 +++
 
-An email source will display its true content, the raw message code prior to interpreting. Inspecting it may serve to:
+An e-mail source will display its true content, the raw message code prior to interpreting. Inspecting it may serve to:
 
-- analyze email deliverability,
+- analyze e-mail deliverability,
 - gain some information on the sender and the path taken by the message.
 
-You can retrieve it via any mail client. For example, via [webmail](https://webmail.alwaysdata.com), you will find it in **... Plus > Display the source**
+You can retrieve it via any mail client. For example, via [webmail](https://webmail.alwaysdata.com), you will find it in **... Plus > Show source**
 
 {{< fig "images/roundcube-source-menu.en.png" "Roundcube: display the source" >}}
 
-The email source comprises:
+The e-mail source comprises:
 
 -   the path taken by the message:
     ```
@@ -94,8 +94,8 @@ The email source comprises:
         -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
          0.3 TXREP                  TXREP: Score normalizing based on sender's reputation
     ```
-    The email does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [SpamAssassin](https://spamassassin.apache.org/) gives a low score allowing the message to be sent.
+    The e-mail does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [SpamAssassin](https://spamassassin.apache.org/) gives a low score allowing the message to be sent.
 
 ---
 
-- [Email deliverability: best practices]({{< ref "e-mails/delivery">}})
+- [E-mail deliverability: best practices]({{< ref "e-mails/delivery">}})

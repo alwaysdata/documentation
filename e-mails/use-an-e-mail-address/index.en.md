@@ -5,7 +5,7 @@ weight = 10
 tags = ["e-mail"]
 +++
 
-You can access your emails in a number of ways. Here are two most used.
+You can access your e-mails in a number of ways. Here are two most used.
 
 ## Email client
 
@@ -29,7 +29,7 @@ You need to replace `[account]` with the name of your account, the one chosen wh
 
 Authentication is **mandatory** to use our SMTP server, fill-in the same identifiers as for the incoming server.
 
-Your access provider may block port *25* intended for sending your emails. In this case you can change the port to *587* or use your provider's SMTP server.
+Your access provider may block port *25* intended for sending your e-mails. In this case you can change the port to *587* or use your provider's SMTP server.
 
 - [Configure Apple/iOS]({{< ref "e-mails/clients/apple-ios" >}})
 - [Configure Gmail]({{< ref "e-mails/clients/gmail" >}})
@@ -48,6 +48,6 @@ By default, the webmail is in English. To change the language, click on **Settin
 
 ## Notes
 
-- The emails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,
+- The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,
 - If the destination MX server is not available, the email will be kept for a maximum of five days, with regular attempts made to resend it,
-- The maximum size of emails sent is set at **50 Mb**.
+- The maximum size of e-mails sent is set at **50 Mb**.

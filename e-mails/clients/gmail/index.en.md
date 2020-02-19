@@ -1,5 +1,4 @@
 +++
-url = "/fr/emails/clients/gmail/"
 title = "Comment configurer Gmail"
 layout = "howto"
 hidden = true
@@ -19,14 +18,14 @@ Go to **Parameters > Accounts and imports**.
 - For *incoming* mail, go to **Add a mail account > Import e-mails from my other account (POP3)**.
 
 {{% notice warning %}}
-This is a POP3 connection that will get email from the email servers.
+This is a POP3 connection that will get e-mail from the e-mail servers.
 {{% /notice %}}
 
 {{< fig "images/gmail_add-pop_en.png" "Gmail: create a POP account">}}
 
 {{< fig "images/gmail_add-pop-final_en.png" "Gmail: create a POP account - result" >}}
 
-- For *outgoing* mail, go to **Add another email address**.
+- For *outgoing* mail, go to **Add another e-mail address**.
 - Uncheck the **Treat as an alias** box.
 
 {{< fig "images/gmail_add-smtp_en.png" "Gmail: create an SMTP account" >}}

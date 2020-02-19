@@ -5,11 +5,11 @@ hidden = true
 tags = ["e-mail", "dns"]
 +++
 
-Here are three methods for authenticating your emails and thereby reducing abusive email use (spam, phishing, etc.).
+Here are three methods for authenticating your e-mails and thereby reducing abusive e-mail use (spam, phishing, etc.).
 
 ## Sender Policy Framework
 
-[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a *TXT* type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send emails and compare it with the IP address of the sender's server.
+[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a *TXT* type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send e-mails and compare it with the IP address of the sender's server.
 
 {{< fig "images/globalcyberalliance-spf.en.png" "SPF: explanatory diagram" >}}
 
@@ -30,8 +30,8 @@ Here are three methods for authenticating your emails and thereby reducing abusi
 |--- |--- |
 |+|Favorable result|
 |?|Neutral result|
-|~|Slight "SOFTMAIL" failure (email accepted but marked)|
-|-|Total failure (email normally rejected)|
+|~|Slight "SOFTMAIL" failure (e-mail accepted but marked)|
+|-|Total failure (e-mail normally rejected)|
 
 |Modifiers||
 |--- |--- |
@@ -42,10 +42,10 @@ An SPF record is created by default and can be found in the **DNS records** tab 
 
 {{< fig "images/spf-record.png" "SPF record" >}}
 
-This explicitly allows our servers to send emails and sends a neutral result for the other sender servers.
+This explicitly allows our servers to send e-mails and sends a neutral result for the other sender servers.
 
 {{% notice warning %}}
-This technology may have an impact on email redirects: as the sender server is not necessarily the email server belonging to the original email sender.
+This technology may have an impact on e-mail redirects: as the sender server is not necessarily the e-mail server belonging to the original e-mail sender.
 {{% /notice %}}
 
 ### Links
@@ -56,7 +56,7 @@ This technology may have an impact on email redirects: as the sender server is n
 
 ## DomainKeys Identified Mail
 
-[DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a signature to all of the outgoing emails.
+[DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a signature to all of the outgoing e-mails.
 
 {{< fig "images/globalcyberalliance-dkim.en.png" "DKIM: explanatory diagram" >}}
 
@@ -81,7 +81,7 @@ A TXT record will then be created and can be found in the **DNS records** tab:
 
 - the domain corresponds to the pair of DKIM keys (field *d=*),
 - the sender server is specified in the SPF record for the domain (*MAIL FROM*),
-- the domain is in the email's *FROM* field.
+- the domain is in the e-mail's *FROM* field.
 
 {{< fig "images/globalcyberalliance-dmarc.en.png" "DMARC: explanatory diagram" >}}
 
@@ -100,9 +100,9 @@ To use DMARC, DKIM and SPF must already be implemented.
 ||r = relax mode (default)|
 |aspf|Coherency with SPF (s or r)|
 |p|Procedure in case of failure - main domain (required)|
-||none = delivers the email normally|
-||quarantine = treats the email as suspect (spam score, flag, etc.)|
-||reject = rejects the email|
+||none = delivers the e-mail normally|
+||quarantine = treats the e-mail as suspect (spam score, flag, etc.)|
+||reject = rejects the e-mail|
 |sp|Procedure in case of failure - subdomain (none, quarantine or reject)|
 |ruf|Addressee for the detailed failure reports|
 |fo|Conditions for sending a detailed report|

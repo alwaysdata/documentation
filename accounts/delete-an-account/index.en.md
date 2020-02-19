@@ -12,7 +12,7 @@ Go to the **Accounts** menu and click on the *trash* for the account to delete.
 
 {{< fig "images/delete-account.en.png" "Delete an account">}}
 
-This will delete all of the domains, email addresses, websites, files, databases (...) linked to this account.
+This will delete all of the domains, e-mail addresses, websites, files, databases (...) linked to this account.
 
 ## Delete your profile
 
