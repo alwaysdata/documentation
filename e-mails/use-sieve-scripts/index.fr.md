@@ -10,7 +10,7 @@ tags = ["email"]
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 
-Le script final (avec nos propres directives) est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/filter.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
+Le script final est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/filter_user.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
 
 ## Extensions supportées
 
@@ -41,10 +41,6 @@ Le script final (avec nos propres directives) est stocké dans le fichier `$HOME
 |subaddress                |Teste des éléments délimités de la partie locage des adresses                           |
 |vacation                  |Réponses automatiques                                                                   |
 |variables                 |Permet d'ajouter des variables                                                          |
-
-{{% notice info %}}
-N'utilisez pas la directive `require`, elle est déjà inclue par défaut.
-{{% /notice %}}
 
 ## Exemples
 

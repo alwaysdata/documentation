@@ -9,7 +9,7 @@ tags = ["e-mail"]
 
 {{< fig "images/admin-panel_mailbox_sieve.en.png" "Administration interface: E-mails - Script Sieve" >}}
 
-The final script (with our own directives) is stored in the `$HOME/admin/mail/[domain]/[box]/filter.sieve` file in your account. You can read it to help debug your script, but you cannot edit it.
+The final script is stored in the `$HOME/admin/mail/[domain]/[box]/filter_user.sieve` file in your account. You can read it to help debug your script, but you cannot edit it.
 
 ## Extensions supported
 
@@ -40,10 +40,6 @@ The final script (with our own directives) is stored in the `$HOME/admin/mail/[d
 |subaddress|Tests bounded elements in the location part of the addresses|
 |vacation|Automatic answering|
 |variables|Used to add variables|
-
-{{% notice info %}}
-Do not use the `require` directive, it is already included by default.
-{{% /notice %}}
 
 ## Examples
 
