@@ -15,6 +15,7 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}
 
 ## Ressources
 
+- [API](https://api.alwaysdata.com/v1/mailbox/doc/)
 - [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
 - [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
 - [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})

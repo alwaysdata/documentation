@@ -19,3 +19,7 @@ Vous y retrouverez la liste de vos règles et pourrez en ajouter.
 
 
 Les règles de filtrages sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier `$HOME/admin/mail/[domaine]/[partie-locale]/filter.sieve` sur votre espace de fichiers.
+
+---
+
+- [Ressource API](https://api.alwaysdata.com/v1/mailbox/rule/doc/)

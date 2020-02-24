@@ -18,3 +18,7 @@ You will find a list of your rules that you can add to.
 {{< fig "images/filter-rule3.en.png" "Add a filter rule" >}}
 
 Filtering rules are translated into [Sieve](http://sieve.info/) format and you can find it in the `$HOME/admin/mail/[domain]/[local-part]/filter.sieve` file in your file space.
+
+---
+
+- [API resource](https://api.alwaysdata.com/v1/mailbox/rule/doc/)
