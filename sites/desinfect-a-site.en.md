@@ -51,7 +51,7 @@ echo gzinflate(base64_decode("FZy3sqMKFkX/ZaL3igDvaiI8QngPyRTee8/Xj24n3UFfCcE5e6
 or:
 
 ```
-find . -name "*.php" -print0 | xargs -0 egrep eval`
+find . -name "*.php" -print0 | xargs -0 grep eval
 ```
 
 ```php
