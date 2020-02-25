@@ -21,14 +21,14 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Restricted account]({{< ref "security/restricted-mode" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
 - [Warning system]({{< ref "notifications" >}})
-- [Profile suspension]({{< ref "suspension" >}})
+- [Profile suspension]({{< ref "./suspension" >}})
 - [Free account: limitations]({{< ref "free-pack-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
 - [Legal obligations on Internet]({{<ref "./legal-requirements-on-internet">}})
 
 ## Billing
 
-- [Pay bills]({{< relref "billing" >}})
+- [Pay bills]({{< relref "./billing" >}})
 - [Choose your hosting plan]({{< relref "billing/choose-its-paas" >}})
 - [Means of payment]({{< relref "billing/payment-methods" >}})
 - [Sponsorship]({{< relref "billing/sponsorship" >}})

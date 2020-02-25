@@ -15,9 +15,9 @@ Retrouvez toutes les [Informations de connexion]({{<ref "./login-details">}}) au
 
 Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :
 
-* [FTP]({{< relref "ftp" >}})
-* [SFTP]({{< relref "sftp" >}})
-* [SSH]({{< relref "ssh" >}})
-* [WebDAV]({{< relref "webdav" >}})
+* [FTP]({{< relref "./ftp" >}})
+* [SFTP]({{< relref "./sftp" >}})
+* [SSH]({{< relref "./ssh" >}})
+* [WebDAV]({{< relref "./webdav" >}})
 
 - [Présentation du répertoire admin]({{< relref "admin-directory" >}})

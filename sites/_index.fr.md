@@ -41,7 +41,7 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 - [Formater les logs HTTP]({{< relref "formatting-http-logs" >}})
 - [Cache HTTP]({{< relref "http-cache" >}})
 - [Utiliser le cache HTTP]({{< relref "use-http-cache" >}})
-- [WAF]({{< relref "waf" >}})
+- [WAF]({{< relref "./waf" >}})
 - [Utiliser le WAF]({{< relref "use-waf" >}})
 - [Sondes de monitoring]({{< relref "use-probes" >}})
 

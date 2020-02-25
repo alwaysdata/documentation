@@ -23,7 +23,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
 - [Système d'alertes]({{< ref "notifications" >}})
-- [Suspension de profil]({{< ref "suspension" >}})
+- [Suspension de profil]({{< ref "./suspension" >}})
 - [Compte gratuit : limitations]({{< ref "free-pack-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
 - [Obligations légales sur Internet]({{<ref "./legal-requirements-on-internet">}})
@@ -31,7 +31,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 
 ## Facturation
 
-- [Payer ses factures]({{< relref "billing" >}})
+- [Payer ses factures]({{< relref "./billing" >}})
 - [Choisir son plan d'hébergement]({{< relref "billing/choose-its-paas" >}})
 - [Moyens de paiement]({{< relref "billing/payment-methods" >}})
 - [Parrainage]({{< relref "billing/sponsorship" >}})

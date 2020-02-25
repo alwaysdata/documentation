@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/couchdb-2.2/"
+url = "/fr/avancé/migrations/couchdb-2_2/"
 title = "Migration CouchDB 2.2"
 layout = "man"
 hidden = true

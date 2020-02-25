@@ -21,8 +21,8 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 ## Migrations actuellement proposées
 
-- [CouchDB 2.2]({{< ref "advanced/migrations/couchdb-2.2" >}})
-- [MariaDB 10.3]({{< ref "advanced/migrations/mariadb-10.3" >}})
+- [CouchDB 2.2]({{< ref "advanced/migrations/couchdb-2_2" >}})
+- [MariaDB 10.3]({{< ref "advanced/migrations/mariadb-10_3" >}})
 - [PostgreSQL 10]({{< ref "advanced/migrations/postgresql-10" >}})
 - [PostgreSQL 12]({{< ref "advanced/migrations/postgresql-12" >}})
 

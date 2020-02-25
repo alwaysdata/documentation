@@ -14,7 +14,7 @@ Find all of the [Connection information]({{<ref "./login-details">}}) needed to 
 
 Find all of the information on remote access to our servers:
 
-- [FTP]({{< relref "ftp" >}})
-- [SFTP]({{< relref "sftp" >}})
-- [SSH]({{< relref "ssh" >}})
-- [WebDAV]({{< relref "webdav" >}})
+- [FTP]({{< relref "./ftp" >}})
+- [SFTP]({{< relref "./sftp" >}})
+- [SSH]({{< relref "./ssh" >}})
+- [WebDAV]({{< relref "./webdav" >}})
