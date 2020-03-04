@@ -7,7 +7,7 @@ tags = ["e-mail", "scam", "spam"]
 
 There are two main reasons for sending spam:
 
-- [a website infection]({{< ref "sites/desinfect-a-site" >}}), or
+- [a website infection]({{< ref "sites/clean-up-a-site" >}}), or
 - a password theft. We will present the latter case here.
 
 When the alwaysdata team encounters spam sent due to a password theft, they will:

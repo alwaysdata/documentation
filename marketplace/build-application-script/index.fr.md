@@ -46,7 +46,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 ### Notes et astuces
 
 * Le script doit commencer par `set -e` pour le stopper lorsqu’il échoue ;
-* Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
+* Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js® et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
 * pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide.

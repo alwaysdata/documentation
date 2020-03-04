@@ -56,7 +56,7 @@ Sa notoriété en fait une cible prioritaire pour les pirates informatiques, il 
 
 - supprimez le compte "admin" créé par défaut ;
 
-- d'[autres règles]({{<ref "sites/desinfect-a-site" >}}#3-supprimer-les-vecteurs-dinfection).
+- d'[autres règles]({{<ref "sites/clean-up-a-site" >}}#3-supprimer-les-vecteurs-dinfection).
 
 ---
 ## Liens utiles

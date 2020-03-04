@@ -26,7 +26,7 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 - [Adresses HTTP externes]({{< relref "use-external-addresses" >}})
 - [Déplacer un site]({{< relref "move-a-site" >}})
 - [Désactiver un site]({{< relref "deactivate-a-site" >}})
-- [Désinfecter un site]({{< relref "desinfect-a-site" >}})
+- [Désinfecter un site]({{< relref "clean-up-a-site" >}})
 - [Changer de prestataire]({{< relref "transfer-in-out" >}})
 - [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "connection-to-upstream" >}})

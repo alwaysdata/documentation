@@ -36,7 +36,7 @@ In your scripts, use `/usr/bin/node` as *shebang*:
 
 ## Environment
 
-Your Node.js environment starts off empty, with no ready installed libraries. You can use `npm` to install packets:
+Your Node.js® environment starts off empty, with no ready installed libraries. You can use `npm` to install packets:
 
 ```
 $ npm install express
@@ -50,7 +50,7 @@ $ npm install -g express
 
 ## HTTP deployment
 
-To deploy an HTTP application with Node.js, create a Node.js type site in the **Web > Sites** section. You need to specify the command that will start your Node.js application, for example:
+To deploy an HTTP application with Node.js®, create a Node.js type site in the **Web > Sites** section. You need to specify the command that will start your Node.js® application, for example:
 
 ```
 node $HOME/myapp/index.js

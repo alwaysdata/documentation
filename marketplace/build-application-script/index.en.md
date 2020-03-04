@@ -44,7 +44,7 @@ If other variables are needed, open a [support ticket](https://admin.alwaysdata.
 ### Notes and tips
 
 - The script needs to start with `set -e` to stop it when it fails,
-- Specify the **version of the language used** (PHP, Python, Ruby, Node.js and Elixir). This is recommended to avoid being dependent on the default account configuration,
+- Specify the **version of the language used** (PHP, Python, Ruby, Node.js® and Elixir). This is recommended to avoid being dependent on the default account configuration,
 - The root directory specified by the user (`INSTALL_PATH`) serves as the root for a script (an `export HOME=` is run by default),
 - It is preferable to request a minimum amount of information to avoid making the script an exhaustive one. *Users may change the configuration of their application later on.*
 - To add an **optional** form field, set the `required` option to `false`. If the user does not specify anything, the field remains blank.

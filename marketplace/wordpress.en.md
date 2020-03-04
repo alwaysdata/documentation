@@ -57,7 +57,7 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
 
 - delete the "admin" account created by default,
 
-- [other rules]({{<ref "sites/desinfect-a-site">}}#3-delete-infection-sources).
+- [other rules]({{<ref "sites/clean-up-a-site">}}#3-delete-infection-sources).
 
 ---
 ## Useful links

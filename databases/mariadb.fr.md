@@ -28,7 +28,7 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 {{% /notice %}}
 
 ## Autres informations
-MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Gérer les utilisateurs**.
+MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Utilisateurs**.
 
 {{% notice info %}}
 MariaDB est proposé par défaut sur nos serveurs mais les clients VPS et dédiés peuvent demander à utiliser MySQL.

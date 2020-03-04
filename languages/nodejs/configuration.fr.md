@@ -37,7 +37,7 @@ Dans vos scripts, utilisez `/usr/bin/node` comme *shebang* :
 
 ## Environnement
 
-Votre environnement Node.js est initialement vide, sans aucune bibliothèque préinstallée. Vous pouvez utiliser `npm` pour installer des paquets :
+Votre environnement Node.js® est initialement vide, sans aucune bibliothèque préinstallée. Vous pouvez utiliser `npm` pour installer des paquets :
 
 ```
 $ npm install express
@@ -51,7 +51,7 @@ $ npm install -g express
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Node.js, créez un site de type Node.js dans la section **Web > Sites**. Vous devrez spécifier la commande qui démarre votre application Node.js, par exemple :
+Pour déployer une application HTTP avec Node.js®, créez un site de type Node.js dans la section **Web > Sites**. Vous devrez spécifier la commande qui démarre votre application Node.js®, par exemple :
 
 ```
 node $HOME/myapp/index.js

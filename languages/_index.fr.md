@@ -14,7 +14,7 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [Go]({{< ref "languages/go" >}})
 * [Java]({{< ref "languages/java" >}})
 * [Lua]({{< ref "languages/lua" >}})
-* [Node.js]({{< ref "languages/nodejs" >}})
+* [Node.js®]({{< ref "languages/nodejs" >}})
 * [PHP]({{< ref "languages/php" >}})
 * [Python]({{< ref "languages/python" >}})
 * [Ruby]({{< ref "languages/ruby" >}})
