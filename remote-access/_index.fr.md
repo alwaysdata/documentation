@@ -21,3 +21,4 @@ Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :
 * [WebDAV]({{< relref "./webdav" >}})
 
 - [Présentation du répertoire admin]({{< relref "admin-directory" >}})
+- [Questions diverses]({{< relref "./misc" >}})

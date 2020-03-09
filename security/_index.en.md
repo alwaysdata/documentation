@@ -14,8 +14,8 @@ tags = ["security"]
 - [Double authentication]({{< relref "two-factor-authentication">}})
 - [IP access authorization]({{< relref "ip-access-authorization">}})
 
-## alwaysdata services and websites
+## Alwaysdata services and websites
 
-- [SSL certificates]({{< ref "certificates" >}}),
+- [SSL/TLS]({{< ref "ssl-tls" >}})
 - [Restricted mode]({{< relref "restricted-mode" >}}): limiting issues linked to customer abuse
 - [Network]({{< relref "network" >}}): network management and protection against hackers

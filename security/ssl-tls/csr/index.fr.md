@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/certificats/génération-de-csr"
+url = "/fr/sécurité/ssl-tls/génération-de-csr"
 title = "Comment générer une CSR"
 layout = "howto"
 hidden = true

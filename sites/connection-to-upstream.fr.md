@@ -42,7 +42,7 @@ STDERR: Syntax error on line XXX of /home/foo/admin/config/apache/sites.conf:
 STDERR: Invalid command 'XXX', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on été ajoutés dans le champ **Directives globales** d'un site de type **Apache personnalisé**, au niveau du champ **virtual host** du site concerné ou au niveau de la configuration Apache (**Web > Configuration**). Corrigez ou supprimez les.
+Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on été ajoutés dans le champ **Directives globales** d'un site de type **Apache personnalisé**, au niveau du champ **virtual host** du site concerné ou au niveau de la configuration Apache (**Web > Configuration > Apache**). Corrigez ou supprimez les.
 
 {{% notice info %}}
 Il n'y a qu'un serveur Apache par compte, préférez donc gérer les [directives Apache](https://httpd.apache.org/docs/) au niveau du virtual host ou d'un `.htaccess` lorsque c'est possible. 

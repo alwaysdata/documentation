@@ -27,13 +27,22 @@ You can have as many sites as you wish in a single account. Note that this does 
 - [Deactivate a site]({{< relref "./deactivate-a-site" >}})
 - [Clean up a site]({{< relref "./clean-up-a-site" >}})
 - [Change host]({{< relref "transfer-in-out" >}})
+- [Troubleshooting]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "./connection-to-upstream">}})
 - [Catch-all]({{< relref "./catch-all" >}})
+
+## Internet communications protection
+
+- [Redirect HTTP to HTTPS]({{< ref "security/ssl-tls/redirect-http-to-https">}})
+- [TLS configuration]({{< ref "security/ssl-tls/configure-tls" >}})
+- [Add an SSL certificate]({{< ref "security/ssl-tls/add-a-ssl-certificate" >}})
+- [Let's Encrypt certificates]({{< ref "security/ssl-tls/lets-encrypt" >}})
 
 ## Customizing
 
 - [Customize error pages]({{< relref "./custom-error-pages">}})
 - [Analyze processes]({{< relref "./analyze-processes" >}})
+- [Web performances]({{< relref "web-performances" >}})
 - [Peak audience]({{< relref "./anticipate-peak-audience" >}})
 - [Format HTTP logs]({{< relref "./formatting-http-logs" >}})
 - [HTTP cache]({{< relref "./http-cache" >}})
@@ -41,3 +50,8 @@ You can have as many sites as you wish in a single account. Note that this does 
 - [WAF]({{< relref "./waf" >}})
 - [Use WAF]({{< relref "./use-waf" >}})
 - [Monitoring probes]({{< relref "./use-probes" >}})
+
+## External links
+
+- Website uptime: [Down for everyone or just me](https://downforeveryoneorjustme.com/)
+- Know the DNS resolution of an address: [DNSwatch](https://www.dnswatch.info/)

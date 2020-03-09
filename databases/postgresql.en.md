@@ -42,9 +42,11 @@ On creating a database, you have the following options:
   - **local**: determines encoding, `LC_COLLATE` and `LC_CTYPE`,
   - **extensions**: you can install PostgreSQL extensions with just a click (`hstore`, `pgcrypto`, `PostGIS`, etc.). If you need an extension that is not listed, you can contact [support](https://admin.alwaysdata.com/support/add/).
 
-{{% notice note %}}
-It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment.
-{{% /notice %}}
+## Other informations
+
+It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are NOT reachable.
+
+*Untrusted* PostgreSQL languages, which executes arbitrary code with administrator privileges (running PostgreSQL), cannot be used on our servers.
 
 ---
 

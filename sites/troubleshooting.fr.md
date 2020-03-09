@@ -1,6 +1,6 @@
 +++
 url = "/fr/sites/problèmes-fréquents/"
-title = "Problèmes fréquents"
+title = "Sites web : Problèmes fréquents"
 menuTitle = "Problèmes fréquents"
 layout = "faq"
 weight = 90
@@ -21,7 +21,7 @@ Service externe permettant de vérifier la disponibilité : [Down for everyone o
 
 ### Erreurs 500
 
-Ces erreurs peuvent être renvoyées par le serveurs web (exemple Apache), le langage utilisé ou l'application elle-même. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.
+Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le langage utilisé ou l'application elle-même. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.
 
 ### Page blanche
 

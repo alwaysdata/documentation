@@ -33,7 +33,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *[Environment]({{< ref "/languages" >}})*: configure the programming languages,
 - *Process*: HTTP processes executed that may be analyzed or killed,
 - *IP address*: purchase dedicated IPs for HTTP or SMTP,
-- *[SSL certificates]({{< ref "security/certificates" >}})*,
+- *[SSL certificates]({{< ref "security/ssl-tls" >}})*,
 - *[Migration]({{< ref "advanced/migrations" >}})*,
 - *[Scheduled tasks]({{< ref "tasks" >}})*,
 - *[Backups]({{< ref "backups" >}})*.

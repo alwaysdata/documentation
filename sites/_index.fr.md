@@ -32,6 +32,13 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 - [Connection to upstream]({{< relref "connection-to-upstream" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 
+## Protection des communications sur internet
+
+- [Rediriger HTTP vers HTTPS]({{< ref "security/ssl-tls/redirect-http-to-https" >}})
+- [Configuration TLS]({{< ref "security/ssl-tls/configure-tls" >}})
+- [Ajouter un certificat SSL]({{< ref "security/ssl-tls/add-a-ssl-certificate" >}})
+- [Certificats Let's Encrypt]({{< ref "security/ssl-tls/lets-encrypt" >}})
+
 ## Personnalisation
 
 - [Personnaliser les pages d'erreurs]({{< relref "custom-error-pages" >}})

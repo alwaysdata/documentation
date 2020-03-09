@@ -67,7 +67,7 @@ Durant ce temps, le domaine sera ajouté à votre interface d'administration en 
 
 Concernant le site internet, plusieurs choix sont possibles :
 
-- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt]({{< ref "security/certificates/lets-encrypt" >}}) ;
+- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt]({{< ref "security/ssl-tls/lets-encrypt" >}}) ;
 - préparer le site sur une autre adresse et attendre le dernier moment pour ajouter les adresses au site. Il peut alors se passer un temps où le site n'est plus accessible.
 
 ---

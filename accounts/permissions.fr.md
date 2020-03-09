@@ -34,7 +34,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _[Environnement]({{< ref "/languages" >}})_ : configurez les langages de programmation ;
 - _Processus_ : processus HTTP en exécution pouvant être analysés ou tués ;
 - _Adresses IP_ : achetez des IP dédiées pour HTTP ou SMTP ;
-- _[Certificats SSL]({{< ref "security/certificates" >}})_ ;
+- _[Certificats SSL]({{< ref "security/ssl-tls" >}})_ ;
 - _[Migration]({{< ref "advanced/migrations" >}})_ ;
 - _[Tâches planifiées]({{< ref "tasks" >}})_ ;
 - _[Sauvegardes]({{< ref "backups" >}})_.

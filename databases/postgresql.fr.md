@@ -46,7 +46,7 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 
 ## Autres informations
 
-Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé.
+Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont PAS accessibles.
 
 Les langages PostgreSQL *untrusted*, permettant d'exécuter du code arbitraire sous les droits de l'utilisateur administrateur (faisant tourner PostgreSQL), ne peuvent être utilisés sur nos serveurs.
 

@@ -65,7 +65,7 @@ During this time, the domain will be added to your administration interface as a
 
 Regarding the website, there are a number of possible choices:
 
-  - adding the addresses before they point to our servers. In this case, there may be a delay relating to the generation of [SSL Let's Encrypt certificates]({{< ref "security/certificates/lets-encrypt">}}),
+  - adding the addresses before they point to our servers. In this case, there may be a delay relating to the generation of [SSL Let's Encrypt certificates]({{< ref "security/ssl-tls/lets-encrypt">}}),
   - prepare the site at another address and wait until the last moment to add addresses to the site. There may be a period of time when the site is no longer accessible.
 
 ---

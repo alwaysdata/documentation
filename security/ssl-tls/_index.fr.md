@@ -1,15 +1,16 @@
 +++
-url = "/fr/securité/certificats/"
-title = "Certificats"
+url = "/fr/securité/ssl-tls/"
+title = "SSL/TLS"
 weight = 20
 chapter = true
 tags = ["https", "sécurité", "ssl"]
 +++
 
-# Certificats
+# SSL/TLS
 
 - [API](https://api.alwaysdata.com/v1/ssl/doc/)
 - [Rediriger HTTP vers HTTPS]({{< relref "redirect-http-to-https" >}})
+- [Configurer TLS]({{< relref "configure-tls" >}})
 - [Ajouter un certificat SSL]({{< relref "add-a-ssl-certificate" >}})
 - [Certificats Let's Encrypt]({{< relref "lets-encrypt" >}})
 - [Générer une CSR]({{< relref "csr" >}})

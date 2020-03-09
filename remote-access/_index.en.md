@@ -18,3 +18,6 @@ Find all of the information on remote access to our servers:
 - [SFTP]({{< relref "./sftp" >}})
 - [SSH]({{< relref "./ssh" >}})
 - [WebDAV]({{< relref "./webdav" >}})
+
+* [Admin directory overview]({{< relref "admin-directory" >}})
+* [Miscellaneous questions]({{< relref "./misc" >}})

@@ -32,7 +32,7 @@ If you are starting from scratch you can take advantage of our [application libr
 
 PHP, static and custom Apache files are served by [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack and Ruby on Rails <= 2.x use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
--   [SSL]({{< ref "security/certificates/redirect-http-to-https">}}): redirect HTTP to HTTPS,
+-   [SSL]({{< ref "security/ssl-tls/redirect-http-to-https">}}): redirect HTTP to HTTPS,
     {{< fig "images/admin-panel_add-site-ssl.en.png" "Add a site: SSL" >}}
 
 -   [WAF]({{< ref "sites/waf" >}}): configure the application firewall,

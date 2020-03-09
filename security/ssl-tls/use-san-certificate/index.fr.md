@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/certificats/utiliser-un-certificat-san"
+url = "/fr/sécurité/ssl-tls/utiliser-un-certificat-san"
 title = "Comment utiliser un certificat SAN (multi-domaines)"
 layout = "howto"
 hidden = true

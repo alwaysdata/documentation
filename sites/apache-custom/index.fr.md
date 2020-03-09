@@ -9,7 +9,7 @@ tags = ["apache", "http", "site"]
 Le type Apache personnalisé permet de faire tourner des sites servis par le serveur Apache mais n'utilisant pas PHP ou HTML.
 
 {{% notice warning %}}
-Si vous voulez seulement ajouter des directives globales à Apache modifiez sa [configuration]({{< ref "sites/configure-apache" >}}) dans **Web > Configuration**.
+Si vous voulez seulement ajouter des directives globales à Apache modifiez sa [configuration]({{< ref "sites/configure-apache" >}}) dans **Web > Configuration > Apache**.
 {{% /notice %}}
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.

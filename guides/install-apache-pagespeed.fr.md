@@ -25,7 +25,7 @@ Il y a deux modules, un pour Apache 2.2 et l'autre pour Apache 2.4.
 
 ## Étape 2 : Modification de la configuration Apache
 
-Dans **Web > Configuration**, ajoutez :
+Dans **Web > Configuration > Apache**, ajoutez :
 
 ```
 LoadModule pagespeed_module          "/home/[foo]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"

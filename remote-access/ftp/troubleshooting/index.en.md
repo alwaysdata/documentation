@@ -33,7 +33,7 @@ You are attempting to connect in FTPS, change to the **regular FTP** protocol.
 The connection locks up before reaching alwaysdata servers, check:
 
 - That you are in **active** or **passive** mode: in active mode, the FTP server will determine the port to use and will initialize the connection, whereas in passive mode, the FTP client initializes the connection. Therefore the latter is recommended.
-- For **FileZilla** go to *Edit > Settings > Connection > FTP*.
+    - For **FileZilla** go to *Edit > Settings > Connection > FTP*.
 - that you do not have any software acting as a firewall,
 - by changing device,
 - by changing the Internet connection.

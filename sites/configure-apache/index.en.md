@@ -6,7 +6,7 @@ weight = 10
 tags = ["apache", "http", "site"]
 +++
 
-[Apache](http://httpd.apache.org/) 2.2 and 2.4 are available on our servers. To change versions or add global directives to your Apache configuration go to **Web > Configuration**.
+[Apache](http://httpd.apache.org/) 2.2 and 2.4 are available on our servers. To change versions or add global directives to your Apache configuration go to **Web > Configuration > Apache**.
 
 {{< fig "images/admin-panel_apache.en.png" "Administration interface: configure Apache" >}}
 

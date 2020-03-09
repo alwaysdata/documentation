@@ -42,7 +42,7 @@ STDERR: Syntax error on line XXX of /home/foo/admin/config/apache/sites.conf:
 STDERR: Invalid command 'XXX', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-Spurious characters or directives that do not use the correct syntax have been added to the **Global directives** field for a **custom Apache** type site at the **virtual host** field level for the relevant site or at the Apache configuration level (**Web > Configuration**). 
+Spurious characters or directives that do not use the correct syntax have been added to the **Global directives** field for a **custom Apache** type site at the **virtual host** field level for the relevant site or at the Apache configuration level (**Web > Configuration > Apache**).
 
 Correct them or delete them.
 
