@@ -5,6 +5,5 @@ layout = "man"
 hidden = true
 tags = ["infrastructure", "migration"]
 +++
-<!-- TODO: Create EN version -->
 
-Cette migration migre vos bases de données vers la version 2.2 de CouchDB (depuis CouchDB 1.7) : http://docs.couchdb.org/en/2.2.0/whatsnew/2.2.html.
+Cette migration met à jour vos bases de données vers la version 2.2 de CouchDB (depuis CouchDB 1.7) : http://docs.couchdb.org/en/2.2.0/whatsnew/2.2.html.

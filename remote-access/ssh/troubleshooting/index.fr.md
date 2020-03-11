@@ -14,7 +14,7 @@ Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [utilis
 Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d’hôte SSH.
 {{% /notice %}}
 
-Un [blocage d'IP]({{< ref "security/network" >}}#Prévention des intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Un [blocage d'IP]({{< ref "security/network" >}}#prévention-des-intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 {{% notice info %}}
 alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
