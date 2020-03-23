@@ -5,11 +5,13 @@ hidden = true
 tags = ["http", "site"]
 +++
 
-To optimize its applications and improve their access you can follow [OPquast](https://checklists.opquast.com/en/qualiteweb/) advices, to which we will add:
+To optimize your applications and improve their accessibility, you can follow the advice of the [OPquast Checklist](https://checklists.opquast.com/en/qualiteweb/).
 
-- set up indexes in database tables,
-- protect its forms and clean up "trash" contents,
-- use a [HTTP cache]({{< ref "sites/http-cache" >}}).
+For backend optimizations, have a look at:
+
+- setting up indexes in database tables,
+- protecting its forms and cleaning up "trash" contents,
+- using a [HTTP cache]({{< ref "sites/http-cache" >}}).
 
 External website analysis services:
 
