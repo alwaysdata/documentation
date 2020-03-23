@@ -11,7 +11,7 @@ Backups of your files and databases are located in the `$HOME/admin/backup` dire
 1.  Choose the required date,
     {{< fig "images/admin-panel_restoration.en.png" "Administration interface: restore backups - step 1" >}}
 
-2.  Then check the one or more databases and/or directories required.
+2.  Then check the one or more databases and/or directories required [^1].
     {{< fig "images/admin-panel_restoration-site.en.png" "Administration interface: restore backups - step 2" >}}
 
 {{% notice warning %}}
@@ -55,3 +55,5 @@ Be aware that `--delete` will delete all of the files from this directory that h
     ```
     $ xzcat $HOME/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[account].alwaysdata.net -u [user] -p -d [base]
     ```
+
+[^1]: It is not mandatory to restore both databases and files.

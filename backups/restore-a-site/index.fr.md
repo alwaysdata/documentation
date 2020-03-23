@@ -12,7 +12,7 @@ Les sauvegardes de vos fichiers et bases de données se trouvent dans le répert
 1. Choisissez la date voulue ;
     {{< fig "images/admin-panel_restoration.fr.png" "Interface d'administration : restauration de sauvegarde - étape 1" >}}
 
-2. Puis cochez la/les base(s) de données et/ou le/les répertoire(s) voulu(s).
+2. Puis cochez la/les base(s) de données et/ou le/les répertoire(s) voulu(s) [^1].
     {{< fig "images/admin-panel_restoration-site.fr.png" "Interface d'administration : restauration de sauvegarde - étape 2" >}}
 
 {{% notice warning %}}
@@ -57,3 +57,5 @@ Pour effectuer un test ajoutez `-n`.
     ```
     $ xzcat $HOME/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[compte].alwaysdata.net -u [utilisateur] -p -d [base]
     ```
+
+[^1]: Il n'est pas obligatoire de restaurer à la fois bases et fichiers.
