@@ -7,14 +7,14 @@ tags = ["http", "security", "site"]
 
 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is a cryptographic protocol to secure Internet communications.
 
-3 profiles are available to be set in the **Web > Configuration > SSL** menu:
+3 presets are available in the **Web > Configuration > SSL** menu:
 
-- _Modern_: TLS 1.3 is activated. It's compatible with latest web browsers ;
-- _Intermediate_: TLS versions higher to 1.2 are activated. It's compatible with most web browsers ;
-- _Old_: all TLS versions are activated. It's compatible with oldes web browsers.
+- _Modern_: TLS 1.3 is activated. Compatible with the latest web browsers versions.
+- _Intermediate_: TLS versions higher than 1.2 are activated. Compatible with most web browsers.
+- _Old_: all TLS versions are activated. Compatible with olders web browsers.
 
 {{% notice note %}}
-The _Old_ profile is activated by default in alwaysdata's servers.
+The _Old_ profile is activated by default on alwaysdata's servers.
 {{% /notice %}}
 
 ## VPS and dedicated servers

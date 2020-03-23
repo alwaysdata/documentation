@@ -6,8 +6,10 @@ tags = ["account", "technical environment"]
 +++
 
 ## List accounts
-The accounts list is viewable in several ways. Their contents are NOT reachable.
+
+The list of accounts can be visualized in different ways. For all of them, their contents are **not** accessible to others.
 
 ## `/tmp` directory
 
-The `/tmp` directory is a shared by all users of a server. Although it is not recommended to use it, the files created on it are, by default, not readable by other users (thanks to `umask`). However, nothing prevents a program from creating a file in this directory and making it readable to all users.
+The `/tmp` directory is shared by all users on a server. Although we do not recommend using this, the files created here are, by default, not readable by other users, thanks to `umask`. However, we do not enforce file creation in this directory in a mode that makes it readable to all users.
+pa
