@@ -15,6 +15,17 @@ tags = ["base de données", "mariadb", "mysql"]
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > MySQL** de l'interface d'administration.
 
+### Exemple avec `mysql`
+Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+
+- Nom du compte : `foo`
+- Nom de la base de données : `foo_base`
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
+
+```
+foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
+```
+
 ## Permissions
 
 À la création de vos bases et utilisateurs MySQL, vous avez la possibilité de donner les permissions suivantes :

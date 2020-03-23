@@ -7,7 +7,7 @@ tags = ["e-mail"]
 
 You can access your e-mails in a number of ways. Here are two most used.
 
-## Email client
+## E-mail client
 
 If you wish to configure a mail program on your computer or any other device, here is the information you will need to provide.
 
@@ -50,4 +50,5 @@ By default, the webmail is in English. To change the language, click on **Settin
 
 - The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,
 - If the destination MX server is not available, the email will be kept for a maximum of five days, with regular attempts made to resend it,
-- The maximum size of e-mails sent is set at **50 Mb**.
+- The maximum size of e-mails sent is set at **50 Mb**,
+- SMTP authentication is not required when the service is hosted on alwaysdata servers (e.g. website or scheduled task).

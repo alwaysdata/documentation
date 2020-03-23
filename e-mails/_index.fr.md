@@ -19,11 +19,12 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}
 - [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
 - [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
 - [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
+- [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Lire la source d'un email]({{< relref "read-an-e-mail-source" >}})
 - [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
-
+- [Questions diverses]({{< relref "./misc" >}})
 
 ## Clients mails
 

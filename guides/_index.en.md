@@ -12,6 +12,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Apache PageSpeed]({{< relref "install-apache-pagespeed" >}})
 - [Blazegraph]({{< relref "install-blazegraph" >}})
 - [FFmpeg]({{< relref "install-ffmpeg" >}})
+- [Jenkins]({{< relref "install-jenkins" >}})
 - [New Relic]({{< relref "install-new-relic" >}})
 - [wkhtmltopdf]({{< relref "install-wkhtmltopdf" >}})
 

@@ -22,11 +22,18 @@ alwaysdata proposes four kinds of environment:
 |Languages|PHP, Python, Ruby, Node.js®, Java, Elixir, Lua, Go or any other language via the user program|PHP, Python, Ruby, Node.js®, Java, Elixir, Lua, Go or any other language via the user program|PHP, Python, Ruby, Node.js®, Java, Elixir, Lua, Go or any other language via the user program|PHP, Python, Ruby, Node.js®, Java, Elixir, Lua, Go or any other language via the user program|
 |Databases|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|
 |||ElasticSearch, Memcached, Redis|ElasticSearch, Memcached, Redis|ElasticSearch, Memcached, Redis|
+|||Further possible, on request|Further possible, on request|Further possible, on request|
 |E-mails|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|
 |||SMTP queue, SMTP relay|SMTP queue, SMTP relay|SMTP queue, SMTP relay|
 |Remote access|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|
 |Backups|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|
 |Other services|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}})|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management, VPN|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management, VPN|
+
+Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the shared environment or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
+
+{{% notice note %}}
+A well _optimized_ application will have the same performances regardless its environment type. However _less_ clients on a server bring more **stability** and **comfort** (no more performance variations due to other clients).
+{{% /notice %}}
 
 [^1]: Hence, clients do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated clients can request support for services where this is not the case.
 [^2]: The free plan in a shared environment offers 100Mb of disk space for non-commercial use.

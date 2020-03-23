@@ -11,7 +11,7 @@ hidden = true
 Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
 - Nom de compte : `foo`
-- Répertoire de PageSpeed : `$HOME/blazegraph/`
+- Répertoire de Blazegraph : `$HOME/blazegraph/`
 
 
 ## Étape 1 : Téléchargement
@@ -24,6 +24,7 @@ Prenez la [dernière version disponible](https://github.com/blazegraph/database/
 
 ## Étape 2 : Création du site
 
-Dans **Web > Sites**, créez un site de type [Programme utilisateur]({{< ref "sites/user-program" >}}) :
+Dans **Web > Sites**, créez un site de type [Programme utilisateur]({{< ref "sites/user-program" >}}) avec pour **Commande** :
 
-- Commande :  `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+- Debian Jessie : `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+- Debian Buster (nouveaux comptes) : `java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`

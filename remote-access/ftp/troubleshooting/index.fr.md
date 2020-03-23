@@ -41,6 +41,10 @@ Si aucune de ces solutions ne fonctionne, essayez la connexion [SFTP]({{< ref "r
 Les connexions Wi-Fi des établissements scolaires et hôtels bloquent fréquemment de tels services.
 {{% /notice %}}
 
+### ECONNABORTED - Connexion annulée
+La connexion FTP est effectuée avec une IP mais une autre IP se connecte ensuite en mode passif. Assurez-vous de n'utiliser qu'une seule IP durant toute la durée de la connexion FTP.
+Si vous ne pouvez corriger ce comportement, vous pouvez essayez la connexion [SFTP]({{< ref "remote-access/sftp" >}}) ou notre interface [web](https://net2ftp.alwaysdata.com).
+
 ## Accès aux fichiers
 ### Certains fichiers ne sont pas visibles
 Les répertoires et fichiers "cachés", par exemple les `.htaccess`, ne sont pas forcément visibles par défaut ; c'est une **option de votre client FTP**.

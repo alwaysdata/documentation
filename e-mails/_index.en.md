@@ -18,10 +18,12 @@ You can [create an e-mail address]({{< relref "create-an-e-mail-address" >}}) fr
 - [Deliverability: best practices]({{< relref "delivery">}})
 - [Add a filter rule]({{< relref "add-a-filter-rule" >}})
 - [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
+- [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Read an e-mail source]({{< relref "read-an-e-mail-source" >}})
 - [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
+- [Miscellaneous questions]({{< relref "./misc" >}})
 
 ## E-mail clients
 

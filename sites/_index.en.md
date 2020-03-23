@@ -26,7 +26,7 @@ You can have as many sites as you wish in a single account. Note that this does 
 - [Move a site]({{< relref "./move-a-site" >}})
 - [Deactivate a site]({{< relref "./deactivate-a-site" >}})
 - [Clean up a site]({{< relref "./clean-up-a-site" >}})
-- [Change host]({{< relref "transfer-in-out" >}})
+- [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Troubleshooting]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "./connection-to-upstream">}})
 - [Catch-all]({{< relref "./catch-all" >}})

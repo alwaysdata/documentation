@@ -5,7 +5,7 @@ hidden = true
 tags = ["site"]
 +++
 
-This article explains how to move a site from one provider to another.
+This article explains how to move a site to alwaysdata.
 
 {{% notice tip %}}
 To ease your migration, you can also hire a service provider: the company [Déménageur de Site](https://www.demenageur-site.com), for example, is quite familiar with our platform and even offers a voucher code for migration to alwaysdata ([contact our support team](https://admin.alwaysdata.com/support/add)).

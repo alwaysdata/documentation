@@ -27,7 +27,7 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 - [Déplacer un site]({{< relref "move-a-site" >}})
 - [Désactiver un site]({{< relref "deactivate-a-site" >}})
 - [Désinfecter un site]({{< relref "clean-up-a-site" >}})
-- [Changer de prestataire]({{< relref "transfer-in-out" >}})
+- [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "connection-to-upstream" >}})
 - [Catch-all]({{< relref "./catch-all" >}})

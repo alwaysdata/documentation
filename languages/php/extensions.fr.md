@@ -8,7 +8,7 @@ tags = ["php"]
 
 ## Gestion des extensions
 
-Une extension PHP se présente sous la forme d'un fichier ayant l'extension `.so`. Pour la charger, vous devrez ajouter à votre `php.ini` par exemple :
+Une extension PHP se présente sous la forme d'un fichier ayant l'extension `.so`. Pour la charger vous devrez l'ajouter à votre `php.ini` (Environnement > PHP ou au niveau du site dans Web > Sites), par exemple pour YAML :
 
 ```
 extension = /home/[username]/yaml.so

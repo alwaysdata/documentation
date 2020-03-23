@@ -83,6 +83,6 @@ extension = phar.so
 zend_extension = /usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-20170718/opcache.so
 ```
 
-To change this `php.ini`, go to the **Environment > PHP** section. All of the directives that you define will be added to the initial `php.ini` file and can therefore overwrite the default values. There is no limit to what you can define, every PHP option is accessible.
+To change this `php.ini`, go to the **Environment > PHP** section (or if you want to manage it at the website level in **Web > Sites**). All of the directives that you define will be added to the initial `php.ini` file and can therefore overwrite the default values. There is no limit to what you can define, every PHP option is accessible.
 
 You can also create `.user.ini` files to only apply parameters to some directories.

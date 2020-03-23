@@ -15,6 +15,17 @@ tags = ["base de données", "postgresql"]
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > PostgreSQL** de l'interface d'administration.
 
+### Exemple avec `psql`
+Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+
+- Nom du compte : `foo`
+- Nom de la base de données : `foo_base`
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
+
+```
+foo@ssh:~$ psql -h postgresql-foo.alwaysdata.net -U foo -W -d foo_base
+```
+
 ## Permissions
 
 À la création de vos bases et utilisateurs PostgreSQL, vous définissez les permissions souhaitées puis notre système effectue les opérations suivantes :
