@@ -16,6 +16,6 @@ tags = ["https", "security", "ssl"]
 - [Use a SAN certificate]({{< relref "use-san-certificate" >}})
 - [Certificate priority]({{< relref "certificates-priorities" >}})
 
-* Find the mixed content [^1] of its website: [Why no Padlock](https://www.whynopadlock.com/)
+* Find the mixed content[^1] of its website: [Why no Padlock](https://www.whynopadlock.com/)
 
-[^1]: web browsers send the "Mixed content" error when a website use the HTTPS protocol but some images, videos or scripts/styles are returned in HTTP.
+[^1]: web browsers send the `Mixed content` error when a website use the HTTPS protocol but some assets are served in HTTP.
