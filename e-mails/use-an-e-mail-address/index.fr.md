@@ -29,7 +29,7 @@ Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou 
 Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.
 {{% /notice %}}
 
-L'authentification est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes identifiants que pour le serveur entrant.
+L'authentification par mot de passe est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes identifiants que pour le serveur entrant.
 
 Il peut arriver que votre fournisseur d'accès bloque le port _25_ destiné à l'envoi de vos emails. Dans ce cas, vous pouvez modifier le port en faveur du _587_ ou utiliser le serveur SMTP de votre fournisseur.
 

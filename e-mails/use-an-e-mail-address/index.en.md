@@ -27,7 +27,7 @@ If you wish to configure a mail program on your computer or any other device, he
 You need to replace `[account]` with the name of your account, the one chosen when it was created.
 {{% /notice %}}
 
-Authentication is **mandatory** to use our SMTP server, fill-in the same identifiers as for the incoming server.
+Password authentication is **mandatory** to use our SMTP server, fill-in the same identifiers as for the incoming server.
 
 Your access provider may block port *25* intended for sending your e-mails. In this case you can change the port to *587* or use your provider's SMTP server.
 

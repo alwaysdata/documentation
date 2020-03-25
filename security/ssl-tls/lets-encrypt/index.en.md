@@ -17,6 +17,8 @@ You can view them in the **Advanced > SSL certificates > Automatically generated
 
 To avoid duplicates, alwaysdata blocks Let's Encrypt certificate generation for all addresses that are already generated automatically. You can contact [support](https://admin.alwaysdata.com/support/add) if you wish to completely manage SSL certificate generation for a domain.
 
+*.alwaysdata.net* addresses are handled by the `*.alwaysdata.net` wildcard certificate returned by default by the servers.
+
 {{% notice warning %}}
 The creation of these certificates is dependent on DNS propagation: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate every 30 minutes for 24 hours. This will then change to once a day.
 {{% /notice %}}
