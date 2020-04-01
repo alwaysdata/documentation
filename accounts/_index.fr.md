@@ -36,5 +36,6 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Moyens de paiement]({{< relref "billing/payment-methods" >}})
 - [Parrainage]({{< relref "billing/sponsorship" >}})
 - [Changer d'offre]({{< relref "billing/upgrade-your-plan" >}})
+- [Tarifs des interventions]({{< ref "servers-interventions" >}})
 - [Diverses questions]({{< relref "./billing/misc" >}})
 
