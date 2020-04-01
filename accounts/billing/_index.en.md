@@ -14,6 +14,7 @@ You have **30 days** to pay it in **Billing > Invoices > Credit the account** or
 - [Choose your hosting plan]({{< ref "choose-its-paas" >}})
 - [Change plan]({{< ref "upgrade-your-plan" >}})
 - [Sponsorship]({{< ref "./sponsorship" >}})
+- [Interventions fees]({{< ref "servers-interventions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
 
 All of your invoices and receipts can be downloaded in `zip` archive from the **Billing > Invoices** tab.

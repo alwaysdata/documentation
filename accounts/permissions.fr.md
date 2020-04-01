@@ -44,9 +44,9 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _Contact technique_ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
 - _[Utilisateurs SSH]({{< ref "remote-access/ssh/install-globally-ssh-keys" >}})_ : installez des clés SSH pour un accès simplifié aux différents comptes ;
 - _[Règles firewall]({{< ref "security/network/configure-firewall" >}})_ : créez des règles firewall et consultez le bannissement automatique d'IP ;
-- _Configuration SMTP_ : gérez la queue d'envoi d'emails, du relais SMTP et score de spam ;
+- _Configuration SMTP_ : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam ;
 - _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
-- _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (*.alwaysdata.net par défaut) ;
+- _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS]({{< ref "security/ssl-tls/configure-tls" >}}) du serveur ;
 - _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut ;
 - _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
 - _Ressources_ : modifiez les limitations de ressources par compte (ex : consommation RAM).

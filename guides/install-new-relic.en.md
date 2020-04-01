@@ -15,7 +15,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 - New Relic directory: `$HOME/newrelic/`
 - PHP 7.3.9
 
-### Step 1: Download the agent
+## Step 1: Download the agent
 
 ```
 foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
@@ -23,7 +23,7 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 
 [Download page](https://download.newrelic.com/php_agent/release/)
 
-### Step 2: Modify php.ini
+## Step 2: Modify php.ini
 
 Add to `php.ini` (**Environment > PHP**):
 
@@ -37,7 +37,7 @@ newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
 
 More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
-### Step 3: Start the daemon
+## Step 3: Start the daemon
 
 Start it via SSH:
 

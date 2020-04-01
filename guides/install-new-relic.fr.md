@@ -16,7 +16,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 - Répertoire de New Relic : `$HOME/newrelic/`
 - PHP 7.3.9
 
-### Étape 1 : Téléchargement de l'agent
+## Étape 1 : Téléchargement de l'agent
 
 ```
 foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
@@ -25,7 +25,7 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 [Page de téléchargement](https://download.newrelic.com/php_agent/release/)
 
 
-### Étape 2 : Modification du php.ini
+## Étape 2 : Modification du php.ini
 
 Ajoutez dans le `php.ini` (**Environnement > PHP**):
 
@@ -39,13 +39,15 @@ newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
 
 Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
-### Étape 3 : Lancement du démon
+## Étape 3 : Lancement du démon
 
 Lancez le via SSH :
 
 ```
 foo@ssh:~/newrelic$ /home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log
 ```
+
+---
 
 ## Liens
 

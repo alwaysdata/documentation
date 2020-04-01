@@ -30,4 +30,5 @@ Remplacez `ftp-[compte].alwaysdata.net` par votre nom d'hôte FTP.
 {{% /notice %}}
 
 ---
-- [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit.
+- [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit ;
+- [net2ftp](https://net2ftp.alwaysdata.com/) : interface web.

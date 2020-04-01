@@ -54,6 +54,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | **Accès distant**          |                                                                              |
 | FTP                        | Hôte : ftp-[compte].alwaysdata.net                                           |
 |                            | Port : 21                                                                    |
+|                            | Interface web : [net2ftp](https://net2ftp.alwaysdata.com/)                   |
 | SFTP                       | Hôte : ssh-[compte].alwaysdata.net                                           |
 |                            | Port : 22                                                                    |
 | SSH                        | Hôte : ssh-[compte].alwaysdata.net                                           |
