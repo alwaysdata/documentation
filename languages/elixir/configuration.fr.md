@@ -8,11 +8,15 @@ tags = ["elixir"]
 
 ## Versions supportées
 
-| Majeures |
-|----------|
-| 1.7      |
-| 1.6      |
-| 1.5      |
+| Majeures |        |
+|----------|--------|
+| Jessie   | Buster |
+| -        | 1.10   |
+| -        | 1.9    |
+| -        | 1.8    |
+| 1.7      | 1.7    |
+| 1.6      | 1.6    |
+| 1.5      | -      |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Elixir**. C'est cette version qui est notamment utilisée lorsque vous démarrez `mix`.
 

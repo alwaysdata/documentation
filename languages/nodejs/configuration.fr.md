@@ -8,14 +8,16 @@ tags = ["nodejs"]
 
 ## Versions supportées
 
-| Majeures |
-|----------|
-| 12       |
-| 11       |
-| 10       |
-| 9        |
-| 8        |
-| 6        |
+| Majeures |                           |
+|----------|---------------------------|
+| Jessie   | Buster (nouveaux comptes) |
+| -        | 13                        |
+| 12       | 12                        |
+| 11       | 11                        |
+| 10       | 10                        |
+| 9        | 9                         |
+| 8        | 8                         |
+| 6        | 6                         |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 

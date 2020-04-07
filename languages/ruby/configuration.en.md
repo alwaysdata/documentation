@@ -7,10 +7,11 @@ tags = ["ruby"]
 
 ## Versions supported
 
-|Major versions|
-|--- |
-|2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0|
-|1.9, 1.8|
+| Major versions                    |                                        |
+|-----------------------------------|----------------------------------------|
+| Jessie                            | Buster (new accounts)                  |
+| 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 | 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 |
+| 1.9, 1.8                          | 1.9, 1.8                               |
 
 The default version can be changed from the administration section, under **Environment > Ruby**. This is the version that is especially used when you start `ruby`.
 

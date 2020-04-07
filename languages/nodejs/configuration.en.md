@@ -7,14 +7,16 @@ tags = ["nodejs"]
 
 ## Versions supported
 
-|Major versions|
-|--- |
-|12|
-|11|
-|10|
-|9|
-|8|
-|6|
+|Major versions|                       |
+|--------------|-----------------------|
+| Jessie       | Buster (new accounts) |
+| -            | 13                    |
+| 12           | 12                    |
+| 11           | 11                    |
+| 10           | 10                    |
+| 9            | 9                     |
+| 8            | 8                     |
+| 6            | 6                     |
 
 The default version can be changed from the administration section, under **Environment > Node.js**. This is the version that is especially used when you start `node`.
 
