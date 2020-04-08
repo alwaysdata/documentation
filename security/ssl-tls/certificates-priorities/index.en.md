@@ -5,7 +5,7 @@ hidden = true
 tags = ["https", "ssl"]
 +++
 
-The server will, in the following priority order and if they exist, return:
+The server will, in the following priority order and if they are filled in **Advanced > SSL Certificates** and are not expired, return:
 
 - Your manually added certificate matching the host name.
 - Your manually added wildcard certificate matching the domain name.
@@ -27,3 +27,7 @@ Or from **Domains > Details** for the relevant domain **> Subdomains**:
 This will lead you to the following menu:
 
 {{< fig "images/admin-panel_subdomain-menu.en.png" "Administration interface: manage a subdomain" >}}
+
+{{% notice warning %}}
+An expired certificate, if it is attached to a subdomain, will still be returned by the server.
+{{% /notice %}}

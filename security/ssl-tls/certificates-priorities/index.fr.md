@@ -6,7 +6,7 @@ hidden = true
 tags = ["https", "ssl"]
 +++
 
-Le serveur renverra dans l'ordre de priorité, s'il existe :
+Le serveur renverra dans l'ordre de priorité, s'il est renseigné dans **Avancé > Certificats SSL** et qu'il n'est pas expiré :
 
 - Votre certificat ajouté manuellement correspondant au nom d'hôte.
 - Votre certificat wildcard ajouté manuellement correspondant au nom de domaine.
@@ -26,3 +26,6 @@ Ou via **Domaines > Détails** du domaine concerné **> Sous-domaines** :
 Cela vous mènera sur le menu suivant :
 {{< fig "images/admin-panel_subdomain-menu.fr.png" "Interface d'administration : gérer un sous-domaine" >}}
 
+{{% notice warning %}}
+Un certificat expiré, s'il est rattaché à un sous-domaine, sera quand même renvoyé par le serveur.
+{{% /notice %}}
