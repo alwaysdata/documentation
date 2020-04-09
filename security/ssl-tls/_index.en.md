@@ -16,6 +16,7 @@ tags = ["https", "security", "ssl"]
 - [Use a SAN certificate]({{< relref "use-san-certificate" >}})
 - [Certificate priority]({{< relref "certificates-priorities" >}})
 
+* Verify the returned certificate and configuration of a hostname: [SSL Labs](https://www.ssllabs.com) or [SSL Tools](https://ssl-tools.net/)
 * Find the mixed content[^1] of its website: [Why no Padlock](https://www.whynopadlock.com/)
 
 [^1]: web browsers send the `Mixed content` error when a website use the HTTPS protocol but some assets are served in HTTP.
