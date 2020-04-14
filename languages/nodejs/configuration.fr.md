@@ -6,16 +6,17 @@ layout = "man"
 tags = ["nodejs"]
 +++
 
-## Versions supportées
+## Versions supportées (majeures)
 
-| Majeures |
-|----------|
-| 12       |
-| 11       |
-| 10       |
-| 9        |
-| 8        |
-| 6        |
+| [v2017]({{< ref "accounts/version" >}}) | [v2020]({{< ref "accounts/version" >}}) |
+| --------------------------------------- | --------------------------------------- |
+| -                                       | 13                                      |
+| 12                                      | 12                                      |
+| 11                                      | 11                                      |
+| 10                                      | 10                                      |
+| 9                                       | 9                                       |
+| 8                                       | 8                                       |
+| 6                                       | 6                                       |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 

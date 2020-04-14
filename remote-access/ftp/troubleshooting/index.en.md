@@ -28,7 +28,7 @@ The login/password pair is incorrect. Check it or change your password from **Re
 
 You are attempting to connect in FTPS, change to the **regular FTP** protocol.
 
-### ECONNREFUSED - Connection refused by the server
+### ECONNREFUSED - Connection refused by the server / ECONNRESET - Connection reset by peer
 
 The connection locks up before reaching alwaysdata servers, check:
 

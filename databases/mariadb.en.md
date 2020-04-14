@@ -40,6 +40,8 @@ If you change your user's permissions via a third party application, any validat
 ## Other informations
 MySQL blocks the size of the user name; if your account's name is too long, an *ID* will be assigned to it. You will find this in **Databases > MySQL > Users**.
 
+MySQL events are not supported on alwaysdata's servers.
+
 {{% notice info %}}
 MariaDB is offered by default on our servers but the VPS and dedicated client may request to use MySQL.
 {{% /notice %}}

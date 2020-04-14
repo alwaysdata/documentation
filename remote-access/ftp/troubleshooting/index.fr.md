@@ -26,7 +26,7 @@ Le couple login/mot de passe n'est pas bon vérifiez-le ou modifiez votre mot de
 ### Commande : AUTH SSL - Erreur : Impossible d'établir une connexion au serveur
 Vous tentez de vous connecter en FTPS, changez pour le protocole **FTP simple**.
 
-### ECONNREFUSED - Connexion refusée par le serveur
+### ECONNREFUSED - Connexion refusée par le serveur /  ECONNRESET - Connexion réinitialisée par un pair
 La connexion se bloque avant d'arriver aux serveurs alwaysdata, vérifiez :
 
 - si vous êtes en mode **actif** ou **passif** : en mode actif le serveur FTP va déterminer le port à utiliser et initialiser la connexion, alors qu'en mode passif c'est le client FTP qui initialise la connexion. Ce dernier est donc préconisé ;

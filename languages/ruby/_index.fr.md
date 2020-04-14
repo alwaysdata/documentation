@@ -9,10 +9,10 @@ tags = ["ruby"]
 
 Le fonctionnement de [Ruby](https://www.ruby-lang.org/fr/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Ruby sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
-* les [versions proposées]({{< ref "languages/ruby/configuration" >}}#versions-supportées) vont de la 1.8 à la 2.6 ;
+* les [versions proposées]({{< ref "languages/ruby/configuration" >}}#versions-supportées) vont de la 1.8 à la 2.6 ([v2017]({{< ref "accounts/version" >}})) and 2.7 ([v2020]({{< ref "accounts/version" >}})) ;
 * la [configuration d'environnement]({{< ref "languages/ruby/configuration" >}}#environnement) se fait très simplement.
 
-Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sinatrarb.com/) font partie de nos applications autoinstallables. 
+Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sinatrarb.com/) font partie de nos applications autoinstallables.
 
 ---
 * [Ressource API](https://api.alwaysdata.com/v1/environment/ruby/doc/)

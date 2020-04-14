@@ -7,7 +7,7 @@ tags = ["golang"]
 
 ## Version
 
-As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however propose version 1.7 which is used when you start `go`.
+As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with versions 1.7 ([v2017]({{< ref "accounts/version" >}})) and 1.11 ([v2020]({{< ref "accounts/version" >}})) for the `go` executable.
 
 You can compile your programs elsewhere, e.g. locally.
 
