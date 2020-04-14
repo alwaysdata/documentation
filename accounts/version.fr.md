@@ -11,4 +11,4 @@ Au fur et à mesure de l'évolution de notre plate-forme, votre compte peut êtr
 Voici comment déterminer la version courante de votre compte : connectez-vous via [SSH]({{< ref "remote-access/ssh" >}}) et lancez la commande `lsb_release -a`, et intéressez-vous à la valeur `Codename` :
 
 - `jessie` : vous êtes en [v2017]({{< ref "advanced/migrations/2017-software-architecture" >}}) ;
-- `buster` : vous êtes en [v2020]({{< ref "advanced/migrations/2020-software-architecture" >}}).
+- `buster` : vous êtes en *v2020*.
