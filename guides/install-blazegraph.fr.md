@@ -5,7 +5,7 @@ layout = "howto"
 hidden = true
 +++
 
-[Blazegraph](https://blazegraph.com/) est un SGBD orientée graphe. 
+[Blazegraph](https://blazegraph.com/) est un SGBD orientée graphe.
 
 
 Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
@@ -26,5 +26,5 @@ Prenez la [dernière version disponible](https://github.com/blazegraph/database/
 
 Dans **Web > Sites**, créez un site de type [Programme utilisateur]({{< ref "sites/user-program" >}}) avec pour **Commande** :
 
-- Debian Jessie : `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
-- Debian Buster (nouveaux comptes) : `java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+- [v2017]({{< ref "accounts/version" >}}) : `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+- [v2020]({{< ref "accounts/version" >}}) : `java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
