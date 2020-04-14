@@ -17,6 +17,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Create an account]({{< ref "create-an-account" >}})
 - [Delete an account]({{< ref "delete-an-account" >}})
 - [Manage permissions]({{< ref "permissions" >}})
+- [Account Version]({{< ref "version" >}})
 - [Programs]({{< ref "programs" >}})
 - [Restricted account]({{< ref "security/restricted-mode" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})

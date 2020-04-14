@@ -8,7 +8,7 @@ tags = ["java"]
 
 ## Versions supportées
 
-Jessie :
+[v2017]({{< ref "accounts/version" >}}) :
 
 | Majeures | Commande                                                    |
 |----------|-------------------------------------------------------------|
@@ -19,7 +19,7 @@ Jessie :
 
 La version par défaut est Java 1.7. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 
-Buster (nouveaux comptes) :
+[v2020]({{< ref "accounts/version" >}}) :
 
 | Majeures |
 |----------|
@@ -32,8 +32,8 @@ La version par défaut est Java 14. C'est cette version qui est notamment utilis
 ## Binaire à utiliser
 
 Pour se servir d'une version de Java différente que celle par défaut utilisez :
-- sous Jessie : `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (en remplaçant `[VERSION]` par la version de Java voulue) ;
-- sous Buster (nouveaux comptes) : `JAVA_VERSION=[VERSION] java` (en remplaçant `[VERSION]` par la version de Java voulue).
+- [v2017]({{< ref "accounts/version" >}}) : `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (en remplaçant `[VERSION]` par la version de Java voulue) ;
+- [v2020]({{< ref "accounts/version" >}}) : `JAVA_VERSION=[VERSION] java` (en remplaçant `[VERSION]` par la version de Java voulue).
 
 ## Environnement
 
@@ -43,13 +43,13 @@ Votre environnement Java est initialement vide, sans aucune bibliothèque préin
 
 Pour déployer une application HTTP avec Java, créez un site de type [Programme utilisateur]({{< ref "sites/user-program" >}}) dans la section **Web > Sites**. Vous devrez spécifier la commande qui démarre votre application Java, par exemple :
 
-- Jessie :
+- [v2017]({{< ref "accounts/version" >}}) :
 
 ```
 $ /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Djava.net.preferIPv4Stack=true -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
 ```
 
-- Buster (nouveaux comptes) :
+- [v2020]({{< ref "accounts/version" >}}) :
 
 ```
 $ java -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT

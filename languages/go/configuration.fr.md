@@ -7,7 +7,8 @@ tags = ["golang"]
 +++
 
 ## Version
-Go étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant les versions 1.7 (sous Jessie) et 1.11 (sous Buster - nouveaux comptes) qui est utilisée lorsque vous démarrez `go`.
+
+Go étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant les versions 1.7 ([v2017]({{< ref "accounts/version" >}})) et 1.11 ([v2020]({{< ref "accounts/version" >}})) qui est utilisée lorsque vous démarrez `go`.
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 

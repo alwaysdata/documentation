@@ -5,13 +5,20 @@ layout = "man"
 tags = ["ruby"]
 +++
 
-## Versions supported
+## Supported Versions (Major Versions)
 
-| Major versions                    |                                        |
-|-----------------------------------|----------------------------------------|
-| Jessie                            | Buster (new accounts)                  |
-| 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 | 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 |
-| 1.9, 1.8                          | 1.9, 1.8                               |
+| [v2017]({{< ref "accounts/version" >}}) | [v2020]({{< ref "accounts/version" >}}) |
+| --------------------------------------- | --------------------------------------- |
+| -                                       | 2.7                                     |
+| 2.6                                     | 2.6                                     |
+| 2.5                                     | 2.5                                     |
+| 2.4                                     | 2.4                                     |
+| 2.3                                     | 2.3                                     |
+| 2.2                                     | 2.2                                     |
+| 2.1                                     | 2.1                                     |
+| 2.0                                     | 2.0                                     |
+| 1.9                                     | 1.9                                     |
+| 1.8                                     | 1.8                                     |
 
 The default version can be changed from the administration section, under **Environment > Ruby**. This is the version that is especially used when you start `ruby`.
 

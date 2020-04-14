@@ -6,7 +6,7 @@ weight = 10
 tags = ["apache", "http", "site"]
 +++
 
-[Apache](http://httpd.apache.org/) 2.2 and 2.4 are available on our Jessie servers. Only Apache 2.4 is available on our Buster servers (new accounts). To change versions or add global directives to your Apache configuration go to **Web > Configuration > Apache**.
+[Apache](http://httpd.apache.org/) 2.2 and 2.4 are available on [v2017]({{< ref "accounts/version" >}}). Only Apache 2.4 is available on [v2020]({{< ref "accounts/version" >}}). To change versions or add global directives to your Apache configuration go to **Web > Configuration > Apache**.
 
 {{< fig "images/admin-panel_apache.en.png" "Administration interface: configure Apache" >}}
 

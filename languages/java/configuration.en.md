@@ -5,26 +5,26 @@ layout = "man"
 tags = ["java"]
 +++
 
-## Versions supported
+## Supported Versions
 
-- Jessie:
+- [v2017]({{< ref "accounts/version" >}}):
 
-|Major versions|Command|
-|--- |--- |
-|10|/usr/lib/jvm/java-10-openjdk-amd64/jre/bin/java|
-|9|/usr/lib/jvm/java-9-openjdk-amd64/jre/bin/java|
-|8|/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java|
-|7|java or /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java|
+| Major versions | Command                                                |
+| -------------- | ------------------------------------------------------ |
+| 10             | /usr/lib/jvm/java-10-openjdk-amd64/jre/bin/java        |
+| 9              | /usr/lib/jvm/java-9-openjdk-amd64/jre/bin/java         |
+| 8              | /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java         |
+| 7              | java or /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java |
 
 The default version is Java 1.7. This is the version that is especially used when you start `java`.
 
-- Buster (new accounts):
+- [v2020]({{< ref "accounts/version" >}}):
 
-|Major versions|
-|--------------|
-| 14           |
-| 11           |
-| 8            |
+| Major versions |
+| -------------- |
+| 14             |
+| 11             |
+| 8              |
 
 The default version is Java 14. This is the version that is especially used when you start `java`.
 
@@ -32,8 +32,8 @@ The default version is Java 14. This is the version that is especially used when
 
 To use a Java version that is different from the default one, use:
 
-- Jessie: `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (replacing `[VERSION]` with the desired Java version),
-- Buster (new accounts): `JAVA_VERSION=[VERSION] java` (replacing `[VERSION]` with the desired Java version).
+- [v2017]({{< ref "accounts/version" >}}): `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (replacing `[VERSION]` with the desired Java version),
+- [v2020]({{< ref "accounts/version" >}}): `JAVA_VERSION=[VERSION] java` (replacing `[VERSION]` with the desired Java version).
 
 ## Environment
 
@@ -43,13 +43,13 @@ Your Java environment starts off empty, with no ready installed libraries.
 
 To deploy an HTTP application with Java, create a [User program]({{< ref "sites/user-program" >}}) type site in the **Web > Sites** section. You need to specify the command that will start your Java application, for example:
 
-- Jessie:
+- [v2017]({{< ref "accounts/version" >}}):
 
 ```
 $ /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Djava.net.preferIPv4Stack=true -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
 ```
 
-- Buster (new accounts):
+- [v2020]({{< ref "accounts/version" >}}):
 
 ```
 $ java -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
