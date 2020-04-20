@@ -43,6 +43,8 @@ MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est t
 
 Les events MySQL ne sont pas supportés par nos serveurs.
 
+Sur nos serveurs mutualisés, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
+
 {{% notice info %}}
 MariaDB est proposé par défaut sur nos serveurs mais les clients VPS et dédiés peuvent demander à utiliser MySQL.
 {{% /notice %}}
