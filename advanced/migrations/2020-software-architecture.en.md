@@ -100,7 +100,7 @@ Only the versions of the _explicitly used_ languages, either in the **Web > Site
 
 ## Testing the migration
 
-It is highly recommended that you perform a migration test prior to the actual migration to ensure that your applications will continue to work, and to correct them if they do not.
+It is highly recommended that you perform a migration test prior to the actual migration to ensure that your applications will continue to work, and to correct them if they do not. To do so use the **Test** button.
 
 ### SSH access
 

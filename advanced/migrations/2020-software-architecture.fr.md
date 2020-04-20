@@ -101,7 +101,7 @@ Seules les versions des langages _explicitement utilisées_, soit dans la sectio
 
 ## Test de la migration
 
-Il est très fortement recommandé d'effectuer un test de migration préalablement à la migration réelle pour vous assurer que vos applications continueront à fonctionner, et pour les corriger dans le cas contraire.
+Il est très fortement recommandé d'effectuer un test de migration préalablement à la migration réelle pour vous assurer que vos applications continueront à fonctionner, et pour les corriger dans le cas contraire. Pour le faire, utilisez le bouton **Tester**.
 
 ### Accès SSH
 
