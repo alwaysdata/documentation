@@ -12,7 +12,7 @@ Ce document décrit les incompatibilités majeures introduites par cette migrati
 
 ## Apache
 
-Apache _2.2_ n'est plus disponible. Les comptes qui utilisaient cette version basculeront automatiquement vers Apache _2.4_.
+Apache _2.2_ n'est plus disponible. Les comptes qui utilisaient cette version basculeront automatiquement vers [Apache _2.4_](https://httpd.apache.org/docs/2.4/fr/).
 
 Les directives globales ajoutées par nos clients, soit dans **Web > Configuration**, soit dans la configuration d'un site de type **Apache personnalisé**, seront désormais insérées **après** les directives par défaut. Cela permet désormais à nos clients d'écraser ces directives par défaut.
 
@@ -32,14 +32,14 @@ MongoDB est mis à jour en [version 4.2]({{< ref "advanced/migrations/mongodb-4_
 
 ### CouchDB
 
-CouchDB est mis à jour en [version 3.0](]({{< ref "advanced/migrations/couchdb-3" >}}).
+CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}}).
 
 ## Langages
 
 ### PHP
 
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 5.6.37, 5.6.38, 7.0.31, 7.0.32, 7.1.21, 7.1.23, 7.1.24, 7.1.26, 7.1.32, 7.2.9, 7.2.11, 7.2.12, 7.2.14, 7.2.22, 7.3.0, 7.3.1, 7.3.9, 7.4.0 et 7.4.3.
-- Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos php.ini personnalisés si vous le souhaitez.
+- Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
 
 ### Python
 
@@ -92,12 +92,12 @@ De très nombreux logiciels et bibliothèques seront mis à jour (nos serveurs p
 
 Les services suivants, lorsqu'ils sont installés, seront mis à jour :
 
-- RabbitMQ, en version 3.7.8 ;
-- Redis, en version 5.0.
+- _RabbitMQ_, en version 3.7.8
+- _Redis_, en version 5.0
 
-Les montées de versions de MySQL (pas MariaDB) et ElasticSearch seront vues au cas par cas avec les clients.
+Les montées de versions de _MySQL_ (pas MariaDB) et _ElasticSearch_ seront vues au cas par cas avec les clients.
 
-Seules les versions des langages explicitement utilisées, soit dans la section **Web > Sites**, soit dans la section **Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python (définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette version de Python, ou bien que vous changez la version de Python par défaut.
+Seules les versions des langages _explicitement utilisées_, soit dans la section **Web > Sites**, soit dans la section **Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python (définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette version de Python, ou bien que vous changez la version de Python par défaut.
 
 ## Test de la migration
 

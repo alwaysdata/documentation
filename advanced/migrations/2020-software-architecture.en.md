@@ -11,7 +11,7 @@ This document describes the main incompatibilities introduced by this migration.
 
 ## Apache
 
-Apache _2.2_ isn't available anymore. Accounts using this version will automatically switch to Apache _2.4_.
+Apache 2.2 isn't available anymore. Accounts using this version will automatically switch to [Apache 2.4](https://httpd.apache.org/docs/2.4/en/).
 
 Global directives added by our customers, either in **Web > Configuration** or in the configuation of a **Apache custom** type website, will now be placed **after** the default directives. This allows to override these default directives.
 
@@ -31,14 +31,14 @@ MongoDB is upgraded to [version 4.2]({{< ref "advanced/migrations/mongodb-4_2" >
 
 ### CouchDB
 
-CouchDB is upgraded to [version 3.0](]({{< ref "advanced/migrations/couchdb-3" >}}).
+CouchDB is upgraded to [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}}).
 
 ## Languages
 
 ### PHP
 
 - Following minor versions are removed, and automatically replaced by the last available minor version: 5.6.37, 5.6.38, 7.0.31, 7.0.32, 7.1.21, 7.1.23, 7.1.24, 7.1.26, 7.1.32, 7.2.9, 7.2.11, 7.2.12, 7.2.14, 7.2.22, 7.3.0, 7.3.1, 7.3.9, 7.4.0 and 7.4.3.
-- `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now automatically loaded. You can remove the explicit loading directives from your custom php.ini if you want.
+- `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now automatically loaded. You can remove the explicit loading directives from your _custom php.ini_ if you want.
 
 ### Python
 
@@ -90,12 +90,12 @@ A very large number of applications and libraries have also be updated (our serv
 
 The following services, installed on request, will be updated:
 
-- RabbitMQ, to version 3.7.8,
-- Redis, to version 5.0.
+- _RabbitMQ_, to version 3.7.8
+- _Redis_, to version 5.0
 
-MySQL (not MariaDB) and Elastic Search upgrades will be discussed with customers on a case-by-case basis.
+_MySQL_ (not MariaDB) and _ElasticSearch_ upgrades will be discussed with customers on a case-by-case basis.
 
-Only the explicitely used versions of the languages, in the **Web > Sites** or **Environment** sections, will now be preinstalled on the system. For exemple, if neither the Python default version (defined in **Environment > Python**), neither any of your websites (**Web > Sites**) use Python 2.4.6, then this version won't be preinstalled anymore. It will be automatically installed if you create a website with this version of Python or you change the Python default version.
+Only the _explicitely used versions_ of the languages, in the **Web > Sites** or **Environment** sections, will now be preinstalled on the system. For exemple, if neither the Python default version (defined in **Environment > Python**), neither any of your websites (**Web > Sites**) use Python 2.4.6, then this version won't be preinstalled anymore. It will be automatically installed if you create a website with this version of Python or you change the Python default version.
 
 ## Migration test
 
@@ -103,7 +103,7 @@ We very strongly recommend performing a migration test prior to actual migration
 
 ### SSH access
 
-You can connect yourself to your SSH account on a temporary server. This server is equipped with the 2017 software architecture, but **it accesses your real file**, not a copy of them. Any change that you make will therefore immediately impact your account.
+You can connect yourself to your SSH account on a temporary server. This server is equipped with the 2020 software architecture, but **it accesses your real file**, not a copy of them. Any change that you make will therefore immediately impact your account.
 
 SSH may be slowed in relation to the usual SSH server. This is a consequence of the test, but this slowness will end after the actual migration.
 
@@ -124,10 +124,10 @@ Some applications perform a redirect to the nominal URL, meaning that it is not 
 - using a browser extension to force the `Host` header (and therefore the requested site). For example, in Chrome, the [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom) extension. You need to connect using the HTTP test server address (e.g. `migration-test1.paris1.alwaysdata.com`), but requesting the address of your website.
 - by changing your `hosts` file to force it to use the IP address of the HTTP test server to connect to your websites. This can be done by directly editing the relevant file or through a browser extension, e.g. [LiveHosts](https://addons.mozilla.org/en_US/firefox/addon/livehosts/) in Firefox.
 
-Then your applications will be started on a temporary server running on the 2017 software infrastructure as if the migration had taken place. Just like in SSH, the files in your account that this server has access to are your actual files. Accesses may also be slowed, but ignore this.
+Then your applications will be started on a temporary server running on the 2020 software infrastructure as if the migration had taken place. Just like in SSH, the files in your account that this server has access to are your actual files. Accesses may also be slowed, but ignore this.
 
 {{% notice warning %}}
-The internal configuration of your alwaysdata account on this temporary server is generated when you run the test migration. It is not changed later on. For example, if you run the test migration when the PHP version defined in your environment is 5.6.27, then you go on to change this version level, this change will not be passed on to the temporary migration server. You will therefore need to run a test migration for the change to take effect. The same applies to the changes that you can make from the **Web > Sites** section.
+The internal configuration of your alwaysdata account on this temporary server is generated when you run the test migration. It is not changed later on. For example, if you run the test migration when the PHP version defined in your environment is 7.1.26, then you go on to change this version level, this change will not be passed on to the temporary migration server. You will therefore need to run a test migration for the change to take effect. The same applies to the changes that you can make from the **Web > Sites** section.
 {{% /notice %}}
 
 ### Databases
