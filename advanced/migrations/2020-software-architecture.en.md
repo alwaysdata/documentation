@@ -7,11 +7,11 @@ tags = ["infrastructure", "migration"]
 
 This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, FTP, databases, etc) are likely to change.
 
-This document presents the main incompatibilities introduced by this migration. We try to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive. We urge you to test the migration to detect as much incompatibilities as possible.
+This document presents the main incompatibilities introduced by this migration. We try to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive. We urge you to [test the migration]({{< ref "advanced/migrations/2020-software-architecture#testing-the-migration" >}}) to detect as much incompatibilities as possible.
 
 ## Apache
 
-Apache _2.2_ is no longer available. Accounts using this version will automatically switch to [Apache _2.4_](https://httpd.apache.org/docs/2.4/fr/).
+Apache _2.2_ is no longer available. Accounts using this version will automatically switch to [Apache _2.4_](https://httpd.apache.org/docs/2.4/en/).
 
 Global directives added by our customers, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our customers to overwrite these default directives.
 
@@ -63,7 +63,7 @@ CouchDB is updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}
 Java will soon become a major language, manageable via the administration panel.
 
 - The versions now available are 8.0.41, 11.0.28 and 14.0.36. Versions 7, 9 and 10 are removed.
-- The default version becomes _11_. This is the version run when using the `java' binary.
+- The default version becomes _11_. This is the version run when using the `java` binary.
 - Until now, to use a particular version of Java, you could fetch the binary from `/usr/lib/jvm`. This is no longer possible: instead, you can enforce a different version by setting the `JAVA_VERSION` environment variable. For example, to run version 8: `JAVA_VERSION=8 java`.
 
 ## Miscellaneous
@@ -118,12 +118,12 @@ You can test your sites in several ways:
 the SSL certificate served on `*.migration.alwaysdata.net` may not be valid, you will need to _explicitly_ authorize it through your browser. This only concerns the migration test, not the actual migration, for which the certificates will not change.
 {{% /notice %}}
 
-{{{% notice warning %}}
+{{% notice warning %}}
 Some applications redirect to the nominal URL, which prevents them from being tested using this method.
 {{% /notice %}}
 
-- by using a browser extension to force the `Host' header (i.e. the requested site). For example under Chrome, the [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom) extension. You'll need to connect by giving the address of the test HTTP server (for example, `migration-test1.paris1.alwaysdata.com`), but asking for the address of your site.
-- by modifying your `hosts` file to force you to use the IP of the test HTTP server to connect to your sites. This can be done by editing the file directly, or by using a browser extension, for example [LiveHosts](https://addons.mozilla.org/fr/firefox/addon/livehosts/) in Firefox.
+- by using a browser extension to force the `Host` header (i.e. the requested site). For example under Chrome, the [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom) extension. You'll need to connect by giving the address of the test HTTP server (for example, `migration-test1.paris1.alwaysdata.com`), but asking for the address of your site.
+- by modifying your `hosts` file to force you to use the IP of the test HTTP server to connect to your sites. This can be done by editing the file directly, or by using a browser extension, for example [LiveHosts](https://addons.mozilla.org/en_US/firefox/addon/livehosts/) in Firefox.
 
 Your applications will then be started on a temporary server running under the 2020 software infrastructure, as if the migration had taken place. As with SSH, the files in your account that this server has access to are your original files. Access can also be slowed down, so please disregard this.
 

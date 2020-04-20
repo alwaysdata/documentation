@@ -8,7 +8,7 @@ tags = ["infrastructure", "migration"]
 
 Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, FTP, bases de données, etc) sons susceptibles de changer.
 
-Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif. Nous vous invitons vivement à procéder à un test de la migration pour détecter un maximum d'incompatibilités.
+Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif. Nous vous invitons vivement à procéder à un [test de la migration]({{< ref "advanced/migrations/2020-software-architecture#test-de-la-migration" >}}) pour détecter un maximum d'incompatibilités.
 
 ## Apache
 
@@ -50,7 +50,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 - La version 1.9.2-p320 est supprimée et automatiquement remplacée par la version 1.9.3-p551.
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 2.4.5, 2.4.4, 2.5.5, 2.5.3 et 2.6.0.
 
-### Node.js®
+### Node.js
 
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 6.17.0, 6.16.0, 6.14.4, 8.15.1, 8.15.0, 8.12.0, 8.11.4, 9.11.1, 10.15.3, 10.15.1, 10.13.0, 10.12.0, 10.9.0, 11.12.0, 11.8.0, 11.1.0, 11.0.0, 12.0.0 et 12.14.0.
 
