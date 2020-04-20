@@ -7,16 +7,19 @@ tags = ["http", "site"]
 +++
 
 Afin de personnaliser le format des logs d'accès HTTP, vous devez au préalable choisir un nom pour votre fichier de log personnalisé. Pour cela, renseignez un nom de votre choix dans le champ **Nom de fichier** dans l'onglet **Logs** de votre site (menu **Web > Sites**).
+
 {{< fig "images/admin-panel_add-site-logs.fr.png" "Ajouter un site : logs HTTP" >}}
+
 Ce fichier sera stocké dans le répertoire `$HOME/admin/logs/http/`.
 
 La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
+
 La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur dans les lignes de logs d'accès.
 
 Le format par défaut est le suivant :
 
 ```
-{request_hostname} {client_ip} - - [{completion_date:{%d/%b/%Y:%H:%M:%S %z}}] {request} {status} {response_size} {referer} {user_agent}
+{request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] {request} {status} {response_size} {referer} {user_agent}
 ```
 
 Les lignes de logs sont affichées de cette manière :
@@ -27,7 +30,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 ## Variables disponibles
 
 | Variables          | Description                                                                                                            |
-| ------------------ | -----------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | {client_ip}        | Adresse IP du client ayant émis la requête                                                                             |
 | {completion_date}  | Date à laquelle la requête a été servie [^1]                                                                           |
 | {duration}         | Temps pris pour servir la requête en secondes                                                                          |
