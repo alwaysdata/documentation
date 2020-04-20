@@ -11,7 +11,7 @@ This document presents the main incompatibilities introduced by this migration. 
 
 ## Apache
 
-Apache _2.2_ is no longer available. Accounts using this version will automatically switch to [Apache _2.4_](https://httpd.apache.org/docs/2.4/en/).
+Apache _2.2_ is no longer available. Accounts using this version will automatically switch to [Apache _2.4_](https://httpd.apache.org/docs/2.4/).
 
 Global directives added by our customers, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our customers to overwrite these default directives.
 
