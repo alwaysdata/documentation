@@ -6,7 +6,7 @@ weight = 5
 tags = ["infrastructure", "migration"]
 +++
 
-Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, FTP, bases de données, etc) sons susceptibles de changer.
+Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sons susceptibles de changer.
 
 Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif. Nous vous invitons vivement à procéder à un [test de la migration]({{< ref "advanced/migrations/2020-software-architecture#test-de-la-migration" >}}) pour détecter un maximum d'incompatibilités.
 
@@ -98,6 +98,15 @@ Les services suivants, lorsqu'ils sont installés, seront mis à jour :
 Les montées de versions de _MySQL_ (pas MariaDB) et _ElasticSearch_ seront vues au cas par cas avec les clients.
 
 Seules les versions des langages _explicitement utilisées_, soit dans la section **Web > Sites**, soit dans la section **Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python (définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette version de Python, ou bien que vous changez la version de Python par défaut.
+
+## Déroulement de la migration
+
+Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques minutes plus tard en fonction du nombre de clients qui migrent au même instant. La migration s'effectue en plusieurs étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
+
+- La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de __courte durée__ (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos fichiers sont __pré-copiés__ au préalable.
+- Durant la migration des bases de données, la __connexion aux bases de données est coupée__. On compte en moyenne 1 minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
+
+Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de votre interface d'administration).
 
 ## Test de la migration
 

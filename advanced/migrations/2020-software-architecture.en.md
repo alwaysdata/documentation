@@ -5,7 +5,7 @@ weight = 5
 tags = ["infrastructure", "migration"]
 +++
 
-This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, FTP, databases, etc) are likely to change.
+This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, databases, etc) are likely to change.
 
 This document presents the main incompatibilities introduced by this migration. We try to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive. We urge you to [test the migration]({{< ref "advanced/migrations/2020-software-architecture#testing-the-migration" >}}) to detect as much incompatibilities as possible.
 
@@ -98,7 +98,16 @@ Upgrades of _MySQL_ (not MariaDB) and _ElasticSearch_ will be discussed with cli
 
 Only the versions of the _explicitly used_ languages, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
 
-## Testing the migration
+## Migration process
+
+When you click on the **Migrate** button the process usually starts immediately, but sometimes a few minutes later depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
+
+- The migration of your files, performed as first, will cause a downtime of your websites (which will display an _internal error_), of your scheduled tasks of your remote accesses (SSH, FTP, etc.). However, the downtime is __short__ (a few seconds in general, more if you have tens of thousands of files), because your files are __pre-copied__ beforehand.
+- During the databases migration, __connection to databases is cut__. On average, there is 1 minute of downtime per Gb of data. It may be judicious to set up a _static maintenance page_ on your websites to avoid a generic database connection error.
+
+It is possible to know if the migration is complete via the _[Tasks](https://admin.alwaysdata.com/task)_ menu (top right corner of your administration interface).
+
+## Migration test
 
 It is highly recommended that you perform a migration test prior to the actual migration to ensure that your applications will continue to work, and to correct them if they do not. To do so use the **Test** button.
 
