@@ -20,7 +20,7 @@ Fill in the fields according to your preference, and run the installer.
 You can simply use the WebDAV remote access to edit your TiddlyWiki and serve it publicly in read-only mode using the *static* site type:
 
 1. Get the latest empty TiddlyWiki at [the download page](https://tiddlywiki.com/#GettingStarted)
-2. Using [FTP]({{<ref "remote-access/ftp">}}) or [sFTP]({{<ref "remote-access/sftp">}}), upload the file to your account (e.g. `$HOME/notes/wiki/index.html`)
+2. Using [FTP]({{<ref "remote-access/ftp">}}) or [SFTP]({{<ref "remote-access/sftp">}}), upload the file to your account (e.g. `$HOME/notes/wiki/index.html`)
 3. Open your browser and point it to `https://webdav-[account].alwaysdata.net/[path/from/HOME]/[filename].html` (e.g. `https://webdav-[account].alwaysdata.net/notes/wiki/index.html`), and use your *account username* and *account password* credentials to authenticate on the basic auth window (you can also create a dedicated [WebDAV user]({{<ref "remote-access/webdav/create-a-webdav-user">}}) to do so)
 
 You can now edit you TiddlyWiki, the *saving* action will pass through the WebDAV protocol to update the remote HTML file.

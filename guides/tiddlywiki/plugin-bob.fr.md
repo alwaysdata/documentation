@@ -48,10 +48,10 @@ Après avoir installé la version Node.js [manuellement]({{<ref "./">}}#utilisez
 4. Remplissez le champ *Environnement* avec `TIDDLYWIKI_PLUGIN_PATH="$HOME/tw-plugins"`
 
 {{% notice note %}}
-Nous ne recommandons pas de faire fonctionner TiddlyWiki avec le plugin Bob sous une URL avec un sous-chemin. Malgré le support des [Proxies](https://github.com/OokTech/TW5-Bob/blob/master/Documentation/Using%20Proxies.tid) par le plugin, cela peut conduire à des incohérences comme des WebSocket inutilisables. Hébergez-le pltôt dans un sous-domaine.
+Nous ne recommandons pas de faire fonctionner TiddlyWiki avec le plugin Bob sous une URL avec un sous-chemin. Malgré le support des [Proxies](https://github.com/OokTech/TW5-Bob/blob/master/Documentation/Using%20Proxies.tid) par le plugin, cela peut conduire à des incohérences comme des WebSocket inutilisables. Hébergez-le plutôt dans un sous-domaine.
 {{% /notice %}}
 
-Vous pouvez maintenant créer autant de wikis que vous le souhaitez en suivant la procédure intégrée à la documentation de Bob
+Vous pouvez maintenant créer autant de wikis que vous le souhaitez en suivant la procédure intégrée à la documentation de Bob.
 
 ## Authentification
 

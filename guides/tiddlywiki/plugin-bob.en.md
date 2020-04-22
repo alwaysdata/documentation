@@ -51,7 +51,7 @@ After Installing the Node.js version [manually]({{<ref "./">}}#use-the-nodejs-se
 We do not recommend to run TiddlyWiki with the Bob plugin under a sub-path URL. Despite the support of [Proxies](https://github.com/OokTech/TW5-Bob/blob/master/Documentation/Using%20Proxies.tid) by the plugin, it may lead to inconsistencies like WebSocket disabilities. Prefer to run it from a subdomain instead.
 {{% /notice %}}
 
-You can now create as many wikis as you want by following the embedded Bob's Documentation
+You can now create as many wikis as you want by following the embedded Bob's Documentation.
 
 ## Authentication
 
