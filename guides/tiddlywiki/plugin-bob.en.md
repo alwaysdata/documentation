@@ -28,12 +28,11 @@ After Installing the Node.js version [manually]({{<ref "./">}}#use-the-nodejs-se
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
-        /* ... */
         "OokTech/Bob"
     ],
     ```
 
-2. Create a `path/to/repository/settings/settings.json` file, and fill it with the IP and PORT values you can find in your *Site* configuration view in your administration panel:
+2. Create a `path/to/repository/settings/settings.json` file, and fill it with the `[IP]` and `[PORT]` values you can find in your *Site* configuration view in your administration panel:
 
     ```json
     "ws-server": {
