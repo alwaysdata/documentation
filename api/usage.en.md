@@ -6,14 +6,6 @@ tags = ["api"]
 
 ## Identification
 
-With an ID (profile e-mail and related password):
-
-```
-$ curl --basic --user foobar@example.org https://api.alwaysdata.com/v1/account/
-```
-
-With your API key:
-
 ```
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 ```
