@@ -24,22 +24,26 @@ Après avoir installé la version Node.js [manuellement]({{<ref "./">}}#utilisez
 1. Editez le fichier `path/to/repository/tiddlywiki.info`, et ajoutez le plugin à la section `plugins` :
 
     ```json
-    "plugins" : [
-        "tiddlywiki/tiddlyweb",
-        "tiddlywiki/filesystem",
-        "tiddlywiki/highlight",
-        "OokTech/Bob"
-    ],
+    {
+        "plugins" : [
+            "tiddlywiki/tiddlyweb",
+            "tiddlywiki/filesystem",
+            "tiddlywiki/highlight",
+            "OokTech/Bob"
+        ]
+    }
     ```
 
 2. Créez un fichier `path/to/repository/settings/settings.json`, et remplissez-le avec les valeurs d'`[IP]` et de `[PORT]` que vous pouvez trouver dans la vue de configuration *Site* dans votre panneau d'administration :
 
     ```json
-    "ws-server": {
-        "port": [PORT],
-        "host": "[IP]",
-        "autoIncrementPort": "false",
-    },
+    {
+        "ws-server": {
+            "port": [PORT],
+            "host": "[IP]",
+            "autoIncrementPort": "false"
+        }
+    }
     ```
 
 3. Dans la vue *Site*, modifiez le champ "Commande" en remplaçant `--listen` par `--wsserver`. Vous pouvez également supprimer sans risque les paramètres `host` et `port`.
