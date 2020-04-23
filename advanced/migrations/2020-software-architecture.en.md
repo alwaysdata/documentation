@@ -96,7 +96,7 @@ The following services, when installed, will be updated:
 
 Upgrades of _MySQL_ (not MariaDB) and _ElasticSearch_ will be discussed with clients on a case-by-case basis.
 
-Only the versions of the _explicitly used_ languages, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
+Only the languages versions _explicitly used_, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
 
 ## Migration process
 
