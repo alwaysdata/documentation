@@ -53,5 +53,5 @@ You can have as many sites as you wish in a single account. Note that this does 
 
 ## External links
 
-- Website uptime: [Down for everyone or just me](https://downforeveryoneorjustme.com/)
+- Website uptime: [Down for everyone or just me](https://downforeveryoneorjustme.com/), [Screenshot Guru](https://screenshot.guru/) (with screenshot)
 - Know the DNS resolution of an address: [DNSwatch](https://www.dnswatch.info/)

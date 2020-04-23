@@ -18,8 +18,11 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 
 ## Migrations currently offered
 
-- [CouchDB 2.2]({{< ref "advanced/migrations/couchdb-2_2" >}})
+* [2020 software infrastructure]({{< ref "advanced/migrations/2020-software-architecture" >}})
+
+- [CouchDB 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}})
 - [MariaDB 10.4]({{< ref "advanced/migrations/mariadb-10_4" >}})
+- [MongoDB 4.2]({{< ref "advanced/migrations/mongodb-4_2" >}})
 - [PostgreSQL 10]({{< ref "advanced/migrations/postgresql-10" >}})
 - [PostgreSQL 12]({{< ref "advanced/migrations/postgresql-12" >}})
 

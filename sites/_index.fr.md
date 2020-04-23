@@ -54,5 +54,5 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 
 ## Liens externes
 
-- Disponibilité d'un site : [Down for everyone or just me](https://downforeveryoneorjustme.com/)
+- Disponibilité d'un site : [Down for everyone or just me](https://downforeveryoneorjustme.com/), [Screenshot Guru](https://screenshot.guru/) (avec capture d'écran)
 - Connaître la résolution DNS d'une adresse : [DNSwatch](https://www.dnswatch.info/)
