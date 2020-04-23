@@ -43,7 +43,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 ### Python
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 2.7.16, 2.7.15, 3.4.9, 3.5.6, 3.6.8, 3.6.7, 3.7.2, 3.7.1, 3.7.0 et 3.8.0.
+- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 2.7.16, 2.7.15, 3.4.9, 3.5.6, 3.6.8, 3.6.7, 3.7.2, 3.7.1, 3.7.0 et 3.8.0. Si vous aviez créé des virtualenvs avec ces versions, vous devrez les recréer.
 
 ### Ruby
 
