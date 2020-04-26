@@ -66,3 +66,48 @@ Vous pouvez ajouter une couche d'authentification *basic* sur votre TiddlyWiki s
 2. Modifiez le champ "Commande" dans la configuration du *Site*, et ajoutez `credentials=users.csv "readers=(authenticated)" "writers=user1,user2"`.
     - remplacez `(authenticated)` par `(anon)` pour permettre un accès public en lecture seule
     - les noms d'utilisateurs peuvent être utilisés en "readers" ou en "writers" pour définir des autorisations d'accès fines
+
+## Ajouter un plugin
+
+Nous allons ajouter le plugin de **traduction FR** à présent, ainsi que le plugin **Freelinks** pour l'exemple.
+
+1. Éditez le fichier `tiddlywiki.info` et dans la section `plugins`ajoutez la ligne `"tiddlywiki/freelinks"`. N'oubliez pas d'ajouter une virgule sur l'avant-dernière ligne.
+
+    ```json
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+        "tiddlywiki/freelinks"
+    ],
+    ```
+    
+ 2. Pour la traduction, ajoutez à la suite de la section `themes` le contenu suivant :
+ 
+     ```json
+     "languages": [
+        "en-EN",
+        "fr-FR"
+    ],
+    ```
+
+Vous devriez avoir ce résultat :
+
+    ```json
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+        "tiddlywiki/freelinks"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+        "languages": [
+        "en-EN",
+        "fr-FR"
+    ],
+    ```
+
+Sauvegardez, et depuis l'interface d'administration de votre site, redémarrez-le pour que TiddlyWiki prenne en compte ces modifications.
