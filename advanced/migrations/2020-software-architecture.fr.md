@@ -69,7 +69,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 ## Divers
 
-- _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut**, ces protocoles anciens présentant des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant la configuration **Ancien**.
+- _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut** sur le protocole HTTP, ces protocoles anciens présentant des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant la configuration **Ancien**.
 - Le répertoire des fichiers temporaires **(TEMPDIR)** devient `~/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
 - Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**.
 - Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez utiliser `PORT` et `IP`.
@@ -112,6 +112,10 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 ## Test de la migration
 
 Il est très fortement recommandé d'effectuer un test de migration préalablement à la migration réelle pour vous assurer que vos applications continueront à fonctionner, et pour les corriger dans le cas contraire. Pour le faire, utilisez le bouton **Tester**.
+
+{{% notice info %}}
+Les [tâches planifiées]({{<ref "tasks">}}) ne sont pas importées lors du test de migration, il n'est donc pas possible de les tester ici.
+{{% /notice %}}
 
 ### Accès SSH
 

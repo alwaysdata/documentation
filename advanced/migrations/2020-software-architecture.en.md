@@ -68,7 +68,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 ## Miscellaneous
 
-- _TLS 1.0_ and _1.1_ are now **disabled by default**, as these older protocols have security holes. You can re-enable them by going to **Web > Configuration > SSL** and then choosing the **Old** configuration.
+- _TLS 1.0_ and _1.1_ are now **disabled by default** for HTTP Protocol, as these older protocols have security holes. You can re-enable them by going to **Web > Configuration > SSL** and then choosing the **Old** configuration.
 - The temporary files directory **(TEMPDIR)** becomes `~/admin/tmp` instead of `/tmp`. PHP sessions, for example, are created in this directory.
 - For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
@@ -111,6 +111,11 @@ It is possible to know if the migration is complete via the _[Tasks](https://adm
 ## Migration test
 
 It is highly recommended that you perform a migration test prior to the actual migration to ensure that your applications will continue to work, and to correct them if they do not. To do so use the **Test** button.
+
+{{% notice info %}}
+[Scheduled tasks]({{{<ref "tasks">}}) are not imported during the migration test, so it is not possible to test them during the process.
+
+{{% /notice %}}
 
 ### SSH access
 
