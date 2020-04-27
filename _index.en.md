@@ -41,5 +41,5 @@ hesitate! Here are some tips for optimizing how you write your article
 and integrate it. Use:
 
 - [Markdown](https://commonmark.org/) syntax,
-- the editorial [documentation](https://git.madslab.net/alwaysdata/aldocs-content/src/branch/master/README.md),
+- the editorial [documentation](https://github.com/alwaysdata/documentation/blob/master/README.md),
 - [Encyclopedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) style.

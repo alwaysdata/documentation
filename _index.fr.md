@@ -40,5 +40,5 @@ Toute publication sur Internet comporte des [obligations légales]({{<ref "accou
 Si vous souhaitez nous aider à améliorer cette documentation, n'hésitez surtout pas. Voici quelques conseils pour optimiser la rédaction de votre article et son intégration. Utilisez :
 
 - la syntaxe [Markdown](https://commonmark.org/) ;
-- la [documentation](https://git.madslab.net/alwaysdata/aldocs-content/src/branch/master/README.md) rédactionnelle ;
+- la [documentation](https://github.com/alwaysdata/documentation/blob/master/README.md) rédactionnelle ;
 - le style [encyclopédique](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Style_encyclop%C3%A9dique).
