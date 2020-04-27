@@ -7,7 +7,6 @@ weight = 1
 tags = ["compte", "environnement technique"]
 +++
 
-
 Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non _.com_ comme les autres domaines d'alwaysdata.
 
 Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez remplacer `[compte]` par le nom de votre compte, choisi lors de sa création.
@@ -16,6 +15,11 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 
 | Service                    | Informations                                                                 |
 |:---------------------------|------------------------------------------------------------------------------|
+| **Administration**         |                                                                              |
+| URL                        | https://admin.alwaysdata.com                                                 |
+|                            | Email/mot de passe, [Double authentification possible]({{< ref "security/two-factor-authentication" >}})  |
+| API                        | [api.alwaysdata.com/v1]({{< ref "api" >}}) (soumis à un *[rate limit]({{<ref "api/usage">}}#rate-limit)*)                                   |
+|                            | Clé API disponible dans *Profil > Authentification*                          |
 | **Générique**              |                                                                              |
 | DNS                        | Primaire : dns1.alwaysdata.com                                               |
 |                            | Secondaire : dns2.alwaysdata.com                                             |

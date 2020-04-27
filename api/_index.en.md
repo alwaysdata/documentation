@@ -23,6 +23,6 @@ $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
 
 ## Find out more
 
-- [Examples]({{< ref "examples" >}})
 - [Use]({{< relref "api/usage" >}})
+- [Examples]({{< ref "examples" >}})
 - [Resources]({{< relref "api/resources" >}})
