@@ -15,7 +15,7 @@ Fill in the fields according to your preference, and run the installer.
 
 ## Manually
 
-### Use a Static File and WebDAV
+### Using a Static File and WebDAV
 
 You can simply use the WebDAV remote access to edit your TiddlyWiki and serve it publicly in read-only mode using the *static* site type:
 
@@ -67,3 +67,51 @@ You can add a basic auth layer on your TiddlyWiki served by Node.js:
 
     - replace `(authenticated)` by `(anon)` to allow a public read-only access
     - users login can be used as well as `readers` as `writers` to set fine-grained access permissions
+
+## Adding a plugin
+
+Here we add the *FR* translation plugin now, as well as the *Freelinks* plugin as an example.
+
+1. Edit the `tiddlywiki.info` file by adding your plugin to the `plugins` section:
+
+    ```json
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+        "tiddlywiki/freelinks"
+    ],
+    ```
+
+{{% notice info %}}
+The `tiddlywiki.info` file is a standard JSON file, be sure to stick to the syntax, especially the comma as an array's entries separator (here after `"tiddlywiki/highlight",`).
+{{% /notice %}}
+
+2. For translation, add the following content after the `themes` section:
+
+    ```json
+    "languages": [
+        "en-EN",
+        "fr-FR"
+    ],
+    ```
+
+    You should have this result:
+
+    ```json
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+        "tiddlywiki/freelinks"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite",
+    ],
+    "languages": [
+        "en-EN",
+        "fr-FR"
+    ],
+    ```
+3. Save, and from your site's administration panel, restart it so that TiddlyWiki can take these changes into account.

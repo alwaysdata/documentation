@@ -69,9 +69,9 @@ Vous pouvez ajouter une couche d'authentification *basic* sur votre TiddlyWiki s
 
 ## Ajouter un plugin
 
-Nous allons ajouter le plugin de **traduction FR** à présent, ainsi que le plugin **Freelinks** pour l'exemple.
+Nous allons ajouter le plugin de *traduction FR*, ainsi que le plugin *Freelinks* pour l'exemple.
 
-1. Éditez le fichier `tiddlywiki.info` et dans la section `plugins`ajoutez la ligne `"tiddlywiki/freelinks"`. N'oubliez pas d'ajouter une virgule sur l'avant-dernière ligne.
+1. Éditez le fichier `tiddlywiki.info` et dans la section `plugins`ajoutez la ligne `"tiddlywiki/freelinks"`.
 
     ```json
     "plugins": [
@@ -81,17 +81,21 @@ Nous allons ajouter le plugin de **traduction FR** à présent, ainsi que le plu
         "tiddlywiki/freelinks"
     ],
     ```
-    
- 2. Pour la traduction, ajoutez à la suite de la section `themes` le contenu suivant :
- 
-     ```json
-     "languages": [
+
+{{% notice info %}}
+Le fichier `tiddlywiki.info` est un fichier JSON standard, veillez à en respecter la syntaxe, notamment la virgule en séparateur d'entrées d'un tableau (ici après `"tiddlywiki/highlight",`).
+{{% /notice %}}
+
+2. Pour la traduction, ajoutez à la suite de la section `themes` le contenu suivant :
+
+    ```json
+    "languages": [
         "en-EN",
         "fr-FR"
     ],
     ```
 
-Vous devriez avoir ce résultat :
+    Vous devriez avoir ce résultat :
 
     ```json
     "plugins": [
@@ -104,10 +108,10 @@ Vous devriez avoir ce résultat :
         "tiddlywiki/vanilla",
         "tiddlywiki/snowwhite"
     ],
-        "languages": [
+    "languages": [
         "en-EN",
         "fr-FR"
     ],
     ```
 
-Sauvegardez, et depuis l'interface d'administration de votre site, redémarrez-le pour que TiddlyWiki prenne en compte ces modifications.
+3. Sauvegardez, et depuis l'interface d'administration de votre site, redémarrez-le pour que TiddlyWiki prenne en compte ces modifications.
