@@ -16,7 +16,7 @@ The final script is stored in the `$HOME/admin/mail/[domain]/[box]/filter_user.s
 |Extension|Description|
 |--- |--- |
 |body|Checks the presence of one or more character strings in the e-mail message body|
-|comparator-i;ascii-numeric|Extracts numbers from the test and compares them to see if it matches|
+|comparator-i;ascii-numeric|Extracts numbers from the text and compares them to see if it matches|
 |copy|Specifies that a copy should be used to perform the action|
 |date|Performs actions based on the date/time when an e-mail is sent/received|
 |duplicate|Detects whether it is a duplicate|

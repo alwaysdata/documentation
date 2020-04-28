@@ -26,3 +26,7 @@ Examples (a non-exhaustive list):
   - any performance problem not caused by a server or network malfunction,
   - server resource saturation by customer applications,
   - any network malfunction whose origin is not alwaysdata's responsibility.
+
+{{% notice note %}}
+A probe costs 10€ per month and any intervention triggered by a breakdown for which we are not responsible is charged €100 (excluded VAT).
+{{% /notice %}}

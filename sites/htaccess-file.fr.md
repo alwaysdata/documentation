@@ -77,7 +77,7 @@ RewriteRule ^(.*)$ {Fichier source}/$1
 
 ## Erreurs possibles
 
-Tout erreur liée au `.htaccess` sera visible dans le fichier **`$HOME/admin/logs/apache/apache.log`**.
+Toute erreur liée au `.htaccess` sera visible dans le fichier **`$HOME/admin/logs/apache/apache.log`**.
 
 ```
 Invalid command '\xef\xbb\xbf', perhaps misspelled or defined by a module not included in the server configuration

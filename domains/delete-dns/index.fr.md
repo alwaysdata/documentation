@@ -6,7 +6,7 @@ hidden = true
 tags = ["dns", "domaine"]
 +++
 
-1. Allez dans **Domaines > Details de domaine.tld (roue crantée) > Enregistrements DNS** ;
+1. Allez dans **Domaines > Details de [exemple.org] (roue crantée) > Enregistrements DNS** ;
 2. Cliquez sur la **poubelle** correspondant à l'enregistrement à supprimer.
 {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 

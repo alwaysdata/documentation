@@ -1,7 +1,6 @@
 +++
 url = "/fr/sites/problèmes-fréquents/"
-title = "Sites web : Problèmes fréquents"
-menuTitle = "Problèmes fréquents"
+title = "Sites web - Problèmes fréquents"
 layout = "faq"
 weight = 90
 tags = ["dépannage", "http", "site"]

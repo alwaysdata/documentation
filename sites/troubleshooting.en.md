@@ -1,6 +1,6 @@
 +++
 title = "Websites - Troubleshooting"
-menuTitle = "Troubleshooting"
+menuTitle = "Websites Troubleshooting"
 layout = "faq"
 weight = 90
 tags = ["http", "site", "troubleshooting"]

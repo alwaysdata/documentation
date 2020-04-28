@@ -57,8 +57,6 @@ If you are not sure of the e-mail address, you can change it in the owner’s co
 
 {{< fig "images/admin-panel_contacts-management.en.png" "Administration interface: Manage contacts menu" >}}
 
----
-
 ## Links
 
 - [Glossary of EPP status codes](https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en)

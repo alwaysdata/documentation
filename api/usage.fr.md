@@ -62,8 +62,8 @@ $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alw
 
 ## Rate-limit
 
-Une limite d'actions par minutes est mise en place sur ces interfaces :
+Une limite d'actions par minute est mise en place :
 
-- 10 requêtes par minutes
-- 50 requêtes par minutes pour les connexions permanentes
-- 250 requêtes par minutes pour les méthodes *safe* comme `GET`
+- 10 requêtes par minute
+- 50 requêtes pour les connexions permanentes
+- 250 requêtes pour les méthodes *safe* comme `GET`

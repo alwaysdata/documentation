@@ -1,6 +1,7 @@
 +++
 title = "MongoDB"
 layout = "man"
+hidden = true
 tags = ["databases", "mongodb"]
 +++
 

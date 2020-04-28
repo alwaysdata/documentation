@@ -8,6 +8,9 @@ tags = ["http", "analytics", "site"]
 
 From the raw HTTP logs (`$HOME/admin/logs/http`) we generate [Matomo](https://matomo.org/) statistics.
 
+- [Matomo interface](https://analytics.alwaysdata.com)
+- [Matomo assistance]({{< ref "analytics/troubleshooting-matomo" >}})
+
 ## Accessing analytics
 
 Go to the **Web > Analytics** section.
@@ -25,6 +28,3 @@ By default, all of the sites will be on the same Piwik site. You can segment the
 ### Adding users
 
 To add users and manage their rights, go to the **Manage Piwik users**.
-
-- [Matomo interface](https://analytics.alwaysdata.com)
-- [Matomo assistance]({{< ref "analytics/troubleshooting-matomo" >}})

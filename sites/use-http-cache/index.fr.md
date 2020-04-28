@@ -47,7 +47,7 @@ Une réponse ne peut **PAS** être cachée si :
     - 405
     - 410
     - 414
-    - 501.
+    - 501
 
 ## 2. Activez le cache HTTP
 

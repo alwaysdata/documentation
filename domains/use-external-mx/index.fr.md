@@ -9,7 +9,7 @@ tags = ["dns", "domaine", "email"]
 
 Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d'[enregistrements MX](https://fr.wikipedia.org/wiki/Enregistrement_Mail_eXchanger). Ils determinent le serveur de réception d'un courrier électronique.
 
-1. Allez dans **Domaines > Details de domaine.tld (roue crantée) > Enregistrements DNS** ;
+1. Allez dans **Domaines > Details de [exemple.org] (roue crantée) > Enregistrements DNS** ;
 {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 2. Choisissez **Ajouter un enregistrement DNS** ;
 3. Renseignez le formulaire.
@@ -18,7 +18,7 @@ Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d
 Cela désactivera automatiquement nos enregistrements MX.
 
 {{% notice warning %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _domaine.tld_ dans cette case, vous créerez un enregistrement pour _domaine.tld.domaine.tld_.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _exemple.org_ dans cette case, vous créerez un enregistrement pour _exemple.org.exemple.org_.
 {{% /notice %}}
 
 ## Serveurs MX de différents prestataires

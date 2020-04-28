@@ -9,7 +9,7 @@ tags = ["remote access", "compte"]
 # Remote access
 
 {{% notice note %}}
-Find all of the [Connection information]({{<ref "./login-details">}}) needed to connect to the various services offered by your account.
+Find all of the [connection information]({{<ref "./login-details">}}) needed to connect to the various services offered by your account.
 {{% /notice %}}
 
 Find all of the information on remote access to our servers:

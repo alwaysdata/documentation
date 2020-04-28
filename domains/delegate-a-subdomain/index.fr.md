@@ -15,7 +15,7 @@ Pour ce faire, rendez-vous dans **Domaines > Détails** du domaine concerné **>
 {{< fig "images/admin-panel_subdomain-add-delegation.fr.png" "Ajout d'une délégation : formulaire" >}}
 
 {{% notice info %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.example.org` dans cette case, vous créerez une délégation pour `www.example.org.example.org`.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez une délégation pour `www.exemple.org.exemple.org`.
 {{% /notice %}}
 
 {{< fig "images/admin-panel_subdomain-delegation-result.fr.png" "Ajout d'une délégation : résultat" >}}

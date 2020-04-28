@@ -2,6 +2,7 @@
 url = "/fr/bases-de-données/couchdb/"
 title = "CouchDB"
 layout = "man"
+hidden = true
 tags = ["base de données", "couchdb"]
 +++
 

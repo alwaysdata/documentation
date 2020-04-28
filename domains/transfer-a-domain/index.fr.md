@@ -37,7 +37,7 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
 
 {{% notice info %}}
 Saisissez uniquement le domaine, sans le sous-domaine.
-Par exemple : `example.org` et non `www.example.org`.
+Par exemple : `exemple.org` et non `www.exemple.org`.
 {{% /notice %}}
 
 3.  Choisissez de le **transférer** ;

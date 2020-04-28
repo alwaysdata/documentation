@@ -7,7 +7,7 @@ tags = ["dns", "domains", "e-mail"]
 
 To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive e-mail.
 
-1.  Go to **Domains > Domain \<example.org> details (cog wheel) > DNS records** ;
+1.  Go to **Domains > Domain [example.org] details (cog wheel) > DNS records** ;
     {{< fig "images/admin-panel_dns-record-list.en.png" "Administration interface: list of DNS records" >}}
 
 2.  Choose **Add a DNS record**,

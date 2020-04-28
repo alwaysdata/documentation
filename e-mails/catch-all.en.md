@@ -5,7 +5,7 @@ hidden = true
 tags = ["e-mail"]
 +++
 
-To collect everything that is sent to addresses that do not exist in your domain, you can create a [catch-all](https://en.wikipedia.org/wiki/Email_filtering#Methods) address.
+To collect every message that is sent to addresses that do not (or no longer) exist in your domain, you can create a [catch-all](https://en.wikipedia.org/wiki/Email_filtering#Methods) address.
 
 Illustration: `*@example.org`
 

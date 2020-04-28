@@ -6,7 +6,7 @@ hidden = true
 tags = ["compte", "profil"]
 +++
 
-Vous pouvez supprimer un _compte_ (par exemple `mon_project`) ou votre _profil_ (par exemple `<name@example.org>` propriétaire du compte `mon_project`).
+Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (par exemple `<name@exemple.org>` propriétaire du compte `mon_projet`).
 
 ## Supprimer un compte 
 

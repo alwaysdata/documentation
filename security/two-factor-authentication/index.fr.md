@@ -14,7 +14,7 @@ La technologie choisie par alwaysdata est l'algorithme [Time-based One Time Pass
 
 Pour l'utiliser, rendez-vous dans **Profil > Sécurité** pour activer l'_Authentification à deux facteurs_.
 {{< fig "images/profile-security.fr.png" >}}
-Cela vous donnera accès à vos code secret et QR code personnels.
+Cela vous donnera accès à vos codes personnels (code secret et QR code).
 
 Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un code de sécurité à usage unique à indiquer lors des prochaines connexions à l'interface d'administration. Ce code de sécurité est renouvelé toutes les _30 secondes_ (calcul basé sur l'heure ou un compteur).
 

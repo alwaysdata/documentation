@@ -33,7 +33,7 @@ $ NODEJS_VERSION=12 node
 Dans vos scripts, utilisez `/usr/bin/node` comme *shebang* :
 
 ```
-#!/usr/bin/nodejs
+#!/usr/bin/node
 ```
 
 ## Environnement

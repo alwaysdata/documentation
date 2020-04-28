@@ -7,7 +7,7 @@ hidden = true
 
 Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service) définit l'emplacement de services précis.
 
-1.   Rendez-vous sur **Domaines > Details de domaine.tld (roue crantée) > Enregistrements DNS** ;
+1.   Rendez-vous sur **Domaines > Details de [exemple.org] (roue crantée) > Enregistrements DNS** ;
     {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
 2.   Choisissez **Ajouter un enregistrement DNS** ;
@@ -17,7 +17,7 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
 
 {{% notice warning %}}
 Ne mettez pas la racine dans **Nom d'hôte**.
-Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
+Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez un enregistrement pour `www.exemple.org.exemple.org`.
 {{% /notice %}}
 
 ## Quelques exemples
@@ -25,7 +25,7 @@ Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un en
 -   Configurer automatiquement un client mail avec `_autodiscover._tcp` :
     ```
     » Nom d'hôte : _autodiscover._tcp
-    » Valeur : 0 443 addresse.serveur.mail
+    » Valeur : 0 443 adresse.serveur.mail
     » Priorité : 1
     » TTL : 300
     ```
