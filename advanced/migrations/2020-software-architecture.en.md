@@ -7,7 +7,7 @@ tags = ["infrastructure", "migration"]
 
 This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, databases, etc) are likely to change.
 
-This document presents the main incompatibilities introduced by this migration. We try to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive. We urge you to [test the migration]({{< ref "advanced/migrations/2020-software-architecture#testing-the-migration" >}}) to detect as much incompatibilities as possible.
+This document presents the main incompatibilities introduced by this migration. We try to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive.
 
 ## Apache
 
@@ -42,7 +42,7 @@ CouchDB is updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}
 
 ### Python
 
-- The following minor versions are removed and automatically replaced by the latest available minor version: 2.7.16, 2.7.15, 3.4.9, 3.5.6, 3.6.8, 3.6.7, 3.7.2, 3.7.1, 3.7.0 and 3.8.0. If you created some virtualenvs with these versions, you will need to recreate them.
+- The following minor versions are removed and automatically replaced by the latest available minor version: 2.7.16, 2.7.15, 3.4.9, 3.5.6, 3.6.8, 3.6.7, 3.7.2, 3.7.1, 3.7.0 and 3.8.0. If you created some `virtualenvs` with these versions, you will need to recreate them.
 
 ### Ruby
 
@@ -99,6 +99,15 @@ Upgrades of _MySQL_ (not MariaDB) and _ElasticSearch_ will be discussed with cli
 
 Only the languages versions _explicitly used_, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
 
+## Migration preparation
+
+A number of actions can be performed on the [2017]({{< ref "accounts/version" >}}) architecture:
+
+- switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
+- change the TLS configuration to *Modern* in the **Web > Configuration > SSL** menu,
+- replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP` ;
+- change the languages versions to the _last minor_. This is done in the **Environment** menu and/or at the sites level in **Web > Sites**. You can, for example, switch to PHP 7.3.9 to replace PHP 7.3.0.
+
 ## Migration process
 
 When you click on the **Migrate** button the process usually starts immediately, but sometimes a few minutes later depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
@@ -107,45 +116,3 @@ When you click on the **Migrate** button the process usually starts immediately,
 - During the databases migration, __connection to databases is cut__. On average, there is 1 minute of downtime per Gb of data. It may be judicious to set up a _static maintenance page_ on your websites to avoid a generic database connection error.
 
 It is possible to know if the migration is complete via the _[Tasks](https://admin.alwaysdata.com/task)_ menu (top right corner of your administration interface).
-
-## Migration test
-
-It is highly recommended that you perform a migration test prior to the actual migration to ensure that your applications will continue to work, and to correct them if they do not. To do so use the **Test** button.
-
-{{% notice info %}}
-[Scheduled tasks]({{{<ref "tasks">}}) are not imported during the migration test, so it is not possible to test them during the process.
-
-{{% /notice %}}
-
-### SSH access
-
-You will be able to connect to your account in SSH on a temporary server. This server is equipped with the 2020 software architecture, but **accesses your original files**, not a copy. Any changes you make will therefore be immediately reflected in your account.
-
-SSH access can be slowed down compared to the usual SSH server. This is a consequence of the test, but this slowness will disappear after the actual migration.
-
-### HTTP access
-
-You can test your sites in several ways:
-
-- by accessing them via the usual URL, to which you will add the suffix `.migration.alwaysdata.net`. For example, if your site is normally accessible at `www.example.com`, you will be able to access it on the testing infrastructure by going to `www.example.com.migration.alwaysdata.net`.
-
-{{% notice warning %}}
-the SSL certificate served on `*.migration.alwaysdata.net` may not be valid, you will need to _explicitly_ authorize it through your browser. This only concerns the migration test, not the actual migration, for which the certificates will not change.
-{{% /notice %}}
-
-{{% notice warning %}}
-Some applications redirect to the nominal URL, which prevents them from being tested using this method.
-{{% /notice %}}
-
-- by using a browser extension to force the `Host` header (i.e. the requested site). For example under Chrome, the [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom) extension. You'll need to connect by giving the address of the test HTTP server (for example, `migration-test1.paris1.alwaysdata.com`), but asking for the address of your site.
-- by modifying your `hosts` file to force you to use the IP of the test HTTP server to connect to your sites. This can be done by editing the file directly, or by using a browser extension, for example [LiveHosts](https://addons.mozilla.org/en_US/firefox/addon/livehosts/) in Firefox.
-
-Your applications will then be started on a temporary server running under the 2020 software infrastructure, as if the migration had taken place. As with SSH, the files in your account that this server has access to are your original files. Access can also be slowed down, so please disregard this.
-
-{{% notice warning %}}
-The internal configuration of your alwaysdata account on this temporary server is generated when you run the test migration. It is not modified afterwards. For example, if you run the test migration when the PHP version defined in your environment is 7.1.26, and then modify this version afterwards, this modification will not be reflected on the temporary migration server. You will need to run a test migration again to take the change into account. The same applies to changes you make in the section **Web > Sites**.
-{{% /notice %}}
-
-### Databases
-
-When you run the test migration, all your databases and database users are copied to a temporary server, running the new versions. You will then be able to access your data copied to this server using your usual credentials to run your tests. Unlike the files used by SSH and HTTP servers, you are working on a copy of your data here. Each time you run the test migration, your previous copies are overwritten by new ones.
