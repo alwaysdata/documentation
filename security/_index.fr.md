@@ -1,5 +1,5 @@
 +++
-url = "/fr/securité/"
+url = "/fr/sécurité/"
 title = "Politiques de sécurité"
 menuTitle = "Sécurité"
 weight = 35
