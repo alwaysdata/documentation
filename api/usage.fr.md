@@ -15,7 +15,7 @@ Pour l'utilisation de votre clé API, n'oubliez pas les deux points (:) après c
 {{% /notice %}}
 
 {{% notice info %}}
-Une limite du mnombre de requêtes à l'API s'applique. Plus d'informations [ici](#rate-limit).
+Une limite du nombre de requêtes à l'API s'applique. Plus d'informations [ici](#rate-limit).
 {{% /notice %}}
 
 ### Ressources liées
