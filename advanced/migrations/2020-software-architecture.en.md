@@ -104,9 +104,15 @@ Only the languages versions _explicitly used_, either in the **Web > Sites** sec
 A number of actions can be performed on the [2017]({{< ref "accounts/version" >}}) architecture:
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
-- change the TLS configuration to *Modern* in the **Web > Configuration > SSL** menu,
+- change the [TLS configuration]({{<ref "security/ssl-tls/configure-tls">}}) to *Intermediate* in the **Web > Configuration > SSL** menu,
 - replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP` ;
 - change the languages versions to the _last minor_. This is done in the **Environment** menu and/or at the sites level in **Web > Sites**. You can, for example, switch to PHP 7.3.9 to replace PHP 7.3.0.
+
+We encourage you to make these changes before you migrate.
+
+### Databases
+
+In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration/#3-testing-the-migration">}}) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
 
 ## Migration process
 
