@@ -24,7 +24,7 @@ The creation of these certificates is dependent on DNS propagation: the address 
 {{% /notice %}}
 
 {{% notice note %}}
-Let's Encrypt implemented a limit on the number of SSL certificates created per domain. When the twentieth SSL certificate is to be created - that is, the twentieth subdomain has been added to **Web > Sites** - the system will generate a wildcard certificate to manage the following subdomains.
+From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added to **Web > Sites**, the system will generate a wildcard certificate to manage the following subdomains.
 {{% /notice %}}
 
 ## [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) certificates

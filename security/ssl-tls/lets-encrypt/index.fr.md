@@ -24,7 +24,7 @@ La création de ces certificats est dépendante de la propagation DNS : il faut 
 {{% /notice %}}
 
 {{% notice note %}}
-Let's Encrypt a implémenté une limite du nombre de certificats SSL créés par domaine. Lorsque le vingtième certificat SSL doit être créé - c'est-à-dire que le vingtième sous-domaine a été ajouté dans **Web > Sites** - le système générera un certificat wildcard pour gérer les sous-domaines suivants.
+Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-à-dire que le vingtième sous-domaine a été ajouté dans **Web > Sites** - le système génèrera un certificat wildcard pour gérer les sous-domaines suivants.
 {{% /notice %}}
 
 ## Certificats [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate)
