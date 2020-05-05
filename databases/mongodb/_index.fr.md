@@ -2,6 +2,7 @@
 url = "/fr/bases-de-données/mongodb/"
 title = "MongoDB"
 layout = "man"
+hidden = true
 tags = ["base de données", "mongodb"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 url = "/fr/bases-de-données/problèmes-fréquents/"
-title = "Bases de données : Problèmes fréquents"
+title = "Bases de données - Problèmes fréquents"
 layout = "faq"
 hidden = true
 tags = ["base de données", "dépannage"]

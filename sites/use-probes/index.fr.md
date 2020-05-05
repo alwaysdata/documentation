@@ -27,3 +27,7 @@ Exemples (liste non-exhaustive) :
 - tout problème de performances ne provenant pas d'un dysfonctionnement du serveur ou du réseau ;
 - saturation des ressources du serveur par les applications du client ;
 - tout dysfonctionnement réseau dont l'origine ne serait pas de la responsabilité d'alwaysdata.
+
+{{% notice note %}}
+Une sonde coûte 10€ HT par mois et chaque intervention déclenchée par une panne n'étant pas de notre responsabilité est facturée 100 € HT.
+{{% /notice %}}

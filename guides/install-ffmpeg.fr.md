@@ -1,6 +1,6 @@
 +++
 url = "/fr/guides/installer-ffmpeg/"
-title = "Comment installer FFmeg"
+title = "Comment installer FFmpeg"
 layout = "howto"
 hidden = true
 +++

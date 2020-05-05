@@ -1,5 +1,5 @@
 +++
-url = "/fr/securité/réseau"
+url = "/fr/sécurité/réseau"
 title = "Réseau"
 weight = 30
 layout = "man"

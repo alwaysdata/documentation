@@ -23,7 +23,7 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 
 ## In Unix / OS X
 
-1.  Generate the private key:
+1.  Generate keys:
     ```
     $ mkdir -p $HOME/.ssh
     $ chmod 0700 $HOME/.ssh
@@ -34,7 +34,7 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 To never have to enter your password when connecting in SSH mode, specify a blank "passphrase".
 {{% /notice %}}
 
-2.  Declare the key on the server:
+2.  Declare the public key (.pub) on the server:
     ```
     $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [user]@ssh-[account].alwaysdata.net
     ```

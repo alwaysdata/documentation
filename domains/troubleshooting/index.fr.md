@@ -51,8 +51,6 @@ Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le dét
 
 {{< fig "images/admin-panel_contacts-management.fr.png" "Interface d'administration : menu Gestion des contacts" >}}
 
----
-
 ## Liens
 
 - [Glossaire des codes de statut EPP](https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en)

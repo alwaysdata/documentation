@@ -28,10 +28,10 @@ foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
 
 ## Permissions
 
-À la création de vos bases et utilisateurs MySQL, vous avez la possibilité de donner les permissions suivantes :
+Lors de la création de vos bases et utilisateurs MySQL, vous avez la possibilité de donner les permissions suivantes :
 
 * tous les droits (GRANT ALL PRIVILEGES) ;
-* lecture seule (GRANT READONLY)
+* lecture seule (GRANT READONLY) ;
 * aucun droit.
 
 {{% notice warning %}}

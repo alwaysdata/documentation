@@ -24,7 +24,7 @@ Whether your e-mail boxes are hosted in a shared or a dedicated environment, the
 
 - Avoid:
     - HTML,
-    - using too much punctuation in succession,  
+    - using too much punctuation in succession,
     - writing in red,
     - writing in block capitals,
     - using [spam words](https://blog.hubspot.com/blog/tabid/6307/bid/30684/The-Ultimate-List-of-Email-SPAM-Trigger-Words.aspx).
@@ -59,7 +59,7 @@ And a set of rules specific to his system :
 - `+1`: New customer: the profile was created less than 30 days ago,
 - `+X`: Too many bounces (in percentile): the number of e-mails sent back with an error. This is updated every three hours. If the number exceeds *10%*, the system will add `+1` point and if it exceeds *30%*, `+2` points.
 
-In order not to be dependent on abuse from other clients using the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You can finally configure for which notes given by the antispam, the e-mails will be sent by this IP.
+In order not to be dependent on abuse from other clients using the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
 
 ---
 

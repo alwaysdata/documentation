@@ -15,7 +15,7 @@ Pour l'utilisation de votre clé API, n'oubliez pas les deux points (:) après c
 {{% /notice %}}
 
 {{% notice info %}}
-Une limite du mnombre de requêtes à l'API s'applique. Plus d'informations [ici](#rate-limit).
+Une limite du nombre de requêtes à l'API s'applique. Plus d'informations [ici](#rate-limit).
 {{% /notice %}}
 
 ### Ressources liées
@@ -62,8 +62,8 @@ $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alw
 
 ## Rate-limit
 
-Une limite d'actions par minutes est mise en place sur ces interfaces :
+Une limite d'actions par minute est mise en place :
 
-- 10 requêtes par minutes
-- 50 requêtes par minutes pour les connexions permanentes
-- 250 requêtes par minutes pour les méthodes *safe* comme `GET`
+- 10 requêtes par minute
+- 50 requêtes pour les connexions permanentes
+- 250 requêtes pour les méthodes *safe* comme `GET`

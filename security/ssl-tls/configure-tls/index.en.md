@@ -14,7 +14,7 @@ tags = ["http", "security", "site"]
 - _Old_: all TLS versions are activated. Compatible with olders web browsers.
 
 {{% notice note %}}
-The _Old_ profile is activated by default on alwaysdata's servers.
+The _Old_ profile is activated by default on [v2017]({{< ref "accounts/version" >}}) alwaysdata's servers. On [v2020]({{< ref "accounts/version" >}}) alwaysdata's servers it's the _Intermediate_ profile.
 {{% /notice %}}
 
 ## VPS and dedicated servers

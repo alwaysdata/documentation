@@ -1,5 +1,5 @@
 +++
-title = "Matomo Analytics : Help"
+title = "Matomo Analytics - Help"
 layout = "faq"
 weight = 10
 hidden = true

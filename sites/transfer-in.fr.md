@@ -24,7 +24,7 @@ Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire 
 
 3. Migrez les adresses du site en modifiant les enregistrements DNS de ces sous-domaines et en ajoutant les adresses dans **Web > Sites**.
     - il faudra peut-être remodifier des fichiers de configuration pour éviter des redirections vers l'adresse de préproduction ;
-    - vous pouvez le coupler par un [transfert de domaine]({{< ref "domains/transfer-a-domain" >}}).
+    - vous pouvez le coupler avec un [transfert de domaine]({{< ref "domains/transfer-a-domain" >}}).
     
 {{% notice tip %}}
 Pour les commandes vous pouvez suivre la documentation [Déplacer un site]({{< ref "sites/move-a-site" >}}).

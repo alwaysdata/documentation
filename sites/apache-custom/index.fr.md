@@ -22,7 +22,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 
 - Type : Apache personnalisé ;
 - Directives globales : directives globales à tous les sites servis par Apache ;
-- Directives du virtual host : directives Apaches pour le site concerné.
+- Directives du virtual host : directives Apache pour le site concerné.
 
 
 {{< fig "images/admin-panel_apache-custom.fr.png" "Ajouter un site : Apache personnalisé" >}}

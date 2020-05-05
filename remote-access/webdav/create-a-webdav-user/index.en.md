@@ -10,7 +10,7 @@ To connect to your account using *WebDAV*, you need to have a user. By default, 
 
 {{< fig "images/admin-panel_list-webdav-users.en.png" "Administration interface: list of WebDAV users" >}}
 
-- Name: SSH user name prefixed with your account name,
+- Name: WebDAV user name prefixed with your account name,
 - Password: the password assigned to the user,
 - Root directory: the directory where the user finds their connection.
 

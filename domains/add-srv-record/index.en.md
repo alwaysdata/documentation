@@ -23,22 +23,22 @@ For example, by putting `www.example.org` in this box, you will create a record 
 
 -   Automatically configure a mail client with `_autodiscover._tcp`:
     ```
-    » Host name: _autodiscover._tcp
-    » Valeur : 0 443 addresse.serveur.mail
-    » Priorité : 1
-    » TTL : 300
+    » Hostname: _autodiscover._tcp
+    » Value: 0 443 address.server.mail
+    » Priority : 1
+    » TTL: 300
     ```
   
 -   Use Lync (formerly Skype) with `_sip._tls` and `_sipfederationtls._tcp` :
     ```
-    » Host name: _sip._tls
-    » Valeur : 1 443 sipdir.online.lync.com
-    » Priorité : 100
-    » TTL : 3600
+    » Hostname: _sip._tls
+    » Value: 1 443 sipdir.online.lync.com
+    » Priority : 100
+    » TTL: 3600
     ```
     ```
-    » Host name: _sipfederationtls._tcp
-    » Valeur: 1 443 sipfed.online.lync.com
-    » Priorité: 100
-    » TTL : 3600
+    » Hostname: _sipfederationtls._tcp
+    » Value: 1 443 sipfed.online.lync.com
+    » Priority: 100
+    » TTL: 3600
     ```

@@ -1,6 +1,7 @@
 +++
 title = "CouchDB"
 layout = "man"
+hidden = true
 tags = ["databases", "couchdb"]
 +++
 

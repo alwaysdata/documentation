@@ -6,7 +6,7 @@ hidden = true
 tags = ["email", "infection", "spam"]
 +++
 
-On observe 2 principaux types des raisons à un envoi de spam :
+On observe 2 principales raisons à un envoi de spam :
 
 - [une infection de site internet]({{< ref "sites/clean-up-a-site" >}}) ;
 - un vol de mot de passe. C'est cette dernière que nous allons présenter ici.
@@ -15,7 +15,7 @@ On observe 2 principaux types des raisons à un envoi de spam :
 
 Lorsque l'équipe alwaysdata rencontre un envoi de spam par vol de mot de passe elle va :
 
-- arrêter l'envoi en changeant le mot de passe de l'adresse email concernée;
+- arrêter l'envoi en changeant le mot de passe de l'adresse email concernée ;
 - supprimer tous les emails en cause étant en attente d'envoi ;
 - prévenir le client.
 

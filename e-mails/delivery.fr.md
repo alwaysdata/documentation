@@ -17,8 +17,8 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
 
 ## Les destinataires
 
-- Supprimer les adresses inexistantes ou inactives ;
-- Vérifiez les fautes d'orthographes dans les adresses ;
+- Supprimez les adresses inexistantes ou inactives ;
+- Vérifiez les fautes d'orthographe dans les adresses ;
 - Évitez l'envoi de masse ;
 - Renseignez les adresses emails dans le champ `Cc` (ou `Cci`) plutôt que les unes à la suite des autres dans le champ `To` (Pour) lors d'un envoi groupé.
 
@@ -62,7 +62,7 @@ Et un ensemble de règles propres à son système :
 - `+1`: New customer : cela fait moins de 30 jours que le profil est créé ; 
 - `+X`: Too many bounces (in percentile) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
 
-Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez enfin configurer pour quelles notes données par l'antispam, les emails seront envoyés par cette IP.
+Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
 
 ## Remarques
 

@@ -1,5 +1,5 @@
 +++
-url = "/fr/securité/ssl-tls/"
+url = "/fr/sécurité/ssl-tls/"
 title = "SSL/TLS"
 weight = 20
 chapter = true

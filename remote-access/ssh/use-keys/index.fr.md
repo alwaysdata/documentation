@@ -22,7 +22,7 @@ Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible 
 
 ## Sous Unix / OS X
 
-1. Générer la clé privée :
+1. Générer les clés :
 
 ```
 $ mkdir -p $HOME/.ssh
@@ -34,7 +34,7 @@ $ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
 Si vous voulez ne jamais avoir à rentrer votre mot de passe lorsque vous vous connecterez en SSH, indiquez une « passphrase » vide.
 {{% /notice %}} 
 
-2. Déclarer la clé sur le serveur :
+2. Déclarer la clé publique (.pub) sur le serveur :
 
 ```
 $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [utilisateur]@ssh-[compte].alwaysdata.net

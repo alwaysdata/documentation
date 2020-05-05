@@ -49,7 +49,7 @@ A response **CANNOT** be cached if:
     - 405
     - 410
     - 414
-    - 501.
+    - 501
 
 ## 2. Activate the HTTP cache
 

@@ -1,5 +1,5 @@
 +++
-title = "Installing FFmeg"
+title = "Installing FFmpeg"
 layout = "howto"
 hidden = true
 +++

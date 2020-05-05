@@ -10,7 +10,7 @@ tags = ["accès distant", "compte"]
 # Accès distant
 
 {{% notice note %}}
-Retrouvez toutes les [Informations de connexion]({{<ref "./login-details">}}) aux différents services de votre compte.
+Retrouvez toutes les [informations de connexion]({{<ref "./login-details">}}) aux différents services de votre compte.
 {{% /notice %}}
 
 Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :

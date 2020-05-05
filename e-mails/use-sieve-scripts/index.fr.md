@@ -17,14 +17,14 @@ Le script final est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/
 |Extension                 |Description                                                                             |
 |--------------------------|----------------------------------------------------------------------------------------|
 |body                      |Vérifie la présence d'une ou de plusieurs chaînes de caractères dans le corps d'un email|
-|comparator-i;ascii-numeric|Extrait des nombres du teste et les compare pour voir si cela correspond                |
+|comparator-i;ascii-numeric|Extrait des nombres du texte et les compare pour voir si cela correspond                |
 |copy                      |Spécifie qu'une copie doit être utilisée pour effectuer l'action                        |
 |date                      |Effectue des actions en fonction de la date/l'heure de l'envoi/la réception d'un email  |
 |duplicate                 |Détecte si c'est un duplicata                                                           |
 |editheader                |Ajoute ou supprime du texte aux en-têtes                                                |
 |encoded-character         |Permet l'encodage numérique de caractères spéciaux                                      |
 |enotify                   |Envoie des notifications                                                                |
-|envelope                  |Évalue l'envelope ("from", "to"...)                                                     |
+|envelope                  |Évalue l'enveloppe ("from", "to"...)                                                    |
 |environment               |Teste différentes valeurs étiquetées de l'environnement d'exécution                     |
 |fileinto                  |Délivre l'email dans le dossier spécifié                                                |
 |foreverypart              |Permet aux commandes d'être exécutées dans toutes les parties MIME de l'email           |
@@ -38,7 +38,7 @@ Le script final est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/
 |regex                     |Utilise des expressions régulières                                                      |
 |reject                    |Refuse la délivrance du message                                                         |
 |relational                |Permet des comparaisons relationnelles                                                  |
-|subaddress                |Teste des éléments délimités de la partie locage des adresses                           |
+|subaddress                |Teste des éléments délimités de la partie locale des adresses                           |
 |vacation                  |Réponses automatiques                                                                   |
 |variables                 |Permet d'ajouter des variables                                                          |
 

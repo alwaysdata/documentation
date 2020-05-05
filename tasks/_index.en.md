@@ -8,7 +8,7 @@ tags = ["scheduled tasks"]
 
 Web apps or services sometimes need to periodically run tasks, commands or call up URLs with no user interaction. To manage this point you should save a scheduled task.
 
-Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our [administration interface](https://admin.alwaysdata.com) making their use easier.
+Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our [administration interface](https://admin.alwaysdata.com) - menu Advanced > Scheduled tasks - making their use easier.
 
 Two kinds of information need to be provided:
 

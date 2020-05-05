@@ -28,7 +28,7 @@ foo@ssh:~$ psql -h postgresql-foo.alwaysdata.net -U foo -W -d foo_base
 
 ## Permissions
 
-À la création de vos bases et utilisateurs PostgreSQL, vous définissez les permissions souhaitées puis notre système effectue les opérations suivantes :
+Lors de la création de vos bases et utilisateurs PostgreSQL, vous définissez les permissions souhaitées puis notre système effectue les opérations suivantes :
 
 * REVOKE ALL PRIVILEGES sur la base et ses schémas ;
 * Si votre utilisateur doit avoir **tous les droits** :
