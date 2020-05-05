@@ -113,7 +113,7 @@ Nous vous incitons vivement à faire ces changements avant d'effectuer la migrat
 
 ### Bases de données
 
-En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration/#3-tester-la-migration">}}) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}#3-tester-la-migration) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
 
 ## Déroulement de la migration
 
@@ -123,4 +123,3 @@ Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en géné
 - Durant la migration des bases de données, la __connexion aux bases de données est coupée__. On compte en moyenne 1 minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
 
 Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de votre interface d'administration).
-
