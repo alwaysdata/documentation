@@ -118,7 +118,7 @@ In parallel to the Buster migration, we provide database migrations. You can [te
 
 When you click on the **Migrate** button the process usually starts immediately, but sometimes a few minutes later depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
 
-- The migration of your files, performed as first, will cause a downtime of your websites (which will display an _internal error_), of your scheduled tasks of your remote accesses (SSH, FTP, etc.). However, the downtime is __short__ (a few seconds in general, more if you have tens of thousands of files), because your files are __pre-copied__ beforehand.
-- During the databases migration, __connection to databases is cut__. On average, there is 1 minute of downtime per Gb of data. It may be judicious to set up a _static maintenance page_ on your websites to avoid a generic database connection error.
+- The migration of your files, performed at first, will cause a downtime of your websites (which will display an _internal error_), of your scheduled tasks of your remote accesses (SSH, FTP, etc.). However, the downtime is __short__ (a few seconds in general, more if you have tens of thousands of files), because your files are __pre-copied__ beforehand.
+- During the databases migration, __connection to databases is interrupted__. On average, there is 1 minute of downtime per Gb of data. It may be judicious to set up a _static maintenance page_ on your websites to avoid a generic database connection error.
 
 It is possible to know if the migration is complete via the _[Tasks](https://admin.alwaysdata.com/task)_ menu (top right corner of your administration interface).
