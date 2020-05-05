@@ -23,9 +23,17 @@ Les adresses en *.alwaysdata.net* sont gérées par le certificat wildcard `*.al
 La création de ces certificats est dépendante de la propagation DNS : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les 30 minutes durant 24 heures. Cela passe ensuite à une fois par jour.
 {{% /notice %}}
 
+{{% notice note %}}
+Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-à-dire que le vingtième sous-domaine a été ajouté dans **Web > Sites** - le système génèrera un certificat wildcard pour gérer les sous-domaines suivants.
+{{% /notice %}}
+
+## Certificats [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate)
+
+Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un certificat wildcard dans **Avancé > Certificats SSL > Ajouter un certificat SSL**. Ce certificat sera automatiquement renouvelé par le système.
+
 ---
 ## Liens
 
-- [Liste de compatibilités des navigateurs](https://letsencrypt.org/docs/certificate-compatibility/) ;
-- [Certbot](https://certbot.eff.org/) : ACME client pour générer vos propres certificats (wildcard).
+- [Liste de compatibilités des navigateurs](https://letsencrypt.org/docs/certificate-compatibility/)
+- [Certbot](https://certbot.eff.org/) : ACME client pour générer vos propres certificats
 

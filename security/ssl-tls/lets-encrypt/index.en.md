@@ -23,8 +23,16 @@ To avoid duplicates, alwaysdata blocks Let's Encrypt certificate generation for 
 The creation of these certificates is dependent on DNS propagation: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate every 30 minutes for 24 hours. This will then change to once a day.
 {{% /notice %}}
 
+{{% notice note %}}
+From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added to **Web > Sites**, the system will generate a wildcard certificate to manage the following subdomains.
+{{% /notice %}}
+
+## [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) certificates
+
+When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a wildcard certificate in **Advanced > SSL certificates > Add a SSL certificate**. This certificate will be automatically renewed by the system.
+
 ---
 ## Links
   
-- [List of browser compatibilities](https://letsencrypt.org/docs/certificate-compatibility/),
-- [Certbot](https://certbot.eff.org/): ACME client to generate your own certificates (wildcard).
+- [List of browser compatibilities](https://letsencrypt.org/docs/certificate-compatibility/)
+- [Certbot](https://certbot.eff.org/): ACME client to generate your own certificates
