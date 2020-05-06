@@ -38,21 +38,51 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 ### PHP
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 5.6.37, 5.6.38, 7.0.31, 7.0.32, 7.1.21, 7.1.23, 7.1.24, 7.1.26, 7.1.32, 7.2.9, 7.2.11, 7.2.12, 7.2.14, 7.2.22, 7.3.0, 7.3.1, 7.3.9, 7.4.0 et 7.4.3.
+- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+
+  | 5.6    | 7.0    | 7.1    | 7.2    | 7.3   | 7.4   |
+  | ------ | ------ | ------ | ------ | ----- | ----- |
+  | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0 | 7.4.0 |
+  | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1 | 7.4.3 |
+  |        |        | 7.1.24 | 7.2.12 | 7.3.9 |       |
+  |        |        | 7.1.26 | 7.2.14 |       |       |
+  |        |        | 7.1.32 | 7.2.22 |       |       |
+
 - Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
 
 ### Python
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 2.7.16, 2.7.15, 3.4.9, 3.5.6, 3.6.8, 3.6.7, 3.7.2, 3.7.1, 3.7.0 et 3.8.0. Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
+- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+
+  | 2.7    | 3.4   | 3.5   | 3.6   | 3.7   | 3.8   |
+  | ------ | ----- | ----- | ----- | ----- | ----- |
+  | 2.7.15 | 3.4.9 | 3.5.6 | 3.6.7 | 3.7.0 | 3.8.0 |
+  | 2.7.16 |       |       | 3.6.8 | 3.7.1 |       |
+  |        |       |       |       | 3.7.2 |       |
+
+  Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
 ### Ruby
 
 - La version 1.9.2-p320 est supprimée et automatiquement remplacée par la version 1.9.3-p551.
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 2.4.5, 2.4.4, 2.5.5, 2.5.3 et 2.6.0.
+- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+
+  | 2.4   | 2.5   | 2.6   |
+  | ----- | ----- | ----- |
+  | 2.4.4 | 2.5.3 | 2.6.0 |
+  | 2.4.5 | 2.5.5 |       |
 
 ### Node.js
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible : 6.17.0, 6.16.0, 6.14.4, 8.15.1, 8.15.0, 8.12.0, 8.11.4, 9.11.1, 10.15.3, 10.15.1, 10.13.0, 10.12.0, 10.9.0, 11.12.0, 11.8.0, 11.1.0, 11.0.0, 12.0.0 et 12.14.0.
+- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+
+  | 6      | 8      | 9      | 10      | 11      | 12      |
+  | ------ | ------ | ------ | ------- | ------- | ------- |
+  | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
+  | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
+  | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
+  |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
+  |        |        |        | 10.15.3 |         |         |
 
 ### Elixir
 
