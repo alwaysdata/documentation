@@ -6,7 +6,7 @@ weight = 5
 tags = ["infrastructure", "migration"]
 +++
 
-Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sons susceptibles de changer.
+Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
 
 Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif.
 
