@@ -39,13 +39,13 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | 5.6    | 7.0    | 7.1    | 7.2    | 7.3   | 7.4   |
-  | ------ | ------ | ------ | ------ | ----- | ----- |
-  | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0 | 7.4.0 |
-  | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1 | 7.4.3 |
-  |        |        | 7.1.24 | 7.2.12 | 7.3.9 |       |
-  |        |        | 7.1.26 | 7.2.14 |       |       |
-  |        |        | 7.1.32 | 7.2.22 |       |       |
+  | 5.6.40 | 7.0.33 | 7.1.33 | 7.2.29 | 7.3.16 | 7.4.4 |
+  | ------ | ------ | ------ | ------ | ------ | ----- |
+  | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0  | 7.4.0 |
+  | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1  | 7.4.3 |
+  |        |        | 7.1.24 | 7.2.12 | 7.3.9  |       |
+  |        |        | 7.1.26 | 7.2.14 |        |       |
+  |        |        | 7.1.32 | 7.2.22 |        |       |
 
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
 
@@ -53,11 +53,11 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | 2.7    | 3.4   | 3.5   | 3.6   | 3.7   | 3.8   |
-  | ------ | ----- | ----- | ----- | ----- | ----- |
-  | 2.7.15 | 3.4.9 | 3.5.6 | 3.6.7 | 3.7.0 | 3.8.0 |
-  | 2.7.16 |       |       | 3.6.8 | 3.7.1 |       |
-  |        |       |       |       | 3.7.2 |       |
+  | 2.7.17 | 3.4.10 | 3.5.9 | 3.6.10 | 3.7.7 | 3.8.2 |
+  | ------ | ------ | ----- | ------ | ----- | ----- |
+  | 2.7.15 | 3.4.9  | 3.5.6 | 3.6.7  | 3.7.0 | 3.8.0 |
+  | 2.7.16 |        |       | 3.6.8  | 3.7.1 |       |
+  |        |        |       |        | 3.7.2 |       |
 
   If you created any virtualenvs with these versions, you will need to recreate them.
 
@@ -67,7 +67,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | 2.4   | 2.5   | 2.6   |
+  | 2.4.9 | 2.5.7 | 2.6.5 |
   | ----- | ----- | ----- |
   | 2.4.4 | 2.5.3 | 2.6.0 |
   | 2.4.5 | 2.5.5 |       |
@@ -76,7 +76,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | 6      | 8      | 9      | 10      | 11      | 12      |
+  | 6.17.1 | 8.17.0 | 9.11.2 | 10.19.0 | 11.15.0 | 12.16.1 |
   | ------ | ------ | ------ | ------- | ------- | ------- |
   | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
   | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
