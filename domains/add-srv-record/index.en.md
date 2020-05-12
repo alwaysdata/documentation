@@ -2,6 +2,7 @@
 title = "Adding an SRV Record"
 layout = "howto"
 hidden = true
+tags = ["dns", "domain"]
 +++
 
 An [SRV record](https://en.wikipedia.org/wiki/SRV_record) defines the location of specific services.

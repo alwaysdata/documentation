@@ -20,6 +20,9 @@ Avant de lancer l'opération le propriétaire doit :
 
 Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
+{{% notice tip %}}
+Le transfert de la [gestion technique]({{< ref "domains/add-an-external-domain" >}}) peut être effectué avant pour éviter d'être embêté par le temps pris par le transfert administratif.
+{{% /notice %}}
 
 ## Lancement du transfert
 
