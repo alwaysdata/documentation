@@ -104,7 +104,7 @@ Java will soon become a major language, manageable via the administration panel.
 - For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
-- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Please be aware, this change will not be effective during the migration test, only after the final migration.
+- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice.
 
 ### Miscellaneous Updates
 
