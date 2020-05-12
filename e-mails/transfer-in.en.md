@@ -17,3 +17,5 @@ This article explains how to move e-mails addresses to alwaysdata.
     - by exporting/importing with an e-mail client.
 
 3. Change MX records to use alwaysdata servers: `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
+
+This migration can be paired with a [website migration]({{< ref "sites/transfer-in" >}}) or a [domain transfer]({{< ref "domains/transfer-a-domain" >}}).
