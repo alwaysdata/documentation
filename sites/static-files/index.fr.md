@@ -21,3 +21,9 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 - Répertoire racine : répertoire dans lequel est placé votre application.
 
 {{< fig "images/admin-panel_static-files.fr.png" "Ajouter un site : Fichiers statiques" >}}
+
+## Messages d'erreurs
+
+### 403 Forbidden
+
+Par défaut, le serveur HTTP va rechercher pour la page d'accueil un fichier nommé `index.html`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
