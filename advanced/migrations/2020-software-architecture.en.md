@@ -99,6 +99,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 ### Elixir
 
 - Version 1.5.3 will be removed and automatically replaced by version 1.6.6.
+
 - The following minor version has been deleted and automatically replaced by the latest available minor version: 1.7.3.
 
 ### Java
@@ -106,16 +107,23 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 Java will soon become a major language, manageable via the administration panel.
 
 - The versions now available are 8.0.41, 11.0.28 and 14.0.36. Versions 7, 9 and 10 will be removed.
+
 - The default version is now *11*. This is the version run when using the `java` binary.
+
 - Until now, to use a particular version of Java, you could fetch the binary from `/usr/lib/jvm`. This is no longer possible: instead, you can enforce a different version by setting the `JAVA_VERSION` environment variable. For example, to run version 8: `JAVA_VERSION=8 java`.
 
 ## Miscellaneous
 
 - *TLS 1.0* and *1.1* are now **disabled by default** for HTTP Protocol, as these older protocols have security holes. You can re-enable them by going to **Web > Configuration > SSL** and then choosing the **Old** configuration.
+
 - The temporary files directory **(TEMPDIR)** is now `~/admin/tmp` instead of `/tmp`. PHP sessions, for example, are created in this directory.
+
 - For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
+
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
+
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
+
 - The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice.
 
 ### Miscellaneous Updates
@@ -147,8 +155,11 @@ Only the language versions *explicitly used*, either in the **Web > Sites** sect
 A number of actions can be performed on the [2017]({{< ref "accounts/version" >}}) architecture:
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
+
 - change the [TLS configuration]({{<ref "security/ssl-tls/configure-tls">}}) to *Intermediate* in the **Web > Configuration > SSL** menu,
+
 - replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP`,
+
 - change the language versions to the *last minor*. This is done in the **Environment** menu and/or at the sites level in **Web > Sites**. You can, for example, switch to PHP 7.3.9 to replace PHP 7.3.0.
 
 We encourage you to make these changes before you migrate.
@@ -162,6 +173,7 @@ In parallel to the Buster migration, we provide database migrations. You can [te
 When you click on the **Migrate** button the process usually starts immediately, but there may be a delay of several minutes depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
 
 - The migration of your files, performed first, will cause a downtime of your websites (which will display an *internal error*), your scheduled tasks, or your remote accesses (SSH, FTP, etc.). However, the downtime will be **short** (a few seconds in general, more if you have tens of thousands of files), as these files are **pre-copied** beforehand.
+
 - During database migration, **connection to databases is interrupted**. On average, there will be a minute of downtime per Gb of data. It may be judicious to set up a *static maintenance page* on your websites to avoid a generic database connection error.
 
 You can check if the migration is complete via the [*Tasks*](https://admin.alwaysdata.com/task) menu (top right corner of your administration interface).

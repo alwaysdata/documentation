@@ -77,7 +77,9 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 ### Ruby
 
 - La version 1.9.2-p320 est supprimée et automatiquement remplacée par la version 1.9.3-p551.
+
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+
   | Dernière mineure disponible | 2.4.9 | 2.5.7 | 2.6.5 |
   | --------------------------- | ----- | ----- | ----- |
   | Obsolète                    | 2.4.4 | 2.5.3 | 2.6.0 |
@@ -95,9 +97,11 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
   |                             |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
   |                             |        |        |        | 10.15.3 |         |         |
 
+
 ### Elixir
 
 - La version 1.5.3 est supprimée et automatiquement remplacée par la version 1.6.6.
+
 - La version mineure suivante est supprimée, et automatiquement remplacée par la dernière version mineure disponible : 1.7.3.
 
 ### Java
@@ -105,16 +109,23 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 Java deviendra prochainement un langage majeur, administrable via l'interface d'administration.
 
 - Les versions désormais disponibles sont 8.0.41, 11.0.28 et 14.0.36. Les versions 7, 9 et 10 sont supprimées.
+
 - La version par défaut devient la _11_. C'est cette version qui sera exécutée lorsque vous utilisez le binaire `java`.
+
 - Jusqu'à présent, pour utiliser une version de Java précise, vous pouviez aller chercher le binaire dans `/usr/lib/jvm`. Ce n'est plus possible : désormais, vous pouvez forcer une version différente en définissant la variable d'environnement `JAVA_VERSION`. Par exemple, pour lancer la version 8 : `JAVA_VERSION=8 java`.
 
 ## Divers
 
 - _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut** sur le protocole HTTP, ces protocoles anciens présentant des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant la configuration **Ancien**.
+
 - Le répertoire des fichiers temporaires **(TEMPDIR)** devient `~/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
+
 - Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**.
+
 - Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez utiliser `PORT` et `IP`.
+
 - La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans vos applications HTTP.
+
 - L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique.
 
 ### Mises à jour diverses
@@ -146,8 +157,11 @@ Seules les versions des langages _explicitement utilisées_, soit dans la sectio
 Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017]({{< ref "accounts/version" >}}) :
 
 - passer sur *Apache 2.4* dans l'onglet **Web > Configuration > Apache** ;
+
 - changer de [configuration TLS]({{<ref "security/ssl-tls/configure-tls">}}) pour passer sur la configuration *Intermédiaire* dans l'onglet **Web > Configuration > SSL** ;
+
 - remplacer dans vos applications les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` par `PORT` et `IP` ;
+
 - changer les versions des langages pour passer sur les _dernières mineures_. Cela se passe dans le menu **Environnement** et/ou au niveau de vos sites dans **Web > Sites**. Vous pouvez, par exemple, passer sur PHP 7.3.9 en remplacement de PHP 7.3.0.
 
 Nous vous incitons vivement à faire ces changements avant d'effectuer la migration.
@@ -161,6 +175,7 @@ En parallèle de la migration Buster, nous mettons à disposition les migrations
 Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques minutes plus tard en fonction du nombre de clients qui migrent au même instant. La migration s'effectue en plusieurs étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
 
 - La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de __courte durée__ (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos fichiers sont __pré-copiés__ au préalable.
+
 - Durant la migration des bases de données, la __connexion aux bases de données est coupée__. On compte en moyenne 1 minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
 
 Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de votre interface d'administration).
