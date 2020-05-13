@@ -51,13 +51,14 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | Latest minor available | 5.6.40 | 7.0.33 | 7.1.33 | 7.2.29 | 7.3.16 | 7.4.4 |
-  | ---------------------- | ------ | ------ | ------ | ------ | ------ | ----- |
-  | Deprecated and removed | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0  | 7.4.0 |
-  |                        | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1  | 7.4.3 |
-  |                        |        |        | 7.1.24 | 7.2.12 | 7.3.9  |       |
-  |                        |        |        | 7.1.26 | 7.2.14 |        |       |
-  |                        |        |        | 7.1.32 | 7.2.22 |        |       |
+  | Latest minor version | Deprecated and removed                       |
+  | -------------------- | -------------------------------------------- |
+  | `5.6.40`             | `5.6.38` `5.6.37`                            |
+  | `7.0.33`             | `7.0.31` `7.0.32`                            |
+  | `7.1.33`             | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32` |
+  | `7.2.29`             | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22` |
+  | `7.3.16`             | `7.3.0`  `7.3.1`  `7.3.9`                    |
+  | `7.4.4`              | `7.4.0`  `7.4.3`                             |
 
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
 
@@ -65,11 +66,14 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | Latest minor available | 2.7.17 | 3.4.10 | 3.5.9 | 3.6.10 | 3.7.7 | 3.8.2 |
-  | ---------------------- | ------ | ------ | ----- | ------ | ----- | ----- |
-  | Deprecated and removed | 2.7.15 | 3.4.9  | 3.5.6 | 3.6.7  | 3.7.0 | 3.8.0 |
-  |                        | 2.7.16 |        |       | 3.6.8  | 3.7.1 |       |
-  |                        |        |        |       |        | 3.7.2 |       |
+  | Latest minor version | Deprecated and removed   |
+  | -------------------- | ------------------------ |
+  | `2.7.17`             | `2.7.15` `2.7.16`        |
+  | `3.4.10`             | `3.4.9`                  |
+  | `3.5.9`              | `3.5.6`                  |
+  | `3.6.10`             | `3.6.7`  `3.6.8`         |
+  | `3.7.7`              | `3.7.0`  `3.7.1` `3.7.2` |
+  | `3.8.2`              | `3.8.0`                  |
 
   If you created any virtualenvs with these versions, you will need to recreate them.
 
@@ -79,22 +83,24 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | Latest minor available | 2.4.9 | 2.5.7 | 2.6.5 |
-  | ---------------------- | ----- | ----- | ----- |
-  | Deprecated and removed | 2.4.4 | 2.5.3 | 2.6.0 |
-  |                        | 2.4.5 | 2.5.5 |       |
+  | Latest minor version | Deprecated and removed |
+  | -------------------- | ---------------------- |
+  | `2.4.9`              | `2.4.4` `2.4.5`        |
+  | `2.5.7`              | `2.5.3` `2.5.5`        |
+  | `2.6.5`              | `2.6.0`                |
 
 ### Node.js
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | Latest minor available | 6.17.1 | 8.17.0 | 9.11.2 | 10.19.0 | 11.15.0 | 12.16.1 |
-  | ---------------------- | ------ | ------ | ------ | ------- | ------- | ------- |
-  | Deprecated and removed | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
-  |                        | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
-  |                        | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
-  |                        |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
-  |                        |        |        |        | 10.15.3 |         |         |
+  | Latest minor version | Deprecated and removed                           |
+  | -------------------- | ------------------------------------------------ |
+  | `6.17.1`             | `6.14.4` `6.16.0`  `6.17.0`                      |
+  | `8.17.0`             | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`            |
+  | `9.11.2`             | `9.11.1`                                         |
+  | `10.19.0`            | `10.9.0` `10.12.0` `10.13.0` `10.15.1` `10.15.3` |
+  | `11.15.0`            | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`           |
+  | `12.16.1`            | `12.0.0` `12.14.0`                               |
 
 ### Elixir
 
