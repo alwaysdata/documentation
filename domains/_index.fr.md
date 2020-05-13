@@ -35,4 +35,5 @@ Vous pouvez aussi gérer vos DNS, via un système classique, directement dans l'
 - [Utiliser des MX externes]({{< relref "use-external-mx" >}})
 - [Changer de serveurs DNS]({{< relref "change-of-dns-servers" >}})
 - [Ajouter un enregistrement SRV]({{< relref "add-srv-record" >}})
+- [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Supprimer un enregistrement DNS]({{< relref "delete-dns" >}})

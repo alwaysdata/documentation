@@ -33,5 +33,6 @@ You can also manage your DNS via a conventional system, directly from the **Doma
 - [Add a DNS record]({{< relref "add-dns" >}})
 - [Use external MX]({{< relref "use-external-mx" >}})
 - [Change of DNS servers]({{< relref "change-of-dns-servers" >}})
-- [Add an SRV record]({{< relref "add-srv-record" >}})
+- [Add a SRV record]({{< relref "add-srv-record" >}})
+- [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Delete a DNS record]({{< relref "delete-dns" >}})

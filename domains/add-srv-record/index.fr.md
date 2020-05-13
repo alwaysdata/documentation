@@ -3,6 +3,7 @@ url = "/fr/domaines/ajouter-un-enregistrement-srv/"
 title = "Comment ajouter un enregistrement SRV"
 layout = "howto"
 hidden = true
+tags = ["dns", "domaine"]
 +++
 
 Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service) définit l'emplacement de services précis.

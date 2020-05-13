@@ -22,6 +22,7 @@ Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exe
 ---
 
 - [Ajouter un enregistrement SRV]({{< ref "domains/add-srv-record" >}})
+- [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
 
 ## Ressources

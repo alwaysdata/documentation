@@ -8,7 +8,7 @@ tags = ["infrastructure", "migration"]
 
 Cette migration met à jour vos bases de données vers la version 10.4 de MariaDB.
 
-Pour consulter les changements, rendez-vous sur la ou les notes de mises à jour concernées par votre version actuelle (visible dans la section *Bases de données > MySQL* de votre compte).
+Les changements sont mineurs. Pour les consulter, rendez-vous sur la ou les notes de mises à jour concernées par votre version actuelle (visible dans la section *Bases de données > MySQL* de votre compte).
 
 Exemple : si vous êtes sur une version 10.1 de MariaDB, vous devrez prendre en considération les changements réalisés lors des mises à jour en 10.2 et 10.3 aussi.
 
@@ -16,6 +16,6 @@ Exemple : si vous êtes sur une version 10.1 de MariaDB, vous devrez prendre en 
 - [Mise à jour vers MariaDB 10.3](https://mariadb.com/kb/en/library/upgrading-from-mariadb-102-to-mariadb-103/) ;
 - [Mise à jour vers MariaDB 10.2](https://mariadb.com/kb/en/library/upgrading-from-mariadb-101-to-mariadb-102/).
 
-Changements notables :
+À noter :
 
 * `STRICT_TRANS_TABLES` est désactivé.

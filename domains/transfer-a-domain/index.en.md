@@ -18,6 +18,10 @@ Before starting the operation the owner must :
 
 A transfer cannot take place within 60 days of its creation or a previous transfer.
 
+{{% notice tip %}}
+The [technical management]({{< ref "domains/add-an-external-domain" >}}) transfer can be done before to avoid issues linked to the time taken by the administrative transfer.
+{{% /notice %}}
+
 ## Starting the transfer
 
 1.  From your administration interface, go to **Domains > Add a domain**,

@@ -33,3 +33,7 @@ Vous retrouverez sur cette [documentation](https://ma.ttias.be/php-session-locki
 
 ### Fatal error: Allowed memory size of 268435456 bytes exhausted
 Vous atteignez la limite de 256 Mo, valeur par défaut de `memory_limit` en PHP. Vous pouvez augmenter cette valeur dans **Environnement > PHP** ou au niveau du site lui-même dans **Web > Sites > Détails** du site concerné.
+
+### 403 Forbidden
+
+Par défaut pour les [sites de type PHP]({{< ref "sites/add-a-site" >}}) Apache va rechercher pour la page d'accueil un fichier nommé `index.html` ou `index.php`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.

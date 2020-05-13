@@ -20,7 +20,8 @@ For example, by putting `example.org` in this box, you will create a record for 
 
 ---
 
-- [Add an SRV record]({{< ref "domains/add-srv-record" >}})
+- [Add a SRV record]({{< ref "domains/add-srv-record" >}})
+- [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Use external MX]({{< ref "domains/use-external-mx" >}})
 
 ## Resources

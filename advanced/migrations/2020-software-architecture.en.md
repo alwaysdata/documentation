@@ -7,6 +7,18 @@ tags = ["infrastructure", "migration"]
 
 This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, databases, etc) are likely to change.
 
+## Why should there be migration?
+
+The main purpose of architecture migrations is to update our servers to a newer version of their operating system (Debian). It is important to proceed with these updates for two reasons:
+
+- Security: Older software versions are not supported forever by their authors or maintainers. When such software ceases to be supported, it continues to run, but new vulnerabilities are no longer fixed. Continuing to use these old versions would therefore create a serious safety and reliability risk for your applications and data.
+
+- Be able to use recent software versions: The older an operating system is, the more likely it is to have issues in running recent software. In order to continue to provide you with the latest versions of software that we offer (or that you can install yourself in your account), it is important to be on a fairly recent version of the operating system.
+
+These infrastructure migrations are performed approximately every four years. This is roughly the lifetime of a Debian version ([five years](https://wiki.debian.org/LTS), but you should allow for the incompressible amount of internal development time before switching to the newer version). This seems to be a fair balance, avoiding too frequent migrations, but allowing you to run almost all recent software releases.
+
+---
+
 This document presents the main incompatibilities introduced by this migration. We have tried to be as comprehensive as possible, but it is quite difficult to be absolutely exhaustive.
 
 ## Apache
@@ -39,13 +51,13 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | 5.6    | 7.0    | 7.1    | 7.2    | 7.3   | 7.4   |
-  | ------ | ------ | ------ | ------ | ----- | ----- |
-  | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0 | 7.4.0 |
-  | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1 | 7.4.3 |
-  |        |        | 7.1.24 | 7.2.12 | 7.3.9 |       |
-  |        |        | 7.1.26 | 7.2.14 |       |       |
-  |        |        | 7.1.32 | 7.2.22 |       |       |
+  | Latest minor available | 5.6.40 | 7.0.33 | 7.1.33 | 7.2.29 | 7.3.16 | 7.4.4 |
+  | ---------------------- | ------ | ------ | ------ | ------ | ------ | ----- |
+  | Deprecated and removed | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0  | 7.4.0 |
+  |                        | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1  | 7.4.3 |
+  |                        |        |        | 7.1.24 | 7.2.12 | 7.3.9  |       |
+  |                        |        |        | 7.1.26 | 7.2.14 |        |       |
+  |                        |        |        | 7.1.32 | 7.2.22 |        |       |
 
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
 
@@ -53,11 +65,11 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | 2.7    | 3.4   | 3.5   | 3.6   | 3.7   | 3.8   |
-  | ------ | ----- | ----- | ----- | ----- | ----- |
-  | 2.7.15 | 3.4.9 | 3.5.6 | 3.6.7 | 3.7.0 | 3.8.0 |
-  | 2.7.16 |       |       | 3.6.8 | 3.7.1 |       |
-  |        |       |       |       | 3.7.2 |       |
+  | Latest minor available | 2.7.17 | 3.4.10 | 3.5.9 | 3.6.10 | 3.7.7 | 3.8.2 |
+  | ---------------------- | ------ | ------ | ----- | ------ | ----- | ----- |
+  | Deprecated and removed | 2.7.15 | 3.4.9  | 3.5.6 | 3.6.7  | 3.7.0 | 3.8.0 |
+  |                        | 2.7.16 |        |       | 3.6.8  | 3.7.1 |       |
+  |                        |        |        |       |        | 3.7.2 |       |
 
   If you created any virtualenvs with these versions, you will need to recreate them.
 
@@ -67,22 +79,22 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - The following minor versions will be removed and automatically replaced by the latest available minor version
 
-  | 2.4   | 2.5   | 2.6   |
-  | ----- | ----- | ----- |
-  | 2.4.4 | 2.5.3 | 2.6.0 |
-  | 2.4.5 | 2.5.5 |       |
+  | Latest minor available | 2.4.9 | 2.5.7 | 2.6.5 |
+  | ---------------------- | ----- | ----- | ----- |
+  | Deprecated and removed | 2.4.4 | 2.5.3 | 2.6.0 |
+  |                        | 2.4.5 | 2.5.5 |       |
 
 ### Node.js
 
 - The following minor versions will be removed, and automatically replaced by the latest available minor version
 
-  | 6      | 8      | 9      | 10      | 11      | 12      |
-  | ------ | ------ | ------ | ------- | ------- | ------- |
-  | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
-  | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
-  | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
-  |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
-  |        |        |        | 10.15.3 |         |         |
+  | Latest minor available | 6.17.1 | 8.17.0 | 9.11.2 | 10.19.0 | 11.15.0 | 12.16.1 |
+  | ---------------------- | ------ | ------ | ------ | ------- | ------- | ------- |
+  | Deprecated and removed | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
+  |                        | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
+  |                        | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
+  |                        |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
+  |                        |        |        |        | 10.15.3 |         |         |
 
 ### Elixir
 
@@ -104,7 +116,7 @@ Java will soon become a major language, manageable via the administration panel.
 - For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
-- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Please be aware, this change will not be effective during the migration test, only after the final migration.
+- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice.
 
 ### Miscellaneous Updates
 
@@ -143,7 +155,7 @@ We encourage you to make these changes before you migrate.
 
 ### Databases
 
-In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}#3-testing-the-migration) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
+In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
 
 ## Migration process
 

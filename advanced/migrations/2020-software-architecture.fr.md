@@ -8,6 +8,18 @@ tags = ["infrastructure", "migration"]
 
 Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
 
+## Pourquoi imposer une migration ?
+
+Les migrations d'architecture ont pour principal objectif de mettre à jour nos serveurs vers une version plus récente de leur système d'exploitation (Debian). Il est important de procéder à ces mises à jour pour deux raisons :
+
+- la sécurité. Les vieilles versions de logiciels ne sont pas supportées éternellement par leurs auteurs ou distributeurs. Lorsqu'un logiciel cesse d'être supporté, il continue à fonctionner, mais les nouvelles failles de sécurité ne sont alors plus corrigées. Continuer à utiliser ces vieilles versions ferait donc courir un risque grave pour la sécurité et la fiabilité de vos applications et données.
+
+- pouvoir utiliser des versions récentes des logiciels. Plus un système d'exploitation est ancien, plus il risque d'avoir des difficultés à faire tourner les logiciels récents. Pour continuer à vous offrir les toutes dernières versions des logiciels que nous proposons (ou que vous pouvez installer vous-même dans votre compte), il est important d'être sur une version relativement récente du système d'exploitation.
+
+Ces migrations d'infrastructure sont effectuées approximativement tous les quatre ans. Cela correspond à la durée de vie d'une version de Debian (de [cinq ans](https://wiki.debian.org/LTS), mais il faut compter le temps incompressible de développement interne avant de basculer sur les nouvelles versions). Cela nous parait être un bon équilibre, évitant des migrations trop fréquentes, mais permettant de faire tourner la quasi-totalité des logiciels récents.
+
+---
+
 Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif.
 
 ## Apache
@@ -40,13 +52,13 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
 
-  | 5.6    | 7.0    | 7.1    | 7.2    | 7.3   | 7.4   |
-  | ------ | ------ | ------ | ------ | ----- | ----- |
-  | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0 | 7.4.0 |
-  | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1 | 7.4.3 |
-  |        |        | 7.1.24 | 7.2.12 | 7.3.9 |       |
-  |        |        | 7.1.26 | 7.2.14 |       |       |
-  |        |        | 7.1.32 | 7.2.22 |       |       |
+  | Dernière mineure disponible | 5.6.40 | 7.0.33 | 7.1.33 | 7.2.29 | 7.3.16 | 7.4.4 |
+  | --------------------------- | ------ | ------ | ------ | ------ | ------ | ----- |
+  | Obsolète                    | 5.6.37 | 7.0.31 | 7.1.21 | 7.2.9  | 7.3.0  | 7.4.0 |
+  |                             | 5.6.38 | 7.0.32 | 7.1.23 | 7.2.11 | 7.3.1  | 7.4.3 |
+  |                             |        |        | 7.1.24 | 7.2.12 | 7.3.9  |       |
+  |                             |        |        | 7.1.26 | 7.2.14 |        |       |
+  |                             |        |        | 7.1.32 | 7.2.22 |        |       |
 
 - Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
 
@@ -54,11 +66,11 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
 
-  | 2.7    | 3.4   | 3.5   | 3.6   | 3.7   | 3.8   |
-  | ------ | ----- | ----- | ----- | ----- | ----- |
-  | 2.7.15 | 3.4.9 | 3.5.6 | 3.6.7 | 3.7.0 | 3.8.0 |
-  | 2.7.16 |       |       | 3.6.8 | 3.7.1 |       |
-  |        |       |       |       | 3.7.2 |       |
+  | Denière mineure disponible | 2.7.17 | 3.4.10 | 3.5.9 | 3.6.10 | 3.7.7 | 3.8.2 |
+  | -------------------------- | ------ | ------ | ----- | ------ | ----- | ----- |
+  | Obsolète                   | 2.7.15 | 3.4.9  | 3.5.6 | 3.6.7  | 3.7.0 | 3.8.0 |
+  |                            | 2.7.16 |        |       | 3.6.8  | 3.7.1 |       |
+  |                            |        |        |       |        | 3.7.2 |       |
 
   Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
@@ -66,23 +78,22 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - La version 1.9.2-p320 est supprimée et automatiquement remplacée par la version 1.9.3-p551.
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
-
-  | 2.4   | 2.5   | 2.6   |
-  | ----- | ----- | ----- |
-  | 2.4.4 | 2.5.3 | 2.6.0 |
-  | 2.4.5 | 2.5.5 |       |
+  | Dernière mineure disponible | 2.4.9 | 2.5.7 | 2.6.5 |
+  | --------------------------- | ----- | ----- | ----- |
+  | Obsolète                    | 2.4.4 | 2.5.3 | 2.6.0 |
+  |                             | 2.4.5 | 2.5.5 |       |
 
 ### Node.js
 
 - Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
 
-  | 6      | 8      | 9      | 10      | 11      | 12      |
-  | ------ | ------ | ------ | ------- | ------- | ------- |
-  | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
-  | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
-  | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
-  |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
-  |        |        |        | 10.15.3 |         |         |
+  | Dernière mineure disponible | 6.17.1 | 8.17.0 | 9.11.2 | 10.19.0 | 11.15.0 | 12.16.1 |
+  | --------------------------- | ------ | ------ | ------ | ------- | ------- | ------- |
+  | Obsolète                    | 6.14.4 | 8.11.4 | 9.11.1 | 10.9.0  | 11.0.0  | 12.0.0  |
+  |                             | 6.16.0 | 8.12.0 |        | 10.12.0 | 11.1.0  | 12.14.0 |
+  |                             | 6.17.0 | 8.15.0 |        | 10.13.0 | 11.8.0  |         |
+  |                             |        | 8.15.0 |        | 10.15.1 | 11.12.0 |         |
+  |                             |        |        |        | 10.15.3 |         |         |
 
 ### Elixir
 
@@ -104,7 +115,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 - Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**.
 - Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez utiliser `PORT` et `IP`.
 - La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans vos applications HTTP.
-- L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique. Attention, cette modification ne sera pas effective lors du test de la migration, uniquement après la migration réelle.
+- L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique.
 
 ### Mises à jour diverses
 
@@ -143,7 +154,7 @@ Nous vous incitons vivement à faire ces changements avant d'effectuer la migrat
 
 ### Bases de données
 
-En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}#3-tester-la-migration) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
 
 ## Déroulement de la migration
 
