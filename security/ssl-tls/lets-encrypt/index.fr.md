@@ -27,11 +27,12 @@ La création de ces certificats est dépendante de la propagation DNS : il faut 
 Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-à-dire que le vingtième sous-domaine a été ajouté dans **Web > Sites** - le système génèrera un certificat wildcard pour gérer les sous-domaines suivants.
 {{% /notice %}}
 
-## Certificats [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate)
+## Certificats Wildcard
 
-Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un certificat wildcard dans **Avancé > Certificats SSL > Ajouter un certificat SSL**. Ce certificat sera automatiquement renouvelé par le système.
+Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) dans **Avancé > Certificats SSL > Ajouter un certificat SSL**. Ce certificat sera automatiquement renouvelé par le système.
 
 ---
+
 ## Liens
 
 - [Liste de compatibilités des navigateurs](https://letsencrypt.org/docs/certificate-compatibility/)

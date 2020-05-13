@@ -27,9 +27,9 @@ The creation of these certificates is dependent on DNS propagation: the address 
 From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added to **Web > Sites**, the system will generate a wildcard certificate to manage the following subdomains.
 {{% /notice %}}
 
-## [Wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) certificates
+## Wildcard certificates
 
-When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a wildcard certificate in **Advanced > SSL certificates > Add a SSL certificate**. This certificate will be automatically renewed by the system.
+When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) in **Advanced > SSL certificates > Add a SSL certificate**. This certificate will be automatically renewed by the system.
 
 ---
 ## Links
