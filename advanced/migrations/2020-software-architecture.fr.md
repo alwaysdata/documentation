@@ -8,6 +8,18 @@ tags = ["infrastructure", "migration"]
 
 Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
 
+## Pourquoi imposer une migration ?
+
+Les migrations d'architecture ont pour principal objectif de mettre à jour nos serveurs vers une version plus récente de leur système d'exploitation (Debian). Il est important de procéder à ces mises à jour pour deux raisons :
+
+- la sécurité. Les vieilles versions de logiciels ne sont pas supportées éternellement par leurs auteurs ou distributeurs. Lorsqu'un logiciel cesse d'être supporté, il continue à fonctionner, mais les nouvelles failles de sécurité ne sont alors plus corrigées. Continuer à utiliser ces vieilles versions ferait donc courir un risque grave pour la sécurité et la fiabilité de vos applications et données.
+
+- pouvoir utiliser des versions récentes des logiciels. Plus un système d'exploitation est ancien, plus il risque d'avoir des difficultés à faire tourner les logiciels récents. Pour continuer à vous offrir les toutes dernières versions des logiciels que nous proposons (ou que vous pouvez installer vous-même dans votre compte), il est important d'être sur une version relativement récente du système d'exploitation.
+
+Ces migrations d'infrastructure sont effectuées approximativement tous les 4 ans. Cela correspond à la durée de vie d'une version de Debian (de [5 ans](https://wiki.debian.org/LTS), mais il faut compter le temps incompressible de développement interne avant de basculer sur les nouvelles versions). Cela nous parait être un bon équilibre, évitant des migrations trop fréquentes, mais permettant de faire tourner la quasi-totalité des logiciels récents.
+
+---
+
 Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif.
 
 ## Apache
