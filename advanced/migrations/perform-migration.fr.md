@@ -16,13 +16,15 @@ Chaque migration est décrite dans une page de notre documentation. Lisez-la att
 
 Vous aurez peut-être besoin d'intervenir sur vos applications pour qu'elles continuent à fonctionner après la migration. Par exemple, pour une migration vers une version plus récente de MySQL, vous devrez peut-être modifier certaines requêtes SQL.
 
-## 3. Tester la migration
+## 3. Préparer la migration
 
-Avant d'effectuer réellement la migration, vous aurez la possibilité de la tester en utilisant le bouton *Tester*. Ce que fait concrètement ce bouton dépend de la migration, mais en règle générale il va copier les données de votre compte sur un serveur temporaire et vous permettre d'y accéder comme si la migration avait eu lieu.
+Avant d'effectuer réellement la migration, vous aurez la possibilité d'effectuer un certain nombres d'actions. Cela vous permet de vous assurer que vos applications continueront à fonctionner, et de les corriger dans le cas contraire.
 
-Prenons un exemple. Pour une migration vers PostgreSQL 12, le bouton **Tester** va copier toutes vos bases de données vers un serveur faisant tourner PostgreSQL 12. Il s'agit d'une duplication : vos bases de données continuent à être accessibles normalement via votre serveur PostgreSQL habituel.
+### Test
 
-Vous pourrez alors vous connecter au serveur temporaire, dont l'adresse sera indiquée après avoir cliqué sur le bouton **Tester**. Cela vous permettra par exemple de tester vos applications avec cette nouvelle version de PostgreSQL. Concrètement, vous devrez peut-être dupliquer vos applications, modifier leur configuration pour utiliser ce serveur temporaire à la place de l'habituel et vérifier qu'elles continuent à fonctionner.
+**Certaines** migrations sont testables via l'utilisation d'un bouton **Tester**. Ce que fait concrètement ce bouton dépend de la migration, mais en règle générale il va copier les données de votre compte sur un serveur temporaire et vous permettre d'y accéder comme si la migration avait eu lieu.
+
+Prenons un exemple. Pour une migration vers PostgreSQL 12, le bouton *Tester* va copier toutes vos bases de données vers un serveur faisant tourner PostgreSQL 12. Il s'agit d'une duplication : vos bases de données continuent à être accessibles normalement via votre serveur PostgreSQL habituel. Vous pourrez alors vous connecter au serveur temporaire, dont l'adresse sera indiquée après avoir cliqué sur le bouton *Tester*. Cela vous permettra par exemple de tester vos applications avec cette nouvelle version de PostgreSQL. Concrètement, vous devrez peut-être dupliquer vos applications, modifier leur configuration pour utiliser ce serveur temporaire à la place de l'habituel et vérifier qu'elles continuent à fonctionner.
 
 ## 4. Effectuer la migration
 

@@ -143,7 +143,7 @@ We encourage you to make these changes before you migrate.
 
 ### Databases
 
-In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}#3-testing-the-migration) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
+In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
 
 ## Migration process
 

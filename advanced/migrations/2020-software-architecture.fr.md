@@ -154,7 +154,7 @@ Nous vous incitons vivement à faire ces changements avant d'effectuer la migrat
 
 ### Bases de données
 
-En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}#3-tester-la-migration) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
 
 ## Déroulement de la migration
 
