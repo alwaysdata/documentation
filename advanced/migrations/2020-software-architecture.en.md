@@ -183,3 +183,7 @@ When you click on the **Migrate** button the process usually starts immediately,
 - During database migration, **connection to databases is interrupted**. On average, there will be a minute of downtime per Gb of data. It may be judicious to set up a *static maintenance page* on your websites to avoid a generic database connection error.
 
 You can check if the migration is complete via the [*Tasks*](https://admin.alwaysdata.com/task) menu (top right corner of your administration interface).
+
+## Common issues
+
+- Drupal and [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **9**.

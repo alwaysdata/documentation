@@ -3,14 +3,13 @@ url = "/fr/applithèque/prestashop/"
 title = "PrestaShop"
 menuTitle = "PrestaShop"
 layout = "man"
-weight = 20
 tags = ["prestashop"]
 +++
 
 ## Installation
 La dernière version de [PrestaShop](https://www.prestashop.com/fr) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 
-Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
+Si vous souhaitez l'installer par vous-même vous pourrez suivre les étapes suivantes :
 
 - téléchargez la version souhaitée sur le [site officiel](https://www.prestashop.com/fr/telecharger) ;
 - décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;

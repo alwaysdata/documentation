@@ -184,3 +184,7 @@ Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en géné
 - Durant la migration des bases de données, la __connexion aux bases de données est coupée__. On compte en moyenne 1 minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
 
 Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de votre interface d'administration).
+
+## Problèmes courants
+
+- Drupal et la [précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **9**.

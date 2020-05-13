@@ -2,7 +2,6 @@
 title = "WordPress"
 menuTitle = "WordPress"
 layout = "man"
-weight = 10
 tags = ["wordpress"]
 +++
 
@@ -14,8 +13,7 @@ The last version of [WordPress](https://wordpress.org/) is one of our applicatio
 
 To install it yourself, follow the steps set out below:
 
-- download the desired version from the [official
-  site](https://wordpress.org/download/),
+- download the desired version from the [official site](https://wordpress.org/download/),
 - uncompress the source files and place them in your alwaysdata account using [FTP]({{< ref "/remote-access/ftp" >}}),
 - create your MySQL [database]({{< ref "/databases" >}}),
 - create your [site]({{< ref "sites/add-a-site" >}}),
