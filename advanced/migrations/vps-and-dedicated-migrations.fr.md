@@ -14,7 +14,7 @@ En environnement mutualisé, lors d'une migration, les comptes sont migrés vers
 
 Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, elles se font en plusieurs étapes :
 
-- vous testez les migrations de l'ensemble de vos comptes (comme en mutualisé) ;
+- vous préparez les migrations de l'ensemble de vos comptes (comme en mutualisé) ;
 - lorsque vous êtes prêt à démarrer la migration réelle de vos comptes, nous vous mettrons à disposition un serveur de transit de même configuration que votre serveur dédié ou VPS ;
 - vous pourrez alors effectuer la migration de chacun de vos comptes, un par un. Ils seront déplacés sur ce serveur de transit ;
 - lorsque l'intégralité de vos comptes auront été migrés sur ce serveur de transit , votre serveur initial sera réinstallé pour tourner sous la nouvelle version de notre infrastructure logicielle ;
@@ -33,4 +33,4 @@ La mise à disposition du serveur de transit dépendra de la disponibilité au m
 
 Certaines migrations ne concernant qu'un service de notre infrastructure (exemple : les serveurs de gestion de bases de données) peuvent être proposées.
 
-Dans ce cas, aucun test n'est possible, la mise à jour est directement effectuée sur le serveur. Vous pouvez cependant ouvrir un compte en serveurs mutualisés si ce service y est proposé pour tester certaines de vos applications.
+Dans ce cas, aucune préparation, aucun test n'est possible, la mise à jour est directement effectuée sur le serveur. Vous pouvez cependant ouvrir un compte en serveurs mutualisés si ce service y est proposé pour tester certaines de vos applications.
