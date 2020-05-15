@@ -187,4 +187,7 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 
 ## Problèmes courants
 
-- Drupal et la [précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **9**.
+- Drupal
+    - [précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **9**.
+- Odoo
+    - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
