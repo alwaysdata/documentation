@@ -7,9 +7,8 @@ tags = ["http", "security", "site"]
 
 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is a cryptographic protocol to secure Internet communications.
 
-3 presets are available in the **Web > Configuration > SSL** menu:
+2 presets are available in the **Web > Configuration > SSL** menu:
 
-- _Modern_: TLS 1.3 is activated. Compatible with the latest web browsers versions.
 - _Intermediate_: TLS versions higher than 1.2 are activated. Compatible with most web browsers.
 - _Old_: all TLS versions are activated. Compatible with olders web browsers.
 
