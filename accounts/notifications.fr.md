@@ -16,7 +16,7 @@ Pour de nombreuses raisons, une alerte peut-être enclenchée par notre système
 ### Inactivité
 Ce type d'alerte ne concerne que les _plans gratuits_ et a pour but de ne pas encombrer notre infrastructure avec des comptes laissés à l'abandon.
 
-- événement déclencheur : absence de connexion à l'interface d'administration depuis 120 jours ;
+- événement déclencheur : absence de connexion à l'[interface d'administration](https://admin.alwaysdata.com) depuis un certain nombre de jours [^1] ;
 - résolution : se connecter à l'interface d'administration ;
 - expiration : suspension du profil inactif et ses comptes.
 
@@ -50,3 +50,6 @@ Ce type d'alerte ne concerne que les _plans gratuits_ et a pour but de ne pas en
 - résolution : appliquer la migration ;
 - expiration : la migration sera appliquée automatiquement (pas nécessairement le jour même de l'expiration).
 
+[^1]: - un profil ayant moins d'un an d'ancienneté doit se connecter tous les 120 jours ;
+    - un profil ayant été créé entre 1 et 4 ans doit se connecter tous les 6 mois ;
+    - un profil ayant 4 ans d'ancienneté, 1 connexion par an est nécessaire.

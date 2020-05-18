@@ -17,7 +17,7 @@ For many reasons, an alert may be triggered by our system. Here is how it works:
 
 This kind of alert only affects *free plans* and is intended to not take up space on our infrastructure with abandoned accounts.
 
-- Triggering event: no connection to the administration interface for 120 days,
+- Triggering event: no connection to the [administration interface](https://admin.alwaysdata.com) for X days [^1],
 - Resolution: connecting to the administration interface,
 - Expiry: suspension of the inactive profile and its accounts.
 
@@ -50,3 +50,7 @@ This kind of alert only affects *free plans* and is intended to not take up spac
 - Triggering event: a [migration]({{< ref "advanced/migrations">}}) relating to an account is scheduled,
 - Resolution: apply the migration,
 - Expiry: the migration will be applied automatically (but not necessarily on the actual day of expiry).
+
+[^1]: - a profile created in less than a year must connect every 120 days,
+    - a profile created between 1 and 4 years must connect every 6 months,
+    - a profile with 4 years of age, one connection per year is required.
