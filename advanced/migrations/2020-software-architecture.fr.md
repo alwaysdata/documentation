@@ -131,7 +131,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans vos applications HTTP.
 
-- L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique.
+- L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en conséquence réinitialisées à 0770.
 
 ### Mises à jour diverses
 

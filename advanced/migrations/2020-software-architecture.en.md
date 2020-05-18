@@ -130,7 +130,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
 
-- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice.
+- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Your home directory permissions will therefore be reset to 0770.
 
 ### Miscellaneous Updates
 
