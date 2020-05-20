@@ -116,7 +116,7 @@ So that a WSGI application is accessible by the web, you need to add a site in t
 
 {{< fig "images/python-wsgi.png" "Python WSGI Site Type">}}
 
-- type: choose Python WSGI,
+- type: choose *Python WSGI*,
 - application path: the path to your WSGI application.
 
 You can also fill-in a number of optional fields:

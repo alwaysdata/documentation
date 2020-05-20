@@ -13,7 +13,7 @@ You can compile your programs elsewhere, e.g. locally.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Go, create a [User program]({{< ref "sites/user-program" >}}) type site in the **Web > Sites** section. After compiling the program and loading it into your account, you need to specify the command that starts your Go application, for example:
+To deploy an HTTP application with Go, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section. After compiling the program and loading it into your account, you need to specify the command that starts your Go application, for example:
 
 ```
 $ $HOME/myapp/hello

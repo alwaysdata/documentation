@@ -9,6 +9,7 @@ chapter = true
 
 For all of the information on the technologies driven by servers:
 
+- [Deno]({{< ref "languages/deno" >}})
 - [Elixir]({{< ref "languages/elixir" >}})
 - [Go]({{< ref "languages/go" >}})
 - [Java]({{< ref "languages/java" >}})

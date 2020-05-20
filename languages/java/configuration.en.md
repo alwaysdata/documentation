@@ -30,10 +30,12 @@ The default version is Java 14. This is the version that is especially used when
 
 ## Binary to use
 
-To use a Java version that is different from the default one, use:
+To use a Java version that is different from the default one:
 
-- [v2017]({{< ref "accounts/version" >}}): `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (replacing `[VERSION]` with the desired Java version),
-- [v2020]({{< ref "accounts/version" >}}): `JAVA_VERSION=[VERSION] java` (replacing `[VERSION]` with the desired Java version).
+- [v2017]({{< ref "accounts/version" >}}): use `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (replacing `[VERSION]` with the desired Java version),
+- [v2020]({{< ref "accounts/version" >}}):
+    - go on **Environment > Java**,
+    - or use `JAVA_VERSION=[VERSION] java` (replacing `[VERSION]` with the desired Java version).
 
 ## Environment
 
@@ -41,7 +43,7 @@ Your Java environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Java, create a [User program]({{< ref "sites/user-program" >}}) type site in the **Web > Sites** section. You need to specify the command that will start your Java application, for example:
+To deploy an HTTP application with Java, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section. You need to specify the command that will start your Java application, for example:
 
 - [v2017]({{< ref "accounts/version" >}}):
 

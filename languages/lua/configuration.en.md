@@ -25,7 +25,7 @@ To use a different version of Lua than the default one, use `lua5.X`.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Lua, create a [User program]({{< ref "sites/user-program" >}}) type site in the **Web > Sites** section. You need to specify the command that will start your Lua application, for example:
+To deploy an HTTP application with Lua, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section. You need to specify the command that will start your Lua application, for example:
 
 ```
 lua5.1 $HOME/myapp/start-server.lua
