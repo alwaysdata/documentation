@@ -17,4 +17,4 @@ Voici la liste des interdictions :
 
 Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou résilier le profil.
 
-Votre profil peut aussi être suspendu automatiquement après _120 jours d'inactivité_ sur votre interface d'administration.
+Votre profil peut aussi être suspendu automatiquement après _[X jours d'inactivité]({{< ref "accounts/notifications#inactivité" >}})_ sur votre interface d'administration.

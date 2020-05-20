@@ -2,7 +2,6 @@
 title = "PrestaShop"
 menuTitle = "PrestaShop"
 layout = "man"
-weight = 20
 tags = ["prestashop"]
 +++
 

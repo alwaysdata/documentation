@@ -3,7 +3,6 @@ url = "/fr/applithèque/wordpress/"
 title = "WordPress"
 menuTitle = "WordPress"
 layout = "man"
-weight = 10
 tags = ["wordpress"]
 +++
 
@@ -13,7 +12,7 @@ WordPress est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_c
 
 La dernière version de [WordPress](https://fr.wordpress.org/) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 
-Si vous souhaitez l'installer par vous-même vous devrez suivre les étapes suivantes :
+Si vous souhaitez l'installer par vous-même vous pourrez suivre les étapes suivantes :
 
 - téléchargez la version souhaitée sur le [site officiel](https://fr.wordpress.org/download/) ;
 - décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;

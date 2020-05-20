@@ -16,4 +16,4 @@ Here is the list of restrictions:
 
 If any of these restrictions are violated, we reserve the right to suspend and/or cancel the profile.
 
-You profile may also be automatically suspended after your administration interface has been *idle for 120 days*.
+You profile may also be automatically suspended after your administration interface has been *[idle for X days]({{< ref "accounts/notifications#lack-of-activity" >}})*.

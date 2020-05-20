@@ -13,7 +13,7 @@ In a shared environment, during a migration, the accounts are migrated to a new 
 
 To avoid the need to suddenly migrate your server and therefore all of the accounts located there, migrations take place in a number of steps:
 
-- You test the migrations for all of your accounts (like shared ones),
+- You prepare the migrations for all of your accounts (like shared ones),
 - Once you are ready to start actually migrating your accounts, we will make a transit server available with the same configuration as your dedicated or VPS server,
 - Then you can migrate each of your accounts, one by one. They will be moved to this transit server,
 - Once all of your accounts have been migrated to this transit server, your initial server will be reinstalled to run on the new version of our software infrastructure,
@@ -31,4 +31,4 @@ The availability of the transit server will depend on availability at the time o
 
 Some migrations relating to only one service in our infrastructure (e.g. database management servers) may be offered.
 
-In this case, no test is possible and the update is performed directly on the server. You can still open an account on a shared server if this service is on offer there, to test some of your applications.
+In this case, no preparation, no test is possible and the update is performed directly on the server. You can still open an account on a shared server if this service is on offer there, to test some of your applications.

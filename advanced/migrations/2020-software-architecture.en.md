@@ -130,7 +130,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
 
-- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice.
+- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Your home directory permissions will therefore be reset to 0770.
 
 ### Miscellaneous Updates
 
@@ -183,3 +183,10 @@ When you click on the **Migrate** button the process usually starts immediately,
 - During database migration, **connection to databases is interrupted**. On average, there will be a minute of downtime per Gb of data. It may be judicious to set up a *static maintenance page* on your websites to avoid a generic database connection error.
 
 You can check if the migration is complete via the [*Tasks*](https://admin.alwaysdata.com/task) menu (top right corner of your administration interface).
+
+## Common issues
+
+- Drupal
+    - [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **9**.
+- Odoo
+    - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

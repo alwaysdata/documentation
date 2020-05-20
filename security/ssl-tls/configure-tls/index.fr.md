@@ -8,10 +8,9 @@ tags = ["http", "sécurité", "site"]
 
 [TLS](https://fr.wikipedia.org/wiki/Transport_Layer_Security) est un protocole cryptographique de sécurisation des échanges sur internet.
 
-3 profils sont possibles et paramétrables dans l'onglet **Web > Configuration > SSL** :
+2 profils sont possibles et paramétrables dans l'onglet **Web > Configuration > SSL** :
 {{< fig "images/account-tls-configuration.fr.png" "Interface d'administration : configurer TLS au niveau compte" >}}
 
-- _Moderne_ : TLS 1.3 est activé ce qui permet d'être compatible avec les navigateurs les plus récents ;
 - _Intermédiaire_ : les versions de TLS supérieures à la 1.2 sont activées ce qui permet d'être compatible avec la plupart des navigateurs ;
 - _Ancien_ : toutes les versions de TLS sont activées ce qui permet d'être compatible avec les navigateurs les plus anciens.
 
