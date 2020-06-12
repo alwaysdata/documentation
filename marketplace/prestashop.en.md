@@ -23,3 +23,16 @@ If you migrate a PrestaShop application previously hosted by another hosting pro
 - the *ps_shop_domain*, `ps_shop_domain_ssl` settings in the `ps_shop_url` and `ps_configuration` tables in the database,
 - the **localhost** value of the `physical_URL` setting in the `ps_shop_url` table with **/**,
 - the file `$HOME/path/to/the/application/app/config/parameters.php`.
+
+## Recommendations
+
+It is important to follow these instructions to avoid infection:
+
+- regularly update PrestaShop and its plugins,
+- keep informed on reports of bugs and security breaches relating to plugins before installing them,
+- implement the [complete profile]({{<ref "sites/use-waf#profiles-available">}}) of our WAF,
+- delete idle themes and plugins,
+- customize the prefix of the table names in your database,
+- delete the readme.txt file at the root of your application,
+- delete any users created by default,
+- [other rules]({{<ref "sites/clean-up-a-site">}}#3-delete-infection-sources).

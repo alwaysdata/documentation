@@ -17,8 +17,21 @@ To install it yourself, follow the steps set out below:
 - create your [site]({{< ref "sites/add-a-site" >}}),
 - access your application's web page to finalize its installation.
 
+## Recommendations
+
+It is important to follow these instructions to avoid infection:
+
+- regularly update WordPress and its plugins,
+- keep informed on reports of bugs and security breaches relating to plugins before installing them,
+- implement the [specific profile]({{<ref "sites/use-waf#profiles-available">}}) of our WAF,
+- delete idle themes and plugins,
+- customize the prefix of the table names in your database,
+- delete the readme.txt file at the root of your application,
+- delete any users created by default,
+- [other rules]({{<ref "sites/clean-up-a-site">}}#3-delete-infection-sources).
+
 ## Troubleshooting
 
 ### CSS/JS files precompression
 
-If you are using a Drupal version prior to **9** with CSS and JS files precompression, you will have to [apply this patch](https://www.drupal.org/files/issues/2019-01-02/3023545-mod_brotli.patch) to fix [a bug related to Brotli compression](https://www.drupal.org/project/drupal/issues/2960808).
+If you are using a Drupal version prior to **8.9** with CSS and JS files precompression, you will have to [apply this patch](https://www.drupal.org/files/issues/2019-01-02/3023545-mod_brotli.patch) to fix [a bug related to Brotli compression](https://www.drupal.org/project/drupal/issues/2960808).

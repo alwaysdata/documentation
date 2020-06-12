@@ -30,15 +30,11 @@ hosting provider, change:
 Due to its high profile, it is a target of choice for hackers. Consequently, it is important to follow these recommendations:
 
 - regularly update WordPress and its plugins,
-
 - keep informed on reports of bugs and security breaches relating to plugins before installing them,
-
+- implement the [specific profile]({{<ref "sites/use-waf#profiles-available">}}) of our WAF,
 - choose a prefix other than *wp*_ for your table names. To change this value on a WordPress application that is already deployed, change the `_options` table and the `$HOME/path/to/the/application/wp_config.php` file path.
-
 - delete idle themes and plugins,
-
 - delete the readme.txt file at the root of your application (contains the current version of your WordPress file that is useful to find security breaches that can be used),
-
 - edit the `$HOME/[path-to-the-application]/wp-content/themes/theme_name/functions.php` file path for your theme and add:
 
     ```php
@@ -54,7 +50,6 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
     To mask the connection errors.
 
 - delete the "admin" account created by default,
-
 - [other rules]({{<ref "sites/clean-up-a-site">}}#3-delete-infection-sources).
 
 ---
