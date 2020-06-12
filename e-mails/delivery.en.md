@@ -54,15 +54,16 @@ This system uses [SpamAssassin](https://spamassassin.apache.org/). Depending on 
 
 And a set of rules specific to his system :
 
-- `+1`: Mass e-mails: the account has sent more than 15 e-mails in the last 30 minutes,
+- `+1`: Mass e-mails: the account sent a large number of e-mails in the last few minutes,
 - `+1`: Customer is [restricted]({{<ref "security/restricted-mode">}}),
-- `+1`: New customer: the profile was created less than 30 days ago,
-- `+X`: Too many bounces (in percentile): the number of e-mails sent back with an error. This is updated every three hours. If the number exceeds *10%*, the system will add `+1` point and if it exceeds *30%*, `+2` points.
+- `+1`: New customer: the profile was recently created,
+- `+X`: Too many bounces (in percentile): the account has sent too much e-mails that were sent back with an error in the last few hours. If the number exceeds *10%*, the system will add `+1` point and if it exceeds *30%*, `+2` points.
 
 In order not to be dependent on abuse from other clients using the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
-
----
 
 ## Notes
 
 - The maximum size of e-mails sent is set at **50 Mbytes**.
+
+---
+- [Mail tester](https://www.mail-tester.com/?lang=en)
