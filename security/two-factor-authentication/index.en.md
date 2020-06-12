@@ -9,7 +9,7 @@ tags = ["2fa", "profil", "security"]
 
 The technology chosen by alwaysdata is a [Time-based One Time Password](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) (TOTP) algorithm: **sharing an individual and single use secret code** between our database and the client secure authentication applications.
 
-To use it, go to **Profile > Security** to activate *Two factor
+To use it, go to **Profile** to activate *Two factor
 authentication*.
 
 {{< fig "images/profile-security.en.png" >}} This will allow you access to your personal secret code and QR code.
