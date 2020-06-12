@@ -22,6 +22,7 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}
 - [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Lire la source d'un email]({{< relref "read-an-e-mail-source" >}})
 - [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
+- [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
 - [Questions diverses]({{< relref "./misc" >}})
