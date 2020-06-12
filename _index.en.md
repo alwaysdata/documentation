@@ -20,7 +20,7 @@ Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en
 Whatever the question, you can also contact us via our [IRC channel](irc://irc.freenode.net/alwaysdata) or [Twitter](https://twitter.com/alwaysdata).
 
 {{% notice tip %}}
-Any publication on Internet entails [legal obligations]({{<ref "accounts/legal-requirements-on-internet">}}), make yourself aware of them before placing your content on-line.
+Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requirements-on-internet">}}), make yourself aware of them before placing your content on-line.
 {{% /notice %}}
 
 ## Terminology

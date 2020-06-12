@@ -17,7 +17,7 @@ it was created.
 | URL                      | https://admin.alwaysdata.com                                                                       |
 |                          | E-mail/password, [2-factors auth ready]({{< ref "security/two-factor-authentication" >}})          |
 | API                      | [api.alwaysdata.com/v1]({{< ref "api" >}}) (with a [rate limit]({{<ref "api/usage">}}#rate-limit)) |
-|                          | API key available in *Profile > Authentication*                                                    |
+|                          | [Tokens]({{< ref "accounts/tokens" >}}) available in *Profile*                                     |
 | **Generic**              |                                                                                                    |
 | DNS                      | Primary: dns1.alwaysdata.com                                                                       |
 |                          | Secondary: dns2.alwaysdata.com                                                                     |
