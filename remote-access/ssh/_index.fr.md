@@ -55,8 +55,16 @@ Attention, cette solution peu fiable et lente ne remplace pas un client SSH.
 Cette interface n'est pas compatible avec les hébergements VPS et dédiés.
 {{% /notice %}}
 
----
-## Liens
+## Conseils
 
+Les *fingerprints* de nos serveurs SSH sont affichés dans l'onglet **Accès distant > SSH** de votre interface d'administration.
+
+Un compte peut être déplacé de serveur SSH. Dans ce cas, il est nécessaire de mettre à jour le fichier `known_hosts`. Vous pouvez alors utiliser la commande suivante :
+
+```
+ssh-keygen -R [nom_d'hôte]
+```
+
+---
 - [OpenSSH](https://www.openssh.com/) ;
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) : terminal SSH sous Windows.
