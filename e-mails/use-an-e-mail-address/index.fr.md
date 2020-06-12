@@ -48,6 +48,10 @@ Par défaut, le webmail est en anglais. Pour changer de langue, cliquez sur **Se
 
 {{< fig "images/roundcube_change-parameter-2.en.png" "Webmail : changer de paramètres - étape 2" >}}
 
+{{% notice tip %}}
+Si vous changez votre mot de passe via le webmail, vous devrez procéder à une déconnexion puis reconnexion.
+{{% /notice %}}
+
 ## Remarques
 
 - Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
