@@ -37,8 +37,23 @@ When you create your MySQL databases and users, you have the option of assigning
 If you change your user's permissions via a third party application, any validation via the administration interface (or via the API) will reset the permissions in line with the directives above.
 {{% /notice %}}
 
+## Restore a database from its daily backup
+
+Several options :
+
+- use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
+- use the following command :
+
+    ```
+    $ xzcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
+    ```
+
+- get the tarbal and use the client of your choice.
+
 ## Other informations
 MySQL blocks the size of the user name; if your account's name is too long, an *ID* will be assigned to it. You will find this in **Databases > MySQL > Users**.
+
+To check the MariaDB configuration use the SQL query `show variables`.
 
 MySQL events are not supported on alwaysdata's servers.
 

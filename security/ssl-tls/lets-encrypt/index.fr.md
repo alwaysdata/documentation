@@ -19,8 +19,10 @@ Pour éviter les doublons, alwaysdata bloque la génération de certificats Let'
 
 Les adresses en *.alwaysdata.net* sont gérées par le certificat wildcard `*.alwaysdata.net` renvoyé par défaut par les serveurs.
 
-{{% notice warning %}}
-La création de ces certificats est dépendante de la propagation DNS : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les 30 minutes durant 24 heures. Cela passe ensuite à une fois par jour.
+La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
+
+{{% notice tip %}}
+Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après.
 {{% /notice %}}
 
 {{% notice note %}}
@@ -29,7 +31,7 @@ Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-�
 
 ## Certificats Wildcard
 
-Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) dans **Avancé > Certificats SSL > Ajouter un certificat SSL**. Ce certificat sera automatiquement renouvelé par le système.
+Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.exemple.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
 
 ---
 

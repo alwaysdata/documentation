@@ -18,6 +18,8 @@ Service externe permettant de vérifier la disponibilité : [Down for everyone o
 - Vérifiez si le domaine existe, n'est pas expiré ou bloqué par l'[ICANN](https://www.icann.org/fr) via un `whois`[^1] ;
 - Vérifiez la [résolution DNS](https://www.dnswatch.info/) de l'adresse.
 
+Ajouter le domaine dans **Domaines** ne suffit pas à créer un site internet. L'ajout des adresses dans **Web > Sites** est nécessaire.
+
 ### Erreurs 500
 
 Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le langage utilisé ou l'application elle-même. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.

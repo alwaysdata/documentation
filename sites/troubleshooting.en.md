@@ -18,6 +18,8 @@ External service to check uptime: [Down for everyone or just me](https://downfor
 - Check if the domain exists, isn't expired or locked by the [ICANN](https://www.icann.org/fr) via a `whois`[^1],
 - Check the [DNS resolution](https://www.dnswatch.info/) address.
 
+Adding the domaine in the **Domains** menu is not enough to create a website. It is required to add the addresses in **Web > Sites**.
+
 ### 500 Errors
 
 These errors may be returned by web servers (e.g. Apache), language runtime, or the application itself. Set debug logs to get more inputs on how to fix them.

@@ -55,6 +55,19 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 * **locale** : détermine l'encodage, `LC_COLLATE` et `LC_CTYPE` ;
 * **extensions** : vous pouvez installer d'un simple clic des extensions PostgreSQL (`hstore`, `pgcrypto`, `PostGIS`, etc.). Si vous avez besoin d'une extension non listée, vous pouvez contacter le [support](https://admin.alwaysdata.com/support/add/).
 
+## Restaurer une base de données depuis sa sauvegarde quotidienne
+
+Plusieurs possibilités :
+
+- utiliser notre fonctionnalité de [restauration de sauvegarde]({{< ref "backups/restore-a-site" >}}) ;
+- utiliser la commande suivante :
+
+    ```
+    $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
+    ```
+
+- récupérer l'archive et utiliser le client de son choix.
+
 ## Autres informations
 
 Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont PAS accessibles.

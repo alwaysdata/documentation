@@ -22,7 +22,7 @@ En plans VPS et dédiés :
 
 
 {{% notice info %}}
-Pour des raisons de sécurité, la création des bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API]({{< ref "api" >}}). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
+Pour des raisons de sécurité, la création des bases de données et des utilisateurs bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API]({{< ref "api" >}}). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
 {{% /notice %}}
 
 {{% notice warning %}}

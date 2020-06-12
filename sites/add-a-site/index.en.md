@@ -18,6 +18,10 @@ If you are starting from scratch you can take advantage of our [application libr
 
 {{< fig "images/admin-panel_add-site-general.en.png" "Add a site: general" >}}
 
+{{% notice warning %}}
+Adding all the addresses in this menu is mandatory to access them as sites.
+{{% /notice %}}
+
 - Configuration: specific to every type of site:
     - [PHP]({{< ref "languages/php" >}}),
     - [Python WSGI]({{< ref "languages/python" >}}),

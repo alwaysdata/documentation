@@ -19,6 +19,10 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
 
 {{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
 
+{{% notice warning %}}
+L'ajout de toutes les adresses dans ce menu est un impératif pour qu'elles soient accessibles comme sites.
+{{% /notice %}}
+
 - Configuration : spécifique à chaque type de site :
     - [PHP]({{< ref "languages/php" >}}) ;
     - [Python WSGI]({{< ref "languages/python" >}}) ;

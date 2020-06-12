@@ -38,8 +38,23 @@ Lors de la création de vos bases et utilisateurs MySQL, vous avez la possibilit
 Si vous modifiez les permissions de vos utilisateurs via une application tierce, toute validation via l'interface d'administration (ou via l'API) réinitialisera les permissions selon les directives ci-dessus.
 {{% /notice %}}
 
+## Restaurer une base de données depuis sa sauvegarde quotidienne
+
+Plusieurs possibilités :
+
+- utiliser notre fonctionnalité de [restauration de sauvegarde]({{< ref "backups/restore-a-site" >}}) ;
+- utiliser la commande suivante :
+
+    ```
+    $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
+    ```
+
+- récupérer l'archive et utiliser le client de son choix.
+
 ## Autres informations
 MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Utilisateurs**.
+
+Pour connaître la configuration MariaDB utilisez la requête SQL `show variables`.
 
 Les events MySQL ne sont pas supportés par nos serveurs.
 
