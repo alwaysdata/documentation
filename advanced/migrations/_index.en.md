@@ -9,7 +9,7 @@ tags = ["infrastructure", "migration"]
 
 Migration refers to an operation where a technical characteristic of your account is changed. For example, a migration to a new version of MySQL.
 
-The migrations available appear in the alwaysdata administration **Advanced > Migrations** menu. New migrations are added regularly and we bring this information to our clients by e-mail.
+The migrations available appear in the [alwaysdata administration](https://admin.alwaysdata.com) **Advanced > Migrations** menu. New migrations are added regularly and we bring this information to our clients by e-mail.
 
 Some migrations are optional: you choose whether or not to migrate. Other migrations are mandatory ones: you have a period of time to migrate. Once the deadline is reached, any remaining migrations are done automatically.
 

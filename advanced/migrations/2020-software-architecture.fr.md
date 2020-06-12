@@ -50,72 +50,91 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 ### PHP
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `4.4.9`                                                          | `4.4.9`                                                          |
+| `5.2.17`                                                         | `5.2.17`                                                         |
+| `5.3.29`                                                         | `5.3.29`                                                         |
+| `5.4.45`                                                         | `5.4.45`                                                         |
+| `5.5.38`                                                         | `5.5.38`                                                         |
+| `5.6.40`                                                         | `5.6.38` `5.6.37`                                                |
+| `7.0.33`                                                         | `7.0.31` `7.0.32`                                                |
+| `7.1.33`                                                         | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32`                     |
+| `7.2.29` `7.2.31`                                                | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22`                     |
+| `7.3.16` `7.3.18`                                                | `7.3.0`  `7.3.1`  `7.3.9`                                        |
+| `7.4.4`  `7.4.6`                                                 | `7.4.0`  `7.4.3`                                                 |
 
-  | Dernière mineure disponible | Obsolètes                                    |
-  | --------------------------- | -------------------------------------------- |
-  | `5.6.40`                    | `5.6.38` `5.6.37`                            |
-  | `7.0.33`                    | `7.0.31` `7.0.32`                            |
-  | `7.1.33`                    | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32` |
-  | `7.2.29`                    | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22` |
-  | `7.3.16`                    | `7.3.0`  `7.3.1`  `7.3.9`                    |
-  | `7.4.4`                     | `7.4.0`  `7.4.3`                             |
-
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (7.4.4 par exemple pour 7.4).
 - Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
 
 ### Python
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `2.4.6`                                                          | `2.4.6`                                                          |
+| `2.5.6`                                                          | `2.5.6`                                                          |
+| `2.6.9`                                                          | `2.6.9`                                                          |
+| `2.7.17` `2.7.18`                                                | `2.7.15` `2.7.16` `2.7.18`                                       |
+| `3.3.7`                                                          | `3.3.7`                                                          |
+| `3.4.10`                                                         | `3.4.9`  `3.4.10`                                                |
+| `3.5.9`                                                          | `3.5.6`  `3.5.9`                                                 |
+| `3.6.10`                                                         | `3.6.7`  `3.6.8`  `3.6.10`                                       |
+| `3.7.7`                                                          | `3.7.0`  `3.7.1`  `3.7.2`  `3.7.7`                               |
+| `3.8.2`  `3.8.3`                                                 | `3.8.0`  `3.8.3`                                                 |
 
-  | Dernière mineure disponible | Obsolètes                |
-  | --------------------------- | ------------------------ |
-  | `2.7.17`                    | `2.7.15` `2.7.16`        |
-  | `3.4.10`                    | `3.4.9`                  |
-  | `3.5.9`                     | `3.5.6`                  |
-  | `3.6.10`                    | `3.6.7`  `3.6.8`         |
-  | `3.7.7`                     | `3.7.0`  `3.7.1` `3.7.2` |
-  | `3.8.2`                     | `3.8.0`                  |
-
-  Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (3.8.2 par exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
 ### Ruby
 
-- La version 1.9.2-p320 est supprimée et automatiquement remplacée par la version 1.9.3-p551.
+| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `1.8.7-p374`                                                     | `1.8.7-p374`                                                     |
+| `1.9.3-p551`                                                     | `1.9.2-p3201` `1.9.3-p551`                                       |
+| `2.0.0-p648`                                                     | `2.0.0-p648`                                                     |
+| `2.1.10`                                                         | `2.1.10`                                                         |
+| `2.2.10`                                                         | `2.2.10`                                                         |
+| `2.3.8`                                                          | `2.3.8`                                                          |
+| `2.4.9` `2.4.10`                                                 | `2.4.5`                                                          |
+| `2.5.7` `2.5.8`                                                  | `2.5.3`      `2.5.5`                                             |
+| `2.6.5` `2.6.6`                                                  | `2.6.0`      `2.6.2`                                             |
+| `2.7.0` `2.7.1`                                                  | `-`                                                              |
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
-
-  | Dernière mineure disponible | Obsolète        |
-  | --------------------------- | --------------- |
-  | `2.4.9`                     | `2.4.4` `2.4.5` |
-  | `2.5.7`                     | `2.5.3` `2.5.5` |
-  | `2.6.5`                     | `2.6.0`         |
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (2.6.5 par exemple pour 2.6).
 
 ### Node.js
 
-- Les versions mineures suivantes sont supprimées, et automatiquement remplacées par la dernière version mineure disponible
+| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `6.17.1`                                                         | `6.14.4` `6.16.0`  `6.17.0`                                      |
+| `8.17.0`                                                         | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`                            |
+| `9.11.2`                                                         | `9.11.1`                                                         |
+| `10.19.0` `10.20.1`                                              | `10.9.0` `10.12.0` `10.13.0` `10.15.1` `10.15.3`                 |
+| `11.15.0`                                                        | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`                           |
+| `12.16.1` `12.16.3`                                              | `12.0.0` `12.14.0`                                               |
+| `13.11.0` `13.14.0`                                              | `-`                                                              |
+| `14.2.0`                                                         | `-`                                                              |
 
-  | Dernière mineure disponible | Obsolètes                                        |
-  | --------------------------- | ------------------------------------------------ |
-  | `6.17.1`                    | `6.14.4` `6.16.0`  `6.17.0`                      |
-  | `8.17.0`                    | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`            |
-  | `9.11.2`                    | `9.11.1`                                         |
-  | `10.19.0`                   | `10.9.0` `10.12.0` `10.13.0` `10.15.1` `10.15.3` |
-  | `11.15.0`                   | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`           |
-  | `12.16.1`                   | `12.0.0` `12.14.0`                               |
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (12.16.1 par exemple pour 12).
 
 ### Elixir
 
-- La version 1.5.3 est supprimée et automatiquement remplacée par la version 1.6.6.
+| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `1.10.2` `1.10.3`                                                | `-`                                                              |
+| `1.9.4`                                                          | `-`                                                              |
+| `1.8.2`                                                          | `-`                                                              |
+| `1.7.4`                                                          | `1.7.3` `1.7.4`                                                  |
+| `1.6.6`                                                          | `1.5.3` `1.6.6`                                                  |
 
-- La version mineure suivante est supprimée, et automatiquement remplacée par la dernière version mineure disponible : 1.7.3.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne.
 
 ### Java
 
 Java deviendra prochainement un langage majeur, administrable via l'interface d'administration.
 
-- Les versions désormais disponibles sont 8.0.41, 11.0.28 et 14.0.36. Les versions 7, 9 et 10 sont supprimées.
+- Les versions désormais disponibles sont `8.0.41`, `11.0.28` et `14.0.36`. Les versions 7, 9 et 10 sont supprimées.
 
-- La version par défaut devient la _11_. C'est cette version qui sera exécutée lorsque vous utilisez le binaire `java`.
+- La version par défaut devient la `11`. C'est cette version qui sera exécutée lorsque vous utilisez le binaire `java`.
 
 - Jusqu'à présent, pour utiliser une version de Java précise, vous pouviez aller chercher le binaire dans `/usr/lib/jvm`. Ce n'est plus possible : désormais, vous pouvez forcer une version différente en définissant la variable d'environnement `JAVA_VERSION`. Par exemple, pour lancer la version 8 : `JAVA_VERSION=8 java`.
 
@@ -185,9 +204,14 @@ Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en géné
 
 Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de votre interface d'administration).
 
-## Problèmes courants
+## Conseils & problèmes courants
 
+- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez faire ce dernier via la commande (*[compte] à remplacer par le nom du compte*) :
+
+```
+ssh-keygen -R ssh-[compte].alwaysdata.net
+```
 - Drupal
-    - [précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **9**.
+    - [Précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **8.9**.
 - Odoo
     - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
