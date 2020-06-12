@@ -50,6 +50,9 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 | {status}           | Code de status de la réponse (200, 301, 404, 500, ...)                                                                 |
 | {user_agent}       | Valeur de l'en-tête [User-Agent](https://fr.wikipedia.org/wiki/User_agent) transmis par la requête                     |
 
+## Cas spécifiques
+
+Pour afficher l'IP d'un client derrière [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) utilisez `{request_header:cf-connecting-ip}`.
 
 [^1]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
 *Exemples : `{completion_date:{%d/%b/%Y}}` → 16/Jul/2018, `{completion_date:{%H:%M:%S}}` → 12:04:07*
