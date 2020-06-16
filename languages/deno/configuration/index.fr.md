@@ -16,7 +16,11 @@ Votre environnement Deno est initialement vide, sans aucune bibliothèque préin
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Deno, créez un site de type *Deno* dans la section **Web > Sites**. Vous devrez spécifier la commande qui démarre votre application Deno, par exemple :
+Pour déployer une application HTTP avec Deno, créez un site de type *Deno* dans la section **Web > Sites**.
+
+{{< fig "images/deno.png" "Deno Site Type">}}
+
+Vous devrez spécifier la commande qui démarre votre application Deno, par exemple :
 
 ```
 deno run --allow-env --allow-net $HOME/myapp/index.ts

@@ -91,6 +91,8 @@ $ bundle install
 
 Pour qu'une application Rack soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration alwaysdata :
 
+{{< fig "images/ruby-rack.png" "Type de site Ruby Rack">}}
+
 * type : choisissez *Ruby Rack* ;
 * chemin de l'application : le chemin du fichier de votre application Rack.
 

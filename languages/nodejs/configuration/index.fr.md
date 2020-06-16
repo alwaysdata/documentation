@@ -52,7 +52,11 @@ $ npm install -g express
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Node.js, créez un site de type *Node.js* dans la section **Web > Sites**. Vous devrez spécifier la commande qui démarre votre application Node.js, par exemple :
+Pour déployer une application HTTP avec Node.js, créez un site de type *Node.js* dans la section **Web > Sites**.
+
+{{< fig "images/nodejs.png" "Type de site Node.js">}}
+
+Vous devrez spécifier la commande qui démarre votre application Node.js, par exemple :
 
 ```
 node $HOME/myapp/index.js

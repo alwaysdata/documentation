@@ -15,7 +15,11 @@ Your Deno environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Deno, create a *Deno* type site in the **Web > Sites** section. You need to specify the command that will start your Deno application, for example:
+To deploy an HTTP application with Deno, create a *Deno* type site in the **Web > Sites** section. 
+
+{{< fig "images/deno.png" "Type de site Deno">}}
+
+You need to specify the command that will start your Deno application, for example:
 
 ```
 deno run --allow-env --allow-net $HOME/myapp/index.ts
