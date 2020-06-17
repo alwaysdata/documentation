@@ -7,7 +7,7 @@ weight = 20
 tags = ["email"]
 +++
 
-Que vos boîtes email soient hébergées dans un environnement mutualisé ou dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses clients.
+Que vos boîtes email soient hébergées dans un environnement mutualisé ou dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses utilisateurs.
 
 ## L'expéditeur
 
@@ -62,7 +62,7 @@ Et un ensemble de règles propres à son système :
 - `+1`: New customer : le profil a été créé récemment ;
 - `+X`: Too many bounces (in percentile) : le compte a envoyé trop de mails ayant bouncé au cours des dernières heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
 
-Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
+Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
 
 ## Remarques
 

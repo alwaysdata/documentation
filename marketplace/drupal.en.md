@@ -21,7 +21,7 @@ To install it yourself, follow the steps set out below:
 
 It is important to follow these instructions to avoid infection:
 
-- regularly update WordPress and its plugins,
+- regularly update Drupal and its plugins,
 - keep informed on reports of bugs and security breaches relating to plugins before installing them,
 - implement the [specific profile]({{<ref "sites/use-waf#profiles-available">}}) of our WAF,
 - delete idle themes and plugins,

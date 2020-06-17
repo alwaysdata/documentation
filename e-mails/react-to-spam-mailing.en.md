@@ -19,9 +19,9 @@ When the alwaysdata team encounters spam sent due to a form attack, they will:
 
 - stop sending by disabling `POST` requests on the website in question,
 - delete all related e-mails awaiting sending,
-- warn the customer.
+- warn the user.
 
-The customer will have to put a more efficient protection on the form, through the use of a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
+The user will have to put a more efficient protection on the form, through the use of a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
 
 ## Password theft
 
@@ -29,10 +29,10 @@ In this case, they will:
 
 - stop sending by changing the password for the affected e-mail address,
 - delete all related e-mails awaiting sending,
-- warn the customer.
+- warn the user.
 
-Then the customer can provide a new, **more secure**, password to again allow access to their address.
+Then the user can provide a new, **more secure**, password to again allow access to their address.
 
 {{% notice info %}}
-In repeat cases, the alwaysdata team can always *suspend* the account until the customer returns.
+In repeat cases, the alwaysdata team can always *suspend* the account until the user returns.
 {{% /notice %}}

@@ -5,7 +5,7 @@ weight = 20
 tags = ["e-mail"]
 +++
 
-Whether your e-mail boxes are hosted in a shared or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their customers working together.
+Whether your e-mail boxes are hosted in a shared or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
 
 ## Sender
 
@@ -59,7 +59,7 @@ And a set of rules specific to his system :
 - `+1`: New customer: the profile was recently created,
 - `+X`: Too many bounces (in percentile): the account has sent too much e-mails that were sent back with an error in the last few hours. If the number exceeds *10%*, the system will add `+1` point and if it exceeds *30%*, `+2` points.
 
-In order not to be dependent on abuse from other clients using the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
+In order not to be dependent on abuse from other users being the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
 
 ## Notes
 

@@ -19,7 +19,7 @@ If you are starting from scratch you can take advantage of our [application libr
 {{< fig "images/admin-panel_add-site-general.en.png" "Add a site: general" >}}
 
 {{% notice warning %}}
-Adding all the addresses in this menu is mandatory to access them as sites.
+Adding all the addresses in this menu is mandatory to access them as sites. For example, to access a website on *www.exemple.org* and *example.org* both addresses must be added. Entering your domain in the Domains menu is not enough either.
 {{% /notice %}}
 
 - Configuration: specific to every type of site:

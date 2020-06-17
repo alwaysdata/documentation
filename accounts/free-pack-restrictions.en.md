@@ -7,7 +7,7 @@ tags = ["abuse", "free plan"]
 
 Here is the list of restrictions:
 
-- having a number of free accounts for the same customer,
+- having a number of free accounts for the same user,
     - pay attention to not confuse account and services (websites, domains, e-mail addresses, databases, etc.).
     - An account may host as many services (e.g. as many sites) as you wish.
 - using the free account to make remote connections to one or more databases,

@@ -16,7 +16,7 @@ Important:
 - For accounts on shared servers, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
 {{% notice note %}}
-Even if it is not advisable, customers using dedicated and VPS servers may also use the `crontab -e` command. The two systems are separate.
+Even if it is not advisable, users of dedicated and VPS servers have also access to the `crontab -e` command. The two systems are separate.
 {{% /notice %}}
 
 ## Examples

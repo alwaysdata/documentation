@@ -32,10 +32,10 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 
 | Variables          | Description                                                                                                            |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| {client_ip}        | Adresse IP du client ayant émis la requête                                                                             |
+| {client_ip}        | Adresse IP de l'utilisateur ayant émis la requête                                                                      |
 | {completion_date}  | Date à laquelle la requête a été servie [^1]                                                                           |
 | {duration}         | Temps pris pour servir la requête en secondes                                                                          |
-| {peer_ip}          | Adresse IP du pair ayant envoyé la requête (proxy ou client original le cas échéant)                                   |
+| {peer_ip}          | Adresse IP du pair ayant envoyé la requête (proxy ou utilisateur original le cas échéant)                              |
 | {protocol}         | Mécanisme du protocole de la requête (http, https, ws)                                                                 |
 | {referer}          | Valeur de l'en-tête [Referer](https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rent_(informatique)) transmis par la requête |
 | {request}          | Première ligne de la requête                                                                                           |
@@ -52,7 +52,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 
 ## Cas spécifiques
 
-Pour afficher l'IP d'un client derrière [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) utilisez `{request_header:cf-connecting-ip}`.
+Pour afficher l'IP d'un utilisateur derrière [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) utilisez `{request_header:cf-connecting-ip}`.
 
 [^1]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
 *Exemples : `{completion_date:{%d/%b/%Y}}` → 16/Jul/2018, `{completion_date:{%H:%M:%S}}` → 12:04:07*

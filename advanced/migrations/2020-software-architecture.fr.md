@@ -26,7 +26,7 @@ Ce document décrit les incompatibilités majeures introduites par cette migrati
 
 Apache _2.2_ n'est plus disponible. Les comptes qui utilisaient cette version basculeront automatiquement vers [Apache _2.4_](https://httpd.apache.org/docs/2.4/fr/).
 
-Les directives globales ajoutées par nos clients, soit dans **Web > Configuration**, soit dans la configuration d'un site de type **Apache personnalisé**, seront désormais insérées **après** les directives par défaut. Cela permet désormais à nos clients d'écraser ces directives par défaut.
+Les directives globales ajoutées par nos utilisateurs, soit dans **Web > Configuration**, soit dans la configuration d'un site de type **Apache personnalisé**, seront désormais insérées **après** les directives par défaut. Cela permet désormais à nos utilisateurs d'écraser ces directives par défaut.
 
 ## Bases de données
 
@@ -64,7 +64,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `7.3.16` `7.3.18`                                                | `7.3.0`  `7.3.1`  `7.3.9`                                        |
 | `7.4.4`  `7.4.6`                                                 | `7.4.0`  `7.4.3`                                                 |
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (7.4.4 par exemple pour 7.4).
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (7.4.4 par exemple pour 7.4).
 - Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
 
 ### Python
@@ -82,7 +82,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `3.7.7`                                                          | `3.7.0`  `3.7.1`  `3.7.2`  `3.7.7`                               |
 | `3.8.2`  `3.8.3`                                                 | `3.8.0`  `3.8.3`                                                 |
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (3.8.2 par exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (3.8.2 par exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
 ### Ruby
 
@@ -99,7 +99,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `2.6.5` `2.6.6`                                                  | `2.6.0`      `2.6.2`                                             |
 | `2.7.0` `2.7.1`                                                  | `-`                                                              |
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (2.6.5 par exemple pour 2.6).
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (2.6.5 par exemple pour 2.6).
 
 ### Node.js
 
@@ -114,7 +114,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `13.11.0` `13.14.0`                                              | `-`                                                              |
 | `14.2.0`                                                         | `-`                                                              |
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne (12.16.1 par exemple pour 12).
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (12.16.1 par exemple pour 12).
 
 ### Elixir
 
@@ -126,7 +126,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `1.7.4`                                                          | `1.7.3` `1.7.4`                                                  |
 | `1.6.6`                                                          | `1.5.3` `1.6.6`                                                  |
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure disponible la plus ancienne.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche.
 
 ### Java
 
@@ -172,7 +172,7 @@ Les services suivants, lorsqu'ils sont installés, seront mis à jour :
 - _RabbitMQ_, en version 3.7.8
 - _Redis_, en version 5.0
 
-Les montées de versions de _MySQL_ (pas MariaDB) et _ElasticSearch_ seront vues au cas par cas avec les clients.
+Les montées de versions de _MySQL_ (pas MariaDB) et _ElasticSearch_ seront vues au cas par cas avec les utilisateurs.
 
 Seules les versions des langages _explicitement utilisées_, soit dans la section **Web > Sites**, soit dans la section **Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python (définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette version de Python, ou bien que vous changez la version de Python par défaut.
 
@@ -196,7 +196,7 @@ En parallèle de la migration Buster, nous mettons à disposition les migrations
 
 ## Déroulement de la migration
 
-Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques minutes plus tard en fonction du nombre de clients qui migrent au même instant. La migration s'effectue en plusieurs étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
+Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques minutes plus tard en fonction du nombre d'utilisateurs qui migrent au même instant. La migration s'effectue en plusieurs étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
 
 - La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de __courte durée__ (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos fichiers sont __pré-copiés__ au préalable.
 
@@ -206,7 +206,7 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 
 ## Conseils & problèmes courants
 
-- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez faire ce dernier via la commande (*[compte] à remplacer par le nom du compte*) :
+- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez le faire via la commande (*[compte] à remplacer par le nom du compte*) :
 
 ```
 ssh-keygen -R ssh-[compte].alwaysdata.net

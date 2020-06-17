@@ -8,7 +8,7 @@ tags = ["http", "site"]
 
 # Websites
 
-To access to an address hosted at alwaysdata in HTTP/HTTPS it **must** be declared in **Web > Sites**. Choose the [language]({{< ref "languages" >}}) or type of you choice and configure them.
+Any website address hosted on alwaysdata servers **must** be declared in **Web > Sites**. Choose the [language]({{< ref "languages" >}}) or type of you choice and configure them.
 
 You can have as many sites as you wish in a single account. Note that this does entail a security risk as isolation takes place at the account level.
 

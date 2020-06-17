@@ -12,7 +12,7 @@ A site infection may show up in different ways:
 - phishing,
 - redirecting to a third party site.
 
-When alwaysdata support detects an infection it will block the malware and contact the customer so that they can take the necessary action.
+When alwaysdata support detects an infection it will block the malware and contact the user so that they can take the necessary action.
 
 Most attacks are performed by automatic scripts. Therefore reinstalling the site and its extensions in the same state is not recommended or a new infection may take place in the following hours. Here are the actions that should be taken:
 

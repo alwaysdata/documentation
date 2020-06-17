@@ -25,7 +25,7 @@ This document presents the main incompatibilities introduced by this migration. 
 
 Apache *2.2* will no longer be available. Accounts using this version will automatically switch to [Apache *2.4*](https://httpd.apache.org/docs/2.4/).
 
-Global directives added by our customers, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our customers to overwrite these default directives.
+Global directives added by our users, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our users to overwrite these default directives.
 
 ## Databases
 
@@ -63,7 +63,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `7.3.16` `7.3.18`                                             | `7.3.0`  `7.3.1`  `7.3.9`                                    |
 | `7.4.4`  `7.4.6`                                              | `7.4.0`  `7.4.3`                                             |
 
-- Minor removed versions will automatically be replaced by the oldest available minor version (e.g. 7.4.4 for 7.4).
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 7.4.4 for 7.4).
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
 
 ### Python
@@ -82,7 +82,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `3.8.2`  `3.8.3`                                              | `3.8.0`  `3.8.3`                                             |
 
 
-- Minor removed versions will automatically be replaced by the oldest available minor version (e.g. 3.8.2 for 3.8). If you created any `virtualenvs` with these versions, you will need to recreate them.
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 3.8.2 for 3.8). If you created any `virtualenvs` with these versions, you will need to recreate them.
 
 ### Ruby
 
@@ -99,7 +99,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `2.6.5` `2.6.6`                                               | `2.6.0`      `2.6.2`                                         |
 | `2.7.0` `2.7.1`                                               | `-`                                                          |
 
-- Minor removed versions will automatically be replaced by the oldest available minor version (e.g. 2.6.5 for 2.6).
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 2.6.5 for 2.6).
 
 ### Node.js
 
@@ -114,7 +114,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `13.11.0` `13.14.0`                                           | `-`                                                          |
 | `14.2.0`                                                      | `-`                                                          |
 
-- Minor removed versions will automatically be replaced by the oldest available minor version (e.g. 12.16.1 for 12).
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 12.16.1 for 12).
 
 ### Elixir
 
@@ -126,7 +126,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `1.7.4`                                                       | `1.7.3` `1.7.4`                                              |
 | `1.6.6`                                                       | `1.5.3` `1.6.6`                                              |
 
-- Minor removed versions will automatically be replaced the oldest available minor version.
+- Minor removed versions will automatically be replaced the closest minor version.
 
 ### Java
 
@@ -172,7 +172,7 @@ The following services, when installed, will be updated:
 - *RabbitMQ*, version 3.7.8.
 - *Redis*, version 5.0
 
-Upgrades of *MySQL* (not MariaDB) and *ElasticSearch* will be discussed with clients on a case-by-case basis.
+Upgrades of *MySQL* (not MariaDB) and *ElasticSearch* will be discussed with users on a case-by-case basis.
 
 Only the language versions *explicitly used*, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
 
@@ -196,7 +196,7 @@ In parallel to the Buster migration, we provide database migrations. You can [te
 
 ## Migration process
 
-When you click on the **Migrate** button the process usually starts immediately, but there may be a delay of several minutes depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
+When you click on the **Migrate** button the process usually starts immediately, but there may be a delay of several minutes depending on the number of users migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
 
 - The migration of your files, performed first, will cause a downtime of your websites (which will display an *internal error*), your scheduled tasks, or your remote accesses (SSH, FTP, etc.). However, the downtime will be **short** (a few seconds in general, more if you have tens of thousands of files), as these files are **pre-copied** beforehand.
 
@@ -206,7 +206,7 @@ You can check if the migration is complete via the [*Tasks*](https://admin.alway
 
 ## Tips & common issues
 
-- Accounts are moved of servers during the migration. There may be a DNS propagation delay and it is necessary to update its `known_hosts` file for the SSH connection. You can do this latter one via the command (*[account] to be replaced by the account name*):
+- Accounts are relocated during the migration. There may be a DNS propagation delay and it is necessary to update its `known_hosts` file for the SSH connection. You can do this via the command (*[account] to be replaced by the account name*):
 
 ```
 ssh-keygen -R ssh-[account].alwaysdata.net

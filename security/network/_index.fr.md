@@ -10,13 +10,13 @@ tags = ["infrastructure", "sécurité"]
 
 ### Pare-feu entrant
 
-Les clients ne peuvent pas écouter sur n'importe quel port, seuls ceux nécessaires sont ouverts.
+Les utilisateurs ne peuvent pas écouter sur n'importe quel port, seuls ceux nécessaires sont ouverts.
 
 ### Pare-feu sortant
 
 Tous les ports sont ouverts sans filtrage ; vous pouvez donc définir vos propres usages sans notre concours. Toute connexion est loguée et sera temporairement bloquée en cas d'abus.
 
-Les clients propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}}) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
+Les utilisateurs propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}}) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
 
 ## Prévention des intrusions
 
@@ -30,7 +30,7 @@ Une attaque [DDoS](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_servic
 
 Tous les serveurs d'alwaysdata sont configurés avec une protection anti-DDoS de niveau 3/4 selon le [modèle OSI](https://fr.wikipedia.org/wiki/Mod%C3%A8le_OSI). À vous de gérer l'applicatif.
 
-Les clients VPS et dédiés peuvent contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir de l'aide dans son installation ou qu'il intervienne.
+Les utilisateurs VPS et dédiés peuvent contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir de l'aide dans son installation ou qu'il intervienne.
 
 
 

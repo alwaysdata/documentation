@@ -8,7 +8,7 @@ tags = ["abus", "plan gratuit"]
 
 Voici la liste des interdictions :
 
-- avoir plusieurs comptes gratuits pour le même client ;
+- avoir plusieurs comptes gratuits pour le même utilisateur ;
     - attention à ne pas confondre compte et services (sites web, domaines, adresses emails, bases de données, etc.).
     - Un compte peut héberger autant de services (autant de sites par exemple) que vous souhaitez.
 - utiliser le compte gratuit pour faire des connexions distantes à une/des base(s) de données ;

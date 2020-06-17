@@ -14,7 +14,7 @@ L'infection d'un site peut se traduire de différentes manières :
 - phishing ;
 - redirection vers un site tiers.
 
-Lorsque le support alwaysdata détecte une infection il va bloquer le malware et contacter le client pour qu'il fasse le nécessaire.
+Lorsque le support alwaysdata détecte une infection il va bloquer le malware et contacter l'utilisateur pour qu'il fasse le nécessaire.
 
 La très grande majorité des attaques est effectuée par des scripts automatiques. Il n'est donc pas recommandé de réinstaller le site et ses extensions dans le même état sous peine de subir une nouvelle infection dans les heures qui suivent. Voici les actions à entreprendre alors :
 

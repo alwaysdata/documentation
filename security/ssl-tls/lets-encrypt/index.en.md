@@ -22,7 +22,7 @@ To avoid duplicates, alwaysdata blocks Let's Encrypt certificate generation for 
 The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
 
 {{% notice tip %}}
-People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart autogeneration by deleting the addresses from the site in **Web > Sites** and resetting them a few seconds later.
+People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later.
 {{% /notice %}}
 
 {{% notice note %}}

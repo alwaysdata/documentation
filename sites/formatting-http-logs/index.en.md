@@ -29,10 +29,10 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 
 | Variables          | Description                                                                              |
 | ------------------ | ---------------------------------------------------------------------------------------- |
-| {client_ip}        | The IP address of the client that sent the request                                       |
+| {client_ip}        | The IP address of the user that sent the request                                         |
 | {completion_date}  | The date when the request was served [^1]                                                |
 | {duration}         | Time taken to serve the request in seconds                                               |
-| {peer_ip}          | IP address of the peer that sent the request (proxy or original client where applicable) |
+| {peer_ip}          | IP address of the peer that sent the request (proxy or original user where applicable)   |
 | {protocol}         | Request protocol mechanism (http, https, ws)                                             |
 | {referer}          | Value of the Referer header sent by the request                                          |
 | {request}          | First request line                                                                       |
@@ -49,7 +49,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 
 ## Specific cases
 
-To display the client IP behind [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) use `{request_header:cf-connecting-ip}`.
+To display the user IP behind [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) use `{request_header:cf-connecting-ip}`.
  
 [^1]: May be formatted in line with the [strftime](https://docs.python.org/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior) syntax. *Examples:* `{completion_date:{%d/%b/%Y}}` *→ 16/Jul/2018,* `{completion_date:{%H:%M:%S}}` *→ 12:04:07*
 [^2]: Only one header can be specified. E.g.: `{request_header:authorization}`, `{response_header:age}` (to be used with the [HTTP cache]({{< ref "sites/http-cache" >}}))
