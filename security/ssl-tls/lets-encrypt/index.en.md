@@ -19,8 +19,10 @@ To avoid duplicates, alwaysdata blocks Let's Encrypt certificate generation for 
 
 *.alwaysdata.net* addresses are handled by the `*.alwaysdata.net` wildcard certificate returned by default by the servers.
 
-{{% notice warning %}}
-The creation of these certificates is dependent on DNS propagation: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate every 30 minutes for 24 hours. This will then change to once a day.
+The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
+
+{{% notice tip %}}
+People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later.
 {{% /notice %}}
 
 {{% notice note %}}
@@ -29,7 +31,7 @@ From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added
 
 ## Wildcard certificates
 
-When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) in **Advanced > SSL certificates > Add a SSL certificate**. This certificate will be automatically renewed by the system.
+When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt certificate**. This certificate will be automatically renewed by the system.
 
 ---
 ## Links

@@ -28,6 +28,10 @@ Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'adm
 |           | Règles spé­ci­fiques à WordPress                                                                                    |
 | Drupal    | L’ensemble des règles du pro­fil com­plet                                                                           |
 |           | Règles spé­ci­fiques à Drupal                                                                                       |
+| Nextcloud | L’ensemble des règles du pro­fil com­plet                                                                           |
+|           | Règles spé­ci­fiques à Nextcloud                                                                                    |
+| Dokuwiki  | L’ensemble des règles du pro­fil com­plet                                                                           |
+|           | Règles spé­ci­fiques à Dokuwiki                                                                                     |
 
 {{% notice note %}}
 L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une légère aug­men­ta­tion de la latence lors du trai­te­ment d’une requête HTTP. Cette latence, de l’ordre de quelques mil­li­se­condes, aug­mente avec le degré de pro­tec­tion.

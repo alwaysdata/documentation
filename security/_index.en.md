@@ -17,5 +17,5 @@ tags = ["security"]
 ## Alwaysdata services and websites
 
 - [SSL/TLS]({{< ref "ssl-tls" >}})
-- [Restricted mode]({{< relref "restricted-mode" >}}): limiting issues linked to customer abuse
+- [Restricted mode]({{< relref "restricted-mode" >}}): limiting issues linked to users abuse
 - [Network]({{< relref "network" >}}): network management and protection against hackers

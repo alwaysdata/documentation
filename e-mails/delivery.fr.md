@@ -7,7 +7,7 @@ weight = 20
 tags = ["email"]
 +++
 
-Que vos boîtes email soient hébergées dans un environnement mutualisé ou dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses clients.
+Que vos boîtes email soient hébergées dans un environnement mutualisé ou dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses utilisateurs.
 
 ## L'expéditeur
 
@@ -57,13 +57,16 @@ Ce système utilise [SpamAssassin](https://spamassassin.apache.org/). Selon son 
 
 Et un ensemble de règles propres à son système :
 
-- `+1`: Mass emails : le compte a envoyé plus de 15 emails dans les 30 dernières minutes ;
+- `+1`: Mass emails : le compte a envoyé un grand nombre de mails au cours des dernières minutes ;
 - `+1`: Customer is [restricted]({{<ref "security/restricted-mode">}}) ;
-- `+1`: New customer : cela fait moins de 30 jours que le profil est créé ; 
-- `+X`: Too many bounces (in percentile) : nombre de mails retournés en erreur. Il est mis à jour toutes les 3 heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
+- `+1`: New customer : le profil a été créé récemment ;
+- `+X`: Too many bounces (in percentile) : le compte a envoyé trop de mails ayant bouncé au cours des dernières heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
 
-Pour ne pas être dépendant des abus d'autres clients utilisant le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
+Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
 
 ## Remarques
 
 - La taille limite des emails envoyés est fixée à **50 Mo**.
+
+---
+- [Mail tester](https://www.mail-tester.com/?lang=fr)

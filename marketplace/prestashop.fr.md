@@ -23,3 +23,16 @@ Si vous migrez une application PrestaShop, précédemment hébergée chez un aut
 - les paramètres `ps_shop_domain`, `ps_shop_domain_ssl` présents dans les tables `ps_shop_url` et `ps_configuration` de la base de données ;
 - la valeur **localhost** du paramètre `physical_URI` de la table `ps_shop_url` par **/** ;
 - le fichier `$HOME/chemin/vers/l'application/app/config/parameters.php`.
+
+## Recommandations
+
+Il est important de suivre ces quelques instructions d'usage pour éviter toute infection :
+
+- mettez à jour régulièrement PrestaShop et ses plugins ;
+- informez-vous sur les rapports de bugs et failles de sécurité des plugins avant de les installer ;
+- mettez en place le  [profil complet]({{<ref "sites/use-waf#profils-disponibles">}}) de notre WAF ;
+- supprimez les thèmes et plugins inactifs ;
+- personnalisez le préfixe du nom des tables de votre base de données ;
+- supprimez le fichier readme.txt à la racine de votre application ;
+- supprimez les utilisateurs créés par défaut ;
+- d'[autres règles]({{<ref "sites/clean-up-a-site" >}}#3-supprimer-les-vecteurs-dinfection).

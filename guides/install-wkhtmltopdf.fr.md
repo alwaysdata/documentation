@@ -11,10 +11,17 @@ Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}
 
 - Nom du compte : `foo`
 - Répertoire de wkhtmltopdf : `$HOME/wkhtmltopdf/`
+    - [v2017]({{< ref "accounts/version" >}}) :
 
     ```sh
     foo@ssh:~/wkhtmltopdf$ wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.jessie_amd64.deb
     foo@ssh:~/wkhtmltopdf$ dpkg -x wkhtmltox_0.12.5-1.jessie_amd64.deb .
+    ```
+    - [v2020]({{< ref "accounts/version" >}}) :
+
+    ```sh
+    foo@ssh:~/wkhtmltopdf$ wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.buster_amd64.deb
+    foo@ssh:~/wkhtmltopdf$ dpkg -x wkhtmltox_0.12.5-1.buster_amd64.deb .
     ```
 
 Les binaires seront disponibles dans le répertoire `$HOME/wkhtmltopdf/usr/local/bin/`.

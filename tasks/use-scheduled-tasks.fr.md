@@ -17,7 +17,7 @@ Attention :
 - Pour les comptes étant sur les serveurs mutualisés, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
 {{% notice note %}}
-Même si c'est contre-indiqué, les clients en serveurs dédiés et VPS peuvent aussi utiliser la commande `crontab -e`. Les deux systèmes sont distincts.
+Même si c'est contre-indiqué, les utilisateurs de serveurs dédiés et VPS ont aussi accès à la commande `crontab -e`. Les deux systèmes sont distincts.
 {{% /notice %}}
 
 ## Exemples

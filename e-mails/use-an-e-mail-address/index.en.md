@@ -46,6 +46,10 @@ By default, the webmail is in English. To change the language, click on **Settin
 
 {{< fig "images/roundcube_change-parameter-2.en.png" "Webmail: change parameters - step 2" >}}
 
+{{% notice tip %}}
+When you change your password via the webmail, you will need to log out and log back in.
+{{% /notice %}}
+
 ## Notes
 
 - The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,

@@ -1,7 +1,7 @@
 +++
 title = "Legal Requirements on Internet"
 layout = "man"
-weight = 90
+hidden = true
 tags = ["legal", "site"]
 +++
 

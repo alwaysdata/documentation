@@ -6,7 +6,7 @@ hidden = true
 tags = ["profil", "sécurité"]
 +++
 
-Pour permettre l'accès à l'interface d'administration alwaysdata à seulement certaines IP, rendez-vous dans **Profil > Sécurité**.
+Pour permettre l'accès à l'interface d'administration alwaysdata à seulement certaines IP, rendez-vous dans **Profil**.
 {{< fig "images/profile-security.fr.png" >}}
 
 L'accès sera bloqué à toute autre connexion venant d'IP non renseignée.

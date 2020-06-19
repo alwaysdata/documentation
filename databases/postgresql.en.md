@@ -53,6 +53,17 @@ On creating a database, you have the following options:
   - **local**: determines encoding, `LC_COLLATE` and `LC_CTYPE`,
   - **extensions**: you can install PostgreSQL extensions with just a click (`hstore`, `pgcrypto`, `PostGIS`, etc.). If you need an extension that is not listed, you can contact [support](https://admin.alwaysdata.com/support/add/).
 
+Several options :
+
+- use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
+- use the following command :
+
+    ```
+    $ xzcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
+    ```
+
+- get the tarbal and use the client of your choice.
+
 ## Other informations
 
 It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are NOT reachable.

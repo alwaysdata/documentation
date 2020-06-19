@@ -28,6 +28,10 @@ To configure the web application firewall, use the administration interface from
 ||WordPress specific rules|
 |Drupal|All of the complete profile rules|
 ||Drupal specific rules|
+|Nextcloud|All of the complete profile rules|
+||Nextcloud specific rules|
+|Dokuwiki|All of the complete profile rules|
+||Dokuwiki specific rules|
 
 {{% notice note %}}
 Activating a protection profile will result in a slight increase in latency when processing an HTTP request. This latency, that represents a few milliseconds, increases with the degree of protection.

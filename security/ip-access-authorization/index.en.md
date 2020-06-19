@@ -5,7 +5,7 @@ hidden = true
 tags = ["profile", "security"]
 +++
 
-To allow access to the alwaysdata administration interface by some IP addresses only, go to **Profile > Security**.
+To allow access to the alwaysdata administration interface by some IP addresses only, go to **Profile**.
 
 {{< fig "images/profile-security.en.png" >}}
 

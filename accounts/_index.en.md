@@ -9,7 +9,7 @@ tags = ["administration", "account", "billing", "profile"]
 # Accounts
 
 {{% notice info %}}
-Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred way to contact or notify alwaysdata customers. The e-mail address provided in the **Profile** must therefore be checked regularly.
+Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred way to contact or notify alwaysdata users. The e-mail address provided in the **Profile** must therefore be checked regularly.
 {{% /notice %}}
 
 ## Support
@@ -20,12 +20,12 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Account version]({{< ref "version" >}})
 - [Programs]({{< ref "programs" >}})
 - [Restricted account]({{< ref "security/restricted-mode" >}})
+- [Use tokens]({{< ref "tokens" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
 - [Warning system]({{< ref "notifications" >}})
 - [Profile suspension]({{< ref "./suspension" >}})
 - [Free account: limitations]({{< ref "free-pack-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
-- [Legal obligations on Internet]({{<ref "./legal-requirements-on-internet">}})
 
 ## Billing
 

@@ -12,7 +12,7 @@ alwaysdata proposes four kinds of environment:
 
 ||[Shared](https://www.alwaysdata.com/en/pricing/#shared) [^2]|[VPS](https://www.alwaysdata.com/en/pricing/#vps)|[Dedicated](https://www.alwaysdata.com/en/pricing/#dedicated)|[Gold](https://www.alwaysdata.com/en/pricing/#gold)|
 |--- |--- |--- |--- |--- |
-|Details of the offer|Account on servers hosting hundreds of clients|Virtual server on a physical server hosting less than ten clients|Physical server reserved for just one client|Physical server reserved for one redundant client in another datacenter|
+|Details of the offer|Account on servers hosting hundreds of users|Virtual server on a physical server hosting less than ten users|Physical server reserved for just one user|Physical server reserved for one redundant user in another datacenter|
 ||Hosting account split over a number of physical servers depending on the service|Division by account without additional billing|Division by account without additional billing|Division by account without additional billing|
 ||Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|
 |Guarantees|SRT 1hr, IRT 4hrs, Availability rate 99.7%|SRT 30 mins, IRT 2hrs, Availability rate 99.8%|SRT 15 mins, IRT 1hr, Availability rate 99.9%|SRT 15 mins, IRT 1hr, Availability rate 99.99%|
@@ -32,8 +32,8 @@ alwaysdata proposes four kinds of environment:
 Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the shared environment or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
 {{% notice note %}}
-A well _optimized_ application will have the same performances regardless its environment type. However _less_ clients on a server bring more **stability** and **comfort** (no more performance variations due to other clients).
+A well _optimized_ application will have the same performances regardless its environment type. However _less_ users on a server bring more **stability** and **comfort** (no more performance variations due to other users).
 {{% /notice %}}
 
-[^1]: Hence, clients do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated clients can request support for services where this is not the case.
+[^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated users can request support for services where this is not the case.
 [^2]: The free plan in a shared environment offers 100Mb of disk space for non-commercial use.

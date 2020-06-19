@@ -10,7 +10,7 @@ tags = ["administration", "compte", "facturation", "profil"]
 # Comptes
 
 {{% notice info %}}
-Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen que nous privilégions pour contacter ou alerter à tout propos les clients d'alwaysdata. L'email renseigné dans le **Profil** doit donc régulièrement être vérifié.
+Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen que nous privilégions pour contacter ou alerter à tout propos les utilisateurs d'alwaysdata. L'email renseigné dans le **Profil** doit donc régulièrement être vérifié.
 {{% /notice %}}
 
 
@@ -22,13 +22,12 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Version du compte]({{< ref "version" >}})
 - [Programmes]({{< ref "programs" >}})
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
+- [Utiliser les tokens]({{< ref "tokens" >}})
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
 - [Système d'alertes]({{< ref "notifications" >}})
 - [Suspension de profil]({{< ref "./suspension" >}})
 - [Compte gratuit : limitations]({{< ref "free-pack-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
-- [Obligations légales sur Internet]({{<ref "./legal-requirements-on-internet">}})
-
 
 ## Facturation
 

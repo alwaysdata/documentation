@@ -21,6 +21,7 @@ You can [create an e-mail address]({{< relref "create-an-e-mail-address" >}}) fr
 - [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Read an e-mail source]({{< relref "read-an-e-mail-source" >}})
 - [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
+- [Use external MX]({{< ref "domains/use-external-mx" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
 - [Miscellaneous questions]({{< relref "./misc" >}})

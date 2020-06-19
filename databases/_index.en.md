@@ -20,7 +20,7 @@ In VPS and dedicated plans:
 - [Redis]({{< ref "databases/redis" >}})
 
 {{% notice info %}}
-For security reasons, it is only possible to create databases from the administration interface or from our [API]({{< ref "api" >}}). Therefore this is not possible using a third party application (e.g. phpMyAdmin).
+For security reasons, it is only possible to create databases and database users from the administration interface or from our [API]({{< ref "api" >}}). Therefore this is not possible using a third party application (e.g. phpMyAdmin).
 {{% /notice %}}
 
 {{% notice warning %}}

@@ -7,13 +7,13 @@ weight = 1
 tags = ["facturation", "serveur dédié", "serveur mutualisé", "serveur vps"]
 +++
 
-L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service) [^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS, inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les clients n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.
+L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service) [^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS, inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.
 
 alwaysdata propose quatre types d'environnement :
 
 |                   | [Mutualisé](https://www.alwaysdata.com/fr/tarifs/#shared) [^2] | [VPS](https://www.alwaysdata.com/fr/tarifs/#vps) | [Dédié](https://www.alwaysdata.com/fr/tarifs/#dedicated) | [Gold](https://www.alwaysdata.com/fr/tarifs/#gold) |
 |-------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|--------------------|
-| Détail de l'offre | Compte sur serveurs hébergeants des centaines de clients                                 | Serveur virtuel sur serveur physique hébergeant moins de 10 clients              | Serveur physique réservé à un seul client                    | Serveur physique réservé à un seul client redondé dans un autre datacenter |
+| Détail de l'offre | Compte sur serveurs hébergeants des centaines d'utilisateurs                                 | Serveur virtuel sur serveur physique hébergeant moins de 10 utilisateurs              | Serveur physique réservé à un seul utilisateur                    | Serveur physique réservé à un seul utilisateur redondé dans un autre datacenter |
 |                   | Compte d'hébergement divisé sur plusieurs serveurs physiques selon le service | Division par compte sans facturation supplémentaire | Division par compte sans facturation supplémentaire | Division par compte sans facturation supplémentaire |
 |                   | Sites / domaines / bases de données / emails (...) illimités                  | Sites / domaines / bases de données / emails (...) illimités | Sites / domaines / bases de données / emails (...) illimités | Sites / domaines / bases de données / emails (...) illimités |
 | Garanties         | GTI 1h, GTR 4h, Taux de disponibilité 99.7 %                                  | GTI 30min, GTR 2h, Taux de disponibilité 99.8 %              | GTI 15min, GTR 1h, Taux de disponibilité 99.9 %              | GTI 15min, GTR 1h, Taux de disponibilité 99.99 %                |
@@ -33,8 +33,8 @@ alwaysdata propose quatre types d'environnement :
 La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en environnement mutualisé ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
 
 {{% notice note %}}
-Une application bien _optimisée_ aura les mêmes performances quel que soit le type d'environnement sur lequel elle se trouve. Toutefois _moins_ de clients sur un serveur amène plus de **stabilité** et de **confort** (élimination de variations de performances à cause d'autres clients).
+Une application bien _optimisée_ aura les mêmes performances quel que soit le type d'environnement sur lequel elle se trouve. Toutefois _moins_ d'utilisateurs sur un serveur amène plus de **stabilité** et de **confort** (élimination de variations de performances à cause d'autres utilisateurs).
 {{% /notice %}}
 
-[^1]: De ce fait, les clients n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les clients VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
+[^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Le plan gratuit en environnement mutualisé offre 100 Mo d'espace disque à usage non lucratif.

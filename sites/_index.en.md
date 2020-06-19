@@ -8,7 +8,7 @@ tags = ["http", "site"]
 
 # Websites
 
-To manage your sites, add the addresses in **Web > Sites**. Choose the [language]({{< ref "languages" >}}) or type of you choice and configure them.
+Any website address hosted on alwaysdata servers **must** be declared in **Web > Sites**. Choose the [language]({{< ref "languages" >}}) or type of you choice and configure them.
 
 You can have as many sites as you wish in a single account. Note that this does entail a security risk as isolation takes place at the account level.
 
@@ -30,6 +30,7 @@ You can have as many sites as you wish in a single account. Note that this does 
 - [Troubleshooting]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "./connection-to-upstream">}})
 - [Catch-all]({{< relref "./catch-all" >}})
+- [Legal obligations on Internet]({{<ref "./legal-requirements-on-internet">}})
 
 ## Internet communications protection
 

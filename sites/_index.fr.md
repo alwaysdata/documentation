@@ -9,7 +9,7 @@ tags = ["http", "site"]
 
 # Sites web
 
-Pour gérer vos sites, ajoutez les adresses dans **Web > Sites**. Choisissez le [langage]({{< ref "languages" >}}) ou type de votre choix et paramétrez-les.
+Pour qu'une adresse hébergée chez alwaysdata soit accessible en HTTP/HTTPS elle **doit** être déclarée dans **Web > Sites**. Choisissez le [langage]({{< ref "languages" >}}) ou type de votre choix et paramétrez-les.
 
 Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même compte. À noter que cela entraîne cependant un risque de sécurité, l'isolation étant au niveau des comptes.
 
@@ -31,6 +31,7 @@ Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même com
 - [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "connection-to-upstream" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
+- [Obligations légales sur Internet]({{<ref "./legal-requirements-on-internet">}})
 
 ## Protection des communications sur internet
 

@@ -25,7 +25,7 @@ This document presents the main incompatibilities introduced by this migration. 
 
 Apache *2.2* will no longer be available. Accounts using this version will automatically switch to [Apache *2.4*](https://httpd.apache.org/docs/2.4/).
 
-Global directives added by our customers, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our customers to overwrite these default directives.
+Global directives added by our users, either in **Web > Configuration**, or in the configuration of a **Custom Apache** site, will now be inserted **after** the default directives. This now allows our users to overwrite these default directives.
 
 ## Databases
 
@@ -49,64 +49,84 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 ### PHP
 
-- The following minor versions will be removed, and automatically replaced by the latest available minor version
+| Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `4.4.9`                                                       | `4.4.9`                                                      |
+| `5.2.17`                                                      | `5.2.17`                                                     |
+| `5.3.29`                                                      | `5.3.29`                                                     |
+| `5.4.45`                                                      | `5.4.45`                                                     |
+| `5.5.38`                                                      | `5.5.38`                                                     |
+| `5.6.40`                                                      | `5.6.38` `5.6.37`                                            |
+| `7.0.33`                                                      | `7.0.31` `7.0.32`                                            |
+| `7.1.33`                                                      | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32`                 |
+| `7.2.29` `7.2.31`                                             | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22`                 |
+| `7.3.16` `7.3.18`                                             | `7.3.0`  `7.3.1`  `7.3.9`                                    |
+| `7.4.4`  `7.4.6`                                              | `7.4.0`  `7.4.3`                                             |
 
-  | Latest minor version | Deprecated and removed                       |
-  | -------------------- | -------------------------------------------- |
-  | `5.6.40`             | `5.6.38` `5.6.37`                            |
-  | `7.0.33`             | `7.0.31` `7.0.32`                            |
-  | `7.1.33`             | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32` |
-  | `7.2.29`             | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22` |
-  | `7.3.16`             | `7.3.0`  `7.3.1`  `7.3.9`                    |
-  | `7.4.4`              | `7.4.0`  `7.4.3`                             |
-
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 7.4.4 for 7.4).
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
 
 ### Python
 
-- The following minor versions will be removed and automatically replaced by the latest available minor version
+| Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `2.4.6`                                                       | `2.4.6`                                                      |
+| `2.5.6`                                                       | `2.5.6`                                                      |
+| `2.6.9`                                                       | `2.6.9`                                                      |
+| `2.7.17` `2.7.18`                                             | `2.7.15` `2.7.16` `2.7.18`                                   |
+| `3.3.7`                                                       | `3.3.7`                                                      |
+| `3.4.10`                                                      | `3.4.9`  `3.4.10`                                            |
+| `3.5.9`                                                       | `3.5.6`  `3.5.9`                                             |
+| `3.6.10`                                                      | `3.6.7`  `3.6.8`  `3.6.10`                                   |
+| `3.7.7`                                                       | `3.7.0`  `3.7.1`  `3.7.2`  `3.7.7`                           |
+| `3.8.2`  `3.8.3`                                              | `3.8.0`  `3.8.3`                                             |
 
-  | Latest minor version | Deprecated and removed   |
-  | -------------------- | ------------------------ |
-  | `2.7.17`             | `2.7.15` `2.7.16`        |
-  | `3.4.10`             | `3.4.9`                  |
-  | `3.5.9`              | `3.5.6`                  |
-  | `3.6.10`             | `3.6.7`  `3.6.8`         |
-  | `3.7.7`              | `3.7.0`  `3.7.1` `3.7.2` |
-  | `3.8.2`              | `3.8.0`                  |
 
-  If you created any virtualenvs with these versions, you will need to recreate them.
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 3.8.2 for 3.8). If you created any `virtualenvs` with these versions, you will need to recreate them.
 
 ### Ruby
 
-- Version 1.9.2-p320 will be removed and automatically replaced by version 1.9.3-p551.
+| Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `1.8.7-p374`                                                  | `1.8.7-p374`                                                 |
+| `1.9.3-p551`                                                  | `1.9.2-p3201` `1.9.3-p551`                                   |
+| `2.0.0-p648`                                                  | `2.0.0-p648`                                                 |
+| `2.1.10`                                                      | `2.1.10`                                                     |
+| `2.2.10`                                                      | `2.2.10`                                                     |
+| `2.3.8`                                                       | `2.3.8`                                                      |
+| `2.4.9` `2.4.10`                                              | `2.4.5`                                                      |
+| `2.5.7` `2.5.8`                                               | `2.5.3`      `2.5.5`                                         |
+| `2.6.5` `2.6.6`                                               | `2.6.0`      `2.6.2`                                         |
+| `2.7.0` `2.7.1`                                               | `-`                                                          |
 
-- The following minor versions will be removed and automatically replaced by the latest available minor version
-
-  | Latest minor version | Deprecated and removed |
-  | -------------------- | ---------------------- |
-  | `2.4.9`              | `2.4.4` `2.4.5`        |
-  | `2.5.7`              | `2.5.3` `2.5.5`        |
-  | `2.6.5`              | `2.6.0`                |
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 2.6.5 for 2.6).
 
 ### Node.js
 
-- The following minor versions will be removed, and automatically replaced by the latest available minor version
+| Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `6.17.1`                                                      | `6.14.4` `6.16.0`  `6.17.0`                                  |
+| `8.17.0`                                                      | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`                        |
+| `9.11.2`                                                      | `9.11.1`                                                     |
+| `10.19.0` `10.20.1`                                           | `10.9.0` `10.12.0` `10.13.0` `10.15.1` `10.15.3`             |
+| `11.15.0`                                                     | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`                       |
+| `12.16.1` `12.16.3`                                           | `12.0.0` `12.14.0`                                           |
+| `13.11.0` `13.14.0`                                           | `-`                                                          |
+| `14.2.0`                                                      | `-`                                                          |
 
-  | Latest minor version | Deprecated and removed                           |
-  | -------------------- | ------------------------------------------------ |
-  | `6.17.1`             | `6.14.4` `6.16.0`  `6.17.0`                      |
-  | `8.17.0`             | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`            |
-  | `9.11.2`             | `9.11.1`                                         |
-  | `10.19.0`            | `10.9.0` `10.12.0` `10.13.0` `10.15.1` `10.15.3` |
-  | `11.15.0`            | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`           |
-  | `12.16.1`            | `12.0.0` `12.14.0`                               |
+- Minor removed versions will automatically be replaced by the closest minor version (e.g. 12.16.1 for 12).
 
 ### Elixir
 
-- Version 1.5.3 will be removed and automatically replaced by version 1.6.6.
+| Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `1.10.2` `1.10.3`                                             | `-`                                                          |
+| `1.9.4`                                                       | `-`                                                          |
+| `1.8.2`                                                       | `-`                                                          |
+| `1.7.4`                                                       | `1.7.3` `1.7.4`                                              |
+| `1.6.6`                                                       | `1.5.3` `1.6.6`                                              |
 
-- The following minor version has been deleted and automatically replaced by the latest available minor version: 1.7.3.
+- Minor removed versions will automatically be replaced the closest minor version.
 
 ### Java
 
@@ -152,7 +172,7 @@ The following services, when installed, will be updated:
 - *RabbitMQ*, version 3.7.8.
 - *Redis*, version 5.0
 
-Upgrades of *MySQL* (not MariaDB) and *ElasticSearch* will be discussed with clients on a case-by-case basis.
+Upgrades of *MySQL* (not MariaDB) and *ElasticSearch* will be discussed with users on a case-by-case basis.
 
 Only the language versions *explicitly used*, either in the **Web > Sites** section or in the **Environment** section, will now be preinstalled on the system. For example, if neither the default version of Python (defined in **Environment > Python**) nor any of your sites (**Web > Sites**) uses Python 2.4.6, then this version will no longer be preinstalled. However, it will be automatically installed if you create a site with this version of Python, or if you change the default version of Python.
 
@@ -176,7 +196,7 @@ In parallel to the Buster migration, we provide database migrations. You can [te
 
 ## Migration process
 
-When you click on the **Migrate** button the process usually starts immediately, but there may be a delay of several minutes depending on the number of clients migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
+When you click on the **Migrate** button the process usually starts immediately, but there may be a delay of several minutes depending on the number of users migrating at the same time. The migration is done in several successive steps, **service by service**. For example, your files will be migrated before your databases.
 
 - The migration of your files, performed first, will cause a downtime of your websites (which will display an *internal error*), your scheduled tasks, or your remote accesses (SSH, FTP, etc.). However, the downtime will be **short** (a few seconds in general, more if you have tens of thousands of files), as these files are **pre-copied** beforehand.
 
@@ -184,9 +204,15 @@ When you click on the **Migrate** button the process usually starts immediately,
 
 You can check if the migration is complete via the [*Tasks*](https://admin.alwaysdata.com/task) menu (top right corner of your administration interface).
 
-## Common issues
+## Tips & common issues
+
+- Accounts are relocated during the migration. There may be a DNS propagation delay and it is necessary to update its `known_hosts` file for the SSH connection. You can do this via the command (*[account] to be replaced by the account name*):
+
+```
+ssh-keygen -R ssh-[account].alwaysdata.net
+```
 
 - Drupal
-    - [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **9**.
+    - [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **8.9**.
 - Odoo
     - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

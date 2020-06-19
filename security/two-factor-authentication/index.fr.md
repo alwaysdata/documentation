@@ -12,7 +12,7 @@ L'[authentification à deux facteurs](https://fr.wikipedia.org/wiki/Authentifica
 
 La technologie choisie par alwaysdata est l'algorithme [Time-based One Time Password](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) (TOTP) : **partage d'un code secret individuel et à usage unique** entre notre base de données et les applications d'authentification forte clientes.
 
-Pour l'utiliser, rendez-vous dans **Profil > Sécurité** pour activer l'_Authentification à deux facteurs_.
+Pour l'utiliser, rendez-vous dans **Profil** pour activer l'_Authentification à deux facteurs_.
 {{< fig "images/profile-security.fr.png" >}}
 Cela vous donnera accès à vos codes personnels (code secret et QR code).
 

@@ -1,9 +1,9 @@
 +++
-url = "/fr/comptes/obligations-légales-sur-internet/"
+url = "/fr/sites/obligations-légales-sur-internet/"
 title = "Les obligations légales sur Internet"
 menuTitle = "Obligations légales sur Internet"
 layout = "man"
-weight = 90
+hidden = true
 tags = ["légal", "site"]
 +++
 

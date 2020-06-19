@@ -43,7 +43,11 @@ Your Java environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Java, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section. You need to specify the command that will start your Java application, for example:
+To deploy an HTTP application with Java, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section.
+
+{{< fig "images/user-program.en.png" "User Program Site Type">}}
+
+You need to specify the command that will start your Java application, for example:
 
 - [v2017]({{< ref "accounts/version" >}}):
 

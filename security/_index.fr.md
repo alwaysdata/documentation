@@ -18,5 +18,5 @@ tags = ["sécurité"]
 ## Services d'alwaysdata et sites web
 
 - [SSL/TLS]({{< relref "ssl-tls" >}})
-- [Mode restreint]({{< relref "restricted-mode" >}}) : limitation des désagréments liés aux abus clients
+- [Mode restreint]({{< relref "restricted-mode" >}}) : limitation des désagréments liés aux abus utilisateurs
 - [Réseau]({{< relref "network" >}}) : gestion du réseau et protections contre les pirates informatiques
