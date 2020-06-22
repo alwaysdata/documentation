@@ -19,6 +19,8 @@ Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en
 
 Whatever the question, you can also contact us via our [IRC channel](irc://irc.freenode.net/alwaysdata) or [Twitter](https://twitter.com/alwaysdata).
 
+Want to show your support? [Give us some ❤]({{<ref "love">}}) !
+
 {{% notice tip %}}
 Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requirements-on-internet">}}), make yourself aware of them before placing your content on-line.
 {{% /notice %}}
@@ -36,7 +38,7 @@ Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requ
 
 ## Contributing to documentation
 
-If you wish to help us improve the documentation, please don’t
+If you wish to help us improve the documentation, please don't
 hesitate! Here are some tips for optimizing how you write your article
 and integrate it. Use:
 

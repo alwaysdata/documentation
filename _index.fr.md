@@ -19,19 +19,21 @@ Vous n'êtes pas encore client ? Contactez notre [service commercial](https://ww
 
 Quelle que soit la question, vous pouvez aussi nous contacter via notre [canal IRC](irc://irc.freenode.net/alwaysdata) ou [Twitter](https://twitter.com/alwaysdata).
 
+Vous nous aimez ? [Montrez-nous votre ❤]({{<ref "love">}}) !
+
 {{% notice tip %}}
 Toute publication sur Internet comporte des [obligations légales]({{<ref "sites/legal-requirements-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.
 {{% /notice %}}
 
 ## Terminologie
 
-- **API** (Application Programming Interface) : interface de programmation permettant d’automatiser la gestion de vos ressources.
+- **API** (Application Programming Interface) : interface de programmation permettant d'automatiser la gestion de vos ressources.
 - **Compte** : espace d'hébergement sur lequel sont placés les sites, domaines, emails... Il est relié à un profil et placé sur un (ou plusieurs) serveur(s).
-- **Interface d'administration**, **Admin** ou encore **espace client** : espace privatif accessible [en ligne](https://admin.alwaysdata.com) contenant les informations relatives aux services alwaysdata et permettant d’y effectuer les opérations de gestion de ces services.
+- **Interface d'administration**, **Admin** ou encore **espace client** : espace privatif accessible [en ligne](https://admin.alwaysdata.com) contenant les informations relatives aux services alwaysdata et permettant d'y effectuer les opérations de gestion de ces services.
 - **Profil**, **client** ou **utilisateur** : utilisateur de l'interface d'administration alwaysdata. Cette personne physique ou morale a validé les [contrats d'alwaysdata](https://www.alwaysdata.com/fr/mentions-legales/).
 - **Serveur** : dispositif informatique sur lequel est placé des comptes. Ce peut être un serveur physique ou une machine virtuelle.
-- **Serveur dédié** : serveur physique dont l’espace de stockage est réservé en intégralité aux données d’un seul utilisateur.
-- **Serveur mutualisé** : serveur dont l’espace de stockage est partagé entre de nombreux utilisateurs.
+- **Serveur dédié** : serveur physique dont l'espace de stockage est réservé en intégralité aux données d'un seul utilisateur.
+- **Serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
 - **Serveur VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
 
 
