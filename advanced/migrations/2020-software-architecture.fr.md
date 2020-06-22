@@ -152,6 +152,8 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en conséquence réinitialisées à 0770.
 
+- Les binaires des langages sont désormais installés à la demande. Dans le cas où vous auriez besoin, par exemple, de `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, assurez-vous d'avoir lancé préalablement `python` en version 2.7.18 au moins une fois.
+
 ### Mises à jour diverses
 
 De très nombreux logiciels et bibliothèques seront mis à jour (nos serveurs passent sous Debian Buster, auparavant Debian Jessie). Parmi les mises à jour notables :
@@ -193,6 +195,10 @@ Nous vous incitons vivement à faire ces changements avant d'effectuer la migrat
 ### Bases de données
 
 En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+
+Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster fermera les autres migrations.
+
+Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveurs de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration]({{< ref "advanced/migrations/2020-software-architecture#préparation-de-la-migration" >}}).
 
 ## Déroulement de la migration
 
