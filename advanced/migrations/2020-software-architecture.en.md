@@ -152,6 +152,8 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Your home directory permissions will therefore be reset to 0770.
 
+- Language binaries are now installed on-demand. In case your would need, for instance, `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, make sure you have launched `python` in version 2.7.18 at least once.
+
 ### Miscellaneous Updates
 
 A lot of software and libraries will be updated (our servers are running Debian Buster, formerly Debian Jessie). Among the notable updates :
@@ -193,6 +195,10 @@ We encourage you to make these changes before you migrate.
 ### Databases
 
 In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
+
+Users on shared servers can perform these tests in parallel to the Buster migration. The Buster migration will close the other migrations.
+
+For users of VPS and dedicated servers, the database migration test is associated to the Buster migration. The **Test** button will only **copy** the databases to the test server. Regarding HTTP deployment refer to the [Migration preparation]({{< ref "advanced/migrations/2020-software-architecture#migration-preparation" >}}) section.
 
 ## Migration process
 
