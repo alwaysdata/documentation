@@ -34,7 +34,7 @@ Adding all the addresses in this menu is mandatory to access them as sites. For 
     - [Custom Apache]({{< ref "sites/apache-custom" >}}): to fully configure your Apache server,
     - [User program]({{< ref "sites/user-program" >}}): to run any web server.
 
-PHP, static and custom Apache files are served by [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack and Ruby on Rails <= 2.x use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
+PHP, Static Files and Custom Apache websites are served by [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack and Ruby on Rails <= 2.x use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
 -   [SSL]({{< ref "security/ssl-tls/redirect-http-to-https">}}): redirect HTTP to HTTPS,
     {{< fig "images/admin-panel_add-site-ssl.en.png" "Add a site: SSL" >}}

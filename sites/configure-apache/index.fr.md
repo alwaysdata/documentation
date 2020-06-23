@@ -12,6 +12,8 @@ tags = ["apache", "http", "site"]
 
 L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier `$HOME/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier `$HOME/admin/logs/apache/apache.log`.
 
+Apache sert les sites de type PHP, Fichiers statiques et Apache personnalisé.
+
 - [Documentation Apache 2.2](http://httpd.apache.org/docs/2.2/fr/)
 - [Documentation Apache 2.4](http://httpd.apache.org/docs/2.4/fr/)
 - [Fichier .htaccess]({{< ref "sites/htaccess-file" >}})

@@ -12,6 +12,8 @@ tags = ["apache", "http", "site"]
 
 All of the modifications made in the *Apache global directives* field will impact the `$HOME/admin/config/apache/sites.conf` file. Apache error logs are available in file `$HOME/admin/logs/apache/apache.log`.
 
+Apache serves PHP, Static Files and Custom Apache websites.
+
 - [Apache 2.2 documentation](http://httpd.apache.org/docs/2.2/en/)
 - [Apache 2.4 documentation](http://httpd.apache.org/docs/2.4/en/)
 - [File .htaccess]({{< ref "sites/htaccess-file" >}})
