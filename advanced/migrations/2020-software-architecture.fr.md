@@ -219,5 +219,5 @@ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 - Drupal
     - [Précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **8.9**.
-- Odoo
-    - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
+
+- Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
