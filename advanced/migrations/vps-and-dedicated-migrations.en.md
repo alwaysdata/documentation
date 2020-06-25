@@ -22,7 +22,7 @@ To avoid the need to suddenly migrate your server and therefore all of the accou
 While your server is being reinstalled, its IP addresses will be rerouted to the transit server so that your services remain accessible as usual. A short down time for these IPs (lasting around a minute) will however need to be allowed for. If you use our DNS servers, the traffic will in any case be redirected ahead of time to the transit server's IP addresses so you will not encounter any down time.
 
 {{% notice note %}}
-The transit server will be made available at no extra cost for a period of up to one week. If you have not finished migrating all of your accounts by the end of the week, the transit server will be billed at the same price as your dedicated/VPS server (prorata to the number of days) — in addition to the normal server that is still charged normally.
+The transit server will be made available at no extra cost for a period of up to two week. If you have not finished migrating all of your accounts by the end of these weeks, the transit server will be billed at the same price as your dedicated/VPS server (prorata to the number of days) — in addition to the normal server that is still charged normally.
 {{% /notice %}}
 
 The availability of the transit server will depend on availability at the time of your request. You may therefore have to wait until a server is released.
