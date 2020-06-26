@@ -190,7 +190,7 @@ A number of actions can be performed on the [2017]({{< ref "accounts/version" >}
 
 - change the language versions to the *last minor*. This is done in the **Environment** menu and/or at the sites level in **Web > Sites**. You can, for example, switch to PHP 7.3.9 to replace PHP 7.3.0.
 
-We encourage you to make these changes before you migrate.
+We encourage you to make these changes in production, before you migrate.
 
 ### Databases
 

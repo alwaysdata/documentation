@@ -190,7 +190,7 @@ Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017](
 
 - changer les versions des langages pour passer sur les _dernières mineures_. Cela se passe dans le menu **Environnement** et/ou au niveau de vos sites dans **Web > Sites**. Vous pouvez, par exemple, passer sur PHP 7.3.9 en remplacement de PHP 7.3.0.
 
-Nous vous incitons vivement à faire ces changements avant d'effectuer la migration.
+Nous vous incitons vivement à faire ces changements en production, avant d'effectuer la migration.
 
 ### Bases de données
 

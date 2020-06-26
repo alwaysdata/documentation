@@ -13,8 +13,8 @@ In a shared environment, during a migration, the accounts are migrated to a new 
 
 To avoid the need to suddenly migrate your server and therefore all of the accounts located there, migrations take place in a number of steps:
 
-- You prepare the migrations for all of your accounts (like shared ones),
-- Once you are ready to start actually migrating your accounts, we will make a transit server available with the same configuration as your dedicated or VPS server,
+- You prepare the migrations for all of your accounts (like shared ones). When you finished preparing all your accounts, [tell us](https://admin.alwaysdata.com/support/). We will remove from your server all versions of the languages that no longer exist under the new infrastructure, which will allow you to check one last time that you are ready. This step is reversible, if necessary,
+- We assign you a transit server with the same configuration as your dedicated or VPS server,
 - Then you can migrate each of your accounts, one by one. They will be moved to this transit server,
 - Once all of your accounts have been migrated to this transit server, your initial server will be reinstalled to run on the new version of our software infrastructure,
 - Lastly, all of your accounts then located on the transit server, will be transparently moved back to the initial server.
