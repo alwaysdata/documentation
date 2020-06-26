@@ -144,7 +144,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The temporary files directory **(TEMPDIR)** is now `~/admin/tmp` instead of `/tmp`. PHP sessions, for example, are created in this directory.
 
-- For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
+- For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**. The new IP will be given in the helptext of the website command.
 
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
 
