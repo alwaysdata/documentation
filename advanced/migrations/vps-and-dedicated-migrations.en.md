@@ -19,7 +19,9 @@ To avoid the need to suddenly migrate your server and therefore all of the accou
 - Once all of your accounts have been migrated to this transit server, your initial server will be reinstalled to run on the new version of our software infrastructure,
 - Lastly, all of your accounts then located on the transit server, will be transparently moved back to the initial server.
 
-While your server is being reinstalled, its IP addresses will be rerouted to the transit server so that your services remain accessible as usual. A short down time for these IPs (lasting around a minute) will however need to be allowed for. If you use our DNS servers, the traffic will in any case be redirected ahead of time to the transit server's IP addresses so you will not encounter any down time.
+Reinstalling the server takes several hours. During this operation, its IP addresses will be rerouted to the transit server so that your services remain accessible as usual. A short down time for these IPs (lasting around a minute) will however need to be allowed for. If you use our DNS servers, the traffic will in any case be redirected ahead of time to the transit server's IP addresses so you will not encounter any down time.
+
+The final relocation of accounts entails a downtime per account of a few seconds to a few minutes; depending on the size of each account (especially databases).
 
 {{% notice note %}}
 The transit server will be made available at no extra cost for a period of up to two week. If you have not finished migrating all of your accounts by the end of these weeks, the transit server will be billed at the same price as your dedicated/VPS server (prorata to the number of days) — in addition to the normal server that is still charged normally.
