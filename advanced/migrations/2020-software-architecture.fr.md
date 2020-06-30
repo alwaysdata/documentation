@@ -144,7 +144,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - Le répertoire des fichiers temporaires **(TEMPDIR)** devient `~/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
 
-- Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**.
+- Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**. La nouvelle IP sera donnée dans le helptext de la commande du site web.
 
 - Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez utiliser `PORT` et `IP`.
 
@@ -190,7 +190,7 @@ Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017](
 
 - changer les versions des langages pour passer sur les _dernières mineures_. Cela se passe dans le menu **Environnement** et/ou au niveau de vos sites dans **Web > Sites**. Vous pouvez, par exemple, passer sur PHP 7.3.9 en remplacement de PHP 7.3.0.
 
-Nous vous incitons vivement à faire ces changements avant d'effectuer la migration.
+Nous vous incitons vivement à faire ces changements en production, avant d'effectuer la migration.
 
 ### Bases de données
 
@@ -219,5 +219,5 @@ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 - Drupal
     - [Précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **8.9**.
-- Odoo
-    - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
+
+- Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

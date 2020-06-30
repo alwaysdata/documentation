@@ -34,5 +34,6 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Means of payment]({{< relref "billing/payment-methods" >}})
 - [Sponsorship]({{< relref "billing/sponsorship" >}})
 - [Change plan]({{< relref "billing/upgrade-your-plan" >}})
-- [Interventions fees]({{< ref "servers-interventions" >}})
+- [Interventions fees]({{< relref "billing/servers-interventions" >}})
+- [Options prices - old configurations]({{< relref "billing/prices-options-old-configurations" >}})
 - [Miscellaneous questions]({{< relref "./billing/misc" >}})

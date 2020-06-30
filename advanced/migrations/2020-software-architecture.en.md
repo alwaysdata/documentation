@@ -144,7 +144,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The temporary files directory **(TEMPDIR)** is now `~/admin/tmp` instead of `/tmp`. PHP sessions, for example, are created in this directory.
 
-- For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**.
+- For sites such as Node.js, Elixir, and User Program, the internal IP (defined in the `IP` environment variable) that your application should listen on will change to **IPv6**. The new IP will be given in the helptext of the website command.
 
 - The `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables are no longer available, you must use `PORT` and `IP`.
 
@@ -190,7 +190,7 @@ A number of actions can be performed on the [2017]({{< ref "accounts/version" >}
 
 - change the language versions to the *last minor*. This is done in the **Environment** menu and/or at the sites level in **Web > Sites**. You can, for example, switch to PHP 7.3.9 to replace PHP 7.3.0.
 
-We encourage you to make these changes before you migrate.
+We encourage you to make these changes in production, before you migrate.
 
 ### Databases
 
@@ -220,5 +220,5 @@ ssh-keygen -R ssh-[account].alwaysdata.net
 
 - Drupal
     - [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **8.9**.
-- Odoo
-    - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
+
+- Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
