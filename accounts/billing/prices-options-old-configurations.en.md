@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "dedicated server"]
 +++
 
-Here is the price of options for dedicated servers with a configuration installed before [March 2020](https://blog.alwaysdata.com/2020/03/03/harderware-better-faster-stronger/).
+This table presents the prices for dedicated servers options on a configuration installed before [March 2020](https://blog.alwaysdata.com/2020/03/03/harderware-better-faster-stronger/).
 
 | Detail    | Prices/month (VAT excluded) | Prices/year (VAT excluded) |
 | --------- | --------------------------- | -------------------------- |
@@ -21,8 +21,8 @@ Here is the price of options for dedicated servers with a configuration installe
 | **RAM**   |                             |                            |
 | 16GB [^1] | 10€                         | 100€                       |
 
-Adding/change of configuration operations prices are available [here]({{< ref "accounts/billing/servers-interventions" >}}).
+Adding/change of configuration operations prices are available in the [servers operation page]({{< ref "accounts/billing/servers-interventions" >}}).
 
 Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 
-[^1]: RAM is added per segment of 16GB.
+[^1]: RAM is added per slot of 16GB.
