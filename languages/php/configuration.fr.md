@@ -89,7 +89,7 @@ Si vous souhaitez modifier ce `php.ini`, vous pouvez le faire dans la section **
 
 Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des paramètres qu'à certains répertoires.
 
----
+## Déploiement HTTP
 
 Gérer les versions de PHP par site entraîne une consommation plus importante de RAM car les sites ne peuvent alors pas se partager les processus PHP. Il est donc préconisé :
 - de privilégier la gestion de PHP au niveau du compte (section Environnement) ;

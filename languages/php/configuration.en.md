@@ -87,7 +87,7 @@ To change this `php.ini`, go to the **Environment > PHP** section (or if you wan
 
 You can also create `.user.ini` files to only apply parameters to some directories.
 
----
+## HTTP deployment
 
 Managing PHP versions per site results in a higher RAM consumption per account. Websites cannot then share PHP processes. It is therefore recommended :
 - to prioritize the management of PHP at the account level (Environment section),
