@@ -26,5 +26,5 @@ deno run --allow-env --allow-net $HOME/myapp/index.ts
 ```
 
 {{% notice warning %}}
-Your application must absolutely listen to IP `0.0.0.0` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
+Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The `IP` / `HOST` and `PORT` environment variables can also be used.
 {{% /notice %}}

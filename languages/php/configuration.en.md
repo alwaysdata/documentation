@@ -86,3 +86,10 @@ zend_extension = /usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-
 To change this `php.ini`, go to the **Environment > PHP** section (or if you want to manage it at the website level in **Web > Sites**). All of the directives that you define will be added to the initial `php.ini` file and can therefore overwrite the default values. There is no limit to what you can define, every PHP option is accessible.
 
 You can also create `.user.ini` files to only apply parameters to some directories.
+
+## HTTP deployment
+
+Managing PHP versions per site results in a higher RAM consumption per account. Websites cannot then share PHP processes. It is therefore recommended :
+- to prioritize the management of PHP at the account level (Environment section),
+- to use few different versions per account,
+- if you have to use several and a certain number of sites use the same version, to group their php.ini via the global php.ini and to switch them on the PHP default version.
