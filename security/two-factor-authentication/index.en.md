@@ -16,4 +16,5 @@ authentication*.
 
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 
+- andOTP: an open-source [Android](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp) TOTP application ([GitHub repository](https://github.com/andOTP/andOTP)).
 - Google Authenticator: an [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605) TOTP application.
