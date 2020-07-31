@@ -40,7 +40,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Port : 5984                                                                                               |
 | RabbitMQ                   | Hôte : rabbitmq-[compte].alwaysdata.net                                                                   |
 |                            | Port : 5672                                                                                               |
-| ElasticSearch              | Hôte : localhost ou 127.0.0.1                                                                             |
+| Elasticsearch              | Hôte : localhost ou 127.0.0.1                                                                             |
 |                            | Ports : 9200 & 9300                                                                                       |
 | Redis                      | Hôte : localhost ou 127.0.0.1                                                                             |
 |                            | Port : 6380                                                                                               |
