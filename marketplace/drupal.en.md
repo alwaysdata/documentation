@@ -1,6 +1,5 @@
 +++
 title = "Drupal"
-menuTitle = "Drupal"
 layout = "man"
 tags = ["drupal"]
 +++

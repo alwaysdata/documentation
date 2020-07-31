@@ -1,6 +1,5 @@
 +++
 title = "WordPress"
-menuTitle = "WordPress"
 layout = "man"
 tags = ["wordpress"]
 +++

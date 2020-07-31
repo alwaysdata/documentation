@@ -1,7 +1,6 @@
 +++
 url = "/fr/applithèque/prestashop/"
 title = "PrestaShop"
-menuTitle = "PrestaShop"
 layout = "man"
 tags = ["prestashop"]
 +++
