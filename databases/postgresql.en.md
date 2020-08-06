@@ -59,7 +59,7 @@ Several options :
 - use the following command :
 
     ```
-    $ xzcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
+    $ xzcat $HOME/admin/backup/[date]/postgresql/[database].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
     ```
 
 - get the tarbal and use the client of your choice.
