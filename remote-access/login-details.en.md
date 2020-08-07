@@ -38,7 +38,7 @@ it was created.
 |                          | Port: 5984                                                                                         |
 | RabbitMQ                 | Host: rabbitmq-[account].alwaysdata.net                                                            |
 |                          | Port: 5672                                                                                         |
-| ElasticSearch            | Host: localhost or 127.0.0.1                                                                       |
+| Elasticsearch            | Host: localhost or 127.0.0.1                                                                       |
 |                          | Ports: 9200& 9300                                                                                  |
 | Redis                    | Host: localhost or 127.0.0.1                                                                       |
 |                          | Port: 6380                                                                                         |

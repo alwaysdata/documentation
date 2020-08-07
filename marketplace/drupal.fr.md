@@ -1,7 +1,6 @@
 +++
 url = "/fr/applithèque/drupal/"
 title = "Drupal"
-menuTitle = "Drupal"
 layout = "man"
 tags = ["drupal"]
 +++

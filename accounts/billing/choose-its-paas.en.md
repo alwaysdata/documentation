@@ -21,7 +21,7 @@ alwaysdata proposes four kinds of environment:
 ||||[Monitoring probes]({{< ref "sites/use-probes" >}}), optimization tips|[Monitoring probes]({{< ref "sites/use-probes" >}}), optimization tips|
 |Languages|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|
 |Databases|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|
-|||ElasticSearch, Memcached, Redis|ElasticSearch, Memcached, Redis|ElasticSearch, Memcached, Redis|
+|||Elasticsearch, Memcached, Redis|Elasticsearch, Memcached, Redis|Elasticsearch, Memcached, Redis|
 |||Further possible, on request|Further possible, on request|Further possible, on request|
 |E-mails|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|
 |||SMTP queue, SMTP relay|SMTP queue, SMTP relay|SMTP queue, SMTP relay|

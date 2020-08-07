@@ -1,7 +1,6 @@
 +++
 url = "/fr/applithèque/wordpress/"
 title = "WordPress"
-menuTitle = "WordPress"
 layout = "man"
 tags = ["wordpress"]
 +++

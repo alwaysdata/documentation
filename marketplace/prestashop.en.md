@@ -1,6 +1,5 @@
 +++
 title = "PrestaShop"
-menuTitle = "PrestaShop"
 layout = "man"
 tags = ["prestashop"]
 +++
