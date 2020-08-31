@@ -76,7 +76,7 @@ Different dates apply:
 |.city|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.claims|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.cleaning|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.click|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.click|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.clinic|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.clothing|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.club|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -113,7 +113,7 @@ Different dates apply:
 |.design|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.dev|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.diamonds|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.diet|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.diet|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.digital|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.direct|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.directory|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -152,7 +152,7 @@ Different dates apply:
 |.garden|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gd|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Up to 30 days after expiry|35 days after expiry|
 |.gent|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.gift|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.gift|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gifts|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gives|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gl|Until expiry|Impossible|Day of expiry|Up to 30 days after expiry|30 days after expiry|
@@ -165,18 +165,18 @@ Different dates apply:
 |.gripe|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gs|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 27 days after expiry|27 days after expiry|
 |.guide|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.guitars|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.guitars|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.guru|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gy|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 27 days after expiry|27 days after expiry|
 |.haus|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.help|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
-|.hiphop|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.help|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
+|.hiphop|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.hk|Up to 2 days prior to expiry|Impossible|2 days prior to expiry|Between 2 days prior to expiry and 58 days after expiry|58 days after expiry|
 |.hn|Up to 4 days after expiry||||19 days after expiry|
 |.holdings|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.holiday|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.host|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.hosting|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.hosting|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.house|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.how|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.ht|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 27 days after expiry|34 days after expiry|
@@ -196,7 +196,7 @@ Different dates apply:
 |.jetzt|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.joburg|Until expiry|Up to 10 days after expiry|10 days after expiry|Between 10 to 30 days after expiry|30 days after expiry|
 |.jp|30 to 6 days before expiry|Impossible|6 days prior to expiry|Contact [support](https://admin.alwaysdata.com/support/add/).|Contact [support](https://admin.alwaysdata.com/support/add/).|
-|.juegos|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.juegos|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.kitchen|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.kiwi|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.koeln|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -212,7 +212,7 @@ Different dates apply:
 |.lighting|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.limited|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.limo|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.link|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.link|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.loans|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.london|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.love|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -258,10 +258,10 @@ Different dates apply:
 |.party|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.pe|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Impossible|1 day prior to expiry|
 |.ph|Until expiry|Up to 59 days after expiry|59 days after expiry|Impossible|59 days after expiry|
-|.photo|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.photo|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.photography|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.photos|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.pics|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.pics|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.pictures|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.pink|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.pizza|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -274,7 +274,7 @@ Different dates apply:
 |.pro|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.productions|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.properties|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.property|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.property|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.pt|Up to 2 days prior to expiry||||30 days after expiration|
 |.pub|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.qpon|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -300,7 +300,7 @@ Different dates apply:
 |.science|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.se|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 59 days after expiry|64 days after expiry|
 |.services|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.sexy|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.sexy|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shiksha|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shoes|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shop|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
@@ -319,7 +319,7 @@ Different dates apply:
 |.surf|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.surgery|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.systems|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.tattoo|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 225 days after expiry|230 days after expiry|
+|.tattoo|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.tax|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.tc|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 28 days after expiry|33 days after expiry|
 |.tech|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
