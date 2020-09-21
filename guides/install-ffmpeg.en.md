@@ -14,11 +14,12 @@ If you own a VPS or dedicated server, contact our [support](https://admin.always
 
 In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
 
--   Account name: `foo`
--   ffmpeg directory: `$HOME/ffmpeg/`
-    ```
-    foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar -xJf --strip-components=1
-    ```
+- Account name: `foo`
+- ffmpeg directory: `$HOME/ffmpeg/`
+
+```
+foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar xJf --strip-components=1
+```
 
 Binary files will be available in the `$HOME/ffmpeg/` directory.
 

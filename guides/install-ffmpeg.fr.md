@@ -19,7 +19,7 @@ Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}
 - Répertoire de ffmpeg : `$HOME/ffmpeg/`
 
 ```
-foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar -xJf --strip-components=1
+foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar xJf --strip-components=1
 ```
 
 Les binaires seront disponibles dans le répertoire `$HOME/ffmpeg/`.
