@@ -33,4 +33,5 @@ tags = ["administration", "api"]
 | ssl certificate       | Certificats SSL                      | https://api.alwaysdata.com/v1/ssl/doc/                |
 | subdomain             | Sous-domaines                        | https://api.alwaysdata.com/v1/subdomain/doc/          |
 | subscription          | Abonnements souscrits                | https://api.alwaysdata.com/v1/subscription/doc/       |
+| token                 | Tokens d'accès                       | https://api.alwaysdata.com/v1/token/doc/              |
 | webdav user           | Utilisateurs WebDAV                  | https://api.alwaysdata.com/v1/webdav/doc/             |
