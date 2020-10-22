@@ -10,3 +10,7 @@ chapter = true
 Here you will find advanced issues or ones specific to alwaysdata.
 
 - [Migrations]({{< relref "migrations" >}})
+
+## Dedicated and VPS servers
+
+- [System resources: alerts and limitations]({{< relref "system-resources-alerts-and-limitations" >}})
