@@ -5,7 +5,7 @@ hidden = true
 tags = ["security", "dedicated", "vps"]
 +++
 
-The firewall is managed from the dedicated server's **Firewall** menu.
+The firewall is managed from the server's **Firewall** menu.
 
 ## Rules
 
