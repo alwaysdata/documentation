@@ -49,18 +49,7 @@ Plus la note est basse mieux l'email sera noté et l'envoi accepté. En serveurs
 
 Suivant cette notation, le message sera expédié via une adresse IP ayant une réputation plus ou moins bonne. Ainsi, en optimisant la qualité de vos emails et leurs envois, vous aurez moins de chance pour que votre message soit considéré comme indésirable.
 
-Ce système utilise [SpamAssassin](https://spamassassin.apache.org/). Selon son score, il va enclencher une règle de notre antispam :
-
-- `+1` SpamAssassin score: medium => le score de SpamAssassin est compris entre 0 et 3 ;
-- `+2` SpamAssassin score: high => le score de SpamAssassin est compris entre 3 et 8 ;
-- `+3` SpamAssassin score: very high => le score de SpamAssassin est supérieur à 8.
-
-Et un ensemble de règles propres à son système :
-
-- `+1`: Mass emails : le compte a envoyé un grand nombre de mails au cours des dernières minutes ;
-- `+1`: Customer is [restricted]({{<ref "security/restricted-mode">}}) ;
-- `+1`: New customer : le profil a été créé récemment ;
-- `+X`: Too many bounces (in percentile) : le compte a envoyé trop de mails ayant bouncé au cours des dernières heures. Si le nombre est supérieur à *10 %*, le système rajoutera `+1` point et s'il est supérieur à *30 %*, `+2` points.
+Ce système utilise [Rspamd](https://rspamd.com/) et un ensemble de règles propres à alwaysdata.
 
 Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi de mails vous pouvez louer une IP dédiée dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
 

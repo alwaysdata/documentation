@@ -23,21 +23,15 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 
 ## Antispam
 
-L'antispam utilisé pour filtrer le courrier électronique publicitaire non souhaité (_spam_) est le logiciel libre [SpamAssassin](http://spamassassin.apache.org/).
+L'antispam utilisé pour filtrer le courrier électronique publicitaire non souhaité (_spam_) est le logiciel libre [Rspamd](https://rspamd.com/).
 
 {{< fig "images/admin-panel_mailbox_antispam.fr.png" "Interface d'administration : Emails - Antispam" >}}
 
 - _Score_ : l'anti-spam attribue à chaque message un score suivant la probabilité qu'il s'agisse d'un spam. Les messages dépassant ce score seront stockés dans un dossier. Plus le score est bas, plus un email a la possibilité d'être marqué comme spam, il est donc préférable de laisser la valeur par défaut ;
-- _Dossier_ : dossier dans lequel les spams seront déplacés. Pour indiquer la corbeille, mettez `Trash` ;
+- _Dossier_ : dossier dans lequel les spams seront déplacés. Le dossier par défaut est `Spam` ;
 - _Score des spams à supprimer_ : les messages dépassant ce score seront directement supprimés, sans même être stockés dans le dossier des spams. À moins de savoir ce que vous faites, laissez la valeur par défaut.
 
-## Antivirus
-
-L'antivirus utilisé pour filtrer le courrier électronique potentiellement infecté est le logiciel libre [ClamAV](http://www.clamav.net/).
-
-{{< fig "images/admin-panel_mailbox_antivirus.fr.png" "Interface d'administration : Emails - Antivirus" >}}
-
-- _Dossier_ : si l'antivirus a jugé le message comme infecté, alors celui-ci est déplacé dans ce dossier. Pour indiquer la corbeille, mettez `Trash`. 
+L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer le courrier électronique potentiellement infecté.
 
 ## Purge des dossiers
 
