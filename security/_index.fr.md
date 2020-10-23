@@ -20,3 +20,4 @@ tags = ["sécurité"]
 - [SSL/TLS]({{< relref "ssl-tls" >}})
 - [Mode restreint]({{< relref "restricted-mode" >}}) : limitation des désagréments liés aux abus utilisateurs
 - [Réseau]({{< relref "network" >}}) : gestion du réseau et protections contre les pirates informatiques
+- [Plages d'IP alwaysdata]({{< relref "ip-ranges" >}})

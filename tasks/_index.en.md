@@ -17,6 +17,10 @@ Two kinds of information need to be provided:
 
 {{< fig "admin-panel_create-task.en.png" "Administration interface: create a scheduled task" >}}
 
+{{% notice note %}}
+If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref "security/ip-ranges" >}}).
+{{% /notice %}}
+
 ---
 - [Use scheduled tasks]({{< ref "tasks/use-scheduled-tasks" >}})
 - [API reference](https://api.alwaysdata.com/v1/job/doc/)
