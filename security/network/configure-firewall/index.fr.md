@@ -6,7 +6,7 @@ hidden = true
 tags = ["sécurité", "serveur dédié", "serveur vps"]
 +++
 
-Le pare-feu se gère dans le menu **Firewall** du serveur dédié.
+Le pare-feu se gère dans le menu **Firewall** du serveur.
 
 ## Règles
 Menu pour retrouver, créer et ajuster ses règles de pare-feu.

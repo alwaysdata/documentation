@@ -68,6 +68,6 @@ Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'a
 
 ## Exclure des IP
 
-Il peut être intéressant d'exclure des **IP sûres** pour éviter à des outils ou des personnes d'être bloqués. 
+Il peut être intéressant d'exclure des **IP sûres** (IP spécifiques ou plages d'IP) pour éviter à des outils ou des personnes d'être bloqués.
 
 Prenons l'exemple de [WPScan](https://wpscan.org/) : en l'activant sur un site WordPress certaines des requêtes qu'il effectue peuvent être bloquées. Exclure des règles ou des chemins ne serait pas efficace comme il observe de nombreuses URLs. La solution est donc d'exclure le serveur HTTP sur lequel est installé WPScan pour qu'il puisse fonctionner normalement.

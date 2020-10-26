@@ -18,6 +18,10 @@ Deux types d’in­for­ma­tions sont à fournir :
 
 {{< fig "admin-panel_create-task.fr.png" "Interface d’ad­mi­nis­tra­tion : créer une tâche pla­ni­fiée" >}}
 
+{{% notice note %}}
+Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adresses IP]({{< ref "security/ip-ranges" >}}).
+{{% /notice %}}
+
 ---
 - [Utiliser les tâches planifiées]({{< ref "tasks/use-scheduled-tasks" >}})
 - [Référence API](https://api.alwaysdata.com/v1/job/doc/)

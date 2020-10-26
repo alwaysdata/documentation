@@ -48,4 +48,4 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *SSL configuration*: choose the SSL certificate to return to the server (`*.alwaysdata.net` by default) and the server [TLS configuration]({{< ref "security/ssl-tls/configure-tls" >}}),
 - *HTTP configuration*: choose a website that will be the default home page,
 - *Consumption*: monitor disk space consumption for your entire server,
-- *Resources*: change the resource limits by account (e.g. RAM usage).
+- *[Resources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})*: change the resource limits by account (e.g. RAM usage).

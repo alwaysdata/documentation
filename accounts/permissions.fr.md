@@ -49,4 +49,4 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS]({{< ref "security/ssl-tls/configure-tls" >}}) du serveur ;
 - _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut ;
 - _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
-- _Ressources_ : modifiez les limitations de ressources par compte (ex : consommation RAM).
+- _[Ressources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})_ : modifiez les limitations de ressources par compte (ex : consommation RAM).

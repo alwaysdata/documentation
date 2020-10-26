@@ -11,3 +11,7 @@ chapter = true
 Vous retrouverez ici des sujets avancés ou spécifiques à alwaysdata.
 
 - [Migrations]({{< relref "migrations" >}})
+
+## Serveurs dédiés et VPS
+
+- [Ressources systèmes : alertes et limitations]({{< relref "system-resources-alerts-and-limitations" >}})

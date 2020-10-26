@@ -67,6 +67,6 @@ Let us take the case of a WordPress type site that shows logs similar to those p
 
 ## Excluding IPs
 
-It may be worth excluding **safe IPs** to stop tools or people from being blocked.
+It may be worth excluding **safe IPs** (specific IPs or IPs ranges) to stop tools or people from being blocked.
 
 Let us take the example of [WPScan](https://wpscan.org/): by activating it on a WordPress site, some of the requests that it runs may be blocked. Excluding rules or paths would not be effective as it observes numerous URLs. The solution is therefore to exclude the HTTP server that WPScan is installed on so that it can operate normally.
