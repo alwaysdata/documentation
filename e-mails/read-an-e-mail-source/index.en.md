@@ -71,30 +71,25 @@ The e-mail source comprises:
     User-Agent: Roundcube Webmail/1.3.10
     ```
 -   Elements linked to antivirus, antispam software:
+
     ```
-    X-alwaysdata-Virus-Report: CLEAN
-    X-alwaysdata-Spam-Score: -2.5
-    X-alwaysdata-Spam-Report: Content analysis details:   (-2.5 points, 5.0 required)
-         pts rule name              description
-        ---- ---------------------- --------------------------------------------------
-        -0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at https://www.dnswl.org/,
-                                    low trust
-                                    [2a00:b6e0:1:40:1:0:10:1 listed in]
-                                    [list.dnswl.org]
-        -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
-                                    [score: 0.0000]
-         0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
-        -0.0 SPF_PASS               SPF: sender matches SPF record
-        -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
-                                    author's domain
-         0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
-                                    valid
-        -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
-                                    envelope-from domain
-        -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
-         0.3 TXREP                  TXREP: Score normalizing based on sender's reputation
+	X-alwaysdata-Spam-Report:
+	0.00 TO_EQ_FROM - To address matches the From address
+	0.00 TO_DN_NONE - None of the recipients have display names
+	0.00 RCVD_VIA_SMTP_AUTH - Authenticated hand-off was seen in Received headers
+	0.00 RCVD_TLS_LAST - Last hop used encrypted transports
+	0.00 RCVD_COUNT_THREE [3] - Message has 3-5 Received headers
+	0.00 RCPT_COUNT_ONE [1] - One recipient
+	0.00 MIME_TRACE [0:+]
+	0.00 MID_RHS_MATCH_FROM - Message-ID RHS matches From domain
+	0.00 FROM_NO_DN - From header does not have a display name
+	0.00 ARC_NA - ARC signature absent
+	-0.10 MIME_GOOD [text/plain] - Known content-type
+	-1.00 NEURAL_HAM [-0.998] - Neural network ham
+	X-alwaysdata-Spam-Score: -1.10
     ```
-    The e-mail does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [SpamAssassin](https://spamassassin.apache.org/) gives a low score allowing the message to be sent.
+
+    The e-mail does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [Rspamd](https://rspamd.com) gives a low score allowing the message to be sent.
 
 ---
 

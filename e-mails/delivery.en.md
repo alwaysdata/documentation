@@ -46,18 +46,7 @@ The lower the score, the better the e-mail will be rated and the sending accepte
 
 Based on this scoring, the message will be sent via an IP address with a more or less good reputation. This way, by optimizing the quality of your e-mails and their content, you will have a better chance of avoiding your message being considered undesirable.
 
-This system uses [SpamAssassin](https://spamassassin.apache.org/). Depending on its score, it will trigger one of our anti-spam rules:
-
-- `+1` SpamAssassin score: medium => SpamAssassin's score is between 0 and 3;
-- `+2` SpamAssassin score: high => SpamAssassin score is between 3 and 8;
-- `+3` SpamAssassin score: very high => SpamAssassin score is higher than 8.
-
-And a set of rules specific to his system :
-
-- `+1`: Mass e-mails: the account sent a large number of e-mails in the last few minutes,
-- `+1`: Customer is [restricted]({{<ref "security/restricted-mode">}}),
-- `+1`: New customer: the profile was recently created,
-- `+X`: Too many bounces (in percentile): the account has sent too much e-mails that were sent back with an error in the last few hours. If the number exceeds *10%*, the system will add `+1` point and if it exceeds *30%*, `+2` points.
+This system uses [Rspamd](https://rspamd.com/) and a set of rules specific to alwaysdata.
 
 In order not to be dependent on abuse from other users being the same mail server you can rent a dedicated IP in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
 

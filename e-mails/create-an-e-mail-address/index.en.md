@@ -21,21 +21,15 @@ Then there will be a series of fields to fill-in. Here are the details.
 
 ## Antispam
 
-The antispam used to filter out undesired e-mail advertising (*spam*) is the open-source software [SpamAssassin](http://spamassassin.apache.org/).
+The antispam used to filter out undesired e-mail advertising (*spam*) is the open-source software [Rspamd](https://rspamd.com/).
 
 {{< fig "images/admin-panel_mailbox_antispam.en.png" "Administration interface: E-mails - Antispam" >}}
 
 - *Score*: the antispam software assigns every message a score based on the probability of it being spam. Messages that exceed this score will be saved in a folder. The lower the score, the more likely an e-mail will be marked out as spam, so it is preferable to leave the default value.
-- *Folder*: the folder that spam is moved to. To specify the trash, enter `Trash`.
+- *Folder*: the folder that spam is moved to. The default folder is `Spam`.
 - *Score for spam to delete*: messages that exceed this score will be deleted immediately, without even being saved in the spam folder. Unless you are sure of what you are doing, leave the default value.
 
-## Antivirus
-
-The antivirus used to filter potentially infected e-mail is the open-source software [ClamAV](http://www.clamav.net/).
-
-{{< fig "images/admin-panel_mailbox_antivirus.en.png" "Administration interface: E-mails - Antivirus" >}}
-
-- *Folder*: if the antivirus software has deemed the message infected, then it is moved to this folder. To specify the trash, enter `Trash`.
+The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to filter potentially infected e-mail.
 
 ## Purge folders
 
