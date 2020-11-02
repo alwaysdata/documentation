@@ -37,6 +37,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Parrainage]({{< relref "billing/sponsorship" >}})
 - [Changer d'offre]({{< relref "billing/upgrade-your-plan" >}})
 - [Tarifs Catalyst]({{< relref "billing/catalyst-prices" >}})
+- [Tarifs Cloud]({{< relref "billing/cloud-prices" >}})
 - [Tarifs des interventions]({{< ref "accounts/billing/servers-interventions" >}})
 - [Prix options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}})
 - [Diverses questions]({{< relref "./billing/misc" >}})

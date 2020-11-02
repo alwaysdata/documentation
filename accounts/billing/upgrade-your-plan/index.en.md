@@ -9,7 +9,7 @@ To change the offer, go to **Accounts > Change** the relevant account:
 
 {{< fig "images/list-accounts.en.png" "Administration interface: list of accounts" >}}.
 
-You can change the *pack* and the *commitment period*.
+You can change the *[pack]({{< ref "accounts/billing/cloud-prices" >}})* and the *commitment period*.
 
 In the following cases, contact [support](https://admin.alwaysdata.com/support/add/):
 

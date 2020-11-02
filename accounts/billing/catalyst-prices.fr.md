@@ -47,7 +47,7 @@ Cette page recence les prix des configurations Catalyst. Pour plus d'information
 | **Trafic/mois**                     |                 |               |
 | 1 To (1 Gbps) [^2]                  | 10 €            | 100 €         |
 
-Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous [ici]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
+Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
 ## Serveurs Gold
 
@@ -80,7 +80,7 @@ Serveur dédié redondé dans un autre datacenter.
 
 
 {{% notice info %}}
-Le montant des opérations d'ajout/de changement de configuration est disponible [ici]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
+Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
 
 [^1]: L'ajout de RAM se fait par tranche de 16 Go. 

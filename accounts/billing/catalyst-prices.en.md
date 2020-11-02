@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "dedicated", "gold", "vps"]
 +++
 
-This page lists the prices of the Catalyst configurations. or more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/)].
+This page lists the prices of the Catalyst configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/).
 
 ## VPS servers
 
@@ -46,7 +46,7 @@ This page lists the prices of the Catalyst configurations. or more information a
 | **Traffic/month**                   |                            |                           |
 | 1TB (1Gbps) [^2]                    | 10 €                       | 100 €                     |
 
-If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go [here]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
+If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go in the page [Options prices - old configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
 ## Gold servers
 
@@ -79,7 +79,7 @@ Dedicated server redunded in another datacenter.
 
 
 {{% notice info %}}
-Adding/change of configuration operations prices are available in the [servers operation page]({{< ref "accounts/billing/servers-interventions" >}}). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
+Adding/change of configuration operations prices are available in the [servers interventions page]({{< ref "accounts/billing/servers-interventions" >}}). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 {{% /notice %}}
 
 [^1]: RAM is added per slot of 16GB.

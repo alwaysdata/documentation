@@ -15,6 +15,7 @@ You have **30 days** to pay it in **Billing > Invoices > Credit the account** or
 - [Change plan]({{< ref "upgrade-your-plan" >}})
 - [Sponsorship]({{< ref "./sponsorship" >}})
 - [Catalyst prices]({{< relref "catalyst-prices" >}})
+- [Cloud prices]({{< relref "cloud-prices" >}})
 - [Interventions fees]({{< ref "servers-interventions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
 
