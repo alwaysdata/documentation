@@ -9,7 +9,7 @@ Every account have a `$HOME/admin` directory, accessible in [FTP]({{< ref "remot
 
 It contains:
 
-- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (shared servers) or symbolic links (VPS & dedicated servers) to the account [e-mailboxes]({{< ref "e-mails" >}}),
+- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (public Cloud) or symbolic links (VPS & dedicated servers) to the account [e-mailboxes]({{< ref "e-mails" >}}),
 - _config_,
 - _logs_,
 - _tmp_: temporary storage for your apps (we *strongly* recommend using this instead of `/tmp`),

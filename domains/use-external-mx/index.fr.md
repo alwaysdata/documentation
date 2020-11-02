@@ -50,5 +50,5 @@ Pour envoyer un email à `foobar@exemple.org` en passant par les MX d'alwaysdata
 
 - créez [l'adresse email]({{< ref "e-mails/create-an-e-mail-address" >}}) sur l'interface d'administration ;
 - envoyez un email à :
-    - `foobar%exemple.org@mx.alwaysdata.com` si le compte est en serveurs mutualisés ;
+    - `foobar%exemple.org@mx.alwaysdata.com` si le compte est sur le Cloud public ;
     - `foobar%exemple.org@serveur.alwaysdata.com` si le compte est en serveurs VPS/dédiés (`serveur` à remplacer par le nom du serveur).

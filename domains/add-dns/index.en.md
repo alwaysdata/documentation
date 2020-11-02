@@ -18,6 +18,10 @@ Do not put the root into the **Hostname**.
 For example, by putting `example.org` in this box, you will create a record for `www.example.org.example.org`.
 {{% /notice %}}
 
+{{% notice note %}}
+A record with `@` as hostname for some providers is the empty subdomain. Here the **Hostname** box should be empty.
+{{% /notice %}}
+
 ---
 
 - [Add a SRV record]({{< ref "domains/add-srv-record" >}})

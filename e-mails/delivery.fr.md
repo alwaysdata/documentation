@@ -7,7 +7,7 @@ weight = 20
 tags = ["email"]
 +++
 
-Que vos boîtes email soient hébergées dans un environnement mutualisé ou dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses utilisateurs.
+Que vos boîtes email soient hébergées dans un Cloud Public ou un environnement dédié, la délivrabilité de vos messages est très importante, et peut être optimisée par un travail conjoint de l'hébergeur et de ses utilisateurs.
 
 ## L'expéditeur
 
@@ -45,7 +45,7 @@ Que vos boîtes email soient hébergées dans un environnement mutualisé ou dé
 
 Afin d'éviter les abus et optimiser la délivrabilité des emails envoyés par ses serveurs, alwaysdata a mis en place un système de notation qui se base sur différents critères comme l'analyse du contenu et la fréquence des envois.
 
-Plus la note est basse mieux l'email sera noté et l'envoi accepté. En serveurs mutualisés, tout email ayant une note supérieure à _3_ sera bloqué. En serveurs VPS et dédiés, la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur.
+Plus la note est basse mieux l'email sera noté et l'envoi accepté. Sur le Cloud public, tout email ayant une note supérieure à _3_ sera bloqué. En serveurs VPS et dédiés, la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur.
 
 Suivant cette notation, le message sera expédié via une adresse IP ayant une réputation plus ou moins bonne. Ainsi, en optimisant la qualité de vos emails et leurs envois, vous aurez moins de chance pour que votre message soit considéré comme indésirable.
 

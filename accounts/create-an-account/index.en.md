@@ -14,7 +14,7 @@ After clicking on **Open a new account** you will see a form for choosing:
 - its name,
 - the product (pack),
 - payment frequency (monthly or yearly),
-- its location: shared servers, VPS or dedicated server.
+- its location: public Cloud, VPS or dedicated server.
 
 {{< fig "images/create-account.en.png" "Administration interface: create an account" >}}
 

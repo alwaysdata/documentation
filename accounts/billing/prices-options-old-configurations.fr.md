@@ -23,7 +23,7 @@ Voici le prix des options des serveurs dédiés ayant une configuration install�
 | 16 Go [^1] | 10 €            | 100 €         |
 
 
-Le montant des opérations d'ajout/de changement de configuration est disponible [ici]({{< ref "accounts/billing/servers-interventions" >}}).
+Le montant des opérations d'ajout/de changement de configuration est disponible sur la page [interventions sur serveurs]({{< ref "accounts/billing/servers-interventions" >}}).
 
 Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 

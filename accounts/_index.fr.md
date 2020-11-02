@@ -26,7 +26,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
 - [Système d'alertes]({{< ref "notifications" >}})
 - [Suspension de profil]({{< ref "./suspension" >}})
-- [Compte gratuit : limitations]({{< ref "free-pack-restrictions" >}})
+- [Cloud public : restrictions]({{< ref "cloud-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
 
 ## Facturation
@@ -36,6 +36,8 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Moyens de paiement]({{< relref "billing/payment-methods" >}})
 - [Parrainage]({{< relref "billing/sponsorship" >}})
 - [Changer d'offre]({{< relref "billing/upgrade-your-plan" >}})
+- [Tarifs Catalyst]({{< relref "billing/catalyst-prices" >}})
+- [Tarifs Cloud]({{< relref "billing/cloud-prices" >}})
 - [Tarifs des interventions]({{< ref "accounts/billing/servers-interventions" >}})
 - [Prix options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}})
 - [Diverses questions]({{< relref "./billing/misc" >}})

@@ -50,5 +50,5 @@ To send an e-mail to `foobar@example.org` through alwaysdata's MX (while `exampl
 
 - create the [e-mail address]({{< ref "e-mails/create-an-e-mail-address" >}}) in the admin,
 - send an e-mail to:
-    - `foobar%example.org@mx.alwaysdata.com` if the account is located in shared servers,
+    - `foobar%example.org@mx.alwaysdata.com` if the account is located in the public Cloud,
     - `foobar%example.org@server.alwaysdata.com` if the account is located in VPS/dedicated servers (`server` to replace by the name of the server).

@@ -3,37 +3,86 @@ title = "Which plan to choose?"
 menuTitle = "Choosing your hosting plan"
 layout = "man"
 weight = 1
-tags = ["billing", "dedicated", "shared", "vps"]
+tags = ["billing", "dedicated", "public cloud", "vps"]
 +++
 
 The alwaysdata hosting services is a [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service) [^1]: it provides the infrastructure (data center, the network...) and the system stack (OS, interpreters, libraries, databases, security...). Customers need only handle deploying, securing and updating their applications.
 
-alwaysdata proposes four kinds of environment:
+alwaysdata proposes several kinds of environment:
 
-||[Shared](https://www.alwaysdata.com/en/pricing/#shared) [^2]|[VPS](https://www.alwaysdata.com/en/pricing/#vps)|[Dedicated](https://www.alwaysdata.com/en/pricing/#dedicated)|[Gold](https://www.alwaysdata.com/en/pricing/#gold)|
-|--- |--- |--- |--- |--- |
-|Details of the offer|Account on servers hosting hundreds of users|Virtual server on a physical server hosting less than ten users|Physical server reserved for just one user|Physical server reserved for one redundant user in another datacenter|
-||Hosting account split over a number of physical servers depending on the service|Division by account without additional billing|Division by account without additional billing|Division by account without additional billing|
-||Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|Unlimited sites / domains / databases / e-mails (...)|
-|Guarantees|SRT 1hr, IRT 4hrs, Availability rate 99.7%|SRT 30 mins, IRT 2hrs, Availability rate 99.8%|SRT 15 mins, IRT 1hr, Availability rate 99.9%|SRT 15 mins, IRT 1hr, Availability rate 99.99%|
-|Support|Tickets|Tickets|Tickets, [urgent tickets]({{< ref "accounts/urgent-ticket" >}}), telephone|Tickets, [urgent tickets]({{< ref "accounts/urgent-ticket" >}}), telephone|
-|Websites|Configurable HTTP server, application library, SSL Let's Encrypt, [HTTP Cache]({{< ref "sites/http-cache" >}}), [WAF]({{< ref "sites/waf" >}}), visit statistics|Configurable HTTP server, application library, SSL Let's Encrypt, [HTTP Cache]({{< ref "sites/http-cache" >}}), [WAF]({{< ref "sites/waf" >}}), visit statistics|Configurable HTTP server, application library, SSL Let's Encrypt, [HTTP Cache]({{< ref "sites/http-cache" >}}), [WAF]({{< ref "sites/waf" >}}), visit statistics|Configurable HTTP server, application library, SSL Let's Encrypt, [HTTP Cache]({{< ref "sites/http-cache" >}}), [WAF]({{< ref "sites/waf" >}}), visit statistics|
-||||[Monitoring probes]({{< ref "sites/use-probes" >}}), optimization tips|[Monitoring probes]({{< ref "sites/use-probes" >}}), optimization tips|
-|Languages|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|PHP, Python, Ruby, Node.js, Java, Elixir, Lua, Go or any other language via the [user program](https://www.alwaysdata.com/en/language/custom/)|
-|Databases|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|MariaDB (MySQL), PostgreSQL, MongoDB, CouchDB, RabbitMQ|
-|||Elasticsearch, Memcached, Redis|Elasticsearch, Memcached, Redis|Elasticsearch, Memcached, Redis|
-|||Further possible, on request|Further possible, on request|Further possible, on request|
-|E-mails|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|Customizable configuration, filtering via Sieve scripts, distribution lists|
-|||SMTP queue, SMTP relay|SMTP queue, SMTP relay|SMTP queue, SMTP relay|
-|Remote access|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|FTP, SFTP, SSH, WebDAV|
-|Backups|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|Daily, retained for 30 days and directly available to the account|
-|Other services|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}})|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management, [VPN](https://www.alwaysdata.com/en/services/vpn/)|[API]({{< ref "api" >}}), [scheduled tasks]({{< ref "tasks" >}}), firewall management, [VPN](https://www.alwaysdata.com/en/services/vpn/)|
+| Name || Description |
+|---|---|---|
+| [Public cloud]({{< ref "accounts/billing/cloud-prices" >}})[^2] || Hosting account spread over several servers - hosting hundreds of users |
+||| SRT 1hr, IRT 4hrs, Availability rate 99.7% |
+| [Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
+||| Isolation per account without additional billing |
+||| SRT 30 mins, IRT 2hrs, Availability rate 99.8% |
+|| Dedicated | Bare-metal server exclusively for a single user |
+||| Isolation per account without additional billing |
+||| SRT 15 mins, IRT 1hr, Availability rate 99.9% |
+|| Gold | Bare-metal server exclusively for a single user, **redundated** in another datacenter |
+||| Isolation per account without additional billing |
+||| SRT 15 mins, IRT 1hr, Availability rate 99.99% |
 
-Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the shared environment or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
+For all these offers you can have unlimited sites, domains, databases, e-mails, etc.
+
+---
+
+| Services || Public cloud | Catalyst |
+|---|---|---|---|---|---|
+|||| **VPS** | **Dedicated** | **Gold** |
+| Support | Tickets |✔️|✔️|✔️|✔️|
+|| [Prioritized tickets]({{< ref "accounts/urgent-ticket" >}}) |❌|❌|✔️|✔️|
+|| Phone |❌|❌|✔️|✔️|
+| Websites | Configurable HTTP server |✔️|✔️|✔️|✔️|
+|| [Marketplace]({{< ref "marketplace" >}}) |✔️|✔️|✔️|✔️|
+|| [SSL Let's Encrypt]({{< ref "security/ssl-tls/lets-encrypt" >}})  |✔️|✔️|✔️|✔️|
+|| [HTTP cache]({{< ref "sites/http-cache" >}}) |✔️|✔️|✔️|✔️|
+|| [WAF]({{< ref "sites/waf" >}}) |✔️|✔️|✔️|✔️|
+|| [Analytics]({{< ref "analytics" >}})  |✔️|✔️|✔️|✔️|
+|| [Monitoring probes]({{< ref "sites/use-probes" >}}) |❌|❌|✔️|✔️|
+|| Optimization tips |❌|❌|✔️|✔️|
+| Languages | [PHP]({{< ref "languages/php" >}}) |✔️|✔️|✔️|✔️|
+|| [Python]({{< ref "languages/python" >}}) |✔️|✔️|✔️|✔️|
+|| [Ruby]({{< ref "languages/ruby" >}}) |✔️|✔️|✔️|✔️|
+|| [Node.js]({{< ref "languages/nodejs" >}}) |✔️|✔️|✔️|✔️|
+|| [Java]({{< ref "languages/java" >}}) |✔️|✔️|✔️|✔️|
+|| [Deno]({{< ref "languages/deno" >}}) |✔️|✔️|✔️|✔️|
+|| [Elixir]({{< ref "languages/elixir" >}}) |✔️|✔️|✔️|✔️|
+|| [Lua]({{< ref "languages/lua" >}}) |✔️|✔️|✔️|✔️|
+|| [Go]({{< ref "languages/go" >}}) |✔️|✔️|✔️|✔️|
+|| [Any other language](https://www.alwaysdata.com/en/language/custom/) |✔️|✔️|✔️|✔️|
+| Databases | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
+|| [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
+|| [MongoDB]({{< ref "databases/mongodb" >}}) |✔️|✔️|✔️|✔️|
+|| [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
+|| [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
+|| [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
+|| [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
+|| [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
+|| Others |❌| On request | On request | On request |
+| E-mails | Customizable configuration |✔️|✔️|✔️|✔️|
+|| [Filtering via Sieve]({{< ref "e-mails/use-sieve-scripts" >}}) scripts |✔️|✔️|✔️|✔️|
+|| Mailing-lists |✔️|✔️|✔️|✔️|
+|| SMTP queue |❌|✔️|✔️|✔️|
+|| SMTP relay |❌|✔️|✔️|✔️|
+| Remote access | [FTP]({{< ref "remote-access/ftp" >}}) |✔️|✔️|✔️|✔️|
+|| [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
+|| [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|
+|| [WebDAV]({{< ref "remote-access/webdav" >}}) |✔️|✔️|✔️|✔️|
+| Backups [^3] ||✔️|✔️|✔️|✔️|
+| Other services | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
+|| [Scheluded tasks]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
+|| [Firewall management]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
+|| [VPN](https://www.alwaysdata.com/fr/services/vpn/) |❌|❌|✔️|✔️|
+
+
+Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
 {{% notice note %}}
 A well _optimized_ application will have the same performances regardless its environment type. However _less_ users on a server bring more **stability** and **comfort** (no more performance variations due to other users).
 {{% /notice %}}
 
 [^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated users can request support for services where this is not the case.
-[^2]: The free plan in a shared environment offers 100Mb of disk space for non-commercial use.
+[^2]: The public Cloud free plan offers 100Mb of disk space for non-commercial use.
+[^3]: Daily [backups]({{< ref "backups" >}}), retained for 30 days and directly available in the account
