@@ -7,13 +7,13 @@ tags = ["migration", "dedicated", "vps"]
 
 Most migrations imply a complete change on the server. For example, migration to a new version of our software infrastructure will call for the complete reinstallation of the server.
 
-In a shared environment, during a migration, the accounts are migrated to a new server that runs the new version. When you have a dedicated or VPS server, this is not possible: you only have one server.
+In the public Cloud, during a migration, the accounts are migrated to a new server that runs the new version. When you have a dedicated or VPS server, this is not possible: you only have one server.
 
 ## Required migrations
 
 To avoid the need to suddenly migrate your server and therefore all of the accounts located there, migrations take place in a number of steps:
 
-- You prepare the migrations for all of your accounts (like shared ones). Once all your accounts are well prepared, [open a ticket](https://admin.alwaysdata.com/support/). We will remove from your server all the languages' versions that are no longer supported under the new infrastructure. This will allow you to check that you're definitely ready. This step is reversible, if needed.
+- You prepare the migrations for all of your accounts (like in public Cloud). Once all your accounts are well prepared, [open a ticket](https://admin.alwaysdata.com/support/). We will remove from your server all the languages' versions that are no longer supported under the new infrastructure. This will allow you to check that you're definitely ready. This step is reversible, if needed.
 
 - We assign you a transit server with the same configuration as your dedicated or VPS server.
 
@@ -37,4 +37,4 @@ The availability of the transit server will depend on availability at the time o
 
 Some migrations relating to only one service in our infrastructure (e.g. database management servers) may be offered.
 
-In this case, no preparation, no test is possible and the update is performed directly on the server. You can still open an account on a shared server if this service is on offer there, to test some of your applications.
+In this case, no preparation, no test is possible and the update is performed directly on the server. You can still open an account on the public Cloud if this service is on offer there, to test some of your applications.

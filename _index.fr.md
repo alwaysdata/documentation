@@ -33,7 +33,7 @@ Toute publication sur Internet comporte des [obligations légales]({{<ref "sites
 - **Profil**, **client** ou **utilisateur** : utilisateur de l'interface d'administration alwaysdata. Cette personne physique ou morale a validé les [contrats d'alwaysdata](https://www.alwaysdata.com/fr/mentions-legales/).
 - **Serveur** : dispositif informatique sur lequel est placé des comptes. Ce peut être un serveur physique ou une machine virtuelle.
 - **Serveur dédié** : serveur physique dont l'espace de stockage est réservé en intégralité aux données d'un seul utilisateur.
-- **Serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
+- **Cloud public** ou **serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
 - **Serveur VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
 
 

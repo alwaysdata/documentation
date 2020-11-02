@@ -16,7 +16,7 @@ Après avoir cliqué sur **Ouvrir un nouveau compte** vous trouverez un formulai
 - son nom ;
 - le produit (le pack) ;
 - la fréquence de paiement (mensuel ou annuel) ;
-- sa localisation : serveurs mutualisés, VPS ou serveur dédié.
+- sa localisation : Cloud public, VPS ou serveur dédié.
 
 {{< fig "images/create-account.fr.png" "Interface d'administration : créer un compte" >}}
 

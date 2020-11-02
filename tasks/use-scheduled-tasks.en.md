@@ -13,7 +13,7 @@ Important:
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
 - A log is created automatically and is available from the `$HOME/admin/logs/jobs/` directory. It gives you the start and end of the task.
-- For accounts on shared servers, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
+- For accounts on the public Cloud, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
 {{% notice note %}}
 Even if it is not advisable, users of dedicated and VPS servers have also access to the `crontab -e` command. The two systems are separate.

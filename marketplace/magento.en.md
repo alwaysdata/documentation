@@ -6,7 +6,7 @@ tags = ["magento"]
 
 ## Installation
 
-Magento 2.4, [needing Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), is *not compatible* with the shared PaaS.
+Magento 2.4, [needing Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), is *not compatible* with the public Cloud.
 
 Magento 2.3 is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.
 

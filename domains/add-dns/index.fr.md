@@ -19,6 +19,10 @@ tags = ["dns", "domaine"]
 Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez un enregistrement pour `www.exemple.org.exemple.org`.
 {{% /notice %}}
 
+{{% notice note %}}
+Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. Ici la case **Nom d'hôte** devra être vide.
+{{% /notice %}}
+
 ---
 
 - [Ajouter un enregistrement SRV]({{< ref "domains/add-srv-record" >}})

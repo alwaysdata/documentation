@@ -10,7 +10,7 @@ Tout compte contient un répertoire `$HOME/admin` placé à sa racine et accessi
 
 Vous retrouverez dedans :
 
-- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (en serveurs mutualisés) ou un lien symbolique (en serveurs VPS et dédiés) des [emails]({{< ref "e-mails" >}}) ;
+- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (en Cloud public) ou un lien symbolique (en serveurs VPS et dédiés) des [emails]({{< ref "e-mails" >}}) ;
 - _config_ ;
 - _logs_ ;
 - _tmp_ : stocke les fichiers temporaires de vos applications (remplaçant /tmp) ;

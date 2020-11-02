@@ -57,7 +57,7 @@ To check the MariaDB configuration use the SQL query `show variables`.
 
 MySQL events are not supported on alwaysdata's servers.
 
-In shared servers, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
+In the public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
 MariaDB is offered by default on our servers but the VPS and dedicated users may request to use MySQL.

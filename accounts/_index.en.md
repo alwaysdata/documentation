@@ -24,7 +24,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
 - [Warning system]({{< ref "notifications" >}})
 - [Profile suspension]({{< ref "./suspension" >}})
-- [Free account: limitations]({{< ref "free-pack-restrictions" >}})
+- [Public cloud: restrictions]({{< ref "cloud-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
 
 ## Billing
@@ -34,6 +34,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Means of payment]({{< relref "billing/payment-methods" >}})
 - [Sponsorship]({{< relref "billing/sponsorship" >}})
 - [Change plan]({{< relref "billing/upgrade-your-plan" >}})
+- [Catalyst prices]({{< relref "billing/catalyst-prices" >}})
 - [Interventions fees]({{< relref "billing/servers-interventions" >}})
 - [Options prices - old configurations]({{< relref "billing/prices-options-old-configurations" >}})
 - [Miscellaneous questions]({{< relref "./billing/misc" >}})

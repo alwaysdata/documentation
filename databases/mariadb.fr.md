@@ -58,7 +58,7 @@ Pour connaître la configuration MariaDB utilisez la requête SQL `show variable
 
 Les events MySQL ne sont pas supportés par nos serveurs.
 
-Sur nos serveurs mutualisés, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
+Sur le Cloud public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
 MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs VPS et dédiés peuvent demander à utiliser MySQL.

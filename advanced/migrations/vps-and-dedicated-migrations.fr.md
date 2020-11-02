@@ -8,13 +8,13 @@ tags = ["migration", "serveur dédié", "serveur vps"]
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.
 
-En environnement mutualisé, lors d'une migration, les comptes sont migrés vers un nouveau serveur faisant tourner la nouvelle version. Lorsque vous avez un serveur dédié ou VPS, ce n'est pas possible : vous n'avez qu'un seul serveur. 
+Sur le Cloud public, lors d'une migration, les comptes sont migrés vers un nouveau serveur faisant tourner la nouvelle version. Lorsque vous avez un serveur dédié ou VPS, ce n'est pas possible : vous n'avez qu'un seul serveur.
 
 ##  Migrations obligatoires
 
 Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, elles se font en plusieurs étapes :
 
-- vous préparez les migrations de l'ensemble de vos comptes (comme en mutualisé). Lorsque vous avez terminé de préparer tous vos comptes, [dites-le nous](https://admin.alwaysdata.com/support/). Nous supprimerons de votre serveur toutes les versions des langages qui n'existent plus sous la nouvelle infrastructure, ce qui vous permettra de vérifier une dernière fois que vous êtes fin prêt. Cette étape est réversible, si nécessaire ;
+- vous préparez les migrations de l'ensemble de vos comptes (comme sur le Cloud public). Lorsque vous avez terminé de préparer tous vos comptes, [dites-le nous](https://admin.alwaysdata.com/support/). Nous supprimerons de votre serveur toutes les versions des langages qui n'existent plus sous la nouvelle infrastructure, ce qui vous permettra de vérifier une dernière fois que vous êtes fin prêt. Cette étape est réversible, si nécessaire ;
 - nous vous mettons à disposition un serveur de transit de même configuration que votre serveur dédié ou VPS ;
 - vous pourrez alors effectuer la migration de chacun de vos comptes, un par un. Ils seront déplacés sur ce serveur de transit ;
 - lorsque l'intégralité de vos comptes auront été migrés sur ce serveur de transit , votre serveur initial sera réinstallé pour tourner sous la nouvelle version de notre infrastructure logicielle ;
@@ -34,4 +34,4 @@ La mise à disposition du serveur de transit dépendra de la disponibilité au m
 
 Certaines migrations ne concernant qu'un service de notre infrastructure (exemple : les serveurs de gestion de bases de données) peuvent être proposées.
 
-Dans ce cas, aucune préparation, aucun test n'est possible, la mise à jour est directement effectuée sur le serveur. Vous pouvez cependant ouvrir un compte en serveurs mutualisés si ce service y est proposé pour tester certaines de vos applications.
+Dans ce cas, aucune préparation, aucun test n'est possible, la mise à jour est directement effectuée sur le serveur. Vous pouvez cependant ouvrir un compte sur le Cloud public si ce service y est proposé pour tester certaines de vos applications.

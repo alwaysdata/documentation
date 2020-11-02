@@ -5,7 +5,7 @@ weight = 20
 tags = ["e-mail"]
 +++
 
-Whether your e-mail boxes are hosted in a shared or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
+Whether your e-mail boxes are hosted in the public Cloud or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
 
 ## Sender
 
@@ -42,7 +42,7 @@ Whether your e-mail boxes are hosted in a shared or a dedicated environment, the
 
 To avoid misuse and optimize the deliverability of e-mails sent by its servers, alwaysdata has always implemented a scoring system based on various criteria like the content and frequency of the messages sent.
 
-The lower the score, the better the e-mail will be rated and the sending accepted. In shared servers, any e-mail with a score higher than _3_ will be blocked. In VPS and dedicated servers, the default value is _5_ and you can change it in the **SMTP > Settings** tab of your server.
+The lower the score, the better the e-mail will be rated and the sending accepted. In the public Cloud, any e-mail with a score higher than _3_ will be blocked. In VPS and dedicated servers, the default value is _5_ and you can change it in the **SMTP > Settings** tab of your server.
 
 Based on this scoring, the message will be sent via an IP address with a more or less good reputation. This way, by optimizing the quality of your e-mails and their content, you will have a better chance of avoiding your message being considered undesirable.
 

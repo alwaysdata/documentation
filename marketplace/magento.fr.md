@@ -7,7 +7,7 @@ tags = ["magento"]
 
 ## Installation
 
-Magento 2.4, ayant [besoin d'Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), n'est *pas compatible* avec les offres en PaaS mutualisé.
+Magento 2.4, ayant [besoin d'Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), n'est *pas compatible* avec les offres en Cloud public.
 
 Magento 2.3 fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 

@@ -1,5 +1,5 @@
 +++
-title = "Langages"
+title = "Languages"
 pre = "<i class='fas fa-fw fa-code'></i> "
 weight = 11
 chapter = true

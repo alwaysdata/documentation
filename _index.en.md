@@ -33,7 +33,7 @@ Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requ
 - **Profile**, **client** or **user**: alwaysdata administration interface user. This physical or corporate entity has validated the [alwaysdata contracts](https://www.alwaysdata.com/en/terms-and-legal/).
 - **Server**: a computer system where accounts are located. This may be a physical server or a virtual machine.
 - **Dedicated server**: a physical server where the storage space is reserved entirely for data belonging to a single user.
-- **Shared server**: a server where the storage space is shared between a number of users.
+- **Public Cloud** or **shared server**: a server where the storage space is shared between a number of users.
 - **VPS server**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) located on a host server shared only between a few users.
 
 ## Contributing to documentation
