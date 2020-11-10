@@ -54,6 +54,10 @@ $ ad_install_pecl yaml
 
 La commande génère un nouveau fichier `.so` dans le répertoire courant. Vous pouvez toutefois vous passer de notre script et utiliser les commandes usuelles (`phpize`, `make`) si vous préférez.
 
+{{% notice note %}}
+Lors d'un changement de versions PHP, il est nécessaire de les réinstaller.
+{{% /notice %}}
+
 ### Depuis le site de l'éditeur
 
 Certaines extensions sont directement téléchargeables depuis le site de l'éditeur sous forme précompilée (fichier `.so`). Si l'éditeur vous propose le choix, vous devrez télécharger la version Linux 64 bits. Par exemple :
