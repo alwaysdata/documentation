@@ -6,7 +6,7 @@ This documentation is generated using the [Hugo][1] static site generator.
 
 ### Update the content
 
-Pages of documentation are located in the `content` directory. The [folder tree](#files-organization) represent the navigation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
+[Pages of documentation](https://help.alwaysdata.com) are located in the `content` directory. The [folder tree](#files-organization) represent the navigation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
 
 ### Adding new pages
 
