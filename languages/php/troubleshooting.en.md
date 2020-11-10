@@ -32,3 +32,18 @@ You have reached the 256 Mbyte limit, the default value for `memory_limit` in PH
 ### 403 Forbidden
 
 Per default for [PHP type sites]({{< ref "sites/add-a-site" >}}) Apache will search for a file named `index.html` or `index.php` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
+
+## Use several versions in SSH
+
+To use in SSH another PHP version and/or configuration than the one indicated in **Environment > PHP**, it is possible to use the following commands:
+
+```
+export PHP_VERSION=<version>
+export PHPRC=/path/to/php.ini
+```
+
+or else for the `php.ini`:
+
+```
+php -c /path/to/php.ini
+```

@@ -37,3 +37,18 @@ Vous atteignez la limite de 256 Mo, valeur par défaut de `memory_limit` en PHP.
 ### 403 Forbidden
 
 Par défaut pour les [sites de type PHP]({{< ref "sites/add-a-site" >}}) Apache va rechercher pour la page d'accueil un fichier nommé `index.html` ou `index.php`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
+
+## Utiliser différentes versions en SSH
+
+Pour utiliser en SSH une autre version PHP et/ou une autre configuration PHP que celle renseignée dans **Environnement > PHP**, il est possible d'utiliser les commandes suivantes :
+
+```
+export PHP_VERSION=<version>
+export PHPRC=/chemin/vers/php.ini
+```
+
+ou encore pour le `php.ini`:
+
+```
+php -c /chemin/vers/php.ini
+```
