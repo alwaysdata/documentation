@@ -2,8 +2,6 @@
 
 This documentation is generated using the [Hugo][1] static site generator.
 
-If you want to run the documentation project locally, take a look at the [main repository project][2].
-
 ## Working on documentation
 
 ### Update the content
@@ -247,7 +245,6 @@ More documentation is available on [Hugo doc][6].
 
 
 [1]: https://gohugo.io
-[2]: https://git.madslab.net/alwaysdata/aldocs
 [6]: https://gohugo.io/documentation/
 [8]: https://gohugo.io/content-management/page-bundles/ 
 [9]: https://github.github.com/gfm/#tables-extension-
