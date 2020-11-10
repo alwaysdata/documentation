@@ -11,6 +11,12 @@ Go to **Accounts > Transfer to another user**. Specify the e-mail address of the
 
 If you only have one account you can just as easily change the profile information in **Profile** with no need to use the transfer process.
 
+### Change of contact person but keep the "same client"
+
+To change the contact person, for example following a departure from the company, there is no need to go through account transfers. Instead, edit the owner's profile in the **Profile** menu.
+
+It is better as it keeps the history of tickets, billing and actions on the profile.
+
 ## Changing an account name
 
 It is not currently possible to change an account name. Here is a way to work around this issue:

@@ -12,6 +12,12 @@ Rendez-vous dans **Comptes > Céder à un autre utilisateur**. Vous devrez indiq
 
 Si vous n'avez qu'un compte vous pouvez aussi simplement changer les informations de profil dans **Profil** sans passer par le processus de cession.
 
+### Changer d'interlocuteur mais garder le "même client"
+
+Pour changer d'interlocuteur, par exemple suite à un départ de l'entreprise, il n'y a pas besoin de passer par des cessions de comptes. Modifiez plutôt le profil du propriétaire dans l'onglet **Profil**.
+
+Cela a pour avantage de garder l'historique des tickets, de la facturation et des actions sur le profil.
+
 ## Changer le nom d'un compte
 
 Il n'est actuellement pas possible de changer le nom d'un compte. Voici un moyen de contourner cette problématique :
