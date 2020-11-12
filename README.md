@@ -2,6 +2,8 @@
 
 This documentation is generated using the [Hugo][1] static site generator.
 
+An internal CI is responsible for building the documentation. A constantly up-to-date version based on the `master` branch is available at https://preview.help.alwaysdata.com.
+
 ## Working on documentation
 
 ### Update the content
