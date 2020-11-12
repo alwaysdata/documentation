@@ -12,7 +12,7 @@ This page lists the prices of the Catalyst configurations. To have more informat
 |                            | VPS A            | VPS B            |
 |----------------------------|------------------|------------------|
 | CPU                        | 2 vCPUs (3.5GHz) | 4 vCPUs (3.5GHz) |
-| RAM                        | 4GB ECC          | 4GB ECC          |
+| RAM                        | 4GB ECC          | 8GB ECC          |
 | Disks                      | 100GB SSD        | 200GB SSD        |
 | Network                    | 100Mbps          | 100Mbps          |
 | Traffic/month              | 500GB/month      | 1TB/month        |
