@@ -1,14 +1,21 @@
 # aldocs: alwaysdata documentation
 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/gohugoio/hugo?label=hugo)
+![GitHub issues](https://img.shields.io/github/issues/alwaysdata/documentation)
+![Twitter Follow](https://img.shields.io/twitter/follow/alwaysdata?style=social)
+
+***
+
 This documentation is generated using the [Hugo][1] static site generator.
 
-If you want to run the documentation project locally, take a look at the [main repository project][2].
+An internal CI is responsible for building the documentation. A constantly up-to-date version based on the `master` branch is available at https://preview.help.alwaysdata.com.
 
 ## Working on documentation
 
 ### Update the content
 
-Pages of documentation are located in the `content` directory. The [folder tree](#files-organization) represent the navigation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
+[Pages of documentation](https://help.alwaysdata.com) are located in the `content` directory. The [folder tree](#files-organization) represent the navigation structure. Pages are written in markdown, with a YAML or a TOML Front Matter for metadata.
 
 ### Adding new pages
 
@@ -35,7 +42,7 @@ If you write a page that is _not_ in english, you should add a `url` entry in th
 
 ## Redacting content
 
-### Types of pages 
+### Types of pages
 
 When you create new pages, you should pass a [type][7] to start your page with a proper template, dedicated to the content you want to add.
 
@@ -245,9 +252,18 @@ You can add as many tag as you wish, but we should limit to 3 tags per page. Tag
 
 More documentation is available on [Hugo doc][6].
 
+***
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 [1]: https://gohugo.io
-[2]: https://git.madslab.net/alwaysdata/aldocs
 [6]: https://gohugo.io/documentation/
-[8]: https://gohugo.io/content-management/page-bundles/ 
+[8]: https://gohugo.io/content-management/page-bundles/
 [9]: https://github.github.com/gfm/#tables-extension-
