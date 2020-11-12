@@ -1,5 +1,13 @@
 # aldocs: alwaysdata documentation
 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+![GitHub issues](https://img.shields.io/github/issues/alwaysdata/documentation)
+![GitHub](https://img.shields.io/github/license/alwaysdata/documentation)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/gohugoio/hugo?label=hugo)
+![Twitter Follow](https://img.shields.io/twitter/follow/alwaysdata?style=social)
+
+***
+
 This documentation is generated using the [Hugo][1] static site generator.
 
 An internal CI is responsible for building the documentation. A constantly up-to-date version based on the `master` branch is available at https://preview.help.alwaysdata.com.
@@ -35,7 +43,7 @@ If you write a page that is _not_ in english, you should add a `url` entry in th
 
 ## Redacting content
 
-### Types of pages 
+### Types of pages
 
 When you create new pages, you should pass a [type][7] to start your page with a proper template, dedicated to the content you want to add.
 
@@ -248,5 +256,5 @@ More documentation is available on [Hugo doc][6].
 
 [1]: https://gohugo.io
 [6]: https://gohugo.io/documentation/
-[8]: https://gohugo.io/content-management/page-bundles/ 
+[8]: https://gohugo.io/content-management/page-bundles/
 [9]: https://github.github.com/gfm/#tables-extension-
