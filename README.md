@@ -1,9 +1,8 @@
 # aldocs: alwaysdata documentation
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-![GitHub issues](https://img.shields.io/github/issues/alwaysdata/documentation)
-![GitHub](https://img.shields.io/github/license/alwaysdata/documentation)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gohugoio/hugo?label=hugo)
+![GitHub issues](https://img.shields.io/github/issues/alwaysdata/documentation)
 ![Twitter Follow](https://img.shields.io/twitter/follow/alwaysdata?style=social)
 
 ***
