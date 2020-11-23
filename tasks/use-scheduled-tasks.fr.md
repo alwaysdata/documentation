@@ -52,6 +52,9 @@ Syntaxe crontab équivalente :
 30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
 ```
 
+## Problèmes fréquents
+
+- `source venv/bin/activate && python` est spécifique à [Bash](https://fr.wikipedia.org/wiki/Bourne-Again_shell) et ne peut fonctionner. À remplacer par `venv/bin/python`.
 
 ---
 ## Liens
