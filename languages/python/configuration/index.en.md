@@ -9,7 +9,7 @@ tags = ["python"]
 
 |Major versions|
 |--- |
-|3.8, 3.7, 3.6, 3.5, 3.4, 3.3|
+|3.9, 3.8, 3.7, 3.6, 3.5, 3.4, 3.3|
 |2.7, 2.6, 2.5, 2.4|
 
 The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.

@@ -8,7 +8,7 @@ tags = ["nodejs"]
 
 The way [Node.js](https://nodejs.org/) works at alwaysdata is very standard. If you are used to using Node.js on a Unix system, e.g. Linux, then you already know almost everything you need.
 
-- the [provisoned versions]({{< ref "languages/nodejs/configuration">}}#versions-supported) range from 6 to 12 ([v2017]({{< ref "accounts/version" >}})) and 13 ([v2020]({{< ref "accounts/version" >}})),
+- the [provisoned versions]({{< ref "languages/nodejs/configuration">}}#versions-supported) range from 6 to 12 ([v2017]({{< ref "accounts/version" >}})) and 15 ([v2020]({{< ref "accounts/version" >}})),
 - the [environment configuration]({{< ref "languages/nodejs/configuration" >}}#environment) is easy to set up.
 
 The [Express.js](https://expressjs.com/) framework is one of our autoinstallable applications.

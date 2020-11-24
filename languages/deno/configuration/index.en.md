@@ -7,7 +7,14 @@ tags = ["deno"]
 
 ## Supported Versions
 
-The version 1.0.0 is installed and is used when you start `deno`.
+|Major versions|
+|--------------|
+| 1.5          |
+| 1.4          |
+| 1.2          |
+| 1.0          |
+
+La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Deno**. C'est cette version qui est notamment utilisée lorsque vous démarrez `deno`.
 
 ## Environment
 

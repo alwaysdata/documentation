@@ -59,9 +59,9 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `5.6.40`                                                      | `5.6.38` `5.6.37`                                            |
 | `7.0.33`                                                      | `7.0.31` `7.0.32`                                            |
 | `7.1.33`                                                      | `7.1.21` `7.1.23` `7.1.24` `7.1.26` `7.1.32`                 |
-| `7.2.29` `7.2.31`                                             | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22`                 |
-| `7.3.16` `7.3.18`                                             | `7.3.0`  `7.3.1`  `7.3.9`                                    |
-| `7.4.4`  `7.4.6`                                              | `7.4.0`  `7.4.3`                                             |
+| `7.2.29` `7.2.31` `7.2.32` `7.2.33` `7.2.34`                  | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22`                 |
+| `7.3.16` `7.3.18` `7.3.20` `7.3.22` `7.3.24`                  | `7.3.0`  `7.3.1`  `7.3.9`                                    |
+| `7.4.4`  `7.4.6`  `7.4.8`  `7.4.10` `7.4.12`                  | `7.4.0`  `7.4.3`                                             |
 
 - Minor removed versions will automatically be replaced by the closest minor version (e.g. 7.4.4 for 7.4).
 - The `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` and `zip` extensions are now loaded automatically. You can remove explicit loading directives from your custom *php.ini* if required.
@@ -76,11 +76,11 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `2.7.17` `2.7.18`                                             | `2.7.15` `2.7.16` `2.7.18`                                   |
 | `3.3.7`                                                       | `3.3.7`                                                      |
 | `3.4.10`                                                      | `3.4.9`  `3.4.10`                                            |
-| `3.5.9`                                                       | `3.5.6`  `3.5.9`                                             |
-| `3.6.10`                                                      | `3.6.7`  `3.6.8`  `3.6.10`                                   |
-| `3.7.7`                                                       | `3.7.0`  `3.7.1`  `3.7.2`  `3.7.7`                           |
-| `3.8.2`  `3.8.3`                                              | `3.8.0`  `3.8.3`                                             |
-
+| `3.5.9`  `3.5.10`                                             | `3.5.6`  `3.5.9`                                             |
+| `3.6.10` `3.6.11` `3.6.12`                                    | `3.6.7`  `3.6.8`  `3.6.10`                                   |
+| `3.7.7`  `3.7.8`  `3.7.9`                                     | `3.7.0`  `3.7.1`  `3.7.2`  `3.7.7`                           |
+| `3.8.2`  `3.8.3`  `3.8.4` `3.8.5` `3.8.6`                     | `3.8.0`  `3.8.3`                                             |
+| `3.9.0`                                                       | `-`                                                          |
 
 - Minor removed versions will automatically be replaced by the closest minor version (e.g. 3.8.2 for 3.8). If you created any `virtualenvs` with these versions, you will need to recreate them.
 
@@ -97,7 +97,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `2.4.9` `2.4.10`                                              | `2.4.5`                                                      |
 | `2.5.7` `2.5.8`                                               | `2.5.3`      `2.5.5`                                         |
 | `2.6.5` `2.6.6`                                               | `2.6.0`      `2.6.2`                                         |
-| `2.7.0` `2.7.1`                                               | `-`                                                          |
+| `2.7.0` `2.7.1` `2.7.2`                                       | `-`                                                          |
 
 - Minor removed versions will automatically be replaced by the closest minor version (e.g. 2.6.5 for 2.6).
 
@@ -112,7 +112,8 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `11.15.0`                                                     | `11.0.0` `11.1.0`  `11.8.0`  `11.12.0`                       |
 | `12.16.1` `12.16.3`                                           | `12.0.0` `12.14.0`                                           |
 | `13.11.0` `13.14.0`                                           | `-`                                                          |
-| `14.2.0`                                                      | `-`                                                          |
+| `14.2.0`  `14.5.0` `14.11.0` `14.15.1`                        | `-`                                                          |
+| `15.0.0`  `15.2.1`                                            | `-`                                                          |
 
 - Minor removed versions will automatically be replaced by the closest minor version (e.g. 12.16.1 for 12).
 
@@ -120,7 +121,8 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 | Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
-| `1.10.2` `1.10.3`                                             | `-`                                                          |
+| `1.11.1` `1.11.2`                                             | `-`                                                          |
+| `1.10.2` `1.10.3` `1.10.4`                                    | `-`                                                          |
 | `1.9.4`                                                       | `-`                                                          |
 | `1.8.2`                                                       | `-`                                                          |
 | `1.7.4`                                                       | `1.7.3` `1.7.4`                                              |
