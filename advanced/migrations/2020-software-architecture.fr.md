@@ -63,6 +63,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 | `7.2.29` `7.2.31` `7.2.32` `7.2.33` `7.2.34`                     | `7.2.9`  `7.2.11` `7.2.12` `7.2.14` `7.2.22`                     |
 | `7.3.16` `7.3.18` `7.3.20` `7.3.22` `7.3.24`                     | `7.3.0`  `7.3.1`  `7.3.9`                                        |
 | `7.4.4`  `7.4.6`  `7.4.8`  `7.4.10` `7.4.12`                     | `7.4.0`  `7.4.3`                                                 |
+| `8.0.0`                                                          | `-`                                                              |
 
 - Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (7.4.4 par exemple pour 7.4).
 - Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
