@@ -22,7 +22,7 @@ Ce répertoire n'est PAS amené à recevoir vos fichiers.
 
 ## config
 
-Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**, les changements s'effectuant directement dans votre interface d'administration alwaysdata, onglets **Environnement** ou **Web > Sites**.
+Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**, les changements s'effectuant directement dans votre interface d'administration alwaysdata, onglets **Environnement**, **Web > Configuration** ou **Web > Sites**.
 
 ## logs
 
@@ -33,3 +33,9 @@ Il recueille différents types de logs :
 - _jobs_ : exécution de vos tâches planifiées ;
 - _apache_ : un log pour toutes les applications utilisant ce serveur web (PHP et Apache personnalisé) ;
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
+
+{{% notice info %}}
+Une suppression périodique des logs peut être mise en place via le menu **Web > Sites > Logs**.
+{{% /notice %}}
+
+Seuls les logs *apache* et *uwsgi* du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.

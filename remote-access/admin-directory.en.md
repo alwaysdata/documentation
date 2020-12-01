@@ -21,7 +21,7 @@ This `admin` directory is **not** dedicated to storing your own files.
 
 ## config
 
-This directory hosts Apache, uWSGI or languages configuration files. You can access it **read-only**. Changes are made directly in your alwaysdata administration interface, in the **Environment** or **Web > Sites** menus.
+This directory hosts Apache, uWSGI or languages configuration files. You can access it **read-only**. Changes are made directly in your alwaysdata administration interface, in the **Environment**, **Web > Configuration** or **Web > Sites** menus.
 
 ## logs
 
@@ -32,3 +32,9 @@ It also gathers different types of logs:
 - _jobs_: achievements of your scheduled tasks,
 - _apache_: a log for all applications using this web (PHP and Apache custom),
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
+
+{{% notice info %}}
+A periodic deletion of logs can be set up via the **Web > Sites > Logs** menu.
+{{% /notice %}}
+
+Only *apache* et *uwsgi* logs from the ongoing month are counted into the account's disk space quota.
