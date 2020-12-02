@@ -50,3 +50,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut ;
 - _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
 - _[Ressources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})_ : modifiez les limitations de ressources par compte (ex : consommation RAM).
+
+{{% notice note %}}
+Il est possible de supprimer les permissions que nous avons sur d'autres profils. La suppression ne s'effectue pas finement, elles seront toutes supprimées.
+{{% /notice %}}
