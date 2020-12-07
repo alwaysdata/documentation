@@ -8,7 +8,7 @@ hidden = true
 
 > Gitea is a painless self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab. Gitea is a fork of Gogs.
 
-{{< fig "images/gitea.en.png" "" >}}
+{{< fig "images/gitea.png" >}}
 
 By self-hosting Gitea in your alwaysdata account, you should be able to access private (and public) git repositories, hosted on the alwaysdata's cloud, and cut your dependency to centralized hosting solutions like Github.
 
@@ -104,11 +104,11 @@ If you want to allow your users (including your own account) to use an [external
 
 To allow users to use their Google account to log in to the instance, first go to the [Google Developer Console](https://console.developers.google.com/). In the `Credentials` section, create a new `OAuth client ID` credentials. Fill-in an `Authorized redirect URIs` to your current Gitea instance URL.
 
-{{< fig "images/gitea_google-oauth.en.png" "" >}}
+{{< fig "images/gitea_google-oauth.png" >}}
 
 Then, in your Gitea instance, create a new `Authentication Source` and fill in with your `Client ID` and `Secret` token you've generated in the *Google Developer Console*.
 
-{{< fig "images/gitea_auth-source.en.png" "" >}}
+{{< fig "images/gitea_auth-source.png" >}}
 
 ## SSH Access
 

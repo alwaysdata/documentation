@@ -8,7 +8,7 @@ hidden = true
 
 > Gitea is a painless self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab. Gitea is a fork of Gogs.
 
-{{< fig "images/gitea.en.png" "" >}}
+{{< fig "images/gitea.png" >}}
 
 En hébergeant vous-même Gitea dans votre compte alwaysdata, vous pourrez accéder à des dépôts privés (et publics) de git, hébergés sur le cloud alwaysdata, et réduire votre dépendance à des solutions d'hébergement centralisées comme Github.
 
@@ -76,7 +76,7 @@ N'oubliez pas que vous devez d'abord créer votre propre compte après l'install
 
 Gitea peut utiliser une instance [Memcached]({{< ref "databases/memcached">}}) comme stratégie de cache.
 
-{{{% notice info %}}
+{{% notice info %}}
 *Memcached* n'est actuellement disponible que dans les environnements *alwaysdata Catalyst*.
 {{% /notice %}}
 
@@ -104,11 +104,11 @@ Si vous souhaitez permettre à vos utilisateurs (y compris votre propre compte) 
 
 Pour permettre aux utilisateurs d'utiliser leur compte Google pour se connecter à l'instance, il faut d'abord se rendre sur la [Console Développeurs Google](https://console.developers.google.com/). Dans la section `Credentials`, créez une nouvelle référence `OAuth client ID`. Indiquez dans `Authorized redirect URIs` l'URL de votre instance Gitea actuelle.
 
-{{< fig "images/gitea_google-oauth.en.png" "" >}}
+{{< fig "images/gitea_google-oauth.png" >}}
 
 Ensuite, dans votre instance Gitea, créez une nouvelle `Authentication Source` et remplissez avec votre `Client ID` et votre jeton `Secret` que vous avez généré dans la *Console Développeurs Google*.
 
-{{< fig "images/gitea_auth-source.en.png" "" >}}
+{{< fig "images/gitea_auth-source.png" >}}
 
 ## Accès SSH
 
