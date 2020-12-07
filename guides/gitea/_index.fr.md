@@ -1,7 +1,7 @@
 +++
-title = "Installation et configuration de Gitea".
-layout = "howto
-hidden = vrai
+title = "Installation et configuration de Gitea"
+layout = "howto"
+hidden = true
 +++
 
 [Gitea](https://gitea.io) est un gestionnaire de dépôts git écrit en Go.
