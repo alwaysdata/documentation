@@ -8,7 +8,8 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 
 # Guides
 
-## Installation
+## Installation / Configuration
+
 - [Apache PageSpeed]({{< relref "install-apache-pagespeed" >}})
 - [Blazegraph]({{< relref "install-blazegraph" >}})
 - [FFmpeg]({{< relref "install-ffmpeg" >}})
