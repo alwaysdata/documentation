@@ -44,10 +44,10 @@ Le script d'installation est fourni avec un fichier de configuration minimale da
 Vous pouvez héberger le fichier de configuration n'importe où sur le système de fichiers de votre compte si besoin. Passez le chemin d'accès au fichier de configuration en utilisant l'option `-c` à la commande `gitea web` dans l'interface de configuration de votre site.
 {{% /notice %}}
 
-Le fichier de configuration suit la syntaxe de [fichiers `ini`] (https://fr.wikipedia.org/wiki/Fichier_INI).
+Le fichier de configuration suit la syntaxe de [fichiers `ini`](https://fr.wikipedia.org/wiki/Fichier_INI).
 
 {{% notice info %}}
-La [Gitea Config Cheatsheet](https://docs.gitea.io/en-us/config-cheat-sheet/)^(en)^ est disponible dans la documentation officielle.
+La [Gitea Config Cheatsheet](https://docs.gitea.io/en-us/config-cheat-sheet/) est disponible dans la documentation officielle.
 {{% /notice %}}
 
 ### Chemin des dépôts
