@@ -47,11 +47,11 @@ it was created.
 | **E-mails**              |                                                                                                    |
 | Webmail                  | [RoundCube](https://webmail.alwaysdata.com)                                                        |
 | IMAP                     | Host: imap-[account].alwaysdata.net                                                                |
-|                          | Ports: 143, secure: 993 & 585                                                                      |
+|                          | Ports: 143, secured: 993                                                                           |
 | POP3                     | Host: pop-[account].alwaysdata.net                                                                 |
-|                          | Ports: 110, secure: 995                                                                            |
+|                          | Ports: 110, secured: 995                                                                           |
 | SMTP                     | Host: smtp-[account].alwaysdata.net                                                                |
-|                          | Ports: 25 & 587, secure: 465                                                                       |
+|                          | Ports: 25 & 587, secured: 465                                                                      |
 |                          | Identification: e-mail (address and the password assigned to it)                                   |
 | **Remote access**        |                                                                                                    |
 | FTP                      | Host: ftp-[account].alwaysdata.net                                                                 |

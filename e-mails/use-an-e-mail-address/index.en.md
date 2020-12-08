@@ -14,13 +14,13 @@ If you wish to configure a mail program on your computer or any other device, he
 |Server|Service|Information|
 |--- |--- |--- |
 |Incoming|IMAP|Host: imap-[account].alwaysdata.net|
-|||Ports: 143, secure: 993 or 585|
+|||Ports: 143, secured: 993|
 |||Identifier: email address and the password assigned to it|
 ||POP3|Host: pop-[account].alwaysdata.net|
-|||Ports: 110, secure: 995|
+|||Ports: 110, secured: 995|
 |||Identifier: email address and the password assigned to it|
 |Outgoing|SMTP|Host: smtp-[account].alwaysdata.net|
-|||Ports: 25 or 587, secure: 465|
+|||Ports: 25 or 587, secured: 465|
 |||Identifier: email address and the password assigned to it|
 
 {{% notice note %}}

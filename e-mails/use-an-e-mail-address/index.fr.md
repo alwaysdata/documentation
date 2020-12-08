@@ -16,7 +16,7 @@ Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou 
 | Serveur | Service                                                                | Informations                                        |
 |---------|------------------------------------------------------------------------|-----------------------------------------------------|
 | Entrant | [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) | Hôte : imap-[compte].alwaysdata.net                 |
-|         |                                                                        | Ports : 143, sécurisés : 993 ou 585                 |
+|         |                                                                        | Ports : 143, sécurisé : 993                         |
 |         |                                                                        | Identifiant : adresse email et mot de passe associé |
 |         | [POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)             | Hôte : pop-[compte].alwaysdata.net                  |
 |         |                                                                        | Ports : 110, sécurisé : 995                         |

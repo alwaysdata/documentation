@@ -49,7 +49,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | **Emails**                 |                                                                                                           |
 | Webmail                    | [RoundCube](https://webmail.alwaysdata.com)                                                               |
 | IMAP                       | Hôte : imap-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 143, sécurisés : 993 et 585                                                                       |
+|                            | Ports : 143, sécurisé : 993                                                                               |
 | POP3                       | Hôte : pop-[compte].alwaysdata.net                                                                        |
 |                            | Ports : 110, sécurisé : 995                                                                               |
 | SMTP                       | Hôte : smtp-[compte].alwaysdata.net                                                                       |
