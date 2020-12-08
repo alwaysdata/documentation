@@ -20,9 +20,9 @@ La façon la plus pratique d'installer Gitea est d'utiliser [notre applithèque]
 
 [Ce script d'installation](https://admin.alwaysdata.com/site/application/script/2/detail/) :
 
-1. Télécharge la dernière version disponible et l'installe dans votre compte
+1. Télécharge la dernière version disponible et l'installe dans votre compte.
 2. Crée un fichier de configuration minimal dans `$HOME/[gitea/install/path]/custom/conf/app.ini`.
-3. Crée le [site]({{< ref "sites/add-a-site" >}}) associé au sous-domaine donné
+3. Crée le [site]({{< ref "sites/add-a-site" >}}) associé au sous-domaine donné.
 
 ### Manuellement
 
@@ -129,7 +129,7 @@ Pour éviter cette situation de verrouillage qui vous empêcherait de vous conne
 
 1. Générez deux paires de clés SSH sur votre poste local :
    - une pour la connexion Gitea, que vous indiquerez dans la vue des paramètres de votre utilisateur ;
-   - l'autre pour se connecter à l'invite SSH habituelle à des fins d'administration, que vous indiquerez dans le fichier `$HOME/.ssh/authorized-keys` comme pour tout [accès SSH]({{< ref "remote-access/ssh">}})
+   - l'autre pour se connecter à l'invite SSH habituelle à des fins d'administration, que vous indiquerez dans le fichier `$HOME/.ssh/authorized-keys` comme pour tout [accès SSH]({{< ref "remote-access/ssh">}}).
 2. **Sur votre poste local**, créez (ou mettez à jour) le fichier `$HOME/.ssh/config` et déclarez deux alias pour vous connecter au serveur alwaysdata :
    ```ssh
    Host admin.ssh-[account].alwaysdata.net
