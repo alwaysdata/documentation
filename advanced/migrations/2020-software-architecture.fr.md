@@ -86,6 +86,12 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (3.8.2 par exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
+Lors d'un changement de mineure, plutôt que de recréer l'environnement virtuel, vous pouvez utiliser la commande suivante :
+
+```
+python -m venv --upgrade myenv/
+```
+
 ### Ruby
 
 | Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |

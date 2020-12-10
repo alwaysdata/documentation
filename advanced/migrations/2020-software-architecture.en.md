@@ -85,6 +85,12 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 
 - Minor removed versions will automatically be replaced by the closest minor version (e.g. 3.8.2 for 3.8). If you created any `virtualenvs` with these versions, you will need to recreate them.
 
+When changing the minor, rather than recreating the virtual environment, you can use the following command:
+
+```
+python -m venv --upgrade myenv/
+```
+
 ### Ruby
 
 | Available versions on [v2020]({{< ref "accounts/version" >}}) | Available version on [v2017]({{< ref "accounts/version" >}}) |
