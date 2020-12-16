@@ -14,13 +14,17 @@ Go to the **Accounts** menu and click on the *trash* for the account to delete.
 
 This will delete all of the domains, e-mail addresses, websites, files, databases (...) linked to this account.
 
+{{% notice info %}}
+No refunds are provided for early deletion.
+{{% /notice %}}
+
 ## Delete your profile
 
 Go to the **Profile** menu and click on *Delete this profile*.
 
 {{< fig "images/delete-profile.en.png" "Delete a profile">}}
 
-This will delete all of the accounts attached and your history.
+This will delete all of the accounts and servers attached as well as your history.
 
 {{% notice warning %}}
 Once this operation is done there is no way to undo it.
