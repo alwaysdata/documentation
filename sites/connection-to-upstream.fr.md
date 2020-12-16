@@ -73,7 +73,7 @@ Selon l'erreur corrigez le site, l'environnement virtuel ou encore le script lui
 
 Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en [SSH]({{< ref "remote-access/ssh" >}}). Notamment s'il écoute bien :
 
-- en IPv4 ;
+- en IPv6 ;
 - sur l'IP et le port donné.
 
 ### Upstream not ready

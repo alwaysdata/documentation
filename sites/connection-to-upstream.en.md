@@ -75,7 +75,7 @@ Depending on the error, correct the site, the virtual environment or the script 
 
 For sites that do not use Apache or uWSGI, check the program run in [SSH]({{< ref "remote-access/ssh" >}}). Especially whether it does properly listen on:
 
-  - IPv4,
+  - IPv6,
   - on IP and the set port.
 
 ### Upstream not ready
