@@ -175,7 +175,7 @@ De très nombreux logiciels et bibliothèques seront mis à jour (nos serveurs p
 - MapServer 7.4 (auparavant 7.0)
 - Mercurial 4.8 (auparavant 3.9)
 - PROJ 5.2 (auparavant 4.8)
-- QGIS 2.18 (auparavant QGIS 2.4)
+- QGIS 3.4 (auparavant QGIS 2.4)
 
 ### Environnement VPS/dédié
 

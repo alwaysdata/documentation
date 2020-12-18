@@ -174,7 +174,7 @@ A lot of software and libraries will be updated (our servers are running Debian 
 - MapServer 7.4 (previously 7.0)
 - Mercurial 4.8 (previously 3.9)
 - PROJ 5.2 (previously 4.8)
-- HQIS 2.18 (previously HQIS 2.4)
+- QGIS 3.4 (previously QGIS 2.4)
 
 ### VPS/Dedicated Environment
 
