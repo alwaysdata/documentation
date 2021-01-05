@@ -10,13 +10,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 
 - Account name: `foo`
 - wkhtmltopdf directory: `$HOME/wkhtmltopdf/`
-    - [v2017]({{< ref "accounts/version" >}}):
 
-    ```sh
-    foo@ssh:~/wkhtmltopdf$ wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.jessie_amd64.deb
-    foo@ssh:~/wkhtmltopdf$ dpkg -x wkhtmltox_0.12.5-1.jessie_amd64.deb .
-    ```
-    - [v2020]({{< ref "accounts/version" >}}):
 
     ```sh
     foo@ssh:~/wkhtmltopdf$ wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb
