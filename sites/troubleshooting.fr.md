@@ -20,6 +20,10 @@ Service externe permettant de vérifier la disponibilité : [Down for everyone o
 
 Ajouter le domaine dans **Domaines** ne suffit pas à créer un site internet. L'ajout des adresses dans **Web > Sites** est nécessaire.
 
+### 403 Forbidden
+
+Pour les sites utilisant [Apache]({{< ref "sites/configure-apache" >}}), il va par défaut rechercher pour la page d'accueil un fichier nommé `index.html` ou `index.php`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
+
 ### Erreurs 500
 
 Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le langage utilisé ou l'application elle-même. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.

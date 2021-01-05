@@ -20,6 +20,10 @@ External service to check uptime: [Down for everyone or just me](https://downfor
 
 Adding the domaine in the **Domains** menu is not enough to create a website. It is required to add the addresses in **Web > Sites**.
 
+### 403 Forbidden
+
+For websites using [Apache]({{< ref "sites/configure-apache" >}}) it will per default look for a file named `index.html` or `index.php` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
+
 ### 500 Errors
 
 These errors may be returned by web servers (e.g. Apache), language runtime, or the application itself. Set debug logs to get more inputs on how to fix them.
