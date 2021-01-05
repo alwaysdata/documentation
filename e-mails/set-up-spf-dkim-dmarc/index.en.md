@@ -42,7 +42,8 @@ An SPF record is created by default and can be found in the **DNS records** tab 
 
 {{< fig "images/spf-record.png" "SPF record" >}}
 
-This explicitly allows our servers to send e-mails and sends a neutral result for the other sender servers.
+- `include:_spf.alwaysdata.com` explicitly allows our servers to send e-mails,
+- `?all` sends a neutral result for the other sender servers.
 
 {{% notice warning %}}
 This technology may have an impact on e-mail redirects: as the sender server is not necessarily the e-mail server belonging to the original e-mail sender.

@@ -42,7 +42,8 @@ Un enregistrement SPF est créé par défaut à retrouver dans l'onglet **Enregi
 
 {{< fig "images/spf-record.png" "Enregistrement SPF" >}}
 
-Celui-ci autorise explicitement nos serveurs à envoyer des emails et envoie un résultat neutre pour les autres serveurs d'envois.
+- `include:_spf.alwaysdata.com` autorise explicitement nos serveurs à envoyer des emails ;
+- `?all` envoie un résultat neutre pour les autres serveurs d'envois.
 
 {{% notice warning %}}
 Cette technologie peut avoir des répercussions sur les redirections emails : le serveur émetteur n'étant pas forcément le serveur de messagerie de l'expéditeur d'origine de l'email.
