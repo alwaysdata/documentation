@@ -23,5 +23,6 @@ Take the [last version available](https://github.com/blazegraph/database/release
 
 From **Web > Sites**, create a [User program]({{< ref "sites/user-program" >}}) site with the **Command**:
 
-- [v2017]({{< ref "accounts/version" >}}): `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
-- [v2020]({{< ref "accounts/version" >}}): `java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+```
+java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar
+```

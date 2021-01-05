@@ -8,17 +8,17 @@ tags = ["nodejs"]
 ## Supported Versions (Major Versions)
 
 
-| [v2017]({{< ref "accounts/version" >}}) | [v2020]({{< ref "accounts/version" >}}) |
-| --------------------------------------- | --------------------------------------- |
-| -                                       | 15                                      |
-| -                                       | 14                                      |
-| -                                       | 13                                      |
-| 12                                      | 12                                      |
-| 11                                      | 11                                      |
-| 10                                      | 10                                      |
-| 9                                       | 9                                       |
-| 8                                       | 8                                       |
-| 6                                       | 6                                       |
+||
+| --- |
+| 15                                      |
+| 14                                      |
+| 13                                      |
+| 12                                      |
+| 11                                      |
+| 10                                      |
+| 9                                       |
+| 8                                       |
+| 6                                       |
 
 The default version can be changed from the administration section, under **Environment > Node.js**. This is the version that is especially used when you start `node`.
 

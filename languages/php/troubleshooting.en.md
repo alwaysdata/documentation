@@ -29,10 +29,6 @@ This [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-bl
 
 You have reached the 256 Mbyte limit, the default value for `memory_limit` in PHP. You can increase this value in **Environment > PHP** or from the site itself in **Web > Sites > Details** for the relevant site.
 
-### 403 Forbidden
-
-Per default for [PHP type sites]({{< ref "sites/add-a-site" >}}) Apache will search for a file named `index.html` or `index.php` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
-
 ## Use several versions in SSH
 
 To use in SSH another PHP version and/or configuration than the one indicated in **Environment > PHP**, it is possible to use the following commands:

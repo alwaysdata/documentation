@@ -26,5 +26,6 @@ Prenez la [dernière version disponible](https://github.com/blazegraph/database/
 
 Dans **Web > Sites**, créez un site de type [Programme utilisateur]({{< ref "sites/user-program" >}}) avec pour **Commande** :
 
-- [v2017]({{< ref "accounts/version" >}}) : `java -server -Xmx4g -Djava.net.preferIPv4Stack=true -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
-- [v2020]({{< ref "accounts/version" >}}) : `java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar`
+```
+java -server -Xmx4g -Djetty.host=0.0.0.0 -Djetty.port=$PORT -jar $HOME/blazegraph/blazegraph.jar
+```

@@ -8,19 +8,6 @@ tags = ["java"]
 
 ## Versions supportées
 
-- [v2017]({{< ref "accounts/version" >}}) :
-
-| Majeures | Commande                                                    |
-|----------|-------------------------------------------------------------|
-| 10       | `/usr/lib/jvm/java-10-openjdk-amd64/jre/bin/java`           |
-| 9        | `/usr/lib/jvm/java-9-openjdk-amd64/jre/bin/java`            |
-| 8        | `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java`            |
-| 7        |  `java` ou `/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java` |
-
-La version par défaut est Java 1.7. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
-
-- [v2020]({{< ref "accounts/version" >}}) :
-
 | Majeures |
 |----------|
 | 14       |
@@ -33,10 +20,8 @@ La version par défaut est Java 14. C'est cette version qui est notamment utilis
 
 Pour se servir d'une version de Java différente que celle par défaut :
 
-- [v2017]({{< ref "accounts/version" >}}) : utilisez `/usr/lib/jvm/java-[VERSION]-openjdk-amd64/jre/bin/java` (en remplaçant `[VERSION]` par la version de Java voulue) ;
-- [v2020]({{< ref "accounts/version" >}}) :
-    - rendez-vous dans **Environnement > Java** ;
-    - ou utilisez `JAVA_VERSION=[VERSION] java` (en remplaçant `[VERSION]` par la version de Java voulue).
+- rendez-vous dans **Environnement > Java** ;
+- ou utilisez `JAVA_VERSION=[VERSION] java` (en remplaçant `[VERSION]` par la version de Java voulue).
 
 ## Environnement
 
@@ -49,14 +34,6 @@ Pour déployer une application HTTP avec Java, créez un site de type *[Programm
 {{< fig "images/user-program.fr.png" "Type de site Programme utilisateur">}}
 
 Vous devrez spécifier la commande qui démarre votre application Java, par exemple :
-
-- [v2017]({{< ref "accounts/version" >}}) :
-
-```
-$ /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Djava.net.preferIPv4Stack=true -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
-```
-
-- [v2020]({{< ref "accounts/version" >}}) :
 
 ```
 $ java -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
