@@ -23,6 +23,10 @@ Then there will be a series of fields to fill-in. Here are the details.
 
 The antispam used to filter out undesired e-mail advertising (*spam*) is the open-source software [Rspamd](https://rspamd.com/).
 
+{{% notice warning %}}
+The configurable antispam is the antispam of incoming mail. The emails leaving our servers inevitably go through a non-configurable antispam.
+{{% /notice %}}
+
 {{< fig "images/admin-panel_mailbox_antispam.en.png" "Administration interface: E-mails - Antispam" >}}
 
 - *Score*: the antispam software assigns every message a score based on the probability of it being spam. Messages that exceed this score will be saved in a folder. The lower the score, the more likely an e-mail will be marked out as spam, so it is preferable to leave the default value.

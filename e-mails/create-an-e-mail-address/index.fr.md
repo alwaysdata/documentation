@@ -25,6 +25,10 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 
 L'antispam utilisé pour filtrer le courrier électronique publicitaire non souhaité (_spam_) est le logiciel libre [Rspamd](https://rspamd.com/).
 
+{{% notice warning %}}
+L'antispam paramétrable est l'antispam des courriers entrants. Les emails partant de nos serveurs passent obligatoirement par un antispam non-paramétrable.
+{{% /notice %}}
+
 {{< fig "images/admin-panel_mailbox_antispam.fr.png" "Interface d'administration : Emails - Antispam" >}}
 
 - _Score_ : l'anti-spam attribue à chaque message un score suivant la probabilité qu'il s'agisse d'un spam. Les messages dépassant ce score seront stockés dans un dossier. Plus le score est bas, plus un email a la possibilité d'être marqué comme spam, il est donc préférable de laisser la valeur par défaut ;
