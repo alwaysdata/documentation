@@ -15,11 +15,13 @@ Une fois l'IP prise :
 - Si le domaine utilise nos serveurs DNS, rendez-vous au niveau du sous-domaine pour lui allouer l'IP. Cela se passe via **Web > Sites > Modifier [site] > Configurer (en face des adresses)** ou via **Domaines > Détails de [exemple.org] (roue crantée) > Sous-domaines**.
 - Si le domaine utilise d'autres serveurs DNS, créez un **enregistrement DNS de type A** pointant sur l'IP privée chez votre prestataire DNS.
 
-{{% notice info %}}
+{{% notice note %}}
 Cette IP servira pour les requêtes entrantes mais les requêtes sortantes passeront toujours par l'IP du serveur HTTP sur lequel est le compte. Cette IP est donnée dans le menu **Avancé > Statut des services**.
 {{% /notice %}}
 
-Elle est nécessaire si vous souhaitez changer de [profil TLS]({{< ref "security/ssl-tls/configure-tls" >}}) pour un compte ou une ou plusieurs adresses. 
+{{% notice info %}}
+Une IP supplémentaire est nécessaire si vous souhaitez modifier le [profil TLS]({{< ref "security/ssl-tls/configure-tls" >}}) d'un compte / adresses.
+{{% /notice %}}
 
 ## SMTP
 
@@ -29,7 +31,9 @@ Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par ce
 
 {{< fig "images/dedicated-ip-smtp.fr.png" "" >}}
 
-Plus la note est basse mieux l’email sera noté.
+{{% notice note %}}
+Plus la note est basse mieux l'email sera noté.
+{{% /notice %}}
 
 [^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec notre [offre Catalyst serveur dédié]({{< ref "accounts/billing/choose-its-paas" >}}).
 [^2]: Pour un engagement annuel, contactez le [support](https://admin.alwaysdata.com/support/add).
