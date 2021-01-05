@@ -21,3 +21,5 @@ Vous disposez de **30 jours** pour la régler dans **Facturation > Factures > Al
 - [Diverses questions]({{< ref "./misc" >}})
 
 L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Factures**.
+
+Nos abonnements sont soumis à la reconduction tacite et renouvelés automatiquement.

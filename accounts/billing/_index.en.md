@@ -20,3 +20,5 @@ You have **30 days** to pay it in **Billing > Invoices > Credit the account** or
 - [Miscellaneous questions]({{< ref "./misc" >}})
 
 All of your invoices and receipts can be downloaded in `zip` archive from the **Billing > Invoices** tab.
+
+Our subscriptions are subject to tacit reconduction and automatically renewed.
