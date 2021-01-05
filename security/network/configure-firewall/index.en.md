@@ -33,6 +33,8 @@ Not putting anything in Hosts and Ports will enable the rule for all unless a hi
 
 {{< fig "images/admin-panel_add-rule.en.png" "Administration interface: adding a rule" >}}
 
+It is possible to give a label to your rules by using ```# <label>```.
+
 To allow your own IP address to never be blocked on any port you can create the following rules:
 
 |Title|Value|

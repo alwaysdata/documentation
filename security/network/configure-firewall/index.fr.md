@@ -31,6 +31,8 @@ Ne rien mettre dans Hôtes et Ports va activer la règle pour tous sauf si une r
 
 {{< fig "images/admin-panel_add-rule.fr.png" "Interface d'administration : ajouter une règle" >}}
 
+Il est possible de donner un label à ses règles en utilisant ```# <label>```.
+
 Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la règle suivante :
 
 | Intitulé   | Valeur                                           |
