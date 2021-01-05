@@ -13,7 +13,6 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Blazegraph]({{< relref "install-blazegraph" >}})
 - [FFmpeg]({{< relref "install-ffmpeg" >}})
 - [Gitea]({{< relref "gitea" >}})
-- [Jenkins]({{< relref "install-jenkins" >}})
 - [New Relic]({{< relref "install-new-relic" >}})
 - [TiddlyWiki]({{< ref "./tiddlywiki" >}})
   - [TiddlyWiki Bob Plugin]({{< ref "tiddlywiki/plugin-bob" >}})
