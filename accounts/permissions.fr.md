@@ -33,7 +33,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _[WebDAV]({{< ref "remote-access/webdav" >}})_ ;
 - _[Environnement]({{< ref "/languages" >}})_ : configurez les langages de programmation ;
 - _Processus_ : processus HTTP en exécution pouvant être analysés ou tués ;
-- _Adresses IP_ : achetez des IP dédiées pour HTTP ou SMTP ;
+- _[Adresses IP]({{< ref "advanced/dedicated-ip-addresses" >}})_ : louer des IP dédiées pour HTTP ou SMTP ;
 - _[Certificats SSL]({{< ref "security/ssl-tls" >}})_ ;
 - _[Migration]({{< ref "advanced/migrations" >}})_ ;
 - _[Tâches planifiées]({{< ref "tasks" >}})_ ;
@@ -47,7 +47,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _Configuration SMTP_ : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam ;
 - _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
 - _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS]({{< ref "security/ssl-tls/configure-tls" >}}) du serveur ;
-- _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut ;
+- _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut et la période de rétention des logs ;
 - _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
 - _[Ressources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})_ : modifiez les limitations de ressources par compte (ex : consommation RAM).
 
