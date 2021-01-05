@@ -6,7 +6,7 @@ weight = 10
 tags = ["apache", "http", "site"]
 +++
 
-[Apache](http://httpd.apache.org/) 2.2 and 2.4 are available on [v2017]({{< ref "accounts/version" >}}). Only Apache 2.4 is available on [v2020]({{< ref "accounts/version" >}}). To change versions or add global directives to your Apache configuration go to **Web > Configuration > Apache**.
+[Apache](http://httpd.apache.org/)2.4 is available on our servers. To add global directives to your Apache configuration go to **Web > Configuration > Apache**.
 
 {{< fig "images/admin-panel_apache.en.png" "Administration interface: configure Apache" >}}
 
@@ -14,7 +14,6 @@ All of the modifications made in the *Apache global directives* field will impac
 
 Apache serves PHP, Static Files and Custom Apache websites.
 
-- [Apache 2.2 documentation](http://httpd.apache.org/docs/2.2/en/)
 - [Apache 2.4 documentation](http://httpd.apache.org/docs/2.4/en/)
 - [File .htaccess]({{< ref "sites/htaccess-file" >}})
 
