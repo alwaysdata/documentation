@@ -88,7 +88,7 @@ CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 When changing the minor, rather than recreating the virtual environment, you can use the following command:
 
 ```
-python -m venv --upgrade myenv/
+python -m venv --upgrade [myenv]/
 ```
 
 ### Ruby

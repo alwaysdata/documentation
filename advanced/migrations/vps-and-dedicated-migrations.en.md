@@ -33,6 +33,10 @@ The transit server will be made available at no extra cost for a period of up to
 
 The availability of the transit server will depend on availability at the time of your request. You may therefore have to wait until a server is released.
 
+{{% notice tip %}}
+For a domain that does not use alwaysdata's DNS servers but its e-mails servers (MX), delete the `MX 5 server.alwaysdata.net` record in the DNS provider panel. `MX 10 mx1.alwaysdata.com` and `MX 20 mx2.alwaysdata.com` must be kept.
+{{% /notice %}}
+
 ## Optional migrations
 
 Some migrations relating to only one service in our infrastructure (e.g. database management servers) may be offered.

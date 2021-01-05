@@ -30,6 +30,10 @@ Le serveur de transit vous sera mis à disposition sans surcoût pour une pério
 
 La mise à disposition du serveur de transit dépendra de la disponibilité au moment de votre demande. Il se peut donc que vous deviez attendre qu'un serveur soit libéré.
 
+{{% notice tip %}}
+Pour un domaine n'utilisant pas les serveurs DNS d'alwaysdata mais ses serveurs emails (MX), supprimez l'enregistrement `MX 5 serveur.alwaysdata.net` chez le prestataire DNS. `MX 10 mx1.alwaysdata.com` et `MX 20 mx2.alwaysdata.com` doivent être gardés.
+{{% /notice %}}
+
 ## Migrations optionnelles
 
 Certaines migrations ne concernant qu'un service de notre infrastructure (exemple : les serveurs de gestion de bases de données) peuvent être proposées.

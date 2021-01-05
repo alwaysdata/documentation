@@ -89,7 +89,7 @@ CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_
 Lors d'un changement de mineure, plutôt que de recréer l'environnement virtuel, vous pouvez utiliser la commande suivante :
 
 ```
-python -m venv --upgrade myenv/
+python -m venv --upgrade [myenv]/
 ```
 
 ### Ruby
