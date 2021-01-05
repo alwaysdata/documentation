@@ -36,3 +36,9 @@ You can also manage your DNS via a conventional system, directly from the **Doma
 - [Add a SRV record]({{< relref "add-srv-record" >}})
 - [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Delete a DNS record]({{< relref "delete-dns" >}})
+
+[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is not yet supported.
+
+{{% notice info %}}
+As GANDI resellers you can receive emails from us, from them and from the [registry operators](https://en.wikipedia.org/wiki/Domain_name_registry) of the domain extensions taken.
+{{% /notice %}}

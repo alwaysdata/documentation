@@ -37,3 +37,9 @@ Vous pouvez aussi gérer vos DNS, via un système classique, directement dans l'
 - [Ajouter un enregistrement SRV]({{< relref "add-srv-record" >}})
 - [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Supprimer un enregistrement DNS]({{< relref "delete-dns" >}})
+
+[DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) n'est pas encore géré.
+
+{{% notice info %}}
+Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
+{{% /notice %}}
