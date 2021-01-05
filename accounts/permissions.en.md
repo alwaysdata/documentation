@@ -21,18 +21,18 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 ### By account
 
 - *Technical contact*: be alerted when a technical ticket is opened by our services relating to the account,
-- *Consumption*: monitor disk space consumption,
+- *Usage*: monitor disk space consumption,
 - *[Statistics]({{< ref "analytics" >}})*: analyze the visits to your sites,
 - *[Sites]({{< ref "sites" >}})*: configure the websites and the Apache environment,
 - *[Domains]({{< ref "domains" >}})*,
-- *[E-mails]({{< ref "e-mails" >}})*,
+- *[Emails]({{< ref "e-mails" >}})*,
 - *[Databases]({{< ref "databases" >}})*,
 - *[FTP]({{< ref "remote-access/ftp" >}})*,
 - *[SSH]({{< ref "remote-access/ssh" >}})*,
 - *[WebDAV]({{< ref "remote-access/webdav" >}})*,
 - *[Environment]({{< ref "/languages" >}})*: configure the programming languages,
-- *Process*: HTTP processes executed that may be analyzed or killed,
-- *IP address*: purchase dedicated IPs for HTTP or SMTP,
+- *Processes*: HTTP processes executed that may be analyzed or killed,
+- *[IP addresses]({{< ref "advanced/dedicated-ip-addresses" >}})*: rent dedicated IPs for HTTP or SMTP,
 - *[SSL certificates]({{< ref "security/ssl-tls" >}})*,
 - *[Migration]({{< ref "advanced/migrations" >}})*,
 - *[Scheduled tasks]({{< ref "tasks" >}})*,
@@ -46,7 +46,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *SMTP configuration*: manage the e-mail send queue, SMTP relaying and spam score,
 - *Database users*: permit overall access to databases for all accounts,
 - *SSL configuration*: choose the SSL certificate to return to the server (`*.alwaysdata.net` by default) and the server [TLS configuration]({{< ref "security/ssl-tls/configure-tls" >}}),
-- *HTTP configuration*: choose a website that will be the default home page,
+- *HTTP configuration*: choose a website that will be the default home page and the log retention period,
 - *Consumption*: monitor disk space consumption for your entire server,
 - *[Resources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})*: change the resource limits by account (e.g. RAM usage).
 

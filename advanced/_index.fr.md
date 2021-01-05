@@ -11,6 +11,7 @@ chapter = true
 Vous retrouverez ici des sujets avancés ou spécifiques à alwaysdata.
 
 - [Migrations]({{< relref "migrations" >}})
+- [Adresses IP dédiées]({{< relref "dedicated-ip-addresses" >}})
 
 ## Serveurs dédiés et VPS
 
