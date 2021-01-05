@@ -35,8 +35,8 @@ Il recueille différents types de logs :
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
 
 {{% notice info %}}
-Une période de rétention des logs peut être mise en place via le menu **Avancé > Logs**.
-Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.
+Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour les serveurs dédiés et VPS, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
+*Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.*
 {{% /notice %}}
 
 Seuls les logs *apache* et *uwsgi* du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.
