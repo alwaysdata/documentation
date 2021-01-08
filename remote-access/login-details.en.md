@@ -69,4 +69,4 @@ it was created.
 
 {{% notice note %}}
 The default login corresponds - except for emails for which the username is the email address - to the **account name** and the password is the one indicated at the creation of the account. All passwords are encrypted - and therefore unrecoverable - but can be modified in the dedicated menus.
-{{% /notice %}}}
+{{% /notice %}}
