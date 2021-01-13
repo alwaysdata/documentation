@@ -20,6 +20,7 @@ Domains are managed from the **Domains** tab in your administration interface. [
 - [Deadlines]({{< relref "deadlines" >}})
 - [Move a domain]({{< relref "move-a-domain" >}})
 - [Change of owner]({{< relref "change-of-owner" >}})
+- [Update domain owner's details]({{< relref "update-owner-details" >}})
 - [Delegate a subdomain]({{< relref "delegate-a-subdomain" >}})
 - [Wipe a domain]({{< relref "wipe-a-domain" >}})
 - [Outgoing transfer]({{< relref "outgoing-transfer" >}})

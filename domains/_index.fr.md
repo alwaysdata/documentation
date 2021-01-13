@@ -21,6 +21,7 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 - [Dates limites]({{< relref "deadlines" >}})
 - [Déplacer un domaine]({{< relref "move-a-domain" >}})
 - [Changer de propriétaire]({{< relref "change-of-owner" >}})
+- [Mettre à jour les informations du propriétaire du domaine]({{< relref "update-owner-details" >}})
 - [Déléguer un sous-domaine]({{< relref "delegate-a-subdomain" >}})
 - [Détruire un domaine]({{< relref "wipe-a-domain" >}})
 - [Transfert sortant]({{< relref "outgoing-transfer" >}})

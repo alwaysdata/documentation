@@ -12,3 +12,5 @@ Rendez-vous dans **Domaines > Détails** du domaine concerné **> Changer** (en 
 Un email de confirmation est envoyé aux deux parties. _Vérifiez les adresses emails avant de lancer l'opération_.
 
 L'opération est payante pour les extensions suivantes : _.am_, _.be_, _.me.uk_.
+
+Si vous souhaitez simplement mettre à jour l'adresse, le télépone ou encore l'adresse email, vous pouvez simplement faire une [mise à jour des informations du propriétaire]({{< ref "domains/update-owner-details" >}}).
