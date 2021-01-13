@@ -8,6 +8,8 @@ tags = ["facturation", "serveur dédié", "serveur gold", "serveur VPS"]
 
 Cette page recence les prix des configurations Catalyst. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/catalyst/).
 
+Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
+
 ## Serveurs VPS
 
 |                 | VPS A             | VPS B             |
@@ -47,6 +49,8 @@ Cette page recence les prix des configurations Catalyst. Pour plus d'information
 | **Trafic/mois**                     |                 |               |
 | 1 To (1 Gbps) [^2]                  | 10 €            | 100 €         |
 
+Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
+
 Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
 ## Serveurs Gold
@@ -78,6 +82,7 @@ Serveur dédié redondé dans un autre datacenter.
 | **Trafic/mois**                     |                 |               |
 | 1 To (1 Gbps) [^2]                  | 20 €            | 200 €         |
 
+Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
 {{% notice info %}}
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.

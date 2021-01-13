@@ -7,6 +7,8 @@ tags = ["billing", "dedicated", "gold", "vps"]
 
 This page lists the prices of the Catalyst configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/).
 
+For any Catalyst configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
+
 ## VPS servers
 
 |                            | VPS A            | VPS B            |
@@ -46,6 +48,8 @@ This page lists the prices of the Catalyst configurations. To have more informat
 | **Traffic/month**                   |                            |                           |
 | 1TB (1Gbps) [^2]                    | 10 €                       | 100 €                     |
 
+In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
+
 If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go in the page [Options prices - old configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
 ## Gold servers
@@ -77,6 +81,7 @@ Dedicated server redunded in another datacenter.
 | **Traffic/month**                   |      		             |                           |
 | 1TB (1Gbps) [^2]                    | 20 €                       | 200 €                     |
 
+In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
 {{% notice info %}}
 Adding/change of configuration operations prices are available in the [servers interventions page]({{< ref "accounts/billing/servers-interventions" >}}). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
