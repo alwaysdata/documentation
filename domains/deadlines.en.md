@@ -159,7 +159,7 @@ Different dates apply:
 |.gl|Until expiry|Impossible|Day of expiry|Up to 30 days after expiry|30 days after expiry|
 |.glass|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.global|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.gr|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 14 days after expiry|14 days after expiry|
+|.gr|Up to 2 days prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 14 days after expiry|14 days after expiry|
 |.graphics|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.gratis|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.green|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
