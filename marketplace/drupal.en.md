@@ -4,6 +4,8 @@ layout = "man"
 tags = ["drupal"]
 +++
 
+- [Drupal documentation](https://www.drupal.org/documentation)
+
 ## Installation
 
 The last version of [Drupal](https://www.drupal.org/) is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.

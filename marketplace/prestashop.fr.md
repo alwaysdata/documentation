@@ -5,6 +5,8 @@ layout = "man"
 tags = ["prestashop"]
 +++
 
+- [Documentation PrestaShop](https://www.prestashop.com/fr/ressources)
+
 ## Installation
 La dernière version de [PrestaShop](https://www.prestashop.com/fr) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
 

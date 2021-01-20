@@ -5,6 +5,9 @@ layout = "man"
 tags = ["magento"]
 +++
 
+- [Documentation Développeur Magento](https://devdocs.magento.com/)
+- [Documentation Utilisateur Magento](https://docs.magento.com/user-guide/)
+
 ## Installation
 
 Magento 2.4, ayant [besoin d'Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), n'est *pas compatible* avec les offres en Cloud public.

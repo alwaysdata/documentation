@@ -4,6 +4,8 @@ layout = "man"
 tags = ["prestashop"]
 +++
 
+- [PrestaShop documentation](https://www.prestashop.com/en/resources)
+
 ## Installation
 
 The last version of [PrestaShop](https://www.prestashop.com) is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.

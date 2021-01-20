@@ -7,6 +7,8 @@ tags = ["wordpress"]
 
 WordPress est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu) open source le plus utilisé aujourd'hui de par sa simplicité de déploiement et la possibilité d'y greffer de nouvelles fonctionnalités développées par la communauté appelées [plugins](http://wordpress.org/plugins/).
 
+- - [Documentation WordPress](https://fr.wordpress.org/support/)
+
 ## Installation
 
 La dernière version de [WordPress](https://fr.wordpress.org/) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.

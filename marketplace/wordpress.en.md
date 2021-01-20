@@ -6,6 +6,8 @@ tags = ["wordpress"]
 
 WordPress is currently the most widely used open source [CMS](https://en.wikipedia.org/wiki/Content_management_system) thanks to its ease of deployment and the ability to add new functions to it, called [plugins](http://wordpress.org/plugins/) that are developed by the community.
 
+- [WordPress documentation](https://wordpress.org/support/)
+
 ## Installation
 
 The last version of [WordPress](https://wordpress.org/) is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.
