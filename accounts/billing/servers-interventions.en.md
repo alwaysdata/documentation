@@ -13,6 +13,6 @@ The installation of a new server is **free of charge**. Other operations perform
 | Disks Upgrade                                                                                                          | 400€                  |
 | RAM Extend                                                                                                             | 200€                  |
 | Disks extend (previous configurations)                                                                                 | 200€                  |
-| Downgrade (dedicated to VPS, VPS B to VPS A, dedicated/VPS to public Cloud) | 200€                  |
+| Downgrade (dedicated to VPS, VPS B to VPS A)                                                                           | 200€                  |
 
 Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
