@@ -20,6 +20,6 @@ Pour observer le comportement de votre application vous pouvez aussi effectuer u
 - [Documentation de `ab`](https://httpd.apache.org/docs/2.4/programs/ab.html)
 - 2 services externes de tests de charge :
     - [Loader.io](https://loader.io/)
-    - [Load impact](https://loadimpact.com/)
+    - [K6](https://k6.io/)
 
 [^1]: Ces deux logiciels sont disponibles sur les environnements VPS et dédiés.

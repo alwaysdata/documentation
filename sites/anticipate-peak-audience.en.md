@@ -19,7 +19,7 @@ To observe the behavior of your application you can also run a **load test** (e.
 - [Documentation for ab](https://httpd.apache.org/docs/2.4/programs/ab.html)
 - Two outside load tests:
     - [Loader.io](https://loader.io/)
-    - [Load impact](https://loadimpact.com/)
+    - [K6](https://k6.io/)
   
 
 [^1]: These two applications are available on VPS and dedicated environments.
