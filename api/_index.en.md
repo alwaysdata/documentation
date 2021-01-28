@@ -15,11 +15,19 @@ Our [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API le
 |--- |--- |
 |1.0|https://api.alwaysdata.com/v1/|
 
-## Quick example
+## Quick examples
 
 ```
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
 ```
+
+### Restart a website
+
+```
+$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+```
+
+`APIKEY` to replace per the API token and `1234` per the site ID.
 
 ## Find out more
 

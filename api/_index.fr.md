@@ -20,11 +20,20 @@ etc.) depuis votre code.
 |:--------|:-----------------------|:--------------------------------|
 | 1.0     | api.alwaysdata.com/v1 | https://api.alwaysdata.com/doc/ |
 
-## Exemple rapide
+## Exemples rapides
 
 ```
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
 ```
+
+
+### Redémarrer un site
+
+```
+$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+```
+
+`APIKEY` à remplacer par le token API et `1234` par l'ID du site.
 
 ## Tout savoir
 
