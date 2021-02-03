@@ -57,13 +57,13 @@ Il faut veiller à ajouter progressivement des règles car l'exclusion est appli
 
 ## Exclure des chemins
 
-Ce type d'exclusion permet d'**éviter l'analyse de pages commençant par le chemin spécifié**. En saisissant `/foo/` par exemple, `www.mon-site.com/foo/` sera exclu de l'analyse tout comme les query strings : `www.mon-site.com/foo/?param=bar`. Pour exclure aussi `www.mon-site.com/foo/bar` et `www.mon-site.com/foo/script.php`, il faut rajouter un _wildcard_ : `/foo/\*`. Enfin, si on veut substituer un caractère quelconque (notamment qui changerait régulièrement), `?` peut être utilisé.
+Ce type d'exclusion permet d'**éviter l'analyse de pages commençant par le chemin spécifié**. En saisissant `/foo/` par exemple, `www.mon-site.com/foo/` sera exclu de l'analyse tout comme les query strings : `www.mon-site.com/foo/?param=bar`. Pour exclure aussi `www.mon-site.com/foo/bar` et `www.mon-site.com/foo/script.php`, il faut rajouter un _wildcard_ : `/foo/*`. Enfin, si on veut substituer un caractère quelconque (notamment qui changerait régulièrement), `?` peut être utilisé.
 
-Donc, pour écarter de l'analyse `www.mon-site.com/foo/barBaz/`, `foo` et `Baz` étant des _strings_ quelconques, le chemin à exclure serait : `/\*/bar?/`.
+Donc, pour écarter de l'analyse `www.mon-site.com/foo/barBaz/`, `foo` et `Baz` étant des _strings_ quelconques, le chemin à exclure serait : `/*/bar?/`.
 
 {{% notice tip %}}
 Prenons le cas d'un site de type WordPress qui présente des logs similaires à ceux présentés précédemment. Si ces règles sont déclenchées lors de la navigation dans l'interface d'administration du blog, alors il est possible de les exclure de manière permanente.
-Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'attaques. Dans ce cas, il est plus judicieux d'exclure le chemin (exemple : /wp-admin/\*) pour que toutes vos opérations sur l'interface d'administration ne soient plus concernées par l'analyse du WAF.
+Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'attaques. Dans ce cas, il est plus judicieux d'exclure le chemin (exemple : /wp-admin/*) pour que toutes vos opérations sur l'interface d'administration ne soient plus concernées par l'analyse du WAF.
 {{% /notice %}}
 
 ## Exclure des IP

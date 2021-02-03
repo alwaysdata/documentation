@@ -18,12 +18,12 @@ To configure the web application firewall, use the administration interface from
 ||HTTP Malicious robot detection|
 |Strong|All of the basic profile rules|
 ||Remote Code Execution (RCE) detection|
-||Cross-Site Scripting (XSS) type attack detection|
-||SQL injection detection|
+||[Cross-Site Scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) type attack detection|
+||[SQL injection](https://en.wikipedia.org/wiki/SQL_injection) detection|
 |Complete|All of the strong profile rules|
 ||PHP language related attack detection|
 ||Local File Inclusion (LFI) attack detection|
-||Remote File Inclusion (RFI) attack detection|
+||[Remote File Inclusion (RFI)](https://en.wikipedia.org/wiki/File_inclusion_vulnerability) attack detection|
 |WordPress|All of the complete profile rules|
 ||WordPress specific rules|
 |Drupal|All of the complete profile rules|
@@ -44,9 +44,9 @@ Depending on your usage case, **the way WAF behaves may be too restrictive**. It
 Only specify the **number of the rule to exclude**. You will find this in the Sites logs (`$HOME/admin/logs/sites`). Example:
 
 ```
-[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: "><script>alert(1);</script>
-[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: <script>
-[08/Jan/2019:11:09:19 +0100] [waf] - <IP attaquante> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: <script>
+[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: "><script>alert(1);</script>
+[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941110 | XSS Filter - Category 1: Script Tag Vector' with value: <script>
+[08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941160 | NoScript XSS InjectionChecker: HTML Injection' with value: <script>
 ```
 
 Consequently `941100`, `941110` and `941160` could be indicated.
