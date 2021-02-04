@@ -29,6 +29,8 @@ Domains are managed from the **Domains** tab in your administration interface. [
 
 You can also manage your DNS via a conventional system, directly from the **Domains** tab.
 
+To use our DNS servers, set on your registrar administration panel `dns1.alwaysdata.com` and `dns2.alwaysdata.com`.
+
 - [API - DNS record](https://api.alwaysdata.com/v1/record/doc/)
 - [Add a DNS record]({{< relref "add-dns" >}})
 - [Use external MX]({{< relref "use-external-mx" >}})

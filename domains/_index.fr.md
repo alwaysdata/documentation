@@ -30,6 +30,9 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 
 Vous pouvez aussi gérer vos DNS, via un système classique, directement dans l'onglet **Domaines**.
 
+Pour utiliser nos serveurs DNS, indiquez chez votre registrar `dns1.alwaysdata.com` et `dns2.alwaysdata.com`.
+
+
 - [API - Enregistrement DNS](https://api.alwaysdata.com/v1/record/doc/)
 - [Ajouter un enregistrement DNS]({{< relref "add-dns" >}})
 - [Utiliser des MX externes]({{< relref "use-external-mx" >}})

@@ -12,6 +12,12 @@ Our e-mail servers are conventional ones, we use [Exim](https://www.exim.org/) a
 
 You can [create an e-mail address]({{< relref "create-an-e-mail-address" >}}) from the **E-mails** tab in your alwaysdata administration interface and [view your e-mails]({{< relref "use-an-e-mail-address" >}}) via the e-mail client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.
 
+{{% notice info %}}
+Once the mailbox is created, it is possible to send e-mails via our SMTP servers. To receive them, the domain must have [MX DNS records](https://en.wikipedia.org/wiki/MX_record).
+{{% /notice %}}
+
+To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
+
 ## Resources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
