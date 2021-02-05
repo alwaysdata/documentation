@@ -5,10 +5,6 @@ hidden = true
 tags = ["infrastructure", "migration"]
 +++
 
-{{% notice info %}}
-This migration is currently only available on shared plans. If you are on a VPS or dedicated server, you can migrate [PostgreSQL 10]({{< ref postgresql-10 >}}).
-{{% /notice %}}
-
 This migration upgrades your databases to PostgreSQL version 12 (from PostgreSQL 9.6 or 10): https://www.postgresql.org/docs/12/release-12.html.
 
 The noticeable changes are:
