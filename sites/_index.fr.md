@@ -31,6 +31,7 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 - [Déplacer un site]({{< relref "move-a-site" >}})
 - [Désactiver un site]({{< relref "deactivate-a-site" >}})
 - [Désinfecter un site]({{< relref "clean-up-a-site" >}})
+- [Restaurer un site]({{< ref "backups/restore-a-site" >}})
 - [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "connection-to-upstream" >}})

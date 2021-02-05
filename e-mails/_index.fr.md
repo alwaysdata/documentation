@@ -31,6 +31,7 @@ Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.a
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
+- [Restaurer des emails]({{< ref "backups/restore-e-mails" >}})
 - [Questions diverses]({{< relref "./misc" >}})
 
 ## Clients mails

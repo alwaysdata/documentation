@@ -30,6 +30,7 @@ To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 - [Use external MX]({{< ref "domains/use-external-mx" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
+- [Restore e-mails]({{< ref "backups/restore-e-mails" >}})
 - [Miscellaneous questions]({{< relref "./misc" >}})
 
 ## E-mail clients

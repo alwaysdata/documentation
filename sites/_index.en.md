@@ -30,6 +30,7 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 - [Move a site]({{< relref "./move-a-site" >}})
 - [Deactivate a site]({{< relref "./deactivate-a-site" >}})
 - [Clean up a site]({{< relref "./clean-up-a-site" >}})
+- [Restore a site]({{< ref "backups/restore-a-site" >}})
 - [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Troubleshooting]({{< relref "./troubleshooting" >}})
 - [Connection to upstream]({{< relref "./connection-to-upstream">}})
