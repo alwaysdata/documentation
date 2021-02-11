@@ -8,6 +8,10 @@ tags = ["e-mail", "backup"]
 
 Backups of your e-mails are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
 
+{{% notice info %}}
+The e-mails present on the backup date will be restored. No e-mail sent or received since will be deleted.
+{{% /notice %}}
+
 1.  Choose the required date,
     {{< fig "images/admin-panel_restoration.en.png" "Administration interface: restore backups - step 1" >}}
 
@@ -29,7 +33,3 @@ To restore a backup manually.
     ```
     $ rsync -av $HOME/admin/backup/[date]/mails/[domain]/[mailbox]/ $HOME/admin/mail/[domain]/[mailbox]/
     ```
-
-{{% notice info %}}
-Here the e-mails present on the backup date will be restored. No e-mail sent or received since will be deleted.
-{{% /notice %}}

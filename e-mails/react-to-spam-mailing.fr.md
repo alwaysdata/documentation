@@ -23,6 +23,8 @@ Lorsque l'équipe alwaysdata rencontre un envoi de spam par attaque sur formulai
 
 L'utilisateur devra mettre en place une protection plus importante sur son formulaire ; via l'utilisation d'un [CAPTCHA](https://fr.wikipedia.org/wiki/CAPTCHA) par exemple.
 
+Le [WAF]({{< ref "sites/waf" >}}) peut être utile pour bloquer certaines attaques.
+
 ## Vol de mot de passe
 Dans ce cas, elle va :
 

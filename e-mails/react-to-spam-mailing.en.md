@@ -23,6 +23,8 @@ When the alwaysdata team encounters spam sent due to a form attack, they will:
 
 The user will have to put a more efficient protection on the form, through the use of a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
 
+The [WAF]({{< ref "sites/waf" >}}) can be useful to block some attacks.
+
 ## Password theft
 
 In this case, they will:

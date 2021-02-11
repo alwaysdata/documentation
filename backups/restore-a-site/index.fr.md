@@ -36,7 +36,7 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
     ```
 
 {{% notice warning %}}
-Attention, `--delete` va supprimer tous les fichiers de ce répertoire ayant été créés depuis la date de la sauvegarde.
+`--delete` va supprimer tous les fichiers de ce répertoire ayant été créés depuis la date de la sauvegarde.
 Pour effectuer un test ajoutez `-n`.
 {{% /notice %}}
 

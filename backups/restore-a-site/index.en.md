@@ -35,7 +35,7 @@ To restore a backup manually.
     ```
 
 {{% notice warning %}}
-Be aware that `--delete` will delete all of the files from this directory that have been created since the backup date. To run a test add `-n`.
+`--delete` will delete all of the files from this directory that have been created since the backup date. To run a test add `-n`.
 {{% /notice %}}
 
 - Restore a MySQL database:
