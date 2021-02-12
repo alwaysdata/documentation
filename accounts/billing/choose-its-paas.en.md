@@ -6,13 +6,13 @@ weight = 1
 tags = ["billing", "dedicated", "public cloud", "vps"]
 +++
 
-The alwaysdata hosting services is a [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service) [^1]: it provides the infrastructure (data center, the network...) and the system stack (OS, interpreters, libraries, databases, security...). Customers need only handle deploying, securing and updating their applications.
+The alwaysdata hosting services is a [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service)[^1]: it provides the infrastructure (data center, the network...) and the system stack (OS[^2], interpreters, libraries, databases, security...). Customers need only handle deploying, securing and updating their applications.
 
 alwaysdata proposes several kinds of environment:
 
 | Name || Description |
 |---|---|---|
-| [Public cloud]({{< ref "accounts/billing/cloud-prices" >}})[^2] || Hosting account spread over several servers - hosting hundreds of users |
+| [Public cloud]({{< ref "accounts/billing/cloud-prices" >}})[^3] || Hosting account spread over several servers - hosting hundreds of users |
 ||| SRT 1hr, IRT 4hrs, Availability rate 99.7% |
 | [Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
 ||| Isolation per account without additional billing |
@@ -70,7 +70,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
 || [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|
 || [WebDAV]({{< ref "remote-access/webdav" >}}) |✔️|✔️|✔️|✔️|
-| Backups [^3] ||✔️|✔️|✔️|✔️|
+| Backups[^4] ||✔️|✔️|✔️|✔️|
 | Other services | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
 || [Scheluded tasks]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || [Firewall management]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
@@ -84,5 +84,6 @@ A well _optimized_ application will have the same performances regardless its en
 {{% /notice %}}
 
 [^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated users can request support for services where this is not the case.
-[^2]: The public Cloud free plan offers 100Mb of disk space for non-commercial use.
-[^3]: Daily [backups]({{< ref "backups" >}}), retained for 30 days and directly available in the account
+[^2]: Our infrastructure is based on the Debian operating system.
+[^3]: The public Cloud free plan offers 100Mb of disk space for non-commercial use.
+[^4]: Daily [backups]({{< ref "backups" >}}), retained for 30 days and directly available in the account

@@ -7,13 +7,13 @@ weight = 1
 tags = ["cloud public", "facturation", "serveur dédié", "serveur vps"]
 +++
 
-L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service) [^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS, inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.
+L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service)[^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS[^2], inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.
 
 alwaysdata propose plusieurs types d'environnement :
 
 | Nom || Description |
 |---|---|---|
-| [Cloud public]({{< ref "accounts/billing/cloud-prices" >}})[^2] || Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
+| [Cloud public]({{< ref "accounts/billing/cloud-prices" >}})[^3] || Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
 ||| GTI 1h, GTR 4h, Taux de disponibilité 99.7 % |
 | [Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}) | VPS | Serveur virtuel sur serveur physique - serveur physique hébergeant moins de 10 utilisateurs |
 ||| Isolation par compte sans facturation supplémentaire |
@@ -71,7 +71,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
 || [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|
 || [WebDAV]({{< ref "remote-access/webdav" >}}) |✔️|✔️|✔️|✔️|
-| Sauvegardes [^3] ||✔️|✔️|✔️|✔️|
+| Sauvegardes[^4] ||✔️|✔️|✔️|✔️|
 | Autres services | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
 || [Tâches planifiées]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || [Gestion du pare-feu]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
@@ -84,5 +84,6 @@ Une application bien _optimisée_ aura les mêmes performances quel que soit le 
 {{% /notice %}}
 
 [^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
-[^2]: Le plan gratuit du Cloud public offre 100 Mo d'espace disque à usage non lucratif.
-[^3]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
+[^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
+[^3]: Le plan gratuit du Cloud public offre 100 Mo d'espace disque à usage non lucratif.
+[^4]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
