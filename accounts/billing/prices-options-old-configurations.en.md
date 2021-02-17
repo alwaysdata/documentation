@@ -7,6 +7,10 @@ tags = ["billing", "dedicated server"]
 
 This table presents the prices for dedicated servers options on a configuration installed before [March 2020](https://blog.alwaysdata.com/2020/03/03/harderware-better-faster-stronger/).
 
+* SRT: 15 mins
+* IRT: 1hr
+* Availability rate: 99.9%
+
 | Detail    | Prices/month (VAT excluded) | Prices/year (VAT excluded) |
 | --------- | --------------------------- | -------------------------- |
 | **SSD**   |                             |                            |

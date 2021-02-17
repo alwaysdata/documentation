@@ -22,7 +22,7 @@ alwaysdata proposes several kinds of environment:
 ||| SRT 15 mins, IRT 1hr, Availability rate 99.9% |
 || Gold | Bare-metal server exclusively for a single user, **redundated** in another datacenter |
 ||| Isolation per account without additional billing |
-||| SRT 15 mins, IRT 1hr, Availability rate 99.99% |
+||| SRT 15 mins, IRT 1hr, Availability rate 99.95% |
 
 For all these offers you can have unlimited sites, domains, databases, e-mails, etc.
 

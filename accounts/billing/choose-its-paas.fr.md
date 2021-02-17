@@ -23,7 +23,7 @@ alwaysdata propose plusieurs types d'environnement :
 ||| GTI 15min, GTR 1h, Taux de disponibilité 99.9 % |
 || Gold | Serveur physique réservé à un seul utilisateur, **redondé** dans un autre datacenter |
 ||| Isolation par compte sans facturation supplémentaire |
-||| GTI 15min, GTR 1h, Taux de disponibilité 99.99 % |
+||| GTI 15min, GTR 1h, Taux de disponibilité 99.95 % |
 
 Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (...) est illimité.
 

@@ -7,6 +7,10 @@ tags = ["billing", "cloud"]
 
 This page lists the prices of the Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/#contact).
 
+* SRT: 1hr
+* IRT: 4hr
+* Availability rate: 99.7%
+
 |                    | Cloud 10GB     | Cloud 20GB    | Cloud 50GB    |
 | ------------------ | -------------- | ------------- | ------------- |
 | Websites & domains | Unlimited      | Unlimited     | Unlimited     |

@@ -8,6 +8,10 @@ tags = ["cloud", "facturation"]
 
 Cette page recence les prix des configurations Cloud. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/#contact).
 
+* GTI : 1h
+* GTR : 4h
+* Taux de disponibilité : 99.7 %
+
 |                   | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go |
 | ----------------- | ------------ | ----------- | ----------- |
 | Sites et domaines | Illimités    | Illimités   | Illimités   |

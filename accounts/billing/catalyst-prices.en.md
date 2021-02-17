@@ -11,6 +11,10 @@ For any Catalyst configuration order, the installation of the server is done aft
 
 ## VPS servers
 
+* SRT: 30 mins
+* IRT: 2hr
+* Availability rate: 99.8%
+
 |                            | VPS A            | VPS B            |
 |----------------------------|------------------|------------------|
 | CPU                        | 2 vCPUs (3.5GHz) | 4 vCPUs (3.5GHz) |
@@ -22,6 +26,10 @@ For any Catalyst configuration order, the installation of the server is done aft
 | Price/year (VAT excluded)  | 1590 €           | 2190 €           |
 
 ## Dedicated servers
+
+* SRT: 15 mins
+* IRT: 1hr
+* Availability rate: 99.9%
 
 | Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
@@ -55,6 +63,10 @@ If the dedicated server was taken before [March 2020](https://blog.alwaysdata.co
 ## Gold servers
 
 Dedicated server redunded in another datacenter.
+
+* SRT: 15 mins
+* IRT: 1hr
+* Availability rate: 99.95%
 
 | Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |

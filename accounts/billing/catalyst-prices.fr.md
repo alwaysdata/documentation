@@ -12,6 +12,11 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 
 ## Serveurs VPS
 
+* GTI : 30min
+* GTR : 2h
+* Taux de disponibilité : 99.8 %
+
+
 |                 | VPS A             | VPS B             |
 | --------------- | ----------------- | ----------------- |
 | CPU             | 2 vCPUs (3.5 GHz) | 4 vCPUs (3.5 GHz) |
@@ -23,6 +28,10 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 | Tarif/an (HT)   | 1590 €            | 2190 €            |
 
 ## Serveurs dédiés
+
+* GTI : 15min
+* GTR : 1h
+* Taux de disponibilité : 99.9 %
 
 | Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
@@ -56,6 +65,10 @@ Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com
 ## Serveurs Gold
 
 Serveur dédié redondé dans un autre datacenter.
+
+* GTI : 15min
+* GTR : 1h
+* Taux de disponibilité : 99.95 %
 
 | Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
