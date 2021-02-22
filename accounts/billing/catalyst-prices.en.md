@@ -9,7 +9,11 @@ This page lists the prices of the Catalyst configurations. To have more informat
 
 For any Catalyst configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
-## VPS servers
+{{% notice note %}}
+*Catalyst* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administation part.
+{{% /notice %}}
+
+## Managed VPS servers
 
 * SRT: 30 mins
 * IRT: 2hr
@@ -25,7 +29,7 @@ For any Catalyst configuration order, the installation of the server is done aft
 | Price/month (VAT excluded) | 149 €            | 199 €            |
 | Price/year (VAT excluded)  | 1590 €           | 2190 €           |
 
-## Dedicated servers
+## Managed Dedicated servers
 
 * SRT: 15 mins
 * IRT: 1hr
@@ -60,7 +64,7 @@ In the case of a monthly commitment, the first invoice covers the first three mo
 
 If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go in the page [Options prices - old configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
-## Gold servers
+## Managed Gold servers
 
 Dedicated server redunded in another datacenter.
 
