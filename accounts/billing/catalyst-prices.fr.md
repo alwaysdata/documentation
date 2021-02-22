@@ -10,7 +10,11 @@ Cette page recence les prix des configurations Catalyst. Pour plus d'information
 
 Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
-## Serveurs VPS
+{{% notice note %}}
+*Catalyst* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas pas à gérer l'administration des systèmes.
+{{% /notice %}}
+
+## Serveurs VPS infogérés
 
 * GTI : 30min
 * GTR : 2h
@@ -27,7 +31,7 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 | Tarif/mois (HT) | 149 €             | 199 €             |
 | Tarif/an (HT)   | 1590 €            | 2190 €            |
 
-## Serveurs dédiés
+## Serveurs dédiés infogérés
 
 * GTI : 15min
 * GTR : 1h
@@ -62,7 +66,7 @@ Dans le cadre d'un engagement mensuel, la première facture correspond aux trois
 
 Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
-## Serveurs Gold
+## Serveurs Gold infogérés
 
 Serveur dédié redondé dans un autre datacenter.
 
@@ -101,5 +105,5 @@ Dans le cadre d'un engagement mensuel, la première facture correspond aux trois
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
 
-[^1]: L'ajout de RAM se fait par tranche de 16 Go. 
+[^1]: L'ajout de RAM se fait par tranche de 16 Go.
 [^2]: L'ajout de trafic se fait par tranche de 1 To.
