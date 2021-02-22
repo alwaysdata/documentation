@@ -15,16 +15,16 @@ Voici le prix des options des serveurs dédiés ayant une configuration install�
 | Détail     | Tarif/mois (HT) | Tarif/an (HT) |
 | ---------- | --------------- | ------------- |
 | **SSD**    |                 |               |
-| 480 Go     | 20 €            | 200 €         |
-| 960 Go     | 40 €            | 400 €         |
-| 1,9 To     | 70 €            | 700 €         |
+| 480 Go     | + 20 €          | + 200 €       |
+| 960 Go     | + 40 €          | + 400 €       |
+| 1,9 To     | + 70 €          | + 700 €       |
 | **HDD**    |                 |               |
-| 2 To       | 30 €            | 300 €         |
-| 4 To       | 60 €            | 600 €         |
-| 6 To       | 85 €            | 850 €         |
-| 10 To      | 140 €           | 1400 €        |
+| 2 To       | + 30 €          | + 300 €       |
+| 4 To       | + 60 €          | + 600 €       |
+| 6 To       | + 85 €          | + 850 €       |
+| 10 To      | + 140 €         | + 1400 €      |
 | **RAM**    |                 |               |
-| 16 Go [^1] | 10 €            | 100 €         |
+| 16 Go [^1] | + 10 €          | + 100 €       |
 
 
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page [interventions sur serveurs]({{< ref "accounts/billing/servers-interventions" >}}).

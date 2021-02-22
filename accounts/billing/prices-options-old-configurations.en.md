@@ -14,16 +14,16 @@ This table presents the prices for dedicated servers options on a configuration 
 | Detail    | Prices/month (VAT excluded) | Prices/year (VAT excluded) |
 | --------- | --------------------------- | -------------------------- |
 | **SSD**   |                             |                            |
-| 480GB     | 20€                         | 200€                       |
-| 960GB     | 40€                         | 400€                       |
-| 1.9TB     | 70€                         | 700€                       |
+| 480GB     | + 20€                       | + 200€                     |
+| 960GB     | + 40€                       | + 400€                     |
+| 1.9TB     | + 70€                       | + 700€                     |
 | **HDD**   |                             |                            |
-| 2TB       | 30€                         | 300€                       |
-| 4TB       | 60€                         | 600€                       |
-| 6TB       | 85€                         | 850€                       |
-| 10TB      | 140€                        | 1400€                      |
+| 2TB       | + 30€                       | + 300€                     |
+| 4TB       | + 60€                       | + 600€                     |
+| 6TB       | + 85€                       | + 850€                     |
+| 10TB      | + 140€                      | + 1400€                    |
 | **RAM**   |                             |                            |
-| 16GB [^1] | 10€                         | 100€                       |
+| 16GB [^1] | + 10€                       | + 100€                     |
 
 Adding/change of configuration operations prices are available in the [servers interventions page]({{< ref "accounts/billing/servers-interventions" >}}).
 

@@ -44,17 +44,17 @@ For any Catalyst configuration order, the installation of the server is done aft
 | Options                             | Price/month (VAT excluded) | Price/year (VAT excluded) |
 | ----------------------------------- | -------------------------- | ------------------------- |
 | **CPU**                             |                            |                           |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | 60 €                       | 600 €                     |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | 300 €                      | 3000 €                    |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | 600 €                      | 6000 €                    |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €                     | + 600 €                   |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €                    | + 3000 €                  |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €                    | + 6000 €                  |
 | **Disks**                           |                            |                           |
-| SSD 2TB NVMe • RAID1                | 70 €                       | 700 €                     |
-| SSD 4 To NVMe • RAID1               | 170 €                      | 1700 €                    |
-| SSD 8 To NVMe • RAID1               | 370 €                      | 3700 €                    |
+| SSD 2TB NVMe • RAID1                | + 70 €                     | + 700 €                   |
+| SSD 4 To NVMe • RAID1               | + 170 €                    | + 1700 €                  |
+| SSD 8 To NVMe • RAID1               | + 370 €                    | + 3700 €                  |
 | **RAM**                             |                            |                           |
-| 16GB [^1]                           | 10 €                       | 100 €                     |
+| 16GB [^1]                           | + 10 €                     | + 100 €                   |
 | **Traffic/month**                   |                            |                           |
-| 1TB (1Gbps) [^2]                    | 10 €                       | 100 €                     |
+| 1TB (1Gbps) [^2]                    | + 10 €                     | + 100 €                   |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
@@ -81,17 +81,17 @@ Dedicated server redunded in another datacenter.
 | Options                             | Price/month (VAT excluded) | Price/year (VAT excluded) |
 | ----------------------------------- | -------------------------- | ------------------------- |
 | **CPU**                             |                            |                           |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | 120 €                      | 1200 €                    |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | 600 €                      | 6000 €                    |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | 1200 €                     | 12000 €                   |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €                    | + 1200 €                  |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €                    | + 6000 €                  |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €                   | + 12000 €                 |
 | **Disks**                           |                            |                           |
-| SSD 2TB NVMe • RAID1                | 140 €                      | 1400 €                    |
-| SSD 4TB NVMe • RAID1                | 340 €                      | 3400 €                    |
-| SSD 8TB NVMe • RAID1                | 740 €      	             | 7400 €                    |
+| SSD 2TB NVMe • RAID1                | + 140 €                    | + 1400 €                  |
+| SSD 4TB NVMe • RAID1                | + 340 €                    | + 3400 €                  |
+| SSD 8TB NVMe • RAID1                | + 740 €                    | + 7400 €                  |
 | **RAM**                             |        	             |                           |
-| 16GB [^1]                           | 20 €		             | 200 €                     |
+| 16GB [^1]                           | + 20 €	             | + 200 €                   |
 | **Traffic/month**                   |      		             |                           |
-| 1TB (1Gbps) [^2]                    | 20 €                       | 200 €                     |
+| 1TB (1Gbps) [^2]                    | + 20 €                     | + 200 €                   |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 

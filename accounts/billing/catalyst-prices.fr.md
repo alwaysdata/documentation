@@ -46,17 +46,17 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 | Options                             | Tarif/mois (HT) | Tarif/an (HT) |
 | ----------------------------------- | --------------- | ------------- |
 | **CPU**                             |                 |               |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | 60 €            | 600 €         |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | 300 €           | 3000 €        |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | 600 €           | 6000 €        |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €          | + 600 €       |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €         | + 3000 €      |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €         | + 6000 €      |
 | **Disques**                         |                 |               |
-| 2 To NVMe • RAID1                   | 70 €            | 700 €         |
-| 4 To NVMe • RAID1                   | 170 €           | 1700 €        |
-| 8 To NVMe • RAID1                   | 370 €           | 3700 €        |
+| 2 To NVMe • RAID1                   | + 70 €          | + 700 €       |
+| 4 To NVMe • RAID1                   | + 170 €         | + 1700 €      |
+| 8 To NVMe • RAID1                   | + 370 €         | + 3700 €      |
 | **RAM**                             |                 |               |
-| 16 Go [^1]                          | 10 €            | 100 €         |
+| 16 Go [^1]                          | + 10 €          | + 100 €       |
 | **Trafic/mois**                     |                 |               |
-| 1 To (1 Gbps) [^2]                  | 10 €            | 100 €         |
+| 1 To (1 Gbps) [^2]                  | + 10 €          | + 100 €       |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
@@ -83,17 +83,17 @@ Serveur dédié redondé dans un autre datacenter.
 | Options                             | Tarif/mois (HT) | Tarif/an (HT) |
 | ----------------------------------- | --------------- | ------------- |
 | **CPU**                             |                 |               |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | 120 €           | 1200 €        |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | 600 €           | 6000 €        |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | 1200 €          | 12000 €       |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €         | + 1200 €      |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €         | + 6000 €      |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €        | + 12000 €     |
 | **Disques**                         |                 |               |
-| 2 To NVMe • RAID1                   | 140 €           | 1400 €        |
-| 4 To NVMe • RAID1                   | 340 €           | 3400 €        |
-| 8 To NVMe • RAID1                   | 740 €           | 7400 €        |
+| 2 To NVMe • RAID1                   | + 140 €         | + 1400 €      |
+| 4 To NVMe • RAID1                   | + 340 €         | + 3400 €      |
+| 8 To NVMe • RAID1                   | + 740 €         | + 7400 €      |
 | **RAM**                             |                 |               |
-| 16 Go [^1]                          | 20 €            | 200 €         |
+| 16 Go [^1]                          | + 20 €          | + 200 €       |
 | **Trafic/mois**                     |                 |               |
-| 1 To (1 Gbps) [^2]                  | 20 €            | 200 €         |
+| 1 To (1 Gbps) [^2]                  | + 20 €          | + 200 €       |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
