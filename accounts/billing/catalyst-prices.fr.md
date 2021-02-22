@@ -11,7 +11,7 @@ Cette page recence les prix des configurations Catalyst. Pour plus d'information
 Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
 {{% notice note %}}
-*Catalyst* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas pas à gérer l'administration des systèmes.
+*Catalyst* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas à gérer l'administration des systèmes.
 {{% /notice %}}
 
 ## Serveurs VPS infogérés
