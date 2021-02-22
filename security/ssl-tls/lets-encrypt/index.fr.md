@@ -21,6 +21,10 @@ Les adresses en *.alwaysdata.net* sont gérées par le certificat wildcard `*.al
 Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-à-dire que le vingtième sous-domaine a été ajouté dans **Web > Sites** - le système génèrera un certificat wildcard pour gérer les sous-domaines suivants.
 {{% /notice %}}
 
+{{% notice warning %}}
+La génération de certificat est limitée à 64 caractères par adresse complète.
+{{% /notice %}}
+
 ### Le certificat SSL est généré et renouvelé automatiquement, vous le retrouverez dans l'onglet "Certificats auto-générés".
 
 Pour éviter les doublons, alwaysdata bloque la génération de certificats Let's Encrypt pour toute adresse déjà automatiquement gérée. Vous pouvez contacter le [support](https://admin.alwaysdata.com/support/add) si vous souhaitez totalement gérer la génération des certificats SSL d'un domaine.

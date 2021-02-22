@@ -21,6 +21,10 @@ You can view them in the **Advanced > SSL certificates > Automatically generated
 From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added to **Web > Sites**, the system will generate a wildcard certificate to manage the following subdomains.
 {{% /notice %}}
 
+{{% notice warning %}}
+Certificate generation is limited to 64 characters per complete address.
+{{% /notice %}}
+
 ### The SSL certificate is automatically generated and renewed, you will find it in the "Auto-generated certificates" menu.
 
 To avoid duplicates, alwaysdata blocks Let's Encrypt certificate generation for all addresses that are already generated automatically. You can contact [support](https://admin.alwaysdata.com/support/add) if you wish to completely manage SSL certificate generation for a domain.
