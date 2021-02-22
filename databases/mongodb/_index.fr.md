@@ -24,7 +24,7 @@ Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}
 - Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
 
 ```
-mongo "mongodb://foo:mdp@mongodb-foo.alwaysdata.net/foo_base"
+foo@ssh:~$ mongo "mongodb://foo:mdp@mongodb-foo.alwaysdata.net/foo_base"
 ```
 
 ## Permissions
