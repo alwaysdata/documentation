@@ -22,14 +22,14 @@ etc.) depuis votre code.
 
 ## Exemples rapides
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
 ```
 
 
 ### Redémarrer un site
 
-```
+```sh
 $ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 

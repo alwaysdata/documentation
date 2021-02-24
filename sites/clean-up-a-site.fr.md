@@ -24,17 +24,17 @@ Les commandes ci-après, présentées pour un site utilisant PHP, sont exécuté
 
 - Vérifiez que des redirections ou autres directives n'aient pas été rajoutées à votre insu en contrôlant le contenu de vos fichiers `.htaccess`. Il ne devrait y en avoir à priori qu'un, situé à la racine de votre site :
 
-    ```
-    find . -type f -name .htaccess
+    ```sh
+    $ find . -type f -name .htaccess
     ```
 - Parcourez vos fichiers à la recherche de [malwares](http://fr.wikipedia.org/wiki/Logiciel_malveillant) :
 
-    ```
-    find . -type f -name "*.php" | xargs grep base64_decode
+    ```sh
+    $ find . -type f -name "*.php" | xargs grep base64_decode
     ```
     
-    ```
-    find . -name "*.php" | xargs grep eval
+    ```sh
+    $ find . -name "*.php" | xargs grep eval
     ```
 
 L'infection se présente comme une suite alphanumérique exécutée avec la fonction PHP [eval](http://www.php.net/manual/fr/function.eval.php) :
@@ -52,8 +52,8 @@ echo gzinflate(base64_decode("FZy3sqMKFkX/ZaL3igDvaiI8QngPyRTee8/Xj24n3UFfCcE5e6
 
 Ou alors :
 
-```
-find . -name "*.php" -print0 | xargs -0 grep eval
+```sh
+$ find . -name "*.php" -print0 | xargs -0 grep eval
 ```
 
 ```php
@@ -68,14 +68,14 @@ Tous ces fichiers doivent être **supprimés**.
 
 -   Inspectez vos sources à la recherche de dossiers cachés contenant une copie des malwares précédemment supprimés :
 
-    ```
-    find . -type d -name ".*"
+    ```sh
+    $ find . -type d -name ".*"
     ```
 
 -   Listez les fichiers modifiés ces dernières 24 heures (1 étant le nombre de jour) :
 
-    ```
-    find . -type f -mtime -1 -print
+    ```sh
+    $ find . -type f -mtime -1 -print
     ```
 
 -   Vérifiez l'intégrité de votre base de données en parcourant les derniers enregistrements.
@@ -85,8 +85,8 @@ Tous ces fichiers doivent être **supprimés**.
 En fonction de la date de création des fichiers, de leur nom et de leur appel, il est possible de retrouver l'URL permissive appelée.
 Pour se faire, épluchez les requêtes POST de vos logs Apache situés dans le répertoire `$HOME/admin/logs/http` :
 
-```
-grep POST $HOME/admin/logs/http/[année]/http-[date].log[.gz]
+```sh
+$ grep POST $HOME/admin/logs/http/[année]/http-[date].log[.gz]
 ```
 
 Exemple d'appels suspects :

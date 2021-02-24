@@ -18,7 +18,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 
 ## Étape 1 : Téléchargement de l'agent
 
-```
+```sh
 foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
 ```
 
@@ -29,7 +29,7 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 
 Ajoutez dans le `php.ini` (**Environnement > PHP**):
 
-```
+```ini
 extension = /home/[foo]/newrelic/agent/x64/newrelic-20180731.so
 newrelic.license = "REPLACE_WITH_REAL_KEY"
 newrelic.enabled = true
@@ -43,7 +43,7 @@ Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/ne
 
 Lancez le via SSH :
 
-```
+```sh
 foo@ssh:~/newrelic$ /home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log
 ```
 

@@ -22,7 +22,7 @@ In our example, we will consider the following information:
 
 We will use the [scp](https://linux.die.net/man/1/scp) command after connecting in SSH mode to the **destination** account.
 
-```
+```sh
 bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 ```
 
@@ -31,21 +31,21 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 This step is only necessary if your site is connected to a database. You need to first create the database in the *destination* account.
 
 -   MySQL:
-    ```
+    ```sh
     bar@ssh:~$ mysqldump -u foo -p -h mysql-foo.alwaysdata.net foo_base > foo_base.sql
     bar@ssh:~$ mysql -h mysql-bar.alwaysdata.net -u bar -p bar_base < foo_base.sql
     bar@ssh:~$ rm foo_base.sql
     ```
 
 -   PostgreSQL:
-    ```
+    ```sh
     bar@ssh:~$ pg_dump -U foo -W -h postgresql-foo.alwaysdata.net foo_base > foo_base.sql
     bar@ssh:~$ psql -h postgresql-bar.alwaysdata.net -U bar -W -d bar_base < foo_base.sql
     bar@ssh:~$ rm foo_base.sql
     ```
 
 -   MongoDB:
-    ```
+    ```sh
     bar@ssh:~$ mongodump -u foo -p -h mongodb-foo.alwaysdata.net -d foo_base > foo_base.bson
     bar@ssh:~$ mongorestore -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.bson
     bar@ssh:~$ rm foo_base.sql

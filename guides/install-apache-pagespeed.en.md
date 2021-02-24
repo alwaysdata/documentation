@@ -16,7 +16,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 
 ## Step 1: Downloading
 
-```
+```sh
 foo@ssh:~/pagespeed$ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
 foo@ssh:~/pagespeed$ dpkg -x mod-pagespeed-stable_current_amd64.deb .
 ```
@@ -33,3 +33,4 @@ ModPagespeedFileCachePath            "/home/[foo]/pagespeed/cache/pagespeed/"
 ModPagespeedFileCacheSizeKb          102400
 ModPagespeedFileCacheCleanIntervalMs 3600000
 ModPagespeedFileCacheInodeLimit      500000
+```

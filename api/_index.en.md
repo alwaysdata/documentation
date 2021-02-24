@@ -17,13 +17,13 @@ Our [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API le
 
 ## Quick examples
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
 ```
 
 ### Restart a website
 
-```
+```sh
 $ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 

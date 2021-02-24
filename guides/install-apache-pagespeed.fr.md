@@ -17,7 +17,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >
 
 ## Étape 1 : Téléchargement
 
-```
+```sh
 foo@ssh:~/pagespeed$ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
 foo@ssh:~/pagespeed$ dpkg -x mod-pagespeed-stable_current_amd64.deb .
 ```
@@ -34,4 +34,3 @@ ModPagespeedFileCacheSizeKb          102400
 ModPagespeedFileCacheCleanIntervalMs 3600000
 ModPagespeedFileCacheInodeLimit      500000
 ```
-

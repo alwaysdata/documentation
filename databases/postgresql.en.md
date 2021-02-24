@@ -21,7 +21,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 - Database name: `foo_base`
 - We will use the default SSH users and databases, i.e. the ones created when the accounts are opened (e.g. `foo` for the *foo* account).
 
-```
+```sh
 foo@ssh:~$ psql -h postgresql-foo.alwaysdata.net -U foo -W -d foo_base
 ```
 
@@ -62,7 +62,7 @@ Several options :
 - use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
 - use the following command :
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/postgresql/[database].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
     ```
 

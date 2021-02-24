@@ -16,7 +16,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >
 
 ## Étape 1 : Téléchargement
 
-```
+```sh
 foo@ssh:~/blazegraph$ wget https://github.com/blazegraph/database/releases/download/<blazegraph-last-version>/blazegraph.jar
 ```
 

@@ -24,7 +24,7 @@ Dans notre exemple, considérons les informations suivantes :
 
 Nous utilisons la commande [scp](https://linux.die.net/man/1/scp) après s'être connecté en SSH sur le compte de **destination**.
 
-```
+```sh
 bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 ```
 
@@ -34,24 +34,21 @@ Cette étape est nécessaire que si votre site est connecté à une base de donn
 Vous devrez avoir préalablement créé la base de données sur le compte de _destination_.
 
 - MySQL :
-
-```
+```sh
 bar@ssh:~$ mysqldump -u foo -p -h mysql-foo.alwaysdata.net foo_base > foo_base.sql
 bar@ssh:~$ mysql -h mysql-bar.alwaysdata.net -u bar -p bar_base < foo_base.sql
 bar@ssh:~$ rm foo_base.sql
 ```
 
 - PostgreSQL :
-
-```
+```sh
 bar@ssh:~$ pg_dump -U foo -W -h postgresql-foo.alwaysdata.net foo_base > foo_base.sql
 bar@ssh:~$ psql -h postgresql-bar.alwaysdata.net -U bar -W -d bar_base < foo_base.sql
 bar@ssh:~$ rm foo_base.sql
 ```
 
 - MongoDB :
-
-```
+```sh
 bar@ssh:~$ mongodump -u foo -p -h mongodb-foo.alwaysdata.net -d foo_base > foo_base.bson
 bar@ssh:~$ mongorestore -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.bson
 bar@ssh:~$ rm foo_base.sql

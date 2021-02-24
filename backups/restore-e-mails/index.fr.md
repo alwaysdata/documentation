@@ -31,6 +31,6 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
 
 - Restaurer des emails :
 
-    ```
+    ```sh
     $ rsync -av $HOME/admin/backup/[date]/mails/[domaine]/[boîte_email]/ $HOME/admin/mail/[domaine]/[boîte_email]/
     ```

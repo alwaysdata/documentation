@@ -22,7 +22,7 @@ Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}
 - Nom de la base de données : `foo_base`
 - Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
 
-```
+```sh
 foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
 ```
 
@@ -45,7 +45,7 @@ Plusieurs possibilités :
 - utiliser notre fonctionnalité de [restauration de sauvegarde]({{< ref "backups/restore-a-site" >}}) ;
 - utiliser la commande suivante :
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
     ```
 

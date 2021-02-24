@@ -21,7 +21,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 - Database name: `foo_base`
 - We will use the default SSH users and databases, i.e. the ones created when the accounts are opened (e.g. `foo` for the *foo* account).
 
-```
+```sh
 foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
 ```
 
@@ -44,7 +44,7 @@ Several options :
 - use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
 - use the following command :
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
     ```
 

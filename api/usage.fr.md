@@ -7,7 +7,7 @@ tags = ["api"]
 
 ## Identification
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 ```
 Vos tokens sont disponibles dans le menu **[Profil]({{< ref "accounts/tokens" >}})**.
@@ -32,7 +32,7 @@ vous avez plusieurs comptes mais souhaitez accéder à une ressource d'un compte
 
 Par exemple, accédez aux utilisateurs FTP de votre compte *mycompany* de cette manière :
 
-```
+```sh
 $ curl --basic --user "APIKEY account=mycompany:" https://api.alwaysdata.com/v1/ftp/
 ```
 
@@ -46,13 +46,13 @@ Les formats gérés sont les suivants :
 
 Il peut être spécifié dans l'URI :
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/?_format=xml
 ```
 
 Ou via le header HTTP :
 
-```
+```sh
 $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alwaysdata.com/v1/account/
 ```
 

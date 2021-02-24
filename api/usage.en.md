@@ -6,7 +6,7 @@ tags = ["api"]
 
 ## Identification
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 ```
 
@@ -29,7 +29,7 @@ If you access resources linked to a user or a specific account, then you will ne
 
 For example, accessing the FTP users of your *mycompany* in this way:
 
-```
+```sh
 $ curl --basic --user "APIKEY account=mycompany:" https://api.alwaysdata.com/v1/ftp/
 ```
 
@@ -43,13 +43,13 @@ The following formats are handled:
 
 It may be specified in the URL:
 
-```
+```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/?_format=xml
 ```
 
 Or via the HTTP header:
 
-```
+```sh
 $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alwaysdata.com/v1/account/
 ```
 

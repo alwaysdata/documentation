@@ -22,8 +22,8 @@ The `.htpasswd` contains the list of Id/password combinations allowed. It can be
 
 To create this `.htpasswd` file:
 
-```
-htpasswd -c .htpasswd [user]
+```sh
+$ htpasswd -c .htpasswd [user]
 ```
 
 Replace `[user]` with the desired user name. The tool will prompt the user to enter the corresponding password twice.

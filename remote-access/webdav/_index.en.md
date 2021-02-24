@@ -49,7 +49,7 @@ These users can be configured in the **Remote access > WebDAV** tab in your alwa
 
 **davfs2** offers the advantage of mounting WebDAV shared volumes like a local partition locale so that your files are accessible from any application. To mount a partition in `/mnt/alwaysdata`:
 
-```
+```sh
 $ sudo mount.davfs https://webdav-[account].alwaysdata.net/ /mnt/alwaysdata
 ```
 

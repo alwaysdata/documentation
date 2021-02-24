@@ -17,7 +17,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 - Account name: `foo`
 - ffmpeg directory: `$HOME/ffmpeg/`
 
-```
+```sh
 foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar xJf --strip-components=1
 ```
 

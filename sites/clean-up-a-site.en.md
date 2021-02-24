@@ -21,16 +21,16 @@ Most attacks are performed by automatic scripts. Therefore reinstalling the site
 The following commands, presented for a site that uses PHP, are run via [SSH]({{< ref "remote-access/ssh" >}}) in your site's directory.
 
 -   Check that no redirects or other directives have been added without your knowledge by checking the content of your `.htaccess` files. There should normally be only one located in the root of your site:
-    ```
-    find . -type f -name .htaccess
+    ```sh
+    $ find . -type f -name .htaccess
     ```
 
 -   Search your files looking for [malware](https://en.wikipedia.org/wiki/Malware):
+  ```sh
+  $ find . -type f -name "*.php" | xargs grep base64_decode
   ```
-  find . -type f -name "*.php" | xargs grep base64_decode
-  ```
-  ```
-  find . -name "*.php" | xargs grep eval
+  ```sh
+  $ find . -name "*.php" | xargs grep eval
   ```
 
 The infection looks like an alphanumeric succession run with the PHP
@@ -50,8 +50,8 @@ echo gzinflate(base64_decode("FZy3sqMKFkX/ZaL3igDvaiI8QngPyRTee8/Xj24n3UFfCcE5e6
 
 or:
 
-```
-find . -name "*.php" -print0 | xargs -0 grep eval
+```sh
+$ find . -name "*.php" -print0 | xargs -0 grep eval
 ```
 
 ```php
@@ -66,14 +66,14 @@ All of these files must be **deleted**.
 
 -   Inspect your sources looking for hidden folders comprising a copy of the previously deleted malware:
     
-    ```
-    find . -type d -name ".*"
+    ```sh
+    $ find . -type d -name ".*"
     ```
 
 -   List the files that have been changed during the last 24 hours (1 being the number of the day):
 
-    ```
-    find . -type f -mtime -1 -print
+    ```sh
+    $ find . -type f -mtime -1 -print
     ```
 
 -   Check the integrity of your database by scanning the latest records.
@@ -82,8 +82,8 @@ All of these files must be **deleted**.
 
 Depending on the date when the files were created, their name and their calls, it is possible to find the permissive URL called up. To do this, go through the POST requests in your Apache logs located in directory `$HOME/admin/logs/http`:
 
-```
-grep POST $HOME/admin/logs/http/[year]/http-[date].log[.gz]
+```sh
+$ grep POST $HOME/admin/logs/http/[year]/http-[date].log[.gz]
 ```
 
 Examples of suspect calls:

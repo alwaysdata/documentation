@@ -13,7 +13,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 
 ## Step 1: Downloading
 
-```
+```sh
 foo@ssh:~/blazegraph$ wget https://github.com/blazegraph/database/releases/download/<blazegraph-last-version>/blazegraph.jar
 ```
 

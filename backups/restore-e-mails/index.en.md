@@ -30,6 +30,6 @@ To restore a backup manually.
 
 - Restore e-mails:
 
-    ```
+    ```sh
     $ rsync -av $HOME/admin/backup/[date]/mails/[domain]/[mailbox]/ $HOME/admin/mail/[domain]/[mailbox]/
     ```

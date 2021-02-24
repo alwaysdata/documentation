@@ -45,7 +45,7 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > WebDAV** d
 
 **davfs2** a l'avantage de monter les partages WebDAV comme une partition locale, et de ce fait d'avoir ses fichiers accessibles depuis n'importe quelle application. Pour monter une partition dans `/mnt/alwaysdata` :
 
-```
+```sh
 $ sudo mount.davfs https://webdav-[compte].alwaysdata.net/ /mnt/alwaysdata
 ```
 

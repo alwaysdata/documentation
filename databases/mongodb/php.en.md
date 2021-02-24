@@ -15,6 +15,6 @@ $ ad_install_pecl mongodb
 
 Then don’t forget to [add the extension to your `php.ini`]({{< ref "languages/php/configuration" >}}#parameters-php-ini):
 
-```
+```ini
 extension=/home/[account]/path/to/mongodb.so
 ```

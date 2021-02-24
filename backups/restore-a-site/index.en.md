@@ -30,7 +30,7 @@ To restore a backup manually.
 
 - Restore files:
 
-    ```
+    ```sh
     $ rsync -av --delete $HOME/admin/backup/[date]/files/[directory]/ $HOME/[directory]/
     ```
 
@@ -40,19 +40,19 @@ To restore a backup manually.
 
 - Restore a MySQL database:
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
     ```
 
 - Restore a PostgreSQL database:
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
     ```
 
 - Restore a MongoDB database:
 
-    ```
+    ```sh
     $ xzcat $HOME/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[account].alwaysdata.net -u [user] -p -d [base]
     ```
 

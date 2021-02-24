@@ -18,7 +18,7 @@ Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}
 - Nom du compte : `foo`
 - Répertoire de ffmpeg : `$HOME/ffmpeg/`
 
-```
+```sh
 foo@ssh:~/ffmpeg$ wget -O- https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz|tar xJf --strip-components=1
 ```
 

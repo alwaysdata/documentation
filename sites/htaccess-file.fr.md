@@ -24,7 +24,9 @@ Le fichier `.htpasswd` contient la liste des couples d'identifiants/mot de passe
 Pour créer ce fichier `.htpasswd` :
 
 
-`htpasswd -c .htpasswd <utilisateur>`
+```sh
+$ htpasswd -c .htpasswd <utilisateur>
+```
 
 
 En remplaçant `<utilisateur>` par le nom d'utilisateur souhaité. L'outil demande d'entrer à deux reprises le mot de passe correspondant.
