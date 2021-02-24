@@ -13,8 +13,8 @@ There are two solutions:
 
 - modify directly in the `.so` file the path of the rpath, with the command :
 
-```
-chrpath -r /home/[account]/[library]/ ~/[library]/[library].so
+```sh
+$ chrpath -r /home/[account]/[library]/ ~/[library]/[library].so
 ```
 
 Each time this file is loaded, the `/home/[account]/[library]/` directory will be used to resolve dependencies.

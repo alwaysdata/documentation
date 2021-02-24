@@ -22,7 +22,7 @@ The default version can be changed from the administration section, under **Envi
 
 To force the use of a different version of Elixir other than the default one, define the environment variable `ELIXIR_VERSION`:
 
-```
+```sh
 $ ELIXIR_VERSION=1.7 elixir
 ```
 

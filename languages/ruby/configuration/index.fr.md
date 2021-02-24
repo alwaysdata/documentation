@@ -6,6 +6,8 @@ layout = "man"
 tags = ["ruby"]
 +++
 
+`[paquet]` et `[version]` sont à remplacer par le nom du paquet et de la version à installer.
+
 ## Versions supportées (majeures)
 
 |  |
@@ -34,7 +36,7 @@ Vous devez toujours utiliser `ruby` (ou `/usr/bin/ruby`). N'utilisez jamais `rub
 
 Pour forcer une version de Ruby différente de celle par défaut, définissez la variable d'environnement `RUBY_VERSION` :
 
-```
+```sh
 $ RUBY_VERSION=2.3 ruby
 ```
 
@@ -60,8 +62,8 @@ Votre environnement Ruby est initialement vide, sans aucune bibliothèque préin
 
 Vous pouvez utiliser `gem` pour installer des paquets :
 
-```
-$ gem install rails
+```sh
+$ gem install [paquet]
 ```
 
 Les paquets sont installés dans le répertoire standard `$HOME/.gem` et sont automatiquement ajoutés au load path par Ruby.
@@ -70,21 +72,21 @@ Attention, il faudra réinstaller les paquets si vous changez de version majeure
 
 Vous pouvez spécifier une version précise :
 
-```
-$ gem install rails -v 4.2
+```sh
+$ gem install [paquet] -v [version]
 ```
 
 ### Désinstaller un paquet
 
-```
-$ gem uninstall rails
+```sh
+$ gem uninstall [paquet]
 ```
 
 ### Utiliser [Bundler](http://bundler.io/)
 
 Il est recommandé d'utiliser Bundler si vous utilisez plusieurs applications Ruby distinctes, de manière à ce que chacune ait son propre environnement isolé. Bundle installe les paquets listés dans un fichier *Gemfile*.
 
-```
+```sh
 $ bundle install
 ```
 

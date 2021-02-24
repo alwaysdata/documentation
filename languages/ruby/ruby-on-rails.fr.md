@@ -16,7 +16,7 @@ Il existe plusieurs manières d'installer une application Ruby on Rails. Voyons 
 
 Si l'application à déployer est disponible sous forme de paquet, on peut l'installer avec `gem` :
 
-```
+```sh
 $ gem install radiant
 $ radiant myapp
 ```
@@ -25,7 +25,7 @@ $ radiant myapp
 
 Si le code de votre application est disponible sur un dépôt *Git* (ou *Mercurial*, *SVN*…) :
 
-```
+```sh
 $ git clone git://internal.example.com/superman/myapp.git
 ```
 
@@ -33,7 +33,7 @@ $ git clone git://internal.example.com/superman/myapp.git
 
 Si vous démarrez une nouvelle application, vous pouvez utiliser `rails` :
 
-```
+```sh
 $ gem install rails
 $ rails new myapp
 ```
@@ -46,7 +46,7 @@ Vous pouvez installer votre application par de nombreux autres biais : *rsync*, 
 
 Si votre application a des dépendances (via un *Gemfile*), vous pouvez les installer avec *Bundler* :
 
-```
+```sh
 $ bundle install
 ```
 

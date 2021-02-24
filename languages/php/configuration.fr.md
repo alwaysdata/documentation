@@ -23,7 +23,7 @@ Vous pouvez consulter les logs d'erreur Apache dans le fichier `$HOME/admin/logs
 
 Une option du [php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) vous permet d'avoir des logs d'erreurs PHP via l'ajout des directives suivantes :
 
-```
+```ini
 log_errors = On
 error_log = /home/[compte]/[chemin_vers_fichier_de_log]
 ```

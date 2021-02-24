@@ -13,7 +13,7 @@ This may cause problems when two PHP processes attempt to simultaneously access 
 
 The analysis of your HTTP processes returns:
 
-```
+```sh
 $ strace -f -p1821543 -p1822026 
 Process 1821543 attached
 Process 1822026 attached
@@ -33,13 +33,13 @@ You have reached the 256 Mbyte limit, the default value for `memory_limit` in PH
 
 To use in SSH another PHP version and/or configuration than the one indicated in **Environment > PHP**, it is possible to use the following commands:
 
-```
-export PHP_VERSION=<version>
-export PHPRC=/path/to/php.ini
+```sh
+$ export PHP_VERSION=<version>
+$ export PHPRC=/path/to/php.ini
 ```
 
 or else for the `php.ini`:
 
-```
-php -c /path/to/php.ini
+```sh
+$ php -c /path/to/php.ini
 ```

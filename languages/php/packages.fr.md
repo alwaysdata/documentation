@@ -16,7 +16,7 @@ Plusieurs outils existent en PHP pour installer des paquets.
 
 Pour installer les dépendances listées dans le fichier `composer.json` :
 
-```
+```sh
 $ composer install
 ```
 
@@ -24,7 +24,7 @@ $ composer install
 
 [PEAR](https://pear.php.net/) est l'un des plus anciens outils de gestion de paquets pour PHP. Il n'est pas préinstallé, mais vous pouvez le télécharger puis l'exécuter :
 
-```
+```sh
 $ wget http://pear.php.net/go-pear.phar
 $ php go-pear.phar
 ```

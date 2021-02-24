@@ -6,6 +6,8 @@ hidden = true
 tags = ["python"]
 +++
 
+`[paquet]` et `[version]` sont à remplacer par le nom du paquet et de la version à installer.
+
 ## Versions supportées
 
 | Majeures                          |
@@ -25,7 +27,7 @@ Vous devez toujours utiliser `python` (ou `/usr/bin/python`). N'utilisez jamais 
 
 Pour forcer une version de Python différente de celle par défaut, définissez la variable d'environnement `PYTHON_VERSION` :
 
-```
+```sh
 $ PYTHON_VERSION=2.7 python
 ```
 
@@ -47,7 +49,9 @@ Les autres binaires inclus dans Python (`2to3`, `pep8`, `pip`, `pydoc`...) fonct
 
 Votre environnement Python est initialement vide, sans aucune bibliothèque préinstallée en dehors de la bibliothèque standard. Vous pouvez utiliser `pip` pour installer des paquets, c'est l'outil standard de Python :
 
-    $ pip install Django
+```sh
+$ pip install [paquet]
+```
 
 Les paquets sont installés dans le répertoire standard `$HOME/.local` et sont automatiquement ajoutés au `sys.path` par Python.
 
@@ -57,19 +61,19 @@ Il est recommandé d'utiliser des environnements virtuels si vous utilisez plusi
 
 Avec Python 3, utilisez `venv` :
 
-```
+```sh
 $ python -m venv myenv
 ```
 
 Avec Python 2, utilisez `virtualenv` :
 
-```
+```sh
 $ virtualenv myenv
 ```
 
 Une fois votre environnement virtuel installé, vous pourrez l'activer avec :
 
-```
+```sh
 $ source myenv/bin/activate
 ```
 
@@ -77,33 +81,33 @@ $ source myenv/bin/activate
 
 Installer la dernière version d'un paquet :
 
-```
-$ pip install Django
+```sh
+$ pip install [paquet]
 ```
 
 Vous pouvez spécifier une version précise :
 
-```
-$ pip install Django==1.10.4
+```sh
+$ pip install [paquet]==[version]
 ```
 
 Pour installer un ensemble de paquets définis dans un fichier `requirements.txt` :
 
-```
+```sh
 $ pip install -r requirements.txt
 ```
 
 ### Désinstaller un paquet
 
-```
-$ pip uninstall Django
+```sh
+$ pip uninstall [paquet]
 ```
 
 ### Installer un paquet avec Distutils
 
 Vous pouvez installer un paquet utilisant Distutils sans passer par pip :
 
-```
+```sh
 $ python setup.py install --user
 ```
 

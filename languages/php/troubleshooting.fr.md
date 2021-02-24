@@ -19,7 +19,7 @@ Cela peut entraîner des problèmes lorsque deux processus PHP tentent d'accéde
 
 L'analyse de vos processus HTTP renvoient :
 
-```
+```sh
 $ strace -f -p1821543 -p1822026 
 Process 1821543 attached
 Process 1822026 attached
@@ -38,13 +38,13 @@ Vous atteignez la limite de 256 Mo, valeur par défaut de `memory_limit` en PHP.
 
 Pour utiliser en SSH une autre version PHP et/ou une autre configuration PHP que celle renseignée dans **Environnement > PHP**, il est possible d'utiliser les commandes suivantes :
 
-```
-export PHP_VERSION=<version>
-export PHPRC=/chemin/vers/php.ini
+```sh
+$ export PHP_VERSION=<version>
+$ export PHPRC=/chemin/vers/php.ini
 ```
 
 ou encore pour le `php.ini`:
 
-```
-php -c /chemin/vers/php.ini
+```sh
+$ php -c /chemin/vers/php.ini
 ```

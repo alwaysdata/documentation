@@ -14,8 +14,8 @@ Il existe deux solutions :
 
 - modifier directement dans le fichier `.so` le chemin du rpath, avec la commande :
 
-```
-chrpath -r /home/[compte]/[bibliothèque]/ ~/[bibliothèque]/[bibliothèque].so
+```sh
+$ chrpath -r /home/[compte]/[bibliothèque]/ ~/[bibliothèque]/[bibliothèque].so
 ```
 
 À chaque fois que ce fichier sera chargé, le répertoire `/home/[compte]/[bibliothèque]/` sera utilisé pour résoudre les dépendances.

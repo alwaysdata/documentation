@@ -5,6 +5,8 @@ hidden = true
 tags = ["python"]
 +++
 
+`[package]` and `[version]` have to be replaced by the name of the package and version to be installed.
+
 ## Versions supported
 
 |Major versions|
@@ -24,7 +26,7 @@ You need to always use `python` (or `/usr/bin/python`). Never use `python3`, `py
 
 To force the use of a different version of Python other than the default one, define the environment variable `PHYTHON_VERSION`:
 
-```
+```sh
 $ PYTHON_VERSION=2.7 python
 ```
 
@@ -46,8 +48,8 @@ The other binaries included in Python (`2to3`, `pep8`, `pip`, `pydoc`, etc.) wor
 
 Your Python environment starts off empty, with no ready installed libraries other than the standard library. You can use `pip` to install packages, this is the standard Python tool:
 
-```
-$ pip install Django
+```sh
+$ pip install [package]
 ```
 
 Packages are installed in the standard `$HOME/.local` directory and they are automatically added to `sys.path` by Python.
@@ -58,19 +60,19 @@ We recommend using virtual environments if you use a number of different Python 
 
 With Python 3, use `venv`:
 
-```
+```sh
 $ python -m venv myenv
 ```
 
 With Python 2, use `virtualenv`:
 
-```
+```sh
 $ virtualenv myenv
 ```
 
 Once your virtual environment is installed, you can activate it with:
 
-```
+```sh
 $ source myenv/bin/activate
 ```
 
@@ -78,25 +80,25 @@ $ source myenv/bin/activate
 
 Install the latest version of a package:
 
-```
-$ pip install Django
+```sh
+$ pip install [package]
 ```
 
 You can specify a specific version:
 
-```
-$ pip install Django==1.10.4
+```sh
+$ pip install [package]==[version]
 ```
 
 To install a set of packages defined in a `requirements.txt` file:
 
-```
+```sh
 $ pip install -r requirements.txt
 ```
 
 ### Uninstalling a package
 
-```
+```sh
 $ pip uninstall Django
 ```
 
@@ -104,7 +106,7 @@ $ pip uninstall Django
 
 You can install a package using Distutils without using pip:
 
-```
+```sh
 $ python setup.py install --user
 ```
 

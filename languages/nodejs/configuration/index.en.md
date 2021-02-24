@@ -5,6 +5,8 @@ layout = "man"
 tags = ["nodejs"]
 +++
 
+`[package]` has to be replaced by the name of the package to be installed.
+
 ## Supported Versions (Major Versions)
 
 
@@ -28,7 +30,7 @@ You need to always use `node` (or `/usr/bin/node`). Never use `nodejs`.
 
 To force the use of a different version of Node.js other than the default one, define the environment variable `NODEJS_VERSION`:
 
-```
+```sh
 $ NODEJS_VERSION=12 node
 ```
 
@@ -40,16 +42,16 @@ In your scripts, use `/usr/bin/node` as *shebang*:
 
 ## Environment
 
-Your Node.js environment starts off empty, with no ready installed libraries. You can use `npm` to install packets:
+Your Node.js environment starts off empty, with no ready installed libraries. You can use `npm` to install package:
 
-```
-$ npm install express
+```sh
+$ npm install [package]
 ```
 
-You can also use `npm` in global mode, the packets will be installed in the `$HOME/.npm-packages` directory:
+You can also use `npm` in global mode, the package will be installed in the `$HOME/.npm-packages` directory:
 
-```
-$ npm install -g express
+```sh
+$ npm install -g [package]
 ```
 
 ## HTTP deployment

@@ -6,6 +6,8 @@ layout = "man"
 tags = ["nodejs"]
 +++
 
+`[paquet]` est à remplacer par le nom du paquet à installer.
+
 ## Versions supportées (majeures)
 
 | |
@@ -28,7 +30,7 @@ Vous devez toujours utiliser `node` (ou `/usr/bin/node`). N'utilisez jamais `nod
 
 Pour forcer une version de Node.js différente de celle par défaut, définissez la variable d'environnement `NODEJS_VERSION` :
 
-```
+```sh
 $ NODEJS_VERSION=12 node
 ```
 
@@ -42,14 +44,14 @@ Dans vos scripts, utilisez `/usr/bin/node` comme *shebang* :
 
 Votre environnement Node.js est initialement vide, sans aucune bibliothèque préinstallée. Vous pouvez utiliser `npm` pour installer des paquets :
 
-```
-$ npm install express
+```sh
+$ npm install [paquet]
 ```
 
 Vous pouvez également utiliser `npm` en mode global, les paquets seront installés dans le répertoire `$HOME/.npm-packages` :
 
-```
-$ npm install -g express
+```sh
+$ npm install -g [paquet]
 ```
 
 ## Déploiement HTTP

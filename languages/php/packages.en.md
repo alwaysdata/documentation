@@ -15,7 +15,7 @@ There are a number of PHP tools for installing packages.
 
 To install the dependencies listed in the `composer.json` file:
 
-```
+```sh
 $ composer install
 ```
 
@@ -23,7 +23,7 @@ $ composer install
 
 [PEAR](https://pear.php.net/) is one of the oldest package management tools for PHP. It is not ready installed but you can download it and run it:
 
-```
+```sh
 $ wget http://pear.php.net/go-pear.phar
 $ php go-pear.phar
 ```
