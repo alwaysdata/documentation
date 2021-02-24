@@ -30,8 +30,3 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 * [Infrastructure logicielle 2020]({{< ref "advanced/migrations/2020-software-architecture" >}})
 * [Infrastructure logicielle 2017]({{< ref "advanced/migrations/2017-software-architecture" >}})
-
-- [CouchDB 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}})
-- [MariaDB 10.4]({{< ref "advanced/migrations/mariadb-10_4" >}})
-- [MongoDB 4.2]({{< ref "advanced/migrations/mongodb-4_2" >}})
-- [PostgreSQL 12]({{< ref "advanced/migrations/postgresql-12" >}})

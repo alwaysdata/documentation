@@ -31,19 +31,19 @@ Global directives added by our users, either in **Web > Configuration**, or in t
 
 ### MySQL
 
-MariaDB will be updated to [version 10.4]({{< ref "advanced/migrations/mariadb-10_4" >}}).
+MariaDB will be updated to [version 10.4](https://mariadb.com/kb/en/release-notes-mariadb-104-series/).
 
 ### PostgreSQL
 
-PostgreSQL will be updated to [version 12]({{< ref "advanced/migrations/postgresql-12" >}}).
+PostgreSQL will be updated to [version 12](https://www.postgresql.org/docs/12/release-12.html).
 
 ### MongoDB
 
-MongoDB will be updated to [version 4.2]({{< ref "advanced/migrations/mongodb-4_2" >}}).
+MongoDB will be updated to [version 4.2](https://docs.mongodb.com/manual/release-notes/4.2/).
 
 ### CouchDB
 
-CouchDB will be updated to [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}}).
+CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/3.0.0/whatsnew/3.0.html).
 
 ## Languages
 
@@ -224,8 +224,8 @@ You can check if the migration is complete via the [*Tasks*](https://admin.alway
 
 - Accounts are relocated during the migration. There may be a DNS propagation delay and it is necessary to update its `known_hosts` file for the SSH connection. You can do this via the command (*[account] to be replaced by the account name*):
 
-```
-ssh-keygen -R ssh-[account].alwaysdata.net
+```sh
+$ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 - Drupal

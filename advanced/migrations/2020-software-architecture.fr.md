@@ -32,19 +32,19 @@ Les directives globales ajoutées par nos utilisateurs, soit dans **Web > Config
 
 ### MySQL
 
-MariaDB est mis à jour en [version 10.4]({{< ref "advanced/migrations/mariadb-10_4" >}}).
+MariaDB est mis à jour en [version 10.4](https://mariadb.com/kb/en/release-notes-mariadb-104-series/).
 
 ### PostgreSQL
 
-PostgreSQL est mis à jour en [version 12]({{< ref "advanced/migrations/postgresql-12" >}}).
+PostgreSQL est mis à jour en [version 12](https://www.postgresql.org/docs/12/release-12.html).
 
 ### MongoDB
 
-MongoDB est mis à jour en [version 4.2]({{< ref "advanced/migrations/mongodb-4_2" >}}).
+MongoDB est mis à jour en [version 4.2](https://docs.mongodb.com/manual/release-notes/4.2/).
 
 ### CouchDB
 
-CouchDB est mis à jour en [version 3.0]({{< ref "advanced/migrations/couchdb-3_0" >}}).
+CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/3.0.0/whatsnew/3.0.html).
 
 ## Langages
 
@@ -225,8 +225,8 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 
 - Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez le faire via la commande (*[compte] à remplacer par le nom du compte*) :
 
-```
-ssh-keygen -R ssh-[compte].alwaysdata.net
+```sh
+$ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 - Drupal
     - [Précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **8.9**.
