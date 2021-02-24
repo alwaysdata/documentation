@@ -22,8 +22,8 @@ To install it yourself, follow the steps set out below:
 
 It is possible to use the following script in [SSH]({{< ref "/remote-access/ssh" >}}) to upgrade Nextcloud.
 
-```
-php path/to/nextcloud/directory/updater/updater.phar
+```sh
+$ php path/to/nextcloud/directory/updater/updater.phar
 ```
 
 ## Recommendations
