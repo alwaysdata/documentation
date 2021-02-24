@@ -24,7 +24,7 @@ For any Catalyst configuration order, the installation of the server is done aft
 | CPU                        | 2 vCPUs (3.5GHz) | 4 vCPUs (3.5GHz) |
 | RAM                        | 4GB ECC          | 8GB ECC          |
 | Disks                      | 100GB SSD        | 200GB SSD        |
-| Network                    | 1 Gbps           | 1 Gbps           |
+| Network                    | 1Gbps            | 1Gbps            |
 | Traffic/month              | 500GB            | 1TB              |
 | Price/month (VAT excluded) | 149 €            | 199 €            |
 | Price/year (VAT excluded)  | 1590 €           | 2190 €           |
