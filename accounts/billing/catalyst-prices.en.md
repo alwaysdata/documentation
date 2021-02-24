@@ -25,7 +25,7 @@ For any Catalyst configuration order, the installation of the server is done aft
 | RAM                        | 4GB ECC          | 8GB ECC          |
 | Disks                      | 100GB SSD        | 200GB SSD        |
 | Network                    | 1Gbps            | 1Gbps            |
-| Traffic/month              | 500GB            | 1TB              |
+| Traffic/month              | 1TB              | 1TB              |
 | Price/month (VAT excluded) | 149 €            | 199 €            |
 | Price/year (VAT excluded)  | 1590 €           | 2190 €           |
 

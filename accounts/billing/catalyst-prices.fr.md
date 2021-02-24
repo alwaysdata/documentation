@@ -27,7 +27,7 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 | RAM             | 4 Go ECC          | 8 Go ECC          |
 | Disques         | 100 Go SSD        | 200 Go SSD        |
 | Réseau          | 1 Gbps            | 1 Gbps            |
-| Trafic/mois     | 500 Go            | 1 To              |
+| Trafic/mois     | 1 To              | 1 To              |
 | Tarif/mois (HT) | 149 €             | 199 €             |
 | Tarif/an (HT)   | 1590 €            | 2190 €            |
 
