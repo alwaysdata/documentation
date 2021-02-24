@@ -19,4 +19,5 @@ tags = ["security"]
 - [SSL/TLS]({{< ref "ssl-tls" >}})
 - [Restricted mode]({{< relref "restricted-mode" >}}): limiting issues linked to users abuse
 - [Network]({{< relref "network" >}}): network management and protection against hackers
+- [Use SSH keys]({{< ref "remote-access/ssh/use-keys" >}})
 - [alwaysdata IP ranges]({{< relref "ip-ranges" >}})

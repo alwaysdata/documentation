@@ -6,7 +6,7 @@ hidden = true
 tags = ["remote access", "ssh"]
 +++
 
-Connecting in SSH mode with its public key (rather than its password) offers some advantages: enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH account with a public key.
+Connecting in SSH mode with its public key (with or rather than use the connection via password) offers some advantages: enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH account with a public key.
 
 ## In Windows
 
@@ -24,7 +24,7 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 ## In Unix / OS X
 
 1.  Generate keys:
-    ```
+    ```sh
     $ mkdir -p $HOME/.ssh
     $ chmod 0700 $HOME/.ssh
     $ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
@@ -35,7 +35,7 @@ To never have to enter your password when connecting in SSH mode, specify a blan
 {{% /notice %}}
 
 2.  Declare the public key (.pub) on the server:
-    ```
+    ```sh
     $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [user]@ssh-[account].alwaysdata.net
     ```
 
