@@ -24,8 +24,8 @@ For any Catalyst configuration order, the installation of the server is done aft
 | CPU                        | 2 vCPUs (3.5GHz) | 4 vCPUs (3.5GHz) |
 | RAM                        | 4GB ECC          | 8GB ECC          |
 | Disks                      | 100GB SSD        | 200GB SSD        |
-| Network                    | 100Mbps          | 100Mbps          |
-| Traffic/month              | 500GB/month      | 1TB/month        |
+| Network                    | 1 Gbps           | 1 Gbps           |
+| Traffic/month              | 500GB            | 1TB              |
 | Price/month (VAT excluded) | 149 €            | 199 €            |
 | Price/year (VAT excluded)  | 1590 €           | 2190 €           |
 
@@ -53,8 +53,8 @@ For any Catalyst configuration order, the installation of the server is done aft
 | 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €                    | + 6000 €                  |
 | **Disks**                           |                            |                           |
 | SSD 2TB NVMe • RAID1                | + 70 €                     | + 700 €                   |
-| SSD 4 To NVMe • RAID1               | + 170 €                    | + 1700 €                  |
-| SSD 8 To NVMe • RAID1               | + 370 €                    | + 3700 €                  |
+| SSD 4TB NVMe • RAID1                | + 170 €                    | + 1700 €                  |
+| SSD 8TB NVMe • RAID1                | + 370 €                    | + 3700 €                  |
 | **RAM**                             |                            |                           |
 | 16GB [^1]                           | + 10 €                     | + 100 €                   |
 | **Traffic/month**                   |                            |                           |

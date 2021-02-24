@@ -26,8 +26,8 @@ Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effect
 | CPU             | 2 vCPUs (3.5 GHz) | 4 vCPUs (3.5 GHz) |
 | RAM             | 4 Go ECC          | 8 Go ECC          |
 | Disques         | 100 Go SSD        | 200 Go SSD        |
-| Réseau          | 100 Mbps          | 100 Mbps          |
-| Trafic/mois     | 500 Go/mois       | 1 To/mois         |
+| Réseau          | 1Gbps             | 1 Gbps            |
+| Trafic/mois     | 500 Go            | 1 To              |
 | Tarif/mois (HT) | 149 €             | 199 €             |
 | Tarif/an (HT)   | 1590 €            | 2190 €            |
 
