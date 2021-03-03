@@ -42,6 +42,10 @@ To use our DNS servers, set on your registrar administration panel `dns1.alwaysd
 
 [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is not yet supported.
 
+{{% notice warning %}}
+Officially invalid (according to [IDNA2008](http://unicode.org/faq/idn.html)), we do not support **emojis** in a domain name. Our infrastructure uses the [Python library `idna`](https://github.com/kjd/idna), which [imperatively respects](https://github.com/kjd/idna/issues/18) IDNA2008 at this stage.
+{{% /notice %}}
+
 {{% notice info %}}
 As GANDI resellers you can receive emails from us, from them and from the [registry operators](https://en.wikipedia.org/wiki/Domain_name_registry) of the domain extensions taken.
 {{% /notice %}}

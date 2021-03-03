@@ -44,6 +44,10 @@ Pour utiliser nos serveurs DNS, indiquez chez votre registrar `dns1.alwaysdata.c
 
 [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) n'est pas encore géré.
 
+{{% notice warning %}}
+Officiellement invalides (d'après [IDNA2008](http://unicode.org/faq/idn.html)), nous ne supportons pas les **emojis** dans un nom de domaine. Notre infrastructure utilise la [bibliothèque Python `idna`](https://github.com/kjd/idna), qui [respecte impérativement](https://github.com/kjd/idna/issues/18) IDNA2008 à ce stade.
+{{% /notice %}}
+
 {{% notice info %}}
 Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
 {{% /notice %}}
