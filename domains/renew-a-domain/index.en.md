@@ -25,5 +25,6 @@ A domain with automatic renewal in place has an icon showing this:
 {{< fig "images/auto-renew.en.png" "Automatic renewal domain" >}}
 
 {{% notice warning %}}
-Automatic renewal for a domain can only be completed if the prepaid account has the necessary credit to pay for this OR a credit card is provided for automatic debits.
+Automatic renewal for a domain can only be completed if the **prepaid account** has the necessary credit to pay for this OR a **credit card** is provided for automatic debits.
+It CANNOT BE DONE via automatic debit from *bank account*; unlike the payment of hosting, probes or IP invoices.
 {{% /notice %}}
