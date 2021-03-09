@@ -12,11 +12,13 @@ Cette page recence les prix des configurations Cloud. Pour plus d'informations c
 * GTR : 4h
 * Taux de disponibilité : 99.7 %
 
-|                   | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go |
-| ----------------- | ------------ | ----------- | ----------- |
-| Sites et domaines | Illimités    | Illimités   | Illimités   |
-| Usage             | Trafic moyen | Fort trafic | Fort trafic |
-| Tarif/mois (HT)   | 8 €          | 12 €        | 25 €        |
-| Tarif/an (HT)     | 80 €         | 120 €       | 250 €       |
+|                   | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go | Cloud 100 Go[^1] | Cloud 150 Go[^1] | Cloud 300 Go[^1] |
+| ----------------- | ------------ | ----------- | ----------- | ---------------- | ---------------- | ---------------- |
+| Sites et domaines | Illimités    | Illimités   | Illimités   | Illimités        | Illimités        | Illimités        |
+| Usage             | Trafic moyen | Fort trafic | Fort trafic | Fort trafic      | Fort trafic      | Fort trafic      |
+| Tarif/mois (HT)   | 8 €          | 12 €        | 25 €        | 45 €             | 65 €             | 125 €            |
+| Tarif/an (HT)     | 80 €         | 120 €       | 250 €       | 450 €            | 650 €            | 1250 €           |
 
-Pour changer d'offre rendez-vous dans le menu *[Comptes]({{< ref "accounts/billing/upgrade-your-plan" >}})* ou contactez notre [support](https://admin.alwaysdata.com/support/).
+Le changement de Cloud se passe via le menu *[Comptes]({{< ref "accounts/billing/upgrade-your-plan" >}})*.
+
+[^1]: Comme pour les [configurations Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}), contactez notre [support](https://admin.alwaysdata.com/support/) pour prendre les offres Cloud supérieures à l'offre 50 Go.
