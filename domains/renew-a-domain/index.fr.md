@@ -21,6 +21,8 @@ Pour mettre en place le renouvellement automatique sur tous les domaines d'un co
 Un domaine pour lequel le renouvellement automatique est activé a une icône l'indiquant :
 {{< fig "images/auto-renew.fr.png" "Domaine en renouvellement automatique" >}}
 
+Par défaut le renouvellement automatique aura lieu 45 jours avant expiration.
+
 {{% notice warning %}}
 Le renouvellement automatique de domaine ne peut avoir lieu que si le **compte prépayé** à le solde nécessaire pour le payer OU qu'une **carte bancaire** est renseignée en prélèvement automatique.
 Il NE PEUT ÊTRE EFFECTUÉ via prélèvement automatique sur *compte bancaire* ; contrairement au paiement des factures d'hébergements, sondes ou IP.
