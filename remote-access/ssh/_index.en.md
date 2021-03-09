@@ -35,7 +35,7 @@ These users can be configured in the **Remote access > SSH** tab in your alwaysd
 
 Open your terminal and enter the following command:
 
-```
+```ssh
 $ ssh [user]@ssh-[account].alwaysdata.net
 ```
 
@@ -56,12 +56,6 @@ This interface is not compatible with VPS and dedicated hosting.
 ## Tips
 
 *Fingerprints* of our SSH servers are displayed in the **Remote access > SSH** menu of your administration interface.
-
-An account's SSH server might change from time to time. In this case, you have to update the `known_hosts` file. You can use the following command:
-
-```
-ssh-keygen -R [hostname]
-```
 
 ---
 - [OpenSSH](https://www.openssh.com/),

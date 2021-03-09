@@ -35,7 +35,7 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH** de v
 
 Ouvrez votre terminal et saisissez la commande suivante :
 
-```
+```ssh
 $ ssh [utilisateur]@ssh-[compte].alwaysdata.net
 ```
 
@@ -57,13 +57,7 @@ Cette interface n'est pas compatible avec les hébergements VPS et dédiés.
 
 ## Conseils
 
-Les *fingerprints* de nos serveurs SSH sont affichés dans l'onglet **Accès distant > SSH** de votre interface d'administration.
-
-Un compte peut être déplacé de serveur SSH. Dans ce cas, il est nécessaire de mettre à jour le fichier `known_hosts`. Vous pouvez alors utiliser la commande suivante :
-
-```
-ssh-keygen -R [nom_d'hôte]
-```
+Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH** de votre interface d’administration.
 
 ---
 - [OpenSSH](https://www.openssh.com/) ;

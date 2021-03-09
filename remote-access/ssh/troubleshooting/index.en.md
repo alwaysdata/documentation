@@ -26,7 +26,13 @@ This is an SSH key issue, state the corresponding key. If you cannot find it, co
 
 ### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 
-The SSH server for your account has changed. The new fingerprints are shown in **Remote access > SSH**.
+An account's SSH server might change from time to time. The new fingerprints are shown in **Remote access > SSH**.
+
+You have to update the `known_hosts` file, which is possible via the following command:
+
+```ssh
+ssh-keygen -R [hostname]
+```
 
 ### Input/output error
 
