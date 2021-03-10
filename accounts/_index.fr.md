@@ -24,7 +24,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
 - [Utiliser les tokens]({{< ref "tokens" >}})
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
-- [Système d'alertes]({{< ref "notifications" >}})
+- [Système d'alertes]({{< ref "alerts-notifications" >}})
 - [Suspension de profil]({{< ref "./suspension" >}})
 - [Cloud public : restrictions]({{< ref "cloud-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})

@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/supprimer-un-compte/"
+url = "/fr/comptes/supprimer-un-compte/"
 title = "Comment supprimer un compte"
 layout = "howto"
 hidden = true

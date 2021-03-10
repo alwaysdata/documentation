@@ -1,5 +1,5 @@
 +++
-title = "Notifications"
+title = "Alerts notifications"
 layout = "man"
 hidden = true
 tags = ["profile"]

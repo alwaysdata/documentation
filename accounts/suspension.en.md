@@ -1,5 +1,5 @@
 +++
-title = "Suspension"
+title = "Profile suspension"
 layout = "man"
 hidden = true
 tags = ["account", "profile", "suspension"]

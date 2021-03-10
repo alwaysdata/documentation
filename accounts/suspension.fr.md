@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/suspension-de-profil/"
+url = "/fr/comptes/suspension/"
 title = "Profil suspendu"
 layout = "man"
 hidden = true

@@ -22,7 +22,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Restricted account]({{< ref "security/restricted-mode" >}})
 - [Use tokens]({{< ref "tokens" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
-- [Warning system]({{< ref "notifications" >}})
+- [Alerts notifications]({{< ref "alerts-notifications" >}})
 - [Profile suspension]({{< ref "./suspension" >}})
 - [Public cloud: restrictions]({{< ref "cloud-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})

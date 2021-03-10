@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/restrictions-du-cloud-public/"
+url = "/fr/comptes/restrictions-du-cloud-public/"
 title = "Restrictions du Cloud public"
 layout = "man"
 hidden = true
@@ -25,4 +25,4 @@ Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou r
 - utiliser le compte gratuit pour héberger des applications consommatrices de ressources, notamment des proxies ou des systèmes d’envoi d’emails en masse ;
 - utiliser le compte gratuit pour des sites/adresses emails à des fins lucratives. Il est donc exclu d’héberger le site ou les emails d’une entreprise commerciale, de placer des publicités qui pourraient générer des profits, de vendre directement sur son site ou via des emails un service ou des biens, etc.
 
-Votre profil peut aussi être suspendu automatiquement après _[X jours d'inactivité]({{< ref "accounts/notifications#inactivité" >}})_ sur votre interface d'administration.
+Votre profil peut aussi être suspendu automatiquement après _[X jours d'inactivité]({{< ref "accounts/alerts-notifications#inactivité" >}})_ sur votre interface d'administration.

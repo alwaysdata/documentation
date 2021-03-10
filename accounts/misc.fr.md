@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/divers/"
+url = "/fr/comptes/divers/"
 title = "Diverses questions"
 layout = "man"
 hidden = true

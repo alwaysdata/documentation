@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/créer-un-compte/"
+url = "/fr/comptes/créer-un-compte/"
 title = "Comment créer un compte"
 menuTitle = "Créer un compte"
 layout = "howto"

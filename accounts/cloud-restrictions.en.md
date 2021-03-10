@@ -24,4 +24,4 @@ To be added to the rules presented above:
 - using the free account to host processes that consumes server resources - like proxies of mass e-mailing solutions,
 - using the free account for commercial/lucratives goals. E.g. it’s strictly prohibited to host company’s emails or website; to host ads that could generate incomes; to sell products on the hosted websites and mailboxes, etc.
 
-You profile may also be automatically suspended after your administration interface has been *[idle for X days]({{< ref "accounts/notifications#lack-of-activity" >}})*.
+You profile may also be automatically suspended after your administration interface has been *[idle for X days]({{< ref "accounts/alerts-notifications#lack-of-activity" >}})*.

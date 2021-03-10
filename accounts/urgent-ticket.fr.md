@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/support/ticket-urgent/"
+url = "/fr/comptes/ticket-urgent/"
 title = "Ticket urgent"
 layout = "man"
 hidden = true
