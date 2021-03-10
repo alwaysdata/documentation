@@ -47,13 +47,6 @@ bar@ssh:~$ psql -h postgresql-bar.alwaysdata.net -U bar -W -d bar_base < foo_bas
 bar@ssh:~$ rm foo_base.sql
 ```
 
-- MongoDB :
-```sh
-bar@ssh:~$ mongodump -u foo -p -h mongodb-foo.alwaysdata.net -d foo_base > foo_base.bson
-bar@ssh:~$ mongorestore -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.bson
-bar@ssh:~$ rm foo_base.sql
-```
-
 {{% notice info %}}
 Modifiez le fichier de configuration du site copié précédemment pour qu'il pointe sur la base nouvellement importée.
 {{% /notice %}}

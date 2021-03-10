@@ -54,7 +54,6 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Any other language](https://www.alwaysdata.com/en/language/custom/) |✔️|✔️|✔️|✔️|
 | Databases | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
-|| [MongoDB]({{< ref "databases/mongodb" >}}) |✔️|✔️|✔️|✔️|
 || [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
 || [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
 || [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|

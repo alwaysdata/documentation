@@ -31,15 +31,12 @@ it was created.
 | PostgreSQL               | Host: postgresql-[account].alwaysdata.net                                                          |
 |                          | Port: 5432                                                                                         |
 |                          | Administration interface: [phpPgAdmin](https://phppgadmin.alwaysdata.com)                          |
-| MongoDB                  | Host: mongodb-[account].alwaysdata.net                                                             |
-|                          | Port: 27017                                                                                        |
-|                          | Connection: mongodb://utilisateur:mdp@mongodb-[account].alwaysdata.net/bdd                         |
 | CouchDB                  | Host: couchdb-[account].alwaysdata.net                                                             |
 |                          | Port: 5984                                                                                         |
 | RabbitMQ                 | Host: rabbitmq-[account].alwaysdata.net                                                            |
 |                          | Port: 5672                                                                                         |
 | Elasticsearch            | Host: localhost or 127.0.0.1                                                                       |
-|                          | Ports: 9200& 9300                                                                                  |
+|                          | Port: 9200 & 9300                                                                                  |
 | Redis                    | Host: localhost or 127.0.0.1                                                                       |
 |                          | Port: 6380                                                                                         |
 | Memcached                | Host: localhost or 127.0.0.1                                                                       |

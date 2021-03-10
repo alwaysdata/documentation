@@ -44,13 +44,6 @@ This step is only necessary if your site is connected to a database. You need to
     bar@ssh:~$ rm foo_base.sql
     ```
 
--   MongoDB:
-    ```sh
-    bar@ssh:~$ mongodump -u foo -p -h mongodb-foo.alwaysdata.net -d foo_base > foo_base.bson
-    bar@ssh:~$ mongorestore -h mongodb-bar.alwaysdata.net -u bar -p -d bar_base < foo_base.bson
-    bar@ssh:~$ rm foo_base.sql
-    ```
-
 {{% notice info %}}
 Change the configuration file for the previously copied site so that it points to the newly imported database.
 {{% /notice %}}
