@@ -30,7 +30,7 @@ Un compte peut être déplacé de serveur SSH. Les nouveaux fingerprints sont in
 Il est nécessaire de mettre à jour le fichier `known_hosts`, ce qui est possible via la commande suivante :
 
 ```ssh
-ssh-keygen -R [nom_d'hôte]
+$ ssh-keygen -R [nom_d'hôte]
 ```
 
 ### Input/output error
