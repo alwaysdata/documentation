@@ -11,6 +11,10 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 
 - Account name: `foo`
 
+{{% notice note %}}
+[foo], [newrelic-last-version], [version] et REPLACE\_WITH\_LICENSE\_KEY must be replaced by accurate informations.
+{{% /notice %}}
+
 ## PHP
 
 Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
