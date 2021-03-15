@@ -10,7 +10,6 @@ Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous pr
 
 - [MariaDB/MySQL]({{< ref "databases/mariadb" >}})
 - [PostgreSQL]({{< ref "databases/postgresql" >}})
-- [MongoDB]({{< ref "databases/mongodb" >}})
 - [CouchDB]({{< ref "databases/couchdb" >}})
 - [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 

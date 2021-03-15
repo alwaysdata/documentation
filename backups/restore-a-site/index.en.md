@@ -50,10 +50,4 @@ To restore a backup manually.
     $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
     ```
 
-- Restore a MongoDB database:
-
-    ```sh
-    $ xzcat $HOME/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[account].alwaysdata.net -u [user] -p -d [base]
-    ```
-
 [^1]: It is not mandatory to restore both databases and files.

@@ -33,9 +33,6 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | PostgreSQL                 | Hôte : postgresql-[compte].alwaysdata.net                                                                 |
 |                            | Port : 5432                                                                                               |
 |                            | Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com)                              |
-| MongoDB                    | Hôte : mongodb-[compte].alwaysdata.net                                                                    |
-|                            | Port : 27017                                                                                              |
-|                            | Connexion : mongodb://utilisateur:mdp@mongodb-[compte].alwaysdata.net/bdd                                 |
 | CouchDB                    | Hôte : couchdb-[compte].alwaysdata.net                                                                    |
 |                            | Port : 5984                                                                                               |
 | RabbitMQ                   | Hôte : rabbitmq-[compte].alwaysdata.net                                                                   |

@@ -52,10 +52,4 @@ Pour effectuer un test ajoutez `-n`.
     $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
     ```
 
-- Restaurer une base de données MongoDB :
-
-    ```sh
-    $ xzcat $HOME/admin/backup/[date]/mongodb/[base].xz | mongorestore -h mongodb-[compte].alwaysdata.net -u [utilisateur] -p -d [base]
-    ```
-
 [^1]: Il n'est pas obligatoire de restaurer à la fois bases et fichiers.

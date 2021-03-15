@@ -9,7 +9,6 @@ The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entir
 
 - [MariaDB/MySQL]({{< ref "databases/mariadb" >}})
 - [PostgreSQL]({{< ref "databases/postgresql" >}})
-- [MongoDB]({{< ref "databases/mongodb" >}})
 - [CouchDB]({{< ref "databases/couchdb" >}})
 - [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 

@@ -55,7 +55,6 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Tout autre langage](https://www.alwaysdata.com/fr/langage/personnalise/) |✔️|✔️|✔️|✔️|
 | Bases de données | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
-|| [MongoDB]({{< ref "databases/mongodb" >}}) |✔️|✔️|✔️|✔️|
 || [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
 || [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
 || [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
