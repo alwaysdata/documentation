@@ -8,6 +8,13 @@ hidden = true
 
 [Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
 
+Dans nos exemples nous considérons les informations suivantes :
+
+- Nom du compte : `test`
+- Adresse email : `test@alwaysdata.net`
+
+Elles sont à remplacer par vos informations de connexion personnelles.
+
 Rendez-vous dans **Comptes > Configurer un compte : Courrier électronique**.
 
 {{< fig "images/thunderbird_new-account.fr.png" "Thunderbird : créer un compte" >}}

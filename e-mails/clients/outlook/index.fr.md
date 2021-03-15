@@ -8,6 +8,13 @@ hidden = true
 
 [Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
 
+Dans nos exemples nous considérons les informations suivantes :
+
+- Nom du compte : `test`
+- Adresse email : `test@alwaysdata.net`
+
+Elles sont à remplacer par vos informations de connexion personnelles.
+
 ## Ordinateur
 
 Rendez-vous dans **Fichiers > Informations > Ajouter un compte**.

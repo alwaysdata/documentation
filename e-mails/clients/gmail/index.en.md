@@ -7,6 +7,13 @@ tags = ["e-mail", "gmail"]
 
 [Connection information reminder]({{< ref "e-mails/use-an-e-mail-address">}})
 
+In our examples we consider the following information:
+
+- Account name: `test`
+- Mailbox: `test@alwaysdata.net`
+
+They must be replaced by your personal login information.
+
 ## Computer
 
 Go to **Parameters > Accounts and imports**.
