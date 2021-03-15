@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/transférer-sortant/"
+url = "/fr/domaines/transfert-sortant/"
 title = "Comment transférer un domaine chez un autre prestataire"
 menuTitle = "Transfert sortant"
 layout = "howto"
