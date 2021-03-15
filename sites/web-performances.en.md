@@ -17,3 +17,7 @@ External website analysis services:
 
 - [DareBoost](https://www.dareboost.com/)
 - [Pingdom](https://tools.pingdom.com/)
+
+External profiling services:
+
+- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/install-blackfire">}}).

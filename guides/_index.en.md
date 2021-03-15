@@ -10,6 +10,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 ## Installation / Configuration
 
 - [Apache PageSpeed]({{< relref "install-apache-pagespeed" >}})
+- [Blackfire]({{< relref "install-blackfire" >}})
 - [Blazegraph]({{< relref "install-blazegraph" >}})
 - [FFmpeg]({{< relref "install-ffmpeg" >}})
 - [Gitea]({{< relref "gitea" >}})
