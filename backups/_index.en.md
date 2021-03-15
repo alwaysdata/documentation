@@ -10,7 +10,7 @@ tags = ["backup"]
 
 A backup of your files, databases and e-mails is made **daily**, retained for a rolling **30 days** and is available from the `$HOME/admin/backup` directory in your account.
 
-Backups are stored in a dedicated data center that is tens of kilometers away from the production center, using another contractor.
+Backups are stored in a dedicated data center that is several kilometers away from the production center, using another provider.
 
 You can restore [a website]({{< relref "restore-a-site" >}}) or [e-mails]({{< relref "restore-e-mails" >}}) from the **Advanced > Restore backups** tab in your administration interface.
 
