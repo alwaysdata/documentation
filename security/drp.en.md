@@ -25,7 +25,7 @@ All the data in your user account is covered by the backup:
 
 ### Where are these backups located?
 
-These backups are hosted in a datacenter located more than ten kilometers from the production units. It is operated by Scaleway, while the production datacenters are managed by Equinix.
+These backups are hosted in a datacenter located more than ten kilometers from the production units. It is operated by [Scaleway](https://www.scaleway.com/en/datacenter/), while the production datacenters are managed by [Equinix](https://www.equinix.com/).
 
 ### How can you guarantee access to backups from the user account file system?
 

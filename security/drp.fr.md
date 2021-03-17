@@ -26,7 +26,7 @@ L'ensemble des données de votre compte utilisateur est concerné par la sauvega
 
 ### Où sont situées ces sauvegardes ?
 
-Ces sauvegardes sont hébergées dans un datacenter situé à plus de dix kilomètres des unités de production. Il est opéré par Scaleway, tandis que les datacenters de productions sont gérés par Equinix.
+Ces sauvegardes sont hébergées dans un datacenter situé à plus de dix kilomètres des unités de production. Il est opéré par [Scaleway](https://www.scaleway.com/en/datacenter/), tandis que les datacenters de productions sont gérés par [Equinix](https://www.equinix.com/).
 
 ### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 
