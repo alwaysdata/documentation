@@ -14,7 +14,7 @@ Ces garanties *ne sont pas* optionnelles : elles sont embarquées par défaut da
 
 ### Mes données sont-elles sauvegardées ?
 
-Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. Elles sont conservées pendant 30 jours glissant.
+Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. Elles sont conservées pendant 30 jours glissants.
 
 ### Quelles données sont concernées ?
 
@@ -23,11 +23,10 @@ L'ensemble des données de votre compte utilisateur est concerné par la sauvega
 - fichiers
 - bases de données
 - emails
-- configurations
 
 ### Où sont situées ces sauvegardes ?
 
-Ces sauvegardes sont hébergées dans un datacenter situé à plus de dix kilomètres des unités de production. Il est opéré par Illiad, tandis que les datacenters de productions sont gérés par Equinix.
+Ces sauvegardes sont hébergées dans un datacenter situé à plus de dix kilomètres des unités de production. Il est opéré par Scaleway, tandis que les datacenters de productions sont gérés par Equinix.
 
 ### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 
@@ -35,7 +34,7 @@ Les sauvegardes sont accessibles depuis votre système de fichier du compte util
 
 ### Comment puis-je récupérer ces sauvegardes ?
 
-Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})…) en copiant les répertoires situés dans `$HOME/admin/backups/`.
+Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})…) en copiant les répertoires situés dans `$HOME/admin/backup/`.
 
 Le répertoire `latest` est un raccourci vers la dernière sauvegarde disponible.
 
@@ -47,25 +46,27 @@ Pour restaurer vos sauvegardes, [consultez la documentation disponible]({{< ref 
 
 ### Comment est garanti l'accès au réseau ?
 
-Chaque serveur dispose de deux arrivées réseau en fallback. En cas de rupture du lien principal, le lien secondaire est activé pour maintenir la connexion active.
+Chaque serveur dispose de deux arrivées réseau. En cas de rupture du lien principal, le lien secondaire est automatiquement activé pour maintenir la connexion active.
 
-Nous opérons nous-même le réseau au sein des datacenters.
+Nous opérons nous-même notre réseau au sein des datacenters.
 
 ### Comment est garanti l'accès à Internet ?
 
 Notre accès Internet est garanti par quatre fournisseurs d'accès indépendants.
 
+Nous sommes également membres du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgpview.io/asn/60362), et de nos propres plages d'IP.
+
 ## Infrastructure matérielle
 
 ### Comment sont réparties les baies serveurs ?
 
-Nos serveurs de production sont répartis dans plusieurs datacenters, plusieurs baies de stockage, et plusieurs datahall.
+Nos serveurs de production sont répartis dans plusieurs datacenters, plusieurs baies, et plusieurs salles.
 
 ### Que se passe-t-il en cas de coupure / panne électrique ?
 
-Chaque serveur dispose de deux alimentations, lui permettant de rester alimenté en cas de rupture matérielle.
+Chaque serveur dispose de deux alimentations chacune sur des circuits entièrement autonomes (2N), lui permettant de rester alimenté en cas de rupture matérielle.
 
-Nos datacenters sont également équipés de générateurs de secours capable de fournir plusieurs heures de courant aux infrastructures en cas de panne du réseau principal.
+Nos datacenters sont également équipés de générateurs de secours capables de fournir plusieurs jours de courant aux infrastructures en cas de panne du réseau principal.
 
 ### Comment le service est-il restauré en cas de dommage matériel ?
 
@@ -73,13 +74,13 @@ D'autres serveurs sont disponibles en sécurité, nous permettant de basculer ra
 
 ### Les serveurs sont-ils redondés ?
 
-Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matériel des stockages.
+Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
 
 Nous disposons d'une [offre Gold]({{< ref "accounts/billing/catalyst-prices" >}}#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
 
 ### L'accès aux serveurs est-il sécurisé ?
 
-Nos datacenters sont gérés par des partenaires appliquant des normes très strictes en matière d'accès au matériel, basées sur des permissions d'accès et de l'authentification biométriques.
+Nos datacenters sont gérés par des partenaires appliquant des normes très strictes en matière d'accès au matériel, basées sur des permissions d'accès et de l'authentification biométrique.
 
 ### Quelles sont les garanties des data centers ?
 

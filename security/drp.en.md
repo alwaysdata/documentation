@@ -22,11 +22,10 @@ All the data in your user account is covered by the backup:
 - files
 - databases
 - e-mails
-- configurations
 
 ### Where are these backups located?
 
-These backups are hosted in a datacenter located more than ten kilometers from the production units. It is operated by Illiad, while the production datacenters are managed by Equinix.
+These backups are hosted in a datacenter located more than ten kilometers from the production units. It is operated by Scaleway, while the production datacenters are managed by Equinix.
 
 ### How can you guarantee access to backups from the user account file system?
 
@@ -34,7 +33,7 @@ Backups are accessible from your user account file system (via [SSH]({{< ref "re
 
 ### How can I recover these backups?
 
-You can make a copy of your backups from your user account file system (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})...) by copying the directories located in `$HOME/admin/backups/`.
+You can make a copy of your backups from your user account file system (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})...) by copying the directories located in `$HOME/admin/backup/`.
 
 The `latest` directory is a shortcut to the last available backup.
 
@@ -46,25 +45,27 @@ To restore your backups, please have a look at the [available documentation]({{<
 
 ### How is network access guaranteed?
 
-Each server has two network connections in fallback. If the primary link fails, the secondary link is activated to keep the connection active.
+Each server has two network connections. If the primary link fails, the secondary link is automatically activated to keep the connection active.
 
-We operate the network ourselves in the datacenters.
+We operate our own network ourselves in the datacenters.
 
 ### How is Internet access guaranteed?
 
 Our Internet access is guaranteed by four independent service providers.
 
+We are also members of RIPE, have our own [AS number (AS60362)](https://bgpview.io/asn/60362), and our own IP ranges.
+
 ## Hardware infrastructure
 
 ### How are the server racks distributed?
 
-Our production servers are spread across several datacenters, storage racks, and datahalls.
+Our production servers are spread across several datacenters, racks, and datahalls.
 
 ### What happens in the event of a power outage?
 
-Each server has two power supplies, allowing it to remain powered in the event of a hardware failure.
+Each server has two autonomous power supplies on different lines (2N), allowing it to remain powered in the event of a hardware failure.
 
-Our datacenters are also powered by backup generators capable of providing several hours of power to the infrastructure in the event of a global failure.
+Our datacenters are also powered by backup generators capable of providing several days of power to the infrastructure in the event of a global failure.
 
 ### How is service restored in the event of hardware damage?
 
