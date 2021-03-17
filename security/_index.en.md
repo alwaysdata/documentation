@@ -21,3 +21,4 @@ tags = ["security"]
 - [Network]({{< relref "network" >}}): network management and protection against hackers
 - [Use SSH keys]({{< ref "remote-access/ssh/use-keys" >}})
 - [alwaysdata IP ranges]({{< relref "ip-ranges" >}})
+- [Disaster Recovery Plan]({{< relref "drp" >}})

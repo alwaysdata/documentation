@@ -22,3 +22,4 @@ tags = ["sécurité"]
 - [Réseau]({{< relref "network" >}}) : gestion du réseau et protections contre les pirates informatiques
 - [Utiliser des clés SSH]({{< ref "remote-access/ssh/use-keys" >}})
 - [Plages d'IP alwaysdata]({{< relref "ip-ranges" >}})
+- [Plan de continuité d'activité]({{< relref "drp" >}})
