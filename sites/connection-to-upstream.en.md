@@ -71,6 +71,8 @@ ModuleNotFoundError: No module named 'XXXX'
 
 Depending on the error, correct the site, the virtual environment or the script itself.
 
+For instance, for a Python application (such as Django), check that the version in your virtual environment matches the version declared in your site (in the admin interface).
+
 ## Other HTTP servers
 
 For sites that do not use Apache or uWSGI, check the program run in [SSH]({{< ref "remote-access/ssh" >}}). Especially whether it does properly listen on:

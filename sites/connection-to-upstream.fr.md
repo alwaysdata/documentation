@@ -69,6 +69,8 @@ ModuleNotFoundError: No module named 'XXXX'
 
 Selon l'erreur corrigez le site, l'environnement virtuel ou encore le script lui-même.
 
+Par exemple, pour une application Python (tel que Django), vérifiez que la version dans l'environnement virtuel correspond à la version déclarée dans le site (de l'interface d'administration).
+
 ## Autres serveurs HTTP
 
 Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en [SSH]({{< ref "remote-access/ssh" >}}). Notamment s'il écoute bien :
