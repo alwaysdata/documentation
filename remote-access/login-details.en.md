@@ -61,6 +61,9 @@ it was created.
 |                          | Web access (via Shell in a box): https://ssh-[account].alwaysdata.net                              |
 | WebDAV                   | Host: webdav-[account].alwaysdata.net                                                              |
 |                          | Port: 80                                                                                           |
+| **Services**             |                                                                                                    |
+|                          | Host: services-[account].alwaysdata.net                                                             |
+|                          | Ports: between 8300 and 8499                                                                        |
 | **Web statistics**       |                                                                                                    |
 | Administration interface | [Matomo](https://analytics.alwaysdata.com)                                                         |
 

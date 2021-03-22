@@ -63,6 +63,9 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Accès web (via Shell in a box) : https://ssh-[compte].alwaysdata.net                                      |
 | WebDAV                     | Hôte : webdav-[compte].alwaysdata.net                                                                     |
 |                            | Port : 80                                                                                                 |
+| **Services**               |                                                                                                           |
+|                            | Hôte : services-[compte].alwaysdata.net                                                                    |
+|                            | Ports : entre 8300 et 8499                                                                                |
 | **Statistiques web**       |                                                                                                           |
 | Interface d'administration | [Matomo](https://analytics.alwaysdata.com)                                                                |
 

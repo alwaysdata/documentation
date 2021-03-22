@@ -2,7 +2,7 @@
 url = "/fr/sauvegardes"
 title = "Sauvegardes"
 pre = "<i class='fas fa-fw fa-history'></i> "
-weight = 33
+weight = 34
 chapter = true
 tags = ["sauvegarde"]
 +++

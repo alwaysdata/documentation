@@ -45,11 +45,11 @@ More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.
 
 ### Step 3: Start the daemon
 
-Start it via SSH:
+Create a [service]({{< ref "services" >}}) with the following details:
 
-```sh
-foo@ssh:~/newrelic$ /home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log
-```
+- *SSH user*: `foo`
+- *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
+- *Working directory*: `newrelic`
 
 ## Python
 
