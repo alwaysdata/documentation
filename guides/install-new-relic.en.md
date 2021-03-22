@@ -47,7 +47,6 @@ More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.
 
 Create a [service]({{< ref "services" >}}) with the following details:
 
-- *SSH user*: `foo`
 - *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
 - *Working directory*: `newrelic`
 

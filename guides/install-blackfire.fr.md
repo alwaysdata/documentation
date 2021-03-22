@@ -60,7 +60,6 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
-- *Utilisateur SSH* : `foo`
 - *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
 - *Répertoire de travail* : `blackfire`
 

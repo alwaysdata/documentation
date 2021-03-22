@@ -59,7 +59,6 @@ More options are available on their [documentation](https://blackfire.io/docs/up
 
 Create a [service]({{< ref "services" >}}) with the following details:
 
-- *SSH user*: `foo`
 - *Command*: `/home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
 - *Working directory*: `blackfire`
 

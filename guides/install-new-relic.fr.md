@@ -47,7 +47,6 @@ Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/ne
 
 Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
-- *Utilisateur SSH* : `foo`
 - *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
 - *Répertoire de travail* : `newrelic`
 
