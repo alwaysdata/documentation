@@ -9,7 +9,7 @@ tags = ["facturation"]
 Pour changer d'offre, rendez-vous dans **Comptes >Modifier** le compte concerné :
 {{< fig "images/list-accounts.fr.png" "Interface d'administration : liste de ses comptes" >}}
 
-Vous pouvez changer de _[pack]({{< ref "accounts/billing/cloud-prices" >}})_ et de _période d'engagement_.
+Vous pouvez changer de _[pack]({{< ref "accounts/billing/cloud-prices" >}})_ et de _période d'engagement_. La facture pour le nouvel abonnement est éditée le lendemain et vous aurez alors 30 jours pour la payer.
 
 Dans les cas suivant, il faudra contacter le [support](https://admin.alwaysdata.com/support/add/) :
 

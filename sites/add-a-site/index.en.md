@@ -16,11 +16,13 @@ If you are starting from scratch you can take advantage of our [application libr
 - Name: used for display purposes in the alwaysdata administration interface, it is purely for information purposes,
 - Addresses: the addresses used to reach your site (`*.example.org` for catch-alls),
 
-{{< fig "images/admin-panel_add-site-general.en.png" "Add a site: general" >}}
+Adding all the addresses in this menu is **mandatory** to access them as sites:
+- for example, to access a website on *www\.exemple.org* and *example.org* both addresses must be added,
+- entering your domain in the **Domains** menu is not enough either. Even for a domain using our [DNS services]({{< ref "domains#dns-management" >}}).
 
-{{% notice warning %}}
-Adding all the addresses in this menu is mandatory to access them as sites. For example, to access a website on *www.exemple.org* and *example.org* both addresses must be added. Entering your domain in the Domains menu is not enough either.
-{{% /notice %}}
+Also, if the domain does not use our DNS servers, you will need to [create DNS records]({{< ref "sites/use-external-addresses" >}}) with the DNS provider.
+
+{{< fig "images/admin-panel_add-site-general.en.png" "Add a site: general" >}}
 
 - Configuration: specific to every type of site:
     - [PHP]({{< ref "languages/php" >}}),

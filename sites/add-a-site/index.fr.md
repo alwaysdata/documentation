@@ -17,11 +17,13 @@ Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "ma
 - Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
 - Adresses : les adresses pour joindre votre site (`*.exemple.org` pour les catch-all) ;
 
-{{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
+L'ajout de toutes les adresses dans ce menu est un **impératif** pour qu'elles soient accessibles comme sites :
+- par exemple, pour accéder à un site sur *www\.exemple.org* et *exemple.org* les deux adresses doivent être ajoutées ;
+- renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [services DNS]({{< ref "domains#gestion-dns" >}}).
 
-{{% notice warning %}}
-L'ajout de toutes les adresses dans ce menu est un impératif pour qu'elles soient accessibles comme sites. Par exemple, pour accéder à un site sur *www.exemple.org* et *exemple.org* les deux adresses doivent être ajoutées. Renseigner son domaine dans le menu Domaines n'est pas non plus suffisant.
-{{% /notice %}}
+Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer des enregistrements DNS]({{< ref "sites/use-external-addresses" >}}) chez le prestataire DNS.
+
+{{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
 
 - Configuration : spécifique à chaque type de site :
     - [PHP]({{< ref "languages/php" >}}) ;
