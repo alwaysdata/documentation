@@ -25,6 +25,5 @@ $ nc -z services-[compte].alwaysdata.net 8300
 
 ---
 - [Utiliser les services]({{< ref "services/use-services" >}})
-- [Référence API](https://api.alwaysdata.com/v1/service/doc/)
 
 [^1]: `[compte]` à remplacer par le nom du compte.
