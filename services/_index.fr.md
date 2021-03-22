@@ -13,7 +13,7 @@ Ces services sont contrôlés via le menu **Avancé > Services** de l'[interface
 
 {{< fig "admin-panel_create-service.fr.png" "Interface d’ad­mi­nis­tra­tion : créer un service" >}}
 
-Si le service a besoin d'écouter sur un port ALORS il faudra écouter sur un port entre `8300` et `8499` et utiliser le nom d'hôte du compte - de la forme `services-[compte].alwaysdata.net`[^1]. Il doit bind sur `::`.
+Si le service a besoin d'écouter sur un port ALORS il faudra écouter sur un port entre `8300` et `8499` et utiliser le nom d'hôte du compte - de la forme `services-[compte].alwaysdata.net`[^1]. Il doit bind en IPv6 sur `::`.
 
 Contrairement à une commande lancée à la main en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
 
