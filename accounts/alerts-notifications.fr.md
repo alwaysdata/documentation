@@ -34,8 +34,8 @@ Ce type d'alerte ne concerne que les _plans gratuits_ et a pour but de ne pas en
 
 ### Renouvellement automatique de domaine
 
-- événement déclencheur : le renouvellement automatique d'un domaine est activé mais le solde est insuffisant OU aucune carte de crédit n'a été configurée ;
-- résolution : alimenter le compte prépayé d'un montant suffisant OU ajouter une carte de crédit en prélèvement automatique aux moyens de paiement ;
+- événement déclencheur : le renouvellement automatique d'un domaine est activé mais le solde est insuffisant OU aucune carte de crédit / aucun compte bancaire n'a été configuré ;
+- résolution : alimenter le compte prépayé d'un montant suffisant OU ajouter une carte de crédit / un compte bancaire en prélèvement automatique aux moyens de paiement ;
 - expiration : ce type d'alerte n'expire pas.
 
 ### Expiration de carte de crédit

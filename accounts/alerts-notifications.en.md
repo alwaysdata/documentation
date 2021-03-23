@@ -35,8 +35,8 @@ This kind of alert only affects *free plans* and is intended to not take up spac
 
 ### Automatic domain renewal
 
-- Triggering event: automatic domain renewal is enabled but the balance is too low OR no credit card is configured,
-- Resolution: recharge the prepaid account with enough money OR add a credit card allowing automatic debits to the means of payment,
+- Triggering event: automatic domain renewal is enabled but the balance is too low OR no credit card/bank account is configured,
+- Resolution: recharge the prepaid account with enough money OR add a credit card/bank account allowing automatic debits to the means of payment,
 - Expiry: this kind of alert does not expire.
 
 ### Credit card expiry
