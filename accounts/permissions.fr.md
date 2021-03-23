@@ -54,3 +54,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 {{% notice note %}}
 Il est possible de supprimer les permissions que nous avons sur d'autres profils. La suppression ne s'effectue pas finement, elles seront toutes supprimées.
 {{% /notice %}}
+
+{{% notice note %}}
+En créant des permissions à une adresse email n'ayant pas de profil alwaysdata, cette personne recevra un email pour initialiser son profil.
+{{% /notice %}}

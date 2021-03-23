@@ -53,3 +53,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 {{% notice note %}}
 It is possible to remove the permissions we have on other profiles. The removal is not done finely, they will all be deleted.
 {{% /notice %}}
+
+{{% notice note %}}
+When creating permissions to an email address that does not have an alwaysdata profile, that person will receive an email to initialize its profile.
+{{% /notice %}}
