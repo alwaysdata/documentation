@@ -45,11 +45,11 @@ Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/ne
 
 ### Étape 3 : Lancement du démon
 
-Lancez le via SSH :
+Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
-```sh
-foo@ssh:~/newrelic$ /home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log
-```
+- *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
+- *Répertoire de travail* : `newrelic`
+
 ## Python
 
 New Relic est un module Python à installer comme les autres. Si l'application utilise un `virtualenv`, New Relic sera à installer au niveau de celui-ci.

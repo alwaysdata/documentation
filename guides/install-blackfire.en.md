@@ -57,9 +57,10 @@ More options are available on their [documentation](https://blackfire.io/docs/up
 
 ## Step 3: Start the deamon
 
-```sh
-foo@ssh:~/blackfire$ /home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod
-```
+Create a [service]({{< ref "services" >}}) with the following details:
+
+- *Command*: `/home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
+- *Working directory*: `blackfire`
 
 ## Step 4: Probes installation
 

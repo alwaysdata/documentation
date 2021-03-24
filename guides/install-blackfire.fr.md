@@ -58,9 +58,10 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 ## Étape 3 : Lancement du démon
 
-```sh
-foo@ssh:~/blackfire$ /home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod
-```
+Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+
+- *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
+- *Répertoire de travail* : `blackfire`
 
 ## Étape 4 : Installation des sondes
 

@@ -1,7 +1,6 @@
 +++
 title = "Using Scheduled Tasks"
 layout = "howto"
-weight = 10
 hidden = true
 tags = ["scheduled tasks"]
 +++
