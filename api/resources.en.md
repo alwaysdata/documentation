@@ -27,6 +27,7 @@ tags = ["administration", "api"]
 |object transfer|Transfer|https://api.alwaysdata.com/v1/object_transfer/doc/|
 |product|Products|https://api.alwaysdata.com/v1/product/doc/|
 |server|Servers|https://api.alwaysdata.com/v1/server/doc/|
+|service|Services|https://api.alwaysdata.com/v1/service/doc/|
 |site|Sites|https://api.alwaysdata.com/v1/site/doc/|
 |ssh user|SSH users|https://api.alwaysdata.com/v1/ssh/doc/|
 |ssl certificate|SSL certificates|https://api.alwaysdata.com/v1/ssl/doc/|
