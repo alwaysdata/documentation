@@ -6,23 +6,24 @@ layout = "man"
 tags = ["services"]
 +++
 
-It's possible to set up services, i.e generic programs that run 24 hours a day without any user interaction.
+You can register services: They are custom programs running in a headless mode (i.e. without any user interaction).
 
-These services are supervised via the **Advanced > Services** menu of the [administration interface](https://admin.alwaysdata.com).
+Those services are declared in the [administration panel](https://admin.alwaysdata.com)'s  **Advanced > Services**.
 
-{{< fig "admin-panel_create-service.en.png" "Ad­mi­nis­tra­tion interface: create a service" >}}
+{{< fig "admin-panel_create-service.en.png" "Ad­mi­nis­tration Panel: Create a Service" >}}
 
-If the service needs to listen on a port THEN choose a port between `8300` and `8499` and use the account hostname - of the form `services-[compte].alwaysdata.net`[^1]. It must bind in IPv6 on `::`.
+When you need to join your service from an external application, you *must* pick a port in the `8300` and `8499` range, and attach your service on `::` (IPv6 only). Your service will be reachable on this port at the address `services-[account].alwaysdata.net:[PORT]`[^1].
 
-Unlike a command manually launched in SSH, these services will be restarted automatically by the system if the service is stopped.
+Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
-The *Monitoring command* field - optionnal - allows you to specify a command that checks if the service is running. When this command returns an error code, the service is restarted. For example it can verify that the service is reachable on the assigned port by using (for a service that uses the *8300* port):
+The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):
 
 ```sh
 $ nc -z services-[account].alwaysdata.net 8300
 ```
 
 ---
+
 - [Use services]({{< ref "services/use-services" >}})
 - [API reference](https://api.alwaysdata.com/v1/service/doc/)
 

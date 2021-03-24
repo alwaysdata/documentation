@@ -5,23 +5,23 @@ hidden = true
 tags = ["services"]
 +++
 
-Via the menu **Advanced > Services** in your administration interface set up 24h a day programs.
+Set up a service (i.e. headless running command) in your Administration Panel: **Advanced > Services**.
 
-The ports `8300` to `8499` as well as the hostname `services-[account].alwaysdata.net`[^1] can be used to run these services.
+The ports' range `8300` to `8499`, as well as the hostname `services-[account].alwaysdata.net`[^1] are reserved to those services.
 
-Important:
+**Important**:
 
-- It must run as a [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=). Meaning stays in foreground and not quit.
-- If it want to listen on a port it must bind in IPv6 on `::` and listen a port between 8300 and 8499.
-- A log is created automatically and is available from the `$HOME/admin/logs/services/` directory. It gives you the start and end of the service.
-- In Public Cloud:
-	- the services are run on a distinct server from the SSH and HTTP servers,
-	- the consumption must remain reasonable.
-- In Catalyst infrastructure (VPS and dedicated servers):
-	- 8300 to 8499 ports are NOT open to the outside. It will be possible to open them via a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
+- It must runs in foreground (forbid deamon modes) and not exit[^2].
+- When needing to be reached from an external application, bind it to `::` (IPv6 only) and a port from `8300` to `8499`.
+- Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
+- For Public Cloud users:
+  - Services are executed on a distinct servers than SSH and HTTP servers.
+  - Their resources use must remain fair.
+- For Catalyst infrastructure (*VPS* and *Dedicated Servers*):
+	- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}
-Even though it is contraindicated, users of dedicated and VPS servers can also bind on another IP than `::` and listen on another port thant 8300-8499. This may cause problems during [migrations]({{< ref "advanced/migrations" >}}).
+Catalyst users can also bind on another IP than `::` and listen on ports outside of the range `8300-8499`, but this is *not recommended* as it may lead to issues during [migrations]({{< ref "advanced/migrations" >}}).
 {{% /notice %}}
 
 ## Examples
@@ -32,3 +32,4 @@ Even though it is contraindicated, users of dedicated and VPS servers can also b
 - *Monitoring command*: `redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 
 [^1]: `[account]` to be replace by the account name.
+[^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.
