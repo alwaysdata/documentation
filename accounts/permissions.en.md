@@ -36,7 +36,8 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *[SSL certificates]({{< ref "security/ssl-tls" >}})*,
 - *[Migration]({{< ref "advanced/migrations" >}})*,
 - *[Scheduled tasks]({{< ref "tasks" >}})*,
-- *[Backups]({{< ref "backups" >}})*.
+- *[Backups]({{< ref "backups" >}})*,
+- *[Services]({{< ref "services" >}})*.
 
 ### By server
 

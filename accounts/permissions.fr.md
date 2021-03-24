@@ -37,7 +37,8 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _[Certificats SSL]({{< ref "security/ssl-tls" >}})_ ;
 - _[Migration]({{< ref "advanced/migrations" >}})_ ;
 - _[Tâches planifiées]({{< ref "tasks" >}})_ ;
-- _[Sauvegardes]({{< ref "backups" >}})_.
+- _[Sauvegardes]({{< ref "backups" >}})_ ;
+- _[Services]({{< ref "services" >}})_.
 
 ### Par serveur
 

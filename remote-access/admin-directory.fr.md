@@ -28,9 +28,10 @@ Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langa
 
 Il recueille différents types de logs :
 
-- _http_ : accès à vos sites web ;
+- _http_ : accès à vos [sites web]({{< ref "sites" >}}) ;
 - _sites_ : lancements, arrêts et dysfonctionnements des serveurs web “upstream” ;
-- _jobs_ : exécution de vos tâches planifiées ;
+- _jobs_ : exécution de vos [tâches planifiées]({{< ref "tasks" >}}) ;
+- _services_ : exécution de vos [services]({{< ref "services" >}}) ;
 - _apache_ : un log pour toutes les applications utilisant ce serveur web (PHP et Apache personnalisé) ;
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
 

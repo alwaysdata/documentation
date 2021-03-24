@@ -27,9 +27,10 @@ This directory hosts Apache, uWSGI or languages configuration files. You can acc
 
 It also gathers different types of logs:
 
-- _http_: access to your websites,
+- _http_: access to your [websites]({{< ref "sites" >}}),
 - _sites_: launches, shutdowns and failures of "upstream" web servers,
-- _jobs_: achievements of your scheduled tasks,
+- _jobs_: achievements of your [scheduled tasks]({{< ref "tasks" >}}),
+- _services_: achievements of your [services]({{< ref "services" >}}),
 - _apache_: a log for all applications using this web (PHP and Apache custom),
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
 
