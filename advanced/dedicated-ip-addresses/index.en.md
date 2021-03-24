@@ -15,7 +15,7 @@ Once the extra IP subscribed :
 - If the domain is managed on external DNS servers, create at your DNS provider an **A DNS record** pointing to the extra IP.
 
 {{% notice note %}}
-Extras IPs are used for incoming requests only. Outgoing requests always go through the main IP of the HTTP server on which the account is located. This IP is accessible in **Advanced > Service Status** menu.
+Extras IPs are used for incoming requests only. Outgoing requests always go through the main IP of the HTTP server on which the account is located. This IP is accessible in **Advanced > Servers status** menu.
 {{% /notice %}}
 
 {{% notice info %}}

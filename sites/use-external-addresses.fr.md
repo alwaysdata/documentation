@@ -19,5 +19,5 @@ Le serveur sur lequel est un compte peut changer. Il est donc préconisé d'util
 
 
 {{% notice info %}}
-Les IP des serveurs sur lesquels pointent un compte sont visibles dans l'onglet **Avancé > Statut des services** de l'interface d'administration.
+Les IP des serveurs sur lesquels pointent un compte sont visibles dans l'onglet **Avancé > Statut des serveurs** de l'interface d'administration.
 {{% /notice %}}

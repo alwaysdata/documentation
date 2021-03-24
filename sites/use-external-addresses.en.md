@@ -16,5 +16,5 @@ The server where an account is located may change. We recommend to use *CNAME* t
 - From the alwaysdata administration interface [declare the addresses]({{< ref "sites/add-a-site" >}}) in **Web > Sites**.
 
 {{% notice info %}}
-The IP addresses of the servers that an account points to are visible from the **Advanced > Service status** tab in the administration interface.
+The IP addresses of the servers that an account points to are visible from the **Advanced > Servers status** tab in the administration interface.
 {{% /notice %}}

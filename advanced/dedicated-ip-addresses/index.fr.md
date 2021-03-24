@@ -16,7 +16,7 @@ Une fois l'IP prise :
 - Si le domaine utilise d'autres serveurs DNS, créez un **enregistrement DNS de type A** pointant sur l'IP privée chez votre prestataire DNS.
 
 {{% notice note %}}
-Cette IP servira pour les requêtes entrantes mais les requêtes sortantes passeront toujours par l'IP du serveur HTTP sur lequel est le compte. Cette IP est donnée dans le menu **Avancé > Statut des services**.
+Cette IP servira pour les requêtes entrantes mais les requêtes sortantes passeront toujours par l'IP du serveur HTTP sur lequel est le compte. Cette IP est donnée dans le menu **Avancé > Statut des serveurs**.
 {{% /notice %}}
 
 {{% notice info %}}
