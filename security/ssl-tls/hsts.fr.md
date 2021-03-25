@@ -12,13 +12,13 @@ Sa mise en place passe par l'ajout de `headers`.
 
 ## Apache
 
-- Ajouter dans les directives globales (menu **Web > Configuration > Apache**) :
+- L'ajouter pour tous les sites Apache du compte via les directives globales (menu **Web > Configuration > Apache**) :
 
 ```txt
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 ```
 
-- Ou ajouter au début du `.htaccess` créé à la racine des sites:
+- Ou pour chaque site via l'ajout au début du `.htaccess` créé à la racine des sites :
 
 ```txt
 <IfModule mod_headers.c>

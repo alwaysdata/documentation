@@ -11,13 +11,13 @@ It is implemented by adding `headers`.
 
 ## Apache
 
-- Add in global directives (menu **Web > Configuration > Apache**):
+- Add it fo all Apache websites of the account via global directives (menu **Web > Configuration > Apache**):
 
 ```txt
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 ```
 
-- Or add at the start of a `.htaccess` created at the root of the websites:
+- Or for each website by adding at the start of a `.htaccess` created at the root of the websites:
 
 ```txt
 <IfModule mod_headers.c>
