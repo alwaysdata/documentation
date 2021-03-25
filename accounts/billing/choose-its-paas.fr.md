@@ -53,7 +53,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Lua]({{< ref "languages/lua" >}}) |✔️|✔️|✔️|✔️|
 || [Go]({{< ref "languages/go" >}}) |✔️|✔️|✔️|✔️|
 || [Tout autre langage](https://www.alwaysdata.com/fr/langage/personnalise/) |✔️|✔️|✔️|✔️|
-| Bases de données | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
+| Bases de données[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
 || [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
 || [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
@@ -70,9 +70,10 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
 || [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|
 || [WebDAV]({{< ref "remote-access/webdav" >}}) |✔️|✔️|✔️|✔️|
-| Sauvegardes[^4] ||✔️|✔️|✔️|✔️|
-| Autres services | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
+| Sauvegardes[^5] ||✔️|✔️|✔️|✔️|
+| Autres | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
 || [Tâches planifiées]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
+|| Services[^6] |✔️|✔️|✔️|✔️|
 || [Gestion du pare-feu]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
 || [VPN](https://www.alwaysdata.com/fr/services/vpn/) |❌|❌|✔️|✔️|
 
@@ -85,4 +86,6 @@ Une application bien _optimisée_ aura les mêmes performances quel que soit le 
 [^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
 [^3]: Le plan gratuit du Cloud public offre 100 Mo d'espace disque à usage non lucratif.
-[^4]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
+[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata.
+[^5]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
+[^6]: [Programmes génériques]({{< ref "services" >}}) devant fonctionner 24h / 24.

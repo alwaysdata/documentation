@@ -17,7 +17,7 @@ Si le service a besoin d'écouter sur un port, celui-ci *devra* être compris en
 
 Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
 
-Le champ *Commande de monitoring* — optionnel — permet de spécifier une commande qui vérifie que le service est fonctionnel. Lorsque cette commande renvoie un code d'erreur, le service est redémarré. Elle peut, par exemple, vérifier que le service est bien joignable sur le port qui lui est attribué (par exemple, pour un service utilisant le port *8300*):
+Le champ *Commande de monitoring* — optionnel — permet de spécifier une commande qui vérifie que le service est fonctionnel. Lorsque cette commande renvoie un code d'erreur, le service est redémarré. Elle peut, par exemple, vérifier que le service est bien joignable sur le port qui lui est attribué (par exemple, pour un service utilisant le port *8300*) :
 
 ```sh
 $ nc -z services-[compte].alwaysdata.net 8300
