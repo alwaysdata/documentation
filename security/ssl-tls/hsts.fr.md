@@ -31,6 +31,8 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 
 ## uWSGI
 
+Ajouter dans les paramètres supplémentaires uWSGI (menu **Web > Sites > Modify _site concerné_ > Configuration avancée**) :
+
 ```txt
 plugins = router_redirect
 route-if-not = equal:${HTTPS};on redirect-permanent:https://${HTTP_HOST}${REQUEST_URI}
