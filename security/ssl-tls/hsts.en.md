@@ -73,4 +73,5 @@ var helmet = require('helmet')
 `max-age` is required unlike the other ones.
 
 ---
+- [RFC 6797](https://tools.ietf.org/html/rfc6797)
 - Verify its HSTS configuration via [HSTS preload](https://hstspreload.org/)
