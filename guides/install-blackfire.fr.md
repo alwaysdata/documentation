@@ -60,8 +60,8 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
-- *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire-agent --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
-- *Répertoire de travail* : `blackfire`
+- *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
+- *Répertoire de travail* : `/home/[foo]/blackfire`
 
 ## Étape 4 : Installation des sondes
 

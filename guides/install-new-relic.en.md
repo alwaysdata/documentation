@@ -47,8 +47,8 @@ More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.
 
 Create a [service]({{< ref "services" >}}) with the following details:
 
-- *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
-- *Working directory*: `newrelic`
+- *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
+- *Working directory*: `/home/[foo]/newrelic`
 
 ## Python
 

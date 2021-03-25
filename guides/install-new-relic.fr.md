@@ -11,7 +11,6 @@ tags = ["monitoring"]
 Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
-- Répertoire de New Relic : `$HOME/newrelic/`
 
 {{% notice note %}}
 [foo], [newrelic-last-version], [version] et REPLACE\_WITH\_LICENSE\_KEY doivent être remplacées par les informations correctes.
@@ -20,6 +19,8 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 ## PHP
 
 Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
+
+- Répertoire de New Relic : `$HOME/newrelic/`
 
 ### Étape 1 : Téléchargement de l'agent
 
@@ -47,8 +48,8 @@ Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/ne
 
 Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
-- *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 --logfile /home/[foo]/newrelic/daemon/log`
-- *Répertoire de travail* : `newrelic`
+- *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
+- *Répertoire de travail* : `/home/[foo]/newrelic`
 
 ## Python
 
