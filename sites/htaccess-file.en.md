@@ -12,9 +12,9 @@ The `.htaccess` files are Apache configuration files. Here are some examples of 
 Use an ID and password to protect the access to file for certain users.
 
 ```
-AuthUserFile /chemin/au/.htpasswd
 AuthName "Protected access"
 AuthType Basic
+AuthUserFile /chemin/au/.htpasswd
 Require valid-user
 ```
 

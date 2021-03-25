@@ -13,9 +13,9 @@ Les fichiers `.htaccess` sont des fichiers de configuration d'Apache. Voici quel
 Protégez à l'aide d'un identifiant et d'un mot de passe l'accès à des fichiers pour certains utilisateurs.
 
 ```
-AuthUserFile /chemin/au/.htpasswd
 AuthName "Accès protégé"
 AuthType Basic
+AuthUserFile /chemin/au/.htpasswd
 Require valid-user
 ```
 
