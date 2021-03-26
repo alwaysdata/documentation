@@ -46,3 +46,7 @@ Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with
 {{% /notice %}}
 
 3.  Connecting with SSH: on the next SSH connection, you will be prompted to enter your passphrase (or nothing at all if your passphrase is blank).
+
+{{% notice info %}}
+DSA keyes are [not accepted](https://www.openssh.com/legacy.html).
+{{% /notice %}}

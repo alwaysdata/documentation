@@ -47,3 +47,7 @@ Remplacez `utilisateur` par le nom de votre utilisateur SSH et `ssh-[compte].alw
 {{% /notice %}}
 
 3. Se connecter en SSH : à la prochaine connexion SSH, votre passphrase vous sera demandée (ou rien du tout si votre passphrase est vide).
+
+{{% notice info %}}
+Les clés DSA ne sont [pas acceptées](https://www.openssh.com/legacy.html).
+{{% /notice %}}
