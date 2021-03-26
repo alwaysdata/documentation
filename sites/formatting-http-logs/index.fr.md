@@ -55,5 +55,5 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 Pour afficher l'IP d'un utilisateur derrière [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) utilisez `{request_header:cf-connecting-ip}`.
 
 [^1]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
-*Exemples : `{completion_date:{%d/%b/%Y}}` → 16/Jul/2018, `{completion_date:{%H:%M:%S}}` → 12:04:07*
+*Exemples : `{completion_date:%d/%b/%Y}` → 16/Jul/2018, `{completion_date:%H:%M:%S}` → 12:04:07*
 [^2]: Un seul header peut être spécifié. Exemples : `{request_header:authorization}`, `{response_header:age}` (à utiliser avec le [cache HTTP]({{< ref "sites/http-cache" >}}))
