@@ -40,7 +40,7 @@ Your access provider may block port *25* intended for sending your e-mails. In t
 
 If you wish to access your mailbox from a browser, we make available [our webmail, Roundcube](https://webmail.alwaysdata.com). Connect with the email address you wish to view and its password.
 
-By default, the webmail is in English. To change the language, click on **Settings** in the top right corner, then **User Interface > Language**.
+By default, the webmail is using the user's web browser language (the one of its first connection). To change the language, click on **Settings** in the top right corner, then **User Interface > Language**.
 
 {{< fig "images/roundcube_change-parameter-1.en.png" "Webmail: change parameters - step 1" >}}
 

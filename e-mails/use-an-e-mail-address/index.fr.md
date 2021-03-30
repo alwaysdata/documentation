@@ -42,7 +42,7 @@ Il peut arriver que votre fournisseur d'accès bloque le port _25_ destiné à l
 
 Si vous désirez consulter votre boîte depuis un navigateur, nous mettons à votre disposition [notre webmail, Roundcube](https://webmail.alwaysdata.com). Connectez-vous avec l'adresse email que vous souhaitez consulter et son mot de passe associé.
 
-Par défaut, le webmail est en anglais. Pour changer de langue, cliquez sur **Settings** dans le coin supérieur droit, puis **User Interface > Language**.
+Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (celle de sa première connexion). Pour changer de langue, cliquez sur **Settings** dans le coin supérieur droit, puis **User Interface > Language**.
 
 {{< fig "images/roundcube_change-parameter-1.en.png" "Webmail : changer de paramètres - étape 1" >}}
 
