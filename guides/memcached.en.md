@@ -5,7 +5,7 @@ hidden = true
 tags = ["cache", "http", "memcached", "site"]
 +++
 
-[Memcached](https://www.memcached.org/) is an object-oriented [HTTP cache]({{< ref "sites/http-cache" >}}) engine.
+[Memcached](https://www.memcached.org/) is an object-oriented cache engine.
 
 Here is a guide to installing it on the public cloud. It can be [installed at server level]({{< ref "databases/memcached">}}) for Catalyst servers.
 
@@ -13,66 +13,33 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and con
 
 - Account name: `foo`
 - Memcached directory: `$HOME/memcached/`
+- Port: 8300 (ports between 8300 and 8499 can be used)
 
 {{% notice note %}}
-[foo] and [port] must be replaced by accurate information.
+`[foo]` must be replaced by the accurate account name.
 {{% /notice %}}
 
 
-## Step 1: Agent download
+## Step 1: Installation
 
 ```sh
 foo@ssh:~/memcached$ wget -O- http://memcached.org/latest| tar -xz --strip-components=1
-foo@ssh:~/memcached$ ./configure && make && make test && make install .
+foo@ssh:~/memcached$ ./configure && make
 ```
 
-## Step 2: Server launch
+## Step 2: Service launch
 
 Create the following [service]({{< ref "services" >}}):
 
-- *Command* : `./memcached -p=[port] -l="::"`
+- *Command* : `./memcached -p=8300`
 - *Working directory* : `/home/[foo]/memcached`
 
 More options via `./$HOME/memcached/memcached -h`.
 
-## Step 3: Client installation
+{{% notice warning %}}
+By default anyone can connect to Memcached; there is no security. An [authentication](https://github.com/memcached/memcached/wiki/SASLHowto) can be set up.
+{{% /notice %}}
 
-### PHP
+It remains the application that needs to use `services-[foo].alwaysdata.net`. to connect to its Memcached.
 
-Install [Memcache PECL extension](https://pecl.php.net/package/memcache) with:
-
-```sh
-foo@ssh:~/memcached$ ad_install_pecl memcache
-```  
-
-Then add it to the `php.ini` in the **Environment** menu of your alwaysdata [admin interface](https://admin.alwaysdata.com).
-
-```ini
-extension = /home/[foo]/memcached/memcache.so
-```
-
-[How to add PHP extensions]({{< ref "languages/php/extensions" >}})
-
-### Python
-
-We will use [Pymemcache](https://github.com/pinterest/pymemcache) but there are other clients.
-
-```sh
-foo@ssh:~$ pip install pymemcache
-```
-
-### Ruby
-
-Here we install [Dalli](https://github.com/petergoldstein/dalli) but there are others.
-
-```sh
-foo@ssh:~$ gem install dalli
-```
-
-### Node.js
-
-It install [MemJS](https://github.com/memcachier/memjs) but there are other clients.
-
-```sh
-foo@ssh:~$ npm install memjs
-```
+- [Install the PHP extension]({{< ref "databases/memcached/php" >}})

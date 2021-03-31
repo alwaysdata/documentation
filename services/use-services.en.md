@@ -31,5 +31,5 @@ Catalyst users can also bind on another IP than `::` and listen on ports outside
 - *Command*: `redis-server -h services-[account].alwaysdata.net -p 8300`
 - *Monitoring command*: `redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 
-[^1]: `[account]` to be replace by the account name.
+[^1]: `[account]` to be replaced by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.
