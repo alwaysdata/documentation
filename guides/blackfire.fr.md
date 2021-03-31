@@ -1,14 +1,14 @@
 +++
-url = "/fr/guides/installer-blackfire/"
+url = "/fr/guides/blackfire/"
 title = "Comment installer Blackfire"
 layout = "howto"
 hidden = true
-tags = ["optimisation applicative", "profiling"]
+tags = ["http", "optimisation applicative", "profiling", "site"]
 +++
 
 [Blackfire](https://blackfire.io) permet de tester, débugger, optimiser les applications. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les _agents PHP et Python_.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Blackfire : `$HOME/blackfire/`

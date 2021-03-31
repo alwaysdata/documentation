@@ -10,15 +10,16 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 
 ## Installation / Configuration
 
-- [Apache PageSpeed]({{< relref "install-apache-pagespeed" >}})
-- [Blackfire]({{< relref "install-blackfire" >}})
-- [Blazegraph]({{< relref "install-blazegraph" >}})
-- [FFmpeg]({{< relref "install-ffmpeg" >}})
+- [Apache PageSpeed]({{< relref "apache-pagespeed" >}})
+- [Blackfire]({{< relref "blackfire" >}})
+- [Blazegraph]({{< relref "blazegraph" >}})
+- [FFmpeg]({{< relref "ffmpeg" >}})
 - [Gitea]({{< relref "gitea" >}})
-- [New Relic]({{< relref "install-new-relic" >}})
+- [Memcached]({{< ref "./memcached" >}})
+- [New Relic]({{< relref "new-relic" >}})
 - [TiddlyWiki]({{< ref "./tiddlywiki" >}})
   - [TiddlyWiki Plugin : Bob (multi-wikis)]({{< ref "tiddlywiki/plugin-bob" >}})
-- [wkhtmltopdf]({{< relref "install-wkhtmltopdf" >}})
+- [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
 
 ## Installation de framework
 

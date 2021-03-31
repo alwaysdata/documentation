@@ -2,13 +2,14 @@
 title = "Installing Apache PageSpeed"
 layout = "howto"
 hidden = true
+tags = ["apache", "apps optimization", "http", "site"]
 +++
 
 [PageSpeed](https://www.modpagespeed.com/) automatically optimizes your website by changing the resources of this web page to implement web performance [best practices](https://developers.google.com/speed/docs/best-practices/rules_intro). **Apache mod_pagespeed** must be installed on the account.
 
 Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
 - Account name: `foo`
 - PageSpeed directory: `$HOME/pagespeed/`

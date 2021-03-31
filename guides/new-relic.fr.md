@@ -1,14 +1,14 @@
 +++
-url = "/fr/guides/installer-new-relic/"
+url = "/fr/guides/new-relic/"
 title = "Comment installer New Relic"
 layout = "howto"
 hidden = true
-tags = ["monitoring"]
+tags = ["http", "monitoring", "site"]
 +++
 
 [New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les **agents PHP et Python**.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 

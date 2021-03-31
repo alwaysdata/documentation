@@ -2,12 +2,12 @@
 title = "Installing Blackfire"
 layout = "howto"
 hidden = true
-tags = ["apps optimization", "profiling"]
+tags = ["apps optimization", "http", "profiling", "site"]
 +++
 
 [Blackfire](https://blackfire.io) helps to test, debug optimize applications. It offers agents in a number of languages and here we will present the steps needed to install the _PHP and Python agents_.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
 - Account name: `foo`
 - Blackfire directory: `$HOME/blackfire/`
@@ -55,7 +55,7 @@ EOF
 
 More options are available on their [documentation](https://blackfire.io/docs/up-and-running/configuration/agent).
 
-## Step 3: Start the deamon
+## Step 3: Deamon start
 
 Create a [service]({{< ref "services" >}}) with the following details:
 

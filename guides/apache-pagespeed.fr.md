@@ -1,8 +1,9 @@
 +++
-url = "/fr/guides/installer-apache-pagespeed/"
+url = "/fr/guides/apache-pagespeed/"
 title = "Comment installer Apache PageSpeed"
 layout = "howto"
 hidden = true
+tags = ["apache", "http", "optimisation applicative", "site"]
 +++
 
 [PageSpeed](https://www.modpagespeed.com/) optimise automatiquement votre site internet en modifiant les ressources de cette page web pour mettre en œuvre les [meilleures pratiques](https://developers.google.com/speed/docs/best-practices/rules_intro) de performance web. **Apache mod_pagespeed** doit être installé sur le compte.

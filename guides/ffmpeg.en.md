@@ -12,7 +12,7 @@ As this library requires major processing resources it is not available by defau
 If you own a VPS or dedicated server, contact our [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
 {{% /notice %}}
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
 - Account name: `foo`
 - ffmpeg directory: `$HOME/ffmpeg/`

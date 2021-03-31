@@ -6,7 +6,7 @@ hidden = true
 
 [wkhtmltopdf](https://wkhtmltopdf.org/) provides two tools from the command line for returning HTML in PDF and image formats.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
 - Account name: `foo`
 - wkhtmltopdf directory: `$HOME/wkhtmltopdf/`

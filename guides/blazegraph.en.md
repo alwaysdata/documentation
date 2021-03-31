@@ -6,7 +6,7 @@ hidden = true
 
 [Blazegraph](https://blazegraph.com/) is a graph oriented DBMS.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
 - Account name: `foo`
 - Blazegraph directory: `$HOME/blazegraph/`
