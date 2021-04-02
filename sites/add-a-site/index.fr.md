@@ -25,6 +25,10 @@ Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer de
 
 {{< fig "images/admin-panel_add-site-general.fr.png" "Ajouter un site : général" >}}
 
+{{% notice note %}}
+L'ajout du site ne va pas créer le *répertoire racine*, il doit être créé par [accès distant]({{< ref "remote-access" >}}).
+{{% /notice %}}
+
 - Configuration : spécifique à chaque type de site :
     - [PHP]({{< ref "languages/php" >}}) ;
     - [Python WSGI]({{< ref "languages/python" >}}) ;

@@ -19,7 +19,7 @@ Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire 
     - copiez les fichiers dans votre compte alwaysdata en utilisant [FTP]({{< ref "remote-access/ftp" >}}) ou [SSH]({{< ref "remote-access/ssh" >}}) ;
     - créez la base de données dans **Bases de données** et importez-y la base de données en passant par un client SGBD ou en utilisant les commandes `mysql`, `psql` (ou encore d'autres...) selon le SGBD utilisé.
 
-2. Mettez en place le site dans **Web > Sites** avec une adresse de préproduction - par exemple l'adresse du compte ;
+2. [Mettez en place le site]({{< ref "sites/add-a-site" >}}) dans **Web > Sites** avec une adresse de préproduction - par exemple l'adresse du compte ;
     - modifiez les fichiers de configuration pour que tout pointe bien chez alwaysdata et vérifiez la base de données.
 
 3. Migrez les adresses du site en modifiant les enregistrements DNS de ces sous-domaines et en ajoutant les adresses dans **Web > Sites**.

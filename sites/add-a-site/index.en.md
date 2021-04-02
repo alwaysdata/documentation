@@ -24,6 +24,10 @@ Also, if the domain does not use our DNS servers, you will need to [create DNS r
 
 {{< fig "images/admin-panel_add-site-general.en.png" "Add a site: general" >}}
 
+{{% notice note %}}
+Adding the site will not create the *root directory*, it has to be created by [remote access]({{< ref "remote-access" >}}).
+{{% /notice %}}
+
 - Configuration: specific to every type of site:
     - [PHP]({{< ref "languages/php" >}}),
     - [Python WSGI]({{< ref "languages/python" >}}),

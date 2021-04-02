@@ -17,7 +17,7 @@ To ease your migration, you can also hire a service provider: the company [D√©m√
     - Copy the files to your alwaysdata account using [FTP]({{< ref "remote-access/ftp" >}}) or [SSH]({{< ref "remote-access/ssh" >}}),
     - create the database in **Databases** and import the database into it using a DBMS client or the `mysql`, `psql` commands (or others) depending on the DBMS used.
 
-2.  Setup the site in **Web > Sites** with a preproduction address - e.g. the account address.
+2.  [Setup the site]({{< ref "sites/add-a-site" >}}) in **Web > Sites** with a preproduction address - e.g. the account address.
     - Modify the configuration files so that everything does point to alwaysdata and check the database.
 
 3.  Migrate the site addresses by modifying the DNS records for these subdomains and add the addresses in **Web > Sites**.
