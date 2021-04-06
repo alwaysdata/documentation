@@ -11,7 +11,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 
 **Important**:
 
-- It must runs in foreground (forbid *deamon* modes) and not exit[^2].
+- It must runs in foreground (forbid *daemon* modes) and not exit[^2].
 - When needing to be reached from an external application, bind it to `::` (IPv6 only) and a port from `8300` to `8499`.
 - Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
 - For Public Cloud users:
@@ -31,5 +31,5 @@ Catalyst users can also bind on another IP than `::` and listen on ports outside
 - *Command*: `redis-server -h services-[account].alwaysdata.net -p 8300`
 - *Monitoring command*: `redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 
-[^1]: `[account]` to be replace by the account name.
+[^1]: `[account]` to be replaced by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

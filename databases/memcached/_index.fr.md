@@ -28,3 +28,4 @@ Memcached n'est disponible qu'en environnements VPS et dédiés.
 Retrouvez nos guides :
 
 - [Configurer une application PHP avec Memcached]({{< ref "databases/memcached/php" >}})
+- [Utiliser Memcached sur les environnements Cloud public]({{< ref "guides/memcached" >}})

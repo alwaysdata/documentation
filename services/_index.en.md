@@ -14,6 +14,10 @@ Those services are declared in the [administration panel](https://admin.alwaysda
 
 When you need to join your service from an external application, you *must* pick a port in the `8300` and `8499` range, and attach your service on `::` (IPv6 only). Your service will be reachable on this port at the address `services-[account].alwaysdata.net:[PORT]`[^1].
 
+{{% notice warning %}}
+there is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
+{{% /notice %}}
+
 Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
 The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):

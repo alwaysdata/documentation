@@ -1,5 +1,5 @@
 +++
-url = "/fr/guides/installer-blazegraph/"
+url = "/fr/guides/blazegraph/"
 title = "Comment installer Blazegraph"
 layout = "howto"
 hidden = true

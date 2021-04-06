@@ -20,4 +20,4 @@ External website analysis services:
 
 External profiling services:
 
-- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/install-blackfire">}}).
+- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/blackfire">}}).

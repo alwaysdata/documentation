@@ -1,5 +1,5 @@
 +++
-url = "/fr/guides/installer-wkhtmltopdf/"
+url = "/fr/guides/wkhtmltopdf/"
 title = "Comment installer wkhtmltopdf"
 layout = "howto"
 hidden = true
@@ -7,7 +7,7 @@ hidden = true
 
 [wkhtmltopdf](https://wkhtmltopdf.org/) fournit deux outils en ligne de commande permettant de rendre du HTML aux formats PDF et image.
 
-Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de wkhtmltopdf : `$HOME/wkhtmltopdf/`

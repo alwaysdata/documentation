@@ -1,5 +1,5 @@
 +++
-url = "/fr/guides/installer-ffmpeg/"
+url = "/fr/guides/ffmpeg/"
 title = "Comment installer FFmpeg"
 layout = "howto"
 hidden = true
@@ -13,7 +13,7 @@ Cette bibliothèque étant source de traitements lourds elle n'est pas disponibl
 Si vous êtes propriétaire d'un serveur VPS ou dédié, contactez notre [support](https://admin.alwaysdata.com/support/add/). Il l'installera globalement sur le serveur.
 {{% /notice %}}
 
-Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de ffmpeg : `$HOME/ffmpeg/`
