@@ -15,13 +15,13 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 - Port : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
 {{% notice note %}}
-`[foo]` et `<version>` doivent être remplacées par les informations correctes.
+`[foo]` et `[version]` doivent être remplacées par les informations correctes.
 {{% /notice %}}
 
 ## Installation
 
 ```sh
-foo@ssh:~/mattermost$ wget -O- https://releases.mattermost.com/<version>/mattermost-<version>-linux-amd64.tar.gz | tar -xz --strip-components=1
+foo@ssh:~/mattermost$ wget -O- https://releases.mattermost.com/[version]/mattermost-[version]-linux-amd64.tar.gz | tar -xz --strip-components=1
 foo@ssh:~/mattermost$ mkdir data
 ```
 
@@ -40,14 +40,14 @@ Modifiez le fichier `$HOME/mattermost/config/config.json` pour indiquer :
 
 ```txt
 "DriverName": "mysql",
-"DataSource": "[foo]:[mysql-motdepasse]@mysql-[foo].alwaysdata.net:3306/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
+"DataSource": "[utilisateur_mysql]:[motdepasse_mysql]@mysql-[foo].alwaysdata.net:3306/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
 ```
 
 - PostgreSQL
 
 ```txt
 "DriverName": "postgres",
-"DataSource": "postgres://[foo]:[postgresql-motdepasse]@postgresql-[foo].alwaysdata.net:5432/[foo]_mattermost?sslmode=disable\u0026connect_timeout=10",
+"DataSource": "postgres://[utilisateur_pgsql]:[motdepasse_pgsql]@postgresql-[foo].alwaysdata.net:5432/[foo]_mattermost?sslmode=disable\u0026connect_timeout=10",
 ```
 
 ## Lancement du service

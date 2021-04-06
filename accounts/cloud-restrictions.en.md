@@ -7,7 +7,7 @@ tags = ["abuse", "free plan", "public cloud"]
 
 Here is a - non-exhaustive - list of restrictions:
 
-- use SSH servers to run bots and deamons,
+- use SSH servers to run bots and daemons,
 - using the account for phishing/spam/any other illegal use.
 
 If any of these restrictions are violated, we reserve the right to suspend and/or cancel the profile.

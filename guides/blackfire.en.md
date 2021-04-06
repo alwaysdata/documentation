@@ -55,7 +55,7 @@ EOF
 
 More options are available on their [documentation](https://blackfire.io/docs/up-and-running/configuration/agent).
 
-## Step 3: Deamon start
+## Step 3: Daemon start
 
 Create a [service]({{< ref "services" >}}) with the following details:
 
