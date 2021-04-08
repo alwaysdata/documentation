@@ -11,6 +11,10 @@ tags = ["dns", "domaine"]
 
 Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez](https://www.alwaysdata.com/fr/domaines/#main), transférez ou ajoutez en gestion votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
 
+{{% notice note %}}
+Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
+{{% /notice %}}
+
 ## Ressources
 
 - [API - Domaine](https://api.alwaysdata.com/v1/domain/doc/)
@@ -26,6 +30,10 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 - [Détruire un domaine]({{< relref "wipe-a-domain" >}})
 - [Transfert sortant]({{< relref "outgoing-transfer" >}})
 - [Problèmes fréquents]({{< relref "./troubleshooting" >}})
+
+{{% notice warning %}}
+Officiellement invalides (d'après [IDNA2008](http://unicode.org/faq/idn.html)), nous ne supportons pas les **emojis** dans un nom de domaine. Notre infrastructure utilise la [bibliothèque Python `idna`](https://github.com/kjd/idna), qui [respecte impérativement](https://github.com/kjd/idna/issues/18) IDNA2008 à ce stade.
+{{% /notice %}}
 
 ## Gestion DNS
 
@@ -44,10 +52,6 @@ Pour utiliser nos serveurs DNS, indiquez chez votre registrar `dns1.alwaysdata.c
 
 [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) n'est pas encore géré.
 
-{{% notice warning %}}
-Officiellement invalides (d'après [IDNA2008](http://unicode.org/faq/idn.html)), nous ne supportons pas les **emojis** dans un nom de domaine. Notre infrastructure utilise la [bibliothèque Python `idna`](https://github.com/kjd/idna), qui [respecte impérativement](https://github.com/kjd/idna/issues/18) IDNA2008 à ce stade.
-{{% /notice %}}
-
-{{% notice info %}}
-Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
+{{% notice note %}}
+L'[enregistrement SOA](https://fr.wikipedia.org/wiki/SOA_Resource_Record) comprend un numéro de série de 32 bits (compris entre 1 et 4294967295). Nous ne suivons pas la *convention* de le définir avec un format de date qui vient d'une période où les fichiers de zone étaient édités à la main. Le fait de ne pas suivre cette convention *ne doit pas* être considéré comme une erreur.
 {{% /notice %}}
