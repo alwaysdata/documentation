@@ -14,8 +14,8 @@ Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'adm
 | Profil    | Description                                                                                                       |
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
 | Aucun     | (par défaut)                                                                                                      |
-| Basique   | Respect strict du pro­to­cole                                                                                       |
-|           | HTTP Détection de robots mal­veillants                                                                             |
+| Basique   | Respect strict du pro­to­cole HTTP                                                                                  |
+|           | Détection de robots mal­veillants                                                                                  |
 | Fort      | L’ensemble des règles du pro­fil basique                                                                           |
 |           | Détection d’exécution de code à dis­tance (RCE)                                                                    |
 |           | Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)         |

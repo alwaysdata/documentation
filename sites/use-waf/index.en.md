@@ -14,8 +14,8 @@ To configure the web application firewall, use the administration interface from
 |Profile|Description|
 |--- |--- |
 |None|(by default)|
-|Basic|Strict compliance with the protocol|
-||HTTP Malicious robot detection|
+|Basic|Strict compliance with the HTTP protocol|
+||Malicious robot detection|
 |Strong|All of the basic profile rules|
 ||Remote Code Execution (RCE) detection|
 ||[Cross-Site Scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) type attack detection|
