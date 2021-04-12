@@ -39,7 +39,7 @@ Modify the `$HOME/mattermost/config/config.json` file to put:
 
 ```txt
 "DriverName": "mysql",
-"DataSource": "[mysql_username]:[mysql_password]@mysql-[foo].alwaysdata.net:3306/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
+"DataSource": "[mysql_username]:[mysql_password]@tcp(mysql-[foo].alwaysdata.net:3306)/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
 ```
 
 - PostgreSQL
