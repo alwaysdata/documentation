@@ -127,3 +127,7 @@ You can also fill-in a number of optional fields:
 - environment variables to define,
 - a specific version of Python to use,
 - the virtualenv directory to use.
+
+{{% notice info %}}
+It is possible to use another HTTP server via the site type [User program]({{< ref "sites/user-program" >}}).
+{{% /notice %}}

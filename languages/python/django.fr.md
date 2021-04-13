@@ -6,7 +6,7 @@ layout = "howto"
 tags = ["django", "python"]
 +++
 
-Une application [Django](https://www.djangoproject.com/) se déploie chez alwaysdata comme n'importe quelle application WSGI. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.
+Une application [Django](https://www.djangoproject.com/) se déploie chez alwaysdata comme n'importe quelle application WSGI.
 
 ## Créer un environnement virtuel
 
@@ -25,7 +25,7 @@ Il existe plusieurs manières d'installer une application Django. Voyons plusieu
 
 Si l'application à déployer est disponible sous forme de paquet, on peut l'installer avec `pip` :
 
-```
+```sh
 $ pip install wagtail
 $ wagtail start myapp
 ```
@@ -34,7 +34,7 @@ $ wagtail start myapp
 
 Si le code de votre application est disponible sur un dépôt *Git* (ou *Mercurial*, *SVN*…) :
 
-```
+```sh
 $ git clone https://path/to/myapp.git
 ```
 
@@ -42,20 +42,20 @@ $ git clone https://path/to/myapp.git
 
 Si vous démarrez une nouvelle application, vous pouvez utiliser `django-admin` :
 
-```
+```sh
 $ pip install Django
 $ django-admin startproject myapp
 ```
 
 ## Autres méthodes
 
-Vous pouvez installer votre application par de nombreux autres biais : *rsync*, *FTP*…
+Vous pouvez installer votre application par de nombreux autres biais : `rsync`, FTP…
 
 ## Installer les dépendances
 
 Si votre application a des dépendances, vous pouvez les installer :
 
-```
+```sh
 $ pip install -r requirements.txt
 ```
 
@@ -63,7 +63,7 @@ $ pip install -r requirements.txt
 
 Vous aurez probablement besoin de modifier les settings de votre application, par exemple en configurant une base de données (retrouvez vos informations de connexion dans la section adéquate de l'administration, par exemple **Bases de données > PostgreSQL**).
 
-```
+```txt
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',

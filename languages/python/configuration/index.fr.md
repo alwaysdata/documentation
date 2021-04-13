@@ -128,3 +128,7 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 * des variables d'environnement à définir ;
 * une version de Python spécifique à utiliser ;
 * le répertoire du virtualenv à utiliser.
+
+{{% notice info %}}
+Il est possible d'utiliser un autre serveur HTTP, grâce au type de site [Programme utilisateur]({{< ref "sites/user-program" >}}).
+{{% /notice %}}

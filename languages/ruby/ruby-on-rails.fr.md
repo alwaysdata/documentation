@@ -6,7 +6,7 @@ layout = "howto"
 tags = ["ruby", "ruby on rails"]
 +++
 
-Une application [Ruby on Rails](http://rubyonrails.org/) se déploie chez alwaysdata comme n'importe quelle application Rack. Si vous débutez, ce document vous aidera pas à pas dans votre déploiement.
+Une application [Ruby on Rails](http://rubyonrails.org/) se déploie chez alwaysdata comme n'importe quelle application Rack.
 
 ## Installer l'application
 

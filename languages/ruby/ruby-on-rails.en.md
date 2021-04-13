@@ -5,7 +5,7 @@ layout = "howto"
 tags = ["ruby", "ruby on rails"]
 +++
 
-A [Ruby on Rails](http://rubyonrails.org/) application is deployed at alwaysdata just like any other Rack application. If you are just starting out, this document will guide you through your deployment step by step.
+A [Ruby on Rails](http://rubyonrails.org/) application is deployed at alwaysdata just like any other Rack application.
 
 ## Installing the application
 

@@ -29,6 +29,8 @@ foo@ssh:~/mattermost$ mkdir data
 
 ## Configuration
 
+Une base de données et son utilisateur devront être créés dans le menu **Bases de données**. Ici nous les créons pour qu'il soient de la forme `account_mattermost`.
+
 Modifiez le fichier `$HOME/mattermost/config/config.json` pour indiquer :
 
 ```txt
@@ -40,14 +42,14 @@ Modifiez le fichier `$HOME/mattermost/config/config.json` pour indiquer :
 
 ```txt
 "DriverName": "mysql",
-"DataSource": "[utilisateur_mysql]:[motdepasse_mysql]@tcp(mysql-[foo].alwaysdata.net:3306)/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
+"DataSource": "[foo]_mattermost:[motdepasse_mysql]@tcp(mysql-[foo].alwaysdata.net:3306)/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
 ```
 
 - PostgreSQL
 
 ```txt
 "DriverName": "postgres",
-"DataSource": "postgres://[utilisateur_pgsql]:[motdepasse_pgsql]@postgresql-[foo].alwaysdata.net:5432/[foo]_mattermost?sslmode=disable\u0026connect_timeout=10",
+"DataSource": "postgres://[foo]_mattermost:[motdepasse_pgsql]@postgresql-[foo].alwaysdata.net:5432/[foo]_mattermost?sslmode=disable\u0026connect_timeout=10",
 ```
 
 ## Lancement du service

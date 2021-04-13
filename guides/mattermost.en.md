@@ -28,6 +28,8 @@ foo@ssh:~/mattermost$ mkdir data
 
 ## Configuration
 
+A database and its user will have to be created in the **Databases** menu. Here we create them to be of the form `account_mattermost`.
+
 Modify the `$HOME/mattermost/config/config.json` file to put:
 
 ```txt
