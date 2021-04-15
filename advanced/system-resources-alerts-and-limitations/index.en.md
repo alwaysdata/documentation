@@ -9,12 +9,18 @@ tags = ["dedicated", "vps"]
 Fonctionnality only available on dedicated and VPS servers.
 {{% /notice %}}
 
-The **Resources** menu allows to configure sysadmin resources, as the memory.
+The **Resources** menu allows to configure sysadmin resources, as the disk space, CPU or memory:
 
-{{< fig "images/admin-panel_resources.en.png" "Admin interface" >}}
+{{< fig "images/admin-panel_resources.en.png" "" >}}
 
-- *RAM limit per account*: maximum limit that an account can reach at a given time. If it is reached a process (not necessarily the most consuming) is automatically killed by the system.
+- *Disk space limit*: maximum limit that an account can reach at a given time. If it is reached, downtime can be expected.
 
-- *Command to execute when RAM threshold is exceeded*: command/script executed by the system when the threshold is reached. This allows not to kill a process "at random".
+- *CPU limit*: maximum limit that an account can reach at a given time. If it is reached, slowdowns or downtime can be expected.
+
+- *RAM limit*: maximum limit that an account can reach at a given time. If it is reached a process (not necessarily the most consuming) is automatically killed by the system.
+
+It is possible to manage these three limits at *server* or *account* levels. The account level values **take the lead** over the server values.
 
 - *RAM treshold*: treshold at which the script described above is performed.
+
+- *Command to execute when RAM threshold is exceeded*: command/script executed by the system when the threshold is reached. This allows not to kill a process "at random".
