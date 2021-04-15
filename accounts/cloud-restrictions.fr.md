@@ -18,10 +18,10 @@ Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou r
 À ajouter aux règles présentées précédemment :
 
 - avoir plusieurs comptes gratuits pour le même utilisateur ;
-    - attention à ne pas confondre compte et services (sites web, domaines, adresses emails, bases de données, etc.).
-    - Un compte peut héberger autant de services (autant de sites par exemple) que vous souhaitez.
-- utiliser le compte gratuit pour faire des connexions distantes à une/des base(s) de données ;
-- utiliser le compte gratuit seulement pour les tâches planifiées ;
+    - attention à ne pas confondre compte et objets (sites web, domaines, adresses emails, bases de données, etc.).
+    - Un compte peut héberger autant d'objets (autant de sites par exemple) que vous souhaitez.
+- utiliser le compte gratuit pour faire des *connexions distantes* à une/des *base(s) de données* ;
+- utiliser le compte gratuit seulement pour les *[tâches planifiées]({{< ref "tasks" >}})* ou pour les *[services]({{< ref "services" >}})* ;
 - utiliser le compte gratuit pour héberger des applications consommatrices de ressources, notamment des proxies ou des systèmes d’envoi d’emails en masse ;
 - utiliser le compte gratuit pour des sites/adresses emails à des fins lucratives. Il est donc exclu d’héberger le site ou les emails d’une entreprise commerciale, de placer des publicités qui pourraient générer des profits, de vendre directement sur son site ou via des emails un service ou des biens, etc.
 
