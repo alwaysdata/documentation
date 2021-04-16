@@ -11,7 +11,7 @@ Every time you encounter the `*-[account].alwaysdata.net` format, you
 need to replace `[account]` with the name of your account as chosen when
 it was created.
 
-| Service                  | Information                                                                                        |
+| Feature                  | Information                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | **Admin**                |                                                                                                    |
 | URL                      | https://admin.alwaysdata.com                                                                       |

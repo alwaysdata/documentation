@@ -13,7 +13,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 
 
 
-| Service                    | Informations                                                                                              |
+| Fonctionnalité                    | Informations                                                                                              |
 |:---------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Administration**         |                                                                                                           |
 | URL                        | https://admin.alwaysdata.com                                                                              |
