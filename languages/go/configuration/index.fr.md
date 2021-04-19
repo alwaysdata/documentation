@@ -12,7 +12,6 @@ Go étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez 
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 
-
 ## Déploiement HTTP
 
 Pour déployer une application HTTP avec Go, créez un site de type *[Programme utilisateur]({{< ref "sites/user-program" >}})* dans la section **Web > Sites**.

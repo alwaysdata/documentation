@@ -16,6 +16,8 @@ tags = ["java"]
 
 La version par défaut est Java 14. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 
+Sur les offres Catalyst, les versions ne sont pas forcément [déjà installées]({{< ref "languages#installation-de-versions" >}}).
+
 ## Binaire à utiliser
 
 Pour se servir d'une version de Java différente que celle par défaut :

@@ -16,6 +16,8 @@ tags = ["lua"]
 
 La version par défaut est Lua 5.3. C'est cette version qui est notamment utilisée lorsque vous démarrez `lua`.
 
+Sur les offres Catalyst, les versions ne sont pas forcément [déjà installées]({{< ref "languages#installation-de-versions" >}}).
+
 ## Binaire à utiliser
 
 Pour se servir d'une version de Lua différente que celle par défaut utilisez `lua5.X`.

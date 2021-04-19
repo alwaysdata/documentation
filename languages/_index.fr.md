@@ -19,3 +19,12 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [PHP]({{< ref "languages/php" >}})
 * [Python]({{< ref "languages/python" >}})
 * [Ruby]({{< ref "languages/ruby" >}})
+
+
+## Installation de versions
+En [serveurs Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}), les versions de langages sont, pour limiter la consommation d'espace disque, **automatiquement installées à la demande**.[^1]
+* Lister `/usr/alwaysdata/[langage]/` n'affiche que les versions déjà installées, non l'ensemble des versions « disponibles ».
+* Pour avoir la liste des versions disponibles, `alwrapper get_versions [langage]` peut être utilisée.
+* Pour installer une version, il suffit de l'exécuter.
+
+[^1]: `[langage]` doit être remplacé par le nom du langage.

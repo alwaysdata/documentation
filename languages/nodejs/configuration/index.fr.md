@@ -24,6 +24,8 @@ tags = ["nodejs"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 
+Sur les offres Catalyst, les versions ne sont pas forcément [déjà installées]({{< ref "languages#installation-de-versions" >}}).
+
 ## Binaire à utiliser
 
 Vous devez toujours utiliser `node` (ou `/usr/bin/node`). N'utilisez jamais `nodejs`.
