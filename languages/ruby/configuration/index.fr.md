@@ -26,7 +26,7 @@ tags = ["ruby"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
-Sur les offres Catalyst, les versions ne sont pas forcément [déjà installées]({{< ref "languages#installation-de-versions" >}}).
+Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
 
 ## Logs d'erreur
 

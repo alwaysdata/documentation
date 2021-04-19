@@ -17,7 +17,7 @@ tags = ["php"]
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
 
-Sur les offres Catalyst, les versions ne sont pas forcément [déjà installées]({{< ref "languages#installation-de-versions" >}}).
+Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
 
 ## Logs d'erreur
 

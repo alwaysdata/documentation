@@ -16,7 +16,7 @@ tags = ["python"]
 
 The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.
 
-On Catalyst offers, versions are not necessarily [already installed]({{< ref "languages#versions-installation" >}}).
+Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
 
 ## Error logs
 
