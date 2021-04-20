@@ -16,6 +16,8 @@ tags = ["java"]
 
 La version par défaut est Java 14. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 
+Les versions ne sont pas forcément [déjà installées]({{< ref "languages#-versions" >}}).
+
 ## Binaire à utiliser
 
 Pour se servir d'une version de Java différente que celle par défaut :

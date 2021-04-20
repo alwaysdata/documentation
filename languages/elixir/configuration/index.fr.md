@@ -20,6 +20,8 @@ tags = ["elixir"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Elixir**. C'est cette version qui est notamment utilisée lorsque vous démarrez `mix`.
 
+Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+
 ## Binaire à utiliser
 
 Pour forcer une version de Elixir différente de celle par défaut, définissez la variable d'environnement `ELIXIR_VERSION` :

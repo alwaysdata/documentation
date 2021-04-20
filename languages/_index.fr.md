@@ -19,3 +19,17 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [PHP]({{< ref "languages/php" >}})
 * [Python]({{< ref "languages/python" >}})
 * [Ruby]({{< ref "languages/ruby" >}})
+
+## Versions
+
+Les versions de langages sont, pour limiter la consommation d'espace disque, **automatiquement installées à la demande**.[^1]
+
+Pour exécuter le binaire d'un langage (par exemple, `python`), il faut tout simplement exécuter `python`. Cela va en interne appeler `/usr/bin/python`, qui est un *wrapper* vers la "bonne" version de python (celle définie dans son environnement).
+
+Les binaires sont stockés dans `/usr/alwaysdata/[langage]/[version]`. Le répertoire de chaque version n'existe pas forcément avant d'avoir appelé le binaire de la version en question : il ne faut donc pas se baser sur `/usr/alwaysdata` pour savoir si une version est disponible mais vous pouvez utiliser :
+
+```
+$ alwrapper get_versions [langage]
+```
+
+[^1]: `[langage]` et `[version]` doivent être remplacés par le nom du langage / la version.

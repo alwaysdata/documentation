@@ -16,6 +16,8 @@ tags = ["python"]
 
 The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.
 
+Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+
 ## Error logs
 
 You can view the error logs in the `$HOME/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.

@@ -16,6 +16,8 @@ tags = ["php"]
 
 The default version can be changed from the alwaysdata administration, under **Environment > PHP**. This is the version that is especially used when you start `php`.
 
+Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+
 ## Error logs
 
 You can view the Apache error logs from file `$HOME/admin/logs/apache/apache.log`. These logs sometimes comprise important information returned by PHP.
