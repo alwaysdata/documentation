@@ -116,7 +116,7 @@ If you use a virtual environment, there is no need to specify `--user`.
 
 ## WSGI deployment
 
-So that a WSGI application is accessible by the web, you need to add a site in the administration **Web > Sites** section:
+So that a [WSGI](https://wsgi.readthedocs.io) application is accessible by the web, you need to add a site in the administration **Web > Sites** section:
 
 {{< fig "images/python-wsgi.png" "Python WSGI Site Type">}}
 
@@ -130,6 +130,12 @@ You can also fill-in a number of optional fields:
 - a specific version of Python to use,
 - the virtualenv directory to use.
 
-{{% notice info %}}
-It is possible to use another HTTP server via the site type [User program]({{< ref "sites/user-program" >}}).
-{{% /notice %}}
+## ASGI deployement
+
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program]({{< ref "sites/user-program" >}})* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://www.uvicorn.org/).
+
+{{< fig "images/user-program.en.png" "User Program Type" >}}
+
+You will have to use the and make the HTTP server listen in IPv6 and on the given port. For example:
+
+- Command: `uvicorn example:app --reload --port $PORT --host $IP`

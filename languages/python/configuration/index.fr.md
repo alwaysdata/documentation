@@ -117,7 +117,7 @@ Si vous utilisez un environnement virtuel, il n'est pas nécessaire de spécifie
 
 ## Déploiement WSGI
 
-Pour qu'une application WSGI soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration :
+Pour qu'une application [WSGI](https://wsgi.readthedocs.io) soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration :
 
 {{< fig "images/python-wsgi.png" "Type de site Python WSGI">}}
 
@@ -131,6 +131,12 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 * une version de Python spécifique à utiliser ;
 * le répertoire du virtualenv à utiliser.
 
-{{% notice info %}}
-Il est possible d'utiliser un autre serveur HTTP, grâce au type de site [Programme utilisateur]({{< ref "sites/user-program" >}}).
-{{% /notice %}}
+## Déploiement ASGI
+
+Les applications se basant sur la norme [ASGI](https://asgi.readthedocs.io) comme les frameworks Python asynchrone peuvent utiliser le type de site *[Programme utilisateur]({{< ref "sites/user-program" >}})* dans la section **Web > Sites**. Le serveur HTTP le plus connu est [Uvicorn](https://www.uvicorn.org/).
+
+{{< fig "images/user-program.fr.png" "Type de site Programme utilisateur" >}}
+
+Il faudra faire écouter le serveur HTTP en IPv6 et sur le port donné. Par exemple :
+
+- Commande : `uvicorn example:app --reload --port $PORT --host $IP`
