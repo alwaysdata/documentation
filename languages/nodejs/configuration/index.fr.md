@@ -10,8 +10,9 @@ tags = ["nodejs"]
 
 ## Versions supportées (majeures)
 
-| |
- --- |
+||
+|---|
+| 16 |
 | 15 |
 | 14 |
 | 13 |

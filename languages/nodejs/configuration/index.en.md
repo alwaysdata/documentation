@@ -11,16 +11,17 @@ tags = ["nodejs"]
 
 
 ||
-| --- |
-| 15                                      |
-| 14                                      |
-| 13                                      |
-| 12                                      |
-| 11                                      |
-| 10                                      |
-| 9                                       |
-| 8                                       |
-| 6                                       |
+|---|
+| 16 |
+| 15 |
+| 14 |
+| 13 |
+| 12 |
+| 11 |
+| 10 |
+| 9  |
+| 8  |
+| 6  |
 
 The default version can be changed from the administration section, under **Environment > Node.js**. This is the version that is especially used when you start `node`.
 
