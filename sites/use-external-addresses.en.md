@@ -5,7 +5,7 @@ hidden = true
 tags = ["dns", "http", "site"]
 +++
 
-To use your own addresses without managing your domain at alwaysdata, proceed as follows:
+To use your own addresses without [managing your domain]({{< ref "domains/add-an-external-domain" >}}) at alwaysdata, proceed as follows:
 
 - From the domain DNS provider, create [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) pointing to your alwaysdata account,
 

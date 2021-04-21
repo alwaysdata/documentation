@@ -6,7 +6,7 @@ hidden = true
 tags = ["dns", "http", "site"]
 +++
 
-Pour utiliser ses propres adresses sans gérer son domaine chez alwaysdata, il faut :
+Pour utiliser ses propres adresses sans [gérer son domaine]({{< ref "domains/add-an-external-domain" >}}) chez alwaysdata, il faut :
 
 - chez le prestataire DNS du domaine, créer des [enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS) pointant vers votre compte alwaysdata ;
 
@@ -15,8 +15,6 @@ Le serveur sur lequel est un compte peut changer. Il est donc préconisé d'util
 {{% /notice %}}
 
 - sur l'interface d'administration alwaysdata, [déclarer les adresses]({{< ref "sites/add-a-site" >}}) dans **Web > Sites**.
-
-
 
 {{% notice info %}}
 Les IP des serveurs sur lesquels pointent un compte sont visibles dans l'onglet **Avancé > Statut des serveurs** de l'interface d'administration.

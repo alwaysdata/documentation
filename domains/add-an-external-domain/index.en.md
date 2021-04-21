@@ -5,12 +5,14 @@ weight = 5
 tags = ["domains"]
 +++
 
-An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer]({{< ref "domains/transfer-a-domain" >}}). Here we wish to add the domain and change the [DNS server]({{< ref "remote-access/login-details" >}}) at your registrar.
+An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer]({{< ref "domains/transfer-a-domain" >}}).
+
+Here we wish to add the domain and **change of DNS servers** at the registrar to put `dns1.alwaysdata.com` and `dns2.alwaysdata.com`.
 
 1.  From your administration interface, go to **Domains > Add a domain**;
     {{< fig "images/admin-panel_domain-list.en.png" "Administration interface: list of domains" >}}
 
-2.  Fill-in the domain names that you wish to buy,
+2.  Fill-in the domain names that you wish to add,
     {{< fig "images/admin-panel_add-domain-1.en.png" "Administration interface: step 1" >}}
 
 {{% notice info %}}
@@ -24,4 +26,8 @@ This will add the domain as an *external domain* in the list.
 
 {{< fig "images/admin-panel_domain-list2.en.png" "Administration interface: External domain" >}}
 
-Then you can create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}) for it and manage the [DNS records]({{< ref "domains/add-dns" >}}).
+Then you can create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}), [websites]({{< ref "sites/add-a-site" >}}) and manage [DNS records]({{< ref "domains/add-dns" >}}).
+
+{{% notice warning %}}
+If some DNS records are to be kept - for example not to change email providers - the [DNS zone]({{< ref "domains/add-dns" >}}) will need to be prepared before making the DNS server change.
+{{% /notice %}}
