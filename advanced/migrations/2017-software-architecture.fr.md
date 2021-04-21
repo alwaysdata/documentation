@@ -109,8 +109,7 @@ http://docs.couchdb.org/en/1.6.0/whatsnew/
 
 ### Apache
 
-* [Apache](https://httpd.apache.org) est mis à jour en version 2.2.32 :
-http://www.apache.org/dist/httpd/CHANGES_2.2
+* [Apache](https://httpd.apache.org) est mis à jour en version 2.2.32
 
 * Les fichiers `index.htm`, `index.cgi`, `index.pl` et `index.xhtml` ne sont plus considérés comme des index. Seuls `index.php` et `index.html` le sont, et `index.php` devient désormais prioritaire sur `index.html`.
 
@@ -155,7 +154,7 @@ Si vous aviez compilé vos propres applications, elles sont susceptibles d'être
 Parmi les bibliothèques les plus susceptibles d'être concernées :
 
 * [OpenSSL](https://www.openssl.org). La version 0.9.8 reste toutefois installée, aux côtés de la version 1.0.2, donc vos applications continueront à fonctionner. La version 0.9.8 étant toutefois ancienne, il est fortement recommandé de recompiler vos applications malgré tout pour qu'elles utilisent une version récente d'OpenSSL.
-* [libreadline](https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html)
+* libreadline
 
 
 ## Changement d'IP du serveur HTTP
@@ -184,7 +183,7 @@ Attention : certaines applications font une redirection vers l'URL nominale, ce 
 
 * en utilisant une extension de navigateur permettant de forcer l'en-tête `Host` (donc le site demandé). Par exemple sous Chrome, l'extension [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom). Vous devrez vous connecter en indiquant l'adresse du serveur HTTP de test (par exemple, `migration-test1.paris1.alwaysdata.com`), mais en demandant l'adresse de votre site.
 
-* en modifiant votre fichier `hosts` pour forcer à utiliser l'IP du serveur HTTP de test pour se connecter à vos sites. C'est faisable en éditant directement le fichier concerné, ou bien par l'intermédiaire d'une extension de navigateur, par exemple [HostAdmin](https://addons.mozilla.org/en-US/firefox/addon/hostadmin/) sous Firefox.
+* en modifiant votre fichier `hosts` pour forcer à utiliser l'IP du serveur HTTP de test pour se connecter à vos sites. C'est faisable en éditant directement le fichier concerné, ou bien par l'intermédiaire d'une extension de navigateur, par exemple HostAdmin sous Firefox.
 
 Vos applications seront alors démarrées sur un serveur temporaire tournant sous l'infrastructure logicielle 2017, comme si la migration avait eu lieu. Comme en SSH, les fichiers de votre compte auxquels ce serveur a accès sont vos vrais fichiers. Les accès peuvent également être ralentis, n'en tenez donc pas compte.
 

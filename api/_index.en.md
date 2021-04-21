@@ -11,9 +11,9 @@ Our [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API le
 
 ## Address
 
-|Version|Address|
-|--- |--- |
-|1.0|https://api.alwaysdata.com/v1/|
+|Version|Root URL|Documentation|
+|:---|:---|:---|
+|1.0|api.alwaysdata.com/v1|https://api.alwaysdata.com/doc/|
 
 ## Quick examples
 

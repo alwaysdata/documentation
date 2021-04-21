@@ -23,7 +23,7 @@ Voici une liste non-exhaustive à consulter selon votre application :
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/patterns/errorpages/) ;
 - [Laravel](https://laravel.com/docs/6.x/errors) ;
 - [Macaron](https://go-macaron.com/middlewares/templating#response-status-error-and-redirect) ;
-- [Phoenix](https://hexdocs.pm/phoenix/errors.html) ;
+- [Phoenix](https://hexdocs.pm/phoenix/custom_error_pages.html) ;
 - [Sinatra](http://sinatrarb.com/intro.html) : paragraphe _Error Handling_ ;
 - [Symfony](https://symfony.com/doc/current/controller/error_pages.html).
 

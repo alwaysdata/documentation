@@ -43,7 +43,7 @@ MongoDB will be updated to [version 4.2](https://docs.mongodb.com/manual/release
 
 ### CouchDB
 
-CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/3.0.0/whatsnew/3.0.html).
+CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/stable/whatsnew/3.0.html#version-3-0-0).
 
 ## Languages
 

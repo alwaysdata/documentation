@@ -98,7 +98,7 @@ We are updating CouchDB to version 1.6: http://docs.couchdb.org/en/1.6.0/whatsne
 
 ### Apache
 
-- [Apache](https://httpd.apache.org) is updated to version 2.2.32: http://www.apache.org/dist/httpd/CHANGES_2.2
+- [Apache](https://httpd.apache.org) is updated to version 2.2.32
 
 - The `index.htm`, `index.cgi`, `index.pl` and `index.xhtml` files are no longer considered as indexes. Only `index.php` and `index.html` are indexes and `index.php` now has priority over `index.html`.
 
@@ -143,7 +143,7 @@ Among the libraries that are most likely to be affected:
 
 - [OpenSSL](https://www.openssl.org). Version 0.9.8 does however remain installed alongside version 1.0.2, so your applications will continue to work. As version 0.9.8 is an old one, we still strongly recommend recompiling your applications so that they use a recent version of OpenSSL.
 
-- [libreadline](https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html)
+- libreadline
 
 ## Change in HTTP server IP
 
@@ -169,7 +169,7 @@ You can test your sites in a number of ways:
 
 - using a browser extension to force the `Host` header (and therefore the requested site). For example, in Chrome, the [Virtual Hosts](https://chrome.google.com/webstore/detail/virtual-hosts/aiehidpclglccialeifedhajckcpedom) extension. You need to connect using the HTTP test server address (e.g. `migration-test1.paris1.alwaysdata.com`), but requesting the address of your website.
 
-- by changing your `hosts` file to force it to use the IP address of the HTTP test server to connect to your websites. This can be done by directly editing the relevant file or through a browser extension, e.g. [HostAdmin](https://addons.mozilla.org/en-US/firefox/addon/hostadmin/) in Firefox.
+- by changing your `hosts` file to force it to use the IP address of the HTTP test server to connect to your websites. This can be done by directly editing the relevant file or through a browser extension, e.g. HostAdmin in Firefox.
 
 Then your applications will be started on a temporary server running on the 2017 software infrastructure as if the migration had taken place. Just like in SSH, the files in your account that this server has access to are your actual files. Accesses may also be slowed, but ignore this.
 
