@@ -18,6 +18,8 @@ tags = ["deno"]
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Deno**. C'est cette version qui est notamment utilisée lorsque vous démarrez `deno`.
 
+Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+
 ## Environment
 
 Your Deno environment starts off empty, with no ready installed libraries.

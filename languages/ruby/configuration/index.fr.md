@@ -26,6 +26,8 @@ tags = ["ruby"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
+Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+
 ## Logs d'erreur
 
 Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
