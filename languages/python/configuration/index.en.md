@@ -26,7 +26,7 @@ You can view the error logs in the `$HOME/admin/logs/uwsgi/[id].log` file where 
 
 You need to always use `python` (or `/usr/bin/python`). Never use `python3`, `python2`, `python2.7` or any other command.
 
-To force the use of a different version of Python other than the default one, define the environment variable `PHYTHON_VERSION`:
+To force the use of a different version of Python other than the default one, define the environment variable `PYTHON_VERSION`:
 
 ```sh
 $ PYTHON_VERSION=2.7 python
