@@ -35,7 +35,7 @@ foo@ssh:~/memcached$ ./configure && make
 
 Create the following [service]({{< ref "services" >}}):
 
-- *Command* : `./memcached -p=8300`
+- *Command* : `./memcached -p 8300`
 - *Working directory* : `/home/[foo]/memcached`
 
 More options via `./$HOME/memcached/memcached -h`.
