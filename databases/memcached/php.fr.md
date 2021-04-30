@@ -11,11 +11,11 @@ tags = ["base de données", "memcached", "php"]
 L'utilisation de Memcached en PHP nécessite l'[installation d'une extension PECL]({{< ref "languages/php/extensions" >}}#depuis-pecl-https-pecl-php-net) sur votre compte.
 
 ```
-$ ad_install_pecl memcache
+$ ad_install_pecl memcached
 ```
 
 N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) :
 
 ```
-extension=/home/[compte]/path/to/memcache.so
+extension=/home/[compte]/path/to/memcached.so
 ```
