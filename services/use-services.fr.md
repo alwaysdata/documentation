@@ -10,7 +10,7 @@ Via le menu **Avancé > Services** de votre interface d'administration paramétr
 
 Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdata.net`[^1] peuvent être utilisés pour faire tourner ces services.
 
-Attention :
+**Attention** :
 
 - Il doit rester en tâche `foreground` (pas de mode *démon*) et rester actif[^2] ;
 - S'il veut écouter sur un port il doit être attaché en IPv6 sur `::` et écouter un port entre `8300` et `8499` ;

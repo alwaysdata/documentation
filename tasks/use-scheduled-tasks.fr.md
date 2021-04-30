@@ -8,7 +8,7 @@ tags = ["tâches planifiées"]
 
 Via le menu **Avancé > Tâches planifiées** de votre interface d'administration, entrez les commandes que vous souhaitez exécuter, les URL auxquelles vous souhaitez accéder à intervalle régulier et définissez la période de répétition de ses tâches. 
 
-Attention :
+**Attention** :
 
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;

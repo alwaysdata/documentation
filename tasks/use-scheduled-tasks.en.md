@@ -7,7 +7,7 @@ tags = ["scheduled tasks"]
 
 Via the **Advanced > Scheduled tasks** menu in your administration interface, enter the commands that you wish to run, the URL that you wish to access at regular intervals and define the task repeat periods.
 
-Important:
+**Important**:
 
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
