@@ -5,7 +5,7 @@ hidden = true
 tags = ["email", "mailing list"]
 +++
 
-To modify the broadcasting permissions of a list, you must use the Postorius management interface: https://mailman.alwaysdata.com/. Connect using an administration email address that you defined at the [creation of your mailing list]({{< relref "create-a-mailing-list" >}}).
+To modify the broadcasting permissions of a list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you defined at the [creation of your mailing list]({{< relref "create-a-mailing-list" >}}).
 
 Once identified, go to the management section of the concerned mailing list by clicking on its name.
 

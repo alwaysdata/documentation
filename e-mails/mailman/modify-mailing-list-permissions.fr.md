@@ -6,13 +6,13 @@ hidden = true
 tags = ["email", "mailing list"]
 +++
 
-Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'interface de gestion Postorius : https://mailman.alwaysdata.com/. Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion]({{< relref "create-a-mailing-list" >}}).
+Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion]({{< relref "create-a-mailing-list" >}}).
 
-Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur le son nom.
+Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
 
 ## Modération des contenus
 
-Pour modifier les règles de diffusion, rendez-vous dans la rubrique **Paramètres → Message Acceptance**. Vous pouvez y définir plusieurs règles de diffusion :
+Pour modifier les règles de diffusion, rendez vous dans la rubrique **Paramètres → Message Acceptance**. Vous pouvez y définir plusieurs règles de diffusion :
 
 - *Retenir en modération* : les messages doivent être acceptés par un administrateur ou un modérateur pour être diffusés aux membres. C'est une modération *a priori*.
 - *Rejeter* : les messages sont supprimés et les administrateurs sont notifiés du rejet.

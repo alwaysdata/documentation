@@ -14,7 +14,7 @@ Pour créer une liste de diffusion, vous devez vous connecter à l'interface d'a
 Vous devez définir au moins un utilisateur administrateur pour gérer votre liste de diffusion.
 {{% /notice %}}
 
-Pour définir un nouvel utilisateur pour la gestion de vos listes de diffusion, rendez-vous dans la section [Gestion des utilisateurs](https://admin.alwaysdata.com/mailinglist/user/), puis **Ajouter un utilisateur**.
+Pour définir un nouvel utilisateur pour la gestion de vos listes de diffusion, rendez vous dans la section [Gestion des utilisateurs](https://admin.alwaysdata.com/mailinglist/user/), puis **Ajouter un utilisateur**.
 
 Si des listes de diffusion ont déjà été définies, vous pouvez d'ores-et-déjà associer des permissions vers ces listes à ce nouvel utilisateur.
 
@@ -24,7 +24,7 @@ Les adresses mails des utilisateurs n'ont pas besoin d'appartenir au même domai
 
 ## Gestion des listes de diffusion
 
-Pour définir une nouvelle liste de diffusion, rendez-vous dans **Ajouter une liste de diffusion**.
+Pour définir une nouvelle liste de diffusion, rendez vous dans **Ajouter une liste de diffusion**.
 
 Définissez :
 
