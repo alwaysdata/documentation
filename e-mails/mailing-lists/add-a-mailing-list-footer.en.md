@@ -2,7 +2,7 @@
 title = "Add a footer to a mailing list"
 layout = "man"
 hidden = true
-tags = ["email", "mailing list"]
+tags = ["e-mail", "mailing list"]
 +++
 
 To add a footer to a mailing list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you will have defined at the [creation of your mailing list]({{< relref "create-a-mailing-list" >}}).

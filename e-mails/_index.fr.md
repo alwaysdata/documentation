@@ -19,6 +19,8 @@ Vous pouvez [créer une adresse email]({{< relref "create-an-e-mail-address" >}}
 
 Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 
+* [Listes de diffusions]({{< relref "mailing-lists" >}})
+
 ## Ressources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)

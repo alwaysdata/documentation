@@ -18,6 +18,8 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 
 To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 
+* [Mailing lists]({{< relref "mailing-lists" >}})
+
 ## Resources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)

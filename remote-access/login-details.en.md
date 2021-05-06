@@ -43,6 +43,7 @@ it was created.
 |                          | Port: 11211                                                                                        |
 | **E-mails**              |                                                                                                    |
 | Webmail                  | [RoundCube](https://webmail.alwaysdata.com)                                                        |
+| Mailing-lists            | [Mailman](https://mailman.alwaysdata.com)                                                          |
 | IMAP                     | Host: imap-[account].alwaysdata.net                                                                |
 |                          | Ports: 143, secured: 993                                                                           |
 | POP3                     | Host: pop-[account].alwaysdata.net                                                                 |
@@ -62,8 +63,8 @@ it was created.
 | WebDAV                   | Host: webdav-[account].alwaysdata.net                                                              |
 |                          | Port: 80                                                                                           |
 | **Services**             |                                                                                                    |
-|                          | Host: services-[account].alwaysdata.net                                                             |
-|                          | Ports: between 8300 and 8499                                                                        |
+|                          | Host: services-[account].alwaysdata.net                                                            |
+|                          | Ports: between 8300 and 8499                                                                       |
 | **Web statistics**       |                                                                                                    |
 | Administration interface | [Matomo](https://analytics.alwaysdata.com)                                                         |
 

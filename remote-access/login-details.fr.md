@@ -45,6 +45,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Port : 11211                                                                                              |
 | **Emails**                 |                                                                                                           |
 | Webmail                    | [RoundCube](https://webmail.alwaysdata.com)                                                               |
+| Listes de diffusion        | [Mailman](https://mailman.alwaysdata.com)                                                                 |
 | IMAP                       | Hôte : imap-[compte].alwaysdata.net                                                                       |
 |                            | Ports : 143, sécurisé : 993                                                                               |
 | POP3                       | Hôte : pop-[compte].alwaysdata.net                                                                        |
@@ -64,7 +65,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | WebDAV                     | Hôte : webdav-[compte].alwaysdata.net                                                                     |
 |                            | Port : 80                                                                                                 |
 | **Services**               |                                                                                                           |
-|                            | Hôte : services-[compte].alwaysdata.net                                                                    |
+|                            | Hôte : services-[compte].alwaysdata.net                                                                   |
 |                            | Ports : entre 8300 et 8499                                                                                |
 | **Statistiques web**       |                                                                                                           |
 | Interface d'administration | [Matomo](https://analytics.alwaysdata.com)                                                                |
