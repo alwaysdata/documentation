@@ -14,7 +14,7 @@ In our examples we consider the following information:
 
 They must be replaced by your personal login information.
 
-## Computer
+## Web browser
 
 Go to **Parameters > Accounts and imports**.
 

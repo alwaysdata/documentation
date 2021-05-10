@@ -15,7 +15,7 @@ Dans nos exemples nous considérons les informations suivantes :
 
 Elles sont à remplacer par vos informations de connexion personnelles.
 
-## Ordinateur
+## Navigateur web
 
 Rendez-vous dans **Paramètres > Comptes et importation**.
 
