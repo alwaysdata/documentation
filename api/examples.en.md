@@ -4,6 +4,16 @@ weight = 6
 tags = ["api"]
 +++
 
+`APIKEY`, `1234` or `arkhamcity` are to be replaced by your own values.
+
+## Restart a website
+
+via cURL :
+
+```sh
+$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+```
+
 ## Listing (GET)
 
 Python :
@@ -14,7 +24,7 @@ Python :
 import requests
 
 address = 'https://api.alwaysdata.com/v1/site/'
-credentials = ('APIKEY account=akrhamcity', '')
+credentials = ('APIKEY account=arkhamcity', '')
 
 # Send HTTP request
 response = requests.get(
