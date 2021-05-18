@@ -14,6 +14,8 @@ tags = ["databases", "postgresql"]
 
 The connection data depends on the relevant account. You can find the precise values in the administration interface section under **Databases > PostgreSQL**.
 
+A *pgBouncer* is running on port `5433`. It is possible to use it instead of PostgreSQL directly.
+
 ### Example with `psql`
 In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
 
