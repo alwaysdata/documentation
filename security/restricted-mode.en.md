@@ -1,7 +1,7 @@
 +++
 title = "Removing Restricted Mode"
 layout = "man"
-weight = 90
+hidden = true
 tags = ["administration", "security"]
 +++
 

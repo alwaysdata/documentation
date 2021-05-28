@@ -2,7 +2,7 @@
 url = "/fr/sécurité/mode-restreint/"
 title = "Lever le mode restreint"
 layout = "man"
-weight = 90
+hidden = true
 tags = ["administration", "sécurité"]
 +++
 
