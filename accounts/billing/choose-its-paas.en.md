@@ -74,7 +74,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Scheluded tasks]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || Services[^6] |✔️|✔️|✔️|✔️|
 || [Firewall management]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
-|| [VPN](https://www.alwaysdata.com/fr/services/vpn/) |❌|❌|✔️|✔️|
+|| [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
 
 
 Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.

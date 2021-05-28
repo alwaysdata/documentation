@@ -75,7 +75,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Tâches planifiées]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || Services[^6] |✔️|✔️|✔️|✔️|
 || [Gestion du pare-feu]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
-|| [VPN](https://www.alwaysdata.com/fr/services/vpn/) |❌|❌|✔️|✔️|
+|| [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
 
 La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
 

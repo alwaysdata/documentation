@@ -22,3 +22,4 @@ tags = ["security"]
 - [Use SSH keys]({{< ref "remote-access/ssh/use-keys" >}})
 - [alwaysdata IP ranges]({{< relref "ip-ranges" >}})
 - [Disaster Recovery Plan]({{< relref "drp" >}})
+- [VPN]({{< relref "./vpn" >}})
