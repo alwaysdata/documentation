@@ -28,7 +28,7 @@ Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès `ro
 | Ports        | 22                                              |
 | Identifiant  | utilisateur et mot de passe associé OU clés SSH |
 
-Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH** de votre interface d'administration alwaysdata. Vous y retrouverez aussi les _fingerprints_ du serveur SSH sur lequel est le compte.
+Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH** de votre interface d'administration alwaysdata (dont leurs [shell](https://fr.wikipedia.org/wiki/Shell_Unix)). Vous y retrouverez aussi les _fingerprints_ du serveur SSH sur lequel est le compte.
 {{< fig "admin-panel_ssh-users-list.fr.png" "Interface d'administration : liste des utilisateurs SSH" >}}
 
 ### Par un terminal

@@ -27,7 +27,7 @@ All of our offers are managed ones, it is not possible to gain `root` access.
 |Ports|22|
 |Identifier|assigned user and password OR SSH keys|
 
-These users can be configured in the **Remote access > SSH** tab in your alwaysdata administration interface. The *fingerprints* for the SSH server where the account is located are also found there.
+These users can be configured in the **Remote access > SSH** tab in your alwaysdata administration interface (among their [shell](https://en.wikipedia.org/wiki/Unix_shell)). The *fingerprints* for the SSH server where the account is located are also found there.
 
 {{< fig "admin-panel_ssh-users-list.en.png" "Administration interface: list of SSH users" >}}
 
