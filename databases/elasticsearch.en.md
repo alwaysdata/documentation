@@ -15,7 +15,7 @@ tags = ["databases", "elasticsearch"]
 Elasticsearch only runs in local mode with isolated permissions (separate user).
 
 {{% notice info %}}
-Elasticsearch is only available in VPS and dedicated environments. Further it uses RAM so alwaysdata only recommends it for VPS B and higher plans.
+Elasticsearch is only available on [VPS, dedicated and Gold]({{< ref "accounts/billing/catalyst-prices" >}}) environments. Further it uses RAM so alwaysdata only recommends it for VPS B and higher plans.
 {{% /notice %}}
 
 ---

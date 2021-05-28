@@ -15,7 +15,7 @@ tags = ["databases", "redis"]
 Redis only runs in local mode with isolated permissions (separate user).
 
 {{% notice info %}}
-Redis is only available in VPS and dedicated environments.
+Redis is only available on [VPS, dedicated and Gold]({{< ref "accounts/billing/catalyst-prices" >}}) environments.
 {{% /notice %}}
 
 ---

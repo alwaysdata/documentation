@@ -16,7 +16,7 @@ tags = ["base de données", "redis"]
 Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Redis n'est disponible qu'en environnements VPS et dédiés.
+Redis n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref "accounts/billing/catalyst-prices" >}}).
 {{% /notice %}}
 
 ---
