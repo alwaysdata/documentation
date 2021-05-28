@@ -9,7 +9,7 @@ tags = ["dns", "domaine"]
 
 # Domaines
 
-Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez](https://www.alwaysdata.com/fr/domaines/#main), transférez ou ajoutez en gestion votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
+Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez]({{< relref "buy-a-domain" >}}), [transférez]({{< relref "transfer-a-domain" >}}) ou [ajoutez en gestion]({{< relref "add-an-external-domain">}}) votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
 
 {{% notice note %}}
 Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
@@ -17,19 +17,20 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 
 ## Ressources
 
-- [API - Domaine](https://api.alwaysdata.com/v1/domain/doc/)
+- [Prix](https://www.alwaysdata.com/fr/domaines/#main)
 - [Acheter un domaine]({{< relref "buy-a-domain" >}})
 - [Transférer un domaine]({{< relref "transfer-a-domain" >}})
 - [Ajouter un domaine externe]({{< relref "add-an-external-domain" >}})
-- [Renouveler un domaine]({{< relref "renew-a-domain" >}})
-- [Dates limites]({{< relref "deadlines" >}})
+* [Renouveler un domaine]({{< relref "renew-a-domain" >}})
+* [Dates limites]({{< relref "deadlines" >}})
+* [Changer de propriétaire]({{< relref "change-of-owner" >}})
+* [Mettre à jour les informations du propriétaire du domaine]({{< relref "update-owner-details" >}})
+* [Détruire un domaine]({{< relref "wipe-a-domain" >}})
 - [Déplacer un domaine]({{< relref "move-a-domain" >}})
-- [Changer de propriétaire]({{< relref "change-of-owner" >}})
-- [Mettre à jour les informations du propriétaire du domaine]({{< relref "update-owner-details" >}})
 - [Déléguer un sous-domaine]({{< relref "delegate-a-subdomain" >}})
-- [Détruire un domaine]({{< relref "wipe-a-domain" >}})
 - [Transfert sortant]({{< relref "outgoing-transfer" >}})
-- [Problèmes fréquents]({{< relref "./troubleshooting" >}})
+* [API - Domaine](https://api.alwaysdata.com/v1/domain/doc/)
+* [Problèmes fréquents]({{< relref "./troubleshooting" >}})
 
 {{% notice warning %}}
 Officiellement invalides (d'après [IDNA2008](http://unicode.org/faq/idn.html)), nous ne supportons pas les **emojis** dans un nom de domaine. Notre infrastructure utilise la [bibliothèque Python `idna`](https://github.com/kjd/idna), qui [respecte impérativement](https://github.com/kjd/idna/issues/18) IDNA2008 à ce stade.

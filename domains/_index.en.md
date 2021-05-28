@@ -8,7 +8,7 @@ tags = ["dns", "domains"]
 
 # Domains
 
-Domains are managed from the **Domains** tab in your administration interface. [Buy](https://www.alwaysdata.com/en/domains/#main), transfer or add them when managing your domain. We use the experience brought by reseller [GANDI](https://www.gandi.net/en) to offer you as many extensions as possible. [Contact us](https://admin.alwaysdata.com/support/add/) if the desired extension is not offered by default.
+Domains are managed from the **Domains** tab in your administration interface. [Buy](({{< relref "buy-a-domain" >}}), [transfer]({{< relref "transfer-a-domain" >}}) or add them when [managing]({{< relref "add-an-external-domain">}}) your domain. We use the experience brought by reseller [GANDI](https://www.gandi.net/en) to offer you as many extensions as possible. [Contact us](https://admin.alwaysdata.com/support/add/) if the desired extension is not offered by default.
 
 {{% notice note %}}
 As GANDI resellers you can receive emails from us, from them and from the [registry operators](https://en.wikipedia.org/wiki/Domain_name_registry) of the domain extensions taken.
@@ -16,19 +16,20 @@ As GANDI resellers you can receive emails from us, from them and from the [regis
 
 ## Resources
 
-- [API - Domain](https://api.alwaysdata.com/v1/domain/doc/)
+- [Prices](https://www.alwaysdata.com/en/domains/#main)
 - [Buy a domain]({{< relref "buy-a-domain" >}})
 - [Transfer a domain]({{< relref "transfer-a-domain" >}})
 - [Add an external domain]({{< relref "add-an-external-domain">}})
-- [Renew a domain]({{< relref "renew-a-domain" >}})
-- [Deadlines]({{< relref "deadlines" >}})
+* [Renew a domain]({{< relref "renew-a-domain" >}})
+* [Deadlines]({{< relref "deadlines" >}})
+* [Change of owner]({{< relref "change-of-owner" >}})
+* [Update domain owner's details]({{< relref "update-owner-details" >}})
+* [Wipe a domain]({{< relref "wipe-a-domain" >}})
 - [Move a domain]({{< relref "move-a-domain" >}})
-- [Change of owner]({{< relref "change-of-owner" >}})
-- [Update domain owner's details]({{< relref "update-owner-details" >}})
 - [Delegate a subdomain]({{< relref "delegate-a-subdomain" >}})
-- [Wipe a domain]({{< relref "wipe-a-domain" >}})
 - [Outgoing transfer]({{< relref "outgoing-transfer" >}})
-- [Troubleshooting]({{< relref "./troubleshooting" >}})
+* [API - Domain](https://api.alwaysdata.com/v1/domain/doc/)
+* [Troubleshooting]({{< relref "./troubleshooting" >}})
 
 {{% notice warning %}}
 Officially invalid (according to [IDNA2008](http://unicode.org/faq/idn.html)), we do not support **emojis** in a domain name. Our infrastructure uses the [Python library `idna`](https://github.com/kjd/idna), which [imperatively respects](https://github.com/kjd/idna/issues/18) IDNA2008 at this stage.

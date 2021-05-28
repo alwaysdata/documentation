@@ -28,6 +28,8 @@ For example: `example.org` and not `www.example.org`.
 The domain will be created a few minutes after payment.
 {{% /notice %}}
 
+- [Prices](https://www.alwaysdata.com/en/domains/#main)
+
 ## What domain extension should I choose?
 
 There are many extensions available. Some are geographic and attached to a country or an institutional area, others are generic ones. The extension you choose will depend on your requirement, your budget, as well as the owner’s nationality.
