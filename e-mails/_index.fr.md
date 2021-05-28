@@ -24,16 +24,17 @@ Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.a
 ## Ressources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
-- [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
-- [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
-- [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
+* [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
+* [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
 - [Changer de prestataire]({{< relref "./transfer-in" >}})
-- [Lire la source d'un email]({{< relref "read-an-e-mail-source" >}})
-- [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
-- [Catch-all]({{< relref "./catch-all" >}})
-- [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
+* [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
+* [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
+* [Vérifier l'envoi d'un email]({{< relref "check-email-sending" >}})
+* [Lire la source d'un email]({{< relref "read-an-e-mail-source" >}})
+* [Réagir à un envoi de spam]({{< relref "react-to-spam-mailing" >}})
 - [Restaurer des emails]({{< ref "backups/restore-e-mails" >}})
+- [Catch-all]({{< relref "./catch-all" >}})
 - [Questions diverses]({{< relref "./misc" >}})
 
 ## Clients mails

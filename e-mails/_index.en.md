@@ -23,16 +23,17 @@ To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 ## Resources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
-- [Deliverability: best practices]({{< relref "delivery">}})
-- [Add a filter rule]({{< relref "add-a-filter-rule" >}})
-- [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
+* [Add a filter rule]({{< relref "add-a-filter-rule" >}})
+* [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
 - [Change hosting provider]({{< relref "./transfer-in" >}})
-- [Read an e-mail source]({{< relref "read-an-e-mail-source" >}})
-- [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
 - [Use external MX]({{< ref "domains/use-external-mx" >}})
-- [Catch-all]({{< relref "./catch-all" >}})
-- [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
+* [Deliverability: best practices]({{< relref "delivery">}})
+* [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
+* [Check email's sending]({{< relref "check-email-sending" >}})
+* [Read an e-mail source]({{< relref "read-an-e-mail-source" >}})
+* [React to spam mailing]({{< relref "react-to-spam-mailing" >}})
 - [Restore e-mails]({{< ref "backups/restore-e-mails" >}})
+- [Catch-all]({{< relref "./catch-all" >}})
 - [Miscellaneous questions]({{< relref "./misc" >}})
 
 ## E-mail clients
