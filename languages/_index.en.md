@@ -19,6 +19,8 @@ For all of the information on the technologies driven by servers:
 - [Python]({{< ref "languages/python" >}})
 - [Ruby]({{< ref "languages/ruby" >}})
 
+Other interpreters and languages also can be run through the [user-program]({{< ref "sites/user-program" >}}).
+
 ## Versions
 
 Language versions are, to limit disk space consumption, **automatically installed on demand**.[^1]

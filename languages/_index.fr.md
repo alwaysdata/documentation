@@ -20,6 +20,8 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [Python]({{< ref "languages/python" >}})
 * [Ruby]({{< ref "languages/ruby" >}})
 
+D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur]({{< ref "sites/user-program" >}}).
+
 ## Versions
 
 Les versions de langages sont, pour limiter la consommation d'espace disque, **automatiquement installées à la demande**.[^1]
