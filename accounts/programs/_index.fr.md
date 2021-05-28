@@ -10,3 +10,4 @@ tags = ["facturation"]
 
 - [Programme étudiants/sans emploi]({{< relref "students-and-job-seekers-program" >}}) : 50 % de réduction sur les packs du Cloud public ;
 - [Alwaysdata Academic Cloud]({{< relref "academic-cloud" >}}) : un programme pour les formateurs permettant de profiter de certains avantages.
+- [Open Source]({{< relref "./open-source" >}}) : un pack Cloud public 10 Go gratuit pour les projets libres actifs.
