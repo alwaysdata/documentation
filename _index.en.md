@@ -17,7 +17,7 @@ A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
 
 Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en/#contact) and/or sign-up to our [platform](https://www.alwaysdata.com/en/register/).
 
-Whatever the question, you can also contact us via our [IRC channel](irc://irc.freenode.net/alwaysdata) or [Twitter](https://twitter.com/alwaysdata).
+Whatever the question, you can also contact us via our [IRC channel](ircs://irc.libera.chat:6697/alwaysdata) or [Twitter](https://twitter.com/alwaysdata).
 
 Want to show your support? [Give us some ❤]({{<ref "love">}}) !
 
