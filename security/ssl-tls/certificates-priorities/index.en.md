@@ -5,7 +5,7 @@ hidden = true
 tags = ["https", "ssl"]
 +++
 
-The server will, in the following priority order and if they are filled in **Advanced > SSL Certificates** and are not expired, return:
+Thanks to [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), the server will in the following priority order and if they are filled in **Advanced > SSL Certificates** and not expired, return:
 
 - Your manually added certificate matching the host name.
 - Your manually added wildcard certificate matching the domain name.

@@ -8,6 +8,8 @@ tags = ["https", "sécurité", "ssl"]
 
 # SSL/TLS
 
+Tous les services (HTTP, mais aussi accès distant, bases de données, emails...) sont sécurisés par une couche SSL/TLS.
+
 - [API](https://api.alwaysdata.com/v1/ssl/doc/)
 - [Rediriger HTTP vers HTTPS]({{< relref "redirect-http-to-https" >}})
 - [Configurer TLS]({{< relref "configure-tls" >}})

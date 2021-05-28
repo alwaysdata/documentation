@@ -6,7 +6,7 @@ hidden = true
 tags = ["https", "ssl"]
 +++
 
-Le serveur renverra dans l'ordre de priorité, s'il est renseigné dans **Avancé > Certificats SSL** et qu'il n'est pas expiré :
+Grâce au [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), le serveur renverra dans l'ordre de priorité, s'il est renseigné dans **Avancé > Certificats SSL** et qu'il n'est pas expiré :
 
 - Votre certificat ajouté manuellement correspondant au nom d'hôte.
 - Votre certificat wildcard ajouté manuellement correspondant au nom de domaine.
