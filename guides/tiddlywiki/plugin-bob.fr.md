@@ -7,55 +7,44 @@ tags = ["tiddlywiki", "plugin"]
 
 [TiddlyWiki]({{<ref "./">}}) est un "carnet Web personnel non linéaire", ce qui signifie qu'il est plus probablement destiné à être utilisé par un seul utilisateur, pour un usage personnel. Il est possible que vous souhaitiez servir plusieurs TiddlyWikis, chacun étant dédié à des fins différentes. Vous pouvez y parvenir en définissant plusieurs *Sites* dans votre panneau d'administration. Ou vous pouvez utiliser le plugin [Bob](https://github.com/OokTech/TW5-Bob), qui permet l'édition *multi-seats* en temps réel.
 
-## Installation du plugin
+Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
 
-Après avoir installé la version Node.js [manuellement]({{<ref "./">}}#utilisez-la-version-serveur-de-nodejs), installez le plugin :
+- Nom du compte : `foo`
+- Répertoire de TiddlyWiki : `$HOME/wiki/`
+- Port : 8100 (donné dans les détails de la Commande dans **Web > Sites**)
 
-1. Connectez-vous via [SSH]({{<ref "remote-access/ssh">}})
+{{% notice note %}}
+`[foo]` et `[version]` doivent être remplacées par les informations correctes.
+{{% /notice %}}
 
-2. Clonez le plugin dans un répertoire dédié aux plugins de TiddlyWiki au niveau "$HOME" :
+## Installation
 
-    ```sh
-    $ git clone --depth=1 https://github.com/OokTech/TW5-Bob.git $HOME/tw-plugins/OokTech/Bob
-    ```
+1. Installez TiddlyWiki via [l'applithèque]({{< ref "marketplace" >}}) ou par vous-même.
+2. À la racine du TiddlyWiki, téléchargez la dernière version du [binaire du plugin Bob](https://github.com/OokTech/TW5-BobEXE) et mettez-le en place :
 
-## Utiliser le plugin
+```sh
+foo@ssh:~/wiki$ wget https://github.com/OokTech/TW5-BobEXE/releases/download/[version]/BobLinux
+foo@ssh:~/wiki$ chmod u+x BobLinux
+```
+3. Exécutez le binaire une fois pour qu'il créé les fichiers et dossiers nécessaires :
 
-1. Editez le fichier `path/to/repository/tiddlywiki.info`, et ajoutez le plugin à la section `plugins` :
+```sh
+foo@ssh:~/wiki$ ./BobLinux
+```
+4. Éditez le ficher `IndexWiki/settings/settings.json` pour remplacer la valeur `ws-server` et mettre :
 
-    ```json
-    {
-        "plugins" : [
-            "tiddlywiki/tiddlyweb",
-            "tiddlywiki/filesystem",
-            "tiddlywiki/highlight",
-            "OokTech/Bob"
-        ]
-    }
-    ```
+```json
+"ws-server": {
+    "port": 8100,
+    "host": "::",
+    "autoIncrementPort": "false"
+ },
+```
 
-2. Créez un fichier `path/to/repository/settings/settings.json`, et remplissez-le avec les valeurs d'`[IP]` et de `[PORT]` que vous pouvez trouver dans la vue de configuration *Site* dans votre panneau d'administration :
-
-    ```json
-    {
-        "ws-server": {
-            "port": [PORT],
-            "host": "[IP]",
-            "autoIncrementPort": "false"
-        }
-    }
-    ```
-
-3. Dans la vue *Site*, modifiez le champ "Commande" en remplaçant `--listen` par `--wsserver`. Vous pouvez également supprimer sans risque les paramètres `host` et `port`.
-
-4. Remplissez le champ *Environnement* avec `TIDDLYWIKI_PLUGIN_PATH="$HOME/tw-plugins"`
+5. Créez la configuration dans **Web > Sites** :
+- le champ **Commande** du site doit être : `./BobLinux IndexWiki` ;
+- si vous étiez passé par l'applithèque, l'authentification mise en place à l'installation de TiddlyWiki ne sera plus en place.
 
 {{% notice note %}}
 Nous ne recommandons pas de faire fonctionner TiddlyWiki avec le plugin Bob sous une URL avec un sous-chemin. Malgré le support des [Proxies](https://github.com/OokTech/TW5-Bob/blob/master/Documentation/Using%20Proxies.tid) par le plugin, cela peut conduire à des incohérences comme des WebSocket inutilisables. Hébergez-le plutôt dans un sous-domaine.
 {{% /notice %}}
-
-Vous pouvez maintenant créer autant de wikis que vous le souhaitez en suivant la procédure intégrée à la documentation de Bob.
-
-## Authentification
-
-Par défaut, comme pour le TiddlyWiki classique, la version de Bob est lisible et accessible en écriture par n'importe quel utilisateur. Si vous souhaitez appliquer des autorisations d'accès en lecture/écriture, veuillez vous référer à la section [Authentification]({{<ref "./" >}}#authentification).
