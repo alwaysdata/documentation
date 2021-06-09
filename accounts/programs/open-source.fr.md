@@ -15,4 +15,3 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - [Agorakit](https://agorakit.org/)
 - [AllegianceOS]()
 - [IHateMoney](https://ihatemoney.org/)
-- [Sailor framework](http://www.sailorproject.org/)
