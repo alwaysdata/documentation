@@ -38,12 +38,13 @@ foo@ssh:~/wiki$ ./BobLinux
 "ws-server": {
     "port": 8100,
     "host": "::",
-    "autoIncrementPort": "false"
+    "autoIncrementPort": false
  },
 ```
 
 5. Create the configuration in **Web > Sites**:
 
+- the website type will be **User program**,
 - the **Command** field of the site must be: `./BobLinux IndexWiki`,
 - if you used the marketplace, the authentication set up when installing TiddlyWiki will no longer be in place.
 
