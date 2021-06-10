@@ -10,7 +10,7 @@ tags = ["tiddlywiki", "plugin"]
 In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
 
 - Account name: `foo`
-- Mattermost directory: `$HOME/wiki/`
+- TiddlyWiki directory: `$HOME/wiki/`
 - Port: 8100 (given in the Command helptext in **Web > Sites**)
 
 {{% notice note %}}
