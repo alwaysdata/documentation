@@ -59,7 +59,16 @@ Now what remains is to move the addresses that link the site and the automatical
 
 3.  And follow the steps.
     {{< fig "images/admin-panel_move-website-2.en.png" "Administration interface: move site - step 2" >}}
+    
+WARNING: For websites using a command[^1], the transferred website MAY have its port changed.
+
+{{% notice info %}}
+A `.alwaysdata.net` address can not be transferred as it is linked to the account name.
+{{% /notice %}}
+
 
 {{% notice tip %}}
 To move it to another of *their* accounts, simply provide their own e-mail address.
 {{% /notice %}}
+
+[^1]: Node.js, Programme utilisateur, Elixir et Deno types.

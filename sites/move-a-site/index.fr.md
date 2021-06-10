@@ -61,6 +61,14 @@ Reste à déplacer les adresses joignant le site et leur certificat SSL auto-gé
 3. Et suivez les étapes.
 {{< fig "images/admin-panel_move-website-2.fr.png" "Interface d'administration : déplacement de site - étape 2" >}}
 
+ATTENTION : Pour les sites utilisant une commande[^1], le site cédé PEUT voir son port changé.
+
+{{% notice info %}}
+Une adresse en `.alwaysdata.net` ne peut être cédée étant liée au nom du compte.
+{{% /notice %}}
+
 {{% notice tip %}}
 Pour le déplacer dans un autre de _ses_ comptes il n'y a qu'à indiquer sa propre adresse email.
 {{% /notice %}}
+
+[^1]: De types Node.js, Programme utilisateur, Elixir et Deno.
