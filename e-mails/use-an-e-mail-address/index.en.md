@@ -50,6 +50,12 @@ By default, the webmail is using the user's web browser language (the one of its
 When you change your password via the webmail, you will need to log out and log back in.
 {{% /notice %}}
 
+## Whitelist
+
+To be sure to receive emails from specific addresses and domains, they can be defined in **Emails > Configuration**. The incoming antispam will no longer affect their emails.
+
+Mails sent to these addresses will always undergo the [antispam validation]({{< ref "e-mails/delivery#notation-system" >}}).
+
 ## Notes
 
 - The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,

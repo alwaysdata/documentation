@@ -26,6 +26,7 @@ Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.a
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
 * [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
 * [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
+* [Liste blanche de réception]({{< ref "e-mails/use-an-e-mail-address#liste-blanche" >}})
 - [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
 * [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
