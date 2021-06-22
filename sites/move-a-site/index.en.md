@@ -66,9 +66,8 @@ WARNING: For websites using a command[^1], the transferred website MAY have its 
 A `.alwaysdata.net` address can not be transferred as it is linked to the account name.
 {{% /notice %}}
 
-
 {{% notice tip %}}
 To move it to another of *their* accounts, simply provide their own e-mail address.
 {{% /notice %}}
 
-[^1]: Node.js, Programme utilisateur, Elixir et Deno types.
+[^1]: Node.js, User program, Elixir and Deno types.
