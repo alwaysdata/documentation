@@ -11,7 +11,7 @@ Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 {{< fig "images/history.fr.png" "Liste des derniers envois" >}}
 
 - *[Score]({{< ref "e-mails/delivery#système-de-notation" >}})* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
-- *Bloqué* : si l'email a été bloqué par l'antispam d'alwaysdata.
+- *Bloqué* : si l'email a été bloqué par l'antispam d'alwaysdata. À ne pas confondre avec un *bounce*[^2] qui englobe d'autres raisons.
 
 {{< fig "images/example.fr.png" "Exemple d'un envoi" >}}
 
@@ -20,6 +20,5 @@ Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 - *Score SPAM* : score [Rspamd](https://www.rspamd.com/) ;
 - *Rapport SPAM* : détails du score Rspamd.
 
-SI l'email a **bouncé** (non accepté par les serveurs destinataires) pour un ou plusieurs destinataires, l'expéditeur doit avoir reçu un *Mail delivery failed* reprenant les raisons du blocage.
-
 [^1]: un email avec un score supérieur à 3 ne sera pas envoyé en serveurs mutualisés. En serveurs VPS et dédiés, la valeur par défaut est de 5 (modifiable).
+[^2]: cela peut être un blocage de notre antispam, un refus par les serveurs destinataires ou encore une non-réponse de leur part pendant plusieurs jours par exemple. L'expéditeur doit alors recevoir un *Mail delivery failed* reprenant les raisons du bounce.
