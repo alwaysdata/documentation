@@ -19,7 +19,7 @@ La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur 
 Le format par défaut est le suivant :
 
 ```txt
-{request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] {request} {status} {response_size} {referer} {user_agent}
+{request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] "{request}" {status} {response_size} "{referer}" "{user_agent}"
 ```
 
 Les lignes de logs sont affichées de cette manière :

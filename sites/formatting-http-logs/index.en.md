@@ -16,7 +16,7 @@ The log lines are customized in the **Format** field. This field accepts charact
 The default format is as follows:
 
 ```txt
-{request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] {request} {status} {response_size} {referer} {user_agent}
+{request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] "{request}" {status} {response_size} "{referer}" "{user_agent}"
 ```
 
 The log lines are displayed as follows:
