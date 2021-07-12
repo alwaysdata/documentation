@@ -17,4 +17,6 @@ The installation of a new server is **free of charge**. Other operations perform
 
 Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 
+Any operation cancelled within 24 hours before the intervention will be charged.
+
 [^1]: For [Gold servers]({{< ref "accounts/billing/catalyst-prices#managed-gold-servers" >}}), the price of the intervention is doubled.
