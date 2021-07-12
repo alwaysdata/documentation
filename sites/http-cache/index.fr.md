@@ -2,6 +2,7 @@
 url = "/fr/sites/cache-http/"
 title = "Cache HTTP"
 weight = 50
+layout = "man"
 tags = ["cache", "http", "site"]
 +++
 
@@ -13,7 +14,7 @@ Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : page
 
 Lorsqu’un utilisateur tente d'accéder à une page, le serveur web correspondant va géné­rer une page et l’en­voyer sur le réseau. Le cache inter­cepte alors la réponse pour la stocker dans sa mémoire locale avant de la ser­vir à l'utilisateur.
 
-{{< fig "images/http-cache_part-1.fr.png" "Mise en cache d’une res­source lors de sa reqête" >}}
+{{< fig "images/http-cache_part-1.fr.png" "Mise en cache d’une res­source lors de sa requête" >}}
 
 Lorsqu’une requête pour la même page est émise par le même ou un autre utilisateur, le cache la restituera comme il détient alors une copie de la res­source deman­dée. Le ser­veur web ne sera plus inter­ro­gé.
 

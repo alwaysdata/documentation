@@ -3,6 +3,7 @@ url = "/fr/sites/waf/"
 title = "Pare-feu applicatif web (WAF)"
 menuTitle = "WAF"
 weight = 60
+layout = "man"
 tags = ["http", "site", "waf"]
 +++
 

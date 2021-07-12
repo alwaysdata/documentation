@@ -1,6 +1,7 @@
 +++
 title = "HTTP Cache"
 weight = 50
+layout = "man"
 tags = ["cache", "http", "site"]
 +++
 
