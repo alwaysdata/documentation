@@ -9,7 +9,7 @@ tags = ["cache", "http", "site"]
 Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : pages HTML, docu­ments CSS, images) pour dimi­nuer la latence induite par le ser­veur lors­qu’il doit ser­vir une page et/ou réduire sa charge de tra­vail.
 
 {{% notice note %}}
-Notre cache HTTP peut tout à fait remplacer [Varnish](https://varnish-cache.org/). Ce dernier est aussi utilisable sur les serveurs *alwaysdata* ; son installation et sa configuration seront à votre charge.
+Bien que le cache HTTP convienne dans l'immense majorité des cas, vous pouvez également [faire tourner Varnish]({{< ref "sites/user-program" >}}) sur votre compte alwaysdata.
 {{% /notice %}}
 
 - [Utiliser le Cache HTTP]({{< ref "sites/use-http-cache" >}})

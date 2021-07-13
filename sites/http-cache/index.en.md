@@ -10,7 +10,7 @@ The HTTP cache temporarily stores web documents (e.g. HTML pages, CCS documents,
 - [Use the HTTP cache]({{< ref "sites/use-http-cache" >}})
 
 {{% notice note %}}
-Our HTTP cache can replace [Varnish](https://varnish-cache.org/). This latter can also be used on *alwaysdata* servers but you will have to install and configure it yourself.
+While the HTTP cache is appropriate in most cases, you can also [run Varnish]({{< ref "sites/user-program" >}}) on your alwaysdata account.
 {{% /notice %}}
 
 ## Concept
