@@ -9,6 +9,10 @@ The HTTP cache temporarily stores web documents (e.g. HTML pages, CCS documents,
 
 - [Use the HTTP cache]({{< ref "sites/use-http-cache" >}})
 
+{{% notice note %}}
+While the HTTP cache is appropriate in most cases, you can also [run Varnish]({{< ref "sites/user-program" >}}) on your alwaysdata account.
+{{% /notice %}}
+
 ## Concept
 
 When a user attempts to access a page, the corresponding web server will generate a page and send it over the network. Then the cache intercepts the response to store it in its local memory before serving it up to the user.

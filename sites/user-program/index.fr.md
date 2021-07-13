@@ -9,7 +9,7 @@ tags = ["http", "programme utilisateur", "site"]
 
 Pour lancer un programme web n'utilisant pas un des autres types de site vous pouvez avoir recours au _Programme utilisateur_.
 
-Il pourra être utilisé pour les langages Java, Scala, Go, Lua, Erlang, ou encore bien d'autres...
+Il pourra être utilisé pour les langages [Java]({{< ref "languages/java" >}}), [Scala](https://www.scala-lang.org/), [Go]({{< ref "languages/go" >}}), [Lua]({{< ref "languages/lua" >}}), [Erlang](https://www.erlang.org/), ou encore bien d'autres...[^1]
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 {{< fig "images/admin-panel_sites-list.fr.png" "Interface d'administration : liste des sites" >}}
@@ -31,3 +31,5 @@ Avant de mettre en place le site, vous pouvez tester le lancement du programme e
 {{% /notice %}}
 
 Si le programme ne se lance pas, les logs _sites_ disponibles dans le répertoire `$HOME/admin/logs/sites/` pourront vous aider.
+
+[^1]: Par exemple, [Nginx](https://www.nginx.com/), [LiteSpeed](https://www.litespeedtech.com/) ou [Varnish](https://varnish-cache.org/) sont utilisables sur les serveurs *alwaysdata*. L'installation et la configuration sont à votre charge.

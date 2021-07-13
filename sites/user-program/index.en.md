@@ -7,7 +7,7 @@ tags = ["http", "user program", "site"]
 
 To run a web program that does not use one of the other types of site you can use the *User program*.
 
-It may be used for Java, Scala, Go, Lua, Erlang and many other languages.
+It may be used for [Java]({{< ref "languages/java" >}}), [Scala](https://www.scala-lang.org/), [Go]({{< ref "languages/go" >}}), [Lua]({{< ref "languages/lua" >}}), [Erlang](https://www.erlang.org/) and many other languages and software...[^1]
 
 Go to the **Web > Sites > Add a site** menu.
 
@@ -30,3 +30,5 @@ Before setting up the site, you can test running the program in [SSH]({{< ref "r
 {{% /notice %}}
 
 If the program will not run, the *sites* logs available from the `$HOME/admin/logs/sites/` directory may help you.
+
+[^1]: For example, [Nginx](https://www.nginx.com/), [LiteSpeed](https://www.litespeedtech.com/) or [Varnish](https://varnish-cache.org/) are all compatible with *alwaysdata* servers. Installation and configuration are your responsibility.
