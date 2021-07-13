@@ -30,3 +30,7 @@ Before setting up the site, you can test running the program in [SSH]({{< ref "r
 {{% /notice %}}
 
 If the program will not run, the *sites* logs available from the `$HOME/admin/logs/sites/` directory may help you.
+
+{{% notice note %}}
+Although we recommend to use Apache - which is just as powerful - [Nginx](https://www.nginx.com/) can be used on *alwaysdata* servers. You will have to install and configure it. [LiteSpeed](https://www.litespeedtech.com/) can also be installed, at your responsability.
+{{% /notice %}}

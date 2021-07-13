@@ -31,3 +31,7 @@ Avant de mettre en place le site, vous pouvez tester le lancement du programme e
 {{% /notice %}}
 
 Si le programme ne se lance pas, les logs _sites_ disponibles dans le répertoire `$HOME/admin/logs/sites/` pourront vous aider.
+
+{{% notice note %}}
+Bien que nous préconisons d'utiliser Apache - tout aussi performant - [Nginx](https://www.nginx.com/) est utilisable sur les serveurs *alwaysdata*. Vous aurez à charge son installation et sa configuration. [LiteSpeed](https://www.litespeedtech.com/) est aussi installable, à votre charge.
+{{% /notice %}}
