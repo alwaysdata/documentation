@@ -32,4 +32,4 @@ Avant de mettre en place le site, vous pouvez tester le lancement du programme e
 
 Si le programme ne se lance pas, les logs _sites_ disponibles dans le répertoire `$HOME/admin/logs/sites/` pourront vous aider.
 
-[^1]: [Nginx](https://www.nginx.com/), [LiteSpeed](https://www.litespeedtech.com/) ou [Varnish](https://varnish-cache.org/) sont utilisables sur les serveurs *alwaysdata*. L'installation et la configuration sont à votre charge.
+[^1]: Par exemple, [Nginx](https://www.nginx.com/), [LiteSpeed](https://www.litespeedtech.com/) ou [Varnish](https://varnish-cache.org/) sont utilisables sur les serveurs *alwaysdata*. L'installation et la configuration sont à votre charge.
