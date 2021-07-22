@@ -2,7 +2,7 @@
 title = "Analytics"
 pre = "<i class='fas fa-fw fa-chart-line'></i> "
 layout = "man"
-weight = 40
+weight = 35
 tags = ["http", "analytics", "site"]
 +++
 
