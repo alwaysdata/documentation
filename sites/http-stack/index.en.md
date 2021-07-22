@@ -11,7 +11,7 @@ A front-end reverse-proxy is installed on all our servers. This one listens inco
 - returns the right [SSL certificate]({{< ref "security/ssl-tls/certificates-priorities" >}}),
 - logs HTTP requests. These logs are available via the [`$HOME/admin/logs` directory]({{< ref "remote-access/admin-directory#logs" >}}).
 
-It also manages the [web application firewall]({{< ref "sites/waf" >}}) and the [HTTP cache]({{< ref "http-cache" >}}) which can be activated in **Web > Sites**.
+It also manages the [Web Application Firewall]({{< ref "sites/waf" >}}) and the [HTTP cache]({{< ref "http-cache" >}}) which can be activated in **Web > Sites**.
 
 {{< fig "images/http-stack.en.png" "" >}}
 
@@ -19,3 +19,6 @@ It also manages the [web application firewall]({{< ref "sites/waf" >}}) and the 
  
 - `X-Forwarded-Proto`, which equals http or https depending on whether the connection is made in HTTP or HTTPS. Thus the reverse proxy accesses web servers in HTTP whether the connection at the browser level is HTTP or HTTPS,
 - `X-Real-IP`,  which takes the value of the client's IP address.
+
+---
+Icons: The Noun Project

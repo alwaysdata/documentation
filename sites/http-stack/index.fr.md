@@ -12,7 +12,7 @@ Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute l
 - renvoie le bon [certificat SSL]({{< ref "security/ssl-tls/certificates-priorities" >}}) ;
 - logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `$HOME/admin/logs`]({{< ref "remote-access/admin-directory#logs" >}}).
 
-Il gère aussi le [pare-feu applicatif web]({{< ref "sites/waf" >}}) et le [cache HTTP]({{< ref "http-cache" >}}) activables dans **Web > Sites**.
+Il gère aussi le [pare-feu applicatif web (WAF)]({{< ref "sites/waf" >}}) et le [cache HTTP]({{< ref "http-cache" >}}) activables dans **Web > Sites**.
 
 {{< fig "images/http-stack.fr.png" "Fonctionnement du reverse-proxy alwaysdata" >}}
 
@@ -20,3 +20,6 @@ Il gère aussi le [pare-feu applicatif web]({{< ref "sites/waf" >}}) et le [cach
 
 - `X-Forwarded-Proto`, qui vaut http ou https selon que la connexion est faite en HTTP ou HTTPS. Ainsi le reverse proxy accède aux serveurs web en HTTP que la connexion au niveau du navigateur soit HTTP ou HTTPS ;
 - `X-Real-IP`, qui prend la valeur de l'adresse IP du client.
+
+---
+Icônes : The Noun Project
