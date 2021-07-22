@@ -1,12 +1,12 @@
 +++
-url = "/fr/comptes/facturation/prix-cloud/"
-title = "Tarifs Cloud"
+url = "/fr/comptes/facturation/prix-cloud-public/"
+title = "Tarifs Cloud Public"
 layout = "man"
 hidden = true
 tags = ["cloud", "facturation"]
 +++
 
-Cette page recence les prix des configurations Cloud. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/#contact).
+Cette page recence les prix des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/#contact).
 
 * GTI : 1h
 * GTR : 4h
@@ -19,7 +19,7 @@ Cette page recence les prix des configurations Cloud. Pour plus d'informations c
 | Tarif/mois (HT)   | Gratuit          | 8 €          | 12 €        | 25 €        | 45 €             | 65 €             | 125 €            |
 | Tarif/an (HT)     | Gratuit          | 80 €         | 120 €       | 250 €       | 450 €            | 650 €            | 1250 €           |
 
-Le changement de Cloud se passe via le menu *[Comptes]({{< ref "accounts/billing/upgrade-your-plan" >}})*.
+Le changement de configuration Cloud Public se passe via le menu *[Comptes]({{< ref "accounts/billing/upgrade-your-plan" >}})*.
 
-[^1]: Le Cloud 100 Mo gratuit est sujet à des [restrictions spéciales]({{< ref "accounts/cloud-restrictions#compte-gratuit" >}}) et ne peut notamment servir à des fins lucratives.
-[^2]: Comme pour les [configurations Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}), contactez notre [support](https://admin.alwaysdata.com/support/) pour prendre les offres Cloud supérieures à l'offre 50 Go.
+[^1]: Le Cloud 100 Mo gratuit est sujet à des [restrictions spéciales]({{< ref "accounts/public-cloud-restrictions#compte-gratuit" >}}) et ne peut notamment servir à des fins lucratives.
+[^2]: Comme pour les [configurations Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}), contactez notre [support](https://admin.alwaysdata.com/support/) pour prendre les offres Public Cloud supérieures à l'offre 50 Go.

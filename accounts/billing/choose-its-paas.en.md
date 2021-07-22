@@ -12,9 +12,9 @@ alwaysdata proposes several kinds of environment:
 
 | Name || Description |
 |---|---|---|
-| [Public cloud]({{< ref "accounts/billing/cloud-prices" >}})[^3] || Hosting account spread over several servers - hosting hundreds of users |
+| [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}})[^3] || Hosting account spread over several servers - hosting hundreds of users |
 ||| SRT 1hr, IRT 4hrs, Availability rate 99.7% |
-| [Catalyst]({{< ref "accounts/billing/catalyst-prices" >}}) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
+| [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
 ||| Isolation per account without additional billing |
 ||| SRT 30 mins, IRT 2hrs, Availability rate 99.8% |
 || Dedicated | Bare-metal server exclusively for a single user |
@@ -28,7 +28,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 
 ---
 
-| Services || Public cloud | Catalyst |
+| Services || Public Cloud | Private Cloud |
 |---|---|---|---|---|---|
 |||| **VPS** | **Dedicated** | **Gold** |
 | Support | Tickets |✔️|✔️|✔️|✔️|

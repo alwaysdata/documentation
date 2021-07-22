@@ -15,8 +15,8 @@ Vous disposez de **30 jours** pour la régler dans **Facturation > Factures > Al
 - [Choisir son plan d'hébergement]({{< ref "choose-its-paas" >}})
 - [Changer d'offre]({{< ref "upgrade-your-plan" >}})
 - [Parrainer]({{< ref "./sponsorship" >}})
-- [Tarifs Catalyst]({{< relref "catalyst-prices" >}})
-- [Tarifs Cloud]({{< relref "cloud-prices" >}})
+- [Tarifs Cloud Privé]({{< relref "private-cloud-prices" >}})
+- [Tarifs Cloud Public]({{< relref "public-cloud-prices" >}})
 - [Tarifs des interventions]({{< ref "servers-interventions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
 

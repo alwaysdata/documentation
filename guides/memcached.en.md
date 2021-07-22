@@ -7,7 +7,7 @@ tags = ["cache", "http", "memcached", "site"]
 
 [Memcached](https://www.memcached.org/) is an object-oriented cache engine.
 
-Here is a guide to installing it on the public cloud.
+Here is a guide to installing it on the Public Cloud.
 
 {{% notice info %}}
 For Catalyst users *Memcached* can be [installed at server level]({{< ref "databases/memcached">}}).

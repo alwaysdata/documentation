@@ -78,7 +78,7 @@ D'autres serveurs sont disponibles en sécurité, nous permettant de basculer ra
 
 Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
 
-Nous disposons d'une [offre Gold]({{< ref "accounts/billing/catalyst-prices" >}}#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
+Nous disposons d'une [offre Gold]({{< ref "accounts/billing/private-cloud-prices" >}}#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
 
 ### L'accès aux serveurs est-il sécurisé ?
 

@@ -2,7 +2,7 @@
 url = "/fr/sécurité/"
 title = "Politiques de sécurité"
 menuTitle = "Sécurité"
-weight = 35
+weight = 50
 chapter = true
 pre = "<i class='fas fa-fw fa-shield-alt'></i> "
 tags = ["sécurité"]

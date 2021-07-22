@@ -1,16 +1,16 @@
 +++
-title = "Catalyst pricing"
+title = "Private Cloud pricing"
 layout = "man"
 hidden = true
 tags = ["billing", "dedicated", "gold", "vps"]
 +++
 
-This page lists the prices of the Catalyst configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/).
+This page lists the prices of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/).
 
-For any Catalyst configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
+For any Private Cloud configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
 {{% notice note %}}
-*Catalyst* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administation part.
+*Private Cloud* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administation part.
 {{% /notice %}}
 
 ## Managed VPS servers
