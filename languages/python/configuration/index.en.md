@@ -139,3 +139,7 @@ Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standar
 You will have to use the and make the HTTP server listen in IPv6 and on the given port. For example:
 
 - Command: `uvicorn example:app --reload --port $PORT --host $IP`
+
+---
+
+- [Deploy a Fastapi (asyncio) application](https://pereprogramming.com/articles/comment-deployer-fastapi-chez-alwaysdata/) (platform user guide in French)

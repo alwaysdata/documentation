@@ -13,4 +13,4 @@ Le fonctionnement de [Lua](https://www.lua.org/) chez alwaysdata est très stand
 * la [configuration d'environnement]({{< ref "languages/lua/configuration" >}}#environnement) se fait simplement.
 
 
-Le framework [Sailor](http://sailorproject.org/) fait partie de nos applications autoinstallables.
+Les frameworks [Sailor](https://github.com/sailorproject/sailor) et [Lapis](https://leafo.net/lapis/) sont par exemple compatibles avec notre architecture.

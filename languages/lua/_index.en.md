@@ -11,4 +11,4 @@ The way [Lua](https://www.lua.org/) works at alwaysdata is very standard. If you
 - the [proposed versions]({{< ref "languages/lua/configuration">}}#versions-supported) range from 5.1 to 5.3,
 - the [environment configuration]({{< ref "languages/lua/configuration" >}}#environment) is easy to set up.
 
-The [Sailor](http://sailorproject.org/) framework is one of our autoinstallable applications.
+The [Sailor](https://github.com/sailorproject/sailor) and [Lapis](https://leafo.net/lapis/) frameworks are for example compatible with our architecture.
