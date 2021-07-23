@@ -38,7 +38,7 @@ People who add the addresses before changing the DNS records can, after making t
 
 ## Wildcard certificates
 
-When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
+When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
 
 ---
 ## Links

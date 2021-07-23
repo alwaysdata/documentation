@@ -15,7 +15,6 @@ All services (HTTP, but also remote access, databases, emails...) are secured by
 - [Add an SSL certificate]({{< relref "add-a-ssl-certificate" >}})
 - [Let's Encrypt certificates]({{< relref "lets-encrypt" >}})
 - [Generate a CSR]({{< relref "csr" >}})
-- [Use a SAN certificate]({{< relref "use-san-certificate" >}})
 - [Certificate priority]({{< relref "certificates-priorities" >}})
 - [Implement HSTS]({{< relref "hsts" >}})
 

@@ -16,7 +16,6 @@ Tous les services (HTTP, mais aussi accès distant, bases de données, emails...
 - [Ajouter un certificat SSL]({{< relref "add-a-ssl-certificate" >}})
 - [Certificats Let's Encrypt]({{< relref "lets-encrypt" >}})
 - [Générer une CSR]({{< relref "csr" >}})
-- [Utiliser un certificat SAN]({{< relref "use-san-certificate" >}})
 - [Priorité des certificats]({{< relref "certificates-priorities" >}})
 - [Implémenter HSTS]({{< relref "hsts" >}})
 
