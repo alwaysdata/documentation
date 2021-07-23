@@ -38,6 +38,7 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 * [Restaurer un site]({{< ref "backups/restore-a-site" >}})
 * [Connection to upstream]({{< relref "connection-to-upstream" >}})
 * [Problèmes fréquents]({{< relref "./troubleshooting" >}})
+* [Diverses questions]({{< relref "./misc" >}})
 
 ## Protection des communications sur internet
 

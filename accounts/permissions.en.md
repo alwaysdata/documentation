@@ -47,7 +47,7 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *SMTP configuration*: manage the e-mail send queue, SMTP relaying and spam score,
 - *Database users*: permit overall access to databases for all accounts,
 - *SSL configuration*: choose the SSL certificate to return to the server (`*.alwaysdata.net` by default) and the server [TLS configuration]({{< ref "security/ssl-tls/configure-tls" >}}),
-- *HTTP configuration*: choose a website that will be the default home page and the log retention period,
+- *HTTP configuration*: choose a website that will be the [default home page]({{< ref "sites/misc#http-default-site" >}}) and the [log retention period]({{< ref "remote-access/admin-directory#logs" >}}),
 - *Consumption*: monitor disk space consumption for your entire server,
 - *[Resources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})*: change the resource limits by account (e.g. RAM usage).
 

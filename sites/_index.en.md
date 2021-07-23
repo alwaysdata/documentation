@@ -33,11 +33,11 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 * [Deactivate a site]({{< relref "./deactivate-a-site" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
 - [Legal obligations on Internet]({{<ref "./legal-requirements-on-internet">}})
-
 * [Clean up a site]({{< relref "./clean-up-a-site" >}})
 * [Restore a site]({{< ref "backups/restore-a-site" >}})
 * [Connection to upstream]({{< relref "./connection-to-upstream">}})
 * [Troubleshooting]({{< relref "./troubleshooting" >}})
+* [Miscellaneous questions]({{< relref "./misc" >}})
 
 ## Internet communications protection
 

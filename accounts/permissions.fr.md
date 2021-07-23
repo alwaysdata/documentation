@@ -48,7 +48,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - _Configuration SMTP_ : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam ;
 - _Utilisateurs base de données_ : donnez un accès global aux bases de données de l'ensemble des comptes ;
 - _Configuration SSL_ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS]({{< ref "security/ssl-tls/configure-tls" >}}) du serveur ;
-- _Configuration HTTP_ : choisissez un site web qui sera la page d'accueil par défaut et la période de rétention des logs ;
+- _Configuration HTTP_ : choisissez un site web qui sera la [page d'accueil par défaut]({{< ref "sites/misc#site-http-par-defaut" >}}) et la [période de rétention des logs]({{< ref "remote-access/admin-directory#logs" >}}) ;
 - _Consommation_ : suivez la consommation d'espace disque sur l'ensemble de votre serveur ;
 - _[Ressources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})_ : modifiez les limitations de ressources par compte (ex : consommation RAM).
 
