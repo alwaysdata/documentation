@@ -48,6 +48,10 @@ To allow your own IP address to never be blocked on any port you can create the 
 
 {{< fig "images/rule-example.en.png" "Example" >}}
 
+{{% notice note %}}
+To specify all ports you can leave empty or enter the range `0:65535`.
+{{% /notice %}}
+
 ## Bans
 
 Here you will see the IP addresses currently banned and the services that they are banned from.

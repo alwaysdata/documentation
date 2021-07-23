@@ -46,6 +46,10 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 
 {{< fig "images/rule-example.fr.png" "Exemple" >}}
 
+{{% notice note %}}
+Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
+{{% /notice %}}
+
 ## Banissements
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
 {{< fig "images/admin-panel_list-bans.fr.png" "Interface d'administration : liste des bannissements en cours" >}}
