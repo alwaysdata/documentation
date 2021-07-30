@@ -28,10 +28,9 @@ To go further :
 
 We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API]({{< ref "api" >}}) is available for configuration operations on our administration interface.
 
-The main upgrade of our operating systems is done via an [automation tool]({{< ref "advanced/migrations" >}}) allowing to do it in an autonomous and flexible way per account. Minor upgrades are regular, and even immediate (< 24 hours) when a severe security flaw is published.
-
 Each account is isolated from each other via a containeristation based on [Cgroups](https://en.wikipedia.org/wiki/Cgroups). It runs its own programs, its own HTTP servers to provide high level security and customization.
 
 Our system distributes the available resources equally between all accounts on a server. When an account encounters consumption peaks, the platform redistributes its resources, from accounts who don’t need them, to temporarily reallocate them.
 
 - [HTTP stack]({{< ref "sites/http-stack" >}})
+- [Security Upgrades]({{< ref "security/security-upgrades" >}})

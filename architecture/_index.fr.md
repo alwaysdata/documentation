@@ -28,10 +28,9 @@ Pour aller plus loin :
 
 Nous utilisons autant que possible des solutions open source et nos serveurs tournent sous [Linux Debian x64](https://www.debian.org/). Tous nos services sont accessibles à distance et une [API REST]({{< ref "api" >}}) est disponible pour les opérations de configuration sur notre interface d'administration.
 
-La mise à jour principale de nos systèmes d'exploitation s'effectue via un [outil d'automatisation]({{< ref "advanced/migrations" >}}) permettant de le faire de façon autonome et flexible par compte. Les logiciels sont sinon mis à jour régulièrement, et même immédiatement (< 24h) en cas de publication d’une faille de sécurité sévère.
-
 Chaque compte est isolé les uns des autres via une conteneuristation basée sur [Cgroups](https://fr.wikipedia.org/wiki/Cgroups). Il exécute ainsi ses propres programmes, ses propres serveurs HTTP pour offrir une sécurisation et une personnalisation poussée.
 
 Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d’un serveur. Lorsque un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes peu ou pas actifs, pour les réaffecter temporairement.
 
 - [Stack HTTP]({{< ref "sites/http-stack" >}})
+- [Mises à jours de sécurité]({{< ref "security/security-upgrades" >}})
