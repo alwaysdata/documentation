@@ -29,6 +29,8 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de v
 Remplacez `ftp-[compte].alwaysdata.net` par votre nom d'hôte FTP.
 {{% /notice %}}
 
+Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en serveurs VPS et dédiés.
+
 ---
 - [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit ;
 - [net2ftp](https://net2ftp.alwaysdata.com/) : interface web.
