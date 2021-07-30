@@ -23,4 +23,5 @@ tags = ["sécurité"]
 - [Utiliser des clés SSH]({{< ref "remote-access/ssh/use-keys" >}})
 - [Plages d'IP alwaysdata]({{< relref "ip-ranges" >}})
 - [Plan de continuité d'activité]({{< relref "drp" >}})
+- [Mises à jour de sécurité]({{< ref "security/security-upgrades" >}})
 - [VPN]({{< relref "./vpn" >}})
