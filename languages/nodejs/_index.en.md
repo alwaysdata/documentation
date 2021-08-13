@@ -11,7 +11,7 @@ The way [Node.js](https://nodejs.org/) works at alwaysdata is very standard. If 
 - the [provisoned versions]({{< ref "languages/nodejs/configuration">}}#versions-supported) range from 6 to 16,
 - the [environment configuration]({{< ref "languages/nodejs/configuration" >}}#environment) is easy to set up.
 
-The [Express.js](https://expressjs.com/) framework is one of our autoinstallable applications and many other applications are compatible with our infrastructure; for example, [Meteor](https://www.meteor.com/), [Nuxt.js](https://nuxtjs.org/), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)...
+The [Express.js](https://expressjs.com/) framework is one of our autoinstallable applications and many other applications are compatible with our infrastructure. For example, [Meteor](https://www.meteor.com/), [Nuxt.js](https://nuxtjs.org/), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)...
 
 
 - [API resource](https://api.alwaysdata.com/v1/environment/nodejs/doc/)

@@ -8,7 +8,7 @@ tags = ["migration", "dedicated", "vps"]
 These migrations are done in four hands with the [support](https://admin.alwaysdata.com/support/).
 
 ## Step 1 - Accounts preparation
-The customer prepares the migrations for all accounts following the recommendations of the documentation page (like in public Cloud). It is possible to go back to correct problematic behaviors.
+The customer prepares the migrations for all accounts following the recommendations of the documentation page (like in Public Cloud). It is possible to go back to correct problematic behaviors.
 
 *Tests servers are available for databases.*
 

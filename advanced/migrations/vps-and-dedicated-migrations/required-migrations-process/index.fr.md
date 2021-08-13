@@ -9,7 +9,7 @@ tags = ["migration", "dédié", "vps"]
 Ces migrations sont effectuées à quatre mains avec le [support](https://admin.alwaysdata.com/support/).
 
 ## Étape 1 - Préparation des comptes
-Le client prépare l'ensemble des comptes du serveur en suivant les recommandations de la page de documentation (comme sur le Cloud public). Il est possible de revenir en arrière pour corriger des comportements problématiques.
+Le client prépare l'ensemble des comptes du serveur en suivant les recommandations de la page de documentation (comme sur le Cloud Public). Il est possible de revenir en arrière pour corriger des comportements problématiques.
 
 *Des serveurs de tests sont disponibles pour les bases de données.*
 

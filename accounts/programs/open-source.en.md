@@ -5,12 +5,12 @@ layout = "man"
 tags = ["billing", "open source"]
 +++
 
-A **10GB free [public Cloud](https://www.alwaysdata.com/en/pricing/#shared) plan** is offered to active open source projects.
+A **[10GB Public Cloud plan]({{< ref "accounts/billing/cloud-prices" >}})** is offered **free of charge** to active open source projects.
 
-To take advantage of this plan, present us your project by contacting us by [email](mailto:community@alwaysdata.com) or by opening [ticket](https://admin.alwaysdata.com/support/add/).
+To take advantage of this plan, present us your project by contacting us by [email](mailto:community@alwaysdata.com) or by opening a [support ticket](https://admin.alwaysdata.com/support/add/).
 
 Shortlist of OSS projects hosted at *alwaysdata* yet:
 
 - [Agorakit](https://agorakit.org/)
-- [AllegianceOS]()
+- AllegianceOS
 - [IHateMoney](https://ihatemoney.org/)
