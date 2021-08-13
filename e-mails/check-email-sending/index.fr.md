@@ -20,5 +20,7 @@ Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 - *Score SPAM* : score [Rspamd](https://www.rspamd.com/) ;
 - *Rapport SPAM* : détails du score Rspamd.
 
+Par défaut seuls les emails envoyés durant les 7 derniers jours sont affichés. Pour en trouver un autre, utilisez les filtres.
+
 [^1]: un email avec un score supérieur à 3 ne sera pas envoyé en serveurs mutualisés. En serveurs VPS et dédiés, la valeur par défaut est de 5 (modifiable).
 [^2]: cela peut être un blocage de notre antispam, un refus par les serveurs destinataires ou encore une non-réponse de leur part pendant plusieurs jours par exemple. L'expéditeur doit alors recevoir un *Mail delivery failed* reprenant les raisons du bounce.
