@@ -22,7 +22,9 @@ Du fait des particularités de notre infrastructure, leur script d'installation 
 
 - Répertoire de New Relic : `$HOME/newrelic/`
 
-### Étape 1 : Téléchargement de l'agent
+### Cloud Privé
+
+#### Étape 1 : Téléchargement de l'agent
 
 ```sh
 foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
@@ -30,7 +32,7 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[ne
 
 [Page de téléchargement](https://download.newrelic.com/php_agent/release/)
 
-### Étape 2 : Modification du php.ini
+#### Étape 2 : Modification du php.ini
 
 Ajoutez dans le `php.ini` (**Environnement > PHP**):
 
@@ -44,12 +46,37 @@ newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
 
 Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
-### Étape 3 : Lancement du démon
+#### Étape 3 : Lancement du démon
 
 Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
 - *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
 - *Répertoire de travail* : `/home/[foo]/newrelic`
+
+### Cloud Public
+
+#### Étape 1 : Téléchargement de l'agent
+
+```sh
+foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
+```
+
+[Page de téléchargement](https://download.newrelic.com/php_agent/release/)
+
+#### Étape 2 : Modification du php.ini
+
+Ajoutez dans le `php.ini` (**Environnement > PHP**):
+
+```ini
+extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+newrelic.license = "REPLACE_WITH_LICENSE_KEY"
+newrelic.enabled = true
+newrelic.loglevel = "info"
+newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
+newrelic.daemon.location="/home/[foo]/newrelic/daemon/newrelic-daemon.x64"
+```
+
+Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
 ## Python
 

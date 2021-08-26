@@ -21,7 +21,9 @@ Given the specificities of our infrastructure, their installation script cannot 
 
 - New Relic directory: `$HOME/newrelic/`
 
-### Step 1: Download the agent
+### Private Cloud
+
+#### Step 1: Download the agent
 
 ```sh
 foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
@@ -29,7 +31,7 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 
 [Download page](https://download.newrelic.com/php_agent/release/)
 
-### Step 2: Modify php.ini
+#### Step 2: Modify php.ini
 
 Add to `php.ini` (**Environment > PHP**):
 
@@ -43,12 +45,37 @@ newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
 
 More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
-### Step 3: Start the daemon
+#### Step 3: Start the daemon
 
 Create a [service]({{< ref "services" >}}) with the following details:
 
 - *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
 - *Working directory*: `/home/[foo]/newrelic`
+
+### Public Cloud
+
+#### Step 1: Download the agent
+
+```sh
+foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
+```
+
+[Download page](https://download.newrelic.com/php_agent/release/)
+
+#### Step 2: Modify php.ini
+
+Add to `php.ini` (**Environment > PHP**):
+
+```ini
+extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+newrelic.license = "REPLACE_WITH_REAL_KEY"
+newrelic.enabled = true
+newrelic.loglevel = "info"
+newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
+newrelic.daemon.location="/home/[foo]/newrelic/daemon/newrelic-daemon.x64"
+```
+
+More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
 
 ## Python
 
