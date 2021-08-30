@@ -12,7 +12,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and con
 - Account name: `foo`
 
 {{% notice note %}}
-`[foo]`, `[newrelic-last-version]`, `[version]` et `REPLACE\_WITH\_LICENSE\_KEY` must be replaced by accurate informations.
+`[foo]`, `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` must be replaced by accurate informations.
 {{% /notice %}}
 
 ## PHP
