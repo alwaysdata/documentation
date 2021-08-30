@@ -5,13 +5,13 @@ layout = "man"
 tags = ["java"]
 +++
 
-## Supported Versions
+## Supported versions
 
-| Major versions |
-| -------------- |
-| 14             |
-| 11             |
-| 8              |
+||
+| -- |
+| 14 |
+| 11 |
+| 8  |
 
 The default version is Java 14. This is the version that is especially used when you start `java`.
 

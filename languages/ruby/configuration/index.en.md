@@ -7,7 +7,7 @@ tags = ["ruby"]
 
 `[package]` and `[version]` have to be replaced by the name of the package and version to be installed.
 
-## Supported Versions (Major Versions)
+## Supported versions
 
 |       |
 | ----- |

@@ -8,7 +8,7 @@ tags = ["ruby"]
 
 `[paquet]` et `[version]` sont à remplacer par le nom du paquet et de la version à installer.
 
-## Versions supportées (majeures)
+## Versions supportées
 
 |  |
 | --- |

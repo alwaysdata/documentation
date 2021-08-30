@@ -7,9 +7,9 @@ tags = ["python"]
 
 `[package]` and `[version]` have to be replaced by the name of the package and version to be installed.
 
-## Versions supported
+## Supported versions
 
-|Major versions|
+||
 |--- |
 |3.9, 3.8, 3.7, 3.6, 3.5, 3.4, 3.3|
 |2.7, 2.6, 2.5, 2.4|

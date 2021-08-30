@@ -5,7 +5,7 @@ layout = "man"
 tags = ["elixir"]
 +++
 
-## Supported Versions (Major Versions)
+## Supported versions
 
 | |
 | --------------------------------------- |

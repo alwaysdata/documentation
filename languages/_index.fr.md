@@ -10,6 +10,7 @@ chapter = true
 
 Retrouvez toutes les informations sur les technologies propulsées par nos serveurs :
 
+* [.NET](({{< ref "languages/net" >}}))
 * [Deno]({{< ref "languages/deno" >}})
 * [Elixir]({{< ref "languages/elixir" >}})
 * [Go]({{< ref "languages/go" >}})

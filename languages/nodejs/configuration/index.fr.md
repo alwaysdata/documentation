@@ -8,7 +8,7 @@ tags = ["nodejs"]
 
 `[paquet]` est à remplacer par le nom du paquet à installer.
 
-## Versions supportées (majeures)
+## Versions supportées
 
 ||
 |---|

@@ -5,10 +5,12 @@ layout = "man"
 tags = ["deno"]
 +++
 
-## Supported Versions
+## Supported versions
 
-|Major versions|
+||
 |--------------|
+| 1.12         |
+| 1.10         |
 | 1.8          |
 | 1.7          |
 | 1.5          |
@@ -16,7 +18,7 @@ tags = ["deno"]
 | 1.2          |
 | 1.0          |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Deno**. C'est cette version qui est notamment utilisée lorsque vous démarrez `deno`.
+The default version can be changed from the administration section, under **Environment > Deno**. This is the version that is especially used when you start `deno`.
 
 Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
 

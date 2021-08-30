@@ -5,10 +5,10 @@ layout = "man"
 tags = ["lua"]
 +++
 
-## Versions supported
+## Supported versions
 
-|Major versions|
-|--- |
+||
+|---|
 |5.3|
 |5.2|
 |5.1|

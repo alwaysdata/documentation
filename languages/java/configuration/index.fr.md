@@ -8,11 +8,11 @@ tags = ["java"]
 
 ## Versions supportées
 
-| Majeures |
-|----------|
-| 14       |
-| 11       |
-| 8        |
+| |
+|----|
+| 14 |
+| 11 |
+| 8  |
 
 La version par défaut est Java 14. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 

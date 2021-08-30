@@ -8,7 +8,7 @@ tags = ["lua"]
 
 ## Versions supportées
 
-| Majeures | 
+| |
 |----------|
 | 5.3      |
 | 5.2      |
