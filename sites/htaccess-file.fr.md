@@ -15,9 +15,11 @@ Protégez à l'aide d'un identifiant et d'un mot de passe l'accès à des fichie
 ```
 AuthName "Accès protégé"
 AuthType Basic
-AuthUserFile /chemin/au/.htpasswd
+AuthUserFile /chemin/absolu/au/.htpasswd
 Require valid-user
 ```
+
+La variable `$HOME` peut être utilisée pour indiquer la racine du compte.
 
 Le fichier `.htpasswd` contient la liste des couples d'identifiants/mot de passe autorisés. Il peut être placé n'importe où, mais ne doit pas être lisible de l'extérieur.
 

@@ -14,9 +14,11 @@ Use an ID and password to protect the access to file for certain users.
 ```
 AuthName "Protected access"
 AuthType Basic
-AuthUserFile /chemin/au/.htpasswd
+AuthUserFile /absolute/path/to/.htpasswd
 Require valid-user
 ```
+
+The `$HOME` variable can be used to indicate the root of the account.
 
 The `.htpasswd` contains the list of Id/password combinations allowed. It can be placed anywhere but it must not be readable from the outside.
 
