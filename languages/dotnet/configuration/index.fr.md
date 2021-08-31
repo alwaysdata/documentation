@@ -1,5 +1,5 @@
 +++
-url = "/fr/langages/net/configuration/"
+url = "/fr/langages/dotnet/configuration/"
 title = "Configurer .NET"
 hidden = true
 layout = "man"
