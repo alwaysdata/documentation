@@ -14,9 +14,9 @@ En hébergeant vous-même Gitea dans votre compte alwaysdata, vous pourrez accé
 
 ## Installation
 
-### Utiliser l'applithèque
+### Utiliser notre marketplace
 
-La façon la plus pratique d'installer Gitea est d'utiliser [notre applithèque]({{< ref "marketplace">}}) pour déployer la dernière version.
+La façon la plus pratique d'installer Gitea est d'utiliser notre [marketplace]({{< ref "marketplace">}}) pour déployer la dernière version.
 
 [Ce script d'installation](https://admin.alwaysdata.com/site/application/script/2/detail/) :
 

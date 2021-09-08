@@ -1,5 +1,5 @@
 +++
-url = "/fr/applithèque/drupal/"
+url = "/fr/marketplace/drupal/"
 title = "Drupal"
 layout = "man"
 tags = ["drupal"]

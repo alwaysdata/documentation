@@ -1,5 +1,5 @@
 +++
-url = "/fr/applithèque/magento/"
+url = "/fr/marketplace/magento/"
 title = "Magento"
 layout = "man"
 tags = ["magento"]

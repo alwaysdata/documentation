@@ -19,7 +19,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 
 ## Installation
 
-1. Installez TiddlyWiki via [l'applithèque]({{< ref "marketplace" >}}) ou par vous-même.
+1. Installez TiddlyWiki via notre [marketplace]({{< ref "marketplace" >}}) ou par vous-même.
 2. À la racine du TiddlyWiki, téléchargez la dernière version du [binaire du plugin Bob](https://github.com/OokTech/TW5-BobEXE) et mettez-le en place :
 
 ```sh
@@ -45,7 +45,7 @@ foo@ssh:~/wiki$ ./BobLinux
 
 - le type de site sera **Programme utilisateur** ;
 - le champ **Commande** du site doit être : `./BobLinux IndexWiki` ;
-- si vous étiez passé par l'applithèque, l'authentification mise en place à l'installation de TiddlyWiki ne sera plus en place.
+- si vous étiez passé par notre marketplace, l'authentification mise en place à l'installation de TiddlyWiki ne sera plus en place.
 
 {{% notice note %}}
 Nous ne recommandons pas de faire fonctionner TiddlyWiki avec le plugin Bob sous une URL avec un sous-chemin. Malgré le support des [Proxies](https://github.com/OokTech/TW5-Bob/blob/master/Documentation/Using%20Proxies.tid) par le plugin, cela peut conduire à des incohérences comme des WebSocket inutilisables. Hébergez-le plutôt dans un sous-domaine.

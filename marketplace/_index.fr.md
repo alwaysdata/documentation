@@ -1,6 +1,6 @@
 +++
-url = "/fr/applithèque"
-title = "Applithèque"
+url = "/fr/marketplace"
+title = "Marketplace"
 weight = 110
 pre = "<i class='fas fa-fw fa-store'></i> "
 +++
@@ -15,6 +15,6 @@ Le système créé leurs répertoires durant l'installation.
 
 ---
 
-Si notre applithèque ne propose pas ce que vous cherchez, installez-le à la main - et automatisez son déploiement :
+Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main - et automatisez son déploiement :
 
 - [Créer un script d'installation applicatif]({{< ref "marketplace/build-application-script" >}})

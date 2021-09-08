@@ -11,7 +11,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 {{< fig "images/admin-panel_sites-list.fr.png" "Interface d'administration : liste des sites" >}}
 
 {{% notice tip %}}
-Si vous partez de zéro vous pouvez profiter de notre [applithèque]({{< ref "marketplace" >}}) en allant dans **Web > Sites > Installer une application**.
+Si vous partez de zéro vous pouvez profiter de notre [marketplace]({{< ref "marketplace" >}}) en allant dans **Web > Sites > Installer une application**.
 {{% /notice %}}
 
 - Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;

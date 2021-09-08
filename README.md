@@ -210,7 +210,7 @@ Pages **must** start with a Front Matter block,. it may be written in YAML (usin
 
 ```
 +++
-url = "/fr/applithèque/créer-son-script-d-application/"
+url = "/fr/marketplace/créer-son-script-d-application/"
 title = "Créer son propre script d'application"
 menuTitle = "Créer son propre script"
 layout = "man"

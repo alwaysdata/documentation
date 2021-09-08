@@ -1,5 +1,5 @@
 +++
-url = "/fr/applithèque/prestashop/"
+url = "/fr/marketplace/prestashop/"
 title = "PrestaShop"
 layout = "man"
 tags = ["prestashop"]

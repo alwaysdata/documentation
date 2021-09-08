@@ -1,5 +1,5 @@
 +++
-url = "/fr/applithèque/nextcloud/"
+url = "/fr/marketplace/nextcloud/"
 title = "Nextcloud"
 layout = "man"
 tags = ["nextcloud"]

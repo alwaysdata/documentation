@@ -1,5 +1,5 @@
 +++
-url = "/fr/applithèque/wordpress/"
+url = "/fr/marketplace/wordpress/"
 title = "WordPress"
 layout = "man"
 tags = ["wordpress"]

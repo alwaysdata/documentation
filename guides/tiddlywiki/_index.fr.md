@@ -2,14 +2,14 @@
 title = "Installer TiddlyWiki"
 layout = "howto"
 hidden = true
-tags = ["applithèque", "tiddlywiki"]
+tags = ["marketplace", "tiddlywiki"]
 +++
 
 [TiddlyWiki](https://tiddlywiki.com/) est un "carnet Web non linéaire". Il est dédié à l'organisation de fragments d'informations (telles que *notes*, *images*, et plus) en les sauvegardant et en les reliant de manière intelligente. Il peut être servi comme un fichier HTML statique ou via un site [Node.js]({{<ref "languages/nodejs">}}).
 
-## Installation via l'[applithèque]({{<ref "marketplace">}})
+## Installation via notre [marketplace]({{<ref "marketplace">}})
 
-Notre applithèque propose un script pour installer TiddlyWiki automatiquement. Dans votre interface d'administration, allez à la section **Web > Sites**, cliquez sur le bouton *Installer une application*, et sélectionnez l'entrée *TiddlyWiki* en cliquant sur la roue dentée.
+Notre marketplace propose un script pour installer TiddlyWiki automatiquement. Dans votre interface d'administration, allez à la section **Web > Sites**, cliquez sur le bouton *Installer une application*, et sélectionnez l'entrée *TiddlyWiki* en cliquant sur la roue dentée.
 
 Remplissez les champs selon votre préférence, et lancez l'installateur.
 
@@ -19,7 +19,7 @@ Remplissez les champs selon votre préférence, et lancez l'installateur.
 
 Vous pouvez simplement utiliser l'accès à distance WebDAV pour modifier votre TiddlyWiki, et le servir publiquement en lecture seule en utilisant le type de site *statique* :
 
-1. Téléchargez un TiddlyWiki vide à [la page de téléchargement](https://tiddlywiki.com/#GettingStarted)
+1. Téléchargez un TiddlyWiki vide à la [page de téléchargement](https://tiddlywiki.com/#GettingStarted)
 2. En utilisant [FTP]({{<ref "remote-access/ftp">}}) ou [SFTP]({{<ref "remote-access/sftp">}}), téléversez le fichier sur votre compte (par exemple dans `$HOME/notes/wiki/index.html`)
 3. Ouvrez votre navigateur et entrez l'adresse `https://webdav-[compte].alwaysdata.net/[chemin/à partir de l'ACCUEIL]/[nom de fichier].html` (par exemple `https://webdav-[compte].alwaysdata.net/notes/wiki/index. html`), en utilisant votre *nom d'utilisateur du compte* et *mot de passe du compte* pour vous authentifier dans la fenêtre d'authentification *basic* (vous pouvez également créer un [utilisateur WebDAV]({{<ref "remote-access/webdav/create-a-webdav-user">}}) dédié à cette fin)
 
