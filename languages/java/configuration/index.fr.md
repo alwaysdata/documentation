@@ -10,11 +10,12 @@ tags = ["java"]
 
 | |
 |----|
+| 17 |
 | 14 |
 | 11 |
 | 8  |
 
-La version par défaut est Java 14. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
+La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Java**. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 
 Les versions ne sont pas forcément [déjà installées]({{< ref "languages#-versions" >}}).
 
