@@ -32,3 +32,5 @@ Once you have tested the migration and you are sure that everything works proper
 {{% notice warning %}}
 Once the migration is done, there is no going back.
 {{% /notice %}}
+
+- [Specificities related to migration of VPS and dedicated servers]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})

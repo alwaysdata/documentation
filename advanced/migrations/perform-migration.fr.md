@@ -33,3 +33,5 @@ Une fois que vous avez testé la migration et que vous vous êtes assuré que to
 {{% notice warning %}}
 Une fois la migration effectuée, il ne sera pas possible de revenir en arrière.
 {{% /notice %}}
+
+- [Spécificités concernant la migrations des serveurs VPS et dédiés]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
