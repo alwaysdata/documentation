@@ -14,8 +14,8 @@ You have **30 days** to pay it in **Billing > Invoices > Credit the account** or
 - [Choose your hosting plan]({{< ref "choose-its-paas" >}})
 - [Change plan]({{< ref "upgrade-your-plan" >}})
 - [Sponsorship]({{< ref "./sponsorship" >}})
-- [Catalyst prices]({{< relref "catalyst-prices" >}})
-- [Cloud prices]({{< relref "cloud-prices" >}})
+- [Private Cloud prices]({{< relref "private-cloud-prices" >}})
+- [Public Cloud prices]({{< relref "public-cloud-prices" >}})
 - [Interventions fees]({{< ref "servers-interventions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})
 

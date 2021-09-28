@@ -1,17 +1,17 @@
 +++
-url = "/fr/comptes/facturation/prix-catalyst/"
-title = "Tarifs Catalyst"
+url = "/fr/comptes/facturation/prix-cloud-privé/"
+title = "Tarifs Cloud Privé"
 layout = "man"
 hidden = true
 tags = ["facturation", "serveur dédié", "serveur gold", "serveur VPS"]
 +++
 
-Cette page recence les prix des configurations Catalyst. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/catalyst/).
+Cette page recence les prix des configurations Cloud Privé. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/catalyst/).
 
-Pour tout achat d'une configuration Catalyst, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
+Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
 {{% notice note %}}
-*Catalyst* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas à gérer l'administration des systèmes.
+*Cloud Privé* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas à gérer l'administration des systèmes.
 {{% /notice %}}
 
 ## Serveurs VPS infogérés

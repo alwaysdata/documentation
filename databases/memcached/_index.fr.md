@@ -16,7 +16,7 @@ tags = ["base de données", "memcached"]
 Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Memcached n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref "accounts/billing/catalyst-prices" >}}).
+Memcached n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
 ---

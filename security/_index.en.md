@@ -1,7 +1,7 @@
 +++
 title = "Security Policies"
 menuTitle = "Security"
-weight = 35
+weight = 50
 chapter = true
 pre = "<i class='fas fa-fw fa-shield-alt'></i> "
 tags = ["security"]

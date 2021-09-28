@@ -1,6 +1,6 @@
 +++
 url = "/fr/comptes/restrictions-du-cloud-public/"
-title = "Restrictions du Cloud public"
+title = "Restrictions du Cloud Public"
 layout = "man"
 hidden = true
 tags = ["abus", "plan gratuit", "cloud public"]
