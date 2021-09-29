@@ -15,7 +15,7 @@ alwaysdata propose plusieurs types d'environnement :
 |---|---|---|
 | [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})[^3] || Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
 ||| GTI 1h, GTR 4h, Taux de disponibilité 99.7 % |
-| [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) | VPS | Serveur virtuel sur serveur physique - serveur physique hébergeant moins de 10 utilisateurs |
+| [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) | VPS | Serveur virtuel sur serveur physique - serveur physique hébergeant moins de 10 utilisateurs |
 ||| Isolation par compte sans facturation supplémentaire |
 ||| GTI 30min, GTR 2h, Taux de disponibilité 99.8 % |
 || Dédié | Serveur physique réservé à un seul utilisateur |
