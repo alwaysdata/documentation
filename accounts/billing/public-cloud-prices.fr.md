@@ -8,8 +8,8 @@ tags = ["cloud", "facturation"]
 
 Cette page recence les prix des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/#contact).
 
-* GTI : 1h
-* GTR : 4h
+* Garantie de Temps d'Intervention (GTI) : 1h
+* Garantie de Temps de Rétablissement (GTR) : 4h
 * Taux de disponibilité : 99.7 %
 
 |                   | Cloud 100 Mo[^1] | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go | Cloud 100 Go[^2] | Cloud 150 Go[^2] | Cloud 300 Go[^2] |

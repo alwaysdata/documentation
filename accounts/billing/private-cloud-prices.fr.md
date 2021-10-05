@@ -16,8 +16,8 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 
 ## Serveurs VPS infogérés
 
-* GTI : 30min
-* GTR : 2h
+* Garantie de Temps d'Intervention (GTI) : 30min
+* Garantie de Temps de Rétablissement (GTR) : 2h
 * Taux de disponibilité : 99.8 %
 
 
@@ -33,8 +33,8 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 
 ## Serveurs dédiés infogérés
 
-* GTI : 15min
-* GTR : 1h
+* Garantie de Temps d'Intervention (GTI) : 15min
+* Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.9 %
 
 | Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |
@@ -70,8 +70,8 @@ Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com
 
 Serveur dédié redondé dans un autre datacenter.
 
-* GTI : 15min
-* GTR : 1h
+* Garantie de Temps d'Intervention (GTI) : 15min
+* Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.95 %
 
 | Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |

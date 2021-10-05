@@ -8,8 +8,8 @@ tags = ["facturation", "serveur dédié"]
 
 Voici le prix des options des serveurs dédiés ayant une configuration installée [avant mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/).
 
-* GTI : 15min
-* GTR : 1h
+* Garantie de Temps d'Intervention (GTI) : 15min
+* Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.9 %
 
 | Détail     | Tarif/mois (HT) | Tarif/an (HT) |
