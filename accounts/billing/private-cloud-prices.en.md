@@ -15,8 +15,8 @@ For any Private Cloud configuration order, the installation of the server is don
 
 ## Managed VPS servers
 
-* SRT: 30 mins
-* IRT: 2hr
+* Guaranteed Response Time (GRT): 30 mins
+* Mean Time To Repair (MTTR): 2hr
 * Availability rate: 99.8%
 
 |                            | VPS A            | VPS B            |
@@ -31,8 +31,8 @@ For any Private Cloud configuration order, the installation of the server is don
 
 ## Managed Dedicated servers
 
-* SRT: 15 mins
-* IRT: 1hr
+* Guaranteed Response Time (GRT): 15 mins
+* Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.9%
 
 | Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |
@@ -68,8 +68,8 @@ If the dedicated server was taken before [March 2020](https://blog.alwaysdata.co
 
 Dedicated server redunded in another datacenter.
 
-* SRT: 15 mins
-* IRT: 1hr
+* Guaranteed Response Time (GRT): 15 mins
+* Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.95%
 
 | Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |

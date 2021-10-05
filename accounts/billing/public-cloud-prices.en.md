@@ -7,8 +7,8 @@ tags = ["billing", "cloud"]
 
 This page lists the prices of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/#contact).
 
-* SRT: 1hr
-* IRT: 4hr
+* Guaranteed Response Time (GRT): 1hr
+* Mean Time To Repair (MTTR): 4hr
 * Availability rate: 99.7%
 
 |                    | Cloud 100MB[^1] | Cloud 10GB     | Cloud 20GB    | Cloud 50GB    | Cloud 100GB[^2] | Cloud 150GB[^2] | Cloud 300GB[^2] |
