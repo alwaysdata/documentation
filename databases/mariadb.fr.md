@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/mariadb-mysql/"
+url = "/fr/bases-de-données/mariadb/"
 title = "MariaDB / MySQL"
 layout = "man"
 tags = ["base de données", "mariadb", "mysql"]
