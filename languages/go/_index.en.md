@@ -11,4 +11,4 @@ The way [Go](https://golang.org/) works at alwaysdata is very standard. If you a
 - Go is a compiled language that does not need an interpreter to run the programs but [version]({{< ref "languages/go/configuration">}}#version) 1.11 is available.
 - Its [HTTP deployment]({{< ref "languages/go/configuration">}}#deployment-http) is simple.
 
-The [Macaron](https://go-macaron.com/) framework is one of our autoinstallable applications and lot of other applications are compatible. For example, [Beego](https://beego.me/), [Iris](https://iris-go.com/), [Gin](https://gin-gonic.github.io/gin/) or [Revel](https://revel.github.io/).
+The [Macaron](https://go-macaron.com/) framework is one of our autoinstallable applications and lot of other applications are compatible. For example, [Beego](https://beego.me/), [Iris](https://iris-go.com/), [Gin](https://gin-gonic.com/) or [Revel](https://revel.github.io/).
