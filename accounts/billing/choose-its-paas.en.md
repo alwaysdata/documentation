@@ -16,13 +16,13 @@ alwaysdata proposes several kinds of environment:
 ||| GRT 1hr, MTTR 4hrs, Availability rate 99.7% |
 | [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
 ||| Isolation per account without additional billing |
-||| GRT 30 mins, MTTR 2hrs, Availability rate 99.8% |
+||| GRT 30mins, MTTR 2hrs, Availability rate 99.8% |
 || Dedicated | Bare-metal server exclusively for a single user |
 ||| Isolation per account without additional billing |
-||| GRT 15 mins, MTTR 1hr, Availability rate 99.9% |
+||| GRT 15mins, MTTR 1hr, Availability rate 99.9% |
 || Gold | Bare-metal server exclusively for a single user, **redundated** in another datacenter |
 ||| Isolation per account without additional billing |
-||| GRT 15 mins, MTTR 1hr, Availability rate 99.95% |
+||| GRT 15mins, MTTR 1hr, Availability rate 99.95% |
 
 For all these offers you can have unlimited sites, domains, databases, e-mails, etc.
 
