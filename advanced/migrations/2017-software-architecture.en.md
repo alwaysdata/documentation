@@ -200,7 +200,7 @@ This error indicates a missing system library. Although most of the system libra
 The following libraries are affected:
 
 - [libgmp](https://gmplib.org)
-- [libreadline](https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html)
+- libreadline
 - [libtiff](http://www.libtiff.org/)
 
 In general, these libraries are not used directly by the applications, but through dependencies (Python module, Ruby gem, PHP extension). Recompiling these modules on the new infrastructure will generally let them use the new library version, but then they will no longer run on the former infrastructure.

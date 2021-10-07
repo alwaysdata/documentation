@@ -215,7 +215,7 @@ Cette erreur indique qu'une bibliothèque système est absente. Si la grande maj
 Les bibliothèques suivantes sont concernées :
 
 * [libgmp](https://gmplib.org)
-* [libreadline](https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html)
+* libreadline
 * [libtiff](http://www.libtiff.org/)
 
 En général, ces bibliothèques ne sont pas utilisées directement par les applications, mais par l'intermédiaire de dépendances (module Python, gem Ruby, extension PHP). Recompiler ces modules sur la nouvelle infrastructure leur permettra en général d'utiliser la nouvelle version de la bibliothèque, mais ils ne fonctionneront alors plus sur l'ancienne infrastructure.
