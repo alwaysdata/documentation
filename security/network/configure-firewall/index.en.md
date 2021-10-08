@@ -21,36 +21,50 @@ If you have a number of rules, the rule placed highest will take precedence over
 
 To add a rule, choose:
 
-- the protocol: [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) or [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol),
-
+- the protocol: [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) or [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - the type of rule: ACCEPT, DROP (reject without informing the sender) or REJECT,
 - the direction: in our out,
-- the relevant IP/hosts,
+- the relevant IPs/hosts,
 - the ports,
-- The IP version.
+- The IPs version.
 
-Not putting anything in Hosts and Ports will enable the rule for all unless a higher rule states the opposite.
+Not putting anything in *Hosts* and *Ports* will enable the rule for all unless a higher rule states the opposite.
 
 {{< fig "images/admin-panel_add-rule.en.png" "Administration interface: adding a rule" >}}
 
 It is possible to give a label to your rules by using ```# <label>```.
 
-To allow your own IP address to never be blocked on any port you can create the following rules:
+{{% notice note %}}
+To specify all ports you can leave empty or enter the range `0:65535`.
+{{% /notice %}}
+
+### Examples
+
+#### Allow your own IP address to never be blocked on any ingoing port
 
 |Title|Value|
 |--- |--- |
 |Protocol|UDP/TCP|
 |Type|ACCEPT|
 |Direction|Input|
-|Hosts|<your IP>|
-|Ports|<specify nothing>|
+|Hosts|\<your IP>|
+|Ports|\<specify nothing>|
 |IP version|IPv4, IPv6 or IPv4/IPv6 (depending on the stated IPs)|
 
-{{< fig "images/rule-example.en.png" "Example" >}}
+{{< fig "images/rule-example-accept.en.png" "" >}}
 
-{{% notice note %}}
-To specify all ports you can leave empty or enter the range `0:65535`.
-{{% /notice %}}
+#### Block the MySQL port from outside
+
+|Title|Value|
+|--- |--- |
+|Protocol|UDP/TCP|
+|Type|REJECT|
+|Direction|Input|
+|Hosts|\<specify nothing>|
+|Ports|3306|
+|IP version|IPv4/IPv6|
+
+{{< fig "images/rule-example-reject.en.png" "" >}}
 
 ## Bans
 

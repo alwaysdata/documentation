@@ -27,13 +27,19 @@ Pour ajouter une règle, choisissez :
 - les ports ;
 - la version des IP.
 
-Ne rien mettre dans Hôtes et Ports va activer la règle pour tous sauf si une règle supérieure indique le contraire.
+Ne rien mettre dans *Hôtes* et *Ports* va activer la règle pour tous sauf si une règle supérieure indique le contraire.
 
 {{< fig "images/admin-panel_add-rule.fr.png" "Interface d'administration : ajouter une règle" >}}
 
 Il est possible de donner un label à ses règles en utilisant ```# <label>```.
 
-Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la règle suivante :
+{{% notice note %}}
+Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
+{{% /notice %}}
+
+### Exemples
+
+#### Autoriser sa propre IP à n'être bloquée sur aucun port entrant
 
 | Intitulé   | Valeur                                           |
 |------------|--------------------------------------------------|
@@ -44,11 +50,21 @@ Pour autoriser sa propre IP à n'être bloquée sur aucun port on peut créer la
 | Ports      | \<ne rien indiquer>                              |
 | Version IP | IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées) |
 
-{{< fig "images/rule-example.fr.png" "Exemple" >}}
+{{< fig "images/rule-example-accept.fr.png" "" >}}
 
-{{% notice note %}}
-Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
-{{% /notice %}}
+#### Bloquer le port MySQL sur l'extérieur
+
+| Intitulé   | Valeur                                           |
+|------------|--------------------------------------------------|
+| Protocole  | UDP/TCP                                          |
+| Type       | REJECT                                           |
+| Direction  | Entrée                                           |
+| Hôtes      | \<ne rien indiquer>                              |
+| Ports      | 3306                                             |
+| Version IP | IPv4/IPv6                                        |
+
+{{< fig "images/rule-example-reject.fr.png" "" >}}
+
 
 ## Banissements
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
