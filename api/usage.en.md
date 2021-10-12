@@ -22,7 +22,7 @@ A rate limit is applied on API requests. See [here](#rate-limit) for more detail
 
 ### Linked resources
 
-If you access resources linked to a user or a specific account, then you will need to specify this with your authentication while specifying one or more parameter(s):
+If you access resources linked to a user or a specific account, then you will need to specify this with your authentication while using one of the following parameters:
 
 - **account**: this is the account you wish to access. If for example you have a number of accounts but you wish to access a resource in a specific account.
 - **customer**: if you have certain permissions on another user, then you need to specify their e-mail address.
