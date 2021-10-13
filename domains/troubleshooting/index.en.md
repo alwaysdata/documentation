@@ -45,7 +45,7 @@ A change of owner needs to be accepted by both the former and the new owner with
 
 A `whois` will show the following message: `Domain Status: clientHold`
 
-From the alwaysdata administration interface, the following message - **Domains > Details** tab in the **> Status** domain - lets you send the e-mail:
+From the alwaysdata administration interface, the following message - **Domains > Details o [example.org] - 🔎 > Status** tab - lets you send the e-mail:
 
 ```
 This domain was suspended by ICANN as its owner did not confirm their e-mail address within 15 days of creation, transfer or sale.

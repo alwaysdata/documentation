@@ -53,7 +53,7 @@ A response **CANNOT** be cached if:
 
 ## 2. Activate the HTTP cache
 
-This is done in **Web > Sites > Modify** the site **> Cache**.
+This is done in **Web > Sites > Edit the [site] - ⚙️ > Cache**.
 
 {{< fig "images/admin-panel_add-site-cache.en.png" "Add a site: HTTP cache" >}}
 

@@ -7,7 +7,7 @@ tags = ["domains", "sites"]
 
 To allow another alwaysdata user to use a subdomain belonging to your domain, you need to grant them permission.
 
-To do this, go to **Domains > Details** for the relevant domain **> Delegations > Add a delegation**.
+To do this, go to **Domains > Details of [example.org] - 🔎 > Delegations > Add a delegation**.
 
 {{< fig "images/admin-panel_subdomain-delegation-list.en.png" "Delegations menu" >}}
 

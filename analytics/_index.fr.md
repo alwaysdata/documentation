@@ -17,7 +17,7 @@ Rendez-vous dans la section **Web > Analytics**.
 
 
 ### Segmenter les sites
-Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segmenter dans le menu **Gestion des sites Piwik** de cette section :
+Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segmenter dans le menu **SITES MATOMO** de cette section :
 {{< fig "admin-panel_stats.fr.png" "Menu des statistiques Matomo" >}}
 
 - Éditez le site par défaut pour déselectionner les sites web ;
@@ -26,4 +26,4 @@ Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segment
 
 
 ### Ajouter des utilisateurs
-Pour ajouter des utilisateurs et gérer leurs droits, rendez-vous dans le menu **Gestion des utilisateurs Piwik**.
+Pour ajouter des utilisateurs et gérer leurs droits, rendez-vous dans le menu **UTILISATEURS**.

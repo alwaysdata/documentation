@@ -6,7 +6,7 @@ hidden = true
 tags = ["http", "site", "waf"] 
 +++
 
-Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'administration dans **Web > Sites > Modifier** le site **> WAF**.
+Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le [site] - ⚙️ > WAF**.
 {{< fig "images/admin-panel_add-site-waf.fr.png" "Ajouter un site : WAF" >}}
 
 ## Profils disponibles

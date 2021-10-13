@@ -14,7 +14,7 @@ Before starting the operation the owner needs to:
   - check that the owner’s information is correct and visible in the `whois` [^1],
   - retrieve the authorization code.
 
-This information is retrieved from the **Domains > Details** tab for domain: 
+This information is retrieved from the **Domains > Details of [example.org] - 🔎** tab:
 
 {{< fig "images/admin-panel_domain-details.en.png" "Prepare a transfer" >}}
 

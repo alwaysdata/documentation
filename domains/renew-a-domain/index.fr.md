@@ -6,16 +6,16 @@ hidden = true
 tags = ["domaine"]
 +++
 
-Rendez-vous dans **Domaines > Détails** du domaine concerné **> Renouveler**.
+Rendez-vous dans **Domaines > Détails de [exemple.org] - 🔎 > RENOUVELER**.
 {{< fig "images/admin-panel_renew.fr.png" "Renouveler un domaine" >}}
 
 - [Dates limites]({{< ref "domains/deadlines" >}})
 
 ## Renouvellement automatique
 
-Il se met en place via  **Domaines > Détails** du domaine concerné **> Activer** (en face de **Renouvellement automatique**).
+Il se met en place via  **Domaines > Détails de [exemple.org] - 🔎 > ACTIVATE** (en face de **Renouvellement automatique**).
 
-Pour mettre en place le renouvellement automatique sur tous les domaines d'un compte, rendez-vous dans **Domaines > Configuration** (accessible via le menu déroulant à droite de **Ajouter un domaine**).
+Pour mettre en place le renouvellement automatique sur tous les nouveaux domaines d'un compte, rendez-vous dans **Domaines > Configuration** (accessible via le menu déroulant à droite de **Ajouter un domaine**).
 {{< fig "images/admin-panel_auto-renew-all.fr.png" "Paramétrer le renouvellement automatique de tous les domaines" >}}
 
 Un domaine pour lequel le renouvellement automatique est activé a une icône l'indiquant :

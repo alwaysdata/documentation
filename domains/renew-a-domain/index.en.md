@@ -5,7 +5,7 @@ hidden = true
 tags = ["domains"]
 +++
 
-Go to **Domains > Details** for the relevant domain and **> Renew**.
+Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
 {{< fig "images/admin-panel_renew.en.png" "Renew a domain" >}}
 
@@ -14,9 +14,9 @@ Go to **Domains > Details** for the relevant domain and **> Renew**.
 
 ## Automatic renewal
 
-This is set up via **Domains > Details** for the relevant domain **> Activate** (opposite **Automatic renewal**).
+This is set up via **Domains > Details of [example.org] - 🔎 > ACTIVATE** (opposite **Automatic renewal**).
 
-To set up automatic renewal for all of the domains in an account, go to **Domains > Configuration** (accessible via the drop down menu on the right of **Add a domain**).
+To set up automatic renewal for all of the new domains in an account, go to **Domains > Configuration** (accessible via the drop down menu on the right of **Add a domain**).
 
 {{< fig "images/admin-panel_auto-renew-all.en.png" "Configure automatic renewal for all domains" >}}
 

@@ -8,7 +8,7 @@ tags = ["domaine", "sites"]
 
 Pour permettre à un autre utilisateur d'alwaysdata de pouvoir utiliser un sous-domaine de votre domaine, il faut lui donner votre permission.
 
-Pour ce faire, rendez-vous dans **Domaines > Détails** du domaine concerné **> Délégations > Ajouter une délégation**.
+Pour ce faire, rendez-vous dans **Domaines > Détails de [exemple.org] - 🔎 > Délégations > Ajouter une délégation**.
 
 {{< fig "images/admin-panel_subdomain-delegation-list.fr.png" "Menu des délégations" >}}
 

@@ -5,7 +5,7 @@ hidden = true
 tags = ["http", "site", "waf"] 
 +++
 
-To configure the web application firewall, use the administration interface from **Web > Sites > Modify** and the **> WAF** site.
+To configure the web application firewall, use the administration interface from **Web > Sites > Edit the [site] - ⚙️ > WAF**.
 
 {{< fig "images/admin-panel_add-site-waf.en.png" "Add a site: WAF" >}}
 

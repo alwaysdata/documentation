@@ -39,7 +39,7 @@ L'[ICANN](https://www.icann.org/fr) vérifie les adresses emails des propriétai
 
 Un `whois` indiquera le message suivant : `Domain Status: clientHold`
 
-Dans l'interface d'administration alwaysdata, le message suivant - onglet **Domaines > Détails** du domaine **> Statut** - vous permettra de renvoyer l'email :
+Dans l'interface d'administration alwaysdata, le message suivant - onglet **Domaines > Détails de [exemple.org] - 🔎 > Statut** - vous permettra de renvoyer l'email :
 
 ```
 Ce domaine a été suspendu par l'ICANN car son propriétaire n'a pas confirmé son adresse email dans les 15 jours suivant sa création, son transfert ou sa cession.

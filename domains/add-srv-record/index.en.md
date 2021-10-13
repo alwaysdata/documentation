@@ -7,7 +7,7 @@ tags = ["dns", "domain"]
 
 An [SRV record](https://en.wikipedia.org/wiki/SRV_record) defines the location of specific services.
 
-1.  Go to **Domains > Domain [example.org] details (cog wheel) > DNS records**,
+1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records**,
     {{< fig "images/admin-panel_dns-record-list.en.png" "Administration interface: list of DNS records" >}}
 
 2.  Choose **Add a DNS record**,

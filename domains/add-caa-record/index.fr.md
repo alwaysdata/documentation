@@ -8,7 +8,7 @@ tags = ["dns", "domaine"]
 
 Un [enregistrement CAA](https://fr.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) liste les autorités de certifications homologuées à émettre des certificats pour un domaine. Toute autorité de certification ne faisant pas partie des émetteurs autorisés par l'enregitrement CAA d'un domaine, ne sera pas autorisée à émettre de certificat pour ce domaine ou tout sous-domaine.
 
-1.   Rendez-vous sur **Domaines > Details de [exemple.org] (roue crantée) > Enregistrements DNS** ;
+1.   Rendez-vous sur **Domaines > Details de [exemple.org] - 🔎 > Enregistrements DNS** ;
     {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
 2.   Choisissez **Ajouter un enregistrement DNS** ;

@@ -5,7 +5,7 @@ hidden = true
 tags = ["domains"]
 +++
 
-Go to **Domains > Details** for the relevant domain and **> Change** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.
+Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.
 
 {{< fig "images/admin-panel_owner-change.en.png" "Change the domain owner" >}}
 

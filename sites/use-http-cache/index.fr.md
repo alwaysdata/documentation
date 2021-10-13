@@ -51,7 +51,7 @@ Une réponse ne peut **PAS** être cachée si :
 
 ## 2. Activez le cache HTTP
 
-Rendez vous dans **Web > Sites > Modifier** le site **> Cache**.
+Rendez vous dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
 
 {{< fig "images/admin-panel_add-site-cache.fr.png" "Ajouter un site : cache HTTP" >}}
 

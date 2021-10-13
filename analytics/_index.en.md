@@ -17,7 +17,7 @@ Go to the **Web > Analytics** section.
 
 ### Segment sites
 
-By default, all of the sites will be on the same Piwik site. You can segment them from the **Manage Piwik sites** menu in this section:
+By default, all of the sites will be on the same Piwik site. You can segment them from the **MATOMO SITES** menu in this section:
 
 {{< fig "admin-panel_stats.en.png" "Matomo statistics menu" >}}
 
@@ -27,4 +27,4 @@ By default, all of the sites will be on the same Piwik site. You can segment the
 
 ### Adding users
 
-To add users and manage their rights, go to the **Manage Piwik users**.
+To add users and manage their rights, go to the **USERS**.

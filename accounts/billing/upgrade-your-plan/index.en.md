@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing"]
 +++
 
-To change the offer, go to **Accounts > Change** the relevant account:
+To change the offer, go to **Accounts > Edit - ⚙️ the relevant account**:
 
 {{< fig "images/list-accounts.en.png" "Administration interface: list of accounts" >}}.
 

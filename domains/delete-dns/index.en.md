@@ -5,7 +5,7 @@ hidden = true
 tags = ["dns", "domains"]
 +++
 
-1.  Go to **Domains > Details for [example.org] domain (cogged wheel) > DNS records**,
+1.  Go to **Domains > Details for [example.org] domain - 🔎 > DNS records**,
 
 2.  Click on the **trash** corresponding to the record to delete.
     {{< fig "images/admin-panel_dns-record-list.en.png" "Administration interface: list of DNS records" >}}
