@@ -20,6 +20,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [New Relic]({{< relref "new-relic" >}})
 - [TiddlyWiki]({{< ref "./tiddlywiki" >}})
   - [TiddlyWiki Plugin : Bob (multi-wikis)]({{< ref "tiddlywiki/plugin-bob" >}})
+- [Tideways]({{< relref "tideways" >}})
 - [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
 
 ## Installation de framework

@@ -19,4 +19,5 @@ Services externes d'analyse de site web :
 
 Services externes d'aide à la performance :
 
-- [Blackfire](https://blackfire.io/) - [guide d'installation sur nos serveurs]({{< ref "guides/blackfire">}}).
+- [Blackfire](https://blackfire.io/) - [guide d'installation sur nos serveurs]({{< ref "guides/blackfire">}})
+- [Tideways](https://tideways.com/) (PHP) - [guide d'installation sur nos serveurs]({{< ref "guides/tideways">}})

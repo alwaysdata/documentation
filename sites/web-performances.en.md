@@ -20,4 +20,5 @@ External website analysis services:
 
 External profiling services:
 
-- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/blackfire">}}).
+- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/blackfire">}})
+- [Tideways](https://tideways.com/) (PHP) - [install guide on our servers]({{< ref "guides/tideways">}})
