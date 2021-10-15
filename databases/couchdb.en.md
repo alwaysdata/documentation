@@ -8,9 +8,10 @@ tags = ["databases", "couchdb"]
 ## Connection
 
 |||
-|--- |--- |
+|---|---|
 |Server|couchdb-[account].alwaysdata.net|
-|Port|5984 (CouchDB port by default)|
+|Ports|5984, secured : 6984 (CouchDB ports by default)|
+
 
 
 The connection data depends on the relevant account. You can find the precise values in the administration interface section under **Databases > CouchDB**.

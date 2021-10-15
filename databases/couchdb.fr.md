@@ -8,10 +8,10 @@ tags = ["base de données", "couchdb"]
 
 ## Connexion
 
-|             |                                   |
-|-------------|-----------------------------------|
-| **Serveur** | couchdb-[compte].alwaysdata.net   |
-| **Port**    | 5984 (Port CouchDB par défaut)    |
+|||
+|---|---|
+| Serveur | couchdb-[compte].alwaysdata.net |
+| Ports | 5984, sécurisé : 6984 (Ports CouchDB par défaut) |
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > CouchDB** de l'interface d'administration.
 

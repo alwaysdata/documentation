@@ -32,7 +32,7 @@ it was created.
 |                          | Port: 5432                                                                                         |
 |                          | Administration interface: [phpPgAdmin](https://phppgadmin.alwaysdata.com)                          |
 | CouchDB                  | Host: couchdb-[account].alwaysdata.net                                                             |
-|                          | Port: 5984                                                                                         |
+|                          | Ports: 5984, secured: 6984                                                                         |
 | RabbitMQ                 | Host: rabbitmq-[account].alwaysdata.net                                                            |
 |                          | Port: 5672                                                                                         |
 | Elasticsearch            | Host: localhost or 127.0.0.1                                                                       |

@@ -13,7 +13,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 
 
 
-| Fonctionnalité                    | Informations                                                                                              |
+| Fonctionnalité                    | Informations                                                                                       |
 |:---------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Administration**         |                                                                                                           |
 | URL                        | https://admin.alwaysdata.com                                                                              |
@@ -34,7 +34,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Port : 5432                                                                                               |
 |                            | Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com)                              |
 | CouchDB                    | Hôte : couchdb-[compte].alwaysdata.net                                                                    |
-|                            | Port : 5984                                                                                               |
+|                            | Ports : 5984, sécurisé: 6984                                                                              |
 | RabbitMQ                   | Hôte : rabbitmq-[compte].alwaysdata.net                                                                   |
 |                            | Port : 5672                                                                                               |
 | Elasticsearch              | Hôte : localhost ou 127.0.0.1                                                                             |
