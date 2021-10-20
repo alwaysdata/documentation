@@ -32,7 +32,7 @@ La génération de certificat est limitée à 64 caractères par adresse complè
 La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
 
 {{% notice tip %}}
-Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer - une fois - l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après.
+Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après. | **`ATTENTION`** cette action n'est à effectuer **qu'une fois**, trop de tentatives peuvent bloquer le processus et la génération du certificat pendant une semaine. [Contactez le support](https://admin.alwaysdata.com/support/add) si la première tentative est infructeuse.
 {{% /notice %}}
 
 ## Certificats Wildcard
