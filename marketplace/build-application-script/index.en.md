@@ -10,10 +10,11 @@ Any user may propose a script in the *language of their choice* allowing users t
 
 Scripts comprise two parts:
 
-- the YAML format **dataset** for configuring the site and requesting the information required by the script (the `FORM_*` variables) from the user. It can be split into three:
+- the YAML format **dataset** for configuring the site and requesting the information required by the script (the `FORM_*` variables) from the user. It can be split into four:
 
     - **site**: refer to the [API documentation](https://api.alwaysdata.com/v1/site/doc/) that restates all of the possible options.
     - **database**: mysql, postgresql, couchdb, rabbitmq.
+    - **requirements**: specify limiting requirements which blocks their installation on certain plans.
     - **form**: all of the variables requested from the user creating the site. Example: site title, administrator ID, e-mail address, administrator's name, etc.
 - the actual **script**.
 
@@ -47,7 +48,8 @@ If other variables are needed, open a [support ticket](https://admin.alwaysdata.
 - Specify the **version of the language used** (PHP, Python, Ruby, Node.js and Elixir). This is recommended to avoid being dependent on the default account configuration,
 - The root directory specified by the user (`INSTALL_PATH`) serves as the root for a script (an `export HOME=` is run by default),
 - It is preferable to request a minimum amount of information to avoid making the script an exhaustive one. *Users may change the configuration of their application later on.*
-- To add an **optional** form field, set the `required` option to `false`. If the user does not specify anything, the field remains blank.
+- To add an **optional** form field, set the `required` option to `false`. If the user does not specify anything, the field remains blank,
+- *labels* are translatables. Depending on the language chosen in its alwaysdata administration interface, the customer can have the form questions in the specified languages.
 
 {{% notice note %}}
 To make a script accessible to alwaysdata platform users, check the box to make it *public*.
@@ -58,58 +60,79 @@ To make a script accessible to alwaysdata platform users, check the box to make 
 A *deposit URL* may be provided to make maintenance easier. In this case, once the changes are pushed to the deposit all that remains is to update the application via the button provided.
 {{% /notice %}}
 
-## Example - WordPress installation script
+## Example - Drupal installation script
 
 ```
-    #!/bin/bash
-    
-    # site:
-    #     type: php
-    #     path: '{INSTALL_PATH_RELATIVE}'
-    #     php_version: '7.2'
-    # database:
-    #     type: mysql
-    # form:
-    #     language:
-    #         type: choices
-    #         label: Language
-    #         initial: en_US
-    #         choices:
-    #             de_DE: German
-    #             en_US: English
-    #             es_ES: Spanish
-    #             fr_FR: French
-    #             it_IT: Italian
-    #     title:
-    #         label: Blog title
-    #         max_length: 255
-    #     email:
-    #         type: email
-    #         label: Email
-    #     admin_username:
-    #         label: Administrator username
-    #         regex: ^[ a-zA-Z0-9.@_-]+$
-    #         max_length: 255
-    #     admin_password:
-    #         type: password
-    #         label: Administrator password
-    #         max_length: 255
-    
-    set -e
-    
-    # https://wp-cli.org
-    
-    # Recovering the tool
-    wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-    
-    # Creating WordPress
-    php wp-cli.phar core download --locale="$FORM_LANGUAGE" --path="$INSTALL_PATH"
-    php wp-cli.phar config create --dbname="$DATABASE_NAME" --dbuser="$DATABASE_USERNAME"
-    --dbpass="$DATABASE_PASSWORD" --dbhost="$DATABASE_HOST" --path="$INSTALL_PATH"
-    php wp-cli.phar core install --url="$INSTALL_URL" --title="$FORM_TITLE" --admin_user=
-    "$FORM_ADMIN_USERNAME" --admin_password="$FORM_ADMIN_PASSWORD" --admin_email="$FORM_EMAIL"
-    --path="$INSTALL_PATH"
-    
-    # Cleaning the environment
-    rm -rf .wp-cli wp-cli.phar
+#!/bin/bash
+
+# site:
+#     type: php
+#     path: '{INSTALL_PATH_RELATIVE}/web'
+#     php_version: '8'
+# database:
+#     type: mysql
+# requirements:
+#     disk: 100
+# form:
+#     language:
+#         type: choices
+#         label:
+#             en: Language
+#             fr: Langue
+#         choices:
+#             de: Deutsch
+#             en: English
+#             es: Español
+#             fr: Français
+#             it: Italiano
+#     site_name:
+#         label:
+#             en: Site name
+#             fr: Nom du site
+#         max_length: 255
+#     email:
+#         type: email
+#         label:
+#             en: Email
+#             fr: Email
+#     admin_username:
+#         label:
+#             en: Administrator username
+#             fr: Nom d'utilisateur de l'administrateur
+#         regex: ^[ a-zA-Z0-9.@_-]+$
+#         min_length: 5
+#         max_length: 255
+#     admin_password:
+#         type: password
+#         label:
+#             en: Administrator password
+#             fr: Mot de passe de l'administrateur
+#         min_length: 5
+#         max_length: 255
+
+set -e
+
+# https://www.drupal.org/docs/system-requirements
+
+# Downloading the tool
+COMPOSER_CACHE_DIR=/dev/null composer2 require drush/drush 10
+COMPOSER_CACHE_DIR=/dev/null composer2 create-project drupal/recommended-project
+
+# Install
+# https://drushcommands.com
+echo "y" | php vendor/drush/drush/drush.php si --db-url=mysql://"$DATABASE_USERNAME":"$DATABASE_PASSWORD"@"$DATABASE_HOST"/"$DATABASE_NAME" --account-name="$FORM_ADMIN_USERNAME" --account-pass="$FORM_ADMIN_PASSWORD" --account-mail="$FORM_EMAIL" --site-name="$FORM_SITE_NAME" --locale="$FORM_LANGUAGE" --root=recommended-project
+
+if [ "$INSTALL_URL_PATH" != "/" ]
+then
+    sed -i "s|# RewriteBase /$|RewriteBase $INSTALL_URL_PATH|" recommended-project/web/.htaccess
+fi
+
+# Cleaning the environment
+rm -rf .composer .drush .subversion vendor composer.json composer.lock
+
+shopt -s dotglob
+mv recommended-project/* .
+rmdir recommended-project
 ```
+
+The Drupal installation itself is over 100 MB, so the free offer is too small and we had to specify it in the `disk: 100` requirement.

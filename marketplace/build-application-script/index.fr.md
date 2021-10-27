@@ -11,9 +11,10 @@ Tout utilisateur peut proposer un script dans le *langage de son choix* qui perm
 
 Les scripts se composent de deux parties :
 
-* le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en trois :
+* le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en quatre :
     * **site** : voir la [documentation API](https://api.alwaysdata.com/v1/site/doc/) qui reprend toutes les options possibles.
     * **database** : mysql, postgresql, couchdb, rabbitmq.
+    * **requirements**: spécifier les conditions bloquantes pouvant être problématiques sur certains plan d'hébergement/packs.
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même
 
@@ -49,7 +50,10 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 * Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
-* pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide.
+* pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
+* les *labels* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, le client peut avoir les questions du formulaire dans les langues précisées.
+
+
 
 {{% notice note %}}
 Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public sera à minima vérifié par l’équipe d’alwaysdata.**
@@ -59,58 +63,79 @@ Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysda
 Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
 {{% /notice %}}
 
-## Exemple - script d’installation WordPress
+## Exemple - script d’installation Drupal
 
 ```
 #!/bin/bash
 
 # site:
-#     type: php
-#     path: '{INSTALL_PATH_RELATIVE}'
-#     php_version: '7.2'
+#     type: php
+#     path: '{INSTALL_PATH_RELATIVE}/web'
+#     php_version: '8'
 # database:
-#     type: mysql
+#     type: mysql
+# requirements:
+#     disk: 100
 # form:
-#     language:
-#         type: choices
-#         label: Language
-#         initial: en_US
-#         choices:
-#             de_DE: German
-#             en_US: English
-#             es_ES: Spanish
-#             fr_FR: French
-#             it_IT: Italian
-#     title:
-#         label: Blog title
-#         max_length: 255
-#     email:
-#         type: email
-#         label: Email
-#     admin_username:
-#         label: Administrator username
-#         regex: ^[ a-zA-Z0-9.@_-]+$
-#         max_length: 255
-#     admin_password:
-#         type: password
-#         label: Administrator password
-#         max_length: 255
+#     language:
+#         type: choices
+#         label:
+#             en: Language
+#             fr: Langue
+#         choices:
+#             de: Deutsch
+#             en: English
+#             es: Español
+#             fr: Français
+#             it: Italiano
+#     site_name:
+#         label:
+#             en: Site name
+#             fr: Nom du site
+#         max_length: 255
+#     email:
+#         type: email
+#         label:
+#             en: Email
+#             fr: Email
+#     admin_username:
+#         label:
+#             en: Administrator username
+#             fr: Nom d'utilisateur de l'administrateur
+#         regex: ^[ a-zA-Z0-9.@_-]+$
+#         min_length: 5
+#         max_length: 255
+#     admin_password:
+#         type: password
+#         label:
+#             en: Administrator password
+#             fr: Mot de passe de l'administrateur
+#         min_length: 5
+#         max_length: 255
 
 set -e
 
-# https://wp-cli.org
+# https://www.drupal.org/docs/system-requirements
 
-# Récupération de l’outil
-wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+# Téléchargement de l'outil
+COMPOSER_CACHE_DIR=/dev/null composer2 require drush/drush 10
+COMPOSER_CACHE_DIR=/dev/null composer2 create-project drupal/recommended-project
 
-# Création du WordPress
-php wp-cli.phar core download --locale="$FORM_LANGUAGE" --path="$INSTALL_PATH"
-php wp-cli.phar config create --dbname="$DATABASE_NAME" --dbuser="$DATABASE_USERNAME"
---dbpass="$DATABASE_PASSWORD" --dbhost="$DATABASE_HOST" --path="$INSTALL_PATH"
-php wp-cli.phar core install --url="$INSTALL_URL" --title="$FORM_TITLE" --admin_user=
-"$FORM_ADMIN_USERNAME" --admin_password="$FORM_ADMIN_PASSWORD" --admin_email="$FORM_EMAIL"
---path="$INSTALL_PATH"
+# Installation
+# https://drushcommands.com
+echo "y" | php vendor/drush/drush/drush.php si --db-url=mysql://"$DATABASE_USERNAME":"$DATABASE_PASSWORD"@"$DATABASE_HOST"/"$DATABASE_NAME" --account-name="$FORM_ADMIN_USERNAME" --account-pass="$FORM_ADMIN_PASSWORD" --account-mail="$FORM_EMAIL" --site-name="$FORM_SITE_NAME" --locale="$FORM_LANGUAGE" --root=recommended-project
 
-# Nettoyage de l’environnement
-rm -rf .wp-cli wp-cli.phar
+if [ "$INSTALL_URL_PATH" != "/" ]
+then
+    sed -i "s|# RewriteBase /$|RewriteBase $INSTALL_URL_PATH|" recommended-project/web/.htaccess
+fi
+
+# Nettoyage de l'environnement
+rm -rf .composer .drush .subversion vendor composer.json composer.lock
+
+shopt -s dotglob
+mv recommended-project/* .
+rmdir recommended-project
 ```
+
+L'installation de Drupal en elle-même fait plus de 100 Mo, l'offre gratuite est donc trop juste et nous avons dû l'indiquer dans la condition `disk: 100`.
