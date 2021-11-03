@@ -7,7 +7,7 @@ tags = ["golang"]
 
 ## Version
 
-As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with version 1.11 for the `go` executable.
+As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with version 1.17 for the `go` executable.
 
 You can compile your programs elsewhere, e.g. locally.
 
