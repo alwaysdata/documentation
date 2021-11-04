@@ -15,6 +15,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Blazegraph]({{< relref "blazegraph" >}})
 - [FFmpeg]({{< relref "ffmpeg" >}})
 - [Gitea]({{< relref "gitea" >}})
+- [GitLab]({{< relref "gitlab" >}})
 - [Mattermost]({{< relref "mattermost" >}})
 - [Memcached]({{< ref "./memcached" >}})
 - [New Relic]({{< relref "new-relic" >}})
