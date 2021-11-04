@@ -51,7 +51,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Elixir]({{< ref "languages/elixir" >}}) |✔️|✔️|✔️|✔️|
 || [Lua]({{< ref "languages/lua" >}}) |✔️|✔️|✔️|✔️|
 || [Go]({{< ref "languages/go" >}}) |✔️|✔️|✔️|✔️|
-|| [Any other language](https://www.alwaysdata.com/en/language/custom/) |✔️|✔️|✔️|✔️|
+|| [Any other language]({{< ref "languages" >}}) |✔️|✔️|✔️|✔️|
 | Databases[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
 || [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|

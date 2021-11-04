@@ -8,7 +8,7 @@ tags = ["serveur dédié", "monitoring"]
 
 L'ouverture d'un ticket urgent, réservée aux clients possesseurs d'un serveur dédié, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
 
-Si le ticket concerne un problème couvert par notre [garantie de service](https://www.alwaysdata.com/fr/infrastructure/sla/), nous nous chargeons de le résoudre en priorité. Cela n'engendre aucun surcoût pour notre client.
+Si le ticket concerne un problème couvert par notre *garantie de service*, nous nous chargeons de le résoudre en priorité. Cela n'engendre aucun surcoût pour notre client.
 
 En revanche, si le problème n'est pas de notre responsabilité, l'intervention sera facturée _95 € HT_, sans devis préalable : le fait d'ouvrir le ticket en mode urgent vaut pour acceptation. Nous essayerons toutefois, dans la mesure du possible, de vous aider dans la résolution du problème.
 

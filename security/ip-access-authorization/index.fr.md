@@ -13,4 +13,4 @@ L'accès sera bloqué à toute autre connexion venant d'IP non renseignée.
 
 ---
 
-Si vous vous êtes trompé dans les IP d'accès [contactez alwaysdata](https://www.alwaysdata.com/fr/#contact) ; une preuve d'identité sera demandée.
+Si vous vous êtes trompé dans les IP d'accès [contactez alwaysdata](https://www.alwaysdata.com/fr/) ; une preuve d'identité sera demandée.

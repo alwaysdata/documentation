@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "cloud"]
 +++
 
-This page lists the prices of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/#contact).
+This page lists the prices of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).
 
 * Guaranteed Response Time (GRT): 1hr
 * Mean Time To Repair (MTTR): 4hr

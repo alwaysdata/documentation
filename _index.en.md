@@ -15,7 +15,7 @@ Learn how to use *alwaysdata*. Find out how to set up an account. Discover how t
 
 A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
 
-Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en/#contact) and/or sign-up to our [platform](https://www.alwaysdata.com/en/register/).
+Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en/) and/or sign-up to our [platform](https://www.alwaysdata.com/en/register/).
 
 Whatever the question, you can also contact us via our [IRC channel](ircs://irc.libera.chat:6697/alwaysdata) or [Twitter](https://twitter.com/alwaysdata).
 

@@ -52,7 +52,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Elixir]({{< ref "languages/elixir" >}}) |✔️|✔️|✔️|✔️|
 || [Lua]({{< ref "languages/lua" >}}) |✔️|✔️|✔️|✔️|
 || [Go]({{< ref "languages/go" >}}) |✔️|✔️|✔️|✔️|
-|| [Tout autre langage](https://www.alwaysdata.com/fr/langage/personnalise/) |✔️|✔️|✔️|✔️|
+|| [Tout autre langage]({{< ref "languages" >}}) |✔️|✔️|✔️|✔️|
 | Bases de données[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
 || [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|

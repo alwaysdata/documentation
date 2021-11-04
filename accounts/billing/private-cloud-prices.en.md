@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "dedicated", "gold", "vps"]
 +++
 
-This page lists the prices of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/catalyst/).
+This page lists the prices of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).
 
 For any Private Cloud configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
