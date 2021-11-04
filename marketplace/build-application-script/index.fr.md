@@ -75,7 +75,7 @@ Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dan
 # database:
 #     type: mysql
 # requirements:
-#     disk: 100
+#     disk: 140
 # form:
 #     language:
 #         type: choices
@@ -138,4 +138,4 @@ mv recommended-project/* .
 rmdir recommended-project
 ```
 
-L'installation de Drupal en elle-même fait plus de 100 Mo, l'offre gratuite est donc trop juste et nous avons dû l'indiquer dans la condition `disk: 100`.
+La condition `disk:140` précise que l'installatiion de Drupal nécessite 140 Mo d'espace disque. L'offre gratuite est donc trop juste.

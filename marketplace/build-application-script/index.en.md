@@ -72,7 +72,7 @@ A *deposit URL* may be provided to make maintenance easier. In this case, once t
 # database:
 #     type: mysql
 # requirements:
-#     disk: 100
+#     disk: 140
 # form:
 #     language:
 #         type: choices
@@ -135,4 +135,4 @@ mv recommended-project/* .
 rmdir recommended-project
 ```
 
-The Drupal installation itself is over 100 MB, so the free offer is too small and we had to specify it in the `disk: 100` requirement.
+The `disk:140` condition specifies that the Drupal installation requires 140 MB of disk space. The free offer is therefore too tight.
