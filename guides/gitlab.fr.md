@@ -8,15 +8,17 @@ tags = ["devops"]
 
 [GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...
 
-Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs. Il est néanmoins possible de l'installer en **[Cloud Privé](https://www.alwaysdata.com/fr/hebergement-infogere)**, voici les étapes à suivre.
+Il est possible de l'installer en **[Cloud Privé](https://www.alwaysdata.com/fr/hebergement-infogere)**, voici les étapes à suivre.
 
 **Les SGBD [PostgreSQL]({{< ref "databases/postgresql" >}}) et [Redis]({{< ref "databases/redis" >}}) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
 
 L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
 
-- Nom du compte : `foo-gitlab`
+- Nom du compte : `foobar`
 - Version de Ruby : `2.7`
 - Version de Node.js : `14.7`
+
+GitLab a impérativement besoin de ces versions qui sont à définir dans le menu **Environnement**.
 
 ## Installation
 
@@ -54,12 +56,12 @@ nano config/gitlab.yml
 ```
 
 Dans la section *production > gitlab* modifiez :
-- la ligne `host: localhost` pour renseigner l'adresse voulue du site Gitlab. Cela peut par exemple être l'adresse du compte : `foo-gitlab.alwaysdata.net`.
+- la ligne `host: localhost` pour renseigner l'adresse voulue du site Gitlab. Cela peut par exemple être l'adresse du compte : `foobar.alwaysdata.net`.
 - le paragraphe `email` par les informations emails voulues. Par exemple :
 
 ```yml
-email_from: foo-gitlab@alwaysdata.net
-email_reply_to: foo-gitlab@alwaysdata.net
+email_from: foobar@alwaysdata.net
+email_reply_to: foobar@alwaysdata.net
 ```
 ---
 
@@ -92,11 +94,14 @@ nano config/database.yml
 Remplacez les clés `database`, `username` , `host` et `password` et la première section (production) par celles de votre compte. Exemple :
 
 ```yml
-database: foo-gitlab_gitlab
-username: foo-gitlab
+database: foobar_gitlab
+username: foobar
 password: "son mot de passe"
-host: postgresql-foo-gitlab.alwaysdata.net
+host: postgresql-foobar.alwaysdata.net
 ```
+
+La base de données est celle créée en début de ce guide.
+
 ---
 
 ```sh
@@ -148,7 +153,11 @@ Créez un [site]({{< ref "sites/add-a-site" >}}) avec les détails suivants :
 
   * *Nom* : GitLab
   * *Type* : Programme utilisateur
-  * *Adresses* : l'adresse renseignée dans le fichier config.yml - Dans notre exemple `foo-gitlab.alwaysdata.net`
+  * *Adresses* : l'adresse renseignée dans le fichier config.yml - Dans notre exemple `foobar.alwaysdata.net`
   * *Commande* : `true`
 
-Ce site doit impérativement écouter sur le port `8100`, à vérifier dans le help text du champ *Commande*. C'est normalement le cas, puisque c'est le seul site.
+Ce site doit impérativement écouter sur le port `8100`, à vérifier dans le texte explicatif du champ *Commande*. C'est normalement le cas, puisque c'est le seul site.
+
+{{% notice note %}}
+Le nom d'utilisateur du compte par défaut est *root*. Vous choisirez son mot de passe lors de la première connexion au site et pourrez changer son nom d'utilisateur par la suite.
+{{% /notice %}}
