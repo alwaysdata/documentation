@@ -16,7 +16,7 @@ L'installation doit être effectuée sur un **compte vide**. Nous considérons l
 
 - Nom du compte : `foobar`
 - Version de Ruby : `2.7`
-- Version de Node.js : `14.7`
+- Version de Node.js : `14.17`
 
 GitLab a impérativement besoin de ces versions qui sont à définir dans le menu **Environnement**.
 

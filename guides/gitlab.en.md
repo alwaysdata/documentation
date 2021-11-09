@@ -5,7 +5,7 @@ hidden = true
 tags = ["devops"]
 +++
 
-[GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continous integration and deployment...
+[GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...
 
 It is possible to install it in **[Private Cloud](https://www.alwaysdata.com/fr/private-cloud)**, here are the steps to follow.
 
@@ -15,7 +15,7 @@ The installation must be done on an **empty account**. We consider the following
 
 - Account name: `foobar`
 - Ruby version: `2.7`
-- Node.js version: `14.7`
+- Node.js version: `14.17`
 
 GitLab needs these versions which must be defined in the **Environment** menu.
 
