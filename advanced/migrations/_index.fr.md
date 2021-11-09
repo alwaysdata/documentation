@@ -23,8 +23,11 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 ## Migrations actuellement proposées
 
-- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 - [PostgreSQL 13]({{< ref "advanced/migrations/postgresql-13" >}})
+
+Cloud Privé :
+
+- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 
 ## Anciennes migrations
 

@@ -20,8 +20,11 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 
 ## Migrations currently offered
 
-- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 - [PostgreSQL 13]({{< ref "advanced/migrations/postgresql-13" >}})
+
+Private Cloud:
+
+- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 
 ## Former migrations
 
