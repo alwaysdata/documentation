@@ -23,7 +23,7 @@ GitLab needs these versions which must be defined in the **Environment** menu.
 
 1. Create the PostgreSQL database in the menu **Databases > PostgreSQL** and enable `pg_trgm` and `btree_gist` extensions.
 
-2. If you are using a [RAM limit]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) of less than 5 GB, increase it in the **Advanced > Resources** menu.
+2. If you are using a [RAM limit]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) of less than 10 GB, increase it in the **Advanced > Resources** menu.
 
 3. Launch the following commands in [SSH]({{< ref "remote-access/ssh" >}}) at the root of the account:
 
@@ -136,7 +136,7 @@ yarn install --production --pure-lockfile
 bundle exec rake gitlab:assets:compile RAILS_ENV=production NODE_ENV=production
 ```
 
-It is this last command that requires 5GB of RAM
+It is this last command that requires a significant amount of RAM. The amount needed depends on the number of cores and it may be necessary to increase it if you encounter errors at this stage.
 
 ## Service creation
 

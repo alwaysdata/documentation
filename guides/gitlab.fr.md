@@ -24,7 +24,7 @@ GitLab a impérativement besoin de ces versions qui sont à définir dans le men
 
 1. Créez la base de données PostgreSQL dans le menu **Bases de données > PostgreSQL** en activant les extensions `pg_trgm` et `btree_gist`.
 
-2. Si vous utilisez une [limite de RAM]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) inférieure à 5 Go, augmentez-la dans le menu **Avancé > Ressources**.
+2. Si vous utilisez une [limite de RAM]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) inférieure à 10 Go, augmentez-la dans le menu **Avancé > Ressources**.
 
 3. Lancez les commandes suivantes en [SSH]({{< ref "remote-access/ssh" >}}) à la racine du compte :
 
@@ -138,7 +138,7 @@ yarn install --production --pure-lockfile
 bundle exec rake gitlab:assets:compile RAILS_ENV=production NODE_ENV=production
 ```
 
-C'est cette dernière commande qui nécessite 5 Go de RAM.
+C'est cette dernière commande qui nécessite une quantité de RAM importante. La quantité nécessaire varie en fonction du nombre de cores et il peut être nécessaire de l'augmenter si vous rencontrez des erreurs à cette étape.
 
 ## Création du service
 
