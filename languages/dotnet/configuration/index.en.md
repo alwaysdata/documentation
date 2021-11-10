@@ -8,6 +8,7 @@ layout = "man"
 
 ||
 |-----|
+| 6.0 |
 | 5.0 |
 
 The default version can be changed from the administration section, under **Environment > .NET**. This is the version that is especially used when you start `dotnet`.
