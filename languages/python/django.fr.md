@@ -26,7 +26,7 @@ Il existe plusieurs manières d'installer une application Django. Voyons plusieu
 Si l'application à déployer est disponible sous forme de paquet, on peut l'installer avec `pip` :
 
 ```sh
-$ pip install wagtail
+$ python -m pip install wagtail
 $ wagtail start myapp
 ```
 
@@ -43,7 +43,7 @@ $ git clone https://path/to/myapp.git
 Si vous démarrez une nouvelle application, vous pouvez utiliser `django-admin` :
 
 ```sh
-$ pip install Django
+$ python -m pip install Django
 $ django-admin startproject myapp
 ```
 
@@ -56,7 +56,7 @@ Vous pouvez installer votre application par de nombreux autres biais : `rsync`, 
 Si votre application a des dépendances, vous pouvez les installer :
 
 ```sh
-$ pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 ## Configurer l'application
@@ -81,8 +81,8 @@ DATABASES = {
 Ajoutez un site WSGI dans la section **Web > Sites** de l'administration :
 
 * adresses : www.example.com (par exemple)
-* type : Python WSGI
-* chemin de l'application : /myapp/myapp/wsgi.py
-* répertoire de travail : /myapp/
-* répertoire du virtualenv : /myenv/
-* chemins statiques : /static/=/my_static_directory/
+* type : `Python WSGI`
+* chemin de l'application : `/myapp/myapp/wsgi.py`
+* répertoire de travail : `/myapp/`
+* répertoire du virtualenv : `/myenv/`
+* chemins statiques : `/static=static`

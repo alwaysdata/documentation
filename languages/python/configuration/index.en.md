@@ -51,7 +51,7 @@ The other binaries included in Python (`2to3`, `pep8`, `pip`, `pydoc`, etc.) wor
 Your Python environment starts off empty, with no ready installed libraries other than the standard library. You can use `pip` to install packages, this is the standard Python tool:
 
 ```sh
-$ pip install [package]
+$ python -m pip install [package]
 ```
 
 Packages are installed in the standard `$HOME/.local` directory and they are automatically added to `sys.path` by Python.
@@ -83,25 +83,25 @@ $ source myenv/bin/activate
 Install the latest version of a package:
 
 ```sh
-$ pip install [package]
+$ python -m pip install [package]
 ```
 
 You can specify a specific version:
 
 ```sh
-$ pip install [package]==[version]
+$ python -m pip install [package]==[version]
 ```
 
 To install a set of packages defined in a `requirements.txt` file:
 
 ```sh
-$ pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 ### Uninstalling a package
 
 ```sh
-$ pip uninstall Django
+$ python -m pip uninstall Django
 ```
 
 ### Installing a package with Distutils

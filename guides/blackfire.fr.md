@@ -92,7 +92,7 @@ blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
 ### [Python](https://blackfire.io/docs/python)
 
 ```sh
-foo@ssh:~$ pip install blackfire
+foo@ssh:~$ python -m pip install blackfire
 ```
 
 ---

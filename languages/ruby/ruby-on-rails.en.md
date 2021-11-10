@@ -61,7 +61,7 @@ Add a Rack site in the **Web > Sites** section of the administration heading:
 - type: `Ruby Rack`
 - application path: `/myapp/config.ru`
 - use Bundler: check the box if you use Bundler (if you have a Gemfile)
-- static paths: `/static/=/my_static_directory/`
+- static paths: `/static=static`
 
 If you want to deploy your site in a production environment you need to add environment variables, for example:
 

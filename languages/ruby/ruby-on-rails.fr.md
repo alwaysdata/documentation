@@ -59,10 +59,10 @@ Vous aurez probablement besoin de modifier la configuration de votre application
 Ajoutez un site Rack dans la section **Web > Sites** de l'administration :
 
 * adresses : par exemple www.example.com
-* type : Ruby Rack
-* chemin de l'application : /myapp/config.ru
+* type : `Ruby Rack`
+* chemin de l'application : `/myapp/config.ru`
 * utiliser Bundler : cochez si vous utiliser Bundler (si vous avez un Gemfile)
-* chemins statiques : /static/=/my_static_directory/
+* chemins statiques : `/static=static`
 
 Si vous voulez déployer votre site en environnement de production, vous devrez ajouter des variables d'environnement, par exemple :
 

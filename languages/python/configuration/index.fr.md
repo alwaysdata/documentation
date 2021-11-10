@@ -52,7 +52,7 @@ Les autres binaires inclus dans Python (`2to3`, `pep8`, `pip`, `pydoc`...) fonct
 Votre environnement Python est initialement vide, sans aucune bibliothèque préinstallée en dehors de la bibliothèque standard. Vous pouvez utiliser `pip` pour installer des paquets, c'est l'outil standard de Python :
 
 ```sh
-$ pip install [paquet]
+$ python -m pip install [paquet]
 ```
 
 Les paquets sont installés dans le répertoire standard `$HOME/.local` et sont automatiquement ajoutés au `sys.path` par Python.
@@ -84,25 +84,25 @@ $ source myenv/bin/activate
 Installer la dernière version d'un paquet :
 
 ```sh
-$ pip install [paquet]
+$ python -m pip install [paquet]
 ```
 
 Vous pouvez spécifier une version précise :
 
 ```sh
-$ pip install [paquet]==[version]
+$ python -m pip install [paquet]==[version]
 ```
 
 Pour installer un ensemble de paquets définis dans un fichier `requirements.txt` :
 
 ```sh
-$ pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 ### Désinstaller un paquet
 
 ```sh
-$ pip uninstall [paquet]
+$ python -m pip uninstall [paquet]
 ```
 
 ### Installer un paquet avec Distutils

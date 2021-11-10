@@ -25,7 +25,7 @@ There are a number of ways to install a Django application. Here are some exampl
 If the application to deploy is available as a package, it can be installed with `pip`:
 
 ```sh
-$ pip install wagtail
+$ python -m pip install wagtail
 $ wagtail start myapp
 ```
 
@@ -42,7 +42,7 @@ $ git clone https://path/to/myapp.git
 If you start a new application, you can use `django-admin`:
 
 ```sh
-$ pip install Django
+$ python -m pip install Django
 $ django-admin startproject myapp
 ```
 
@@ -55,7 +55,7 @@ You can install your application in a number of other ways: `rsync`, FTP etc.
 If your application has dependencies, you can install them:
 
 ```sh
-$ pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 ## Configuring the application
@@ -84,4 +84,4 @@ Add a WSGI site in the **Web > Sites** section of the administration heading:
   - application path: `/myapp/myapp/wsgi.py`
   - working directory: `/myapp/`
   - virtualenv directory: `/myenv/`
-  - static paths: `/static/=/my_static_directory/`
+  - static paths: `/static=static`

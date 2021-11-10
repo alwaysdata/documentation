@@ -84,7 +84,7 @@ New Relic is a Python module to be installed as other ones. If the application u
 ### Step 1: Install the agent
 
 ```sh
-foo@ssh:~$ pip install newrelic
+foo@ssh:~$ python -m pip install newrelic
 foo@ssh:~$ newrelic-admin generate-config REPLACE_WITH_LICENSE_KEY newrelic.ini
 ```
 
