@@ -138,4 +138,4 @@ mv recommended-project/* .
 rmdir recommended-project
 ```
 
-La condition `disk:140` précise que l'installatiion de Drupal nécessite 140 Mo d'espace disque. L'offre gratuite est donc trop juste.
+La condition `disk:140` précise que l'installation de Drupal nécessite 140 Mo d'espace disque. L'offre gratuite est donc trop juste.
