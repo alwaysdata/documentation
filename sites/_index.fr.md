@@ -30,6 +30,7 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 - [Configuration Apache]({{< relref "configure-apache" >}})
 - [Fichier .htaccess]({{< relref "htaccess-file" >}})
 * [Changer de prestataire]({{< relref "./transfer-in" >}})
+* [Changer l'adresse d'un site web]({{< ref "sites/change-a-website-address" >}})
 * [Déplacer un site]({{< relref "move-a-site" >}})
 * [Désactiver un site]({{< relref "deactivate-a-site" >}})
 - [Catch-all]({{< relref "./catch-all" >}})
