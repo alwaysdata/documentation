@@ -38,8 +38,8 @@ Les scripts se composent de deux parties :
 | SMTP_HOST             | Nom d’hôte de connexion au serveur d’envoi de mails                                                   | `smtp-foo.alwaysdata.net`               |
 | RESELLER_DOMAIN       | Domaine-racine utilisé par l'hébergeur                                                                | `alwaysdata.net`                        |
 | FORM_*                | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML       |                                         |
-| PORT                  | Port spécifique pour les sites de type Programme utilisateur, Node.js ou Elixir                       |                                         |
-| 0.0.0.0 ou IP         | IP spécifique pour les sites de type Programme utilisateur, Node.js ou Elixir (préférer 0.0.0.0 à IP) |                                         |
+| PORT                  | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno                |                                         |
+| `::` ou IP         | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) |                                         |
 
 Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
 
@@ -56,7 +56,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 
 
 {{% notice note %}}
-Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public sera à minima vérifié par l’équipe d’alwaysdata.**
+Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
 {{% /notice %}}
 
 {{% notice tip %}}

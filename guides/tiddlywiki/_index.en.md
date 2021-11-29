@@ -2,16 +2,18 @@
 title = "Installing TiddlyWiki"
 layout = "howto"
 hidden = true
-tags = ["marketplace", "tiddlywiki"]
+tags = ["wiki"]
 +++
 
 [TiddlyWiki](https://tiddlywiki.com/) is a "non-linear web notebook". It is dedicated to organizing snippets of information (such as *notes*, *images*, and more) by saving them and smartly link them. It can be served as a static HTML file or using a [Node.js]({{<ref "languages/nodejs">}}) site.
 
 ## Install Using the [Marketplace]({{<ref "marketplace">}})
 
-Our Marketplace offers a script to install TiddlyWiki automatically. In your administration panel, go to the **Web > Sites** section, click on the *Install an application* button, and select the *TiddlyWiki* entry by clicking on the cogwheel.
+Our marketplace offers a script to install *TiddlyWiki* automatically via the **Web > Sites > Install an application** menu of the alwaysdata administration interface.
 
 Fill in the fields according to your preference, and run the installer.
+
+- [Install script](https://admin.alwaysdata.com/site/application/script/57/detail/)
 
 ## Manually
 

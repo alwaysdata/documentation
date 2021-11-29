@@ -11,6 +11,8 @@ From the raw HTTP logs (`$HOME/admin/logs/http`) we generate [Matomo](https://ma
 - [Matomo interface](https://analytics.alwaysdata.com)
 - [Matomo assistance]({{< ref "analytics/troubleshooting-matomo" >}})
 
+You can also install your own instance via our [marketplace]({{< ref "marketplace/matomo" >}})
+
 ## Accessing analytics
 
 Go to the **Web > Analytics** section.

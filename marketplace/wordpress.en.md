@@ -1,24 +1,20 @@
 +++
 title = "WordPress"
 layout = "man"
-tags = ["wordpress"]
+hidden = true
+tags = ["cms"]
 +++
 
-WordPress is currently the most widely used open source [CMS](https://en.wikipedia.org/wiki/Content_management_system) thanks to its ease of deployment and the ability to add new functions to it, called [plugins](http://wordpress.org/plugins/) that are developed by the community.
+[WordPress](https://wordpress.org/) is currently the most widely used open source [CMS](https://en.wikipedia.org/wiki/Content_management_system) thanks to its ease of deployment and the ability to add new functions to it, called [plugins](http://wordpress.org/plugins/) that are developed by the community.
 
-- [WordPress documentation](https://wordpress.org/support/)
+- [Documentation](https://wordpress.org/support/)
+- [Activate the HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
 ## Installation
 
-The last version of [WordPress](https://wordpress.org/) is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.
+The last version of WordPress* is auto-installable via the administration interface: **Web > Sites > Install an application**.
 
-To install it yourself, follow the steps set out below:
-
-- download the desired version from the [official site](https://wordpress.org/download/),
-- uncompress the source files and place them in your alwaysdata account using [FTP]({{< ref "/remote-access/ftp" >}}),
-- create your MySQL [database]({{< ref "/databases" >}}),
-- create your [site]({{< ref "sites/add-a-site" >}}),
-- access your application's web page to finalize its installation.
+- [Install script](https://admin.alwaysdata.com/site/application/script/11/detail/)
 
 If you migrate a WordPress application previously hosted by another
 hosting provider, change:
@@ -30,9 +26,9 @@ hosting provider, change:
 
 Due to its high profile, it is a target of choice for hackers. Consequently, it is important to follow these recommendations:
 
-- regularly update WordPress and its plugins,
+- regularly update *WordPress* and its plugins,
 - keep informed on reports of bugs and security breaches relating to plugins before installing them,
-- implement the [specific profile]({{<ref "sites/use-waf#profiles-available">}}) of our WAF,
+- implement the [specific profile]({{<ref "sites/waf/use-waf#profiles-available">}}) of our WAF,
 - choose a prefix other than *wp*_ for your table names. To change this value on a WordPress application that is already deployed, change the `_options` table and the `$HOME/path/to/the/application/wp_config.php` file path.
 - delete idle themes and plugins,
 - delete the readme.txt file at the root of your application (contains the current version of your WordPress file that is useful to find security breaches that can be used),

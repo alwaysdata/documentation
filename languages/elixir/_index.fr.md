@@ -13,6 +13,6 @@ Le fonctionnement d'[Elixir](https://elixir-lang.org/) chez alwaysdata est très
 * la [configuration d'environnement]({{< ref "languages/elixir/configuration" >}}#environnement) se fait simplement.
 
 
-Le framework [Phoenix](http://www.phoenixframework.org/) fait partie de nos applications autoinstallables. 
+Le framework [Phoenix]({{< ref "languages/elixir/phoenix" >}}) fait partie de nos applications autoinstallables. 
 
 * [Ressource API](https://api.alwaysdata.com/v1/environment/elixir/doc/)

@@ -14,7 +14,7 @@ Our statistics are not generated in real time, generally this takes 2 to 3 days.
 
 As our platform is entirely based on HTTP logs, customized settings cannot be added.
 
-Hence there is no way to add JavaScript tags. You will need to look to install your own web statistics measurement software.
+Hence there is no way to add JavaScript tags. You will need to look to install your own web statistics measurement software, which is possible via our [marketplace]({{< ref "marketplace/matomo" >}}).
 
 ## Differences in views with my Google Analytics statistics
 

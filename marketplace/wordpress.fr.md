@@ -2,24 +2,20 @@
 url = "/fr/marketplace/wordpress/"
 title = "WordPress"
 layout = "man"
-tags = ["wordpress"]
+hidden = true
+tags = ["cms"]
 +++
 
-WordPress est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu) open source le plus utilisé aujourd'hui de par sa simplicité de déploiement et la possibilité d'y greffer de nouvelles fonctionnalités développées par la communauté appelées [plugins](http://wordpress.org/plugins/).
+[WordPress](https://fr.wordpress.org/) est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu) open source le plus utilisé aujourd'hui de par sa simplicité de déploiement et la possibilité d'y greffer de nouvelles fonctionnalités développées par la communauté appelées [plugins](http://wordpress.org/plugins/).
 
-- - [Documentation WordPress](https://fr.wordpress.org/support/)
+- [Documentation](https://fr.wordpress.org/support/)
+- [Activer le cache HTTP sur WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
 ## Installation
 
-La dernière version de [WordPress](https://fr.wordpress.org/) fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+La dernière version de *WordPress* est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.
 
-Si vous souhaitez l'installer par vous-même vous pourrez suivre les étapes suivantes :
-
-- téléchargez la version souhaitée sur le [site officiel](https://fr.wordpress.org/download/) ;
-- décompressez les sources et déposez les sur votre compte alwaysdata par [FTP]({{< ref "/remote-access/ftp" >}}) ;
-- créez votre [base de données]({{< ref "/databases" >}}) MySQL ;
-- créez votre [site]({{< ref "sites/add-a-site" >}}) ;
-- accédez à la page web de votre application pour finaliser son installation.
+- [Script d'installation](https://admin.alwaysdata.com/site/application/script/11/detail/)
 
 Si vous migrez une application WordPress, précédemment hébergée chez un autre prestataire, modifiez :
 
@@ -30,9 +26,9 @@ Si vous migrez une application WordPress, précédemment hébergée chez un autr
 
 Sa notoriété en fait une cible prioritaire pour les pirates informatiques, il est donc important de suivre ces quelques recommandations d'usage :
 
-- mettez à jour régulièrement WordPress et ses plugins ;
+- mettez à jour régulièrement *WordPress* et ses plugins ;
 - informez-vous sur les rapports de bugs et failles de sécurité des plugins avant de les installer ;
-- mettez en place le [profil spécifique]({{<ref "sites/use-waf#profils-disponibles">}}) de notre WAF ;
+- mettez en place le [profil spécifique]({{<ref "sites/waf/use-waf#profils-disponibles">}}) de notre WAF ;
 - choisissez un autre préfixe que _wp__ pour le nom de vos tables. Pour changer cette valeur sur un WordPress déjà déployé, modifiez la table `_options` et le fichier `$HOME/chemin/vers/l'application/wp_config.php`.
 - supprimez les thèmes et plugins inactifs ;
 - supprimez le fichier readme.txt à la racine de votre application (contient la version actuelle de votre WordPress, utile pour connaitre les failles de sécurité exploitables) ;

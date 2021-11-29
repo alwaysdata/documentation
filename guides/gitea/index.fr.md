@@ -2,6 +2,7 @@
 title = "Installation et configuration de Gitea"
 layout = "howto"
 hidden = true
+tags= ["developpement"]
 +++
 
 [Gitea](https://gitea.io) est un gestionnaire de dépôts git écrit en Go.
@@ -12,17 +13,15 @@ hidden = true
 
 En hébergeant vous-même Gitea dans votre compte alwaysdata, vous pourrez accéder à des dépôts privés (et publics) de git, hébergés sur le cloud alwaysdata, et réduire votre dépendance à des solutions d'hébergement centralisées comme Github.
 
+- [Documentation](https://docs.gitea.io/en-us/)
+
 ## Installation
 
 ### Utiliser notre marketplace
 
 La façon la plus pratique d'installer Gitea est d'utiliser notre [marketplace]({{< ref "marketplace">}}) pour déployer la dernière version.
 
-[Ce script d'installation](https://admin.alwaysdata.com/site/application/script/2/detail/) :
-
-1. Télécharge la dernière version disponible et l'installe dans votre compte.
-2. Crée un fichier de configuration minimal dans `$HOME/[gitea/install/path]/custom/conf/app.ini`.
-3. Crée le [site]({{< ref "sites/add-a-site" >}}) associé au sous-domaine donné.
+- [Script d'installation](https://admin.alwaysdata.com/site/application/script/2/detail/)
 
 ### Manuellement
 

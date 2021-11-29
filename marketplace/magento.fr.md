@@ -2,29 +2,19 @@
 url = "/fr/marketplace/magento/"
 title = "Magento"
 layout = "man"
-tags = ["magento"]
+hidden = true
+tags = ["e-commerce"]
 +++
 
-- [Documentation Développeur Magento](https://devdocs.magento.com/)
-- [Documentation Utilisateur Magento](https://docs.magento.com/user-guide/)
+[Magento](https://magento.com/) est une plateforme de commerce electronique lancée en 2008 et éditée sur les bases du [framework Zend](https://framework.zend.com/).
+
+- [Documentation Développeur](https://devdocs.magento.com/)
+- [Documentation Utilisateur](https://docs.magento.com/user-guide/)
 
 ## Installation
 
 Magento 2.4, ayant [besoin d'Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html), n'est *pas compatible* avec les offres en Cloud public.
 
-Magento 2.3 fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+Magento 2.3 est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.
 
-Il est possible de l'installer par soi-même en suivant leur [documentation](https://magento.com/tech-resources/download).
-
-## Recommandations
-
-Il est important de suivre ces quelques instructions d'usage pour éviter toute infection :
-
-- mettez à jour régulièrement Magento et ses plugins ;
-- informez-vous sur les rapports de bugs et failles de sécurité des plugins avant de les installer ;
-- mettez en place le [profil complet]({{<ref "sites/use-waf#profils-disponibles">}}) de notre WAF ;
-- supprimez les thèmes et plugins inactifs ;
-- personnalisez le préfixe du nom des tables de votre base de données ;
-- supprimez le fichier readme.txt à la racine de votre application ;
-- supprimez les utilisateurs créés par défaut ;
-- d'[autres règles]({{<ref "sites/clean-up-a-site" >}}#3-supprimer-les-vecteurs-dinfection).
+- [Script d'installation](https://admin.alwaysdata.com/site/application/script/4/detail/)

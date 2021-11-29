@@ -2,10 +2,16 @@
 title = "Installing a Ruby-on-Rails Application"
 hidden = true
 layout = "howto"
-tags = ["ruby", "ruby on rails"]
+tags = ["framework", "ruby"]
 +++
 
-A [Ruby on Rails](http://rubyonrails.org/) application is deployed at alwaysdata just like any other Rack application.
+A [Ruby on Rails](http://rubyonrails.org/) is a [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) framework and can be deployed at alwaysdata just like any other Rack application.
+
+- [Documentation](https://guides.rubyonrails.org/)
+
+A *Ruby on Rails* Hello World is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.
+
+- [Install script](https://admin.alwaysdata.com/site/application/script/30/detail/)
 
 ## Installing the application
 

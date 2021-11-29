@@ -12,9 +12,10 @@ tags = ["http", "statistiques", "site"]
 - [Interface Matomo](https://analytics.alwaysdata.com)
 - [Assistance Matomo]({{< ref "analytics/troubleshooting-matomo" >}})
 
+Vous pouvez aussi installer votre propre instance via notre [marketplace]({{< ref "marketplace/matomo" >}}).
+
 ## Accéder à ses statistiques
 Rendez-vous dans la section **Web > Analytics**.
-
 
 ### Segmenter les sites
 Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segmenter dans le menu **SITES MATOMO** de cette section :

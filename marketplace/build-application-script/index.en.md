@@ -37,8 +37,8 @@ Scripts comprise two parts:
 |SMTP_HOST|Host name for mail sending server connection|`smtp-foo.alwaysdata.net`|
 |RESELLER_DOMAIN|Root domain used by the hosting provider|`alwaysdata.net`|
 |FORM_*|Other variables explicitly requested from the user in the "form" section in the YAML dataset||
-|PORT|Specific port for User program, Node.js or Elixir type sites||
-|0.0.0.0 or IP|Specific port for User program, Node.js or Elixir type sites (prefer 0.0.0.0 to IP)||
+|PORT|Specific port for User program, Node.js, Elixir, .NET or Deno type sites||
+|`::` or IP|Specific port for User program, Node.js, Elixir, .NET or Deno type sites (prefer `::` to IP)||
 
 If other variables are needed, open a [support ticket](https://admin.alwaysdata.com/support/add/).
 
@@ -53,7 +53,7 @@ If other variables are needed, open a [support ticket](https://admin.alwaysdata.
 
 {{% notice note %}}
 To make a script accessible to alwaysdata platform users, check the box to make it *public*.
-**Any script marked as public will at least be checked by the alwaysdata team.**
+**Any script marked as public must be maintained and will at least be checked by the alwaysdata team.**
 {{% /notice %}}
 
 {{% notice tip %}}

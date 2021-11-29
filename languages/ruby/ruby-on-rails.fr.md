@@ -3,10 +3,16 @@ url = "/fr/langages/ruby/ruby-on-rails/"
 title = "Comment installer une application Ruby-on-Rails"
 hidden = true
 layout = "howto"
-tags = ["ruby", "ruby on rails"]
+tags = ["framework", "ruby"]
 +++
 
-Une application [Ruby on Rails](http://rubyonrails.org/) se déploie chez alwaysdata comme n'importe quelle application Rack.
+[Ruby on Rails](http://rubyonrails.org/) est un framework utilsant le modèle [MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur) et peut se déployer chez alwaysdata comme n'importe quelle application Rack.
+
+- [Documentation](https://guides.rubyonrails.org/)
+
+Un Hello World *Ruby on Rails* fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
+
+- [Script d'installation](https://admin.alwaysdata.com/site/application/script/30/detail/)
 
 ## Installer l'application
 
