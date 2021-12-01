@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/utiliser-le-cache-http/"
+url = "/fr/sites/cache-http/utiliser-le-cache-http/"
 title = "Comment utiliser le cache HTTP"
 layout = "howto"
 hidden = true

@@ -12,17 +12,18 @@ Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : page
 Bien que le cache HTTP convienne dans l'immense majorité des cas, vous pouvez également [faire tourner Varnish]({{< ref "sites/user-program" >}}) sur votre compte alwaysdata.
 {{% /notice %}}
 
-- [Utiliser le Cache HTTP]({{< ref "sites/use-http-cache" >}})
+- [Utiliser le cache HTTP]({{< ref "sites/http-cache/use-http-cache" >}})
+- [Activer le cache HTTP sur WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
 ## Concept
 
 Lorsqu’un utilisateur tente d'accéder à une page, le serveur web correspondant va géné­rer une page et l’en­voyer sur le réseau. Le cache inter­cepte alors la réponse pour la stocker dans sa mémoire locale avant de la ser­vir à l'utilisateur.
 
-{{< fig "images/http-cache_part-1.fr.png" "Mise en cache d’une res­source lors de sa requête" >}}
+{{< fig "http-cache_part-1.fr.png" "Mise en cache d’une res­source lors de sa requête" >}}
 
 Lorsqu’une requête pour la même page est émise par le même ou un autre utilisateur, le cache la restituera comme il détient alors une copie de la res­source deman­dée. Le ser­veur web ne sera plus inter­ro­gé.
 
-{{< fig "images/http-cache_part-2.fr.png" "Restitution d’une res­source pré­cé­dement mise en cache" >}}
+{{< fig "http-cache_part-2.fr.png" "Restitution d’une res­source pré­cé­dement mise en cache" >}}
 
 ## Implémentation
 

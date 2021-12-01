@@ -50,15 +50,16 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 
 ## Personnalisation
 
-- [Personnaliser les pages d'erreurs]({{< relref "custom-error-pages" >}})
-- [Analyser des processus]({{< relref "analyze-processes" >}})
-- [Performances web]({{< relref "web-performances" >}})
-- [Pic d'audience]({{< relref "anticipate-peak-audience" >}})
-- [Formater les logs HTTP]({{< relref "formatting-http-logs" >}})
-- [Cache HTTP]({{< relref "http-cache" >}})
-- [Utiliser le cache HTTP]({{< relref "use-http-cache" >}})
-- [WAF]({{< relref "./waf" >}})
-- [Utiliser le WAF]({{< relref "use-waf" >}})
+* [Personnaliser les pages d'erreurs]({{< relref "custom-error-pages" >}})
+* [Analyser des processus]({{< relref "analyze-processes" >}})
+* [Performances web]({{< relref "web-performances" >}})
+* [Pic d'audience]({{< relref "anticipate-peak-audience" >}})
+* [Formater les logs HTTP]({{< relref "formatting-http-logs" >}})
+- [Cache HTTP]({{< ref "sites/http-cache" >}})
+- [Utiliser le cache HTTP]({{< ref "sites/http-cache/use-http-cache" >}})
+- [Activer le cache HTTP sur WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
+* [WAF]({{< ref "sites/waf" >}})
+* [Utiliser le WAF]({{< ref "sites/waf/use-waf" >}})
 - [Sondes de monitoring]({{< relref "use-probes" >}})
 
 ## Liens externes

@@ -1,6 +1,6 @@
 +++
-url = "/fr/sites/utiliser-le-pare-feu-applicatif_waf/"
-title = "Comment utiliser le Pare-feu applicatif web (WAF)"
+url = "/fr/sites/waf/utiliser-le-waf/"
+title = "Comment utiliser le Pare-Feu Applicatif Web (WAF)"
 layout = "howto"
 hidden = true
 tags = ["http", "site", "waf"] 

@@ -54,11 +54,12 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 - [Web performances]({{< relref "web-performances" >}})
 - [Peak audience]({{< relref "./anticipate-peak-audience" >}})
 - [Format HTTP logs]({{< relref "./formatting-http-logs" >}})
-- [HTTP cache]({{< relref "./http-cache" >}})
-- [Use the HTTP cache]({{< relref "./use-http-cache" >}})
-- [WAF]({{< relref "./waf" >}})
-- [Use WAF]({{< relref "./use-waf" >}})
-- [Monitoring probes]({{< relref "./use-probes" >}})
+* [HTTP cache]({{< ref "sites/http-cache" >}})
+* [Use the HTTP cache]({{< ref "sites/http-cache/use-http-cache" >}})
+* [Activate the HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
+- [WAF]({{< ref "sites/waf" >}})
+- [Use WAF]({{< ref "sites/waf/use-waf" >}})
+* [Monitoring probes]({{< relref "./use-probes" >}})
 
 ## External links
 
