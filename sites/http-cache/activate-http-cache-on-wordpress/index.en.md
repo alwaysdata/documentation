@@ -5,33 +5,32 @@ layout = "howto"
 tags = ["cache", "http", "wordpress"]
 +++
 
-1. Install [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) or [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) plugins in the WordPress admin console.
+1. Install [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) plugin in the WordPress admin console. Activate it and enable caching in its settings:
 
-	For both plugins, caching must be enabled in their settings. Several parameters can be modified.
+{{< fig "images/activate-wp-cache.en.png" "" >}}
+	
+Several parameters can be modified afterwards.
 
 2. Activate the [HTTP cache]({{< ref "sites/http-cache" >}}) on the website via **Web > Sites > Edit the [site] - ⚙️ > Cache**.
 
 3. Verify if the cache is activated:
 
-- using `curl -I`:
+- once on the WordPress home page, open the developper panel of your browser, *Network* menu. Search on the header `Age`.
+
+{{< fig "images/result.en.png" "" >}}
+
+- or by using `curl -I`:
 ```sh
 $ curl -I https://httpcache.alwaysdata.net
 HTTP/2 200 
-date: Wed, 01 Dec 2021 14:51:58 GMT
+date: Wed, 01 Dec 2021 16:04:55 GMT
 server: Apache
-vary: X-Forwarded-Proto,Accept-Encoding
-last-modified: Wed, 01 Dec 2021 14:40:13 GMT
-etag: "2d5a-5d216a6cd644a"
-accept-ranges: bytes
-referrer-policy: no-referrer-when-downgrade
-pragma: public
-cache-control: max-age=3600, public
+vary: Accept-Encoding,Cookie
+
+cache-control: max-age=3, must-revalidate
+
 content-type: text/html; charset=UTF-8
 via: 2.0 alproxy
-content-length: 11610
 ```
-- once on the WordPress home page, open the developper panel of your browser, *Network* menu. Search on the header `Age`.
-
-{{< fig "images/result.png" "" >}}
 
 If your site returns the header `cache-control: max-age=0`, it is not cached.
