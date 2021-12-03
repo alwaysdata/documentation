@@ -8,7 +8,7 @@ tags = ["developpement"]
 
 [Jenkins](https://www.jenkins.io/) est un serveur d'automatisation pour développer et déployer vos projets.
 
--[Documentation](https://www.jenkins.io/doc/book/)
+- [Documentation](https://www.jenkins.io/doc/book/)
 
 ## Installation
 

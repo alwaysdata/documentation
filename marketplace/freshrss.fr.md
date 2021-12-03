@@ -8,7 +8,7 @@ tags = ["agrégateur"]
 
 [FreshRSS](https://www.freshrss.org/) est un agrégateur et lecteur de flux RSS proposant de nombreuses fonctionnalités.
 
--[Documentation](https://freshrss.github.io/FreshRSS/fr/)
+- [Documentation](https://freshrss.github.io/FreshRSS/fr/)
 
 ## Installation
 La dernière version de *FreshRSS* est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.

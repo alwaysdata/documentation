@@ -7,7 +7,7 @@ tags = ["project management"]
 
 [Leantime](https://leantime.io/) is a project management system for small teams and startups.
 
--[Documentation](https://docs.leantime.io/)
+- [Documentation](https://docs.leantime.io/)
 
 ## Installation
 

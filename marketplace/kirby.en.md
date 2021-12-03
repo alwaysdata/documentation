@@ -7,7 +7,7 @@ tags = ["cms"]
 
 [Kirby](https://getkirby.com/) is a [CMS](https://en.wikipedia.org/wiki/Content_management_system) that stores your content in text files ; each folder matches a page.
 
--[Documentation](https://getkirby.com/docs/guide)
+- [Documentation](https://getkirby.com/docs/guide)
 
 ## Installation
 

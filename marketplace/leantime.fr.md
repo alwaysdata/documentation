@@ -8,7 +8,7 @@ tags = ["gestion de projet"]
 
 [Leantime](https://leantime.io/) est un système de gestion de projet pour startups et petites équipes.
 
--[Documentation](https://docs.leantime.io/)
+- [Documentation](https://docs.leantime.io/)
 
 ## Installation
 

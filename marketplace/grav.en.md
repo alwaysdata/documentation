@@ -7,7 +7,7 @@ tags = ["cms"]
 
 [Grav](https://getgrav.org/) is a PHP flate file PHP [CMS](https://en.wikipedia.org/wiki/Content_management_system) that is very fast to installed.
 
--[Documentation](https://learn.getgrav.org/17)
+- [Documentation](https://learn.getgrav.org/17)
 
 ## Installation
 

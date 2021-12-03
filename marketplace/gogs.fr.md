@@ -8,7 +8,7 @@ tags = ["developpement"]
 
 [Gogs](https://gogs.io/) est un gestionnaire de dépôts git écrit en Go. Il vous permet d'héberger vos dépôts git et réduire votre dépendance à des solutions d'hébergement centralisées comme Github.
 
--[Documentation](https://gogs.io/docs)
+- [Documentation](https://gogs.io/docs)
 
 ## Installation
 
