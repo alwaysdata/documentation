@@ -12,6 +12,7 @@ Here you will find advanced issues or ones specific to alwaysdata.
 - [Migrations]({{< relref "migrations" >}})
 - [Dedicated IP addresses]({{< relref "dedicated-ip-addresses" >}})
 
-## Dedicated and VPS servers
+## VPS, dedicated and Gold servers
 
 - [System resources: alerts and limitations]({{< relref "system-resources-alerts-and-limitations" >}})
+- [Docker]({{< relref "docker" >}})

@@ -74,6 +74,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Scheluded tasks]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || Services[^6] |✔️|✔️|✔️|✔️|
 || [Firewall management]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
+|| [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
 
 
