@@ -9,10 +9,10 @@ The installation of a new server is **free of charge**. Other operations perform
 | Details                                      | Prices (VAT excluded)[^1] |
 | -------------------------------------------- | ------------------------- |
 | Complete configuration rebuild               | 600€                      |
-| CPU Upgrade (new configurations)             | 400€                      |
+| CPU Upgrade                                  | 400€                      |
 | Disks Upgrade                                | 400€                      |
 | RAM Extend                                   | 200€                      |
-| Disks extend (previous configurations)       | 200€                      |
+| Disks extend                                 | 200€                      |
 | Downgrade (dedicated to VPS, VPS B to VPS A) | 200€                      |
 
 Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
