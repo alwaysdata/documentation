@@ -8,7 +8,6 @@ tags = ["cache", "http", "site"]
 The HTTP cache temporarily stores web documents (e.g. HTML pages, CCS documents, images) to reduce the latency induced by the server when it needs to serve up a page and/or reduce its workload.
 
 - [Use the HTTP cache]({{< ref "sites/http-cache/use-http-cache" >}})
-- [Activate the HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
 {{% notice note %}}
 While the HTTP cache is appropriate in most cases, you can also [run Varnish]({{< ref "sites/user-program" >}}) on your alwaysdata account.

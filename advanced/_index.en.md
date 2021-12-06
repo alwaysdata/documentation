@@ -15,4 +15,3 @@ Here you will find advanced issues or ones specific to alwaysdata.
 ## VPS, dedicated and Gold servers
 
 - [System resources: alerts and limitations]({{< relref "system-resources-alerts-and-limitations" >}})
-- [Docker]({{< relref "docker" >}})
