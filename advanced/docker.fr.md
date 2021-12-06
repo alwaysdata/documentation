@@ -20,19 +20,11 @@ $ dockerd-rootless-setuptool.sh install
 Cela doit renvoyer :
 
 ```
-[INFO] systemd not detected, dockerd-rootless.sh needs to be started manually:
-
-PATH=/usr/local/bin:/sbin:/usr/sbin:$PATH dockerd-rootless.sh 
+[INFO] dockerd-rootless.sh needs to be started (e.g. by creating a service):
+dockerd-rootless.sh 
 
 [INFO] Creating CLI context "rootless"
 Successfully created context "rootless"
-
-[INFO] Make sure the following environment variables are set (or add them to ~/.bashrc):
-
-# WARNING: systemd not found. You have to remove XDG_RUNTIME_DIR manually on every logout.
-export XDG_RUNTIME_DIR=/home/excellency-cbay2/.docker/run
-export PATH=/usr/local/bin:$PATH
-export DOCKER_HOST=unix://$HOME/.docker/run/docker.sock
 ```
 
 - créer un [service]({{< ref "services" >}}) :
