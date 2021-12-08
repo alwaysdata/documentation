@@ -8,6 +8,7 @@ tags = ["cms"]
 [WordPress](https://wordpress.org/) is currently the most widely used open source [CMS](https://en.wikipedia.org/wiki/Content_management_system) thanks to its ease of deployment and the ability to add new functions to it, called [plugins](http://wordpress.org/plugins/) that are developed by the community.
 
 - [Documentation](https://wordpress.org/support/)
+- [Activate HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
 ## Installation
 

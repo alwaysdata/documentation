@@ -56,6 +56,7 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 - [Format HTTP logs]({{< relref "./formatting-http-logs" >}})
 * [HTTP cache]({{< ref "sites/http-cache" >}})
 * [Use the HTTP cache]({{< ref "sites/http-cache/use-http-cache" >}})
+* [Activate HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 - [WAF]({{< ref "sites/waf" >}})
 - [Use WAF]({{< ref "sites/waf/use-waf" >}})
 * [Monitoring probes]({{< relref "./use-probes" >}})
