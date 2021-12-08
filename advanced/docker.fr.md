@@ -13,13 +13,14 @@ Vous pouvez utiliser [Docker](https://www.docker.com/)[^1] sur les [offres Cloud
 Après avoir [contacté le support](https://admin.alwaysdata.com/support/add) pour installer Docker sur le serveur, il faut **pour chaque compte** devant l'utiliser :
 
 - exécuter en [SSH]({{< ref "remote-access/ssh" >}}) :
+
 ```sh
 $ dockerd-rootless-setuptool.sh install
 ```
 
 Cela doit renvoyer :
 
-```
+```sh
 [INFO] dockerd-rootless.sh needs to be started (e.g. by creating a service):
 dockerd-rootless.sh 
 
