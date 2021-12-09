@@ -12,9 +12,11 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
 - [Créer un utilisateur SSH]({{< relref "create-a-ssh-user" >}})
-- [Utiliser des clés]({{< relref "use-keys" >}})
 - [Problèmes fréquents]({{< ref "remote-access/ssh/troubleshooting" >}})
-- [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}}) (option de serveurs VPS et dédiés)
+
+* [Utiliser des clés]({{< relref "use-keys" >}})
+* [Double authentification SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
+* [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}}) (option de serveurs VPS et dédiés)
 
 {{% notice info %}}
 Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès `root`.

@@ -1,7 +1,7 @@
 +++
-url = "/fr/sécurité/double-authentification/"
-title = "Double authentification"
-menuTitle = "Double authentification"
+url = "/fr/sécurité/authentification-2-facteurs/"
+title = "Admin : Authentification 2 facteurs"
+menuTitle = "Authentification 2 facteurs"
 layout = "man"
 weight = 10
 tags = ["2fa", "profil", "sécurité"]
@@ -18,5 +18,9 @@ Cela vous donnera accès à vos codes personnels (code secret et QR code).
 
 Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un code de sécurité à usage unique à indiquer lors des prochaines connexions à l'interface d'administration. Ce code de sécurité est renouvelé toutes les _30 secondes_ (calcul basé sur l'heure ou un compteur).
 
-- andOTP: application TOTP Open Source pour [Android](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp) ([GitHub](https://github.com/andOTP/andOTP)).
-- Google Authenticator : application TOTP [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) et [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
+Une authentification à deux facteurs est aussi disponible [en SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}).
+
+### OTP applications
+
+- [FreeOTP](https://freeotp.github.io/) : [Android](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp), [iOS](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8) et [F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp) ([Github](https://github.com/freeotp)).
+- Google Authenticator: [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) et [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605).
