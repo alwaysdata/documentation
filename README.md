@@ -1,4 +1,4 @@
-# aldocs: alwaysdata documentation
+# alwaysdata documentation
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gohugoio/hugo?label=hugo)
@@ -9,9 +9,33 @@
 
 This documentation is generated using the [Hugo][1] static site generator.
 
-An internal CI is responsible for building the documentation. A constantly up-to-date version based on the `master` branch is available at https://preview.help.alwaysdata.com.
-
 ## Working on documentation
+
+### Installing Hugo
+
+Hugo can be installed in the current directory with:
+
+```sh
+make hugo
+```
+
+### Build
+
+To build:
+
+```sh
+$ make
+```
+
+### Serve the content
+
+To start the Hugo builtin dev server:
+
+```sh
+$ ./hugo serve
+```
+
+Point your browser to http://localhost:1313 to access the preview.
 
 ### Update the content
 
@@ -32,13 +56,13 @@ Please keep in mind that:
 You should create *both* version when creating a new content:
 
 ```sh
-$ hugo new path/to/page.en.md
-$ hugo new path/to/page.fr.md
+$ ./hugo new path/to/page.en.md
+$ ./hugo new path/to/page.fr.md
 ```
 
 ⚠ Pay attention: all localized versions of a given page **must** have the same filename and must be in the same folder. You **only** have to update the extension to use the correct ISO locale (e.g. here above the extension `.en.md` becomes `.fr.md` for the french version).
 
-If you write a page that is _not_ in english, you should add a `url` entry in the front headers to fill the localized page url.
+If you write a page that is _not_ in English, you should add a `url` entry in the front headers to fill the localized page url.
 
 ## Redacting content
 
@@ -47,8 +71,8 @@ If you write a page that is _not_ in english, you should add a `url` entry in th
 When you create new pages, you should pass a [type][7] to start your page with a proper template, dedicated to the content you want to add.
 
 ```sh
-$ hugo new --kind man new/section/_index.en.md
-$ hugo new --kind man new/section/_index.fr.md
+$ ./hugo new --kind man new/section/_index.en.md
+$ ./hugo new --kind man new/section/_index.fr.md
 ```
 
 Available types are:

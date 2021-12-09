@@ -1,0 +1,82 @@
+baseURL                        = "https://help.alwaysdata.com"
+theme                          = "learn"
+
+ignoreFiles                    = [ "README.md" ]
+refLinksErrorLevel             = "WARNING"
+
+defaultContentLanguageInSubdir = "true"
+languageCode                   = "en-us"
+defaultContentLanguage         = "en"
+
+[Taxonomies]
+  tag = "tags"
+
+# i18n - EN
+[Languages.en]
+  weight         = 1
+  languageName   = "English"
+  title          = "alwaysdata Documentation"
+  landingPageURL = "/en/"
+
+[[Languages.en.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-heart'></i> alwaysdata"
+  url    = "https://help.alwaysdata.com/en/love/"
+  weight = 4
+
+[[Languages.en.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-twitter'></i> Ask us on Twitter"
+  url    = "https://twitter.com/alwaysdata"
+  weight = 5
+
+[[Languages.en.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-user-plus'></i> Signup"
+  url    = "https://www.alwaysdata.com/en/register/"
+  weight = 11
+
+[[Languages.en.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-sign-in-alt'></i> Login"
+  url    = "https://admin.alwaysdata.com/"
+  weight = 10
+
+# i18n - FR
+[Languages.fr]
+  weight         = 2
+  languageName   = "Français"
+  title          = "Documentation alwaysdata"
+  landingPageURL = "/fr/"
+
+[[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-heart'></i> alwaysdata"
+  url    = "https://help.alwaysdata.com/fr/love/"
+  weight = 4
+
+[[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-twitter'></i> Rejoignez-nous sur Twitter"
+  url    = "https://twitter.com/alwaysdata"
+  weight = 5
+
+[[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-user-plus'></i> Inscription"
+  url    = "https://www.alwaysdata.com/fr/inscription/"
+  weight = 11
+
+[[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fas fa-fw fa-sign-in-alt'></i> Connexion"
+  url    = "https://admin.alwaysdata.com/"
+  weight = 10
+
+# For search functionality
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+# Theme settings
+[params]
+  editURL                  = "https://github.com/alwaysdata/documentation/"
+  author                   = "alwaysdata <contact@alwaysdata.com>"
+  themeVariant             = "alwaysdata"
+  disableBreadcrumb        = false
+  disableNextPrev          = true
+  disableShortcutsTitle    = true
+  disableToc               = true
+  disableLandingPageButton = true
+  landingPageURL           = "/"

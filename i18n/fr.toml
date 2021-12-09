@@ -1,0 +1,27 @@
+["Troubleshooting and FAQs"]
+other = "Assistance et FAQs"
+
+['How-to']
+other = "Comment"
+
+['How-Tos']
+other = "Guides"
+
+['QuickStart']
+other = "Démarrage"
+
+['Overview']
+other = "— Informations"
+
+['title-404']
+other = "Documentation alwaysdata - 404"
+
+['message-404']
+other = "Hmm… Nous avons beau chercher, nous ne trouvons pas cette documentation. Peut-être vaut-il mieux recommencer du début ?"
+
+['signup-title']
+  other = "Découvrez notre offre de Cloud Public"
+['signup-desc']
+  other = "L'hébergement mutualisé pour tou·te·s, imaginé par des développeur·euse·s, pour des développeur·euse·s."
+['signup-link']
+  other = "Découvrir le Cloud Public"
