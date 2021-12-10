@@ -21,6 +21,6 @@ The **Resources** menu allows to configure sysadmin resources, as the disk space
 
 It is possible to manage these three limits on *server* or *account* levels. The account level values **take the lead** over the server values.
 
-- *RAM treshold*: treshold at which the script described above is performed.
+- *RAM treshold*: treshold at which the script described below is performed.
 
 - *Command to execute when RAM threshold is exceeded*: command/script executed by the system when the threshold is reached. This allows not to kill a process "at random".

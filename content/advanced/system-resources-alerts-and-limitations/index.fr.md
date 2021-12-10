@@ -22,6 +22,6 @@ Le menu **Ressources** permet de configurer ses ressources système, comme  l'es
 
 Il est possible de gérer ces trois limites au niveau *serveur* ou au niveau *compte*. Les valeurs au niveau du compte **prennent l'avantage** sur les valeurs serveurs.
 
-- *Seuil de RAM* : seuil auquel est effectué le script présenté dessus.
+- *Seuil de RAM* : seuil auquel est effectué le script présenté dessous.
 
 - *Commande à exécuter en cas de dépassement du seuil de RAM* : commande/script exécuté par le système lorsque le seuil est atteint. Cela permet de ne pas tuer un processus "au hasard".
