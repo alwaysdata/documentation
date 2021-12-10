@@ -19,7 +19,7 @@ Go to the **Web > Sites > Add a site** menu.
 - Type of redirect:
     - permanent (HTTP code `301`): for conventional use, redirects a visitor from an address A to an address B. Search engines will update their index with the new destination,
     - temporary (HTTP code `302`): generally used during site maintenance. The search engines retain the original page in their index,
-    - "transparent" or "invisible": redirects the original address to the destination address but retains the original address as the URL. It uses frames with content that will not be indexed by most search engines so referencing will therefore be less effective.
+    - "transparent (reverse proxy)": sets up a reverse proxy to the indicated address. It redirects the original address to the destination address but retains the original address as the URL.
 - Add the request path to the destination URL.
 
 {{< fig "images/admin-panel_redirect.en.png" "Add a site: redirect">}}
