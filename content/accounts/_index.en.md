@@ -3,7 +3,7 @@ title = "Accounts & Billing"
 weight = 60
 chapter = true
 pre = "<i class='fas fa-fw fa-user-circle'></i> "
-tags = ["administration", "account", "billing", "profile"]
+tags = ["administration interface", "billing"]
 +++
 
 # Accounts

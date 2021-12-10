@@ -2,7 +2,7 @@
 title = "API"
 pre = "<i class='fas fa-fw fa-plug'></i> "
 weight = 80
-tags = ["api"]
+tags = ["administration interface", "api"]
 +++
 
 An [API](https://en.wikipedia.org/wiki/Application_programming_interface) (or Application Programming Interface) is a programming interface used to automate how you manage your resources.

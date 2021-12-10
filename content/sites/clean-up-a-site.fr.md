@@ -4,7 +4,7 @@ title = "Comment désinfecter un site web"
 menuTitle = "Désinfecter un site"
 layout = "howto"
 weight = 90
-tags = ["infection", "malware", "site"]
+tags = ["infection", "malware", "spam"]
 +++
 
 L'infection d'un site peut se traduire de différentes manières :

@@ -3,7 +3,7 @@ url = "/fr/comptes/système-d-alertes/"
 title = "Système d'alertes"
 layout = "man"
 hidden = true
-tags = ["profil"]
+tags = ["interface d'administration", "suspension"]
 +++
 
 Pour de nombreuses raisons, une alerte peut-être enclenchée par notre système dont voici le fonctionnement :

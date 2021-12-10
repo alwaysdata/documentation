@@ -2,7 +2,7 @@
 title = "Adding an External Domain"
 layout = "howto"
 weight = 5
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer]({{< ref "domains/transfer-a-domain" >}}).

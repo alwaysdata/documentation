@@ -1,7 +1,7 @@
 +++
 title = "API Resources"
 weight = 10
-tags = ["administration", "api"]
+tags = ["administration interface", "api"]
 +++
 
 |Name|Description|Documentation|

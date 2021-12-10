@@ -3,7 +3,7 @@ url = "/fr/comptes/permissions/"
 title = "Permissions"
 weight = 12
 layout = "man"
-tags=["administration"]
+tags=["facturation", "environnement technique", "interface d'administration"]
 +++
 
 Parce que l'hébergement de vos données implique très souvent différents acteurs, notre interface d'administration vous permet d'octroyer des permissions sur différents niveaux de granularité.

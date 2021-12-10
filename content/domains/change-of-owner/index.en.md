@@ -2,7 +2,7 @@
 title = "Modify the Domain Owner"
 layout = "howto"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.

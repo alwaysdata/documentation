@@ -3,7 +3,7 @@ title = "Which plan to choose?"
 menuTitle = "Choosing your hosting plan"
 layout = "man"
 weight = 1
-tags = ["billing", "dedicated", "public cloud", "vps"]
+tags = ["billing", "dedicated server", "gold server", "public cloud", "vps"]
 +++
 
 The alwaysdata hosting services is a [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service)[^1]: it provides the infrastructure (data center, the network...) and the system stack (OS[^2], interpreters, libraries, databases, security...). Customers need only handle deploying, securing and updating their applications.

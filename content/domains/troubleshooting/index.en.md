@@ -2,7 +2,7 @@
 title = "Domains Troubleshooting"
 layout = "faq"
 weight = 90
-tags = ["troubleshooting", "domains"]
+tags = ["troubleshooting", "domain"]
 +++
 
 ## Transfer

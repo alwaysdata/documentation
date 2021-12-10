@@ -3,7 +3,7 @@ url = "/fr/comptes/facturation/interventions-sur-serveurs/"
 title = "Montant des interventions sur serveurs"
 layout = "man"
 hidden = true
-tags = ["facturation"]
+tags = ["facturation", "serveur dédié", "serveur gold", "serveur vps"]
 +++
 La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
 

@@ -2,7 +2,7 @@
 title = "Deleting a DNS Record"
 layout = "howto"
 hidden = true
-tags = ["dns", "domains"]
+tags = ["dns", "domain"]
 +++
 
 1.  Go to **Domains > Details for [example.org] domain - 🔎 > DNS records**,

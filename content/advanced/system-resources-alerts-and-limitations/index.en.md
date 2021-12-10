@@ -2,7 +2,7 @@
 title = "Sysadmin Resources: Alerts and Limitations"
 layout = "howto"
 hidden = true
-tags = ["dedicated", "vps"]
+tags = ["dedicated server", "gold server", "technical environment", "vps"]
 +++
 
 {{% notice info %}}

@@ -2,7 +2,7 @@
 title = "Buying a domain"
 layout = "howto"
 weight = 1
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 1.  From your administration interface, go to **Domains > Add a domain**,

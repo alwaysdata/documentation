@@ -2,7 +2,7 @@
 title = "Configuring the Firewall on Dedicated and VPS Servers"
 layout = "faq"
 hidden = true
-tags = ["security", "dedicated", "vps"]
+tags = ["security", "dedicated server", "gold server", "vps"]
 +++
 
 The firewall is managed from the server's **Firewall** menu.

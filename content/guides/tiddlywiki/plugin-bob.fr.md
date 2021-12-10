@@ -2,7 +2,7 @@
 title = "Utiliser le plugin Bob de TiddlyWiki"
 layout = "howto"
 hidden = true
-tags = ["tiddlywiki", "plugin"]
+tags = ["wiki"]
 +++
 
 [TiddlyWiki]({{<ref "./">}}) est un "carnet Web personnel non linéaire", ce qui signifie qu'il est plus probablement destiné à être utilisé par un seul utilisateur, pour un usage personnel. Il est possible que vous souhaitiez servir plusieurs TiddlyWikis, chacun étant dédié à des fins différentes. Vous pouvez y parvenir en définissant plusieurs *Sites* dans votre panneau d'administration. Ou vous pouvez utiliser le plugin [Bob](https://github.com/OokTech/TW5-Bob), qui permet l'édition *multi-seats* en temps réel.

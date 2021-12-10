@@ -3,7 +3,7 @@ url = "/fr/comptes/facturation/prix-cloud-public/"
 title = "Tarifs Cloud Public"
 layout = "man"
 hidden = true
-tags = ["cloud", "facturation"]
+tags = ["cloud public", "facturation"]
 +++
 
 Cette page recence les prix des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).

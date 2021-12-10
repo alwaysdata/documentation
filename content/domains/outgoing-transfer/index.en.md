@@ -2,7 +2,7 @@
 title = "Transfering a Domain to Another Provider"
 layout = "howto"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 To transfer a domain to another host services provider, initiate the command from the new provider.

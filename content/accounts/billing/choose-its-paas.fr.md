@@ -4,7 +4,7 @@ title = "Quelle offre choisir ?"
 menuTitle = "Choisir son plan d'hébergement"
 layout = "man"
 weight = 1
-tags = ["cloud public", "facturation", "serveur dédié", "serveur vps"]
+tags = ["cloud public", "facturation", "serveur dédié", "serveur gold", "serveur vps"]
 +++
 
 L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service)[^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS[^2], inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.

@@ -2,7 +2,7 @@
 title = "Renewal Deadlines"
 layout = "man"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 Different dates apply:

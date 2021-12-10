@@ -2,7 +2,7 @@
 title = "Using an External MX E-mail Servers"
 layout = "howto"
 weight = 20
-tags = ["dns", "domains", "e-mail"]
+tags = ["dns", "domain", "e-mail"]
 +++
 
 To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive e-mail.

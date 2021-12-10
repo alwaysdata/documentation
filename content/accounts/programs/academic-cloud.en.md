@@ -1,7 +1,7 @@
 +++
 title = "Alwaysdata Academic Cloud"
 layout = "man"
-tags = ["billing", "sponsorship"]
+tags = ["billing", "learning", "sponsorship"]
 +++
 
 This program gives formers the opportunity to invite - via the **Profile > Academic Cloud** menu - their students to host projects with these advantages:

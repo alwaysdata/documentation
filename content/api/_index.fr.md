@@ -3,7 +3,7 @@ url = "/fr/api/"
 title = "API"
 pre = "<i class='fas fa-fw fa-plug'></i> "
 weight = 80
-tags = ["api"]
+tags = ["api", "interface d'administration"]
 +++
 
 Une [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) (pour Application

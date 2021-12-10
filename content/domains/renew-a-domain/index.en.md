@@ -2,7 +2,7 @@
 title = "Renewing a Domain"
 layout = "man"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 Go to **Domains > Details of [example.org] - 🔎 > RENEW**.

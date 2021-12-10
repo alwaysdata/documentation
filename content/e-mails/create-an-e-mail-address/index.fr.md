@@ -4,7 +4,7 @@ title = "Comment créer une adresse email"
 menuTitle = "Créer une adresse email"
 layout = "howto"
 weight = 1
-tags = ["email"]
+tags = ["email", "redirection"]
 +++
 
 À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine]({{< ref "/domains" >}})).

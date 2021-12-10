@@ -2,7 +2,7 @@
 title = "Private Cloud pricing"
 layout = "man"
 hidden = true
-tags = ["billing", "dedicated", "gold", "vps"]
+tags = ["billing", "dedicated server", "gold server", "vps"]
 +++
 
 This page lists the prices of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).

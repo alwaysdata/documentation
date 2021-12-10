@@ -2,7 +2,7 @@
 title = "Delegating a Domain"
 layout = "howto"
 hidden = true
-tags = ["domains", "sites"]
+tags = ["domain", "site"]
 +++
 
 To allow another alwaysdata user to use a subdomain belonging to your domain, you need to grant them permission.

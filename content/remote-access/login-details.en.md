@@ -2,7 +2,7 @@
 title = "Login Information"
 layout = "faq"
 weight = 1
-tags = ["account"]
+tags = ["account", "technical environment"]
 +++
 
 The subdomain assigned to you when your account is created will end with a **.net** extension and not a _.com_ extension like other alwaysdata domains.

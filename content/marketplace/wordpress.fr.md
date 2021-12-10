@@ -3,7 +3,7 @@ url = "/fr/marketplace/wordpress/"
 title = "WordPress"
 layout = "man"
 hidden = true
-tags = ["cms"]
+tags = ["cms", "wordpress"]
 +++
 
 [WordPress](https://fr.wordpress.org/) est le [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu) open source le plus utilisé aujourd'hui de par sa simplicité de déploiement et la possibilité d'y greffer de nouvelles fonctionnalités développées par la communauté appelées [plugins](http://wordpress.org/plugins/).

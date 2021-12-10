@@ -3,7 +3,7 @@ url = "/fr/marketplace/expressjs/"
 title = "Express.js"
 layout = "man"
 hidden = true
-tags = ["framwork", "nodejs"]
+tags = ["framework", "nodejs"]
 +++
 
 [Express.js](http://expressjs.com/) est le framework standard pour le développement en Node.js.

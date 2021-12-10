@@ -2,7 +2,7 @@
 title = "Installing GitLab"
 layout = "howto"
 hidden = true
-tags = ["devops"]
+tags = ["development"]
 +++
 
 [GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...

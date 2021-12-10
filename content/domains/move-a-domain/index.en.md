@@ -2,7 +2,7 @@
 title = "Transfering a Domain"
 layout = "howto"
 hidden = true
-tags = ["domains", "e-mail"]
+tags = ["domain", "e-mail"]
 +++
 
 This article explains how to transfer a domain *and* its e-mail addresses to **another alwaysdata account**.

@@ -4,7 +4,7 @@ title = "Comptes & Facturation"
 weight = 60
 chapter = true
 pre = "<i class='fas fa-fw fa-user-circle'></i> "
-tags = ["administration", "compte", "facturation", "profil"]
+tags = ["facturation", "interface d'administration"]
 +++
 
 # Comptes

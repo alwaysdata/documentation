@@ -4,7 +4,7 @@ title = "Architecture alwaysdata"
 pre = "<i class='fas fa-fw fa-atom'></i> "
 weight = 40
 chapter = true
-tags = ["infrastructure"]
+tags = ["environnement technique", "infrastructure"]
 +++
 # Architecture alwaysdata
 ## Architecture matérielle

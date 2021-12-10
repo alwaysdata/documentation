@@ -2,7 +2,7 @@
 title = "Public Cloud pricing"
 layout = "man"
 hidden = true
-tags = ["billing", "cloud"]
+tags = ["billing", "public cloud"]
 +++
 
 This page lists the prices of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).

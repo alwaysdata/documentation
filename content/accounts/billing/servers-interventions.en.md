@@ -2,7 +2,7 @@
 title = "Prices of servers interventions"
 layout = "man"
 hidden = true
-tags = ["billing"]
+tags = ["billing", "dedicated server", "gold server", "vps"]
 +++
 The installation of a new server is **free of charge**. Other operations performed by our system administrators may be charged at the following rates:
 

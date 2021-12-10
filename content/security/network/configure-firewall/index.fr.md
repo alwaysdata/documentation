@@ -3,7 +3,7 @@ url = "/fr/sécurité/réseau/configurer-son-pare-feu"
 title = "Serveurs VPS et dédiés : configurer le pare-feu"
 layout = "faq"
 hidden = true
-tags = ["sécurité", "serveur dédié", "serveur vps"]
+tags = ["sécurité", "serveur dédié", "serveur gold", "serveur vps"]
 +++
 
 Le pare-feu se gère dans le menu **Firewall** du serveur.

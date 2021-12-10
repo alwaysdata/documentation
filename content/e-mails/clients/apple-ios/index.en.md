@@ -1,7 +1,7 @@
 +++
 title = "Configuring Mail.app (Apple/iOS)"
 layout = "howto"
-tags = ["e-mail", "mail.app", "ios", "macos", "apple"]
+tags = ["e-mail", "ios", "macos", "apple"]
 hidden = true
 +++
 

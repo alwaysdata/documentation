@@ -2,7 +2,7 @@
 title = "How to Migrate to a VPS/Dedicated Server"
 layout = "howto"
 hidden = true
-tags = ["migration", "dedicated", "vps"]
+tags = ["migration", "dedicated server", "gold server", "vps"]
 +++
 
 Most migrations imply a complete change on the server. For example, migration to a new version of our software infrastructure will call for the complete reinstallation of the server.

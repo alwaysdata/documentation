@@ -2,7 +2,7 @@
 title = "Releasing a Domain"
 layout = "howto"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 Deleting a domain from the **Domains** tab does not destroy it. It simply inhibits its operation if it uses our DNS servers.

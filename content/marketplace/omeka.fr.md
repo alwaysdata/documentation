@@ -3,7 +3,7 @@ url = "/fr/marketplace/omeka/"
 title = "Omeka"
 layout = "man"
 hidden = true
-tags = ["tool"]
+tags = ["utilitaire"]
 +++
 
 [Omeka] (https://omeka.org/) est une plateforme de publication web permettant de partager des collections numériques et de créer des expositions en ligne riches en médias. [Omeka Classic](https://omeka.org/classic/) est destiné aux particuliers et aux éducateurs et [Omeka S](https://omeka.org/s/), aux institutions.

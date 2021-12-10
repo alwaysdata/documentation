@@ -2,7 +2,7 @@
 title = "Alerts notifications"
 layout = "man"
 hidden = true
-tags = ["profile"]
+tags = ["administration interface", "suspension"]
 +++
 
 For many reasons, an alert may be triggered by our system. Here is how it works:

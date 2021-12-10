@@ -3,7 +3,7 @@ url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/déroulemen
 title = "Serveurs VPS/Dédiés: Déroulement des migrations obligatoires"
 layout = "man"
 hidden = true
-tags = ["migration", "dédié", "vps"]
+tags = ["migration", "serveur dédié", "serveur gold", "serveur vps"]
 +++
 
 Ces migrations sont effectuées à quatre mains avec le [support](https://admin.alwaysdata.com/support/).

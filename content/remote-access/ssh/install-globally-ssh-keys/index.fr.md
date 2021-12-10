@@ -4,7 +4,7 @@ title = "Comment accéder globalement à son serveur avec des clés SSH"
 layout = "howto"
 weight = 80
 hidden = true
-tags = ["accès distant", "serveur dédié", "serveur vps", "ssh"]
+tags = ["accès distant", "serveur dédié", "serveur gold", "serveur vps", "ssh"]
 +++
 
 Pour gérer facilement les comptes de son serveur, vous pouvez installer des clés SSH globales dans l'onglet **Clés SSH** de votre serveur. Elles permettent de se connecter à n'importe quel compte sans connaître son mot de passe.

@@ -2,7 +2,7 @@
 title = "Transfering a Domain"
 layout = "howto"
 weight = 2
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.

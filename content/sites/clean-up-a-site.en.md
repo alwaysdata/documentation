@@ -2,7 +2,7 @@
 title = "Removing a Site Infection"
 layout = "howto"
 weight = 90
-tags = ["infection", "malware", "site"]
+tags = ["infection", "malware", "spam"]
 +++
 
 A site infection may show up in different ways:

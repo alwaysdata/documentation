@@ -2,7 +2,7 @@
 title = "Update Domain Owner's Details"
 layout = "howto"
 hidden = true
-tags = ["domains"]
+tags = ["domain"]
 +++
 
 Each domain is linked to a specific owner user. Go to **Domains > Contact management** to find the list of domain users.

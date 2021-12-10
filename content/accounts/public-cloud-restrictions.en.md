@@ -2,7 +2,7 @@
 title = "Public Cloud Restrictions"
 layout = "man"
 hidden = true
-tags = ["abuse", "free plan", "public cloud"]
+tags = ["free plan", "public cloud", "suspension"]
 +++
 
 Here is a - non-exhaustive - list of restrictions:

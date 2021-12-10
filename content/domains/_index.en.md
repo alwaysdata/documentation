@@ -3,7 +3,7 @@ title = "Domains"
 pre = "<i class='fas fa-fw fa-server'></i> "
 weight = 16
 chapter = true
-tags = ["dns", "domains"]
+tags = ["dns", "domain"]
 +++
 
 # Domains

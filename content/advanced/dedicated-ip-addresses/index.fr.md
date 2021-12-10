@@ -3,7 +3,7 @@ url = "/fr/avancé/adresses-ip-dédiées"
 title = "Adresses IP dédiées"
 layout = "man"
 hidden = true
-tags = ["e-mail", "http", "site"]
+tags = ["email", "http", "site"]
 +++
 
 Quel que soit l'environnement pris[^1], des adresses IPv4 sont offertes à la location via le menu **Avancé > Adresses IP**. Ces IP - non partagées - sont facturées 5 € TTC par mois ou 60 € TTC par an[^2].

@@ -3,7 +3,7 @@ url = "/fr/domaines/déléguer-un-sous-domaine/"
 title = "Comment déléguer un sous-domaine"
 layout = "howto"
 hidden = true
-tags = ["domaine", "sites"]
+tags = ["domaine", "site"]
 +++
 
 Pour permettre à un autre utilisateur d'alwaysdata de pouvoir utiliser un sous-domaine de votre domaine, il faut lui donner votre permission.

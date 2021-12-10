@@ -2,7 +2,7 @@
 title = "Change a Website Address"
 hidden = true
 layout = "howto"
-tags = ["http", "sites"]
+tags = ["http", "site"]
 +++
 
 Your site points to an address - for example `foo.alwaysdata.net` - and you want to use another address/domain. Here are the steps to follow:

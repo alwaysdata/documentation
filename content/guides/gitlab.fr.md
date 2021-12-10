@@ -3,7 +3,7 @@ url = "/fr/guides/gitlab/"
 title = "Comment installer GitLab"
 layout = "howto"
 hidden = true
-tags = ["devops"]
+tags = ["developpement"]
 +++
 
 [GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...

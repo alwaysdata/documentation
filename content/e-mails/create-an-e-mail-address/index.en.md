@@ -2,7 +2,7 @@
 title = "Creating an E-mail Address"
 layout = "howto"
 weight = 1
-tags = ["e-mail"]
+tags = ["e-mail", "redirection"]
 +++
 
 From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name]({{< ref "/domains">}})).

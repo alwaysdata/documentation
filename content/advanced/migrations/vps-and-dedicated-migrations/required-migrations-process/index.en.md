@@ -2,7 +2,7 @@
 title = "VPS/Dedicated Server: Required Migrations Process"
 layout = "man"
 hidden = true
-tags = ["migration", "dedicated", "vps"]
+tags = ["migration", "dedicated server", "gold server", "vps"]
 +++
 
 These migrations are done in four hands with the [support](https://admin.alwaysdata.com/support/).

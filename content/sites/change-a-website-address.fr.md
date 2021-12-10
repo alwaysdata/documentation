@@ -3,7 +3,7 @@ url = "/fr/sites/changer-ladresse-dun-site-web"
 title = "Changer l'adresse d'un site web"
 hidden = true
 layout = "howto"
-tags = ["http", "sites"]
+tags = ["http", "site"]
 +++
 
 Votre site pointe sur une adresse - par exemple `foo.alwaysdata.net` - et vous souhaitez utiliser une autre adresse/un autre domaine. Voici les étapes à suivre :

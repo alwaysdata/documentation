@@ -2,7 +2,7 @@
 title = "Adding a DNS Record"
 layout = "howto"
 weight = 6
-tags = ["dns", "domains"]
+tags = ["dns", "domain"]
 +++
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records**,

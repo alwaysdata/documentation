@@ -2,7 +2,7 @@
 title = "Using TiddlyWiki's Bob Plugin"
 layout = "howto"
 hidden = true
-tags = ["tiddlywiki", "plugin"]
+tags = ["wiki"]
 +++
 
 [TiddlyWiki]({{<ref "./">}}) is a "non-linear personal web notebook", which means it is more likely intended to be used by a single user, for personal use. You may want to serve multiple TiddlyWikis, each dedicated to different purposes. You can achieve this by setting multiple *Sites* in your administration panel. Or you can rely on the [Bob](https://github.com/OokTech/TW5-Bob) plugin, which allows multi-seat edition in real-time.

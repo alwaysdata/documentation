@@ -2,7 +2,7 @@
 url = "/fr/comptes/programmes/academic-cloud"
 title = "Alwaysdata Academic Cloud"
 layout = "man"
-tags = ["facturation", "parrainage"]
+tags = ["enseignement", "facturation", "parrainage"]
 +++
 
 Ce programme donne aux formateurs la possibilité d'inviter - via le menu **Profil > Academic Cloud** - leurs étudiants à héberger leurs projets en profitant des avantages suivants :

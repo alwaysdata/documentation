@@ -2,7 +2,7 @@
 title = "Permissions"
 weight = 12
 layout = "man"
-tags=["administration"]
+tags=["administration interface", "billing", "technical environment"]
 +++
 
 Because hosting your data often involves different players, our administration lets you grant permissions with different granularity levels.

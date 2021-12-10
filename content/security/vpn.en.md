@@ -2,7 +2,7 @@
 title = "VPN"
 layout = "man"
 hidden = true
-tags = ["security", "vpn"]
+tags = ["dedicated server", "gold server", "security"]
 +++
 
 alwaysdata offers the installation of [virtual private networks (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) software on [dedicated]({{< ref "accounts/billing/private-cloud-prices#managed-dedicated-servers" >}}) and [Gold]({{< ref "accounts/billing/private-cloud-prices#managed-gold-servers" >}}) environments. Here is the list of available software :
