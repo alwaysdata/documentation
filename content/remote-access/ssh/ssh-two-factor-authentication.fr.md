@@ -21,14 +21,14 @@ Voici comment la mettre en place avec l'outil `google-authenticator`[^1] :
     ```shell
     $ google-authenticator -cfuw 3
     ```
-    
+  
 Le script vous renverra alors :
  - un QR code et la nouvelle clé secrète à rentrer sur votre application de génération de mots de passe[^2] ;
  - plusieurs codes d'urgence à récupérer de votre côté.
 
 Pour les vérifications TOTP, il sera nécessaire d'indiquer le code renvoyé par votre logiciel.
 
-> L'installation est terminée, la double authentification SSH est maintenant activée.
+> L'installation est terminée, l'authentification 2 facteurs SSH est maintenant activée.
 
 [^1]: bien que [développé par Google](https://github.com/google/google-authenticator-libpam/), il s'agit d'un outil **générique** et **open source** de [OTP](https://fr.wikipedia.org/wiki/Mot_de_passe_%C3%A0_usage_unique). Il ne communique à aucun moment avec les serveurs de Google.
 [^2]: Exemples d'applications : [FreeOTP](https://freeotp.github.io/) - [Android](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp), [iOS](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8) et [F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp) ([Github](https://github.com/freeotp)) | Google Authenticator - [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) et [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605).

@@ -15,7 +15,7 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 - [Problèmes fréquents]({{< ref "remote-access/ssh/troubleshooting" >}})
 
 * [Utiliser des clés]({{< relref "use-keys" >}})
-* [Double authentification SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
+* [Authentification 2 facteurs SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
 * [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}}) (option de serveurs VPS et dédiés)
 
 {{% notice info %}}

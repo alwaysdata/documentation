@@ -21,6 +21,7 @@ tags = [""]
 - Remote access:
     - [SSH access]({{< ref "remote-access/ssh" >}})
     - [Use SSH keys]({{< ref "remote-access/ssh/use-keys" >}})
+    - [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
 
 ## Servers
 

@@ -11,9 +11,11 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
 - [Create an SSH user]({{< relref "create-a-ssh-user" >}})
-- [Use keys]({{< relref "use-keys" >}})
 - [Frequent issues]({{< ref "remote-access/ssh/troubleshooting">}})
-- [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (VPS and dedicated server option)
+
+* [Use keys]({{< relref "use-keys" >}})
+* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
+* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (VPS and dedicated server option)
 
 {{% notice info %}}
 All of our offers are managed ones, it is not possible to gain `root` access.
