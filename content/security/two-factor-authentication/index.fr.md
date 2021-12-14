@@ -24,4 +24,4 @@ Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un cod
 - **Google Authenticator** : [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) et [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
 
 ---
-Une authentification à deux facteurs est aussi disponible [en SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}).
+Une authentification à deux facteurs est aussi disponible [en SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) pour les clients des [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata.

@@ -5,7 +5,9 @@ hidden = true
 tags = ["2fa", "security", "ssh"]
 +++
 
-This is how to install it with the `google-authenticator`[^1] tool:
+This feature is reserved to clients of our alwaysdata [Private Cloud offers]({{< ref "accounts/billing/private-cloud-prices">}}). You  will need to [contact the customer support team](https://admin.alwaysdata.com/support/add) to install the `google-authenticator`[^1] tool.
+
+Once `google-authenticator` is installed on the server, here is how you activate the 2-factor authentication for each account:
 
 1. Log in to your account with SSH;
 

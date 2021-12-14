@@ -14,8 +14,8 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 - [Frequent issues]({{< ref "remote-access/ssh/troubleshooting">}})
 
 * [Use keys]({{< relref "use-keys" >}})
-* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
-* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (VPS and dedicated server option)
+* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) (VPS, dedicated and Gold server option)
+* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (VPS, dedicated and Gold server option)
 
 {{% notice info %}}
 All of our offers are managed ones, it is not possible to gain `root` access.
