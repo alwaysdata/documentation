@@ -5,7 +5,7 @@ hidden = true
 tags = ["productivity"]
 +++
 
-[Focalboard](https://www.focalboard.com/)is a project management tool that helps define, organize, track and manage work across teams, using a Kanban board.
+[Focalboard](https://www.focalboard.com/) is a project management tool that helps define, organize, track and manage work across teams, using a Kanban board.
 
 - [Documentation](https://www.focalboard.com/guide/user/)
 
