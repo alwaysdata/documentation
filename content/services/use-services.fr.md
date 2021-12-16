@@ -29,7 +29,7 @@ Même si c'est contre-indiqué, les utilisateurs Catalyst peuvent aussi s'attach
 
 ### Redis
 
-- *Commande* : `redis-server -h services-[compte].alwaysdata.net -p 8300`
+- *Commande* : `redis-server --bind :: --port 8300`
 - *Commande de monitoring* : `redis-cli -h services-[compte].alwaysdata.net -p 8300 ping`
 
 [^1]: `[compte]` à remplacer par le nom du compte.

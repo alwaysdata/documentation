@@ -28,7 +28,7 @@ Catalyst users can also bind on another IP than `::` and listen on ports outside
 
 ### Redis
 
-- *Command*: `redis-server -h services-[account].alwaysdata.net -p 8300`
+- *Command*: `redis-server --bind :: --port 8300`
 - *Monitoring command*: `redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 
 [^1]: `[account]` to be replaced by the account name.
