@@ -9,15 +9,31 @@ tags = ["api"]
 
 ## Redémarrer un site
 
-Via cURL :
+- **Via cURL**
 
-```sh
+```shell
 $ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-## Récupérer une liste (GET)
+- **Avec PHP et [Guzzle](https://github.com/guzzle/guzzle)**
 
-En Python :
+```php
+<?php
+require 'vendor/autoload.php';
+
+use GuzzleHttp\Client;
+
+$client = new Client([
+    'base_uri' => 'https://api.alwaysdata.com/',
+    'auth' => ['APIKEY account=arkhamcity', ''],
+]);
+
+$response = $client->request('POST', 'v1/site/1234/restart/');
+?>
+```
+
+## Récupérer une liste (GET)
+- **Python**
 
 ```python
 #!/usr/bin/python
@@ -34,7 +50,7 @@ response = requests.get(
 )
 ```
 
-En PHP :
+- **PHP**
 
 ```php
 <?php
@@ -56,9 +72,27 @@ curl_close($ch);
 ?>
 ```
 
-## Ajouter une ressource (POST)
+Avec [Guzzle](https://github.com/guzzle/guzzle) :
 
-En Python :
+```php
+<?php
+require 'vendor/autoload.php';
+
+use GuzzleHttp\Client;
+
+$client = new Client([
+    'base_uri' => 'https://api.alwaysdata.com/',
+    'auth' => ['APIKEY account=arkhamcity', ''],
+]);
+
+$response = $client->request('GET', 'v1/site/');
+
+echo $response->getBody();
+?>
+```
+
+## Ajouter une ressource (POST)
+- **Python**
 
 ```python
 #!/usr/bin/python
@@ -72,10 +106,10 @@ credentials = ('APIKEY account=arkhamcity', '')
 data = {
     'name': 'Wayne Enterprise Forum',
     'addresses': [
-        'http://forum.arkhamcity.com',
-        'http://forum_dev.arkhamcity.com',
+        'forum.arkhamcity.com',
+        'forum-dev.arkhamcity.com',
     ],
-    'type': 'apache_standard',
+    'type': 'php',
     'path': '/www/myforum',
 }
 
@@ -86,7 +120,7 @@ response = requests.post(
 )
 ```
 
-En PHP :
+- **PHP**
 
 ```php
 <?php
@@ -103,10 +137,10 @@ curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 $data = array(
     'name' => 'Wayne Enterprise Forum',
     'addresses' => array(
-        'http://forum.arkhamcity.com',
-        'http://forum_dev.arkhamcity.com',
+        'forum.arkhamcity.com',
+        'forum-dev.arkhamcity.com',
     ),
-    'type' => 'apache_standard',
+    'type' => 'php',
     'path' => '/www/myforum'
 );
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -121,9 +155,38 @@ curl_close($ch);
 ?>
 ```
 
-## Modifier une ressource (PUT/PATCH)
+Avec [Guzzle](https://github.com/guzzle/guzzle) :
 
-En Python :
+```php
+<?php
+require 'vendor/autoload.php';
+
+use GuzzleHttp\Client;
+
+$client = new Client([
+    'base_uri' => 'https://api.alwaysdata.com/v1/site/',
+    'auth' => ['APIKEY account=arkhamcity', ''],
+]);
+
+// Define data to POST
+$data = array(
+    'name' => 'Wayne Enterprise Forum',
+    'addresses' => array(
+        'forum.arkhamcity.com',
+        'forum-dev.arkhamcity.com',
+    ),
+    'type' => 'php',
+    'path' => '/www/myforum'
+);
+
+$response = $client->request('POST', '', [
+        'body'=>json_encode($data)
+]);
+?>
+```
+
+## Modifier une ressource (PUT/PATCH)
+- **Python**
 
 ```python
 #!/usr/bin/python
@@ -136,7 +199,7 @@ credentials = ('APIKEY account=arkhamcity', '')
 
 data = {
     'addresses': [
-        'http://forum.arkhamcity.com',
+        'forum.arkhamcity.com',
     ],
 }
 
@@ -147,7 +210,7 @@ response = requests.patch(
 )
 ```
 
-En PHP :
+- **PHP**
 
 ```php
 <?php
@@ -163,7 +226,7 @@ curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 // Define data to POST
 $data = array(
     'addresses' => array(
-        'http://forum.arkhamcity.com',
+        'forum.arkhamcity.com',
     )
 );
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -179,9 +242,34 @@ curl_close($ch);
 ?>
 ```
 
-## Supprimer une ressource (DELETE)
+Avec [Guzzle](https://github.com/guzzle/guzzle) :
 
-En Python :
+```php
+<?php
+require 'vendor/autoload.php';
+
+use GuzzleHttp\Client;
+
+$client = new Client([
+    'base_uri' => 'https://api.alwaysdata.com/v1/site/1234/',
+    'auth' => ['APIKEY account=arkhamcity', ''],
+]);
+
+// Define data to POST
+$data = array(
+    'addresses' => array(
+        'forum.arkhamcity.com',
+    )
+);
+
+$response = $client->request('PUT', '', [
+        'body'=>json_encode($data)
+]);
+?>
+```
+
+## Supprimer une ressource (DELETE)
+- **Python**
 
 ```python
 #!/usr/bin/python
@@ -197,7 +285,7 @@ response = requests.delete(
 )
 ```
 
-En PHP :
+- **PHP**
 
 ```php
 <?php
@@ -219,5 +307,22 @@ curl_exec($ch);
 // Close the connection
 curl_close($ch);
 
+?>
+```
+
+Avec [Guzzle](https://github.com/guzzle/guzzle) :
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+use GuzzleHttp\Client;
+
+$client = new Client([
+    'base_uri' => 'https://api.alwaysdata.com/v1/site/1234/',
+    'auth' => ['APIKEY account=arkhamcity', ''],
+]);
+
+$response = $client->request('DELETE', '');
 ?>
 ```
