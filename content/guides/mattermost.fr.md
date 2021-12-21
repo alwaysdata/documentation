@@ -25,7 +25,7 @@ foo@ssh:~/mattermost$ wget -O- https://releases.mattermost.com/[version]/matterm
 foo@ssh:~/mattermost$ mkdir data
 ```
 
-[Page de téléchargement](https://mattermost.com/download/)
+[Page de téléchargement](https://mattermost.com/deploy/)
 
 ## Configuration
 
