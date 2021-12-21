@@ -10,10 +10,15 @@ Web apps or services sometimes need to periodically run tasks, commands or call 
 
 Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our [administration interface](https://admin.alwaysdata.com) - menu **Advanced > Scheduled tasks** - making their use easier.
 
-Two kinds of information need to be provided:
+Several kinds of information need to be provided:
 
-- The one or more commands that you wish to run or the URLs you wish to request,
-- Task frequency: you can specify a fixed time or an interval.
+- the one or more commands that you wish to run or the URLs you wish to request,
+- the SSH environment,
+- the task frequency: you can specify a fixed time or an interval.
+
+{{% notice tip %}}
+Email addresses can also be filled in to receive error reports (separated by a space). They do not replace the execution logs already given in the `$HOME/admin/logs/jobs` directory.
+{{% /notice %}}
 
 {{< fig "admin-panel_create-task.en.png" "Administration interface: create a scheduled task" >}}
 

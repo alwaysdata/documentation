@@ -11,10 +11,15 @@ Les Web apps ou ser­vices ont par­fois besoin d’exé­cu­ter des tâches p�
 
 Notre pla­te­forme s’ap­puie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais permet de les gérer directement dans notre [interface d'administration](https://admin.alwaysdata.com) - onglet **Avancé > Tâches planifiées** - et de faciliter l'utilisation.
 
-Deux types d’in­for­ma­tions sont à fournir :
+Plusieurs types d’in­for­ma­tions sont à fournir :
 
-- La (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter ;
-- La pério­di­ci­té de votre tâche : vous pou­vez spé­ci­fiez une heure fixe, ou un inter­valle.
+- la (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter ;
+- l'environnement SSH ;
+- la pério­di­ci­té de votre tâche : vous pou­vez spé­ci­fiez une heure fixe, ou un inter­valle.
+
+{{% notice tip %}}
+Des adresses email peuvent aussi être renseignées pour recevoir les rapports d'erreurs (séparées par un espace). Elles ne remplacent pas les logs d'exécution déjà présents dans le répertoire `$HOME/admin/logs/jobs`.
+{{% /notice %}}
 
 {{< fig "admin-panel_create-task.fr.png" "Interface d’ad­mi­nis­tra­tion : créer une tâche pla­ni­fiée" >}}
 
