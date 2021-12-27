@@ -6,7 +6,7 @@ hidden = true
 tags = ["forum"]
 +++
 
-[Flarum](https://flarum.org/) est un forum PHP avec un design moderne.
+[Flarum](https://flarum.org/) est un logiciel de forum [PHP]({{< ref "languages/php" >}}) avec un design moderne.
 
 - [Documentation](https://docs.flarum.org/)
 
