@@ -6,7 +6,15 @@ layout = "howto"
 tags = ["http", "site"]
 +++
 
-Votre site pointe sur une adresse - par exemple `foo.alwaysdata.net` - et vous souhaitez utiliser une autre adresse/un autre domaine. Voici les étapes à suivre :
+Votre site pointe sur une adresse et vous souhaitez utiliser une autre adresse/un autre domaine. Voici les étapes à suivre :
+
+Dans cet exemple, l'adresse de base sera `foobar.alwaysdata.net` et la nouvelle adresse `foobar.com`. 
+
+{{% notice note %}}
+Les adresses `.alwaysdata.net` ne seront pas un choix possible.
+{{% /notice %}}
+
+{{< fig "images/step1.fr.png" "Etat initial" >}}
 
 1. Faire pointer les adresses de votre domaine sur nos serveurs :
 
@@ -18,6 +26,10 @@ Votre site pointe sur une adresse - par exemple `foo.alwaysdata.net` - et vous s
         
 2. Ajouter les nouvelles adresses au site dans **Web > Sites** - l'ancienne est toujours présente ;
 
+{{< fig "images/step2.fr.png" "" >}}
+
 3. Modifier l'adresse au niveau de l'application (dans son interface d'administration par exemple) ;
 
 4. Supprimer l'ancienne adresse dans **Web > Sites**. Ce dernier point n'est *pas indispensable*, si vous ne le faites pas le site restera juste accessible sur l'ancienne adresse - tant qu'elle pointe sur nos serveurs.
+
+{{< fig "images/step3.fr.png" "Etat final" >}}
