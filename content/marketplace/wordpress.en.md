@@ -12,7 +12,7 @@ tags = ["cms", "wordpress"]
 
 ## Installation
 
-The last version of WordPress* is auto-installable via the administration interface: **Web > Sites > Install an application**.
+The last version of *WordPress* is auto-installable via the administration interface: **Web > Sites > Install an application**.
 
 - [Install script](https://admin.alwaysdata.com/site/application/script/11/detail/)
 
