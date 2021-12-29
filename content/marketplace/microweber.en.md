@@ -11,6 +11,6 @@ tags = ["cms", "ecommerce"]
 
 ## Installation
 
-La dernière version de *Microweber* est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.
+The last version of *Microweber* is auto-installable via the administration interface: **Web > Sites > Install an application**.
 
-- [Script d'installation](https://admin.alwaysdata.com/site/application/script/190/detail/)
+- [Install script](https://admin.alwaysdata.com/site/application/script/190/detail/)

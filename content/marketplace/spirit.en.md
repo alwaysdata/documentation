@@ -12,6 +12,6 @@ tags = ["forum"]
 
 ## Installation
 
-La dernière version de *Spirit* est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.
+The last version of *Spirit* is auto-installable via the administration interface: **Web > Sites > Install an application**.
 
-- [Script d'installation](https://admin.alwaysdata.com/site/application/script/189/detail/)
+- [Install script](https://admin.alwaysdata.com/site/application/script/189/detail/)
