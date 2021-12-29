@@ -13,4 +13,4 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 
 - [Agorakit](https://agorakit.org/)
 - AllegianceOS
-- [IHateMoney](https://ihatemoney.org/)
+- [I Hate Money](https://ihatemoney.org/)
