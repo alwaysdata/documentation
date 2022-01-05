@@ -11,4 +11,4 @@ tags = ["project management"]
 
 The last version of *Redmine* is auto-installable via the administration interface: **Web > Sites > Install an application**.
 
-- [Install script](https://admin.alwaysdata.com/site/application/script/51/detail/)
+- [Install script](https://admin.alwaysdata.com/site/application/script/50/detail/)
