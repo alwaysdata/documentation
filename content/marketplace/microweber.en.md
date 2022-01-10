@@ -2,7 +2,7 @@
 title = "Microweber"
 layout = "man"
 hidden = true
-tags = ["cms", "ecommerce"]
+tags = ["cms", "e-commerce"]
 +++
 
 [Microweber](https://microweber.org/) is an easy drag and drop website builder.

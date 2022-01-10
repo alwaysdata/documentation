@@ -3,7 +3,7 @@ url = "/fr/marketplace/microweber/"
 title = "Microweber"
 layout = "man"
 hidden = true
-tags = ["cms", "ecommerce"]
+tags = ["cms", "e-commerce"]
 +++
 
 [Microweber](https://microweber.org/) est un outil de création de sites Web par simple glisser-déposer.
