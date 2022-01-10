@@ -12,7 +12,7 @@ tags = ["api"]
 - **Via cURL**
 
 ```shell
-$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+$ curl -X POST --basic --user "APIKEY account=arkhamcity:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
 - **Avec PHP et [Guzzle](https://github.com/guzzle/guzzle)**
