@@ -44,6 +44,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 | {request_time}     | The date when the request was received [^1]                                              |
 | {response_header}  | Response headers [^2]                                                                    |
 | {response_size}    | Response size in bytes, excluding the HTTP headers                                       |
+| {ssl_version}      | Version of the protocol used for the SSL connection                                      |
 | {status}           | Response status code (200, 301, 404, 500, etc.)                                          |
 | {user_agent}       | Value of the User-Agent header sent by the request                                       |
 

@@ -47,6 +47,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Jul/2018:15:05:30 +0200] "GET / HTTP/1
 | {request_time}     | Date à laquelle la requête a été reçue [^1]                                                                            |
 | {response_header}  | En-têtes de la réponse [^2]                                                                                            |
 | {response_size}    | Taille de la réponse en bytes, en-têtes HTTP exclus                                                                    |
+| {ssl_version}      | Version du protocole utilisé pour la connexion SSL                                                                     |
 | {status}           | Code de status de la réponse (200, 301, 404, 500, ...)                                                                 |
 | {user_agent}       | Valeur de l'en-tête [User-Agent](https://fr.wikipedia.org/wiki/User_agent) transmis par la requête                     |
 
