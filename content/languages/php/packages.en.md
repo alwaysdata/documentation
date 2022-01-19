@@ -15,6 +15,14 @@ There are a number of PHP tools for installing packages.
 
 To install the dependencies listed in the `composer.json` file:
 
+1. To use *Composer 2* (latest versions):
+
+```sh
+$ composer2 install
+```
+
+2. To use *Composer 1*:
+
 ```sh
 $ composer install
 ```
