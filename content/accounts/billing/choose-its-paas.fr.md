@@ -60,7 +60,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
 || [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
 || [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
-|| Autres|❌| À la demande | À la demande | À la demande |
+|| Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|✔️|
 || [Filtrage via scripts Sieve]({{< ref "e-mails/use-sieve-scripts" >}}) |✔️|✔️|✔️|✔️|
 || Listes de diffusion |✔️|✔️|✔️|✔️|
@@ -77,6 +77,8 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Gestion du pare-feu]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
 || [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
+|| Réplication SGBD |❌|✔️|✔️|✔️|
+|| Réplication des données en temps réel |❌|❌|❌|✔️|
 
 La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
 
@@ -87,6 +89,6 @@ Une application bien _optimisée_ aura les mêmes performances quel que soit le 
 [^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
 [^3]: Le plan gratuit du Cloud public offre 100 Mo d'espace disque à usage non lucratif.
-[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata.
+[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud privé, les SGBD sont installées à la demande et peuvent être ajoutées après installation du serveur.
 [^5]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
 [^6]: [Programmes génériques]({{< ref "services" >}}) devant fonctionner 24h / 24.

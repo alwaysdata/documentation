@@ -68,7 +68,7 @@ Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com
 
 ## Serveurs Gold infogérés
 
-Serveur dédié redondé dans un autre datacenter.
+Serveur dédié redondé[^3] dans un autre datacenter.
 
 * Garantie de Temps d'Intervention (GTI) : 15min
 * Garantie de Temps de Rétablissement (GTR) : 1h
@@ -107,3 +107,4 @@ Le montant des opérations d'ajout/de changement de configuration est disponible
 
 [^1]: L'ajout de RAM se fait par tranche de 16 Go.
 [^2]: L'ajout de trafic se fait par tranche de 1 To.
+[^3]: Réplication en temps réel

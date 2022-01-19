@@ -66,7 +66,7 @@ If the dedicated server was taken before [March 2020](https://blog.alwaysdata.co
 
 ## Managed Gold servers
 
-Dedicated server redunded in another datacenter.
+Dedicated server redunded[^3] in another datacenter.
 
 * Guaranteed Response Time (GRT): 15mins
 * Mean Time To Repair (MTTR): 1hr
@@ -105,3 +105,4 @@ Adding/change of configuration operations prices are available in the [servers i
 
 [^1]: RAM is added per slot of 16GB.
 [^2]: Traffic is added per slot of 1TB.
+[^3]: Real time replication.
