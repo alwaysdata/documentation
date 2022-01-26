@@ -22,4 +22,4 @@ Then you can *configure your TOTP application* that will send you a single use s
 - **Google Authenticator**: [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
 
 ---
-Two-factor authentication is also available [in SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) for clients of our alwaysdata [Private Cloud offers]({{< ref "accounts/billing/private-cloud-prices">}})
+Two-factor authentication is also available [in SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) for users of our alwaysdata [Private Cloud offers]({{< ref "accounts/billing/private-cloud-prices">}})

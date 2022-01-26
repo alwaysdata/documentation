@@ -5,7 +5,7 @@ hidden = true
 tags = ["http", "dedicated server", "gold server", "site"]
 +++
 
-For our customers who have a dedicated server, it is possible to program monitoring probes to check that a website is working properly. If a problem is observed by a probe, an alert is sent to our team.
+For our users who have a dedicated server, it is possible to program monitoring probes to check that a website is working properly. If a problem is observed by a probe, an alert is sent to our team.
 
 ## Configuration
 
@@ -21,10 +21,10 @@ Work triggered by probes is charged for if the application is responsible for it
 
 Examples (a non-exhaustive list):
 
-  - any problem resulting from incorrect server use by the customer,
-  - abnormal behavior by the customer's applications,
+  - any problem resulting from incorrect server use by the user,
+  - abnormal behavior by the user's applications,
   - any performance problem not caused by a server or network malfunction,
-  - server resource saturation by customer applications,
+  - server resource saturation by user applications,
   - any network malfunction whose origin is not alwaysdata's responsibility.
 
 {{% notice note %}}

@@ -6,7 +6,7 @@ hidden = true
 tags = ["http", "serveur dédié", "serveur gold", "site"]
 +++
 
-Pour nos clients qui disposent d'un serveur dédié, il est possible de programmer des sondes de monitoring afin de vérifier qu'un site web fonctionne correctement. Si un problème est constaté par une sonde, une alerte est envoyée à notre équipe.
+Pour nos utilisateurs qui disposent d'un serveur dédié, il est possible de programmer des sondes de monitoring afin de vérifier qu'un site web fonctionne correctement. Si un problème est constaté par une sonde, une alerte est envoyée à notre équipe.
 
 ## Configuration
 
@@ -22,10 +22,10 @@ Les interventions enclenchées par les sondes sont facturées si la responsabili
 
 Exemples (liste non-exhaustive) :
 
-- tout problème résultant d'une utilisation incorrecte du serveur par le client ;
-- comportement anormal des applications du client ;
+- tout problème résultant d'une utilisation incorrecte du serveur par l'utilisateur ;
+- comportement anormal des applications de l'utilisateur ;
 - tout problème de performances ne provenant pas d'un dysfonctionnement du serveur ou du réseau ;
-- saturation des ressources du serveur par les applications du client ;
+- saturation des ressources du serveur par les applications de l'utilisateur ;
 - tout dysfonctionnement réseau dont l'origine ne serait pas de la responsabilité d'alwaysdata.
 
 {{% notice note %}}

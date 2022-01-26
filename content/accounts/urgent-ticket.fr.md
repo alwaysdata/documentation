@@ -6,7 +6,7 @@ hidden = true
 tags = ["serveur dédié", "monitoring"]
 +++
 
-L'ouverture d'un ticket urgent, réservée aux clients possesseurs d'un serveur dédié, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
+L'ouverture d'un ticket urgent, réservée aux utilisateurs possesseurs d'un serveur dédié, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
 
 Si le ticket concerne un problème couvert par notre *garantie de service*, nous nous chargeons de le résoudre en priorité. Cela n'engendre aucun surcoût pour notre client.
 
@@ -25,10 +25,10 @@ Exemples (liste non exhaustive) :
 
 Exemples (liste non exhaustive) :
 
-- tout problème résultant d'une utilisation incorrecte du serveur par le client ;
-- comportement anormal des applications du client ;
+- tout problème résultant d'une utilisation incorrecte du serveur par l'utilisateur ;
+- comportement anormal des applications de l'utilisateur ;
 - tout problème de performances ne provenant pas d'un dysfonctionnement du serveur ou du réseau ;
-- saturation des ressources du serveur par les applications du client ;
+- saturation des ressources du serveur par les applications de l'utilisateur ;
 - tout dysfonctionnement réseau dont l'origine ne serait pas de la responsabilité d'alwaysdata ;
 - toute demande générale d'aide.
 

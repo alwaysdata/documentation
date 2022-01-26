@@ -25,10 +25,10 @@ Examples (a non-exhaustive list):
 
 Examples (a non-exhaustive list):
 
-- any problem resulting from incorrect server use by the customer,
-- abnormal behavior by the customer's applications,
+- any problem resulting from incorrect server use by the user,
+- abnormal behavior by the user's applications,
 - any performance problem not caused by a server or network malfunction,
-- server resource saturation by customer applications,
+- server resource saturation by users applications,
 - any network malfunction whose origin is not alwaysdata's responsibility,
 - any general request for help.
 

@@ -19,7 +19,7 @@ Il gère aussi le [pare-feu applicatif web (WAF)]({{< ref "sites/waf" >}}) et le
  Nous ajoutons aux *headers* :
 
 - `X-Forwarded-Proto`, qui vaut http ou https selon que la connexion est faite en HTTP ou HTTPS. Ainsi le reverse proxy accède aux serveurs web en HTTP que la connexion au niveau du navigateur soit HTTP ou HTTPS ;
-- `X-Real-IP`, qui prend la valeur de l'adresse IP du client.
+- `X-Real-IP`, qui prend la valeur de l'adresse IP de l'utilisateur.
 
 ---
 Icônes : The Noun Project

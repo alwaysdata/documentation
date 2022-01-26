@@ -18,7 +18,7 @@ It also manages the [Web Application Firewall]({{< ref "sites/waf" >}}) and the 
  We add to *headers*:
  
 - `X-Forwarded-Proto`, which equals http or https depending on whether the connection is made in HTTP or HTTPS. Thus the reverse proxy accesses web servers in HTTP whether the connection at the browser level is HTTP or HTTPS,
-- `X-Real-IP`,  which takes the value of the client's IP address.
+- `X-Real-IP`,  which takes the value of the user's IP address.
 
 ---
 Icons: The Noun Project

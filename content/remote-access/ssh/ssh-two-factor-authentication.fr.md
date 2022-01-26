@@ -6,7 +6,7 @@ hidden = true
 tags = ["2fa", "sécurité", "ssh"]
 +++
 
-Cette fonctionnalité est réservée aux clients des [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata. Vous devrez [contacter le support](https://admin.alwaysdata.com/support/add) pour installer l'outil `google-authenticator`[^1].
+Cette fonctionnalité est réservée aux utilisateurs des [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata. Vous devrez [contacter le support](https://admin.alwaysdata.com/support/add) pour installer l'outil `google-authenticator`[^1].
 
 Une fois `google-authenticator` installé sur le serveur, voici comment activer l'authentification 2 facteurs pour chaque compte :
 

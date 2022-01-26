@@ -147,7 +147,7 @@ Among the libraries that are most likely to be affected:
 
 ## Change in HTTP server IP
 
-For some shared clients that are still hosted by our former hardware infrastructure, the IP address of their HTTP server will need to change. Where applicable, this will be shown on the migration details page in the alwaysdata administration information. If you use our DNS servers or a CNAME, no action will be needed. If however you manually defined a type A or AAAA DNS record, then you will need to change them after performing the migration to show the new IP addresses.
+For some shared users that are still hosted by our former hardware infrastructure, the IP address of their HTTP server will need to change. Where applicable, this will be shown on the migration details page in the alwaysdata administration information. If you use our DNS servers or a CNAME, no action will be needed. If however you manually defined a type A or AAAA DNS record, then you will need to change them after performing the migration to show the new IP addresses.
 
 The former IP addresses will however still work for a few weeks yet (operating in *reverse proxy* mode), but using them implies a slight increase in the latency time for your websites and an increase in the failure risk. We therefore strongly recommend changing them as quickly as possible.
 

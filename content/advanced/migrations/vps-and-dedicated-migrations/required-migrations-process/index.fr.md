@@ -9,16 +9,16 @@ tags = ["migration", "serveur dédié", "serveur gold", "serveur vps"]
 Ces migrations sont effectuées à quatre mains avec le [support](https://admin.alwaysdata.com/support/).
 
 ## Étape 1 - Préparation des comptes
-Le client prépare l'ensemble des comptes du serveur en suivant les recommandations de la page de documentation (comme sur le Cloud Public). Il est possible de revenir en arrière pour corriger des comportements problématiques.
+L'utilisateur prépare l'ensemble des comptes du serveur en suivant les recommandations de la page de documentation (comme sur le Cloud Public). Il est possible de revenir en arrière pour corriger des comportements problématiques.
 
 *Des serveurs de tests sont disponibles pour les bases de données.*
 
 {{< fig "images/migration-1.fr.png" "" >}}
 
 ## Étape 2 - Demande du serveur de transit
-**Tous les comptes sont prêts.** Le client doit contacter le support pour qu'il :
+**Tous les comptes sont prêts.** L'utilisateur doit contacter le support pour qu'il :
 
-- supprime de votre serveur toutes les versions des langages qui n'existent plus sous la nouvelle infrastructure logicielle, ce qui permettra au client de vérifier une dernière fois qu'il est prêt. Cette étape est réversible, si nécessaire ;
+- supprime de votre serveur toutes les versions des langages qui n'existent plus sous la nouvelle infrastructure logicielle, ce qui permettra à l'utilisateur de vérifier une dernière fois qu'il est prêt. Cette étape est réversible, si nécessaire ;
 - prépare un serveur de transit.
 
 {{< fig "images/migration-2.fr.png" "" >}}
@@ -31,9 +31,9 @@ Le support prépare le serveur de transit de même configuration que le serveur 
 {{< fig "images/migration-3.fr.png" "" >}}
 
 ## Étape 4 - Migration des comptes sur la nouvelle infrastructure
-Le serveur de transit est prêt. Le client peut migrer ses comptes - un par un - sur le serveur de transit, via le menu **Migrations** de l'interface serveur ou le menu **Avancé > Migrations** de l'interface compte.
+Le serveur de transit est prêt. L'utilisateur peut migrer ses comptes - un par un - sur le serveur de transit, via le menu **Migrations** de l'interface serveur ou le menu **Avancé > Migrations** de l'interface compte.
 
-Le client est **autonome** lors de cette étape. Il peut effectuer ses migrations quand il le souhaite.
+L'utilisateur est **autonome** lors de cette étape. Il peut effectuer ses migrations quand il le souhaite.
 
 La migration des comptes entraîne une coupure par compte de quelques secondes à quelques heures ; selon la taille de chaque compte (particulièrement des bases de données). On compte en général une minute d'indisponibilité par giga de bases de données.
 
@@ -48,7 +48,7 @@ Pour un domaine n'utilisant pas les serveurs DNS d'alwaysdata mais ses serveurs 
 {{% /notice %}}
 
 ## Étape 5 - Vérification après migration
-Le client peut faire des modifications applicatives une fois un compte migré si besoin.
+L'utilisateur peut faire des modifications applicatives une fois un compte migré si besoin.
 
 Une fois l'ensemble des comptes migrés il contacte le support pour que celui procède à la réinstallation de son serveur.
 
@@ -62,11 +62,11 @@ Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infra
 {{< fig "images/migration-6.fr.png" "" >}}
 
 {{% notice note %}}
-Durant cette opération, les adresses IP du serveur client sont reroutées vers le serveur de transit pour que les services restent accessibles normalement. Une courte période d'indisponibilité de ces IP (autour d'une minute) est toutefois à prévoir. *Dans le cas où le client utilise les serveurs DNS d'alwaysdata, le trafic aura été redirigé vers les IP du serveur de transit dès la migration des comptes - il n'y a alors aucune période d'indisponibilité à prévoir.*
+Durant cette opération, les adresses IP du serveur client sont reroutées vers le serveur de transit pour que les services restent accessibles normalement. Une courte période d'indisponibilité de ces IP (autour d'une minute) est toutefois à prévoir. *Dans le cas où l'utilisateur utilise les serveurs DNS d'alwaysdata, le trafic aura été redirigé vers les IP du serveur de transit dès la migration des comptes - il n'y a alors aucune période d'indisponibilité à prévoir.*
 {{% /notice %}}
 
 ## Étape 7 - Redéplacement des comptes sur le serveur client
-**Le serveur client est réinstallé.** Le support contacte le client pour procéder au redéplacement des comptes de manière transparente. *Ce déplacement peut avoir lieu en heures et jours ouvrés.*
+**Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes de manière transparente. *Ce déplacement peut avoir lieu en heures et jours ouvrés.*
 
 Ce redéplacement final des comptes entraîne une coupure par compte équivalente à l'indisponibilité lors de la première migration.
 
@@ -78,7 +78,7 @@ Tous les comptes ont été redéplacés sur le serveur client réinstallé.
 {{< fig "images/migration-8.fr.png" "" >}}
 
 {{% notice note %}}
-Le serveur de transit est sera mis à disposition sans surcoût pour une période de **deux semaines maximum**. Si le client n'a pas terminé la migration de l'ensemble de ses comptes au terme de cette période, le serveur de transit sera facturé au même coût que le serveur client (au prorata, jour par jour) — en plus du serveur d'origine qui reste facturé normalement.
+Le serveur de transit est sera mis à disposition sans surcoût pour une période de **deux semaines maximum**. Si l'utilisateur n'a pas terminé la migration de l'ensemble de ses comptes au terme de cette période, le serveur de transit sera facturé au même coût que le serveur client (au prorata, jour par jour) — en plus du serveur d'origine qui reste facturé normalement.
 {{% /notice %}}
 
 ---

@@ -159,7 +159,7 @@ Parmi les bibliothèques les plus susceptibles d'être concernées :
 
 ## Changement d'IP du serveur HTTP
 
-Pour certains clients mutualisés encore hébergés dans notre ancienne infrastructure matérielle, l'adresse IP de leur serveur HTTP sera amenée à changer. Ce sera indiqué, le cas échéant, sur la page de détails de la migration, dans l'administration alwaysdata. Si vous utilisez nos serveurs DNS ou un CNAME, vous n'aurez rien besoin de faire. En revanche, si vous aviez défini manuellement un enregistrement DNS de type A ou AAAA, vous devrez les modifier après avoir effectué la migration afin d'indiquer les nouvelles adresses IP.
+Pour certains utilisateurs mutualisés encore hébergés dans notre ancienne infrastructure matérielle, l'adresse IP de leur serveur HTTP sera amenée à changer. Ce sera indiqué, le cas échéant, sur la page de détails de la migration, dans l'administration alwaysdata. Si vous utilisez nos serveurs DNS ou un CNAME, vous n'aurez rien besoin de faire. En revanche, si vous aviez défini manuellement un enregistrement DNS de type A ou AAAA, vous devrez les modifier après avoir effectué la migration afin d'indiquer les nouvelles adresses IP.
 
 Les anciennes IP continueront néanmoins à fonctionner pendant encore plusieurs semaines (fonctionnement en *reverse proxy*), mais passer par elles implique une augmentation faible de la latence de vos sites et une augmentation du risque de pannes. Il est donc vivement recommandé de les changer au plus vite.
 

@@ -101,7 +101,7 @@ Si vous souhaitez permettre à vos utilisateurs (y compris votre propre compte) 
 
 #### Exemple : authentification externe avec Google
 
-Pour permettre aux utilisateurs d'utiliser leur compte Google pour se connecter à l'instance, il faut d'abord se rendre sur la [Console Développeurs Google](https://console.developers.google.com/). Dans la section `Credentials`, créez une nouvelle référence `OAuth client ID`. Indiquez dans `Authorized redirect URIs` l'URL de votre instance Gitea actuelle.
+Pour permettre aux utilisateurs de se servir de leur compte Google pour se connecter à l'instance, il faut d'abord se rendre sur la [Console Développeurs Google](https://console.developers.google.com/). Dans la section `Credentials`, créez une nouvelle référence `OAuth client ID`. Indiquez dans `Authorized redirect URIs` l'URL de votre instance Gitea actuelle.
 
 {{< fig "images/gitea_google-oauth.png" >}}
 
