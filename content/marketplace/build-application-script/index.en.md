@@ -49,7 +49,7 @@ If other variables are needed, open a [support ticket](https://admin.alwaysdata.
 - The root directory specified by the user (`INSTALL_PATH`) serves as the root for a script (an `export HOME=` is run by default),
 - It is preferable to request a minimum amount of information to avoid making the script an exhaustive one. *Users may change the configuration of their application later on.*
 - To add an **optional** form field, set the `required` option to `false`. If the user does not specify anything, the field remains blank,
-- *labels* are translatables. Depending on the language chosen in its alwaysdata administration interface, the customer can have the form questions in the specified languages.
+- *labels* are translatables. Depending on the language chosen in its alwaysdata administration interface, the user can have the form questions in the specified languages.
 
 {{% notice note %}}
 To make a script accessible to alwaysdata platform users, check the box to make it *public*.

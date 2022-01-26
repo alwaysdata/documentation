@@ -51,7 +51,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
 * pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
-* les *labels* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, le client peut avoir les questions du formulaire dans les langues précisées.
+* les *labels* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
 
 
 
