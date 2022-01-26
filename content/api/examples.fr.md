@@ -262,7 +262,7 @@ $data = array(
     )
 );
 
-$response = $client->request('PUT', '', [
+$response = $client->request('PATCH', '', [
         'body'=>json_encode($data)
 ]);
 ?>
