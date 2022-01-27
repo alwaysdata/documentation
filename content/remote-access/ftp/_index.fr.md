@@ -31,6 +31,20 @@ Remplacez `ftp-[compte].alwaysdata.net` par votre nom d'hôte FTP.
 
 Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en serveurs VPS et dédiés.
 
+## .ftpaccess
+
+Il est possible de créer des fichiers [.ftpaccess](http://www.proftpd.org/docs/howto/ftpaccess.html) pour modifier la configuration FTP des dossiers concernés.
+
+### Exemple : Bloquer l'accès en lecture seule à un utilisateur
+
+Créez un `.ftpaccess` à la racine du dossier avec la directive suivante :
+
+```sh
+<Limit WRITE>
+DenyUser [utilisateur FTP]
+</Limit>
+```
+
 ---
 - [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit ;
 - [net2ftp](https://net2ftp.alwaysdata.com/) : interface web.
