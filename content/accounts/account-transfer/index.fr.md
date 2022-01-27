@@ -30,4 +30,4 @@ Rendez-vous sur **Comptes > Céder à un autre utilisateur**. Vous devrez indiqu
 
 Tant que le nouveau propriétaire n'a pas validé la cession le profil émetteur reste propriétaire du compte et peut l'annuler dans l'onglet **Cessions**.
 
-[^1]: L'historique client comprend les tickets, la facturation, et les actions effectuées sur l'interface d'administration alwaysdata et son API.
+[^1]: L'historique client comprend les tickets de support, la facturation, et les actions effectuées sur l'interface d'administration alwaysdata et son API.

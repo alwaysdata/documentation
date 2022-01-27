@@ -59,7 +59,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
 || [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
 || [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
-|| Others |❌| On request | On request | On request |
+|| Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|✔️|
 || [Filtering via Sieve]({{< ref "e-mails/use-sieve-scripts" >}}) scripts |✔️|✔️|✔️|✔️|
 || Mailing-lists |✔️|✔️|✔️|✔️|
@@ -86,7 +86,7 @@ A well _optimized_ application will have the same performances regardless its en
 
 [^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated users can request support for services where this is not the case.
 [^2]: Our infrastructure is based on the Debian operating system.
-[^3]: The public Cloud free plan offers 100Mb of disk space for non-commercial use.
-[^4]: Databases **managed** by alwaysdata. It is also possible to install them via the [services]({{< ref "services" >}}). The management of these services will then not be performed by alwaysdata.
+[^3]: The Public cloud free plan offers 100Mb of disk space for non-commercial use.
+[^4]: Databases **managed** by alwaysdata. It is also possible to install them via the [services]({{< ref "services" >}}). The management of these services will then not be performed by alwaysdata. In the Private cloud, the SGBD are installed upon request and can be added after installation of the server.
 [^5]: Daily [backups]({{< ref "backups" >}}), retained for 30 days and directly available in the account.
 [^6]: [Custom programs]({{< ref "services" >}}) that operate 24/7.
