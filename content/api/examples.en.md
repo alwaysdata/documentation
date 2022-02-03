@@ -7,13 +7,14 @@ tags = ["api"]
 `APIKEY`, `1234` or `arkhamcity` are to be replaced by your own values.
 
 ## Restart a website
-- **With cURL**
+
+### With cURL
 
 ```shell
 $ curl -X POST --basic --user "APIKEY account=arkhamcity:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-- **With PHP & [Guzzle](https://github.com/guzzle/guzzle)**
+### With PHP & [Guzzle](https://github.com/guzzle/guzzle)
 
 ```php
 <?php
@@ -31,7 +32,7 @@ $response = $client->request('POST', 'v1/site/1234/restart/');
 ```
 
 ## Listing (GET)
-- **Python**
+### Python
 
 ```python
 #!/usr/bin/python
@@ -48,7 +49,7 @@ response = requests.get(
 )
 ```
 
-- **PHP**
+### PHP
 
 ```php
 <?php
@@ -90,7 +91,7 @@ echo $response->getBody();
 ```
 
 ## Add a resource (POST)
-- **Python**
+### Python
 
 ```python
 #!/usr/bin/python
@@ -118,7 +119,7 @@ response = requests.post(
 )
 ```
 
-- **PHP**
+### PHP
 
 ```php
 <?php
@@ -184,7 +185,8 @@ $response = $client->request('POST', '', [
 ```
 
 ## Update a resource (PUT/PATCH)
-- **Python**
+
+### Python
 
 ```python
 #!/usr/bin/python
@@ -208,7 +210,7 @@ response = requests.patch(
 )
 ```
 
-- **PHP**
+### PHP
 
 ```php
 <?php
@@ -267,7 +269,8 @@ $response = $client->request('PATCH', '', [
 ```
 
 ## Delete a resource (DELETE)
-- **Python**
+
+### Python
 
 ```python
 #!/usr/bin/python
@@ -282,7 +285,7 @@ response = requests.delete(
     auth=credentials,
 )
 ```
-- **PHP**
+### PHP
 
 ```php
 <?php
