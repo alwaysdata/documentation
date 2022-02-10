@@ -13,13 +13,10 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Blackfire]({{< relref "blackfire" >}})
 - [Blazegraph]({{< relref "blazegraph" >}})
 - [FFmpeg]({{< relref "ffmpeg" >}})
-- [Gitea]({{< relref "gitea" >}})
 - [GitLab]({{< relref "gitlab" >}})
 - [Mattermost]({{< relref "mattermost" >}})
 - [Memcached]({{< ref "./memcached" >}})
 - [New Relic]({{< relref "new-relic" >}})
-- [TiddlyWiki]({{< ref "./tiddlywiki" >}})
-  - [TiddlyWiki Bob Plugin]({{< ref "tiddlywiki/plugin-bob" >}})
 - [Tideways]({{< relref "tideways" >}})
 - [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
 
