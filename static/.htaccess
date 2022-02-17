@@ -26,6 +26,8 @@ RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^_domains/?$ /fr/domaines/problèmes-fréquents/ [QSA,L,R=307]
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^marketplace-script/?$ /fr/marketplace/créer-son-script-d-application/ [QSA,L,R=307]
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^log-http/?$ /fr/sites/formater-les-logs-http/ [QSA,L,R=307]
 
 # Rewriting url for all languages (EN default)
 RewriteRule ^love/?$  /en/love/ [QSA,L,R=307]
@@ -39,6 +41,7 @@ RewriteRule ^_migrations/?$ /en/advanced/migrations/perform-migration/ [QSA,L,R=
 RewriteRule ^_tickets/?$ /en/accounts/urgent-ticket/ [QSA,L,R=307]
 RewriteRule ^_domains/?$ /en/domains/troubleshooting/ [QSA,L,R=307]
 RewriteRule ^marketplace-script/?$ /en/marketplace/build-application-script/ [QSA,L,R=307]
+RewriteRule ^log-http/?$ /en/sites/formatting-http-logs/ [QSA,L,R=307]
 
 ### v1 Redirects
 Redirect 301 /ticket-urgent                                    /en/accounts/urgent-ticket/
