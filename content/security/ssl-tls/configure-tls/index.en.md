@@ -7,8 +7,9 @@ tags = ["http", "security", "site"]
 
 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is a cryptographic protocol to secure Internet communications.
 
-2 presets for HTTP connections are available:
+Three presets for HTTP connections are available:
 
+- _Modern_: only TLS 1.3. Compatible with latest browsers.
 - _Intermediate_: TLS versions higher than 1.2 are activated. Compatible with most web browsers.
 - _Old_: all TLS versions are activated. Compatible with olders web browsers.
 
