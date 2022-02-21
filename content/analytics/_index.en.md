@@ -12,12 +12,12 @@ From the raw HTTP logs (`$HOME/admin/logs/http`) we generate visit statistics in
 
 You can view the graph by site or for an entire account.
 
-## Old statistics
-
-Statistics created with [Matomo](https://matomo.org/) are still accessible with your credentials in this [interface](https://analytics.alwaysdata.com).
-
 ## Customizing statistics
 
 Our platform is entirely based on HTTP logs and provides a simple interface. Customized settings cannot be added.
 
-You will need to install your own web statistics measurement software : Matomo can be installed via our [marketplace]({{< ref "marketplace/matomo" >}}).
+You will need to install your own web statistics measurement software : [Matomo](https://matomo.org/) can be installed via our [marketplace]({{< ref "marketplace/matomo" >}}).
+
+{{% notice tip %}}
+Former statistics accessible via [Matomo](https://matomo.org/) are still available with your credentials on this [interface](https://analytics.alwaysdata.com).
+{{% /notice %}}
