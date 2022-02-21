@@ -7,24 +7,18 @@ weight = 35
 tags = ["http", "statistiques", "site"]
 +++
 
-À partir des logs bruts HTTP (`$HOME/admin/logs/http`) nous générons des statistiques [Matomo](https://fr.matomo.org/).
+À partir des logs bruts HTTP (`$HOME/admin/logs/http`) nous générons des statistiques de visite en *temps réel*. Celles-ci sont disponibles dans la section **Web > Analytics**.
 
-- [Interface Matomo](https://analytics.alwaysdata.com)
-- [Assistance Matomo]({{< ref "analytics/troubleshooting-matomo" >}})
+{{< fig "stats-panel.fr.png" "" >}}
 
-Vous pouvez aussi installer votre propre instance via notre [marketplace]({{< ref "marketplace/matomo" >}}).
+Vous pouvez afficher le graphe par site ou pour l'ensemble d'un compte.
 
-## Accéder à ses statistiques
-Rendez-vous dans la section **Web > Analytics**.
+## Anciennes statistiques
 
-### Segmenter les sites
-Par défaut tous les sites sont sur le même site Piwik. Vous pouvez les segmenter dans le menu **SITES MATOMO** de cette section :
-{{< fig "admin-panel_stats.fr.png" "Menu des statistiques Matomo" >}}
+Les statistiques créées avec [Matomo](https://matomo.org/) sont toujours accessible avec vos identifiants sur cette [interface](https://analytics.alwaysdata.com).
 
-- Éditez le site par défaut pour déselectionner les sites web ;
-- Ajoutez un site Piwik pour chaque site web.
-{{< fig "admin-panel_section-sites.fr.png" "Segmenter les sites Matomo" >}}
+## Personnalisation des statistiques
 
+Notre plateforme est exclusivent basée sur les logs HTTP et fournit une interface simple. Il n'est pas possible d'y ajouter des paramètres personnalisés.
 
-### Ajouter des utilisateurs
-Pour ajouter des utilisateurs et gérer leurs droits, rendez-vous dans le menu **UTILISATEURS**.
+Tournez-vous sur l'installation de votre propre logiciel de mesure de statistiques web : Matomo peut être installé via notre [marketplace]({{< ref "marketplace/matomo" >}}).

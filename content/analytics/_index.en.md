@@ -6,27 +6,18 @@ weight = 35
 tags = ["http", "analytics", "site"]
 +++
 
-From the raw HTTP logs (`$HOME/admin/logs/http`) we generate [Matomo](https://matomo.org/) statistics.
+From the raw HTTP logs (`$HOME/admin/logs/http`) we generate visit statistics in *real time*. They are available in the **Web > Analytics** section.
 
-- [Matomo interface](https://analytics.alwaysdata.com)
-- [Matomo assistance]({{< ref "analytics/troubleshooting-matomo" >}})
+{{< fig "stats-panel.en.png" "" >}}
 
-You can also install your own instance via our [marketplace]({{< ref "marketplace/matomo" >}})
+You can view the graph by site or for an entire account.
 
-## Accessing analytics
+## Old statistics
 
-Go to the **Web > Analytics** section.
+Statistics created with [Matomo](https://matomo.org/) are still accessible with your credentials in this [interface](https://analytics.alwaysdata.com).
 
-### Segment sites
+## Customizing statistics
 
-By default, all of the sites will be on the same Piwik site. You can segment them from the **MATOMO SITES** menu in this section:
+Our platform is entirely based on HTTP logs and provides a simple interface. Customized settings cannot be added.
 
-{{< fig "admin-panel_stats.en.png" "Matomo statistics menu" >}}
-
--   Edit the default site to deselect the websites,
--   Add a Piwik site.
-    {{< fig "admin-panel_section-sites.en.png" "Segment Matomo sites" >}}
-
-### Adding users
-
-To add users and manage their rights, go to the **USERS**.
+You will need to install your own web statistics measurement software : Matomo can be installed via our [marketplace]({{< ref "marketplace/matomo" >}}).

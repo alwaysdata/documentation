@@ -5,7 +5,7 @@ hidden = true
 tags = ["analytics"]
 +++
 
-[Matomo](https://matomo.org/) is an alternative to Google Analytics. We provide an instance for each account [based on HTTP logs]({{< ref "analytics" >}}) but if you want to customize your analytics you will need your own software.
+[Matomo](https://matomo.org/) is an alternative to Google Analytics.
 
 - [Documentation](https://matomo.org/help/)
 

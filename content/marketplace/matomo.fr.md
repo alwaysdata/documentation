@@ -6,7 +6,7 @@ hidden = true
 tags = ["statistiques"]
 +++
 
-[Matomo](https://fr.matomo.org/) est une alternative à Google Analytics. Nous proposons une instance pour chaque compte basée sur les [logs HTTP]({{< ref "analytics" >}}) mais si vous souhaitez personnaliser vos statistiques vous aurez besoin de votre propre logiciel.
+[Matomo](https://fr.matomo.org/) est une alternative à Google Analytics.
 
 - [Documentation](https://fr.matomo.org/help/)
 
