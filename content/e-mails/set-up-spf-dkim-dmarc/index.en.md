@@ -105,13 +105,13 @@ To use DMARC, DKIM and SPF must already be implemented.
 ||quarantine = treats the e-mail as suspect (spam score, flag, etc.)|
 ||reject = rejects the e-mail|
 |sp|Procedure in case of failure - subdomain (none, quarantine or reject)|
-|ruf|Addressee for the detailed failure reports|
+|ruf|Recipient of the detailed failure reports|
 |fo|Conditions for sending a detailed report|
 ||1 = DKIM and/or SPF failure|
 ||d = DKIM failure|
 ||s = SPF failure|
 ||0 = DKIM and SPF failure (default)|
-|rua|Destination for aggregated failure reports|
+|rua|Recipients of aggregated failure reports|
 
 To implement it, a TXT record needs to be created in the **DNS records** tab for the domain:
 
