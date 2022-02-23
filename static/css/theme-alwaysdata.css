@@ -429,6 +429,15 @@ h1::before {
   text-align: left;
 }
 
+#chapter h3 {
+  font-family: Open Sans;
+  text-align: left;
+}
+
+#body h3 {
+  font-family: Open Sans;
+}
+
 #body figure {
   margin: 3rem 1rem;
   padding: 0.7rem;
