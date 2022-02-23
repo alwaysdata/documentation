@@ -7,6 +7,8 @@ tags = ["infrastructure", "security"]
 
 ## Firewall
 
+Users who own VPS and dedicated servers can [configure their firewall]({{< relref "configure-firewall" >}}) directly from their administration interface, via the server's **Firewall** menu.
+
 ### Incoming firewall
 
 Users cannot listen to any port, only the necessary ones are open.
@@ -14,8 +16,6 @@ Users cannot listen to any port, only the necessary ones are open.
 ### Outgoing firewall
 
 All of the ports are open without any filtering; you can therefore define your own uses without our help. Every connection is logged and will be temporarily blocked in case of misuse.
-
-Users who own VPS and dedicated servers can [configure their firewall]({{< relref "configure-firewall" >}}) directly from their administration interface, via the server's **Firewall** menu.
 
 ## Intrusion prevention
 
