@@ -12,12 +12,12 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 **Important**:
 
 - It must runs in `foreground`, not fork and leave [^2].
-- When needing to be reached from an external application, bind it to `::` (IPv6 only) and a port from `8300` to `8499`.
+- When needing to be reached from an external application, bind it to `::` (_IPv6_ only) and a port from `8300` to `8499`.
 - Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
-- For Public Cloud users:
+* For Public Cloud users:
   - Services are executed on a distinct servers than SSH and HTTP servers.
   - Their resources use must remain fair.
-- For Private clouds users (*VPS* and *dedicated* servers):
+* For Private clouds users (*VPS* and *dedicated* servers):
 	- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}
