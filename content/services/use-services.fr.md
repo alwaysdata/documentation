@@ -18,11 +18,11 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 - Pour les utilisateurs du Cloud public :
 	- les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
 	- la consommation doit rester raisonnable ;
-- Pour les utilisateurs Catalyst (serveurs *VPS* et *dédiés*) :
+- Pour les utilisateurs de Clouds privés (serveurs *VPS* et *dédiés*) :
 	- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}
-Même si c'est contre-indiqué, les utilisateurs Catalyst peuvent aussi s'attacher sur une autre IP que `::` et écouter un autre port que `8300-8499`. Attention, cela pourra poser des problèmes lors des [migrations]({{< ref "advanced/migrations" >}}).
+Même si c'est contre-indiqué, les utilisateurs de Clouds privés peuvent aussi s'attacher sur une autre IP que `::` et écouter un autre port que `8300-8499`. Attention, cela pourra poser des problèmes lors des [migrations]({{< ref "advanced/migrations" >}}).
 {{% /notice %}}
 
 ## Exemples

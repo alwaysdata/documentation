@@ -10,7 +10,7 @@ tags = ["cache", "http", "memcached", "site"]
 Here is a guide to installing it on the Public Cloud.
 
 {{% notice info %}}
-For Catalyst users *Memcached* can be [installed at server level]({{< ref "databases/memcached">}}).
+For Private clouds users *Memcached* can be [installed at server level]({{< ref "databases/memcached">}}).
 {{% /notice %}}
 
 In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:

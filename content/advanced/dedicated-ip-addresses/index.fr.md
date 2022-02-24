@@ -35,5 +35,5 @@ Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par ce
 Plus la note est basse mieux l'email sera noté.
 {{% /notice %}}
 
-[^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec notre [offre Catalyst serveur dédié]({{< ref "accounts/billing/choose-its-paas" >}}).
+[^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec nos [offres Cloud privé]({{< ref "accounts/billing/choose-its-paas" >}}).
 [^2]: Pour un engagement annuel, contactez le [support](https://admin.alwaysdata.com/support/add).

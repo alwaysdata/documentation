@@ -17,11 +17,11 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 - For Public Cloud users:
   - Services are executed on a distinct servers than SSH and HTTP servers.
   - Their resources use must remain fair.
-- For Catalyst infrastructure (*VPS* and *Dedicated Servers*):
+- For Private clouds users (*VPS* and *dedicated* servers):
 	- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}
-Catalyst users can also bind on another IP than `::` and listen on ports outside of the range `8300-8499`, but this is *not recommended* as it may lead to issues during [migrations]({{< ref "advanced/migrations" >}}).
+Private clouds users can also bind on another IP than `::` and listen on ports outside of the range `8300-8499`, but this is *not recommended* as it may lead to issues during [migrations]({{< ref "advanced/migrations" >}}).
 {{% /notice %}}
 
 ## Examples
