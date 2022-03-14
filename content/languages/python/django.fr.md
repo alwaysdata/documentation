@@ -6,14 +6,6 @@ layout = "howto"
 tags = ["framework", "python"]
 +++
 
-[Django](https://www.djangoproject.com/) est un framework Python qui s'inspire du concept [Modèle-Vue-Contrôleur](https://fr.wikipedia.org/wiki/Mod%C3%A8le-Vue-Contr%C3%B4leur). Elle se déploie chez alwaysdata comme n'importe quelle application WSGI.
-
-- [Documentation](https://docs.djangoproject.com/)
-
-Un Hello World *Django* fait partie de nos applications auto-installables via l'interface d'administration : **Web > Sites > Installer une application**.
-
-- [Script d'installation](https://admin.alwaysdata.com/site/application/script/18/detail/)
-
 ## Créer un environnement virtuel
 
 Utiliser un [environnement virtuel]({{< ref "languages/python/configuration" >}}#environnement) n'est pas obligatoire, mais c'est une bonne pratique.

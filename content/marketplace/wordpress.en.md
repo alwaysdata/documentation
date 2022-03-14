@@ -5,19 +5,11 @@ hidden = true
 tags = ["cms", "wordpress"]
 +++
 
-[WordPress](https://wordpress.org/) is currently the most widely used open source [CMS](https://en.wikipedia.org/wiki/Content_management_system) thanks to its ease of deployment and the ability to add new functions to it, called [plugins](http://wordpress.org/plugins/) that are developed by the community.
-
-- [Documentation](https://wordpress.org/support/)
 - [Activate HTTP cache on WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
 
-## Installation
+## Transfer from another hosting provider
 
-The last version of *WordPress* is auto-installable via the administration interface: **Web > Sites > Install an application**.
-
-- [Install script](https://admin.alwaysdata.com/site/application/script/11/detail/)
-
-If you migrate a WordPress application previously hosted by another
-hosting provider, change:
+You will need to change:
 
 - the *siteurl*, *home* settings in the `_options` table in the database,
 - the `$HOME/path/to/the/application/wp-config.php` (located at the application root).

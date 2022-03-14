@@ -16,7 +16,7 @@ You can view the graph by site or for an entire account.
 
 Our platform is entirely based on HTTP logs and provides a simple interface. Customized settings cannot be added.
 
-You will need to install your own web statistics measurement software : [Matomo](https://matomo.org/) can be installed via our [marketplace]({{< ref "marketplace/matomo" >}}).
+You will need to install your own web statistics measurement software : [Matomo](https://matomo.org/) can be installed via our [marketplace](https://www.alwaysdata.com/en/marketplace/). If you already have an alwaysdata account go to the menu **Web > Sites** to install it.
 
 {{% notice tip %}}
 Former statistics accessible via [Matomo](https://matomo.org/) are still available with your credentials on this [interface](https://analytics.alwaysdata.com).

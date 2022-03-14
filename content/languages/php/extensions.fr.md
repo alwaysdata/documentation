@@ -56,7 +56,7 @@ $ ad_install_pecl [extension]
 
 La commande génère un nouveau fichier `.so` dans le répertoire courant. Vous pouvez toutefois vous passer de notre script et utiliser les commandes usuelles (`phpize`, `make`) si vous préférez.
 
-Exemple d'extensions PECL régulièrement demandées : `imagick`, `memcached`, `yaml`.
+Exemple d'extensions PECL régulièrement demandées : `apcu`, `imagick`, `memcached`, `yaml`.
 
 ### Depuis le site de l'éditeur
 

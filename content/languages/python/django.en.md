@@ -5,14 +5,6 @@ layout = "howto"
 tags = ["framework", "python"]
 +++
 
-[Django](https://www.djangoproject.com/) is a Python framework that is inspired by the [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) concept. It can be deployed at alwaysdata just like any other WSGI application.
-
-- [Documentation](https://docs.djangoproject.com/)
-
-A *Django* Hello World is one of our applications that are auto-installable via the administration interface: **Web > Sites > Install an application**.
-
-- [Install script](https://admin.alwaysdata.com/site/application/script/18/detail/)
-
 ## Create a virtual environment
 
 Using a [virtual environment]({{< ref "languages/python/configuration" >}}#environment) is not mandatory but represents good practice.

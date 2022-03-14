@@ -6,15 +6,6 @@ hidden = true
 tags = ["cms"]
 +++
 
-[Drupall](https://www.drupal.org/) est un [CMS](http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu) PHP reconnu ultra personnalisable permettant une publication multicanal.
-
-- [Documentation](https://www.drupal.org/documentation)
-
-## Installation
-La dernière version de *Drupal* est auto-installable via l'interface d'administration : **Web > Sites > Installer une application**.
-
-- [Script d'installation](https://admin.alwaysdata.com/site/application/script/12/detail/)
-
 ## Problèmes courants
 
 ### Précompression des fichiers CSS/JS

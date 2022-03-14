@@ -12,7 +12,7 @@ Le fonctionnement de [Ruby](https://www.ruby-lang.org/fr/) chez alwaysdata est t
 * les [versions proposées]({{< ref "languages/ruby/configuration" >}}#versions-supportées) vont de la 1.8 à la 3.0 ;
 * la [configuration d'environnement]({{< ref "languages/ruby/configuration" >}}#environnement) se fait très simplement.
 
-Les frameworks [Ruby on Rails]({{< ref "languages/ruby/ruby-on-rails" >}}) et [Sinatra]({{< ref "languages/ruby/sinatra" >}}) font partie de nos applications autoinstallables.
+Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sinatrarb.com/) font partie de nos applications autoinstallables.
 
 ---
 * [Ressource API](https://api.alwaysdata.com/v1/environment/ruby/doc/)

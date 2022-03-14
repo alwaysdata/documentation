@@ -11,6 +11,8 @@ The way [Elixir](https://elixir-lang.org/) works at alwaysdata is very standard.
 - the [provisioned versions]({{< ref "languages/elixir/configuration">}}#supported-versions) range from 1.6 to 1.11,
 - the [environment configuration]({{< ref "languages/elixir/configuration" >}}#environment) is easy to set up.
 
-The [Phoenix]({{< ref "languages/elixir/phoenix" >}}) framework is one of our autoinstallable applications.
+Our marketplace provides the installation of the [Phoenix](https://www.phoenixframework.org/) framework[^1].
 
 - [API resource](https://api.alwaysdata.com/v1/environment/elixir/doc/)
+
+[^1]: Phoenix 1.6 is not compatible with our infrastructure as it needs Elixir 1.12 which depends on Erlang 22. This ill be upgraded during the next software infrastructure [migration]({{< ref "advanced/migrations" >}}).

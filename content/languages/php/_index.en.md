@@ -15,7 +15,7 @@ The way [PHP](https://www.php.net) works at alwaysdata is very standard. If you 
 - it is possible to [install packages]({{< ref "languages/php/packages" >}}) (*Composer*, *PEAR*),
 - it is possible to [install libraries]({{< ref "languages/php/libraries" >}}).
 
-The [CakePHP]({{< ref "languages/php/cakephp" >}}), [Laminas]({{< ref "languages/php/laminas" >}}), [Laravel]({{< ref "languages/php/laravel" >}}), [Symfony]({{< ref "languages/php/symfony" >}}) and [TNH]({{< ref "languages/php/tnh-framework" >}}) frameworks are part of our autoinstallable applications.
+Our marketplace provides the installation of the [CakePHP](https://cakephp.org/), [Laminas](https://getlaminas.org/), [Laravel](https://laravel.com/), [Symfony](https://symfony.com/) and [TNH](https://github.com/tnhfw/tnh-fw) frameworks.
 
 ---
 
