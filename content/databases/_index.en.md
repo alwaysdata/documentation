@@ -26,8 +26,6 @@ For security reasons, it is only possible to create databases and database users
 Hosting **only** databases in a free pack is not allowed.
 {{% /notice %}}
 
-The maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for VPS and dedicated servers.
-
 ---
 
 - API resources: [database](https://api.alwaysdata.com/v1/database/doc/), [database user](https://api.alwaysdata.com/v1/database/user/doc/)

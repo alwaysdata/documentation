@@ -51,6 +51,9 @@ Several options :
 - get the tarbal and use the client of your choice.
 
 ## Other informations
+
+The maximum number of simultaneous connections per user is *40*. On request, it is possible to change this for VPS and dedicated servers.
+
 MySQL blocks the size of the user name; if your account's name is too long, an *ID* will be assigned to it. You will find this in **Databases > MySQL > Users**.
 
 To check the MariaDB configuration use the SQL query `show variables`.
