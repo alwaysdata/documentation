@@ -36,12 +36,15 @@ $ ssh-keygen -R [nom_d'hôte]
 ### Input/output error
 Erreur liée à des opérations de notre côté, il faut patienter le temps qu'elle soit terminée mais vous pouvez aussi contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir plus d'informations. 
 
-{{% notice info %}}
-alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
+## Droits
+Utiliser plusieurs utilisateurs SSH peut avoir des effets secondaires non désirables : erreurs lors de l'accès à certains fichiers, de la suppression de dossiers...
+
+Si c'est le cas, vous pouvez :
+
+- supprimer l'utilisateur SSH problématique. Cela réassigne automatiquement les fichiers dont il était propriétaire à l'utilisateur principal.
+- utiliser la commande `chmod` avec l'utilisateur propriétaire des fichiers concernés pour qu'il donne les droits nécessaires au groupe.
+
+{{% notice warning %}}
+Les processus démarrés par un site (**Web > Sites**), typiquement *Apache* ou *PHP*, tournent avec l'utilisateur principal.
 {{% /notice %}}
 
-## Droits
-Utiliser plusieurs utilisateurs SSH peut avoir des effets secondaires non désirables : problèmes à l'accès à certains fichiers, lors de la suppression de dossiers, des fichiers n'appartenant plus à personne si l'utilisateur propriétaire a été supprimé... Les utilisateurs d'un compte font partie du même groupe. Vous pouvez :
-
-- utiliser la commande `chmod` avec l'utilisateur propriétaire des fichiers concernés pour donner les droits nécessaires au groupe ;
-- contacter le [support](https://admin.alwaysdata.com/support/add/) pour qu'il modifie le propriétaire des fichiers concernés via la commande `chown`.

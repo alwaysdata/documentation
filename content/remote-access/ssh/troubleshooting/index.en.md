@@ -38,10 +38,6 @@ $ ssh-keygen -R [hostname]
 
 Error linked to operations at our end. Please wait until these are finished, but you can also contact [support](https://admin.alwaysdata.com/support/add/) for more information.
 
-{{% notice info %}}
-alwaysdata has connection logs that you may exceptionally request a copy of.
-{{% /notice %}}
-
 ## Rights
 
 Using a number of SSH users may have undesirable side effects: problems accessing some files, when deleting folders, files that no longer belong to anyone if the owner user has been deleted, etc. Account users belong to the same group. You can:
