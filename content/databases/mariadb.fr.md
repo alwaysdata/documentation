@@ -57,7 +57,9 @@ Le nombre de connexions simultanées maximum par utilisateur est de _40_. Il est
 
 MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Utilisateurs**.
 
-Pour connaître la configuration MariaDB utilisez la requête SQL `show variables`.
+Un [ANALYZE TABLE](https://mariadb.com/kb/en/analyze-table/) est exécuté quotidiennement sur toutes vos tables pour garantir de bonnes performances, mais n'hésitez pas à le faire vous-même lorsque vos données changent drastiquement, par exemple après un import de base de données.
+
+Pour connaître la configuration MariaDB, utilisez la requête SQL `show variables`.
 
 Les events MySQL ne sont pas supportés par nos serveurs.
 
