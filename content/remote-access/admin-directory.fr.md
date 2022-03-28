@@ -35,6 +35,8 @@ Il recueille différents types de logs :
 - _apache_ : un log pour toutes les applications utilisant ce serveur web (PHP et Apache personnalisé) ;
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
 
+Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata.
+
 {{% notice info %}}
 Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour les serveurs dédiés et VPS, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
 *Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.*

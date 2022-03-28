@@ -23,6 +23,8 @@ Les versions ne sont pas forcément [déjà installées]({{< ref "languages#vers
 
 Python tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
+Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+
 ## Binaire à utiliser
 
 Vous devez toujours utiliser `python` (ou `/usr/bin/python`). N'utilisez jamais `python3`, `python2`, `python2.7`, ou toute autre commande.

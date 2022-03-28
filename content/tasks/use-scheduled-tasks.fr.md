@@ -13,6 +13,7 @@ Via le menu **Avancé > Tâches planifiées** de votre interface d'administratio
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
+	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 - Pour les comptes étant sur le Cloud public, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
 {{% notice note %}}

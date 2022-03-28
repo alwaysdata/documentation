@@ -10,7 +10,7 @@ tags = ["apache", "http", "site"]
 [Apache](http://httpd.apache.org/) 2.4 est disponible sur nos serveurs. Pour ajouter des directives globales à votre configuration Apache rendez-vous dans **Web > Configuration > Apache**.
 {{< fig "images/admin-panel_apache.fr.png" "Interface d'administration : configurer Apache" >}}
 
-L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier `$HOME/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier `$HOME/admin/logs/apache/apache.log`.
+L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier `$HOME/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier `$HOME/admin/logs/apache/apache.log`. Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 
 Apache sert les sites de type PHP, Fichiers statiques et Apache personnalisé.
 

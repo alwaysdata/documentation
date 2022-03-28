@@ -32,6 +32,8 @@ Les versions ne sont pas forcément [déjà installées]({{< ref "languages#vers
 
 Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
+Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+
 ## Binaire à utiliser
 
 Vous devez toujours utiliser `ruby` (ou `/usr/bin/ruby`). N'utilisez jamais `ruby2.4` ou toute autre commande.
