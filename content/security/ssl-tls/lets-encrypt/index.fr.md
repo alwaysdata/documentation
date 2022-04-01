@@ -27,13 +27,19 @@ Lorsque le vingtième certificat SSL pour un domaine doit être créé - c'est-�
 La génération de certificat est limitée à 64 caractères par adresse complète.
 {{% /notice %}}
 
-### Le certificat SSL est généré et renouvelé automatiquement, vous le retrouverez dans l'onglet "Certificats auto-générés".
+### Problèmes fréquents
+
+#### Le certificat SSL est généré et renouvelé automatiquement, vous le retrouverez dans l'onglet "Certificats auto-générés".
 
 La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
 
 {{% notice tip %}}
 Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après. **`ATTENTION`** cette action n'est à effectuer **qu'une fois**, trop de tentatives peuvent bloquer le processus et la génération du certificat pendant une semaine. [Contactez le support](https://admin.alwaysdata.com/support/add) si la première tentative est infructueuse.
 {{% /notice %}}
+
+#### DNSSEC
+
+Nos serveurs ne supportant pas [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions), son activation chez le registrar bloquera la génération des certificats Let's Encrypt.
 
 ## Certificats Wildcard
 
