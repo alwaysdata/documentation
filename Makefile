@@ -5,7 +5,7 @@ THEME_LEARN_REVISION := 6cfd61e0f675b45ba85f8325e206d23a4337a14c
 .PHONY: public
 
 public: hugo themes/learn
-	./hugo --minify
+	./hugo --minify --cleanDestinationDir
 
 # The theme we use.
 themes/learn:
