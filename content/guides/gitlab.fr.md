@@ -8,7 +8,7 @@ tags = ["developpement"]
 
 [GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...
 
-Il est possible de l'installer en **[Cloud Privé](https://www.alwaysdata.com/fr/hebergement-infogere)**, voici les étapes à suivre.
+Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](https://www.alwaysdata.com/fr/hebergement-infogere)**, voici les étapes à suivre.
 
 **Les SGBD [PostgreSQL]({{< ref "databases/postgresql" >}}) et [Redis]({{< ref "databases/redis" >}}) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
 

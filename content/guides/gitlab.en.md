@@ -7,7 +7,7 @@ tags = ["development"]
 
 [GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...
 
-It is possible to install it in **[Private Cloud](https://www.alwaysdata.com/fr/private-cloud)**, here are the steps to follow.
+It is possible to install it in **[Private Cloud - dedicated and Gold servers](https://www.alwaysdata.com/fr/private-cloud)**, here are the steps to follow.
 
 **[PostgreSQL]({{< ref "databases/postgresql" >}}) and [Redis]({{< ref "databases/redis" >}}) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
 
