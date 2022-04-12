@@ -10,7 +10,7 @@ tags = ["apache", "http", "site"]
 
 {{< fig "images/admin-panel_apache.en.png" "Administration interface: configure Apache" >}}
 
-All of the modifications made in the *Apache global directives* field will impact the `$HOME/admin/config/apache/sites.conf` file. Apache error logs are available in file `$HOME/admin/logs/apache/apache.log`.
+All of the modifications made in the *Apache global directives* field will impact the `$HOME/admin/config/apache/sites.conf` file. Apache error logs are available in file `$HOME/admin/logs/apache/apache.log`. An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
 Apache serves PHP, Static Files and Custom Apache websites.
 

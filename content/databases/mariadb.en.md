@@ -56,6 +56,8 @@ The maximum number of simultaneous connections per user is *40*. On request, it 
 
 MySQL blocks the size of the user name; if your account's name is too long, an *ID* will be assigned to it. You will find this in **Databases > MySQL > Users**.
 
+An [ANALYZE TABLE](https://mariadb.com/kb/en/analyze-table/) is carried out daily on all your tables to guarantee good performance, but don’t hesitate to do it yourself when your data changes drastically, for example after importing a database.
+
 To check the MariaDB configuration use the SQL query `show variables`.
 
 MySQL events are not supported on alwaysdata's servers.

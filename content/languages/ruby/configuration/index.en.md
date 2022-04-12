@@ -31,6 +31,8 @@ Versions are not necessarily [already installed]({{< ref "languages#versions" >}
 
 You can view the error logs in the `$HOME/admin/logs/uwsgi/[id].log` file where [id] is the identifier for your site, shown in the Web > Sites section.
 
+An extract of these logs is presented in the administration’s interface (Logs - 📄).
+
 ## Binary to use
 
 You need to always use `ruby` (or `/usr/bin/ruby`). Never use `ruby2.4` or any other command.

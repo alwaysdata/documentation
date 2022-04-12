@@ -40,7 +40,14 @@ Error linked to operations at our end. Please wait until these are finished, but
 
 ## Rights
 
-Using a number of SSH users may have undesirable side effects: problems accessing some files, when deleting folders, files that no longer belong to anyone if the owner user has been deleted, etc. Account users belong to the same group. You can:
+Employing several SSH users may have secondary and undesirable effects: errors when accessing certain files and when deleting files, etc.
 
-- user the `chmod` command with the relevant file's owner user to grant the necessary permissions to the group,
-- contact [support](https://admin.alwaysdata.com/support/add/) so that they will change the owner of the relevant files using the `chown` command.
+In this case, you can:
+
+- delete the problem SSH user. This automatically reassigns the files it owned to the main user.
+- use the `chmod` command with the owner user of the files concerned in order to give the necessary rights to the group.
+
+{{% notice warning %}}
+The processes started up by a site (**Web > Sites**), typically *Apache* or *PHP*, run with the main user.
+{{% /notice %}}
+

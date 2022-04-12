@@ -49,7 +49,7 @@ To use our DNS servers, set on your registrar administration panel `dns1.alwaysd
 - [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Delete a DNS record]({{< relref "delete-dns" >}})
 
-[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is not yet supported.
+[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is not yet supported. To be deactivated with the registrar.
 
 {{% notice note %}}
 The [SOA DNS record](https://en.wikipedia.org/wiki/SOA_record) includes a 32-bit serial number (between 1 and 4294967295). We do not follow the *convention* of defining it with a date format that comes from a time when zone files were edited by hand. Not following this convention *should not* be considered an error.

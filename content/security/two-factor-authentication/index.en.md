@@ -16,6 +16,10 @@ To use it, go to **Profile** to activate *Two factor authentication*.
 
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 
+{{% notice note %}}
+In the case of loss of two-factor authentication, send an email to contact[at]alwaysdata.com to deactivate it. An identity document will be requested.
+{{% /notice %}}
+
 ## OTP applications
 
 - **[FreeOTP](https://freeotp.github.io/)**: [Android](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp), [iOS](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8) and [F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp) ([Github](https://github.com/freeotp))

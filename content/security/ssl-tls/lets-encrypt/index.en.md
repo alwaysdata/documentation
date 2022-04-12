@@ -27,7 +27,9 @@ From 20 SSL certificates per domain, i.e. from the 20th subdomain has been added
 Certificate generation is limited to 64 characters per complete address.
 {{% /notice %}}
 
-### The SSL certificate is automatically generated and renewed, you will find it in the "Auto-generated certificates" menu.
+### Troubleshooting
+
+#### The SSL certificate is automatically generated and renewed, you will find it in the "Auto-generated certificates" menu.
 
 The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
 
@@ -35,6 +37,9 @@ The creation of these certificates is **dependent on DNS propagation**: the addr
 People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart the autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later. **`WARNING`** this action is to be done **only once**, too many attempts can block the process and the certificate generation for a week. [Contact support](https://admin.alwaysdata.com/support/add) if the first attempt is unsuccessful.
 {{% /notice %}}
 
+#### DNSSEC
+
+As our servers do not support [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions), its activation with the registrar will block the generation of Let’s Encrypt certificates.
 
 ## Wildcard certificates
 
