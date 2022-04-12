@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/migrer-des-adresses-emails-chez-alwaysdata/"
+url = "/fr/emails/migrer-des-adresses-emails-chez-alwaysdata/"
 title = "Migrer des adresses emails chez alwaysdata"
 layout = "howto"
 hidden = true
