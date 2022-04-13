@@ -1,5 +1,5 @@
 +++
-title = "Adding an SSL Certificate to Your Site"
+title = "Adding a SSL Certificate to Your Site"
 layout = "howto"
 weight = 10
 tags = ["https", "security", "ssl"]
