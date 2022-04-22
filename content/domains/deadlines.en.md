@@ -302,7 +302,8 @@ Different dates apply:
 |.science|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.se|Up to 1 day prior to expiry|Impossible|1 day prior to expiry|Between 1 day prior to expiry and 59 days after expiry|64 days after expiry|
 |.services|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
-|.sexy|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
+|.sexy|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|90 days after expiry|
+|.sh|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shiksha|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shoes|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.shop|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
