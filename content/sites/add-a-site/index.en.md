@@ -35,6 +35,8 @@ Adding the site will not create the *root directory*, it has to be created by [r
     - [Ruby on Rails <= 2.x]({{< ref "languages/ruby/ruby-on-rails" >}}),
     - [Node.js]({{< ref "languages/nodejs" >}}),
     - [Elixir]({{< ref "languages/elixir" >}}),
+    - [Deno]({{< ref "languages/deno" >}}),
+    - [.NET]({{< ref "languages/dotnet" >}}),
     - [Redirect]({{< ref "sites/redirect" >}}),
     - [Static files]({{< ref "sites/static-files" >}}): to manage sites or static files,
     - [Custom Apache]({{< ref "sites/apache-custom" >}}): to fully configure your Apache server,

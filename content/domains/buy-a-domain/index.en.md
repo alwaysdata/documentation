@@ -16,7 +16,7 @@ Enter the domain only, without the subdomain.
 For example: `example.org` and not `www.example.org`.
 {{% /notice %}}
 
-3.  Choose *save*. **Buy** may not be offered: when the domain already exists, if alwaysdata does not generate the extension, if the domain is already recorded for another alwaysdata account, etc.
+3.  Choose *save*. **Buy** may not be offered: when the domain already exists, if alwaysdata does not handle the extension, if the domain is already recorded for another alwaysdata account, etc.
     {{< fig "images/admin-panel_add-domain-2.en.png" "Administration interface: step 2" >}}
 
 4.  Choose the *existence duration* for the domain. It may be renewed again later on, and

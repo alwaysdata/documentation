@@ -36,6 +36,8 @@ L'ajout du site ne va pas créer le *répertoire racine*, il doit être créé p
     - [Ruby on Rails <= 2.x]({{< ref "languages/ruby/ruby-on-rails" >}}) ;
     - [Node.js]({{< ref "languages/nodejs" >}}) ;
     - [Elixir]({{< ref "languages/elixir" >}}) ;
+    - [Deno]({{< ref "languages/deno" >}}),
+    - [.NET]({{< ref "languages/dotnet" >}}),
     - [Redirection]({{< ref "sites/redirect" >}}) ;
     - [Fichiers statiques]({{< ref "sites/static-files" >}}) : pour gérer des sites ou fichiers statiques ;
     - [Apache personnalisé]({{< ref "sites/apache-custom" >}}) : pour totalement configurer son serveur Apache ;

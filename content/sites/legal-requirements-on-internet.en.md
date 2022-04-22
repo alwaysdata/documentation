@@ -25,7 +25,7 @@ Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limi
 
 ### Companies
 
-- corporate entity,    
+- corporate entity,
 - head office address,
 - phone number,
 - name of the director of publication.

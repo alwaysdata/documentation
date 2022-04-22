@@ -11,7 +11,7 @@ En France, tout éditeur de site internet (physique ou moral), qu’il le soit �
 
 ## Mentions légales
 
-Les mentions légales doivent obligatoirement apparaître de façon claire sur un site web. Celles-ci protègent  les internautes et leur permettre d'identifier et de contacter le ou les éditeurs de toute site internet afin de faire respecter leurs droits.
+Les mentions légales doivent obligatoirement apparaître de façon claire sur un site web. Celles-ci protègent les internautes et leur permettent d'identifier et de contacter le ou les éditeurs de toute site internet afin de faire respecter leurs droits.
 
 ### **Hébergeur**
 
@@ -47,7 +47,7 @@ Le site doit permettre aux personnes de _modifier les informations_ les concerna
 
 ## Déclaration à la CNIL
 
-La déclaration à la [CNIL (Commission Nationale de l'Informatique et des Libertés)](http://www.cnil.fr) lorsqu'un site enregistre des informations personnelles sur des personnes n'est plus obligatoire depuis le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees). Selon votre projet, une [analyse d'impact sur la protection des données (PIA)](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-pia) sera peut-être nécessaire.
+La déclaration à la CNIL ([Commission Nationale de l'Informatique et des Libertés](http://www.cnil.fr)) lorsqu'un site enregistre des informations personnelles sur des personnes n'est plus obligatoire depuis le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees). Selon votre projet, une [analyse d'impact sur la protection des données (PIA)](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-pia) sera peut-être nécessaire.
 
 ## Commerce en ligne (e-commerce)
 

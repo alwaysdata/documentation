@@ -9,10 +9,10 @@ tags = ["dns", "domaine"]
 
 # Domaines
 
-Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez]({{< relref "buy-a-domain" >}}), [transférez]({{< relref "transfer-a-domain" >}}) ou [ajoutez en gestion]({{< relref "add-an-external-domain">}}) votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possibles. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
+Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez]({{< relref "buy-a-domain" >}}), [transférez]({{< relref "transfer-a-domain" >}}) ou [ajoutez en gestion]({{< relref "add-an-external-domain">}}) votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possible. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
 
 {{% notice note %}}
-Étant revendeurs GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
+Étant revendeur GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.
 {{% /notice %}}
 
 ## Ressources
