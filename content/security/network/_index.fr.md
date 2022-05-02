@@ -6,15 +6,15 @@ layout = "man"
 tags = ["infrastructure", "sécurité"]
 +++
 
-## Pare-feu
+## Firewall (pare-feu)
 
-Les utilisateurs propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur pare-feu]({{< relref "configure-firewall" >}}) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
+Les utilisateurs propriétaires de serveurs VPS et dédiés peuvent [paramétrer leur firewall]({{< relref "configure-firewall" >}}) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
 
-### Pare-feu entrant
+### Firewall entrant
 
 Les utilisateurs ne peuvent pas écouter sur n'importe quel port, seuls ceux nécessaires sont ouverts.
 
-### Pare-feu sortant
+### Firewall sortant
 
 Tous les ports sont ouverts sans filtrage ; vous pouvez donc définir vos propres usages sans notre concours. Toute connexion est loguée et sera temporairement bloquée en cas d'abus.
 

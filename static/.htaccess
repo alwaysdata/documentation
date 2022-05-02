@@ -189,3 +189,4 @@ Redirect 301 /fr/sites/utiliser-le-pare-feu-applicatif_waf/    /fr/sites/waf/uti
 Redirect 301 /fr/sites/utiliser-le-cache-http/                 /fr/sites/cache-http/utiliser-le-cache-http/
 Redirect 301 /en/sites/use-waf/                                /en/sites/waf/use-waf/
 Redirect 301 /en/sites/use-http-cache/                         /en/sites/http-cache/use-http-cache/
+Redirect 301 /fr/sécurité/réseau/configurer-son-pare-feu/      /fr/sécurité/réseau/configurer-le-firewall/

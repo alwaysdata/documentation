@@ -19,7 +19,7 @@ tags = ["api", "interface d'administration"]
 | environment (php)     | Paramètres PHP                       | https://api.alwaysdata.com/v1/environment/php/doc/    |
 | environment (python)  | Paramètres Python                    | https://api.alwaysdata.com/v1/environment/python/doc/ |
 | environment (ruby)    | Paramètres Ruby                      | https://api.alwaysdata.com/v1/environment/ruby/doc/   |
-| firewall rule         | Règles de pare-feu                   | https://api.alwaysdata.com/v1/firewall/doc/           |
+| firewall rule         | Règles de firewall                   | https://api.alwaysdata.com/v1/firewall/doc/           |
 | ftp user              | Utilisateurs FTP                     | https://api.alwaysdata.com/v1/ftp/doc/                |
 | ip address            | Adresses IP                          | https://api.alwaysdata.com/v1/ip/doc/                 |
 | job                   | Tâches planifiées                    | https://api.alwaysdata.com/v1/job/doc/                |

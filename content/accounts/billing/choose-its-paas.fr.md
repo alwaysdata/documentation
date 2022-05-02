@@ -74,7 +74,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 | Autres | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
 || [Tâches planifiées]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
 || Services[^6] |✔️|✔️|✔️|✔️|
-|| [Gestion du pare-feu]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
+|| [Gestion du firewall]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
 || [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
 || Réplication SGBD |❌|✔️|✔️|✔️|

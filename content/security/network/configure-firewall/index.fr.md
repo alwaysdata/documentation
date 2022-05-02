@@ -1,16 +1,16 @@
 +++
-url = "/fr/sécurité/réseau/configurer-son-pare-feu"
-title = "Serveurs VPS et dédiés : configurer le pare-feu"
+url = "/fr/sécurité/réseau/configurer-le-firewall"
+title = "Serveurs VPS et dédiés : configurer le firewall"
 layout = "faq"
 hidden = true
 tags = ["sécurité", "serveur dédié", "serveur gold", "serveur vps"]
 +++
 
-Le pare-feu se gère dans le menu **Firewall** du serveur.
+Le firewall (pare-feu) se gère dans le menu **Firewall** du serveur.
 
 ## Règles
-Menu pour retrouver, créer et ajuster ses règles de pare-feu.
-{{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de pare-feu actives" >}}
+Menu pour retrouver, créer et ajuster ses règles de firewall.
+{{< fig "images/admin-panel_list-rules.fr.png" "Interface d'administration : liste des règles de firewall actives" >}}
 
 Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres.
 
