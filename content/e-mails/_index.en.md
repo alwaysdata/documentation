@@ -25,7 +25,7 @@ To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
 * [Add a filter rule]({{< relref "add-a-filter-rule" >}})
 * [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
-* [Incoming whitelist]({{< ref "e-mails/use-an-e-mail-address#whitelist" >}})
+* [Incoming whitelist]({{< ref "e-mails/whitelist" >}})
 - [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Use external MX]({{< ref "domains/use-external-mx" >}})
 * [Deliverability: best practices]({{< relref "delivery">}})

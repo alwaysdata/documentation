@@ -52,12 +52,6 @@ Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (ce
 Si vous changez votre mot de passe via le webmail, vous devrez procéder à une déconnexion puis reconnexion.
 {{% /notice %}}
 
-## Liste blanche
-
-Pour être assuré de recevoir les emails d'adresses et domaines précis, ceux-ci peuvent être renseignés dans **Emails > Configuration**. L'antispam entrant n'aura alors plus d'incidence sur leurs emails.
-
-Les mails envoyés à ces adresses seront toujours soumis à la [validation antispam]({{< ref "e-mails/delivery#système-de-notation" >}}).
-
 ## Remarques
 
 - Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
