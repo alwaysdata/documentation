@@ -10,7 +10,7 @@ Apprenez comment utiliser _alwaysdata_. Trouvez comment mettre en place un compt
 
 - Retrouvez toutes les [informations de connexion]({{<ref "remote-access/login-details">}}) liées à votre compte ;
 - connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
-- créez un [site web]({{< ref "sites/add-a-site" >}}), [achetez]({{< ref "domains/buy-a-domain" >}}) ou [transférez]({{< ref "domains/transfer-a-domain" >}}) un domaine, créez des [adresses emails]({{< ref "e-mails/create-an-e-mail-address" >}}) ;
+- créez un [site web]({{< ref "sites/add-a-site" >}}), [achetez]({{< ref "domains/buy-a-domain" >}}) ou [transférez]({{< ref "domains/transfer-a-domain" >}}) un domaine, créez des [adresses email]({{< ref "e-mails/create-an-e-mail-address" >}}) ;
 - transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP]({{< ref "remote-access/sftp" >}}) par exemple - et créez votre [base de données]({{< ref "databases" >}}).
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).

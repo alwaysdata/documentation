@@ -10,4 +10,4 @@ Pour être assuré de recevoir les emails d'adresses et domaines précis, ceux-c
 
 Les mails envoyés à ces adresses seront toujours soumis à la [validation antispam]({{< ref "e-mails/delivery#système-de-notation" >}}).
 
-Les listes blanches sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses emails du compte.
+Les listes blanches sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses email du compte.

@@ -20,7 +20,7 @@ Que vos boîtes email soient hébergées dans un Cloud Public ou un environnemen
 - Supprimez les adresses inexistantes ou inactives ;
 - Vérifiez les fautes d'orthographe dans les adresses ;
 - Évitez l'envoi de masse ;
-- Renseignez les adresses emails dans le champ `Cc` (ou `Cci`) plutôt que les unes à la suite des autres dans le champ `To` (Pour) lors d'un envoi groupé.
+- Renseignez les adresses email dans le champ `Cc` (ou `Cci`) plutôt que les unes à la suite des autres dans le champ `To` (Pour) lors d'un envoi groupé.
 
 ## Le contenu
 

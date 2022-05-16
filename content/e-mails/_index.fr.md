@@ -24,7 +24,7 @@ Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.a
 ## Ressources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
-- [Ajouter plusieurs adresses emails en utilisant CSV]({{< relref "create-mailboxes-using-csv" >}})
+- [Ajouter plusieurs adresses email en utilisant CSV]({{< relref "create-mailboxes-using-csv" >}})
 * [Ajouter une règle de filtrage]({{< relref "add-a-filter-rule" >}})
 * [Utiliser les scripts Sieve]({{< relref "use-sieve-scripts" >}})
 * [Liste blanche de réception]({{< ref "e-mails/whitelist" >}})

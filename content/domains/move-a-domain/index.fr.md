@@ -6,7 +6,7 @@ hidden = true
 tags = ["domaine", "email"]
 +++
 
-Cet article explique comment transférer un domaine _et_ ses adresses emails sur **un autre compte alwaysdata**.
+Cet article explique comment transférer un domaine _et_ ses adresses email sur **un autre compte alwaysdata**.
 
 1. Dans le menu **Domaines** du compte initial ;
 
@@ -19,7 +19,7 @@ Cet article explique comment transférer un domaine _et_ ses adresses emails sur
 Seul le _propriétaire du compte_ peut initier la cession mais, contrairement à la cession de site, il n'a pas besoin de permissions sur le compte de destination.
 {{% /notice %}}
 
-Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites emails se copient sur son compte. Cette action étant dépendante de la taille des boites emails, elle peut prendre du temps.
+Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites email se copient sur son compte. Cette action étant dépendante de la taille des boites email, elle peut prendre du temps.
 
 {{% notice tip %}}
 Pour le déplacer dans un autre de _ses_ comptes il n'y a qu'à indiquer sa propre adresse email.

@@ -1,16 +1,16 @@
 +++
-url = "/fr/emails/migrer-des-adresses-emails-chez-alwaysdata/"
-title = "Migrer des adresses emails chez alwaysdata"
+url = "/fr/emails/migrer-des-adresses-email-chez-alwaysdata/"
+title = "Migrer des adresses email chez alwaysdata"
 layout = "howto"
 hidden = true
 tags = ["email"]
 +++
 
-Cet article explique comment procéder à la migration d'adresses emails chez alwaysdata.
+Cet article explique comment procéder à la migration d'adresses email chez alwaysdata.
 
 ## Transfert manuel
 
-1. [Créer les adresses emails]({{< ref "e-mails/create-an-e-mail-address" >}}) sur votre interface d'administration, onglet **Emails > Adresses** ;
+1. [Créer les adresses email]({{< ref "e-mails/create-an-e-mail-address" >}}) sur votre interface d'administration, onglet **Emails > Adresses** ;
 
 2. Migrer les emails déjà présents chez le prestataire actuel :
     - en les récupérant au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) (s'ils sont disponibles sous ce format) et en les copiant en utilisant [FTP]({{< ref "remote-access/ftp" >}}) ou [SSH]({{< ref "remote-access/ssh" >}}) dans le répertoire `$HOME/admin/mail/domaine/boîte-email/` ;

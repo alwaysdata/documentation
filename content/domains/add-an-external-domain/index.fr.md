@@ -25,7 +25,7 @@ Cela va ajouter le domaine en tant que _domaine externe_ dans la liste.
 
 {{< fig "images/admin-panel_domain-list2.fr.png" "Interface d'administration : Domaine externe" >}}
 
-Vous pourrez alors créer des [adresses emails]({{< ref "e-mails/create-an-e-mail-address" >}}), des [sites web]({{< ref "sites/add-a-site" >}}) et gérer les [enregistrements DNS]({{< ref "domains/add-dns" >}}).
+Vous pourrez alors créer des [adresses email]({{< ref "e-mails/create-an-e-mail-address" >}}), des [sites web]({{< ref "sites/add-a-site" >}}) et gérer les [enregistrements DNS]({{< ref "domains/add-dns" >}}).
 
 {{% notice warning %}}
 Si certains enregistrements DNS doivent être gardés - par exemple ne pas changer de prestataire emails - il faudra préparer la [zone DNS]({{< ref "domains/add-dns" >}}) avant d'effectuer le changement de serveurs DNS.

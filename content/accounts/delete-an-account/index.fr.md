@@ -14,7 +14,7 @@ Allez dans le menu **Comptes** et cliquez sur la _poubelle_ du compte à supprim
 
 {{< fig "images/delete-account.fr.png" "Supprimer un compte">}}
 
-Cela va supprimer tous les domaines, adresses emails, sites web, fichiers, bases de données (...) liés à ce compte.
+Cela va supprimer tous les domaines, adresses email, sites web, fichiers, bases de données (...) liés à ce compte.
 
 {{% notice info %}}
 Aucun remboursement n'est prévu lors d'une suppression avant échéance.
