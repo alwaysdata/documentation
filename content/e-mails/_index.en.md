@@ -23,6 +23,7 @@ To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 ## Resources
 
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
+- [Add Several Mailboxes using CSV]({{< relref "create-mailboxes-using-csv" >}})
 * [Add a filter rule]({{< relref "add-a-filter-rule" >}})
 * [Use Sieve scripts]({{< relref "use-sieve-scripts" >}})
 * [Incoming whitelist]({{< ref "e-mails/whitelist" >}})
