@@ -13,6 +13,7 @@ All services (HTTP, but also remote access, databases, emails...) are secured by
 - [Redirect HTTP to HTTPS]({{< relref "redirect-http-to-https">}})
 - [Generate a CSR]({{< relref "csr" >}})
 - [Add a SSL certificate]({{< relref "add-a-ssl-certificate" >}})
+- [Renew a SSL certificate]({{< relref "renew-a-ssl-certificate" >}})
 - [Certificate priority]({{< relref "certificates-priorities" >}})
 
 * [API](https://api.alwaysdata.com/v1/ssl/doc/)
