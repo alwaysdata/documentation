@@ -29,7 +29,7 @@ Successfully created context "rootless"
 ```
 
 - créer un [service]({{< ref "services" >}}) :
-    - *Commande* : `dockerd-rootless.sh`.
+    - *Commande* : `dockerd-rootless.sh`
     
 > L'installation est terminée, vous pouvez désormais utiliser la commande `docker` normalement.
 
