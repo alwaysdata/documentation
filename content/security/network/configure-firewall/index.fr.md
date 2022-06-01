@@ -31,8 +31,6 @@ Ne rien mettre dans *Hôtes* et *Ports* va activer la règle pour tous sauf si u
 
 {{< fig "images/admin-panel_add-rule.fr.png" "Interface d'administration : ajouter une règle" >}}
 
-Il est possible de donner un label à ses règles en utilisant ```# <label>```.
-
 {{% notice note %}}
 Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
 {{% /notice %}}

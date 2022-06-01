@@ -32,8 +32,6 @@ Not putting anything in *Hosts* and *Ports* will enable the rule for all unless 
 
 {{< fig "images/admin-panel_add-rule.en.png" "Administration interface: adding a rule" >}}
 
-It is possible to give a label to your rules by using ```# <label>```.
-
 {{% notice note %}}
 To specify all ports you can leave empty or enter the range `0:65535`.
 {{% /notice %}}
