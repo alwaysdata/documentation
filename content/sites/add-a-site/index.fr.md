@@ -14,7 +14,6 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 Si vous partez de zéro vous pouvez profiter de notre [marketplace]({{< ref "marketplace" >}}) en allant dans **Web > Sites > Installer une application**.
 {{% /notice %}}
 
-- Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
 - Adresses : les adresses pour joindre votre site (`*.exemple.org` pour les catch-all) ;
 
 L'ajout de toutes les adresses dans ce menu est un **impératif** pour qu'elles soient accessibles comme sites :

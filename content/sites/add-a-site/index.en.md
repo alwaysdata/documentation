@@ -13,7 +13,6 @@ Go to the **Web > Sites > Add a site** menu.
 If you are starting from scratch you can take advantage of our [application library]({{< ref "marketplace" >}}) by going to **Web > Sites > Install an application**.
 {{% /notice %}}
 
-- Name: used for display purposes in the alwaysdata administration interface, it is purely for information purposes,
 - Addresses: the addresses used to reach your site (`*.example.org` for catch-alls),
 
 Adding all the addresses in this menu is **mandatory** to access them as sites:
