@@ -65,7 +65,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Filtrage via scripts Sieve]({{< ref "e-mails/use-sieve-scripts" >}}) |✔️|✔️|✔️|✔️|
 || Listes de diffusion |✔️|✔️|✔️|✔️|
 || File d'attente SMTP |❌|✔️|✔️|✔️|
-|| Relais SMTP |❌|✔️|✔️|✔️|
+|| [Relais SMTP]({{< ref "e-mails/smtp-relay" >}}) |❌|✔️|✔️|✔️|
 | Accès distant | [FTP]({{< ref "remote-access/ftp" >}}) |✔️|✔️|✔️|✔️|
 || [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
 || [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|

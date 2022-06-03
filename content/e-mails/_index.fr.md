@@ -30,6 +30,7 @@ Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.a
 * [Liste blanche de réception]({{< ref "e-mails/whitelist" >}})
 - [Changer de prestataire]({{< relref "./transfer-in" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
+- [Relais SMTP]({{< ref "e-mails/smtp-relay" >}})
 * [Délivrabilité : bonnes pratiques]({{< relref "delivery" >}})
 * [Configurer SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc" >}})
 * [Vérifier l'envoi d'un email]({{< relref "check-email-sending" >}})
