@@ -34,11 +34,9 @@ Que vos boîtes email soient hébergées dans un Cloud Public ou un environnemen
 
 ## Emailing
 
-- Vérifiez que les bonnes pratiques sont suivies en répondant "oui" aux trois questions suivantes :
-    - Le destinataire a-t-il explicitement consenti à recevoir ces emails ?
-    - A-t-il été averti qu'il allait les recevoir ?
-    - Le contenu proposé a-t-il été annoncé ?
-- Facilitez la désinscription.
+Vérifiez que les bonnes pratiques sont suivies en répondant "oui" aux questions suivantes :
+- le destinataire a-t-il explicitement consenti à recevoir ces emails ?
+- un lien de désinscription est-il disponible, facilement identifiable et fonctionnel ?
 
 
 ## Système de notation

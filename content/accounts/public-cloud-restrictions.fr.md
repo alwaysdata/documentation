@@ -9,7 +9,13 @@ tags = ["plan gratuit", "cloud public", "suspension"]
 Voici une liste - non exhaustive - d'interdictions :
 
 - utiliser les serveurs SSH pour faire tourner des bots et démons ;
-- utiliser le compte pour phishing/spam/tout autre usage illicite.
+- utiliser le compte pour :
+	- faire du [phishing](https://fr.wikipedia.org/wiki/Hame%C3%A7onnage) ;
+	- envoyer du [spam](https://fr.wikipedia.org/wiki/Spam#Dans_l'Union_europ%C3%A9enne) ;
+		- tout message doit être envoyé avec le **consentement explicite** (_opt-in_) du destinataire.
+		- utiliser une liste achetée à un tiers est donc considéré comme du spam.
+		- [plusieurs questions à se poser avant de se lancer dans l'emailing]({{< ref "e-mails/delivery#emailing" >}})
+	- tout autre usage illicite.
 
 Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou résilier le profil.
 
