@@ -10,4 +10,4 @@ To easily manage your server accounts, you can install global SSH keys in the **
 
 {{< fig "images/admin-interface_global-ssh-keys.en.png" "Administration interface: global SSH keys" >}}
 
-Your public SSH key to copy in this form is given in the `$HOME/.ssh/id_rsa.pub` file on your computer. If you do not have one you can [generate it]({{< ref "remote-access/ssh/use-keys" >}}).
+Your public SSH key to copy in this form is given in a file of the `$HOME/.ssh` directory of your computer (for example `$HOME/.ssh/id_ed25519.pub`). If you do not have one you can [generate it]({{< ref "remote-access/ssh/use-keys" >}}).
