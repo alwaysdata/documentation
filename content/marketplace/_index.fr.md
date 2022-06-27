@@ -24,6 +24,7 @@ Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la mai
 - [DokuWiki]({{< ref "marketplace/dokuwiki" >}})
 - [Drupal]({{< ref "marketplace/drupal" >}})
 - [Gitea]({{< ref "marketplace/gitea" >}})
+- [Joomla]({{< ref "marketplace/joomla" >}})
 - [Magento]({{< ref "marketplace/magento" >}})
 - [Nextcloud]({{< ref "marketplace/nextcloud" >}})
 - [PrestaShop]({{< ref "marketplace/prestashop" >}})
