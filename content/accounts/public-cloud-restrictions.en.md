@@ -8,7 +8,13 @@ tags = ["free plan", "public cloud", "suspension"]
 Here is a - non-exhaustive - list of restrictions:
 
 - use SSH servers to run bots and daemons,
-- using the account for phishing/spam/any other illegal use.
+- using the account for:
+	- do [phishing](https://en.wikipedia.org/wiki/Phishing) ;
+	- send [spam](https://en.wikipedia.org/wiki/Email_spam#European_Union) ;
+		- any message must be sent with the **express consent** (_opt-in_) of the recipient,
+		- using a list purchased from a third party is therefore considered to be spam,
+		- [several questions to ask yourself before launching the emailing]({{< ref "e-mails/delivery#emailing" >}}),
+	- any other illegal use.
 
 If any of these restrictions are violated, we reserve the right to suspend and/or cancel the profile.
 

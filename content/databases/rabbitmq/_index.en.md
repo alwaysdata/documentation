@@ -17,3 +17,4 @@ The connection data depends on the relevant account. You can find the precise va
 ---
 
 - [RabbitMQ documentation](https://www.rabbitmq.com/documentation.html)
+- [Management plugin]({{< ref "databases/rabbitmq/management-plugin" >}}) (VPS, dedicated and Gold servers option)

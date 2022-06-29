@@ -32,11 +32,10 @@ Whether your e-mail boxes are hosted in the public Cloud or a dedicated environm
 
 ## E-mailing
 
-- Check that best practices are followed by answering "yes" to the following three questions:
-    - Did the addressee explicitly consent to receiving these e-mails?
-    - Were they informed that they would receive them?
-    - Was the proposed content announced?
-- Make unsubscribing easy.
+
+Check that best practices are being followed by answering “yes” to the following questions:
+- has the recipient expressly agreed to receive these emails?
+- is there an unsubscribe link that is available, works and is easily identifiable?
 
 ## Scoring system
 

@@ -38,7 +38,6 @@ Vérifiez que les bonnes pratiques sont suivies en répondant "oui" aux question
 - le destinataire a-t-il explicitement consenti à recevoir ces emails ?
 - un lien de désinscription est-il disponible, facilement identifiable et fonctionnel ?
 
-
 ## Système de notation
 
 Afin d'éviter les abus et optimiser la délivrabilité des emails envoyés par ses serveurs, alwaysdata a mis en place un système de notation qui se base sur différents critères comme l'analyse du contenu et la fréquence des envois.

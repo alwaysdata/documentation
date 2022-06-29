@@ -29,6 +29,7 @@ To use our mail servers set `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 * [Incoming whitelist]({{< ref "e-mails/whitelist" >}})
 - [Change hosting provider]({{< relref "./transfer-in" >}})
 - [Use external MX]({{< ref "domains/use-external-mx" >}})
+- [SMTP relay]({{< ref "e-mails/smtp-relay" >}})
 * [Deliverability: best practices]({{< relref "delivery">}})
 * [Configure SPF/DKIM/DMARC]({{< relref "set-up-spf-dkim-dmarc">}})
 * [Check email's sending]({{< relref "check-email-sending" >}})
