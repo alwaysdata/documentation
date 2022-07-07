@@ -34,7 +34,7 @@ Vous retrouverez sur cette [documentation](https://ma.ttias.be/php-session-locki
 ## Messages d'erreurs
 
 ### Fatal error: Allowed memory size of 268435456 bytes exhausted
-Vous atteignez la limite de 256 Mo, valeur par défaut de `memory_limit` en PHP. Vous pouvez augmenter cette valeur dans **Environnement > PHP** ou au niveau du site lui-même dans **Web > Sites > Détails** du site concerné.
+Vous atteignez la limite de 256 Mo, valeur par défaut de `memory_limit` en PHP. Vous pouvez augmenter cette valeur dans **Environnement > PHP** ou au niveau du site lui-même dans **Web > Sites > Modifier le [site] - ⚙️**.
 
 ## Utiliser différentes versions en SSH
 

@@ -5,7 +5,7 @@ weight = 6
 tags = ["dns", "domain"]
 +++
 
-1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records**,
+1.  Go to **Domains > Details of [example.org] - ⚙️ > DNS records**,
     {{< fig "images/admin-panel_dns-record-list.en.png" "Administration interface: list of DNS records" >}}
 
 2.  Choose **Add a DNS record**,

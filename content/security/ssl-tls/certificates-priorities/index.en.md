@@ -16,11 +16,11 @@ If you wish to send a certificate with a lower priority, you can attach it direc
 
 To do this, go to address configuration:
 
-From **Web > Sites > Modify** for the relevant site and **> Configure** opposite the address:
+From **Web > Sites > Modify the [site] - ⚙️ > Configure** opposite the address:
 
 {{< fig "images/admin-panel_site.en.png" "Administration interface: via sites">}}
 
-Or from **Domains > Details** for the relevant domain **> Subdomains**:
+Or from **Domains > Details of [domain] - ⚙️ > Subdomains**:
 
 {{< fig "images/admin-panel_subdomain-list.en.png""Administration interface: via domains" >}}
 

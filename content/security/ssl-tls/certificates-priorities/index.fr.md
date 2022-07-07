@@ -17,10 +17,10 @@ Si vous souhaitez renvoyer un certificat dont la priorité est plus basse, vous 
 
 Pour cela, rendez-vous dans la configuration de l'adresse :
 
-Via **Web > Sites > Modifier** le site concerné **> Configurer** en face de l'adresse :
+Via **Web > Sites > Modifier le [site] - ⚙️ > Configurer** en face de l'adresse :
 {{< fig "images/admin-panel_site.fr.png" "Interface d'administration : via sites" >}}
 
-Ou via **Domaines > Détails** du domaine concerné **> Sous-domaines** :
+Ou via **Domaines > Détails du [domaine] - ⚙️ > Sous-domaines** :
 {{< fig "images/admin-panel_subdomain-list.fr.png" "Interface d'administration : via domaines" >}}
 
 Cela vous mènera sur le menu suivant :

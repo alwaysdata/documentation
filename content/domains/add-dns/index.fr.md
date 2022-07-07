@@ -7,7 +7,7 @@ weight = 6
 tags = ["dns", "domaine"]
 +++
 
-1.   Allez dans **Domaines > Details de [exemple.org] - 🔎 > Enregistrements DNS** ;
+1.   Allez dans **Domaines > Details de [exemple.org] -  ⚙️ > Enregistrements DNS** ;
     {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
 2.  Choisissez **Ajouter un enregistrement DNS** ;

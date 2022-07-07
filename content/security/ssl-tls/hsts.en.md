@@ -29,7 +29,7 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 
 ## uWSGI
 
-Add in uWSGI additional settings (menu **Web > Site > Modify _website in question_ > Advanced Settings**):
+Add in uWSGI additional settings (menu **Web > Site > Modify the [site] - ⚙️ > Advanced Settings**):
 
 ```txt
 plugins = router_redirect
