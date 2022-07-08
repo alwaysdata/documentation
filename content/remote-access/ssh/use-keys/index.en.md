@@ -14,12 +14,13 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 
 1.  Generate the private key:
     - Start **PuTTYGen** (supplied by PuTTy),
-    - Generate a pair of **SSH-2 ED25519 2048 bit** keys,
+    - Generate a pair of **SSH-2 ED25519** keys,
     - Save the private key on your station,
 
 2.  Declare the key on the server by copying this key to the `$HOME/.ssh/authorized_keys` file in your alwaysdata account,
 
-3.  Connect in SSH mode: configure your **PuTTY** session in the *Auth* category then in *Private Key file for auth*, load your private key.
+3.  Configure your **PuTTY** session to connect in SSH:
+	- Go to **SSH > Auth** menu, to load the path to your private key in *Private Key file for authentication*.
 
 ## In Unix / OS X
 

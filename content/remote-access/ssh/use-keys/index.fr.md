@@ -15,10 +15,11 @@ Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible 
 
 1. Générer la clé privée :
     - Lancez **PuTTYGen** (fourni par PuTTy) ;
-    - Générez une paire de clés **SSH-2 ED25519 de 2048 bits** ;
+    - Générez une paire de clés **SSH-2 ED25519** ;
     - Sauvegardez la clé privée sur votre poste ;
 2. Déclarez la clé sur le serveur en copiant cette clé dans le fichier `$HOME/.ssh/authorized_keys` de votre compte alwaysdata ;
-3. Se connecter en SSH : configurez votre session **PuTTY**, dans la catégorie *Auth*, puis dans *Private Key file for auth*, chargez votre clé privée.
+3. Configurez votre session **PuTTY** pour se connecter en SSH :
+	- Rendez-vous dans le menu **SSH > Auth**, pour renseigner le chemin vers votre clé privé dans *Private Key file for authentication*.
 
 ## Sous Unix / OS X
 
