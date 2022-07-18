@@ -12,7 +12,7 @@ Cette page recence les prix des configurations Cloud Public. Pour plus d'informa
 * Garantie de Temps de Rétablissement (GTR) : 4h
 * Taux de disponibilité : 99.7 %
 
-|                   | Cloud 100 Mo[^1] | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go | Cloud 100 Go[^2] | Cloud 150 Go[^2] | Cloud 300 Go[^2] |
+|                   | Cloud 100 Mo[^1] | Cloud 10 Go  | Cloud 20 Go | Cloud 50 Go | Cloud 100 Go | Cloud 150 Go | Cloud 300 Go |
 | ----------------- | ---------------- | ------------ | ----------- | ----------- | ---------------- | ---------------- | ---------------- |
 | Sites et domaines | Illimités        | Illimités    | Illimités   | Illimités   | Illimités        | Illimités        | Illimités        |
 | Usage             | Trafic limité    | Trafic moyen | Fort trafic | Fort trafic | Fort trafic      | Fort trafic      | Fort trafic      |
@@ -26,4 +26,3 @@ Le quota disque inclut fichiers, mails et bases de données.
 {{% /notice %}}
 
 [^1]: Le Cloud 100 Mo gratuit est sujet à des [restrictions spéciales]({{< ref "accounts/public-cloud-restrictions#compte-gratuit" >}}) et ne peut notamment servir à des fins lucratives.
-[^2]: Comme pour les [configurations Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}), contactez notre [support](https://admin.alwaysdata.com/support/) pour prendre les offres Public Cloud supérieures à l'offre 50 Go.
