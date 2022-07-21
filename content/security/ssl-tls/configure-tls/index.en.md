@@ -17,11 +17,8 @@ Three presets for HTTP connections are available:
 The _Intermediate_ profile is activated by default on alwaysdata's servers.
 {{% /notice %}}
 
-To change the TLS profile at the account level you need to:
-
-- edit the profile in the **Web > Configuration > SSL** menu:
+To change the TLS profile at the account level you need to edit the profile in the **Web > Configuration > SSL** menu:
 {{< fig "images/account-tls-configuration.en.png" "Admin interface: configure TLS at the account level" >}}
-- subscribe to a [dedicated IP]({{< ref "advanced/dedicated-ip-addresses" >}}) in the **Advanced > IP Addresses** menu and associate your HTTP addresses to it by clicking on the *Configure* button next to the address in the site modification form (in **Web > Sites**).
 
 ## VPS and dedicated servers
 

@@ -18,10 +18,6 @@ Once the extra IP subscribed :
 Extras IPs are used for incoming requests only. Outgoing requests always go through the main IP of the HTTP server on which the account is located. This IP is accessible in **Advanced > Servers status** menu.
 {{% /notice %}}
 
-{{% notice info %}}
-Extra IP is mandatory if you want to modify the [TLS profile]({{< ref "security/ssl-tls/configure-tls" >}}) of an account/addresses.
-{{% /notice %}}
-
 ## SMTP
 
 The extra IP will be used to send emails.

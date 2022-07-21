@@ -18,11 +18,8 @@ Trois profils pour les connexions HTTP sont possibles :
 Le profil _Intermédiaire_ est activé par défaut sur les serveurs d'alwaysdata.
 {{% /notice %}}
 
-Pour changer de profil TLS au niveau du compte il faut
-
-- modifier le profil dans l'onglet **Web > Configuration > SSL** :
+Pour changer de profil TLS au niveau du compte il faut modifier le profil dans l'onglet **Web > Configuration > SSL** :
 {{< fig "images/account-tls-configuration.fr.png" "Interface d'administration : configurer TLS au niveau compte" >}}
-- souscrire à une [IP dédiée]({{< ref "advanced/dedicated-ip-addresses" >}}) dans l'onglet **Avancé > Adresses IP** et y associer vos adresses HTTP en cliquant sur le bouton *Configurer* à la droite de l'adresse dans le formulaire de modification du site (dans **Web > Sites**).
 
 ## Serveurs VPS et dédiés
 

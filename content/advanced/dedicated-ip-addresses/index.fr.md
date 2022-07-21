@@ -19,10 +19,6 @@ Une fois l'IP prise :
 Cette IP servira pour les requêtes entrantes mais les requêtes sortantes passeront toujours par l'IP du serveur HTTP sur lequel est le compte. Cette IP est donnée dans le menu **Avancé > Statut des serveurs**.
 {{% /notice %}}
 
-{{% notice info %}}
-Une IP supplémentaire est nécessaire si vous souhaitez modifier le [profil TLS]({{< ref "security/ssl-tls/configure-tls" >}}) d'un compte / adresses.
-{{% /notice %}}
-
 ## SMTP
 
 Cette IP va servir à l'envoi des mails.
