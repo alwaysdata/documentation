@@ -45,6 +45,10 @@ As our servers do not support [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name
 
 When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
 
+{{% notice note %}}
+These wildcard certificates are not valid for "naked" domains - example.org.
+{{% /notice %}}
+
 ---
 ## Links
 

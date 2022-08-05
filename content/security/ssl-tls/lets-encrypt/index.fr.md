@@ -45,6 +45,10 @@ Nos serveurs ne supportant pas [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Nam
 
 Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.exemple.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
 
+{{% notice note %}}
+Ces certificats wildcard ne sont pas valides pour les domaines "nus" - exemple.org.
+{{% /notice %}}
+
 ---
 
 ## Liens
