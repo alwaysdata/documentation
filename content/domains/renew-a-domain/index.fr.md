@@ -27,3 +27,9 @@ Par défaut le renouvellement automatique aura lieu 45 jours avant expiration.
 {{% notice warning %}}
 Le renouvellement automatique de domaine ne peut avoir lieu que si le **compte prépayé** a le solde nécessaire pour le payer OU qu'une **carte bancaire** ou un **compte bancaire** est renseigné en prélèvement automatique.
 {{% /notice %}}
+
+### Prélèvement automatique sur compte bancaire
+
+Les prélèvements automatiques sur compte bancaire ne sont pas pris en compte immédiatement.
+
+Pour éviter la suspension du domaine avant prise en compte du prélèvement, un délai de *15 jours* est donc mis en place entre la date d'activation du renouvellement automatique et la date d'expiration du domaine. Autrement dit, **si un domaine expire dans les 15 jours suivant le jour de l'activation du renouvellement automatique, il faudra le renouveler par vous-même**. Le système ne s'en occupera pas.
