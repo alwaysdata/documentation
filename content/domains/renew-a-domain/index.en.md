@@ -31,3 +31,9 @@ By default the automatic renewal will take place 45 days before expiration.
 {{% notice warning %}}
 Automatic renewal for a domain can only be completed if the **prepaid account** has the necessary credit to pay for this OR a **credit card** or **bank account** is provided for automatic debits.
 {{% /notice %}}
+
+### Bank account automatic debits
+
+Direct debits from a bank account are not immediately taken into account.
+
+To avoid suspension of the domain before the debit is taken into account, a period of *15 days* is therefore set up between the activation date of the automatic renewal and the expiration date of the domain. In other words, **if a domain expires within 15 days of the day that the auto-renewal is activated, then it will be necessary to renew it yourself**. The system will not do it itself.

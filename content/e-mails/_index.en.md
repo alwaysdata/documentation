@@ -8,6 +8,8 @@ tags = ["e-mail"]
 
 # E-mails
 
+We provide SMTP, IMAP and POP3 access, the addresses of which are indicated in the menu **Emails > Addresses**. If not from our servers directly (for example, from an HTTP application), it is *necessary* to authenticate with an email address to send emails.
+
 Our e-mail servers are conventional ones, we use [Exim](https://www.exim.org/) and [Dovecot](https://www.dovecot.org/).
 
 You can [create an e-mail address]({{< relref "create-an-e-mail-address" >}}) from the **E-mails > Addresses** tab in your alwaysdata administration interface and [view your e-mails]({{< relref "use-an-e-mail-address" >}}) via the e-mail client mail of your choice or our [webmail](https://webmail.alwaysdata.com) system.

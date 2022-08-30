@@ -28,6 +28,7 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 - [HTTP stack]({{< relref "http-stack" >}})
 - [Apache configuration]({{< relref "./configure-apache" >}})
 - [File .htaccess]({{< relref "./htaccess-file" >}})
+* [Restart a site]({{< relref "restart-a-site" >}})
 * [Change of hosting provider]({{< relref "./transfer-in" >}})
 * [Change a website address]({{< ref "sites/change-a-website-address" >}})
 * [Move a site]({{< relref "./move-a-site" >}})
