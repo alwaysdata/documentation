@@ -34,3 +34,6 @@ Our system distributes the available resources equally between all accounts on a
 
 - [HTTP stack]({{< ref "sites/http-stack" >}})
 - [Security Upgrades]({{< ref "security/security-upgrades" >}})
+
+---
+- [Bug Bounty]({{< ref "architecture/bug-bounty" >}})
