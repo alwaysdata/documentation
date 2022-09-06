@@ -30,6 +30,8 @@ RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^marketplace-script/?$ /fr/marketplace/créer-son-script-d-application/ [QSA,L,R=307]
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^log-http/?$ /fr/sites/formater-les-logs-http/ [QSA,L,R=307]
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^/?$ /fr/ [QSA,L,R=307]
 
 # Rewriting url for all languages (EN default)
 RewriteRule ^love/?$  /en/love/ [QSA,L,R=307]
