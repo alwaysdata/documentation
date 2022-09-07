@@ -25,6 +25,7 @@ Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires corresp
 
 ---
 
+- [Ajouter des enregistrements DNS avec CSV]({{< relref "create-dns-records-using-csv" >}})
 - [Ajouter un enregistrement SRV]({{< ref "domains/add-srv-record" >}})
 - [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})

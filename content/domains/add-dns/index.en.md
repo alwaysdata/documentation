@@ -24,6 +24,7 @@ A record with `@` as hostname for some providers is the empty subdomain. Here th
 
 ---
 
+- [Add several DNS records with CSV]({{< relref "create-dns-records-using-csv" >}})
 - [Add a SRV record]({{< ref "domains/add-srv-record" >}})
 - [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Use external MX]({{< ref "domains/use-external-mx" >}})

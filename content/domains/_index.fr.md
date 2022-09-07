@@ -45,6 +45,7 @@ Pour utiliser nos serveurs DNS, indiquez chez votre registrar `dns1.alwaysdata.c
 
 - [API - Enregistrement DNS](https://api.alwaysdata.com/v1/record/doc/)
 - [Ajouter un enregistrement DNS]({{< relref "add-dns" >}})
+- [Ajouter des enregistrements DNS avec CSV]({{< relref "create-dns-records-using-csv" >}})
 - [Utiliser des MX externes]({{< relref "use-external-mx" >}})
 - [Changer de serveurs DNS]({{< relref "change-of-dns-servers" >}})
 - [Ajouter un enregistrement SRV]({{< relref "add-srv-record" >}})

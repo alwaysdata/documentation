@@ -43,6 +43,7 @@ To use our DNS servers, set on your registrar administration panel `dns1.alwaysd
 
 - [API - DNS record](https://api.alwaysdata.com/v1/record/doc/)
 - [Add a DNS record]({{< relref "add-dns" >}})
+- [Add several DNS records with CSV]({{< relref "create-dns-records-using-csv" >}})
 - [Use external MX]({{< relref "use-external-mx" >}})
 - [Change of DNS servers]({{< relref "change-of-dns-servers" >}})
 - [Add a SRV record]({{< relref "add-srv-record" >}})
