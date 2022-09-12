@@ -67,8 +67,6 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | **Services**               |                                                                                                           |
 |                            | Hôte : services-[compte].alwaysdata.net                                                                   |
 |                            | Ports : entre 8300 et 8499                                                                                |
-| **Statistiques web**       |                                                                                                           |
-| Interface d'administration | [Matomo](https://analytics.alwaysdata.com)                                                                |
 
 {{% notice note %}}
 Le login par défaut correspond - à l'exception des mails pour lequel l'identifiant est l'adresse email - au **nom du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et donc non récupérables - mais modifiables dans les menus dédiés.
