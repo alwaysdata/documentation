@@ -68,7 +68,7 @@ A *deposit URL* may be provided to make maintenance easier. In this case, once t
 # site:
 #     type: php
 #     path: '{INSTALL_PATH_RELATIVE}/web'
-#     php_version: '8'
+#     php_version: '8.0'
 # database:
 #     type: mysql
 # requirements:

@@ -71,7 +71,7 @@ Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dan
 # site:
 #     type: php
 #     path: '{INSTALL_PATH_RELATIVE}/web'
-#     php_version: '8'
+#     php_version: '8.0'
 # database:
 #     type: mysql
 # requirements:
