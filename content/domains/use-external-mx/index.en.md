@@ -17,8 +17,11 @@ To use a message server belonging to another provider, change the [MX records](h
     This will automatically disable our MX records.
 
 {{% notice warning %}}
-Do not put the root into the **Hostname**.
-For example, by putting `example.org` in this box, you will create a record for *example.org.example.org*.
+Do not put the root into the **Hostname**. For example, by putting `example.org` in this box, you will create a record for *example.org.example.org*.
+{{% /notice %}}
+
+{{% notice note %}}
+A record with `@` as hostname for some providers is the empty subdomain. In our case, the **Hostname** box should be empty.
 {{% /notice %}}
 
 ## MX servers for various providers
@@ -50,5 +53,5 @@ To send an e-mail to `foobar@example.org` through alwaysdata's MX (while `exampl
 
 - create the [e-mail address]({{< ref "e-mails/create-an-e-mail-address" >}}) in the admin,
 - send an e-mail to:
-    - `foobar%example.org@mx.alwaysdata.com` if the account is located in the public Cloud,
-    - `foobar%example.org@server.alwaysdata.com` if the account is located in VPS/dedicated servers (`server` to replace by the name of the server).
+    - `foobar%example.org@mx.alwaysdata.com` if the account is located on the Public Cloud,
+    - `foobar%example.org@server.alwaysdata.com` if the account is located on a Private Cloud (`server` to replace by the name of the server).
