@@ -32,9 +32,11 @@ Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requ
 - **Administration**, **Admin** or **client space**: a private space that is accessible [online](https://admin.alwaysdata.com) comprising information relating to alwaysdata services and allowing management operations relating to these services.
 - **Profile**, **client** or **user**: alwaysdata administration interface user. This physical or corporate entity has validated the [alwaysdata contracts](https://www.alwaysdata.com/en/terms-and-legal/).
 - **Server**: a computer system where accounts are located. This may be a physical server or a virtual machine.
-- **Dedicated server**: a physical server where the storage space is reserved entirely for data belonging to a single user.
 - **Public Cloud** or **shared server**: a server where the storage space is shared between a number of users.
-- **VPS server**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) located on a host server shared only between a few users.
+- **Private Cloud**:
+	- **VPS**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) located on a host server shared only between a few users.
+	- **Dedicated**: a physical server where the storage space is reserved entirely for data belonging to a single user.
+	- **Gold**: dedicated server redunded in a different datacenter.
 
 ## Contributing to documentation
 

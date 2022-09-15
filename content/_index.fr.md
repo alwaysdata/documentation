@@ -32,10 +32,11 @@ Toute publication sur Internet comporte des [obligations légales]({{<ref "sites
 - **Interface d'administration**, **Admin** ou encore **espace client** : espace privatif accessible [en ligne](https://admin.alwaysdata.com) contenant les informations relatives aux services alwaysdata et permettant d'y effectuer les opérations de gestion de ces services.
 - **Profil**, **client** ou **utilisateur** : utilisateur de l'interface d'administration alwaysdata. Cette personne physique ou morale a validé les [contrats d'alwaysdata](https://www.alwaysdata.com/fr/mentions-legales/).
 - **Serveur** : dispositif informatique sur lequel est placé des comptes. Ce peut être un serveur physique ou une machine virtuelle.
-- **Serveur dédié** : serveur physique dont l'espace de stockage est réservé en intégralité aux données d'un seul utilisateur.
-- **Cloud public** ou **serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
-- **Serveur VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
-
+- **Cloud Public** ou **serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
+- **Cloud Privé** :
+	- **VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
+	- **Dédié** : serveur physique dont l'espace de stockage est réservé en intégralité aux données d'un seul utilisateur.
+	- **Gold** : serveur dédié redondé dans un autre datacenter.
 
 ## Contribuer à la documentation
 
