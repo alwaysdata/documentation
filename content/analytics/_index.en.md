@@ -12,6 +12,8 @@ From the raw HTTP logs (`$HOME/admin/logs/http`) we generate visit statistics in
 
 You can view the graph by site or for an entire account.
 
+A graph at the server level is available in the menu **HTTP > Analytics** for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
+
 ## Customizing statistics
 
 Our platform is entirely based on HTTP logs and provides a simple interface. Customized settings cannot be added.

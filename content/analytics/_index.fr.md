@@ -13,6 +13,8 @@ tags = ["http", "statistiques", "site"]
 
 Vous pouvez afficher le graphe par site ou pour l'ensemble d'un compte.
 
+Un graphe au niveau serveur est disponible dans le menu **HTTP > Analytics** pour le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+
 ## Personnalisation des statistiques
 
 Notre plateforme est exclusivement basée sur les logs HTTP et fournit une interface simple. Il n'est pas possible d'y ajouter des paramètres personnalisés.
