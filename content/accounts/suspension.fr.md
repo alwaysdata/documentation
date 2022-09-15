@@ -12,7 +12,7 @@ Il peut arriver que votre profil soit suspendu (mention **Account suspended** su
 Dans le cas d'un **compte gratuit**, si vous ne vous êtes pas connecté à votre [interface d'administration](https://admin.alwaysdata.com) dans les _X derniers jours_[^1], alors votre profil sera automatiquement suspendu. Le simple fait de se connecter à l'interface d'administration lèvera cette suspension et votre site ainsi que vos services seront aussitôt disponibles.
 
 ## Contenu illicite
-En vous inscrivant sur notre site et donc en créant un profil, vous vous engagez à respecter strictement la législation française en terme de contenu numérique. Parmi ces activités, **toute utilisation illégale avérée aura pour conséquence la suspension immédiate de votre compte**. Quelques exemples :
+En vous inscrivant sur notre site et donc en créant un profil, vous vous engagez à respecter strictement la législation française en termes de contenu numérique. Parmi ces activités, **toute utilisation illégale avérée aura pour conséquence la suspension immédiate de votre compte**. Quelques exemples :
 
 - envoi de spam ;
 - hébergement de sites d'hameçonnage (appelé phishing) ;
