@@ -8,28 +8,34 @@ tags = ["dns", "domaine"]
 +++
 
 1.   Allez dans **Domaines > Details de [exemple.org] -  ⚙️ > Enregistrements DNS** ;
-    {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
+    {{< fig "images/admin-panel_dns-record-list.fr.png" "" >}}
 
 2.  Choisissez **Ajouter un enregistrement DNS** ;
 
 3.  Renseignez le formulaire.
-    {{< fig "images/admin_panel_add-record.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
+    {{< fig "images/admin_panel_add-record.fr.png" "" >}}
 
 {{% notice warning %}}
 Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez un enregistrement pour `www.exemple.org.exemple.org`.
 {{% /notice %}}
 
 {{% notice note %}}
-Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. Ici la case **Nom d'hôte** devra être vide.
+Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. In our case, la case **Nom d'hôte** devra être vide.
 {{% /notice %}}
 
----
-
-- [Ajouter des enregistrements DNS avec CSV]({{< relref "create-dns-records-using-csv" >}})
 - [Ajouter un enregistrement SRV]({{< ref "domains/add-srv-record" >}})
 - [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Utiliser des MX externes]({{< ref "domains/use-external-mx" >}})
 
+## Importer un fichier de zone
+
+Un fichier de zone DNS est un fichier texte qui contient les détails de tous les enregistrements DNS contenus. Il suit un format standard, ce qui permet le transfert simple des enregistrements DNS d'un prestataire à un autre.
+
+{{< fig "images/menu.fr.png" "" >}}
+
+Cela supprimera les enregistrements DNS précédemment ajoutés.
+
 ## Ressources
 
 - [Liste des types d'enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS)
+- [Ajouter des enregistrements DNS avec CSV]({{< relref "create-dns-records-using-csv" >}})
