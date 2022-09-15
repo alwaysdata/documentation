@@ -14,8 +14,8 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 - [Frequent issues]({{< ref "remote-access/ssh/troubleshooting">}})
 
 * [Use keys]({{< relref "use-keys" >}})
-* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) (VPS, dedicated and Gold server option)
-* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (VPS, dedicated and Gold server option)
+* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) (only for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}))
+* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (only for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}))
 
 {{% notice info %}}
 All of our offers are managed ones, it is not possible to gain `root` access.
@@ -52,7 +52,7 @@ Useful when located after a firewall, our [web interface](https://github.com/she
 Be aware however that this solution is hardly reliable and slow and does not replace a SSH client.
 
 {{% notice info %}}
-This interface is not compatible with VPS and dedicated hosting.
+This interface is not compatible with the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
 ## Tips

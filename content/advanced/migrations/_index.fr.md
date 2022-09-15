@@ -18,7 +18,7 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 
 - [Effectuer une migration]({{< ref "advanced/migrations/perform-migration" >}})
-- [Migrations VPS/dédié]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
+- [Migrations Cloud Privé]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
 
 
 ## Migrations actuellement proposées

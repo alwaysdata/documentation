@@ -14,7 +14,7 @@ WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.
 - [Créer un utilisateur WebDAV]({{< relref "create-a-webdav-user" >}})
 
 {{% notice info %}}
-WebDAV n'est pas activé par défaut sur les serveurs VPS et dédiés (les ports par défaut sont utilisés par les sites). Contactez le [support](https://admin.alwaysdata.com/support/add/) si vous en avez besoin.
+WebDAV n'est pas activé par défaut sur le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) (les ports par défaut sont utilisés par les sites). Contactez le [support](https://admin.alwaysdata.com/support/add/) si vous en avez besoin.
 {{% /notice %}}
 
 ## Se connecter avec WebDAV

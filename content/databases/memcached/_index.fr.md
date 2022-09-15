@@ -16,7 +16,7 @@ tags = ["base de données", "memcached"]
 Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Memcached n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref "accounts/billing/private-cloud-prices" >}}).
+Cette configuration est disponible en environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}). Sur le [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}}) vous pouvez le faire tourner en suivant ce [guide]({{< ref "guides/memcached" >}}).
 {{% /notice %}}
 
 ---
@@ -28,4 +28,3 @@ Memcached n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref 
 Retrouvez nos guides :
 
 - [Configurer une application PHP avec Memcached]({{< ref "databases/memcached/php" >}})
-- [Utiliser Memcached sur les environnements Cloud public]({{< ref "guides/memcached" >}})

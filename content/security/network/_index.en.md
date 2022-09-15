@@ -7,7 +7,7 @@ tags = ["infrastructure", "security"]
 
 ## Firewall
 
-Users who own VPS and dedicated servers can [configure their firewall]({{< relref "configure-firewall" >}}) directly from their administration interface, via the server's **Firewall** menu.
+Users who own [Private Clouds]({{< ref "accounts/billing/private-cloud-prices" >}}) can [configure their firewall]({{< relref "configure-firewall" >}}) directly from their administration interface, via the server's **Firewall** menu.
 
 ### Incoming firewall
 
@@ -29,4 +29,4 @@ A [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack) attack aims to 
 
 All of the alwaysdata servers are configured with [OSI model](https://en.wikipedia.org/wiki/OSI_model) level 3/4 anti-DDoS protection. It is up to you to manage the application side.
 
-VPS and dedicated server users can contact [support](https://admin.alwaysdata.com/support/add/) to get help with installation or for support.
+Private Cloud users can contact [support](https://admin.alwaysdata.com/support/add/) to get help with installation or for support.

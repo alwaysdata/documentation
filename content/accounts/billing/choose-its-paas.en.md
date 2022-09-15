@@ -78,15 +78,15 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
 
 
-Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
+Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the Public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
 {{% notice note %}}
 A well _optimized_ application will have the same performances regardless its environment type. However _less_ users on a server bring more **stability** and **comfort** (no more performance variations due to other users).
 {{% /notice %}}
 
-[^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and VPS and dedicated users can request support for services where this is not the case.
+[^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users can request support for services where this is not the case.
 [^2]: Our infrastructure is based on the Debian operating system.
-[^3]: The Public cloud free plan offers 100Mb of disk space for non-commercial use.
-[^4]: Databases **managed** by alwaysdata. It is also possible to install them via the [services]({{< ref "services" >}}). The management of these services will then not be performed by alwaysdata. In the Private cloud, the SGBD are installed upon request and can be added after installation of the server.
+[^3]: The Public Cloud free plan offers 100Mb of disk space for non-commercial use.
+[^4]: Databases **managed** by alwaysdata. It is also possible to install them via the [services]({{< ref "services" >}}). The management of these services will then not be performed by alwaysdata. In the Private Cloud, the SGBD are installed upon request and can be added after installation of the server.
 [^5]: Daily [backups]({{< ref "backups" >}}), retained for 30 days and directly available in the account.
 [^6]: [Custom programs]({{< ref "services" >}}) that operate 24/7.

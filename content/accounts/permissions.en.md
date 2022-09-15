@@ -12,7 +12,7 @@ Because hosting your data often involves different players, our administration l
 - *Account management*: delegates account opening to your associates,
 - *[Billing]({{< ref "accounts/billing" >}})*: lets accounting or administrative departments receive an alert when your account balance is negative or when a ticket relating to billing is opened by us,
 - *Technical at account level*: lets technical teams manage the purely technical aspects of your hosting (sites, e-mails, databases) without worrying about its management or billing,
-- *Technical at server level*: available on dedicated and VPS servers, your network administrator can manage the rules for the firewalls, e-mail send queues and many other aspects.
+- *Technical at server level*: available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}), your network administrator can manage the rules for the firewalls, e-mail send queues and many other aspects.
 
 ## Technical permissions
 

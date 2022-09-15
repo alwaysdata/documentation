@@ -42,7 +42,7 @@ Vérifiez que les bonnes pratiques sont suivies en répondant "oui" aux question
 
 Afin d'éviter les abus et optimiser la délivrabilité des emails envoyés par ses serveurs, alwaysdata a mis en place un système de notation qui se base sur différents critères comme l'analyse du contenu et la fréquence des envois.
 
-Plus la note est basse mieux l'email sera noté et l'envoi accepté. Sur le Cloud public, tout email ayant une note supérieure à _3_ sera bloqué. En serveurs VPS et dédiés, la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur. Il n'est pas possible de le désactiver.
+Plus la note est basse mieux l'email sera noté et l'envoi accepté. Sur le Cloud Public, tout email ayant une note supérieure à _3_ sera bloqué. En [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}), la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur. Il n'est pas possible de le désactiver.
 
 {{% notice note %}}
 Cette note n'est utilisée que pour l'envoi de nos serveurs. Elle n'a aucune incidence sur la gestion du message au niveau du serveur destinataire.

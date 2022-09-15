@@ -6,7 +6,7 @@ hidden = true
 tags = ["base de données", "rabbitmq"]
 +++
 
-Le [plugin de management](https://www.rabbitmq.com/management.html) de RabbitMQ peut être utilisé sur le [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}). Seuls les [accès management](https://www.rabbitmq.com/management.html#permissions) seront disponibles.
+Le [plugin de management](https://www.rabbitmq.com/management.html) de RabbitMQ peut être utilisé sur le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}). Seuls les [accès management](https://www.rabbitmq.com/management.html#permissions) seront disponibles.
 
 ## Mise en place
 

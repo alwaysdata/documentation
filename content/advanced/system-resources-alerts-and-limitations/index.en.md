@@ -6,7 +6,7 @@ tags = ["dedicated server", "gold server", "technical environment", "vps"]
 +++
 
 {{% notice info %}}
-Fonctionnality only available on dedicated and VPS servers.
+Fonctionnality only available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) environments.
 {{% /notice %}}
 
 The **Resources** menu allows to configure sysadmin resources, as the disk space, CPU or memory:

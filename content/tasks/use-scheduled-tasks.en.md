@@ -13,10 +13,10 @@ Via the **Advanced > Scheduled tasks** menu in your administration interface, en
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
 - A log is created automatically and is available from the `$HOME/admin/logs/jobs/` directory. It gives you the start and end of the task.
 	- An extract of these logs is presented in the administration’s interface (Logs - 📄).
-- For accounts on the public Cloud, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
+- For accounts on the Public Cloud, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
 {{% notice note %}}
-Even if it is not advisable, users of dedicated and VPS servers have also access to the `crontab -e` command. The two systems are separate.
+Even if it is not advisable, users of the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}})) have also access to the `crontab -e` command. The two systems are separate.
 {{% /notice %}}
 
 ## Examples

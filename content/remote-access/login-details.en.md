@@ -23,7 +23,7 @@ it was created.
 |                          | Secondary: dns2.alwaysdata.com                                                                     |
 | MX                       | Primary: mx1.alwaysdata.com (TTL: 10)                                                              |
 |                          | Secondary: mx2.alwaysdata.com (TTL: 20)                                                            |
-|                          | if VPS/dedicated server: [server].alwaysdata.net (TTL: 5)                                          |
+|                          | if [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}): [server].alwaysdata.net (TTL: 5)                                          |
 | **Databases**            |                                                                                                    |
 | MySQL                    | Host: mysql-[account].alwaysdata.net                                                               |
 |                          | Port: 3306                                                                                         |

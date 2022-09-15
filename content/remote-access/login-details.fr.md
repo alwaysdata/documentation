@@ -25,7 +25,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Secondaire : dns2.alwaysdata.com                                                                          |
 | MX                         | Primaire : mx1.alwaysdata.com (TTL : 10)                                                                  |
 |                            | Secondaire : mx2.alwaysdata.com (TTL : 20)                                                                |
-|                            | si serveur VPS/dédié : [serveur].alwaysdata.net (TTL : 5)                                                 |
+|                            | si [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) : [serveur].alwaysdata.net (TTL : 5)                                                 |
 | **Bases de données**       |                                                                                                           |
 | MySQL                      | Hôte : mysql-[compte].alwaysdata.net                                                                      |
 |                            | Port : 3306                                                                                               |

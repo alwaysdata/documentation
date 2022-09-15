@@ -53,7 +53,7 @@ Plusieurs possibilités :
 
 ## Autres informations
 
-Le nombre de connexions simultanées maximum par utilisateur est de _40_. Il est possible à la demande de le modifier en serveurs VPS et dédiés.
+Le nombre de connexions simultanées maximum par utilisateur est de _40_. Il est possible à la demande de le modifier en Cloud Privé.
 
 MySQL bloque la taille du nom des utilisateurs ; si le nom de votre compte est trop important un _ID_ lui sera alloué. Vous le retrouverez dans **Bases de données > MySQL > Utilisateurs**.
 
@@ -63,10 +63,10 @@ Pour connaître la configuration MariaDB, utilisez la requête SQL `show variabl
 
 Les events MySQL ne sont pas supportés par nos serveurs.
 
-Sur le Cloud public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
+Sur le Cloud Public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
-MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs VPS et dédiés peuvent demander à utiliser MySQL.
+MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs de [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent demander à utiliser MySQL.
 {{% /notice %}}
 
 ---

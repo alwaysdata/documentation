@@ -82,4 +82,4 @@ L'information importante est : `Requests per second:    19.82 [#/sec] (mean)`.
     - [Loader.io](https://loader.io/)
     - [K6](https://k6.io/)
 
-[^1]: Ces deux logiciels sont disponibles sur les environnements VPS et dédiés.
+[^1]: Ces deux logiciels sont disponibles sur les environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).

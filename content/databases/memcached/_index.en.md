@@ -16,7 +16,7 @@ tags = ["databases", "memcached"]
 Memcached only runs in local mode with isolated permissions (separate user).
 
 {{% notice info %}}
-Memcached is only available on [VPS, dedicated and Gold]({{< ref "accounts/billing/private-cloud-prices" >}}) environments.
+Memcached is only available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) environments. On the [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) you can run it by following this [guide]({{< ref "guides/memcached" >}}).
 {{% /notice %}}
 
 ---
@@ -28,4 +28,3 @@ Memcached is only available on [VPS, dedicated and Gold]({{< ref "accounts/billi
 Find our guides:
 
 - [Configuring a PHP application with Memcached]({{< ref "databases/memcached/php" >}})
-- [Using Memcached in Public cloud environments]({{< ref "guides/memcached" >}})

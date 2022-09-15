@@ -5,11 +5,11 @@ hidden = true
 tags = ["billing"]
 +++
 
-## Signing up for a VPS or dedicated plan
+## Signing up for a [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) plan
 
 To sign up to these offers, contact us by [ticket](https://admin.alwaysdata.com/support/add/), [e-mail](https://www.alwaysdata.com/en/) or [phone](tel:+33184162340) and we will guide through the various steps.
 
-There are no installation charges but a minimum three month commitment is required when purchasing a dedicated server. If the purchaser does not wish to make this commitment, the server price will be increased by 20% during the first three months.
+There are no installation charges but a minimum three month commitment is required when purchasing a Dedicated/Gold server. If the purchaser does not wish to make this commitment, the server price will be increased by 20% during the first three months.
 
 ## Grouping invoices
 

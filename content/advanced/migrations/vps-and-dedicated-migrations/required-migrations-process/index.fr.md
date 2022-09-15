@@ -1,6 +1,6 @@
 +++
 url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/déroulement-migrations-obligatoires"
-title = "Serveurs VPS/Dédiés: Déroulement des migrations obligatoires"
+title = "Cloud Privé : Déroulement des migrations obligatoires"
 layout = "man"
 hidden = true
 tags = ["migration", "serveur dédié", "serveur gold", "serveur vps"]

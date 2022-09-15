@@ -83,4 +83,4 @@ The important information is: `Requests per second:    19.82 [#/sec] (mean)`.
     - [K6](https://k6.io/)
   
 
-[^1]: These two applications are available on VPS and dedicated environments.
+[^1]: These two applications are available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) environments.

@@ -6,10 +6,10 @@ hidden = true
 
 [FFmpeg](https://www.ffmpeg.org/) provides tools for processing audio or video flows.
 
-As this library requires major processing resources it is not available by default on the public Cloud.
+As this library requires major processing resources it is not available by default on the Public Cloud.
 
 {{% notice info %}}
-If you own a VPS or dedicated server, contact our [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
+If you own a [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}), contact our [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
 {{% /notice %}}
 
 In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:

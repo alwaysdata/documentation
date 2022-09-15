@@ -21,7 +21,7 @@ Le profil _Intermédiaire_ est activé par défaut sur les serveurs d'alwaysdata
 Pour changer de profil TLS au niveau du compte il faut modifier le profil dans l'onglet **Web > Configuration > SSL** :
 {{< fig "images/account-tls-configuration.fr.png" "Interface d'administration : configurer TLS au niveau compte" >}}
 
-## Serveurs VPS et dédiés
+## Cloud Privé
 
-Les propriétaires de serveurs VPS et dédiés peuvent configurer le profil TLS HTTP au niveau du _serveur_ dans l'onglet **SSL > Configuration** :
+Les propriétaires de [Cloud Privés]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent configurer le profil TLS HTTP au niveau du _serveur_ dans l'onglet **SSL > Configuration** :
 {{< fig "images/server-tls-configuration.fr.png" "Interface d'administration : configurer TLS au niveau serveur" >}}

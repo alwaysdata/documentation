@@ -10,7 +10,7 @@ Tout compte contient un répertoire `$HOME/admin` placé à sa racine et accessi
 
 Vous retrouverez dedans :
 
-- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (en Cloud public) ou un lien symbolique (en serveurs VPS et dédiés) des [emails]({{< ref "e-mails" >}}) ;
+- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (Cloud Public) ou un lien symbolique (Cloud Privé) des [emails]({{< ref "e-mails" >}}) ;
 - _config_ ;
 - _logs_ ;
 - _tmp_ : stocke les fichiers temporaires de vos applications (remplaçant /tmp) ;
@@ -38,7 +38,7 @@ Il recueille différents types de logs :
 Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata.
 
 {{% notice info %}}
-Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour les serveurs dédiés et VPS, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
+Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour le Cloud Privé, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
 *Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.*
 {{% /notice %}}
 

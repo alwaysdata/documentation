@@ -14,10 +14,10 @@ Via le menu **Avancé > Tâches planifiées** de votre interface d'administratio
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
-- Pour les comptes étant sur le Cloud public, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
+- Pour les comptes étant sur le Cloud Public, la consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
 {{% notice note %}}
-Même si c'est contre-indiqué, les utilisateurs de serveurs dédiés et VPS ont aussi accès à la commande `crontab -e`. Les deux systèmes sont distincts.
+Même si c'est contre-indiqué, les utilisateurs du [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) ont aussi accès à la commande `crontab -e`. Les deux systèmes sont distincts.
 {{% /notice %}}
 
 ## Exemples

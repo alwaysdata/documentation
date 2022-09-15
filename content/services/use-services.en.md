@@ -19,7 +19,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
   - Services are executed on a distinct servers than SSH and HTTP servers.
   - Their resources use must remain fair.
   - The services will not be available on IPv4, only on IPv6.
-* For Private clouds users (*VPS* and *dedicated* servers):
+* For [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users:
 	- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}

@@ -7,10 +7,10 @@ hidden = true
 
 [FFmpeg](https://www.ffmpeg.org/) fournit des outils destinés au traitement de flux audio ou vidéo.
 
-Cette bibliothèque étant source de traitements lourds elle n'est pas disponible par défaut sur le Cloud public.
+Cette bibliothèque étant source de traitements lourds elle n'est pas disponible par défaut sur le Cloud Public.
 
 {{% notice info %}}
-Si vous êtes propriétaire d'un serveur VPS ou dédié, contactez notre [support](https://admin.alwaysdata.com/support/add/). Il l'installera globalement sur le serveur.
+Si vous êtes propriétaire d'un [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}), contactez notre [support](https://admin.alwaysdata.com/support/add/). Il l'installera globalement sur le serveur.
 {{% /notice %}}
 
 Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :

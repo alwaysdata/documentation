@@ -1,6 +1,6 @@
 +++
 url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/"
-title = "Comment effectuer une migration en serveur VPS/dédié"
+title = "Comment effectuer une migration en Cloud Privé"
 layout = "howto"
 hidden = true
 tags = ["migration", "serveur dédié", "serveur vps"]
@@ -8,7 +8,7 @@ tags = ["migration", "serveur dédié", "serveur vps"]
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.
 
-Sur le Cloud Public, lors d'une migration, les comptes sont migrés vers un nouveau serveur faisant tourner la nouvelle version. Lorsque vous avez un serveur dédié ou VPS, ce n'est pas possible : vous n'avez qu'un seul serveur.
+Sur le Cloud Public, lors d'une migration, les comptes sont migrés vers un nouveau serveur faisant tourner la nouvelle version. Lorsque vous avez un Cloud Privé, ce n'est pas possible : vous n'avez qu'un seul serveur.
 
 ##  Migrations obligatoires
 

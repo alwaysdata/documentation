@@ -5,7 +5,7 @@ hidden = true
 tags = ["dedicated server", "monitoring"]
 +++
 
-Opening an urgent ticket, reserved for customers with a dedicated server will immediately trigger taking charge by an engineer 24/7.
+Opening an urgent ticket, reserved for customers with a Dedicated/Gold server will immediately trigger taking charge by an engineer 24/7.
 
 If the ticket covers a problem covered by our *service guarantee*, we will work to resolve it as a matter of priority. This does not trigger any extra charge for our customer.
 

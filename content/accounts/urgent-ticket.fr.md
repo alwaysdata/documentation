@@ -6,7 +6,7 @@ hidden = true
 tags = ["serveur dédié", "monitoring"]
 +++
 
-L'ouverture d'un ticket urgent, réservée aux utilisateurs possesseurs d'un serveur dédié, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
+L'ouverture d'un ticket urgent, réservée aux utilisateurs possesseurs d'un serveur Dédié/Gold, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).
 
 Si le ticket concerne un problème couvert par notre *garantie de service*, nous nous chargeons de le résoudre en priorité. Cela n'engendre aucun surcoût pour notre client.
 

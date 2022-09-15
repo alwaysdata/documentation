@@ -8,7 +8,7 @@ tags = ["interface d'administration", "sécurité"]
 
 Depuis toujours, nous offrons à nos utilisateurs la possibilité d'être hébergé gratuitement, afin de répondre par exemple à des besoins très peu gourmands, ou tout simplement pour tester notre plateforme avant de s'engager dans un abonnement. C'est une offre que nous ne regrettons pas, mais qui a quelques inconvénients assez évidents venant principalement d'abus d'utilisateurs mal intentionnés.
 
-Le mode restreint que nous avons mis en place (et espérons améliorer au fur et à mesure) doit permettre de mieux isoler les utilisateurs légitimes (ou de confiance) et donc d'améliorer les performances de leurs services hébergés, tout en limitant encore plus les désagréments qui pourraient être causés par des voisins encombrants (en Cloud public, des voisins, il y en a beaucoup).
+Le mode restreint que nous avons mis en place (et espérons améliorer au fur et à mesure) doit permettre de mieux isoler les utilisateurs légitimes (ou de confiance) et donc d'améliorer les performances de leurs services hébergés, tout en limitant encore plus les désagréments qui pourraient être causés par des voisins encombrants (en Cloud Public, des voisins, il y en a beaucoup).
 
 ## Lever le mode restreint
 

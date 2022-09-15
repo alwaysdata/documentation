@@ -11,7 +11,7 @@ tags = ["cache", "http", "memcached", "site"]
 Voici un guide d'installation sur le Cloud Public.
 
 {{% notice info %}}
-*Memcached* peut être [installé au niveau serveur]({{< ref "databases/memcached">}}) pour les utilisateurs de Clouds privés.
+*Memcached* peut être [installé au niveau serveur]({{< ref "databases/memcached">}}) pour les utilisateurs du Cloud Privé.
 {{% /notice %}}
 
 Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :

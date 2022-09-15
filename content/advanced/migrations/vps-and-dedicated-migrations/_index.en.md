@@ -1,5 +1,5 @@
 +++
-title = "How to Migrate to a VPS/Dedicated Server"
+title = "How to Migrate on Private Cloud"
 layout = "howto"
 hidden = true
 tags = ["migration", "dedicated server", "gold server", "vps"]
@@ -7,7 +7,7 @@ tags = ["migration", "dedicated server", "gold server", "vps"]
 
 Most migrations imply a complete change on the server. For example, migration to a new version of our software infrastructure will call for the complete reinstallation of the server.
 
-In the Public Cloud, during a migration, the accounts are migrated to a new server that runs the new version. When you have a dedicated or VPS server, this is not possible: you only have one server.
+In the Public Cloud, during a migration, the accounts are migrated to a new server that runs the new version. When you use the Private Cloud, this is not possible: you only have one server.
 
 ## Required migrations
 

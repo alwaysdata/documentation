@@ -7,7 +7,7 @@ tags = ["environnement technique", "serveur dédié", "serveur gold", "serveur v
 +++
 
 {{% notice info %}}
-Fonctionnalité disponible uniquement sur les serveurs VPS et dédiés.
+Fonctionnalité disponible uniquement sur les environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
 Le menu **Ressources** permet de configurer ses ressources système, comme  l'espace disque, le CPU ou la mémoire :

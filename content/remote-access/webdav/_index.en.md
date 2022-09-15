@@ -13,7 +13,7 @@ WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.we
 - [Create a WebDAV user]({{< relref "create-a-webdav-user" >}})
 
 {{% notice info %}}
-WebDAV is not enabled by default on VPS and dedicated servers (the default ports are used by the sites). Contact [support](https://admin.alwaysdata.com/support/add/) if you need it.
+WebDAV is not enabled by default on the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) (the default ports are used by the sites). Contact [support](https://admin.alwaysdata.com/support/add/) if you need it.
 {{% /notice %}}
 
 ## Connecting with WebDAV

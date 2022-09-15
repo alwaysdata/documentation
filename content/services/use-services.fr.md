@@ -16,11 +16,11 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 - S'il veut écouter sur un port il doit être attaché en _IPv6_ sur `::` et écouter un port entre `8300` et `8499` ;
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/services/`. Il vous donne le démarrage et l'arrêt du service.
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
-* Pour les utilisateurs du Cloud public :
+* Pour les utilisateurs du Cloud Public :
 	- les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
 	- la consommation doit rester raisonnable ;
 	- les services ne seront pas joignables en IPv4, uniquement en IPv6.
-* Pour les utilisateurs de Clouds privés (serveurs *VPS* et *dédiés*) :
+* Pour les utilisateurs de [Cloud Privés]({{< ref "accounts/billing/private-cloud-prices" >}}) :
 	- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu]({{< ref "security/network/configure-firewall" >}}).
 
 {{% notice note %}}

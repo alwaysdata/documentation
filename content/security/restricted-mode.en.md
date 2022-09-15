@@ -7,7 +7,7 @@ tags = ["administration interface", "security"]
 
 We have always offered our users the option of free hosting to meet the needs, for example of requirements that take up few resources or simply for testing our platform before committing to a subscription. This is an offer that we do not regret but that has a few obvious drawbacks due mainly to abuse by users with bad intentions.
 
-The restricted mode that we have implemented (and that we hope to improve as we go along) should allow us to better isolate legitimate (or trusted) users and therefore improve the performance of their hosted services, while further limiting any disruption that may be caused by troublesome neighbors (and in public Cloud, there are plenty of neighbors).
+The restricted mode that we have implemented (and that we hope to improve as we go along) should allow us to better isolate legitimate (or trusted) users and therefore improve the performance of their hosted services, while further limiting any disruption that may be caused by troublesome neighbors (and in Public Cloud, there are plenty of neighbors).
 
 ## Lifting the restricted mode
 

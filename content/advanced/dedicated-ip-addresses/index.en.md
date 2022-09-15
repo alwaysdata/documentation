@@ -30,5 +30,5 @@ Once subscribed, you will be able to indicate which emails should go through the
 The lower the score, the better the e-mail will be rated.
 {{% /notice %}}
 
-[^1]: Available for all plans, extras IP differ from [Private cloud offers]({{< ref "accounts/billing/choose-its-paas" >}}).
+[^1]: Available for all plans, extras IP differ from [Private Cloud offers]({{< ref "accounts/billing/choose-its-paas" >}}).
 [^2]: For a annual subscription, contact the [support team](https://admin.alwaysdata.com/support/add).

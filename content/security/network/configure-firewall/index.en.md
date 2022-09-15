@@ -1,5 +1,5 @@
 +++
-title = "Configuring the Firewall on Dedicated and VPS Servers"
+title = "Configuring the Firewall on Private Cloud environments"
 layout = "faq"
 hidden = true
 tags = ["security", "dedicated server", "gold server", "vps"]

@@ -9,7 +9,7 @@ Every account have a `$HOME/admin` directory, accessible in [FTP]({{< ref "remot
 
 It contains:
 
-- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (public Cloud) or symbolic links (VPS & dedicated servers) to the account [e-mailboxes]({{< ref "e-mails" >}}),
+- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes]({{< ref "e-mails" >}}),
 - _config_,
 - _logs_,
 - _tmp_: temporary storage for your apps (we *strongly* recommend using this instead of `/tmp`),
@@ -35,7 +35,7 @@ It also gathers different types of logs:
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
 
 {{% notice info %}}
-A **retention period** of logs can be set up for each account via the **Advanced > Logs** menu. For dedicated and VPS servers it is possible to do it at the server level in its **HTTP** menu.
+A **retention period** of logs can be set up for each account via the **Advanced > Logs** menu. For Private Cloud it is possible to do it at the server level in its **HTTP** menu.
 *All logs (http, sites, jobs...) will be deleted once the desired period has passed.*
 {{% /notice %}}
 

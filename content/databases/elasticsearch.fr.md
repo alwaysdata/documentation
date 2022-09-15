@@ -16,7 +16,7 @@ tags = ["base de données", "elasticsearch"]
 Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Elasticsearch n'est disponible qu'en environnements [VPS, dédiés et Gold]({{< ref "accounts/billing/private-cloud-prices" >}}). Il est par ailleurs consommateur en RAM, alwaysdata ne le suggère donc qu'à partir des plans VPS B.
+Elasticsearch n'est disponible qu'en environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}). Il est par ailleurs consommateur en RAM, alwaysdata ne le suggère donc qu'à partir des plans VPS B.
 {{% /notice %}}
 
 

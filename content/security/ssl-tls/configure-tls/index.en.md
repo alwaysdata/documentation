@@ -20,8 +20,8 @@ The _Intermediate_ profile is activated by default on alwaysdata's servers.
 To change the TLS profile at the account level you need to edit the profile in the **Web > Configuration > SSL** menu:
 {{< fig "images/account-tls-configuration.en.png" "Admin interface: configure TLS at the account level" >}}
 
-## VPS and dedicated servers
+## Private Cloud
 
-Owners of VPS and dedicated servers can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
+Owners of [Private Clouds]({{< ref "accounts/billing/private-cloud-prices" >}}) can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
 
 {{< fig "images/server-tls-configuration.en.png" "Admin interface: configure TLS at the server level" >}}

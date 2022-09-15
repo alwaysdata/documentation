@@ -14,8 +14,8 @@ You can change the *[pack]({{< ref "accounts/billing/public-cloud-prices" >}})* 
 
 In the following cases, contact [support](https://admin.alwaysdata.com/support/add/):
 
-- Take out a VPS or dedicated server (or change its configuration / commitment period),
-- Move the accounts to a VPS or dedicated server (and vice versa): the accounts are "black boxes" that the support team can easily move from one server to another without touching its content,
+- Take a [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) (or change its configuration / commitment period),
+- Move the accounts to a Private Cloud server (and vice versa): the accounts are "black boxes" that the support team can easily move from one server to another without touching its content,
 - Change the commitment period for an IP subscription.
 
 ## Prorata refund
@@ -23,7 +23,7 @@ In the following cases, contact [support](https://admin.alwaysdata.com/support/a
 A prorata refund is automatically made to the *prepaid account*:
 
 - when changing to a higher or lower offer,
-- when migrating accounts to VPS/dedicated servers.
+- when migrating accounts to a Private Cloud.
 
 This refund can only be used to pay future invoices.
 

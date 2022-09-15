@@ -29,7 +29,7 @@ These users can be configured in the **Remote access > FTP** tab in your alwaysd
 Replace `ftp-[account].alwaysdata.net` with your FTP hostname.
 {{% /notice %}}
 
-The maximum number of simultaneous connections per user is *10*. On request, it is possible to change this for VPS and dedicated servers.
+The maximum number of simultaneous connections per user is *10*. On request, it is possible to change this in Private Cloud environments.
 
 ## .ftpaccess
 

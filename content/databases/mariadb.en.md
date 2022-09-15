@@ -52,7 +52,7 @@ Several options :
 
 ## Other informations
 
-The maximum number of simultaneous connections per user is *40*. On request, it is possible to change this for VPS and dedicated servers.
+The maximum number of simultaneous connections per user is *40*. On request, it is possible to change this on the Private Cloud.
 
 MySQL blocks the size of the user name; if your account's name is too long, an *ID* will be assigned to it. You will find this in **Databases > MySQL > Users**.
 
@@ -62,10 +62,10 @@ To check the MariaDB configuration use the SQL query `show variables`.
 
 MySQL events are not supported on alwaysdata's servers.
 
-In the public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
+In the Public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
-MariaDB is offered by default on our servers but the VPS and dedicated users may request to use MySQL.
+MariaDB is offered by default on our servers but the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users may request to use MySQL.
 {{% /notice %}}
 
 ---

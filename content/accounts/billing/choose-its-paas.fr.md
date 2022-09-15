@@ -80,15 +80,15 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || Réplication SGBD |❌|✔️|✔️|✔️|
 || Réplication des données en temps réel |❌|❌|❌|✔️|
 
-La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
+La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud Public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
 
 {{% notice note %}}
 Une application bien _optimisée_ aura les mêmes performances quel que soit le type d'environnement sur lequel elle se trouve. Toutefois _moins_ d'utilisateurs sur un serveur amène plus de **stabilité** et de **confort** (élimination de variations de performances à cause d'autres utilisateurs).
 {{% /notice %}}
 
-[^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs VPS et dédiés peuvent solliciter le support pour des services dont ce ne serait pas le cas.
+[^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs de [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
-[^3]: Le plan gratuit du Cloud public offre 100 Mo d'espace disque à usage non lucratif.
-[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
+[^3]: Le plan gratuit du Cloud Public offre 100 Mo d'espace disque à usage non lucratif.
+[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
 [^5]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
 [^6]: [Programmes génériques]({{< ref "services" >}}) devant fonctionner 24h / 24.

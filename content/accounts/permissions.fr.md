@@ -13,7 +13,7 @@ Parce que l'hébergement de vos données implique très souvent différents acte
 - _Gestion des comptes_ : délègue l'ouverture de comptes à vos associés  ;
 - _[Facturation]({{< ref "accounts/billing" >}})_ : permet aux services comptables ou administratifs de recevoir une alerte lorsque le solde de votre compte est négatif ou lors de l'ouverture d'un ticket concernant la facturation par nos services ;
 - _Technique au niveau des comptes_ : permet aux équipes techniques de gérer l'aspect purement technique de votre hébergement (sites, emails, bases de données..) sans se soucier de sa gestion et facturation ;
-- _Technique au niveau des serveurs_ : disponible sur serveurs dédiés et VPS, votre administrateur réseau pourra gérer règles de firewall, queue d'envoi des emails et bien d'autres...
+- _Technique au niveau des serveurs_ : disponible sur [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}), votre administrateur réseau pourra gérer règles de firewall, queue d'envoi des emails et bien d'autres...
 
 ## Permissions techniques
 

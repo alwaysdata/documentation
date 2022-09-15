@@ -13,7 +13,7 @@ Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous pr
 - [CouchDB]({{< ref "databases/couchdb" >}})
 - [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 
-En plans VPS et dédiés :
+En plans Cloud Privé :
 
 - [Elasticsearch]({{< ref "databases/elasticsearch" >}})
 - [Memcached]({{< ref "databases/memcached" >}})

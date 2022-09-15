@@ -12,7 +12,7 @@ The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entir
 - [CouchDB]({{< ref "databases/couchdb" >}})
 - [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 
-In VPS and dedicated plans:
+On Private Cloud plans:
 
 - [Elasticsearch]({{< ref "databases/elasticsearch" >}})
 - [Memcached]({{< ref "databases/memcached" >}})

@@ -74,7 +74,7 @@ Plusieurs possibilités :
 
 ## Autres informations
 
-Le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en serveurs VPS et dédiés.
+Le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 
 Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont PAS accessibles.
 

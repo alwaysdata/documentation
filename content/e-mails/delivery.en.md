@@ -5,7 +5,7 @@ weight = 20
 tags = ["e-mail"]
 +++
 
-Whether your e-mail boxes are hosted in the public Cloud or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
+Whether your e-mail boxes are hosted in the Public Cloud or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
 
 ## Sender
 
@@ -41,7 +41,7 @@ Check that best practices are being followed by answering “yes” to the follo
 
 To avoid misuse and optimize the deliverability of e-mails sent by its servers, alwaysdata has always implemented a scoring system based on various criteria like the content and frequency of the messages sent.
 
-The lower the score, the better the e-mail will be rated and the sending accepted. In the public Cloud, any e-mail with a score higher than _3_ will be blocked. In VPS and dedicated servers, the default value is _5_ and you can change it in the **SMTP > Settings** tab of your server. It cannot be disabled.
+The lower the score, the better the e-mail will be rated and the sending accepted. In the Public Cloud, any e-mail with a score higher than _3_ will be blocked. In [Private Clouds]({{< ref "accounts/billing/private-cloud-prices" >}}), the default value is _5_ and you can change it in the **SMTP > Settings** tab of your server. It cannot be disabled.
 
 {{% notice note %}}
 This note is only used to send the email from our servers. It has no incident in the management of the mail on the recipient server side.

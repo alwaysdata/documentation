@@ -1,5 +1,5 @@
 +++
-title = "VPS/Dedicated Server: Required Migrations Process"
+title = "Private Cloud: Required Migrations Process"
 layout = "man"
 hidden = true
 tags = ["migration", "dedicated server", "gold server", "vps"]
