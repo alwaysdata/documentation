@@ -12,12 +12,10 @@ Go to the **Accounts** menu in your client interface.
 
 After clicking on **Open a new account** you will see a form for choosing:
 - its name,
+- its location: Public Cloud, Private Cloud,
+
+if Public Cloud:
 - the product (pack),
-- payment frequency (monthly or yearly),
-- its location: public Cloud, VPS or dedicated server.
+- payment frequency (monthly or yearly).
 
 {{< fig "images/create-account.en.png" "Administration interface: create an account" >}}
-
-{{% notice info %}}
-If the account is a VPS or dedicated server, the product taken and the payment frequency are not relevant.
-{{% /notice %}}

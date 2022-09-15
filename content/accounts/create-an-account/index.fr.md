@@ -14,12 +14,10 @@ Allez dans le menu **Comptes** de votre interface client.
 Après avoir cliqué sur **Ouvrir un nouveau compte** vous trouverez un formulaire pour choisir :
 
 - son nom ;
+- sa localisation : Cloud Public, Private Cloud ;
+
+si Cloud Public :
 - le produit (le pack) ;
-- la fréquence de paiement (mensuel ou annuel) ;
-- sa localisation : Cloud public, VPS ou serveur dédié.
+- la fréquence de paiement (mensuel ou annuel).
 
 {{< fig "images/create-account.fr.png" "Interface d'administration : créer un compte" >}}
-
-{{% notice info %}}
-Si le compte est sur un serveur VPS ou dédié, le produit pris et la fréquence de paiement sont sans intérêt.
-{{% /notice %}}
