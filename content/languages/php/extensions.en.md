@@ -40,11 +40,13 @@ $ grep extension $HOME/admin/config/php/php.ini
 ```
 
 To load an extension included in PHP, you will not need to specify the
-full directory, the filename is enough. For example:
+full directory, the filename is enough:
 
 ```
 extension = [extension].so
 ```
+
+Examples: `intl`, `imap`.
 
 ### From [PECL](https://pecl.php.net/)
 

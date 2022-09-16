@@ -40,11 +40,12 @@ Pour voir la liste des extensions déjà chargées sur votre compte :
 $ grep extension $HOME/admin/config/php/php.ini
 ```
 
-Pour charger une extension incluse dans PHP, vous n'aurez pas besoin de spécifier le répertoire complet, seul le nom du fichier suffit. Par exemple :
+Pour charger une extension incluse dans PHP, vous n'aurez pas besoin de spécifier le répertoire complet, seul le nom du fichier suffit :
 
 ```
 extension = [extension].so
 ```
+Exemples : `intl`, `imap`.
 
 ### Depuis [PECL](https://pecl.php.net/)
 
