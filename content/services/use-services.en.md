@@ -28,10 +28,9 @@ Private clouds users can also bind on another IP than `::` and listen on ports o
 
 ## Examples
 
-### Redis
-
-- *Command*: `redis-server --bind :: --port 8300`
-- *Monitoring command*: `redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
+- [Redis]({{< ref "guides/redis#step-2--service-launch" >}})
+- [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
+- [Mattermost]({{< ref "guides/mattermost#service-launch" >}})
 
 [^1]: `[account]` to be replaced by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

@@ -38,12 +38,12 @@ Créez le [service]({{< ref "services" >}}) suivant :
 - *Commande* : `./memcached -p 8300`
 - *Répertoire de travail* : `/home/[foo]/memcached`
 
-Plus d'options via `./$HOME/memcached/memcached -h`.
+Plus d'options via `$HOME/memcached/memcached -h`.
 
 {{% notice warning %}}
 Par défaut n'importe qui peut se connecter au Memcached ; il n'y a aucune sécurité. Une [authentification](https://github.com/memcached/memcached/wiki/SASLHowto) peut être mise en place.
 {{% /notice %}}
 
-Il restera ensuite la configuration de l'application qui pour se connecter à son Memcached devra utiliser `services-[foo].alwaysdata.net`.
+Il restera ensuite la configuration de l'application qui pour se connecter au Memcached devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
 - [Installer l'extension PHP]({{< ref "databases/memcached/php" >}})

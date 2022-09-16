@@ -15,7 +15,7 @@ tags = ["databases", "redis"]
 Redis only runs in local mode with isolated permissions (separate user).
 
 {{% notice info %}}
-This configuration is for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}). On the [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) you can run it with the [services]({{< ref "services" >}}).
+This configuration is for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}). On the [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) you can run it by following this [guide]({{< ref "guides/redis" >}}).
 {{% /notice %}}
 
 ---

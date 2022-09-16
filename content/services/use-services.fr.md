@@ -29,10 +29,9 @@ Même si c'est contre-indiqué, les utilisateurs de Clouds privés peuvent aussi
 
 ## Exemples
 
-### Redis
-
-- *Commande* : `redis-server --bind :: --port 8300`
-- *Commande de monitoring* : `redis-cli -h services-[compte].alwaysdata.net -p 8300 ping`
+- [Redis]({{< ref "guides/redis#étape-2--lancement-du-service" >}})
+- [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
+- [Mattermost]({{< ref "guides/mattermost#lancement-du-service" >}})
 
 [^1]: `[compte]` à remplacer par le nom du compte.
 [^2]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.

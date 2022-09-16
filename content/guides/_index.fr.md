@@ -18,6 +18,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Mattermost]({{< relref "mattermost" >}})
 - [Memcached]({{< ref "./memcached" >}})
 - [New Relic]({{< relref "new-relic" >}})
+- [Redis]({{< ref "./redis" >}})
 - [Tideways]({{< relref "tideways" >}})
 - [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
 
