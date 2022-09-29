@@ -13,7 +13,7 @@ Vous retrouverez ici des sujets avancés ou spécifiques à alwaysdata.
 - [Migrations]({{< relref "migrations" >}})
 - [Adresses IP dédiées]({{< relref "dedicated-ip-addresses" >}})
 
-## [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}})
+## Cloud Privé
 
 - [Ressources systèmes : alertes et limitations]({{< relref "system-resources-alerts-and-limitations" >}})
 - [Docker]({{< relref "docker" >}})

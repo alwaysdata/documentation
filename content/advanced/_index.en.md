@@ -12,7 +12,7 @@ Here you will find advanced issues or ones specific to alwaysdata.
 - [Migrations]({{< relref "migrations" >}})
 - [Dedicated IP addresses]({{< relref "dedicated-ip-addresses" >}})
 
-## [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}})
+## Private Cloud
 
 - [System resources: alerts and limitations]({{< relref "system-resources-alerts-and-limitations" >}})
 - [Docker]({{< relref "docker" >}})
