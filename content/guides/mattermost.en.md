@@ -10,7 +10,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 
 - Account name: `foo`
 - Mattermost directory: `$HOME/mattermost/`
-- MySQL or PostgreSQL database[^1]: `foo_mattermost` - to be created in the **Databases** menu of the [administration interface](https://admin.alwaysdata.com)
+- PostgreSQL database: `foo_mattermost` - to be created in the **Databases > PostgreSQL** menu of the [administration interface](https://admin.alwaysdata.com)
 - Port: 8300 (ports between 8300 and 8499 can be used)
 
 {{% notice note %}}
@@ -37,13 +37,6 @@ Modify the `$HOME/mattermost/config/config.json` file to put:
 "LocalModeSocketLocation": "$HOME/admin/tmp/mattermost_local.socket",
 ```
 
-- MySQL
-
-```txt
-"DriverName": "mysql",
-"DataSource": "[mysql_username]:[mysql_password]@tcp(mysql-[foo].alwaysdata.net:3306)/[foo]_mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
-```
-
 - PostgreSQL
 
 ```txt
@@ -64,5 +57,3 @@ Declare a [site]({{< ref "sites/add-a-site" >}}), type **[Redirect]({{< ref "sit
 
 - *Destination URL*: `services-[foo].alwaysdata.net:8300`
 - *Forwarding type*: `transparent (reverse proxy)`
-
-[^1]: Each SGBD has [limitations](https://docs.mattermost.com/install/requirements.html#database-software).
