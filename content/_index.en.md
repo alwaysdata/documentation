@@ -34,7 +34,7 @@ Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requ
 - **Server**: a computer system where accounts are located. This may be a physical server or a virtual machine.
 - **Public Cloud** or **shared server**: a server where the storage space is shared between a number of users.
 - **Private Cloud**:
-	- **VPS**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) located on a host server shared only between a few users.
+	- **VPS**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_private_server) located on a host server shared only between a few users.
 	- **Dedicated**: a physical server where the storage space is reserved entirely for data belonging to a single user.
 	- **Gold**: dedicated server redunded in a different datacenter.
 

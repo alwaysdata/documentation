@@ -34,7 +34,7 @@ Toute publication sur Internet comporte des [obligations légales]({{<ref "sites
 - **Serveur** : dispositif informatique sur lequel est placé des comptes. Ce peut être un serveur physique ou une machine virtuelle.
 - **Cloud Public** ou **serveur mutualisé** : serveur dont l'espace de stockage est partagé entre de nombreux utilisateurs.
 - **Cloud Privé** :
-	- **VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
+	- **VPS** : [machine virtuelle](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel) placée sur un serveur hôte partagé seulement entre quelques utilisateurs.
 	- **Dédié** : serveur physique dont l'espace de stockage est réservé en intégralité aux données d'un seul utilisateur.
 	- **Gold** : serveur dédié redondé dans un autre datacenter.
 
