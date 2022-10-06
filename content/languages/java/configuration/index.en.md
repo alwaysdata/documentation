@@ -38,9 +38,9 @@ To deploy an HTTP application with Java, create a *[User program]({{< ref "sites
 You need to specify the command that will start your Java application, for example:
 
 ```
-$ java -Xmx512m -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=$PORT
+$ java -Xmx512m -jar jenkins.war --httpListenAddress=$IP --httpPort=$PORT
 ```
 
 {{% notice warning %}}
-Your application must absolutely listen to IP `0.0.0.0` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
+Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
 {{% /notice %}}

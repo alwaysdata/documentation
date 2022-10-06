@@ -51,5 +51,5 @@ mix $HOME/myapp/phx.server
 ```
 
 {{% notice warning %}}
-Your application must absolutely listen to IP `0.0.0.0` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
+Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
 {{% /notice %}}
