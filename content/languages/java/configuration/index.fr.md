@@ -36,12 +36,21 @@ Pour déployer une application HTTP avec Java, créez un site de type *[Programm
 
 {{< fig "images/user-program.fr.png" "Type de site Programme utilisateur">}}
 
-Vous devrez spécifier la commande qui démarre votre application Java, par exemple :
+Vous devrez spécifier la commande qui démarre votre application Java, par exemple[^1] :
+
+- [Jenkins](https://www.jenkins.io/doc/book/installing/initial-settings/)
 
 ```
 $ java -Xmx512m -jar jenkins.war --httpListenAddress=$IP --httpPort=$PORT
 ```
+- [Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties.server)
+
+```
+$ java -jar app.jar --server.address=:: --server.port=$PORT
+```
 
 {{% notice warning %}}
-Votre application doit impérativement écouter sur l'ip `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.
+Votre application doit impérativement écouter sur l'IP `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.
 {{% /notice %}}
+
+[^1]: Les options dépendent de l'application, vous devez **impérativement** vous référer à la documentation de celle-ci pour trouver quelles options utiliser s'il est nécessaire de préciser l'IP et le port dans la commande. Cela peut aussi être des options de fichier de configuration.
