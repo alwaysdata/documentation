@@ -26,5 +26,6 @@ If our marketplace does not offer what you are looking for, install it by hand a
 - [Joomla]({{< ref "marketplace/joomla" >}})
 - [Magento]({{< ref "marketplace/magento" >}})
 - [Nextcloud]({{< ref "marketplace/nextcloud" >}})
+- [Odoo]({{< ref "marketplace/odoo" >}})
 - [PrestaShop]({{< ref "marketplace/prestashop" >}})
 - [WordPress]({{< ref "marketplace/wordpress" >}})
