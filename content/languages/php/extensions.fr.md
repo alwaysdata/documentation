@@ -45,7 +45,7 @@ Pour charger une extension incluse dans PHP, vous n'aurez pas besoin de spécifi
 ```
 extension = [extension].so
 ```
-Exemples : `intl`, `imap`.
+Exemples : `imap`, `intl`.
 
 ### Depuis [PECL](https://pecl.php.net/)
 
@@ -57,7 +57,7 @@ $ ad_install_pecl [extension]
 
 La commande génère un nouveau fichier `.so` dans le répertoire courant. Vous pouvez toutefois vous passer de notre script et utiliser les commandes usuelles (`phpize`, `make`) si vous préférez.
 
-Exemple d'extensions PECL régulièrement demandées : `apcu`, `imagick`, `memcached`, `yaml`.
+Exemple d'extensions PECL régulièrement demandées : `apcu`, `imagick`, `memcached`, `ssh2`, `yaml`.
 
 ### Depuis le site de l'éditeur
 
