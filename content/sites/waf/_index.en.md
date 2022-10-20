@@ -12,7 +12,7 @@ A [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) examines every H
 
 - [Use WAF]({{< ref "sites/waf/use-waf" >}})
 
-alwaysdata uses WAF [ModSecurity](https://modsecurity.org/) and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+alwaysdata uses WAF ModSecurity and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
 
 ---
 Icons: The Noun Project

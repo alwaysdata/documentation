@@ -13,7 +13,7 @@ Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) exa­mine chaqu
 
 - [Utiliser le WAF]({{< ref "sites/waf/use-waf" >}})
 
-alwaysdata utilise le WAF [ModSecurity](https://modsecurity.org/) et l'ensemble de règles libres [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+alwaysdata utilise le WAF ModSecurity et l'ensemble de règles libres [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
 
 ---
 Icônes : The Noun Project
