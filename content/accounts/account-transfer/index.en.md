@@ -25,9 +25,12 @@ Go to **Accounts > Transfer to another user**. You will have to indicate the ema
 
 {{< fig "images/accounts.en.png" "" >}}
 
-**This ends the current subscription and opens it in the recipient profile.** A reimbursement will automatically be made, on a pro rata basis, to the issuer profile.
+**This ends the current subscription and opens it in the recipient profile.** There are two possibilities of cession:
 
-Until the new owner validates the disposal, the issuer profile remains the account owner and can cancel it in the **Transfers** tab.
+- a prorata refund is automatically executed on the issuer profile - the recipient profile is then charged upon acceptance of the cession;
+- the expiry date of the subscription is kept - no prorata refund will be emitted to the issuer profile.
+
+Until the new owner validates the cession, the issuer profile remains the account owner and can cancel it in the **Transfers** tab.
 
 [^1]: The client history includes support tickets, invoicing, and actions carried out on the alwaysdata administration interface and its API.
 

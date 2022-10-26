@@ -26,7 +26,10 @@ Rendez-vous sur **Comptes > Céder à un autre utilisateur**. Vous devrez indiqu
 
 {{< fig "images/accounts.fr.png" "" >}}
 
-**Cela ferme l'abonnement actuel et en ouvre un sur le profil destinataire**. Un remboursement au prorata sera automatiquement exécuté sur le profil émetteur.
+**Cela ferme l'abonnement actuel et en ouvre un sur le profil destinataire**. Il est possible de céder un compte de deux manières :
+
+- le profil destinataire est facturé *dès acceptation de la cession*. Un remboursement au prorata est automatiquement exécuté sur le profil émetteur ;
+- La date d'échéance de l'ancien abonnement est gardée et le profil destinataire n'est facturé qu'*à échéance*. Aucun remboursement au prorata ne sera effectué sur le profil émetteur.
 
 Tant que le nouveau propriétaire n'a pas validé la cession le profil émetteur reste propriétaire du compte et peut l'annuler dans l'onglet **Cessions**.
 
