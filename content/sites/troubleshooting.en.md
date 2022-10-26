@@ -8,7 +8,7 @@ tags = ["http", "site", "troubleshooting"]
 
 ## Connection
 
-External service to check uptime: [Down for everyone or just me](https://downforeveryoneorjustme.com/)
+External service to check uptime: [Where's It Up?](https://wheresitup.com/)
 
 - [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response]({{< ref "sites/connection-to-upstream" >}})
 - [PHP]({{< ref "languages/php/troubleshooting" >}})

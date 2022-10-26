@@ -64,5 +64,5 @@ If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref
 
 ## External links
 
-- Website uptime: [Down for everyone or just me](https://downforeveryoneorjustme.com/), [Screenshot Guru](https://screenshot.guru/) (with screenshot)
+- Website uptime: [Where's It Up?](https://wheresitup.com/), [Screenshot Guru](https://screenshot.guru/) (with screenshot)
 - Know the DNS resolution of an address: [DNSwatch](https://www.dnswatch.info/)

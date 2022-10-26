@@ -65,5 +65,5 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 
 ## Liens externes
 
-- Disponibilité d'un site : [Down for everyone or just me](https://downforeveryoneorjustme.com/), [Screenshot Guru](https://screenshot.guru/) (avec capture d'écran)
+- Disponibilité d'un site : [Where's It Up?](https://wheresitup.com/), [Screenshot Guru](https://screenshot.guru/) (avec capture d'écran)
 - Connaître la résolution DNS d'une adresse : [DNSwatch](https://www.dnswatch.info/)
