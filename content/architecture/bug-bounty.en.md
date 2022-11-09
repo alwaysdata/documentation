@@ -27,7 +27,7 @@ Any type of denial of service (DDoS) attacks is strictly prohibited, as well as 
 The following list includes vulnerability reports not accepted by our services and the reason:
 
 * the name of the accounts is accessible [in many different ways]({{< ref "remote-access/misc#list-accounts" >}});
-* addresses in `.alwaysdata.net` are linked to our customers' accounts. Their flaws are beyond our control;
+* addresses in `.alwaysdata.net` - and their connection details - are linked to our customers' accounts. Their flaws are beyond our control;
 * The `/tmp` directory is a [shared directory]({{< ref "remote-access/misc#tmp-directory" >}});
 * “https://files.alwaysdata.com” features public files;
 * the password reset link expires after 3 days or upon the next login to the administration interface; 
@@ -40,4 +40,4 @@ The following list includes vulnerability reports not accepted by our services a
 The following reports are also rejected:
 
 - if the attacker is the victim;
-- if the attacker takes control of the victim's interface because the victim left their version open.
+- if the attacker takes control of the victim's interface because the victim left it open.

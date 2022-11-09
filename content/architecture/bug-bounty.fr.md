@@ -27,7 +27,7 @@ Tout type d'attaque par déni de service (DDoS) est strictement interdit, ainsi 
 La liste suivante reprend des rapports de vulnérabilité non acceptés par nos services et la raison :
 
 * le nom des comptes est [accessible de nombreuses façons différentes]({{< ref "remote-access/misc#lister-les-comptes" >}}) ;
-* les adresses en `.alwaysdata.net` sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
+* les adresses en `.alwaysdata.net` - ainsi que leurs informations de connexion - sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
 * Le répertoire `/tmp` est un [répertoire partagé]({{< ref "remote-access/misc#répertoire-tmp" >}}) ;
 * `https://files.alwaysdata.com` présente des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface d'administration ; 
@@ -41,4 +41,4 @@ La liste suivante reprend des rapports de vulnérabilité non acceptés par nos 
 Les rapports suivants sont aussi refusés :
 
 - si l'attaquant est la victime ;
-- si l'attaquant prend la main sur l'interface de la victime car celle-ci a laissé sa version ouverte.
+- si l'attaquant prend la main sur l'interface de la victime car celle-ci l'a laissé ouverte.
