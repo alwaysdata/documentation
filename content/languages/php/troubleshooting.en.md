@@ -35,7 +35,7 @@ This [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-bl
 
 ### Fatal error: Allowed memory size of 268435456 bytes exhausted
 
-You have reached the 256 Mbyte limit, the default value for `memory_limit` in PHP. You can increase this value in **Environment > PHP** or from the site itself in **Web > Sites > Modify the [site] - ⚙️**.
+You have reached the 256 Mbyte limit, the default value for `memory_limit` in PHP. You can increase this value via the `php.ini` in **Environment > PHP** or from the site itself in **Web > Sites > Modify the [site] - ⚙️**.
 
 ## Use several versions in SSH
 
