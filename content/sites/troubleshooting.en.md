@@ -32,4 +32,15 @@ These errors may be returned by web servers (e.g. Apache), language runtime, or 
 
 An empty page without a message or error code usually indicates an application issue: the returned code by HTTP logs is *200*, stating that the request reached the application. Set debug logs to get more inputs on how to fix it.
 
+## In logs
+
+### Broken pipe / Connection reset by peer
+
+```txt
+Broken pipe: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
+(104)Connection reset by peer: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
+```
+
+This error message - which you can find, among others, in the Apache logs ($HOME/logs/apache) - indicates that the connection was broken by the client. For example, because the visitor closed his tab while the page was not fully loaded. This is nothing unusual.
+
 [^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)

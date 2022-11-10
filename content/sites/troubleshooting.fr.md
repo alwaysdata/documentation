@@ -32,4 +32,15 @@ Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le lan
 
 Une page blanche sans message ni code d'erreur signifie généralement un problème applicatif : le code renvoyé par les logs HTTP est *200*, indiquant que la requête atteint l'application. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.
 
+## Dans des logs
+
+### Broken pipe / Connection reset by peer
+
+```txt
+Broken pipe: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
+(104)Connection reset by peer: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
+```
+
+Ce message d'erreur - que vous pouvez entre autres trouver dans les logs Apache ($HOME/logs/apache) - indique que la connexion a été rompue par le client. Par exemple, parce que le visiteur a fermé son onglet alors que la page n'était pas complètement chargée. Cela n'a rien d'anormal.
+
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)
