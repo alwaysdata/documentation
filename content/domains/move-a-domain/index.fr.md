@@ -22,5 +22,5 @@ Seul le _propriétaire du compte_ peut initier la cession mais, contrairement à
 Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites email se copient sur son compte. Cette action étant dépendante de la taille des boites email, elle peut prendre du temps.
 
 {{% notice tip %}}
-Pour le déplacer dans un autre de _ses_ comptes il n'y a qu'à indiquer sa propre adresse email.
+Pour déplacer un domaine vers un compte appartenant au *même profil* avec lequel vous êtes connecté(e), il suffit d'indiquer votre adresse email.
 {{% /notice %}}

@@ -22,5 +22,5 @@ Only the *account owner* can initiate a transfer, but unlike a site transfer, th
 The destination profile needs only to accept it from the **Transfers** section and wait until the e-mail boxes copy to their account. As this action depends on the size of the e-mail boxes, this may take time.
 
 {{% notice tip %}}
-To move it to another of *your* accounts, simply provide this account e-mail address.
+To move a domain to an account belonging to the *same profile* with which you are connected, simply enter your e-mail address.
 {{% /notice %}}
