@@ -61,6 +61,10 @@ Un email de validation est envoyé pour un certain nombre d'extensions. Sans val
 Un transfert prend en moyenne 6 à 8 jours, cela peut être accéléré en contactant votre prestataire actuel.
 {{% /notice %}}
 
+### Cas particuliers
+
+l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre des `.uk` - est **GANDI**.
+
 ## Préparation du domaine
 
 Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :

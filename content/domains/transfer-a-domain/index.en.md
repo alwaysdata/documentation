@@ -60,6 +60,11 @@ A validation e-mail is set for a certain number of extensions. Without validatio
 A transfer takes on average 6 to 8 days but this can be accelerated by contacting your current service provider.
 {{% /notice %}}
 
+### Specific case
+
+The IPS Tag asked by [Nominet](https://registrars.nominet.uk/) - registry of `.uk` - is **GANDI**.
+
+
 ## Preparing the domain
 
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
