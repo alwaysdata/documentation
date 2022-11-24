@@ -66,6 +66,8 @@ Prenons le cas d'un site de type WordPress qui présente des logs similaires à 
 Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'attaques. Dans ce cas, il est plus judicieux d'exclure le chemin (exemple : /wp-admin/*) pour que toutes vos opérations sur l'interface d'administration ne soient plus concernées par l'analyse du WAF.
 {{% /notice %}}
 
+Les *[query strings](https://en.wikipedia.org/wiki/Query_string)* ne peuvent pas être utilisées dans ces exclusions.
+
 ## Exclure des IP
 
 Il peut être intéressant d'exclure des **IP sûres** (IP spécifiques ou plages d'IP) pour éviter à des outils ou des personnes d'être bloqués.

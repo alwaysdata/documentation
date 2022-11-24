@@ -65,6 +65,8 @@ Therefore, to remove `www.my-site.com/foo/barBaz/` from the analysis, `foo` and 
 Let us take the case of a WordPress type site that shows logs similar to those presented previously. If these rules are triggered when browsing the blog administration interface, then it is possible to exclude them permanently. The blog itself however will no longer be protected against these attack attempts. In this case, it is wiser to exclude the path (e.g. /wp-admin/*) so that all of your operations on the administration interface are no longer covered by the WAF analysis.
 {{% /notice %}}
 
+*[Query strings](https://en.wikipedia.org/wiki/Query_string)* can't be used with these exclusions.
+
 ## Excluding IPs
 
 It may be worth excluding **safe IPs** (specific IPs or IPs ranges) to stop tools or people from being blocked.
