@@ -29,7 +29,7 @@ Certificate generation is limited to 64 characters per complete address.
 
 ### Troubleshooting
 
-#### The SSL certificate is automatically generated and renewed, you will find it in the "Auto-generated certificates" menu.
+#### Certificate not created
 
 The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
 

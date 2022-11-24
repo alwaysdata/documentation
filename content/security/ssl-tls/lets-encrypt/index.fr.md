@@ -29,7 +29,7 @@ La génération de certificat est limitée à 64 caractères par adresse complè
 
 ### Problèmes fréquents
 
-#### Le certificat SSL est généré et renouvelé automatiquement, vous le retrouverez dans l'onglet "Certificats auto-générés".
+#### Certificat non généré
 
 La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
 
