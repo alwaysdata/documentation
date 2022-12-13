@@ -9,11 +9,11 @@ Here are three methods for authenticating your e-mails and thereby reducing abus
 
 ## Sender Policy Framework
 
-[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a *TXT* type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send e-mails and compare it with the IP address of the sender's server.
+[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a `TXT` type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send e-mails and compare it with the IP address of the sender's server.
 
 {{< fig "images/globalcyberalliance-spf.en.png" "SPF: explanatory diagram" >}}
 
-### Components
+### Parameters
 
 |Mechanism||
 |--- |--- |
@@ -38,16 +38,20 @@ Here are three methods for authenticating your e-mails and thereby reducing abus
 |exp=some.example.com|To get the reason for the failure results|
 |redirect=some.example.com|To link to a rule record in another domain|
 
-An SPF record is created by default and can be found in the **DNS records** tab for the domain:
+{{% notice warning %}}
+This technology may have an impact on e-mail redirects as the sender server is not necessarily the e-mail server belonging to the original e-mail sender.
+{{% /notice %}}
+
+#### At alwaysdata
+
+A SPF record is created by default and can be found in the **DNS records** tab for the domain:
 
 {{< fig "images/spf-record.png" "SPF record" >}}
 
-- `include:_spf.alwaysdata.com` explicitly allows our servers to send e-mails,
+- `include:_spf.alwaysdata.com` **explicitly allows our servers** to send e-mails,
 - `?all` sends a neutral result for the other sender servers.
 
-{{% notice warning %}}
-This technology may have an impact on e-mail redirects: as the sender server is not necessarily the e-mail server belonging to the original e-mail sender.
-{{% /notice %}}
+ If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add `include:_spf.alwaysdata.com` to the SPF registration.
 
 ### Links
 
@@ -57,18 +61,25 @@ This technology may have an impact on e-mail redirects: as the sender server is 
 
 ## DomainKeys Identified Mail
 
-[DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a signature to all of the outgoing e-mails.
+[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a signature to all of the outgoing e-mails. Concretely, this works with two keys:
+
+- a private key that is known - and kept secret - from the domain’s mail delivery servers;
+- a public key that corresponds to a DNS registration of the `TXT` type.
 
 {{< fig "images/globalcyberalliance-dkim.en.png" "DKIM: explanatory diagram" >}}
 
-To generate a pair of keys, go to **Domains > Details** for the relevant domain name **> Configuration**.
+### Setup
+
+To generate a pair of keys, go to **Domains > Details of [example.org] - 🔎 > Configuration**.
 
 {{< fig "images/admin-panel_domain-configuration.en.png" "Administration interface: configure DKIM" >}}
 {{< fig "images/admin-panel_dkim.en.png" "Administration interface: DKIM configuration result" >}}
 
-A TXT record will then be created and can be found in the **DNS records** tab:
+ The `TXT` record will automatically be created and available in the **DNS records** tab:
 
 {{< fig "images/dkim-record.png" "DKIM record" >}}
+
+ If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
 
 ### Links
 
@@ -113,11 +124,9 @@ To use DMARC, DKIM and SPF must already be implemented.
 ||0 = DKIM and SPF failure (default)|
 |rua|Recipients of aggregated failure reports|
 
-To implement it, a TXT record needs to be created in the **DNS records** tab for the domain:
+To implement it, a `TXT` DNS record needs to be created. At alwaysdata, you will find it in the **DNS records** tab of the domain:
 
 {{< fig "images/dmarc-record.png" "DMARC record" >}}
-
----
 
 ### Links
 
