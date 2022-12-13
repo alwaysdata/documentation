@@ -25,10 +25,10 @@ Go to **Accounts > Transfer to another user**. You will have to indicate the ema
 
 {{< fig "images/accounts.en.png" "" >}}
 
-**This ends the current subscription and opens it in the recipient profile.** There are two possibilities of cession:
+**This ends the current subscription and opens it in the recipient profile.** It is possible to transfer an account in two ways:
 
-- a prorata refund is automatically executed on the issuer profile - the recipient profile is then charged upon acceptance of the cession;
-- the expiry date of the subscription is kept - no prorata refund will be emitted to the issuer profile.
+- the recipient profile is billed *as soon as the transfer is accepted*. A pro-rated reimbursement is automatically carried out on the issuer profile;
+- The end date of the previous subscription is kept and the recipient profile is only billed on the end date. No pro-rated reimbursement will be carried out on the issuer profile.
 
 Until the new owner validates the cession, the issuer profile remains the account owner and can cancel it in the **Transfers** tab.
 
