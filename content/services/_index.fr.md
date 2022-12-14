@@ -13,6 +13,8 @@ Ces services sont contrôlés via le menu **Avancé > Services** de l'[interface
 
 {{< fig "admin-panel_create-service.fr.png" "Interface d'ad­mi­nis­tra­tion : créer un service" >}}
 
+Le service est considéré comme fonctionnel lorsque la commande ne s'arrête pas et tourne en avant-plan (*foreground*).
+
 Si le service a besoin d'écouter sur un port, celui-ci *devra* être compris entre `8300` et `8499` et utiliser le nom d'hôte du compte sous la forme `services-[compte].alwaysdata.net:[PORT]`[^1]. Il doit écouter en IPv6 sur `::`.
 
 {{% notice warning %}}
