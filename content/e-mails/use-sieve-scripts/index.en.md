@@ -48,7 +48,7 @@ The final script is stored in the `$HOME/admin/mail/[domain]/[box]/filter_user.s
 ```
 require ["editheader", "variables", "body"] ;
 if allof (
-header :contains "subject" "mot",
+header :contains "subject" "word",
 header :matches "Subject" "*"
 )
 {
@@ -56,7 +56,7 @@ deleteheader "Subject";
 addheader "Subject" "<SPAM> ${1}";
 }
 elsif allof (
-body :content "text" :contains "mot",
+body :content "text" :contains "word",
 header :matches "Subject" "*"
 )
 {
