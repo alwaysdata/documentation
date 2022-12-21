@@ -44,26 +44,49 @@ Le script final est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/
 
 ## Exemples
 
--   Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte) :
-    ```
-    require ["editheader", "variables", "body"] ;
-    if allof (
-    header :contains "subject" "mot",
-    header :matches "Subject" "*"
-    )
-    {
-    deleteheader "Subject";
-    addheader "Subject" "<SPAM> ${1}";
-    }
-    elsif allof (
-    body :content "text" :contains "mot",
-    header :matches "Subject" "*"
-    )
-    {
-    deleteheader "Subject";
-    addheader "Subject" "<SPAM> ${1}";
-    }
-    ```
+### Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte)
+
+```
+require ["editheader", "variables", "body"] ;
+if allof (
+header :contains "subject" "mot",
+header :matches "Subject" "*"
+)
+{
+deleteheader "Subject";
+addheader "Subject" "<SPAM> ${1}";
+}
+elsif allof (
+body :content "text" :contains "mot",
+header :matches "Subject" "*"
+)
+{
+deleteheader "Subject";
+addheader "Subject" "<SPAM> ${1}";
+}
+```
+
+### Extraire des en-têtes de message dans les réponses automatiques
+
+```
+require ["variables", "vacation"];
+
+# Stockage du sujet en variable
+if header :matches "Subject" "*" {
+        set "subj" "**${1}**";
+}
+
+# Répondeur automatique
+vacation
+  :days 1
+  :subject "Absence [Was: ${subj}]"
+"Bonjour,
+nous avons bien reçu votre message :
+
+${subj}
+
+Nous sommes actuellement absent et y répondrons à notre retour.";
+```
 
 ---
 

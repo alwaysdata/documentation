@@ -43,26 +43,49 @@ The final script is stored in the `$HOME/admin/mail/[domain]/[box]/filter_user.s
 
 ## Examples
 
--   Add a `<SPAM>` prefix to the subject of an e-mail comprising a key word to define (whether in the subject or in the body text):
-    ```
-    require ["editheader", "variables", "body"] ;
-    if allof (
-    header :contains "subject" "mot",
-    header :matches "Subject" "*"
-    )
-    {
-    deleteheader "Subject";
-    addheader "Subject" "<SPAM> ${1}";
-    }
-    elsif allof (
-    body :content "text" :contains "mot",
-    header :matches "Subject" "*"
-    )
-    {
-    deleteheader "Subject";
-    addheader "Subject" "<SPAM> ${1}";
-    }
-    ```
+### Add a `<SPAM>` prefix to the subject of an e-mail comprising a key word to define (whether in the subject or in the body text)
+
+```
+require ["editheader", "variables", "body"] ;
+if allof (
+header :contains "subject" "mot",
+header :matches "Subject" "*"
+)
+{
+deleteheader "Subject";
+addheader "Subject" "<SPAM> ${1}";
+}
+elsif allof (
+body :content "text" :contains "mot",
+header :matches "Subject" "*"
+)
+{
+deleteheader "Subject";
+addheader "Subject" "<SPAM> ${1}";
+}
+```
+
+### Use headers in variables for automatic reponses
+
+```
+require ["variables", "vacation"];
+
+# Store subject header in variable
+if header :matches "Subject" "*" {
+        set "subj" "**${1}**";
+}
+
+# Auto-reply
+vacation
+  :days 1
+  :subject "Out-of-office [Was: ${subj}]"
+"Hello,
+We've received your last message:
+
+${subj}
+
+We're currently out-of-office and will reply soon.";
+```
 
 ---
 
