@@ -54,7 +54,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 
 ## Autres informations
 
-Lorsque la case "*2FA nécessaire*" est cochée, l'utilisateur en question doit se connecter [avec 2 facteurs]({{< ref "security/two-factor-authentication" >}}) pour accéder aux menus auxquels on lui à donner accès.
+Lorsque la case "*2FA nécessaire*" est cochée, l'utilisateur en question doit se connecter [avec 2 facteurs]({{< ref "security/two-factor-authentication" >}}) pour accéder aux menus auxquels on lui a donné accès.
 
 Il est possible de supprimer les permissions que nous avons sur d'autres profils via le menu **Permissions > Mes permissions**. La suppression ne s'effectue pas finement, elles le seront toutes.
 

@@ -12,6 +12,8 @@ Those services are declared in the [administration panel](https://admin.alwaysda
 
 {{< fig "admin-panel_create-service.en.png" "Ad­mi­nis­tration Panel: Create a Service" >}}
 
+The service is considered functional when the command does not stop and runs in the *foreground*.
+
 When you need to join your service from an external application, you *must* pick a port in the `8300` and `8499` range, and attach your service on `::` (IPv6 only). Your service will be reachable on this port at the address `services-[account].alwaysdata.net:[PORT]`[^1].
 
 {{% notice warning %}}
