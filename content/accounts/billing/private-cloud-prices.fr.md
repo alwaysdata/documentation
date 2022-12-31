@@ -6,7 +6,7 @@ hidden = true
 tags = ["facturation", "serveur dédié", "serveur gold", "serveur VPS"]
 +++
 
-Cette page recence les prix des configurations Cloud Privé. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
+Cette page recence les prix (hors taxes) des configurations Cloud Privé. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
 
 Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
@@ -28,8 +28,8 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | Disques         | 100 Go SSD        | 200 Go SSD        |
 | Réseau          | 1 Gbps            | 1 Gbps            |
 | Trafic/mois     | 1 To              | 1 To              |
-| Tarif/mois (HT) | 149 €             | 199 €             |
-| Tarif/an (HT)   | 1590 €            | 2190 €            |
+| Paiement annuel  | 139 €/mois             | 189 €/mois             |
+| Paiement mensuel | 159 €/mois             | 209 €/mois             |
 
 ## Serveurs dédiés infogérés
 
@@ -37,32 +37,32 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 * Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.9 %
 
-| Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |
+| Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
 | **Disques**           | 1 To NVMe • RAID1                  |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
-| **Total**             |                                    | 389 €           | 4189 €        |
+| **Total**             |                                    | 369 €/mois           | 409 €/mois         |
 
 ---
 
-| Options                             | Tarif/mois (HT) | Tarif/an (HT) |
-| ----------------------------------- | --------------- | ------------- |
-| **CPU**                             |                 |               |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €          | + 600 €       |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €         | + 3000 €      |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €         | + 6000 €      |
-| **Disques**                         |                 |               |
-| 2 To NVMe • RAID1                   | + 70 €          | + 700 €       |
-| 4 To NVMe • RAID1                   | + 170 €         | + 1700 €      |
-| 8 To NVMe • RAID1                   | + 370 €         | + 3700 €      |
-| **RAM**                             |                 |               |
-| 16 Go [^1]                          | + 10 €          | + 100 €       |
-| **Trafic/mois**                     |                 |               |
-| 1 To (1 Gbps) [^2]                  | + 10 €          | + 100 €       |
+| Options                             | Tarifs          |
+| ----------------------------------- | --------------- |
+| **CPU**                             |                 |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €/mois          |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €/mois         |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €/mois         |
+| **Disques**                         |                 |
+| 2 To NVMe • RAID1                   | + 70 €/mois          |
+| 4 To NVMe • RAID1                   | + 170 €/mois         |
+| 8 To NVMe • RAID1                   | + 370 €/mois         |
+| **RAM**                             |                 |
+| 16 Go [^1]                          | + 10 €/mois          |
+| **Trafic/mois**                     |                 |
+| 1 To (1 Gbps) [^2]                  | + 10 €/mois          |
 
-Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
+Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 
 Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
 
@@ -74,30 +74,30 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 * Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.95 %
 
-| Configuration de base |                                    | Tarif/mois (HT) | Tarif/an (HT) |
+| Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
 | **Disques**           | 1 To NVMe • RAID1                  |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
-| **Total**             |                                    | 990 €           | 10890 €       |
+| **Total**             |                                    | 949 €/mois          | 1039 €/mois       |
 
 ---
 
-| Options                             | Tarif/mois (HT) | Tarif/an (HT) |
-| ----------------------------------- | --------------- | ------------- |
-| **CPU**                             |                 |               |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €         | + 1200 €      |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €         | + 6000 €      |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €        | + 12000 €     |
-| **Disques**                         |                 |               |
-| 2 To NVMe • RAID1                   | + 140 €         | + 1400 €      |
-| 4 To NVMe • RAID1                   | + 340 €         | + 3400 €      |
-| 8 To NVMe • RAID1                   | + 740 €         | + 7400 €      |
-| **RAM**                             |                 |               |
-| 16 Go [^1]                          | + 20 €          | + 200 €       |
-| **Trafic/mois**                     |                 |               |
-| 1 To (1 Gbps) [^2]                  | + 20 €          | + 200 €       |
+| Options                             | Tarif           |
+| ----------------------------------- | --------------- |
+| **CPU**                             |                 |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €/mois         |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €/mois         |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €/mois        |
+| **Disques**                         |                 |
+| 2 To NVMe • RAID1                   | + 140 €/mois         |
+| 4 To NVMe • RAID1                   | + 340 €/mois         |
+| 8 To NVMe • RAID1                   | + 740 €/mois         |
+| **RAM**                             |                 |
+| 16 Go [^1]                          | + 20 €/mois          |
+| **Trafic/mois**                     |                 |
+| 1 To (1 Gbps) [^2]                  | + 20 €/mois          |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 

@@ -6,7 +6,7 @@ hidden = true
 tags = ["cloud public", "facturation"]
 +++
 
-Cette page recence les prix des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).
+Cette page recence les prix (hors taxes) des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).
 
 * Garantie de Temps d'Intervention (GTI) : 1h
 * Garantie de Temps de Rétablissement (GTR) : 4h
@@ -16,8 +16,8 @@ Cette page recence les prix des configurations Cloud Public. Pour plus d'informa
 | ----------------- | ---------------- | ------------ | ----------- | ----------- | ---------------- | ---------------- | ---------------- |
 | Sites et domaines | Illimités        | Illimités    | Illimités   | Illimités   | Illimités        | Illimités        | Illimités        |
 | Usage             | Trafic limité    | Trafic moyen | Fort trafic | Fort trafic | Fort trafic      | Fort trafic      | Fort trafic      |
-| Tarif/mois (HT)   | Gratuit          | 8 €          | 12 €        | 25 €        | 45 €             | 65 €             | 125 €            |
-| Tarif/an (HT)     | Gratuit          | 80 €         | 120 €       | 250 €       | 450 €            | 650 €            | 1250 €           |
+| Paiement annuel   | Gratuit          | 7 €/mois          | 11 €/mois        | 22 €/mois        | 39 €/mois             | 59 €/mois             | 109 €/mois            |
+| Paiement mensuel     | Gratuit          | 8 €/mois          | 13 €/mois        | 27 €/mois        | 49 €/mois             | 69 €/mois             | 135 €/mois            |
 
 Le [changement de configuration Cloud Public]({{< ref "accounts/billing/upgrade-your-plan" >}}) se passe via le menu **Comptes**.
 

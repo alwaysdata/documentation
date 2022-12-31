@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "dedicated server", "gold server", "vps"]
 +++
 
-This page lists the prices of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).
+This page lists the prices (VAT excluded) of the Private Cloud configurations. To have more information and a custom configuration contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).
 
 For any Private Cloud configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
@@ -26,8 +26,8 @@ For any Private Cloud configuration order, the installation of the server is don
 | Disks                      | 100GB SSD        | 200GB SSD        |
 | Network                    | 1Gbps            | 1Gbps            |
 | Traffic/month              | 1TB              | 1TB              |
-| Price/month (VAT excluded) | 149 €            | 199 €            |
-| Price/year (VAT excluded)  | 1590 €           | 2190 €           |
+| Annual payment             | 139 €/mo            | 189 €/mo            |
+| Monthly payment            | 159 €/mo            | 209 €/mo            |
 
 ## Managed Dedicated servers
 
@@ -35,30 +35,30 @@ For any Private Cloud configuration order, the installation of the server is don
 * Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.9%
 
-| Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |
+| Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                            |                           |
 | **Disks**             | SSD 1TB NVMe • RAID1               |                            |                           |
 | **RAM**               | 16GB                               |                            |                           |
 | **Traffic/month**     | 3TB (1 Gbps)                       |                            |                           |
-| **Total**             |                                    | 389 €                      | 4189 €                    |
+| **Total**             |                                    | 369 €/mo                      | 409 €/mo                    |
 
 ---
 
-| Options                             | Price/month (VAT excluded) | Price/year (VAT excluded) |
-| ----------------------------------- | -------------------------- | ------------------------- |
-| **CPU**                             |                            |                           |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €                     | + 600 €                   |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €                    | + 3000 €                  |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €                    | + 6000 €                  |
-| **Disks**                           |                            |                           |
-| SSD 2TB NVMe • RAID1                | + 70 €                     | + 700 €                   |
-| SSD 4TB NVMe • RAID1                | + 170 €                    | + 1700 €                  |
-| SSD 8TB NVMe • RAID1                | + 370 €                    | + 3700 €                  |
-| **RAM**                             |                            |                           |
-| 16GB [^1]                           | + 10 €                     | + 100 €                   |
-| **Traffic/month**                   |                            |                           |
-| 1TB (1Gbps) [^2]                    | + 10 €                     | + 100 €                   |
+| Options                             | Price                      |
+| ----------------------------------- | -------------------------- |
+| **CPU**                             |                            |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €/mo                     |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €/mo                    |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €/mo                    |
+| **Disks**                           |                            |
+| SSD 2TB NVMe • RAID1                | + 70 €/mo                     |
+| SSD 4TB NVMe • RAID1                | + 170 €/mo                    |
+| SSD 8TB NVMe • RAID1                | + 370 €/mo                    |
+| **RAM**                             |                            |
+| 16GB [^1]                           | + 10 €/mo                     |
+| **Traffic/month**                   |                            |
+| 1TB (1Gbps) [^2]                    | + 10 €/mo                     |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
@@ -72,30 +72,30 @@ Dedicated server redunded[^3] in another datacenter.
 * Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.95%
 
-| Base configuration    |                                    | Price/month (VAT excluded) | Price/year (VAT excluded) |
+| Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                            |                           |
 | **Disks**             | SSD 1TB NVMe • RAID1               |                            |                           |
 | **RAM**               | 16GB                               |                            |                           |
 | **Traffic/month**     | 3TB (1Gbps)                        |                            |                           |
-| **Total**             |                                    | 990 €                      | 10890 €                   |
+| **Total**             |                                    | 949 €/mo                      | 1039 €/mo                   |
 
 ---
 
-| Options                             | Price/month (VAT excluded) | Price/year (VAT excluded) |
-| ----------------------------------- | -------------------------- | ------------------------- |
-| **CPU**                             |                            |                           |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €                    | + 1200 €                  |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €                    | + 6000 €                  |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €                   | + 12000 €                 |
-| **Disks**                           |                            |                           |
-| SSD 2TB NVMe • RAID1                | + 140 €                    | + 1400 €                  |
-| SSD 4TB NVMe • RAID1                | + 340 €                    | + 3400 €                  |
-| SSD 8TB NVMe • RAID1                | + 740 €                    | + 7400 €                  |
-| **RAM**                             |        	             |                           |
-| 16GB [^1]                           | + 20 €	             | + 200 €                   |
-| **Traffic/month**                   |      		             |                           |
-| 1TB (1Gbps) [^2]                    | + 20 €                     | + 200 €                   |
+| Options                             | Price                      |
+| ----------------------------------- | -------------------------- |
+| **CPU**                             |                            |
+| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €/mo                    |
+| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €/mo                    |
+| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €/mo                   |
+| **Disks**                           |                            |
+| SSD 2TB NVMe • RAID1                | + 140 €/mo                    |
+| SSD 4TB NVMe • RAID1                | + 340 €/mo                    |
+| SSD 8TB NVMe • RAID1                | + 740 €/mo                    |
+| **RAM**                             |        	                   |
+| 16GB [^1]                           | + 20 €/mo	                   |
+| **Traffic/month**                   |      		               |
+| 1TB (1Gbps) [^2]                    | + 20 €/mo                     |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 

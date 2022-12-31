@@ -5,7 +5,7 @@ hidden = true
 tags = ["billing", "public cloud"]
 +++
 
-This page lists the prices of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).
+This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).
 
 * Guaranteed Response Time (GRT): 1hr
 * Mean Time To Repair (MTTR): 4hr
@@ -15,8 +15,8 @@ This page lists the prices of the Public Cloud configurations. To have more info
 | ------------------ | --------------- | -------------- | ------------- | ------------- | --------------- | --------------- | --------------- |
 | Websites & domains | Unlimited       | Unlimited      | Unlimited     | Unlimited     | Unlimited       | Unlimited       | Unlimited       |
 | Use-cases          | Limited traffic | Medium traffic | Large traffic | Large traffic | Large traffic   | Large traffic   | Large traffic   |
-| Price/month (HT)   | Free            | 8 €            | 12 €          | 25 €          | 45 €            | 65 €            | 125 €           |
-| Price/year (HT)    | Free            | 80 €           | 120 €         | 250 €         | 450 €           | 650 €           | 1250 €          |
+| Annual payment   | Free            | 7 €/mo          | 11 €/mo        | 22 €/mo        | 39 €/mo             | 59 €/mo             | 109 €/mo            |
+| Monthly payment    | Free            | 8 €/mo            | 13 €/mo          | 27 €/mo          | 49 €/mo            | 69 €/mo            | 135 €/mo           |
 
 The [Public Cloud configuration change]({{< ref "accounts/billing/upgrade-your-plan" >}}) is done through the **Accounts** menu.
 
