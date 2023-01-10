@@ -32,7 +32,9 @@ Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le lan
 
 Une page blanche sans message ni code d'erreur signifie généralement un problème applicatif : le code renvoyé par les logs HTTP est *200*, indiquant que la requête atteint l'application. Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.
 
-## Dans des logs
+## Logs Apache
+
+Les logs sont disponibles dans le répertoire `$HOME/logs/apache`.
 
 ### Broken pipe / Connection reset by peer
 
@@ -41,6 +43,16 @@ Broken pipe: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_requ
 (104)Connection reset by peer: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
 ```
 
-Ce message d'erreur - que vous pouvez entre autres trouver dans les logs Apache ($HOME/logs/apache) - indique que la connexion a été rompue par le client. Par exemple, parce que le visiteur a fermé son onglet alors que la page n'était pas complètement chargée. Cela n'a rien d'anormal.
+La connexion a été rompue par le client. Par exemple, parce que le visiteur a fermé son onglet alors que la page n'était pas complètement chargée. **Cela n'a rien d'anormal.**
+
+### Premature end of script headers
+
+```txt
+Premature end of script headers: index.php, referer: https://exemple.com
+```
+
+Le *serveur* s'est arrêté subitement et Apache renvoie une erreur 500. **Cela ne doit pas arriver en situation normale.** Cela peut provenir de nombreuses raisons (bug PHP, bug applicatif, processus PHP tué par le kernel, etc.).
+
+Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, [logs PHP]({{< ref "languages/php/configuration" >}}#logs-derreur)...
 
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)

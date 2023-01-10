@@ -32,7 +32,9 @@ These errors may be returned by web servers (e.g. Apache), language runtime, or 
 
 An empty page without a message or error code usually indicates an application issue: the returned code by HTTP logs is *200*, stating that the request reached the application. Set debug logs to get more inputs on how to fix it.
 
-## In logs
+## Apache logs
+
+Logs are available in the `$HOME/logs/apache` directory.
 
 ### Broken pipe / Connection reset by peer
 
@@ -41,6 +43,16 @@ Broken pipe: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_requ
 (104)Connection reset by peer: [client X.X.X.X:0] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
 ```
 
-This error message - which you can find, among others, in the Apache logs ($HOME/logs/apache) - indicates that the connection was broken by the client. For example, because the visitor closed his tab while the page was not fully loaded. This is nothing unusual.
+The connection was broken by the client. For example, because the visitor closed his tab while the page was not fully loaded. **This is nothing unusual.**
+
+### Premature end of script headers
+
+```txt
+Premature end of script headers: index.php, referer: https://exemple.com
+```
+
+The *server* stopped suddenly and Apache returned a 500 error. **This should not happen under normal circumstances.** This can be caused by many reasons (PHP bug, application bug, PHP process killed by the kernel, etc.).
+
+You need to analyze all the logs at your disposal to find the cause: application logs, [PHP logs]({{< ref "languages/php/configuration" >}}#error-logs)...
 
 [^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
