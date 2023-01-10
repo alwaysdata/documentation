@@ -20,7 +20,7 @@ Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exe
 {{% /notice %}}
 
 {{% notice note %}}
-Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. In our case, la case **Nom d'hôte** devra être vide.
+Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. Dans notre cas, la case **Nom d'hôte** devra être vide.
 {{% /notice %}}
 
 - [Ajouter un enregistrement SRV]({{< ref "domains/add-srv-record" >}})
