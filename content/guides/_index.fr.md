@@ -27,3 +27,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 
 - [Django]({{< ref "/languages/python/django" >}})
 - [Ruby on Rails]({{< ref "/languages/ruby/ruby-on-rails" >}})
+
+## Déploiements
+
+- [Déployer une application React]({{< relref "deploy-react-app" >}})
