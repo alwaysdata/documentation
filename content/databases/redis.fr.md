@@ -11,7 +11,7 @@ tags = ["base de données", "redis"]
 |             |                              |
 |-------------|------------------------------|
 | **Serveur** | localhost ou 127.0.0.1       |
-| **Port**    | 6380 (Port Redis par défaut) |
+| **Port**    | 6379 (Port Redis par défaut) |
 
 Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 

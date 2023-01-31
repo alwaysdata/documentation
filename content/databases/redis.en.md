@@ -10,7 +10,7 @@ tags = ["databases", "redis"]
 |||
 |--- |--- |
 |Server|localhost or 127.0.0.1|
-|Port|6380 (Redis port by default)|
+|Port|6379 (Redis port by default)|
 
 Redis only runs in local mode with isolated permissions (separate user).
 
