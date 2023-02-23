@@ -25,7 +25,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |                            | Secondaire : dns2.alwaysdata.com                                                                          |
 | MX                         | Primaire : mx1.alwaysdata.com (TTL : 10)                                                                  |
 |                            | Secondaire : mx2.alwaysdata.com (TTL : 20)                                                                |
-|                            | si [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) : [serveur].alwaysdata.net (TTL : 5)                                                 |
+|                            | si [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) : [serveur].alwaysdata.net (TTL : 5) |
 | **Bases de données**       |                                                                                                           |
 | MySQL                      | Hôte : mysql-[compte].alwaysdata.net                                                                      |
 |                            | Port : 3306                                                                                               |
@@ -51,7 +51,7 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | POP3                       | Hôte : pop-[compte].alwaysdata.net                                                                        |
 |                            | Ports : 110, sécurisé : 995                                                                               |
 | SMTP                       | Hôte : smtp-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 25 et 587, sécurisé : 465                                                                         |
+|                            | Ports : 25 et 587                                                                                         |
 |                            | Identification : nécessaire (adresse email et mot de passe associé)                                       |
 | **Accès distant**          |                                                                                                           |
 | FTP                        | Hôte : ftp-[compte].alwaysdata.net                                                                        |

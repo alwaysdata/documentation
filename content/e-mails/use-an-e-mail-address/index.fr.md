@@ -22,7 +22,7 @@ Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou 
 |         |                                                                        | Ports : 110, sécurisé : 995                         |
 |         |                                                                        | Identifiant : adresse email et mot de passe associé |
 | Sortant | [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)    | Hôte : smtp-[compte].alwaysdata.net                 |
-|         |                                                                        | Ports : 25 ou 587, sécurisé : 465                   |
+|         |                                                                        | Ports : 25 ou 587                                   |
 |         |                                                                        | Identifiant : adresse email et mot de passe associé |
 
 {{% notice note %}}
@@ -31,7 +31,7 @@ Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa cré
 
 L'authentification par mot de passe est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes identifiants que pour le serveur entrant.
 
-Il peut arriver que votre fournisseur d'accès bloque le port _25_ destiné à l'envoi de vos emails. Dans ce cas, vous pouvez modifier le port en faveur du _587_ ou utiliser le serveur SMTP de votre fournisseur.
+Le port SMTP par défaut est le port _587_. Une fois connecté le client peut basculer en mode sécurisé. Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
 
 * [Configurer Apple/iOS]({{< ref "e-mails/clients/apple-ios" >}})
 * [Configurer Gmail]({{< ref "e-mails/clients/gmail" >}})

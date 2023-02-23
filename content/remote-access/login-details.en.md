@@ -23,7 +23,7 @@ it was created.
 |                          | Secondary: dns2.alwaysdata.com                                                                     |
 | MX                       | Primary: mx1.alwaysdata.com (TTL: 10)                                                              |
 |                          | Secondary: mx2.alwaysdata.com (TTL: 20)                                                            |
-|                          | if [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}): [server].alwaysdata.net (TTL: 5)                                          |
+|                          | if [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}): [server].alwaysdata.net (TTL: 5) |
 | **Databases**            |                                                                                                    |
 | MySQL                    | Host: mysql-[account].alwaysdata.net                                                               |
 |                          | Port: 3306                                                                                         |
@@ -49,7 +49,7 @@ it was created.
 | POP3                     | Host: pop-[account].alwaysdata.net                                                                 |
 |                          | Ports: 110, secured: 995                                                                           |
 | SMTP                     | Host: smtp-[account].alwaysdata.net                                                                |
-|                          | Ports: 25 & 587, secured: 465                                                                      |
+|                          | Ports: 25 & 587                                                                                    |
 |                          | Identification: e-mail (address and the password assigned to it)                                   |
 | **Remote access**        |                                                                                                    |
 | FTP                      | Host: ftp-[account].alwaysdata.net                                                                 |
