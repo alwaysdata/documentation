@@ -9,7 +9,7 @@ tags = ["php"]
 
 ## Managing extensions
 
-A PHP extension comes in the form of a file with an `.so` extension. To load it, you need to add to your `php.ini` file (Environment > PHP or at the website level in Web > Sites). Here's and example for *YAML* extension:
+A PHP extension comes in the form of a file with an `.so` extension. To load it, you need to add to your `php.ini` file (**Environment > PHP** or at the website level in **Web > Sites**). Here's and example for *YAML* extension:
 
 ```ini
 extension = /home/[account]/[extension].so
