@@ -33,7 +33,7 @@ The following list includes vulnerability reports not accepted by our services a
 * “https://files.alwaysdata.com” features public files;
 * the password reset link expires after 3 days or upon the next login to the administration interface; 
 * a user may reuse an old password. This is not a [NIST-listed best practice](https://pages.nist.gov/800-63-3/sp800-63-3.html);
-* verification of the email at registration is only a practice, not a flaw. We believe that requesting this verification would not limit the number of fraudulent accounts;
+* email verification (whether during registration, profile information modification, or otherwise) is simply a best practice, not a vulnerability;
 * HTML and XSS injections in the administration interface would only target the attacker and therefore cannot be flaws;
 * we do not use CDN, and our IPs are public;
 * the version number of the software we use [cannot be critical]({{< ref "security/security-upgrades" >}}).

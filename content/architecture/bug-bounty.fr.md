@@ -33,7 +33,7 @@ La liste suivante reprend des rapports de vulnérabilité non acceptés par nos 
 * `https://files.alwaysdata.com` présente des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface d'administration ; 
 * un utilisateur peut réutiliser un ancien mot de passe. Ce n'est pas une [bonne pratique listée par NIST](https://pages.nist.gov/800-63-3/sp800-63-3.html) ;
-* la vérification de l'email à l'inscription n'est qu'une pratique, non une faille. Nous pensons que demander cette vérification ne limiterait pas le nombre de comptes frauduleux ;
+* la vérification de l'email (que ce soit à l'inscription, à la modification d'informations de profil ou autre) n'est qu'une pratique, non une faille ;
 * les injections HTML et XSS dans dans l'interface d'administration ne cibleraient que l'attaquant et ne peuvent donc être des failles ;
 * nous n'utilisons pas de CDN et nos IP sont publiques ;
 * le numéro de version des logiciels que nous utilisons [ne peut être déterminant]({{< ref "security/security-upgrades" >}}).
