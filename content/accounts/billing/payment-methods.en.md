@@ -15,11 +15,10 @@ We offer the following options:
 
 - Credit card,
 - PayPal,
-- Check: send your check to *ALWAYSDATA - 91 Rue du Faubourg Saint Honoré, 75008 Paris, France* (made out to *ALWAYSDATA*). Also state your *customer number* or your *bill number* on the back of the check,
 - Bank transfer: make your transfer to our [bank account](https://static.alwaysdata.com/docs/IBAN.pdf) stating your *customer number* or your *bill number* in the transfer comments.
 
 {{% notice note %}}
-Credits to your account by *bank transfer* or *check* will appear in your interface as soon as they have been processed by our team. This may take a few days.
+Credits to your account by *bank transfer* will appear in your interface as soon as they have been processed by our team. This may take a few days.
 {{% /notice %}}
 
 ### Credit cards are accepted
