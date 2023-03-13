@@ -49,7 +49,7 @@ Un enregistrement SPF est créé par défaut, à retrouver dans l'onglet **Enreg
 {{< fig "images/spf-record.png" "Enregistrement SPF" >}}
 
 - `include:_spf.alwaysdata.com` **autorise explicitement nos serveurs** à envoyer des emails ;
-- `?all` envoie un résultat neutre pour les autres serveurs d'envois.
+- `~all` envoie un léger échec "SOFTMAIL" pour les autres serveurs d'envois.
 
 Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, il faudra, chez le prestataire DNS, ajouter `include:_spf.alwaysdata.com` à l'enregistrement SPF.
 

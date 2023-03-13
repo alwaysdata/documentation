@@ -49,7 +49,7 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 {{< fig "images/spf-record.png" "SPF record" >}}
 
 - `include:_spf.alwaysdata.com` **explicitly allows our servers** to send e-mails,
-- `?all` sends a neutral result for the other sender servers.
+- `~all` sends a slight "SOFTMAIL" failure result for the other sender servers.
 
  If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add `include:_spf.alwaysdata.com` to the SPF registration.
 
