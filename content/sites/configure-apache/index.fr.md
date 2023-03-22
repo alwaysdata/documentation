@@ -24,3 +24,5 @@ Une fois le fichier `.so` compilé et ajouté à votre [espace de fichiers]({{< 
 ```
 LoadModule <MODULE> $HOME/chemin/vers/le/module.so
 ```
+
+- [GeoIP]({{< ref "guides/geoip" >}})

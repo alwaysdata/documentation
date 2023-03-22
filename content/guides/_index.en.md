@@ -13,6 +13,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Blackfire]({{< relref "blackfire" >}})
 - [Blazegraph]({{< relref "blazegraph" >}})
 - [FFmpeg]({{< relref "ffmpeg" >}})
+- [GeoIP]({{< relref "geoip" >}})
 - [GitLab]({{< relref "gitlab" >}})
 - [MapServer CGI]({{< relref "mapserver" >}})
 - [Mattermost]({{< relref "mattermost" >}})

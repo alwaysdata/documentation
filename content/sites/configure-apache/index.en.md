@@ -24,3 +24,5 @@ Once the `.so` file is compiled and added to your [file space]({{< ref "remote-a
 ```
 LoadModule <MODULE> $HOME/path/to/module.so
 ```
+
+- [GeoIP]({{< ref "guides/geoip" >}})
