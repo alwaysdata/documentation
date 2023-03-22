@@ -13,6 +13,6 @@ It is useful when there are addresses pointing to the server at the DNS level bu
 
 ## Idle time
 
-Choose the duration after which the system stops the application in case of long-term inactivity. Once an HTTP request is executed, the application will be restarted.
+To configure in the menu **Web > Sites > Modify the [site] - ⚙️ > Advanced**. Choose the duration after which the system stops the application in case of long-term inactivity. Once an HTTP request is executed, the application will be restarted.
 
 To ensure that an application is never stopped by the system, set the value to `0`.

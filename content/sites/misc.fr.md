@@ -14,6 +14,6 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 
 ## Temps d'inactivité
 
-Cela permet de choisir la durée après laquelle le système arrête l'application ; en cas d'absence d'activité prolongée. Dès qu'une requête HTTP sera exécutée, l'application sera relancée.
+À paramétrer dans le menu **Web > Sites > Modifier le [site] - ⚙️ > Avancé**. Cela permet de choisir la durée après laquelle le système arrête l'application ; en cas d'absence d'activité prolongée. Dès qu'une requête HTTP sera exécutée, l'application sera relancée.
 
 Pour garantir qu'une application ne soit jamais arrêtée par le système, indiquez comme valeur `0`.
