@@ -15,3 +15,10 @@ Représentation : `*@exemple.org`
 - Cela risque d'amasser une quantité importante de spam. Il est donc conseillé d'activer l'anti-spam sur cette adresse ;
 - Les emails d'erreurs normalement envoyés à des adresses n'existant pas ne le seront plus. À vous d'alerter les expéditeurs pouvant croire que l'adresse est valide.
 
+## Divers
+
+- De part ses spécificités, il n'est pas possible de mettre en place réponse automatique. Cela pourrait sinon provoquer des vagues de spam.
+	- Néanmoins il est possible de l'utiliser pour des destinataires précis via les [scripts Sieve]({{< ref "e-mails/use-sieve-scripts">}}) en ajoutant ces adresses destinataires dans les instructions `vacation` :
+
+	```
+	addresses ["foo@exemple.org", "bar@exemple.org"]
