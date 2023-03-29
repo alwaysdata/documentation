@@ -12,7 +12,7 @@ Via the **Advanced > Scheduled tasks** menu in your administration interface, en
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
 - A log is created automatically and is available from the `$HOME/admin/logs/jobs/` directory. It gives you the start and end of the task.
-	- An extract of these logs is presented in the administration’s interface (Logs - 📄).
+	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
 - For accounts on the Public Cloud, the consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
 {{% notice note %}}

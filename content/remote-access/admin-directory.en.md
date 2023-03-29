@@ -34,6 +34,8 @@ It also gathers different types of logs:
 - _apache_: a log for all applications using this web (PHP and Apache custom),
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
 
+The alwaysdata administration's interface presents an excerpt of these logs (**Logs** - 📄).
+
 {{% notice info %}}
 A **retention period** of logs can be set up for each account via the **Advanced > Logs** menu. For Private Cloud it is possible to do it at the server level in its **HTTP** menu.
 *All logs (http, sites, jobs...) will be deleted once the desired period has passed.*

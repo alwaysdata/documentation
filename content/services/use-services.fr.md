@@ -15,7 +15,7 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 - Il doit rester en avant plan (`foreground`) et non forker et quitter [^2] ;
 - S'il veut écouter sur un port il doit être attaché en _IPv6_ sur `::` et écouter un port entre `8300` et `8499` ;
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/services/`. Il vous donne le démarrage et l'arrêt du service.
-	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
 * Pour les utilisateurs du Cloud Public :
 	- les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
 	- la consommation doit rester raisonnable ;
