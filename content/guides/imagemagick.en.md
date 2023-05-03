@@ -17,12 +17,11 @@ By default, our platform offers version `6.9.10-23 Q16` of this tool (available 
 ```sh
 $ wget https://imagemagick.org/archive/binaries/magick
 $ chmod +x magick
-$ ./magick --appimage-extract usr/bin
-$ ./magick --appimage-extract usr/include
-$ ./magick --appimage-extract usr/lib
-$ mkdir -p $HOME/.local/{bin,share}
-$ mv ./squashfs-root/usr $HOME/.local/share/imagick
-$ ln -sf $HOME/.local/share/imagick/bin/* $HOME/.local/bin
+$ ./magick --appimage-extract usr
+$ mkdir -p $HOME/{.config/ImageMagick,.local/{bin,share/ImageMagick}}
+$ cp -a squashfs-root/usr/{bin,lib,include} $HOME/.local/share/ImageMagick/
+$ cp -a squashfs-root/usr/{share,etc}/ImageMagick-7/*.xml $HOME/.config/ImageMagick/
+$ ln -sf $HOME/.local/share/ImageMagick/bin/* $HOME/.local/bin/
 $ rm -r magick squashfs-root
 ```
 
