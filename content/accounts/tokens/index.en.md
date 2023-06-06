@@ -15,3 +15,5 @@ For even more security generate one per application.
 {{% /notice %}}
 
 As for the alwaysdata administration interface you can give access to only [few IPs]({{< ref "security/ip-access-authorization" >}}).
+
+They have the same [permissions]({{< ref "accounts/permissions" >}}) as the profile they are linked to.

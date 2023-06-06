@@ -16,3 +16,5 @@ Pour encore plus de sécurité, générez en un par application.
 {{% /notice %}}
 
 Comme pour l'interface d'administration vous pouvez ne donner accès qu'à [certaines IP]({{< ref "security/ip-access-authorization" >}}).
+
+Ils ont les mêmes [permissions]({{< ref "accounts/permissions" >}}) que le profil auquel ils sont liés.
