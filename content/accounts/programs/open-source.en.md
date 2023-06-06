@@ -13,4 +13,6 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 
 - [Agorakit](https://agorakit.org/)
 - AllegianceOS
+- [Colocauto](https://www.colocauto.org)
+- scenery database for FlightGear flight-simulator
 - [I Hate Money](https://ihatemoney.org/)
