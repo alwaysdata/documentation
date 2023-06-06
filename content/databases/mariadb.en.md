@@ -45,7 +45,7 @@ Several options :
 - use the following command :
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
+    $ zstdcat $HOME/admin/backup/[date]/mysql/[database].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
     ```
 
 - get the tarbal and use the client of your choice.

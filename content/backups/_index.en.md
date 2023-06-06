@@ -3,7 +3,7 @@ title = "Backups"
 pre = "<i class='fas fa-fw fa-history'></i> "
 weight = 34
 chapter = true
-tags = ["backup"]
+tags = ["backup", "recovery"]
 +++
 
 # Backups

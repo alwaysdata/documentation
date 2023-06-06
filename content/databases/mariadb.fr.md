@@ -46,7 +46,7 @@ Plusieurs possibilités :
 - utiliser la commande suivante :
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
+    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
     ```
 
 - récupérer l'archive et utiliser le client de son choix.

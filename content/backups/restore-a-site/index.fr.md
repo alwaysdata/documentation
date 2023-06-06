@@ -4,7 +4,7 @@ title = "Comment restaurer un site web"
 menuTitle = "Restaurer un site"
 layout = "howto"
 weight = 5
-tags = ["base de données", "sauvegarde", "site"]
+tags = ["base de données", "récupération", "sauvegarde", "site"]
 +++
 
 Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire `$HOME/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
@@ -43,13 +43,13 @@ Pour effectuer un test ajoutez `-n`.
 - Restaurer une base de données MySQL :
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
+    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
     ```
 
 - Restaurer une base de données PostgreSQL :
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
+    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
     ```
 
 [^1]: Il n'est pas obligatoire de restaurer à la fois bases et fichiers.

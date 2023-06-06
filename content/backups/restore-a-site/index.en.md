@@ -3,7 +3,7 @@ title = "How to restore a site"
 menuTitle = "Restore a site"
 layout = "howto"
 weight = 5
-tags = ["databases", "backup", "site"]
+tags = ["backup", "databases", "recovery", "site"]
 +++
 
 Backups of your files and databases are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
@@ -41,13 +41,13 @@ To restore a backup manually.
 - Restore a MySQL database:
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
+    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
     ```
 
 - Restore a PostgreSQL database:
 
     ```sh
-    $ xzcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
+    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
     ```
 
 [^1]: It is not mandatory to restore both databases and files.

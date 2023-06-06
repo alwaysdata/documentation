@@ -4,7 +4,7 @@ title = "Sauvegardes"
 pre = "<i class='fas fa-fw fa-history'></i> "
 weight = 34
 chapter = true
-tags = ["sauvegarde"]
+tags = ["récupération", "sauvegarde"]
 +++
 
 # Sauvegardes

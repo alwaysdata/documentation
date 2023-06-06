@@ -3,7 +3,7 @@ title = "How to restore e-mails"
 menuTitle = "Restore e-mails"
 layout = "howto"
 weight = 10
-tags = ["e-mail", "backup"]
+tags = ["backup", "e-mail", "recovery"]
 +++
 
 Backups of your e-mails are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
