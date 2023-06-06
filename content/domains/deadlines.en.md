@@ -138,6 +138,7 @@ Different dates apply:
 |.exposed|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.fail|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.farm|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
+|.family|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.fashion|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.finance|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.financial|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
