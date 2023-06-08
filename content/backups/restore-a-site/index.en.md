@@ -41,13 +41,13 @@ To restore a backup manually.
 - Restore a MySQL database:
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.xz | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
+    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
     ```
 
 - Restore a PostgreSQL database:
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
+    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
     ```
 
 [^1]: It is not mandatory to restore both databases and files.

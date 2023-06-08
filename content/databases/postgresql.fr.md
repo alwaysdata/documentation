@@ -67,7 +67,7 @@ Plusieurs possibilités :
 - utiliser la commande suivante :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.xz | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
+    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
     ```
 
 - récupérer l'archive et utiliser le client de son choix.

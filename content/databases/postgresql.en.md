@@ -65,7 +65,7 @@ Several options :
 - use the following command :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[database].sql.xz | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
+    $ zstdcat $HOME/admin/backup/[date]/postgresql/[database].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
     ```
 
 - get the tarbal and use the client of your choice.
