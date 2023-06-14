@@ -16,6 +16,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 - Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
 	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
 - The restart of a service sends the `SIGHUP` signal.
+- If a service fails repeatedly within a short period of time, it will be automatically disabled.
 * For Public Cloud users:
   - Services are executed on a distinct servers than SSH and HTTP servers.
   - Their resources use must remain fair.
