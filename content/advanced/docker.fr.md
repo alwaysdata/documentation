@@ -46,6 +46,9 @@ docker run -p $PORT:8080 jenkins/jenkins:lts-jdk11
 
 Vous devrez consulter la documentation de votre image Docker pour savoir quoi indiquer exactement.
 
+Par défaut, Docker écoute sur les IP privées du compte. Si il est nécessaire qu'il soit directement joignable depuis l'extérieur, il faut [indiquer l'IP externe](https://docs.docker.com/engine/reference/run/#expose-incoming-ports) avec l'option `-p`.
+
+
 {{% notice warning %}}
 **Les conteneurs Docker sont intégralement sous la responsabilité de nos utilisateurs. Aucune infogérance ou assistance ne pourra être apportée par alwaysdata.** En particulier, les images Docker intègrent généralement des logiciels comme Apache, PHP, MySQL, Redis... qui ne seront donc pas administrés, configurés ou surveillés par alwaysdata, contrairement à des applications qui tourneraient sans Docker. Pour cette raison, nous invitons vivement nos utilisateurs à n'utiliser Docker qu'en cas de besoin avéré, et à **systématiquement** demander conseil à notre support avant d'utiliser une image Docker. Dans bien des cas, il sera préférable de se passer de Docker - par exemple, en utilisant notre [marketplace]({{< ref "marketplace" >}}) ou un [guide d'installation]({{< ref "guides" >}}), permettant alors de bénéficier de l'infogérance alwaysdata, de meilleures performances et d'une fiabilité accrue.
 {{% /notice %}}
