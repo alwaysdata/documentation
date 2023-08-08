@@ -13,20 +13,7 @@ En France, tout éditeur de site internet (physique ou moral), qu’il le soit �
 
 Les mentions légales doivent obligatoirement apparaître de façon claire sur un site web. Celles-ci protègent les internautes et leur permettent d'identifier et de contacter le ou les éditeurs de toute site internet afin de faire respecter leurs droits.
 
-### **Hébergeur**
-
-- sa raison sociale ;
-- son adresse ;
-- son numéro de téléphone.
-
-Exemple pouvant être placé sur votre site :
-
-{{% notice %}}
-Hébergeur : ce site est hébergé par la société à responsabilité limitée [ALWAYSDATA](https://www.alwaysdata.com), ayant son siège social au 91 rue du Faubourg Saint-Honoré, 75008 Paris (tél. +33 1 84 16 23 40).
-{{% /notice %}}
-
-
-### **Personne morale**
+### Personne morale
 
 - sa raison sociale ;
 - l'adresse de son siège ;
@@ -38,6 +25,18 @@ Les personnes **physiques** ne doivent fournir que les informations sur l'héber
 La [loi pour la confiance dans l'économie numérique de juin 2004](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000005789847&dateTexte=20080724) (LCEN) prévoit de mettre à disposition des internautes une page facilement identifiable et accessible contenant ces informations légales.
 
 Les éditeurs sont tenus responsables de tout ce qui est accessible sur leur site (y compris les commentaires de tous types dont l'éditeur doit avoir obligation de contrôle et de modération). Ceux-ci doivent mettre en place un moyen (adresse email, formulaire de contact, etc.) pour les visiteurs de signaler un contenu choquant ou illicite.
+
+### Hébergeur
+
+- sa raison sociale ;
+- son adresse ;
+- son numéro de téléphone.
+
+Exemple pouvant être placé sur votre site :
+
+{{% notice %}}
+Hébergeur : ce site est hébergé par la société à responsabilité limitée [ALWAYSDATA](https://www.alwaysdata.com), ayant son siège social au 91 rue du Faubourg Saint-Honoré, 75008 Paris (tél. +33 1 84 16 23 40).
+{{% /notice %}}
 
 ## Données personnelles
 

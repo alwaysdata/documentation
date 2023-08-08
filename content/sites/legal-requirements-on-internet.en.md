@@ -11,18 +11,6 @@ Website publishers in France, whether they are private individuals or companies 
 
 The legal statements must appear clearly on any website. They protect web surfers, allowing them to identify and contact the one or more publishers of any website to ensure that their rights are respected.
 
-### Host
-
-- corporate entity,
-- address,
-- phone number.
-
-Here is an example that can be placed on your website:
-
-{{% notice %}}
-Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limited liability company with its head office at 91 Rue du Faubourg Saint-Honoré, 75008 Paris, France (phone +33 1 84 16 23 40).
-{{% /notice %}}
-
 ### Companies
 
 - corporate entity,
@@ -35,6 +23,18 @@ Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limi
 France's [Law for Trust in the Digital Economy of June 2004](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000005789847&dateTexte=20080724) (LCEN) plans to make available to web surfers an easily identifiable and accessible page comprising this legal information.
 
 Publishers are liable for everything that is accessible on their website (including comments of all kinds that the publisher is required to control and moderate). They are required to implement some way (e-mail address, contact form, etc.) for visitors to report any shocking or illegal content.
+
+### Hosting
+
+- corporate entity,
+- address,
+- phone number.
+
+Here is an example that can be placed on your website:
+
+{{% notice %}}
+Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limited liability company with its head office at 91 Rue du Faubourg Saint-Honoré, 75008 Paris, France (phone +33 1 84 16 23 40).
+{{% /notice %}}
 
 ## Personal data
 
