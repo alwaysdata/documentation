@@ -21,7 +21,7 @@ We offer the following options:
 Credits to your account by *bank transfer* will appear in your interface as soon as they have been processed by our team. This may take a few days.
 {{% /notice %}}
 
-### Credit cards are accepted
+### Accepted credit cards
 
 The credit cards accepted by our payment service provider are: Visa and MasterCard.
 
@@ -31,4 +31,4 @@ Enter your charge information - bank account or card number - in your administra
 
 This means of payment will be automatically debited the amount due. You no longer need to worry about paying for your alwaysdata hosting.
 
-When you choose a direct debit from your bank account, provide your bank with a [debit authorization](http://static.alwaysdata.com/docs/Prelevement.png).
+When you activate direct debit on your bank account, please provide your bank with a [direct debit authorization form](http://static.alwaysdata.com/docs/Prelevement.png).
