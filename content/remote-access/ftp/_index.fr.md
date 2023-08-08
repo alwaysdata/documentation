@@ -8,10 +8,11 @@ chapter = true
 
 # FTP
 
-FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le partage de fichiers sur un réseau TCP/IP.
+FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le partage de fichiers sur un réseau distant.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)
 - [Créer un utilisateur FTP]({{< relref "create-a-ftp-user" >}})
+- [Télécharger des fichiers avec FileZilla]({{< relref "use-filezilla" >}})
 - [Problèmes fréquents]({{< ref "remote-access/ftp/troubleshooting" >}})
 
 ## Se connecter en FTP
