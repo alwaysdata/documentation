@@ -67,11 +67,15 @@ DATABASES = {
         'NAME': 'mydatabase',
         'USER': 'mydatabaseuser',
         'PASSWORD': 'mypassword',
-        'HOST': 'postgresql-superman.alwaysdata.net',
+        'HOST': 'postgresql-[foo].alwaysdata.net',
         'PORT': '5432',
     }
 }
 ```
+
+{{% notice note %}}
+`[foo]` must be replaced by the accurate account name.
+{{% /notice %}}
 
 ## Adding a WSGI site
 
