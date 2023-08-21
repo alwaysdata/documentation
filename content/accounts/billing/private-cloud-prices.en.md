@@ -52,9 +52,10 @@ For any Private Cloud configuration order, the installation of the server is don
 | 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €/mo                    |
 | 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €/mo                    |
 | **Disks**                           |                            |
-| SSD 1.9TB NVMe • RAID1                | + 70 €/mo                     |
-| SSD 3.8TB NVMe • RAID1                | + 170 €/mo                    |
-| SSD 7.6TB NVMe • RAID1                | + 370 €/mo                    |
+| SSD 1.9TB NVMe • RAID1                | + 30 €/mo                     |
+| SSD 3.8TB NVMe • RAID1                | + 70 €/mo                    |
+| SSD 7.6TB NVMe • RAID1                | + 150 €/mo                    |
+| SSD 15TB NVMe • RAID1                | + 320 €/mo                    |
 | **RAM**                             |                            |
 | 16GB [^1]                           | + 10 €/mo                     |
 | **Traffic/month**                   |                            |
@@ -75,10 +76,10 @@ Dedicated server redunded[^3] in another datacenter.
 | Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                            |                           |
-| **Disks**             | SSD 960GB NVMe • RAID1               |                            |                           |
+| **Disks**             | SSD 960GB NVMe • RAID1             |                            |                           |
 | **RAM**               | 16GB                               |                            |                           |
 | **Traffic/month**     | 3TB (1Gbps)                        |                            |                           |
-| **Total**             |                                    | 949 €/mo                      | 1039 €/mo                   |
+| **Total**             |                                    | 949 €/mo                   | 1039 €/mo                |
 
 ---
 
@@ -89,9 +90,10 @@ Dedicated server redunded[^3] in another datacenter.
 | 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €/mo                    |
 | 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €/mo                   |
 | **Disks**                           |                            |
-| SSD 1.9TB NVMe • RAID1                | + 140 €/mo                    |
-| SSD 3.8TB NVMe • RAID1                | + 340 €/mo                    |
-| SSD 7.6TB NVMe • RAID1                | + 740 €/mo                    |
+| SSD 1.9TB NVMe • RAID1                | + 60 €/mo                    |
+| SSD 3.8TB NVMe • RAID1                | + 140 €/mo                    |
+| SSD 7.6TB NVMe • RAID1                | + 300 €/mo                    |
+| SSD 15TB NVMe • RAID1                | + 640 €/mo                    |
 | **RAM**                             |        	                   |
 | 16GB [^1]                           | + 20 €/mo	                   |
 | **Traffic/month**                   |      		               |
