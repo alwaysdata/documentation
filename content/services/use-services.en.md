@@ -24,15 +24,11 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 * For [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users:
 	- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
 
-{{% notice note %}}
-Private clouds users can also bind on another IP than `::` and listen on ports outside of the range `8300-8499`, but this is *not recommended* as it may lead to issues during [migrations]({{< ref "advanced/migrations" >}}).
-{{% /notice %}}
-
 ## Examples
 
-- [Redis]({{< ref "guides/redis#step-2--service-launch" >}})
-- [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
 - [Mattermost]({{< ref "guides/mattermost#service-launch" >}})
+- [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
+- [Redis]({{< ref "guides/redis#step-2--service-launch" >}})
 
 [^1]: `[account]` to be replaced by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

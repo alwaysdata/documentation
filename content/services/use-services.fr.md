@@ -25,15 +25,11 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 * Pour les utilisateurs de [Cloud Privés]({{< ref "accounts/billing/private-cloud-prices" >}}) :
 	- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu]({{< ref "security/network/configure-firewall" >}}).
 
-{{% notice note %}}
-Même si c'est contre-indiqué, les utilisateurs de Clouds privés peuvent aussi s'attacher sur une autre IP que `::` et écouter un autre port que `8300-8499`. Attention, cela pourra poser des problèmes lors des [migrations]({{< ref "advanced/migrations" >}}).
-{{% /notice %}}
-
 ## Exemples
 
-- [Redis]({{< ref "guides/redis#étape-2--lancement-du-service" >}})
-- [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
 - [Mattermost]({{< ref "guides/mattermost#lancement-du-service" >}})
+- [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
+- [Redis]({{< ref "guides/redis#étape-2--lancement-du-service" >}})
 
 [^1]: `[compte]` à remplacer par le nom du compte.
 [^2]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.
