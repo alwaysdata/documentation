@@ -40,7 +40,7 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
-| **Disques**           | SSD 960 Go NVMe • RAID1                  |                 |               |
+| **Disques**           | SSD 1 To NVMe • RAID1                  |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
 | **Total**             |                                    | 369 €/mois           | 409 €/mois         |
@@ -57,7 +57,7 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | SSD 1.9 To NVMe • RAID1                   | + 30 €/mois          |
 | SSD 3.8 To NVMe • RAID1                   | + 70 €/mois         |
 | SSD 7.6 To NVMe • RAID1                   | + 150 €/mois         |
-| SSD 15 To NVMe • RAID1                | + 320 €/mo            |
+| SSD 15 To NVMe • RAID1                | + 320 €/mois            |
 | **RAM**                             |                 |
 | 16 Go [^1]                          | + 10 €/mois          |
 | **Trafic/mois**                     |                 |
@@ -78,7 +78,7 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
-| **Disques**           | SSD 960 Go NVMe • RAID1                |                 |               |
+| **Disques**           | SSD 1 To NVMe • RAID1                |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
 | **Total**             |                                    | 949 €/mois      | 1039 €/mois   |
@@ -95,7 +95,7 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 | SSD 1.9 To NVMe • RAID1                   | + 60 €/mois         |
 | SSD 3.8 To NVMe • RAID1                   | + 140 €/mois         |
 | SSD 7.6 To NVMe • RAID1                   | + 300 €/mois         |
-| SSD 15 To NVMe • RAID1                | + 640 €/mo            |
+| SSD 15 To NVMe • RAID1                | + 640 €/mois           |
 | **RAM**                             |                 |
 | 16 Go [^1]                          | + 20 €/mois          |
 | **Trafic/mois**                     |                 |

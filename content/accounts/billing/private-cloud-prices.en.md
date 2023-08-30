@@ -38,7 +38,7 @@ For any Private Cloud configuration order, the installation of the server is don
 | Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                            |                           |
-| **Disks**             | SSD 960GB NVMe • RAID1               |                            |                           |
+| **Disks**             | SSD 1TB NVMe • RAID1               |                            |                           |
 | **RAM**               | 16GB                               |                            |                           |
 | **Traffic/month**     | 3TB (1 Gbps)                       |                            |                           |
 | **Total**             |                                    | 369 €/mo                      | 409 €/mo                    |
@@ -76,7 +76,7 @@ Dedicated server redunded[^3] in another datacenter.
 | Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
 | **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                            |                           |
-| **Disks**             | SSD 960GB NVMe • RAID1             |                            |                           |
+| **Disks**             | SSD 1TB NVMe • RAID1             |                            |                           |
 | **RAM**               | 16GB                               |                            |                           |
 | **Traffic/month**     | 3TB (1Gbps)                        |                            |                           |
 | **Total**             |                                    | 949 €/mo                   | 1039 €/mo                |
