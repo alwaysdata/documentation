@@ -30,7 +30,7 @@ The following list includes vulnerability reports not accepted by our services a
 * addresses in `.alwaysdata.net` are linked to our customers' accounts. Their flaws are beyond our control;
 	* in particular if they disclose their connection details;
 * The `/tmp` directory is a [shared directory]({{< ref "remote-access/misc#tmp-directory" >}});
-* “https://files.alwaysdata.com” features public files;
+* “https://files.alwaysdata.com” and “https://share.alwaysdata.com” features public files;
 * the password reset link expires after 3 days or upon the next login to the administration interface; 
 * a user may reuse an old password. This is not a [NIST-listed best practice](https://pages.nist.gov/800-63-3/sp800-63-3.html);
 * email verification (whether during registration, profile information modification, or otherwise) is simply a best practice, not a vulnerability;

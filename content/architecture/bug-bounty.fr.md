@@ -30,7 +30,7 @@ La liste suivante reprend des rapports de vulnérabilité non acceptés par nos 
 * les adresses en `.alwaysdata.net` sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
 	* notamment s'ils divulguent leurs informations de connexions ;
 * Le répertoire `/tmp` est un [répertoire partagé]({{< ref "remote-access/misc#répertoire-tmp" >}}) ;
-* `https://files.alwaysdata.com` présente des fichiers publics ;
+* `https://files.alwaysdata.com` and `https://share.alwaysdata.com` présente des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface d'administration ; 
 * un utilisateur peut réutiliser un ancien mot de passe. Ce n'est pas une [bonne pratique listée par NIST](https://pages.nist.gov/800-63-3/sp800-63-3.html) ;
 * la vérification de l'email (que ce soit à l'inscription, à la modification d'informations de profil ou autre) n'est qu'une pratique, non une faille ;
