@@ -15,7 +15,6 @@ For backend optimizations, have a look at:
 
 External website analysis services:
 
-- [DareBoost](https://www.dareboost.com/)
 - [Pingdom](https://tools.pingdom.com/)
 
 External profiling services:

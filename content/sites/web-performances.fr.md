@@ -14,7 +14,6 @@ Pour optimiser ses applications et améliorer l'accès à celles-ci, vous pouvez
 
 Services externes d'analyse de site web :
 
-- [DareBoost](https://www.dareboost.com/fr)
 - [Pingdom](https://tools.pingdom.com/)
 
 Services externes d'aide à la performance :
