@@ -7,7 +7,7 @@ tags = ["http", "user program", "site"]
 
 To run a web program that does not use one of the other types of site you can use the *User program*.
 
-It may be used for [Java]({{< ref "languages/java" >}}), [Scala](https://www.scala-lang.org/), [Go]({{< ref "languages/go" >}}), [Lua]({{< ref "languages/lua" >}}), [Erlang](https://www.erlang.org/) and many other languages and software...[^1]
+It may be used for [Erlang](https://www.erlang.org/), [Go]({{< ref "languages/go" >}}), [Java]({{< ref "languages/java" >}}), [Lua]({{< ref "languages/lua" >}}), [Rust](https://www.rust-lang.org/), [Scala](https://www.scala-lang.org/),) and many other languages and software...[^1]
 
 Go to the **Web > Sites > Add a site** menu.
 

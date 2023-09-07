@@ -9,7 +9,7 @@ tags = ["http", "programme utilisateur", "site"]
 
 Pour lancer un programme web n'utilisant pas un des autres types de site vous pouvez avoir recours au _Programme utilisateur_.
 
-Il pourra être utilisé pour les langages [Java]({{< ref "languages/java" >}}), [Scala](https://www.scala-lang.org/), [Go]({{< ref "languages/go" >}}), [Lua]({{< ref "languages/lua" >}}), [Erlang](https://www.erlang.org/), ou encore bien d'autres...[^1]
+Il pourra être utilisé pour les langages [Erlang](https://www.erlang.org/), [Go]({{< ref "languages/go" >}}), [Java]({{< ref "languages/java" >}}), [Lua]({{< ref "languages/lua" >}}), [Rust](https://www.rust-lang.org/), [Scala](https://www.scala-lang.org/), ou encore bien d'autres...[^1]
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 {{< fig "images/admin-panel_sites-list.fr.png" "Interface d'administration : liste des sites" >}}
