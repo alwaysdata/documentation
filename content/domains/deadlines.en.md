@@ -281,6 +281,7 @@ Different dates apply:
 |.pt|Up to 2 days prior to expiry||||30 days after expiration|
 |.pub|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.qpon|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
+|.quest|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.re|Until expiry|Up to 28 days after expiry|28 days after expiry|Between 28 to 58 days after expiry|58 days after expiry|
 |.recipes|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.red|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
