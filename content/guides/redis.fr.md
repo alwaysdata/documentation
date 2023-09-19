@@ -24,25 +24,35 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >
 `[foo]` doit être remplacé par le nom de compte correct.
 {{% /notice %}}
 
-## Étape 1 : Installation
+## Installation
 
 ```sh
 foo@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
 foo@ssh:~/redis$ make
 ```
 
-## Étape 2 : Lancement du service
+## Lancement du service
 
 Créez le [service]({{< ref "services" >}}) suivant :
 
-- *Commande* : `./src/redis-server --bind :: --port 8300`
-- *Commande de monitoring* : `./src/redis-cli -h services-[compte].alwaysdata.net -p 8300 ping`
+- *Commande* : `./src/redis-server --bind :: --port 8300 --protected-mode no`
+- *Commande de monitoring* : `./src/redis-cli -h services-[foo].alwaysdata.net -p 8300 ping`
 - *Répertoire de travail* : `/home/[foo]/redis`
 
 Plus d'options via `$HOME/redis/src/redis-cli -h`.
 
-{{% notice warning %}}
-Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/commands/auth/) peut être mise en place.
-{{% /notice %}}
-
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
+
+## Authentification
+
+Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/docs/management/security/acl/) peut donc être mise en place. Dans l'exemple suivant, nous allons indiquer un mot de passe (`[mot de passe]`) à l'utilisateur par défaut.
+
+```sh
+foo@ssh:~/redis$ ./src/redis-cli -h services-[foo].alwaysdata.net -p 8300
+services-[foo].alwaysdata.net:8300> ACL LIST
+1) "user default on nopass sanitize-payload ~* &* +@all"
+services-[foo].alwaysdata.net:8300> AUTH default 4kTtH2ddXfN2sFmXE6sowOLukxiaJhN8n
+services-[foo].alwaysdata.net:8300> ACL SETUSER default on >[mot de passe]
+services-[foo].alwaysdata.net:8300> ACL LIST
+1) "user default on sanitize-payload #1ccc91f99d0c4c7a24e77941b18c0339ecb3eaf5ad7ae9ad816a7e69d83b69db ~* &* +@all"
+```

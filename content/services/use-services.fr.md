@@ -29,7 +29,7 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 
 - [Mattermost]({{< ref "guides/mattermost#lancement-du-service" >}})
 - [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
-- [Redis]({{< ref "guides/redis#étape-2--lancement-du-service" >}})
+- [Redis]({{< ref "guides/redis#lancement-du-service" >}})
 
 [^1]: `[compte]` à remplacer par le nom du compte.
 [^2]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.

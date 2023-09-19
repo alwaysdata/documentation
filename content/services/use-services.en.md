@@ -28,7 +28,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 
 - [Mattermost]({{< ref "guides/mattermost#service-launch" >}})
 - [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
-- [Redis]({{< ref "guides/redis#step-2--service-launch" >}})
+- [Redis]({{< ref "guides/redis#service-launch" >}})
 
 [^1]: `[account]` to be replaced by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

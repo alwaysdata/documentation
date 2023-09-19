@@ -24,26 +24,36 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and con
 {{% /notice %}}
 
 
-## Step 1: Installation
+## Installation
 
 ```sh
 foo@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
 foo@ssh:~/redis$ make
 ```
 
-## Step 2: Service launch
+## Service launch
 
 Create the following [service]({{< ref "services" >}}):
 
 
-- *Command*: `./src/redis-server --bind :: --port 8300`
-- *Monitoring command*: `./src/redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
+- *Command*: `./src/redis-server --bind :: --port 8300 --protected-mode no`
+- *Monitoring command*: `./src/redis-cli -h services-[foo].alwaysdata.net -p 8300 ping`
 - *Working directory* : `/home/[foo]/redis`
 
 More options via `$HOME/redis/src/redis-cli -h`.
 
-{{% notice warning %}}
-By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/commands/auth/) can be set up.
-{{% /notice %}}
-
 The next step is to configure the application to connect to Redis using `services-[foo].alwaysdata.net` and port `8300`.
+
+## Authentication
+
+By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/management/security/acl/) can be set up. In the following example, we will provide a password (`[password]`) to the default user.
+
+```sh
+foo@ssh:~/redis$ ./src/redis-cli -h services-[foo].alwaysdata.net -p 8300
+services-[foo].alwaysdata.net:8300> ACL LIST
+1) "user default on nopass sanitize-payload ~* &* +@all"
+services-[foo].alwaysdata.net:8300> AUTH default 4kTtH2ddXfN2sFmXE6sowOLukxiaJhN8n
+services-[foo].alwaysdata.net:8300> ACL SETUSER default on >[password]
+services-[foo].alwaysdata.net:8300> ACL LIST
+1) "user default on sanitize-payload #1ccc91f99d0c4c7a24e77941b18c0339ecb3eaf5ad7ae9ad816a7e69d83b69db ~* &* +@all"
+```
