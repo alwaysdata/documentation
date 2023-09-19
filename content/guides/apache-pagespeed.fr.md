@@ -30,7 +30,7 @@ Dans **Web > Configuration > Apache**, ajoutez :
 
 ```
 LoadModule pagespeed_module          "/home/[foo]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"
-ModPagespeedFileCachePath            "/home/[foo]/pagespeed/cache/pagespeed/""
+ModPagespeedFileCachePath            "/home/[foo]/pagespeed/cache/pagespeed/"
 ModPagespeedFileCacheSizeKb          102400
 ModPagespeedFileCacheCleanIntervalMs 3600000
 ModPagespeedFileCacheInodeLimit      500000
