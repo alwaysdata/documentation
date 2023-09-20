@@ -10,4 +10,4 @@ The way [.NET](https://dotnet.microsoft.com/) works at alwaysdata is very standa
 - [versions]({{< ref "languages/dotnet/configuration">}}#supported-versions) 5.0 and 6.0 are available,
 - the [environment configuration]({{< ref "languages/dotnet/configuration" >}}#environment) is easy to set up.
 
-* [Hello World Tutorial](https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/create)
+* [Hello World Tutorial](https://learn.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=linux)
