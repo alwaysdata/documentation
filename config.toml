@@ -71,7 +71,7 @@ defaultContentLanguage         = "en"
 
 # Theme settings
 [params]
-  editURL                  = "https://github.com/alwaysdata/documentation/"
+  editURL                  = "https://github.com/alwaysdata/documentation/blob/master/content/"
   author                   = "alwaysdata <contact@alwaysdata.com>"
   themeVariant             = "alwaysdata"
   disableBreadcrumb        = false

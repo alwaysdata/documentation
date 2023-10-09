@@ -13,4 +13,4 @@ L'accès sera bloqué à toute autre connexion venant d'IP non renseignée.
 
 {{% notice note %}}
 Si vous vous êtes trompé - ou avez changé - d'IP d'accès envoyez un email à *contact[at]alwaysdata.com* pour la désactiver. Une preuve d'identité sera demandée.
-{{% notice note %}}
+{{% /notice %}}
