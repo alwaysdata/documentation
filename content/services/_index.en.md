@@ -6,31 +6,52 @@ layout = "man"
 tags = ["services"]
 +++
 
-You can register services: They are custom programs running in a headless mode (i.e. without any user interaction).
+You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
 Those services are declared in the [administration panel](https://admin.alwaysdata.com)'s  **Advanced > Services**.
 
-{{< fig "admin-panel_create-service.en.png" "Ad­mi­nis­tration Panel: Create a Service" >}}
+{{< fig "admin-panel_create-service.en.png" "" >}}
 
-The service is considered functional when the command does not stop and runs in the *foreground*.
+The ports' range `8300` to `8499`, as well as the hostname `services-[account].alwaysdata.net`[^1] are reserved to those services.
 
-When you need to join your service from an external application, you *must* pick a port in the `8300` and `8499` range, and attach your service on `::` (IPv6 only). Your service will be reachable on this port at the address `services-[account].alwaysdata.net:[PORT]`[^1].
+- [API reference](https://api.alwaysdata.com/v1/service/doc/)
 
-{{% notice warning %}}
-there is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
-{{% /notice %}}
+## Use services
 
-Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
+- It must runs in `foreground`, not fork and leave [^2].
+- When needing to be reached from an external application, bind it to `::` (_IPv6_) and a port from `8300` to `8499`.
+- Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
+	- An extract of those logs is presented in the administration’s interface (**Logs** - 📄).
+- The restart of a service sends the `SIGHUP` signal.
+- If a service fails repeatedly within a short period of time, it will be automatically disabled.
 
 The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):
 
 ```sh
 $ nc -z services-[account].alwaysdata.net 8300
 ```
+	
+{{% notice warning %}}
+there is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
+{{% /notice %}}
 
----
+### [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users
 
-- [Use services]({{< ref "services/use-services" >}})
-- [API reference](https://api.alwaysdata.com/v1/service/doc/)
+- Services are executed on a distinct servers than SSH and HTTP servers.
+- Their resources use must remain fair.
+- The services will not be available on IPv4, only on IPv6.
+
+### [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users
+
+- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
+- You can use other ports ; for example the default port of the application.
+
+## Examples
+
+- [Mattermost]({{< ref "guides/mattermost#service-launch" >}})
+- [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
+- [MongoDB]({{< ref "guides/mongodb#service-launch" >}})
+- [Redis]({{< ref "guides/redis#service-launch" >}})
 
 [^1]: `[account]` to be replace by the account name.
+[^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

@@ -7,21 +7,24 @@ layout = "man"
 tags = ["services"]
 +++
 
-Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion uti­li­sa­teur.
+Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion uti­li­sa­teur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
 
 Ces services sont contrôlés via le menu **Avancé > Services** de l'[interface d'administration](https://admin.alwaysdata.com).
 
-{{< fig "admin-panel_create-service.fr.png" "Interface d'ad­mi­nis­tra­tion : créer un service" >}}
+{{< fig "admin-panel_create-service.fr.png" "" >}}
 
-Le service est considéré comme fonctionnel lorsque la commande ne s'arrête pas et tourne en avant-plan (*foreground*).
+Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdata.net`[^1] peuvent être utilisés pour faire tourner ces services.
 
-Si le service a besoin d'écouter sur un port, celui-ci *devra* être compris entre `8300` et `8499` et utiliser le nom d'hôte du compte sous la forme `services-[compte].alwaysdata.net:[PORT]`[^1]. Il doit écouter en IPv6 sur `::`.
+- [Référence API](https://api.alwaysdata.com/v1/service/doc/)
 
-{{% notice warning %}}
-il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
-{{% /notice %}}
+## Utiliser les services
 
-Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
+- Il doit rester en avant plan (`foreground`) et non forker et quitter [^2] ;
+- S'il veut écouter sur un port il doit être attaché en _IPv6_ sur `::` et écouter un port entre `8300` et `8499` ;
+- Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/services/`. Il vous donne le démarrage et l'arrêt du service.
+	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
+- Le redémarrage d'un service renvoie le signal `SIGHUP`;
+- Si un service échoue à plusieurs reprises en peu de temps, il sera automatiquement désactivé.
 
 Le champ *Commande de monitoring* — optionnel — permet de spécifier une commande qui vérifie que le service est fonctionnel. Lorsque cette commande renvoie un code d'erreur, le service est redémarré. Elle peut, par exemple, vérifier que le service est bien joignable sur le port qui lui est attribué (par exemple, pour un service utilisant le port *8300*) :
 
@@ -29,8 +32,29 @@ Le champ *Commande de monitoring* — optionnel — permet de spécifier une com
 $ nc -z services-[compte].alwaysdata.net 8300
 ```
 
----
-- [Utiliser les services]({{< ref "services/use-services" >}})
-- [Référence API](https://api.alwaysdata.com/v1/service/doc/)
+{{% notice warning %}}
+il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
+{{% /notice %}}
+
+### Utilisateurs [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})
+
+- Les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
+- La consommation doit rester raisonnable ;
+- Les services ne seront pas joignables en IPv4, uniquement en IPv6.
+
+### Utilisateurs [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}})
+
+- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu]({{< ref "security/network/configure-firewall" >}}) ;
+- Vous pouvez utiliser d'autres ports, par exemple le port par défaut de l'application.
+
+## Exemples
+
+- [Mattermost]({{< ref "guides/mattermost#lancement-du-service" >}})
+- [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
+- [MongoDB]({{< ref "guides/mongodb#lancement-du-service" >}})
+- [Redis]({{< ref "guides/redis#lancement-du-service" >}})
+
+
 
 [^1]: `[compte]` à remplacer par le nom du compte.
+[^2]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.
