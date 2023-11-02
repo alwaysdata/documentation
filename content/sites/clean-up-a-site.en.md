@@ -143,5 +143,4 @@ If the infection is a **recent** one and the search for the infection a complex 
 ## Links
 
   - [Sucuri](http://sucuri.net/): scans and identifies potential breaches in your site,
-  - [Patchman](https://www.patchman.co/): neutralizes malware are eliminates breaches,
   - [Google Webmaster Tools](https://www.google.com/webmasters/tools/home): provides detailed reports on your site's visibility.

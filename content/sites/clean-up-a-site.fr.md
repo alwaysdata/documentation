@@ -148,6 +148,5 @@ Si l'infection est **récente** et la recherche de l'infection compliquée, il e
 ## Liens
 
 - [Sucuri](http://sucuri.net/) : scanne et identifie les failles potentielles de votre site ;
-- [Patchman](https://www.patchman.co/) : neutralise les malwares et supprime les failles ;
 - [Google Webmaster Tools](https://www.google.com/webmasters/tools/home) : fournit des rapports détaillés sur la visibilité de votre site.
 
