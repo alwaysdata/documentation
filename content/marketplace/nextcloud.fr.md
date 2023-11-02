@@ -16,4 +16,4 @@ $ php chemin/vers/le/répertoire/nextcloud/updater/updater.phar
 
 ## Autres informations
 
-Nous proposons un [profil spécifique]({{<ref "sites/waf/use-waf#profils-disponibles">}}) sur notre WAF.
+Nous proposons un [profil spécifique]({{<ref "sites/waf#profils-disponibles">}}) sur notre WAF.

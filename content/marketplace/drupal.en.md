@@ -13,4 +13,4 @@ If you are using a Drupal version prior to **8.9** with CSS and JS files precomp
 
 ## Further information
 
-We provide a [specific profile]({{<ref "sites/waf/use-waf#profiles-available">}}) on our WAF.
+We provide a [specific profile]({{<ref "sites/waf#available-profiles">}}) on our WAF.

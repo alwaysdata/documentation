@@ -59,10 +59,8 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 * [Pic d'audience]({{< relref "anticipate-peak-audience" >}})
 * [Formater les logs HTTP]({{< relref "formatting-http-logs" >}})
 - [Cache HTTP]({{< ref "sites/http-cache" >}})
-- [Utiliser le cache HTTP]({{< ref "sites/http-cache/use-http-cache" >}})
-- [Activer le cache HTTP sur WordPress]({{< ref "sites/http-cache/activate-http-cache-on-wordpress" >}})
+- [Activer le cache HTTP sur WordPress]({{< ref "sites/activate-http-cache-on-wordpress" >}})
 * [WAF]({{< ref "sites/waf" >}})
-* [Utiliser le WAF]({{< ref "sites/waf/use-waf" >}})
 - [Sondes de monitoring]({{< relref "use-probes" >}})
 
 ## Liens externes

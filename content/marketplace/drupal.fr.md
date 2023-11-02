@@ -14,4 +14,4 @@ Si vous utilisez une version de Drupal inférieure à la **8.9** avec précompre
 
 ## Autres informations
 
-Nous proposons un [profil spécifique]({{<ref "sites/waf/use-waf#profils-disponibles">}}) sur notre WAF.
+Nous proposons un [profil spécifique]({{<ref "sites/waf#profils-disponibles">}}) sur notre WAF.

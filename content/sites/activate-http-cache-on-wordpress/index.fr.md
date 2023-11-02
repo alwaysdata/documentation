@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/cache-http/activer-le-cache-http-sur-wordpress"
+url = "/fr/sites/activer-le-cache-http-sur-wordpress"
 title = "Activer le cache HTTP sur WordPress"
 hidden = true
 layout = "howto"

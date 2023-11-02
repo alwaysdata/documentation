@@ -1,15 +1,20 @@
 +++
-title = "Using The Web Application Firewall (WAF)"
-layout = "howto"
-hidden = true
-tags = ["http", "site", "waf"] 
+title = "Web Application Firewall (WAF)"
+menuTitle = "WAF"
+weight = 60
+layout = "man"
+tags = ["http", "site", "waf"]
 +++
+
+A [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) examines every HTTP request to protect the web applications from the various attack vehicles to minimize infections. It may allow them to transit to the application or block them, alert, record whether they are deemed malevolent.
+
+{{< fig "waf.en.png" "Path of an HTTP request faced with a WAF">}}
 
 To configure the web application firewall, use the administration interface from **Web > Sites > Edit the [site] - ⚙️ > WAF**.
 
-{{< fig "images/admin-panel_add-site-waf.en.png" "Add a site: WAF" >}}
+{{< fig "admin-panel_add-site-waf.en.png" "" >}}
 
-## Profiles available
+## Available profiles
 
 |Profile|Description|
 |--- |--- |
@@ -72,3 +77,6 @@ Let us take the case of a WordPress type site that shows logs similar to those p
 It may be worth excluding **safe IPs** (specific IPs or IPs ranges) to stop tools or people from being blocked.
 
 Let us take the example of [WPScan](https://wpscan.org/): by activating it on a WordPress site, some of the requests that it runs may be blocked. Excluding rules or paths would not be effective as it observes numerous URLs. The solution is therefore to exclude the HTTP server that WPScan is installed on so that it can operate normally.
+
+---
+alwaysdata uses WAF ModSecurity and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).

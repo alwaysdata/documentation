@@ -1,37 +1,42 @@
 +++
-url = "/fr/sites/waf/utiliser-le-waf/"
-title = "Comment utiliser le Pare-Feu Applicatif Web (WAF)"
-layout = "howto"
-hidden = true
-tags = ["http", "site", "waf"] 
+url = "/fr/sites/waf/"
+title = "Pare-feu applicatif web (WAF)"
+menuTitle = "WAF"
+weight = 60
+layout = "man"
+tags = ["http", "site", "waf"]
 +++
 
+Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) exa­mine chaque requête HTTP pour protéger les applications web face à différents vecteurs d'attaques pour minimiser les infections. Il peut les auto­ri­ser à tran­si­ter jus­qu’à l’ap­pli­ca­tion, ou les blo­quer, aler­ter, consi­gner si elles sont jugées mal­veillantes.
+
+{{< fig "waf.fr.png" "Parcours d’une requête HTTP face à un WAF" >}}
+
 Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le [site] - ⚙️ > WAF**.
-{{< fig "images/admin-panel_add-site-waf.fr.png" "Ajouter un site : WAF" >}}
+{{< fig "admin-panel_add-site-waf.fr.png" "" >}}
 
 ## Profils disponibles
 
-| Profil    | Description                                                                                                       |
-| --------- | ----------------------------------------------------------------------------------------------------------------- |
-| Aucun     | (par défaut)                                                                                                      |
-| Basique   | Respect strict du pro­to­cole HTTP                                                                                  |
-|           | Détection de robots mal­veillants                                                                                  |
-| Fort      | L’ensemble des règles du pro­fil basique                                                                           |
-|           | Détection d’exécution de code à dis­tance (RCE)                                                                    |
-|           | Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)         |
-|           | Détection d’[injec­tion SQL](https://fr.wikipedia.org/wiki/Injection_SQL)                                          |
-| Complet   | L’ensemble des règles du pro­fil fort                                                                              |
-|           | Détection d’attaques rela­tives au lan­gage PHP                                                                     |
-|           | Détection d’attaque par inclu­sion de fichier local (LFI)                                                          |
-|           | Détection d’attaque par [inclu­sion de fichier dis­tant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion) |
-| WordPress | L’ensemble des règles du pro­fil com­plet                                                                           |
-|           | Règles spé­ci­fiques à WordPress                                                                                    |
-| Drupal    | L’ensemble des règles du pro­fil com­plet                                                                           |
-|           | Règles spé­ci­fiques à Drupal                                                                                       |
-| Nextcloud | L’ensemble des règles du pro­fil com­plet                                                                           |
-|           | Règles spé­ci­fiques à Nextcloud                                                                                    |
-| Dokuwiki  | L’ensemble des règles du pro­fil com­plet                                                                           |
-|           | Règles spé­ci­fiques à Dokuwiki                                                                                     |
+|Profil|Description|
+|---|---|
+|Aucun|(par défaut)|
+|Basique|Respect strict du pro­to­cole HTTP|
+||Détection de robots mal­veillants|
+|Fort|L’ensemble des règles du pro­fil basique|
+||Détection d’exécution de code à dis­tance (RCE)|
+||Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)|
+||Détection d’[injec­tion SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
+| Complet|L’ensemble des règles du pro­fil fort|
+||Détection d’attaques rela­tives au lan­gage PHP|
+||Détection d’attaque par inclu­sion de fichier local (LFI)|
+||Détection d’attaque par [inclu­sion de fichier dis­tant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
+|WordPress|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à WordPress|
+|Drupal|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à Drupal|
+|Nextcloud|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à Nextcloud|
+|Dokuwiki|L’ensemble des règles du pro­fil com­plet|
+||Règles spé­ci­fiques à Dokuwiki|
 
 {{% notice note %}}
 L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une légère aug­men­ta­tion de la latence lors du trai­te­ment d’une requête HTTP. Cette latence, de l’ordre de quelques mil­li­se­condes, aug­mente avec le degré de pro­tec­tion.
@@ -73,3 +78,6 @@ Les *[query strings](https://en.wikipedia.org/wiki/Query_string)* ne peuvent pas
 Il peut être intéressant d'exclure des **IP sûres** (IP spécifiques ou plages d'IP) pour éviter à des outils ou des personnes d'être bloqués.
 
 Prenons l'exemple de [WPScan](https://wpscan.org/) : en l'activant sur un site WordPress certaines des requêtes qu'il effectue peuvent être bloquées. Exclure des règles ou des chemins ne serait pas efficace comme il observe de nombreuses URLs. La solution est donc d'exclure le serveur HTTP sur lequel est installé WPScan pour qu'il puisse fonctionner normalement.
+
+---
+alwaysdata utilise le WAF ModSecurity et l'ensemble de règles libres [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
