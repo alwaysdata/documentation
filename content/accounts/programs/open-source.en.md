@@ -13,6 +13,7 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 
 - [Agorakit](https://agorakit.org/)
 - AllegianceOS
+- [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
 - [I Hate Money](https://ihatemoney.org/)
 - Several projects for [Harubyte](https://github.com/HaruByte)

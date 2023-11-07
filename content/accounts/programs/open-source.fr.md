@@ -15,6 +15,7 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - [Agorakit](https://agorakit.org/)
 - AllegianceOS
 - Base de données de décors pour le simulateur de vol FlightGear
+- [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
 - [I Hate Money](https://ihatemoney.org/)
 - Plusieurs projets pour [Harubyte](https://github.com/HaruByte)
