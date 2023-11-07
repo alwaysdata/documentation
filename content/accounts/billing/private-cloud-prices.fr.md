@@ -39,7 +39,7 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
-| **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
+| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
 | **Disques**           | SSD 1 To NVMe • RAID1                  |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
@@ -50,9 +50,9 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | Options                             | Tarifs          |
 | ----------------------------------- | --------------- |
 | **CPU**                             |                 |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 60 €/mois          |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 300 €/mois         |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 600 €/mois         |
+| 16 cores • AMD EPYC • 3.3 GHz   | + 60 €/mois          |
+| 32 cores • AMD EPYC • 3.3 GHz | + 300 €/mois         |
+| 64 cores • AMD EPYC • 3.3 GHz   | + 600 €/mois         |
 | **Disques**                         |                 |
 | SSD 1.9 To NVMe • RAID1                   | + 30 €/mois          |
 | SSD 3.8 To NVMe • RAID1                   | + 70 €/mois         |
@@ -77,7 +77,7 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
-| **CPU**               | 8 cores • AMD EPYC 7232P • 3.1 GHz |                 |               |
+| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
 | **Disques**           | SSD 1 To NVMe • RAID1                |                 |               |
 | **RAM**               | 16 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
@@ -87,10 +87,10 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 
 | Options                             | Tarif           |
 | ----------------------------------- | --------------- |
-| **CPU**                             |                 |
-| 16 cores • AMD EPYC 7302P • 3 GHz   | + 120 €/mois         |
-| 32 cores • AMD EPYC 7502P • 2.5 GHz | + 600 €/mois         |
-| 64 cores • AMD EPYC 7702P • 2 GHz   | + 1200 €/mois        |
+| **CPU**                            |                 |
+| 16 cores • AMD EPYC • 3.3 GHz   | + 120 €/mois         |
+| 32 cores • AMD EPYC • 3.3 GHz | + 600 €/mois         |
+| 64 cores • AMD EPYC • 3.3 GHz   | + 1200 €/mois        |
 | **Disques**                         |                 |
 | SSD 1.9 To NVMe • RAID1                   | + 60 €/mois         |
 | SSD 3.8 To NVMe • RAID1                   | + 140 €/mois         |
