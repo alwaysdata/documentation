@@ -52,6 +52,7 @@ This function is relevant when using the antispam and/or antivirus software: it 
 
 - *Addresses*: addresses that the e-mails will be redirected to separated by a space).
 - *Local copy*: by checking this box, all redirected e-mails will also be copied to this e-mail box. If not, the e-mails will not be stored, simply redirected.
+	- If this box is not checked, we therefore create [an alias](https://en.wikipedia.org/wiki/Email_alias).
 
 {{% notice note %}}
 If you use the antivirus and/or the antispam software, e-mails considered to be fraudulent are never redirected to avoid passing on these bad messages to outside vendors.
