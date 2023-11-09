@@ -16,7 +16,7 @@ Il est possible de choisir le jour du mois de facturation, plus souple et pratiq
 
 Pour le faire, rendez-vous dans **Facturation > Moyens de paiement > Paramètres > Jour de facturation**.
 
-{{< fig "images/payment-methods.fr.png" "Interface d'administration : mettre en place le jour de facturation" >}}
+{{< fig "images/payment-methods.fr.png" "Mettre en place le jour de facturation" >}}
 
 Une _facture de prorata_ (sur chaque produit souscrit) est générée lors de la mise en place de cette fonctionnalité afin d’aligner les dates.
 

@@ -17,7 +17,7 @@ It is possible to choose the day of the month for invoicing, a solution that is 
 
 To do this, go to **Billing > Means of payment > Settings > Invoicing day**.
 
-{{< fig "images/payment-methods.en.png" "Administration interface: set up the invoicing day" >}}
+{{< fig "images/payment-methods.en.png" "Set up the invoicing day" >}}
 
 A *prorata invoice* (for each product subscribed to) is generated when this function is implemented so as to align dates.
 
