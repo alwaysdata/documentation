@@ -7,6 +7,10 @@ tags=["administration interface", "billing", "technical environment"]
 
 Because hosting your data often involves different players, our administration lets you grant permissions with different granularity levels.
 
+You can configure permissions through the **Permissions** menu in your customer admin interface.
+
+{{< fig "images/menu.en.png" "" >}}
+
 ## Overall permissions
 
 - *Account management*: delegates account opening to your associates,

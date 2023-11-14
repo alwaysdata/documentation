@@ -8,6 +8,10 @@ tags=["facturation", "environnement technique", "interface d'administration"]
 
 Parce que l'hébergement de vos données implique très souvent différents acteurs, notre interface d'administration vous permet d'octroyer des permissions sur différents niveaux de granularité.
 
+Vous pouvez paramétrer les permissions via le menu **Permissions** de votre espace client.
+
+{{< fig "images/menu.fr.png" "" >}}
+
 ## Permissions globales
 
 - _Gestion des comptes_ : délègue l'ouverture de comptes à vos associés  ;

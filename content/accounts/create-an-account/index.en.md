@@ -8,7 +8,7 @@ tags = ["account"]
 
 Go to the **Accounts** menu in your client interface.
 
-{{< fig "images/list-accounts.en.png" "Administration interface: List of accounts" >}}
+{{< fig "images/list-accounts.en.png" "" >}}
 
 After clicking on **Open a new account** you will see a form for choosing:
 - its name,
@@ -18,4 +18,4 @@ if Public Cloud:
 - the product (pack),
 - payment frequency (monthly or yearly).
 
-{{< fig "images/create-account.en.png" "Administration interface: create an account" >}}
+{{< fig "images/create-account.en.png" "" >}}

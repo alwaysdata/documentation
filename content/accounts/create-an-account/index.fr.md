@@ -9,7 +9,7 @@ tags = ["compte"]
 
 Allez dans le menu **Comptes** de votre interface client. 
 
-{{< fig "images/list-accounts.fr.png" "Interface d'administration : Liste des comptes" >}}
+{{< fig "images/list-accounts.fr.png" "" >}}
 
 Après avoir cliqué sur **Ouvrir un nouveau compte** vous trouverez un formulaire pour choisir :
 
