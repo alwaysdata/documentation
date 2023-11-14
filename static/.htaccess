@@ -203,3 +203,5 @@ Redirect 301 /fr/services/utiliser-les-services/		 /fr/services/
 Redirect 301 /en/services/use-services/			 /en/services/
 Redirect 301 /fr/tâches-planifiées/utiliser-les-tâches-planifiées/ /fr/tâches-planifiées/
 Redirect 301 /en/tasks/use-scheduled-tasks/			/en/tasks/
+Redirect 301 /en/databases/mysql/				/en/databases/mariadb/
+Redirect 301 /fr/bases-de-données/mysql/			/fr/bases-de-données/mariadb/
