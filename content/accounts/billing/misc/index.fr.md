@@ -25,7 +25,7 @@ Pour changer de raison sociale rendez-vous dans l'onglet **Profil**, les prochai
 Si une facture vient d'être émise vous pouvez _exceptionnellement_ contactez le [support](https://admin.alwaysdata.com/support/add) pour qu'il la régénère.
 
 ## Où trouver son numéro client / le RIB d'alwaysdata
-Ils sont disponibles dans **Facturation > Factures > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte**.
+Ils sont disponibles dans **Facturation > Transactions > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte**.
 
 ## Devis et factures proforma
 Les factures sont émises à la livraison d'un service. Nous pouvons cependant émettre des devis et factures proforma sur demande. Contactez le [support](https://admin.alwaysdata.com/support/add).

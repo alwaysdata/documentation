@@ -10,7 +10,9 @@ tags = ["facturation"]
 
 Une facture est émise quelques heures après avoir souscrit à un service d'alwaysdata (hébergement, adresse IP, etc.).
 
-Vous disposez de **30 jours** pour la régler dans **Facturation > Factures > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte** grâce à différents [moyens de paiement]({{< ref "payment-methods" >}}).
+{{< fig "user_space_menu.fr.png" "" >}}
+
+Vous disposez de **30 jours** pour la régler dans **Facturation > Transactions > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte** grâce à différents [moyens de paiement]({{< ref "payment-methods" >}}).
 
 - [Choisir son plan d'hébergement]({{< ref "choose-its-paas" >}})
 - [Changer d'offre]({{< ref "upgrade-your-plan" >}})
@@ -20,6 +22,6 @@ Vous disposez de **30 jours** pour la régler dans **Facturation > Factures > Al
 - [Tarifs des interventions]({{< ref "servers-interventions" >}})
 - [Diverses questions]({{< ref "./misc" >}})
 
-L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Factures**.
+L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Transactions**.
 
 Nos abonnements sont soumis à la reconduction tacite et renouvelés automatiquement.

@@ -27,7 +27,7 @@ The credit cards accepted by our payment service provider are: Visa and MasterCa
 
 ## Direct debit
 
-Enter your charge information - bank account or card number - in your administration access, in the **Billing > Means of payment** menu.
+Enter your charge information - bank account or card number - in your administration access, in the **Billing > Payment methods** menu.
 
 This means of payment will be automatically debited the amount due. You no longer need to worry about paying for your alwaysdata hosting.
 

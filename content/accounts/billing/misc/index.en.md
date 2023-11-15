@@ -15,7 +15,7 @@ There are no installation charges but a minimum three month commitment is requir
 
 It is possible to choose the day of the month for invoicing, a solution that is more flexible and practical when you have a number of subscriptions (hosting, IP address, etc.).
 
-To do this, go to **Billing > Means of payment > Settings > Invoicing day**.
+To do this, go to **Billing > Payment methods > Settings > Invoicing day**.
 
 {{< fig "images/payment-methods.en.png" "Set up the invoicing day" >}}
 
@@ -27,7 +27,7 @@ To change the company name, go to the **Profile** tab and subsequent invoices wi
 
 ## Finding a customer number / alwaysdata’s bank references
 
-These are available from **Billing > Invoices > Credit the account** or **Billing > Means of payment > Credit the account**.
+These are available from **Billing > Transactions > Credit the account** or **Billing > Payment methods > Credit the account**.
 
 ## Quotations and proforma invoices
 
