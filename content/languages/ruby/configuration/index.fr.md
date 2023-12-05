@@ -12,19 +12,9 @@ tags = ["ruby"]
 
 |  |
 | --- |
-| 3.2 |
-| 3.1 |
-| 3.0 |
-| 2.7 |
-| 2.6 |
-| 2.5 |
-| 2.4 |
-| 2.3 |
-| 2.2 |
-| 2.1 |
-| 2.0 |
-| 1.9 |
-| 1.8 |
+| 3.2, 3.1, 3.0 |
+| 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 |
+| 1.9, 1.8 |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
