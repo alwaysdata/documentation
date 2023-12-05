@@ -72,7 +72,7 @@ Several options :
 
 ## Other informations
 
-The maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
+In Public Cloud, the maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
 
 It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are NOT reachable.
 
