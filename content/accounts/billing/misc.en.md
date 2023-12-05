@@ -15,9 +15,7 @@ There are no installation charges but a minimum three month commitment is requir
 
 It is possible to choose the day of the month for invoicing, a solution that is more flexible and practical when you have a number of subscriptions (hosting, IP address, etc.).
 
-To do this, go to **Billing > Payment methods > Settings > Invoicing day**.
-
-{{< fig "images/payment-methods.en.png" "Set up the invoicing day" >}}
+To do this, go to **Billing > Settings > Invoicing day**.
 
 A *prorata invoice* (for each product subscribed to) is generated when this function is implemented so as to align dates.
 
