@@ -16,7 +16,7 @@ Nous proposons ces différentes méthodes :
 
 - Carte bancaire ;
 - PayPal ;
-- Virement bancaire : à effectuer sur notre [compte bancaire](https://static.alwaysdata.com/docs/IBAN.pdf) en indiquant votre _numéro de client_ ou votre _numéro de facture_ dans les commentaires du virement.
+- Virement bancaire : à effectuer sur notre [compte bancaire](https://share.alwaysdata.com/IBAN.pdf) en indiquant votre _numéro de client_ ou votre _numéro de facture_ dans les commentaires du virement.
 
 {{% notice note %}}
 Les alimentations de compte par _virement_ apparaîtront dans votre interface dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.
