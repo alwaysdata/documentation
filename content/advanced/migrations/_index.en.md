@@ -20,6 +20,11 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 
 ## Migrations currently offered
 
+Public Cloud :
+
+- [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
+- [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
+
 Private Cloud:
 
 - [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
