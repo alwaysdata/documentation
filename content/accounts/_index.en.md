@@ -24,6 +24,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Use tokens]({{< ref "tokens" >}})
 - [Dedicated server: urgent tickets]({{< ref "urgent-ticket" >}})
 - [Alerts notifications]({{< ref "alerts-notifications" >}})
+- [Admin access loss]({{< ref "admin-access-loss" >}})
 - [Profile suspension]({{< ref "./suspension" >}})
 - [Public Cloud: restrictions]({{< ref "public-cloud-restrictions" >}})
 - [Miscellaneous questions]({{< ref "./misc" >}})

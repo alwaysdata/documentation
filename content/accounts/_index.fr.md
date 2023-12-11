@@ -26,6 +26,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Utiliser les tokens]({{< ref "tokens" >}})
 - [Serveur dédié : ticket urgent]({{< ref "urgent-ticket" >}})
 - [Système d'alertes]({{< ref "alerts-notifications" >}})
+- [Perte d'accès à l'interface d'administration]({{< ref "admin-access-loss" >}})
 - [Suspension de profil]({{< ref "./suspension" >}})
 - [Cloud Public : restrictions]({{< ref "public-cloud-restrictions" >}})
 - [Diverses questions]({{< ref "./misc" >}})

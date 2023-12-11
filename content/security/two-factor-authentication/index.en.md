@@ -17,7 +17,7 @@ To use it, go to **Profile** to activate *Two factor authentication*.
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 
 {{% notice note %}}
-In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. An identity document will be requested.
+In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. [A verification will be carried out]({{< ref "accounts/admin-access-loss#blockage-related-to-two-factor-authenticationhahahugoshortcode-s0-hbhb" >}}).
 {{% /notice %}}
 
 ## OTP applications
