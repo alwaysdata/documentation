@@ -12,7 +12,7 @@ Our platform is based on [Debian](https://www.debian.org/) and its [crontab](htt
 
 Several kinds of information need to be provided:
 
-- the one or more commands that you wish to run or the URLs you wish to request. Email addresses can also be provided to receive error reports (separated by a space).
+- the one or more commands that you wish to run or the URLs you wish to request. Email addresses can also be provided to receive error reports[^1] (separated by a space).
 
 {{< fig "admin-panel_create-task_type.en.png" "" >}}
 
@@ -82,3 +82,5 @@ Equivalent crontab syntax:
 ```
 30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
 ```
+
+[^1]: A report is sent when the return code is different from 0. If the task is not executed, no email is sent.

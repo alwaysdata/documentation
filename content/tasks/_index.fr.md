@@ -13,7 +13,7 @@ Notre pla­te­forme s’ap­puie sur [Debian](https://www.debian.org/) et sa [c
 
 Plusieurs types d’in­for­ma­tions sont à fournir :
 
-- la (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter. Des adresses email peuvent aussi être renseignées pour recevoir les rapports d'erreurs (séparées par un espace)
+- la (les) commande(s) que vous sou­hai­tez exé­cu­ter, ou les URLs que vous sou­hai­tez requê­ter. Des adresses email peuvent aussi être renseignées pour recevoir les rapports d'erreurs[^1] (séparées par un espace).
 
 {{< fig "admin-panel_create-task_type.fr.png" "" >}}
 
@@ -84,3 +84,5 @@ Syntaxe crontab équivalente :
 ```
 30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
 ```
+
+[^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si le tâche n'est pas exécutée, aucun mail n'est envoyé.
