@@ -3,7 +3,7 @@ url = "/fr/avancé/migrations/mariadb10_5/"
 title = "Migration MariaDB 10.5"
 layout = "man"
 hidden = true
-tags = ["infrastructure", "migration"]
+tags = ["infrastructure", "mariadb", "migration", "mysql"]
 +++
 
 Cette migration met à jour vos bases de données vers la version 10.5 de MariaDB.

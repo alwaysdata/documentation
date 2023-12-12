@@ -2,7 +2,7 @@
 title = "PostgreSQL 14 Migration"
 layout = "man"
 hidden = true
-tags = ["infrastructure", "migration"]
+tags = ["infrastructure", "migration", "postgresql"]
 +++
 
 This migration upgrades your databases to PostgreSQL version 14 (from PostgreSQL 12 and 13): https://www.postgresql.org/docs/14/release-14.html.

@@ -25,13 +25,14 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 Cloud Public :
 
-- [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
+- [MariaDB 10.11]({{< ref "advanced/migrations/mariadb-10_11" >}})
 - [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
 
 Cloud Privé :
 
 - [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 - [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
+- [MariaDB 10.11]({{< ref "advanced/migrations/mariadb-10_11" >}})
 - [PostgreSQL 13]({{< ref "advanced/migrations/postgresql-13" >}})
 - [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
 
