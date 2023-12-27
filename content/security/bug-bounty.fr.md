@@ -1,5 +1,5 @@
 +++
-url = "/fr/architecture/bug-bounty"
+url = "/fr/sécurité/bug-bounty"
 title = "Bug Bounty"
 layout = "man"
 hidden = true
@@ -195,4 +195,4 @@ Notez que :
 * nous n'utilisons pas de CDN et nos IP sont publiques ;
 * le numéro de version des logiciels que nous utilisons [ne peut être déterminant]({{< ref "security/security-upgrades" >}}).
 
-[^1]: nom, numéro de téléphine, email, adresse physique, carte d'identité physique
+[^1]: nom, numéro de téléphone, email, adresse physique, carte d'identité physique

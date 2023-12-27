@@ -1,5 +1,4 @@
 +++
-url = "/en/architecture/bug-bounty"
 title = "Bug Bounty"
 layout = "man"
 hidden = true

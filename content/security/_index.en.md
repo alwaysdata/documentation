@@ -30,3 +30,6 @@ tags = [""]
 - [Network]({{< relref "network" >}}): network management and protection against hackers
 - [Security Upgrades]({{< ref "security/security-upgrades" >}})
 - [VPN]({{< relref "./vpn" >}})
+
+---
+- [Bug Bounty]({{< ref "security/bug-bounty" >}})

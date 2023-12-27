@@ -36,4 +36,4 @@ Notre système distribue automatiquement les ressources disponibles, équitablem
 - [Mises à jour de sécurité]({{< ref "security/security-upgrades" >}})
 
 ---
-- [Bug Bounty]({{< ref "architecture/bug-bounty" >}})
+- [Bug Bounty]({{< ref "security/bug-bounty" >}})

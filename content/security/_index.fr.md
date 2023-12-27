@@ -31,3 +31,6 @@ tags = [""]
 - [Plages d'IP alwaysdata]({{< relref "ip-ranges" >}})
 - [Plan de continuité d'activité]({{< relref "drp" >}})
 - [VPN]({{< relref "./vpn" >}})
+
+---
+- [Bug Bounty]({{< ref "security/bug-bounty" >}})
