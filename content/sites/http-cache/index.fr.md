@@ -32,7 +32,7 @@ Une réponse ne peut **PAS** être cachée si :
 
 - l'en-tête **`Vary`** vaut `*` ;
 - l'en-tête **`Content-Type`** n'est pas présent ;
-- l'en-tête **`Content-Type`** n'est pas une des valeurs : `text/html`, `text/xml`, `application/xml`, `application/html+xml`, `application/rss+xml`, `application/rdf+xml`, `application/atom+xml`, `text/javascript` ;
+- l'en-tête **`Content-Type`** n'est pas une des valeurs : `text/html`, `text/xml`, `text/plain`, `application/xml`, `application/html+xml`, `application/rss+xml`, `application/rdf+xml`, `application/atom+xml`, `text/css`, `text/javascript` ;
 - l'en-tête **`Cache-Control`** vaut une des valeurs : `private`, `no-store`, `no-cache`, `no-transform` ;
 - l'en-tête **`Set-Cookie`** est présent ;
 - l'en-tête **`Authorization`** existe mais que **`Cache-Control`** n'a aucune des valeurs suivantes : `public`, `must-revalidate`, `proxy-revalidate`, `s-maxage` ;

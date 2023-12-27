@@ -30,7 +30,7 @@ For the cache to query the upstream to determine if the requested resource has b
 A response **CANNOT** be cached if:
 - the `Vary` header is `*`,
 - the `Content-Type` header is not present,
-- the resource `Content-Type` is not one of the following values: `text/html`, `text/xml`, `application/xml`, `application/html+xml`, `application/rss+xml`, `application/rdf+xml`, `application/atom+xml`, `text/javascript` ;
+- the resource `Content-Type` is not one of the following values:  `text/html`, `text/xml`, `text/plain`, `application/xml`, `application/html+xml`, `application/rss+xml`, `application/rdf+xml`, `application/atom+xml`, `text/css`, `text/javascript` ;
 - the `Cache-Control` header takes one of the following values: `private`, `no-store`, `no-cache`, `no-transform` ;
 - the `Set-Cookie` header is present,
 - the `Authorization` header exists, but `Cache-Control` takes none of the following values: `public`, `must-revalidate`, `proxy-revalidate`, `s-maxage` ;
