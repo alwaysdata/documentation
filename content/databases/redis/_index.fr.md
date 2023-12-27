@@ -22,3 +22,7 @@ Cette configuration est disponible sur le [Cloud Privé]({{< ref "accounts/billi
 ---
 
 - [Documentation Redis](https://redis.io/documentation)
+
+Retrouvez nos guides :
+
+- [Configurer une application PHP avec Redis]({{< ref "databases/redis/php" >}})

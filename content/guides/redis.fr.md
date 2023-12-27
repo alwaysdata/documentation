@@ -43,6 +43,8 @@ Plus d'options via `$HOME/redis/src/redis-cli -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
+- [Installer l'extension PHP]({{< ref "databases/redis/php" >}})
+
 ## Authentification
 
 Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/docs/management/security/acl/) peut donc être mise en place. Dans l'exemple suivant, nous allons indiquer un mot de passe (`[mot de passe]`) à l'utilisateur par défaut.

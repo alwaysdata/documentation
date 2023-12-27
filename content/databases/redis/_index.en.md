@@ -21,3 +21,9 @@ This configuration is for the [Private Cloud]({{< ref "accounts/billing/private-
 ---
 
 - [Redis documentation](https://redis.io/documentation)
+
+---
+
+Find our guides:
+
+- [Configuring a PHP application with Redis]({{< ref "databases/redis/php" >}})
