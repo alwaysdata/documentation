@@ -9,6 +9,10 @@ An [API](https://en.wikipedia.org/wiki/Application_programming_interface) (or Ap
 
 Our [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API lets you manage your alwaysdata resources (accounts, e-mails, databases, etc.) from your code.
 
+{{% notice info %}}
+The API does not work if you have activated two-factor authentication on your profile.
+{{% /notice %}}
+
 ## Address
 
 |Version|Root URL|Documentation|
