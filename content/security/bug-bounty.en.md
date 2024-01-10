@@ -68,13 +68,9 @@ When testing for a bug, please also keep in mind:
 
 **Before causing damage or potential damage: stop, report what you’ve found and request additional testing permission.**
 
-Reports about vulnerabilities are examined by our security analysts. If you need to encrypt payload, we strongly recommend you to use the [0xDFDD2138A363986B GPG public key](https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc). Reports must be submitted using [our ticketing interface](https://admin.alwaysdata.com/support/). Please note that:
+Reports about vulnerabilities are examined by our security analysts. If you need to encrypt payload, we strongly recommend you to use the [0xDFDD2138A363986B GPG public key](https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc). Reports **must** be submitted using our **[bug tracking interface](https://security.alwaysdata.com/)**.
 
-- submission via the ticketing interface is the preferred way to contact our team.
-- GPG encryption is *not* requested if you use the ticketing interface.
-- GPG encryption is mandatory *only* for emails exchanges.
-
-*Please avoid to report directly by email.*
+*Any report sent by email or through our support interface will be rejected.*
 
 Our analysis is always based on worst case exploitation of the vulnerability, as is the reward we pay.
 

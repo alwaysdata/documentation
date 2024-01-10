@@ -69,13 +69,9 @@ Lors du test d'un bug, veuillez également garder à l'esprit :
 
 **Avant de causer des dommages ou des dommages potentiels : arrêtez-vous, signalez ce que vous avez trouvé et demandez une autorisation de test supplémentaire.**
 
-Les rapports sur les failles sont examinés par nos analystes de sécurité. Si vous devez chiffrer la charge utile, nous vous recommandons fortement d'utiliser la [clé publique GPG 0xDFDD2138A363986B](https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc). Les rapports doivent être soumis en utilisant [notre interface de support](https://admin.alwaysdata.com/support/). Veuillez noter que :
+Les rapports sur les failles sont examinés par nos analystes de sécurité. Si vous devez chiffrer la charge utile, nous vous recommandons fortement d'utiliser la [clé publique GPG 0xDFDD2138A363986B](https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc). Les rapports doivent être soumis en utilisant notre **[interface de suivi de bugs](https://security.alwaysdata.com/)**.
 
-- la soumission via l'interface de support est le moyen privilégié de contacter notre équipe ;
-- le chiffrement GPG n'est *pas* requis si vous utilisez l'interface de support ;
-- le chiffrement GPG est obligatoire *uniquement* pour les échanges d'emails.
-
-*Veuillez éviter de signaler directement par email.*
+*Tout rapport envoyé par email ou par notre interface de support sera rejeté.*
 
 Notre analyse est toujours basée sur l'exploitation du pire des cas de la faille, tout comme la récompense que nous payons.
 
