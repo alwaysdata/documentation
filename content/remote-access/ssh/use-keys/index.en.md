@@ -8,6 +8,10 @@ tags = ["remote access", "ssh"]
 
 Connecting in SSH mode with its public key (with or rather than use the connection via password) offers some advantages: enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH account with a public key.
 
+{{% notice note %}}
+SSH access is **disabled by default**. You will need to activate password connection at least temporarily to add your SSH keys.
+{{% /notice %}}
+
 ## In Windows
 
 The actions are performed using *PuTTY*, an SSH client [available free of charge](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
@@ -52,5 +56,5 @@ Users of the [Private Cloud]({{< ref "accounts/billing/choose-its-paas" >}}) can
 3.  Connecting with SSH: on the next SSH connection, you will be prompted to enter your passphrase (or nothing at all if your passphrase is blank).
 
 {{% notice info %}}
-DSA keyes are [not accepted](https://www.openssh.com/legacy.html).
+DSA keys are [not accepted](https://www.openssh.com/legacy.html).
 {{% /notice %}}

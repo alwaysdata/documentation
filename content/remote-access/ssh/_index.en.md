@@ -9,13 +9,15 @@ chapter = true
 
 SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connection protocol that is secured by an exchange of encryption keys at the start of the connection. alwaysdata offers it in ALL of their environments.
 
+**Remote SSH access is disabled by default.** To enable it, modify your user and check the password connection. It is then possible to set up a connection with [SSH keys]({{< relref "use-keys" >}}) and disable the password connection.
+
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
 - [Create an SSH user]({{< relref "create-a-ssh-user" >}})
 - [Frequent issues]({{< ref "remote-access/ssh/troubleshooting">}})
 
-* [Use keys]({{< relref "use-keys" >}})
-* [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) (only for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}))
-* [Global SSH keys]({{< relref "install-globally-ssh-keys" >}}) (only for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}))
+* Users of [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}):
+	- [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
+	- [Global SSH keys]({{< relref "install-globally-ssh-keys" >}})
 
 {{% notice info %}}
 All of our offers are managed ones, it is not possible to gain `root` access.

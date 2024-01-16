@@ -9,6 +9,10 @@ tags = ["accès distant", "ssh"]
 
 Se connecter en SSH avec sa clé publique (avec ou en désactivant la connexion par mot de passe) présente quelques avantages : sécurité renforcée, possibilité de définir un mot de passe "vide", etc. Voici les étapes à suivre pour configurer son compte SSH avec clé publique.
 
+{{% notice note %}}
+L'accès SSH est **désactivé par défaut**. Il faudra activer la connexion par mot de passe au moins temporairement pour y ajouter ses clés SSH.
+{{% /notice %}}
+
 ## Sous Windows
 
 Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible gratuitement](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
