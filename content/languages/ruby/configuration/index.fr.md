@@ -12,9 +12,9 @@ tags = ["ruby"]
 
 |  |
 | --- |
-| 3.2, 3.1, 3.0 |
-| 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0 |
-| 1.9, 1.8 |
+| 3.2 \| 3.1 \| 3.0 |
+| 2.7 \| 2.6 \| 2.5 \| 2.4 \| 2.3 \| 2.2 \| 2.1 \| 2.0 |
+| 1.9 \| 1.8 |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
@@ -86,9 +86,9 @@ Il est recommandé d'utiliser Bundler si vous utilisez plusieurs applications Ru
 $ bundle install
 ```
 
-## Déploiement Rack
+## Déploiement HTTP
 
-Pour qu'une application Rack soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration alwaysdata :
+Pour qu'une application Ruby soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration alwaysdata. Nous proposons le type **Ruby Rack** qui utilise le serveur web [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
 {{< fig "images/ruby-rack.png" "Type de site Ruby Rack">}}
 
@@ -100,3 +100,5 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 * utiliser Bundler ;
 * des variables d'environnement à définir ;
 * une version de Ruby spécifique à utiliser.
+
+Vous pouvez utiliser un autre serveur web en le lançant en type [Programme utilisateur]({{< ref "sites/user-program" >}}).
