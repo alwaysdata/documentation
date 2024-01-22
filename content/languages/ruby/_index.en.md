@@ -15,8 +15,3 @@ The [Ruby on Rails](https://rubyonrails.org/) and [Sinatra](http://sinatrarb.com
 
 ---
 - [API resource](https://api.alwaysdata.com/v1/environment/ruby/doc/)
-
----
-Find our guides:
-
-- [Deploy a Ruby on Rails application]({{< ref "/languages/ruby/ruby-on-rails" >}})

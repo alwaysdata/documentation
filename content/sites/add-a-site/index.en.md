@@ -34,7 +34,7 @@ Specific to every type of site:
 - [PHP]({{< ref "languages/php" >}}),
 - [Python WSGI]({{< ref "languages/python" >}}),
 - [Ruby Rack]({{< ref "languages/ruby" >}}),
-- [Ruby on Rails <= 2.x]({{< ref "languages/ruby/ruby-on-rails" >}}),
+- Ruby on Rails <= 2.x,
 - [Node.js]({{< ref "languages/nodejs" >}}),
 - [Elixir]({{< ref "languages/elixir" >}}),
 - [Deno]({{< ref "languages/deno" >}}),

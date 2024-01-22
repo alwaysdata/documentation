@@ -15,8 +15,3 @@ The [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsproje
 
 ---
 - [API resource](https://api.alwaysdata.com/v1/environment/python/doc/)
-
----
-Find our guides:
-
-- [Deploy a Django application]({{< ref "/languages/python/django">}})

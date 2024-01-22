@@ -11,7 +11,6 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 
 - [Apache PageSpeed]({{< relref "apache-pagespeed" >}})
 - [Blackfire]({{< relref "blackfire" >}})
-- [Blazegraph]({{< relref "blazegraph" >}})
 - [FFmpeg]({{< relref "ffmpeg" >}})
 - [GitLab]({{< relref "gitlab" >}})
 - [ImageMagick]({{< relref "./imagemagick" >}})
@@ -23,11 +22,6 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [Redis]({{< ref "./redis" >}})
 - [Tideways]({{< relref "tideways" >}})
 - [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
-
-## Framework installation
-
-- [Django]({{< ref "/languages/python/django" >}})
-- [Ruby on Rails]({{< ref "/languages/ruby/ruby-on-rails" >}})
 
 ## Deployment
 

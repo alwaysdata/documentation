@@ -16,8 +16,3 @@ Les frameworks [Django](https://www.djangoproject.com/), [Flask](https://flask.p
 
 ---
 * [Ressource API](https://api.alwaysdata.com/v1/environment/python/doc/)
-
----
-Retrouvez nos guides :
-
-* [Déployer une application Django]({{< ref "languages/python/django" >}})

@@ -16,8 +16,3 @@ Les frameworks [Ruby on Rails](https://rubyonrails.org/) et [Sinatra](http://sin
 
 ---
 * [Ressource API](https://api.alwaysdata.com/v1/environment/ruby/doc/)
-
----
-Retrouvez nos guides :
-
-* [Déployer une application Ruby on Rails]({{< ref "languages/ruby/ruby-on-rails" >}})
