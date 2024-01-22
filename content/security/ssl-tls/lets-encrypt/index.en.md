@@ -29,6 +29,8 @@ Certificate generation is limited to 64 characters per complete address.
 
 The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
 
+As a result, our system will not be able to generate Let's Encrypt certificates for addresses using a [proxy](https://en.wikipedia.org/wiki/Reverse_proxy) from a third-party company in front of our servers.
+
 {{% notice tip %}}
 People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart the autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later. **`WARNING`** this action is to be done **only once**, too many attempts can block the process and the certificate generation for a week. [Contact support](https://admin.alwaysdata.com/support/add) if the first attempt is unsuccessful.
 {{% /notice %}}
