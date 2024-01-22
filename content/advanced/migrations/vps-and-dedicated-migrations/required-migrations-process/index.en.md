@@ -2,7 +2,7 @@
 title = "Private Cloud: Required Migrations Process"
 layout = "man"
 hidden = true
-tags = ["migration", "dedicated server", "gold server", "vps"]
+tags = ["migration"]
 +++
 
 These migrations are done in four hands with the [support](https://admin.alwaysdata.com/support/).

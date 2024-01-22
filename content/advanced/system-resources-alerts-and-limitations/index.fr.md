@@ -3,7 +3,7 @@ url = "/fr/avancé/ressources-systèmes-alertes-et-limitations"
 title = "Ressources système : alertes et limitations"
 layout = "howto"
 hidden = true
-tags = ["environnement technique", "serveur dédié", "serveur gold", "serveur vps"]
+tags = []
 +++
 
 {{% notice info %}}

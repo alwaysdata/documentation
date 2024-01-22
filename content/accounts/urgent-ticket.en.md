@@ -2,7 +2,7 @@
 title = "Urgent Ticket"
 layout = "man"
 hidden = true
-tags = ["dedicated server", "monitoring"]
+tags = ["monitoring"]
 +++
 
 Opening an urgent ticket, reserved for customers with a Dedicated/Gold server will immediately trigger taking charge by an engineer 24/7.

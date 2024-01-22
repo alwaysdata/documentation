@@ -3,7 +3,7 @@ url = "/fr/sites/utiliser-les-sondes-de-monitoring/"
 title = "Comment utiliser les sondes de monitoring"
 layout = "howto"
 hidden = true
-tags = ["http", "serveur dédié", "serveur gold", "site"]
+tags = ["http", "site"]
 +++
 
 Pour nos utilisateurs qui disposent d'un serveur Dédié/Gold, il est possible de programmer des sondes de monitoring afin de vérifier qu'un site web fonctionne correctement. Si un problème est constaté par une sonde, une alerte est envoyée à notre équipe.

@@ -3,7 +3,7 @@ url = "/fr/sécurité/réseau/configurer-le-firewall"
 title = "Cloud Privé : configurer le firewall"
 layout = "faq"
 hidden = true
-tags = ["sécurité", "serveur dédié", "serveur gold", "serveur vps"]
+tags = ["sécurité"]
 +++
 
 Le firewall (pare-feu) se gère dans le menu **Firewall** du serveur.

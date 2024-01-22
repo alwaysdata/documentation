@@ -2,7 +2,7 @@
 title = "Using Monitoring Probes"
 layout = "howto"
 hidden = true
-tags = ["http", "dedicated server", "gold server", "site"]
+tags = ["http", "site"]
 +++
 
 For our users who have a Dedicated/Gold server, it is possible to program monitoring probes to check that a website is working properly. If a problem is observed by a probe, an alert is sent to our team.

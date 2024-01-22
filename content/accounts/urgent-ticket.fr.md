@@ -3,7 +3,7 @@ url = "/fr/comptes/ticket-urgent/"
 title = "Ticket urgent"
 layout = "man"
 hidden = true
-tags = ["serveur dédié", "monitoring"]
+tags = ["monitoring"]
 +++
 
 L'ouverture d'un ticket urgent, réservée aux utilisateurs possesseurs d'un serveur Dédié/Gold, déclenche immédiatement la prise en charge par un ingénieur (24h/24, 7j/7).

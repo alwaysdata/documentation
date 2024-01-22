@@ -2,7 +2,7 @@
 title = "How to Migrate on Private Cloud"
 layout = "howto"
 hidden = true
-tags = ["migration", "dedicated server", "gold server", "vps"]
+tags = ["migration"]
 +++
 
 Most migrations imply a complete change on the server. For example, migration to a new version of our software infrastructure will call for the complete reinstallation of the server.

@@ -3,7 +3,7 @@ title = "Connecting To Your Server Using SSH Keys"
 layout = "howto"
 weight = 80
 hidden = true
-tags = ["remote access", "dedicated server", "gold server", "vps", "ssh"]
+tags = ["remote access", "ssh"]
 +++
 
 To easily manage your server accounts, you can install global SSH keys in the **SSH keys** tab for your server. These are used to connect to any account without knowing the password.

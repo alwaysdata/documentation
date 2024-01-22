@@ -2,7 +2,7 @@
 title = "Configuring the Firewall on Private Cloud environments"
 layout = "faq"
 hidden = true
-tags = ["security", "dedicated server", "gold server", "vps"]
+tags = ["security"]
 +++
 
 The firewall is managed from the server's **Firewall** menu.

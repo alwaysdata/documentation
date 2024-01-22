@@ -3,7 +3,7 @@ url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/"
 title = "Comment effectuer une migration en Cloud Privé"
 layout = "howto"
 hidden = true
-tags = ["migration", "serveur dédié", "serveur vps"]
+tags = ["migration"]
 +++
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.
