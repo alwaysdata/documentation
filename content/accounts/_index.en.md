@@ -18,7 +18,6 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Delete an account]({{< ref "delete-an-account" >}})
 - [Manage permissions]({{< ref "permissions" >}})
 - [Transfer an account]({{< ref "account-transfer" >}})
-- [Account version]({{< ref "version" >}})
 - [Programs]({{< ref "programs" >}})
 - [Restricted account]({{< ref "security/restricted-mode" >}})
 - [Use tokens]({{< ref "tokens" >}})

@@ -1,9 +1,9 @@
 +++
-url = "/fr/comptes/version"
+url = "/fr/architecture/debian-version"
 title = "Version du compte"
 layout = "man"
 hidden = true
-tags = ["compte", "profil"]
+tags = ["debian"]
 +++
 
 Au fur et à mesure de l'évolution de notre plate-forme, votre compte peut être hébergé sur différentes versions de notre PaaS, en fonction du [statut de son serveur]({{< ref "advanced/migrations" >}}).

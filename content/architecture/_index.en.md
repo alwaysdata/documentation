@@ -34,6 +34,7 @@ Our system distributes the available resources equally between all accounts on a
 
 - [HTTP stack]({{< ref "sites/http-stack" >}})
 - [Security Upgrades]({{< ref "security/security-upgrades" >}})
+- [Account Debian version]({{< ref "architecture/debian-version" >}})
 
 ---
 - [Bug Bounty]({{< ref "security/bug-bounty" >}})

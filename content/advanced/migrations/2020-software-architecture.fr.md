@@ -50,7 +50,7 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ### PHP
 
-| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `4.4.9`                                                          | `4.4.9`                                                          |
 | `5.2.17`                                                         | `5.2.17`                                                         |
@@ -70,7 +70,7 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ### Python
 
-| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `2.4.6`                                                          | `2.4.6`                                                          |
 | `2.5.6`                                                          | `2.5.6`                                                          |
@@ -94,7 +94,7 @@ python -m venv --upgrade [myenv]/
 
 ### Ruby
 
-| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `1.8.7-p374`                                                     | `1.8.7-p374`                                                     |
 | `1.9.3-p551`                                                     | `1.9.2-p3201` `1.9.3-p551`                                       |
@@ -112,7 +112,7 @@ python -m venv --upgrade [myenv]/
 
 ### Node.js
 
-| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `6.17.1`                                                         | `6.14.4` `6.16.0`  `6.17.0`                                      |
 | `8.17.0`                                                         | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`                            |
@@ -128,7 +128,7 @@ python -m venv --upgrade [myenv]/
 
 ### Elixir
 
-| Versions disponibles sur [v2020]({{< ref "accounts/version" >}}) | Versions disponibles sur [v2017]({{< ref "accounts/version" >}}) |
+| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `1.11.1` `1.11.2` `1.11.3`                                       | `-`                                                              |
 | `1.10.2` `1.10.3` `1.10.4`                                       | `-`                                                              |
@@ -191,7 +191,7 @@ Seules les versions des langages _explicitement utilisées_, soit dans la sectio
 
 ## Préparation de la migration
 
-Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017]({{< ref "accounts/version" >}}) :
+Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017]({{< ref "architecture/debian-version" >}}) :
 
 - passer sur *Apache 2.4* dans l'onglet **Web > Configuration > Apache** ;
 

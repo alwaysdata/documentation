@@ -2,7 +2,7 @@
 title = "Account Version"
 layout = "man"
 hidden = true
-tags = ["account", "profile"]
+tags = ["debian"]
 +++
 
 As our platform evolves, your account may be hosted on different version of our PaaS, depending of its [hosting server status]({{< ref "advanced/migrations" >}}).

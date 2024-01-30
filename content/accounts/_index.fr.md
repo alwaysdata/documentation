@@ -20,7 +20,6 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Supprimer un compte]({{< ref "delete-an-account" >}})
 - [Gestion des permissions]({{< ref "permissions" >}})
 - [Céder un compte]({{< ref "account-transfer" >}})
-- [Version du compte]({{< ref "version" >}})
 - [Programmes]({{< ref "programs" >}})
 - [Compte restreint]({{< ref "security/restricted-mode" >}})
 - [Utiliser les tokens]({{< ref "tokens" >}})
