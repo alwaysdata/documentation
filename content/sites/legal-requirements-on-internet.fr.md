@@ -28,14 +28,14 @@ Les éditeurs sont tenus responsables de tout ce qui est accessible sur leur sit
 
 ### Hébergeur
 
-- sa raison sociale ;
-- son adresse ;
-- son numéro de téléphone.
+- sa raison sociale : SARL alwaysdata
+- son adresse :  91 Rue du Faubourg Saint-Honoré, 75008 Paris
+- son numéro de téléphone : +33 1 84 16 23 49
 
 Exemple pouvant être placé sur votre site :
 
 {{% notice %}}
-Hébergeur : ce site est hébergé par la société à responsabilité limitée [ALWAYSDATA](https://www.alwaysdata.com), ayant son siège social au 91 rue du Faubourg Saint-Honoré, 75008 Paris (tél. +33 1 84 16 23 40).
+Hébergeur : ce site est hébergé par la société à responsabilité limitée [alwaysdata](https://www.alwaysdata.com), ayant son siège social au 91 rue du Faubourg Saint-Honoré, 75008 Paris (tél. +33 1 84 16 23 49).
 {{% /notice %}}
 
 ## Données personnelles

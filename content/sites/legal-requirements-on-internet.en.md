@@ -26,14 +26,14 @@ Publishers are liable for everything that is accessible on their website (includ
 
 ### Hosting
 
-- corporate entity,
-- address,
-- phone number.
+- corporate entity: SARL alwaysdata
+- address: 91 Rue du Faubourg Saint-Honoré, 75008 Paris, France
+- phone number: +33 1 84 16 23 49
 
 Here is an example that can be placed on your website:
 
 {{% notice %}}
-Host: this website is hosted by [ALWAYSDATA](https://www.alwaysdata.com), a limited liability company with its head office at 91 Rue du Faubourg Saint-Honoré, 75008 Paris, France (phone +33 1 84 16 23 40).
+Host: this website is hosted by [alwaysdata](https://www.alwaysdata.com), a limited liability company with its head office at 91 Rue du Faubourg Saint-Honoré, 75008 Paris, France (phone +33 1 84 16 23 49).
 {{% /notice %}}
 
 ## Personal data
