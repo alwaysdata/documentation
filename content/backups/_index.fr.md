@@ -19,4 +19,8 @@ Vous pouvez restaurer [un site web]({{< relref "restore-a-site" >}}) ou des [ema
 Les sauvegardes ne rentrent pas en compte dans le quota d'espace disque d'un compte.
 {{% /notice %}}
 
+{{% notice tip %}}
+Les contenus archivés (e.g. les dumps de BDD) dans votre espace de *backup* sont au format [Zstandard](https://github.com/facebook/zstd), vous pouvez utiliser les [outils `zstd*` officiels](https://github.com/facebook/zstd/releases/latest) ou le [plugin adapté pour 7zip](https://www.tc4shell.com/en/7zip/modern7z/) pour les manipuler.
+{{% /notice %}}
+
 - [Plan de continuité d'activité d'alwaysdata]({{< ref "security/drp" >}})
