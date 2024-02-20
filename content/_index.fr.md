@@ -17,8 +17,6 @@ Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/ad
 
 Vous n'êtes pas encore client ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/) et / ou inscrivez-vous sur notre [plateforme](https://www.alwaysdata.com/fr/inscription/).
 
-Quelle que soit la question, vous pouvez aussi nous contacter via notre [canal IRC](ircs://irc.libera.chat:6697/alwaysdata) ou [Twitter](https://twitter.com/alwaysdata).
-
 Vous nous aimez ? [Montrez-nous votre ❤]({{<ref "love">}}) !
 
 {{% notice tip %}}
