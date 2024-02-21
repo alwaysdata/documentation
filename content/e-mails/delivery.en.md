@@ -58,4 +58,4 @@ In order not to be dependent on abuse from other users being the same mail serve
 - The maximum size of e-mails sent is set at **50 Mbytes**.
 
 ---
-- Test its delivrability: [Mail tester](https://www.mail-tester.com/?lang=en)
+- Test its delivrability: [Mail tester](https://www.mail-tester.com/?lang=en), [Experte.com](https://www.experte.com/spam-checker)
