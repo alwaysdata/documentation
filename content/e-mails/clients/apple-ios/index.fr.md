@@ -6,14 +6,34 @@ tags = ["email", "ios", "macos", "apple"]
 hidden = true
 +++
 
-[Rappel des informations de connexion]({{< ref "e-mails/use-an-e-mail-address">}})
-
 Dans nos exemples nous considérons les informations suivantes :
 
 - Nom du compte : `test`
 - Adresse email : `test@alwaysdata.net`
 
-Elles sont à remplacer par vos informations de connexion personnelles.
+Elles sont à remplacer par vos informations de connexion personnelles :
+
+|Serveur|Service|Information||
+|---|---|---|---|
+|Entrant|IMAP|Nom d'hôte|imap-*[compte]*.alwaysdata.net|
+|||Port|993|
+|||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Mot de passe|Le mot de passe de votre adresse email|
+|||Méthode d'authentification|Mot de passe normal|
+||POP3|Nom d'hôte| pop-*[account]*.alwaysdata.net|
+|||Port| 995|
+|||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Mot de passe|Le mot de passe de votre adresse email|
+|||Méthode d'authentification|Mot de passe normal|
+|Sortant|SMTP|Nom d'hôte|smtp-*[account]*.alwaysdata.net|
+|||Port|587|
+|||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Mot de passe|Le mot de passe de votre adresse email|
+|||Méthode d'authentification|Mot de passe normal|
+
+{{% notice tip %}}
+ *[compte]* doit être remplacé par le nom de votre compteet *contact\@exemple.com* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
+{{% /notice %}}
 
 ## MacOS : application Mail
 
