@@ -6,6 +6,11 @@ hidden = true
 tags = ["remote access", "ssh"]
 +++
 
+{{% notice note %}}
+Feature available to [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) owners.
+{{% /notice %}}
+
+
 To easily manage your server accounts, you can install global SSH keys in the **SSH keys** tab for your server. These are used to connect to any account without knowing the password.
 
 {{< fig "images/admin-interface_global-ssh-keys.en.png" "Administration interface: global SSH keys" >}}
