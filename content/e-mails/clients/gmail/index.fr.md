@@ -15,11 +15,11 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 
 |Serveur|Service|Information||
 |---|---|---|---|
-|Entrant|POP3|Serveur POP|pop-*[account]*.alwaysdata.net|
+|Entrant|POP3|Serveur POP|pop-*[compte]*.alwaysdata.net|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Port|995|
-|Sortant|SMTP|Serveur SMTP|smtp-*[account]*.alwaysdata.net|
+|Sortant|SMTP|Serveur SMTP|smtp-*[compte]*.alwaysdata.net|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||| Ne pas traiter comme un alias|

@@ -21,13 +21,13 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
 |||Adresse de courrier|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
-||POP3|Serveur| pop-*[account]*.alwaysdata.net|
+||POP3|Serveur| pop-*[compte]*.alwaysdata.net|
 |||Port| 995|
 |||Méthode de chiffrement|Sera automatiquement choisi|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
 |||Adresse de courrier|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
-|Sortant|SMTP|Serveur|smtp-*[account]*.alwaysdata.net|
+|Sortant|SMTP|Serveur|smtp-*[compte]*.alwaysdata.net|
 |||Port|587|
 |||Méthode de chiffrement|Sera automatiquement choisi|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|

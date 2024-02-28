@@ -20,12 +20,12 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|
-||POP3|Nom d'hôte| pop-*[account]*.alwaysdata.net|
+||POP3|Nom d'hôte| pop-*[compte]*.alwaysdata.net|
 |||Port| 995|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|
-|Sortant|SMTP|Nom d'hôte|smtp-*[account]*.alwaysdata.net|
+|Sortant|SMTP|Nom d'hôte|smtp-*[compte]*.alwaysdata.net|
 |||Port|587|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
