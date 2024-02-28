@@ -51,3 +51,5 @@ or else for the `php.ini`:
 ```sh
 $ php -c /path/to/php.ini
 ```
+
+The `php.ini` files are available in read-only in the directory `$HOME/admin/config/php/`.

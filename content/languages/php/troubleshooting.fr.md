@@ -50,3 +50,5 @@ ou encore pour le `php.ini`:
 ```sh
 $ php -c /chemin/vers/php.ini
 ```
+
+Les fichiers `php.ini` sont disponibles en lecture seule dans le répertoire `$HOME/admin/config/php/`.
