@@ -6,7 +6,11 @@ hidden = true
 tags = [""]
 +++
 
-Vous pouvez utiliser [Docker](https://www.docker.com/)[^1] sur les [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata.
+{{% notice note %}}
+[Docker](https://www.docker.com/) est disponible uniquement sur les environnements [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+{{% /notice %}}
+
+Docker tourne en mode [rootless](https://docs.docker.com/engine/security/rootless/).
 
 ## Installation
 
@@ -53,4 +57,3 @@ Par défaut, Docker écoute sur les IP privées du compte. Si il est nécessaire
 **Les conteneurs Docker sont intégralement sous la responsabilité de nos utilisateurs. Aucune infogérance ou assistance ne pourra être apportée par alwaysdata.** En particulier, les images Docker intègrent généralement des logiciels comme Apache, PHP, MySQL, Redis... qui ne seront donc pas administrés, configurés ou surveillés par alwaysdata, contrairement à des applications qui tourneraient sans Docker. Pour cette raison, nous invitons vivement nos utilisateurs à n'utiliser Docker qu'en cas de besoin avéré, et à **systématiquement** demander conseil à notre support avant d'utiliser une image Docker. Dans bien des cas, il sera préférable de se passer de Docker - par exemple, en utilisant notre [marketplace]({{< ref "marketplace" >}}) ou un [guide d'installation]({{< ref "guides" >}}), permettant alors de bénéficier de l'infogérance alwaysdata, de meilleures performances et d'une fiabilité accrue.
 {{% /notice %}}
 
-[^1]: Docker tourne en mode [rootless](https://docs.docker.com/engine/security/rootless/).

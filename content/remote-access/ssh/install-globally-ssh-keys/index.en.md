@@ -7,7 +7,7 @@ tags = ["remote access", "ssh"]
 +++
 
 {{% notice note %}}
-Feature available to [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) owners.
+Feature only available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) environments.
 {{% /notice %}}
 
 

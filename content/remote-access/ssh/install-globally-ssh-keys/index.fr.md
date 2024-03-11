@@ -8,7 +8,7 @@ tags = ["accès distant", "ssh"]
 +++
 
 {{% notice note %}}
-Fonctionnalité accessible aux propriétaires de [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+Fonctionnalité accessible uniquement sur les environnements [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
 Pour gérer facilement les comptes de son serveur, vous pouvez installer des clés SSH globales dans l'onglet **Clés SSH** de votre serveur. Elles permettent de se connecter à n'importe quel compte sans connaître son mot de passe.

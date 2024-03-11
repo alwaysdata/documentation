@@ -6,7 +6,7 @@ hidden = true
 tags = []
 +++
 
-{{% notice info %}}
+{{% notice note %}}
 Fonctionnalité disponible uniquement sur les environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
