@@ -55,10 +55,13 @@ Whether for the purely technical aspect of your accounts or your servers, your o
 - *Consumption*: monitor disk space consumption for your entire server,
 - *[Resources]({{< ref "advanced/system-resources-alerts-and-limitations" >}})*: change the resource limits by account (e.g. RAM usage).
 
+## 2FA required
+
+When the **2FA required** box is checked, the user in question must log in [with 2 factors]({{< ref "security/two-factor-authentication" >}}) to access the menus to which they have been given access.
+
+## My Permissions
+
+It is possible to remove the permissions that we have on other profiles through the **Permissions > My Permissions** menu. The removal is not performed in a detailed manner, they will all be removed.
+
 ## Other informations
-
-When the "2FA required" box is checked, the user in question must log in [with 2 factors]({{< ref "security/two-factor-authentication" >}}) to access the menus to which they have been given access.
-
-It is possible to remove the permissions that we have on other profiles through the **Permissions > My Permissions** menu. The removal is not fine, they will all be removed.
-
 When creating permissions to an email address that does not have an alwaysdata profile, that person will receive an email to initialize its profile.
