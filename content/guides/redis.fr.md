@@ -53,8 +53,15 @@ Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurit�
 foo@ssh:~/redis$ ./src/redis-cli -h services-[foo].alwaysdata.net -p 8300
 services-[foo].alwaysdata.net:8300> ACL LIST
 1) "user default on nopass sanitize-payload ~* &* +@all"
-services-[foo].alwaysdata.net:8300> AUTH default 4kTtH2ddXfN2sFmXE6sowOLukxiaJhN8n
+
 services-[foo].alwaysdata.net:8300> ACL SETUSER default on >[mot de passe]
+
 services-[foo].alwaysdata.net:8300> ACL LIST
 1) "user default on sanitize-payload #1ccc91f99d0c4c7a24e77941b18c0339ecb3eaf5ad7ae9ad816a7e69d83b69db ~* &* +@all"
+
+services-[foo].alwaysdata.net:8300> AUTH default [mot de passe]
+OK
 ```
+
+`[ACL LIST](https://redis.io/commands/acl-list/)` liste les utilisateurs et donne des informations sur les droits des utilisateurs.
+`[ACL SETUSER](https://redis.io/commands/acl-setuser/)` créé ou modifie les utilisateurs.
