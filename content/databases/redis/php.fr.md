@@ -8,18 +8,18 @@ tags = ["base de données", "redis", "php"]
 
 ## Configuration
 
-{{% notice warning %}}
-Pour construire Redis, vous aurez besoin de définir votre configuration PHP dans la section "Environnement" dans le cas où la configuration PHP de votre site ne soit pas celle par défaut.
-{{% /notice %}}
-
-L'utilisation de Redis en PHP nécessite l'[installation d'une extension PECL]({{< ref "languages/php/extensions" >}}#depuis-pecl-https-pecl-php-net) sur votre compte.
+L'utilisation de Redis en PHP nécessite l'[installation d'une extension PECL]({{< ref "languages/php/extensions#depuis-peclhttpspeclphpnet" >}}) sur votre compte via [SSH]({{< ref "remote-access/ssh" >}}).
 
 ```
 $ ad_install_pecl redis
 ```
 
-N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) :
+N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`]({{< ref "languages/php/configuration#paramètres-phpini" >}}) :
 
 ```
-extension=/home/[compte]/path/to/redis.so
+extension=/home/[compte]/path/to/redis-[VERSION].so
 ```
+
+{{% notice warning %}}
+`[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de PHP]({{< ref "languages/php/troubleshooting#utiliser-différentes-versions-en-ssh" >}}).
+{{% /notice %}}

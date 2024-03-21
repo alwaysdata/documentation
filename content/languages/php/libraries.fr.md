@@ -20,6 +20,6 @@ $ chrpath -r /home/[compte]/[bibliothèque]/ ~/[bibliothèque]/[bibliothèque].s
 
 À chaque fois que ce fichier sera chargé, le répertoire `/home/[compte]/[bibliothèque]/` sera utilisé pour résoudre les dépendances.
 
-Il restera à ajouter le chemin au `.so` dans le `php.ini` via le menu **Environnement** (ou dans **Web > Sites** dans le cas d'un php.ini personnalisé).
+Il restera à ajouter le chemin au `.so` dans le `php.ini` via le menu **Environnement** (ou dans **Web > Sites** dans le cas d'un `php.ini` personnalisé).
 
 [^1]: [compte] et [bibliothèque] doivent être remplacés par leurs noms.

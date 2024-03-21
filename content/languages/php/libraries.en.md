@@ -19,7 +19,7 @@ $ chrpath -r /home/[account]/[library]/ ~/[library]/[library].so
 
 Each time this file is loaded, the `/home/[account]/[library]/` directory will be used to resolve dependencies.
 
-It only remains to add the path to the `.so` in the `php.ini` via the **Environment** menu (or in **Web > Sites** in the case of a custom php.ini).
+It only remains to add the path to the `.so` in the `php.ini` via the **Environment** menu (or in **Web > Sites** in the case of a custom `php.ini`).
 
 
 [^1]: [account] and [library] to be replace by their names.
