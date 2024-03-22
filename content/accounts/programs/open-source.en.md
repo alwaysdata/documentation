@@ -17,5 +17,5 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 - [Colocauto](https://www.colocauto.org)
 - [I Hate Money](https://ihatemoney.org/)
 - [PrePostPrint](https://www.prepostprint.org/)
-- Several projects for [Harubyte](https://github.com/HaruByte)
-- scenery database for FlightGear flight-simulator
+- Several projects for [Volkadot](https://github.com/Volkadot)
+- Scenery database for FlightGear flight-simulator
