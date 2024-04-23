@@ -77,7 +77,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Gestion du firewall]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
 || [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
-|| Réplication SGBD |❌|✔️|✔️|✔️|
+|| Réplication SGBD |❌|Sur demande|Sur demande|✔️|
 || Réplication des données en temps réel |❌|❌|❌|✔️|
 
 La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud Public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.

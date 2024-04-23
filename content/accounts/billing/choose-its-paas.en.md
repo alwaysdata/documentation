@@ -76,7 +76,8 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Firewall management]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
 || [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
 || [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
-
+|| Database management system replication |❌|Upon request|Upon request|✔️|
+|| Real-time data replication |❌|❌|❌|✔️|
 
 Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the Public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
