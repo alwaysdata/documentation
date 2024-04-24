@@ -34,3 +34,7 @@ Invoices are issued when a service is delivered. We can however issue quotations
 ## Deleting before expiry
 
 No refund will be made when an account is deleted or a server decommissioned before it expires.
+
+## Billing special processes
+
+Contact our [support](https://admin.alwaysdata.com/support/add) if you are already an alwaysdata user or our [sales team](https://www.alwaysdata.com/en/).

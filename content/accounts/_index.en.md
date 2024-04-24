@@ -32,7 +32,8 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 
 - [Pay bills]({{< relref "./billing" >}})
 - [Choose your hosting plan]({{< relref "billing/choose-its-paas" >}})
-- [Means of payment]({{< relref "billing/payment-methods" >}})
+- [Payment methods]({{< relref "billing/payment-methods" >}})
+- [Chorus Pro]({{< ref "accounts/billing/payment-methods#chorus-pro" >}})
 - [Sponsorship]({{< relref "billing/sponsorship" >}})
 - [Change plan]({{< relref "billing/upgrade-your-plan" >}})
 - [Private Cloud prices]({{< relref "billing/private-cloud-prices" >}})

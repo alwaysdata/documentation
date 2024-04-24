@@ -35,6 +35,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Payer ses factures]({{< relref "./billing" >}})
 - [Choisir son plan d'hébergement]({{< relref "billing/choose-its-paas" >}})
 - [Moyens de paiement]({{< relref "billing/payment-methods" >}})
+- [Chorus Pro]({{< ref "accounts/billing/payment-methods#chorus-pro" >}})
 - [Parrainage]({{< relref "billing/sponsorship" >}})
 - [Changer d'offre]({{< relref "billing/upgrade-your-plan" >}})
 - [Tarifs Cloud Privé]({{< relref "billing/private-cloud-prices" >}})

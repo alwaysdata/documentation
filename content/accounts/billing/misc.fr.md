@@ -31,6 +31,5 @@ Les factures sont émises à la livraison d'un service. Nous pouvons cependant �
 ## Supprimer avant échéance
 Aucun remboursement n'aura lieu lors de la suppression d'un compte ou le décommissionnement d'un serveur avant son échéance.
 
-## Facturation des collectivités
-Le paiement par mandat administratif est possible et fonctionne pour nous comme un paiement par virement bancaire.
-Si vous avez des process spéciaux, contactez le [support](https://admin.alwaysdata.com/support/add).
+## Process spéciaux de facturation
+Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add) ou notre [équipe commerciale](https://www.alwaysdata.com/fr/).

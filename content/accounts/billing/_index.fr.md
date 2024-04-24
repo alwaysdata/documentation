@@ -17,9 +17,11 @@ Vous disposez de **30 jours** pour la régler dans **Facturation > Transactions 
 - [Choisir son plan d'hébergement]({{< ref "choose-its-paas" >}})
 - [Changer d'offre]({{< ref "upgrade-your-plan" >}})
 - [Parrainer]({{< ref "./sponsorship" >}})
-- [Tarifs Cloud Privé]({{< relref "private-cloud-prices" >}})
-- [Tarifs Cloud Public]({{< relref "public-cloud-prices" >}})
-- [Tarifs des interventions]({{< ref "servers-interventions" >}})
+* [Tarifs Cloud Privé]({{< relref "private-cloud-prices" >}})
+* [Tarifs Cloud Public]({{< relref "public-cloud-prices" >}})
+* [Tarifs des interventions]({{< ref "servers-interventions" >}})
+* [Prix options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}})
+- [Chorus Pro]({{< ref "accounts/billing/payment-methods#chorus-pro" >}})
 - [Diverses questions]({{< ref "./misc" >}})
 
 L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Transactions**.
