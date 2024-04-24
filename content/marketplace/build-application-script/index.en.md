@@ -28,7 +28,7 @@ Scripts comprise two parts:
 |INSTALL_URL|Site address|`foo.example.net/test`|
 |INSTALL_URL_PATH|Site root (base URL)|`/test`|
 |INSTALL_URL_HOSTNAME|Site host name|`foo.example.net`|
-|INSTALL_PATH_RELATIVE|Relative path from the account root (without final slash)|`/example`|
+|INSTALL_PATH_RELATIVE|Relative path from the account root (without final slash)|`example`|
 |INSTALL_PATH|Absolute path (without final slash)|`/home/foo/example`|
 |DATABASE_USERNAME|Database connection user (managed automatically)|`foo_*`|
 |DATABASE_PASSWORD|User password for database connection (managed automatically)||

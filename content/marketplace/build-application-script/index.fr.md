@@ -29,7 +29,7 @@ Les scripts se composent de deux parties :
 | INSTALL_URL           | Adresse du site                                                                                       | `foo.exemple.net/test`                  |
 | INSTALL_URL_PATH      | Racine du site (base URL)                                                                             | `/test`                                 |
 | INSTALL_URL_HOSTNAME  | Nom d’hôte du site                                                                                    | `foo.exemple.net`                       |
-| INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final)                                          | `/exemple`                              |
+| INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final)                                          | `exemple`                               |
 | INSTALL_PATH          | Chemin absolu (sans slash final)                                                                      | `/home/foo/exemple`                     |
 | DATABASE_USERNAME     | Utilisateur de connexion à la base de données (automatiquement généré)                                | `foo_*`                                 |
 | DATABASE_PASSWORD     | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré)              |                                         |
