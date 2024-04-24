@@ -19,7 +19,7 @@ Notre équipe appellera le numéro de téléphone renseigné sur le profil conce
 Si cette vérification échoue, les informations suivantes vous seront demandées, à envoyer à *contact[at]alwaysdata.com* :
 
 * Particulier : copie de la carte d'identité ou du passeport ;
-* Entreprise : copie de la carte d'identié ou du passeport du gérant et le KBIS ;
+* Entreprise : copie de la carte d'identité ou du passeport du gérant et le KBIS ;
 * Association : copie de la carte d'identité ou du passeport du président et les statuts.
 
 Une fois la vérification d'identité effectuée nous vous indiquerons l'adresse email concernée et la modifierons si besoin.
@@ -31,7 +31,7 @@ Notre équipe appellera le numéro de téléphone renseigné sur le profil conce
 Si cette vérification échoue, les informations suivantes vous seront demandées, à envoyer à *contact[at]alwaysdata.com* depuis l'adresse email du profil concerné :
 
 * Particulier : copie de la carte d'identité ou du passeport ;
-* Entreprise : copie de la carte d'identié ou du passeport du gérant et le KBIS ;
+* Entreprise : copie de la carte d'identité ou du passeport du gérant et le KBIS ;
 * Association : copie de la carte d'identité ou du passeport du président et les statuts ;
 - Un code aléatoire sera aussi envoyé à l'adresse email du profil concerné que vous devrez nous retransmettre.
 
@@ -44,7 +44,7 @@ Notre équipe appellera le numéro de téléphone renseigné sur le profil conce
 Si cette vérification échoue, les informations suivantes vous seront demandées, à envoyer à *contact[at]alwaysdata.com* depuis l'adresse email du profil concerné :
 
 * Particulier : copie de la carte d'identité ou du passeport ;
-* Entreprise : copie de la carte d'identié ou du passeport du gérant et le KBIS ;
+* Entreprise : copie de la carte d'identité ou du passeport du gérant et le KBIS ;
 * Association : copie de la carte d'identité ou du passeport du président et les statuts ;
 - Un code aléatoire sera aussi envoyé à l'adresse email du profil concerné que vous devrez nous retransmettre.
 
