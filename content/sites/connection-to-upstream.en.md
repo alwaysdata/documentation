@@ -24,7 +24,7 @@ k.XXXXXXX
 [error] apache: could not log pid to file /home/foo/admin/config/apache/run/apache.pid
 ```
 
-Choose the next higher pack from the **Accounts** tab in your administration interface or delete files. This especially affects free 100 Mb packs.
+Choose the next higher pack from the **Subscriptions** tab in your administration interface or delete files. This especially affects free 100 Mb packs.
 
 ### Cannot find Apache log
 

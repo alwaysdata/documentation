@@ -22,7 +22,7 @@ Toute information de profil peut être modifiée que ce soit au niveau de l'auth
 
 > Pour notamment ne céder que certains comptes, les céder à plusieurs personnes ou encore que le destinataire ne récupère pas son historique client.
 
-Rendez-vous sur **Comptes > Céder à un autre utilisateur**. Vous devrez indiquer l'adresse email du profil destinataire qui pourra alors l'accepter dans l'onglet **Cessions** de son interface client.
+Rendez-vous sur **Abonnements > Céder à un autre utilisateur**. Vous devrez indiquer l'adresse email du profil destinataire qui pourra alors l'accepter dans l'onglet **Cessions** de son interface client.
 
 {{< fig "images/accounts.fr.png" "" >}}
 

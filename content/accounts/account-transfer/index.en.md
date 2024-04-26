@@ -21,7 +21,7 @@ All the information on your profile can be edited, regardless of the authenticat
 
 > Do this, for instance, if you only wish to cede certain accounts, cede them to several people, or so that the recipient cannot recover his client history.
 
-Go to **Accounts > Transfer to another user**. You will have to indicate the email address of the recipient profile, which will then be able to accept it in the Disposals tab of your client interface.
+Go to **Subscriptions > Transfer to another user**. You will have to indicate the email address of the recipient profile, which will then be able to accept it in the Disposals tab of your client interface.
 
 {{< fig "images/accounts.en.png" "" >}}
 

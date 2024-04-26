@@ -80,7 +80,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || Réplication SGBD |❌|Sur demande|Sur demande|✔️|
 || Réplication des données en temps réel |❌|❌|❌|✔️|
 
-La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Comptes_ dans le cas d'un changement de pack en Cloud Public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
+La migration vers une offre supérieure est possible et gratuite : dans l'onglet _Abonnements_ dans le cas d'un changement de pack en Cloud Public ou en contactant le [support](https://admin.alwaysdata.com/support/add/) pour passer sur un autre environnement.
 
 {{% notice note %}}
 Une application bien _optimisée_ aura les mêmes performances quel que soit le type d'environnement sur lequel elle se trouve. Toutefois _moins_ d'utilisateurs sur un serveur amène plus de **stabilité** et de **confort** (élimination de variations de performances à cause d'autres utilisateurs).

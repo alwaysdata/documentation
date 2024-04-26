@@ -6,6 +6,10 @@ hidden = true
 tags = ["facturation"]
 +++
 
+## Accéder à ses contrats
+
+Les contrats sont accessibles via le menu **Abonnements > Contrats**. Vous aurez accès à la dernière version validée, ainsi que les contrats à valider.
+
 ## Souscrire à un plan [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}})
 Pour souscrire à ces offres, contactez-nous par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/) ou [téléphone](tel:+33184162340), nous vous guiderons sur la démarche à suivre.
 

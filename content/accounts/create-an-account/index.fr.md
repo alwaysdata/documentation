@@ -7,7 +7,7 @@ weight = 10
 tags = ["compte"]
 +++
 
-Allez dans le menu **Comptes** de votre interface client. 
+Allez dans le menu **Abonnements** de votre interface client. 
 
 {{< fig "images/list-accounts.fr.png" "" >}}
 

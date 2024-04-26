@@ -5,6 +5,10 @@ hidden = true
 tags = ["billing"]
 +++
 
+## Accessing Your Contracts
+
+Contracts are accessible via the **Subscriptions > Contracts** menu. You will have access to the latest validated version, as well as contracts awaiting validation.
+
 ## Signing up for a [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) plan
 
 To sign up to these offers, contact us by [ticket](https://admin.alwaysdata.com/support/add/), [e-mail](https://www.alwaysdata.com/en/) or [phone](tel:+33184162340) and we will guide through the various steps.

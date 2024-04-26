@@ -8,7 +8,7 @@ You can delete an *account* (e.g. `my_project`) or your *profile* (e.g. `<name@e
 
 ## Delete an account
 
-Go to the **Accounts** menu and click on the *trash* for the account to delete.
+Go to the **Subscriptions** menu and click on the *trash* for the account to delete.
 
 {{< fig "images/delete-account.en.png" "Delete an account">}}
 

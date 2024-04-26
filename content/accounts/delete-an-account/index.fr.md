@@ -10,7 +10,7 @@ Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (
 
 ## Supprimer un compte 
 
-Allez dans le menu **Comptes** et cliquez sur la _poubelle_ du compte à supprimer.
+Allez dans le menu **Abonnements** et cliquez sur la _poubelle_ du compte à supprimer.
 
 {{< fig "images/delete-account.fr.png" "Supprimer un compte">}}
 

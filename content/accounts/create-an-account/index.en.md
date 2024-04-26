@@ -6,7 +6,7 @@ weight = 10
 tags = ["account"]
 +++
 
-Go to the **Accounts** menu in your client interface.
+Go to the **Subscriptions** menu in your client interface.
 
 {{< fig "images/list-accounts.en.png" "" >}}
 

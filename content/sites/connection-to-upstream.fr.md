@@ -24,7 +24,7 @@ k.XXXXXXX
 [error] apache: could not log pid to file /home/foo/admin/config/apache/run/apache.pid
 ```
 
-Passez sur le pack supérieur dans l'onglet **Comptes** de votre interface d'administration ou supprimez des fichiers. Cela concernera surtout les packs 100 Mo gratuits.
+Passez sur le pack supérieur dans l'onglet **Abonnements** de votre interface d'administration ou supprimez des fichiers. Cela concernera surtout les packs 100 Mo gratuits.
 
 ### Log Apache introuvable
 

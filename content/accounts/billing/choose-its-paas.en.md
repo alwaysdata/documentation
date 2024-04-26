@@ -79,7 +79,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || Database management system replication |❌|Upon request|Upon request|✔️|
 || Real-time data replication |❌|❌|❌|✔️|
 
-Migration to a higher offer is possible and free of charge: in the _Accounts_ menu for plans in the Public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
+Migration to a higher offer is possible and free of charge: in the _Subscriptions_ menu for plans in the Public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
 {{% notice note %}}
 A well _optimized_ application will have the same performances regardless its environment type. However _less_ users on a server bring more **stability** and **comfort** (no more performance variations due to other users).
