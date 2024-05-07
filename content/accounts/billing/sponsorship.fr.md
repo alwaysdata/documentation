@@ -12,7 +12,7 @@ Le système de parrainage vous permet de toucher des commissions sur les paiemen
 ## Recruter un filleul
 
 - communiquez votre lien de parrainage (section **Facturation > Parrainage**) ;
-- toute personne qui s'inscrit à notre service grâce à votre lien de parrainage obtient une **remise de 10%** durant _6 mois_ et devient votre filleul (l'inscription peut avoir lieu jusqu'à 14 jours après avoir cliqué sur votre lien).
+- toute personne qui s'inscrit à notre service grâce à votre lien de parrainage obtient une **remise de 10%** durant _6 mois_ et devient votre filleul.
 
 ## Toucher une commission
 
