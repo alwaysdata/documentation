@@ -15,4 +15,6 @@ It is useful when there are addresses pointing to the server at the DNS level bu
 
 To configure in the menu **Web > Sites > Modify the [site] - ⚙️ > Advanced**. Choose the duration after which the system stops the application in case of long-term inactivity. Once an HTTP request is executed, the application will be restarted.
 
-To ensure that an application is never stopped by the system, set the value to `0`.
+To ensure that an application is never stopped, set the value to `0`.
+
+However, there is *no guarantee* that an application will never be stopped, and it can be stopped at any time. If it is *necessary* for a web application to run 24/7, create a [service]({{< ref "services" >}}) and a site of type [Redirect "reverse-proxy"]({{< ref "sites/redirect" >}}) for its web access.

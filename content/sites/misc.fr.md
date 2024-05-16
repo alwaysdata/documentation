@@ -16,4 +16,6 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 
 À paramétrer dans le menu **Web > Sites > Modifier le [site] - ⚙️ > Avancé**. Cela permet de choisir la durée après laquelle le système arrête l'application ; en cas d'absence d'activité prolongée. Dès qu'une requête HTTP sera exécutée, l'application sera relancée.
 
-Pour garantir qu'une application ne soit jamais arrêtée par le système, indiquez comme valeur `0`.
+Pour qu'une application ne soit jamais arrêtée, indiquez comme valeur `0`.
+
+Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service]({{< ref "services" >}}) ainsi qu'un site de type [Redirection "reverse-proxy"]({{< ref "sites/redirect" >}}) pour son accès web.
