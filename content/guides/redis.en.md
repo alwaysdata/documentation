@@ -64,5 +64,5 @@ services-[foo].alwaysdata.net:8300> AUTH default [password]
 OK
 ```
 
-`[ACL LIST](https://redis.io/commands/acl-list/)` lists the users and gives information about the users' rights.
-`[ACL SETUSER](https://redis.io/commands/acl-setuser/)` creates or modifies users.
+[`ACL LIST`](https://redis.io/commands/acl-list/) lists the users and gives information about the users' rights.
+[`ACL SETUSER`](https://redis.io/commands/acl-setuser/) creates or modifies users.
