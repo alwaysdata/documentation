@@ -22,7 +22,7 @@ Nous voulons savoir si notre site commercial peut gérer 300 000 visites par jou
 *Le test suivant fait 100 requêtes sur la page d'accueil à raison de 10 à la fois (en parallèle).*
 
 ```sh
-$  ab -c 10 -n 100 https://www.alwaysdata.com/
+$ ab -c 10 -n 100 https://www.alwaysdata.com/fr/
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -37,41 +37,42 @@ SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
 Server Temp Key:        X25519 253 bits
 TLS Server Name:        www.alwaysdata.com
 
-Document Path:          /
-Document Length:        0 bytes
+Document Path:          /fr/
+Document Length:        77003 bytes
 
 Concurrency Level:      10
-Time taken for tests:   5.046 seconds
+Time taken for tests:   7.538 seconds
 Complete requests:      100
-Failed requests:        0
-Non-2xx responses:      100
-Total transferred:      32600 bytes
-HTML transferred:       0 bytes
-Requests per second:    19.82 [#/sec] (mean)
-Time per request:       504.609 [ms] (mean)
-Time per request:       50.461 [ms] (mean, across all concurrent requests)
-Transfer rate:          6.31 [Kbytes/sec] received
+Failed requests:        52
+   (Connect: 0, Receive: 0, Length: 52, Exceptions: 0)
+Non-2xx responses:      52
+Total transferred:      3938476 bytes
+HTML transferred:       3893588 bytes
+Requests per second:    13.27 [#/sec] (mean)
+Time per request:       753.754 [ms] (mean)
+Time per request:       75.375 [ms] (mean, across all concurrent requests)
+Transfer rate:          510.27 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        2    4   3.3      3      15
-Processing:     6  284 924.3      8    4515
-Waiting:        6  284 924.3      8    4515
-Total:          8  288 926.8     11    4530
+Connect:       83  112 100.2    101    1099
+Processing:    36  576 942.6    227    5045
+Waiting:       36  503 933.3     99    5044
+Total:        121  688 952.5    329    5179
 
 Percentage of the requests served within a certain time (ms)
-  50%     11
-  66%     12
-  75%     14
-  80%     15
-  90%    530
-  95%   3037
-  98%   4515
-  99%   4530
- 100%   4530 (longest request)
+  50%    329
+  66%    464
+  75%    822
+  80%    870
+  90%   2131
+  95%   2648
+  98%   4845
+  99%   5179
+ 100%   5179 (longest request)
 ```
 
-L'information importante est : `Requests per second:    19.82 [#/sec] (mean)`.
+L'information importante est : `Requests per second:    13.27 [#/sec] (mean)`.
 
 300 000 visites en 10 heures (petite journée) correspond à 8,3 requêtes par secondes. La configuration actuelle est donc compatible.
 
