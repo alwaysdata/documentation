@@ -24,6 +24,12 @@ Other interpreters and languages also can be run through the [user program]({{< 
 
 ## Versions
 
+It is possible to choose a major version of a language or a specific minor version.
+
+When major versions are selected, the system automatically handles updates when a new minor version becomes available. It lets you benefit from security and bug fixes automatically, while still retaining full compatibility.
+
+### Private Cloud
+
 Language versions are, to limit disk space consumption, **automatically installed on demand**.[^1]
 
 To run the binary of a language (e.g., `python`), you simply need to run `python`. This will internally call `/usr/bin/python`, which is a *wrapper* of the "correct" version of python (the one defined in your environment).

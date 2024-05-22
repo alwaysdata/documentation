@@ -25,6 +25,13 @@ D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [pr
 
 ## Versions
 
+Il est possible de choisir une version majeure d'un langage ou une version mineure précise.
+
+Lorsqu'on choisit les versions majeures, le système gère automatiquement la mise à jour lors de la mise à disposition d'une nouvelle version mineure. Cela permet de bénéficier automatiquement des correctifs de sécurité et de bugs, tout en conservant une compatibilité complète.
+
+
+### Cloud privé
+
 Les versions de langages sont, pour limiter la consommation d'espace disque, **automatiquement installées à la demande**.[^1]
 
 Pour exécuter le binaire d'un langage (par exemple, `python`), il faut tout simplement exécuter `python`. Cela va en interne appeler `/usr/bin/python`, qui est un *wrapper* vers la "bonne" version de python (celle définie dans son environnement).
