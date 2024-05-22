@@ -24,9 +24,14 @@ defaultContentLanguage         = "en"
   weight = 4
 
 [[Languages.en.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-mastodon'></i> Ask us on Mastodon"
+  url    = "https://mastodon.social/@alwaysdata"
+  weight = 5
+
+[[Languages.en.menu.shortcuts]]
   name   = "<i class='fab fa-fw fa-twitter'></i> Ask us on Twitter"
   url    = "https://twitter.com/alwaysdata"
-  weight = 5
+  weight = 6
 
 [[Languages.en.menu.shortcuts]]
   name   = "<i class='fas fa-fw fa-user-plus'></i> Signup"
@@ -51,9 +56,14 @@ defaultContentLanguage         = "en"
   weight = 4
 
 [[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-mastodon'></i> Rejoignez-nous sur Mastodon"
+  url    = "https://mastodon.social/@alwaysdata"
+  weight = 5
+
+[[Languages.fr.menu.shortcuts]]
   name   = "<i class='fab fa-fw fa-twitter'></i> Rejoignez-nous sur Twitter"
   url    = "https://twitter.com/alwaysdata"
-  weight = 5
+  weight = 6
 
 [[Languages.fr.menu.shortcuts]]
   name   = "<i class='fas fa-fw fa-user-plus'></i> Inscription"
