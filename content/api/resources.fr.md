@@ -14,7 +14,10 @@ tags = ["api", "interface d'administration"]
 | datacenter            | Datacenters                          | https://api.alwaysdata.com/v1/datacenter/doc/         |
 | domain                | Noms de domaines                     | https://api.alwaysdata.com/v1/domain/doc/             |
 | domain record         | Enregistrements DNS                  | https://api.alwaysdata.com/v1/record/doc/             |
+| environment (deno)    | Paramètres Deno                      | https://api.alwaysdata.com/v1/environment/deno/doc/   |
+| environment (dotnet)  | Paramètres .NET                      | https://api.alwaysdata.com/v1/environment/dotnet/doc/ |
 | environment (elixir)  | Paramètres Elixir                    | https://api.alwaysdata.com/v1/environment/elixir/doc/ |
+| environment (java)    | Paramètres Java                      | https://api.alwaysdata.com/v1/environment/java/doc/   |
 | environment (node.js) | Paramètres Node.js                   | https://api.alwaysdata.com/v1/environment/nodejs/doc/ |
 | environment (php)     | Paramètres PHP                       | https://api.alwaysdata.com/v1/environment/php/doc/    |
 | environment (python)  | Paramètres Python                    | https://api.alwaysdata.com/v1/environment/python/doc/ |
@@ -28,7 +31,7 @@ tags = ["api", "interface d'administration"]
 | object transfer       | Cession                              | https://api.alwaysdata.com/v1/object_transfer/doc/    |
 | product               | Produits                             | https://api.alwaysdata.com/v1/product/doc/            |
 | server                | Serveurs                             | https://api.alwaysdata.com/v1/server/doc/             |
-| service               | Services                             | https://api.alwaysdata.com/v1/service/doc/             |
+| service               | Services                             | https://api.alwaysdata.com/v1/service/doc/            |
 | site                  | Sites                                | https://api.alwaysdata.com/v1/site/doc/               |
 | ssh user              | Utilisateurs SSH                     | https://api.alwaysdata.com/v1/ssh/doc/                |
 | ssl certificate       | Certificats SSL                      | https://api.alwaysdata.com/v1/ssl/doc/                |

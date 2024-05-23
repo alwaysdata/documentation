@@ -13,7 +13,10 @@ tags = ["administration interface", "api"]
 |datacenter|Datacenters|https://api.alwaysdata.com/v1/datacenter/doc/|
 |domain|Domain names|https://api.alwaysdata.com/v1/domain/doc/|
 |domain record|DNS records|https://api.alwaysdata.com/v1/record/doc/|
+|environment (deno)|Deno settings|https://api.alwaysdata.com/v1/environment/deno/doc/|
+|environment (dotnet)|.NET settings|https://api.alwaysdata.com/v1/environment/dotnet/doc/|
 |environment (elixir)|Elixir settings|https://api.alwaysdata.com/v1/environment/elixir/doc/|
+|environment (java)|Java settings|https://api.alwaysdata.com/v1/environment/java/doc/|
 |environment (node.js)|Node.js settings|https://api.alwaysdata.com/v1/environment/nodejs/doc/|
 |environment (php)|PHP settings|https://api.alwaysdata.com/v1/environment/php/doc/|
 |environment (python)|Python settings|https://api.alwaysdata.com/v1/environment/python/doc/|
