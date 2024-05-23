@@ -38,3 +38,5 @@ Then the user can provide a new, **more secure**, password to again allow access
 {{% notice info %}}
 In repeat cases, the alwaysdata team can always *suspend* the account until the user returns.
 {{% /notice %}}
+
+> Test if your e-mail address [has been breached](https://haveibeenpwned.com/).

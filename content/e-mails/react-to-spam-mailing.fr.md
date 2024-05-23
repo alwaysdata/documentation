@@ -37,3 +37,5 @@ L'utilisateur pourra ensuite renseigner un nouveau mot de passe, **plus sécuris
 {{% notice info %}}
 Dans le cas d'une récidive, l'équipe alwaysdata peut _suspendre_ le compte en attente du retour de l'utilisateur.
 {{% /notice %}}
+
+> Testez si votre adresse email [a été compromise](https://haveibeenpwned.com/).
