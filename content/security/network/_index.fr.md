@@ -20,7 +20,7 @@ Tous les ports sont ouverts sans filtrage ; vous pouvez donc définir vos propre
 
 ## Prévention des intrusions
 
-alwaysdata utilise [Fail2ban](http://www.fail2ban.org/) comme système de prévention d'intrusion sur tous ses serveurs. Celui-ci analyse les logs de connexion aux différents services et va bloquer les IP pour 30 minutes, après une centaine de tentatives de connexion échouées.
+alwaysdata utilise [Fail2ban](http://www.fail2ban.org/) comme système de prévention d'intrusion sur tous ses serveurs. Celui-ci analyse les logs de connexion aux différents services et bloquera les IP pour une période de 10 minutes, après une cinquantaine de tentatives de connexion échouées dans un délai de 10 minutes.
 
 Vous pouvez aussi mettre en place un [pare-feu applicatif]({{< ref "sites/waf" >}}) directement dans votre compte pour protéger vos sites d'attaques malveillantes.
 
