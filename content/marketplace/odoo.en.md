@@ -24,8 +24,7 @@ After installing Odoo via our [marketplace]({{< ref "marketplace" >}}):
     - *Working directory*: `/home/foo/odoo/`
     - *Environment*: `PYTHON_VERSION=3.10`
 	
-- In **Web > Sites**, declare a [site]({{< ref "sites/add-a-site" >}}), type **[Redirect]({{< ref "sites/redirect" >}})** with:
+- In **Web > Sites**, declare a [site]({{< ref "sites/add-a-site" >}}), type **Reverse proxy** with:
 
     - *Address*: `foo.alwaysdata.net/websocket/`
-    - *Destination URL*: `services-foo.alwaysdata.net:8300`
-    - *Forwading type*: `transparent (reverse proxy)`
+    - *Remote URL*: `services-foo.alwaysdata.net:8300`

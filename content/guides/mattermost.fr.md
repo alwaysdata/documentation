@@ -54,7 +54,6 @@ Créez un [service]({{< ref "services" >}}) avec les détails suivants :
 
 ## Création du site
 
-Déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **[Redirection]({{< ref "sites/redirect" >}})** avec :
+Déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **Reverse proxy** avec :
 
-- *URL de destination* : `services-[foo].alwaysdata.net:8300`
-- *Type de redirection* : `transparente (reverse proxy)`
+- *URL distante* : `services-[foo].alwaysdata.net:8300`

@@ -24,8 +24,7 @@ Après avoir installé Odoo via notre [marketplace]({{< ref "marketplace" >}}) :
     - *Répertoire de travail* : `/home/foo/odoo/`
     - *Environnement* : `PYTHON_VERSION=3.10`
 
-- Dans **Web > Sites**, déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **[Redirection]({{< ref "sites/redirect" >}})** avec :
+- Dans **Web > Sites**, déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **Reverse proxy** avec :
 
     - *Adresse* : `foo.alwaysdata.net/websocket/`
-    - *URL de destination* : `services-foo.alwaysdata.net:8300`
-    - *Type de redirection* : `transparente (reverse proxy)`
+    - *URL distante* : `services-foo.alwaysdata.net:8300`
