@@ -75,5 +75,5 @@ Here you will see the IP addresses currently banned and the services that they a
 If you end up banned from a service, check this menu and delete your IP if it is banned and add the necessary rule.
 
 {{% notice tip %}}
-A ban lasts for 30 minutes by default and takes place after some ten connection failures.
+A ban lasts for 10 minutes by default and takes place after some fifty connection failures.
 {{% /notice %}}
