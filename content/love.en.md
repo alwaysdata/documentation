@@ -5,7 +5,8 @@ title = "❤️ alwaysdata"
 If you're pretty happy with our services, here are some ways to show it:
 
 * Follow (and share) us on social networks :
-  * [Twitter](https://twitter.com/alwaysdata)
+  * [X (formerly Twitter)](https://x.com/alwaysdata)
+  * [Mastodon](https://mastodon.social/@alwaysdata)
   * [LinkedIn](https://www.linkedin.com/company/alwaysdata/)
 * Contact our [support](https://admin.alwaysdata.com/support/) for any suggestion
 * Evaluate us on [Trustpilot](https://www.trustpilot.com/evaluate/alwaysdata.com) and [Google](https://g.page/r/CdUxURUC1V4SEB0/review)

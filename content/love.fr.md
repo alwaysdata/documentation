@@ -6,7 +6,8 @@ title = "❤️ alwaysdata"
 Si vous êtes satisfaits des services proposés par notre équipe, sachez qu'il existe différents moyens de nous le prouver :
 
 * Suivez-nous (et partagez-nous) sur les réseaux sociaux :
-  * [Twitter](https://twitter.com/alwaysdata)
+  * [X (anciennement Twitter)](https://x.com/alwaysdata)
+  * [Mastodon](https://mastodon.social/@alwaysdata)
   * [LinkedIn](https://www.linkedin.com/company/alwaysdata/)
 * Contactez-nous par [ticket](https://admin.alwaysdata.com/support/) pour toute remarque/suggestion ;
 * Laissez-nous un avis sur les plateformes [Trustpilot](https://fr.trustpilot.com/evaluate/alwaysdata.com) et [Google](https://g.page/r/CdUxURUC1V4SEB0/review) ;
