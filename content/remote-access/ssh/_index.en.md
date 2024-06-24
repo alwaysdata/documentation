@@ -61,6 +61,8 @@ This interface is not compatible with the [Private Cloud]({{< ref "accounts/bill
 
 *Fingerprints* of our SSH servers are displayed in the **Remote access > SSH** menu of your administration interface.
 
+Current processes are accessible via the **Advanced > Processes > SSH** menu.
+
 ---
 - [OpenSSH](https://www.openssh.com/),
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html): SSH terminal in Windows.

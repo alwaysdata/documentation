@@ -33,6 +33,7 @@ Several kinds of information need to be provided:
 - A log is created automatically and is available from the `$HOME/admin/logs/jobs/` directory. It gives you the start and end of the task.
 	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
 	- email addresses provided to receive error reports do not replace these logs.
+- Current processes are accessible via the **Advanced > Processes > Scheduled Tasks** menu.
 
 {{% notice note %}}
 If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref "security/ip-ranges" >}}).

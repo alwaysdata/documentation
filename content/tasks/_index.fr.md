@@ -33,7 +33,8 @@ Plusieurs types d’in­for­ma­tions sont à fournir :
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄) ;
-	- les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs.
+	- les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs ;
+- Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées**.
 	
 {{% notice note %}}
 Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adresses IP]({{< ref "security/ip-ranges" >}}).

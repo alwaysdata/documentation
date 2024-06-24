@@ -62,6 +62,8 @@ Cette interface n'est pas compatible avec le [Cloud Privé]({{< ref "accounts/bi
 
 Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH** de votre interface d’administration.
 
+Les processus en cours sont accessible via le menu **Avancé > Processus > SSH**.
+
 ---
 - [OpenSSH](https://www.openssh.com/) ;
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) : terminal SSH sous Windows.

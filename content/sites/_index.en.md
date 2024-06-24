@@ -12,7 +12,7 @@ Any website address hosted on alwaysdata servers **must** be declared in **Web >
 
 You can have as many sites as you wish in a single account. Note that this does entail a security risk as isolation takes place at the account level.
 
-The alwaysdata administration’s interface presents an excerpt of these logs (**Logs** - 📄).
+The alwaysdata administration’s interface presents an excerpt of logs (**Logs** - 📄), and the current processes are found in the **Advanced > Processes > Web** menu.
 
 {{% notice note %}}
 If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref "security/ip-ranges" >}}).
