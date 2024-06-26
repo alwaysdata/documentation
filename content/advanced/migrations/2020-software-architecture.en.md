@@ -47,9 +47,11 @@ CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Languages
 
+To determine your current account version: log in through [SSH]({{< ref "remote-access/ssh" >}}) and run the command `cat /etc/debian_version`.
+
 ### PHP
 
-| Available versions on [v2020]({{< ref "architecture/debian-version" >}}) | Available version on [v2017]({{< ref "architecture/debian-version" >}}) |
+| Available versions on v2020 - Debian Buster (10.X) | Available version on v2017 - Debian Jessie (8.X) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
 | `4.4.9`                                                       | `4.4.9`                                                      |
 | `5.2.17`                                                      | `5.2.17`                                                     |
@@ -69,7 +71,7 @@ CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ### Python
 
-| Available versions on [v2020]({{< ref "architecture/debian-version" >}}) | Available version on [v2017]({{< ref "architecture/debian-version" >}}) |
+| Available versions on v2020 - Debian Buster (10.X) | Available version on v2017 - Debian Jessie (8.X) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
 | `2.4.6`                                                       | `2.4.6`                                                      |
 | `2.5.6`                                                       | `2.5.6`                                                      |
@@ -93,7 +95,7 @@ python -m venv --upgrade [myenv]/
 
 ### Ruby
 
-| Available versions on [v2020]({{< ref "architecture/debian-version" >}}) | Available version on [v2017]({{< ref "architecture/debian-version" >}}) |
+| Available versions on v2020 - Debian Buster (10.X) | Available version on v2017 - Debian Jessie (8.X) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
 | `1.8.7-p374`                                                  | `1.8.7-p374`                                                 |
 | `1.9.3-p551`                                                  | `1.9.2-p3201` `1.9.3-p551`                                   |
@@ -111,7 +113,7 @@ python -m venv --upgrade [myenv]/
 
 ### Node.js
 
-| Available versions on [v2020]({{< ref "architecture/debian-version" >}}) | Available version on [v2017]({{< ref "architecture/debian-version" >}}) |
+| Available versions on v2020 - Debian Buster (10.X) | Available version on v2017 - Debian Jessie (8.X) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
 | `6.17.1`                                                      | `6.14.4` `6.16.0`  `6.17.0`                                  |
 | `8.17.0`                                                      | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`                        |
@@ -127,7 +129,7 @@ python -m venv --upgrade [myenv]/
 `
 ### Elixir
 
-| Available versions on [v2020]({{< ref "architecture/debian-version" >}}) | Available version on [v2017]({{< ref "architecture/debian-version" >}}) |
+| Available versions on v2020 - Debian Buster (10.X) | Available version on v2017 - Debian Jessie (8.X) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
 | `1.11.1` `1.11.2` `1.11.3`                                    | `-`                                                          |
 | `1.10.2` `1.10.3` `1.10.4`                                    | `-`                                                          |
@@ -190,7 +192,7 @@ Only the language versions *explicitly used*, either in the **Web > Sites** sect
 
 ## Migration preparation
 
-A number of actions can be performed on the [2017]({{< ref "architecture/debian-version" >}}) architecture:
+A number of actions can be performed on the 2017 architecture - Debian Jessie (8.X):
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
 

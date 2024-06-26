@@ -34,7 +34,6 @@ Notre système distribue automatiquement les ressources disponibles, équitablem
 
 - [Stack HTTP]({{< ref "sites/http-stack" >}})
 - [Mises à jour de sécurité]({{< ref "security/security-upgrades" >}})
-- [Version Debian du compte]({{< ref "architecture/debian-version" >}})
 
 ---
 - [Bug Bounty]({{< ref "security/bug-bounty" >}})

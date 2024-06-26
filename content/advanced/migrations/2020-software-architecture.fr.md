@@ -48,9 +48,11 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Langages
 
+Pour déterminer la version courante de votre compte : connectez-vous via [SSH]({{< ref "remote-access/ssh" >}}) et lancez la commande `cat /etc/debian_version`.
+
 ### PHP
 
-| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
+| Versions disponibles sur v2020 - Debian Buster (10.X) | Versions disponibles sur v2017- Debian Jessie (8.X) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `4.4.9`                                                          | `4.4.9`                                                          |
 | `5.2.17`                                                         | `5.2.17`                                                         |
@@ -70,7 +72,7 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ### Python
 
-| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
+| Versions disponibles sur v2020 - Debian Buster (10.X) | Versions disponibles sur v2017- Debian Jessie (8.X) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `2.4.6`                                                          | `2.4.6`                                                          |
 | `2.5.6`                                                          | `2.5.6`                                                          |
@@ -94,7 +96,7 @@ python -m venv --upgrade [myenv]/
 
 ### Ruby
 
-| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
+| Versions disponibles sur v2020 - Debian Buster (10.X) | Versions disponibles sur v2017- Debian Jessie (8.X) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `1.8.7-p374`                                                     | `1.8.7-p374`                                                     |
 | `1.9.3-p551`                                                     | `1.9.2-p3201` `1.9.3-p551`                                       |
@@ -112,7 +114,7 @@ python -m venv --upgrade [myenv]/
 
 ### Node.js
 
-| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
+| Versions disponibles sur v2020 - Debian Buster (10.X) | Versions disponibles sur v2017- Debian Jessie (8.X) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `6.17.1`                                                         | `6.14.4` `6.16.0`  `6.17.0`                                      |
 | `8.17.0`                                                         | `8.11.4` `8.12.0`  `8.15.0`  `8.15.0`                            |
@@ -128,7 +130,7 @@ python -m venv --upgrade [myenv]/
 
 ### Elixir
 
-| Versions disponibles sur [v2020]({{< ref "architecture/debian-version" >}}) | Versions disponibles sur [v2017]({{< ref "architecture/debian-version" >}}) |
+| Versions disponibles sur v2020 - Debian Buster (10.X) | Versions disponibles sur v2017- Debian Jessie (8.X) |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `1.11.1` `1.11.2` `1.11.3`                                       | `-`                                                              |
 | `1.10.2` `1.10.3` `1.10.4`                                       | `-`                                                              |
@@ -191,7 +193,7 @@ Seules les versions des langages _explicitement utilisées_, soit dans la sectio
 
 ## Préparation de la migration
 
-Un certain nombre d'actions peuvent être effectuées sur l'architecture [2017]({{< ref "architecture/debian-version" >}}) :
+Un certain nombre d'actions peuvent être effectuées sur l'architecture 2017 - Debian Jessie (8.X) :
 
 - passer sur *Apache 2.4* dans l'onglet **Web > Configuration > Apache** ;
 
@@ -209,7 +211,7 @@ En parallèle de la migration Buster, nous mettons à disposition les migrations
 
 Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster fermera les autres migrations.
 
-Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveurs de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration]({{< ref "advanced/migrations/2020-software-architecture#préparation-de-la-migration" >}}).
+Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration]({{< ref "advanced/migrations/2020-software-architecture#préparation-de-la-migration" >}}).
 
 ## Déroulement de la migration
 
