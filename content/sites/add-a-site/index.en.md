@@ -40,7 +40,7 @@ Specific to every type of site:
 - [Deno]({{< ref "languages/deno" >}}),
 - [.NET]({{< ref "languages/dotnet" >}}),
 - [Redirect]({{< ref "sites/redirect" >}}),
-- Reverse proxy: redirects an address to a remote URL while keeping the original address as the URL,
+- Reverse proxy: sets up a reverse proxy to a URL,
 - [Static files]({{< ref "sites/static-files" >}}): to manage sites or static files,
 - [Custom Apache]({{< ref "sites/apache-custom" >}}): to fully configure your Apache server,
 - [User program]({{< ref "sites/user-program" >}}): to run any web server.
