@@ -22,7 +22,7 @@ Les versions ne sont pas forcément [déjà installées]({{< ref "languages#vers
 
 ## Logs d'erreur
 
-Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
+Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où `[id]` est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
 Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 

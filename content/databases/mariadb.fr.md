@@ -65,7 +65,7 @@ Un [ANALYZE TABLE](https://mariadb.com/kb/en/analyze-table/) est exécuté quoti
 
 Pour connaître la configuration MariaDB, utilisez la requête SQL `show variables`.
 
-Les events MySQL ne sont pas supportés par nos serveurs.
+Les *events MySQL* ne sont pas supportés par nos serveurs.
 
 Sur le Cloud Public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
