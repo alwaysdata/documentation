@@ -20,11 +20,11 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 ## Téléchargement
 
 ```sh
-foo@ssh:~/mongodb$ wget -O- https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-[version].tgz | tar -xz --strip-components=1
+foo@ssh:~/mongodb$ wget -O- https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian12-[version].tgz | tar -xz --strip-components=1
 foo@ssh:~/mongodb$ mkdir -p data log
 ```
 
-Choisissez le paquet *tgz* et la plateforme *Debian* de la [version 6.0 de la tarball](https://www.mongodb.com/try/download/community)[^1].
+Choisissez le paquet *tgz* et la plateforme *Debian* de la [version 7.0 de la tarball](https://www.mongodb.com/try/download/community).
 
 ## Lancement du service
 
@@ -47,5 +47,3 @@ Les utilisateurs de [Cloud Privé]({{< ref "accounts/billing/private-cloud-price
 | Hôtes      | \<ne rien indiquer>                              |
 | Ports      | 27017                                            |
 | Version IP | IPv4/IPv6                                        |
-
-[^1]: MongoDB 7 nécessite une version trop récente de GLIBC qui ne sera disponible qu'après la [prochaine migration d'infrastructure logicielle]({{< ref "advanced/migrations">}}).

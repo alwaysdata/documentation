@@ -17,7 +17,9 @@ La version par défaut est modifiable dans l'administration alwaysdata, **Enviro
 
 Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
 
-Les versions majeures de .NET alternent entre le support à long terme (LTS) et le support à terme standard (STS) suivant [le cycle de vie de leurs versions](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). Seules les versions LTS sont rendues disponibles, et elles le sont une fois la prise en charge la version General Availability (GA) par Microsoft.
+{{% notice note %}}
+Les versions majeures de .NET alternent entre le support à long terme (LTS) et le support à terme standard (STS) suivant [le cycle de vie de leurs versions](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). Seules les **versions LTS** sont rendues disponibles, et elles le sont une fois la prise en charge la version General Availability (GA) par Microsoft.
+{{% /notice %}}
 
 ## Environnement
 

@@ -15,15 +15,18 @@ Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou 
 
 | Serveur | Service                                                                | Informations                                        |
 |---------|------------------------------------------------------------------------|-----------------------------------------------------|
-| Entrant | [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) | Hôte : imap-[compte].alwaysdata.net                 |
-|         |                                                                        | Ports : 143, sécurisé : 993                         |
-|         |                                                                        | Identifiant : adresse email et mot de passe associé |
-|         | [POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)             | Hôte : pop-[compte].alwaysdata.net                  |
-|         |                                                                        | Ports : 110, sécurisé : 995                         |
-|         |                                                                        | Identifiant : adresse email et mot de passe associé |
-| Sortant | [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)    | Hôte : smtp-[compte].alwaysdata.net                 |
-|         |                                                                        | Ports : 25 ou 587                                   |
-|         |                                                                        | Identifiant : adresse email et mot de passe associé |
+| Entrant | [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) | Hôte : **imap-[compte].alwaysdata.net**                 |
+|         |                                                                        | Port : **993 (SSL/TLS)**                               |
+|||Port alternatif: 140 (STARTTLS)|
+|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
+|         | [POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)             | Hôte : **pop-[compte].alwaysdata.net**                  |
+|         |                                                                        | Port : **995 (SSL/TLS)**                               |
+|||Port alternatif: 110 (STARTTLS)|
+|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
+| Sortant | [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)    | Hôte : **smtp-[compte].alwaysdata.net**                 |
+|         |                                                                        | Port : **465 (SSL/TLS)**                              |
+|||Port alternatif: 587 (STARTTLS)|
+|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
 
 {{% notice note %}}
 Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.
@@ -31,7 +34,7 @@ Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa cré
 
 L'authentification par mot de passe est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes identifiants que pour le serveur entrant.
 
-Le port SMTP par défaut est le port _587_. Une fois connecté le client peut basculer en mode sécurisé. Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
+Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
 
 * [Configurer Apple/iOS]({{< ref "e-mails/clients/apple-ios" >}})
 * [Configurer Gmail]({{< ref "e-mails/clients/gmail" >}})

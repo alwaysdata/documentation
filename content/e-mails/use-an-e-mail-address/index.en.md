@@ -13,15 +13,18 @@ If you wish to configure a mail program on your computer or any other device, he
 
 |Server|Service|Information|
 |--- |--- |--- |
-|Incoming|IMAP|Host: imap-[account].alwaysdata.net|
-|||Ports: 143, secured: 993|
-|||Identifier: email address and the password assigned to it|
-||POP3|Host: pop-[account].alwaysdata.net|
-|||Ports: 110, secured: 995|
-|||Identifier: email address and the password assigned to it|
-|Outgoing|SMTP|Host: smtp-[account].alwaysdata.net|
-|||Ports: 25 or 587|
-|||Identifier: email address and the password assigned to it|
+|Incoming|IMAP|Host: **imap-[account].alwaysdata.net**|
+|||Port: **993 (SSL/TLS)**|
+|||Alternative port: 140 (STARTTLS)|
+|||Identifier: **email address** and the **password** assigned to it|
+||POP3|Host: **pop-[account].alwaysdata.net**|
+|||Port: **995 (SSL/TLS)**|
+|||Alternative port: 110 (STARTTLS)|
+|||Identifier: **email address** and the **password** assigned to it|
+|Outgoing|SMTP|Host: **smtp-[account].alwaysdata.net**|
+|||Port: **465 (SSL/TLS)**|
+|||Alternative port: 587 (STARTTLS)|
+|||Identifier: **email address** and the **password** assigned to it|
 
 {{% notice note %}}
 You need to replace `[account]` with the name of your account, the one chosen when it was created.
@@ -29,7 +32,7 @@ You need to replace `[account]` with the name of your account, the one chosen wh
 
 Password authentication is **mandatory** to use our SMTP server, fill-in the same identifiers as for the incoming server.
 
-The default SMTP port is *587*. Once connected, the client can switch to secure mode. It is also possible to use your internet provider's SMTP server.
+It is also possible to use your internet provider's SMTP server.
 
 - [Configure Apple/iOS]({{< ref "e-mails/clients/apple-ios" >}})
 - [Configure Gmail]({{< ref "e-mails/clients/gmail" >}})

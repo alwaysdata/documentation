@@ -31,12 +31,8 @@ it was created.
 | PostgreSQL               | Host: postgresql-[account].alwaysdata.net                                                          |
 |                          | Port: 5432                                                                                         |
 |                          | Administration interface: [phpPgAdmin](https://phppgadmin.alwaysdata.com)                          |
-| CouchDB                  | Host: couchdb-[account].alwaysdata.net                                                             |
-|                          | Ports: 5984, secured: 6984                                                                         |
 | RabbitMQ                 | Host: rabbitmq-[account].alwaysdata.net                                                            |
 |                          | Port: 5672                                                                                         |
-| Elasticsearch            | Host: localhost or 127.0.0.1                                                                       |
-|                          | Port: 9200 & 9300                                                                                  |
 | Redis                    | Host: localhost or 127.0.0.1                                                                       |
 |                          | Port: 6380                                                                                         |
 | Memcached                | Host: localhost or 127.0.0.1                                                                       |
@@ -45,15 +41,15 @@ it was created.
 | Webmail                  | [RoundCube](https://webmail.alwaysdata.com)                                                        |
 | Mailing-lists            | [Mailman](https://mailman.alwaysdata.com)                                                          |
 | IMAP                     | Host: imap-[account].alwaysdata.net                                                                |
-|                          | Ports: 143, secured: 993                                                                           |
+|                          | Ports: 993 (SSL/TLS)                                                                           |
 | POP3                     | Host: pop-[account].alwaysdata.net                                                                 |
-|                          | Ports: 110, secured: 995                                                                           |
+|                          | Ports: 995 (SSL/TLS)                                                                           |
 | SMTP                     | Host: smtp-[account].alwaysdata.net                                                                |
-|                          | Ports: 25 & 587                                                                                    |
+|                          | Ports: 465 (SSL/TLS)                                                               |
 |                          | Identification: e-mail (address and the password assigned to it)                                   |
 | **Remote access**        |                                                                                                    |
 | FTP                      | Host: ftp-[account].alwaysdata.net                                                                 |
-|                          | Port: 21                                                                                           |
+|                          | Port: 990 (SSL/TLS) |
 |                          | Web interface: [net2ftp](https://net2ftp.alwaysdata.com/)                                          |
 | SFTP                     | Host: ssh-[account].alwaysdata.net                                                                 |
 |                          | Port: 22                                                                                           |

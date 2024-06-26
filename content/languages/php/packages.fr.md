@@ -18,12 +18,18 @@ Pour installer les dépendances listées dans le fichier `composer.json` :
 
 1. Pour utiliser *Composer 2* (dernières versions) :
 ```sh
+$ composer install
+```
+
+ou
+
+```sh
 $ composer2 install
 ```
 
 2. Pour utiliser *Composer 1* :
 ```sh
-$ composer install
+$ composer1 install
 ```
 
 ### PEAR

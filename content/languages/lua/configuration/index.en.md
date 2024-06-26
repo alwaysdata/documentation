@@ -9,11 +9,12 @@ tags = ["lua"]
 
 ||
 |---|
+|5.4|
 |5.3|
 |5.2|
 |5.1|
 
-The default version is Lua 5.3. This is the version that is especially used when you start `lua`.
+The default version is Lua 5.4. This is the version that is especially used when you start `lua`.
 
 Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
 ## Binary to use

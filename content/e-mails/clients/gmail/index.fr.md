@@ -23,7 +23,7 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||| Ne pas traiter comme un alias|
-|||Port|587|
+|||Port|465|
 ||||Connexion sécurisée|
 
 {{% notice tip %}}

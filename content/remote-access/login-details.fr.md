@@ -33,12 +33,8 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | PostgreSQL                 | Hôte : postgresql-[compte].alwaysdata.net                                                                 |
 |                            | Port : 5432                                                                                               |
 |                            | Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com)                              |
-| CouchDB                    | Hôte : couchdb-[compte].alwaysdata.net                                                                    |
-|                            | Ports : 5984, sécurisé: 6984                                                                              |
 | RabbitMQ                   | Hôte : rabbitmq-[compte].alwaysdata.net                                                                   |
 |                            | Port : 5672                                                                                               |
-| Elasticsearch              | Hôte : localhost ou 127.0.0.1                                                                             |
-|                            | Ports : 9200 & 9300                                                                                       |
 | Redis                      | Hôte : localhost ou 127.0.0.1                                                                             |
 |                            | Port : 6380                                                                                               |
 | Memcached                  | Hôte : localhost ou 127.0.0.1                                                                             |
@@ -47,15 +43,15 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 | Webmail                    | [RoundCube](https://webmail.alwaysdata.com)                                                               |
 | Listes de diffusion        | [Mailman](https://mailman.alwaysdata.com)                                                                 |
 | IMAP                       | Hôte : imap-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 143, sécurisé : 993                                                                               |
+|                            | Ports : 993 (SSL/TLS) |
 | POP3                       | Hôte : pop-[compte].alwaysdata.net                                                                        |
-|                            | Ports : 110, sécurisé : 995                                                                               |
+|                            | Ports :  995 (SSL/TLS) |
 | SMTP                       | Hôte : smtp-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 25 et 587                                                                                         |
+|                            | Ports : 465 (SSL/TLS)                                                                                    |
 |                            | Identification : nécessaire (adresse email et mot de passe associé)                                       |
 | **Accès distant**          |                                                                                                           |
 | FTP                        | Hôte : ftp-[compte].alwaysdata.net                                                                        |
-|                            | Port : 21                                                                                                 |
+|                            | Port : 990 (SSL/TLS)                                                                                      |
 |                            | Interface web : [net2ftp](https://net2ftp.alwaysdata.com/)                                                |
 | SFTP                       | Hôte : ssh-[compte].alwaysdata.net                                                                        |
 |                            | Port : 22                                                                                                 |

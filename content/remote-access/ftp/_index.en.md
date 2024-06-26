@@ -18,9 +18,10 @@ FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Pr
 
 |Information||
 |--- |--- |
-|Host|ftp-[account].alwaysdata.net|
-|Port|21|
-|Identifier|assigned user and password|
+|Host|**ftp-[account].alwaysdata.net**|
+|Port|**990 (SSL/TLS)**|
+|Alternative port|21 (STARTTLS)|
+|Identifier|assigned **user** and **password**|
 
 These users can be configured in the **Remote access > FTP** tab in your alwaysdata administration interface.
 

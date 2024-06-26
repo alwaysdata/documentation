@@ -23,9 +23,6 @@ Cette erreur peut avoir d'autres raisons et notamment apparaître de façon spor
 ### Réponse : 530 Login or password incorrect
 Le couple login/mot de passe n'est pas bon vérifiez-le ou modifiez votre mot de passe dans **Accès distant > FTP**.
 
-### Commande : AUTH SSL - Erreur : Impossible d'établir une connexion au serveur
-Vous tentez de vous connecter en FTPS, changez pour le protocole **FTP simple**.
-
 ### ECONNREFUSED - Connexion refusée par le serveur /  ECONNRESET - Connexion réinitialisée par un pair
 La connexion se bloque avant d'arriver aux serveurs alwaysdata, vérifiez :
 

@@ -12,25 +12,22 @@ tags = ["nodejs"]
 
 ||
 |---|
-| 21 |
 | 20 |
-| 19 |
 | 18 |
-| 17 |
 | 16 |
-| 15 |
 | 14 |
-| 13 |
 | 12 |
-| 11 |
 | 10 |
-| 9  |
 | 8  |
 | 6  |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 
 Versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+
+{{% notice note %}}
+Seules les **[versions LTS](https://nodejs.org/fr/about/previous-releases)** sont rendues disponibles.
+{{% /notice %}}
 
 ## Binaire à utiliser
 

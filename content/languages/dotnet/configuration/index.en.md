@@ -16,7 +16,9 @@ The default version can be changed from the administration section, under **Envi
 
 Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
 
-Major releases of .NET alternate between Long Term Support (LTS) and Standard Term Support (STS) following their [releases lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). Only LTS versions are made available and they are released once the General Availability (GA) version is fully supported by Microsoft.
+{{% notice note %}}
+Major releases of .NET alternate between Long Term Support (LTS) and Standard Term Support (STS) following their [releases lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). Only **LTS versions** are made available and they are released once the General Availability (GA) version is fully supported by Microsoft.
+{{% /notice %}}
 
 ## Environment
 

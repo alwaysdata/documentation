@@ -8,7 +8,7 @@ tags = ["golang"]
 
 ## Version
 
-Go étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant la version 1.17 qui est utilisée lorsque vous démarrez `go`.
+Go étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant la version 1.22 qui est utilisée lorsque vous démarrez `go`.
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 

@@ -24,10 +24,6 @@ There may be other reasons for this error and it may appear sporadically. Try co
 
 The login/password pair is incorrect. Check it or change your password from **Remote access > FTP**.
 
-### Command: AUTH SSL - Error: Cannot establish a connection with the server
-
-You are attempting to connect in FTPS, change to the **regular FTP** protocol.
-
 ### ECONNREFUSED - Connection refused by the server / ECONNRESET - Connection reset by peer
 
 The connection locks up before reaching alwaysdata servers, check:

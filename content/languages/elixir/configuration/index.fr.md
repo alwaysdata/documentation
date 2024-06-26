@@ -11,7 +11,7 @@ tags = ["elixir"]
 
 | |
 | --- |
-| 1.11 \| 1.10 \| 1.9 \| 1.8 \| 1.7 \| 1.6 |
+| 1.13 \| 1.14 \| 1.15 \| 1.16 |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Elixir**. C'est cette version qui est notamment utilisée lorsque vous démarrez `mix`.
 
@@ -22,7 +22,7 @@ Les versions ne sont pas forcément [déjà installées]({{< ref "languages#vers
 Pour forcer une version de Elixir différente de celle par défaut, définissez la variable d'environnement `ELIXIR_VERSION` :
 
 ```sh
-$ ELIXIR_VERSION=1.7 elixir
+$ ELIXIR_VERSION=1.14 elixir
 ```
 
 Dans vos scripts, utilisez `/usr/bin/elixir` comme *shebang* :

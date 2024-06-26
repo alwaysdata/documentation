@@ -22,7 +22,7 @@ They must be replaced by your personal login information:
 |||Username|Your email address - for example *contact\@example.com*|
 |||Password|The password of your email address|
 ||||Do not treat as an alias|
-|||Port|587|
+|||Port|465|
 ||||Secured connection|
 
 {{% notice tip %}}

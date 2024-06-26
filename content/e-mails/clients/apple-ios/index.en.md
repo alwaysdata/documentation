@@ -25,7 +25,7 @@ They must be replaced by your personal login information:
 |||Password|The password of your email address|
 |||Authentication method| Normal password|
 |Outgoing|SMTP|Host|smtp-*[account]*.alwaysdata.net|
-|||Port|587|
+|||Port|465|
 |||Username|Your email address - for example *contact\@example.com*|
 |||Password|The password of your email address|
 |||Authentication method| Normal password|

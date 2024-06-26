@@ -26,7 +26,7 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|
 |Sortant|SMTP|Nom d'hôte|smtp-*[compte]*.alwaysdata.net|
-|||Port|587|
+|||Port|465|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@exemple.com*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|

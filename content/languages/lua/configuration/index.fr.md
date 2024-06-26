@@ -9,12 +9,13 @@ tags = ["lua"]
 ## Versions supportées
 
 | |
-|----------|
-| 5.3      |
-| 5.2      |
-| 5.1      | 
+|---|
+|5.4|
+|5.3|
+|5.2|
+|5.1|
 
-La version par défaut est Lua 5.3. C'est cette version qui est notamment utilisée lorsque vous démarrez `lua`.
+La version par défaut est Lua 5.4. C'est cette version qui est notamment utilisée lorsque vous démarrez `lua`.
 
 Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
 

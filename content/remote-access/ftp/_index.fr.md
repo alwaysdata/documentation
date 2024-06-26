@@ -19,9 +19,10 @@ FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_P
 
 | Informations |                                     |
 |--------------|-------------------------------------|
-| Hôte         | ftp-[compte].alwaysdata.net         |
-| Port         | 21                                  |
-| Identifiant  | utilisateur et mot de passe associé |
+| Hôte         | **ftp-[compte].alwaysdata.net**         |
+| Port         | **990 (SSL/TLS)**                   |
+| Port alternatif | 21 (STARTTLS)                    |
+| Identifiant  | **utilisateur** et **mot de passe** associé |
 
 Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de votre interface d'administration alwaysdata.
 {{< fig "admin-panel_list-ftp-users.fr.png" "Interface d'administration : liste des utilisateurs FTP" >}}
@@ -31,6 +32,8 @@ Remplacez `ftp-[compte].alwaysdata.net` par votre nom d'hôte FTP.
 {{% /notice %}}
 
 Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en environnements Cloud Privé.
+
+
 
 ## .ftpaccess
 

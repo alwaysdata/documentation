@@ -54,9 +54,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Any other language]({{< ref "languages" >}}) |✔️|✔️|✔️|✔️|
 | Databases[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
-|| [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
 || [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
-|| [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
 || [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
 || [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |

@@ -10,12 +10,10 @@ Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous pr
 
 - [MariaDB/MySQL]({{< ref "databases/mariadb" >}})
 - [PostgreSQL]({{< ref "databases/postgresql" >}})
-- [CouchDB]({{< ref "databases/couchdb" >}})
 - [RabbitMQ]({{< ref "databases/rabbitmq" >}})
 
 En plans Cloud Privé :
 
-- [Elasticsearch]({{< ref "databases/elasticsearch" >}})
 - [Memcached]({{< ref "databases/memcached" >}})
 - [Redis]({{< ref "databases/redis" >}})
 

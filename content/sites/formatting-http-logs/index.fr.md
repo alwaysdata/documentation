@@ -22,7 +22,7 @@ Rendez-vous dans l'onglet **Logs** de votre site (menu **Web > Sites**) pour per
 blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02/01/2022-au-rapport/ HTTP/2.0" 200 16634 "https://blog.alwaysdata.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
 ```
 
-- le format *Avancé* :
+- le format *Avancé* (format par défaut) :
 ```txt
 {request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] "{request}" {status} {response_size} "{referer}" "{user_agent}" {protocol} {duration}
 ```

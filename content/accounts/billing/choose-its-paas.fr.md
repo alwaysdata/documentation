@@ -55,9 +55,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Tout autre langage]({{< ref "languages" >}}) |✔️|✔️|✔️|✔️|
 | Bases de données[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
 || [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
-|| [CouchDB]({{< ref "databases/couchdb" >}}) |✔️|✔️|✔️|✔️|
 || [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
-|| [Elasticsearch]({{< ref "databases/elasticsearch" >}}) |❌|✔️|✔️|✔️|
 || [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
 || [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
