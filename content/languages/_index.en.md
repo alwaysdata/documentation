@@ -19,6 +19,7 @@ For all of the information on the technologies driven by servers:
 - [PHP]({{< ref "languages/php" >}})
 - [Python]({{< ref "languages/python" >}})
 - [Ruby]({{< ref "languages/ruby" >}})
+- [Rust]({{< ref "languages/rust" >}})
 
 Other interpreters and languages also can be run through the [user program]({{< ref "sites/user-program" >}}).
 

@@ -20,6 +20,7 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [PHP]({{< ref "languages/php" >}})
 * [Python]({{< ref "languages/python" >}})
 * [Ruby]({{< ref "languages/ruby" >}})
+* [Rust]({{< ref "languages/rust" >}})
 
 D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur]({{< ref "sites/user-program" >}}).
 
