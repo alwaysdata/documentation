@@ -57,11 +57,13 @@ Be aware however that this solution is hardly reliable and slow and does not rep
 This interface is not compatible with the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
-## Tips
+## Miscellaneous
 
 *Fingerprints* of our SSH servers are displayed in the **Remote access > SSH** menu of your administration interface.
 
 Current processes are accessible via the **Advanced > Processes > SSH** menu.
+
+SSH users are not `chrooted`. Even if the user's root directory is not the root of the account, they will still be able to access the entire account.
 
 ---
 - [OpenSSH](https://www.openssh.com/),

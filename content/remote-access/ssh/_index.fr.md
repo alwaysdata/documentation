@@ -19,6 +19,7 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 * Utilisateurs de [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}) :
 	- [Authentification 2 facteurs SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
 	- [Clés SSH globales]({{< relref "install-globally-ssh-keys" >}})
+
 {{% notice info %}}
 Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès `root`.
 {{% /notice %}}
@@ -53,16 +54,17 @@ Utile si vous êtes derrière un firewall, notre [interface web](https://github.
 
 Attention, cette solution peu fiable et lente ne remplace pas un client SSH.
 
-
 {{% notice info %}}
 Cette interface n'est pas compatible avec le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 {{% /notice %}}
 
-## Conseils
+## Divers
 
 Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH** de votre interface d’administration.
 
 Les processus en cours sont accessible via le menu **Avancé > Processus > SSH**.
+
+Les utilisateurs SSH ne sont pas `chroot`. Même si le répertoire racine de l'utilisateur n'est pas la racine du compte, il pourra accéder au compte entier.
 
 ---
 - [OpenSSH](https://www.openssh.com/) ;
