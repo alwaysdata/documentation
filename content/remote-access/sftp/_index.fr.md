@@ -25,6 +25,8 @@ Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons
 
 {{< fig "filezilla_sftp-connection.fr.png" "Interface FileZilla : connexion SFTP" >}}
 
-{{% notice info %}}
+## Divers
+
+Comme pour le protocole SSH, les utilisateurs SFTP ne sont pas `chroot`. Néanmoins, il est possible de limiter leurs actions en choisissant le shell **SFTP uniquement**.
+
 Il ne doit pas être confondu avec le protocole [FTPS]({{< ref "remote-access/ftp" >}}) : transfert FTP sécurisé par les protocoles SSL ou TLS.
-{{% /notice %}}
