@@ -54,7 +54,7 @@ Several options :
 The archived contents (e.g. BDD dumps) in your *backup* space are in [Zstandard](https://github.com/facebook/zstd) format, you can use the [official `zstd*` tools](https://github.com/facebook/zstd/releases/latest) or the [adapted plugin for 7zip](https://www.tc4shell.com/en/7zip/modern7z/) to manipulate them.
 {{% /notice %}}
 
-## Other informations
+## Miscellaneous
 
 On the Public Cloud,the maximum number of simultaneous connections per user is *40*. On request, it is possible to change this on the Private Cloud.
 

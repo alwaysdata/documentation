@@ -76,11 +76,11 @@ Plusieurs possibilités :
 Les contenus archivés (e.g. les dumps de BDD) dans votre espace de *backup* sont au format [Zstandard](https://github.com/facebook/zstd), vous pouvez utiliser les [outils `zstd*` officiels](https://github.com/facebook/zstd/releases/latest) ou le [plugin adapté pour 7zip](https://www.tc4shell.com/en/7zip/modern7z/) pour les manipuler.
 {{% /notice %}}
 
-## Autres informations
+## Divers
 
 En Cloud Public, le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
 
-Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont PAS accessibles.
+Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont **pas** accessibles.
 
 Les langages PostgreSQL *untrusted*, permettant d'exécuter du code arbitraire sous les droits de l'utilisateur administrateur (faisant tourner PostgreSQL), ne peuvent être utilisés sur nos serveurs.
 

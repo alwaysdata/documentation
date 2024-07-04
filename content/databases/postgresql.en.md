@@ -74,11 +74,11 @@ Several options :
 The archived contents (e.g. BDD dumps) in your *backup* space are in [Zstandard](https://github.com/facebook/zstd) format, you can use the [official `zstd*` tools](https://github.com/facebook/zstd/releases/latest) or the [adapted plugin for 7zip](https://www.tc4shell.com/en/7zip/modern7z/) to manipulate them.
 {{% /notice %}}
 
-## Other informations
+## Miscellaneous
 
 In Public Cloud, the maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
 
-It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are NOT reachable.
+It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are **not** reachable.
 
 *Untrusted* PostgreSQL languages, which executes arbitrary code with administrator privileges (running PostgreSQL), cannot be used on our servers.
 

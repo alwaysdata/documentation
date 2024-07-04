@@ -64,6 +64,6 @@ Lorsque la case **2FA nécessaire** est cochée, l'utilisateur en question doit 
 
 Il est possible de supprimer les permissions que nous avons sur d'autres profils via le menu **Permissions > Mes permissions**. La suppression ne s'effectue pas finement, elles le seront toutes.
 
-## Autres informations
+## Divers
 
 En créant des permissions à une adresse email n'ayant pas de profil alwaysdata, cette personne recevra un email pour initialiser son profil.

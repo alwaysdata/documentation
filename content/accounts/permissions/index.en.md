@@ -63,5 +63,5 @@ When the **2FA required** box is checked, the user in question must log in [with
 
 It is possible to remove the permissions that we have on other profiles through the **Permissions > My Permissions** menu. The removal is not performed in a detailed manner, they will all be removed.
 
-## Other informations
+## Miscellaneous
 When creating permissions to an email address that does not have an alwaysdata profile, that person will receive an email to initialize its profile.

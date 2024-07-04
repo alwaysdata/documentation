@@ -24,7 +24,7 @@ Certaines extensions se chargent avec la directive `zend_extension` plutôt que 
 Les extensions dépendent de la version majeure de PHP. Autrement dit, un fichier `.so` compilé pour la version 5.5 de PHP ne fonctionnera pas avec la 5.6 : **elle devra être recompilée**.
 {{% /notice %}}
 
-Les sections suivantes vous indiquent comment vous procurer de nouvelles extensions. Toutes les commandes sont à exécuter en [SSH](({{< ref "remote-access/ssh" >}}).
+Les sections suivantes vous indiquent comment vous procurer de nouvelles extensions. Toutes les commandes sont à exécuter en [SSH]({{< ref "remote-access/ssh" >}}).
 
 ### Extensions incluses dans PHP
 
