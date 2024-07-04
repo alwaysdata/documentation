@@ -20,3 +20,4 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - [I Hate Money](https://ihatemoney.org/)
 - Plusieurs projets pour [Volkadot](https://github.com/Volkadot)
 - [PrePostPrint](https://www.prepostprint.org/)
+- [Velvetyne](https://velvetyne.fr/)

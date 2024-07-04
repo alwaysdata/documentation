@@ -19,3 +19,4 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 - [PrePostPrint](https://www.prepostprint.org/)
 - Several projects for [Volkadot](https://github.com/Volkadot)
 - Scenery database for FlightGear flight-simulator
+- [Velvetyne](https://velvetyne.fr/)
