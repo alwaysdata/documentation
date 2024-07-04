@@ -28,7 +28,7 @@ L'ensemble des données de votre compte utilisateur est concerné par la sauvega
 
 Ces sauvegardes sont hébergées dans un datacenter situé à plusieurs kilomètres des unités de production. Cette notion est [contractuelle](https://www.alwaysdata.com/fr/mentions-legales/) (point 4.6 des conditions particulières d'hébergement).
 
-Ce datacenter est opéré par [Scaleway](https://www.scaleway.com/fr/datacenter/), tandis que les datacenters de productions sont gérés par [Equinix](https://www.equinix.com/).
+Ce datacenter est opéré par [Interxion](https://www.digitalrealty.fr/data-centers), tandis que les datacenters de productions sont gérés par [Equinix](https://www.equinix.com/).
 
 ### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 

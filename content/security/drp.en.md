@@ -27,7 +27,7 @@ All the data in your user account is covered by the backup:
 
 These backups are hosted in a datacenter located several kilometers from the production units. This notion is [contractual](https://www.alwaysdata.com/en/terms-and-legal/) (point 4.6 of the hosting special conditions).
 
-This datacenter is operated by [Scaleway](https://www.scaleway.com/en/datacenter/), while the production datacenters are managed by [Equinix](https://www.equinix.com/).
+This datacenter is operated by [Interxion](https://www.digitalrealty.com/data-centers), while the production datacenters are managed by [Equinix](https://www.equinix.com/).
 
 ### How can you guarantee access to backups from the user account file system?
 
