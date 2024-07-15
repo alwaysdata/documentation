@@ -10,6 +10,7 @@ tags = ["deno"]
 
 | |
 |---|
+| 1.45 |
 | 1.43 |
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Deno**. C'est cette version qui est notamment utilisée lorsque vous démarrez `deno`.

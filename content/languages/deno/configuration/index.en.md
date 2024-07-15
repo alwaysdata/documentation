@@ -9,6 +9,7 @@ tags = ["deno"]
 
 ||
 |---|
+| 1.45 |
 | 1.43 |
 
 The default version can be changed from the administration section, under **Environment > Deno**. This is the version that is especially used when you start `deno`.
