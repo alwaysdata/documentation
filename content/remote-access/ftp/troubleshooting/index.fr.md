@@ -32,7 +32,7 @@ La connexion se bloque avant d'arriver aux serveurs alwaysdata, vérifiez :
 - en changeant d'appareil ;
 - en changeant de connexion internet.
 
-Si aucune de ces solutions ne fonctionne, essayez la connexion [SFTP]({{< ref "remote-access/sftp" >}}) ou notre interface [web](https://net2ftp.alwaysdata.com).
+Si aucune de ces solutions ne fonctionne, essayez la connexion [SFTP]({{< ref "remote-access/sftp" >}}).
 
 {{% notice info %}}
 Les connexions Wi-Fi des établissements scolaires et hôtels bloquent fréquemment de tels services.
@@ -40,7 +40,7 @@ Les connexions Wi-Fi des établissements scolaires et hôtels bloquent fréquemm
 
 ### ECONNABORTED - Connexion annulée
 La connexion FTP est effectuée avec une IP mais une autre IP se connecte ensuite en mode passif. Assurez-vous de n'utiliser qu'une seule IP durant toute la durée de la connexion FTP.
-Si vous ne pouvez corriger ce comportement, vous pouvez essayez la connexion [SFTP]({{< ref "remote-access/sftp" >}}) ou notre interface [web](https://net2ftp.alwaysdata.com).
+Si vous ne pouvez corriger ce comportement, vous pouvez essayez la connexion [SFTP]({{< ref "remote-access/sftp" >}}).
 
 ## Accès aux fichiers
 ### Certains fichiers ne sont pas visibles

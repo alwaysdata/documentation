@@ -50,7 +50,6 @@ it was created.
 | **Remote access**        |                                                                                                    |
 | FTP                      | Host: ftp-[account].alwaysdata.net                                                                 |
 |                          | Port: 990 (SSL/TLS) |
-|                          | Web interface: [net2ftp](https://net2ftp.alwaysdata.com/)                                          |
 | SFTP                     | Host: ssh-[account].alwaysdata.net                                                                 |
 |                          | Port: 22                                                                                           |
 | SSH                      | Host: ssh-[account].alwaysdata.net                                                                 |

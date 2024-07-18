@@ -50,5 +50,4 @@ DenyUser [utilisateur FTP]
 ```
 
 ---
-- [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit ;
-- [net2ftp](https://net2ftp.alwaysdata.com/) : interface web.
+- [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit

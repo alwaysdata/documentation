@@ -34,7 +34,7 @@ The connection locks up before reaching alwaysdata servers, check:
 - by changing device,
 - by changing the Internet connection.
 
-If none of these solutions works, try the [SFTP]({{< ref "remote-access/sftp" >}}) connection or our [web](https://net2ftp.alwaysdata.com) interface.
+If none of these solutions works, try the [SFTP]({{< ref "remote-access/sftp" >}}) connection.
 
 {{% notice info %}}
 The Wi-Fi connections at educational facilities and hotels often block such services.
@@ -42,7 +42,7 @@ The Wi-Fi connections at educational facilities and hotels often block such serv
 
 ### ECONNABORTED - Connection cancelled
 The FTP connection is made with an IP but another IP then connects in passive mode. Be sure to use only one IP during the FTP connection.
-If you can not change this behavior, try the [SFTP]({{< ref "remote-access/sftp" >}}) connection or our [web](https://net2ftp.alwaysdata.com) interface.
+If you can not change this behavior, try the [SFTP]({{< ref "remote-access/sftp" >}}) connection.
 
 ## Access to files
 
