@@ -15,16 +15,9 @@ Grâce au [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), le ser
 
 Si vous souhaitez renvoyer un certificat dont la priorité est plus basse, vous pouvez rattacher ce dernier directement au sous-domaine, **il sera alors prioritaire sur les autres**.
 
-Pour cela, rendez-vous dans la configuration de l'adresse :
+La configuration de la priorité d'un certificat n'est possible *que* pour les certificats que vous avez ajouté. Ce n'est pas une option disponible pour les certificats autogénérés Let's Encrypt.
 
-Via **Web > Sites > Modifier le [site] - ⚙️ > Configurer** en face de l'adresse :
-{{< fig "images/admin-panel_site.fr.png" "Interface d'administration : via sites" >}}
-
-Ou via **Domaines > Détails du [domaine] - ⚙️ > Sous-domaines** :
-{{< fig "images/admin-panel_subdomain-list.fr.png" "Interface d'administration : via domaines" >}}
-
-Cela vous mènera sur le menu suivant :
-{{< fig "images/admin-panel_subdomain-menu.fr.png" "Interface d'administration : gérer un sous-domaine" >}}
+Pour forcer un certificat rendez-vous au niveau de la configuration du certificat SSL - menu **Avancé > Certificats SSL** ou au niveau de la configuration du sous-domaine - menu **Domaines > Détails du [domaine] - ⚙️ > Sous-domaines**.
 
 {{% notice warning %}}
 Un certificat expiré, s'il est rattaché à un sous-domaine, sera quand même renvoyé par le serveur.

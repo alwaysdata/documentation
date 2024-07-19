@@ -11,7 +11,7 @@ Regardless of your offer[^1], extras IPv4 addresses are available in **Advanced 
 
 Once the extra IP subscribed :
 
-- If the domain is managed on our DNS servers, go to the sub-domain configuration view to bind the IP. Go to **Web > Sites > Edit the [site] - ⚙️ > Configure (in front of addresses)** or **Domains > Details of [example.org] - 🔎 > Subdomains**.
+- If the domain is managed on our DNS servers, you will be able to bind it to an address via **Advanced > IP  Addresses**,
 - If the domain is managed on external DNS servers, create at your DNS provider an **A DNS record** pointing to the extra IP.
 
 {{% notice note %}}

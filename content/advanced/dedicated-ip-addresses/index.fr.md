@@ -12,7 +12,7 @@ Quel que soit l'environnement pris[^1], des adresses IPv4 sont offertes à la lo
 
 Une fois l'IP prise :
 
-- Si le domaine utilise nos serveurs DNS, rendez-vous au niveau du sous-domaine pour lui allouer l'IP. Cela se passe via **Web > Sites > Modifier le [site] - ⚙️ > Configurer (en face des adresses)** ou via **Domaines > Détails de [exemple.org] - 🔎 > Sous-domaines**.
+- Si le domaine est géré sur nos serveurs DNS, vous pourrez la lier à une adresse via **Avancé > Adresses IP** ;
 - Si le domaine utilise d'autres serveurs DNS, créez un **enregistrement DNS de type A** pointant sur l'IP privée chez votre prestataire DNS.
 
 {{% notice note %}}

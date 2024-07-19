@@ -14,19 +14,9 @@ Thanks to [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), the se
 
 If you wish to send a certificate with a lower priority, you can attach it directly to the subdomain, **it will take priority over the others**.
 
-To do this, go to address configuration:
+The configuration of the priority of a certificate is possible *only* for certificates you have added. This option is not available for auto-generated Let's Encrypt certificates. 
 
-From **Web > Sites > Modify the [site] - ⚙️ > Configure** opposite the address:
-
-{{< fig "images/admin-panel_site.en.png" "Administration interface: via sites">}}
-
-Or from **Domains > Details of [domain] - ⚙️ > Subdomains**:
-
-{{< fig "images/admin-panel_subdomain-list.en.png""Administration interface: via domains" >}}
-
-This will lead you to the following menu:
-
-{{< fig "images/admin-panel_subdomain-menu.en.png" "Administration interface: manage a subdomain" >}}
+To enforce a certificate, go to the SSL certificate configuration in the **Advanced > SSL Certificates** menu or the subdomain configuration in the **Domains > Details of [domain] - ⚙️ > Subdomains** menu.
 
 {{% notice warning %}}
 An expired certificate, if it is attached to a subdomain, will still be returned by the server.
