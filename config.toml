@@ -61,7 +61,7 @@ defaultContentLanguage         = "en"
   weight = 5
 
 [[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-twitter'></i> Rejoignez-nous sur X (Twitter)"
+  name   = "<i class='fab fa-fw fa-x-twitter'></i> Rejoignez-nous sur X (Twitter)"
   url    = "https://twitter.com/alwaysdata"
   weight = 6
 
