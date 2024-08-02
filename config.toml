@@ -29,7 +29,7 @@ defaultContentLanguage         = "en"
   weight = 5
 
 [[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-twitter'></i> Ask us on X (Twitter)"
+  name   = "<i class='fab fa-fw fa-x-twitter'></i> Ask us on X (Twitter)"
   url    = "https://twitter.com/alwaysdata"
   weight = 6
 
