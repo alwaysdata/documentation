@@ -44,3 +44,5 @@ To do this, enter your SIRET number and service code (if your administration use
 Invoices will then be automatically sent to the Chorus Pro portal upon issuance.
 
 Further information may be requested at the invoice level (such as a commitment number).
+
+{{< fig "images/chorus2.en.png" "" >}}

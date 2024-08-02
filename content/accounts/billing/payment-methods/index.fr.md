@@ -47,3 +47,5 @@ Pour cela, renseignez dans le menu **Facturation > Moyens de paiement > Paramèt
 Les factures seront alors automatiquement envoyées sur le portail Chorus Pro à leur émission.
 
 Si votre administration requiert l'ajout d'un numéro d'engagement celui-ci sera demandé dans un deuxième temps au niveau de la facture.
+
+{{< fig "images/chorus2.fr.png" "" >}}
