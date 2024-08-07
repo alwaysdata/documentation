@@ -19,6 +19,10 @@ You will find a list of your rules that you can add to.
 
 Filtering rules are translated into [Sieve](http://sieve.info/) format and you can find it in the `$HOME/admin/mail/[domain]/[local-part]/filter.sieve` file in your file space.
 
+{{% notice tip %}}
+To create more complex rules, you will need to use [Sieve rules]({{< ref "e-mails/use-sieve-scripts" >}}).
+{{% /notice %}}
+
 ---
 
 - [API resource](https://api.alwaysdata.com/v1/mailbox/rule/doc/)
