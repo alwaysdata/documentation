@@ -121,7 +121,7 @@ Si vous utilisez un environnement virtuel, il n'est pas nécessaire de spécifie
 
 Pour qu'une application [WSGI](https://wsgi.readthedocs.io) soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration :
 
-{{< fig "images/python-wsgi.png" "Type de site Python WSGI">}}
+{{< fig "images/python-wsgi.png" "">}}
 
 * type : choisissez *Python WSGI* ;
 * chemin de l'application : le chemin du fichier de votre application WSGI.

@@ -118,9 +118,9 @@ If you use a virtual environment, there is no need to specify `--user`.
 
 ## WSGI deployment
 
-So that a [WSGI](https://wsgi.readthedocs.io) application is accessible by the web, you need to add a site in the administration **Web > Sites** section:
+For a [WSGI](https://wsgi.readthedocs.io) application to be accessible by the web, you need to add a site in the administration **Web > Sites** section:
 
-{{< fig "images/python-wsgi.png" "Python WSGI Site Type">}}
+{{< fig "images/python-wsgi.png" "">}}
 
 - type: choose *Python WSGI*,
 - application path: the path to your WSGI application.

@@ -18,17 +18,6 @@ The default version can be changed from the alwaysdata administration, under **E
 
 Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
 
-## Error logs
-
-You can view the Apache error logs from file `$HOME/admin/logs/apache/apache.log`. These logs sometimes comprise important information returned by PHP.
-
-A [php.ini]({{< ref "languages/php/configuration">}}#parameters-php-ini) option lets you get PHP error logs by adding the following directives:
-
-```ini
-log_errors = On
-error_log = /home/[myaccount]/[path_to_log_file]
-```
-
 ## Parameters (php.ini)
 
 By default, the `php.ini` file activates a number of essential extensions and defines some basic parameters. This file is accessible in read from the following location `$HOME/admin/config/php/php.ini`. Here is its content (for an account configured on PHP version 7.2):
@@ -90,7 +79,24 @@ To change this `php.ini`, go to the **Environment > PHP** section (or if you wan
 
 You can also create `.user.ini` files to only apply parameters to some directories.
 
+### Error logs
+
+You can view the Apache error logs from file `$HOME/admin/logs/apache/apache.log`. These logs sometimes comprise important information returned by PHP.
+
+A [php.ini]({{< ref "languages/php/configuration">}}#parameters-php-ini) option lets you get PHP error logs by adding the following directives:
+
+```ini
+log_errors = On
+error_log = /home/[myaccount]/[path_to_log_file]
+```
+
 ## HTTP deployment
+
+For a PHP application to be accessible via the web, create a site in the **Web > Sites** section of the alwaysdata administration by selecting the **PHP** type.
+
+{{< fig "images/php-type.png" "">}}
+
+### Versions management
 
 Managing PHP versions per site results in a higher RAM consumption per account. Websites cannot then share PHP processes. It is therefore recommended :
 - to prioritize the management of PHP at the account level (Environment section),

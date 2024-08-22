@@ -19,17 +19,6 @@ La version par défaut est modifiable dans l'administration alwaysdata, **Enviro
 
 Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
 
-## Logs d'erreur
-
-Vous pouvez consulter les logs d'erreur Apache dans le fichier `$HOME/admin/logs/apache/apache.log`. Ces logs contiennent parfois des informations importantes renvoyées par PHP.
-
-Une option du [php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) vous permet d'avoir des logs d'erreurs PHP via l'ajout des directives suivantes :
-
-```ini
-log_errors = On
-error_log = /home/[compte]/[chemin_vers_fichier_de_log]
-```
-
 ## Paramètres (php.ini)
 
 Le fichier `php.ini` par défaut active plusieurs extensions essentielles et définit quelques paramètres de base. Ce fichier est accessible en lecture à l'emplacement `$HOME/admin/config/php/php.ini`. Voici son contenu (pour un compte configuré sur une
@@ -92,9 +81,27 @@ Si vous souhaitez modifier ce `php.ini`, vous pouvez le faire dans la section **
 
 Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des paramètres qu'à certains répertoires.
 
+### Logs d'erreur
+
+Vous pouvez consulter les logs d'erreur Apache dans le fichier `$HOME/admin/logs/apache/apache.log`. Ces logs contiennent parfois des informations importantes renvoyées par PHP.
+
+Une option du [php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) vous permet d'avoir des logs d'erreurs PHP via l'ajout des directives suivantes :
+
+```ini
+log_errors = On
+error_log = /home/[compte]/[chemin_vers_fichier_de_log]
+```
+
 ## Déploiement HTTP
 
+
+Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'administration alwaysdata en choisissant le type **PHP**.
+
+{{< fig "images/php-type.png" "">}}
+
+### Gestion des versions
+
 Gérer les versions de PHP par site entraîne une consommation plus importante de RAM car les sites ne peuvent alors pas se partager les processus PHP. Il est donc préconisé :
-- de privilégier la gestion de PHP au niveau du compte (section Environnement) ;
+- de privilégier la gestion de PHP au niveau du compte (section **Environnement**) ;
 - d'utiliser peu de versions différentes par compte ;
 - si on doit en utiliser plusieurs et qu'un certain nombre de sites utilisent la même version, de regrouper leurs php.ini via le php.ini global et de les passer sur la version de PHP par défaut.
