@@ -13,4 +13,4 @@ Le fonctionnement de [Go](https://golang.org/) chez alwaysdata est très standar
 * le [déploiement HTTP]({{< ref "languages/go/configuration" >}}#déploiement-http) se fait simplement.
 
 
-Notre marketplace propose l'installation du framework [Macaron](https://go-macaron.com/) et bien d'autres applications sont compatibles avec nos serveurs ; par exemple, [Beego](https://beego.vip/), [Iris](https://iris-go.com/), [Gin](https://gin-gonic.com/) ou encore [Revel](https://revel.github.io/).
+Notre marketplace propose l'installation du framework [Macaron](https://go-macaron.com/) et bien d'autres applications sont compatibles avec nos serveurs ; par exemple, [Beego](https://github.com/beego/beego), [Iris](https://iris-go.com/), [Gin](https://gin-gonic.com/) ou encore [Revel](https://revel.github.io/).

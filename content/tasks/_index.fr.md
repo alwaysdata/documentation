@@ -73,7 +73,7 @@ Syntaxe crontab équivalente :
 
 ### tt-rss
 
-[Rafraîchissement d'un backend RSS](https://git.tt-rss.org/fox/tt-rss/wiki/UpdatingFeeds#periodical-updating-from-crontab-using-update-script-updatephp---feeds) avec TT-rss, tous les jours à 10:30 :
+[Rafraîchissement d'un backend RSS](https://git.tt-rss.org/fox/tt-rss.wiki.git/tree/UpdatingFeeds.md#n58) avec TT-rss, tous les jours à 10:30 :
 
 Interface d'administration alwaysdata :
 

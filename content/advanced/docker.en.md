@@ -49,7 +49,7 @@ docker run -p $PORT:8080 jenkins/jenkins:lts-jdk11
 
 You need to consult the documentation of your Docker image to find out exactly what to indicate.
 
-By default, Docker listens on the private IP addresses of the account. If it is necessary for Docker to be directly accessible from the outside, you need to [specify the external IP](https://docs.docker.com/engine/reference/run/#expose-incoming-ports) using the `-p` option.
+By default, Docker listens on the private IP addresses of the account. If it is necessary for Docker to be directly accessible from the outside, you need to [specify the external IP](https://docs.docker.com/engine/containers/run/#exposed-ports) using the `-p` option.
 
 {{% notice warning %}}
 **The Docker containers are entirely the responsibility of our users. No managed services or assistance can be provided by alwaysdata.** Specifically, Docker images generally incorporate software such as Apache, PHP, MySQL, Redis, etc., which is not always administered, configured, or monitored by alwaysdata, unlike applications that run without Docker. For this reason, we strongly recommend that our users only use Docker if there is a demonstrated need, and to **always** seek advice from our customer support team before using a Docker image. In most cases, it is preferable not to use Docker - for example, using our [marketplace]({{< ref "marketplace" >}}) or an [installation guide]({{< ref "guides" >}}), thereby making it possible to benefit from the alwaysdata managed services, better performance and superior reliability.

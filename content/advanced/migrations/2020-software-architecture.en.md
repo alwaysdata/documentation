@@ -39,7 +39,7 @@ PostgreSQL will be updated to [version 12](https://www.postgresql.org/docs/12/re
 
 ### MongoDB
 
-MongoDB will be updated to [version 4.2](https://docs.mongodb.com/manual/release-notes/4.2/).
+MongoDB will be updated to [version 4.2](https://www.mongodb.com/docs/v5.3/release-notes/4.2/).
 
 ### CouchDB
 

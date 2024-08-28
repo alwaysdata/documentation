@@ -102,4 +102,4 @@ newrelic.agent.initialize('/home/[foo]/newrelic.ini')
 
 ## Liens
 
-- [Documentation](https://docs.newrelic.com/docs/agents/manage-apm-agents)
+- [Documentation](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/install-configure/configure-new-relic-agents/#apm-config)

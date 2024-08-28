@@ -91,5 +91,4 @@ We're currently out-of-office and will reply soon.";
 
 ## Links
 
-- [Test syntax of your script](https://www.fastmail.com/cgi-bin/sievetest.pl)
 - [RFC 5228](https://tools.ietf.org/html/rfc5228)

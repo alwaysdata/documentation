@@ -92,7 +92,7 @@ Important: the authentication method changes. Users with full permissions have a
 
 ### CouchDB
 
-We are updating CouchDB to version 1.6: http://docs.couchdb.org/en/1.6.0/whatsnew/
+We are updating CouchDB to version 1.6: https://docs.couchdb.org/en/stable/whatsnew/1.6.html#version-1-6-0
 
 ## Miscellaneous
 

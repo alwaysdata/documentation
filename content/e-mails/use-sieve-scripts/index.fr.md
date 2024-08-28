@@ -92,5 +92,4 @@ Nous sommes actuellement absent et y répondrons à notre retour.";
 
 ## Liens
 
-- [Tester la syntaxe de son script](https://www.fastmail.com/cgi-bin/sievetest.pl)
 - [RFC 5228](https://tools.ietf.org/html/rfc5228)

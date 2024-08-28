@@ -50,7 +50,7 @@ docker run -p $PORT:8080 jenkins/jenkins:lts-jdk11
 
 Vous devrez consulter la documentation de votre image Docker pour savoir quoi indiquer exactement.
 
-Par défaut, Docker écoute sur les IP privées du compte. Si il est nécessaire qu'il soit directement joignable depuis l'extérieur, il faut [indiquer l'IP externe](https://docs.docker.com/engine/reference/run/#expose-incoming-ports) avec l'option `-p`.
+Par défaut, Docker écoute sur les IP privées du compte. Si il est nécessaire qu'il soit directement joignable depuis l'extérieur, il faut [indiquer l'IP externe](https://docs.docker.com/engine/containers/run/#exposed-ports) avec l'option `-p`.
 
 
 {{% notice warning %}}

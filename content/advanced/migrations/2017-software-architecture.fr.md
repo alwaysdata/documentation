@@ -102,8 +102,7 @@ Attention : le mécanisme d'authentification change. Les utilisateurs ayant tous
 
 ### CouchDB
 
-Nous mettons à jour CouchDB en version 1.6 :
-http://docs.couchdb.org/en/1.6.0/whatsnew/
+Nous mettons à jour CouchDB en version 1.6 : https://docs.couchdb.org/en/stable/whatsnew/1.6.html#version-1-6-0
 
 ## Divers
 
