@@ -9,7 +9,7 @@ The [management plugin](https://www.rabbitmq.com/management.html) of RabbitMQ ca
 
 ## Installation
 
-Create a site of the type [Transparent redirection]({{< ref "sites/redirect" >}}) pointing on `https://localhost:15672`. In its vhost directives, add:
+Create a site of the type [Reverse proxy]({{< ref "sites/add-a-site#configuration" >}}) pointing on `https://localhost:15672`. In its vhost directives, add:
 
 ```txt
 SSLProxyCheckPeerCN off
