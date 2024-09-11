@@ -1,5 +1,5 @@
 +++
-title = "Transfering a Domain"
+title = "Transfering Internally a Domain"
 layout = "howto"
 hidden = true
 tags = ["domain", "e-mail"]

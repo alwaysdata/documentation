@@ -7,6 +7,10 @@ tags = ["domain"]
 
 This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.
 
+{{% notice warning %}}
+If you wish to transfer the domain to another alwaysdata client, please proceed with an [internal domain transfer]({{< ref "domains/move-a-domain" >}}).
+{{% /notice %}}
+
 ## Preparation ahead of time
 
 Before starting the operation the owner must :

@@ -9,6 +9,10 @@ tags = ["domaine"]
 
 Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet de transférer la gestion _administrative_ de son domaine chez alwaysdata.
 
+{{% notice warning %}}
+Si vous souhaitez transférer le domaine à un autre client alwaysdata, passez par un [déplacement de domaine]({{< ref "domains/move-a-domain" >}}).
+{{% /notice %}}
+
 ## Préparation en amont
 
 Avant de lancer l'opération le propriétaire doit :
