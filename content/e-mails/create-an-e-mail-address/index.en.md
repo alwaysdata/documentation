@@ -58,6 +58,10 @@ This function is relevant when using the antispam and/or antivirus software: it 
 If you use the antivirus and/or the antispam software, e-mails considered to be fraudulent are never redirected to avoid passing on these bad messages to outside vendors.
 {{% /notice %}}
 
+{{% notice warning %}}
+alwaysdata's mail servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the senders. This can block the redirections.
+{{% /notice %}}
+
 ## Auto-reply
 
 {{< fig "images/admin-panel_mailbox_responder.en.png" "Administration interface: E-mails - Automatic answer" >}}
