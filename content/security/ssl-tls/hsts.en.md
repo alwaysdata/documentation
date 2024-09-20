@@ -5,7 +5,7 @@ hidden = true
 tags = ["https", "security", "ssl"]
 +++
 
-The [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy allows to protect users by declaring that they must interact with the webserver using a secure connection.
+The [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy allows to protect users by declaring to their web browser that they must interact with the webserver using a secure connection.
 
 It is implemented by adding `headers`.
 

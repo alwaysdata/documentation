@@ -6,7 +6,7 @@ hidden = true
 tags = ["https", "sécurité", "ssl"]
 +++
 
-La politique [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security) permet de protéger les utilisateurs en lui déclarant qu'il doit intéragir avec le serveur web en utilisant une connexion sécurisée.
+La politique [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security) permet de protéger les utilisateurs en déclarant aux navigateurs qu'ils doivent interagir avec le serveur web en utilisant une connexion sécurisée.
 
 Sa mise en place passe par l'ajout de `headers`.
 
@@ -68,7 +68,7 @@ var helmet = require('helmet')
 
 ## Directives
 
-* `max-age` définit la période d'application d'une politique HSTS donnée par les navigateurs (31536000 = pour un an) ;
+* `max-age` définit la période d'application d'une politique HSTS par les navigateurs (31536000 = pour un an) ;
 * `includeSubDomains` permet d'appliquer HSTS à la fois au domaine et à ses sous-domaines ;
 * `preload` permet d'autoriser l'ajout du site dans les listes HSTS préchargées.
 
