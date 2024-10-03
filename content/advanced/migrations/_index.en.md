@@ -20,12 +20,9 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 
 ## Migrations currently offered
 
-Public Cloud :
+* [2024 software infrastructure]({{< ref "advanced/migrations/2024-software-architecture" >}})
 
-- [MariaDB 10.11]({{< ref "advanced/migrations/mariadb-10_11" >}})
-- [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
-
-Private Cloud:
+Private Cloud - Debian Buster :
 
 - [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
 - [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
