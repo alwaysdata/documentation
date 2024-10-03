@@ -32,7 +32,7 @@ Seules les **[versions LTS](https://nodejs.org/fr/about/previous-releases)** son
 
 ## Binaire à utiliser
 
-Vous devez toujours utiliser `node` (ou `/usr/bin/node`). N'utilisez jamais `nodejs`.
+Vous devez toujours utiliser `node` (ou `/usr/bin/node`). `nodejs` ne fonctionne pas.
 
 Pour forcer une version de Node.js différente de celle par défaut, définissez la variable d'environnement `NODEJS_VERSION` :
 

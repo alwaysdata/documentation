@@ -31,7 +31,7 @@ Only **[LTS versions](https://nodejs.org/en/about/previous-releases)** are made 
 
 ## Binary to use
 
-You need to always use `node` (or `/usr/bin/node`). Never use `nodejs`.
+You need to always use `node` (or `/usr/bin/node`). `nodejs` does not work.
 
 To force the use of a different version of Node.js other than the default one, define the environment variable `NODEJS_VERSION`:
 
