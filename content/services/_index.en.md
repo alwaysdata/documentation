@@ -33,7 +33,7 @@ $ nc -z services-[account].alwaysdata.net 8300
 ```
 	
 {{% notice warning %}}
-there is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
+There is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
 {{% /notice %}}
 
 ### [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users

@@ -34,7 +34,7 @@ $ nc -z services-[compte].alwaysdata.net 8300
 ```
 
 {{% notice warning %}}
-il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
+Il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
 {{% /notice %}}
 
 ### Utilisateurs [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})
