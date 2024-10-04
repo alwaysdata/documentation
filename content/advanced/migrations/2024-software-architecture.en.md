@@ -7,17 +7,17 @@ tags = ["infrastructure", "migration"]
 
 ## Major Changes
 
-* SSL is now required for mail protocols (IMAP, SMTP, POP3) and remote access (FTP, WebDAV).
-* MongoDB and CouchDB databases are being removed.
-* MariaDB has been updated to version 10.11.
-* PostgreSQL has been updated to version 16.
+* SSL is now required for mail protocols (IMAP, SMTP, POP3) and remote access (FTP, WebDAV) protocols
+* MongoDB and CouchDB databases are removed
+* MariaDB has been upgraded to version 10.11
+* PostgreSQL has been upgraded to version 16
 
 ## SSL Encryption Required for Mail and Remote Access
 
 SSL encryption is now mandatory for connecting to the following protocols:
 
-* Mail (IMAP, SMTP, POP3)
-* Remote access (FTP and WebDAV)
+* Mail: IMAP, SMTP, POP3
+* Remote access: FTP and WebDAV
 
 This does not apply to your websites, which are still accessible without encryption (although you can choose to [force encryption](https://help.alwaysdata.com/fr/s%C3%A9curit%C3%A9/ssl-tls/rediriger-http-vers-https/)).
 
@@ -30,7 +30,7 @@ This does not affect your websites, where you can still [configure TLS yourself]
 
 ## End of MongoDB Support
 
-**MongoDB** has switched to a [SSPL license](https://www.mongodb.com/licensing/server-side-public-license/faq), which legally prevents us from continuing to offer MongoDB database hosting. Consequently, MongoDB databases will be removed during the migration, and no new ones can be created.
+**MongoDB** has switched to the [SSPL license](https://www.mongodb.com/licensing/server-side-public-license/faq), which legally prevents us from continuing to offer MongoDB database hosting. Consequently, MongoDB databases will be removed during the migration, and no new ones can be created.
 
 However, you can [install and run MongoDB yourself]({{< ref "guides/mongodb" >}}). *MongoDB will no longer be managed by alwaysdata.*
 
@@ -40,9 +40,9 @@ We introduced support for **CouchDB** [in 2011](https://blog.alwaysdata.com/2011
 
 You can still install and run CouchDB yourself. *CouchDB will no longer be managed by alwaysdata.*
 
-## MariaDB Update
+## MariaDB Upgrade
 
-**MariaDB** has been updated to [version 10.11](https://mariadb.com/kb/en/release-notes-mariadb-1011-series/).
+**MariaDB** has been upgraded to [version 10.11](https://mariadb.com/kb/en/release-notes-mariadb-1011-series/).
 
 You can check the release notes (your current version is displayed under *Databases > MySQL*):
 
@@ -50,17 +50,17 @@ You can check the release notes (your current version is displayed under *Databa
 * From [10.5 to 10.6](https://mariadb.com/kb/en/upgrading-from-mariadb-105-to-mariadb-106/)
 * From [10.4 to 10.5](https://mariadb.com/kb/en/upgrading-from-mariadb-104-to-mariadb-105/)
 
-## PostgreSQL Update
+## PostgreSQL Upgrade
 
-**PostgreSQL** has been updated to [version 16](https://www.postgresql.org/docs/16/release-16.html). You can view the [release notes](https://www.postgresql.org/docs/release/) (your current version is displayed under *Databases > PostgreSQL*).
+**PostgreSQL** has been upgraded to [version 16](https://www.postgresql.org/docs/16/release-16.html). You can view the [release notes](https://www.postgresql.org/docs/release/) (your current version is displayed under *Databases > PostgreSQL*).
 
-**PostGIS** has been updated to [version 3.4](https://postgis.net/docs/manual-3.4/) (previously 3.1).
+**PostGIS** has been upgraded to [version 3.4](https://postgis.net/docs/manual-3.4/) (previously 3.1).
 
 ## Language Versions
 
 ### Switch to Major Versions
 
-Since [a few months ago](https://changelog.alwaysdata.com/409/detail/), you can choose a major version of a language instead of a specific minor version. This automatically uses the latest available minor version, with the latest fixes.
+[A few months ago](https://changelog.alwaysdata.com/409/detail/), we introduced the possibility to select a major version of a language instead of a specific minor version. This automatically uses the latest available minor version, including the latest fixes.
 
 The migration will automatically replace all selected versions with the corresponding major version. For example, PHP 8.3.1 will be replaced by PHP 8.3, which runs the latest available 8.3.x version. When new versions of PHP 8.3 are added, they will replace the previous version.
 
@@ -91,7 +91,7 @@ If you were using one of these versions, it will be replaced by the next major v
 
 ## Miscellaneous Updates
 
-Many software and libraries will be updated. Among the notable updates:
+Many software and libraries will be upgraded. Among the notable upgraded:
 
 * Erlang 25.2 (previously 21.2)
 * GDAL 3.9 (previously 2.4)
@@ -104,21 +104,21 @@ Many software and libraries will be updated. Among the notable updates:
 
 ### On Private Cloud
 
-* **Redis**, if installed on your server, is updated to [version 7.0](https://github.com/redis/redis/blob/7.0/00-RELEASENOTES) (previously 6.0).
-* **MySQL**, if installed on your server, is updated to [version 8.0](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/).
-* **Elasticsearch**, if installed on your server, is updated to version 8.16.
+* **Redis**, if installed on your server, is upgraded to [version 7.0](https://github.com/redis/redis/blob/7.0/00-RELEASENOTES) (previously 6.0).
+* **MySQL**, if installed on your server, is upgraded to [version 8.0](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/).
+* **Elasticsearch**, if installed on your server, is upgraded to version 8.16.
 
 ## Miscellaneous
 
 * The `composer` command now runs **Composer** 2. You can start Composer 1 with the `composer1` command.
 * The [default HTTP log format]({{< ref "/sites/formatting-http-logs" >}}) is now the **Advanced** format.
-* Sites of type **Transparent Redirection** are converted to **Reverse Proxy**.
+* Sites of type **Transparent Redirect** are converted to **Reverse Proxy**.
 
 ## Tips & Common Issues
 
-* You can make some changes yourself *before the migration*, such as selecting major language versions, using the *Advanced* log format, or modifying your sites from *Transparent Redirection* to *Reverse Proxy*.
+* You can make some changes yourself *before the migration*, such as selecting major language versions, using the *Advanced* log format, or modifying your sites from *Transparent Redirect* to *Reverse Proxy*.
 
-* Your account will be moved to new servers during the migration. The addresses of type `[service]-[account].alwaysdata.net` will change IP and may not be immediately accessible from outside due to DNS propagation.
+* Your account will be moved to new servers during the migration. Addresses of type `[service]-[account].alwaysdata.net` will change their IP and may not be immediately accessible from outside due to DNS propagation.
 
 * It will be necessary to update your `known_hosts` file to connect via SSH. You can do this using the following command (*[account] should be replaced with your account name*):
 
@@ -130,10 +130,8 @@ $ ssh-keygen -R ssh-[account].alwaysdata.net
 
 The main goal of architecture migrations is to update our servers to a more recent version of their operating system (Debian). These updates are essential for two reasons:
 
-* Security. Old software versions are not supported indefinitely by their developers or distributors. When a software version reaches its end-of-life
+* Security. Old software versions are not supported indefinitely by their developers or distributors. When a software version reaches its end-of-life, it continues to function, but new security vulnerabilities are no longer patched. Continuing to use old versions would pose a risk to the security and reliability of your applications and data.
 
-, it continues to function, but new security vulnerabilities are no longer patched. Continuing to use old versions would pose a risk to the security and reliability of your applications and data.
-
-* Ability to run recent software versions. The older the operating system, the more difficult it becomes to run recent software. To continue offering the latest versions of software (or for you to install the latest versions yourself in your account), it is important to stay on a relatively recent version of the operating system.
+* Ability to run recent software versions. The older the operating system, the more difficult it becomes to run recent software. To continue offering the latest versions of software (or for you to install the latest versions yourself in your account), it is important to be on a relatively recent version of the operating system.
 
 These infrastructure migrations are carried out every four years, which corresponds to the lifespan of a Debian version (which is [five years](https://wiki.debian.org/LTS), but we account for the unavoidable internal development time before switching to new versions). This provides a good balance, avoiding too frequent migrations while ensuring support for nearly all recent software.
