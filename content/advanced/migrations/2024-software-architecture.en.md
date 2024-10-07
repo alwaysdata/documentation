@@ -126,6 +126,16 @@ Many software and libraries will be upgraded. Among the notable upgraded:
 $ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
+### Errors following Migration
+
+1. `cannot open shared object file: No such file or directory`
+
+Updating certain system libraries requires recompilation of the code that uses them. The following libraries are affected:
+
+* `libtiff`
+
+Generally, these libraries are not used directly by applications but via dependencies (PHP extension, Python module, Ruby gem, etc.). Simply reinstall these dependencies on the new infrastructure to resolve the issue.
+
 ## Why Enforce a Migration?
 
 The main goal of architecture migrations is to update our servers to a more recent version of their operating system (Debian). These updates are essential for two reasons:

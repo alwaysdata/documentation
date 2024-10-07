@@ -134,6 +134,16 @@ De très nombreux logiciels et bibliothèques seront mis à jour. Parmi les mise
 $ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 
+### Erreurs suite à la migration
+
+1. `cannot open shared object file: No such file or directory`
+
+La mise à jour de certaines bibliothèques système requiert une recompilation du code qui les utilise. Les bibliothèques suivantes sont concernées :
+
+* `libtiff`
+
+En général, ces bibliothèques ne sont pas utilisées directement par les applications mais par l'intermédiaire de dépendances (extension PHP, module Python, gem Ruby, etc.). Il vous suffit de réinstaller ces dépendances sur la nouvelle infrastructure pour résoudre le problème.
+
 ## Pourquoi imposer une migration ?
 
 Les migrations d'architecture ont pour principal objectif de mettre à jour nos serveurs vers une version plus récente de leur système d'exploitation (Debian). Il est important de procéder à ces mises à jour pour deux raisons :
