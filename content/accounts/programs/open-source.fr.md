@@ -18,5 +18,6 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
 - [I Hate Money](https://ihatemoney.org/)
+- [Paris Web](https://www.paris-web.fr/)
 - [PrePostPrint](https://www.prepostprint.org/)
 - [Velvetyne](https://velvetyne.fr/)
