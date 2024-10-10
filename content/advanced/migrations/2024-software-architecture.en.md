@@ -98,7 +98,7 @@ If you were using one of these versions, it will be replaced by the next major v
 
 ## Miscellaneous Updates
 
-Many software and libraries will be upgraded. Among the notable upgraded:
+The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (Bookworm)*. Consequently, many software and libraries will be upgraded. Among the notable upgraded:
 
 * Erlang 25.2 (previously 21.2)
 * GDAL 3.9 (previously 2.4)

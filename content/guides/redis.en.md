@@ -1,5 +1,5 @@
 +++
-title = "Installing Redis"
+title = "Redis"
 layout = "howto"
 hidden = true
 tags = ["http", "redis", "site"]
@@ -7,11 +7,7 @@ tags = ["http", "redis", "site"]
 
 [Redis](https://redis.io/) is an in-memory data structure store.
 
-Here is a guide to installing it on the Public Cloud.
-
-{{% notice info %}}
-For Private Cloud users *Redis* can be [installed at server level]({{< ref "databases/redis">}}).
-{{% /notice %}}
+Here is a guide to installing it on the [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}). [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users can ask us to install *Redis* [at server level]({{< ref "databases/redis">}}).
 
 In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
 
@@ -26,12 +22,14 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and con
 
 ## Installation
 
+### Downloading and Compiling
+
 ```sh
 foo@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
 foo@ssh:~/redis$ make
 ```
 
-## Service launch
+### Service launch
 
 Create the following [service]({{< ref "services" >}}):
 

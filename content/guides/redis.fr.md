@@ -1,6 +1,6 @@
 +++
 url = "/fr/guides/redis/"
-title = "Comment installer Redis"
+title = "Redis"
 layout = "howto"
 hidden = true
 tags = ["http", "redis", "site"]
@@ -8,11 +8,7 @@ tags = ["http", "redis", "site"]
 
 [Redis](https://redis.io/) est système de gestion de base de données clé-valeur extensible.
 
-Voici un guide d'installation sur le Cloud Public.
-
-{{% notice info %}}
-*Redis* peut être [installé au niveau serveur]({{< ref "databases/redis">}}) pour les utilisateurs du Cloud Privé.
-{{% /notice %}}
+Voici un guide d'installation sur le [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}}). Les utilisateurs du [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent demander l'installation de *Redis* [au niveau serveur]({{< ref "databases/redis">}}).
 
 Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
 
@@ -26,12 +22,14 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >
 
 ## Installation
 
+### Téléchargement et compilation
+
 ```sh
 foo@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
 foo@ssh:~/redis$ make
 ```
 
-## Lancement du service
+### Lancement du service
 
 Créez le [service]({{< ref "services" >}}) suivant :
 

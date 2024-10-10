@@ -37,7 +37,7 @@ Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configure
 
 Vous pouvez :
 
-* faire tourner vous-même [MongoDB dans un service]({{< ref"guides/mongodb" >}}). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même MongoDB [dans un service]({{< ref"guides/mongodb" >}}). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## Arrêt du support de CouchDB
@@ -46,7 +46,7 @@ Nous avons lancé le support de **CouchDB** [en 2011](https://blog.alwaysdata.co
 
 Vous pouvez :
 
-* faire tourner vous-même CouchDB dans un service. *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même CouchDB [dans un service]({{< ref"guides/couchdb" >}}). *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez un hébergeur tiers comme [Cloudant](https://www.ibm.com/products/cloudant).
 
 ## Mise à jour de MariaDB
@@ -103,7 +103,7 @@ Si vous utilisiez une de ces versions, elle sera remplacée par la version majeu
 
 ## Mises à jour diverses
 
-De très nombreux logiciels et bibliothèques seront mis à jour. Parmi les mises à jour notables :
+Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm)*. Par conséquent, de très nombreux logiciels et bibliothèques seront mis à jour. Parmi les mises à jour notables :
 
 * Erlang 25.2 (auparavant 21.2)
 * GDAL 3.9 (auparavant 2.4)

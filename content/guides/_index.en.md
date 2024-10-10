@@ -11,6 +11,7 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 
 - [Apache PageSpeed]({{< relref "apache-pagespeed" >}})
 - [Blackfire]({{< relref "blackfire" >}})
+- [CouchDB]({{< ref "./couchdb" >}})
 - [FFmpeg]({{< relref "ffmpeg" >}})
 - [GitLab]({{< relref "gitlab" >}})
 - [MapServer CGI]({{< relref "mapserver" >}})
