@@ -32,13 +32,20 @@ This does not affect your websites, where you can still [configure TLS yourself]
 
 **MongoDB** has switched to the [SSPL license](https://www.mongodb.com/licensing/server-side-public-license/faq), which legally prevents us from continuing to offer MongoDB database hosting. Consequently, MongoDB databases will be removed during the migration, and no new ones can be created.
 
-However, you can [install and run MongoDB yourself]({{< ref "guides/mongodb" >}}). *MongoDB will no longer be managed by alwaysdata.*
+You can:
+
+* run MongoDB yourself [in a service]({{< ref "guides/mongodb" >}}). *MongoDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* migrate your databases to [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## End of CouchDB Support
 
 We introduced support for **CouchDB** [in 2011](https://blog.alwaysdata.com/2011/05/12/official-support-of-couchdb/), but its use has remained limited (less than 0.4% of our clients in 2024). Therefore, we are ending support for CouchDB: databases will be removed during the migration, and no new ones can be created.
 
-You can still install and run CouchDB yourself. *CouchDB will no longer be managed by alwaysdata.*
+You can:
+
+* run CouchDB yourself [in a service]({{< ref "guides/couchdb" >}}). *CouchDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* migrate your databases to third-party hosting service such as [Cloudant](https://www.ibm.com/products/cloudant).
+
 
 ## MariaDB Upgrade
 

@@ -35,13 +35,19 @@ Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configure
 
 **MongoDB** a basculé vers une [licence SSPL](https://www.mongodb.com/licensing/server-side-public-license/faq) qui nous interdit légalement de continuer à proposer l'hébergement de bases de données MongoDB. Par conséquent, les bases MongoDB seront supprimées lors de la migration et il ne sera plus possible d'en créer.
 
-Vous pouvez néanmoins [installer et faire tourner vous-même MongoDB]({{< ref"guides/mongodb" >}}). *MongoDB ne sera alors plus géré par alwaysdata.*
+Vous pouvez :
+
+* faire tourner vous-même [MongoDB dans un service]({{< ref"guides/mongodb" >}}). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* migrer vos bases de données chez [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## Arrêt du support de CouchDB
 
 Nous avons lancé le support de **CouchDB** [en 2011](https://blog.alwaysdata.com/2011/05/12/official-support-of-couchdb/), mais son utilisation est restée très confidentielle (moins de 0,4 % de nos clients en 2024). Par conséquent, nous arrêtons le support de CouchDB : les bases seront supprimées lors de la migration et il ne sera plus possible d'en créer.
 
-Vous pouvez néanmoins installer et faire tourner vous-même CouchDB. *CouchDB ne sera alors plus géré par alwaysdata.*
+Vous pouvez :
+
+* faire tourner vous-même CouchDB dans un service. *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* migrer vos bases de données chez un hébergeur tiers comme [Cloudant](https://www.ibm.com/products/cloudant).
 
 ## Mise à jour de MariaDB
 
