@@ -5,7 +5,7 @@ hidden = true
 tags = ["databases", "mongodb"]
 +++
 
- [MongoDB](https://www.mongodb.com/) is a document-oriented noSQL database program. 
+[MongoDB](https://www.mongodb.com/) is a document-oriented noSQL database program.
 
 In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
 
@@ -17,6 +17,7 @@ In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and cons
 {{% /notice %}}
 
 ## Installation
+
 ### Downloading
 
 ```sh
@@ -40,7 +41,7 @@ Create a [service]({{< ref "services" >}}) with following details:
 The address to connect to the MongoDB instance will be `services-[foo].alwaysdata.net:[port]`.
 
 {{% notice note %}}
-Remplace `[port]` by the chosen port in the command.
+Replace `[port]` by the chosen port in the command.
 {{% /notice %}}
 
 ### Firewall rule creation
@@ -60,7 +61,7 @@ Remplace `[port]` by the chosen port in the command.
 
 - [mongosh](https://www.mongodb.com/try/download/shell) - choose the package *tgz* and the platform *Linux x64* of the last version.
 
-```
+```sh
 foo@ssh:~/mongodb$ wget -O- https://downloads.mongodb.com/compass/mongosh-2.3.2-linux-x64.tgz | tar -xz --strip-components=0
 foo@ssh:~/mongodb$ mv mongosh-2.3.2-linux-x64/bin/* bin/
 foo@ssh:~/mongodb$ rm -rf mongosh-2.3.2-linux-x64
@@ -68,7 +69,7 @@ foo@ssh:~/mongodb$ rm -rf mongosh-2.3.2-linux-x64
 
 - [cli](https://www.mongodb.com/try/download/database-tools) - choose the package *tgz* and the platform *Debian 12.0 x86-64* of the last version.
 
-```
+```sh
 foo@ssh:~/mongodb$ wget -O- https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.10.0.tgz | tar -xz --strip-components=0
 foo@ssh:~/mongodb$ mv mongodb-database-tools-debian12-x86_64-100.10.0/bin/* bin/
 foo@ssh:~/mongodb$ rm -rf mongodb-database-tools-debian12-x86_64-100.10.0
