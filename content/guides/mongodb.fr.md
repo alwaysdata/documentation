@@ -18,6 +18,7 @@ Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}
 {{% /notice %}}
 
 ## Installation
+
 ### Téléchargement
 
 ```sh
@@ -61,7 +62,7 @@ Les utilisateurs du [Cloud Privé]({{< ref "accounts/billing/private-cloud-price
 
 - [mongosh](https://www.mongodb.com/try/download/shell) - choisissez le paquet *tgz* et la plateforme *Linux x64* de la dernière version.
 
-```
+```sh
 foo@ssh:~/mongodb$ wget -O- https://downloads.mongodb.com/compass/mongosh-2.3.2-linux-x64.tgz | tar -xz --strip-components=0
 foo@ssh:~/mongodb$ mv mongosh-2.3.2-linux-x64/bin/* bin/
 foo@ssh:~/mongodb$ rm -rf mongosh-2.3.2-linux-x64
@@ -69,7 +70,7 @@ foo@ssh:~/mongodb$ rm -rf mongosh-2.3.2-linux-x64
 
 - [cli](https://www.mongodb.com/try/download/database-tools) - choisissez le paquet *tgz* et la plateforme *Debian 12.0 x86-64* de la dernière version.
 
-```
+```sh
 foo@ssh:~/mongodb$ wget -O- https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.10.0.tgz | tar -xz --strip-components=0
 foo@ssh:~/mongodb$ mv mongodb-database-tools-debian12-x86_64-100.10.0/bin/* bin/
 foo@ssh:~/mongodb$ rm -rf mongodb-database-tools-debian12-x86_64-100.10.0
