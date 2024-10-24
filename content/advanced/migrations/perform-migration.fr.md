@@ -20,18 +20,14 @@ Vous aurez peut-être besoin d'intervenir sur vos applications pour qu'elles con
 
 Avant d'effectuer réellement la migration, vous aurez la possibilité d'effectuer un certain nombres d'actions. Cela vous permet de vous assurer que vos applications continueront à fonctionner, et de les corriger dans le cas contraire.
 
-### Test
+### Test des bases de données
 
-**Certaines** migrations sont testables via l'utilisation d'un bouton **Tester**. Ce que fait concrètement ce bouton dépend de la migration, mais en règle générale il va copier les données de votre compte sur un serveur temporaire et vous permettre d'y accéder comme si la migration avait eu lieu.
-
-Prenons un exemple. Pour une migration vers PostgreSQL 12, le bouton *Tester* va copier toutes vos bases de données vers un serveur faisant tourner PostgreSQL 12. Il s'agit d'une duplication : vos bases de données continuent à être accessibles normalement via votre serveur PostgreSQL habituel. Vous pourrez alors vous connecter au serveur temporaire, dont l'adresse sera indiquée après avoir cliqué sur le bouton *Tester*. Cela vous permettra par exemple de tester vos applications avec cette nouvelle version de PostgreSQL. Concrètement, vous devrez peut-être dupliquer vos applications, modifier leur configuration pour utiliser ce serveur temporaire à la place de l'habituel et vérifier qu'elles continuent à fonctionner.
+**Certaines** migrations sont testables via l'utilisation d'un bouton **Tester**. Cela va tenter d'importer les bases de données de votre compte sur un serveur temporaire utilisant les nouvelles versions.
 
 ## 4. Effectuer la migration
 
 Une fois que vous avez testé la migration et que vous vous êtes assuré que tout fonctionne correctement, vous pourrez réellement exécuter la migration. Durant la migration, votre compte pourra être indisponible pendant une très courte durée (quelques secondes voire minutes, selon le volume de données de votre compte). _Vous n'avez pas besoin d'arrêter vos sites ou vos bases de données : nous nous occupons de tout_.
 
-{{% notice warning %}}
-Une fois la migration effectuée, il ne sera pas possible de revenir en arrière.
-{{% /notice %}}
+Il est possible d'effectuer un retour en arrière _temporaire_ en cas de souci. Ce retour en arrière est possible pendant 7 jours après le lancement de la migration.
 
 - [Spécificités concernant la migrations de Cloud Privés]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
