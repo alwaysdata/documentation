@@ -30,4 +30,4 @@ Une fois que vous avez testé la migration et que vous vous êtes assuré que to
 
 Il est possible d'effectuer un retour en arrière _temporaire_ en cas de souci. Ce retour en arrière est possible pendant 7 jours après le lancement de la migration.
 
-- [Spécificités concernant la migrations de Cloud Privés]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
+- [Spécificités concernant la migration de Cloud Privés]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
