@@ -37,7 +37,7 @@ Créez le [service]({{< ref "services" >}}) suivant :
 - *Commande de monitoring* : `./src/redis-cli -h services-[foo].alwaysdata.net -p 8300 ping`
 - *Répertoire de travail* : `/home/[foo]/redis`
 
-Plus d'options via `$HOME/redis/src/redis-cli -h`.
+Plus d'options via `$HOME/src/redis-cli -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
