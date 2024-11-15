@@ -48,10 +48,6 @@ La migration des comptes entraîne une coupure par compte de quelques secondes �
 Pour les domaines n'utilisant pas les DNS d'alwaysdata, pas besoin de faire le changement d'IP - *enregistrements A et AAAA*. Le serveur client fera la redirection de manière transparente.
 {{% /notice %}}
 
-{{% notice tip %}}
-Pour un domaine n'utilisant pas les serveurs DNS d'alwaysdata mais ses serveurs emails (MX), l'enregistrement `MX 5 serveur.alwaysdata.net` est à supprimer chez le prestataire DNS. `MX 10 mx1.alwaysdata.com` et `MX 20 mx2.alwaysdata.com` doivent être gardés.
-{{% /notice %}}
-
 ### Étape 5 - Vérification après migration
 L'utilisateur peut faire des modifications applicatives une fois un compte migré si besoin.
 

@@ -47,10 +47,6 @@ The migration entails a downtime per account of a few seconds to a few hours; de
 No need to change the IP - *A and AAAA records* - for domains that do not use alwaysdata's DNS. The client server will do the redirection transparently.
 {{% /notice %}}
 
-{{% notice tip %}}
-For a domain that does not use alwaysdata's DNS servers but its e-mails servers (MX), the `MX 5 server.alwaysdata.net` record has to be deleted in the DNS provider panel. `MX 10 mx1.alwaysdata.com` and `MX 20 mx2.alwaysdata.com` must be kept.
-{{% /notice %}}
-
 ### Step 5 - After migration verifications
 The user can make application changes once an account is migrated if necessary.
 
