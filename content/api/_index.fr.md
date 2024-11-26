@@ -27,17 +27,17 @@ L'API ne fonctionne pas si vous avez activé l'authentification 2 facteurs sur v
 ## Exemples rapides
 
 ```sh
-$ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
+$ curl --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/mailbox/
 ```
 
 
 ### Redémarrer un site
 
 ```sh
-$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+$ curl -X POST --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` à remplacer par le token API et `1234` par l'ID du site.
+`APIKEY` à remplacer par le token API, `foo` par le nom du compte concerné et `1234` par l'ID du site.
 
 ## Tout savoir
 

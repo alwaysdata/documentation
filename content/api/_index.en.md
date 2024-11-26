@@ -22,16 +22,16 @@ The API does not work if you have activated two-factor authentication on your pr
 ## Quick examples
 
 ```sh
-$ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/mailbox/
+$ curl --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/mailbox/
 ```
 
 ### Restart a website
 
 ```sh
-$ curl -X POST --basic --user "APIKEY:" https://api.alwaysdata.com/v1/site/1234/restart/
+$ curl -X POST --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` to replace per the API token and `1234` per the site ID.
+`APIKEY` to replace per the API token, `foo` per the account name and `1234` per the site ID.
 
 ## Find out more
 
