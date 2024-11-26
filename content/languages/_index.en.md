@@ -29,6 +29,8 @@ It is possible to choose a major version of a language or a specific minor versi
 
 When major versions are selected, the system automatically handles updates when a new minor version becomes available. It lets you benefit from security and bug fixes automatically, while still retaining full compatibility.
 
+The versions used by default are those indicated in the **Environment** menu of the administration interface. It is possible to choose another version by using the *Environment variables* (or for sites by choosing the version in **Web > Sites**).
+
 ### Private Cloud
 
 Language versions are, to limit disk space consumption, **automatically installed on demand**.[^1]

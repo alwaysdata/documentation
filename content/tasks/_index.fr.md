@@ -34,7 +34,8 @@ Plusieurs types d’in­for­ma­tions sont à fournir :
 - Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄) ;
 	- les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs ;
-- Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées**.
+- Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées** ;
+- Pour les tâches de type *Commande*, les versions de langages utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les *Variables d'environnement*.
 	
 {{% notice note %}}
 Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adresses IP]({{< ref "security/ip-ranges" >}}).

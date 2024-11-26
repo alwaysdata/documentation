@@ -34,6 +34,7 @@ Several kinds of information need to be provided:
 	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
 	- email addresses provided to receive error reports do not replace these logs.
 - Current processes are accessible via the **Advanced > Processes > Scheduled Tasks** menu.
+- For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the administration interface. It is possible to choose another version using the *Environment variables*.
 
 {{% notice note %}}
 If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref "security/ip-ranges" >}}).

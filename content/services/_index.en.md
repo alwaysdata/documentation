@@ -25,6 +25,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 - Current processes are accessible via the **Advanced > Processes > Services** menu.
 - The restart of a service sends the `SIGHUP` signal.
 - If a service fails repeatedly within a short period of time, it will be automatically disabled.
+- The language versions used by default are those specified in the **Environment** menu of the administration interface. It is possible to choose another version using the *Environment variables*.
 
 The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):
 

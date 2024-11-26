@@ -25,7 +25,8 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
 - Les processus en cours sont accessible via le menu **Avancé > Processus > Services** ;
 - Le redémarrage d'un service renvoie le signal `SIGHUP`;
-- Si un service échoue à plusieurs reprises en peu de temps, il sera automatiquement désactivé.
+- Si un service échoue à plusieurs reprises en peu de temps, il sera automatiquement désactivé ;
+- Les versions de langages utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les *Variables d'environnement*.
 
 Le champ *Commande de monitoring* — optionnel — permet de spécifier une commande qui vérifie que le service est fonctionnel. Lorsque cette commande renvoie un code d'erreur, le service est redémarré. Elle peut, par exemple, vérifier que le service est bien joignable sur le port qui lui est attribué (par exemple, pour un service utilisant le port *8300*) :
 

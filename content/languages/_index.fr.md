@@ -30,6 +30,8 @@ Il est possible de choisir une version majeure d'un langage ou une version mineu
 
 Lorsqu'on choisit les versions majeures, le système gère automatiquement la mise à jour lors de la mise à disposition d'une nouvelle version mineure. Cela permet de bénéficier automatiquement des correctifs de sécurité et de bugs, tout en conservant une compatibilité complète.
 
+Les versions utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les *Variables d'environnement* (ou pour les sites en choisissant la version dans **Web > Sites**).
+
 
 ### Cloud privé
 
