@@ -9,7 +9,7 @@ Opening an urgent ticket, reserved for customers with a Dedicated/Gold server wi
 
 If the ticket covers a problem covered by our *service guarantee*, we will work to resolve it as a matter of priority. This does not trigger any extra charge for our customer.
 
-If however the problem is not our responsibility, then the intervention will be charged for at a cost of *€95 excl. VAT* with no prior quote: simply opening the ticket in urgent mode represents acceptance of this charge. We will however, insomuch as possible, attempt to assist you in resolving the problem.
+If however the problem is not our responsibility, then the intervention will be charged for at a cost of *€100 excl. VAT* with no prior quote: simply opening the ticket in urgent mode represents acceptance of this charge. We will however, insomuch as possible, attempt to assist you in resolving the problem.
 
 ## Problems covered by the service guarantee
 

@@ -10,7 +10,7 @@ L'ouverture d'un ticket urgent, réservée aux utilisateurs possesseurs d'un ser
 
 Si le ticket concerne un problème couvert par notre *garantie de service*, nous nous chargeons de le résoudre en priorité. Cela n'engendre aucun surcoût pour notre client.
 
-En revanche, si le problème n'est pas de notre responsabilité, l'intervention sera facturée _95 € HT_, sans devis préalable : le fait d'ouvrir le ticket en mode urgent vaut pour acceptation. Nous essayerons toutefois, dans la mesure du possible, de vous aider dans la résolution du problème.
+En revanche, si le problème n'est pas de notre responsabilité, l'intervention sera facturée _100 € HT_, sans devis préalable : le fait d'ouvrir le ticket en mode urgent vaut pour acceptation. Nous essayerons toutefois, dans la mesure du possible, de vous aider dans la résolution du problème.
 
 ## Problèmes couverts par la garantie de service
 Dans l'immense majorité des cas, notre monitoring détecte automatiquement les anomalies couvertes par la garantie de service. Il n'est donc pas nécessaire d'ouvrir de ticket, notre équipe étant déjà alertée.
