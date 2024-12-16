@@ -15,6 +15,7 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 - AllegianceOS
 - [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
+- Hyperscandev
 - [I Hate Money](https://ihatemoney.org/)
 - [PrePostPrint](https://www.prepostprint.org/)
 - [Paris Web](https://www.paris-web.fr/)

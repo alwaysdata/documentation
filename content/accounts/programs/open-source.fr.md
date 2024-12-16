@@ -17,6 +17,7 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - Base de données de décors pour le simulateur de vol FlightGear
 - [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
+- Hyperscandev
 - [I Hate Money](https://ihatemoney.org/)
 - [Paris Web](https://www.paris-web.fr/)
 - [PrePostPrint](https://www.prepostprint.org/)
