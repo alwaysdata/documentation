@@ -18,8 +18,7 @@ In the vast majority of cases, our monitoring automatically detects anomalies co
 Examples (a non-exhaustive list):
 
 - A service administered by alwaysdata has stopped working (HTTP, FTP, IMAP, SSH, etc.),
-- The modifications made from the alwaysdata administration system are not properly taken into account,
-- You cannot access the daily backups from the server.
+- The modifications made from the alwaysdata administration system are not properly taken into account.
 
 ## Problems NOT covered by the service guarantee
 
