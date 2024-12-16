@@ -127,7 +127,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 
 * Your account will be moved to new servers during the migration. Addresses of type `[service]-[account].alwaysdata.net` will change their IP and may not be immediately accessible from outside due to DNS propagation.
 
-* It will be necessary to update your `known_hosts` file to connect via SSH. You can do this using the following command (*[account] should be replaced with your account name*):
+* It will be necessary to update your local `known_hosts` file to connect via SSH. You can do this using the following command (*[account] should be replaced with your account name*):
 
 ```sh
 $ ssh-keygen -R ssh-[account].alwaysdata.net
