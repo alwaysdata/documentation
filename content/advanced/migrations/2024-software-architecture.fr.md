@@ -134,7 +134,7 @@ Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm
 
 * Votre compte sera déplacé sur de nouveaux serveurs lors de la migration. Les adresses de type `[service]-[compte].alwaysdata.net` vont donc changer d'IP et peuvent ne pas être immédiatement accessibles depuis l'extérieur à cause de la propagation DNS.
 
-* Il sera nécessaire de mettre à jour votre fichier `known_hosts` pour vous connecter en SSH. Vous pouvez le faire via la commande (*[compte] à remplacer par le nom du compte*) :
+* Il sera nécessaire de mettre à jour votre fichier `known_hosts` local pour vous connecter en SSH. Vous pouvez le faire via la commande (*[compte] à remplacer par le nom du compte*) :
 
 ```sh
 $ ssh-keygen -R ssh-[compte].alwaysdata.net
