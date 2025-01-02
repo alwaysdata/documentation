@@ -9,13 +9,7 @@ tags = ["php"]
 
 ## Managing extensions
 
-A PHP extension comes in the form of a file with an `.so` extension. To load it, you need to add to your `php.ini` file (**Environment > PHP** or at the website level in **Web > Sites**). Here's and example for *YAML* extension:
-
-```ini
-extension = /home/[account]/[extension].so
-```
-
-where `/home/[account]/[extension].so` is the absolute path to your extension.
+A PHP extension comes in the form of a file with an `.so` extension. To load it, you need to add to your `php.ini` file (**Environment > PHP** or at the website level in **Web > Sites**).
 
 {{% notice warning %}}
 Some extensions load with the `zend_extension` directive and not extension. The extension publisher will tell you when this directive should be used instead.
@@ -46,7 +40,7 @@ full directory, the filename is enough:
 extension = [extension].so
 ```
 
-Examples: `imap`, `intl`.
+> Examples: `imap`, `intl`.
 
 ### From [PECL](https://pecl.php.net/)
 
@@ -56,9 +50,17 @@ Many extensions can be installed via PECL. To install an extension, we suggest u
 $ ad_install_pecl [extension]
 ```
 
-The command generates a new `.so` file in the current directory. You don't have to use our script, you can use the usual commands (`phpize`, `make`) if you prefer.
+The command generates a new `.so` file in the current directory. At the end of the script it gives a path to add in your `php.ini`. For example if you launched it at the root of your account:
 
-Example of regularly requested PECL extensions: `apcu`, `imagick`, `memcached`, `ssh2`, `yaml`.
+```ini
+extension = /home/[account]/[extension].so
+```
+
+Where `/home/[account]/[extension].so` is the absolute path to your extension.
+
+You don't have to use our script, you can use the usual commands (`phpize`, `make`) if you prefer.
+
+> Example of regularly requested PECL extensions: `apcu`, `imagick`, `memcached`, `ssh2`, `yaml`.
 
 ### From the vendor site
 
@@ -67,6 +69,12 @@ Some extensions can be directly downloaded from the vendor site in pre-compiled 
 - [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
 - [ionCube](https://www.ioncube.com/loaders.php)
 
+You will need to add the absolute path to your extension in your  `php.ini`. For example if you downloaded it at the root of your account:
+
+```ini
+extension = /home/[account]/[extension].so
+```
+
 ### From distribution packages
 
 Some extensions are complex or even impossibles to compile manually. It is possible to retrieve a `.so` file from the Linux distribution packs, for example [Debian](https://www.debian.org/distrib/packages):
@@ -74,4 +82,10 @@ Some extensions are complex or even impossibles to compile manually. It is possi
 ```sh
 $ wget http://ftp.debian.org/debian/pool/main/m/mapserver/php5-mapscript_7.0.4-1~bpo8+1_amd64.deb
 $ dpkg-deb -x php5-mapscript_7.0.4-1~bpo8+1_amd64.deb .
+```
+
+You will need to add the absolute path to your extension in your  `php.ini`. For example if you downloaded it at the root of your account:
+
+```ini
+extension = /home/[account]/[extension].so
 ```
