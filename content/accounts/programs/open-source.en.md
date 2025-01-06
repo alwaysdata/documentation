@@ -13,6 +13,7 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 
 - [Agorakit](https://agorakit.org/)
 - AllegianceOS
+- [Biblys](https://biblys.fr)
 - [Chariotte](https://chariotte.fr/)
 - [Colocauto](https://www.colocauto.org)
 - Hyperscandev
