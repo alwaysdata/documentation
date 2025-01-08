@@ -120,13 +120,14 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 * The `composer` command now runs **Composer** 2. You can start Composer 1 with the `composer1` command.
 * The [default HTTP log format]({{< ref "/sites/formatting-http-logs" >}}) is now the **Advanced** format.
 * Sites of type **Transparent Redirect** are converted to **Reverse Proxy**.
+* The IP 185.31.40.10 is an old, deprecated IP and will be removed.
 
 ## Tips & Common Issues
 
 * You can make some changes yourself *before the migration*, such as selecting major language versions, using the *Advanced* log format, or modifying your sites from *Transparent Redirect* to *Reverse Proxy*.
 
-* Your account will be moved to new servers during the migration, all services will change their IP:
-    - addresses of type `[service]-[account].alwaysdata.net` may not be immediately accessible from outside due to DNS propagation,
+* Your account will be moved to new servers during the migration, all services will change their IP. The IPs used by each server are listed in the **Advanced > Server Status** menu.
+    - Addresses of type `[service]-[account].alwaysdata.net` may not be immediately accessible from outside due to DNS propagation,
     - For domains not using our DNS servers, the previous HTTP server will redirect requests to the new HTTP server. However, the redirection may stop working, and it is advisable to update the IP to point to the correct server.
 
 * It will be necessary to update your local `known_hosts` file to connect via SSH. You can do this using the following command (*[account] should be replaced with your account name*):
