@@ -50,7 +50,7 @@ Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].a
 
 ### Par le web
 
-Utile si vous êtes derrière un firewall, notre [interface web](https://github.com/shellinabox/shellinabox) vous permet d'utiliser le protocole SSH à partir de votre navigateur. Pour l'utiliser, indiquez `https://ssh-[compte].alwaysdata.net` dans la barre d'adresse de votre navigateur web.
+Utile si vous êtes derrière un firewall, notre [interface web](https://tsl0922.github.io/ttyd/) vous permet d'utiliser le protocole SSH à partir de votre navigateur. Pour l'utiliser, indiquez `https://ssh-[compte].alwaysdata.net` dans la barre d'adresse de votre navigateur web.
 
 Attention, cette solution peu fiable et lente ne remplace pas un client SSH.
 

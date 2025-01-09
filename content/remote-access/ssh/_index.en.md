@@ -49,7 +49,7 @@ Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with
 
 ### Via the web
 
-Useful when located after a firewall, our [web interface](https://github.com/shellinabox/shellinabox) lets you use the SSH protocol from your browser. To use it, specify `https://ssh-[account].alwaysdata.net` in the address bar of your web browser.
+Useful when located after a firewall, our [web interface](https://tsl0922.github.io/ttyd/) lets you use the SSH protocol from your browser. To use it, specify `https://ssh-[account].alwaysdata.net` in the address bar of your web browser.
 
 Be aware however that this solution is hardly reliable and slow and does not replace a SSH client.
 
