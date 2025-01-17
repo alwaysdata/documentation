@@ -145,4 +145,4 @@ Il faudra faire écouter le serveur HTTP en IPv6 et sur le port donné. Par exem
 
 ---
 
-- [Déployer une application Fastapi (asyncio)](https://pereprogramming.com/articles/comment-deployer-fastapi-chez-alwaysdata/) (guide d'un utilisateur de la plateforme)
+- [Déployer une application Fastapi (asyncio)](https://vincent.jousse.org/blog/fr/tech/comment-deployer-fastapi-chez-alwaysdata/) (guide d'un utilisateur de la plateforme)
