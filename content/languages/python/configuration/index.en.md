@@ -144,4 +144,4 @@ You will have to use the and make the HTTP server listen in IPv6 and on the give
 
 ---
 
-- [Deploy a Fastapi (asyncio) application](https://pereprogramming.com/articles/comment-deployer-fastapi-chez-alwaysdata/) (platform user guide in French)
+- [Deploy a Fastapi (asyncio) application](https://vincent.jousse.org/blog/fr/tech/comment-deployer-fastapi-chez-alwaysdata/) (guide in French written by a user of the platform)
