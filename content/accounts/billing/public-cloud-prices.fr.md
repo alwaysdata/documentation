@@ -21,6 +21,8 @@ Cette page recence les prix (hors taxes) des configurations Cloud Public. Pour p
 
 Le [changement de configuration Cloud Public]({{< ref "accounts/billing/upgrade-your-plan" >}}) se passe via le menu **Abonnements**.
 
+Nous proposons [plusieurs programmes]({{< ref "accounts/programs" >}}) pour profiter de réductions.
+
 {{% notice info %}}
 Le quota disque inclut fichiers, mails et bases de données.
 {{% /notice %}}

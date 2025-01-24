@@ -20,6 +20,8 @@ This page lists the prices (VAT excluded) of the Public Cloud configurations. To
 
 The [Public Cloud configuration change]({{< ref "accounts/billing/upgrade-your-plan" >}}) is done through the **Subscriptions** menu.
 
+We offer [several programs]({{< ref "accounts/programs" >}}) to benefit from discounts.
+
 {{% notice info %}}
 The disk quota includes files, mails and databases.
 {{% /notice %}}
