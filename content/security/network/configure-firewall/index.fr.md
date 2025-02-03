@@ -37,9 +37,23 @@ Il est possible de donner un label par règles (**Annotations**) et directement 
 Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
 {{% /notice %}}
 
-### Exemples
+## Banissements firewall
+Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
+{{< fig "images/admin-panel_list-bans.fr.png" "Interface d'administration : liste des bannissements en cours" >}}
 
-#### Autoriser sa propre IP à n'être bloquée sur aucun port entrant
+Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire.
+
+{{% notice tip %}}
+Le banissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
+{{% /notice %}}
+
+## Services
+
+Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités connues (FTP, mails, SSH, bases de données...). Il n'est alors plus nécessaire de créer la règle par soi-même.
+
+## Exemples
+
+### Autoriser sa propre IP à n'être bloquée sur aucun port entrant
 
 | Intitulé   | Valeur                                           |
 |------------|--------------------------------------------------|
@@ -52,7 +66,7 @@ Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65
 
 {{< fig "images/rule-example-accept.fr.png" "" >}}
 
-#### Bloquer le port MySQL sur l'extérieur
+### Bloquer le port MySQL sur l'extérieur
 
 | Intitulé   | Valeur                                           |
 |------------|--------------------------------------------------|
@@ -64,14 +78,3 @@ Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65
 | Version IP | IPv4/IPv6                                        |
 
 {{< fig "images/rule-example-reject.fr.png" "" >}}
-
-
-## Banissements
-Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
-{{< fig "images/admin-panel_list-bans.fr.png" "Interface d'administration : liste des bannissements en cours" >}}
-
-Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire. 
-
-{{% notice tip %}}
-Le banissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
-{{% /notice %}}

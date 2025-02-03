@@ -38,9 +38,25 @@ It is possible to give a label by rules (**Annotations**) and directly in your r
 To specify all ports you can leave empty or enter the range `0:65535`.
 {{% /notice %}}
 
-### Examples
+## Firewall bans
 
-#### Allow your own IP address to never be blocked on any ingoing port
+Here you will see the IP addresses currently banned and the services that they are banned from.
+
+{{< fig "images/admin-panel_list-bans.en.png" "Administration interface: list of current bans" >}}
+
+If you end up banned from a service, check this menu and delete your IP if it is banned and add the necessary rule.
+
+{{% notice tip %}}
+A ban lasts for 10 minutes by default and takes place after some fifty connection failures.
+{{% /notice %}}
+
+## Services
+
+This menu allows you to automatically open or close the ports for known functionalities (FTP, mail, SSH, databases, etc.). It is no longer necessary to create the rule manually.
+
+## Examples
+
+### Allow your own IP address to never be blocked on any ingoing port
 
 |Title|Value|
 |--- |--- |
@@ -53,7 +69,7 @@ To specify all ports you can leave empty or enter the range `0:65535`.
 
 {{< fig "images/rule-example-accept.en.png" "" >}}
 
-#### Block the MySQL port from outside
+### Block the MySQL port from outside
 
 |Title|Value|
 |--- |--- |
@@ -65,15 +81,3 @@ To specify all ports you can leave empty or enter the range `0:65535`.
 |IP version|IPv4/IPv6|
 
 {{< fig "images/rule-example-reject.en.png" "" >}}
-
-## Bans
-
-Here you will see the IP addresses currently banned and the services that they are banned from.
-
-{{< fig "images/admin-panel_list-bans.en.png" "Administration interface: list of current bans" >}}
-
-If you end up banned from a service, check this menu and delete your IP if it is banned and add the necessary rule.
-
-{{% notice tip %}}
-A ban lasts for 10 minutes by default and takes place after some fifty connection failures.
-{{% /notice %}}
