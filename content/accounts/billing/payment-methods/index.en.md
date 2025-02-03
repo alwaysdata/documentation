@@ -15,7 +15,7 @@ We offer the following options:
 
 - Credit card,
 - PayPal,
-- Bank transfer: make your transfer to our [bank account](https://share.alwaysdata.com/IBAN.pdf) stating your *customer number* or your *bill number* in the transfer comments.
+- Bank transfer: our bank account details are provided on our invoices. Please include your *customer number* or *invoice number* in the transfer description.
 
 {{% notice note %}}
 Credits to your account by *bank transfer* will appear in your interface as soon as they have been processed by our team. This may take a few days.

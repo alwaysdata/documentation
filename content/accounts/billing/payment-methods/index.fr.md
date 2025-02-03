@@ -16,7 +16,7 @@ Nous proposons ces différentes méthodes :
 
 - Carte bancaire ;
 - PayPal ;
-- Virement bancaire : à effectuer sur notre [compte bancaire](https://share.alwaysdata.com/IBAN.pdf) en indiquant votre _numéro de client_ ou votre _numéro de facture_ dans les commentaires du virement.
+- Virement bancaire : Notre compte bancaire est indiqué sur nos factures. Il faudra préciser dans la description du virement votre _numéro de client_ ou votre _numéro de facture_ dans les commentaires du virement.
 
 {{% notice note %}}
 Les alimentations de compte par _virement_ apparaîtront dans votre interface dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.
@@ -25,7 +25,7 @@ Les alimentations de compte par _virement_ apparaîtront dans votre interface d�
 Les paiements par *mandat administratif* sont possibles et reçus comme des virements.
 
 {{% notice warning %}}
-Nous n'acceptons pas les paiements par *chèque*. Tout chèque reçu sera systématiquement détruit.
+Nous n'acceptons pas les paiements par *chèque. Tout chèque reçu sera systématiquement détruit.
 {{% /notice %}}
 
 ### Cartes bancaires acceptées
