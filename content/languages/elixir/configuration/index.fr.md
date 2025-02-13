@@ -11,7 +11,7 @@ tags = ["elixir"]
 
 | |
 | --- |
-| 1.13 \| 1.14 \| 1.15 \| 1.16 \| 1.17 |
+| 1.13 \| 1.14 \| 1.15 \| 1.16 \| 1.17 \| 1.18 |
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Elixir**. C'est cette version qui est notamment utilisée lorsque vous démarrez `mix`.
 
