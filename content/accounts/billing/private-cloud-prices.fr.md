@@ -6,7 +6,7 @@ hidden = true
 tags = ["facturation", "serveur dédié", "serveur gold", "serveur VPS"]
 +++
 
-Cette page recence les prix (hors taxes) des configurations Cloud Privé. Pour plus d'informations et une configuration personnalisée contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
+Cette page recence les prix (*hors taxes*) des configurations Cloud Privé. Pour **plus d'informations** et/ou une **configuration personnalisée** contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
 
 Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
@@ -41,7 +41,7 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
 | **Disques**           | SSD 1 To NVMe • RAID1                  |                 |               |
-| **RAM**               | 16 Go                              |                 |               |
+| **RAM**               | 32 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
 | **Total**             |                                    | 369 €/mois           | 409 €/mois         |
 
@@ -59,9 +59,11 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | SSD 7.6 To NVMe • RAID1                   | + 150 €/mois         |
 | SSD 15 To NVMe • RAID1                | + 320 €/mois            |
 | **RAM**                             |                 |
-| 16 Go [^1]                          | + 10 €/mois          |
+| 64 Go | + 20 €/mois |
+| 96 Go | + 40 €/mois |
+| 128 Go | + 60 €/mois |
 | **Trafic/mois**                     |                 |
-| 1 To (1 Gbps) [^2]                  | + 10 €/mois          |
+| 1 To (1 Gbps) [^1]                  | + 10 €/mois          |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 
@@ -69,7 +71,7 @@ Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com
 
 ## Serveurs Gold infogérés
 
-Serveur dédié redondé[^3] dans un autre datacenter.
+Serveur dédié redondé[^2] dans un autre datacenter.
 
 * Garantie de Temps d'Intervention (GTI) : 15min
 * Garantie de Temps de Rétablissement (GTR) : 1h
@@ -79,7 +81,7 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 | --------------------- | ---------------------------------- | --------------- | ------------- |
 | **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
 | **Disques**           | SSD 1 To NVMe • RAID1                |                 |               |
-| **RAM**               | 16 Go                              |                 |               |
+| **RAM**               | 32 Go                              |                 |               |
 | **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
 | **Total**             |                                    | 949 €/mois      | 1039 €/mois   |
 
@@ -97,9 +99,11 @@ Serveur dédié redondé[^3] dans un autre datacenter.
 | SSD 7.6 To NVMe • RAID1                   | + 300 €/mois         |
 | SSD 15 To NVMe • RAID1                | + 640 €/mois           |
 | **RAM**                             |                 |
-| 16 Go [^1]                          | + 20 €/mois          |
+| 64 Go | + 40 €/mois          |
+| 96 Go | + 80 €/mois |
+| 128 Go | + 120 €/mois |
 | **Trafic/mois**                     |                 |
-| 1 To (1 Gbps) [^2]                  | + 20 €/mois          |
+| 1 To (1 Gbps) [^1]                  | + 20 €/mois          |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
@@ -107,6 +111,6 @@ Dans le cadre d'un engagement mensuel, la première facture correspond aux trois
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
 
-[^1]: L'ajout de RAM se fait par tranche de 16 Go.
-[^2]: L'ajout de trafic se fait par tranche de 1 To.
-[^3]: Réplication en temps réel
+
+[^1]: L'ajout de trafic se fait par tranche de 1 To.
+[^2]: Réplication en temps réel
