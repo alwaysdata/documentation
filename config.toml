@@ -42,16 +42,21 @@ defaultContentLanguage         = "en"
   url    = "https://mastodon.social/@alwaysdata"
   weight = 11
 
+  [[Languages.en.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+  url    = "https://www.linkedin.com/company/alwaysdata/"
+  weight = 12
+  
+  [[Languages.en.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
+  url    = "https://bsky.app/profile/alwaysdata.bsky.social"
+  weight = 13
+
 [[Languages.en.menu.shortcuts]]
   name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
   url    = "https://twitter.com/alwaysdata"
-  weight = 12
+  weight = 14
 
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
-  url    = "https://www.linkedin.com/company/alwaysdata/"
-  weight = 13
-  
 # i18n - FR
 [Languages.fr]
   weight         = 2
@@ -83,15 +88,21 @@ defaultContentLanguage         = "en"
   url    = "https://mastodon.social/@alwaysdata"
   weight = 11
 
+  [[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+  url    = "https://www.linkedin.com/company/alwaysdata/"
+  weight = 12
+
+  [[Languages.fr.menu.shortcuts]]
+  name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
+  url    = "https://bsky.app/profile/alwaysdata.bsky.social"
+  weight = 13
+
 [[Languages.fr.menu.shortcuts]]
   name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
   url    = "https://twitter.com/alwaysdata"
-  weight = 12
-  
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
-  url    = "https://www.linkedin.com/company/alwaysdata/"
-  weight = 13
+  weight = 14
+
 
 # For search functionality
 [outputs]
