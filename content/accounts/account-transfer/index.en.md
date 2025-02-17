@@ -25,6 +25,10 @@ Go to **Subscriptions > Transfer to another user**. You will have to indicate th
 
 {{< fig "images/accounts.en.png" "" >}}
 
+{{% notice info %}}
+Only the *account owner* can initiate a transfer.
+{{% /notice %}}
+
 **This ends the current subscription and opens it in the recipient profile.** It is possible to transfer an account in two ways:
 
 - the recipient profile is billed *as soon as the transfer is accepted*. A pro-rated reimbursement is automatically carried out on the issuer profile;

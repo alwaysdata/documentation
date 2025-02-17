@@ -6,7 +6,7 @@ hidden = true
 tags = ["site"]
 +++
 
-Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata. Vous devez avoir les **permissions nécessaires** sur le compte d'origine et celui de destination pour pouvoir procéder au transfert.
+Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata.
 
 Pour ce faire, nous utiliserons l'[accès SSH]({{< ref "remote-access/ssh" >}}) plutôt que FTP qui nécessite de rapatrier les fichiers localement pour ensuite les transférer sur le compte de destination.
 
@@ -52,6 +52,10 @@ Modifiez le fichier de configuration du site copié précédemment pour qu'il po
 {{% /notice %}}
  
 ## 3. Déplacement des adresses
+
+{{% notice info %}}
+Seul le _propriétaire du compte_ peut initier la cession.
+{{% /notice %}}
 
 Reste à déplacer les adresses joignant le site et leur certificat SSL auto-généré.
 

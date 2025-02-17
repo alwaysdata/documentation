@@ -16,7 +16,7 @@ Cet article explique comment transférer un domaine _et_ ses adresses email sur 
 {{< fig "images/admin-panel_domain-move-2.fr.png" "Interface d'administration : déplacement de domaine - étape 2" >}}
 
 {{% notice info %}}
-Seul le _propriétaire du compte_ peut initier la cession mais, contrairement à la cession de site, il n'a pas besoin de permissions sur le compte de destination.
+Seul le _propriétaire du compte_ peut initier la cession.
 {{% /notice %}}
 
 Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites email se copient sur son compte. Cette action étant dépendante de la taille des boites email, elle peut prendre du temps.

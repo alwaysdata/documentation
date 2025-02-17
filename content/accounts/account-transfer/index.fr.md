@@ -26,6 +26,10 @@ Rendez-vous sur **Abonnements > Céder à un autre utilisateur**. Vous devrez in
 
 {{< fig "images/accounts.fr.png" "" >}}
 
+{{% notice info %}}
+Seul le _propriétaire du compte_ peut initier la cession.
+{{% /notice %}}
+
 **Cela ferme l'abonnement actuel et en ouvre un sur le profil destinataire**. Il est possible de céder un compte de deux manières :
 
 - le profil destinataire est facturé *dès acceptation de la cession*. Un remboursement au prorata est automatiquement exécuté sur le profil émetteur ;

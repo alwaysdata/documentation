@@ -5,7 +5,7 @@ hidden = true
 tags = ["site"]
 +++
 
-This article explains how to move a site to another alwaysdata account. You need to have the **necessary permissions** on the original and the destination accounts to proceed with the transfer.
+This article explains how to move a site to another alwaysdata account.
 
 To do this we will use the [SSH access]({{< ref "remote-access/ssh">}}) rather than FTP which requires bringing the files back locally and then transferring them to the destination account.
 
@@ -49,6 +49,10 @@ Change the configuration file for the previously copied site so that it points t
 {{% /notice %}}
 
 ## 3. Moving addresses
+
+{{% notice info %}}
+Only the *account owner* can initiate a transfer.
+{{% /notice %}}
 
 Now what remains is to move the addresses that link the site and the automatically generated SSL certificate.
 

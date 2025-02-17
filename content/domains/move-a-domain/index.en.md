@@ -16,7 +16,7 @@ This article explains how to transfer a domain *and* its e-mail addresses to **a
     {{< fig "images/admin-panel_domain-move-2.en.png" "Administration interface: move domain - step 2" >}}
 
 {{% notice info %}}
-Only the *account owner* can initiate a transfer, but unlike a site transfer, there is no need for permissions on the destination account.
+Only the *account owner* can initiate a transfer.
 {{% /notice %}}
 
 The destination profile needs only to accept it from the **Transfers** section and wait until the e-mail boxes copy to their account. As this action depends on the size of the e-mail boxes, this may take time.
