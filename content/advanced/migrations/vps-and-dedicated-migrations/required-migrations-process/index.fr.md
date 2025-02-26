@@ -70,8 +70,8 @@ Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infra
 Durant cette opération, les adresses IP du serveur client sont reroutées vers le serveur de transit pour que les services restent accessibles normalement. Une courte période d'indisponibilité de ces IP (autour d'une minute) est toutefois à prévoir. *Dans le cas où l'utilisateur utilise les serveurs DNS d'alwaysdata, le trafic aura été redirigé vers les IP du serveur de transit dès la migration des comptes - il n'y a alors aucune période d'indisponibilité à prévoir.*
 {{% /notice %}}
 
-### Étape 7 - Redéplacement des comptes sur le serveur client
-**Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes de manière transparente. *Ce déplacement peut avoir lieu en heures et jours ouvrés.*
+### Étape 7 - Finalisation : redéplacement des comptes sur le serveur client
+**Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes de manière transparente. *Cette étape de finalisation peut être effectuée par le support en heure et jours ouvrés ou par l'utilisateur.*
 
 Ce redéplacement final des comptes entraîne une coupure par compte équivalente à l'indisponibilité lors de la première migration.
 
@@ -82,9 +82,17 @@ Tous les comptes ont été redéplacés sur le serveur client réinstallé.
 
 {{< fig "images/migration-8.fr.png" "" >}}
 
-{{% notice note %}}
-Le serveur de transit est mis à disposition sans surcoût pour une période de **deux semaines maximum**. Si l'utilisateur n'a pas terminé la migration de l'ensemble de ses comptes au terme de cette période, le serveur de transit sera facturé au même coût que le serveur client (au prorata, jour par jour) — en plus du serveur d'origine qui reste facturé normalement.
-{{% /notice %}}
+
+## Notes
+- Le serveur de transit est mis à disposition pour la migration sans surcoût pour une période de **deux semaines maximum**. Si l'utilisateur n'a pas terminé la migration de l'ensemble de ses comptes au terme de cette période, le serveur de transit sera facturé au même coût que le serveur client (au prorata, jour par jour) — en plus du serveur d'origine qui reste facturé normalement.
+
+- Si l'utilisateur souhaite tester la migration sur certains comptes avant de lancer la migration réelle ou s'il souhaite avoir accès à un serveur de transit plus longtemps (*sans payer*), il peut profiter de notre serveur de transit partagé à tous les clients dédiés et VPS. Néanmoins :
+    - ce serveur peut ne pas correspondre à la configuration du serveur client ;
+    - aucune précopie des fichiers et mails n'est effectuée : le temps de migration peut donc être allongé ;
+    - les utilisateurs n'ont pas accès aux personnalisations serveurs et au parefeu qu'ils ont paramétré ;
+    - la mise à disposition de ce serveur de transit partagé est validée au cas par cas par le support en fonction des caractéristiques du serveur client et de ses comptes.
+
+- Si l'utilisateur est en charge de l'étape de finalisation, il a **une semaine** pour faire le déplacement de tous les comptes sans surcoût.
 
 ---
 Icônes : The Noun Project

@@ -69,7 +69,7 @@ The support reinstalls the client server to run it on the new architecture. This
 Reinstalling the server takes several hours. During this operation, the server's IP addresses will be rerouted to the transit server to keep the services available. A short downtime for these IPs (lasting around a minute) will however need to be allowed for. *If the user exploits our DNS servers, the traffic will always be redirected in no-time to the transit server's IP addresses to prevent any down time.*
 {{% /notice %}}
 
-### Step 7 - Accounts relocation to the client server
+### Step 7 - Finalization: accounts relocation to the client server
 **The client server is reinstalled.** Support contacts the user to transparently move back accounts. *This move can take place in working hours and days*.
 
 This final relocation of accounts causes a disruption per account equivalent to the unavailability at the time of the first migration.
@@ -81,9 +81,16 @@ All accounts had been moved back to the reinstalled client server.
 
 {{< fig "images/migration-8.en.png" "" >}}
 
-{{% notice note %}}
-The transit server will be made available at no extra cost for a period of **up to two weeks**. If the user have not finished migrating all of accounts by the end of those weeks, the transit server will be billed at the same price as the client server (prorata to the number of days) — in addition to the normal server that is still charged normally.
-{{% /notice %}}
+
+## Notes
+
+- The transit server is made available for migration without additional cost for a **maximum period of two weeks**. If the user has not completed the migration of all their accounts by the end of this period, the transit server will be billed at the same cost as the client server (prorated, day by day) - in addition to the original server, which remains billed normally.
+- If the user wishes to test the migration on some accounts before launching the actual migration or wants access to a transit server for a longer period (*without paying*), they can use our shared transit server available to all dedicated and VPS clients. However:
+    - this server may not match the client server configuration,
+    - no pre-copying of files and emails is performed: the migration time may therefore be extended,
+    - users do not have access to server customizations and the firewall they have configured,
+    - the provision of this shared transit server is validated on a case-by-case basis by support depending on the characteristics of the client server and its accounts.
+- If the user is responsible for the finalization step, they have **one week** to move all accounts without additional cost.
 
 ---
 Icons: The Noun Project
