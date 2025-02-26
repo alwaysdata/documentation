@@ -13,7 +13,7 @@ confort des outils de développement (_hot-reloading_, etc.), elle n'est pas né
 simple serveur Web](https://create-react-app.dev/docs/deployment) fera l'affaire :
 
 > Set up your favorite HTTP server so that a visitor to your site is served index.html, and requests to static paths
-> like /static/js/main.<hash>.js are served with the contents of the /static/js/main.<hash>.js file.
+> like /static/js/main.[hash].js are served with the contents of the /static/js/main.[hash].js file.
 
 ## Côté _alwaysdata_
 

@@ -12,7 +12,7 @@ If the development cycle uses Node.js HTTP server to serve the pages/views with 
 will do the trick:
 
 > Set up your favorite HTTP server so that a visitor to your site is served index.html, and requests to static paths
-> like /static/js/main.<hash>.js are served with the contents of the /static/js/main.<hash>.js file.
+> like /static/js/main.[hash].js are served with the contents of the /static/js/main.[hash].js file.
 
 ## On the _alwaysdata_ side
 
