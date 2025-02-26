@@ -59,4 +59,4 @@ Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même 
 - La taille limite des emails envoyés est fixée à **50 Mo**.
 
 ---
-- Tester sa délivrabilité : [Mail tester](https://www.mail-tester.com/?lang=fr), [Experte.com](https://www.experte.com/fr/spam-checker)
+Tester sa délivrabilité : [Mail tester](https://www.mail-tester.com/?lang=fr), [Experte.com](https://www.experte.com/fr/spam-checker)
