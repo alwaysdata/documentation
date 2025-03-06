@@ -8,7 +8,7 @@ tags = ["dns", "domaine"]
 
 Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service) définit l'emplacement de services précis.
 
-1.   Rendez-vous sur **Domaines > Details de [exemple.org] - 🔎 > Enregistrements DNS** ;
+1.   Rendez-vous sur **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
     {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 
 2.   Choisissez **Ajouter un enregistrement DNS** ;
@@ -18,7 +18,7 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
 
 {{% notice warning %}}
 Ne mettez pas la racine dans **Nom d'hôte**.
-Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez un enregistrement pour `www.exemple.org.exemple.org`.
+Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
 {{% /notice %}}
 
 ## Quelques exemples

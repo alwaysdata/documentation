@@ -6,7 +6,7 @@ hidden = true
 tags = ["dns", "domains"]
 +++
 
-Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Details de [exemple.org] -  ⚙️ > Enregistrements DNS > Ajouter plusieurs enregistrements DNS**.
+Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS > Ajouter plusieurs enregistrements DNS**.
 
 {{< fig "images/menu.fr.png" "Menu" >}}
 

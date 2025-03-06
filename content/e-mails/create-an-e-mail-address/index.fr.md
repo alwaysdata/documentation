@@ -18,7 +18,7 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 {{< fig "images/admin-panel_create-mailbox_required-infos.fr.png" "Interface d'administration : Emails - informations obligatoire" >}}
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
-- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@exemple.fr`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
+- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
 - _Mot de passe_ : mot de passe nécessaire pour la connexion à cette adresse email.
 
 ## Antispam

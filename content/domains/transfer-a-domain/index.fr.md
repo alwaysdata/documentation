@@ -44,7 +44,7 @@ Le transfert de la [gestion technique]({{< ref "domains/add-an-external-domain" 
 
 {{% notice info %}}
 Saisissez uniquement le domaine, sans le sous-domaine.
-Par exemple : `exemple.org` et non `www.exemple.org`.
+Par exemple : `example.org` et non `www.example.org`.
 {{% /notice %}}
 
 3.  Choisissez de le **transférer** ;

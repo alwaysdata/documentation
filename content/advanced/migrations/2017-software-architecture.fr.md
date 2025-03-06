@@ -176,7 +176,7 @@ L'accès SSH peut être ralenti par rapport au serveur SSH usuel. C'est une cons
 
 Vous pourrez tester vos sites de plusieurs manières :
 
-* en y accédant via l'URL usuelle, à laquelle vous ajouterez le suffixe `.migration.alwaysdata.net`. Par exemple, si votre site est accessible normalement à l'adresse `www.example.com`, vous pourrez y accéder sur l'infrastructure de test en allant sur `www.example.com.migration.alwaysdata.net`.
+* en y accédant via l'URL usuelle, à laquelle vous ajouterez le suffixe `.migration.alwaysdata.net`. Par exemple, si votre site est accessible normalement à l'adresse `www.example.org`, vous pourrez y accéder sur l'infrastructure de test en allant sur `www.example.org.migration.alwaysdata.net`.
 Attention : le certificat SSL renvoyé sur l'adresse `*.migration.alwaysdata.net` ne sera pas valide, vous devrez explicitement l'autoriser par votre navigateur. Cela ne concerne que le test de la migration, pas la migration réelle, pour laquelle les certificats ne changeront pas.
 Attention : certaines applications font une redirection vers l'URL nominale, ce qui empêche de les tester en utilisant cette méthode.
 

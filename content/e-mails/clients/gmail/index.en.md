@@ -15,18 +15,18 @@ They must be replaced by your personal login information:
 |Server|Service|Information||
 |---|---|---|---|
 |Incoming|POP3|POP Server|pop-*[account]*.alwaysdata.net|
-|||Username|Your email address - for example *contact\@example.com*|
+|||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 |||Port|995|
 |Outgoing|SMTP|SMTP Server|smtp-*[account]*.alwaysdata.net|
-|||Username|Your email address - for example *contact\@example.com*|
+|||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 ||||Do not treat as an alias|
 |||Port|465|
 ||||Secured connection|
 
 {{% notice tip %}}
- *[account]* must be replaced by the name of your account and *contact\@example.com* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+ *[account]* must be replaced by the name of your account and *contact\@example.org* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
 {{% /notice %}}
 
 ## Web browser

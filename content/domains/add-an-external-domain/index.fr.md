@@ -16,7 +16,7 @@ Nous voulons ici ajouter le domaine et **changer de serveurs DNS** chez le regis
 2. Renseignez les noms de domaines que vous souhaitez ajouter ;
    {{< fig "images/admin-panel_add-domain-1.fr.png" "Interface d'administration : étape 1" >}}
    {{% notice info %}}
-   Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : exemple.org et non www.exemple\.org.
+   Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.exemple\.org.
    {{% /notice %}}
 3. Choisissez de le **gérer**.
    {{< fig "images/admin-panel_add-domain-2.fr.png" "Interface d'administration : étape 2" >}}

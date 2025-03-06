@@ -48,7 +48,7 @@ The connection was broken by the client. For example, because the visitor closed
 ### Premature end of script headers
 
 ```txt
-Premature end of script headers: index.php, referer: https://exemple.com
+Premature end of script headers: index.php, referer: https://example.org
 ```
 
 The *server* stopped suddenly and Apache returned a 500 error. **This should not happen under normal circumstances.** This can be caused by many reasons (PHP bug, application bug, PHP process killed by the kernel, etc.).

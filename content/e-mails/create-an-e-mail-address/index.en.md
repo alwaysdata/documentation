@@ -16,7 +16,7 @@ Then there will be a series of fields to fill-in. Here are the details.
 {{< fig "images/admin-panel_create-mailbox_required-infos.en.png" "Administration interface: E-mails - required information" >}}
 
 - *Domain*: the domain name for the address to create,
-- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.fr`, the local part will be `contact`). You can also create a [catch-all address]({{< ref "e-mails/catch-all" >}}).
+- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address]({{< ref "e-mails/catch-all" >}}).
 - *Password*: the password needed to connect to this e-mail address.
 
 ## Antispam

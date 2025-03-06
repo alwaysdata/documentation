@@ -35,8 +35,8 @@ Voici 3 méthodes pour authentifier vos emails et réduire de ce fait l'usage ab
 
 |Modifiers                |                                                                                                   |
 |-------------------------|---------------------------------------------------------------------------------------------------|
-|exp=some.example.com     |Pour avoir le motif des résultats en échec                                                         |
-|redirect=some.example.com|Pour lier à un enregistrement de règle d'un autre domaine                                          |
+|exp=some.example.org     |Pour avoir le motif des résultats en échec                                                         |
+|redirect=some.example.org|Pour lier à un enregistrement de règle d'un autre domaine                                          |
 
 {{% notice warning %}}
 Cette technologie peut avoir des répercussions sur les redirections emails : le serveur émetteur n'étant pas forcément le serveur de messagerie de l'expéditeur d'origine de l'email.
@@ -70,7 +70,7 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, il faudra, chez le pr
 
 ### Mise en place
 
-Pour générer une paire de clés chez alwaysdata, rendez-vous dans **Domaines > Détails de [exemple.org] - 🔎> Configuration**.
+Pour générer une paire de clés chez alwaysdata, rendez-vous dans **Domaines > Détails de [example.org] - 🔎> Configuration**.
 
 {{< fig "images/admin-panel_domain-configuration.fr.png" "Interface d'administration : configurer DKIM" >}}
 {{< fig "images/admin-panel_dkim.fr.png" "Interface d'administration : résultat de la configuration DKIM" >}}

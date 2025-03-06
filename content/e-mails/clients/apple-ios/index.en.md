@@ -16,22 +16,22 @@ They must be replaced by your personal login information:
 |---|---|---|---|
 |Incoming|IMAP|Hostname|imap-*[account]*.alwaysdata.net|
 |||Port|993|
-|||Username| Your email address - for example *contact\@example.com*|
+|||Username| Your email address - for example *contact\@example.org*|
 |||Password| The password of your email address|
 |||Authentication method| Normal password|
 ||POP3|Host| pop-*[account]*.alwaysdata.net|
 |||Port| 995|
-|||Username|Your email address - for example *contact\@example.com*|
+|||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 |||Authentication method| Normal password|
 |Outgoing|SMTP|Host|smtp-*[account]*.alwaysdata.net|
 |||Port|465|
-|||Username|Your email address - for example *contact\@example.com*|
+|||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 |||Authentication method| Normal password|
 
 {{% notice tip %}}
- *[account]* must be replaced by the name of your account and *contact\@example.com* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+ *[account]* must be replaced by the name of your account and *contact\@example.org* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
 {{% /notice %}}
 
 ## MacOS: Mail.app application

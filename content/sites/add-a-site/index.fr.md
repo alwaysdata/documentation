@@ -16,7 +16,7 @@ Si vous partez de zéro vous pouvez profiter de notre [marketplace]({{< ref "mar
 
 ## Adresses
 L'ajout de toutes les adresses dans ce menu est un **impératif** pour qu'elles soient accessibles comme sites :
-- par exemple, pour accéder à un site sur *www\.exemple.org* et *exemple.org* les deux adresses doivent être ajoutées ;
+- par exemple, pour accéder à un site sur *www\.example.org* et *example.org* les deux adresses doivent être ajoutées ;
 - renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [serveurs DNS]({{< ref "domains#gestion-dns" >}}).
 
 Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer des enregistrements DNS]({{< ref "sites/use-external-addresses" >}}) chez le prestataire DNS.
@@ -27,7 +27,7 @@ Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer de
 L'ajout du site ne va pas créer le *répertoire racine*, il doit être créé par [accès distant]({{< ref "remote-access" >}}).
 {{% /notice %}}
 
-Pour créer un catch-all indiquez `*.exemple.org`.
+Pour créer un catch-all indiquez `*.example.org`.
 
 ## Configuration
 Spécifique à chaque type de site :

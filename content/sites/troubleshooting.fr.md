@@ -48,7 +48,7 @@ La connexion a été rompue par le client. Par exemple, parce que le visiteur a 
 ### Premature end of script headers
 
 ```txt
-Premature end of script headers: index.php, referer: https://exemple.com
+Premature end of script headers: index.php, referer: https://example.org
 ```
 
 Le *serveur* s'est arrêté subitement et Apache renvoie une erreur 500. **Cela ne doit pas arriver en situation normale.** Cela peut provenir de nombreuses raisons (bug PHP, bug applicatif, processus PHP tué par le kernel, etc.).

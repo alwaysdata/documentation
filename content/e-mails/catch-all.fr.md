@@ -8,7 +8,7 @@ tags = ["email"]
 
 Pour collecter tous les messages envoyés vers des adresses de son domaine n'existant pas (ou plus), une adresse collectrice (ou [catch-all](https://fr.wikipedia.org/wiki/Catch-all)) peut être créée.
 
-Représentation : `*@exemple.org`
+Représentation : `*@example.org`
 
 ## Mise en garde
 
@@ -21,4 +21,4 @@ Représentation : `*@exemple.org`
 	- Néanmoins il est possible de l'utiliser pour des destinataires précis via les [scripts Sieve]({{< ref "e-mails/use-sieve-scripts">}}) en ajoutant ces adresses destinataires dans les instructions `vacation` :
 
 	```
-	addresses ["foo@exemple.org", "bar@exemple.org"]
+	addresses ["foo@example.org", "bar@example.org"]

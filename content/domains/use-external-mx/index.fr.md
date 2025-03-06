@@ -9,7 +9,7 @@ tags = ["dns", "domaine", "email"]
 
 Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d'[enregistrements MX](https://fr.wikipedia.org/wiki/Enregistrement_Mail_eXchanger). Ils determinent le serveur de réception d'un courrier électronique.
 
-1. Allez dans **Domaines > Details de [exemple.org] - 🔎 > Enregistrements DNS** ;
+1. Allez dans **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
 {{< fig "images/admin-panel_dns-record-list.fr.png" "Interface d'administration : liste des enregistrements DNS" >}}
 2. Choisissez **Ajouter un enregistrement DNS** ;
 3. Renseignez le formulaire.
@@ -18,7 +18,7 @@ Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d
 Cela désactivera automatiquement nos enregistrements MX.
 
 {{% notice warning %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _exemple.org_ dans cette case, vous créerez un enregistrement pour _exemple.org.exemple.org_.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _example.org_ dans cette case, vous créerez un enregistrement pour _example.org.example.org_.
 {{% /notice %}}
 
 {{% notice note %}}
@@ -50,9 +50,9 @@ Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires corresp
 
 Il peut être utile de court-circuiter les MX externes pour joindre directement les MX d'alwaysdata.
 
-Pour envoyer un email à `foobar@exemple.org` en passant par les MX d'alwaysdata (alors que les MX de `exemple.org` sont externes) :
+Pour envoyer un email à `foobar@example.org` en passant par les MX d'alwaysdata (alors que les MX de `example.org` sont externes) :
 
 - créez [l'adresse email]({{< ref "e-mails/create-an-e-mail-address" >}}) sur l'interface d'administration ;
 - envoyez un email à :
-    - `foobar%exemple.org@mx.alwaysdata.com` si le compte est sur le Cloud Public ;
-    - `foobar%exemple.org@serveur.alwaysdata.com` si le compte est sur un Cloud Privé (`serveur` à remplacer par le nom du serveur).
+    - `foobar%example.org@mx.alwaysdata.com` si le compte est sur le Cloud Public ;
+    - `foobar%example.org@serveur.alwaysdata.com` si le compte est sur un Cloud Privé (`serveur` à remplacer par le nom du serveur).

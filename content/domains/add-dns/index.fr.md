@@ -7,7 +7,7 @@ weight = 6
 tags = ["dns", "domaine"]
 +++
 
-1.   Allez dans **Domaines > Details de [exemple.org] -  ⚙️ > Enregistrements DNS** ;
+1.   Allez dans **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS** ;
     {{< fig "images/admin-panel_dns-record-list.fr.png" "" >}}
 
 2.  Choisissez **Ajouter un enregistrement DNS** ;
@@ -16,7 +16,7 @@ tags = ["dns", "domaine"]
     {{< fig "images/admin_panel_add-record.fr.png" "" >}}
 
 {{% notice warning %}}
-Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exemple.org` dans cette case, vous créerez un enregistrement pour `www.exemple.org.exemple.org`.
+Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
 {{% /notice %}}
 
 {{% notice note %}}

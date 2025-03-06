@@ -19,23 +19,23 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Port|993|
 |||Méthode de chiffrement|Sera automatiquement choisi|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
-|||Adresse de courrier|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 ||POP3|Serveur| pop-*[compte]*.alwaysdata.net|
 |||Port| 995|
 |||Méthode de chiffrement|Sera automatiquement choisi|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
-|||Adresse de courrier|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |Sortant|SMTP|Serveur|smtp-*[compte]*.alwaysdata.net|
 |||Port|465|
 |||Méthode de chiffrement|Sera automatiquement choisi|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
-|||Adresse de courrier|Votre adresse email - par exemple *contact\@exemple.com*|
+|||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 
 {{% notice tip %}}
- *[compte]* doit être remplacé par le nom de votre compteet *contact\@exemple.com* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
+ *[compte]* doit être remplacé par le nom de votre compte et *contact\@example.org* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
 {{% /notice %}}
 
 ## Ordinateur

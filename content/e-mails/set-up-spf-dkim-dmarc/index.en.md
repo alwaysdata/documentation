@@ -35,8 +35,8 @@ Here are three methods for authenticating your e-mails and thereby reducing abus
 
 |Modifiers||
 |--- |--- |
-|exp=some.example.com|To get the reason for the failure results|
-|redirect=some.example.com|To link to a rule record in another domain|
+|exp=some.example.org|To get the reason for the failure results|
+|redirect=some.example.org|To link to a rule record in another domain|
 
 {{% notice warning %}}
 This technology may have an impact on e-mail redirects as the sender server is not necessarily the e-mail server belonging to the original e-mail sender.
