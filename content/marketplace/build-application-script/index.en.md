@@ -65,10 +65,11 @@ A *deposit URL* may be provided to make maintenance easier. In this case, once t
 ```
 #!/bin/bash
 
+# Declare site in YAML, as documented on the documentation: https://help.alwaysdata.com/en/marketplace/build-application-script/
 # site:
 #     type: php
 #     path: '{INSTALL_PATH_RELATIVE}/web'
-#     php_version: '8.0'
+#     php_version: '8.3'
 # database:
 #     type: mysql
 # requirements:
@@ -95,11 +96,13 @@ A *deposit URL* may be provided to make maintenance easier. In this case, once t
 #         label:
 #             en: Email
 #             fr: Email
+#         max_length: 255
 #     admin_username:
 #         label:
 #             en: Administrator username
 #             fr: Nom d'utilisateur de l'administrateur
 #         regex: ^[ a-zA-Z0-9.@_-]+$
+#         regex_text: "Il doit comporter au moins 5 caractères qui peuvent être des majuscules, des minuscules, des chiffres, des espaces et les caractères spéciaux : .@_-."
 #         min_length: 5
 #         max_length: 255
 #     admin_password:
@@ -114,25 +117,31 @@ set -e
 
 # https://www.drupal.org/docs/system-requirements
 
-# Downloading the tool
-COMPOSER_CACHE_DIR=/dev/null composer2 require drush/drush 10
+# Download & install dependancies
 COMPOSER_CACHE_DIR=/dev/null composer2 create-project drupal/recommended-project
 
-# Install
-# https://drushcommands.com
-echo "y" | php vendor/drush/drush/drush.php si --db-url=mysql://"$DATABASE_USERNAME":"$DATABASE_PASSWORD"@"$DATABASE_HOST"/"$DATABASE_NAME" --account-name="$FORM_ADMIN_USERNAME" --account-pass="$FORM_ADMIN_PASSWORD" --account-mail="$FORM_EMAIL" --site-name="$FORM_SITE_NAME" --locale="$FORM_LANGUAGE" --root=recommended-project
+cd recommended-project
 
+sed -i "/\"require\": {/a \ \ \ \ \ \ \ \ \"drush/drush\": \"^12.1\"," composer.json
+
+COMPOSER_CACHE_DIR=/dev/null composer2 update
+
+# Install
+# CLI: https://drushcommands.com
+echo "y" | php vendor/drush/drush/drush.php si --db-url=mysql://"$DATABASE_USERNAME":"$DATABASE_PASSWORD"@"$DATABASE_HOST"/"$DATABASE_NAME" --account-name="$FORM_ADMIN_USERNAME" --account-pass="$FORM_ADMIN_PASSWORD" --account-mail="$FORM_EMAIL" --site-name="$FORM_SITE_NAME" --locale="$FORM_LANGUAGE"
+
+# Handle subdirectories base URL
 if [ "$INSTALL_URL_PATH" != "/" ]
 then
-    sed -i "s|# RewriteBase /$|RewriteBase $INSTALL_URL_PATH|" recommended-project/web/.htaccess
+    sed -i "s|# RewriteBase /$|RewriteBase $INSTALL_URL_PATH|" web/.htaccess
 fi
 
-# Cleaning the environment
-rm -rf .composer .drush .subversion vendor composer.json composer.lock
-
+# Clean install environment
+cd
+rm -rf .config .local .subversion
 shopt -s dotglob
 mv recommended-project/* .
-rmdir recommended-project
 ```
 
 The `disk:140` condition specifies that the Drupal installation requires 140 MB of disk space. The free offer is therefore too tight.
+Use the `regex_text` condition to explain the `regex` with words.
