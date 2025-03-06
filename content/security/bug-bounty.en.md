@@ -5,6 +5,8 @@ hidden = true
 tags = [""]
 +++
 
+> **[Bug tracking interface](https://security.alwaysdata.com/)**
+
 ## Rules
 
 We believe that no technology is perfect and that working with skilled security researchers is crucial to identify weaknesses in our technology. If you believe you’ve found a security bug in our service, we are happy to work with you to resolve the issue promptly and ensure you are fairly rewarded for your discovery.
@@ -112,7 +114,7 @@ No vulnerability disclosure, including partial, is allowed before the patch is a
 - XSS: For XSS, a simple `alert(document.domain)` should suffice.
 - RCE: Please only execute harmless code. Please refer to the [Testing](#scope-and-testing) section.
 - SQLi: Report it as soon as you have a SQL error that indicates SQL injection or you are able to disclose the SQL server’s version number.
-- Unvalidated redirect: Set the redirect endpoint to `http://example.com` *if possible*.
+- Unvalidated redirect: Set the redirect endpoint to `http://example.org` *if possible*.
 - CSRF: Either attach a file to demonstrate the issue or paste the code in a code block in your report.
 - SSRF: Do not go playing around on any internal networks. Report as soon as you believe that you have a potential SSRF issue and we will look into it for you.
 - LFI: The same applies here — please do not go against the guideline listed in the [Program Rules](#rules) section. We will investigate LFI reports in a development environment to make sure it is valid.

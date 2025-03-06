@@ -6,6 +6,8 @@ hidden = true
 tags = [""]
 +++
 
+> **[Interface de suivi de bugs](https://security.alwaysdata.com/)**
+
 ## Règles
 
 Nous croyons qu'aucune technologie n'est parfaite et que travailler avec des chercheurs en sécurité compétents est crucial pour identifier les faiblesses de notre technologie. Si vous pensez avoir trouvé un bug de sécurité dans notre service, nous sommes heureux de travailler avec vous pour résoudre le problème rapidement et vous assurer que votre découverte est justement récompensée.
@@ -113,7 +115,7 @@ Aucune divulgation de faille, y compris partielle, n'est autorisée avant que le
 - XSS : Pour XSS, un simple `alert(document.domain)` devrait suffire ;
 - RCE : Veuillez exécuter uniquement du code inoffensif. Veuillez vous référer à la section [Test](#périmètre-et-tests) ;
 - SQLi : Signalez-le dès que vous avez une erreur SQL qui indique une injection SQL ou que vous êtes en mesure de divulguer le numéro de version du serveur SQL ;
-- Redirection non valide : Définissez le point de terminaison de redirection sur `http://example.com` *si possible* ;
+- Redirection non valide : Définissez le point de terminaison de redirection sur `http://example.org` *si possible* ;
 - CSRF : Joignez un fichier pour démontrer le problème ou collez le code dans un bloc de code dans votre rapport ;
 - SSRF : Ne vous amusez pas sur les réseaux internes. Signalez dès que vous pensez avoir un problème potentiel de SSRF et nous l'examinerons pour vous ;
 - LFI : Il en va de même ici — veuillez ne pas aller à l'encontre des directives énumérées dans la section [Règles du Programme](#règles). Nous enquêterons sur les rapports LFI dans un environnement de développement pour nous assurer de leur validité.
