@@ -35,10 +35,6 @@ As a result, our system will not be able to generate Let's Encrypt certificates 
 People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart the autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later. **`WARNING`** this action is to be done **only once**, too many attempts can block the process and the certificate generation for a week. [Contact support](https://admin.alwaysdata.com/support/add) if the first attempt is unsuccessful.
 {{% /notice %}}
 
-#### DNSSEC
-
-As our servers do not support [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions), its activation with the registrar will block the generation of Let’s Encrypt certificates.
-
 ## Wildcard certificates
 
 When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.

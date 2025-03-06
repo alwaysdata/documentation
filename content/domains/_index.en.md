@@ -25,6 +25,7 @@ As GANDI resellers you can receive emails from us, from them and from the [regis
 * [Change of owner]({{< relref "change-of-owner" >}})
 * [Update domain owner's details]({{< relref "update-owner-details" >}})
 * [Wipe a domain]({{< relref "wipe-a-domain" >}})
+* [Set up DNSSEC]({{< relref "dnssec" >}})
 - [Move a domain]({{< relref "move-a-domain" >}})
 - [Delegate a subdomain]({{< relref "delegate-a-subdomain" >}})
 - [Outgoing transfer]({{< relref "outgoing-transfer" >}})
@@ -50,8 +51,6 @@ To use our DNS servers, set on your registrar administration panel `dns1.alwaysd
 - [Add a SRV record]({{< relref "add-srv-record" >}})
 - [Add a CAA record]({{< relref "add-caa-record" >}})
 - [Delete a DNS record]({{< relref "delete-dns" >}})
-
-[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is not yet supported. To be deactivated with the registrar.
 
 {{% notice note %}}
 The [SOA DNS record](https://en.wikipedia.org/wiki/SOA_record) includes a 32-bit serial number (between 1 and 4294967295). We do not follow the *convention* of defining it with a date format that comes from a time when zone files were edited by hand. Not following this convention *should not* be considered an error.

@@ -26,6 +26,7 @@ Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'admini
 * [Changer de propriétaire]({{< relref "change-of-owner" >}})
 * [Mettre à jour les informations du propriétaire du domaine]({{< relref "update-owner-details" >}})
 * [Détruire un domaine]({{< relref "wipe-a-domain" >}})
+* [Mettre en place DNSSEC]({{< relref "dnssec" >}})
 - [Déplacer un domaine]({{< relref "move-a-domain" >}})
 - [Déléguer un sous-domaine]({{< relref "delegate-a-subdomain" >}})
 - [Transfert sortant]({{< relref "outgoing-transfer" >}})
@@ -52,8 +53,6 @@ Pour utiliser nos serveurs DNS, indiquez chez votre registrar `dns1.alwaysdata.c
 - [Ajouter un enregistrement SRV]({{< relref "add-srv-record" >}})
 - [Ajouter un enregistrement CAA]({{< relref "add-caa-record" >}})
 - [Supprimer un enregistrement DNS]({{< relref "delete-dns" >}})
-
-[DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) n'est pas encore géré ; à désactiver chez le registrar.
 
 {{% notice note %}}
 L'[enregistrement SOA](https://fr.wikipedia.org/wiki/SOA_Resource_Record) comprend un numéro de série de 32 bits (compris entre 1 et 4294967295). Nous ne suivons pas la *convention* de le définir avec un format de date qui vient d'une période où les fichiers de zone étaient édités à la main. Le fait de ne pas suivre cette convention *ne doit pas* être considéré comme une erreur.

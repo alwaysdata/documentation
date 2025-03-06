@@ -35,16 +35,12 @@ De ce fait, notre système ne pourra générer de certificats Let's Encrypt pour
 Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après. **`ATTENTION`** cette action n'est à effectuer **qu'une fois**, trop de tentatives peuvent bloquer le processus et la génération du certificat pendant une semaine. [Contactez le support](https://admin.alwaysdata.com/support/add) si la première tentative est infructueuse.
 {{% /notice %}}
 
-#### DNSSEC
-
-Nos serveurs ne supportant pas [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions), son activation chez le registrar bloquera la génération des certificats Let's Encrypt.
-
 ## Certificats Wildcard
 
-Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.exemple.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
+Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.example.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
 
 {{% notice note %}}
-Ces certificats wildcard ne sont pas valides pour les domaines "nus" - exemple.org.
+Ces certificats wildcard ne sont pas valides pour les domaines "nus" - example.org.
 {{% /notice %}}
 
 ---
