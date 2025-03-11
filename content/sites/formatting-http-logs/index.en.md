@@ -71,4 +71,4 @@ To display the user IP behind [Cloudflare](https://support.cloudflare.com/hc/en-
  
 [^1]: [Combined Log Format with vhosts](https://httpd.apache.org/docs/2.4/logs.html)
 [^2]: May be formatted in line with the [strftime](https://docs.python.org/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior) syntax. *Examples:* `{completion_date:%d/%b/%Y}` *→ 16/Jul/2018,* `{completion_date:%H:%M:%S}` *→ 12:04:07*
-[^3]: Only one header can be specified. E.g.: `{request_header:authorization}`, `{response_header:age}` (to be used with the [HTTP cache]({{< ref "sites/http-cache" >}}))
+[^3]: Only one header can be specified. E.g.: `{request_header:authorization}`, `{response_header:age}` (to be used with the [HTTP cache](sites/http-cache))

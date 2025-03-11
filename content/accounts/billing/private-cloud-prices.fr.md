@@ -67,7 +67,7 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 
-Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
+Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations](accounts/billing/prices-options-old-configurations).
 
 ## Serveurs Gold infogérés
 
@@ -108,7 +108,7 @@ Serveur dédié redondé[^2] dans un autre datacenter.
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
 {{% notice info %}}
-Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs]({{< ref "accounts/billing/servers-interventions" >}}). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
+Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs](accounts/billing/servers-interventions). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
 
 

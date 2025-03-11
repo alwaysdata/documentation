@@ -8,7 +8,7 @@ tags = ["email", "infection", "spam"]
 
 On observe 3 principales raisons à un envoi de spam :
 
-- [une infection de site internet]({{< ref "sites/clean-up-a-site" >}}) ;
+- [une infection de site internet](sites/clean-up-a-site) ;
 - une attaque sur un formulaire de site internet ;
 - un vol de mot de passe.
 
@@ -23,7 +23,7 @@ Lorsque l'équipe alwaysdata rencontre un envoi de spam par attaque sur formulai
 
 L'utilisateur devra mettre en place une protection plus importante sur son formulaire ; via l'utilisation d'un [CAPTCHA](https://fr.wikipedia.org/wiki/CAPTCHA) par exemple.
 
-Le [WAF]({{< ref "sites/waf" >}}) peut être utile pour bloquer certaines attaques.
+Le [WAF](sites/waf) peut être utile pour bloquer certaines attaques.
 
 ## Vol de mot de passe
 Dans ce cas, elle va :

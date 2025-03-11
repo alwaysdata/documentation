@@ -19,12 +19,12 @@ Cette page recence les prix (hors taxes) des configurations Cloud Public. Pour p
 | Paiement annuel   | Gratuit          | 7 €/mois          | 11 €/mois        | 22 €/mois        | 39 €/mois             | 59 €/mois             | 109 €/mois            |
 | Paiement mensuel     | Gratuit          | 8 €/mois          | 13 €/mois        | 27 €/mois        | 49 €/mois             | 69 €/mois             | 135 €/mois            |
 
-Le [changement de configuration Cloud Public]({{< ref "accounts/billing/upgrade-your-plan" >}}) se passe via le menu **Abonnements**.
+Le [changement de configuration Cloud Public](accounts/billing/upgrade-your-plan) se passe via le menu **Abonnements**.
 
-Nous proposons [plusieurs programmes]({{< ref "accounts/programs" >}}) pour profiter de réductions.
+Nous proposons [plusieurs programmes](accounts/programs) pour profiter de réductions.
 
 {{% notice info %}}
 Le quota disque inclut fichiers, mails et bases de données.
 {{% /notice %}}
 
-[^1]: Le Cloud 100 Mo gratuit est sujet à des [restrictions spéciales]({{< ref "accounts/public-cloud-restrictions#compte-gratuit" >}}) et ne peut notamment servir à des fins lucratives.
+[^1]: Le Cloud 100 Mo gratuit est sujet à des [restrictions spéciales](accounts/public-cloud-restrictions#compte-gratuit) et ne peut notamment servir à des fins lucratives.

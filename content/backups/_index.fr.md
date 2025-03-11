@@ -3,17 +3,15 @@ url = "/fr/sauvegardes"
 title = "Sauvegardes"
 pre = "<i class='fas fa-fw fa-history'></i> "
 weight = 34
-chapter = true
+archetype = "chapter"
 tags = ["récupération", "sauvegarde"]
 +++
-
-# Sauvegardes
 
 Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quotidiennement**, conservée durant **30 jours**  glissant et disponible dans le répertoire `$HOME/admin/backup` de votre compte.
 
 Quelque soit l'offre prise, les sauvegardes sont stockées dans un *datacenter dédié*, distant de plusieurs kilomètres du centre de production et utilisant un autre prestataire.
 
-Vous pouvez restaurer [un site web]({{< relref "restore-a-site" >}}) ou des [emails]({{< relref "restore-e-mails" >}}) dans l'onglet **Avancé > Restauration de sauvegardes** de votre interface d'administration.
+Vous pouvez restaurer [un site web](restore-a-site) ou des [emails](restore-e-mails) dans l'onglet **Avancé > Restauration de sauvegardes** de votre interface d'administration.
 
 {{% notice info %}}
 Les sauvegardes ne rentrent pas en compte dans le quota d'espace disque d'un compte.
@@ -23,4 +21,4 @@ Les sauvegardes ne rentrent pas en compte dans le quota d'espace disque d'un com
 Les contenus archivés (e.g. les dumps de BDD) dans votre espace de *backup* sont au format [Zstandard](https://github.com/facebook/zstd), vous pouvez utiliser les [outils `zstd*` officiels](https://github.com/facebook/zstd/releases/latest) ou le [plugin adapté pour 7zip](https://www.tc4shell.com/en/7zip/modern7z/) pour les manipuler.
 {{% /notice %}}
 
-- [Plan de continuité d'activité d'alwaysdata]({{< ref "security/drp" >}})
+- [Plan de continuité d'activité d'alwaysdata](security/drp)

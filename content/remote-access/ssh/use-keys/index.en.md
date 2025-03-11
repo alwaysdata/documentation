@@ -50,7 +50,7 @@ To never have to enter your password when connecting in SSH mode, specify a blan
 Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with your SSH hostname.
 {{% /notice %}}
 
-Users of the [Private Cloud]({{< ref "accounts/billing/choose-its-paas" >}}) can state them [directly in the administration interface]({{< ref "remote-access/ssh/install-globally-ssh-keys" >}}), they will be global to the entire server and all accounts can use them.
+Users of the [Private Cloud](accounts/billing/choose-its-paas) can state them [directly in the administration interface](remote-access/ssh/install-globally-ssh-keys), they will be global to the entire server and all accounts can use them.
 
 
 3.  Connecting with SSH: on the next SSH connection, you will be prompted to enter your passphrase (or nothing at all if your passphrase is blank).

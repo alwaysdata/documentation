@@ -5,15 +5,15 @@ hidden = true
 tags = ["account", "technical environment"]
 +++
 
-Every account have a `$HOME/admin` directory, accessible in [FTP]({{< ref "remote-access/ftp" >}}), [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}}) or [WebDAV]({{< ref "remote-access/webdav" >}}).
+Every account have a `$HOME/admin` directory, accessible in [FTP](remote-access/ftp), [SSH](remote-access/ssh), [SFTP](remote-access/sftp) or [WebDAV](remote-access/webdav).
 
 It contains:
 
-- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes]({{< ref "e-mails" >}}),
+- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](e-mails),
 - _config_,
 - _logs_,
 - _tmp_: temporary storage for your apps (we *strongly* recommend using this instead of `/tmp`),
-- _backup_: read-only NFS mounting for [backups]({{< ref "backups" >}}) which are NOT stored locally.
+- _backup_: read-only NFS mounting for [backups](backups) which are NOT stored locally.
 
 {{% notice note %}}
 This `admin` directory is **not** dedicated to storing your own files.
@@ -27,10 +27,10 @@ This directory hosts Apache, uWSGI or languages configuration files. You can acc
 
 It also gathers different types of logs:
 
-- _http_: access to your [websites]({{< ref "sites" >}}),
+- _http_: access to your [websites](sites),
 - _sites_: launches, shutdowns and failures of "upstream" web servers,
-- _jobs_: achievements of your [scheduled tasks]({{< ref "tasks" >}}),
-- _services_: achievements of your [services]({{< ref "services" >}}),
+- _jobs_: achievements of your [scheduled tasks](tasks),
+- _services_: achievements of your [services](services),
 - _apache_: a log for all applications using this web (PHP and Apache custom),
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
 

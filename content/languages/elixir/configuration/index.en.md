@@ -13,7 +13,7 @@ tags = ["elixir"]
 
 The default version can be changed from the administration section, under **Environment > Elixir**. This is the version that is especially used when you start `mix`.
 
-Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+Versions are not necessarily [already installed](languages#versions).
 
 ## Binary to use
 

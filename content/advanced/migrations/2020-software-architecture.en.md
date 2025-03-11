@@ -47,7 +47,7 @@ CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Languages
 
-To determine your current account version: log in through [SSH]({{< ref "remote-access/ssh" >}}) and run the command `cat /etc/debian_version`.
+To determine your current account version: log in through [SSH](remote-access/ssh) and run the command `cat /etc/debian_version`.
 
 ### PHP
 
@@ -196,7 +196,7 @@ A number of actions can be performed on the 2017 architecture - Debian Jessie (8
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
 
-- change the [TLS configuration]({{<ref "security/ssl-tls/configure-tls">}}) to *Intermediate* in the **Web > Configuration > SSL** menu,
+- change the [TLS configuration](security/ssl-tls/configure-tls) to *Intermediate* in the **Web > Configuration > SSL** menu,
 
 - replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP`,
 
@@ -206,11 +206,11 @@ We encourage you to make these changes in production, before you migrate.
 
 ### Databases
 
-In parallel to the Buster migration, we provide database migrations. You can [test]({{<ref "advanced/migrations/perform-migration">}}) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
+In parallel to the Buster migration, we provide database migrations. You can [test](advanced/migrations/perform-migration) them via the **Test** button. All your databases and database users are copied to a temporary server, running the new versions.
 
 Users on shared servers can perform these tests in parallel to the Buster migration. The Buster migration will close the other migrations.
 
-For users of VPS and dedicated servers, the database migration test is associated to the Buster migration. The **Test** button will only **copy** the databases to the test server. Regarding HTTP deployment refer to the [Migration preparation]({{< ref "advanced/migrations/2020-software-architecture#migration-preparation" >}}) section.
+For users of VPS and dedicated servers, the database migration test is associated to the Buster migration. The **Test** button will only **copy** the databases to the test server. Regarding HTTP deployment refer to the [Migration preparation](advanced/migrations/2020-software-architecture#migration-preparation) section.
 
 ## Migration process
 
@@ -231,6 +231,6 @@ $ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 - Drupal
-    - [CSS and JS files precompression]({{< ref "marketplace/drupal#cssjs-files-precompression" >}}) in versions prior to **8.9**.
+    - [CSS and JS files precompression](marketplace/drupal#cssjs-files-precompression) in versions prior to **8.9**.
 
 - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

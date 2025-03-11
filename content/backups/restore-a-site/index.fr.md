@@ -1,7 +1,7 @@
 +++
 url = "/fr/sauvegardes/restaurer-un-site/"
 title = "Comment restaurer un site web"
-menuTitle = "Restaurer un site"
+linkTitle = "Restaurer un site"
 layout = "howto"
 weight = 5
 tags = ["base de données", "récupération", "sauvegarde", "site"]
@@ -27,7 +27,7 @@ Le temps de restauration dépend de la taille des fichiers à restaurer.
 
 Si vous souhaitez restaurer une sauvegarde manuellement.
 
-- Connectez-vous à votre compte [en SSH]({{< ref "remote-access/ssh" >}}) ;
+- Connectez-vous à votre compte [en SSH](remote-access/ssh) ;
 
 - Restaurez des fichiers :
 

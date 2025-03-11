@@ -9,7 +9,7 @@ tags = ["apache", "apps optimization", "http", "site"]
 
 Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - PageSpeed directory: `$HOME/pagespeed/`

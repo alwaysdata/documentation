@@ -23,7 +23,7 @@ Cette IP servira pour les requêtes entrantes mais les requêtes sortantes passe
 
 Cette IP va servir à l'envoi des mails.
 
-Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam]({{< ref "e-mails/delivery#système-de-notation" >}}) :
+Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam](e-mails/delivery#système-de-notation) :
 
 {{< fig "images/dedicated-ip-smtp.fr.png" "" >}}
 
@@ -31,5 +31,5 @@ Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par ce
 Plus la note est basse mieux l'email sera noté.
 {{% /notice %}}
 
-[^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec nos [offres Cloud Privé]({{< ref "accounts/billing/choose-its-paas" >}}).
+[^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec nos [offres Cloud Privé](accounts/billing/choose-its-paas).
 [^2]: Pour un engagement annuel, contactez le [support](https://admin.alwaysdata.com/support/add).

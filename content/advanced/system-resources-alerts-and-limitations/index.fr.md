@@ -7,7 +7,7 @@ tags = []
 +++
 
 {{% notice note %}}
-Fonctionnalité disponible uniquement sur les environnements [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](accounts/billing/private-cloud-prices).
 {{% /notice %}}
 
 Le menu **Ressources** permet de configurer ses ressources système, comme  l'espace disque, le CPU ou la mémoire :

@@ -11,4 +11,4 @@ tags = ["databases", "troubleshooting"]
 
 767 is the prefix limit declared for InnoDB tables in versions prior to MySQL 5.7 and in versions prior to MariaDB 10.2.
 
-Perform the [migration]({{< ref "advanced/migrations" >}}) to a higher version of MariaDB.
+Perform the [migration](advanced/migrations) to a higher version of MariaDB.

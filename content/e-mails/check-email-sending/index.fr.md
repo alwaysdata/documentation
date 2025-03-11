@@ -10,7 +10,7 @@ Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 
 {{< fig "images/history.fr.png" "Liste des derniers envois" >}}
 
-- *[Score]({{< ref "e-mails/delivery#système-de-notation" >}})* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
+- *[Score](e-mails/delivery#système-de-notation)* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
 - *Bloqué* : si l'email a été bloqué par l'antispam d'alwaysdata. À ne pas confondre avec un *bounce*[^2] qui englobe d'autres raisons.
 
 {{< fig "images/example.fr.png" "Exemple d'un envoi" >}}

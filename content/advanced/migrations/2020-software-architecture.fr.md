@@ -48,7 +48,7 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Langages
 
-Pour déterminer la version courante de votre compte : connectez-vous via [SSH]({{< ref "remote-access/ssh" >}}) et lancez la commande `cat /etc/debian_version`.
+Pour déterminer la version courante de votre compte : connectez-vous via [SSH](remote-access/ssh) et lancez la commande `cat /etc/debian_version`.
 
 ### PHP
 
@@ -197,7 +197,7 @@ Un certain nombre d'actions peuvent être effectuées sur l'architecture 2017 - 
 
 - passer sur *Apache 2.4* dans l'onglet **Web > Configuration > Apache** ;
 
-- changer de [configuration TLS]({{<ref "security/ssl-tls/configure-tls">}}) pour passer sur la configuration *Intermédiaire* dans l'onglet **Web > Configuration > SSL** ;
+- changer de [configuration TLS](security/ssl-tls/configure-tls) pour passer sur la configuration *Intermédiaire* dans l'onglet **Web > Configuration > SSL** ;
 
 - remplacer dans vos applications les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` par `PORT` et `IP` ;
 
@@ -207,11 +207,11 @@ Nous vous incitons vivement à faire ces changements en production, avant d'effe
 
 ### Bases de données
 
-En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester]({{<ref "advanced/migrations/perform-migration">}}) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester](advanced/migrations/perform-migration) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
 
 Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster fermera les autres migrations.
 
-Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration]({{< ref "advanced/migrations/2020-software-architecture#préparation-de-la-migration" >}}).
+Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration](advanced/migrations/2020-software-architecture#préparation-de-la-migration).
 
 ## Déroulement de la migration
 
@@ -231,6 +231,6 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 $ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 - Drupal
-    - [Précompression des fichiers CSS et JS]({{< ref "marketplace/drupal#précompression-des-fichiers-css" >}}) sur les versions inférieures à la **8.9**.
+    - [Précompression des fichiers CSS et JS](marketplace/drupal#précompression-des-fichiers-css) sur les versions inférieures à la **8.9**.
 
 - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

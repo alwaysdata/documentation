@@ -6,7 +6,7 @@ hidden = true
 
 [Mattermost](https://mattermost.com) is an instant messaging software.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - Mattermost directory: `$HOME/mattermost/`
@@ -46,13 +46,13 @@ Modify the `$HOME/mattermost/config/config.json` file to put:
 
 ## Service launch
 
-Create a [service]({{< ref "services" >}}) with following details:
+Create a [service](services) with following details:
 
 - *Command*: `/home/[foo]/mattermost/bin/mattermost`
 - *Working directory*: `/home/[foo]/mattermost`
 
 ## Site creation
 
-Declare a [site]({{< ref "sites/add-a-site" >}}), type **Reverse proxy** with:
+Declare a [site](sites/add-a-site), type **Reverse proxy** with:
 
 - *Remote URL*: `services-[foo].alwaysdata.net:8300`

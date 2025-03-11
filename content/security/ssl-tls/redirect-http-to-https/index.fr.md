@@ -1,7 +1,7 @@
 +++
 url = "/fr/sécurité/ssl-tls/rediriger-HTTP-vers-HTTPS"
 title = "Comment rediriger les requêtes HTTP vers HTTPS"
-menuTitle = "Rediriger HTTP vers HTTPS"
+linkTitle = "Rediriger HTTP vers HTTPS"
 layout = "howto"
 weight = 1
 tags = ["https", "sécurité", "ssl"]

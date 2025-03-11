@@ -1,0 +1,40 @@
+{{- partial "topbar/button/lang.html" (dict
+	"page" .
+)}}
+
+{{- partial "topbar/func/button.html" (dict
+	"page" .
+	"class" "topbar-button-inscription"
+	"href" "https://www.alwaysdata.com/inscription/"
+	"icon" "user-plus"
+	"hint" (printf "%s" (T "Inscription"))
+)}}
+{{- partial "topbar/func/button.html" (dict
+	"page" .
+	"class" "topbar-button-login"
+	"href" "https://admin.alwaysdata.com/"
+	"icon" "sign-in-alt"
+	"hint" (printf "%s" (T "Sign-in"))
+)}}
+
+{{- partial "topbar/button/edit.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/source.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/markdown.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/print.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/prev.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/next.html" (dict
+	"page" .
+)}}
+{{- partial "topbar/button/more.html" (dict
+	"page" .
+)}}

@@ -10,7 +10,7 @@ tags = ["api"]
 ```sh
 $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 ```
-Vos tokens sont disponibles dans le menu **[Profil]({{< ref "accounts/tokens" >}})**.
+Vos tokens sont disponibles dans le menu **[Profil](accounts/tokens)**.
 
 {{% notice warning %}}
 Pour l'utilisation de vos tokens, n'oubliez pas les deux points (:) après la clé, ce qui permet de préciser que le mot de passe n'est pas nécessaire.

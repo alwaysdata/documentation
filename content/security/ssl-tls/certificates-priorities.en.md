@@ -9,7 +9,7 @@ Thanks to [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), the se
 
 - Your manually added certificate matching the host name.
 - Your manually added wildcard certificate matching the domain name.
-- The [automatically generated Let's Encrypt certificate]({{< ref "security/ssl-tls/lets-encrypt#certificats-autogénérés" >}}) matching the host name.
+- The [automatically generated Let's Encrypt certificate](security/ssl-tls/lets-encrypt#certificats-autogénérés) matching the host name.
 - The server's default certificate.
 
 If you wish to send a certificate with a lower priority, you can attach it directly to the subdomain, **it will take priority over the others**.

@@ -16,7 +16,7 @@ tags = ["base de données", "mariadb", "mysql"]
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > MySQL** de l'interface d'administration.
 
 ### Exemple avec `mysql`
-Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Nom de la base de données : `foo_base`
@@ -42,7 +42,7 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 
 Plusieurs possibilités :
 
-- utiliser notre fonctionnalité de [restauration de sauvegarde]({{< ref "backups/restore-a-site" >}}) ;
+- utiliser notre fonctionnalité de [restauration de sauvegarde](backups/restore-a-site) ;
 - utiliser la commande suivante :
 
     ```sh
@@ -70,7 +70,7 @@ Les *events MySQL* ne sont pas supportés par nos serveurs.
 Sur le Cloud Public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
-MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs de [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent demander à utiliser MySQL.
+MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs de [Cloud Privé](accounts/billing/private-cloud-prices) peuvent demander à utiliser MySQL.
 {{% /notice %}}
 
 ---

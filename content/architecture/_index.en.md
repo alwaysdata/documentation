@@ -2,10 +2,9 @@
 title = "alwaysdata Architecture"
 pre = "<i class='fas fa-fw fa-atom'></i> "
 weight = 40
-chapter = true
+archetype = "chapter"
 tags = ["infrastructure", "technical environment"]
 +++
-# alwaysdata Architecture
 
 ## Hardware architecture
 
@@ -20,20 +19,20 @@ All our machines are equipped with *RAID1* (duplicated in real time) and *hot-sw
 We natively support the *IPv6* protocol for all our services.
 
 To go further :
-- [Network]({{< ref "security/network" >}})
-- [IP ranges]({{< ref "security/ip-ranges" >}})
-- [Disaster recovery plan]({{< ref "security/drp" >}})
+- [Network](security/network)
+- [IP ranges](security/ip-ranges)
+- [Disaster recovery plan](security/drp)
 
 ## Software architecture
 
-We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API]({{< ref "api" >}}) is available for configuration operations on our administration interface.
+We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API](api) is available for configuration operations on our administration interface.
 
 Each account is isolated from each other via a containeristation based on [Cgroups](https://en.wikipedia.org/wiki/Cgroups). It runs its own programs, its own HTTP servers to provide high level security and customization.
 
 Our system distributes the available resources equally between all accounts on a server. When an account encounters consumption peaks, the platform redistributes its resources, from accounts who don’t need them, to temporarily reallocate them.
 
-- [HTTP stack]({{< ref "sites/http-stack" >}})
-- [Security Upgrades]({{< ref "security/security-upgrades" >}})
+- [HTTP stack](sites/http-stack)
+- [Security Upgrades](security/security-upgrades)
 
 ---
-- [Bug Bounty]({{< ref "security/bug-bounty" >}})
+- [Bug Bounty](security/bug-bounty)

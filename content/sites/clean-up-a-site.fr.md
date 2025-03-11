@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/désinfecter-un-site/"
 title = "Comment désinfecter un site web"
-menuTitle = "Désinfecter un site"
+linkTitle = "Désinfecter un site"
 layout = "howto"
 weight = 90
 tags = ["infection", "malware", "spam"]
@@ -20,7 +20,7 @@ La très grande majorité des attaques est effectuée par des scripts automatiqu
 
 ## 1. Supprimer les fichiers infectés
 
-Les commandes ci-après, présentées pour un site utilisant PHP, sont exécutées via [SSH]({{< ref "remote-access/ssh" >}}) dans le répertoire de votre site.
+Les commandes ci-après, présentées pour un site utilisant PHP, sont exécutées via [SSH](remote-access/ssh) dans le répertoire de votre site.
 
 - Vérifiez que des redirections ou autres directives n'aient pas été rajoutées à votre insu en contrôlant le contenu de vos fichiers `.htaccess`. Il ne devrait y en avoir à priori qu'un, situé à la racine de votre site :
 
@@ -100,7 +100,7 @@ domain.tld 31.184.244.18 - - [31/May/2013:02:12:37 +0200] "POST /templates/beez/
 Le nom des fichiers, des appels en POST sur des URLs ne contenant pas de traitements, sont des indices vous permettant de remonter jusqu'à la première requête HTTP, origine de l'infection.
 
 {{% notice tip %}}
-Si l'infection est **récente** et la recherche de l'infection compliquée, il est possible de repartir d'une [sauvegarde]({{< ref "backups" >}}).
+Si l'infection est **récente** et la recherche de l'infection compliquée, il est possible de repartir d'une [sauvegarde](backups).
 {{% /notice %}}
 
 ## 3. Supprimer les vecteurs d'infection
@@ -108,7 +108,7 @@ Si l'infection est **récente** et la recherche de l'infection compliquée, il e
 - **Mettez régulièrement à jour** l'application, ses plugins et thèmes ;
 - Supprimez tous les plugins et thèmes inactifs ;
 - Informez-vous sur les rapports de bugs et failles de sécurité des applications/plugins avant de les installer ;
-- Mettez en place le [pare-feu applicatif web]({{< ref "sites/waf" >}}) ;
+- Mettez en place le [pare-feu applicatif web](sites/waf) ;
 - Modifiez le préfixe du nom des tables de votre base de données (par exemple pour WordPress _wp\__) ;
 - Supprimez le fichier readme.txt à la racine de votre application ;
 - Supprimez les utilisateurs créés par défaut ;

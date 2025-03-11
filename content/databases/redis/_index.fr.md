@@ -16,7 +16,7 @@ tags = ["base de données", "redis"]
 Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Cette configuration est disponible sur le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}). Sur le [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}}) vous pouvez le faire tourner en suivant ce [guide]({{< ref "guides/redis" >}}).
+Cette configuration est disponible sur le [Cloud Privé](accounts/billing/private-cloud-prices). Sur le [Cloud Public](accounts/billing/public-cloud-prices) vous pouvez le faire tourner en suivant ce [guide](guides/redis).
 {{% /notice %}}
 
 ---
@@ -25,4 +25,4 @@ Cette configuration est disponible sur le [Cloud Privé]({{< ref "accounts/billi
 
 Retrouvez nos guides :
 
-- [Configurer une application PHP avec Redis]({{< ref "databases/redis/php" >}})
+- [Configurer une application PHP avec Redis](databases/redis/php)

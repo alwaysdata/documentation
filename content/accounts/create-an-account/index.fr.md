@@ -1,7 +1,7 @@
 +++
 url = "/fr/comptes/créer-un-compte/"
 title = "Comment créer un compte"
-menuTitle = "Créer un compte"
+linkTitle = "Créer un compte"
 layout = "howto"
 weight = 10
 tags = ["compte"]

@@ -18,4 +18,4 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 ---
 
 - [Documentation RabbitMQ](https://www.rabbitmq.com/documentation.html)
-- [Plugin de management]({{< ref "databases/rabbitmq/management-plugin" >}}) (option de [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}))
+- [Plugin de management](databases/rabbitmq/management-plugin) (option de [Cloud Privé](accounts/billing/private-cloud-prices))

@@ -13,16 +13,16 @@ Les applications sont mises en place avec une configuration sécurisée standard
 
 Le système créé leurs répertoires durant l'installation.
 
-- [Changer l'adresse d'un site web]({{< ref "sites/change-a-website-address" >}})
+- [Changer l'adresse d'un site web](sites/change-a-website-address)
 
 {{% notice tip %}}
-Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main et automatisez son déploiement en créant un [script d'installation applicatif]({{< ref "marketplace/build-application-script" >}}).
+Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main et automatisez son déploiement en créant un [script d'installation applicatif](marketplace/build-application-script).
 {{% /notice %}}
 
 ## Guides
 
-- [Drupal]({{< ref "marketplace/drupal" >}})
-- [Joomla]({{< ref "marketplace/joomla" >}})
-- [Odoo]({{< ref "marketplace/odoo" >}})
-- [PrestaShop]({{< ref "marketplace/prestashop" >}})
-- [WordPress]({{< ref "marketplace/wordpress" >}})
+- [Drupal](marketplace/drupal)
+- [Joomla](marketplace/joomla)
+- [Odoo](marketplace/odoo)
+- [PrestaShop](marketplace/prestashop)
+- [WordPress](marketplace/wordpress)

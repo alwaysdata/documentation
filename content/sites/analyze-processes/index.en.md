@@ -7,7 +7,7 @@ tags = ["http", "troubleshooting", "site"]
 
 This function lets experienced developers observe the behavior of their applications and improve their performance.
 
-The process analysis produces a file, available from the root of your account (called `analysis_[date]-[time].log` and that can be viewed in [SSH]({{< ref "remote-access/ssh" >}}) or [FTP]({{< ref "remote-access/ftp" >}})) describing the operations performed by the process during a set period of time.
+The process analysis produces a file, available from the root of your account (called `analysis_[date]-[time].log` and that can be viewed in [SSH](remote-access/ssh) or [FTP](remote-access/ftp)) describing the operations performed by the process during a set period of time.
 
 ## 1. Start the analysis
 

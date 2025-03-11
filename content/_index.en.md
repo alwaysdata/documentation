@@ -2,25 +2,23 @@
 title = "Help"
 +++
 
-# Alwaysdata documentation
-
-## Start
+## Start with alwaysdata
 
 Learn how to use *alwaysdata*. Find out how to set up an account. Discover how to deploy a website/service in one minute.
 
-- Find all of the [connection information]({{<ref "remote-access/login-details">}}) linked to your account,
+- Find all of the [connection information](remote-access/login-details) linked to your account,
 - Connect to your [administration interface](https://admin.alwaysdata.com),
-- Create a [website]({{< ref "sites/add-a-site" >}}), [buy]({{< ref "domains/buy-a-domain" >}}) or [transfer]({{< ref "domains/transfer-a-domain" >}}) a domain, create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}),
-- Transfer your files using a remote access protocol - [SFTP]({{< ref "remote-access/sftp" >}}) for instance - and create your [database]({{< ref "databases" >}}).
+- Create a [website](sites/add-a-site), [buy](domains/buy-a-domain) or [transfer](domains/transfer-a-domain) a domain, create [e-mail addresses](e-mails/create-an-e-mail-address),
+- Transfer your files using a remote access protocol - [SFTP](remote-access/sftp) for instance - and create your [database](databases).
 
 A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
 
 Not yet a customer? Contact our [sales department](https://www.alwaysdata.com/en/) and/or sign-up to our [platform](https://www.alwaysdata.com/en/register/).
 
-Want to show your support? [Give us some ❤]({{<ref "love">}}) !
+Want to show your support? [Give us some ❤](love) !
 
 {{% notice tip %}}
-Any publication on Internet entails [legal obligations]({{<ref "sites/legal-requirements-on-internet">}}), make yourself aware of them before placing your content on-line.
+Any publication on Internet entails [legal obligations](sites/legal-requirements-on-internet), make yourself aware of them before placing your content on-line.
 {{% /notice %}}
 
 ## Terminology

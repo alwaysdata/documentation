@@ -37,23 +37,23 @@ $ nc -z services-[account].alwaysdata.net 8300
 There is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
 {{% /notice %}}
 
-### [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users
+### [Public Cloud](accounts/billing/public-cloud-prices) users
 
 - Services are executed on a distinct servers than SSH and HTTP servers.
 - Their resources use must remain fair.
 - The services will not be available on IPv4, only on IPv6.
 
-### [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users
+### [Private Cloud](accounts/billing/private-cloud-prices) users
 
-- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule]({{< ref "security/network/configure-firewall" >}}).
+- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule](security/network/configure-firewall).
 - You can use other ports ; for example the default port of the application.
 
 ## Examples
 
-- [Mattermost]({{< ref "guides/mattermost#service-launch" >}})
-- [Memcached]({{< ref "guides/memcached#step-2-service-launch" >}})
-- [MongoDB]({{< ref "guides/mongodb#service-launch" >}})
-- [Redis]({{< ref "guides/redis#service-launch" >}})
+- [Mattermost](guides/mattermost#service-launch)
+- [Memcached](guides/memcached#step-2-service-launch)
+- [MongoDB](guides/mongodb#service-launch)
+- [Redis](guides/redis#service-launch)
 
 [^1]: `[account]` to be replace by the account name.
 [^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

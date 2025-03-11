@@ -1,3 +1,9 @@
+Inscription = "Inscription"
+Sign-in = "Connexion"
+
+[shortcuts-linkTitle]
+other = "Suivez-nous sur :"
+
 ["Troubleshooting and FAQs"]
 other = "Assistance et FAQs"
 

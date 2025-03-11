@@ -8,7 +8,7 @@ tags = ["http", "monitoring", "site"]
 
 [New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les **agents PHP et Python**.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 
@@ -48,7 +48,7 @@ Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/ne
 
 #### Étape 3 : Lancement du démon
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
 - *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
 - *Répertoire de travail* : `/home/[foo]/newrelic`

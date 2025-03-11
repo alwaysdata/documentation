@@ -1,6 +1,6 @@
 +++
 title = "How to restore e-mails"
-menuTitle = "Restore e-mails"
+linkTitle = "Restore e-mails"
 layout = "howto"
 weight = 10
 tags = ["backup", "e-mail", "recovery"]
@@ -26,7 +26,7 @@ The restore time depends on the size of the files to restore.
 
 To restore a backup manually.
 
-- Connect to your account [in SSH]({{< ref "remote-access/ssh">}}) ;
+- Connect to your account [in SSH](remote-access/ssh) ;
 
 - Restore e-mails:
 

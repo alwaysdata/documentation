@@ -10,7 +10,7 @@ tags = ["apache", "http", "optimisation applicative", "site"]
 
 Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom de compte : `foo`
 - Répertoire de PageSpeed : `$HOME/pagespeed/`

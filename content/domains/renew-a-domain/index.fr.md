@@ -9,7 +9,7 @@ tags = ["domaine"]
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > RENOUVELER**.
 {{< fig "images/admin-panel_renew.fr.png" "Renouveler un domaine" >}}
 
-- [Dates limites]({{< ref "domains/deadlines" >}})
+- [Dates limites](domains/deadlines)
 
 ## Renouvellement automatique
 

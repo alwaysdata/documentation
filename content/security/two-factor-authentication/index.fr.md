@@ -1,7 +1,7 @@
 +++
 url = "/fr/sécurité/authentification-2-facteurs/"
 title = "Admin : Authentification 2 facteurs"
-menuTitle = "Authentification 2 facteurs"
+linkTitle = "Authentification 2 facteurs"
 layout = "man"
 weight = 10
 tags = ["2fa", "profil", "sécurité"]
@@ -19,7 +19,7 @@ Cela vous donnera accès à vos codes personnels (code secret et QR code).
 Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un code de sécurité à usage unique à indiquer lors des prochaines connexions à l'interface d'administration. Ce code de sécurité est renouvelé toutes les _30 secondes_ (calcul basé sur l'heure ou un compteur).
 
 {{% notice note %}}
-En cas de perte de l'authentification à deux facteurs, envoyez un email à *contact[at]alwaysdata.com* pour la désactiver. [Une vérification sera effectuée]({{< ref "accounts/admin-access-loss#blocage-lié-à-lauthentification-2-facteurshahahugoshortcode-s0-hbhb" >}}).
+En cas de perte de l'authentification à deux facteurs, envoyez un email à *contact[at]alwaysdata.com* pour la désactiver. [Une vérification sera effectuée](accounts/admin-access-loss#blocage-lié-à-lauthentification-2-facteurshahahugoshortcode-s0-hbhb).
 {{% /notice %}}
 
 ## OTP applications
@@ -28,4 +28,4 @@ En cas de perte de l'authentification à deux facteurs, envoyez un email à *con
 - **Google Authenticator** : [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) et [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
 
 ---
-Une authentification à deux facteurs est aussi disponible [en SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) pour les utilisateurs des [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata.
+Une authentification à deux facteurs est aussi disponible [en SSH](remote-access/ssh/ssh-two-factor-authentication) pour les utilisateurs des [offres Cloud Privés](accounts/billing/private-cloud-prices) d'alwaysdata.

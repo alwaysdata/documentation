@@ -6,7 +6,7 @@ tags = [ "fichiers", "filezilla", "ftp"]
 hidden = true
 +++
 
-[Rappel des informations de connexion]({{< ref "remote-access/ftp#se-connecter-en-ftp">}})
+[Rappel des informations de connexion](remote-access/ftp#se-connecter-en-ftp)
 
 [FileZilla](https://filezilla-project.org/) est un client FTP gratuit fonctionnel sur tous les systèmes d'exploitation.
 

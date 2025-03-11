@@ -2,22 +2,22 @@
 title = "SSH"
 weight = 5
 tags = ["remote access", "ssh"]
-chapter = true
+archetype = "chapter"
 +++
 
 # SSH
 
 SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connection protocol that is secured by an exchange of encryption keys at the start of the connection. alwaysdata offers it in ALL of their environments.
 
-**Remote SSH access is disabled by default.** To enable it, modify your user and check the password connection. It is then possible to set up a connection with [SSH keys]({{< relref "use-keys" >}}) and disable the password connection.
+**Remote SSH access is disabled by default.** To enable it, modify your user and check the password connection. It is then possible to set up a connection with [SSH keys](use-keys) and disable the password connection.
 
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
-- [Create an SSH user]({{< relref "create-a-ssh-user" >}})
-- [Frequent issues]({{< ref "remote-access/ssh/troubleshooting">}})
+- [Create an SSH user](create-a-ssh-user)
+- [Frequent issues](remote-access/ssh/troubleshooting)
 
-* Users of [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}):
-	- [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
-	- [Global SSH keys]({{< relref "install-globally-ssh-keys" >}})
+* Users of [Private Cloud](accounts/billing/private-cloud-prices):
+	- [SSH 2-factor authentification](remote-access/ssh/ssh-two-factor-authentication)
+	- [Global SSH keys](install-globally-ssh-keys)
 
 {{% notice info %}}
 All of our offers are managed ones, it is not possible to gain `root` access.
@@ -54,7 +54,7 @@ Useful when located after a firewall, our [web interface](https://tsl0922.github
 Be aware however that this solution is hardly reliable and slow and does not replace a SSH client.
 
 {{% notice info %}}
-This interface is not compatible with the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
+This interface is not compatible with the [Private Cloud](accounts/billing/private-cloud-prices).
 {{% /notice %}}
 
 ## Miscellaneous

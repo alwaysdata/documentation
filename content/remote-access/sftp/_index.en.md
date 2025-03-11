@@ -2,7 +2,7 @@
 title = "SFTP"
 weight = 5
 tags = ["remote access", "sftp"]
-chapter = true
+archetype = "chapter"
 +++
 
 # SFTP
@@ -28,4 +28,4 @@ Then from your FTP client, fill-in the SSH connection information. Let us take t
 
 As with the SSH protocol, SFTP users are not `chrooted`. However, it is possible to limit their actions by choosing the **SFTP only** shell.
 
-This must not be confused with the [FTPS]({{< ref "remote-access/ftp" >}}) protocol: FTP transfer secured by SSL or TLS protocols.
+This must not be confused with the [FTPS](remote-access/ftp) protocol: FTP transfer secured by SSL or TLS protocols.

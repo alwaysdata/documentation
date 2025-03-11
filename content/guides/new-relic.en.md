@@ -7,7 +7,7 @@ tags = ["http", "monitoring", "site"]
 
 [New Relic](https://newrelic.com/products/application-monitoring) monitors the applications and helps to optimize them. It offers agents in a number of languages and here we will present the steps needed to install the **PHP and Python agents**.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 
@@ -47,7 +47,7 @@ More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.
 
 #### Step 3: Start the daemon
 
-Create a [service]({{< ref "services" >}}) with the following details:
+Create a [service](services) with the following details:
 
 - *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
 - *Working directory*: `/home/[foo]/newrelic`

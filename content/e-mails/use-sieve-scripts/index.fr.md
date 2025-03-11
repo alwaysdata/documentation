@@ -6,7 +6,7 @@ hidden = true
 tags = ["email"]
 +++
 
-[Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage]({{< ref "e-mails/add-a-filter-rule">}}).
+[Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage](e-mails/add-a-filter-rule).
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 

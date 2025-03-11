@@ -11,10 +11,10 @@ tags = ["cache", "http", "memcached", "site"]
 Voici un guide d'installation sur le Cloud Public.
 
 {{% notice info %}}
-*Memcached* peut être [installé au niveau serveur]({{< ref "databases/memcached">}}) pour les utilisateurs du Cloud Privé.
+*Memcached* peut être [installé au niveau serveur](databases/memcached) pour les utilisateurs du Cloud Privé.
 {{% /notice %}}
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Memcached : `$HOME/memcached/`
@@ -33,7 +33,7 @@ foo@ssh:~/memcached$ ./configure && make
 
 ## Étape 2 : Lancement du service
 
-Créez le [service]({{< ref "services" >}}) suivant :
+Créez le [service](services) suivant :
 
 - *Commande* : `./memcached -p 8300`
 - *Répertoire de travail* : `/home/[foo]/memcached`
@@ -46,4 +46,4 @@ Par défaut n'importe qui peut se connecter au Memcached ; il n'y a aucune sécu
 
 Il restera ensuite la configuration de l'application qui pour se connecter au Memcached devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
-- [Installer l'extension PHP]({{< ref "databases/memcached/php" >}})
+- [Installer l'extension PHP](databases/memcached/php)

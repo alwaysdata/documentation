@@ -9,11 +9,11 @@ tags = ["facturation"]
 Pour changer d'offre, rendez-vous dans **Abonnements > Modifier - ⚙️ le compte concerné** :
 {{< fig "images/list-accounts.fr.png" "Interface d'administration : liste de ses comptes" >}}
 
-Vous pouvez changer de _[pack]({{< ref "accounts/billing/public-cloud-prices" >}})_ et de _période d'engagement_. La facture pour le nouvel abonnement est éditée le lendemain et vous aurez alors 30 jours pour la payer.
+Vous pouvez changer de _[pack](accounts/billing/public-cloud-prices)_ et de _période d'engagement_. La facture pour le nouvel abonnement est éditée le lendemain et vous aurez alors 30 jours pour la payer.
 
 Dans les cas suivant, il faudra contacter le [support](https://admin.alwaysdata.com/support/add/) :
 
-- prendre un [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) (ou en changer sa configuration / la période d'engagement) ;
+- prendre un [Cloud Privé](accounts/billing/private-cloud-prices) (ou en changer sa configuration / la période d'engagement) ;
 - déplacer des comptes sur un Cloud Privé (et inversement) : les comptes sont des "boîtes noires" que l'équipe support peut facilement déplacer d'un serveur à un autre sans toucher son contenu ;
 - changer de période d'engagement d'un abonnement IP.
 

@@ -1,13 +1,13 @@
 +++
 url = "/fr/domaines/ajouter-un-domaine-externe/"
 title = "Comment ajouter un domaine externe"
-menuTitle = "Ajouter un domaine externe"
+linkTitle = "Ajouter un domaine externe"
 layout = "howto"
 weight = 5
 tags = ["domaine"]
 +++
 
-Opération gratuite, elle permet de transférer la gestion _technique_ du domaine sans toucher à la gestion _administrative_ (son registrar). Si vous souhaitez passer toute la gestion chez alwaysdata, passez par un [transfert de domaine]({{< ref "domains/transfer-a-domain" >}}).
+Opération gratuite, elle permet de transférer la gestion _technique_ du domaine sans toucher à la gestion _administrative_ (son registrar). Si vous souhaitez passer toute la gestion chez alwaysdata, passez par un [transfert de domaine](domains/transfer-a-domain).
 
 Nous voulons ici ajouter le domaine et **changer de serveurs DNS** chez le registrar pour mettre `dns1.alwaysdata.com` et `dns2.alwaysdata.com`.
 
@@ -25,8 +25,8 @@ Cela va ajouter le domaine en tant que _domaine externe_ dans la liste.
 
 {{< fig "images/admin-panel_domain-list2.fr.png" "Interface d'administration : Domaine externe" >}}
 
-Vous pourrez alors créer des [adresses email]({{< ref "e-mails/create-an-e-mail-address" >}}), des [sites web]({{< ref "sites/add-a-site" >}}) et gérer les [enregistrements DNS]({{< ref "domains/add-dns" >}}).
+Vous pourrez alors créer des [adresses email](e-mails/create-an-e-mail-address), des [sites web](sites/add-a-site) et gérer les [enregistrements DNS](domains/add-dns).
 
 {{% notice warning %}}
-Si certains enregistrements DNS doivent être gardés - par exemple ne pas changer de prestataire emails - il faudra préparer la [zone DNS]({{< ref "domains/add-dns" >}}) avant d'effectuer le changement de serveurs DNS.
+Si certains enregistrements DNS doivent être gardés - par exemple ne pas changer de prestataire emails - il faudra préparer la [zone DNS](domains/add-dns) avant d'effectuer le changement de serveurs DNS.
 {{% /notice %}}

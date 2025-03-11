@@ -1,6 +1,6 @@
 +++
 title = "Web Application Firewall (WAF)"
-menuTitle = "WAF"
+linkTitle = "WAF"
 weight = 60
 layout = "man"
 tags = ["http", "site", "waf"]

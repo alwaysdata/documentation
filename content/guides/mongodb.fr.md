@@ -8,7 +8,7 @@ tags = ["base de données", "mongodb"]
 
 [MongoDB](https://www.mongodb.com/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de MongoDB : `$HOME/mongodb/`
@@ -32,12 +32,12 @@ Choisissez le paquet *tgz* et la plateforme *Debian* de la [dernière version de
 
 ### Lancement du service
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
 - *Commande* : `./bin/mongod --dbpath ./data/ --logpath ./log/mongo.log --ipv6 --bind_ip_all --port=27017`
 - *Répertoire de travail* : `/home/[foo]/mongodb`
 
-Les utilisateurs du [Cloud public]({{< ref "accounts/billing/public-cloud-prices" >}}) devront faire pointer le service sur un port entre 8300 à 8499 à la place du port par défaut de MongoDB.
+Les utilisateurs du [Cloud public](accounts/billing/public-cloud-prices) devront faire pointer le service sur un port entre 8300 à 8499 à la place du port par défaut de MongoDB.
 
 L'adresse pour se connecter à l'instance MongoDB sera `services-[foo].alwaysdata.net:[port]`.
 
@@ -47,7 +47,7 @@ Remplacez `[port]` par le port choisi au niveau de la commande.
 
 ### Création de la règle de parefeu
 
-Les utilisateurs du [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) devront ouvrir le port utilisé en créant une règle sur le [parefeu]({{< ref "security/network/configure-firewall" >}}) s'ils souhaitent y accéder depuis l'extérieur :
+Les utilisateurs du [Cloud Privé](accounts/billing/private-cloud-prices) devront ouvrir le port utilisé en créant une règle sur le [parefeu](security/network/configure-firewall) s'ils souhaitent y accéder depuis l'extérieur :
 
 | Intitulé   | Valeur                                           |
 |------------|--------------------------------------------------|
@@ -111,4 +111,4 @@ admin>
 `monsupermotdepasse` est à remplacer par le mot de passe de votre choix.
 {{% /notice %}}
 
-Vous pourrez ensuite rajouter l'option `--auth` à la commande du [service]({{<ref "#lancement-du-service" >}}).
+Vous pourrez ensuite rajouter l'option `--auth` à la commande du [service](#lancement-du-service).

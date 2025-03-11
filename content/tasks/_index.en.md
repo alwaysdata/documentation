@@ -37,14 +37,14 @@ Several kinds of information need to be provided:
 - For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the administration interface. It is possible to choose another version using the *Environment variables*.
 
 {{% notice note %}}
-If your script needs to allow some IPs, allow these [IP adresses ranges]({{< ref "security/ip-ranges" >}}).
+If your script needs to allow some IPs, allow these [IP adresses ranges](security/ip-ranges).
 {{% /notice %}}
 
-### [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users
+### [Public Cloud](accounts/billing/public-cloud-prices) users
 
 - The consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
-### [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users
+### [Private Cloud](accounts/billing/private-cloud-prices) users
 
 - Even if it is not advisable, they have also access to the `crontab -e` command. The two systems are separate.
 

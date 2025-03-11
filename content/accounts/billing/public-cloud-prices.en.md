@@ -18,12 +18,12 @@ This page lists the prices (VAT excluded) of the Public Cloud configurations. To
 | Annual payment   | Free            | 7 €/mo          | 11 €/mo        | 22 €/mo        | 39 €/mo             | 59 €/mo             | 109 €/mo            |
 | Monthly payment    | Free            | 8 €/mo            | 13 €/mo          | 27 €/mo          | 49 €/mo            | 69 €/mo            | 135 €/mo           |
 
-The [Public Cloud configuration change]({{< ref "accounts/billing/upgrade-your-plan" >}}) is done through the **Subscriptions** menu.
+The [Public Cloud configuration change](accounts/billing/upgrade-your-plan) is done through the **Subscriptions** menu.
 
-We offer [several programs]({{< ref "accounts/programs" >}}) to benefit from discounts.
+We offer [several programs](accounts/programs) to benefit from discounts.
 
 {{% notice info %}}
 The disk quota includes files, mails and databases.
 {{% /notice %}}
 
-[^1]: The free 100 MB Cloud is subject to [special restrictions]({{< ref "accounts/public-cloud-restrictions#free-plan" >}}). It cannot be used for lucratives goals, among other things.
+[^1]: The free 100 MB Cloud is subject to [special restrictions](accounts/public-cloud-restrictions#free-plan). It cannot be used for lucratives goals, among other things.

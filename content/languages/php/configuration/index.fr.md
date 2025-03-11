@@ -17,7 +17,7 @@ tags = ["php"]
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
 
-Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+Les versions ne sont pas forcément [déjà installées](languages#versions).
 
 ## Paramètres (php.ini)
 
@@ -85,7 +85,7 @@ Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des para
 
 Vous pouvez consulter les logs d'erreur Apache dans le fichier `$HOME/admin/logs/apache/apache.log`. Ces logs contiennent parfois des informations importantes renvoyées par PHP.
 
-Une option du [php.ini]({{< ref "languages/php/configuration" >}}#paramètres-php-ini) vous permet d'avoir des logs d'erreurs PHP via l'ajout des directives suivantes :
+Une option du [php.ini](languages/php/configuration#paramètres-php-ini) vous permet d'avoir des logs d'erreurs PHP via l'ajout des directives suivantes :
 
 ```ini
 log_errors = On

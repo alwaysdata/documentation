@@ -7,7 +7,7 @@ hidden = true
 
 [Mattermost](https://mattermost.com) est un logiciel de messagerie instantané.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Mattermost : `$HOME/mattermost/`
@@ -47,13 +47,13 @@ Modifiez le fichier `$HOME/mattermost/config/config.json` pour indiquer :
 
 ## Lancement du service
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
 - *Commande* : `/home/[foo]/mattermost/bin/mattermost`
 - *Répertoire de travail* : `/home/[foo]/mattermost`
 
 ## Création du site
 
-Déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **Reverse proxy** avec :
+Déclarez un [site](sites/add-a-site) de type **Reverse proxy** avec :
 
 - *URL distante* : `services-[foo].alwaysdata.net:8300`

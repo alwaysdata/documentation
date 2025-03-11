@@ -8,7 +8,7 @@ tags = ["http", "site"]
 
 ## Site HTTP par défaut
 
-Cette option, des [Clouds Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) et paramétrée dans le menu **HTTP** du serveur, permet de renseigner un site sur lequel sera rediriger les requêtes arrivant sur le serveur, dont l'adresse ne serait pas définie dans l'interface d'administration alwaysdata. Cela remplacera le "*Site not found*" renvoyé par défaut.
+Cette option, des [Clouds Privé](accounts/billing/private-cloud-prices) et paramétrée dans le menu **HTTP** du serveur, permet de renseigner un site sur lequel sera rediriger les requêtes arrivant sur le serveur, dont l'adresse ne serait pas définie dans l'interface d'administration alwaysdata. Cela remplacera le "*Site not found*" renvoyé par défaut.
 
 Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais qu'elles ne sont pas renseignés dans **Web > Sites**. Cela peut, par exemple, être dans le cas d'un site avec un nombre très élevé d'adresses - qu'on ne veut pas toutes déclarées dans **Sites** - ou encore d'un oubli.
 
@@ -18,4 +18,4 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 
 Pour qu'une application ne soit jamais arrêtée, indiquez comme valeur `0`.
 
-Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service]({{< ref "services" >}}) ainsi qu'un site de type [Redirection "reverse-proxy"]({{< ref "sites/redirect" >}}) pour son accès web.
+Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](services) ainsi qu'un site de type [Redirection "reverse-proxy"](sites/redirect) pour son accès web.

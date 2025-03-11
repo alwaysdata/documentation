@@ -7,7 +7,7 @@ tags = ["databases", "couchdb"]
 
  [CouchDB](https://couchdb.apache.org/) is a document-oriented noSQL database program. 
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - CouchDB directory: `$HOME/couchdb/`
@@ -49,11 +49,11 @@ port = 5984
 Replace `mysuperpassword` with the password of your choice.
 {{% /notice %}}
 
-[Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users will need to point the service to a port between 8300 and 8499 and modify this value in the configuration file.
+[Public Cloud](accounts/billing/public-cloud-prices) users will need to point the service to a port between 8300 and 8499 and modify this value in the configuration file.
 
 ### Service launch
 
-Create a [service]({{< ref "services" >}}) with following details:
+Create a [service](services) with following details:
 
 - *Command*: `./bin/couchdb -couch_ini /home/[foo]/couchdb/local.ini`
 - *Working directory*: `/home/[foo]/couchdb/rel/couchdb`
@@ -71,7 +71,7 @@ Replace `[port]` with the port indicated in the `local.ini` file.
 
 ### Firewall rule creation
 
-[Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users will need to open the port by creating a [firewall rule]({{< ref "security/network/configure-firewall" >}}) if they want to access it from the external network:
+[Private Cloud](accounts/billing/private-cloud-prices) users will need to open the port by creating a [firewall rule](security/network/configure-firewall) if they want to access it from the external network:
 
 |Title|Value|
 |--- |--- |

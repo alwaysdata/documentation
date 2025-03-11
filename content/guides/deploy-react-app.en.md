@@ -16,7 +16,7 @@ will do the trick:
 
 ## On the _alwaysdata_ side
 
-Just create a [Static files]({{< ref "sites/static-files" >}}) site pointing to the directory of your choice (e.g.
+Just create a [Static files](sites/static-files) site pointing to the directory of your choice (e.g.
 `www/my-app`).
 
 ## On the development side
@@ -33,7 +33,7 @@ React App](https://create-react-app.dev) to bootstrap your project, it is availa
 `npm run build`. This command will produce static assets in a `build` directory.
 
 You can then deploy these files resulting from the _build_ to the directory you specified earlier when you
-created the site, for example by using [_rsync/SSH_]({{< ref "remote-access/ssh" >}}) :
+created the site, for example by using [_rsync/SSH_](remote-access/ssh) :
 
 ```sh
 rsync -rz --mkpath build/ [account]@ssh-[account].alwaysdata.net:www/my-app

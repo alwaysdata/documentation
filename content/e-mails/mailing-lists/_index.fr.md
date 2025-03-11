@@ -21,7 +21,7 @@ La gestion interne des listes de diffusions (membres, permissions, etc), se fait
 
 ***
 
-- [Créer une liste de diffusion]({{< relref "create-a-mailing-list" >}})
-- [Ajouter des membres manuellement à une liste]({{< relref "add-members-to-a-mailing-list" >}})
-- [Modifier les droits de diffusion]({{< relref "modify-mailing-list-permissions" >}})
-- [Ajouter un pied-de-page avec un lien de désabonnement]({{< relref "add-a-mailing-list-footer" >}})
+- [Créer une liste de diffusion](create-a-mailing-list)
+- [Ajouter des membres manuellement à une liste](add-members-to-a-mailing-list)
+- [Modifier les droits de diffusion](modify-mailing-list-permissions)
+- [Ajouter un pied-de-page avec un lien de désabonnement](add-a-mailing-list-footer)

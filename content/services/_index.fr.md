@@ -38,23 +38,23 @@ $ nc -z services-[compte].alwaysdata.net 8300
 Il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
 {{% /notice %}}
 
-### Utilisateurs [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})
+### Utilisateurs [Cloud Public](accounts/billing/public-cloud-prices)
 
 - Les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
 - La consommation doit rester raisonnable ;
 - Les services ne seront pas joignables en IPv4, uniquement en IPv6.
 
-### Utilisateurs [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}})
+### Utilisateurs [Cloud Privé](accounts/billing/private-cloud-prices)
 
-- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu]({{< ref "security/network/configure-firewall" >}}) ;
+- Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu](security/network/configure-firewall) ;
 - Vous pouvez utiliser d'autres ports, par exemple le port par défaut de l'application.
 
 ## Exemples
 
-- [Mattermost]({{< ref "guides/mattermost#lancement-du-service" >}})
-- [Memcached]({{< ref "guides/memcached#étape-2--lancement-du-service" >}})
-- [MongoDB]({{< ref "guides/mongodb#lancement-du-service" >}})
-- [Redis]({{< ref "guides/redis#lancement-du-service" >}})
+- [Mattermost](guides/mattermost#lancement-du-service)
+- [Memcached](guides/memcached#étape-2--lancement-du-service)
+- [MongoDB](guides/mongodb#lancement-du-service)
+- [Redis](guides/redis#lancement-du-service)
 
 
 

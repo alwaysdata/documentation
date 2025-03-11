@@ -10,4 +10,4 @@ Les logiciels sont mis à jours régulièrement et même immédiatement (< 24h) 
 
 Celui-ci **ne peut** donc être déterminant pour savoir si une faille est corrigée ou non.
 
-La mise à jour principale de nos systèmes d'exploitation s'effectue via un [outil d'automatisation]({{< ref "advanced/migrations" >}}) permettant de le faire de façon autonome et flexible par compte.
+La mise à jour principale de nos systèmes d'exploitation s'effectue via un [outil d'automatisation](advanced/migrations) permettant de le faire de façon autonome et flexible par compte.

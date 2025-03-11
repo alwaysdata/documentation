@@ -15,7 +15,7 @@ tags = ["databases", "mariadb", "mysql"]
 The connection data depends on the relevant account. You can find the precise values in the administration interface section under **Databases > MySQL**.
 
 ### Example with `mysql`
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - Database name: `foo_base`
@@ -41,7 +41,7 @@ If you change your user's permissions via a third party application, any validat
 
 Several options :
 
-- use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
+- use our [backup recovery](backups/restore-a-site) feature,
 - use the following command :
 
     ```sh
@@ -69,7 +69,7 @@ To check the MariaDB configuration use the SQL query `show variables`.
 In the Public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
-MariaDB is offered by default on our servers but the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users may request to use MySQL.
+MariaDB is offered by default on our servers but the [Private Cloud](accounts/billing/private-cloud-prices) users may request to use MySQL.
 {{% /notice %}}
 
 ---

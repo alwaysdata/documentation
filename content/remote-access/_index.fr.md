@@ -3,22 +3,20 @@ url = "/fr/accès-distant/"
 title = "Accès distant"
 pre = "<i class='fas fa-fw fa-network-wired'></i> "
 weight = 30
-chapter = true
+archetype = "chapter"
 tags = ["accès distant", "compte"]
 +++
 
-# Accès distant
-
 {{% notice note %}}
-Retrouvez toutes les [informations de connexion]({{<ref "./login-details">}}) aux différents services de votre compte.
+Retrouvez toutes les [informations de connexion](login-details) aux différents services de votre compte.
 {{% /notice %}}
 
 Retrouvez-toutes les informations concernant l'accès distant sur nos serveurs :
 
-* [FTP]({{< relref "./ftp" >}})
-* [SFTP]({{< relref "./sftp" >}})
-* [SSH]({{< relref "./ssh" >}})
-* [WebDAV]({{< relref "./webdav" >}})
+* [FTP](./ftp)
+* [SFTP](./sftp)
+* [SSH](./ssh)
+* [WebDAV](./webdav)
 
-- [Présentation du répertoire admin]({{< relref "admin-directory" >}})
-- [Questions diverses]({{< relref "./misc" >}})
+- [Présentation du répertoire admin](admin-directory)
+- [Questions diverses](./misc)

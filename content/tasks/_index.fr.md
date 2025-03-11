@@ -38,15 +38,15 @@ Plusieurs types d’in­for­ma­tions sont à fournir :
 - Pour les tâches de type *Commande*, les versions de langages utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les *Variables d'environnement*.
 	
 {{% notice note %}}
-Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adresses IP]({{< ref "security/ip-ranges" >}}).
+Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adresses IP](security/ip-ranges).
 {{% /notice %}}
 	
-### Utilisateurs [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})
+### Utilisateurs [Cloud Public](accounts/billing/public-cloud-prices)
 
 - La consommation doit rester raisonnable. Si la tâche planifiée est un traitement lourd, il convient de diminuer la fréquence.
 
 
-### Utilisateurs [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}})
+### Utilisateurs [Cloud Privé](accounts/billing/private-cloud-prices)
 
 - Même si c'est contre-indiqué, l'accès à la commande `crontab -e` est aussi disponible. Les deux systèmes sont distincts.
 

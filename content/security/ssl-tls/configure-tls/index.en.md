@@ -22,6 +22,6 @@ To change the TLS profile at the account level you need to edit the profile in t
 
 ## Private Cloud
 
-Owners of [Private Clouds]({{< ref "accounts/billing/private-cloud-prices" >}}) can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
+Owners of [Private Clouds](accounts/billing/private-cloud-prices) can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
 
 {{< fig "images/server-tls-configuration.en.png" "Admin interface: configure TLS at the server level" >}}

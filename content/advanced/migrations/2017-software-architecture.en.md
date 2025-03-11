@@ -42,9 +42,9 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 - The only PHP binary available is `php`. For example, do not use `php-cgi`.
 
-- Non-standard extensions (APC, Xapian, Xdebug and Mapscript for PHP 5.3 and 5.2 and Fileinfo in 5.2) are deleted. You can however [install them yourself]({{< ref "languages/php/extensions" >}}) in your own account.
+- Non-standard extensions (APC, Xapian, Xdebug and Mapscript for PHP 5.3 and 5.2 and Fileinfo in 5.2) are deleted. You can however [install them yourself](languages/php/extensions) in your own account.
 
-- Symfony is no longer pre-installed, you need to [install manually]({{< ref "languages/php/packages" >}}).
+- Symfony is no longer pre-installed, you need to [install manually](languages/php/packages).
 
 - The `calendar` and `intl` extensions are no longer activated automatically. They need to be explicitly loaded into your `php.ini` if necessary.
 
@@ -56,7 +56,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 - The only Python binary available is `python`. For example, do not use `python2.6`. You will especially need to remember to replace your shebangs (the first line in a script, e.g. `#!/usr/bin/python`) if they do not already use `python`.
 
-- The few libraries that were previously ready installed by default are now deleted, including Django. You will therefore need to [manually install]({{< ref "languages/python/configuration">}}#environment) all of the libraries that you will need.
+- The few libraries that were previously ready installed by default are now deleted, including Django. You will therefore need to [manually install](languages/python/configuration}#environment) all of the libraries that you will need.
 
 - The *WSGI* type applications are now served by [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) and not by [mod_wsgi](https://modwsgi.readthedocs.io/en/develop/). In the vast majority of cases this will make no difference to you. If you compiled your own mod_wsgi with a *customized Apache* type website, it will continue to work.
 
@@ -66,7 +66,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 - The only Ruby binary available is `ruby`. For example, do not use `ruby1.8`. You will especially need to remember to replace your shebangs (the first line in a script, e.g. `#!/usr/bin/ruby`) if they do not already use `ruby`.
 
-- The few libraries that were previously ready installed by default are now deleted, including Ruby on Rails. You will therefore need to [manually install]({{< ref "languages/ruby/configuration">}}#environment) all of the libraries that you will need.
+- The few libraries that were previously ready installed by default are now deleted, including Ruby on Rails. You will therefore need to [manually install](languages/ruby/configuration}#environment) all of the libraries that you will need.
 
 - The *Ruby Rack* or *Ruby on Rails* type applications are now served by [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) and not [Passenger](https://www.phusionpassenger.com). In the vast majority of cases this will make no difference to you. If you compiled your own Passenger with a *customized Apache* type website, it will continue to work.
 

@@ -1,7 +1,7 @@
 +++
 url = "/fr/domaines/transfert-sortant/"
 title = "Comment transférer un domaine chez un autre prestataire"
-menuTitle = "Transfert sortant"
+linkTitle = "Transfert sortant"
 layout = "howto"
 hidden = true
 tags = ["domaine"]

@@ -5,7 +5,7 @@ weight = 5
 tags = ["domain"]
 +++
 
-An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer]({{< ref "domains/transfer-a-domain" >}}).
+An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer](domains/transfer-a-domain).
 
 Here we wish to add the domain and **change of DNS servers** at the registrar to put `dns1.alwaysdata.com` and `dns2.alwaysdata.com`.
 
@@ -26,8 +26,8 @@ This will add the domain as an *external domain* in the list.
 
 {{< fig "images/admin-panel_domain-list2.en.png" "Administration interface: External domain" >}}
 
-Then you can create [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}), [websites]({{< ref "sites/add-a-site" >}}) and manage [DNS records]({{< ref "domains/add-dns" >}}).
+Then you can create [e-mail addresses](e-mails/create-an-e-mail-address), [websites](sites/add-a-site) and manage [DNS records](domains/add-dns).
 
 {{% notice warning %}}
-If some DNS records are to be kept - for example not to change email providers - the [DNS zone]({{< ref "domains/add-dns" >}}) will need to be prepared before making the DNS server change.
+If some DNS records are to be kept - for example not to change email providers - the [DNS zone](domains/add-dns) will need to be prepared before making the DNS server change.
 {{% /notice %}}

@@ -5,11 +5,11 @@ hidden = true
 tags = ["security", "site"]
 +++
 
-[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] is an [Apache]({{< ref "sites/configure-apache" >}}) module of GeoIP that aims to locate a user based on their IP address.
+[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] is an [Apache](sites/configure-apache) module of GeoIP that aims to locate a user based on their IP address.
 
 ## Installation
 
-Run the following commands in [SSH]({{< ref "remote-access/ssh" >}}) at the root of the account:
+Run the following commands in [SSH](remote-access/ssh) at the root of the account:
 
 {{% notice note %}}
 Take the [last available version of `mod_maxminddb`](https://github.com/maxmind/mod_maxminddb)

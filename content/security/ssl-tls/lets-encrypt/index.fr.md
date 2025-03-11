@@ -1,7 +1,7 @@
 +++
 url = "/fr/sécurité/ssl-tls/certificats-lets-encrypt"
 title = "Certificats Let's Encrypt"
-menuTitle = "Let's Encrypt"
+linkTitle = "Let's Encrypt"
 layout = "man"
 weight = 2
 tags = ["https", "sécurité", "ssl"]
@@ -9,7 +9,7 @@ tags = ["https", "sécurité", "ssl"]
 
 [Let's Encrypt](https://letsencrypt.org/fr/) est une autorité de certification proposant une génération simple de certificats gratuits. Les certificats proposés sont de type [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) et sont valides [90 jours](https://letsencrypt.org/2015/11/09/why-90-days.html).
 
-Pour éviter les doublons, alwaysdata autorise la génération de certificats Let's Encrypt seulement pour des [certificats wildcard]({{< ref "security/ssl-tls/lets-encrypt#certificats-wildcard" >}}).
+Pour éviter les doublons, alwaysdata autorise la génération de certificats Let's Encrypt seulement pour des [certificats wildcard](security/ssl-tls/lets-encrypt#certificats-wildcard).
 
 Les adresses en *.alwaysdata.net* sont gérées par le certificat wildcard `*.alwaysdata.net` renvoyé par défaut par les serveurs.
 
@@ -37,7 +37,7 @@ Les personnes ajoutant les adresses avant de changer les enregistrements DNS peu
 
 ## Certificats Wildcard
 
-Lorsqu'un domaine utilise nos [serveurs DNS]({{<ref "remote-access/login-details">}}), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.example.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
+Lorsqu'un domaine utilise nos [serveurs DNS](remote-access/login-details), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.example.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
 
 {{% notice note %}}
 Ces certificats wildcard ne sont pas valides pour les domaines "nus" - example.org.

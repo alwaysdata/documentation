@@ -1,6 +1,6 @@
 +++
 title = "How to create an account"
-menuTitle = "Create an account"
+linkTitle = "Create an account"
 layout = "howto"
 weight = 10
 tags = ["account"]

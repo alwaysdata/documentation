@@ -1,6 +1,6 @@
 +++
 title = "How to restore a site"
-menuTitle = "Restore a site"
+linkTitle = "Restore a site"
 layout = "howto"
 weight = 5
 tags = ["backup", "databases", "recovery", "site"]
@@ -26,7 +26,7 @@ The restore time depends on the size of the files to restore.
 
 To restore a backup manually.
 
-- Connect to your account [in SSH]({{< ref "remote-access/ssh" >}}) ;
+- Connect to your account [in SSH](remote-access/ssh) ;
 
 - Restore files:
 

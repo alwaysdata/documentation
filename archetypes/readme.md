@@ -2,7 +2,7 @@
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 weight = 5
-chapter = true
+archetype = "chapter"
 +++
 
 # {{ replace .Name "-" " " | title }}

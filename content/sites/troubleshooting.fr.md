@@ -10,8 +10,8 @@ tags = ["dépannage", "http", "site"]
 
 Service externe permettant de vérifier la disponibilité : [Where's It Up?](https://wheresitup.com/)
 
-- [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response]({{< ref "sites/connection-to-upstream" >}})
-- [PHP]({{< ref "languages/php/troubleshooting" >}})
+- [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response](sites/connection-to-upstream)
+- [PHP](languages/php/troubleshooting)
 
 ### This site can’t be reached / server DNS address could not be found
 
@@ -22,7 +22,7 @@ Ajouter le domaine dans **Domaines** ne suffit pas à créer un site internet. L
 
 ### 403 Forbidden
 
-Pour les sites utilisant [Apache]({{< ref "sites/configure-apache" >}}), il va par défaut rechercher pour la page d'accueil un fichier nommé `index.html` ou `index.php`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
+Pour les sites utilisant [Apache](sites/configure-apache), il va par défaut rechercher pour la page d'accueil un fichier nommé `index.html` ou `index.php`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
 
 ### Erreurs 500
 
@@ -53,6 +53,6 @@ Premature end of script headers: index.php, referer: https://example.org
 
 Le *serveur* s'est arrêté subitement et Apache renvoie une erreur 500. **Cela ne doit pas arriver en situation normale.** Cela peut provenir de nombreuses raisons (bug PHP, bug applicatif, processus PHP tué par le kernel, etc.).
 
-Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, [logs PHP]({{< ref "languages/php/configuration" >}}#logs-derreur)...
+Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, [logs PHP](languages/php/configuration#logs-derreur)...
 
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)

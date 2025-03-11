@@ -11,7 +11,7 @@ In the Public Cloud, during a migration, the accounts are migrated to a new serv
 
 ## Required migrations
 
-To avoid the need to suddenly migrate your server and therefore all of the accounts located there, [migrations take place in a number of steps]({{<ref "advanced/migrations/vps-and-dedicated-migrations/required-migrations-process">}}).
+To avoid the need to suddenly migrate your server and therefore all of the accounts located there, [migrations take place in a number of steps](advanced/migrations/vps-and-dedicated-migrations/required-migrations-process).
 
 ## Optional migrations
 

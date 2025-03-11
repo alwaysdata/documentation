@@ -23,7 +23,7 @@ If this verification fails, the following information will be required, to be se
 
 Once the identity verification is completed, we will inform you of the relevant email and modify it if necessary.
 
-## Blockage Related to [Two-Factor Authentication]({{< ref "security/two-factor-authentication">}})
+## Blockage Related to [Two-Factor Authentication](security/two-factor-authentication)
 
 Our team will call the phone number provided in the profile in question.
 
@@ -36,7 +36,7 @@ If this verification fails, the following information will be required, to be se
 
 Once the identity verification is completed, we will deactivate TOTP authentication on the alwaysdata profile.
 
-## Blockage Related to [IP Restriction]({{< ref "security/ip-access-authorization">}})
+## Blockage Related to [IP Restriction](security/ip-access-authorization)
 
 Our team will call the phone number provided in the profile in question.
 

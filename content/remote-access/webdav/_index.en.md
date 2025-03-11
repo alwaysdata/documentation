@@ -2,7 +2,7 @@
 title = "WebDAV"
 weight = 5
 tags = ["remote access", "webdav"]
-chapter = true
+archetype = "chapter"
 +++
 
 # WebDAV
@@ -10,10 +10,10 @@ chapter = true
 WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.webdav.org/) and it allows users to collaboratively modify and manage files on remote web servers.
 
 - [WebDAV - API](https://api.alwaysdata.com/v1/webdav/doc/)
-- [Create a WebDAV user]({{< relref "create-a-webdav-user" >}})
+- [Create a WebDAV user](create-a-webdav-user)
 
 {{% notice info %}}
-WebDAV is not enabled by default on the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) (the default ports are used by the sites). Contact [support](https://admin.alwaysdata.com/support/add/) if you need it.
+WebDAV is not enabled by default on the [Private Cloud](accounts/billing/private-cloud-prices) (the default ports are used by the sites). Contact [support](https://admin.alwaysdata.com/support/add/) if you need it.
 {{% /notice %}}
 
 ## Connecting with WebDAV

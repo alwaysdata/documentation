@@ -1,6 +1,6 @@
 +++
 title = "Websites - Troubleshooting"
-menuTitle = "Websites Troubleshooting"
+linkTitle = "Websites Troubleshooting"
 layout = "faq"
 weight = 90
 tags = ["http", "site", "troubleshooting"]
@@ -10,8 +10,8 @@ tags = ["http", "site", "troubleshooting"]
 
 External service to check uptime: [Where's It Up?](https://wheresitup.com/)
 
-- [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response]({{< ref "sites/connection-to-upstream" >}})
-- [PHP]({{< ref "languages/php/troubleshooting" >}})
+- [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response](sites/connection-to-upstream)
+- [PHP](languages/php/troubleshooting)
 
 ### This site can’t be reached / server DNS address could not be found
 
@@ -22,7 +22,7 @@ Adding the domaine in the **Domains** menu is not enough to create a website. It
 
 ### 403 Forbidden
 
-For websites using [Apache]({{< ref "sites/configure-apache" >}}) it will per default look for a file named `index.html` or `index.php` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
+For websites using [Apache](sites/configure-apache) it will per default look for a file named `index.html` or `index.php` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
 
 ### 500 Errors
 
@@ -53,6 +53,6 @@ Premature end of script headers: index.php, referer: https://example.org
 
 The *server* stopped suddenly and Apache returned a 500 error. **This should not happen under normal circumstances.** This can be caused by many reasons (PHP bug, application bug, PHP process killed by the kernel, etc.).
 
-You need to analyze all the logs at your disposal to find the cause: application logs, [PHP logs]({{< ref "languages/php/configuration" >}}#error-logs)...
+You need to analyze all the logs at your disposal to find the cause: application logs, [PHP logs](languages/php/configuration#error-logs)...
 
 [^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)

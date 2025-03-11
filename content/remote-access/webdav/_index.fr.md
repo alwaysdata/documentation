@@ -3,7 +3,7 @@ url = "/fr/accès-distant/webDAV/"
 title = "WebDAV"
 weight = 5
 tags = ["accès distant", "webdav"]
-chapter = true
+archetype = "chapter"
 +++
 
 # WebDAV
@@ -11,10 +11,10 @@ chapter = true
 WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.org/), permet aux utilisateurs de modifier et de gérer en collaboration des fichiers sur des serveurs Web distants.
 
 - [API - WebDAV](https://api.alwaysdata.com/v1/webdav/doc/)
-- [Créer un utilisateur WebDAV]({{< relref "create-a-webdav-user" >}})
+- [Créer un utilisateur WebDAV](create-a-webdav-user)
 
 {{% notice info %}}
-WebDAV n'est pas activé par défaut sur le [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) (les ports par défaut sont utilisés par les sites). Contactez le [support](https://admin.alwaysdata.com/support/add/) si vous en avez besoin.
+WebDAV n'est pas activé par défaut sur le [Cloud Privé](accounts/billing/private-cloud-prices) (les ports par défaut sont utilisés par les sites). Contactez le [support](https://admin.alwaysdata.com/support/add/) si vous en avez besoin.
 {{% /notice %}}
 
 ## Se connecter avec WebDAV

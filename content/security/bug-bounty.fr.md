@@ -181,16 +181,16 @@ La liste suivante comprend les rapports de vulnérabilité non acceptés par nos
 
 Notez que :
 
-* le nom des comptes est [accessible de nombreuses façons différentes]({{< ref "remote-access/misc#lister-les-comptes" >}}) ;
+* le nom des comptes est [accessible de nombreuses façons différentes](remote-access/misc#lister-les-comptes) ;
 * les adresses en `.alwaysdata.net` sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
 	* notamment s'ils divulguent leurs informations de connexions ;
-* Le répertoire `/tmp` est un [répertoire partagé]({{< ref "remote-access/misc#répertoire-tmp" >}}) ;
+* Le répertoire `/tmp` est un [répertoire partagé](remote-access/misc#répertoire-tmp) ;
 * `https://files.alwaysdata.com` et `https://share.alwaysdata.com` présentent des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface d'administration ; 
 * un utilisateur peut réutiliser un ancien mot de passe. Ce n'est pas une [bonne pratique listée par NIST](https://pages.nist.gov/800-63-3/sp800-63-3.html) ;
 * la vérification de l'email (que ce soit à l'inscription, à la modification d'informations de profil ou autre) n'est qu'une pratique, non une faille ;
 * les injections HTML et XSS dans dans l'interface d'administration ne cibleraient que l'attaquant et ne peuvent donc être des failles ;
 * nous n'utilisons pas de CDN et nos IP sont publiques ;
-* le numéro de version des logiciels que nous utilisons [ne peut être déterminant]({{< ref "security/security-upgrades" >}}).
+* le numéro de version des logiciels que nous utilisons [ne peut être déterminant](security/security-upgrades).
 
 [^1]: nom, numéro de téléphone, email, adresse physique, carte d'identité physique

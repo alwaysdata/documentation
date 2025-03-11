@@ -7,9 +7,9 @@ tags = ["http", "redis", "site"]
 
 [Redis](https://redis.io/) is an in-memory data structure store.
 
-Here is a guide to installing it on the [Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}). [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users can ask us to install *Redis* [at server level]({{< ref "databases/redis">}}).
+Here is a guide to installing it on the [Public Cloud](accounts/billing/public-cloud-prices). [Private Cloud](accounts/billing/private-cloud-prices) users can ask us to install *Redis* [at server level](databases/redis).
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - Redis directory: `$HOME/redis/`
@@ -31,7 +31,7 @@ foo@ssh:~/redis$ make
 
 ### Service launch
 
-Create the following [service]({{< ref "services" >}}):
+Create the following [service](services):
 
 
 - *Command*: `./src/redis-server --bind :: --port 8300 --protected-mode no`
@@ -42,7 +42,7 @@ More options via `$HOME/redis/src/redis-cli -h`.
 
 The next step is to configure the application to connect to Redis using `services-[foo].alwaysdata.net` and port `8300`.
 
-- [Install the PHP extension]({{< ref "databases/redis/php" >}})
+- [Install the PHP extension](databases/redis/php)
 
 ## Authentication
 

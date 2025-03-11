@@ -8,11 +8,11 @@ tags = ["http", "site"]
 
 Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute les requêtes HTTP entrantes puis :
 
-- lance les serveurs HTTP et programmes [définis]({{< ref "sites/add-a-site" >}}) pour servir vos données ;
-- renvoie le bon [certificat SSL]({{< ref "security/ssl-tls/certificates-priorities" >}}) ;
-- logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `$HOME/admin/logs`]({{< ref "remote-access/admin-directory#logs" >}}).
+- lance les serveurs HTTP et programmes [définis](sites/add-a-site) pour servir vos données ;
+- renvoie le bon [certificat SSL](security/ssl-tls/certificates-priorities) ;
+- logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `$HOME/admin/logs`](remote-access/admin-directory#logs).
 
-Il gère aussi le [pare-feu applicatif web (WAF)]({{< ref "sites/waf" >}}) et le [cache HTTP]({{< ref "http-cache" >}}) activables dans **Web > Sites**.
+Il gère aussi le [pare-feu applicatif web (WAF)](sites/waf) et le [cache HTTP](http-cache) activables dans **Web > Sites**.
 
 {{< fig "images/http-stack.fr.png" "Fonctionnement du reverse-proxy alwaysdata" >}}
 

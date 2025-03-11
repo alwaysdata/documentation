@@ -7,7 +7,7 @@ tags = ["http", "monitoring", "profiling"]
 
 [Tideways](https://tideways.com/) monitors the PHP applications and helps to optimize them. Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh" >}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - Tideways directory: `$HOME/tideways/`
@@ -41,7 +41,7 @@ extension = /home/[foo]/tideways/tideways-[version]/tideways-php-[php-version].s
 foo@ssh:~/tideways$ chmod +x tideways-daemon_[version]/tideways-daemon
 ```
 
-Create a [service]({{< ref "services" >}}) with the following details:
+Create a [service](services) with the following details:
 
 - *Command*: `/home/[foo]/tideways/tideways-daemon_[version]/tideways-daemon -address /home/[foo]/tideways/tidewaysd.sock`
 - *Working directory*: `/home/[foo]/tideways/tideways-daemon_[version]/`

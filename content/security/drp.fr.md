@@ -32,17 +32,17 @@ Ce datacenter est opéré par [Interxion](https://www.digitalrealty.fr/data-cent
 
 ### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 
-Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})…) grâce au protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
+Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via [SSH](remote-access/ssh), [SFTP](remote-access/sftp)…) grâce au protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
 
 ### Comment puis-je récupérer ces sauvegardes ?
 
-Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH]({{< ref "remote-access/ssh" >}}), [SFTP]({{< ref "remote-access/sftp" >}})…) en copiant les répertoires situés dans `$HOME/admin/backup/`.
+Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](remote-access/ssh), [SFTP](remote-access/sftp)…) en copiant les répertoires situés dans `$HOME/admin/backup/`.
 
 Le répertoire `latest` est un raccourci vers la dernière sauvegarde disponible.
 
 ### Comment puis-je restaurer ces sauvegardes ?
 
-Pour restaurer vos sauvegardes, [consultez la documentation disponible]({{< ref "backups" >}}).
+Pour restaurer vos sauvegardes, [consultez la documentation disponible](backups).
 
 ## Réseau
 
@@ -78,7 +78,7 @@ D'autres serveurs sont disponibles en sécurité, nous permettant de basculer ra
 
 Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
 
-Nous disposons d'une [offre Gold]({{< ref "accounts/billing/private-cloud-prices" >}}#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
+Nous disposons d'une [offre Gold](accounts/billing/private-cloud-prices#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
 
 ### L'accès aux serveurs est-il sécurisé ?
 

@@ -1,6 +1,6 @@
 +++
 title = "{{ replace .Name "-" " " | title }} {{ i18n "Overview" }}"
-menuTitle = "{{ replace .Name "-" " " | title }}"
+linkTitle = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 layout = "man"
 weight = 5

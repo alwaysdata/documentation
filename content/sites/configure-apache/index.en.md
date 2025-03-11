@@ -1,6 +1,6 @@
 +++
 title = "Editing Apache Configuration"
-menuTitle = "Configuration Apache"
+linkTitle = "Configuration Apache"
 layout = "howto"
 weight = 10
 tags = ["apache", "http", "site"]
@@ -15,14 +15,14 @@ All of the modifications made in the *Apache global directives* field will impac
 Apache serves PHP, Static Files and Custom Apache websites.
 
 - [Apache 2.4 documentation](http://httpd.apache.org/docs/2.4/en/)
-- [File .htaccess]({{< ref "sites/htaccess-file" >}})
+- [File .htaccess](sites/htaccess-file)
 
 ## Installing a module
 
-Once the `.so` file is compiled and added to your [file space]({{< ref "remote-access" >}}), insert this line into the global directives:
+Once the `.so` file is compiled and added to your [file space](remote-access), insert this line into the global directives:
 
 ```
 LoadModule <MODULE> $HOME/path/to/module.so
 ```
 
-- [GeoIP]({{< ref "guides/geoip" >}})
+- [GeoIP](guides/geoip)

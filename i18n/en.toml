@@ -1,3 +1,9 @@
+Inscription = "Sign-up"
+Sign-in = "Client Login"
+
+[shortcuts-linkTitle]
+other = "Follow us on:"
+
 ['Troubleshooting and FAQs']
 other = "Troubleshooting and FAQs"
 
@@ -18,7 +24,6 @@ other = "alwaysdata Documentation - 404"
 
 ['message-404']
 other = "Hmm… We looked hard, but we didn't find this documentation. Maybe you should start from scratch again?"
-
 
 ['signup-title']
   other = "Discover our Public Cloud offer"

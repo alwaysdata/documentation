@@ -1,0 +1,11 @@
+<nav class="TableOfContents"><ul>
+{{ range .Site.Languages }}
+	{{ if eq . $.Site.Language }}
+		<li>{{ .LanguageName }}</li>
+	{{ else }}
+		{{ range $.Translations }}
+		<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+		{{ end }}
+	{{ end }}
+{{ end }}
+</ul></nav>

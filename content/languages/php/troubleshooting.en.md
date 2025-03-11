@@ -9,7 +9,7 @@ tags = ["troubleshooting", "php"]
 
 This error message returned by the Apache log (`$HOME/admin/logs/apache/`) indicates that the limit on the number of PHP processes (*20*) at a given time has been reached and that new connections are waiting for a PHP process to become available.
 
-To quickly restart the site you can do it in **Web > Sites**. This will however only "artificially" and temporarily fix the problem. You can [analyze the processes]({{< ref "sites/analyze-processes" >}}) or use PHP profiling services such as [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) or [Blackfire](https://blackfire.io/) to find the source.
+To quickly restart the site you can do it in **Web > Sites**. This will however only "artificially" and temporarily fix the problem. You can [analyze the processes](sites/analyze-processes) or use PHP profiling services such as [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) or [Blackfire](https://blackfire.io/) to find the source.
 
 There can be many reasons: lack of optimization, unreachable external resource, session problem...
 

@@ -15,4 +15,4 @@ To find out which user is linked to a domain go to the domain details:
 
 {{< fig "images/admin-domains-details.en.png" "" >}}
 
-To change the name of the owner or the company turn to [change of ownership]({{< ref "domains/change-of-owner" >}}).
+To change the name of the owner or the company turn to [change of ownership](domains/change-of-owner).

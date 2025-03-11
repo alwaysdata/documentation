@@ -11,7 +11,7 @@ For backend optimizations, have a look at:
 
 - setting up indexes in database tables,
 - protecting its forms and cleaning up "trash" contents,
-- using a [HTTP cache]({{< ref "sites/http-cache" >}}).
+- using a [HTTP cache](sites/http-cache).
 
 External website analysis services:
 
@@ -19,5 +19,5 @@ External website analysis services:
 
 External profiling services:
 
-- [Blackfire](https://blackfire.io/) - [install guide on our servers]({{< ref "guides/blackfire">}})
-- [Tideways](https://tideways.com/) (PHP) - [install guide on our servers]({{< ref "guides/tideways">}})
+- [Blackfire](https://blackfire.io/) - [install guide on our servers](guides/blackfire)
+- [Tideways](https://tideways.com/) (PHP) - [install guide on our servers](guides/tideways)

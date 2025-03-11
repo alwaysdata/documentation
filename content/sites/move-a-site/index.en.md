@@ -7,7 +7,7 @@ tags = ["site"]
 
 This article explains how to move a site to another alwaysdata account.
 
-To do this we will use the [SSH access]({{< ref "remote-access/ssh">}}) rather than FTP which requires bringing the files back locally and then transferring them to the destination account.
+To do this we will use the [SSH access](remote-access/ssh) rather than FTP which requires bringing the files back locally and then transferring them to the destination account.
 
 In our example, we will consider the following information:
 

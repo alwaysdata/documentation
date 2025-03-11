@@ -13,7 +13,7 @@ You can compile your programs elsewhere, e.g. locally.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Rust, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section.
+To deploy an HTTP application with Rust, create a *[User program](sites/user-program)* type site in the **Web > Sites** section.
 
 {{< fig "images/user-program.en.png" "User Program Site Type">}}
 

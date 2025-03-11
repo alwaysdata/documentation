@@ -17,7 +17,7 @@ Some extensions load with the `zend_extension` directive and not extension. The 
 The extensions depend on the major version of PHP. In other words, a `.so` file compiled for PHP version 5.5 will not work with version 5.6: **it must be recompiled**.
 {{% /notice %}}
 
-The following sections tell you how to get new extensions. All commands are to be executed in [SSH]({{< ref "remote-access/ssh" >}}).
+The following sections tell you how to get new extensions. All commands are to be executed in [SSH](remote-access/ssh).
 
 ### Extensions included in PHP
 

@@ -16,7 +16,7 @@ tags = ["lua"]
 
 The default version is Lua 5.4. This is the version that is especially used when you start `lua`.
 
-Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+Versions are not necessarily [already installed](languages#versions).
 ## Binary to use
 
 To use a different version of Lua than the default one, use `lua5.X`.
@@ -27,7 +27,7 @@ To use a different version of Lua than the default one, use `lua5.X`.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Lua, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section.
+To deploy an HTTP application with Lua, create a *[User program](sites/user-program)* type site in the **Web > Sites** section.
 
 {{< fig "images/user-program.en.png" "User Program Site Type">}}
 

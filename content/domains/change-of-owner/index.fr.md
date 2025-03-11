@@ -13,4 +13,4 @@ Un email de confirmation est envoyé aux deux parties. __Vérifiez les adresses 
 
 L'opération est payante pour les extensions suivantes : _.am_, _.be_, _.me.uk_.
 
-Si vous souhaitez simplement mettre à jour l'adresse, le télépone ou encore l'adresse email, vous pouvez simplement faire une [mise à jour des informations du propriétaire]({{< ref "domains/update-owner-details" >}}).
+Si vous souhaitez simplement mettre à jour l'adresse, le télépone ou encore l'adresse email, vous pouvez simplement faire une [mise à jour des informations du propriétaire](domains/update-owner-details).

@@ -8,7 +8,7 @@ tags = ["apache", "http", "site"]
 The custom Apache type is used to run sites served by the Apache server that do not use PHP or HTML.
 
 {{% notice warning %}}
-If you only wish to add global directives to Apache, change its [configuration]({{< ref "sites/configure-apache">}}) in **Web > Configuration > Apache**.
+If you only wish to add global directives to Apache, change its [configuration](sites/configure-apache) in **Web > Configuration > Apache**.
 {{% /notice %}}
 
 Go to the **Web > Sites > Add a site** menu.

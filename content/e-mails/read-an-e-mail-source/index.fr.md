@@ -94,4 +94,4 @@ La source du mail est composée :
 
 ----
 
-- [Delivrabilité des emails : bonnes pratiques]({{< ref "e-mails/delivery">}})
+- [Delivrabilité des emails : bonnes pratiques](e-mails/delivery)

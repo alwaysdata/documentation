@@ -15,15 +15,15 @@ it was created.
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | **Admin**                |                                                                                                    |
 | URL                      | https://admin.alwaysdata.com                                                                       |
-|                          | E-mail/password, [2-factors auth ready]({{< ref "security/two-factor-authentication" >}})          |
-| API                      | [api.alwaysdata.com/v1]({{< ref "api" >}}) (with a [rate limit]({{<ref "api/usage">}}#rate-limit)) |
-|                          | [Tokens]({{< ref "accounts/tokens" >}}) available in *Profile*                                     |
+|                          | E-mail/password, [2-factors auth ready](security/two-factor-authentication)          |
+| API                      | [api.alwaysdata.com/v1](api) (with a [rate limit](api/usage#rate-limit)) |
+|                          | [Tokens](accounts/tokens) available in *Profile*                                     |
 | **Generic**              |                                                                                                    |
 | DNS                      | Primary: dns1.alwaysdata.com                                                                       |
 |                          | Secondary: dns2.alwaysdata.com                                                                     |
 | MX                       | Primary: mx1.alwaysdata.com (TTL: 10)                                                              |
 |                          | Secondary: mx2.alwaysdata.com (TTL: 20)                                                            |
-|                          | if [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}): [server].alwaysdata.net (TTL: 5) |
+|                          | if [Private Cloud](accounts/billing/private-cloud-prices): [server].alwaysdata.net (TTL: 5) |
 | **Databases**            |                                                                                                    |
 | MySQL                    | Host: mysql-[account].alwaysdata.net                                                               |
 |                          | Port: 3306                                                                                         |

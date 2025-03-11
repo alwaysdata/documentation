@@ -13,7 +13,7 @@ Here is a - non-exhaustive - list of restrictions:
 	- send [spam](https://en.wikipedia.org/wiki/Email_spam#European_Union) ;
 		- any message must be sent with the **express consent** (_opt-in_) of the recipient,
 		- using a list purchased from a third party is therefore considered to be spam,
-		- [several questions to ask yourself before launching the emailing]({{< ref "e-mails/delivery#emailing" >}}),
+		- [several questions to ask yourself before launching the emailing](e-mails/delivery#emailing),
 	- any other illegal use.
 
 If any of these restrictions are violated, we reserve the right to suspend and/or cancel the profile.
@@ -29,4 +29,4 @@ To be added to the rules presented above:
 - using the free account to host processes that consumes server resources - like proxies of mass e-mailing solutions,
 - using the free account for commercial/lucratives goals. E.g. it’s strictly prohibited to host company’s emails or website; to host ads that could generate incomes; to sell products on the hosted websites and mailboxes, etc.
 
-You profile may also be automatically suspended after your administration interface has been *[idle for X days]({{< ref "accounts/alerts-notifications#lack-of-activity" >}})*.
+You profile may also be automatically suspended after your administration interface has been *[idle for X days](accounts/alerts-notifications#lack-of-activity)*.

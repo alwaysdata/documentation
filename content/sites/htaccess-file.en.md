@@ -54,7 +54,7 @@ This syntax is valid regardless of the [HTTP response code](https://en.wikipedia
 
 ## Redirect
 
-This function is available directly by declaring a [Redirect] site type({{< ref "sites/redirect" >}}), but you can do this using the `.htaccess` file:
+This function is available directly by declaring a [Redirect] site type(sites/redirect), but you can do this using the `.htaccess` file:
 
 ```
 Redirect 301 <Source file> <Destination file>

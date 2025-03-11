@@ -7,9 +7,9 @@ tags = ["development"]
 
 [GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...
 
-It is possible to install it in **[Private Cloud - dedicated and Gold servers]({{< ref "accounts/billing/private-cloud-prices" >}})**, here are the steps to follow.
+It is possible to install it in **[Private Cloud - dedicated and Gold servers](accounts/billing/private-cloud-prices)**, here are the steps to follow.
 
-**[PostgreSQL]({{< ref "databases/postgresql" >}}) and [Redis]({{< ref "databases/redis" >}}) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
+**[PostgreSQL](databases/postgresql) and [Redis](databases/redis) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
 
 The installation must be done on an **empty account**. We consider the following information for our example:
 
@@ -23,9 +23,9 @@ GitLab needs these versions which must be defined in the **Environment** menu.
 
 1. Create the PostgreSQL database in the menu **Databases > PostgreSQL** and enable `pg_trgm` and `btree_gist` extensions.
 
-2. If you are using a [RAM limit]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) of less than 10 GB, increase it in the **Advanced > Resources** menu.
+2. If you are using a [RAM limit](advanced/system-resources-alerts-and-limitations) of less than 10 GB, increase it in the **Advanced > Resources** menu.
 
-3. Launch the following commands in [SSH]({{< ref "remote-access/ssh" >}}) at the root of the account:
+3. Launch the following commands in [SSH](remote-access/ssh) at the root of the account:
 
 ```sh
 npm install --global yarn
@@ -140,14 +140,14 @@ It is this last command that requires a significant amount of RAM. The amount ne
 
 ## Service creation
 
-Create a [service]({{< ref "services" >}}) with the following details:
+Create a [service](services) with the following details:
 
   * *Name*: GitLab
   * *Command*: `~/init restart -f`
 
 ## Website creation
 
-Create a [website]({{< ref "sites/add-a-site" >}}) with the following details:
+Create a [website](sites/add-a-site) with the following details:
 
   * *Name*: GitLab
   * *Type*: User program

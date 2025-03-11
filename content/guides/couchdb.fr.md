@@ -8,7 +8,7 @@ tags = ["base de données", "couchdb"]
 
 [CouchDB](https://couchdb.apache.org/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de CouchDB : `$HOME/couchdb/`
@@ -50,11 +50,11 @@ port = 5984
 `monsupermotdepasse` est à remplacer par le mot de passe de votre choix.
 {{% /notice %}}
 
-Les utilisateurs du [Cloud public]({{< ref "accounts/billing/public-cloud-prices" >}}) devront faire pointer le service sur un port entre 8300 à 8499 et modifier cette valeur dans le fichier de configuration.
+Les utilisateurs du [Cloud public](accounts/billing/public-cloud-prices) devront faire pointer le service sur un port entre 8300 à 8499 et modifier cette valeur dans le fichier de configuration.
 
 ### Lancement du service
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
 - *Commande* : `./bin/couchdb -couch_ini /home/[foo]/couchdb/local.ini`
 - *Répertoire de travail* : `/home/[foo]/couchdb/rel/couchdb`
@@ -71,7 +71,7 @@ $ curl -X GET http://admin:monsupermotdepasse@services-[foo].alwaysdata.net:[por
 
 ### Création de la règle de parefeu
 
-Les utilisateurs du [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) devront ouvrir le port utilisé en créant une règle sur le [parefeu]({{< ref "security/network/configure-firewall" >}}) s'ils souhaitent y accéder depuis l'extérieur :
+Les utilisateurs du [Cloud Privé](accounts/billing/private-cloud-prices) devront ouvrir le port utilisé en créant une règle sur le [parefeu](security/network/configure-firewall) s'ils souhaitent y accéder depuis l'extérieur :
 
 | Intitulé   | Valeur                                           |
 |------------|--------------------------------------------------|

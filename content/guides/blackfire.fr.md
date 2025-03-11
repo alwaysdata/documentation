@@ -8,7 +8,7 @@ tags = ["http", "optimisation applicative", "profiling", "site"]
 
 [Blackfire](https://blackfire.io) permet de tester, débugger, optimiser les applications. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les _agents PHP et Python_.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Blackfire : `$HOME/blackfire/`
@@ -58,7 +58,7 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 ## Étape 3 : Lancement du démon
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
 - *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
 - *Répertoire de travail* : `/home/[foo]/blackfire`

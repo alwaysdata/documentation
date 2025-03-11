@@ -8,7 +8,7 @@ tags = ["cache", "http", "site"]
 
 Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : pages HTML, docu­ments CSS, images) pour dimi­nuer la latence induite par le ser­veur lors­qu’il doit ser­vir une page et/ou réduire sa charge de travail.
 
-- [Activer le cache HTTP sur WordPress]({{< ref "sites/activate-http-cache-on-wordpress" >}})
+- [Activer le cache HTTP sur WordPress](sites/activate-http-cache-on-wordpress)
 
 ## Concept
 
@@ -53,5 +53,5 @@ Rendez vous dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
 3. en ajoutant l'entête `X-Cache-Purge-Match : startswith` et en ajoutant un chemin partiel à votre URL (ex : `https://test.alwaysdata.net/foo`). Cela supprimera toutes les entrées correspondant au modèle d'URL (et donc `https://test.alwaysdata.net/foo/bar`).
 
 {{% notice note %}}
-Bien que le cache HTTP convienne dans l'immense majorité des cas, vous pouvez également [faire tourner Varnish]({{< ref "sites/user-program" >}}) sur votre compte alwaysdata.
+Bien que le cache HTTP convienne dans l'immense majorité des cas, vous pouvez également [faire tourner Varnish](sites/user-program) sur votre compte alwaysdata.
 {{% /notice %}}

@@ -16,7 +16,7 @@ tags = ["java"]
 
 The default version can be changed from the alwaysdata administration, under **Environment > Java**. This is the version that is especially used when you start `java`.
 
-Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+Versions are not necessarily [already installed](languages#versions).
 
 ## Binary to use
 
@@ -31,7 +31,7 @@ Your Java environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Java, create a *[User program]({{< ref "sites/user-program" >}})* type site in the **Web > Sites** section.
+To deploy an HTTP application with Java, create a *[User program](sites/user-program)* type site in the **Web > Sites** section.
 
 {{< fig "images/user-program.en.png" "User Program Site Type">}}
 

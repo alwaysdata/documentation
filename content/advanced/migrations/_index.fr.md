@@ -2,7 +2,7 @@
 url = "/fr/avancé/migrations/"
 title = "Migrations"
 weight = 20
-chapter = true
+archetype = "chapter"
 tags = ["infrastructure", "migration"]
 +++
 
@@ -17,23 +17,23 @@ Les migrations disponibles apparaissent dans le menu **Avancé > Migrations** de
 Certaines migrations sont facultatives : nous vous laissons le choix de l'effectuer ou non. D'autres migrations sont obligatoires : vous disposez alors d'un certain temps pour les effectuer. Une fois la date limite atteinte, les migrations non effectuées le seront automatiquement.
 
 
-- [Effectuer une migration]({{< ref "advanced/migrations/perform-migration" >}})
-- [Migrations Cloud Privé]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
+- [Effectuer une migration](advanced/migrations/perform-migration)
+- [Migrations Cloud Privé](advanced/migrations/vps-and-dedicated-migrations)
 
 
 ## Migrations actuellement proposées
 
-* [Infrastructure logicielle 2024]({{< ref "advanced/migrations/2024-software-architecture" >}})
+* [Infrastructure logicielle 2024](advanced/migrations/2024-software-architecture)
 
 Cloud Privé - Debian Buster :
 
-- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
-- [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
-- [MariaDB 10.11]({{< ref "advanced/migrations/mariadb-10_11" >}})
-- [PostgreSQL 13]({{< ref "advanced/migrations/postgresql-13" >}})
-- [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
+- [MariaDB 10.5](advanced/migrations/mariadb-10_5)
+- [MariaDB 10.6](advanced/migrations/mariadb-10_6)
+- [MariaDB 10.11](advanced/migrations/mariadb-10_11)
+- [PostgreSQL 13](advanced/migrations/postgresql-13)
+- [PostgreSQL 14](advanced/migrations/postgresql-14)
 
 ## Anciennes migrations
 
-* [Infrastructure logicielle 2020]({{< ref "advanced/migrations/2020-software-architecture" >}})
-* [Infrastructure logicielle 2017]({{< ref "advanced/migrations/2017-software-architecture" >}})
+* [Infrastructure logicielle 2020](advanced/migrations/2020-software-architecture)
+* [Infrastructure logicielle 2017](advanced/migrations/2017-software-architecture)

@@ -1,35 +1,33 @@
 +++
 title = "Security Policies"
-menuTitle = "Security"
+linkTitle = "Security"
 weight = 50
-chapter = true
+archetype = "chapter"
 pre = "<i class='fas fa-fw fa-shield-alt'></i> "
 tags = [""]
 +++
 
-# Security
-
 ## Alwaysdata profile
 
-- [2 factor authentification]({{< relref "two-factor-authentication">}})
-- [IP access authorization]({{< relref "ip-access-authorization">}})
+- [2 factor authentification](two-factor-authentication)
+- [IP access authorization](ip-access-authorization)
 
 ## Alwaysdata services and websites
 
-- [SSL/TLS]({{< ref "ssl-tls" >}})
-- [Restricted mode]({{< relref "restricted-mode" >}}): limiting issues linked to users abuse
+- [SSL/TLS](ssl-tls)
+- [Restricted mode](restricted-mode): limiting issues linked to users abuse
 - Remote access:
-    - [SSH access]({{< ref "remote-access/ssh" >}})
-    - [Use SSH keys]({{< ref "remote-access/ssh/use-keys" >}})
-    - [SSH 2-factor authentification]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}})
+    - [SSH access](remote-access/ssh)
+    - [Use SSH keys](remote-access/ssh/use-keys)
+    - [SSH 2-factor authentification](remote-access/ssh/ssh-two-factor-authentication)
 
 ## Servers
 
-- [alwaysdata IP ranges]({{< relref "ip-ranges" >}})
-- [Disaster Recovery Plan]({{< relref "drp" >}})
-- [Network]({{< relref "network" >}}): network management and protection against hackers
-- [Security Upgrades]({{< ref "security/security-upgrades" >}})
-- [VPN]({{< relref "./vpn" >}})
+- [alwaysdata IP ranges](ip-ranges)
+- [Disaster Recovery Plan](drp)
+- [Network](network): network management and protection against hackers
+- [Security Upgrades](security/security-upgrades)
+- [VPN](./vpn)
 
 ---
-- [Bug Bounty]({{< ref "security/bug-bounty" >}})
+- [Bug Bounty](security/bug-bounty)

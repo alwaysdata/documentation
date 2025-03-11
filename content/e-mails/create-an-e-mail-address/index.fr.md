@@ -1,13 +1,13 @@
 +++
 url = "/fr/emails/créer-une-adresse-email/"
 title = "Comment créer une adresse email"
-menuTitle = "Créer une adresse email"
+linkTitle = "Créer une adresse email"
 layout = "howto"
 weight = 1
 tags = ["email", "redirection"]
 +++
 
-À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine]({{< ref "/domains" >}})).
+À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine](/domains)).
 
 {{< fig "images/admin-panel_mailbox-list.fr.png" "Interface d'administration : Liste des boîtes emails" >}}
 
@@ -18,7 +18,7 @@ Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 {{< fig "images/admin-panel_create-mailbox_required-infos.fr.png" "Interface d'administration : Emails - informations obligatoire" >}}
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
-- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)]({{< ref "e-mails/catch-all" >}}).
+- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)](e-mails/catch-all).
 - _Mot de passe_ : mot de passe nécessaire pour la connexion à cette adresse email.
 
 ## Antispam
@@ -86,4 +86,4 @@ Sans précision de la taille maximum d'une boîte email, c'est l'espace disponib
 
 {{< fig "images/admin-panel_mailbox_sieve.fr.png" "Interface d'administration : Emails - Script Sieve" >}}
 
-Cette technologie permet d'effectuer des [opérations plus précises]({{< ref "e-mails/use-sieve-scripts" >}}) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.
+Cette technologie permet d'effectuer des [opérations plus précises](e-mails/use-sieve-scripts) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.

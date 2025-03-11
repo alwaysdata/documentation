@@ -1,0 +1,26 @@
+{{- $onempty := cond (isset . "onempty") .onempty "hide" }}
+{{- $onwidths := cond (isset . "onwidths") .onwidths "show" }}
+{{- $onwidthm := cond (isset . "onwidthm") .onwidthm "show" }}
+{{- $onwidthl := cond (isset . "onwidthl") .onwidthl "show" }}
+{{- with .page }}
+	{{- $content := partial "lang.html" . }}
+	{{- $hascontent := not (eq 0 (int (len (trim ($content | plainify) "\n\r\t ")))) }}
+	{{- if not $hascontent }}
+		{{- $content = " " }}
+	{{- else }}
+		{{- $content = (print "\n" $content) | safeHTML }}
+	{{- end }}
+	{{- partial "topbar/func/button.html" (dict
+		"page" .
+		"class" "topbar-button-toc"
+		"href" "javascript:toggleTopbarFlyout(this)"
+		"icon" "language"
+		"onempty" $onempty
+		"onwidths" $onwidths
+		"onwidthm" $onwidthm
+		"onwidthl" $onwidthl
+		"hint" (printf "%s" (T "Language"))
+		"content" $content
+	)}}
+{{- end }}
+

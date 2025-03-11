@@ -57,7 +57,7 @@ Cette syntaxe est valable quelque soit le [code de la réponse HTTP](http://fr.w
 
 ## Redirection
 
-Cette fonctionnalité est disponible directement en déclarant un site de type [Redirection]({{< ref "sites/redirect" >}}), mais vous pouvez le faire grâce au fichier `.htaccess` :
+Cette fonctionnalité est disponible directement en déclarant un site de type [Redirection](sites/redirect), mais vous pouvez le faire grâce au fichier `.htaccess` :
 
 ```
 Redirect 301 <Fichier source> <Fichier destination>

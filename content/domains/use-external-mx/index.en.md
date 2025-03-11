@@ -51,7 +51,7 @@ It may be useful to bypass external MX to reach alwaysdata's MX directly.
 
 To send an e-mail to `foobar@example.org` through alwaysdata's MX (while `example.org` uses external MX):
 
-- create the [e-mail address]({{< ref "e-mails/create-an-e-mail-address" >}}) in the admin,
+- create the [e-mail address](e-mails/create-an-e-mail-address) in the admin,
 - send an e-mail to:
     - `foobar%example.org@mx.alwaysdata.com` if the account is located on the Public Cloud,
     - `foobar%example.org@server.alwaysdata.com` if the account is located on a Private Cloud (`server` to replace by the name of the server).

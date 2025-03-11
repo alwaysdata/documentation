@@ -17,11 +17,11 @@ In this example, the starting address will be `foobar.alwaysdata.net` and the ne
 
 1. Point your domain addresses on our servers:
 
-    - if the domain does not exist, you need to [buy it]({{< ref "domains/buy-a-domain" >}}),
+    - if the domain does not exist, you need to [buy it](domains/buy-a-domain),
     - if the domain exists, you can:
-        - add only the [addresses needed]({{< ref "sites/use-external-addresses" >}}) for the website,
-        - pass all the [technical management]({{< ref "domains/add-an-external-domain" >}}) to our DNS servers,
-        - [transfer]({{< ref "domains/transfer-a-domain" >}}) the domain,
+        - add only the [addresses needed](sites/use-external-addresses) for the website,
+        - pass all the [technical management](domains/add-an-external-domain) to our DNS servers,
+        - [transfer](domains/transfer-a-domain) the domain,
         
 2. Add the new addresses to the site in **Web > Sites** - the old one is still there,
 

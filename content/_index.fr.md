@@ -2,25 +2,23 @@
 title = "Assistance"
 +++
 
-# Documentation alwaysdata
-
-## Débuter
+## Démarrer avec alwaysdata
 
 Apprenez comment utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
 
-- Retrouvez toutes les [informations de connexion]({{<ref "remote-access/login-details">}}) liées à votre compte ;
+- Retrouvez toutes les [informations de connexion](remote-access/login-details) liées à votre compte ;
 - connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
-- créez un [site web]({{< ref "sites/add-a-site" >}}), [achetez]({{< ref "domains/buy-a-domain" >}}) ou [transférez]({{< ref "domains/transfer-a-domain" >}}) un domaine, créez des [adresses email]({{< ref "e-mails/create-an-e-mail-address" >}}) ;
-- transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP]({{< ref "remote-access/sftp" >}}) par exemple - et créez votre [base de données]({{< ref "databases" >}}).
+- créez un [site web](sites/add-a-site), [achetez](domains/buy-a-domain) ou [transférez](domains/transfer-a-domain) un domaine, créez des [adresses email](e-mails/create-an-e-mail-address) ;
+- transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP](remote-access/sftp) par exemple - et créez votre [base de données](databases).
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).
 
 Vous n'êtes pas encore client ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/) et / ou inscrivez-vous sur notre [plateforme](https://www.alwaysdata.com/fr/inscription/).
 
-Vous nous aimez ? [Montrez-nous votre ❤]({{<ref "love">}}) !
+Vous nous aimez ? [Montrez-nous votre ❤](love) !
 
 {{% notice tip %}}
-Toute publication sur Internet comporte des [obligations légales]({{<ref "sites/legal-requirements-on-internet">}}), prenez-en connaissance avant de mettre en ligne vos contenus.
+Toute publication sur Internet comporte des [obligations légales](sites/legal-requirements-on-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
 {{% /notice %}}
 
 ## Terminologie

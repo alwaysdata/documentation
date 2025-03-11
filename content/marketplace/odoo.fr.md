@@ -16,15 +16,15 @@ Elles seront à modifier selon vos besoins.
 
 ## Live Chat
 
-Après avoir installé Odoo via notre [marketplace]({{< ref "marketplace" >}}) :
+Après avoir installé Odoo via notre [marketplace](marketplace) :
 
-- Dans **Avancé > Services**, créez le [service]({{< ref "services" >}}) suivant :
+- Dans **Avancé > Services**, créez le [service](services) suivant :
 
     - *Commande* : `.venv/bin/python odoo-bin --config=.odoorc --http-port=8300 --proxy-mode`
     - *Répertoire de travail* : `/home/foo/odoo/`
     - *Environnement* : `PYTHON_VERSION=3.10`
 
-- Dans **Web > Sites**, déclarez un [site]({{< ref "sites/add-a-site" >}}) de type **Reverse proxy** avec :
+- Dans **Web > Sites**, déclarez un [site](sites/add-a-site) de type **Reverse proxy** avec :
 
     - *Adresse* : `foo.alwaysdata.net/websocket/`
     - *URL distante* : `services-foo.alwaysdata.net:8300`

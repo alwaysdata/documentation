@@ -26,7 +26,7 @@ Three tags are available:
 - `iodef` which gives a URL that certification authorities can contact in case of problems.
 
 {{% notice info %}}
-[Let's Encrypt certificates]({{< ref "security/ssl-tls/lets-encrypt" >}}) are generated for every HTTP address hosted on our servers. They must be authorized.
+[Let's Encrypt certificates](security/ssl-tls/lets-encrypt) are generated for every HTTP address hosted on our servers. They must be authorized.
 {{% /notice %}}
 
 ## Some examples

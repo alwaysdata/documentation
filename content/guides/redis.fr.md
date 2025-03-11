@@ -8,9 +8,9 @@ tags = ["http", "redis", "site"]
 
 [Redis](https://redis.io/) est système de gestion de base de données clé-valeur extensible.
 
-Voici un guide d'installation sur le [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}}). Les utilisateurs du [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent demander l'installation de *Redis* [au niveau serveur]({{< ref "databases/redis">}}).
+Voici un guide d'installation sur le [Cloud Public](accounts/billing/public-cloud-prices). Les utilisateurs du [Cloud privé](accounts/billing/private-cloud-prices) peuvent demander l'installation de *Redis* [au niveau serveur](databases/redis).
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Redis : `$HOME/redis/`
@@ -31,7 +31,7 @@ foo@ssh:~/redis$ make
 
 ### Lancement du service
 
-Créez le [service]({{< ref "services" >}}) suivant :
+Créez le [service](services) suivant :
 
 - *Commande* : `./src/redis-server --bind :: --port 8300 --protected-mode no`
 - *Commande de monitoring* : `./src/redis-cli -h services-[foo].alwaysdata.net -p 8300 ping`
@@ -41,7 +41,7 @@ Plus d'options via `$HOME/redis/src/redis-cli -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
-- [Installer l'extension PHP]({{< ref "databases/redis/php" >}})
+- [Installer l'extension PHP](databases/redis/php)
 
 ## Authentification
 

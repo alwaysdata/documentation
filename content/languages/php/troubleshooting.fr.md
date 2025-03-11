@@ -9,7 +9,7 @@ tags = ["dépannage", "php"]
 ## mod_fcgid: can't apply process slot
 Ce message d'erreur renvoyé par le log Apache (`$HOME/admin/logs/apache/`) indique que la limite du nombre de processus PHP (*20*) à un instant T a été atteinte et que les nouvelles connexions sont en attente qu'un processus PHP soit disponible.
 
-Pour faire repartir rapidement le site vous pouvez le redémarrer dans **Web > Sites**. Cela ne réglera cependant "qu'artificiellement" et temporairement le problème. Vous pouvez [analyser les processus]({{< ref "sites/analyze-processes" >}}) ou utiliser des services de profiling PHP tels [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) ou [Blackfire](https://blackfire.io/) pour en trouver la source.
+Pour faire repartir rapidement le site vous pouvez le redémarrer dans **Web > Sites**. Cela ne réglera cependant "qu'artificiellement" et temporairement le problème. Vous pouvez [analyser les processus](sites/analyze-processes) ou utiliser des services de profiling PHP tels [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) ou [Blackfire](https://blackfire.io/) pour en trouver la source.
 
 Il peut y avoir de nombreuses raisons : manque d'optimisation, ressource externe injoignable, problème de sessions...
 

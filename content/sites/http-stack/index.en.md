@@ -7,11 +7,11 @@ tags = ["http", "site"]
 
 A front-end reverse-proxy is installed on all our servers. This one listens incoming HTTP requests and:
 
-- launches the [defined]({{< ref "sites/add-a-site" >}}) HTTP servers and programs to serve your datas,
-- returns the right [SSL certificate]({{< ref "security/ssl-tls/certificates-priorities" >}}),
-- logs HTTP requests. These logs are available via the [`$HOME/admin/logs` directory]({{< ref "remote-access/admin-directory#logs" >}}).
+- launches the [defined](sites/add-a-site) HTTP servers and programs to serve your datas,
+- returns the right [SSL certificate](security/ssl-tls/certificates-priorities),
+- logs HTTP requests. These logs are available via the [`$HOME/admin/logs` directory](remote-access/admin-directory#logs).
 
-It also manages the [Web Application Firewall]({{< ref "sites/waf" >}}) and the [HTTP cache]({{< ref "http-cache" >}}) which can be activated in **Web > Sites**.
+It also manages the [Web Application Firewall](sites/waf) and the [HTTP cache](http-cache) which can be activated in **Web > Sites**.
 
 {{< fig "images/http-stack.en.png" "" >}}
 

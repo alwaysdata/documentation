@@ -7,7 +7,7 @@ tags = ["https", "security", "ssl"]
 
 [Let's Encrypt](https://letsencrypt.org) is a certification authority that proposes a simple way to generate free certificates. The certificates offered are [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) type ones, valid for [90 days](https://letsencrypt.org/2015/11/09/why-90-days.html).
 
-To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificats]({{< ref "security/ssl-tls/lets-encrypt#certificates-wildcard" >}}).
+To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificats](security/ssl-tls/lets-encrypt#certificates-wildcard).
 
 *.alwaysdata.net* addresses are handled by the `*.alwaysdata.net` wildcard certificate returned by default by the servers.
 
@@ -37,7 +37,7 @@ People who add the addresses before changing the DNS records can, after making t
 
 ## Wildcard certificates
 
-When a domain use our [DNS servers]({{<ref "remote-access/login-details">}}), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
+When a domain use our [DNS servers](remote-access/login-details), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
 
 {{% notice note %}}
 These wildcard certificates are not valid for "naked" domains - example.org.

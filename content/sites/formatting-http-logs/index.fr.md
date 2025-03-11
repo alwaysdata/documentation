@@ -72,4 +72,4 @@ Pour afficher l'IP d'un utilisateur derrière [Cloudflare](https://support.cloud
 [^1]: [Combined Log Format avec vhosts](https://httpd.apache.org/docs/2.4/logs.html)
 [^2]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).
 *Exemples : `{completion_date:%d/%b/%Y}` → 16/Jul/2018, `{completion_date:%H:%M:%S}` → 12:04:07*
-[^3]: Un seul header peut être spécifié. Exemples : `{request_header:authorization}`, `{response_header:age}` (à utiliser avec le [cache HTTP]({{< ref "sites/http-cache" >}}))
+[^3]: Un seul header peut être spécifié. Exemples : `{request_header:authorization}`, `{response_header:age}` (à utiliser avec le [cache HTTP](sites/http-cache))

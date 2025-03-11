@@ -21,9 +21,9 @@ Do not put the root into the **Hostname**. For example, by putting `example.org`
 A record with `@` as hostname for some providers is the empty subdomain. In our case, the **Hostname** box should be empty.
 {{% /notice %}}
 
-- [Add a SRV record]({{< ref "domains/add-srv-record" >}})
-- [Add a CAA record]({{< relref "add-caa-record" >}})
-- [Use external MX]({{< ref "domains/use-external-mx" >}})
+- [Add a SRV record](domains/add-srv-record)
+- [Add a CAA record](add-caa-record)
+- [Use external MX](domains/use-external-mx)
 
 ## Import a zone file
 
@@ -36,4 +36,4 @@ That will erase the previously added DNS records.
 ## Resources
 
 - [List of DNS record types](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
-- [Add several DNS records with CSV]({{< relref "create-dns-records-using-csv" >}})
+- [Add several DNS records with CSV](create-dns-records-using-csv)

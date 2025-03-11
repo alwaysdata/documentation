@@ -73,7 +73,7 @@ Par exemple, pour une application Python (tel que Django), vérifiez que la vers
 
 ## Autres serveurs HTTP
 
-Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en [SSH]({{< ref "remote-access/ssh" >}}). Notamment s'il écoute bien :
+Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en [SSH](remote-access/ssh). Notamment s'il écoute bien :
 
 - en IPv6 ;
 - sur l'IP et le port donné.

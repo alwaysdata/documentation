@@ -1,7 +1,7 @@
 +++
 url = "/fr/domaines/changer-de-serveurs-dns/"
 title = "Comment changer de serveurs DNS"
-menuTitle = "Changer de serveurs DNS"
+linkTitle = "Changer de serveurs DNS"
 layout = "howto"
 weight = 21
 tags = ["dns", "domaine"]

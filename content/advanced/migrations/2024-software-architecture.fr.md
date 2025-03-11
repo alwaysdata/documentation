@@ -37,7 +37,7 @@ Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configure
 
 Vous pouvez :
 
-* faire tourner vous-même MongoDB [dans un service]({{< ref"guides/mongodb" >}}). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même MongoDB [dans un service](guides/mongodb). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## Arrêt du support de CouchDB
@@ -46,7 +46,7 @@ Nous avons lancé le support de **CouchDB** [en 2011](https://blog.alwaysdata.co
 
 Vous pouvez :
 
-* faire tourner vous-même CouchDB [dans un service]({{< ref"guides/couchdb" >}}). *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même CouchDB [dans un service](guides/couchdb). *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez un hébergeur tiers comme [Cloudant](https://www.ibm.com/products/cloudant).
 
 ## Mise à jour de MariaDB
@@ -124,7 +124,7 @@ Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm
 ## Divers
 
 * La commande `composer` exécute désormais **Composer** 2. Vous pouvez démarrer Composer 1 avec la commande `composer1`.
-* Le [format des logs HTTP]({{< ref "/sites/formatting-http-logs" >}}) par défaut devient le format **Avancé**.
+* Le [format des logs HTTP](/sites/formatting-http-logs) par défaut devient le format **Avancé**.
 * Les sites de type **Redirection transparente** sont transformés en **Reverse proxy**.
 * L'IP 185.31.40.10 est une ancienne IP dépréciée et sera supprimée.
 

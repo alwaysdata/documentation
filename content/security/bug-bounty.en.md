@@ -181,16 +181,16 @@ The following list includes vulnerability reports not accepted by our services:
 - Reports about vulnerabilities from third-party applications that we use that are either unknown, unfixed or fixed in unreleased versions.
 
 Note that:
-* the name of the accounts is accessible [in many different ways]({{< ref "remote-access/misc#list-accounts" >}});
+* the name of the accounts is accessible [in many different ways](remote-access/misc#list-accounts);
 * addresses in `.alwaysdata.net` are linked to our customers' accounts. Their flaws are beyond our control;
 	* in particular if they disclose their connection details;
-* The `/tmp` directory is a [shared directory]({{< ref "remote-access/misc#tmp-directory" >}});
+* The `/tmp` directory is a [shared directory](remote-access/misc#tmp-directory);
 * “https://files.alwaysdata.com” and “https://share.alwaysdata.com” features public files;
 * the password reset link expires after 3 days or upon the next login to the administration interface; 
 * a user may reuse an old password. This is not a [NIST-listed best practice](https://pages.nist.gov/800-63-3/sp800-63-3.html);
 * email verification (whether during registration, profile information modification, or otherwise) is simply a best practice, not a vulnerability;
 * HTML and XSS injections in the administration interface would only target the attacker and therefore cannot be flaws;
 * we do not use CDN, and our IPs are public;
-* the version number of the software we use [cannot be critical]({{< ref "security/security-upgrades" >}}).
+* the version number of the software we use [cannot be critical](security/security-upgrades).
 
 [^1]: lastname, phone number, email, physical address, physical id copy

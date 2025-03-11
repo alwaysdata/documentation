@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/obligations-légales-sur-internet/"
 title = "Les obligations légales sur Internet"
-menuTitle = "Obligations légales sur Internet"
+linkTitle = "Obligations légales sur Internet"
 layout = "man"
 hidden = true
 tags = ["légal", "site"]

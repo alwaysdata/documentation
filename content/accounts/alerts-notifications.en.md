@@ -50,6 +50,6 @@ This kind of alert only affects *free plans* and is intended to not take up spac
 
 ### Account migration
 
-- Triggering event: a [migration]({{< ref "advanced/migrations">}}) relating to an account is scheduled,
+- Triggering event: a [migration](advanced/migrations) relating to an account is scheduled,
 - Resolution: apply the migration,
 - Expiry: the migration will be applied automatically (but not necessarily on the actual day of expiry).

@@ -2,17 +2,15 @@
 title = "FTP"
 weight = 5
 tags = ["remote access", "ftp"]
-chapter = true
+archetype = "chapter"
 +++
-
-# FTP
 
 FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol) is a protocol for sharing files on a distant network.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)
-- [Create an FTP user]({{< relref "create-a-ftp-user" >}})
-- [Upload files with FileZilla]({{< relref "use-filezilla" >}})
-- [Frequent issues]({{< ref "remote-access/ftp/troubleshooting">}})
+- [Create an FTP user](create-a-ftp-user)
+- [Upload files with FileZilla](use-filezilla)
+- [Frequent issues](remote-access/ftp/troubleshooting)
 
 ## Connecting with FTP
 

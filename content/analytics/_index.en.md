@@ -12,7 +12,7 @@ From the raw HTTP logs (`$HOME/admin/logs/http`) we generate single visits stati
 
 You can view the graph by site or for an entire account.
 
-A graph at the server level is available in the menu **HTTP > Analytics** for the [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
+A graph at the server level is available in the menu **HTTP > Analytics** for the [Private Cloud](accounts/billing/private-cloud-prices).
 
 ## Customizing statistics
 

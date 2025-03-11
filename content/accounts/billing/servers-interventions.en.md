@@ -20,4 +20,4 @@ Contact the [support](https://admin.alwaysdata.com/support/add/) for more inform
 
 Any operation cancelled within 24 hours before the intervention will be charged.
 
-[^1]: For [Gold servers]({{< ref "accounts/billing/private-cloud-prices#managed-gold-servers" >}}), the price of the intervention is doubled. The ceiling is then €1200 excluding VAT.
+[^1]: For [Gold servers](accounts/billing/private-cloud-prices#managed-gold-servers), the price of the intervention is doubled. The ceiling is then €1200 excluding VAT.

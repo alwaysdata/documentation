@@ -26,7 +26,7 @@ This table presents the prices for dedicated servers options on a configuration 
 | 16GB [^1] | + 10€                       | + 100€                     |
 
 {{% notice info %}}
-Adding/change of configuration operations prices are available in the [servers interventions page]({{< ref "accounts/billing/servers-interventions" >}}). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
+Adding/change of configuration operations prices are available in the [servers interventions page](accounts/billing/servers-interventions). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 {{% /notice %}}
 
 [^1]: RAM is added per slot of 16GB.

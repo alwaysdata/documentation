@@ -8,7 +8,7 @@ tags = ["http", "site"]
 
 [MapServer](https://mapserver.org/) est une plateforme permettant de publier des données spatiales et des applications cartographiques interactives sur le web.
 
-Dans notre exemple, nous utilisons un [accès SSH]({{< ref "remote-access/ssh" >}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom de compte : `foo`
 - Répertoire d'installation de MapServer : `$HOME/mapserver`

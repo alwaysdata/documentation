@@ -8,7 +8,7 @@ tags = ["domain"]
 This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.
 
 {{% notice warning %}}
-If you wish to transfer the domain to another alwaysdata client, please proceed with an [internal domain transfer]({{< ref "domains/move-a-domain" >}}).
+If you wish to transfer the domain to another alwaysdata client, please proceed with an [internal domain transfer](domains/move-a-domain).
 {{% /notice %}}
 
 ## Preparation ahead of time
@@ -23,7 +23,7 @@ Before starting the operation the owner must :
 A transfer cannot take place within 60 days of its creation or a previous transfer.
 
 {{% notice tip %}}
-The [technical management]({{< ref "domains/add-an-external-domain" >}}) transfer can be done before to avoid issues linked to the time taken by the administrative transfer.
+The [technical management](domains/add-an-external-domain) transfer can be done before to avoid issues linked to the time taken by the administrative transfer.
 {{% /notice %}}
 
 ## Starting the transfer
@@ -32,7 +32,7 @@ The [technical management]({{< ref "domains/add-an-external-domain" >}}) transfe
     
     {{< fig "images/admin-panel_domain-list.en.png""Administration interface: list of domains" >}}
     
-    If the domain has already been [added]({{< ref "domains/add-an-external-domain">}}) to your alwaysdata interface, you can transfer it via **Domains > Details** for the relevant domain and **> Transfer**.
+    If the domain has already been [added](domains/add-an-external-domain) to your alwaysdata interface, you can transfer it via **Domains > Details** for the relevant domain and **> Transfer**.
 
     {{< fig "images/admin-panel_transfer-domain.en.png""Administration interface: Transferring a domain already under management" >}}
 
@@ -73,19 +73,19 @@ The IPS Tag asked by [Nominet](https://registrars.nominet.uk/) - registry of `.u
 
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
 
-  - updating your [DNS records]({{< ref "domains/add-dns" >}}) if you use other servers for certain services,
-  - creating the [e-mail addresses]({{< ref "e-mails/create-an-e-mail-address" >}}).
+  - updating your [DNS records](domains/add-dns) if you use other servers for certain services,
+  - creating the [e-mail addresses](e-mails/create-an-e-mail-address).
 
 Regarding the website, there are a number of possible choices:
 
-  - adding the addresses before they point to our servers. In this case, there may be a delay relating to the generation of [SSL Let's Encrypt certificates]({{< ref "security/ssl-tls/lets-encrypt">}}),
+  - adding the addresses before they point to our servers. In this case, there may be a delay relating to the generation of [SSL Let's Encrypt certificates](security/ssl-tls/lets-encrypt),
   - prepare the site at another address and wait until the last moment to add addresses to the site. There may be a period of time when the site is no longer accessible.
 
 ---
 
 ## Links
 
-- [Transfers: error codes]({{< ref "/domains/troubleshooting">}}#transfer)
+- [Transfers: error codes](domains/troubleshooting}#transfer)
 
 
 [^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)

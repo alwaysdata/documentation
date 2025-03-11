@@ -1,6 +1,6 @@
 +++
 title = "How to offer a sponsorship"
-menuTitle = "Sponsorship"
+linkTitle = "Sponsorship"
 layout = "howto"
 weight = 10
 tags = ["billing", "sponsorship"]

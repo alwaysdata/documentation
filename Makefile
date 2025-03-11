@@ -1,18 +1,16 @@
-HUGO_VERSION := 0.78.1
-THEME_LEARN_REVISION := 6cfd61e0f675b45ba85f8325e206d23a4337a14c
+HUGO_VERSION := 0.145.0
+THEME_RELEARN_VERSION := 7.5.0
 
 .ONESHELL:
 .PHONY: public
 
-public: hugo themes/learn
+public: hugo themes/relearn
 	./hugo --minify --cleanDestinationDir
 
 # The theme we use.
-themes/learn:
-	mkdir themes 2>/dev/null
-	git -C themes clone https://github.com/matcornic/hugo-theme-learn.git learn
-	cd themes/learn
-	git reset --hard $(THEME_LEARN_REVISION)
+themes/relearn:
+	mkdir -p themes/relearn 2>/dev/null
+	wget -O- https://github.com/McShelby/hugo-theme-relearn/archive/refs/tags/$(THEME_RELEARN_VERSION).tar.gz | tar -xz -C themes/relearn --strip-components=1
 
 # Hugo, the site generator.
 hugo:

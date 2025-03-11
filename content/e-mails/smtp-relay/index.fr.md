@@ -11,7 +11,7 @@ Le relais SMTP permet d'utiliser un serveur tiers externe pour l'envoi des email
 - ne pas toucher à la réputation de votre serveur alwaysdata ;
 - profiter de services spécialisés.
 
-Cette option est disponible sur les [offres Cloud Privés]({{< ref "accounts/billing/private-cloud-prices">}}) d'alwaysdata.
+Cette option est disponible sur les [offres Cloud Privés](accounts/billing/private-cloud-prices) d'alwaysdata.
 
 ## Mise en place
 

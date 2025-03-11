@@ -1,7 +1,7 @@
 +++
 url = "/fr/domaines/acheter-un-domaine/"
 title = "Comment acheter un domaine"
-menuTitle = "Acheter un domaine"
+linkTitle = "Acheter un domaine"
 layout = "howto"
 weight = 1
 tags = ["domaine"]

@@ -18,7 +18,7 @@ Most attacks are performed by automatic scripts. Therefore reinstalling the site
 
 ## 1. Delete the infected files
 
-The following commands, presented for a site that uses PHP, are run via [SSH]({{< ref "remote-access/ssh" >}}) in your site's directory.
+The following commands, presented for a site that uses PHP, are run via [SSH](remote-access/ssh) in your site's directory.
 
 -   Check that no redirects or other directives have been added without your knowledge by checking the content of your `.htaccess` files. There should normally be only one located in the root of your site:
     ```sh
@@ -97,7 +97,7 @@ domain.tld 31.184.244.18 - - [31/May/2013:02:12:37 +0200] "POST /templates/beez/
 The name of the files, POST calls to URLs that do not contain any processing, are all indications that allow you to find the first HTTP request that is the origin of the infection.
 
 {{% notice tip %}}
-If the infection is a **recent** one and the search for the infection a complex one, then it is possible to work from a [backup]({{< ref "backups" >}}).
+If the infection is a **recent** one and the search for the infection a complex one, then it is possible to work from a [backup](backups).
 {{% /notice %}}
 
 ## 3. Deleting infection vehicles
@@ -105,7 +105,7 @@ If the infection is a **recent** one and the search for the infection a complex 
 - **Regularly update** the application, its plugins and themes,
 - Delete all idle plugins and themes,
 - Keep informed on reports of bugs and security breaches relating to applications/plugins before installing them,
-- Implement the [web application firewall]({{< ref "sites/waf">}}),
+- Implement the [web application firewall](sites/waf),
 - Change the prefix of the table names in your database (e.g. for WordPress *wp_*),
 - Delete the readme.txt file at the root of your application,
 - Delete any users created by default,

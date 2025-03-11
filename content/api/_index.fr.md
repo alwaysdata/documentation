@@ -41,6 +41,6 @@ $ curl -X POST --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v
 
 ## Tout savoir
 
-- [Utilisation]({{< relref "api/usage" >}})
-- [Exemples]({{< ref "examples" >}})
-- [Ressources]({{< relref "api/resources" >}})
+- [Utilisation](api/usage)
+- [Exemples](examples)
+- [Ressources](api/resources)

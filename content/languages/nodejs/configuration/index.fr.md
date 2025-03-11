@@ -24,7 +24,7 @@ tags = ["nodejs"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 
-Versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+Versions ne sont pas forcément [déjà installées](languages#versions).
 
 {{% notice note %}}
 Seules les **[versions LTS](https://nodejs.org/fr/about/previous-releases)** sont rendues disponibles.

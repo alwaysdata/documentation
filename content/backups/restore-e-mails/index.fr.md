@@ -1,7 +1,7 @@
 +++
 url = "/fr/sauvegardes/restaurer-des-emails/"
 title = "Comment restaurer des emails"
-menuTitle = "Restaurer des emails"
+linkTitle = "Restaurer des emails"
 layout = "howto"
 weight = 10
 tags = ["email", "récupération", "sauvegarde"]
@@ -27,7 +27,7 @@ Le temps de restauration dépend de la taille des fichiers à restaurer.
 
 Si vous souhaitez restaurer une sauvegarde manuellement.
 
-- Connectez-vous à votre compte [en SSH]({{< ref "remote-access/ssh" >}}) ;
+- Connectez-vous à votre compte [en SSH](remote-access/ssh) ;
 
 - Restaurer des emails :
 

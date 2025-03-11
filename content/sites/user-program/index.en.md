@@ -7,7 +7,7 @@ tags = ["http", "user program", "site"]
 
 To run a web program that does not use one of the other types of site you can use the *User program*.
 
-It may be used for [Erlang](https://www.erlang.org/), [Go]({{< ref "languages/go" >}}), [Java]({{< ref "languages/java" >}}), [Lua]({{< ref "languages/lua" >}}), [Rust](https://www.rust-lang.org/), [Scala](https://www.scala-lang.org/),) and many other languages and software...[^1]
+It may be used for [Erlang](https://www.erlang.org/), [Go](languages/go), [Java](languages/java), [Lua](languages/lua), [Rust](https://www.rust-lang.org/), [Scala](https://www.scala-lang.org/),) and many other languages and software...[^1]
 
 Go to the **Web > Sites > Add a site** menu.
 
@@ -26,7 +26,7 @@ Go to the **Web > Sites > Add a site** menu.
 {{< fig "images/admin-panel_user-program.en.png" "Adding a site: User program" >}}
 
 {{% notice tip %}}
-Before setting up the site, you can test running the program in [SSH]({{< ref "remote-access/ssh" >}}).
+Before setting up the site, you can test running the program in [SSH](remote-access/ssh).
 {{% /notice %}}
 
 If the program will not run, the *sites* logs available from the `$HOME/admin/logs/sites/` directory may help you.

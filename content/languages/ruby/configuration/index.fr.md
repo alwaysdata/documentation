@@ -18,7 +18,7 @@ tags = ["ruby"]
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
-Les versions ne sont pas forcément [déjà installées]({{< ref "languages#versions" >}}).
+Les versions ne sont pas forcément [déjà installées](languages#versions).
 
 ## Logs d'erreur
 
@@ -101,4 +101,4 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 * des variables d'environnement à définir ;
 * une version de Ruby spécifique à utiliser.
 
-Vous pouvez utiliser un autre serveur web en le lançant en type [Programme utilisateur]({{< ref "sites/user-program" >}}).
+Vous pouvez utiliser un autre serveur web en le lançant en type [Programme utilisateur](sites/user-program).

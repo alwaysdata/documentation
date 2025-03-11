@@ -1,7 +1,7 @@
 +++
 url = "/fr/comptes/facturation/parrainage/"
 title = "Comment offrir un parrainage"
-menuTitle = "Parrainer"
+linkTitle = "Parrainer"
 layout = "howto"
 weight = 10
 tags = ["facturation", "parrainage"]

@@ -65,7 +65,7 @@ For any Private Cloud configuration order, the installation of the server is don
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
-If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go in the page [Options prices - old configurations]({{< ref "accounts/billing/prices-options-old-configurations" >}}).
+If the dedicated server was taken before [March 2020](https://blog.alwaysdata.com/en/2020/03/03/harderware-better-faster-stronger/), go in the page [Options prices - old configurations](accounts/billing/prices-options-old-configurations).
 
 ## Managed Gold servers
 
@@ -106,7 +106,7 @@ Dedicated server redunded[^2] in another datacenter.
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
 {{% notice info %}}
-Adding/change of configuration operations prices are available in the [servers interventions page]({{< ref "accounts/billing/servers-interventions" >}}). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
+Adding/change of configuration operations prices are available in the [servers interventions page](accounts/billing/servers-interventions). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 {{% /notice %}}
 
 [^1]: Traffic is added per slot of 1TB.

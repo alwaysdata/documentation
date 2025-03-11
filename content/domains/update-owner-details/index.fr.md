@@ -16,4 +16,4 @@ Pour connaître quel utilisateur est lié à un domaine rendez-vous dans les dé
 
 {{< fig "images/admin-domains-details.fr.png" "" >}}
 
-Pour modifier le nom du propriétaire ou l'entreprise tournez-vous vers le [changement de propriétaire]({{< ref "domains/change-of-owner" >}}).
+Pour modifier le nom du propriétaire ou l'entreprise tournez-vous vers le [changement de propriétaire](domains/change-of-owner).

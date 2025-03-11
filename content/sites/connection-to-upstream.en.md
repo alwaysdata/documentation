@@ -75,7 +75,7 @@ For instance, for a Python application (such as Django), check that the version 
 
 ## Other HTTP servers
 
-For sites that do not use Apache or uWSGI, check the program run in [SSH]({{< ref "remote-access/ssh" >}}). Especially whether it does properly listen on:
+For sites that do not use Apache or uWSGI, check the program run in [SSH](remote-access/ssh). Especially whether it does properly listen on:
 
   - IPv6,
   - on IP and the set port.

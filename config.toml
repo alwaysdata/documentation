@@ -1,5 +1,5 @@
 baseURL                        = "https://help.alwaysdata.com"
-theme                          = "learn"
+theme                          = "relearn"
 
 ignoreFiles                    = [ "README.md" ]
 refLinksErrorLevel             = "WARNING"
@@ -11,111 +11,75 @@ defaultContentLanguage         = "en"
 [Taxonomies]
   tag = "tags"
 
-# i18n - EN
-[Languages.en]
-  weight         = 1
-  languageName   = "English"
-  title          = "alwaysdata Documentation"
-  landingPageURL = "/en/"
+[Languages]
+  # i18n - EN
+  [Languages.en]
+    weight         = 1
+    languageName   = "English"
+    title          = "alwaysdata Documentation"
+    [Languages.en.params]
+      landingPageURL = "/en/"
+    [Languages.en.menus]
+      [[Languages.en.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-mastodon'></i> Mastodon"
+        url    = "https://mastodon.social/@alwaysdata"
+        weight = 11
+      [[Languages.en.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
+        url    = "https://bsky.app/profile/alwaysdata.bsky.social"
+        weight = 12
+      [[Languages.en.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+        url    = "https://www.linkedin.com/company/alwaysdata/"
+        weight = 13
+      [[Languages.en.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
+        url    = "https://twitter.com/alwaysdata"
+        weight = 14
+  # i18n - FR
+  [Languages.fr]
+    weight         = 2
+    languageName   = "Français"
+    title          = "Documentation alwaysdata"
+    [Languages.fr.params]
+      landingPageURL = "/fr/"
+    [Languages.fr.menus]
+      [[Languages.fr.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-mastodon'></i> Mastodon"
+        url    = "https://mastodon.social/@alwaysdata"
+        weight = 11
+      [[Languages.fr.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
+        url    = "https://bsky.app/profile/alwaysdata.bsky.social"
+        weight = 12
+      [[Languages.fr.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+        url    = "https://www.linkedin.com/company/alwaysdata/"
+        weight = 13
+      [[Languages.fr.menus.shortcuts]]
+        name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
+        url    = "https://twitter.com/alwaysdata"
+        weight = 14
 
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-heart'></i> alwaysdata"
-  url    = "https://help.alwaysdata.com/en/love/"
-  weight = 4
-  
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-user-plus'></i> Signup"
-  url    = "https://www.alwaysdata.com/en/register/"
-  weight = 5
-
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-sign-in-alt'></i> Login"
-  url    = "https://admin.alwaysdata.com/"
-  weight = 6
-  
-[[Languages.en.menu.shortcuts]]
-  name   = "Follow us on:"
-  weight = 10
-
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-mastodon'></i> Mastodon"
-  url    = "https://mastodon.social/@alwaysdata"
-  weight = 11
-
-  [[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
-  url    = "https://www.linkedin.com/company/alwaysdata/"
-  weight = 12
-  
-  [[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
-  url    = "https://bsky.app/profile/alwaysdata.bsky.social"
-  weight = 13
-
-[[Languages.en.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
-  url    = "https://twitter.com/alwaysdata"
-  weight = 14
-
-# i18n - FR
-[Languages.fr]
-  weight         = 2
-  languageName   = "Français"
-  title          = "Documentation alwaysdata"
-  landingPageURL = "/fr/"
-
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-heart'></i> alwaysdata"
-  url    = "https://help.alwaysdata.com/fr/love/"
-  weight = 4
-
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-user-plus'></i> Inscription"
-  url    = "https://www.alwaysdata.com/fr/inscription/"
-  weight = 5
-
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fas fa-fw fa-sign-in-alt'></i> Connexion"
-  url    = "https://admin.alwaysdata.com/"
-  weight = 6
-  
-  [[Languages.fr.menu.shortcuts]]
-  name   = "Rejoignez-nous sur :"
-  weight = 10
-
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-mastodon'></i> Mastodon"
-  url    = "https://mastodon.social/@alwaysdata"
-  weight = 11
-
-  [[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
-  url    = "https://www.linkedin.com/company/alwaysdata/"
-  weight = 12
-
-  [[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-bluesky'></i> Bluesky"
-  url    = "https://bsky.app/profile/alwaysdata.bsky.social"
-  weight = 13
-
-[[Languages.fr.menu.shortcuts]]
-  name   = "<i class='fab fa-fw fa-x-twitter'></i> X (Twitter)"
-  url    = "https://twitter.com/alwaysdata"
-  weight = 14
-
-
-# For search functionality
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = [ "HTML", "RSS" ]
 
 # Theme settings
 [params]
-  editURL                  = "https://github.com/alwaysdata/documentation/blob/master/content/"
-  author                   = "alwaysdata <contact@alwaysdata.com>"
   themeVariant             = "alwaysdata"
   disableBreadcrumb        = false
   disableNextPrev          = true
-  disableShortcutsTitle    = true
-  disableToc               = true
+  disableShortcutsTitle    = false
+  disableToc               = false
   disableLandingPageButton = true
+  disableHoverBlockCopyToClipBoard = false
+  disableInlineCopyToClipBoard = true
   landingPageURL           = "/"
+  disableLanguageSwitchingButton = true
+  disableGeneratorVersion = true
+  disableHugoGeneratorInject = true
+  showVisitedLinks         = false
+  disableRootBreadcrumb    = true
+  disableExplicitIndexURLs = true
+  editURL                  = "https://github.com/alwaysdata/documentation/blob/master/content/"
+  author.name              = "alwaysdata <contact@alwaysdata.com>"

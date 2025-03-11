@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/redirection/"
 title = "Comment rediriger des adresses HTTP"
-menuTitle = "Redirection d'adresses"
+linkTitle = "Redirection d'adresses"
 layout = "howto"
 weight = 5
 tags = ["http", "redirection", "site"]

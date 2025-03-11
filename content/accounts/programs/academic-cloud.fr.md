@@ -18,4 +18,4 @@ Pour en bénéficier remplissez votre profil avec les informations de votre éta
 Lors de la procédure d'inscription, les étudiants peuvent choisir entre plusieurs packs. Pour bénéficier du Academic Cloud gratuit, ils doivent choisir le *Cloud public gratuit (100 Mo)*.
 {{% /notice %}}
 
-Une fois la formation finie, les étudiants pourront conserver leurs comptes, supprimer les [permissions]({{< ref "accounts/permissions" >}}) accordées au formateur, et éventuellement [changer d'offre]({{< ref "accounts/billing/upgrade-your-plan" >}}).
+Une fois la formation finie, les étudiants pourront conserver leurs comptes, supprimer les [permissions](accounts/permissions) accordées au formateur, et éventuellement [changer d'offre](accounts/billing/upgrade-your-plan).

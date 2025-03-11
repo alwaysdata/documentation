@@ -1,7 +1,7 @@
 +++
 url = "/fr/emails/ajouter-une-règle-de-filtrage/"
 title = "Comment ajouter une règle de filtrage"
-menuTitle = "Ajouter une règle de filtrage"
+linkTitle = "Ajouter une règle de filtrage"
 layout = "howto"
 weight = 25
 tags = ["email"]
@@ -21,7 +21,7 @@ Vous y retrouverez la liste de vos règles et pourrez en ajouter.
 Les règles de filtrages sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier `$HOME/admin/mail/[domaine]/[partie-locale]/filter.sieve` sur votre espace de fichiers.
 
 {{% notice tip %}}
-Pour créer des règles plus compliquées, ce sera des [règles Sieve]({{< ref "e-mails/use-sieve-scripts" >}}).
+Pour créer des règles plus compliquées, ce sera des [règles Sieve](e-mails/use-sieve-scripts).
 {{% /notice %}}
 
 ---

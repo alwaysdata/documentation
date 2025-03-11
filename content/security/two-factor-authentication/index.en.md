@@ -1,6 +1,6 @@
 +++
 title = "Admin: 2 Factors Auth"
-menuTitle = "2 Factors Auth"
+linkTitle = "2 Factors Auth"
 layout = "man"
 weight = 10
 tags = ["2fa", "profil", "security"]
@@ -17,7 +17,7 @@ To use it, go to **Profile** to activate *Two factor authentication*.
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 
 {{% notice note %}}
-In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. [A verification will be carried out]({{< ref "accounts/admin-access-loss#blockage-related-to-two-factor-authenticationhahahugoshortcode-s0-hbhb" >}}).
+In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. [A verification will be carried out](accounts/admin-access-loss#blockage-related-to-two-factor-authenticationhahahugoshortcode-s0-hbhb).
 {{% /notice %}}
 
 ## OTP applications
@@ -26,4 +26,4 @@ In the case of loss of two-factor authentication, send an email to *contact[at]a
 - **Google Authenticator**: [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
 
 ---
-Two-factor authentication is also available [in SSH]({{< ref "remote-access/ssh/ssh-two-factor-authentication" >}}) for users of our alwaysdata [Private Cloud offers]({{< ref "accounts/billing/private-cloud-prices">}})
+Two-factor authentication is also available [in SSH](remote-access/ssh/ssh-two-factor-authentication) for users of our alwaysdata [Private Cloud offers](accounts/billing/private-cloud-prices)

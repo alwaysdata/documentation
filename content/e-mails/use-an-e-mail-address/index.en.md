@@ -34,10 +34,10 @@ Password authentication is **mandatory** to use our SMTP server, fill-in the sam
 
 It is also possible to use your internet provider's SMTP server.
 
-- [Configure Apple/iOS]({{< ref "e-mails/clients/apple-ios" >}})
-- [Configure Gmail]({{< ref "e-mails/clients/gmail" >}})
-- [Configure Mozilla Thunderbird]({{< ref "e-mails/clients/thunderbird" >}})
-- [Configure Outlook]({{< ref "e-mails/clients/outlook" >}})
+- [Configure Apple/iOS](e-mails/clients/apple-ios)
+- [Configure Gmail](e-mails/clients/gmail)
+- [Configure Mozilla Thunderbird](e-mails/clients/thunderbird)
+- [Configure Outlook](e-mails/clients/outlook)
 
 ## Webmail
 

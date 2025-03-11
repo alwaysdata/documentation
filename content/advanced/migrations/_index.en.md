@@ -1,7 +1,7 @@
 +++
 title = "Migrations"
 weight = 20
-chapter = true
+archetype = "chapter"
 tags = ["infrastructure", "migration"]
 +++
 
@@ -15,23 +15,23 @@ The migrations available appear in the [alwaysdata administration](https://admin
 
 Some migrations are optional: you choose whether or not to migrate. Other migrations are mandatory ones: you have a period of time to migrate. Once the deadline is reached, any remaining migrations are done automatically.
 
-- [Perform a migration]({{< ref "advanced/migrations/perform-migration" >}})
-- [Private Cloud migrations]({{< ref "advanced/migrations/vps-and-dedicated-migrations" >}})
+- [Perform a migration](advanced/migrations/perform-migration)
+- [Private Cloud migrations](advanced/migrations/vps-and-dedicated-migrations)
 
 ## Migrations currently offered
 
-* [2024 software infrastructure]({{< ref "advanced/migrations/2024-software-architecture" >}})
+* [2024 software infrastructure](advanced/migrations/2024-software-architecture)
 
 Private Cloud - Debian Buster :
 
-- [MariaDB 10.5]({{< ref "advanced/migrations/mariadb-10_5" >}})
-- [MariaDB 10.6]({{< ref "advanced/migrations/mariadb-10_6" >}})
-- [MariaDB 10.11]({{< ref "advanced/migrations/mariadb-10_11" >}})
-- [PostgreSQL 13]({{< ref "advanced/migrations/postgresql-13" >}})
-- [PostgreSQL 14]({{< ref "advanced/migrations/postgresql-14" >}})
+- [MariaDB 10.5](advanced/migrations/mariadb-10_5)
+- [MariaDB 10.6](advanced/migrations/mariadb-10_6)
+- [MariaDB 10.11](advanced/migrations/mariadb-10_11)
+- [PostgreSQL 13](advanced/migrations/postgresql-13)
+- [PostgreSQL 14](advanced/migrations/postgresql-14)
 
 ## Former migrations
 
-* [2020 software infrastructure]({{< ref "advanced/migrations/2020-software-architecture" >}})
-* [2017 software infrastructure]({{< ref "advanced/migrations/2017-software-architecture" >}})
+* [2020 software infrastructure](advanced/migrations/2020-software-architecture)
+* [2017 software infrastructure](advanced/migrations/2017-software-architecture)
 

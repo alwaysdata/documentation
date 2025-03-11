@@ -1,7 +1,7 @@
 +++
 url = "/fr/comptes/facturation/choisir-son-plan/"
 title = "Quelle offre choisir ?"
-menuTitle = "Choisir son plan d'hébergement"
+linkTitle = "Choisir son plan d'hébergement"
 layout = "man"
 weight = 1
 tags = ["cloud public", "facturation", "serveur dédié", "serveur gold", "serveur vps"]
@@ -13,9 +13,9 @@ alwaysdata propose plusieurs types d'environnement :
 
 | Nom || Description |
 |---|---|---|
-| [Cloud Public]({{< ref "accounts/billing/public-cloud-prices" >}})[^3] || Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
+| [Cloud Public](accounts/billing/public-cloud-prices)[^3] || Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
 ||| GTI 1h, GTR 4h, Taux de disponibilité 99.7 % |
-| [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) | VPS | Serveur virtuel sur serveur physique - serveur physique hébergeant moins de 10 utilisateurs |
+| [Cloud Privé](accounts/billing/private-cloud-prices) | VPS | Serveur virtuel sur serveur physique - serveur physique hébergeant moins de 10 utilisateurs |
 ||| Isolation par compte sans facturation supplémentaire |
 ||| GTI 30min, GTR 2h, Taux de disponibilité 99.8 % |
 || Dédié | Serveur physique réservé à un seul utilisateur |
@@ -33,48 +33,48 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 |---|---|---|---|---|---|
 |||| **VPS** | **Dédié** | **Gold** |
 | Support | Tickets |✔️|✔️|✔️|✔️|
-|| [Tickets urgents]({{< ref "accounts/urgent-ticket" >}}) |❌|❌|✔️|✔️|
+|| [Tickets urgents](accounts/urgent-ticket) |❌|❌|✔️|✔️|
 || Téléphone |❌|❌|✔️|✔️|
 | Sites web | Serveur HTTP configurable |✔️|✔️|✔️|✔️|
-|| [Applithèque]({{< ref "marketplace" >}}) |✔️|✔️|✔️|✔️|
-|| [SSL Let's Encrypt]({{< ref "security/ssl-tls/lets-encrypt" >}}) |✔️|✔️|✔️|✔️|
-|| [Cache HTTP]({{< ref "sites/http-cache" >}}) |✔️|✔️|✔️|✔️|
-|| [WAF]({{< ref "sites/waf" >}}) |✔️|✔️|✔️|✔️|
-|| [Statistiques de visites]({{< ref "analytics" >}})|✔️|✔️|✔️|✔️|
-|| [Sondes de monitoring]({{< ref "sites/use-probes" >}}) |❌|❌|✔️|✔️|
+|| [Applithèque](marketplace) |✔️|✔️|✔️|✔️|
+|| [SSL Let's Encrypt](security/ssl-tls/lets-encrypt) |✔️|✔️|✔️|✔️|
+|| [Cache HTTP](sites/http-cache) |✔️|✔️|✔️|✔️|
+|| [WAF](sites/waf) |✔️|✔️|✔️|✔️|
+|| [Statistiques de visites](analytics)|✔️|✔️|✔️|✔️|
+|| [Sondes de monitoring](sites/use-probes) |❌|❌|✔️|✔️|
 || Conseils d'optimisation |❌|❌|✔️|✔️|
-| Langages | [PHP]({{< ref "languages/php" >}}) |✔️|✔️|✔️|✔️|
-|| [Python]({{< ref "languages/python" >}}) |✔️|✔️|✔️|✔️|
-|| [Ruby]({{< ref "languages/ruby" >}}) |✔️|✔️|✔️|✔️|
-|| [Node.js]({{< ref "languages/nodejs" >}}) |✔️|✔️|✔️|✔️|
-|| [Java]({{< ref "languages/java" >}}) |✔️|✔️|✔️|✔️|
-|| [Deno]({{< ref "languages/deno" >}}) |✔️|✔️|✔️|✔️|
-|| [Elixir]({{< ref "languages/elixir" >}}) |✔️|✔️|✔️|✔️|
-|| [Lua]({{< ref "languages/lua" >}}) |✔️|✔️|✔️|✔️|
-|| [Go]({{< ref "languages/go" >}}) |✔️|✔️|✔️|✔️|
-|| [Tout autre langage]({{< ref "languages" >}}) |✔️|✔️|✔️|✔️|
-| Bases de données[^4] | [MariaDB (MySQL)]({{< ref "databases/mariadb" >}}) |✔️|✔️|✔️|✔️|
-|| [PostgreSQL]({{< ref "databases/postgresql" >}}) |✔️|✔️|✔️|✔️|
-|| [RabbitMQ]({{< ref "databases/rabbitmq" >}}) |✔️|✔️|✔️|✔️|
-|| [Memcached]({{< ref "databases/memcached" >}}) |❌|✔️|✔️|✔️|
-|| [Redis]({{< ref "databases/redis" >}}) |❌|✔️|✔️|✔️|
+| Langages | [PHP](languages/php) |✔️|✔️|✔️|✔️|
+|| [Python](languages/python) |✔️|✔️|✔️|✔️|
+|| [Ruby](languages/ruby) |✔️|✔️|✔️|✔️|
+|| [Node.js](languages/nodejs) |✔️|✔️|✔️|✔️|
+|| [Java](languages/java) |✔️|✔️|✔️|✔️|
+|| [Deno](languages/deno) |✔️|✔️|✔️|✔️|
+|| [Elixir](languages/elixir) |✔️|✔️|✔️|✔️|
+|| [Lua](languages/lua) |✔️|✔️|✔️|✔️|
+|| [Go](languages/go) |✔️|✔️|✔️|✔️|
+|| [Tout autre langage](languages) |✔️|✔️|✔️|✔️|
+| Bases de données[^4] | [MariaDB (MySQL)](databases/mariadb) |✔️|✔️|✔️|✔️|
+|| [PostgreSQL](databases/postgresql) |✔️|✔️|✔️|✔️|
+|| [RabbitMQ](databases/rabbitmq) |✔️|✔️|✔️|✔️|
+|| [Memcached](databases/memcached) |❌|✔️|✔️|✔️|
+|| [Redis](databases/redis) |❌|✔️|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|✔️|
-|| [Filtrage via scripts Sieve]({{< ref "e-mails/use-sieve-scripts" >}}) |✔️|✔️|✔️|✔️|
+|| [Filtrage via scripts Sieve](e-mails/use-sieve-scripts) |✔️|✔️|✔️|✔️|
 || Listes de diffusion |✔️|✔️|✔️|✔️|
 || File d'attente SMTP |❌|✔️|✔️|✔️|
-|| [Relais SMTP]({{< ref "e-mails/smtp-relay" >}}) |❌|✔️|✔️|✔️|
-| Accès distant | [FTP]({{< ref "remote-access/ftp" >}}) |✔️|✔️|✔️|✔️|
-|| [SFTP]({{< ref "remote-access/sftp" >}}) |✔️|✔️|✔️|✔️|
-|| [SSH]({{< ref "remote-access/ssh" >}}) |✔️|✔️|✔️|✔️|
-|| [WebDAV]({{< ref "remote-access/webdav" >}}) |✔️|✔️|✔️|✔️|
+|| [Relais SMTP](e-mails/smtp-relay) |❌|✔️|✔️|✔️|
+| Accès distant | [FTP](remote-access/ftp) |✔️|✔️|✔️|✔️|
+|| [SFTP](remote-access/sftp) |✔️|✔️|✔️|✔️|
+|| [SSH](remote-access/ssh) |✔️|✔️|✔️|✔️|
+|| [WebDAV](remote-access/webdav) |✔️|✔️|✔️|✔️|
 | Sauvegardes[^5] ||✔️|✔️|✔️|✔️|
-| Autres | [API]({{< ref "api" >}}) |✔️|✔️|✔️|✔️|
-|| [Tâches planifiées]({{< ref "tasks" >}}) |✔️|✔️|✔️|✔️|
+| Autres | [API](api) |✔️|✔️|✔️|✔️|
+|| [Tâches planifiées](tasks) |✔️|✔️|✔️|✔️|
 || Services[^6] |✔️|✔️|✔️|✔️|
-|| [Gestion du firewall]({{< ref "security/network/configure-firewall" >}}) |❌|✔️|✔️|✔️|
-|| [Docker]({{< ref "advanced/docker" >}}) |❌|✔️|✔️|✔️|
-|| [VPN]({{< ref "security/vpn" >}}) |❌|❌|✔️|✔️|
+|| [Gestion du firewall](security/network/configure-firewall) |❌|✔️|✔️|✔️|
+|| [Docker](advanced/docker) |❌|✔️|✔️|✔️|
+|| [VPN](security/vpn) |❌|❌|✔️|✔️|
 || Réplication SGBD |❌|Sur demande|Sur demande|✔️|
 || Réplication des données en temps réel |❌|❌|❌|✔️|
 
@@ -84,9 +84,9 @@ La migration vers une offre supérieure est possible et gratuite : dans l'onglet
 Une application bien _optimisée_ aura les mêmes performances quel que soit le type d'environnement sur lequel elle se trouve. Toutefois _moins_ d'utilisateurs sur un serveur amène plus de **stabilité** et de **confort** (élimination de variations de performances à cause d'autres utilisateurs).
 {{% /notice %}}
 
-[^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs de [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent solliciter le support pour des services dont ce ne serait pas le cas.
+[^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs de [Cloud Privé](accounts/billing/private-cloud-prices) peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
 [^3]: Le plan gratuit du Cloud Public offre 100 Mo d'espace disque à usage non lucratif.
-[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services]({{< ref "services" >}}). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
-[^5]: [Sauvegardes]({{< ref "backups" >}}) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
-[^6]: [Programmes génériques]({{< ref "services" >}}) devant fonctionner 24h / 24.
+[^4]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services](services). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
+[^5]: [Sauvegardes](backups) quotidiennes, conservées durant 30 jours et directement accessibles dans le compte.
+[^6]: [Programmes génériques](services) devant fonctionner 24h / 24.

@@ -17,7 +17,7 @@ The connection data depends on the relevant account. You can find the precise va
 A *pgBouncer* is running on port `5433`. It is possible to use it instead of PostgreSQL directly.
 
 ### Example with `psql`
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - Database name: `foo_base`
@@ -61,7 +61,7 @@ On creating a database, you have the following options:
 
 Several options :
 
-- use our [backup recovery]({{< ref "backups/restore-a-site" >}}) feature,
+- use our [backup recovery](backups/restore-a-site) feature,
 - use the following command :
 
     ```sh
@@ -76,7 +76,7 @@ The archived contents (e.g. BDD dumps) in your *backup* space are in [Zstandard]
 
 ## Miscellaneous
 
-In Public Cloud, the maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}).
+In Public Cloud, the maximum number of simultaneous connections per user is *50*. On request, it is possible to change this for [Private Cloud](accounts/billing/private-cloud-prices).
 
 It is possible to see the names of all of the databases and users on the PostgreSQL servers. This is a limitation on PostgreSQL usage in a shared environment. Databases contents are **not** reachable.
 

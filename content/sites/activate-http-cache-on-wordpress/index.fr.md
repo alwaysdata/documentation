@@ -12,7 +12,7 @@ tags = ["cache", "http", "wordpress"]
 
 Plusieurs paramètres sont modifiables ultérieurement.
 
-2. Activez le [cache HTTP]({{< ref "sites/http-cache" >}}) sur le site web dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
+2. Activez le [cache HTTP](sites/http-cache) sur le site web dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
 
 3. Vérifiez si le cache est activé :
 

@@ -3,26 +3,24 @@ url = "/fr/langages/"
 title = "Langages"
 pre = "<i class='fas fa-fw fa-code'></i> "
 weight = 11
-chapter = true
+archetype = "chapter"
 +++
-
-# Langages
 
 Retrouvez toutes les informations sur les technologies propulsées par nos serveurs :
 
-* [.NET]({{< ref "languages/dotnet" >}})
-* [Deno]({{< ref "languages/deno" >}})
-* [Elixir]({{< ref "languages/elixir" >}})
-* [Go]({{< ref "languages/go" >}})
-* [Java]({{< ref "languages/java" >}})
-* [Lua]({{< ref "languages/lua" >}})
-* [Node.js]({{< ref "languages/nodejs" >}})
-* [PHP]({{< ref "languages/php" >}})
-* [Python]({{< ref "languages/python" >}})
-* [Ruby]({{< ref "languages/ruby" >}})
-* [Rust]({{< ref "languages/rust" >}})
+* [.NET](languages/dotnet)
+* [Deno](languages/deno)
+* [Elixir](languages/elixir)
+* [Go](languages/go)
+* [Java](languages/java)
+* [Lua](languages/lua)
+* [Node.js](languages/nodejs)
+* [PHP](languages/php)
+* [Python](languages/python)
+* [Ruby](languages/ruby)
+* [Rust](languages/rust)
 
-D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur]({{< ref "sites/user-program" >}}).
+D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur](sites/user-program).
 
 ## Versions
 

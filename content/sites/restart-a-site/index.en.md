@@ -15,7 +15,7 @@ To activate certain modifications, it is necessary to restart the program. This 
 
 {{< fig "images/site-restart.en.png" "Restart button" >}}
 
-These actions are also accessible via our [API]({{< ref "api" >}}).
+These actions are also accessible via our [API](api).
 
 {{% notice info %}}
 Only one Apache server exists per account. By restarting a site using this web server (PHP, Redirect, Static Files, and Custom Apache), all Apache sites in the account will be restarted.

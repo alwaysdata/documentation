@@ -16,7 +16,7 @@ tags = ["python"]
 
 The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.
 
-Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+Versions are not necessarily [already installed](languages#versions).
 
 ## Error logs
 
@@ -134,7 +134,7 @@ You can also fill-in a number of optional fields:
 
 ## ASGI deployement
 
-Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program]({{< ref "sites/user-program" >}})* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://www.uvicorn.org/).
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://www.uvicorn.org/).
 
 {{< fig "images/user-program.en.png" "User Program Type" >}}
 

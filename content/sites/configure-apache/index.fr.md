@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/configurer-apache/"
 title = "Comment modifier la configuration de son serveur Apache"
-menuTitle = "Configuration Apache"
+linkTitle = "Configuration Apache"
 layout = "howto"
 weight = 10
 tags = ["apache", "http", "site"]
@@ -15,14 +15,14 @@ L'ensemble des modifications effectuées dans le champ *Directives globales d'Ap
 Apache sert les sites de type PHP, Fichiers statiques et Apache personnalisé.
 
 - [Documentation Apache 2.4](http://httpd.apache.org/docs/2.4/fr/)
-- [Fichier .htaccess]({{< ref "sites/htaccess-file" >}})
+- [Fichier .htaccess](sites/htaccess-file)
 
 ## Installer un module
 
-Une fois le fichier `.so` compilé et ajouté à votre [espace de fichiers]({{< ref "remote-access" >}}), insérez cette ligne dans les directives globales :
+Une fois le fichier `.so` compilé et ajouté à votre [espace de fichiers](remote-access), insérez cette ligne dans les directives globales :
 
 ```
 LoadModule <MODULE> $HOME/chemin/vers/le/module.so
 ```
 
-- [GeoIP]({{< ref "guides/geoip" >}})
+- [GeoIP](guides/geoip)

@@ -11,7 +11,7 @@ To connect to your account using *SSH*, you need to have a user. By default, a u
 {{< fig "images/admin-panel_ssh-users-list.en.png" "Administration interface: list of SSH users">}}
 
 - Name: SSH user name prefixed with your account name,
-- Password: the password assigned to the user. It is required for the first SSH connection; Once this is done, a [key connection]({{< ref "remote-access/ssh/use-keys" >}}) can then be used,
+- Password: the password assigned to the user. It is required for the first SSH connection; Once this is done, a [key connection](remote-access/ssh/use-keys) can then be used,
 - "HOME" directory: the directory where the user finds their connection,
 - [Shell](https://en.wikipedia.org/wiki/Unix_shell): your user's command interpreter.
 

@@ -8,9 +8,9 @@ tags = ["developpement"]
 
 [GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...
 
-Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold]({{< ref "accounts/billing/private-cloud-prices" >}})**, voici les étapes à suivre.
+Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](accounts/billing/private-cloud-prices)**, voici les étapes à suivre.
 
-**Les SGBD [PostgreSQL]({{< ref "databases/postgresql" >}}) et [Redis]({{< ref "databases/redis" >}}) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
+**Les SGBD [PostgreSQL](databases/postgresql) et [Redis](databases/redis) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
 
 L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
 
@@ -24,9 +24,9 @@ GitLab a impérativement besoin de ces versions qui sont à définir dans le men
 
 1. Créez la base de données PostgreSQL dans le menu **Bases de données > PostgreSQL** en activant les extensions `pg_trgm` et `btree_gist`.
 
-2. Si vous utilisez une [limite de RAM]({{< ref "advanced/system-resources-alerts-and-limitations" >}}) inférieure à 10 Go, augmentez-la dans le menu **Avancé > Ressources**.
+2. Si vous utilisez une [limite de RAM](advanced/system-resources-alerts-and-limitations) inférieure à 10 Go, augmentez-la dans le menu **Avancé > Ressources**.
 
-3. Lancez les commandes suivantes en [SSH]({{< ref "remote-access/ssh" >}}) à la racine du compte :
+3. Lancez les commandes suivantes en [SSH](remote-access/ssh) à la racine du compte :
 
 ```sh
 npm install --global yarn
@@ -142,14 +142,14 @@ C'est cette dernière commande qui nécessite une quantité de RAM importante. L
 
 ## Création du service
 
-Créez un [service]({{< ref "services" >}}) avec les détails suivants :
+Créez un [service](services) avec les détails suivants :
 
   * *Nom* : GitLab
   * *Commande* : `~/init restart -f`
 
 ## Création du site
 
-Créez un [site]({{< ref "sites/add-a-site" >}}) avec les détails suivants :
+Créez un [site](sites/add-a-site) avec les détails suivants :
 
   * *Nom* : GitLab
   * *Type* : Programme utilisateur

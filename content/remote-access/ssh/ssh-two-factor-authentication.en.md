@@ -6,7 +6,7 @@ tags = ["2fa", "security", "ssh"]
 +++
 
 {{% notice note %}}
-Feature only available on [Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) environments.
+Feature only available on [Private Cloud](accounts/billing/private-cloud-prices) environments.
 {{% /notice %}}
 
 You will need to [contact the customer support team](https://admin.alwaysdata.com/support/add) to install the `google-authenticator`[^1] tool.

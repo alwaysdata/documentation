@@ -2,28 +2,26 @@
 url = "/fr/guides/"
 title = "Guides"
 weight = 100
-chapter = true
+archetype = "chapter"
 pre = "<i class='fas fa-fw fa-book-open'></i> "
 +++
 
-# Guides
-
 ## Installation / Configuration
 
-- [Apache PageSpeed]({{< relref "apache-pagespeed" >}})
-- [Blackfire]({{< relref "blackfire" >}})
-- [CouchDB]({{< ref "./couchdb" >}})
-- [FFmpeg]({{< relref "ffmpeg" >}})
-- [GitLab]({{< relref "gitlab" >}})
-- [MapServer CGI]({{< relref "mapserver" >}})
-- [Mattermost]({{< relref "mattermost" >}})
-- [Memcached]({{< ref "./memcached" >}})
-- [MongoDB]({{< ref "./mongodb" >}})
-- [New Relic]({{< relref "new-relic" >}})
-- [Redis]({{< ref "./redis" >}})
-- [Tideways]({{< relref "tideways" >}})
-- [wkhtmltopdf]({{< relref "wkhtmltopdf" >}})
+- [Apache PageSpeed](apache-pagespeed)
+- [Blackfire](blackfire)
+- [CouchDB](./couchdb)
+- [FFmpeg](ffmpeg)
+- [GitLab](gitlab)
+- [MapServer CGI](mapserver)
+- [Mattermost](mattermost)
+- [Memcached](./memcached)
+- [MongoDB](./mongodb)
+- [New Relic](new-relic)
+- [Redis](./redis)
+- [Tideways](tideways)
+- [wkhtmltopdf](wkhtmltopdf)
 
 ## Déploiements
 
-- [Déployer une application React]({{< relref "deploy-react-app" >}})
+- [Déployer une application React](deploy-react-app)

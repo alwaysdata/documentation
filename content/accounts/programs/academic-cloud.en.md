@@ -17,4 +17,4 @@ To benefit from this fill in your profile with your school's information and [op
 During the registration process, students can choose between several plans. To have the free Academic Cloud, they need to choose the *Free Public Cloud (100MB)*.
 {{% /notice %}}
 
-Once the formation is over, students can keep their accounts, delete the [permissions]({{< ref "accounts/permissions" >}}) granted to their former, and eventually [change plan]({{< ref "accounts/billing/upgrade-your-plan" >}}).
+Once the formation is over, students can keep their accounts, delete the [permissions](accounts/permissions) granted to their former, and eventually [change plan](accounts/billing/upgrade-your-plan).

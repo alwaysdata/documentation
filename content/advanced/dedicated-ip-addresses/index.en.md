@@ -22,7 +22,7 @@ Extras IPs are used for incoming requests only. Outgoing requests always go thro
 
 The extra IP will be used to send emails.
 
-Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam]({{< ref "e-mails/delivery#scoring-system" >}}):
+Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam](e-mails/delivery#scoring-system):
 
 {{< fig "images/dedicated-ip-smtp.en.png" "" >}}
 
@@ -30,5 +30,5 @@ Once subscribed, you will be able to indicate which emails should go through the
 The lower the score, the better the e-mail will be rated.
 {{% /notice %}}
 
-[^1]: Available for all plans, extras IP differ from [Private Cloud offers]({{< ref "accounts/billing/choose-its-paas" >}}).
+[^1]: Available for all plans, extras IP differ from [Private Cloud offers](accounts/billing/choose-its-paas).
 [^2]: For a annual subscription, contact the [support team](https://admin.alwaysdata.com/support/add).

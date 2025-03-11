@@ -18,7 +18,7 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 Un *pgBouncer* tourne sur le port `5433`. Il est possible de s'y connecter à la place de PostgreSQL directement.
 
 ### Exemple avec `psql`
-Dans notre exemple, nous utilisons l'[accès SSH]({{< ref "remote-access/ssh">}}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH](remote-access/ssh}) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Nom de la base de données : `foo_base`
@@ -63,7 +63,7 @@ Si vous modifiez les permissions de vos utilisateurs via une application tierce,
 
 Plusieurs possibilités :
 
-- utiliser notre fonctionnalité de [restauration de sauvegarde]({{< ref "backups/restore-a-site" >}}) ;
+- utiliser notre fonctionnalité de [restauration de sauvegarde](backups/restore-a-site) ;
 - utiliser la commande suivante :
 
     ```sh
@@ -78,7 +78,7 @@ Les contenus archivés (e.g. les dumps de BDD) dans votre espace de *backup* son
 
 ## Divers
 
-En Cloud Public, le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+En Cloud Public, le nombre de connexions simultanées maximum par utilisateur est de _50_. Il est possible à la demande de le modifier en [Cloud Privé](accounts/billing/private-cloud-prices).
 
 Il est possible de voir les noms de toutes les bases de données et utilisateurs sur les serveurs PostgreSQL. C'est une limitation de l'utilisation de PostgreSQL en environnement mutualisé. Les contenus des bases ne sont **pas** accessibles.
 

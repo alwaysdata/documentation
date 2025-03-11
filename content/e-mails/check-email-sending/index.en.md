@@ -9,7 +9,7 @@ You have access to outgoing logs in the menu **Emails > History**.
 
 {{< fig "images/history.en.png" "List of latest sendings" >}}
 
-- *[Score]({{< ref "e-mails/delivery#scoring-system" >}})*: score given by alwaysdata's antispam that determines if an email is sent or not[^1],
+- *[Score](e-mails/delivery#scoring-system)*: score given by alwaysdata's antispam that determines if an email is sent or not[^1],
 - *Blocked*: if the email has been blocked by alwaysdata's antispam. Must not be confused with a *bounce*[^2] which includes other reasons.
 
 {{< fig "images/example.en.png" "Sending example" >}}

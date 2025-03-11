@@ -8,7 +8,7 @@ tags = ["infrastructure", "sécurité"]
 
 ## Firewall (pare-feu)
 
-Les utilisateurs propriétaires de [Cloud Privés]({{< ref "accounts/billing/private-cloud-prices" >}}) peuvent [paramétrer leur firewall]({{< relref "configure-firewall" >}}) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
+Les utilisateurs propriétaires de [Cloud Privés](accounts/billing/private-cloud-prices) peuvent [paramétrer leur firewall](configure-firewall) directement dans leur interface d'administration, via le menu **Firewall** du serveur.
 
 ### Firewall entrant
 
@@ -22,7 +22,7 @@ Tous les ports sont ouverts sans filtrage ; vous pouvez donc définir vos propre
 
 alwaysdata utilise [Fail2ban](http://www.fail2ban.org/) comme système de prévention d'intrusion sur tous ses serveurs. Celui-ci analyse les logs de connexion aux différents services et bloquera les IP pour une période de 10 minutes, après une cinquantaine de tentatives de connexion échouées dans un délai de 10 minutes.
 
-Vous pouvez aussi mettre en place un [pare-feu applicatif]({{< ref "sites/waf" >}}) directement dans votre compte pour protéger vos sites d'attaques malveillantes.
+Vous pouvez aussi mettre en place un [pare-feu applicatif](sites/waf) directement dans votre compte pour protéger vos sites d'attaques malveillantes.
 
 ## DDoS
 

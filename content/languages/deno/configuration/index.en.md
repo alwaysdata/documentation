@@ -16,7 +16,7 @@ tags = ["deno"]
 
 The default version can be changed from the administration section, under **Environment > Deno**. This is the version that is especially used when you start `deno`.
 
-Versions are not necessarily [already installed]({{< ref "languages#versions" >}}).
+Versions are not necessarily [already installed](languages#versions).
 
 ## Environment
 

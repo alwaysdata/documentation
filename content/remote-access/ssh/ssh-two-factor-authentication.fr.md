@@ -7,14 +7,14 @@ tags = ["2fa", "sécurité", "ssh"]
 +++
 
 {{% notice note %}}
-Fonctionnalité disponible uniquement sur les environnements [Cloud privé]({{< ref "accounts/billing/private-cloud-prices" >}}).
+Fonctionnalité disponible uniquement sur les environnements [Cloud privé](accounts/billing/private-cloud-prices).
 {{% /notice %}}
 
 Vous devrez [contacter le support](https://admin.alwaysdata.com/support/add) pour installer l'outil `google-authenticator`[^1].
 
 Une fois `google-authenticator` installé sur le serveur, voici comment activer l'authentification 2 facteurs pour chaque compte :
 
-1. Connectez-vous en [SSH]({{< ref "remote-access/ssh" >}}) à votre compte ;
+1. Connectez-vous en [SSH](remote-access/ssh) à votre compte ;
 
 2. Créez une nouvelle clé secrète,
 

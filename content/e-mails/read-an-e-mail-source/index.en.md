@@ -93,4 +93,4 @@ The e-mail source comprises:
 
 ---
 
-- [E-mail deliverability: best practices]({{< ref "e-mails/delivery">}})
+- [E-mail deliverability: best practices](e-mails/delivery)

@@ -9,4 +9,4 @@ Minor upgrades are regular, and even immediate (< 24 hours) when a severe securi
 
 It **cannot** then be a determining factor to know if a vulnerability is fixed or not.
 
-The main upgrade of our operating systems is done via an [automation tool]({{< ref "advanced/migrations" >}}) allowing to do it in an autonomous and flexible way per account.
+The main upgrade of our operating systems is done via an [automation tool](advanced/migrations) allowing to do it in an autonomous and flexible way per account.

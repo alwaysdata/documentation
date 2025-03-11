@@ -1,7 +1,7 @@
 +++
 url = "/fr/accès-distant/informations-de-connexion/"
 title = "Informations de connexion"
-menuTitle = "Informations de connexions"
+linkTitle = "Informations de connexions"
 layout = "faq"
 weight = 1
 tags = ["compte", "environnement technique"]
@@ -17,15 +17,15 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |:---------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Administration**         |                                                                                                           |
 | URL                        | https://admin.alwaysdata.com                                                                              |
-|                            | Email/mot de passe, [Double authentification possible]({{< ref "security/two-factor-authentication" >}})  |
-| API                        | [api.alwaysdata.com/v1]({{< ref "api" >}}) (soumis à un *[rate limit]({{<ref "api/usage">}}#rate-limit)*) |
-|                            | [Tokens]({{< ref "accounts/tokens" >}}) disponibles via *Profil*                                          |
+|                            | Email/mot de passe, [Double authentification possible](security/two-factor-authentication)  |
+| API                        | [api.alwaysdata.com/v1](api) (soumis à un *[rate limit](api/usage#rate-limit)*) |
+|                            | [Tokens](accounts/tokens) disponibles via *Profil*                                          |
 | **Générique**              |                                                                                                           |
 | DNS                        | Primaire : dns1.alwaysdata.com                                                                            |
 |                            | Secondaire : dns2.alwaysdata.com                                                                          |
 | MX                         | Primaire : mx1.alwaysdata.com (TTL : 10)                                                                  |
 |                            | Secondaire : mx2.alwaysdata.com (TTL : 20)                                                                |
-|                            | si [Cloud Privé]({{< ref "accounts/billing/private-cloud-prices" >}}) : [serveur].alwaysdata.net (TTL : 5) |
+|                            | si [Cloud Privé](accounts/billing/private-cloud-prices) : [serveur].alwaysdata.net (TTL : 5) |
 | **Bases de données**       |                                                                                                           |
 | MySQL                      | Hôte : mysql-[compte].alwaysdata.net                                                                      |
 |                            | Port : 3306                                                                                               |

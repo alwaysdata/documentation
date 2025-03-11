@@ -1,7 +1,7 @@
 +++
 url = "/fr/sites/fichiers-statiques/"
 title = "Comment utiliser le type Fichiers statiques"
-menuTitle = "Fichiers statiques"
+linkTitle = "Fichiers statiques"
 layout = "howto"
 weight = 15
 tags = ["apache", "http", "site"]

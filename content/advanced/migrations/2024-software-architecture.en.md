@@ -34,7 +34,7 @@ This does not affect your websites, where you can still [configure TLS yourself]
 
 You can:
 
-* run MongoDB yourself [in a service]({{< ref "guides/mongodb" >}}). *MongoDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* run MongoDB yourself [in a service](guides/mongodb). *MongoDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
 * migrate your databases to [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## End of CouchDB Support
@@ -43,7 +43,7 @@ We introduced support for **CouchDB** [in 2011](https://blog.alwaysdata.com/2011
 
 You can:
 
-* run CouchDB yourself [in a service]({{< ref "guides/couchdb" >}}). *CouchDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* run CouchDB yourself [in a service](guides/couchdb). *CouchDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
 * migrate your databases to third-party hosting service such as [Cloudant](https://www.ibm.com/products/cloudant).
 
 
@@ -118,7 +118,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 ## Miscellaneous
 
 * The `composer` command now runs **Composer** 2. You can start Composer 1 with the `composer1` command.
-* The [default HTTP log format]({{< ref "/sites/formatting-http-logs" >}}) is now the **Advanced** format.
+* The [default HTTP log format](/sites/formatting-http-logs) is now the **Advanced** format.
 * Sites of type **Transparent Redirect** are converted to **Reverse Proxy**.
 * The IP 185.31.40.10 is an old, deprecated IP and will be removed.
 

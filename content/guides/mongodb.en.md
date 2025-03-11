@@ -7,7 +7,7 @@ tags = ["databases", "mongodb"]
 
 [MongoDB](https://www.mongodb.com/) is a document-oriented noSQL database program.
 
-In our example, we use the [SSH access]({{< ref "remote-access/ssh">}}) and consider the following information:
+In our example, we use the [SSH access](remote-access/ssh) and consider the following information:
 
 - Account name: `foo`
 - MongoDB directory: `$HOME/mongodb/`
@@ -31,12 +31,12 @@ Choose the package *tgz* and the platform *Debian* of the [last version of the t
 
 ### Service launch
 
-Create a [service]({{< ref "services" >}}) with following details:
+Create a [service](services) with following details:
 
 - *Command*: `./bin/mongod --dbpath ./data/ --logpath ./log/mongo.log --ipv6 --bind_ip_all --port=27017`
 - *Working directory*: `/home/[foo]/mongodb`
 
-[Public Cloud]({{< ref "accounts/billing/public-cloud-prices" >}}) users will need to point the service to a port between 8300 and 8499 instead of the default MongoDB port.
+[Public Cloud](accounts/billing/public-cloud-prices) users will need to point the service to a port between 8300 and 8499 instead of the default MongoDB port.
 
 The address to connect to the MongoDB instance will be `services-[foo].alwaysdata.net:[port]`.
 
@@ -46,7 +46,7 @@ Replace `[port]` by the chosen port in the command.
 
 ### Firewall rule creation
 
-[Private Cloud]({{< ref "accounts/billing/private-cloud-prices" >}}) users will need to open the port by creating a [firewall rule]({{< ref "security/network/configure-firewall" >}}) if they want to access it from the external network:
+[Private Cloud](accounts/billing/private-cloud-prices) users will need to open the port by creating a [firewall rule](security/network/configure-firewall) if they want to access it from the external network:
 
 |Title|Value|
 |--- |--- |
@@ -110,4 +110,4 @@ admin>
 Replace `mysuperpassword` by the password of your choice.
 {{% /notice %}}
 
-You can then add the `--auth` option to the command for the [service]({{< ref "#service-launch" >}}).
+You can then add the `--auth` option to the command for the [service](#service-launch).

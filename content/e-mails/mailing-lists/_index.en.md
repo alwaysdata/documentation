@@ -20,7 +20,7 @@ The internal management of the mailing lists (members, permissions, etc) is done
 
 ***
 
-- [Create a mailing list]({{< relref "create-a-mailing-list" >}})
-- [Add members manually to a list]({{< relref "add-members-to-a-mailing-list" >}})
-- [Modify mailing permissions]({{< relref "modify-mailing-list-permissions" >}})
-- [Add footer with unsubscribe link]({{< relref "add-a-mailing-list-footer" >}})
+- [Create a mailing list](create-a-mailing-list)
+- [Add members manually to a list](add-members-to-a-mailing-list)
+- [Modify mailing permissions](modify-mailing-list-permissions)
+- [Add footer with unsubscribe link](add-a-mailing-list-footer)

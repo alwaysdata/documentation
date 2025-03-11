@@ -9,7 +9,7 @@ Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
 {{< fig "images/admin-panel_renew.en.png" "Renew a domain" >}}
 
-- [Deadlines]({{< ref "domains/deadlines" >}})
+- [Deadlines](domains/deadlines)
 
 
 ## Automatic renewal

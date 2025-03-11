@@ -14,7 +14,7 @@ Should connection issues arise, you can always use the `ssh -v [user]@ssh-[accou
 Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with your SSH hostname.
 {{% /notice %}}
 
-An [IP blockage]({{< ref "security/network" >}}#intrusion-prevention) occurs after some ten failed attempts to connect to the server.
+An [IP blockage](security/network#intrusion-prevention) occurs after some ten failed attempts to connect to the server.
 
 {{% notice info %}}
 alwaysdata has connection logs that you may exceptionally request a copy of.
