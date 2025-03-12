@@ -1,5 +1,6 @@
 Inscription = "Inscription"
 Sign-in = "Connexion"
+RegisterURL = "https://www.alwaysdata.com/fr/inscription/"
 
 [shortcuts-linkTitle]
 other = "Suivez-nous sur :"

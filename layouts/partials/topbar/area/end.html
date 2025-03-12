@@ -5,7 +5,7 @@
 {{- partial "topbar/func/button.html" (dict
 	"page" .
 	"class" "topbar-button-inscription"
-	"href" "https://www.alwaysdata.com/inscription/"
+	"href" (printf "%s" (T "RegisterURL"))
 	"icon" "user-plus"
 	"hint" (printf "%s" (T "Inscription"))
 )}}
