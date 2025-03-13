@@ -5,8 +5,6 @@ tags = ["remote access", "webdav"]
 archetype = "chapter"
 +++
 
-# WebDAV
-
 WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.webdav.org/) and it allows users to collaboratively modify and manage files on remote web servers.
 
 - [WebDAV - API](https://api.alwaysdata.com/v1/webdav/doc/)

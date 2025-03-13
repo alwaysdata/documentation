@@ -4,8 +4,6 @@ archetype = "chapter"
 tags = ["nodejs"]
 +++
 
-# Node.js
-
 The way [Node.js](https://nodejs.org/) works at alwaysdata is very standard. If you are used to using Node.js on a Unix system, e.g. Linux, then you already know almost everything you need.
 
 - the [provisioned versions](languages/nodejs/configuration#supported-versions) range from 6 to 22,

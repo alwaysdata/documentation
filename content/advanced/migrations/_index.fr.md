@@ -6,8 +6,6 @@ archetype = "chapter"
 tags = ["infrastructure", "migration"]
 +++
 
-# Migrations
-
 Une migration est une opération qui consiste à faire évoluer une caractéristique technique de votre compte. Par exemple, une migration vers une nouvelle version de MySQL.
 
 Les migrations disponibles apparaissent dans le menu **Avancé > Migrations** de l'[administration alwaysdata](https://admin.alwaysdata.com). De nouvelles migrations sont ajoutées régulièrement et nous avertissons nos utilisateurs par email pour les informer.

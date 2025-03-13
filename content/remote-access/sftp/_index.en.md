@@ -5,8 +5,6 @@ tags = ["remote access", "sftp"]
 archetype = "chapter"
 +++
 
-# SFTP
-
 SFTP, the [SSH File Transfer Protocol](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol), is used to secure an FTP transfer by passing through an SSH tunnel. Consequently, users can use a simple graphic interface via the FTP client of their choice.
 
 ## Connecting with SFTP

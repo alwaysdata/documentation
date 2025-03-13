@@ -4,8 +4,6 @@ title = ".NET"
 archetype = "chapter"
 +++
 
-# .NET
-
 Le fonctionnement de [.NET](https://dotnet.microsoft.com/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser .NET sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 - Les [versions](languages/dotnet/configuration#versions-supportées) 5.0, 6.0 et 8.0 sont disponibles ;

@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["ruby"]
 +++
 
-# Ruby
-
 Le fonctionnement de [Ruby](https://www.ruby-lang.org/fr/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Ruby sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](languages/ruby/configuration#versions-supportées) vont de la 1.8 à la 3.4 ;

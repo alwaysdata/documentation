@@ -6,8 +6,6 @@ archetype = "chapter"
 tags = ["facturation"]
 +++
 
-# Facturation
-
 Une facture est émise quelques heures après avoir souscrit à un service d'alwaysdata (hébergement, adresse IP, etc.).
 
 {{< fig "user_space_menu.fr.png" "" >}}

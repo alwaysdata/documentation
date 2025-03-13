@@ -6,8 +6,6 @@ archetype = "chapter"
 tags = ["https", "sécurité", "ssl"]
 +++
 
-# SSL/TLS
-
 Tous les services (HTTP, mais aussi accès distant, bases de données, emails...) sont sécurisés par une couche SSL/TLS.
 
 - [Certificats Let's Encrypt](lets-encrypt)

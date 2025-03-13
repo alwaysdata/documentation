@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["billing"]
 +++
 
-# Billing
-
 An invoice is issued a few hours after subscribing to an alwaysdata service (hosting, IP address, etc.).
 
 {{< fig "user_space_menu.en.png" "" >}}

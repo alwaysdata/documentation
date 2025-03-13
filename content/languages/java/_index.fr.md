@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["java"]
 +++
 
-# Java
-
 Le fonctionnement de [Java](https://www.java.com/fr/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Java sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](languages/java/configuration#versions-supportées) sont 8/11/17/21 ;

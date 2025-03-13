@@ -6,8 +6,6 @@ tags = ["accès distant", "webdav"]
 archetype = "chapter"
 +++
 
-# WebDAV
-
 WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.org/), permet aux utilisateurs de modifier et de gérer en collaboration des fichiers sur des serveurs Web distants.
 
 - [API - WebDAV](https://api.alwaysdata.com/v1/webdav/doc/)

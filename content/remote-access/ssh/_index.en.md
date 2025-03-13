@@ -5,8 +5,6 @@ tags = ["remote access", "ssh"]
 archetype = "chapter"
 +++
 
-# SSH
-
 SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connection protocol that is secured by an exchange of encryption keys at the start of the connection. alwaysdata offers it in ALL of their environments.
 
 **Remote SSH access is disabled by default.** To enable it, modify your user and check the password connection. It is then possible to set up a connection with [SSH keys](use-keys) and disable the password connection.

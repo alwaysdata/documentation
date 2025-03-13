@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["lua"]
 +++
 
-# Lua
-
 Le fonctionnement de [Lua](https://www.lua.org/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Lua sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](languages/lua/configuration#versions-supportées) vont de la 5.1 à la 5.4 ;

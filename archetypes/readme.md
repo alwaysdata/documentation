@@ -5,8 +5,6 @@ weight = 5
 archetype = "chapter"
 +++
 
-# {{ replace .Name "-" " " | title }}
-
 // Here's a little introduction //
 
 - [{{ i18n "QuickStart" }}]()

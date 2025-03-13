@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["python"]
 +++
 
-# Python
-
 Le fonctionnement de [Python](https://www.python.org) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Python sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](languages/python/configuration#versions-supportées) vont de la 2.4 à la 3.13 ;

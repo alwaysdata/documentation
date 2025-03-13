@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["infrastructure", "migration"]
 +++
 
-# Migrations
-
 Migration refers to an operation where a technical characteristic of your account is changed. For example, a migration to a new version of MySQL.
 
 The migrations available appear in the [alwaysdata administration](https://admin.alwaysdata.com) **Advanced > Migrations** menu. New migrations are added regularly and we bring this information to our users by e-mail.

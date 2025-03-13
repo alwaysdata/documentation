@@ -5,8 +5,6 @@ archetype = "chapter"
 tags = ["elixir"]
 +++
 
-# Elixir
-
 Le fonctionnement d'[Elixir](https://elixir-lang.org/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Elixir sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](languages/elixir/configuration#versions-supportées) vont de la 1.13 à la 1.18 ;

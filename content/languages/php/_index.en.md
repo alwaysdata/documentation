@@ -4,8 +4,6 @@ archetype = "chapter"
 tags = ["php"]
 +++
 
-# PHP
-
 The way [PHP](https://www.php.net) works at alwaysdata is very standard. If you are used to using PHP on a Unix system, e.g. Linux, then you already know almost everything you need.
 
 - the [provisioned versions](languages/php/configuration#supported-versions) range from 4.4 to 8.4,
