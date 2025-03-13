@@ -126,13 +126,29 @@ Here's the conventions about files naming you have to follow:
 - All filenames use a locale suffix, regardless of their type (e.g. `my-page.en.md` or `my-image.fr.png`)
 - Localized versions of a given page **must** have the **same** filename, with only the locale suffix changed
 
+#### Permalinks
+
+To link to another page of the documentation, simply use the standard Markdown syntax:
+
+```
+[Link text](pagename)
+```
+
+I.e. to link the _Install an application_ page in the _Marketplace_ section, use:
+
+```
+[Install an application](marketplace/install-an-application)
+```
+
+The `pagename` parameter is a path to a file or a folder (internally resolved as it index file), with or without extension, or locale suffix. The locale is detected automatically from the current page one.
+
 ### Available shortcodes
 
 You can extend the commonmark (markdown) syntax by using shortcodes that will render custom HTML in your page.
 
-#### Images: `fig`
+#### Images: `figure` or `fig`
 
-To add page/bundle images into your pages, use the `fig` shortcode:
+To add page/bundle images into your pages, use the [Hugo `figure`](https://gohugo.io/shortcodes/figure/). Or, alternatively, the `fig` shortcode:
 
 ```
 {{< fig "[url]" ("[desc]") >}}
@@ -147,22 +163,6 @@ The `url` parameter in mandatory and refer to the image path relatively to the m
 The second parameter contains a caption for the image an is optional.
 
 The shortcode will render a `<figure>` HTML tag.
-
-#### Permalinks: `ref`
-
-To link to another page of the documentation, use the `ref` shortcode:
-
-```
-{{< ref "pagename" >}}
-```
-
-I.e. to link the _Install an application_ page in the _Marketplace_ section, use:
-
-```
-[Install an application]({{< ref "marketplace/install-an-application" >}})
-```
-
-The `pagename` parameter may be a folder (internally resolved as it index file) or a file, with or without extension, or locale suffix. The locale is detected automatically from the current page one.
 
 #### Notices: `notice [type]`
 
@@ -236,7 +236,7 @@ Pages **must** start with a Front Matter block,. it may be written in YAML (usin
 +++
 url = "/fr/marketplace/créer-son-script-d-application/"
 title = "Créer son propre script d'application"
-menuTitle = "Créer son propre script"
+linkTitle = "Créer son propre script"
 layout = "man"
 weight = 5
 hidden = true
@@ -246,11 +246,11 @@ hidden = true
 The following fields are mandatory:
 
 - `title`: the page title
-- `layout`: the type of page. Possible values are `man`, `howto`, `faq`. Exception exists for chapter pages where you can avoid the `layout` field, and replace it with a `chapter = true` one
+- `layout`: the type of page. Possible values are `man`, `howto`, `faq`. Exception exists for chapter pages where you can avoid the `layout` field, and replace it with a `archetype = "chapter"` one
 
 You can add more metadata to your pages in the Front Matter:
 
-- `menuTitle`: the page title in the navigation menu, default is the `title` value
+- `linkTitle`: the page title in the navigation menu, default is the `title` value
 - `weight`: an index to sort entries in the navigation menu
 - `hidden`: does the page should appear in the navigation menu?
 - `url`: for non *en_US* (default language) pages, you should explicitely fill the `url` field to localize it. Do _not_ forget the locale prefix (e.g. `/fr/`), and always add a final `/` at the end.
