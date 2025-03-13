@@ -40,11 +40,11 @@ Several kinds of information need to be provided:
 If your script needs to allow some IPs, allow these [IP adresses ranges](security/ip-ranges).
 {{% /notice %}}
 
-### [Public Cloud](accounts/billing/public-cloud-prices) users
+[Public Cloud](accounts/billing/public-cloud-prices) users:
 
 - The consumption should remain reasonable. If the scheduled task is major processing, then reduce its frequency.
 
-### [Private Cloud](accounts/billing/private-cloud-prices) users
+[Private Cloud](accounts/billing/private-cloud-prices) users:
 
 - Even if it is not advisable, they have also access to the `crontab -e` command. The two systems are separate.
 

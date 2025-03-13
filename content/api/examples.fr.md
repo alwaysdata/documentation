@@ -15,7 +15,7 @@ tags = ["api"]
 $ curl -X POST --basic --user "APIKEY account=arkhamcity:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-### Avec PHP et [Guzzle](https://github.com/guzzle/guzzle)
+### Avec PHP et Guzzle
 
 ```php
 <?php

@@ -24,7 +24,7 @@ Si cette vérification échoue, les informations suivantes vous seront demandée
 
 Une fois la vérification d'identité effectuée nous vous indiquerons l'adresse email concernée et la modifierons si besoin.
 
-## Blocage lié à l'[authentification 2 facteurs](security/two-factor-authentication)
+## Blocage lié à l'authentification à 2 facteurs
 
 Notre équipe appellera le numéro de téléphone renseigné sur le profil concerné.
 
@@ -37,7 +37,7 @@ Si cette vérification échoue, les informations suivantes vous seront demandée
 
 Une fois la vérification d'identité effectuée nous désactiverons l'authentification TOTP sur le profil alwaysdata.
 
-## Blocage lié à la [limitation d'IP](security/ip-access-authorization)
+## Blocage lié à la limitation d'IP
 
 Notre équipe appellera le numéro de téléphone renseigné sur le profil concerné.
 

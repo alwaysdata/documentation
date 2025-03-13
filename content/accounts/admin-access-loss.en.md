@@ -19,11 +19,11 @@ If this verification fails, the following information will be required, to be se
 
 - Individual: copy of the ID card or passport,
 - Company: copy of the manager's ID card or passport and the KBIS,
-- Association: copy of the president's ID card or passport and the statutes.
+- Non-profit organization: copy of the president's ID card or passport and the statutes.
 
 Once the identity verification is completed, we will inform you of the relevant email and modify it if necessary.
 
-## Blockage Related to [Two-Factor Authentication](security/two-factor-authentication)
+## Blockage Related to Two-Factor Authentication
 
 Our team will call the phone number provided in the profile in question.
 
@@ -31,12 +31,12 @@ If this verification fails, the following information will be required, to be se
 
 - Individual: copy of the ID card or passport,
 - Company: copy of the manager's ID card or passport and the KBIS,
-- Association: copy of the president's ID card or passport and the statutes,
+- Non-profit organization: copy of the president's ID card or passport and the statutes,
 * A random code will also be sent to the email address of the profile in question, which you will need to relay to us.
 
 Once the identity verification is completed, we will deactivate TOTP authentication on the alwaysdata profile.
 
-## Blockage Related to [IP Restriction](security/ip-access-authorization)
+## Blockage Related to IP Restriction
 
 Our team will call the phone number provided in the profile in question.
 
@@ -44,7 +44,7 @@ If this verification fails, the following information will be required, to be se
 
 - Individual: copy of the ID card or passport,
 - Company: copy of the manager's ID card or passport and the KBIS,
-- Association: copy of the president's ID card or passport and the statutes,
+- Non-profit organization: copy of the president's ID card or passport and the statutes,
 * A random code will also be sent to the email address of the profile in question, which you will need to relay to us.
 
 Once the identity verification is completed, we will remove the authorized IP addresses on the alwaysdata profile.

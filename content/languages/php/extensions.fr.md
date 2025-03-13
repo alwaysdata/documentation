@@ -40,9 +40,9 @@ extension = [extension].so
 ```
 > Exemples : `imap`, `intl`.
 
-### Depuis [PECL](https://pecl.php.net/)
+### Depuis PECL
 
-De nombreuses extensions sont installables via PECL. Pour installer une extension, nous vous suggérons d'utiliser notre script maison, `ad_install_pecl`. Il se charge de télécharger, configurer et compiler une extension :
+De nombreuses extensions sont installables via [PECL](https://pecl.php.net/). Pour installer une extension, nous vous suggérons d'utiliser notre script maison, `ad_install_pecl`. Il se charge de télécharger, configurer et compiler une extension :
 
 ```sh
 $ ad_install_pecl [extension]

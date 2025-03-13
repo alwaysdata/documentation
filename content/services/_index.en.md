@@ -37,13 +37,13 @@ $ nc -z services-[account].alwaysdata.net 8300
 There is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
 {{% /notice %}}
 
-### [Public Cloud](accounts/billing/public-cloud-prices) users
+For [Public Cloud](accounts/billing/public-cloud-prices) users:
 
 - Services are executed on a distinct servers than SSH and HTTP servers.
 - Their resources use must remain fair.
 - The services will not be available on IPv4, only on IPv6.
 
-### [Private Cloud](accounts/billing/private-cloud-prices) users
+For [Private Cloud](accounts/billing/private-cloud-prices) users:
 
 - Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule](security/network/configure-firewall).
 - You can use other ports ; for example the default port of the application.

@@ -77,9 +77,9 @@ $ gem install [package] -v [version]
 $ gem uninstall [package]
 ```
 
-### Using [Bundler](http://bundler.io/)
+### Using Bundler
 
-We recommend using Bundler if you use a number of different Ruby applications so that each one has its own separate environment. Bundle installs the packets listed in a *Gemfile*.
+We recommend using [Bundler](http://bundler.io/) if you use a number of different Ruby applications so that each one has its own separate environment. Bundle installs the packets listed in a *Gemfile*.
 
 ```sh
 $ bundle install

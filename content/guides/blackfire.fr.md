@@ -65,7 +65,9 @@ Créez un [service](services) avec les détails suivants :
 
 ## Étape 4 : Installation des sondes
 
-### [PHP](https://blackfire.io/docs/php)
+### PHP
+
+Voir [Blackfire for PHP](https://blackfire.io/docs/php)
 
 **Téléchargement**
 
@@ -89,7 +91,9 @@ blackfire.log_level = 1
 blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
 ```
 
-### [Python](https://blackfire.io/docs/python)
+### Python
+
+Voir [Blackfire for Python](https://blackfire.io/docs/python)
 
 ```sh
 foo@ssh:~$ python -m pip install blackfire

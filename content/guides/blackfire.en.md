@@ -64,7 +64,9 @@ Create a [service](services) with the following details:
 
 ## Step 4: Probes installation
 
-### [PHP](https://blackfire.io/docs/php)
+### PHP
+
+See [Blackfire for PHP](https://blackfire.io/docs/php).
 
 **Download**
 
@@ -88,7 +90,9 @@ blackfire.log_level = 1
 blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
 ```
 
-### [Python](https://blackfire.io/docs/python)
+### Python
+
+See [Blackfire for Python](https://blackfire.io/docs/python).
 
 ```sh
 foo@ssh:~$ python -m pip install blackfire

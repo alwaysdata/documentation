@@ -47,17 +47,21 @@ Specific to every type of site:
 
 PHP, Static Files and Custom Apache websites are served by [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack and Ruby on Rails <= 2.x use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
-## [SSL](security/ssl-tls/redirect-http-to-https)
+## SSL
 {{< fig "images/admin-panel_add-site-ssl.en.png" "Redirect HTTP to HTTPS" >}}
+See [SSL](security/ssl-tls/redirect-http-to-https).
 
-## [WAF](sites/waf)
+## WAF
 {{< fig "images/admin-panel_add-site-waf.en.png" "Configure the web application firewall" >}}
+See [WAF](sites/waf).
 
-## [Cache](sites/http-cache)
+## Cache
 {{< fig "images/admin-panel_add-site-cache.en.png" "Set up the HTTP cache" >}}
+See [Cache](sites/http-cache).
 
-## [Logs](sites/formatting-http-logs)
+## Logs
 {{< fig "images/admin-panel_add-site-logs.en.png" "Customize HTTP logs" >}}
+See [Logs](sites/formatting-http-logs).
 
 ## Advanced
 {{< fig "images/admin-panel_add-site-advanced.en.png" "" >}}

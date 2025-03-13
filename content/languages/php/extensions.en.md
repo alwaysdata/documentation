@@ -42,9 +42,9 @@ extension = [extension].so
 
 > Examples: `imap`, `intl`.
 
-### From [PECL](https://pecl.php.net/)
+### From PECL
 
-Many extensions can be installed via PECL. To install an extension, we suggest using our proprietary script, `ad_install_pecl`. It handles downloading, configuring and compiling an extension:
+Many extensions can be installed via [PECL](https://pecl.php.net/). To install an extension, we suggest using our proprietary script, `ad_install_pecl`. It handles downloading, configuring and compiling an extension:
 
 ```sh
 $ ad_install_pecl [extension]

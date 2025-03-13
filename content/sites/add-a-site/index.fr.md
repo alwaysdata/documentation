@@ -47,20 +47,24 @@ Spécifique à chaque type de site :
 
 Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis par [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack et Ruby on Rails <= 2.x utilisent [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
-## [SSL](security/ssl-tls/redirect-http-to-https)
+## SSL
 
 {{< fig "images/admin-panel_add-site-ssl.fr.png" "Rediriger les requêtes HTTP vers HTTPS" >}}
+Voir [SSL](security/ssl-tls/redirect-http-to-https).
 
-## [WAF](sites/waf)
+## WAF
 
 {{< fig "images/admin-panel_add-site-waf.fr.png" "Configurer le pare-feu applicatif web" >}}
+Voir [WAF](sites/waf).
 
-## [Cache](sites/http-cache)
+## Cache
 {{< fig "images/admin-panel_add-site-cache.fr.png" "Mettre en place le cache HTTP" >}}
+Voir [Cache](sites/http-cache).
 
-## [Logs](sites/formatting-http-logs)
+## Logs
 
 {{< fig "images/admin-panel_add-site-logs.fr.png" "Personnaliser les logs HTTP" >}}
+Voir [Logs](sites/formatting-http-logs).
 
 ## Avancé
 
