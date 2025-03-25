@@ -21,10 +21,10 @@ other = "QuickStart"
 other = "Overview"
 
 ['title-404']
-other = "alwaysdata Documentation - 404"
+other = "Page Not Found"
 
 ['message-404']
-other = "Hmm… We looked hard, but we didn't find this documentation. Maybe you should start from scratch again?"
+other = "This page does not exist or it has been moved."
 
 ['signup-title']
   other = "Discover our Public Cloud offer"

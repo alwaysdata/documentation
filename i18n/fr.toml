@@ -21,10 +21,13 @@ other = "Démarrage"
 other = "— Informations"
 
 ['title-404']
-other = "Documentation alwaysdata - 404"
+other = "Page non trouvée"
 
 ['message-404']
-other = "Hmm… Nous avons beau chercher, nous ne trouvons pas cette documentation. Peut-être vaut-il mieux recommencer du début ?"
+other = "Cette page n'existe pas ou a été déplacée."
+
+['Go-to-homepage']
+other = "Retourner à l'accueil"
 
 ['signup-title']
   other = "Découvrez notre offre de Cloud Public"

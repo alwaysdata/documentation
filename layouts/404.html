@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{{- block "storeOutputFormat" . }}{{ end }}
+<html lang="{{ .Page.Language.LanguageCode }}" dir="{{ .Page.Language.LanguageDirection | default (T "Reading-direction") | default "ltr" }}" itemscope itemtype="http://schema.org/Article" data-r-output-format="{{ with .Store.Get "relearnOutputFormat" }}{{ . }}{{ else }}html{{ end }}">
+  <head>
+    {{- partial "meta.html" . }}
+    {{- $title := partial "title.gotmpl" (dict "page" . "fullyQualified" true "reverse" true) }}
+    <title>{{ $title }}</title>
+
+    {{- partialCached "favicon.html" . }}
+    {{- partial "stylesheet.html" . }}
+    {{- partial "dependencies.gotmpl" (dict "page" . "location" "header") }}
+    {{- partial "custom-header.html" . }}
+  </head>
+  <body class="mobile-support {{ with .Store.Get "relearnOutputFormat" }}{{ . }}{{ else }}html{{ end }}{{- if .Site.Params.disableHoverBlockCopyToClipBoard }} disableHoverBlockCopyToClipBoard{{ end }}" data-url="{{ partial "permalink.gotmpl" (dict "to" .) }}">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            {{- partial "topbar/area/start.html" . }}
+          </div>
+          <span class="topbar-breadcrumbs highlightable">
+            {{ T "title-404" }}
+          </span>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            {{- partial "topbar/area/end.html" . }}
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable{{ with or .Type "default" }} {{ . }}{{ end }}" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article>
+            <h1 id="404">{{ T "title-404" | plainify }}</h1>
+            <p></p>
+            <p>{{ T "message-404" }}</p>
+            <p></p>
+            <p><a href="{{ partial "permalink.gotmpl" (dict "to" .Site.Home) }}">{{ T "Go-to-homepage" }}</a></p>            
+          </article>
+          <search>
+            <form action="javascript:triggerSearch()">
+              <div class="searchform">
+                <label class="a11y-only" for="R-search-by-detail">{{ T "Search" }}</label>
+                <input data-search-input id="R-search-by-detail" class="search-by" name="search-by" type="search" placeholder="{{ T "Search-placeholder" }}">
+                {{- partial "shortcodes/button.html" (dict
+                  "page" .
+                  "type" "submit"
+                  "style" "secondary"
+                  "icon" "search"
+                  "content" (T "Search")
+                )}}
+              </div>
+            </form>
+          </search>
+          <div class="searchhint">
+          </div>
+          <hr>
+          <div id="R-searchresults">
+          
+            <footer class="footline">
+              {{with .Params.LastModifierDisplayName}}
+                  <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+                  </div>
+              {{end}}
+            </footer>
+        </div>
+      </main>
+{{- partial "custom-comments.html" . }}
+    </div>
+    {{- partial "menu.html" . }}
+{{- $assetBusting := partialCached "assetbusting.gotmpl" . }}
+{{- $minify := not hugo.IsServer }}
+{{- if and (isset site.Params "minify") (ne site.Params.minify "") }}
+  {{- $minify = site.Params.minify }}
+{{- end }}
+{{- with resources.Get "/js/clipboard/clipboard.min.js" }}
+    <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- end }}
+{{- with resources.Get "/js/perfect-scrollbar/perfect-scrollbar.min.js" }}
+    <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- end }}
+{{- partial "dependencies.gotmpl" (dict "page" . "location" "footer") }}
+{{- with resources.Get "/js/theme.js" }}
+  {{- $res := . }}
+  {{- if $minify }}
+    {{- $res = $res | minify }}
+  {{- end }}
+    <script src="{{ $res.RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- end }}
+{{- partial "custom-footer.html" . }}
+  </body>
+</html>
