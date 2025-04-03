@@ -66,8 +66,9 @@ You don't have to use our script, you can use the usual commands (`phpize`, `mak
 
 Some extensions can be directly downloaded from the vendor site in pre-compiled form (`.so` file). If the vendor offers you a choice, download the Linux 64 bit version. For example:
 
-- [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
 - [ionCube](https://www.ioncube.com/loaders.php)
+- [SourceGuardian](https://www.sourceguardian.com/loaders.html)
+- [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
 
 You will need to add the absolute path to your extension in your  `php.ini`. For example if you downloaded it at the root of your account:
 

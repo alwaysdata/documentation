@@ -64,8 +64,9 @@ Vous pouvez toutefois vous passer de notre script et utiliser les commandes usue
 
 Certaines extensions sont directement téléchargeables depuis le site de l'éditeur sous forme précompilée (fichier `.so`). Si l'éditeur vous propose le choix, vous devrez télécharger la version Linux 64 bits. Par exemple :
 
-* [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
-* [ionCube](https://www.ioncube.com/loaders.php)
+- [ionCube](https://www.ioncube.com/loaders.php)
+- [SourceGuardian](https://www.sourceguardian.com/loaders.html)
+- [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
 
 Il faudra ensuite ajouter le chemin absolu au  `php.ini`. Par exemple si elle est téléchargé à la racine du compte :
 
