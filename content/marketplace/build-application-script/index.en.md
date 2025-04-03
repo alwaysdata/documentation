@@ -102,7 +102,9 @@ A *deposit URL* may be provided to make maintenance easier. In this case, once t
 #             en: Administrator username
 #             fr: Nom d'utilisateur de l'administrateur
 #         regex: ^[ a-zA-Z0-9.@_-]+$
-#         regex_text: "Il doit comporter au moins 5 caractères qui peuvent être des majuscules, des minuscules, des chiffres, des espaces et les caractères spéciaux : .@_-."
+#         regex_text:
+#             en: "It must include at least 5 characters which can be uppercase, lowercase, numbers, spaces, and special characters: .@_-."
+#             fr: "Il doit comporter au moins 5 caractères qui peuvent être des majuscules, des minuscules, des chiffres, des espaces et les caractères spéciaux : .@_-."
 #         min_length: 5
 #         max_length: 255
 #     admin_password:
