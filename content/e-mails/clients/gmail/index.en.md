@@ -41,6 +41,8 @@ Go to **Parameters > Accounts and imports**.
 
 Go to **Add a mail account > Import e-mails from my other account (POP3)**.
 
+Check "Always use a secure connectiion (SSL) when retrieving mail.".
+
 {{% notice warning %}}
 This is a POP3 connection that will get e-mail from the e-mail servers.
 {{% /notice %}}

@@ -41,6 +41,8 @@ Rendez-vous dans **Paramètres > Comptes et importation**.
 
 Rendez-vous dans **Ajouter un compte de messagerie > Importer les e-mails de mon autre compte (POP3)** ;
 
+Cochez "Vous devez toujour utiliser une connexion sécurisée (SSL) lorsque vous récupérez vos emails".
+
 {{% notice warning %}}
 Attention c'est une connexion POP3 qui va récupérer sur ses serveurs les emails.
 {{% /notice %}}
