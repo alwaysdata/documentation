@@ -10,6 +10,8 @@ They can be generated in the **Profile** menu.
 
 {{< fig "images/profile-token.en.png" "Managing tokens">}}
 
+It is necessary to have enabled [two-factor authentication](security/two-factor-authentication) to generate/modify your tokens.
+
 {{% notice tip %}}
 For even more security generate one per application.
 {{% /notice %}}

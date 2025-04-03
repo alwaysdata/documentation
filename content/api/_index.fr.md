@@ -14,10 +14,6 @@ Notre API [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer)
 permet donc de piloter vos ressources alwaysdata (comptes, emails, bases de données,
 etc.) depuis votre code.
 
-{{% notice info %}}
-L'API ne fonctionne pas si vous avez activé l'authentification 2 facteurs sur votre profil.
-{{% /notice %}}
-
 ## Adresse
 
 | Version | URL Racine          | Documentation                     |

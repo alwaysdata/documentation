@@ -11,6 +11,8 @@ Pour en générer rendez-vous dans le menu **Profil**.
 
 {{< fig "images/profile-token.fr.png" "Gérer les tokens">}}
 
+Il est nécessaire d'avoir activé l'[authentification 2 facteurs](security/two-factor-authentication) pour générer/modifier ses tokens.
+
 {{% notice tip %}}
 Pour encore plus de sécurité, générez en un par application.
 {{% /notice %}}
