@@ -118,7 +118,7 @@ Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm
 
 * **Redis**, s'il est installé sur votre serveur, est mis à jour en [version 7.0](https://github.com/redis/redis/blob/7.0/00-RELEASENOTES) (auparavant 6.0).
 - **MySQL**, s'il est installé sur votre serveur, est mis à jour en [version 8.0](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/).
-* **Elasticsearch**, s'il est installé sur votre serveur, est mis à jour en version 8.16.
+* **Elasticsearch**, s'il est installé sur votre serveur, est mis à jour en version 8.17.
 
 
 ## Divers

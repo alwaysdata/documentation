@@ -113,7 +113,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 
 * **Redis**, if installed on your server, is upgraded to [version 7.0](https://github.com/redis/redis/blob/7.0/00-RELEASENOTES) (previously 6.0).
 * **MySQL**, if installed on your server, is upgraded to [version 8.0](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/).
-* **Elasticsearch**, if installed on your server, is upgraded to version 8.16.
+* **Elasticsearch**, if installed on your server, is upgraded to version 8.17.
 
 ## Miscellaneous
 
