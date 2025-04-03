@@ -14,6 +14,7 @@ Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous pr
 
 En plans Cloud Privé :
 
+- [ElasticSearch](databases/elasticsearch)
 - [Memcached](databases/memcached)
 - [Redis](databases/redis)
 

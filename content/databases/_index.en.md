@@ -13,6 +13,7 @@ The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entir
 
 On Private Cloud plans:
 
+- [ElasticSearch](databases/elasticsearch)
 - [Memcached](databases/memcached)
 - [Redis](databases/redis)
 

@@ -58,6 +58,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [RabbitMQ](databases/rabbitmq) |✔️|✔️|✔️|✔️|
 || [Memcached](databases/memcached) |❌|✔️|✔️|✔️|
 || [Redis](databases/redis) |❌|✔️|✔️|✔️|
+|| [ElasticSearch](databases/elasticsearch) |❌|❌|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|✔️|
 || [Filtrage via scripts Sieve](e-mails/use-sieve-scripts) |✔️|✔️|✔️|✔️|

@@ -57,6 +57,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [RabbitMQ](databases/rabbitmq) |✔️|✔️|✔️|✔️|
 || [Memcached](databases/memcached) |❌|✔️|✔️|✔️|
 || [Redis](databases/redis) |❌|✔️|✔️|✔️|
+|| [ElasticSearch](databases/elasticsearch) |❌|❌|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|✔️|
 || [Filtering via Sieve](e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|✔️|
