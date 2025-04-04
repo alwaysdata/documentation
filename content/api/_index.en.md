@@ -27,7 +27,7 @@ $ curl --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/mailbo
 $ curl -X POST --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` to replace per the API token, `foo` per the account name and `1234` per the site ID.
+`APIKEY` to replace per the [API token](accounts/tokens), `foo` per the account name and `1234` per the site ID.
 
 ## Find out more
 
