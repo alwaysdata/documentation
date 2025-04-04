@@ -126,7 +126,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 
 * You can make some changes yourself *before the migration*, such as selecting major language versions, using the *Advanced* log format, or modifying your sites from *Transparent Redirect* to *Reverse Proxy*.
 
-* Your account will be moved to new servers during the migration, all services will change their IP. The IPs used by each server are listed in the **Advanced > Server Status** menu.
+* In [Public cloud](accounts/billing/public-cloud-prices), your account will be moved to new servers during the migration, all services will change their IP. The IPs used by each server are listed in the **Advanced > Server Status** menu.
     - Addresses of type `[service]-[account].alwaysdata.net` may not be immediately accessible from outside due to DNS propagation,
     - For domains not using our DNS servers, the previous HTTP server will redirect requests to the new HTTP server. However, the redirection may stop working, and it is advisable to update the IP to point to the correct server.
 

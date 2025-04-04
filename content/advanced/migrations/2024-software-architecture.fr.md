@@ -133,7 +133,7 @@ Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm
 
 * Vous pouvez effectuer vous-même, *avant la migration*, certains changements comme sélectionner les versions majeures des langages, utiliser le format de logs *Avancé* ou modifier vos sites de type *Redirection transparente*.
 
-* Votre compte sera déplacé sur de nouveaux serveurs lors de la migration, et tous les services vont donc changer d'IP. Les IP utilisées par chaque serveur sont données dans le menu **Avancé > Statut des serveurs**.
+* En [Cloud public](accounts/billing/public-cloud-prices), votre compte sera déplacé sur de nouveaux serveurs lors de la migration, et tous les services vont donc changer d'IP. Les IP utilisées par chaque serveur sont données dans le menu **Avancé > Statut des serveurs**.
     - les adresses de type `[service]-[compte].alwaysdata.net` peuvent ne pas être immédiatement accessibles depuis l'extérieur à cause de la propagation DNS ;
     - pour les domaines n'utilisant pas nos serveurs DNS, le serveur HTTP précédent fera la redirection vers le nouveau serveur HTTP. La redirection peut ne plus fonctionner et il est pertinent de faire les changements d'IP pour pointer sur le bon serveur.
 
