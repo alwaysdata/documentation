@@ -71,7 +71,7 @@ Lors du test d'un bug, veuillez également garder à l'esprit :
 
 **Avant de causer des dommages ou des dommages potentiels : arrêtez-vous, signalez ce que vous avez trouvé et demandez une autorisation de test supplémentaire.**
 
-Les rapports sur les failles sont examinés par nos analystes de sécurité. Si vous devez chiffrer la charge utile, nous vous recommandons fortement d'utiliser la [clé publique GPG 0xDFDD2138A363986B](https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc). Les rapports doivent être soumis en utilisant notre **[interface de suivi de bugs](https://security.alwaysdata.com/)**.
+Les rapports sur les failles sont examinés par nos analystes de sécurité. Les rapports doivent être soumis en utilisant notre **[interface de suivi de bugs](https://security.alwaysdata.com/)**.
 
 *Tout rapport envoyé par email ou par notre interface de support sera rejeté.*
 
