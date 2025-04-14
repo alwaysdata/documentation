@@ -69,7 +69,7 @@ print(annual_kWh, total_emissions)
 The result:
 
   * Estimated annual consumption for 2024: **217,248 kWh**
-  * Estimated corresponding emissions: **45.570883008 tCO₂eq**
+  * Estimated corresponding emissions: **45.57 tCO₂eq**
   * Required compensation (200%): **92 tons of CO₂**
 
 We have chosen [Gold Standard](https://www.goldstandard.org/) to certify our offset efforts.

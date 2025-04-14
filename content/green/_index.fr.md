@@ -70,7 +70,7 @@ print(kWh_annuels, emissions)
 Le résultat :
 
 - Consommation calculée pour l'année 2024 : **217 248 kWh** ;
-- Émissions correspondantes estimées : **45.570883008 tCO₂eq** ;
+- Émissions correspondantes estimées : **45.57 tCO₂eq** ;
 - Compensation nécessaire (200%) : **92 tonnes de CO₂**.
 
 Nous avons fait le choix de [Gold Standard](https://www.goldstandard.org/) pour acter notre compensation.
