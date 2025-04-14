@@ -5,7 +5,7 @@
     {{- partial "meta.html" . }}
     {{- $title := partial "title.gotmpl" (dict "page" . "fullyQualified" true "reverse" true) }}
     <title>{{ $title }}</title>
-
+    <base href="{{ .Site.BaseURL }}">
     {{- partialCached "favicon.html" . }}
     {{- partial "stylesheet.html" . }}
     {{- partial "dependencies.gotmpl" (dict "page" . "location" "header") }}
@@ -57,13 +57,7 @@
           </div>
           <hr>
           <div id="R-searchresults">
-          
-            <footer class="footline">
-              {{with .Params.LastModifierDisplayName}}
-                  <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
-                  </div>
-              {{end}}
-            </footer>
+          </div>
         </div>
       </main>
 {{- partial "custom-comments.html" . }}
