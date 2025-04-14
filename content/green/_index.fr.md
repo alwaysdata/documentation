@@ -63,14 +63,14 @@ emissions_production = emission_production * serveurs
 
 # Calcul des émissions totales (consommation et production)
 emissions = emissions_consommation + emissions_production
-
-print(kWh_annuels, emissions)
 ```
 
 Le résultat :
 
-- Consommation calculée pour l'année 2024 : **217 248 kWh** ;
-- Émissions correspondantes estimées : **45.57 tCO₂eq** ;
+- Consommation électrique pour l'année 2024 : **217 248 kWh** ;
+- Émissions liées à la consommation électrique : **6,57 tCO₂eq** ;
+- Émissions liées à la production des serveurs : **39 tCO₂eq** ;
+- Émissions totales : **45,57 tCO₂eq** ;
 - Compensation nécessaire (200%) : **92 tonnes de CO₂**.
 
 Nous avons fait le choix de [Gold Standard](https://www.goldstandard.org/) pour acter notre compensation.

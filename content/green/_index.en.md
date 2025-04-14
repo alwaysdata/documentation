@@ -62,14 +62,14 @@ production_emissions = production_emission * servers
 
 # Total emissions (consumption + production)
 total_emissions = consumption_emissions + production_emissions
-
-print(annual_kWh, total_emissions)
 ```
 
 The result:
 
-  * Estimated annual consumption for 2024: **217,248 kWh**
-  * Estimated corresponding emissions: **45.57 tCO₂eq**
+  * Electricity annual consumption for 2024: **217,248 kWh**
+  * Emissions related to electricity consumption: **6.57 tCO₂eq**
+  * Emissions related to server production: **39 tCO₂eq**
+  * Total emissions: **45.57 tCO₂eq**
   * Required compensation (200%): **92 tons of CO₂**
 
 We have chosen [Gold Standard](https://www.goldstandard.org/) to certify our offset efforts.
