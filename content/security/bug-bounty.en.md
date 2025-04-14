@@ -83,7 +83,7 @@ We are continuously working to evolve our bug bounty program. We aim to respond 
 
 ## Rewards
 
-We provide cash rewards. Our minimum reward is **€50**.
+We provide cash rewards.
 
 The following is merely an indicator of rewards, but does not reflect what the final decision might be. *We value quality reports and proofs of concepts.*
 

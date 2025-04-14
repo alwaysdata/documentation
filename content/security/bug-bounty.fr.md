@@ -84,7 +84,7 @@ Nous travaillons continuellement à faire évoluer notre programme de bug bounty
 
 ## Récompenses
 
-Nous offrons des récompenses en espèces. Notre récompense minimale est de **50 €**.
+Nous offrons des récompenses en espèces.
 
 Ce qui suit est simplement un indicateur de récompenses, mais ne reflète pas ce que pourrait être la décision finale. *Nous valorisons les rapports de qualité et les preuves de concept.*
 
