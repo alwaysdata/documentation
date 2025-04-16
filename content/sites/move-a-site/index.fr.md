@@ -31,7 +31,10 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 ## 2. Import de la base de données
 
 Cette étape est nécessaire que si votre site est connecté à une base de données.
-Vous devrez avoir préalablement créé la base de données sur le compte de _destination_.
+
+Si les deux comptes utilisent la même version de SGBD et appartiennent au même profil, vous pouvez utiliser notre fonctionnalité de [duplication de base de données](databases/duplicate-database).
+
+Vous pouvez sinon le faire manuellement en créant la base de données sur le compte de _destination_ puis en lançant les commandes suivantes :
 
 - MySQL :
 ```sh
@@ -48,7 +51,7 @@ bar@ssh:~$ rm foo_base.sql
 ```
 
 {{% notice info %}}
-Modifiez le fichier de configuration du site copié précédemment pour qu'il pointe sur la base nouvellement importée.
+Dans les deux cas, il faudra modifier le fichier de configuration du site copié précédemment pour qu'il pointe sur la base nouvellement importée.
 {{% /notice %}}
  
 ## 3. Déplacement des adresses

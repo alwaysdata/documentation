@@ -28,4 +28,4 @@ Hosting **only** databases in a free pack is not allowed.
 ---
 
 - API resources: [database](https://api.alwaysdata.com/v1/database/doc/), [database user](https://api.alwaysdata.com/v1/database/user/doc/)
-- [Frequent issues](databases/troubleshooting)
+- [Duplicate a database](databases/duplicate-database)

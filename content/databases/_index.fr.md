@@ -30,4 +30,4 @@ Il est interdit d'héberger **uniquement** des bases de données sur le pack gra
 ---
 
 - Ressources API : [base de données](https://api.alwaysdata.com/v1/database/doc/), [utilisateur de base de données](https://api.alwaysdata.com/v1/database/user/doc/)
-- [Problèmes fréquents](databases/troubleshooting)
+- [Dupliquer une base de données](databases/duplicate-database)

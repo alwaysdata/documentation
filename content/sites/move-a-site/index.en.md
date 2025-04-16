@@ -28,7 +28,11 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 
 ## 2. Importing the database
 
-This step is only necessary if your site is connected to a database. You need to first create the database in the *destination* account.
+This step is only necessary if your site is connected to a database.
+
+If both accounts use the same version of DBMS and belong to the same profile, you can use our [database duplication](databases/duplicate-database) functionality.
+
+Otherwise, you can do it manually by creating the database on the _destination_ account and then running the following commands:
 
 -   MySQL:
     ```sh
@@ -45,7 +49,7 @@ This step is only necessary if your site is connected to a database. You need to
     ```
 
 {{% notice info %}}
-Change the configuration file for the previously copied site so that it points to the newly imported database.
+In both cases, you will need to modify the configuration file of the previously copied site to point to the newly imported database.
 {{% /notice %}}
 
 ## 3. Moving addresses
