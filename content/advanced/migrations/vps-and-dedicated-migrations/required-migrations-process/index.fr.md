@@ -71,7 +71,7 @@ Durant cette opération, les adresses IP du serveur client sont reroutées vers 
 {{% /notice %}}
 
 ### Étape 7 - Finalisation : redéplacement des comptes sur le serveur client
-**Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes de manière transparente. *Cette étape de finalisation peut être effectuée par le support en heure et jours ouvrés ou par l'utilisateur.*
+**Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes. *Cette étape de finalisation peut être effectuée par le support en heure et jours ouvrés ou par l'utilisateur.*
 
 Ce redéplacement final des comptes entraîne une coupure par compte équivalente à l'indisponibilité lors de la première migration.
 
@@ -94,5 +94,4 @@ Tous les comptes ont été redéplacés sur le serveur client réinstallé.
 
 - Si l'utilisateur est en charge de l'étape de finalisation, il a **une semaine** pour faire le déplacement de tous les comptes sans surcoût.
 
----
-Icônes : The Noun Project
+> Icônes : The Noun Project

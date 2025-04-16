@@ -55,3 +55,5 @@ Rendez vous dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
 {{% notice note %}}
 Bien que le cache HTTP convienne dans l'immense majorité des cas, vous pouvez également [faire tourner Varnish](sites/user-program) sur votre compte alwaysdata.
 {{% /notice %}}
+
+> Icônes : The Noun Project

@@ -11,10 +11,14 @@ Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) exa­mine chaqu
 
 {{< fig "waf.fr.png" "Parcours d’une requête HTTP face à un WAF" >}}
 
-Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le [site] - ⚙️ > WAF**.
+alwaysdata utilise le WAF ModSecurity et l'ensemble de règles libres [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+
+## Paramétrer le pare-feu applicatif web
+
+Cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le [site] - ⚙️ > WAF**.
 {{< fig "admin-panel_add-site-waf.fr.png" "" >}}
 
-## Profils disponibles
+### Profils disponibles
 
 |Profil|Description|
 |---|---|
@@ -42,7 +46,7 @@ Pour paramétrer le pare-feu applicatif web, cela se passe sur l'interface d'adm
 L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une légère aug­men­ta­tion de la latence lors du trai­te­ment d’une requête HTTP. Cette latence, de l’ordre de quelques mil­li­se­condes, aug­mente avec le degré de pro­tec­tion.
 {{% /notice %}}
 
-## Exclure des règles
+### Exclure des règles
 
 Selon votre cas d'utilisation, le **comportement du WAF peut être trop restrictif**. Il est aussi possible qu'il génère de **faux positifs** lors de son analyse. Si vous jugez que son comportement n'est pas approprié, vous avez la possibilité d'exclure certaines règles utilisées lors de l'analyse.
 
@@ -60,7 +64,7 @@ Ce serait donc `941100`, `941110` et `941160` qui pourraient être indiqués.
 Il faut veiller à ajouter progressivement des règles car l'exclusion est applicable sur tout le site. En effet, même si ajouter un grand nombre de règles à exclure peut améliorer la navigation dans certains cas, la protection sera alors amoindrie dans tous les autres cas.
 {{% /notice %}}
 
-## Exclure des chemins
+### Exclure des chemins
 
 Ce type d'exclusion permet d'**éviter l'analyse de pages commençant par le chemin spécifié**. En saisissant `/foo/` par exemple, `www.mon-site.com/foo/` sera exclu de l'analyse tout comme les query strings : `www.mon-site.com/foo/?param=bar`. Pour exclure aussi `www.mon-site.com/foo/bar` et `www.mon-site.com/foo/script.php`, il faut rajouter un _wildcard_ : `/foo/*`. Enfin, si on veut substituer un caractère quelconque (notamment qui changerait régulièrement), `?` peut être utilisé.
 
@@ -73,11 +77,10 @@ Cependant, le blog en lui-même ne sera plus protégé contre ces tentatives d'a
 
 Les *[query strings](https://en.wikipedia.org/wiki/Query_string)* ne peuvent pas être utilisées dans ces exclusions.
 
-## Exclure des IP
+### Exclure des IP
 
 Il peut être intéressant d'exclure des **IP sûres** (IP spécifiques ou plages d'IP) pour éviter à des outils ou des personnes d'être bloqués.
 
 Prenons l'exemple de [WPScan](https://wpscan.com/) : en l'activant sur un site WordPress certaines des requêtes qu'il effectue peuvent être bloquées. Exclure des règles ou des chemins ne serait pas efficace comme il observe de nombreuses URLs. La solution est donc d'exclure le serveur HTTP sur lequel est installé WPScan pour qu'il puisse fonctionner normalement.
 
----
-alwaysdata utilise le WAF ModSecurity et l'ensemble de règles libres [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+> Icônes : The Noun Project

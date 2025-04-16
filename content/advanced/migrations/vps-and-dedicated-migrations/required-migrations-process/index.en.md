@@ -70,7 +70,7 @@ Reinstalling the server takes several hours. During this operation, the server's
 {{% /notice %}}
 
 ### Step 7 - Finalization: accounts relocation to the client server
-**The client server is reinstalled.** Support contacts the user to transparently move back accounts. *This move can take place in working hours and days*.
+**The client server is reinstalled.** Support contacts the user to move back accounts. *This finalization step can be performed by the support in working hours and days or by the user.*
 
 This final relocation of accounts causes a disruption per account equivalent to the unavailability at the time of the first migration.
 
@@ -92,5 +92,4 @@ All accounts had been moved back to the reinstalled client server.
     - the provision of this shared transit server is validated on a case-by-case basis by support depending on the characteristics of the client server and its accounts.
 - If the user is responsible for the finalization step, they have **one week** to move all accounts without additional cost.
 
----
-Icons: The Noun Project
+> Icons: The Noun Project

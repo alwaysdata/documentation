@@ -53,3 +53,5 @@ This is done in **Web > Sites > Edit the [site] - ⚙️ > Cache**.
 {{% notice note %}}
 While the HTTP cache is appropriate in most cases, you can also [run Varnish](sites/user-program) on your alwaysdata account.
 {{% /notice %}}
+
+> Icons: The Noun Project

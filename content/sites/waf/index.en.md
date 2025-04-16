@@ -10,11 +10,15 @@ A [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) examines every H
 
 {{< fig "waf.en.png" "Path of an HTTP request faced with a WAF">}}
 
-To configure the web application firewall, use the administration interface from **Web > Sites > Edit the [site] - ⚙️ > WAF**.
+alwaysdata uses WAF ModSecurity and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+
+## Configure the Web Application Firewall
+
+Use the administration interface from **Web > Sites > Edit the [site] - ⚙️ > WAF**.
 
 {{< fig "admin-panel_add-site-waf.en.png" "" >}}
 
-## Available profiles
+### Available profiles
 
 |Profile|Description|
 |--- |--- |
@@ -42,7 +46,7 @@ To configure the web application firewall, use the administration interface from
 Activating a protection profile will result in a slight increase in latency when processing an HTTP request. This latency, that represents a few milliseconds, increases with the degree of protection.
 {{% /notice %}}
 
-## Excluding rules
+### Excluding rules
 
 Depending on your usage case, **the way WAF behaves may be too restrictive**. It may also generate **false positives** during its analysis. If you consider its behavior unsuitable, then you have the option of excluding some of the rules used during the analysis.
 
@@ -60,7 +64,7 @@ Consequently `941100`, `941110` and `941160` could be indicated.
 Be sure to progressively add rules as the exclusion is applicable to the entire site. This is because even if adding a large number of rules to exclude may improve browsing in some cases, protection will then be lessened in all other cases.
 {{% /notice %}}
 
-## Excluding paths
+### Excluding paths
 
 This kind of exclusion is used to **avoid any page analysis starting with the specified path**. By entering `/foo/` for example, `www.my-site.com/foo/` will be excluded from the analysis as will the query strings: `www.my-site.com/foo/?param=bar`. To also exclude `www.my-site.com/foo/bar` and `www.my-site.com/foo/script.php` add a *wildcard*: `/foo/*`. Lastly, to substitute any character (especially one that changes regularly), `?` may be used.
 
@@ -72,11 +76,10 @@ Let us take the case of a WordPress type site that shows logs similar to those p
 
 *[Query strings](https://en.wikipedia.org/wiki/Query_string)* can't be used with these exclusions.
 
-## Excluding IPs
+### Excluding IPs
 
 It may be worth excluding **safe IPs** (specific IPs or IPs ranges) to stop tools or people from being blocked.
 
 Let us take the example of [WPScan](https://wpscan.com/): by activating it on a WordPress site, some of the requests that it runs may be blocked. Excluding rules or paths would not be effective as it observes numerous URLs. The solution is therefore to exclude the HTTP server that WPScan is installed on so that it can operate normally.
 
----
-alwaysdata uses WAF ModSecurity and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
+> Icons: The Noun Project
