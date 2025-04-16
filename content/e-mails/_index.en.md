@@ -29,6 +29,7 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 * [Deliverability: best practices](delivery)
 * [Configure SPF/DKIM/DMARC](set-up-spf-dkim-dmarc)
 * [Check email's sending](check-email-sending)
+* [SMTP waiting queue](smtp-queue)
 * [Read an e-mail source](read-an-e-mail-source)
 * [React to spam mailing](react-to-spam-mailing)
 - [Restore e-mails](backups/restore-e-mails)

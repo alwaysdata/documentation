@@ -30,6 +30,7 @@ Vous pouvez [créer une adresse email](create-an-e-mail-address) dans l'onglet *
 * [Délivrabilité : bonnes pratiques](delivery)
 * [Configurer SPF/DKIM/DMARC](set-up-spf-dkim-dmarc)
 * [Vérifier l'envoi d'un email](check-email-sending)
+* [File d'attente SMTP](smtp-queue)
 * [Lire la source d'un email](read-an-e-mail-source)
 * [Réagir à un envoi de spam](react-to-spam-mailing)
 - [Restaurer des emails](backups/restore-e-mails)
