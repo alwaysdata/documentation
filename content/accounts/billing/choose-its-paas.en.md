@@ -61,8 +61,8 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|✔️|
 || [Filtering via Sieve](e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|✔️|
-|| Mailing-lists |✔️|✔️|✔️|✔️|
-|| SMTP queue |❌|✔️|✔️|✔️|
+|| [Mailing-lists](e-mails/mailing-lists) |✔️|✔️|✔️|✔️|
+|| [SMTP queue](e-mails/smtp-queue) |❌|✔️|✔️|✔️|
 || SMTP relay |❌|✔️|✔️|✔️|
 | Remote access | [FTP](remote-access/ftp) |✔️|✔️|✔️|✔️|
 || [SFTP](remote-access/sftp) |✔️|✔️|✔️|✔️|

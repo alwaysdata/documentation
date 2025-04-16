@@ -62,8 +62,8 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|✔️|
 || [Filtrage via scripts Sieve](e-mails/use-sieve-scripts) |✔️|✔️|✔️|✔️|
-|| Listes de diffusion |✔️|✔️|✔️|✔️|
-|| File d'attente SMTP |❌|✔️|✔️|✔️|
+|| [Listes de diffusion](e-mails/mailing-lists) |✔️|✔️|✔️|✔️|
+|| [File d'attente SMTP](e-mails/smtp-queue) |❌|✔️|✔️|✔️|
 || [Relais SMTP](e-mails/smtp-relay) |❌|✔️|✔️|✔️|
 | Accès distant | [FTP](remote-access/ftp) |✔️|✔️|✔️|✔️|
 || [SFTP](remote-access/sftp) |✔️|✔️|✔️|✔️|
