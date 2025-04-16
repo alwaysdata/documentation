@@ -6,7 +6,7 @@ hidden = true
 tags = ["databases"]
 +++
 
-Il est possible de dupliquer une base de données sur un autre de *ses* comptes. Pour cela rendez-vous dans **Bases de données > [SGBD] > Dupliquer la [base de donnée] - 📄**.
+Il est possible de dupliquer une base de données via **Bases de données > [SGBD] > Dupliquer la [base de donnée] - 📄**.
 
 {{< fig "images/list.fr.png" "" >}}
 
