@@ -6,12 +6,11 @@ tags = ["email", "thunderbird", "mozilla"]
 hidden = true
 +++
 
-Dans nos exemples nous considérons les informations suivantes :
+## Général
 
-- Nom du compte : `test`
-- Adresse email : `test@alwaysdata.net`
-
-Elles sont à remplacer par vos informations de connexion personnelles :
+{{% notice tip %}}
+Pour les domaines utilisant nos serveurs DNS, l'*autoconfiguration* Thunderbird est utilisable. Vous n'avez qu'à indiquer votre nom d'utilisateur (adresse email) et votre mot de passe. Les autres paramètres sont automatiquement générés.
+{{% /notice %}}
 
 |Serveur|Service|Information||
 |---|---|---|---|
@@ -34,9 +33,15 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 
-{{% notice tip %}}
- *[compte]* doit être remplacé par le nom de votre compte et *contact\@example.org* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
-{{% /notice %}}
+
+*`[compte]`* doit être remplacé par le nom de votre compte et *`contact@example.org`* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
+
+## Captures d'écran
+
+Dans notre exemple nous considérons les informations suivantes (à remplacer par vos informations de connexion personnelles) :
+
+- Nom du compte : `test`
+- Adresse email : `test@alwaysdata.net`
 
 Rendez-vous dans **Comptes > Configurer un compte : Courrier électronique**.
 

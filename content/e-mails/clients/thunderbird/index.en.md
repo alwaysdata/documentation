@@ -5,12 +5,11 @@ tags = ["e-mail", "thunderbird", "mozilla"]
 hidden = true
 +++
 
-In our examples we consider the following information:
+## General
 
-- Account name: `test`
-- Mailbox: `test@alwaysdata.net`
-
-They must be replaced by your personal login information: 
+{{% notice tip %}}
+For domains using our DNS servers, Thunderbird *autoconfiguration* is usable. You just need to provide your username (email address) and password. The other settings are automatically generated.
+{{% /notice %}}
 
 |Server|Service|Information||
 |---|---|---|---|
@@ -33,9 +32,14 @@ They must be replaced by your personal login information:
 |||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 
-{{% notice tip %}}
- *[account]* must be replaced by the name of your account and *contact\@example.org* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
-{{% /notice %}}
+*`[account]`* must be replaced by the name of your account and *`contact@example.org`* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+
+## Screenshots
+
+In our example we consider the following information (to be replaced by your personal login information):
+
+- Account name: `test`
+- Mailbox: `test@alwaysdata.net`
 
 Go to **Settings > Configure an account: E-mail**.
 
