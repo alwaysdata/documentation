@@ -27,7 +27,7 @@ La génération de certificat est limitée à 64 caractères par adresse complè
 
 #### Certificat non généré
 
-La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata. Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
+La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata (une vérification HTTP est effectuée). Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
 
 De ce fait, notre système ne pourra générer de certificats Let's Encrypt pour les adresses utilisant un [proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) d'une entreprise tierce devant nos serveurs.
 
@@ -37,7 +37,9 @@ Les personnes ajoutant les adresses avant de changer les enregistrements DNS peu
 
 ## Certificats Wildcard
 
-Lorsqu'un domaine utilise nos [serveurs DNS](remote-access/login-details), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme *.example.org - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
+Lorsqu'un domaine utilise nos [serveurs DNS](remote-access/login-details), il est possible de générer un [certificat wildcard Let's Encrypt](https://en.wikipedia.org/wiki/Wildcard_certificate) - de la forme `*.example.org` - dans **Avancé > Certificats SSL > Ajouter un certificat SSL > Créer un certificat wildcard Let's Encrypt**. Ce certificat sera automatiquement renouvelé par le système.
+
+Les certificats Wildcard nécessitent une vérification DNS pour être générés, si vous devez générer un certificat pour un sous-domaine (par exemple `*.foo.example.org`) contactez le support alwaysdata.
 
 {{% notice note %}}
 Ces certificats wildcard ne sont pas valides pour les domaines "nus" - example.org.

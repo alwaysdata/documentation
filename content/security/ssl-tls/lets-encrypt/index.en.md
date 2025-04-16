@@ -27,7 +27,7 @@ Certificate generation is limited to 64 characters per complete address.
 
 #### Certificate not created
 
-The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers. Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
+The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers (an HTTP check is performed). Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
 
 As a result, our system will not be able to generate Let's Encrypt certificates for addresses using a [proxy](https://en.wikipedia.org/wiki/Reverse_proxy) from a third-party company in front of our servers.
 
@@ -38,6 +38,8 @@ People who add the addresses before changing the DNS records can, after making t
 ## Wildcard certificates
 
 When a domain use our [DNS servers](remote-access/login-details), it is possible to generate a [Let's Encrypt wildcard certificate](https://en.wikipedia.org/wiki/Wildcard_certificate) - *.example.org structure - in **Advanced > SSL certificates > Add a SSL certificate > Create a Let's Encrypt  wildcard certificate**. This certificate will be automatically renewed by the system.
+
+Wildcard certificates require a DNS check to be generated; if you need to generate a certificate for a subdomain (e.g. `*.foo.example.org`), contact alwaysdata support.
 
 {{% notice note %}}
 These wildcard certificates are not valid for "naked" domains - example.org.
