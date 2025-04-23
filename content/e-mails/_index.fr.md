@@ -34,6 +34,7 @@ Vous pouvez [créer une adresse email](create-an-e-mail-address) dans l'onglet *
 * [Lire la source d'un email](read-an-e-mail-source)
 * [Réagir à un envoi de spam](react-to-spam-mailing)
 - [Restaurer des emails](backups/restore-e-mails)
+- [Sender Rewriting Scheme](srs)
 - [Catch-all](./catch-all)
 - [Questions diverses](./misc)
 

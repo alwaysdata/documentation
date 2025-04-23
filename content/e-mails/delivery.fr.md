@@ -13,7 +13,7 @@ Que vos boîtes email soient hébergées dans un Cloud Public ou un environnemen
 
 - Vérifiez le nom de l'expéditeur ainsi que l'adresse email d'envoi ;
 - Utilisez les [protocoles d'identification](e-mails/set-up-spf-dkim-dmarc) ;
-- Le _SENDER FROM_ doit correspondre au _FROM_ dans vos en-têtes.
+- L'_ENVELOPE FROM_ doit correspondre au _FROM/HEADER FROM_ dans vos en-têtes.
 
 ## Les destinataires
 

@@ -33,6 +33,7 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 * [Read an e-mail source](read-an-e-mail-source)
 * [React to spam mailing](react-to-spam-mailing)
 - [Restore e-mails](backups/restore-e-mails)
+- [Sender Rewriting Scheme](srs)
 - [Catch-all](./catch-all)
 - [Miscellaneous questions](./misc)
 

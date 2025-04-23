@@ -11,7 +11,7 @@ Whether your e-mail boxes are hosted in the Public Cloud or a dedicated environm
 
 - Check the sender's name and e-mail address.
 - Use [identification protocols](e-mails/set-up-spf-dkim-dmarc).
-- The *SENDER FROM* setting needs to match the *FROM* in your headers.
+- The *ENVELOPE FROM* setting needs to match the *FROM/HEADER FROM* in your headers.
 
 ## Addresses
 
