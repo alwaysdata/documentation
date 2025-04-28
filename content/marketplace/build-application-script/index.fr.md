@@ -49,11 +49,10 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 * Le script doit commencer par `set -e` pour le stopper lorsqu’il échoue ;
 * Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
+* Pour rendre un script d'installation publique il faut indiquer la condition `disk` des `requirements` ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
-* pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
-* les *labels* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
-
-
+* Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
+* Les *labels* et *regex_text* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
 
 {{% notice note %}}
 Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
