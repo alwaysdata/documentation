@@ -23,7 +23,7 @@ Pour ajouter une règle, choisissez :
 - le protocole : [UDP](https://fr.wikipedia.org/wiki/User_Datagram_Protocol) ou [TCP](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol) ;
 - le type de règle : ACCEPT, DROP (rejeter sans avertir l'émetteur) ou REJECT ;
 - la direction : entrée ou sortie ;
-- les IP/hôtes concernés ;
+- les IP/hôtes concernés : cela peut être des IP ou des URLs ;
 - les ports ;
 - la version des IP.
 

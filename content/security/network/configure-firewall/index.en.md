@@ -24,7 +24,7 @@ To add a rule, choose:
 - the protocol: [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) or [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - the type of rule: ACCEPT, DROP (reject without informing the sender) or REJECT,
 - the direction: in our out,
-- the relevant IPs/hosts,
+- the relevant IPs/hosts: these can be IPs or URLs,
 - the ports,
 - The IPs version.
 
