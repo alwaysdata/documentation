@@ -21,18 +21,7 @@ Want to show your support? [Give us some ❤](love) !
 Any publication on Internet entails [legal obligations](sites/legal-requirements-on-internet), make yourself aware of them before placing your content on-line.
 {{% /notice %}}
 
-## Terminology
-
-- **API** (Application Programming Interface): is a programming interface used to automate how you manage your resources.
-- **Account**: a hosting space where sites, domains, e-mails, etc. are located. Linked to a profile and located on one (or more) servers.
-- **Administration**, **Admin** or **client space**: a private space that is accessible [online](https://admin.alwaysdata.com) comprising information relating to alwaysdata services and allowing management operations relating to these services.
-- **Profile**, **client** or **user**: alwaysdata administration interface user. This physical or corporate entity has validated the [alwaysdata contracts](https://www.alwaysdata.com/en/terms-and-legal/).
-- **Server**: a computer system where accounts are located. This may be a physical server or a virtual machine.
-- **Public Cloud** or **shared server**: a server where the storage space is shared between a number of users.
-- **Private Cloud**:
-	- **VPS**: [virtual machine](https://en.wikipedia.org/wiki/Virtual_private_server) located on a host server shared only between a few users.
-	- **Dedicated**: a physical server where the storage space is reserved entirely for data belonging to a single user.
-	- **Gold**: dedicated server redunded in a different datacenter.
+- [Terminology](accounts/terminology)
 
 ## Contributing to documentation
 
