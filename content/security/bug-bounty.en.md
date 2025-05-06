@@ -37,7 +37,7 @@ It is also important to note, we will not take legal action against you simply f
 
 ## Scope and testing
 
-The research scope only include following addresses:
+The research scope only includes following addresses:
 
 ```txt
 - https://www.alwaysdata.com
