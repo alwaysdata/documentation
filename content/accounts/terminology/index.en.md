@@ -24,3 +24,5 @@ Hosted email addresses are linked to domains. They are *always* on the same acco
 - [delegated](/domains/delegate-a-subdomain) to an account in another alwaysdata profile.
 
 {{< fig "images/delegation.en.png" "" >}}
+
+> Icons: The Noun Project

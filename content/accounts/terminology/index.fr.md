@@ -26,3 +26,5 @@ Les [adresses des sites](/sites/add-a-site/#adresses) *peuvent* aussi être lié
 - [déléguées](/domains/delegate-a-subdomain) à un compte d'un autre profil alwaysdata.
 
 {{< fig "images/delegation.fr.png" "" >}}
+
+> Icônes : The Noun Project
