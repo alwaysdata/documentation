@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/divers/"
+url = "/fr/acces-distant/divers/"
 title = "Diverses questions"
 layout = "faq"
 hidden = true

@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/"
+url = "/fr/acces-distant/"
 title = "Accès distant"
 pre = "<i class='fas fa-fw fa-network-wired'></i> "
 weight = 30

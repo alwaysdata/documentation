@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/rabbitmq/"
+url = "/fr/bases-de-donnees/rabbitmq/"
 title = "RabbitMQ"
 layout = "man"
 hidden = true

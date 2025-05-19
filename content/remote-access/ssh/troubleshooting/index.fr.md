@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/problèmes-fréquents/"
+url = "/fr/acces-distant/ssh/problemes-frequents/"
 title = "SSH - Problèmes fréquents"
 layout = "faq"
 weight = 70

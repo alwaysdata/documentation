@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/désactiver-un-site/"
+url = "/fr/sites/desactiver-un-site/"
 title = "Comment désactiver un site web"
 layout = "howto"
 hidden = true

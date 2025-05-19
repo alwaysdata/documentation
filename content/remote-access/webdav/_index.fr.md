@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/webDAV/"
+url = "/fr/acces-distant/webDAV/"
 title = "WebDAV"
 weight = 5
 tags = ["accès distant", "webdav"]

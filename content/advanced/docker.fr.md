@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/docker"
+url = "/fr/avance/docker"
 title = "Docker"
 layout = "man"
 hidden = true

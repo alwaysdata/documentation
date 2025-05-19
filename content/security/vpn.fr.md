@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/vpn/"
+url = "/fr/securite/vpn/"
 title = "VPN"
 layout = "man"
 hidden = true

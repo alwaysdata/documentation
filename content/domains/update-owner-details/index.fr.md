@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/mettre-à-jour-informations-propriétaire/"
+url = "/fr/domaines/mettre-a-jour-informations-proprietaire/"
 title = "Comment mettre à jour les informations du propriétaire d'un domaine"
 layout = "howto"
 hidden = true

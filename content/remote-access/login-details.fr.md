@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/informations-de-connexion/"
+url = "/fr/acces-distant/informations-de-connexion/"
 title = "Informations de connexion"
 linkTitle = "Informations de connexions"
 layout = "faq"

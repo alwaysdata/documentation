@@ -1,5 +1,5 @@
 +++
-url = "/fr/emails/ajouter-une-règle-de-filtrage/"
+url = "/fr/emails/ajouter-regle-filtrage/"
 title = "Comment ajouter une règle de filtrage"
 linkTitle = "Ajouter une règle de filtrage"
 layout = "howto"

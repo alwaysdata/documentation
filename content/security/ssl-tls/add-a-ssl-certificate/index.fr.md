@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/ajouter-un-certificat-ssl"
+url = "/fr/securite/ssl-tls/ajouter-certificat-ssl"
 title = "Comment ajouter un certificat SSL à son site"
 linkTitle = "Ajouter un certificat SSL"
 layout = "howto"

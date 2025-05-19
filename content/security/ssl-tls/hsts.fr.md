@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/hsts/"
+url = "/fr/securite/ssl-tls/hsts/"
 title = "Comment implémenter HSTS"
 layout = "howto"
 hidden = true

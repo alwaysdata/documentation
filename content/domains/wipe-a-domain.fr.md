@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/détruire-un-domaine/"
+url = "/fr/domaines/detruire-un-domaine/"
 title = "Comment détruire un domaine"
 layout = "howto"
 hidden = true

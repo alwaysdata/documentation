@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/redis/php/"
+url = "/fr/bases-de-donnees/redis/php/"
 title = "Comment configurer une application PHP avec Redis"
 hidden = true
 layout = "howto"

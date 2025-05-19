@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/utiliser-des-clés-ssh/"
+url = "/fr/acces-distant/ssh/utiliser-des-cles-ssh/"
 title = "Comment utiliser des clés SSH"
 layout = "howto"
 weight = 20

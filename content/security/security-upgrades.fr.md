@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/mises-a-jour-de-securite"
+url = "/fr/securite/mises-a-jour-de-securite"
 title = "Mises à jour de sécurité"
 layout = "man"
 hidden= true

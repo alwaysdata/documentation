@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/désinfecter-un-site/"
+url = "/fr/sites/desinfecter-un-site/"
 title = "Comment désinfecter un site web"
 linkTitle = "Désinfecter un site"
 layout = "howto"

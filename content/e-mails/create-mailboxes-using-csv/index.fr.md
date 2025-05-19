@@ -1,5 +1,5 @@
 +++
-url = "/fr/emails/créer-des-adresses-email-via-csv/"
+url = "/fr/emails/creer-des-adresses-email-via-csv/"
 title = "Comment créer plusieurs adresses email via CSV"
 layout = "howto"
 hidden = true

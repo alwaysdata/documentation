@@ -1,5 +1,5 @@
 +++
-url = "/fr/emails/réagir-à-un-envoi-de-spam/"
+url = "/fr/emails/reagir-envoi-spam/"
 title = "Comment réagir à un envoi de spam"
 layout = "howto"
 hidden = true

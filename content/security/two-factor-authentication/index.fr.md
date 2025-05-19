@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/authentification-2-facteurs/"
+url = "/fr/securite/authentification-2-facteurs/"
 title = "Admin : Authentification 2 facteurs"
 linkTitle = "Authentification 2 facteurs"
 layout = "man"

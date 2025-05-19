@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ftp/use-filezilla/"
+url = "/fr/acces-distant/ftp/utiliser-filezilla/"
 title = "Comment télécharger des fichiers avec FileZilla"
 layout = "howto"
 tags = [ "fichiers", "filezilla", "ftp"]

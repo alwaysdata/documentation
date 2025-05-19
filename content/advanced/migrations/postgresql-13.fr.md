@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/postgresql-13/"
+url = "/fr/avance/migrations/postgresql-13/"
 title = "Migration PostgreSQL 13"
 layout = "man"
 hidden = true

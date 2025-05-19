@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/créer-un-compte/"
+url = "/fr/comptes/creer-un-compte/"
 title = "Comment créer un compte"
 linkTitle = "Créer un compte"
 layout = "howto"

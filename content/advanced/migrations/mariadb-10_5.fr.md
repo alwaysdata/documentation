@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/mariadb10_5/"
+url = "/fr/avance/migrations/mariadb10_5/"
 title = "Migration MariaDB 10.5"
 layout = "man"
 hidden = true

@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/bug-bounty"
+url = "/fr/securite/bug-bounty"
 title = "Bug Bounty"
 layout = "man"
 hidden = true

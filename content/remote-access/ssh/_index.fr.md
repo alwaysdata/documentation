@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/"
+url = "/fr/acces-distant/ssh/"
 title = "SSH"
 weight = 5
 tags = ["accès distant", "ssh"]

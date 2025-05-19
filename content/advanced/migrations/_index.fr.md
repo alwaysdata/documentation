@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/"
+url = "/fr/avance/migrations/"
 title = "Migrations"
 weight = 20
 archetype = "chapter"

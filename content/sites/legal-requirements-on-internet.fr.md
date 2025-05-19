@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/obligations-légales-sur-internet/"
+url = "/fr/sites/obligations-legales-sur-internet/"
 title = "Les obligations légales sur Internet"
 linkTitle = "Obligations légales sur Internet"
 layout = "man"

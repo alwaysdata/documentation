@@ -1,5 +1,5 @@
 +++
-url = "/fr/tâches-planifiées/"
+url = "/fr/taches-planifiees/"
 title = "Tâches planifiées"
 pre = "<i class='fas fa-fw fa-stopwatch'></i> "
 weight = 32

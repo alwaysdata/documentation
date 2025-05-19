@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/déplacer-un-site/"
+url = "/fr/sites/deplacer-un-site/"
 title = "Comment déplacer un site web"
 layout = "howto"
 hidden = true

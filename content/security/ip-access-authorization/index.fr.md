@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/autorisation-daccès-selon-IP/"
+url = "/fr/securite/autorisation-dacces-selon-IP/"
 title = "Autorisation d'accès à l'interface d'administration selon l'IP"
 layout = "man"
 hidden = true

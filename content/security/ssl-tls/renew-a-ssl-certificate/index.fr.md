@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/renouveler-un-certificat-ssl"
+url = "/fr/securite/ssl-tls/renouveler-un-certificat-ssl"
 title = "Comment renouveler un certificat SSL"
 layout = "howto"
 hidden = true

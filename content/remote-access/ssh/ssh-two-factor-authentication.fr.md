@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/authentification-2-facteurs-ssh"
+url = "/fr/acces-distant/ssh/authentification-2-facteurs-ssh"
 title = "Activer l'authentification 2 facteurs SSH"
 layout = "howto"
 hidden = true

@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/sftp/"
+url = "/fr/acces-distant/sftp/"
 title = "SFTP"
 weight = 5
 tags = ["accès distant", "sftp"]

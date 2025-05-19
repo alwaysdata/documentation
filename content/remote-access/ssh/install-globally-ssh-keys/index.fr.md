@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/clés-ssh-globales/"
+url = "/fr/acces-distant/ssh/cles-ssh-globales/"
 title = "Comment accéder globalement à son serveur avec des clés SSH"
 layout = "howto"
 weight = 80

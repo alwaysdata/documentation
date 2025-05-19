@@ -1,5 +1,5 @@
 +++
-url = "/fr/marketplace/créer-son-script-d-application/"
+url = "/fr/marketplace/creer-script-dapplication/"
 title = "Créer son propre script d'application"
 layout = "man"
 hidden = true

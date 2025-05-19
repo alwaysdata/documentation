@@ -1,5 +1,5 @@
 +++
-url = "/fr/langages/php/ajouter-une-bibliothèque/"
+url = "/fr/langages/php/ajouter-une-bibliotheque/"
 title = "Comment ajouter une bibliothèque PHP"
 hidden = true
 layout = "howto"

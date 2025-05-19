@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/apache-personnalisé/"
+url = "/fr/sites/apache-personnalise/"
 title = "Comment utiliser le type Apache personnalisé"
 layout = "howto"
 hidden = true

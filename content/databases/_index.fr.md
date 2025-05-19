@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/"
+url = "/fr/bases-de-donnees/"
 title = "Bases de données"
 pre = "<i class='fas fa-fw fa-database'></i> "
 weight = 20

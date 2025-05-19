@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/pca/"
+url = "/fr/securite/pca/"
 title = "Plan de continuité d'activité"
 layout = "faq"
 weight = 50

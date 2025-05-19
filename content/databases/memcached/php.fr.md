@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/memcached/php/"
+url = "/fr/bases-de-donnees/memcached/php/"
 title = "Comment configurer une application PHP avec Memcached"
 hidden = true
 layout = "howto"

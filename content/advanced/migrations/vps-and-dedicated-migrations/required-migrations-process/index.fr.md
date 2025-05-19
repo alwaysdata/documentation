@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/déroulement-migrations-obligatoires"
+url = "/fr/avance/migrations/effectuer-une-migration-vps-ou-dedie/deroulement-migrations-obligatoires"
 title = "Cloud Privé : Déroulement des migrations obligatoires"
 layout = "man"
 hidden = true

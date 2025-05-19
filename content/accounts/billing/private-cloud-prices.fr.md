@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/facturation/prix-cloud-privé/"
+url = "/fr/comptes/facturation/prix-cloud-prive/"
 title = "Tarifs Cloud Privé"
 layout = "man"
 hidden = true

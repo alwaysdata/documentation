@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/redis/"
+url = "/fr/bases-de-donnees/redis/"
 title = "Redis"
 layout = "man"
 hidden = true

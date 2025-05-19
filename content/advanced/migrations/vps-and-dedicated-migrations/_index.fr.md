@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/"
+url = "/fr/avance/migrations/effectuer-une-migration-vps-ou-dedie/"
 title = "Comment effectuer une migration en Cloud Privé"
 layout = "howto"
 hidden = true

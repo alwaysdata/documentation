@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/réseau/configurer-le-firewall"
+url = "/fr/securite/reseau/configurer-le-firewall"
 title = "Cloud Privé : configurer le firewall"
 layout = "faq"
 hidden = true

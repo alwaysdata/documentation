@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/elasticsearch/"
+url = "/fr/bases-de-donnees/elasticsearch/"
 title = "Elasticsearch"
 layout = "man"
 hidden = true

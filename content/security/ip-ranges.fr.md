@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/plages-dip"
+url = "/fr/securite/plages-dip"
 title = "Plages d'IP adresses alwaysdata"
 layout = "man"
 hidden= true

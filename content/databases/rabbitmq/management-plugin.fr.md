@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/rabbitmq/plugin-de-management"
+url = "/fr/bases-de-donnees/rabbitmq/plugin-de-management"
 title = "Plugin de management de RabbitMQ"
 layout = "man"
 hidden = true

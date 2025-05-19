@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/priorité-de-renvoi-des-certificats-ssl"
+url = "/fr/securite/ssl-tls/priorite-de-renvoi-des-certificats-ssl"
 title = "Quel certificat SSL est renvoyé par défaut ?"
 layout = "faq"
 hidden = true

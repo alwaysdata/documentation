@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/migrations/architecture-logicielle-2017/"
+url = "/fr/avance/migrations/architecture-logicielle-2017/"
 title = "Architecture Logicielle 2017"
 layout = "man"
 hidden = true

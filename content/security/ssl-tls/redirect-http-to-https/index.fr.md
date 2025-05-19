@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/rediriger-HTTP-vers-HTTPS"
+url = "/fr/securite/ssl-tls/rediriger-HTTP-vers-HTTPS"
 title = "Comment rediriger les requêtes HTTP vers HTTPS"
 linkTitle = "Rediriger HTTP vers HTTPS"
 layout = "howto"

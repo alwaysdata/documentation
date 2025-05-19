@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/système-d-alertes/"
+url = "/fr/comptes/systeme-dalertes/"
 title = "Système d'alertes"
 layout = "man"
 hidden = true

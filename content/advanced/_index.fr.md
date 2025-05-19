@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/"
+url = "/fr/avance/"
 title = "Avancé"
 pre = "<i class='fas fa-fw fa-asterisk'></i> "
 weight = 99

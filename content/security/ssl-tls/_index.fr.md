@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/"
+url = "/fr/securite/ssl-tls/"
 title = "SSL/TLS"
 weight = 20
 archetype = "chapter"

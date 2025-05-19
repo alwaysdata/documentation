@@ -1,5 +1,5 @@
 +++
-url = "/fr/emails/délivrabilité-bonnes-pratiques/"
+url = "/fr/emails/delivrabilite-bonnes-pratiques/"
 title = "Comment améliorer la délivrabilité d'emails"
 linkTitle = "Délivrabilité : bonnes pratiques"
 layout = "howto"

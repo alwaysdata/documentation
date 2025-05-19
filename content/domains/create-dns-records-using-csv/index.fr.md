@@ -1,5 +1,5 @@
 +++
-url = "/fr/emails/créer-des-enregistrements-DNS-via-csv/"
+url = "/fr/emails/creer-des-enregistrements-DNS-via-csv/"
 title = "Comment créer plusieurs enregistrements DNS via CSV"
 layout = "howto"
 hidden = true

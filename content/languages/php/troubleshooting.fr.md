@@ -1,5 +1,5 @@
 +++
-url = "/fr/langages/php/problèmes-fréquents/"
+url = "/fr/langages/php/problemes-frequents/"
 title = "PHP - Problèmes fréquents"
 layout = "man"
 hidden = true

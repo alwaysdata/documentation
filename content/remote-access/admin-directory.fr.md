@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/répertoire-admin/"
+url = "/fr/acces-distant/repertoire-admin/"
 title = "Répertoire admin : présentation"
 layout = "man"
 hidden = true

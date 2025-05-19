@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/déplacer-un-domaine/"
+url = "/fr/domaines/deplacer-un-domaine/"
 title = "Comment déplacer un domaine"
 layout = "howto"
 hidden = true

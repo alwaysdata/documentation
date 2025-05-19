@@ -1,5 +1,5 @@
 +++
-url = "/fr/avancé/adresses-ip-dédiées"
+url = "/fr/avance/adresses-ip-dediees"
 title = "Adresses IP dédiées"
 layout = "man"
 hidden = true

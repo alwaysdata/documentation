@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/memcached/"
+url = "/fr/bases-de-donnees/memcached/"
 title = "Memcached"
 layout = "man"
 hidden = true

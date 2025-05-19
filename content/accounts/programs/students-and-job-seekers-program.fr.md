@@ -1,5 +1,5 @@
 +++
-url = "/fr/comptes/programmes/étudiants_sans-emploi"
+url = "/fr/comptes/programmes/etudiants_sans-emploi"
 title = "Programme étudiants / sans emploi"
 linkTitle = "Étudiants / Sans emploi"
 layout = "man"

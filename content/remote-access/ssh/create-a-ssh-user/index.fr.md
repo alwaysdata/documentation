@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ssh/créer-un-utilisateur-ssh/"
+url = "/fr/acces-distant/ssh/creer-un-utilisateur-ssh/"
 title = "Comment créer un utilisateur SSH"
 layout = "howto"
 weight = 30

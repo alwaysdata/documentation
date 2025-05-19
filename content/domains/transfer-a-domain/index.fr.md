@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/transférer-un-domaine/"
+url = "/fr/domaines/transferer-un-domaine/"
 title = "Comment transférer un domaine"
 linkTitle = "Transférer un domaine"
 layout = "howto"

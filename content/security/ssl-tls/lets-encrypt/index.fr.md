@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/certificats-lets-encrypt"
+url = "/fr/securite/ssl-tls/certificats-lets-encrypt"
 title = "Certificats Let's Encrypt"
 linkTitle = "Let's Encrypt"
 layout = "man"

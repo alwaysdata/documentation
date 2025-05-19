@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/mode-restreint/"
+url = "/fr/securite/mode-restreint/"
 title = "Lever le mode restreint"
 layout = "man"
 hidden = true

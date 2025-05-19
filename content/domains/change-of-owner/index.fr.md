@@ -1,5 +1,5 @@
 +++
-url = "/fr/domaines/changer-de-propriétaire/"
+url = "/fr/domaines/changer-de-proprietaire/"
 title = "Comment changer le propriétaire d'un domaine"
 layout = "howto"
 hidden = true

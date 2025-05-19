@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/postgresql/"
+url = "/fr/bases-de-donnees/postgresql/"
 title = "PostgreSQL"
 layout = "man"
 tags = ["base de données", "postgresql"]

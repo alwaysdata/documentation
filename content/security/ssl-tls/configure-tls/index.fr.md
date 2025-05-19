@@ -1,5 +1,5 @@
 +++
-url = "/fr/sécurité/ssl-tls/configurer-tls/"
+url = "/fr/securite/ssl-tls/configurer-tls/"
 title = 'Configurer TLS'
 layout = "howto"
 hidden = true

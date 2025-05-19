@@ -1,5 +1,5 @@
 +++
-url = "/fr/accès-distant/ftp/créer-un-utilisateur-ftp/"
+url = "/fr/acces-distant/ftp/creer-un-utilisateur-ftp/"
 title = "Comment créer un utilisateur FTP"
 layout = "howto"
 weight = 30

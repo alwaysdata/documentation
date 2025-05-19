@@ -1,5 +1,5 @@
 +++
-url = "/fr/bases-de-données/dupliquer-base-de-données"
+url = "/fr/bases-de-donnees/dupliquer-base-de-donnees"
 title = "Dupliquer une base de données"
 layout = "howto"
 hidden = true

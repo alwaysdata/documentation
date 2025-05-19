@@ -1,5 +1,5 @@
 +++
-url = "/fr/sites/problèmes-fréquents/"
+url = "/fr/sites/problemes-frequents/"
 title = "Sites web - Problèmes fréquents"
 layout = "faq"
 weight = 90
