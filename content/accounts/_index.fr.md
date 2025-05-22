@@ -18,6 +18,7 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Supprimer un compte](delete-an-account)
 - [Gestion des permissions](permissions)
 - [Céder un compte](account-transfer)
+- [Renommer un compte](rename-an-account)
 - [Compte restreint](security/restricted-mode)
 - [Utiliser les tokens](tokens)
 - [Serveur dédié : ticket urgent](urgent-ticket)
@@ -41,4 +42,3 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 * [Tarifs des interventions](accounts/billing/servers-interventions)
 * [Prix options - anciennes configurations](accounts/billing/prices-options-old-configurations)
 * [Diverses questions](./billing/misc)
-

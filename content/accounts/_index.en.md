@@ -16,6 +16,7 @@ Our [ticket](https://admin.alwaysdata.com/support/) interface is our preferred w
 - [Delete an account](delete-an-account)
 - [Manage permissions](permissions)
 - [Transfer an account](account-transfer)
+- [Rename an account](rename-an-account)
 - [Restricted account](security/restricted-mode)
 - [Use tokens](tokens)
 - [Dedicated server: urgent tickets](urgent-ticket)
