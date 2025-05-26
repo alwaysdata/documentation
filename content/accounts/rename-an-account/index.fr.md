@@ -25,3 +25,7 @@ Rendez-vous :
 Le nouveau nom de compte sera alors demandé :
 
 {{< fig "images/account-rename.fr.png" "" >}}
+
+{{% notice note %}}
+Seul le **propriétaire du compte** peut effectuer cette action.
+{{% /notice %}}

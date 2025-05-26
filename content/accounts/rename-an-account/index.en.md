@@ -27,3 +27,6 @@ The new account name will then be requested:
 
 {{< fig "images/account-rename.en.png" "" >}}
 
+{{% notice note %}}
+Only the **account owner** can perform this action.
+{{% /notice %}}

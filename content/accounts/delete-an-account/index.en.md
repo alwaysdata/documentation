@@ -14,8 +14,8 @@ Go to the **Subscriptions** menu and click on the *trash* for the account to del
 
 This will delete all of the domains, e-mail addresses, websites, files, databases (...) linked to this account.
 
-{{% notice info %}}
-No refunds are provided for early deletion.
+{{% notice note %}}
+Only the **account owner** can perform this action. Furthermore, no refunds are provided for early deletion.
 {{% /notice %}}
 
 ## Delete your profile

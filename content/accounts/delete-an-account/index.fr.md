@@ -16,8 +16,8 @@ Allez dans le menu **Abonnements** et cliquez sur la _poubelle_ du compte à sup
 
 Cela va supprimer tous les domaines, adresses email, sites web, fichiers, bases de données (...) liés à ce compte.
 
-{{% notice info %}}
-Aucun remboursement n'est prévu lors d'une suppression avant échéance.
+{{% notice note %}}
+Seul le **propriétaire du compte** peut effectuer cette action. Par ailleurs, aucun remboursement n'est prévu lors d'une suppression avant échéance.
 {{% /notice %}}
 
 ## Supprimer son profil
