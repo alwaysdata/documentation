@@ -12,7 +12,7 @@ Voici comment procéder à la migration d'adresses email chez alwaysdata.
 
 2. Migrer les emails déjà présents chez le prestataire actuel via **Emails > Adresses > Modifier [exemple@example.org] -  ⚙️ > Importer des emails**.
 
-Vous devez connaître le nom d'hôte, l'utilisateur et son mot de passe de l'adresse email à importer.
+Cet import est effectué par [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol). Vous devez donc connaître le nom d'hôte, l'utilisateur et le mot de passe de l'adresse email à importer.
 
 3. Changer les enregistrements MX, pour utiliser les serveurs d'alwaysdata : `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 

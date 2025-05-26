@@ -12,7 +12,7 @@ Here is how to move e-mails addresses to alwaysdata.
 
 2. Migrate e-mails already existing with the current provider via **Emails > Addresses > Modify [example@example.org] -  ⚙️ > Import emails**.
 
-You need to know the hostname, the username and its password of the mailbox to import.
+This import is carried out by [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol). You therefore need to know the hostname, the username and the password of the mailbox to import.
 
 3. Change MX records to use alwaysdata servers: `mx1.alwaysdata.com` and `mx2.alwaysdata.com`.
 
