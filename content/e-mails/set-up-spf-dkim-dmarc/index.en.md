@@ -11,7 +11,7 @@ Here are three methods for authenticating your e-mails and thereby reducing abus
 
 [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a `TXT` type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send e-mails and compare it with the IP address of the sender's server.
 
-{{< fig "images/globalcyberalliance-spf.en.png" "SPF: explanatory diagram" >}}
+{{< fig "images/globalcyberalliance-spf.en.png" "" >}}
 
 ### Parameters
 
@@ -46,7 +46,7 @@ This technology may have an impact on e-mail redirects as the sender server is n
 
 A SPF record is created by default and can be found in the **DNS records** tab for the domain:
 
-{{< fig "images/spf-record.png" "SPF record" >}}
+{{< fig "images/spf-record.png" "" >}}
 
 - `include:_spf.alwaysdata.com` **explicitly allows our servers** to send e-mails,
 - `~all` sends a slight "SOFTMAIL" failure result for the other sender servers.
@@ -66,20 +66,18 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 - a private key that is known - and kept secret - from the domain’s mail delivery servers;
 - a public key that corresponds to a DNS registration of the `TXT` type.
 
-{{< fig "images/globalcyberalliance-dkim.en.png" "DKIM: explanatory diagram" >}}
+{{< fig "images/globalcyberalliance-dkim.en.png" "" >}}
 
-### Setup
+### At alwaysdata
 
-To generate a pair of keys, go to **Domains > Details of [example.org] - 🔎 > Configuration**.
-
-{{< fig "images/admin-panel_domain-configuration.en.png" "Administration interface: configure DKIM" >}}
-{{< fig "images/admin-panel_dkim.en.png" "Administration interface: DKIM configuration result" >}}
-
- The `TXT` record will automatically be created and available in the **DNS records** tab:
+A pair of keys is created by default, whose public key (the `TXT` record) will be found in the **DNS Records** tab of the domain:
 
 {{< fig "images/dkim-record.png" "DKIM record" >}}
 
- If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
+If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
+
+> It is possible to generate others in **Domains > Details of [example.org] - 🔎 > Configuration**.
+
 
 ### Links
 
@@ -95,7 +93,7 @@ To generate a pair of keys, go to **Domains > Details of [example.org] - 🔎 > 
 - the sender server is specified in the SPF record for the domain (*MAIL FROM*),
 - the domain is in the e-mail's *FROM* field.
 
-{{< fig "images/globalcyberalliance-dmarc.en.png" "DMARC: explanatory diagram" >}}
+{{< fig "images/globalcyberalliance-dmarc.en.png" "" >}}
 
 {{% notice info %}}
 To use DMARC, DKIM and SPF must already be implemented.
@@ -126,7 +124,7 @@ To use DMARC, DKIM and SPF must already be implemented.
 
 To implement it, a `TXT` DNS record needs to be created. At alwaysdata, you will find it in the **DNS records** tab of the domain:
 
-{{< fig "images/dmarc-record.png" "DMARC record" >}}
+{{< fig "images/dmarc-record.png" "" >}}
 
 ### Links
 

@@ -11,7 +11,7 @@ Voici 3 méthodes pour authentifier vos emails et réduire de ce fait l'usage ab
 ## Sender Policy Framework
 [SPF](https://fr.wikipedia.org/wiki/Sender_Policy_Framework) fait une requête DNS de type `TXT` sur le domaine de l'expéditeur \("_MAIL FROM_" dans les en-têtes du message) pour connaître la liste des serveurs autorisés à envoyer des emails et la comparer à l'adresse IP du serveur émetteur.
 
-{{< fig "images/globalcyberalliance-spf.en.png" "SPF : schéma explicatif" >}}
+{{< fig "images/globalcyberalliance-spf.en.png" "" >}}
 
 ### Paramètres
 
@@ -46,7 +46,7 @@ Cette technologie peut avoir des répercussions sur les redirections emails : le
 
 Un enregistrement SPF est créé par défaut, à retrouver dans l'onglet **Enregistrements DNS** du domaine :
 
-{{< fig "images/spf-record.png" "Enregistrement SPF" >}}
+{{< fig "images/spf-record.png" "" >}}
 
 - `include:_spf.alwaysdata.com` **autorise explicitement nos serveurs** à envoyer des emails ;
 - `~all` envoie un léger échec "SOFTMAIL" pour les autres serveurs d'envois.
@@ -66,20 +66,17 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, il faudra, chez le pr
 - une clé privée qui est connue - et gardée secrète - des serveurs mails expéditeurs du domaine ;
 - une clé publique qui correspond à un enregistrement DNS de type `TXT`.
 
-{{< fig "images/globalcyberalliance-dkim.en.png" "DKIM : schéma explicatif" >}}
+{{< fig "images/globalcyberalliance-dkim.en.png" "" >}}
 
-### Mise en place
+### Chez alwaysdata
 
-Pour générer une paire de clés chez alwaysdata, rendez-vous dans **Domaines > Détails de [example.org] - 🔎> Configuration**.
+Une paire de clés est créée par défaut, dont la clé publique (l'enregistrement `TXT`) est à retrouver dans l'onglet **Enregistrements DNS** du domaine :
 
-{{< fig "images/admin-panel_domain-configuration.fr.png" "Interface d'administration : configurer DKIM" >}}
-{{< fig "images/admin-panel_dkim.fr.png" "Interface d'administration : résultat de la configuration DKIM" >}}
-
-Cela créera automatiquement l'enregistrement `TXT`, alors disponible dans l'onglet **Enregistrement DNS** :
-
-{{< fig "images/dkim-record.png" "Enregistrement DKIM" >}}
+{{< fig "images/dkim-record.png" "" >}}
 
 Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement doit être recopié chez le prestataire DNS.
+
+> Il est possible d'en générer d'autres dans **Domaines > Détails de [example.org] - 🔎 > Configuration**.
 
 ### Liens
 
@@ -95,7 +92,7 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement do
 - le serveur d'envoi est indiqué dans l'enregistrement SPF du domaine (_MAIL FROM_) ;
 - le domaine est dans le champ _FROM_ de l'email.
 
-{{< fig "images/globalcyberalliance-dmarc.en.png" "DMARC : schéma explicatif" >}}
+{{< fig "images/globalcyberalliance-dmarc.en.png" "" >}}
 
 {{% notice info %}}
 Pour utiliser DMARC, DKIM et SPF doivent donc déjà être implémentés.
@@ -126,7 +123,7 @@ Pour utiliser DMARC, DKIM et SPF doivent donc déjà être implémentés.
 
 Pour le mettre en place, un enregistrement DNS de type `TXT` doit être créé. Chez alwaysdata, vous le retrouverez dans l'onglet **Enregistrements DNS** du domaine :
 
-{{< fig "images/dmarc-record.png" "Enregistrement DMARC" >}}
+{{< fig "images/dmarc-record.png" "" >}}
 
 ### Liens
 
