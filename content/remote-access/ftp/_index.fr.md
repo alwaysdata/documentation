@@ -47,5 +47,9 @@ DenyUser [utilisateur FTP]
 </Limit>
 ```
 
+## Divers
+
+La plage de ports utilisée pour le mode passif est *53000-53999*.
+
 ---
 - [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit

@@ -45,5 +45,9 @@ DenyUser [utilisateur FTP]
 </Limit>
 ```
 
+## Miscellaneous
+
+The port range used for passive mode is *53000-53999*.
+
 ---
 - [FileZilla](https://filezilla-project.org/download.php): free FTP client
