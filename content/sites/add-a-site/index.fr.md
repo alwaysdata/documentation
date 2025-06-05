@@ -37,8 +37,9 @@ Spécifique à chaque type de site :
 - Ruby on Rails <= 2.x ;
 - [Node.js](languages/nodejs) ;
 - [Elixir](languages/elixir) ;
-- [Deno](languages/deno),
-- [.NET](languages/dotnet),
+- [Deno](languages/deno) ;
+- [.NET](languages/dotnet) ;
+- [Java](languages/java) ;
 - [Redirection](sites/redirect) ;
 - Reverse proxy : met en place un reverse proxy vers une URL ;
 - [Fichiers statiques](sites/static-files) : pour gérer des sites ou fichiers statiques ;

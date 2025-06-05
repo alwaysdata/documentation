@@ -32,9 +32,27 @@ Votre environnement Java est initialement vide, sans aucune bibliothèque préin
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Java, créez un site de type *[Programme utilisateur](sites/user-program)* dans la section **Web > Sites**. 
+Pour déployer une application HTTP avec Java, vous devez créer un site dans la section **Web > Sites** et pouvez utiliser deux types de sites :
 
-{{< fig "images/user-program.fr.png" "Type de site Programme utilisateur">}}
+### Java
+
+Il utilise le serveur HTTP [Apache Tomcat](https://tomcat.apache.org/).
+
+{{< fig "images/java-tomcat.fr.png" "">}}
+
+* type : choisissez *Java* ;
+* chemin de l'application : le chemin du fichier de votre application Java.
+
+Vous pouvez également renseigner plusieurs champs optionnels :
+
+* des variables d'environnement à définir ;
+* une version de Python spécifique à utiliser.
+
+### Programme utilisateur
+
+[Présentation](sites/user-program)
+
+{{< fig "images/user-program.fr.png" "">}}
 
 Vous devrez spécifier la commande qui démarre votre application Java, par exemple[^1] :
 

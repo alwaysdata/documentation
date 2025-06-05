@@ -31,9 +31,27 @@ Your Java environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Java, create a *[User program](sites/user-program)* type site in the **Web > Sites** section.
+To deploy an HTTP application with Java, create a site in the **Web > Sites** section. You can choose between two types:
 
-{{< fig "images/user-program.en.png" "User Program Site Type">}}
+### Java
+
+It uses the [Apache Tomcat](https://tomcat.apache.org/) HTTP server.
+
+{{< fig "images/java-tomcat.en.png" "">}}
+
+- type: choose *Java*,
+- application path: the path to the file of your Java application.
+
+You can also fill-in a number of optional fields:
+
+- environment variables to define,
+- a specific version of Java to use.
+
+### User Program
+
+[Presentation](sites/user-program)
+
+{{< fig "images/user-program.en.png" "">}}
 
 You need to specify the command that will start your Java application, for example[^1]:
 

@@ -39,6 +39,7 @@ Specific to every type of site:
 - [Elixir](languages/elixir),
 - [Deno](languages/deno),
 - [.NET](languages/dotnet),
+- [Java](languages/java),
 - [Redirect](sites/redirect),
 - Reverse proxy: sets up a reverse proxy to a URL,
 - [Static files](sites/static-files): to manage sites or static files,
