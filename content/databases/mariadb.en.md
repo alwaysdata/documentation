@@ -64,7 +64,7 @@ An [ANALYZE TABLE](https://mariadb.com/kb/en/analyze-table/) is carried out dail
 
 To check the MariaDB configuration use the SQL query `show variables`.
 
-*MySQL events* are not supported on alwaysdata's servers.
+*MySQL events* are not supported on alwaysdata's Public Cloud.
 
 In the Public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
