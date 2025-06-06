@@ -10,8 +10,9 @@ The installation of a new server is **free of charge**. Other operations perform
 | -------------------------------------------- | ------------------------- |
 | CPU Upgrade                                  | 400€                      |
 | Disks Upgrade                                | 400€                      |
-| RAM Extend                                   | 200€                      |
-| Disks extend                                 | 200€                      |
+| RAM Change                                   | 200€                      |
+| GPU Addition                                 | 200€                     |
+| Disks Addition                               | 200€                      |
 | Downgrade (dedicated to VPS, VPS B to VPS A) | 200€                      |
 
 If several changes occur at the same time, each intervention is billed with a ceiling of €600 excluding VAT.

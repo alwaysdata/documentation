@@ -62,6 +62,10 @@ For any Private Cloud configuration order, the installation of the server is don
 | 128 Go | + 60 €/mo |
 | **Traffic/month**                   |                            |
 | 1TB (1Gbps) [^1]                    | + 10 €/mo                     |
+|  **GPU** ||
+| Nvidia T1000 | 50 €/mo |
+| Nvidia L4 | 250 €/mo |
+| Nvidia V100 | 1000 €/mo (annual payment required) |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
@@ -102,6 +106,10 @@ Dedicated server redunded[^2] in another datacenter.
 | 128 Go | + 120 €/mo |
 | **Traffic/month**                   |      		               |
 | 1TB (1Gbps) [^1]                    | + 20 €/mo                     |
+|  **GPU** ||
+| Nvidia T1000 | 100 €/mo |
+| Nvidia L4 | 500 €/mo |
+| Nvidia V100 | 2000 €/mo (annual payment required) |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 

@@ -11,7 +11,8 @@ La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations
 | --------------------------------------------------------------- | -------------- |
 | Changement de CPU                                               | 400 €          |
 | Changement de disques                                           | 400 €          |
-| Ajout de RAM                                                    | 200 €          |
+| Changement de RAM                                               | 200 €          |
+| Ajout de GPU                                                    | 200 €          |
 | Ajout de disques                                                | 200 €          |
 | Passage sur offre inférieure (dédié vers VPS, VPS B vers VPS A) | 200 €          |
 

@@ -64,6 +64,10 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | 128 Go | + 60 €/mois |
 | **Trafic/mois**                     |                 |
 | 1 To (1 Gbps) [^1]                  | + 10 €/mois          |
+|  **GPU** ||
+| Nvidia T1000 | 50 €/mois |
+| Nvidia L4 | 250 €/mois |
+| Nvidia V100 | 1000 €/mois (engagement annuel requis) |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 
@@ -104,6 +108,10 @@ Serveur dédié redondé[^2] dans un autre datacenter.
 | 128 Go | + 120 €/mois |
 | **Trafic/mois**                     |                 |
 | 1 To (1 Gbps) [^1]                  | + 20 €/mois          |
+|  **GPU** ||
+| Nvidia T1000 | 100 €/mois |
+| Nvidia L4 | 500 €/mois |
+| Nvidia V100 | 2000 €/mois (engagement annuel requis) |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
