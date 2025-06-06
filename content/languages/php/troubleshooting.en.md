@@ -29,7 +29,11 @@ Process 1822026 attached
 [pid 1822026] flock(8, LOCK_EX
 ```
 
-This [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-blocking-in-requests/) will provide you with more information and solutions for correcting these problem sessions.
+{{% notice tip %}}
+This [documentation](https://ma.ttias.be/php-session-locking-prevent-sessions-blocking-in-requests/) will provide you with more information and solutions for correcting these problem sessions. The best practice, to limit the period during which the session is locked, is to call `session_start()` as late as possible and `session_close()` as early as possible.
+{{% /notice %}}
+
+In case of *extreme necessity*, it is possible to set the configuration option `session.disable_locking` to `1` to remove any possibility of *lock*. **WARNING**, this can **corrupt sessions** and therefore lead to complications.
 
 ## Error messages
 
