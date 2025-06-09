@@ -1,5 +1,5 @@
 +++
-title = "admin directory overview"
+title = "Admin Directory Overview"
 layout = "man"
 hidden = true
 tags = ["account", "technical environment"]
@@ -31,7 +31,8 @@ It also gathers different types of logs:
 - _sites_: launches, shutdowns and failures of "upstream" web servers,
 - _jobs_: achievements of your [scheduled tasks](tasks),
 - _services_: achievements of your [services](services),
-- _apache_: a log for all applications using this web (PHP and Apache custom),
+- _apache_: a log for all applications using this web server (PHP and Apache custom),
+- _php_: a log for all applications using the PHP scripting language,
 - _uwsgi_: a log for every application (Python WSGI, Ruby Rack and Ruby on Rails <= 2.x).
 
 The alwaysdata administration's interface presents an excerpt of these logs (**Logs** - 📄).
@@ -41,4 +42,4 @@ A **retention period** of logs can be set up for each account via the **Advanced
 *All logs (http, sites, jobs...) will be deleted once the desired period has passed.*
 {{% /notice %}}
 
-Only *apache* et *uwsgi* logs from the ongoing month are counted into the account's disk space quota.
+Only *apache*, *php* and *uwsgi* logs from the ongoing month are counted into the account's disk space quota.

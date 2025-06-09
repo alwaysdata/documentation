@@ -53,6 +53,6 @@ Premature end of script headers: index.php, referer: https://example.org
 
 Le *serveur* s'est arrêté subitement et Apache renvoie une erreur 500. **Cela ne doit pas arriver en situation normale.** Cela peut provenir de nombreuses raisons (bug PHP, bug applicatif, processus PHP tué par le kernel, etc.).
 
-Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, [logs PHP](languages/php/configuration#logs-derreur)...
+Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, logs PHP...
 
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)

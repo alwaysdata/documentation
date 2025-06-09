@@ -20,7 +20,7 @@ Versions are not necessarily [already installed](languages#versions).
 
 ## Parameters (php.ini)
 
-By default, the `php.ini` file activates a number of essential extensions and defines some basic parameters. This file is accessible in read from the following location `$HOME/admin/config/php/php.ini`. Here is its content (for an account configured on PHP version 7.2):
+By default, the `php.ini` file activates a number of essential extensions and defines some basic parameters. This file is accessible in read from the following location `$HOME/admin/config/php/php.ini`. Here is its content (for an account configured on PHP version 8.2):
 
 ```ini
 ; Core settings
@@ -36,13 +36,19 @@ expose_php = Off
 default_socket_timeout = 10
 date.timezone = "Europe/Paris"
 
+log_errors = On
+error_log = /home/test/admin/logs/php/php.log
+ignore_repeated_errors = On
+ignore_repeated_source = On
+
+
 mysql.default_socket = /run/mysqld/mysqld.sock
 
-session.save_path = /home/sandbox/admin/tmp
-upload_tmp_dir = /home/sandbox/admin/tmp
+session.save_path = /home/test/admin/tmp
+upload_tmp_dir = /home/test/admin/tmp
 
 ; Extensions
-extension_dir = "/usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-20170718"
+extension_dir = "/usr/alwaysdata/php/8.2/lib/php/extensions/no-debug-non-zts-20220829"
 
 extension = ctype.so
 extension = curl.so
@@ -72,23 +78,13 @@ extension = fileinfo.so
 extension = phar.so
 
 ; Zend extensions
-zend_extension = /usr/alwaysdata/php/7.2.12/lib/php/extensions/no-debug-non-zts-20170718/opcache.so
+zend_extension = /usr/alwaysdata/php/8.2/lib/php/extensions/no-debug-non-zts-20220829/opcache.so
+opcache.lockfile_path = /home/test/admin/tmp
 ```
 
 To change this `php.ini`, go to the **Environment > PHP** section (or if you want to manage it at the website level in **Web > Sites**). All of the directives that you define will be added to the initial `php.ini` file and can therefore overwrite the default values. There is no limit to what you can define, every PHP option is accessible.
 
 You can also create `.user.ini` files to only apply parameters to some directories.
-
-### Error logs
-
-You can view the Apache error logs from file `$HOME/admin/logs/apache/apache.log`. These logs sometimes comprise important information returned by PHP.
-
-A [php.ini](languages/php/configuration#parameters-php-ini) option lets you get PHP error logs by adding the following directives:
-
-```ini
-log_errors = On
-error_log = /home/[myaccount]/[path_to_log_file]
-```
 
 ## HTTP deployment
 

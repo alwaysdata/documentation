@@ -33,6 +33,7 @@ Il recueille différents types de logs :
 - _jobs_ : exécution de vos [tâches planifiées](tasks) ;
 - _services_ : exécution de vos [services](services) ;
 - _apache_ : un log pour toutes les applications utilisant ce serveur web (PHP et Apache personnalisé) ;
+- _php_ : un log pour toutes les applications utilisant le langage de programmation PHP ;
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
 
 Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
@@ -42,4 +43,4 @@ Une **période de rétention** des logs peut être mise en place pour chaque com
 *Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.*
 {{% /notice %}}
 
-Seuls les logs *apache* et *uwsgi* du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.
+Seuls les logs *apache*, *php* et *uwsgi* du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.
