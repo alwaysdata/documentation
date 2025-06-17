@@ -14,7 +14,7 @@ The migrations available appear in the [alwaysdata administration](https://admin
 Some migrations are optional: you choose whether or not to migrate. Other migrations are mandatory ones: you have a period of time to migrate. Once the deadline is reached, any remaining migrations are done automatically.
 
 - [Perform a migration](advanced/migrations/perform-migration)
-- [Private Cloud migrations](advanced/migrations/vps-and-dedicated-migrations)
+- [Private Cloud migrations](advanced/migrations/private-cloud-migrations)
 
 ## Migrations currently offered
 

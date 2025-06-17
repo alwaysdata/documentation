@@ -11,12 +11,14 @@ This page lists the prices (VAT excluded) of the Public Cloud configurations. To
 * Mean Time To Repair (MTTR): 4hr
 * Availability rate: 99.7%
 
-|                    | Cloud 100MB[^1] | Cloud 10GB     | Cloud 20GB    | Cloud 50GB    | Cloud 100GB | Cloud 150GB | Cloud 300GB |
-| ------------------ | --------------- | -------------- | ------------- | ------------- | --------------- | --------------- | --------------- |
-| Websites & domains | Unlimited       | Unlimited      | Unlimited     | Unlimited     | Unlimited       | Unlimited       | Unlimited       |
-| Use-cases          | Limited traffic | Medium traffic | Large traffic | Large traffic | Large traffic   | Large traffic   | Large traffic   |
-| Annual payment   | Free            | 7 €/mo          | 11 €/mo        | 22 €/mo        | 39 €/mo             | 59 €/mo             | 109 €/mo            |
-| Monthly payment    | Free            | 8 €/mo            | 13 €/mo          | 27 €/mo          | 49 €/mo            | 69 €/mo            | 135 €/mo           |
+| | Free [^1] | Small | Medium | Large | X-Large |
+| --- | --- | --- | --- | ---| --- |
+| Disk space | 1 GB | 50 GB | 100 GB | 200 GB | 500 GB |
+| RAM | 256 MB | 1 GB | 2 GB | 4 GB | 8 GB
+| CPU | 1/4 | 1 | 2 | 4 | 8 |
+| [Backups](backups) (rolling days) | 3 days | 7 days | 20 days | 20 days | 30 days |
+| Annual payment | Free | 5 €/months | 20 €/months | 50 €/months | 150 €/months |
+| Monthly payment | Free | 6 €/months | 22 €/months | 55 €/months | 165 €/months |
 
 The [Public Cloud configuration change](accounts/billing/upgrade-your-plan) is done through the **Subscriptions** menu.
 

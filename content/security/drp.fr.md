@@ -12,6 +12,8 @@ Ces garanties *ne sont pas* optionnelles : elles sont embarquées par défaut da
 
 ## Données & Sauvegardes
 
+Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](backups), elles sont conservées jusqu'à 30 jours glissants.
+
 ### Mes données sont-elles sauvegardées ?
 
 Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. Elles sont conservées pendant 30 jours glissants.

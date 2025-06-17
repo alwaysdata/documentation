@@ -54,7 +54,8 @@ RewriteRule ^green/?$  /en/green-hosting/ [QSA,L,R=307]
 ## Redirects remove accents (2024 migration mails and API)
 Redirect 301 /fr/avancé/migrations/architecture-logicielle-2024/#arrêt-du-support-de-mongodb /fr/avance/migrations/architecture-logicielle-2024/#arrêt-du-support-de-mongodb
 Redirect 301 /fr/avancé/migrations/architecture-logicielle-2024/ /fr/avance/migrations/architecture-logicielle-2024/
-Redirect 301 /fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/déroulement-migrations-obligatoires/ /fr/avance/migrations/effectuer-une-migration-vps-ou-dedie/deroulement-migrations-obligatoires/
+Redirect 301 /fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/déroulement-migrations-obligatoires/ /fr/avance/migrations/migration-cloud-prive/deroulement-migrations-obligatoires/
+Redirect 301 /fr/avancé/migrations/effectuer-une-migration-vps-ou-dédié/ /fr/avance/migrations/migration-cloud-prive/
 Redirect 301 /fr/sécurité/authentification-2-facteurs/ /fr/securite/authentification-2-facteurs/
 
 ## Redirect old site menu

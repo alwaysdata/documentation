@@ -9,7 +9,6 @@ Ce programme donne aux formateurs la possibilité d'inviter - via le menu **Prof
 
 - chaque étudiant aura son _propre_ compte gratuit ;
 - le formateur aura des _permissions techniques_ sur tous les comptes de ses étudiants ;
-- ces comptes sont limités à _200 Mo_ d'espace disque ;
 - notre dispositif de sécurité ne bloquera pas votre IP s'il détecte de nombreuses requêtes venant de la même origine (du même établissement par exemple dans le cadre d'un cours donné depuis l'enceinte d'une école).
 
 Pour en bénéficier remplissez votre profil avec les informations de votre établissement et [ouvrez un ticket](https://admin.alwaysdata.com/support/add/). Le programme est gratuit pour les éta­blis­se­ments publics et via des partenariats pour les structures privées.

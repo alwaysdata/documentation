@@ -2,7 +2,7 @@
 title = "Private Cloud pricing"
 layout = "man"
 hidden = true
-tags = ["billing", "dedicated server", "gold server", "vps"]
+tags = ["billing", "dedicated server", "gold server"]
 +++
 
 This page lists the prices (*VAT excluded*) of the Private Cloud configurations. To have **more information** and/or a **custom configuration** contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).
@@ -13,27 +13,13 @@ For any Private Cloud configuration order, the installation of the server is don
 *Private Cloud* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administation part.
 {{% /notice %}}
 
-## Managed VPS servers
-
-* Guaranteed Response Time (GRT): 30mins
-* Mean Time To Repair (MTTR): 2hr
-* Availability rate: 99.8%
-
-|                            | VPS A            | VPS B            |
-|----------------------------|------------------|------------------|
-| CPU                        | 2 vCPUs (3.5GHz) | 4 vCPUs (3.5GHz) |
-| RAM                        | 4GB ECC          | 8GB ECC          |
-| Disks                      | 100GB SSD        | 200GB SSD        |
-| Network                    | 1Gbps            | 1Gbps            |
-| Traffic/month              | 1TB              | 1TB              |
-| Annual payment             | 139 €/mo            | 189 €/mo            |
-| Monthly payment            | 159 €/mo            | 209 €/mo            |
-
 ## Managed Dedicated servers
 
 * Guaranteed Response Time (GRT): 15mins
 * Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.9%
+
+- Backups: 30 rolling days
 
 | Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |
@@ -78,6 +64,8 @@ Dedicated server redunded[^2] in another datacenter.
 * Guaranteed Response Time (GRT): 15mins
 * Mean Time To Repair (MTTR): 1hr
 * Availability rate: 99.95%
+
+- Backups: 30 rolling days
 
 | Base configuration    |                                    | Annual payment | Monthly payment |
 | --------------------- | ---------------------------------- | -------------------------- | ------------------------- |

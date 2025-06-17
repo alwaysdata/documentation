@@ -3,7 +3,7 @@ url = "/fr/comptes/facturation/prix-cloud-prive/"
 title = "Tarifs Cloud Privé"
 layout = "man"
 hidden = true
-tags = ["facturation", "serveur dédié", "serveur gold", "serveur VPS"]
+tags = ["facturation", "serveur dédié", "serveur gold"]
 +++
 
 Cette page recence les prix (*hors taxes*) des configurations Cloud Privé. Pour **plus d'informations** et/ou une **configuration personnalisée** contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
@@ -14,28 +14,13 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 *Cloud Privé* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas à gérer l'administration des systèmes.
 {{% /notice %}}
 
-## Serveurs VPS infogérés
-
-* Garantie de Temps d'Intervention (GTI) : 30min
-* Garantie de Temps de Rétablissement (GTR) : 2h
-* Taux de disponibilité : 99.8 %
-
-
-|                 | VPS A             | VPS B             |
-| --------------- | ----------------- | ----------------- |
-| CPU             | 2 vCPUs (3.5 GHz) | 4 vCPUs (3.5 GHz) |
-| RAM             | 4 Go ECC          | 8 Go ECC          |
-| Disques         | 100 Go SSD        | 200 Go SSD        |
-| Réseau          | 1 Gbps            | 1 Gbps            |
-| Trafic/mois     | 1 To              | 1 To              |
-| Paiement annuel  | 139 €/mois             | 189 €/mois             |
-| Paiement mensuel | 159 €/mois             | 209 €/mois             |
-
 ## Serveurs dédiés infogérés
 
 * Garantie de Temps d'Intervention (GTI) : 15min
 * Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.9 %
+
+- Sauvegardes : 30 jours glissants
 
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |
@@ -80,6 +65,8 @@ Serveur dédié redondé[^2] dans un autre datacenter.
 * Garantie de Temps d'Intervention (GTI) : 15min
 * Garantie de Temps de Rétablissement (GTR) : 1h
 * Taux de disponibilité : 99.95 %
+
+- Sauvegardes : 30 jours glissants
 
 | Configuration de base |                                    | Paiement annuel | Paiement mensuel |
 | --------------------- | ---------------------------------- | --------------- | ------------- |

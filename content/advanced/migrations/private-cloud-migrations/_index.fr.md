@@ -1,5 +1,5 @@
 +++
-url = "/fr/avance/migrations/effectuer-une-migration-vps-ou-dedie/"
+url = "/fr/avance/migrations/migration-cloud-prive/"
 title = "Comment effectuer une migration en Cloud Privé"
 layout = "howto"
 hidden = true
@@ -12,7 +12,7 @@ Sur le Cloud Public, lors d'une migration, les comptes sont migrés vers un nouv
 
 ##  Migrations obligatoires
 
-Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, [elles se font en plusieurs étapes](advanced/migrations/vps-and-dedicated-migrations/required-migrations-process).
+Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, [elles se font en plusieurs étapes](advanced/migrations/private-cloud-migrations/required-migrations-process).
 
 ## Migrations optionnelles
 

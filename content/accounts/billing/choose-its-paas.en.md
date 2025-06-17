@@ -12,12 +12,9 @@ alwaysdata proposes several kinds of environment:
 
 | Name || Description |
 |---|---|---|
-| [Public Cloud](accounts/billing/public-cloud-prices)[^3] || Hosting account spread over several servers - hosting hundreds of users |
+| [Public Cloud](accounts/billing/public-cloud-prices) || Hosting account spread over several servers - hosting hundreds of users |
 ||| GRT 1hr, MTTR 4hrs, Availability rate 99.7% |
-| [Private Cloud](accounts/billing/private-cloud-prices) | VPS | Virtual server on bare-metal server - bare-metal server hosting less than 10 users |
-||| Isolation per account without additional billing |
-||| GRT 30mins, MTTR 2hrs, Availability rate 99.8% |
-|| Dedicated | Bare-metal server exclusively for a single user |
+| [Private Cloud](accounts/billing/private-cloud-prices) | Dedicated | Bare-metal server exclusively for a single user |
 ||| Isolation per account without additional billing |
 ||| GRT 15mins, MTTR 1hr, Availability rate 99.9% |
 || Gold | Bare-metal server exclusively for a single user, **redundated** in another datacenter |
@@ -29,54 +26,54 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 ---
 
 | Services || Public Cloud | Private Cloud |
-|---|---|---|---|---|---|
-|||| **VPS** | **Dedicated** | **Gold** |
+|---|---|---|---|---|
+|||| **Dedicated** | **Gold** |
 | Support | Tickets |✔️|✔️|✔️|✔️|
-|| [Prioritized tickets](accounts/urgent-ticket) |❌|❌|✔️|✔️|
-|| Phone |❌|❌|✔️|✔️|
-| Websites | Configurable HTTP server |✔️|✔️|✔️|✔️|
-|| [Marketplace](marketplace) |✔️|✔️|✔️|✔️|
-|| [SSL Let's Encrypt](security/ssl-tls/lets-encrypt)  |✔️|✔️|✔️|✔️|
-|| [HTTP cache](sites/http-cache) |✔️|✔️|✔️|✔️|
-|| [WAF](sites/waf) |✔️|✔️|✔️|✔️|
-|| [Analytics](analytics)  |✔️|✔️|✔️|✔️|
-|| [Monitoring probes](sites/use-probes) |❌|❌|✔️|✔️|
-|| Optimization tips |❌|❌|✔️|✔️|
-| Languages | [PHP](languages/php) |✔️|✔️|✔️|✔️|
-|| [Python](languages/python) |✔️|✔️|✔️|✔️|
-|| [Ruby](languages/ruby) |✔️|✔️|✔️|✔️|
-|| [Node.js](languages/nodejs) |✔️|✔️|✔️|✔️|
-|| [Java](languages/java) |✔️|✔️|✔️|✔️|
-|| [Deno](languages/deno) |✔️|✔️|✔️|✔️|
-|| [Elixir](languages/elixir) |✔️|✔️|✔️|✔️|
-|| [Lua](languages/lua) |✔️|✔️|✔️|✔️|
-|| [Go](languages/go) |✔️|✔️|✔️|✔️|
-|| [Any other language](languages) |✔️|✔️|✔️|✔️|
-| Databases[^4] | [MariaDB (MySQL)](databases/mariadb) |✔️|✔️|✔️|✔️|
-|| [PostgreSQL](databases/postgresql) |✔️|✔️|✔️|✔️|
-|| [RabbitMQ](databases/rabbitmq) |✔️|✔️|✔️|✔️|
-|| [Memcached](databases/memcached) |❌|✔️|✔️|✔️|
-|| [Redis](databases/redis) |❌|✔️|✔️|✔️|
-|| [ElasticSearch](databases/elasticsearch) |❌|❌|✔️|✔️|
-|| Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
-| E-mails | Customizable configuration |✔️|✔️|✔️|✔️|
-|| [Filtering via Sieve](e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|✔️|
-|| [Mailing-lists](e-mails/mailing-lists) |✔️|✔️|✔️|✔️|
-|| [SMTP queue](e-mails/smtp-queue) |❌|✔️|✔️|✔️|
-|| SMTP relay |❌|✔️|✔️|✔️|
-| Remote access | [FTP](remote-access/ftp) |✔️|✔️|✔️|✔️|
-|| [SFTP](remote-access/sftp) |✔️|✔️|✔️|✔️|
-|| [SSH](remote-access/ssh) |✔️|✔️|✔️|✔️|
-|| [WebDAV](remote-access/webdav) |✔️|✔️|✔️|✔️|
-| Backups[^5] ||✔️|✔️|✔️|✔️|
-| Other services | [API](api) |✔️|✔️|✔️|✔️|
-|| [Scheluded tasks](tasks) |✔️|✔️|✔️|✔️|
-|| Services[^6] |✔️|✔️|✔️|✔️|
-|| [Firewall management](security/network/configure-firewall) |❌|✔️|✔️|✔️|
-|| [Docker](advanced/docker) |❌|✔️|✔️|✔️|
-|| [VPN](security/vpn) |❌|❌|✔️|✔️|
-|| Database management system replication |❌|Upon request|Upon request|✔️|
-|| Real-time data replication |❌|❌|❌|✔️|
+|| [Prioritized tickets](accounts/urgent-ticket) |❌|✔️|✔️|
+|| Phone |❌|✔️|✔️|
+| Websites | Configurable HTTP server |✔️|✔️|✔️|
+|| [Marketplace](marketplace) |✔️|✔️|✔️|
+|| [SSL Let's Encrypt](security/ssl-tls/lets-encrypt)  |✔️|✔️|✔️|
+|| [HTTP cache](sites/http-cache) |✔️|✔️|✔️|
+|| [WAF](sites/waf) |✔️|✔️|✔️|
+|| [Analytics](analytics)  |✔️|✔️|✔️|
+|| [Monitoring probes](sites/use-probes) |❌|✔️|✔️|
+|| Optimization tips |❌|✔️|✔️|
+| Languages | [PHP](languages/php) |✔️|✔️|✔️|
+|| [Python](languages/python) |✔️|✔️|✔️|
+|| [Ruby](languages/ruby) |✔️|✔️|✔️|
+|| [Node.js](languages/nodejs) |✔️|✔️|✔️|
+|| [Java](languages/java) |✔️|✔️|✔️|
+|| [Deno](languages/deno) |✔️|✔️|✔️|
+|| [Elixir](languages/elixir) |✔️|✔️|✔️|
+|| [Lua](languages/lua) |✔️|✔️|✔️|
+|| [Go](languages/go) |✔️|✔️|✔️|
+|| [Any other language](languages) |✔️|✔️|✔️|
+| Databases[^3] | [MariaDB (MySQL)](databases/mariadb) |✔️|✔️|✔️|
+|| [PostgreSQL](databases/postgresql) |✔️|✔️|✔️|
+|| [RabbitMQ](databases/rabbitmq) |✔️|✔️|✔️|
+|| [Memcached](databases/memcached) |❌|✔️|✔️|
+|| [Redis](databases/redis) |❌|✔️|✔️|
+|| [ElasticSearch](databases/elasticsearch) |❌|✔️|✔️|
+|| Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
+| E-mails | Customizable configuration |✔️|✔️|✔️|
+|| [Filtering via Sieve](e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|
+|| [Mailing-lists](e-mails/mailing-lists) |✔️|✔️|✔️|
+|| [SMTP queue](e-mails/smtp-queue) |❌|✔️|✔️|
+|| SMTP relay |❌|✔️|✔️|
+| Remote access | [FTP](remote-access/ftp) |✔️|✔️|✔️|
+|| [SFTP](remote-access/sftp) |✔️|✔️|✔️|
+|| [SSH](remote-access/ssh) |✔️|✔️|✔️|
+|| [WebDAV](remote-access/webdav) |✔️|✔️|✔️|
+| Backups[^4] ||✔️|✔️|✔️|
+| Other services | [API](api) |✔️|✔️|✔️|
+|| [Scheluded tasks](tasks) |✔️|✔️|✔️|
+|| Services[^5] |✔️|✔️|✔️|
+|| [Firewall management](security/network/configure-firewall) |❌|✔️|✔️|
+|| [Docker](advanced/docker) |❌|✔️|✔️|
+|| [VPN](security/vpn) |❌|✔️|✔️|
+|| Database management system replication |❌|Upon request|✔️|
+|| Real-time data replication |❌|❌|✔️|
 
 Migration to a higher offer is possible and free of charge: in the _Subscriptions_ menu for plans in the Public Cloud or by contacting [support](https://admin.alwaysdata.com/support/add/) to switch to another environment.
 
@@ -86,7 +83,6 @@ A well _optimized_ application will have the same performances regardless its en
 
 [^1]: Hence, users do not have `root` rights and cannot use `sudo`. Many services can be directly installed at the account level and [Private Cloud](accounts/billing/private-cloud-prices) users can request support for services where this is not the case.
 [^2]: Our infrastructure is based on the Debian operating system.
-[^3]: The Public Cloud free plan offers 100Mb of disk space for non-commercial use.
-[^4]: Databases **managed** by alwaysdata. It is also possible to install them via the [services](services). The management of these services will then not be performed by alwaysdata. In the Private Cloud, the SGBD are installed upon request and can be added after installation of the server.
-[^5]: Daily [backups](backups), retained for 30 days and directly available in the account.
-[^6]: [Custom programs](services) that operate 24/7.
+[^3]: Databases **managed** by alwaysdata. It is also possible to install them via the [services](services). The management of these services will then not be performed by alwaysdata. In the Private Cloud, the SGBD are installed upon request and can be added after installation of the server.
+[^4]: Daily [backups](backups), directly available in the account and retained for up to 30 rolling days.
+[^5]: [Custom programs](services) that operate 24/7.

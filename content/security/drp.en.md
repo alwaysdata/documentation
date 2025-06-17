@@ -13,7 +13,7 @@ These guarantees *are not* optional: they are embedded by default in the platfor
 
 ### Is there a backup of my data?
 
-Your account data is automatically backup every day, without any action on your part. Backups are retained for a rolling 30-day period.
+Your account data is automatically backup every day, without any action on your part. [Depending on the offer chosen](backups), they are retained for up to 30 rolling days.
 
 ### What data is concerned?
 

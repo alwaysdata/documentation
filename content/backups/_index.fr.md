@@ -7,7 +7,12 @@ archetype = "chapter"
 tags = ["récupération", "sauvegarde"]
 +++
 
-Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quotidiennement**, conservée durant **30 jours**  glissant et disponible dans le répertoire `$HOME/admin/backup` de votre compte.
+Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quotidiennement** et disponible dans le répertoire `$HOME/admin/backup` de votre compte. Ces sauvegardes sont conservées durant un nombre de jours *glissants*, selon l'offre choisie :
+
+| Cloud Public ||||| Cloud Privé ||
+|---|---|---|---|---|---|---|
+| Free | Small | Medium | Large | X-Large | Serveurs dédiés | Serveurs Gold |
+| 3 jours | 7 jours | 20 jours | 20 jours | 30 jours | 30 jours | 30 jours |
 
 Quelque soit l'offre prise, les sauvegardes sont stockées dans un *datacenter dédié*, distant de plusieurs kilomètres du centre de production et utilisant un autre prestataire.
 
