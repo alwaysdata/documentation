@@ -9,7 +9,9 @@ tags = ["environnement technique", "infrastructure"]
 
 ## Architecture matérielle
 
-alwaysdata est propriétaire de son infrastructure - serveurs, baies de stockage, équipement réseau et tout ce qui permet de soutenir notre plateforme. Nous nous appuyons sur l'expertise d'[Equinix](https://www.equinix.com/) pour nos datacenters principaux. Ils nous certifient un niveau de disponibilité de plus de 99.99999% ([Certifications Equinix](https://www.equinix.co.uk/data-centers/design/standards-compliance)). Nos serveurs sont hébergés en France dans leurs datacenters parisiens.
+Nos serveurs sont hébergés en France, en région parisienne. Nous nous appuyons sur l'expertise d'[Equinix](https://www.equinix.com/) pour nos datacenters principaux. Ils nous certifient un niveau de disponibilité de plus de 99.99999% ([Certifications Equinix](https://www.equinix.co.uk/data-centers/design/standards-compliance)).
+
+alwaysdata est propriétaire de son infrastructure - serveurs, baies de stockage, équipement réseau et tout ce qui permet de soutenir notre plateforme.
 
 Nous opérons notre propre *réseau indépendant* : [AS60362](http://as60362.net/).
 

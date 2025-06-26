@@ -8,7 +8,9 @@ tags = ["infrastructure", "technical environment"]
 
 ## Hardware architecture
 
-alwaysdata owns its infrastructure - servers, storage, networking equipment and everything else that supports our platform. For our main datacenters, we rely on the expertise of [Equinix](https://www.equinix.com/). They guarantee a certified average availability in excess of 99.99999% ([Equinix certifications](https://www.equinix.co.uk/data-centers/design/standards-compliance)). Our servers are hosted in France in their Parisian datacenters.
+Our servers are hosted in France, in the Paris region. For our main datacenters, we rely on the expertise of [Equinix](https://www.equinix.com/). They guarantee a certified average availability in excess of 99.99999% ([Equinix certifications](https://www.equinix.co.uk/data-centers/design/standards-compliance)).
+
+alwaysdata owns its infrastructure - servers, storage, networking equipment and everything else that supports our platform.
 
 We operate our own *independent network*: [AS60362](http://as60362.net/).
 
