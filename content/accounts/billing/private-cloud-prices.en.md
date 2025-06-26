@@ -1,5 +1,5 @@
 +++
-title = "Private Cloud pricing"
+title = "Pricing: Private Cloud - Max Offers"
 layout = "man"
 hidden = true
 tags = ["billing", "dedicated server", "gold server"]

@@ -12,9 +12,9 @@ alwaysdata proposes several kinds of environment:
 
 | Name || Description |
 |---|---|---|
-| [Public Cloud](accounts/billing/public-cloud-prices) || Hosting account spread over several servers - hosting hundreds of users |
+| [Public Cloud](accounts/billing/public-cloud-prices) / Free & Plus Offers || Hosting account spread over several servers - hosting hundreds of users |
 ||| GRT 1hr, MTTR 4hrs, Availability rate 99.7% |
-| [Private Cloud](accounts/billing/private-cloud-prices) | Dedicated | Bare-metal server exclusively for a single user |
+| [Private Cloud](accounts/billing/private-cloud-prices) / Max Offers | Dedicated | Bare-metal server exclusively for a single user |
 ||| Isolation per account without additional billing |
 ||| GRT 15mins, MTTR 1hr, Availability rate 99.9% |
 || Gold | Bare-metal server exclusively for a single user, **redundated** in another datacenter |

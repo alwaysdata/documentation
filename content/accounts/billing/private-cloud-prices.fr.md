@@ -1,6 +1,6 @@
 +++
 url = "/fr/comptes/facturation/prix-cloud-prive/"
-title = "Tarifs Cloud Privé"
+title = "Tarifs : Cloud Privé - Offres Max"
 layout = "man"
 hidden = true
 tags = ["facturation", "serveur dédié", "serveur gold"]

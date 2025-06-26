@@ -1,5 +1,5 @@
 +++
-title = "Public Cloud pricing"
+title = "Pricing: Public Cloud - Plus Plans"
 layout = "man"
 hidden = true
 tags = ["billing", "public cloud"]

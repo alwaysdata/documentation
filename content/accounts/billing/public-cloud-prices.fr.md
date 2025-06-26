@@ -1,6 +1,6 @@
 +++
 url = "/fr/comptes/facturation/prix-cloud-public/"
-title = "Tarifs Cloud Public"
+title = "Tarifs : Cloud Public - Packs Plus"
 layout = "man"
 hidden = true
 tags = ["cloud public", "facturation"]
