@@ -6,7 +6,7 @@ hidden = true
 tags = ["cloud public", "facturation"]
 +++
 
-Cette page recence les prix (hors taxes) des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).
+Cette page recense les prix (hors taxes) des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).
 
 * Garantie de Temps d'Intervention (GTI) : 1h
 * Garantie de Temps de Rétablissement (GTR) : 4h

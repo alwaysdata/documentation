@@ -6,7 +6,7 @@ hidden = true
 tags = ["facturation", "serveur dédié", "serveur gold"]
 +++
 
-Cette page recence les prix (*hors taxes*) des configurations Cloud Privé. Pour **plus d'informations** et/ou une **configuration personnalisée** contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
+Cette page recense les prix (*hors taxes*) des configurations Cloud Privé. Pour **plus d'informations** et/ou une **configuration personnalisée** contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
 
 Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
