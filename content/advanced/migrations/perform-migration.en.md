@@ -29,4 +29,4 @@ Once you have tested the migration and you are sure that everything works proper
 
 It is possible to perform a _temporary_ rollback in case of an issue. This rollback is available for 7 days after the migration is initiated.
 
-- [Specificities related to migration of Private Cloud](advanced/migrations/vps-and-dedicated-migrations)
+- [Specificities related to migration of Private Cloud](advanced/migrations/private-cloud-migrations)
