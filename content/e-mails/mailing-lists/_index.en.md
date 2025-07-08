@@ -10,7 +10,7 @@ Mailing lists allow you to define a *pool* of email addresses to which to send a
 - only the "administrator" addresses are able to send content to the registered recipient addresses (e.g. a newsletter).
 - all participants can send messages to the list to enable a conversation (e.g. members of a workgroup).
 
-**alwaysdata** allows you to define mailing lists of your choice, attached to the domain(s) of your choice. They use the open-source software [Mailman](https://docs.mailman3.org/projects/mailman/en/latest/README.html) and their configuration is based on the [Postorius](https://docs.mailman3.org/projects/postorius/en/latest/) interface. You can refer to these documentations for their daily use.
+**alwaysdata** allows you to define mailing lists of your choice, attached to the domain(s) of your choice. They use the open-source software [Mailman](https://docs.mailman3.org/projects/mailman/en/latest/) and their configuration is based on the [Postorius](https://docs.mailman3.org/projects/postorius/en/latest/) interface. You can refer to these documentations for their daily use.
 
 ## Connection
 

@@ -20,7 +20,7 @@ Voici une liste non-exhaustive à consulter selon votre application :
 - [CakePHP](https://book.cakephp.org/3/fr/development/errors.html) ;
 - [Django](https://docs.djangoproject.com/en/dev/topics/http/views/#customizing-error-views) ;
 - [Express.js](https://expressjs.com/fr/guide/error-handling.html) ;
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/patterns/errorpages/) ;
+- [Flask](https://flask.palletsprojects.com/en/stable/errorhandling/#custom-error-pages) ;
 - [Laravel](https://laravel.com/docs/6.x/errors) ;
 - [Macaron](https://go-macaron.com/middlewares/templating#response-status-error-and-redirect) ;
 - [Phoenix](https://hexdocs.pm/phoenix/custom_error_pages.html) ;

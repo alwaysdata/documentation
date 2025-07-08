@@ -6,7 +6,7 @@ weight = 10
 tags = ["2fa", "profil", "security"]
 +++
 
-[Two factor authentication](https://en.wikipedia.org/wiki/Strong_authentication) is used to *secure access to a portal* by checking the identity of the person connecting by linking *two methods*.
+[Two factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) is used to *secure access to a portal* by checking the identity of the person connecting by linking *two methods*.
 
 The technology chosen by alwaysdata is a [Time-based One Time Password](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) (TOTP) algorithm: **sharing an individual and single use secret code** between our database and the client secure authentication applications.
 
