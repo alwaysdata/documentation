@@ -19,6 +19,7 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 ## Migrations currently offered
 
 * [2024 software infrastructure](advanced/migrations/2024-software-architecture)
+* [MariaDB 11.4](advanced/migrations/mariadb-11_4)
 
 Private Cloud - Debian Buster :
 
