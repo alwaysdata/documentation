@@ -34,6 +34,8 @@ RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^/?$ /fr/ [QSA,L,R=307]
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^green/?$  /fr/green-hosting/ [QSA,L,R=307]
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^api/?$  /fr/api/ [QSA,L,R=307]
 
 # Rewriting url for all languages (EN default)
 RewriteRule ^love/?$  /en/love/ [QSA,L,R=307]
@@ -50,6 +52,7 @@ RewriteRule ^_domains/?$ /en/domains/troubleshooting/ [QSA,L,R=307]
 RewriteRule ^marketplace-script/?$ /en/marketplace/build-application-script/ [QSA,L,R=307]
 RewriteRule ^log-http/?$ /en/sites/formatting-http-logs/ [QSA,L,R=307]
 RewriteRule ^green/?$  /en/green-hosting/ [QSA,L,R=307]
+RewriteRule ^api/?$  /en/api/ [QSA,L,R=307]
 
 ## Redirects remove accents (2024 migration mails and API)
 Redirect 301 /fr/avancé/migrations/architecture-logicielle-2024/#arrêt-du-support-de-mongodb /fr/avance/migrations/architecture-logicielle-2024/#arrêt-du-support-de-mongodb
