@@ -46,7 +46,11 @@ The next step is to configure the application to connect to Redis using `service
 
 ## Authentication
 
-By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/management/security/acl/) can be set up. In the following example, we will provide a password (`[password]`) to the default user.
+By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/management/security/acl/) can be set up.
+
+You will need to create the `users.acl` file and modify the `aclfile` line in the Redis configuration file `redis.conf`.
+
+In the following example, we will provide a password (`[password]`) to the default user.
 
 ```sh
 foo@ssh:~/redis$ ./src/redis-cli -h services-[foo].alwaysdata.net -p 8300
@@ -58,9 +62,16 @@ services-[foo].alwaysdata.net:8300> ACL SETUSER default on >[password]
 services-[foo].alwaysdata.net:8300> ACL LIST
 1) "user default on sanitize-payload #1ccc91f99d0c4c7a24e77941b18c0339ecb3eaf5ad7ae9ad816a7e69d83b69db ~* &* +@all"
 
+services-[foo].alwaysdata.net:8300> ACL SAVE
+OK
+
+services-[foo].alwaysdata.net:8300> CONFIG REWRITE
+OK
+
 services-[foo].alwaysdata.net:8300> AUTH default [password]
 OK
 ```
 
-[`ACL LIST`](https://redis.io/commands/acl-list/) lists the users and gives information about the users' rights.
-[`ACL SETUSER`](https://redis.io/commands/acl-setuser/) creates or modifies users.
+- [`ACL LIST`](https://redis.io/commands/acl-list/) lists the users and gives information about the users' rights.
+- [`ACL SETUSER`](https://redis.io/commands/acl-setuser/) creates or modifies users.
+- [`ACL SAVE`](https://redis.io/commands/acl-save/) saves users.
