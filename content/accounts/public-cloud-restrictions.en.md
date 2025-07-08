@@ -33,4 +33,4 @@ To be added to the rules presented above:
 Only the `alwaysdata.net` account address can be used to create *websites* on the Free plan. To use your own domain, it is therefore necessary to take a paid plan.
 {{% /notice %}}
 
-You profile may also be automatically suspended after your administration interface has been *[idle for X days](accounts/alerts-notifications#lack-of-activity)*.
+Your profile may also be automatically suspended after your administration interface has been *[idle for X days](accounts/alerts-notifications#lack-of-activity)*.
