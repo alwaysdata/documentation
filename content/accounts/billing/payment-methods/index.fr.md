@@ -25,7 +25,7 @@ Les alimentations de compte par _virement_ apparaîtront dans votre interface d�
 Les paiements par *mandat administratif* sont possibles et reçus comme des virements.
 
 {{% notice warning %}}
-Nous n'acceptons pas les paiements par *chèque. Tout chèque reçu sera systématiquement détruit.
+Nous n'acceptons pas les paiements par *chèque*. Tout chèque reçu sera systématiquement détruit.
 {{% /notice %}}
 
 ### Cartes bancaires acceptées
