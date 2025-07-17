@@ -20,7 +20,6 @@ pre = "<i class='fas fa-fw fa-book-open'></i> "
 - [New Relic](new-relic)
 - [Redis](./redis)
 - [Tideways](tideways)
-- [wkhtmltopdf](wkhtmltopdf)
 
 ## Déploiements
 
