@@ -80,7 +80,6 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement do
 
 ### Liens
 
-- [Site officiel](http://www.dkim.org)
 - [RFC 6376](https://tools.ietf.org/html/rfc6376)
 - [RFC 7372 - point 3.1](https://tools.ietf.org/html/rfc7372)
 

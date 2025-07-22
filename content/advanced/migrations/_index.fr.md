@@ -20,16 +20,8 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 ## Migrations actuellement proposées
 
-* [Infrastructure logicielle 2024](advanced/migrations/2024-software-architecture)
+* Cloud privé : [Infrastructure logicielle 2024](advanced/migrations/2024-software-architecture)
 * [MariaDB 11.4](advanced/migrations/mariadb-11_4)
-
-Cloud Privé - Debian Buster :
-
-- [MariaDB 10.5](advanced/migrations/mariadb-10_5)
-- [MariaDB 10.6](advanced/migrations/mariadb-10_6)
-- [MariaDB 10.11](advanced/migrations/mariadb-10_11)
-- [PostgreSQL 13](advanced/migrations/postgresql-13)
-- [PostgreSQL 14](advanced/migrations/postgresql-14)
 
 ## Anciennes migrations
 

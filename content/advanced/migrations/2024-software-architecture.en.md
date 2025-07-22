@@ -19,14 +19,14 @@ SSL encryption is now mandatory for connecting to the following protocols:
 * Mail: IMAP, SMTP, POP3
 * Remote access: FTP and WebDAV
 
-This does not apply to your websites, which are still accessible without encryption (although you can choose to [force encryption](https://help.alwaysdata.com/fr/s%C3%A9curit%C3%A9/ssl-tls/rediriger-http-vers-https/)).
+This does not apply to your websites, which are still accessible without encryption (although you can choose to [force encryption](security/ssl-tls/redirect-http-to-https/)).
 
 ### Supported TLS Versions
 
 * TLS 1.2 and 1.3 are supported.
 * TLS 1.0 and 1.1 are no longer supported.
 
-This does not affect your websites, where you can still [configure TLS yourself](https://help.alwaysdata.com/fr/s%C3%A9curit%C3%A9/ssl-tls/configurer-tls/).
+This does not affect your websites, where you can still [configure TLS yourself](security/ssl-tls/configure-tls/).
 
 ## End of MongoDB Support
 
@@ -54,8 +54,8 @@ You can:
 You can check the release notes (your current version is displayed under *Databases > MySQL*):
 
 * From [10.6 to 10.11](https://mariadb.com/kb/en/upgrading-from-mariadb-10-6-to-mariadb-10-11/)
-* From [10.5 to 10.6](https://mariadb.com/kb/en/upgrading-from-mariadb-105-to-mariadb-106/)
-* From [10.4 to 10.5](https://mariadb.com/kb/en/upgrading-from-mariadb-104-to-mariadb-105/)
+* From [10.5 to 10.6](https://mariadb.com/docs/server/server-management/install-and-upgrade-mariadb/upgrading/upgrading-from-to-specific-versions/upgrading-from-mariadb-10-5-to-mariadb-10-6)
+* From [10.4 to 10.5](https://mariadb.com/docs/server/server-management/install-and-upgrade-mariadb/upgrading/upgrading-from-to-specific-versions/upgrading-from-mariadb-10-4-to-mariadb-10-5)
 
 ## PostgreSQL Upgrade
 

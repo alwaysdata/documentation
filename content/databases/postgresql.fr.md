@@ -18,7 +18,7 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 Un *pgBouncer* tourne sur le port `5433`. Il est possible de s'y connecter à la place de PostgreSQL directement.
 
 ### Exemple avec `psql`
-Dans notre exemple, nous utilisons l'[accès SSH](remote-access/ssh}) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH](remote-access/ssh) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Nom de la base de données : `foo_base`

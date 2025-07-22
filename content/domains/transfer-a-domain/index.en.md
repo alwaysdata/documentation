@@ -85,7 +85,7 @@ Regarding the website, there are a number of possible choices:
 
 ## Links
 
-- [Transfers: error codes](domains/troubleshooting}#transfer)
+- [Transfers: error codes](domains/troubleshooting#transfer)
 
 
 [^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)

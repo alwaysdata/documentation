@@ -81,7 +81,6 @@ If the domain doesn’t use alwaysdata’s DNS servers, this record must be reco
 
 ### Links
 
-- [Official site](http://www.dkim.org)
 - [RFC 6376](https://tools.ietf.org/html/rfc6376)
 - [RFC 7372 - point 3.1](https://tools.ietf.org/html/rfc7372)
 
