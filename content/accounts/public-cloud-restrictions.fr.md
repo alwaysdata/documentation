@@ -31,7 +31,9 @@ Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou r
 - utiliser le compte gratuit pour des sites/adresses email à des *fins lucratives*. Il est donc exclu d’héberger le site ou les emails d’une entreprise commerciale, de placer des publicités qui pourraient générer des profits, de vendre directement sur son site ou via des emails un service ou des biens, etc.
 
 {{% notice note %}}
-Seule l'adresse `alwaysdata.net` du compte peut servir à la création de *sites web* sur le pack Free. Pour utiliser son propre domaine, il est donc nécessaire de prendre un pack payant.
+Seule l'adresse `alwaysdata.net` du compte peut servir à la [création de *sites web*](/sites/add-a-site/) sur le pack Free. Pour utiliser son propre domaine pour héberger un site web, il est donc nécessaire de prendre un pack payant.
+
+Vous pouvez, par contre, utiliser votre domaine pour [héberger des *adresses emails*](/e-mails/create-an-e-mail-address/) ou [créer des *enregistrements DNS*](/domains/add-dns/) sur le pack Free.
 {{% /notice %}}
 
 Votre profil peut aussi être suspendu automatiquement après _[X jours d'inactivité](accounts/alerts-notifications#inactivité)_ sur votre interface d'administration.
