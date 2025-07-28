@@ -53,9 +53,7 @@ If you change your user's permissions via a third party application, any validat
 
 On creating a database, you have the following options:
 - **local**: determines encoding, `LC_COLLATE` and `LC_CTYPE`,
-- **extensions**: you can activate PostgreSQL extensions with just a click (`hstore`, `pgcrypto`, `PostGIS`, etc.). If you need an extension that is not listed, you can contact [support](https://admin.alwaysdata.com/support/add/).
-	* `plperl` is activated on demand via [support](https://admin.alwaysdata.com/support/add/),
-	* `pgrouting` and `postgis_raster` are activated on demand via [support](https://admin.alwaysdata.com/support/add/) for PostgreSQL 13 - or higher - databases.
+- **extensions**: you can activate PostgreSQL extensions with just a click (`hstore`, `pgcrypto`, `PostGIS`, etc.).If you wish to use an unlisted extension, you can contact [support](https://admin.alwaysdata.com/support/add/) to have them consider the need.
 
 ## Restore a database from its daily backup
 
