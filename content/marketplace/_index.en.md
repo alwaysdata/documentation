@@ -21,6 +21,7 @@ If our marketplace does not offer what you are looking for, install it by hand a
 ## Guides
 
 - [Drupal](marketplace/drupal)
+- [Ghost](marketplace/ghost)
 - [Joomla](marketplace/joomla)
 - [Odoo](marketplace/odoo)
 - [PrestaShop](marketplace/prestashop)
