@@ -23,7 +23,7 @@ Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou r
 
 À ajouter aux règles présentées précédemment :
 
-- avoir plusieurs comptes gratuits pour le même utilisateur ;
+- avoir **plusieurs comptes gratuits** pour la même personne ;
     - attention à ne pas confondre compte et fonctionnalités (sites web, domaines, adresses email, bases de données, etc.).
     - Un compte peut héberger autant de fonctionnalités (autant de sites par exemple) que vous souhaitez.
 - utiliser le compte gratuit pour faire des *connexions distantes* à une/des *base(s) de données* ;

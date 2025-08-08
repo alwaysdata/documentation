@@ -22,7 +22,7 @@ If any of these restrictions are violated, we reserve the right to suspend and/o
 
 To be added to the rules presented above:
 
-- having a number of free accounts for the same user,
+- having a **number of free accounts** for the same individual,
     - pay attention to not confuse account and features (websites, domains, e-mail addresses, databases, etc.).
     - An account may host as many features (e.g. as many sites) as you wish.
 - using the free account to make *remote connections* to one or more *databases*,
