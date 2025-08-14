@@ -18,6 +18,10 @@ The default version can be changed from the alwaysdata administration, under **E
 
 Versions are not necessarily [already installed](languages#versions).
 
+{{% notice note %}}
+Only **[LTS versions](https://www.java.com/releases/)** are made available.
+{{% /notice %}}
+
 ## Binary to use
 
 To use a Java version that is different from the default one:

@@ -19,6 +19,10 @@ La version par défaut est modifiable dans l'administration alwaysdata, **Enviro
 
 Les versions ne sont pas forcément [déjà installées](languages#-versions).
 
+{{% notice note %}}
+Seules les **[versions LTS](https://www.java.com/releases/)** sont rendues disponibles.
+{{% /notice %}}
+
 ## Binaire à utiliser
 
 Pour se servir d'une version de Java différente que celle par défaut :
