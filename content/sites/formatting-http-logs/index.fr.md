@@ -33,7 +33,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02
 ```
 
 {{% notice tip %}}
-Pour extraire les requêtes longues, utilisez la commande suivante : `awk '{print $NF,$0}' $HOME/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
+Pour extraire les requêtes longues, utilisez la commande suivante : `awk '{print $NF,$0}' $HOME/admin/logs/http/[année]/[fichier].log | sort -n | cut -f2- -d' '`
 {{% /notice %}}
 
 - le format *Personnalisé*. La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
@@ -44,26 +44,27 @@ La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur 
 
 ### Variables disponibles
 
-| Variables          | Description                                                                                                            |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| {client_ip}        | Adresse IP de l'utilisateur ayant émis la requête                                                                      |
-| {completion_date}  | Date à laquelle la requête a été servie [^2]                                                                           |
-| {duration}         | Temps pris pour servir la requête en secondes                                                                          |
-| {peer_ip}          | Adresse IP du pair ayant envoyé la requête (proxy ou utilisateur original le cas échéant)                              |
-| {protocol}         | Mécanisme du protocole de la requête (http, https, ws)                                                                 |
-| {referer}          | Valeur de l'en-tête [Referer](https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rent_(informatique)) transmis par la requête |
-| {request}          | Première ligne de la requête                                                                                           |
-| {request_header}   | En-têtes de la requête [^3]                                                                                            |
-| {request_hostname} | Nom d'hôte demandé dans la requête                                                                                     |
-| {request_method}   | Méthode utilisée dans la requête (GET, POST, ...)                                                                      |
-| {request_path}     | Chemin demandé dans la requête, incluant la chaîne d'interrogations                                                    |
-| {request_protocol} | Protocole utilisé dans la requête (HTTP/1.1, HTTP/2, ...)                                                              |
-| {request_time}     | Date à laquelle la requête a été reçue [^2]                                                                            |
-| {response_header}  | En-têtes de la réponse [^3]                                                                                            |
-| {response_size}    | Taille de la réponse en bytes, en-têtes HTTP exclus                                                                    |
-| {ssl_version}      | Version du protocole utilisé pour la connexion SSL                                                                     |
-| {status}           | Code de status de la réponse (200, 301, 404, 500, ...)                                                                 |
-| {user_agent}       | Valeur de l'en-tête [User-Agent](https://fr.wikipedia.org/wiki/User_agent) transmis par la requête                     |
+| Variables          | Description |
+| ------------------ | --- |
+| {client_ip}        | Adresse IP de l'utilisateur ayant émis la requête |
+| {completion_date}  | Date à laquelle la requête a été servie [^2] |
+| {duration}         | Temps pris pour servir la requête en secondes |
+| {peer_ip}          | Adresse IP du pair ayant envoyé la requête (proxy ou utilisateur original le cas échéant) |
+| {protocol}         | Mécanisme du protocole de la requête (http, https, ws) |
+| {referer}          | Valeur de l'en-tête [`Referer`](https://developer.mozilla.org/fr/docs/Web/HTTP/Reference/Headers/Referer) transmis par la requête |
+| {request}          | Première ligne de la requête |
+| {request_header}   | En-têtes de la requête [^3] |
+| {request_hostname} | Nom d'hôte demandé dans la requête |
+| {request_method}   | Méthode utilisée dans la requête (GET, POST, ...) |
+| {request_path}     | Chemin demandé dans la requête, incluant la chaîne d'interrogations |
+| {request_protocol} | Protocole utilisé dans la requête (HTTP/1.1, HTTP/2, ...) |
+| {request_time}     | Date à laquelle la requête a été reçue [^2] |
+| {response_header}  | En-têtes de la réponse [^3] |
+| {response_size}    | Taille de la réponse en bytes, en-têtes HTTP exclus |
+| {ssl_version}      | Version du protocole utilisé pour la connexion SSL |
+| {status}           | Code de status de la réponse (200, 301, 404, 500, ...) |
+| {user_agent}       | Valeur de l'en-tête [`User-Agent`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/User-Agent) transmis par la requête |
+| {username}         | Nom d'utilisateur spécifié dans l'en-tête [`Authorization`](https://developer.mozilla.org/fr/docs/Web/HTTP/Reference/Headers/Authorization) |
 
 ## Cas spécifiques
 
