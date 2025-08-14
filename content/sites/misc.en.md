@@ -18,3 +18,10 @@ To configure in the menu **Web > Sites > Modify the [site] - ⚙️ > Advanced**
 To ensure that an application is never stopped, set the value to `0`.
 
 However, there is *no guarantee* that an application will never be stopped, and it can be stopped at any time. If it is *necessary* for a web application to run 24/7, create a [service](services) and a site of type [Redirect "reverse-proxy"](sites/redirect) for its web access.
+
+## Useful commands
+
+- Knowing the IPs that made the most requests on a given date:
+
+```
+cut -d' ' -f2 $HOME/admin/logs/http/[year]/[file].log | sort | uniq -c | sort -rn | head

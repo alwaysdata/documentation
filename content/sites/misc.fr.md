@@ -19,3 +19,11 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 Pour qu'une application ne soit jamais arrêtée, indiquez comme valeur `0`.
 
 Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](services) ainsi qu'un site de type [Redirection "reverse-proxy"](sites/redirect) pour son accès web.
+
+## Commandes utiles
+
+- Connaître les IP ayant fait le plus de requêtes à une date :
+
+```
+cut -d' ' -f2 $HOME/admin/logs/http/[année]/[fichier].log | sort | uniq -c | sort -rn | head
+```
