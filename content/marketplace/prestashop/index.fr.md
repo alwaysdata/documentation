@@ -19,3 +19,25 @@ Vous aurez besoin de modifier :
 L'utilisation de `/usr/sbin/sendmail` est non-fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et indiquez juste le nom d'hôte SMTP de votre compte (donné dans le menu **Emails > Adresses** de votre interface d'administration alwaysdata).
 
 {{< fig "images/prestashop-emails.fr.png" "" >}}
+
+## Activer le cache PrestaShop
+
+Si vous observez des problèmes de performances, une première étape peut être d'activer le système de cache **CacheApc**. Pour cela :
+
+- installez [l'extension PECL](languages/php/extensions#depuis-peclhttpspeclphpnet) `apcu` sur votre compte via [SSH](remote-access/ssh).
+
+```
+ad_install_pecl apcu
+```
+
+- ajoutez ensuite [l'extension dans votre `php.ini`](languages/php/configuration#paramètres-phpini).
+
+```
+extension=/home/[compte]/path/to/apcu-[VERSION].so
+```
+
+- puis activez le système **CacheApc** dans l'interface d'administration du PrestaShop.
+
+{{% notice warning %}}
+`[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de PHP](languages/php/troubleshooting#utiliser-différentes-versions-en-ssh) si votre site web en utilise une autre.
+{{% /notice %}}
