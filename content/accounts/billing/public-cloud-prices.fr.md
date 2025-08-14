@@ -14,7 +14,7 @@ Cette page recense les prix (hors taxes) des configurations Cloud Public. Pour p
 
 | | Free [^1] | Small | Medium | Large | X-Large |
 | --- | --- | --- | --- | ---| --- |
-| Espace disque | 1 Go | 50 Go | 100 Go | 200 Go | 500 Go |
+| Espace disque[^2] | 1 Go | 50 Go | 100 Go | 200 Go | 500 Go |
 | RAM | 256 Mo | 1 Go | 2 Go | 4 Go | 8 Go
 | CPU | 1/4 | 1 | 2 | 4 | 8 |
 | [Sauvegardes](backups) (jours glissants) | 3 jours | 7 jours | 20 jours | 20 jours | 30 jours |
@@ -30,3 +30,4 @@ Le quota disque inclut fichiers, mails et bases de données.
 {{% /notice %}}
 
 [^1]: Le pack Free est sujet à des [restrictions spéciales](accounts/public-cloud-restrictions#compte-gratuit) et ne peut notamment servir à des fins lucratives.
+[^2]: L'espace disque alloué aux bases de données correspond à 1/10 de la limite du pack.

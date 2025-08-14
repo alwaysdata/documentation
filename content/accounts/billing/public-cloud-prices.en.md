@@ -13,7 +13,7 @@ This page lists the prices (VAT excluded) of the Public Cloud configurations. To
 
 | | Free [^1] | Small | Medium | Large | X-Large |
 | --- | --- | --- | --- | ---| --- |
-| Disk space | 1 GB | 50 GB | 100 GB | 200 GB | 500 GB |
+| Disk space[^2] | 1 GB | 50 GB | 100 GB | 200 GB | 500 GB |
 | RAM | 256 MB | 1 GB | 2 GB | 4 GB | 8 GB
 | CPU | 1/4 | 1 | 2 | 4 | 8 |
 | [Backups](backups) (rolling days) | 3 days | 7 days | 20 days | 20 days | 30 days |
@@ -29,3 +29,4 @@ The disk quota includes files, mails and databases.
 {{% /notice %}}
 
 [^1]: The free 100 MB Cloud is subject to [special restrictions](accounts/public-cloud-restrictions#free-plan). It cannot be used for lucratives goals, among other things.
+[^2]: The disk space allocated to databases corresponds to 1/10 of the pack limit.
