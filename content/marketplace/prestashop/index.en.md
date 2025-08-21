@@ -33,7 +33,7 @@ ad_install_pecl apcu
 extension=/home/[account]/path/to/apcu-[VERSION].so
 ```
 
-- then activate the **CacheApc** system in the PrestaShop administration interface.
+- then activate the **Cache APC** system in the PrestaShop administration interface (Advanced Parameters > Performance menu).
 
 {{% notice warning %}}
 `[VERSION]` corresponds to the major version of PHP with which the extension was installed. By default, this will take the version from the **Environment** menu (used in SSH). You can install it with [another version of PHP](languages/php/troubleshooting#use-several-versions-in-ssh) if your website use another one.
