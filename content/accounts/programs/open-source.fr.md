@@ -24,4 +24,5 @@ Liste des projets libres actuellement hébergés par *alwaysdata* :
 - Services tiers pour [Kaz](https://kaz.bzh)
 - [Paris Web](https://www.paris-web.fr/)
 - [PrePostPrint](https://www.prepostprint.org/)
+- Différents services pour la communauté [SPIP](https://www.spip.net/)
 - [Velvetyne](https://velvetyne.fr/)

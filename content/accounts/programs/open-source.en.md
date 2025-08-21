@@ -23,4 +23,5 @@ Shortlist of OSS projects hosted at *alwaysdata* yet:
 - [PrePostPrint](https://www.prepostprint.org/)
 - [Paris Web](https://www.paris-web.fr/)
 - Scenery database for FlightGear flight-simulator
+- Several services for the [SPIP](https://www.spip.net/) community
 - [Velvetyne](https://velvetyne.fr/)
