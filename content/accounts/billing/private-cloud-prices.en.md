@@ -43,15 +43,16 @@ For any Private Cloud configuration order, the installation of the server is don
 | SSD 7.6TB NVMe • RAID1                | + 150 €/mo                    |
 | SSD 15TB NVMe • RAID1                | + 320 €/mo                    |
 | **RAM**                             |                            |
-| 64 Go | + 20 €/mo |
-| 96 Go | + 40 €/mo |
-| 128 Go | + 60 €/mo |
+| 64 Go | + 30 €/mo |
+| 128 Go | + 80 €/mo |
+| 256 Go | + 120 €/mo |
+| 512 Go | + 200 €/mo |
 | **Traffic/month**                   |                            |
 | 1TB (1Gbps) [^1]                    | + 10 €/mo                     |
 |  **GPU** ||
-| Nvidia T1000 | 50 €/mo |
+| Nvidia A1000 | 50 €/mo |
 | Nvidia L4 | 250 €/mo |
-| Nvidia V100 | 1000 €/mo (annual payment required) |
+| Nvidia RTX PRO 6000 Blackwell | 1000 €/mo (annual payment required) |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
@@ -89,15 +90,16 @@ Dedicated server redunded[^2] in another datacenter.
 | SSD 7.6TB NVMe • RAID1                | + 300 €/mo                    |
 | SSD 15TB NVMe • RAID1                | + 640 €/mo                    |
 | **RAM**                             |        	                   |
-| 64 Go | + 40 €/mo          |
-| 96 Go | + 80 €/mo |
-| 128 Go | + 120 €/mo |
+| 64 Go | + 60 €/mo |
+| 128 Go | + 160 €/mo |
+| 256 Go | + 240 €/mo |
+| 512 Go | + 400 €/mo |
 | **Traffic/month**                   |      		               |
 | 1TB (1Gbps) [^1]                    | + 20 €/mo                     |
 |  **GPU** ||
-| Nvidia T1000 | 100 €/mo |
+| Nvidia A1000 | 100 €/mo |
 | Nvidia L4 | 500 €/mo |
-| Nvidia V100 | 2000 €/mo (annual payment required) |
+| Nvidia RTX PRO 6000 Blackwell | 2000 €/mo (annual payment required) |
 
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 

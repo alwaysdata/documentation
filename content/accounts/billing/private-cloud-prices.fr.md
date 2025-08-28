@@ -44,15 +44,16 @@ Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'ef
 | SSD 7.6 To NVMe • RAID1                   | + 150 €/mois         |
 | SSD 15 To NVMe • RAID1                | + 320 €/mois            |
 | **RAM**                             |                 |
-| 64 Go | + 20 €/mois |
-| 96 Go | + 40 €/mois |
-| 128 Go | + 60 €/mois |
+| 64 Go | + 30 €/mois |
+| 128 Go | + 80 €/mois |
+| 256 Go | + 120 €/mois |
+| 512 Go | + 200 €/mois |
 | **Trafic/mois**                     |                 |
 | 1 To (1 Gbps) [^1]                  | + 10 €/mois          |
 |  **GPU** ||
-| Nvidia T1000 | 50 €/mois |
+| Nvidia A1000 | 50 €/mois |
 | Nvidia L4 | 250 €/mois |
-| Nvidia V100 | 1000 €/mois (engagement annuel requis) |
+| Nvidia RTX PRO 6000 Blackwell | 1000 €/mois (engagement annuel requis) |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 
@@ -90,15 +91,16 @@ Serveur dédié redondé[^2] dans un autre datacenter.
 | SSD 7.6 To NVMe • RAID1                   | + 300 €/mois         |
 | SSD 15 To NVMe • RAID1                | + 640 €/mois           |
 | **RAM**                             |                 |
-| 64 Go | + 40 €/mois          |
-| 96 Go | + 80 €/mois |
-| 128 Go | + 120 €/mois |
+| 64 Go | + 60 €/mois |
+| 128 Go | + 160 €/mois |
+| 256 Go | + 240 €/mois |
+| 512 Go | + 400 €/mois |
 | **Trafic/mois**                     |                 |
 | 1 To (1 Gbps) [^1]                  | + 20 €/mois          |
 |  **GPU** ||
-| Nvidia T1000 | 100 €/mois |
+| Nvidia A1000 | 100 €/mois |
 | Nvidia L4 | 500 €/mois |
-| Nvidia V100 | 2000 €/mois (engagement annuel requis) |
+| Nvidia RTX PRO 6000 Blackwell | 2000 €/mois (engagement annuel requis) |
 
 Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
 
