@@ -8,7 +8,7 @@ tags = ["rust"]
 
 ## Version
 
-Rust étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant la version 1.78 qui est utilisée lorsque vous démarrez `cargo`.
+Rust étant un langage compilé, il n’a pas besoin d’être ins­tal­lé chez always­da­ta pour être uti­li­sé. Nous proposons cependant la version 1.86 qui est utilisée lorsque vous démarrez `cargo`.
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 

@@ -7,7 +7,7 @@ tags = ["rust"]
 
 ## Version
 
-As Rust is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with version 1.78 for the `cargo` executable.
+As Rust is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with version 1.86 for the `cargo` executable.
 
 You can compile your programs elsewhere, e.g. locally.
 
