@@ -5,7 +5,7 @@ hidden = true
 tags = ["account", "profile"]
 +++
 
-In some cases, you don’t have to go through the transfer process and a change of profile information is sufficient. If you do not want the client history[^1] to follow the change, however, choose transfer instead.
+In some cases, you don’t have to go through the transfer process and a change of profile information is sufficient. If you do not want the client history to follow the change, however, choose transfer instead.
 
 ## Change of profile
 
@@ -21,6 +21,10 @@ All the information on your profile can be edited, regardless of the authenticat
 
 > Do this, for instance, if you only wish to cede certain accounts, cede them to several people, or so that the recipient cannot recover his client history.
 
+{{% notice warning %}}
+The [permissions](accounts/permissions) granted to other profiles, support tickets, billing, actions performed on the alwaysdata administration interface and its API will all be *lost*.
+{{% /notice %}}
+
 Go to **Subscriptions > Transfer to another user**. You will have to indicate the email address of the recipient profile, which will then be able to accept it in the Disposals tab of your client interface.
 
 {{< fig "images/accounts.en.png" "" >}}
@@ -35,6 +39,3 @@ Only the *account owner* can initiate a transfer.
 - The end date of the previous subscription is kept and the recipient profile is only billed on the end date. No pro-rated reimbursement will be carried out on the issuer profile.
 
 Until the new owner validates the cession, the issuer profile remains the account owner and can cancel it in the **Transfers** tab.
-
-[^1]: The client history includes support tickets, invoicing, and actions carried out on the alwaysdata administration interface and its API.
-

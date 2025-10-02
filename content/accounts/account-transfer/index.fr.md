@@ -6,7 +6,7 @@ hidden = true
 tags = ["compte", "profil"]
 +++
 
-Pour certains cas, il n'est pas nécessaire de passer par le processus de cession et un changement des informations de profil suffit. En revanche, si l'historique client[^1] ne doit pas suivre, préférez la cession.
+Pour certains cas, il n'est pas nécessaire de passer par le processus de cession et un changement des informations de profil suffit. En revanche, si l'historique client ne doit pas suivre, préférez la cession.
 
 ## Changement de profil
 
@@ -22,6 +22,10 @@ Toute information de profil peut être modifiée que ce soit au niveau de l'auth
 
 > Pour notamment ne céder que certains comptes, les céder à plusieurs personnes ou encore que le destinataire ne récupère pas son historique client.
 
+{{% notice warning %}}
+Les [permissions](accounts/permissions) données à d'autres profils, les tickets de support, la facturation, les actions effectuées sur l'interface d'administration alwaysdata et son API seront tous *perdus*.
+{{% /notice %}}
+
 Rendez-vous sur **Abonnements > Céder à un autre utilisateur**. Vous devrez indiquer l'adresse email du profil destinataire qui pourra alors l'accepter dans l'onglet **Cessions** de son interface client.
 
 {{< fig "images/accounts.fr.png" "" >}}
@@ -36,5 +40,3 @@ Seul le _propriétaire du compte_ peut initier la cession.
 - La date d'échéance de l'ancien abonnement est gardée et le profil destinataire n'est facturé qu'*à échéance*. Aucun remboursement au prorata ne sera effectué sur le profil émetteur.
 
 Tant que le nouveau propriétaire n'a pas validé la cession le profil émetteur reste propriétaire du compte et peut l'annuler dans l'onglet **Cessions**.
-
-[^1]: L'historique client comprend les tickets de support, la facturation, et les actions effectuées sur l'interface d'administration alwaysdata et son API.
