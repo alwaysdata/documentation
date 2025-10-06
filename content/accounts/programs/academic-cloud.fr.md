@@ -14,7 +14,7 @@ Ce programme donne aux formateurs la possibilité d'inviter - via le menu **Prof
 Pour en bénéficier remplissez votre profil avec les informations de votre établissement et [ouvrez un ticket](https://admin.alwaysdata.com/support/add/). Le programme est gratuit pour les éta­blis­se­ments publics et via des partenariats pour les structures privées.
 
 {{% notice info %}}
-Lors de la procédure d'inscription, les étudiants peuvent choisir entre plusieurs packs. Pour bénéficier du Academic Cloud gratuit, ils doivent choisir le *Cloud public gratuit (100 Mo)*.
+Lors de la procédure d'inscription, les étudiants peuvent choisir entre plusieurs packs. Pour bénéficier du Academic Cloud gratuit, ils doivent choisir le produit *Free*.
 {{% /notice %}}
 
 Une fois la formation finie, les étudiants pourront conserver leurs comptes, supprimer les [permissions](accounts/permissions) accordées au formateur, et éventuellement [changer d'offre](accounts/billing/upgrade-your-plan).

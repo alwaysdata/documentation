@@ -13,7 +13,7 @@ This program gives formers the opportunity to invite - via the **Profile > Acade
 To benefit from this fill in your profile with your school's information and [open a ticket](https://admin.alwaysdata.com/support/add/). The program is free of charge for public establishments and available via partnerships for private entities.
 
 {{% notice info %}}
-During the registration process, students can choose between several plans. To have the free Academic Cloud, they need to choose the *Free Public Cloud (100MB)*.
+During the registration process, students can choose between several plans. To have the free Academic Cloud, they need to choose the *Free* product.
 {{% /notice %}}
 
 Once the formation is over, students can keep their accounts, delete the [permissions](accounts/permissions) granted to their former, and eventually [change plan](accounts/billing/upgrade-your-plan).
