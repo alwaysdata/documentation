@@ -30,6 +30,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 Avant de mettre en place le site, vous pouvez tester le lancement du programme en [SSH](remote-access/ssh).
 {{% /notice %}}
 
+Le programme se lancera lorsque l'url du site recevra la première requête HTTP.
 Si le programme ne se lance pas, les logs _sites_ disponibles dans le répertoire `$HOME/admin/logs/sites/` pourront vous aider.
 
 [^1]: Par exemple, [Nginx](https://www.nginx.com/), [LiteSpeed](https://www.litespeedtech.com/) ou [Varnish](https://varnish-cache.org/) sont utilisables sur les serveurs *alwaysdata*. L'installation et la configuration sont à votre charge.
