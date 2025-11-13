@@ -6,7 +6,9 @@ layout = "man"
 tags = ["facturation", "open source"]
 +++
 
-Un **[pack Cloud Public 50 Go](accounts/billing/public-cloud-prices)** est offert **gratuitement** aux projets libres actifs.
+Un **[pack Small](accounts/billing/public-cloud-prices)** est offert **gratuitement** aux projets libres actifs.
+
+Notre programme a pour but d'héberger *uniquement* le site du projet Open Source, c'est-à-dire le dépôt du code, la documentation et/ou un site vitrine (de présentation/démonstration/communication).
 
 Pour en bénéficier présentez-nous votre projet en nous contactant par [email](mailto:community@alwaysdata.com) ou en ouvrant un [ticket de support](https://admin.alwaysdata.com/support/add/).
 

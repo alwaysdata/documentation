@@ -5,7 +5,9 @@ layout = "man"
 tags = ["billing", "open source"]
 +++
 
-A **[50GB Public Cloud plan](accounts/billing/public-cloud-prices)** is offered **free of charge** to active open source projects.
+A **[Small plan](accounts/billing/public-cloud-prices)** is offered **free of charge** to active open source projects.
+
+Our program aims to host *only* the website of the Open Source project, that is to say the code repository, the documentation, and/or a showcase website (for presentation/demonstration/communication).
 
 To take advantage of this plan, present us your project by contacting us by [email](mailto:community@alwaysdata.com) or by opening a [support ticket](https://admin.alwaysdata.com/support/add/).
 
