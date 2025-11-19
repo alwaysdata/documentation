@@ -20,11 +20,11 @@ Certaines migrations sont facultatives : nous vous laissons le choix de l'effect
 
 ## Migrations actuellement proposées
 
-* Cloud privé : [Infrastructure logicielle 2024](advanced/migrations/2024-software-architecture)
 * [MariaDB 11.4](advanced/migrations/mariadb-11_4)
 * [PostgreSQL 17](advanced/migrations/postgresql-17)
 
 ## Anciennes migrations
 
+* [Infrastructure logicielle 2024](advanced/migrations/2024-software-architecture)
 * [Infrastructure logicielle 2020](advanced/migrations/2020-software-architecture)
 * [Infrastructure logicielle 2017](advanced/migrations/2017-software-architecture)
