@@ -51,14 +51,9 @@ The research scope only includes following addresses:
 
 Vulnerabilities reported on other services or applications will not be addressed.
 
-Provide your IP address in the bug report. We will keep this data private and only use it to review logs related to your testing activity.
+Once processed, the reports are *public*. Any private information can be transmitted via a support ticket on [our administration interface](https://admin.alwaysdata.com/).
 
-Include a custom HTTP header in all your traffic. Burp and other proxies allow the easy automatic addition of headers to all outbound requests. Report to us what header you set so we can identify it easily. For instance:
-
-* A header that includes your username: `X-Bug-Bounty:Hacker-[accountid]`
-* A header that includes a unique or identifiable flag `X-Bug-Bounty:ID-[sha256-flag]`
-
-When testing for a bug, please also keep in mind:
+When testing for a bug, please keep in mind:
 
 * Use test accounts so as not to inadvertently compromise the privacy of our users.
 * When attempting to demonstrate root permissions with the following primitives in a vulnerable process please use the following commands:
@@ -75,9 +70,6 @@ Reports about vulnerabilities are examined by our security analysts. Reports **m
 *Any report sent by email or through our support interface will be rejected.*
 
 Our analysis is always based on worst case exploitation of the vulnerability, as is the reward we pay.
-
-- Time to first response: 2 business days or less.
-- Time to triage: 3 business days or less.
 
 We are continuously working to evolve our bug bounty program. We aim to respond to incoming submissions as quickly as possible and make every effort to have bugs fixed within 10 days of being triaged. Rewards will be paid when patch is applied.
 

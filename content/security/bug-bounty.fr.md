@@ -52,14 +52,9 @@ Le périmètre de recherche inclus seulement les adresses suivantes :
 
 Les failles signalées sur d'autres services ou applications ne seront pas prises en compte.
 
-Fournissez votre adresse IP dans le rapport de bug. Nous garderons ces données privées et les utiliserons uniquement pour examiner les journaux liés à votre activité de test.
+Une fois traités, les rapports sont *publics*. Toute information privée peut être transmise via un ticket de support sur [notre interface d'administration](https://admin.alwaysdata.com/).
 
-Incluez un en-tête HTTP personnalisé dans tout votre trafic. Burp et d'autres proxys permettent l'ajout automatique facile d'en-têtes à toutes les demandes sortantes. Signalez-nous quel en-tête vous avez défini pour que nous puissions l'identifier facilement. Par exemple :
-
-* Un en-tête qui inclut votre nom d'utilisateur : `X-Bug-Bounty:Hacker-[accountid]`
-* Un en-tête qui inclut un drapeau unique ou identifiable `X-Bug-Bounty:ID-[sha256-flag]`
-
-Lors du test d'un bug, veuillez également garder à l'esprit :
+Lors du test d'un bug, veuillez garder à l'esprit :
 
 * Utilisez des comptes de test pour ne pas compromettre involontairement la confidentialité de nos utilisateurs ;
 * Lorsque vous tentez de démontrer des permissions root avec les primitives suivantes dans un processus vulnérable, veuillez utiliser les commandes suivantes :
@@ -76,9 +71,6 @@ Les rapports sur les failles sont examinés par nos analystes de sécurité. Les
 *Tout rapport envoyé par email ou par notre interface de support sera rejeté.*
 
 Notre analyse est toujours basée sur l'exploitation du pire des cas de la faille, tout comme la récompense que nous payons.
-
-- Temps de première réponse : 2 jours ouvrables ou moins ;
-- Temps de triage : 3 jours ouvrables ou moins.
 
 Nous travaillons continuellement à faire évoluer notre programme de bug bounty. Nous visons à répondre aux soumissions entrantes aussi rapidement que possible et faisons tout notre possible pour que les bugs soient corrigés dans les 10 jours suivant leur triage. Les récompenses seront payées lorsque le correctif sera appliqué.
 
