@@ -43,10 +43,10 @@ For any Private Cloud configuration order, the installation of the server is don
 | SSD 7.6TB NVMe • RAID1                | + 150 €/mo                    |
 | SSD 15TB NVMe • RAID1                | + 320 €/mo                    |
 | **RAM**                             |                            |
-| 64 Go | + 30 €/mo |
-| 128 Go | + 80 €/mo |
-| 256 Go | + 120 €/mo |
-| 512 Go | + 200 €/mo |
+| 64 Go | + 40 €/mo |
+| 128 Go | + 120 €/mo |
+| 256 Go | + 280 €/mo |
+| 512 Go | + 600 €/mo |
 | **Traffic/month**                   |                            |
 | 1TB (1Gbps) [^1]                    | + 10 €/mo                     |
 |  **GPU** ||
@@ -90,10 +90,10 @@ Dedicated server redunded[^2] in another datacenter.
 | SSD 7.6TB NVMe • RAID1                | + 300 €/mo                    |
 | SSD 15TB NVMe • RAID1                | + 640 €/mo                    |
 | **RAM**                             |        	                   |
-| 64 Go | + 60 €/mo |
-| 128 Go | + 160 €/mo |
-| 256 Go | + 240 €/mo |
-| 512 Go | + 400 €/mo |
+| 64 Go | + 80 €/mo |
+| 128 Go | + 240 €/mo |
+| 256 Go | + 560 €/mo |
+| 512 Go | + 1200 €/mo |
 | **Traffic/month**                   |      		               |
 | 1TB (1Gbps) [^1]                    | + 20 €/mo                     |
 |  **GPU** ||
