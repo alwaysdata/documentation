@@ -9,7 +9,7 @@ SFTP, the [SSH File Transfer Protocol](https://en.wikipedia.org/wiki/SSH_File_Tr
 
 ## Connecting with SFTP
 
-From **Remote access > SSH** allow your SSH user *password connection* permission.
+From **Remote access > SSH/SFTP** allow your SSH user *password connection* permission.
 
 {{< fig "admin-panel_ssh-users-list.en.png" "Administration interface: list of SSH users">}}
 
@@ -24,6 +24,6 @@ Then from your FTP client, fill-in the SSH connection information. Let us take t
 
 ## Miscellaneous
 
-As with the SSH protocol, SFTP users are not `chrooted`. However, it is possible to limit their actions by choosing the **SFTP only** shell.
+Users with the **SFTP only** shell are `chrooted`.
 
 This must not be confused with the [FTPS](remote-access/ftp) protocol: FTP transfer secured by SSL or TLS protocols.

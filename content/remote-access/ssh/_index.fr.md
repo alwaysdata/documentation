@@ -30,7 +30,7 @@ Toutes nos offres sont infogérées, il n'est pas possible d'avoir un accès `ro
 | Ports        | 22                                              |
 | Identifiant  | utilisateur et mot de passe associé OU clés SSH |
 
-Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH** de votre interface d'administration alwaysdata (dont leurs [shell](https://fr.wikipedia.org/wiki/Shell_Unix)). Vous y retrouverez aussi les _fingerprints_ du serveur SSH sur lequel est le compte.
+Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH/SFTP** de votre interface d'administration alwaysdata (dont leurs [shell](https://fr.wikipedia.org/wiki/Shell_Unix)). Vous y retrouverez aussi les _fingerprints_ du serveur SSH sur lequel est le compte.
 {{< fig "admin-panel_ssh-users-list.fr.png" "Interface d'administration : liste des utilisateurs SSH" >}}
 
 ### Par un terminal
@@ -58,11 +58,11 @@ Cette interface n'est pas compatible avec le [Cloud Privé](accounts/billing/pri
 
 ## Divers
 
-Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH** de votre interface d’administration.
+Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH/SFTP** de votre interface d’administration.
 
 Les processus en cours sont accessible via le menu **Avancé > Processus > SSH**.
 
-Les utilisateurs SSH ne sont pas `chroot`. Même si le répertoire racine de l'utilisateur n'est pas la racine du compte, il pourra accéder au compte entier.
+Les utilisateurs SSH ne sont pas `chroot`. Même si le répertoire racine de l'utilisateur n'est pas la racine du compte, il pourra accéder au compte entier. Pour utiliser `chroot` tournez-vous vers [SFTP](remote-access/sftp) ou [FTP](remote-access/ftp).
 
 ---
 - [OpenSSH](https://www.openssh.com/) ;

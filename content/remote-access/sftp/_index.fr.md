@@ -10,7 +10,7 @@ Le protocole SFTP (pour [SSH File Transfer Protocol](https://fr.wikipedia.org/wi
 
 ## Se connecter en SFTP
 
-Dans **Accès distant > SSH** autorisez la *connexion par mot de passe* à votre utilisateur SSH.
+Dans **Accès distant > SSH/SFTP** autorisez la *connexion par mot de passe* à votre utilisateur SSH.
 
 {{< fig "admin-panel_ssh-users-list.fr.png" "Interface d'administration : liste des utilisateurs SSH">}}
 
@@ -25,6 +25,6 @@ Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons
 
 ## Divers
 
-Comme pour le protocole SSH, les utilisateurs SFTP ne sont pas `chroot`. Néanmoins, il est possible de limiter leurs actions en choisissant le shell **SFTP uniquement**.
+Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`.
 
 Il ne doit pas être confondu avec le protocole [FTPS](remote-access/ftp) : transfert FTP sécurisé par les protocoles SSL ou TLS.

@@ -29,7 +29,7 @@ All of our offers are managed ones, it is not possible to gain `root` access.
 |Ports|22|
 |Identifier|assigned user and password OR SSH keys|
 
-These users can be configured in the **Remote access > SSH** tab in your alwaysdata administration interface (among their [shell](https://en.wikipedia.org/wiki/Unix_shell)). The *fingerprints* for the SSH server where the account is located are also found there.
+These users can be configured in the **Remote access > SSH/SFTP** tab in your alwaysdata administration interface (among their [shell](https://en.wikipedia.org/wiki/Unix_shell)). The *fingerprints* for the SSH server where the account is located are also found there.
 
 {{< fig "admin-panel_ssh-users-list.en.png" "Administration interface: list of SSH users" >}}
 
@@ -57,11 +57,11 @@ This interface is not compatible with the [Private Cloud](accounts/billing/priva
 
 ## Miscellaneous
 
-*Fingerprints* of our SSH servers are displayed in the **Remote access > SSH** menu of your administration interface.
+*Fingerprints* of our SSH servers are displayed in the **Remote access > SSH/SFTP** menu of your administration interface.
 
 Current processes are accessible via the **Advanced > Processes > SSH** menu.
 
-SSH users are not `chrooted`. Even if the user's root directory is not the root of the account, they will still be able to access the entire account.
+SSH users are not `chrooted`. Even if the user's root directory is not the root of the account, they will still be able to access the entire account. To use `chroot`, refer to [SFTP](remote-access/sftp) or [FTP](remote-access/ftp).
 
 ---
 - [OpenSSH](https://www.openssh.com/),
