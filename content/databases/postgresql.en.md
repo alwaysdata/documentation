@@ -66,7 +66,7 @@ Several options :
     $ zstdcat $HOME/admin/backup/[date]/postgresql/[database].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
     ```
 
-- get the tarbal and use the client of your choice.
+- get the tarball and use the client of your choice.
 
 {{% notice tip %}}
 The archived contents (e.g. BDD dumps) in your *backup* space are in [Zstandard](https://github.com/facebook/zstd) format, you can use the [official `zstd*` tools](https://github.com/facebook/zstd/releases/latest) or the [adapted plugin for 7zip](https://www.tc4shell.com/en/7zip/modern7z/) to manipulate them.

@@ -7,7 +7,7 @@ tags = ["https", "security", "ssl"]
 
 [Let's Encrypt](https://letsencrypt.org) is a certification authority that proposes a simple way to generate free certificates. The certificates offered are [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) type ones, valid for [90 days](https://letsencrypt.org/2015/11/09/why-90-days.html).
 
-To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificats](security/ssl-tls/lets-encrypt#certificates-wildcard).
+To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificates](security/ssl-tls/lets-encrypt#certificates-wildcard).
 
 *.alwaysdata.net* addresses are handled by the `*.alwaysdata.net` wildcard certificate returned by default by the servers.
 

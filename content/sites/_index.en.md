@@ -13,7 +13,7 @@ You can have as many sites as you wish in a single account. Note that this does 
 The alwaysdata administration’s interface presents an excerpt of logs (**Logs** - 📄), and the current processes are found in the **Advanced > Processes > Web** menu.
 
 {{% notice note %}}
-If your script needs to allow some IPs, allow these [IP adresses ranges](security/ip-ranges).
+If your script needs to allow some IPs, allow these [IP addresses ranges](security/ip-ranges).
 {{% /notice %}}
 
 ## Resources

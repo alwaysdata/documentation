@@ -132,7 +132,7 @@ You can also fill-in a number of optional fields:
 - a specific version of Python to use,
 - the virtualenv directory to use.
 
-## ASGI deployement
+## ASGI deployment
 
 Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://www.uvicorn.org/).
 

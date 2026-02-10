@@ -9,7 +9,7 @@ tags = [""]
 
 ## Alwaysdata profile
 
-- [2 factor authentification](two-factor-authentication)
+- [2 factor authentication](two-factor-authentication)
 - [IP access authorization](ip-access-authorization)
 
 ## Alwaysdata services and websites
@@ -19,7 +19,7 @@ tags = [""]
 - Remote access:
     - [SSH access](remote-access/ssh)
     - [Use SSH keys](remote-access/ssh/use-keys)
-    - [SSH 2-factor authentification](remote-access/ssh/ssh-two-factor-authentication)
+    - [SSH 2-factor authentication](remote-access/ssh/ssh-two-factor-authentication)
 
 ## Servers
 

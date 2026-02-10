@@ -10,7 +10,7 @@ This page lists the prices (*VAT excluded*) of the Private Cloud configurations.
 For any Private Cloud configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
 {{% notice note %}}
-*Private Cloud* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administation part.
+*Private Cloud* is a fully managed and operated servers offer. Our team handles the installation, configuration, and deployment of the platforms. You don't have to manage the systems administration part.
 {{% /notice %}}
 
 ## Managed Dedicated servers

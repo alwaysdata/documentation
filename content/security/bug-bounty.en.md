@@ -84,7 +84,7 @@ Qualification|Examples of vulnerabilities (non-comprehensive list)|Score CVSS|Bo
 None||N/A|No Bounty
 Low|Accessing restricted parts of third-party elements or their plugins (blog, forum, etc.)|0.1 - 3.9|Up to €50
 Medium|Accessing permissions/config on users account w/o accessing their content|4.0 - 6.9|Up to €200
-High|Accessing customers data/informations|7.0 - 8.9|Up to €350
+High|Accessing customers data/information|7.0 - 8.9|Up to €350
 Critical|Accessing in read or read-write mode to the core platform architecture|9.0 - 10.0|Up to €500
 
 ### Eligibility

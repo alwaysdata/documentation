@@ -1,5 +1,5 @@
 +++
-title = "Restricting Admin Panel Acces by IP-Filtering"
+title = "Restricting Admin Panel Access by IP-Filtering"
 layout = "man"
 hidden = true
 tags = ["profile", "security"]

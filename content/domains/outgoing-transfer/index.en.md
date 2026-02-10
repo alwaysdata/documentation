@@ -1,5 +1,5 @@
 +++
-title = "Transfering a Domain to Another Provider"
+title = "Transferring a Domain to Another Provider"
 layout = "howto"
 hidden = true
 tags = ["domain"]
@@ -20,4 +20,4 @@ This information is retrieved from the **Domains > Details of [example.org] - ðŸ
 
 A transfer cannot be made during the first 60 days after creation or after a previous transfer.
 
-[^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
+[^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)

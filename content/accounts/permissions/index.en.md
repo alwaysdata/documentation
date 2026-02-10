@@ -32,7 +32,7 @@ As long as a profile has permissions on the account, it has access to the *Serve
 - **[Statistics](analytics)**: analyze the visits to your sites (*Web > Analytics* menu),
 - **[Sites](sites)**: configure the websites and the Apache environment (*Web > Sites*, *Web > Configuration* menus),
 - **[Domains](domains)** technically manage domains and their DNS (*Domains* menu). For all billable operations, you will also need the __Billing__ permissions on the owner profile,
-- **[Emails](e-mails)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
+- **[Emails](e-mails)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuration* menus),
 - **[History of sent emails](e-mails/check-email-sending)** (*Emails > History* menu),
 - **[Databases](databases)** (*Databases* menu),
 - **[FTP](remote-access/ftp)** (*Remote access > FTP* menu),

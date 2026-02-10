@@ -14,7 +14,7 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 - [Frequent issues](remote-access/ssh/troubleshooting)
 
 * Users of [Private Cloud](accounts/billing/private-cloud-prices):
-	- [SSH 2-factor authentification](remote-access/ssh/ssh-two-factor-authentication)
+	- [SSH 2-factor authentication](remote-access/ssh/ssh-two-factor-authentication)
 	- [Global SSH keys](install-globally-ssh-keys)
 
 {{% notice info %}}

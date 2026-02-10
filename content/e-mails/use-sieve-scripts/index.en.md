@@ -65,7 +65,7 @@ addheader "Subject" "<SPAM> ${1}";
 }
 ```
 
-### Use headers in variables for automatic reponses
+### Use headers in variables for automatic responses
 
 ```
 require ["variables", "vacation"];

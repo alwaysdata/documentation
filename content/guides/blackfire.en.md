@@ -13,7 +13,7 @@ In our example, we use the [SSH access](remote-access/ssh) and consider the foll
 - Blackfire directory: `$HOME/blackfire/`
 
 {{% notice note %}}
-`[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by accurate informations.
+`[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by accurate information.
 {{% /notice %}}
 
 ## Step 1: Agent download

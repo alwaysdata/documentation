@@ -1,5 +1,5 @@
 +++
-title = "Formating HTTP Logs"
+title = "Formatting HTTP Logs"
 layout = "man"
 hidden = true
 tags = ["http", "site"]
