@@ -5,7 +5,9 @@ linkTitle = "Tarifs Offres Max"
 tags = ["facturation", "serveur dédié", "serveur gold"]
 +++
 
-Cette page recense les prix (*hors taxes*) des configurations Cloud Privé. Pour **plus d'informations** et/ou une **configuration personnalisée** contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/hebergement-infogere/).
+{{% notice warning %}}
+En raison de la situation actuelle sur le marché IT, les matériels utilisés sur nos serveurs subissent une hausse significative des coûts et des délais de livraison prolongés. **Ces prix ne sont donc qu'indicatifs.** Contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/contact/) ou notre [équipe clientèle](https://admin.alwaysdata.com/support) pour plus d'informations.
+{{% /notice %}}
 
 Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 

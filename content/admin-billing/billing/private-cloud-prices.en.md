@@ -4,7 +4,9 @@ linkTitle = "Pricing - Max Offers"
 tags = ["billing", "dedicated server", "gold server"]
 +++
 
-This page lists the prices (*VAT excluded*) of the Private Cloud configurations. To have **more information** and/or a **custom configuration** contact our [sales team](https://www.alwaysdata.com/en/private-cloud/).
+{{% notice warning %}}
+Due to the current situation in the IT market, the hardware used on our servers is experiencing a significant increase in costs and extended delivery times. **The following prices are therefore only indicative.** Please contact our [sales team](https://www.alwaysdata.com/en/contact/) or our [customer service team](https://admin.alwaysdata.com/support) for more information.
+{{% /notice %}}
 
 For any Private Cloud configuration order, the installation of the server is done after validation of the contracts and payment of the first invoice. There are no installation fees.
 
