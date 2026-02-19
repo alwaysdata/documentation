@@ -1,9 +1,7 @@
 +++
 url = "/fr/emails/clients/outlook/"
-title = "Comment configurer Outlook"
-layout = "howto"
+title = "Configurer Outlook"
 tags = ["email", "outlook", "microsoft"]
-hidden = true
 +++
 
 ## Général

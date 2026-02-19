@@ -1,8 +1,6 @@
 +++
 url = "/fr/emails/lire-la-source-dun-email/"
-title = "Comment lire la source d'un email"
-layout = "howto"
-hidden = true
+title = "Lire la source d'un email"
 tags = ["email"]
 +++
 
@@ -94,4 +92,4 @@ La source du mail est composée :
 
 ----
 
-- [Delivrabilité des emails : bonnes pratiques](e-mails/delivery)
+- [Delivrabilité des emails : bonnes pratiques](/e-mails/delivery)

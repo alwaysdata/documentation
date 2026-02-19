@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/ajouter-un-enregistrement-srv/"
-title = "Comment ajouter un enregistrement SRV"
-layout = "howto"
-hidden = true
+title = "Ajouter un enregistrement SRV"
 tags = ["dns", "domaine"]
 +++
 

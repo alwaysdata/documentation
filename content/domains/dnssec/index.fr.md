@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/dnssec/"
 title = "DNSSEC"
-layout = "man"
-hidden = true
 tags = ["dns", "domaine", "sécurité"]
 +++
 

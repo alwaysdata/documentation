@@ -1,9 +1,6 @@
 +++
 url = "/fr/domaines/acheter-un-domaine/"
-title = "Comment acheter un domaine"
-linkTitle = "Acheter un domaine"
-layout = "howto"
-weight = 1
+title = "Acheter un domaine"
 tags = ["domaine"]
 +++
 

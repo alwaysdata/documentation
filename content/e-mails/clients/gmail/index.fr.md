@@ -1,9 +1,7 @@
 +++
 url = "/fr/emails/clients/gmail/"
-title = "Comment configurer Gmail"
-layout = "howto"
-hidden = true
-tags = ["email", "gmail"]
+title = "Configurer Gmail"
+tags = ["email"]
 +++
 
 Dans nos exemples nous considérons les informations suivantes :
@@ -15,18 +13,49 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 
 |Serveur|Service|Information||
 |---|---|---|---|
-|Entrant|IMAP|Serveur IMAP|imap-*[compte]*.alwaysdata.net|
+|Entrant|POP3|Serveur POP|pop-*[compte]*.alwaysdata.net|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
-|||Port|993|
+|||Port|995|
 |Sortant|SMTP|Serveur SMTP|smtp-*[compte]*.alwaysdata.net|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
+|||| Ne pas traiter comme un alias|
 |||Port|465|
+||||Connexion sécurisée|
 
 {{% notice tip %}}
  *[compte]* doit être remplacé par le nom de votre compte et *contact\@example.org* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
 {{% /notice %}}
+
+## Navigateur web
+
+Rendez-vous dans **Paramètres > Comptes et importation**.
+
+{{< fig "images/gmail_interface_fr.png" "Gmail : interface" >}}
+{{< fig "images/gmail_interface2_fr.png" "Gmail : paramètres des comptes" >}}
+
+### Courrier entrant (IMAP/POP)
+
+Rendez-vous dans **Ajouter un compte de messagerie > Importer les e-mails de mon autre compte (POP3)** ;
+
+Cochez "Vous devez toujour utiliser une connexion sécurisée (SSL) lorsque vous récupérez vos emails".
+
+{{% notice warning %}}
+Attention c'est une connexion POP3 qui va récupérer sur ses serveurs les emails.
+{{% /notice %}}
+
+{{< fig "images/gmail_add-pop_fr.png" "Gmail : créer un compte POP" >}}
+{{< fig "images/gmail_add-pop-final_fr.png" "Gmail : créer un compte POP - résultat" >}}
+    
+### Courrier sortant (SMTP)
+
+Rendez-vous dans **Ajouter une autre adresse e-mail**.
+
+-  Décochez la case **Traiter comme un alias**.
+
+{{< fig "images/gmail_add-smtp_fr.png" "Gmail : créer un compte SMTP" >}}
+{{< fig "images/gmail_add-smtp-final_fr.png" "Gmail : créer un compte SMTP - résultat" >}}
 
 ## Mobile
 
@@ -35,23 +64,3 @@ Rendez-vous dans **Paramètres > Ajouter un compte > Autre**.
 {{< fig "images/gmail_mobile_fr.png" "Gmail sur mobile" >}}
 
 - Pour le courrier _sortant_, cochez la case **Exigez une connexion**.
-
-## Navigateur web
-
-### Courrier entrant
-
-Les [connexions POP](https://support.google.com/mail/answer/16604719) n'étant plus supportées par Gmail, son webmail ne peut donc servir que pour l'envoi des mails. Il faut sinon passer par leur Google Workspace ou une [redirection](/e-mails/create-an-e-mail-address#redirection) vers votre adresse Gmail.
-
-### Courrier sortant (SMTP)
-
-Rendez-vous dans **Paramètres > Comptes et importation**.
-
-{{< fig "images/gmail_interface_fr.png" "Gmail : interface" >}}
-{{< fig "images/gmail_interface2_fr.png" "Gmail : paramètres des comptes" >}}
-
-Rendez-vous dans **Ajouter une autre adresse e-mail**.
-
--  Décochez la case **Traiter comme un alias**.
-
-{{< fig "images/gmail_add-smtp_fr.png" "Gmail : créer un compte SMTP" >}}
-{{< fig "images/gmail_add-smtp-final_fr.png" "Gmail : créer un compte SMTP - résultat" >}}

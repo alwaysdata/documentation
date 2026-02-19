@@ -1,0 +1,67 @@
++++
+title = "Using API"
+tags = ["api"]
++++
+
+## Identification
+
+```sh
+$ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
+```
+
+Your tokens are available in the **[Profile](/admin-billing/profile/tokens)** section.
+
+{{% notice warning %}}
+To use your tokens, don't forget the colon (`:`) after the key, meaning that the password is not needed.
+{{% /notice %}}
+
+{{% notice info %}}
+A rate limit is applied on API requests. See [here](#rate-limit) for more details.
+{{% /notice %}}
+
+### Linked resources
+
+If you access resources linked to a user or a specific account, then you will need to specify this with your authentication while using one of the following parameters:
+
+- **account**: this is the account you wish to access. If for example you have a number of accounts but you wish to access a resource in a specific account.
+- **customer**: if you have certain permissions on another user, then you need to specify their e-mail address.
+
+For example, accessing the FTP users of your *mycompany* in this way:
+
+```sh
+$ curl --basic --user "APIKEY account=mycompany:" https://api.alwaysdata.com/v1/ftp/
+```
+
+## Format
+
+The following formats are handled:
+
+- [JSON](https://www.json.org/) (by default)
+- [XML](https://en.wikipedia.org/wiki/XML)
+- [HTML](https://en.wikipedia.org/wiki/HTML) (for the answer only)
+
+It may be specified in the URL:
+
+```sh
+$ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/?_format=xml
+```
+
+Or via the HTTP header:
+
+```sh
+$ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alwaysdata.com/v1/account/
+```
+
+## HTTP headers
+
+|HTTP header|Description|Default value|
+|--- |--- |--- |
+|alwaysdata-synchronous|Request execution in synchronous mode|no|
+
+## Rate-limit
+
+A limit of actions per minute (i.e. rate limit) is set:
+
+- 10 *rpm*
+- 50 *rpm* for sticky connections
+- 250 *rpm* for *safe* methods like `GET`

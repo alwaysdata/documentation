@@ -1,7 +1,5 @@
 +++
-title = "Buying a domain"
-layout = "howto"
-weight = 1
+title = "Buying a Domain"
 tags = ["domain"]
 +++
 

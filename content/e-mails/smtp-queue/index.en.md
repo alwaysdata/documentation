@@ -1,12 +1,10 @@
 +++
 title = "SMTP Waiting Queue"
-layout = "man"
-hidden = true
 tags = ["e-mail"]
 +++
 
 {{% notice note %}}
-Feature only available on [Private Cloud](accounts/billing/private-cloud-prices) environments.
+Feature only available on [Private Cloud](/admin-billing/billing/private-cloud-prices) environments.
 {{% /notice %}}
 
 

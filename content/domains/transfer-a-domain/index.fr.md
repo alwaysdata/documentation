@@ -1,16 +1,13 @@
 +++
 url = "/fr/domaines/transferer-un-domaine/"
-title = "Comment transférer un domaine"
-linkTitle = "Transférer un domaine"
-layout = "howto"
-weight = 2
+title = "Transférer un domaine"
 tags = ["domaine"]
 +++
 
 Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet de transférer la gestion _administrative_ de son domaine chez alwaysdata.
 
 {{% notice warning %}}
-Si vous souhaitez transférer le domaine à un autre client alwaysdata, passez par un [déplacement de domaine](domains/move-a-domain).
+Si vous souhaitez transférer le domaine à un autre client alwaysdata, passez par un [déplacement de domaine](/domains/move-a-domain).
 {{% /notice %}}
 
 ## Préparation en amont
@@ -25,7 +22,7 @@ Avant de lancer l'opération le propriétaire doit :
 Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
 {{% notice tip %}}
-Le transfert de la [gestion technique](domains/add-an-external-domain) peut être effectué avant pour éviter d'être embêté par le temps pris par le transfert administratif.
+Le transfert de la [gestion technique](/domains/add-an-external-domain) peut être effectué avant pour éviter d'être embêté par le temps pris par le transfert administratif.
 {{% /notice %}}
 
 ## Lancement du transfert
@@ -34,7 +31,7 @@ Le transfert de la [gestion technique](domains/add-an-external-domain) peut êtr
     
     {{< fig "images/admin-panel_domain-list.fr.png" "Interface d'administration : liste des domaines" >}}
     
-    Si le domaine a déjà été [ajouté](domains/add-an-external-domain) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
+    Si le domaine a déjà été [ajouté](/domains/add-an-external-domain) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
     
     {{< fig "images/admin-panel_transfer-domain.fr.png" "Interface d'administration : Transfert d'un domaine déjà en gestion" >}}
 
@@ -73,12 +70,12 @@ l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre d
 
 Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
 
-- mettant à jour vos [enregistrements DNS](domains/add-dns) si vous utilisez d'autres serveurs pour certains services ;
-- créant les [adresses email](e-mails/create-an-e-mail-address).
+- mettant à jour vos [enregistrements DNS](/domains/add-dns) si vous utilisez d'autres serveurs pour certains services ;
+- créant les [adresses email](/e-mails/create-an-e-mail-address).
 
 Concernant le site internet, plusieurs choix sont possibles :
 
-- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt](security/ssl-tls/lets-encrypt) ;
+- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) ;
 - préparer le site sur une autre adresse et attendre le dernier moment pour ajouter les adresses au site. Il peut alors se passer un temps où le site n'est plus accessible.
 
 ---

@@ -1,8 +1,6 @@
 +++
-url = "/fr/listes-de-diffusion/creer-une-liste-de-diffusion/"
+url = "/fr/emails/listes-de-diffusion/creer-une-liste-de-diffusion/"
 title = "Créer une liste de diffusion"
-layout = "man"
-hidden = true
 tags = ["email", "mailing list"]
 +++
 
@@ -29,5 +27,5 @@ Pour définir une nouvelle liste de diffusion, rendez vous dans **Ajouter une li
 Définissez :
 
 - un nom pour votre liste de diffusion qui constituera la partie locale de l'adresse mail de la liste (par exemple, pour une liste de diffusion derrière l'adresse mail `foo@example.org`, le nom de la liste sera `foo`) ;
-- le domaine auquel la liste est attachée. Ce domaine doit être disponible dans la [liste des domaines](domains) dont vous avez les permissions d'administration ;
+- le domaine auquel la liste est attachée. Ce domaine doit être disponible dans la [liste des domaines](/domains) dont vous avez les permissions d'administration ;
 - les permissions attachées aux utilisateurs que vous aurez défini dans la partie *Gestion utilisateurs*.

@@ -1,13 +1,11 @@
 +++
 url = "/fr/emails/file-dattente-smtp/"
 title = "File d'attente SMTP"
-layout = "man"
-hidden = true
 tags = ["email"]
 +++
 
 {{% notice note %}}
-Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](accounts/billing/private-cloud-prices).
+Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](/admin-billing/billing/private-cloud-prices).
 {{% /notice %}}
 
 Le menu **SMTP > File d'attente** du serveur vous affiche les emails en attente d'envoi (emails entrants et sortants) et vous permet :

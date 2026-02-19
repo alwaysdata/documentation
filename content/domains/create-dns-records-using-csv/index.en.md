@@ -1,7 +1,6 @@
 +++
-title = "How to Create Several DNS Records using CSV"
-layout = "howto"
-hidden = true
+title = "Creating Several DNS Records using CSV"
+linkTitle = "Creating Records with CSV"
 tags = ["dns", "domains"]
 +++
 

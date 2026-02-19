@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/renouveler-un-domaine/"
 title = "Renouveler un domaine"
-layout = "man"
-hidden = true
 tags = ["domaine"]
 +++
 

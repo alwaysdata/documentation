@@ -1,12 +1,10 @@
 +++
-url = "/fr/listes-de-diffusion/modifier-les-permissions-d-une-liste-de-diffusion/"
+url = "/fr/emails/listes-de-diffusion/modifier-les-permissions-d-une-liste-de-diffusion/"
 title = "Modifier les permissions d'une liste de diffusion"
-layout = "man"
-hidden = true
 tags = ["email", "mailing list"]
 +++
 
-Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion](create-a-mailing-list).
+Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion](/e-mails/mailing-lists/create-a-mailing-list).
 
 Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
 

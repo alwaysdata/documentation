@@ -1,11 +1,9 @@
 +++
-title = "Add members to a mailing list"
-layout = "man"
-hidden = true
+title = "Add Members to a Mailing List"
 tags = ["e-mail", "mailing list"]
 +++
 
-To add members to a mailing list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you will have defined at the [creation of your mailing list](create-a-mailing-list).
+To add members to a mailing list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you will have defined at the [creation of your mailing list](/e-mails/mailing-lists/create-a-mailing-list).
 
 Once identified, go to the management section of the concerned mailing list by clicking on its name.
 

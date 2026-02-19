@@ -1,8 +1,6 @@
 +++
 title = "Configuring Outlook"
-layout = "howto"
 tags = ["e-mail", "outlook", "microsoft"]
-hidden = true
 +++
 
 ## General

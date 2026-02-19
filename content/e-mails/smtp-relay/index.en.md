@@ -1,7 +1,5 @@
 +++
-title = "SMTP relay"
-layout = "man"
-hidden = true
+title = "SMTP Relay"
 tags = ["e-mail"]
 +++
 
@@ -10,7 +8,7 @@ The SMTP relay service makes it possible to use an external third-party server t
 - to not affect the reputation of your alwaysdata server;
 - benefit from specialist services.
 
-This option is available on alwaysdata’s [Private Cloud offers](accounts/billing/private-cloud-prices).
+This option is available on alwaysdata’s [Private Cloud offers](/admin-billing/billing/private-cloud-prices).
 
 ## Installation
 

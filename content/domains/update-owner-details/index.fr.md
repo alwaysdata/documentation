@@ -1,8 +1,7 @@
 +++
 url = "/fr/domaines/mettre-a-jour-informations-proprietaire/"
-title = "Comment mettre à jour les informations du propriétaire d'un domaine"
-layout = "howto"
-hidden = true
+title = "Mettre à jour les informations du propriétaire d'un domaine"
+linkTitle = "Mettre à jour les informations"
 tags = ["domaine"]
 +++
 
@@ -12,4 +11,4 @@ Chaque domaine est lié à un utilisateur propriétaire. Pour connaître quel ut
 
 Vous pourrez changer, via le bouton **MODIFIER** (en face de **Propriétaire**), l'adresse, l'email et le numéro de téléphone.
 
-Pour modifier le nom du propriétaire ou l'entreprise tournez-vous vers le [changement de propriétaire](domains/change-of-owner).
+Pour modifier le nom du propriétaire ou l'entreprise tournez-vous vers le [changement de propriétaire](/domains/change-of-owner).

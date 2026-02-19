@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/deplacer-un-domaine/"
-title = "Comment déplacer un domaine"
-layout = "howto"
-hidden = true
+title = "Déplacer un domaine"
 tags = ["domaine", "email"]
 +++
 

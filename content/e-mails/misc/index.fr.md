@@ -1,8 +1,6 @@
 +++
 url = "/fr/emails/divers/"
-title = "Diverses questions"
-layout = "man"
-hidden = "true"
+title = "Questions diverses"
 tags = ["email"]
 +++
 

@@ -1,7 +1,5 @@
 +++
 title = "DNSSEC"
-layout = "man"
-hidden = true
 tags = ["dns", "domain", "security"]
 +++
 

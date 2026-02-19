@@ -1,11 +1,9 @@
 +++
 title = "Using Sieve Scripts"
-layout = "howto"
-hidden = true
 tags = ["e-mail"]
 +++
 
-[Sieve](http://sieve.info/) is a language for filtering e-mails. It is used to add complex rules that cannot be added via the [filtering rules](e-mails/add-a-filter-rule).
+[Sieve](http://sieve.info/) is a language for filtering e-mails. It is used to add complex rules that cannot be added via the [filtering rules](/e-mails/add-a-filter-rule).
 
 {{< fig "images/admin-panel_mailbox_sieve.en.png" "Administration interface: E-mails - Script Sieve" >}}
 

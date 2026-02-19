@@ -1,9 +1,7 @@
 +++
 url = "/fr/emails/clients/thunderbird/"
-title = "Comment configurer Thunderbird"
-layout = "howto"
+title = "Configurer Thunderbird"
 tags = ["email", "thunderbird", "mozilla"]
-hidden = true
 +++
 
 ## Général

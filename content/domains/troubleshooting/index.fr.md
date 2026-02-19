@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/problemes-frequents/"
 title = "Domaines - Problèmes fréquents"
-layout = "faq"
-weight = 90
 tags = ["dépannage", "domaine"]
 +++
 

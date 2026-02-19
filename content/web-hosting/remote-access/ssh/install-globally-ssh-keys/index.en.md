@@ -1,0 +1,15 @@
++++
+title = "Connecting To Your Server Using SSH Keys"
+tags = ["remote access", "ssh"]
++++
+
+{{% notice note %}}
+Feature only available on [Private Cloud](/admin-billing/billing/private-cloud-prices) environments.
+{{% /notice %}}
+
+
+To easily manage your server accounts, you can install global SSH keys in the **SSH keys** tab for your server. These are used to connect to any account without knowing the password.
+
+{{< fig "images/admin-interface_global-ssh-keys.en.png" "Administration interface: global SSH keys" >}}
+
+Your public SSH key to copy in this form is given in a file of the `$HOME/.ssh` directory of your computer (for example `$HOME/.ssh/id_ed25519.pub`). If you do not have one you can [generate it](/web-hosting/remote-access/ssh/use-keys).

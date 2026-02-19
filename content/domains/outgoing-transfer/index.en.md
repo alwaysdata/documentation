@@ -1,7 +1,6 @@
 +++
 title = "Transfering a Domain to Another Provider"
-layout = "howto"
-hidden = true
+linkTitle = "Outgoing Transfert"
 tags = ["domain"]
 +++
 

@@ -1,7 +1,5 @@
 +++
 title = "Configuring SPF/DKIM/DMARC"
-layout = "howto"
-hidden = true
 tags = ["e-mail", "dns"]
 +++
 

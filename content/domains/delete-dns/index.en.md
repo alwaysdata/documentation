@@ -1,7 +1,5 @@
 +++
 title = "Deleting a DNS Record"
-layout = "howto"
-hidden = true
 tags = ["dns", "domain"]
 +++
 
@@ -11,5 +9,5 @@ tags = ["dns", "domain"]
     {{< fig "images/admin-panel_dns-record-list.en.png" "Administration interface: list of DNS records" >}}
 
 {{% notice note %}}
-The records created by default by our system (e.g. by adding an address in **Web > Sites**) cannot be *deleted* but you may *overwrite* them by [adding a DNS record](domains/add-dns) for the relevant host name.
+The records created by default by our system (e.g. by adding an address in **Web > Sites**) cannot be *deleted* but you may *overwrite* them by [adding a DNS record](/domains/add-dns) for the relevant host name.
 {{% /notice %}}

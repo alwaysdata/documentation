@@ -1,7 +1,6 @@
 +++
 title = "Reading an E-mail Source"
-layout = "howto"
-hidden = true
+linkTitle = "Reading an Email Source"
 tags = ["e-mail"]
 +++
 
@@ -93,4 +92,4 @@ The e-mail source comprises:
 
 ---
 
-- [E-mail deliverability: best practices](e-mails/delivery)
+- [E-mail deliverability: best practices](/e-mails/delivery)

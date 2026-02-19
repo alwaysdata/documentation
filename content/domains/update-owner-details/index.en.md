@@ -1,7 +1,5 @@
 +++
 title = "Update Domain Owner's Details"
-layout = "howto"
-hidden = true
 tags = ["domain"]
 +++
 
@@ -11,4 +9,4 @@ Each domain is linked to a specific owner user. To find out which user is linked
 
 You can change the address, email, and phone number using the **MODIFY** button (opposite **Owner**).
 
-To change the name of the owner or the company turn to [change of ownership](domains/change-of-owner).
+To change the name of the owner or the company turn to [change of ownership](/domains/change-of-owner).

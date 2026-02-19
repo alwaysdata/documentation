@@ -1,0 +1,28 @@
++++
+url = "/fr/hebergement-web/acces-distant/sftp/"
+title = "SFTP"
+tags = ["accès distant", "sftp"]
++++
+
+Le protocole SFTP (pour [SSH File Transfer Protocol](https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol)) permet de sécuriser un transfert FTP en passant par un tunnel SSH. Les utilisateurs peuvent de ce fait utiliser une interface graphique simple via le client FTP de leur choix.
+
+## Se connecter en SFTP
+
+Dans **Accès distant > SSH/SFTP** autorisez la *connexion par mot de passe* à votre utilisateur SSH.
+
+{{< fig "images/admin-panel_ssh-users-list.fr.png" "Interface d'administration : liste des utilisateurs SSH">}}
+
+Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte *test* et du client FTP [FileZilla](https://filezilla-project.org/) :
+
+* utilisateur : `test`
+* mot de passe
+* nom d'hôte : `ssh-test.alwaysdata.net`
+* port : `22`
+
+{{< fig "images/filezilla_sftp-connection.fr.png" "Interface FileZilla : connexion SFTP" >}}
+
+## Divers
+
+Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`.
+
+Il ne doit pas être confondu avec le protocole [FTPS](/web-hosting/remote-access/ftp) : transfert FTP sécurisé par les protocoles SSL ou TLS.

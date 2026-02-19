@@ -1,7 +1,5 @@
 +++
 title = "Renewing a Domain"
-layout = "man"
-hidden = true
 tags = ["domain"]
 +++
 

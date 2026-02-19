@@ -1,11 +1,10 @@
 +++
 title = "Creating an E-mail Address"
-layout = "howto"
-weight = 1
+linkTitle = "Creating a Mailbox"
 tags = ["e-mail", "redirection"]
 +++
 
-From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name](domains).
+From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name](/domains).
 
 {{< fig "images/admin-panel_mailbox-list.en.png" "Administration interface: List of e-mail boxes" >}}
 
@@ -16,7 +15,7 @@ Then there will be a series of fields to fill-in. Here are the details.
 {{< fig "images/admin-panel_create-mailbox_required-infos.en.png" "Administration interface: E-mails - required information" >}}
 
 - *Domain*: the domain name for the address to create,
-- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address](e-mails/catch-all).
+- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address](/e-mails/catch-all).
 - *Password*: the password needed to connect to this e-mail address.
 
 ## Antispam
@@ -84,4 +83,4 @@ If no maximum size is specified for an e-mail box, then the space available in t
 
 {{< fig "images/admin-panel_mailbox_sieve.en.png" "Administration interface: E-mails - Script Sieve" >}}
 
-This technology is used to perform [more precise operations](e-mails/use-sieve-scripts) when your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured on the form creating your e-mail box.
+This technology is used to perform [more precise operations](/e-mails/use-sieve-scripts) when your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured on the form creating your e-mail box.

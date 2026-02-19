@@ -1,8 +1,6 @@
 +++
 title = "Sender Rewriting Scheme"
-layout = "man"
 tags = ["e-mail", "redirect"]
-hidden = true
 +++
 
 [Sender Rewriting Scheme](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme) (or SRS) allows rewriting the sender's address on e-mail envelopes to bypass [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)[^1] blocking and thus improve e-mail deliverability **with redirection**.
@@ -23,4 +21,4 @@ By enabling SRS, the `ENVELOPE FROM` and `HEADER FROM`/`FROM` no longer match. W
 
 > Icons: The Noun Project
 
-[^1]: [set up SPF at alwaysdata](e-mails/set-up-spf-dkim-dmarc#sender-policy-framework)
+[^1]: [set up SPF at alwaysdata](/e-mails/set-up-spf-dkim-dmarc#sender-policy-framework)

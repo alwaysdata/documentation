@@ -1,9 +1,6 @@
 +++
 url = "/fr/domaines/ajouter-un-enregistrement-dns/"
-title = "Comment ajouter un enregistrement DNS"
-linkTitle = "Ajouter un enregistrement DNS"
-layout = "howto"
-weight = 6
+title = "Ajouter un enregistrement DNS"
 tags = ["dns", "domaine"]
 +++
 
@@ -23,9 +20,9 @@ Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.exa
 Un enregistrement ayant `@` comme nom d'hôte pour certains prestataires correspond au sous-domaine vide. Dans notre cas, la case **Nom d'hôte** devra être vide.
 {{% /notice %}}
 
-- [Ajouter un enregistrement SRV](domains/add-srv-record)
-- [Ajouter un enregistrement CAA](add-caa-record)
-- [Utiliser des MX externes](domains/use-external-mx)
+- [Ajouter un enregistrement SRV](/domains/add-srv-record)
+- [Ajouter un enregistrement CAA](/domains/add-caa-record)
+- [Utiliser des MX externes](/domains/use-external-mx)
 
 ## Importer un fichier de zone
 
@@ -38,4 +35,4 @@ Cela supprimera les enregistrements DNS précédemment ajoutés.
 ## Ressources
 
 - [Liste des types d'enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS)
-- [Ajouter des enregistrements DNS avec CSV](create-dns-records-using-csv)
+- [Ajouter des enregistrements DNS avec CSV](/domains/create-dns-records-using-csv)

@@ -1,7 +1,5 @@
 +++
 title = "Delegating a Domain"
-layout = "howto"
-hidden = true
 tags = ["domain", "site"]
 +++
 

@@ -1,7 +1,5 @@
 +++
-title = "Miscellaneous questions"
-layout = "man"
-hidden = "true"
+title = "Miscellaneous Questions"
 tags = ["e-mail"]
 +++
 

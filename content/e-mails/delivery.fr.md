@@ -2,8 +2,6 @@
 url = "/fr/emails/delivrabilite-bonnes-pratiques/"
 title = "Comment améliorer la délivrabilité d'emails"
 linkTitle = "Délivrabilité : bonnes pratiques"
-layout = "howto"
-weight = 20
 tags = ["email"]
 +++
 
@@ -12,7 +10,7 @@ Que vos boîtes email soient hébergées dans un Cloud Public ou un environnemen
 ## L'expéditeur
 
 - Vérifiez le nom de l'expéditeur ainsi que l'adresse email d'envoi ;
-- Utilisez les [protocoles d'identification](e-mails/set-up-spf-dkim-dmarc) ;
+- Utilisez les [protocoles d'identification](/e-mails/set-up-spf-dkim-dmarc) ;
 - L'_ENVELOPE FROM_ doit correspondre au _FROM/HEADER FROM_ dans vos en-têtes.
 
 ## Les destinataires
@@ -42,7 +40,7 @@ Vérifiez que les bonnes pratiques sont suivies en répondant "oui" aux question
 
 Afin d'éviter les abus et optimiser la délivrabilité des emails envoyés par ses serveurs, alwaysdata a mis en place un système de notation qui se base sur différents critères comme l'analyse du contenu et la fréquence des envois.
 
-Plus la note est basse mieux l'email sera noté et l'envoi accepté. Sur le Cloud Public, tout email ayant une note supérieure à _3_ sera bloqué. En [Cloud Privé](accounts/billing/private-cloud-prices), la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur. Il n'est pas possible de le désactiver.
+Plus la note est basse mieux l'email sera noté et l'envoi accepté. Sur le Cloud Public, tout email ayant une note supérieure à _3_ sera bloqué. En [Cloud Privé](/admin-billing/billing/private-cloud-prices), la valeur par défaut est de _5_ et vous pouvez la modifier dans l'onglet **SMTP > Paramètres** de votre serveur. Il n'est pas possible de le désactiver.
 
 {{% notice note %}}
 Cette note n'est utilisée que pour l'envoi de nos serveurs. Elle n'a aucune incidence sur la gestion du message au niveau du serveur destinataire.
@@ -52,7 +50,7 @@ Suivant cette notation, le message sera expédié via une adresse IP ayant une r
 
 Ce système utilise [Rspamd](https://rspamd.com/) et un ensemble de règles propres à alwaysdata.
 
-Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi de mails vous pouvez louer une [IP dédiée](advanced/dedicated-ip-addresses) dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
+Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi de mails vous pouvez louer une [IP dédiée](/web-hosting/dedicated-ip-addresses) dans l'onglet **Avancé > Adresses IP** du compte. Vous pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
 
 ## Remarques
 

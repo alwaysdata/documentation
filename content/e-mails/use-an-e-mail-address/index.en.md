@@ -1,7 +1,6 @@
 +++
 title = "Using an E-mail Address"
-layout = "howto"
-weight = 10
+linkTitle = "Using an Email Address"
 tags = ["e-mail"]
 +++
 
@@ -34,10 +33,10 @@ Password authentication is **mandatory** to use our SMTP server, fill-in the sam
 
 It is also possible to use your internet provider's SMTP server.
 
-- [Configure Apple/iOS](e-mails/clients/apple-ios)
-- [Configure Gmail](e-mails/clients/gmail)
-- [Configure Mozilla Thunderbird](e-mails/clients/thunderbird)
-- [Configure Outlook](e-mails/clients/outlook)
+- [Configure Apple/iOS](/e-mails/clients/apple-ios)
+- [Configure Gmail](/e-mails/clients/gmail)
+- [Configure Mozilla Thunderbird](/e-mails/clients/thunderbird)
+- [Configure Outlook](/e-mails/clients/outlook)
 
 ## Webmail
 

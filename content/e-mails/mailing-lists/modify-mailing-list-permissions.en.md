@@ -1,11 +1,9 @@
 +++
 title = "Modify Mailing List Permissions"
-layout = "man"
-hidden = true
 tags = ["e-mail", "mailing list"]
 +++
 
-To modify the broadcasting permissions of a list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you defined at the [creation of your mailing list](create-a-mailing-list).
+To modify the broadcasting permissions of a list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you defined at the [creation of your mailing list](/e-mails/mailing-lists/create-a-mailing-list).
 
 Once identified, go to the management section of the concerned mailing list by clicking on its name.
 

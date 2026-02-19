@@ -1,8 +1,6 @@
 +++
 url = "/fr/domaines/ajouter-un-enregistrement-caa/"
-title = "Comment ajouter un enregistrement CAA"
-layout = "howto"
-hidden = true
+title = "Ajouter un enregistrement CAA"
 tags = ["dns", "domaine"]
 +++
 
@@ -27,7 +25,7 @@ Trois étiquettes sont définies :
 - `iodef` qui signale une URL que peut contacter les autorités de certifications en cas de problèmes.
 
 {{% notice info %}}
-Des [certificats Let's Encrypt](security/ssl-tls/lets-encrypt) sont générés pour toute adresse HTTP hébergée sur nos serveurs. Ils doivent donc faire partie des autorités validées.
+Des [certificats Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) sont générés pour toute adresse HTTP hébergée sur nos serveurs. Ils doivent donc faire partie des autorités validées.
 {{% /notice %}}
 
 ## Quelques exemples

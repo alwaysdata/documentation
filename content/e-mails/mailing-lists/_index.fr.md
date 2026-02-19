@@ -1,8 +1,6 @@
 +++
-url = "/fr/listes-de-diffusion/"
+url = "/fr/emails/listes-de-diffusion/"
 title = "Listes de diffusion"
-weight = 50
-layout = "man"
 tags = ["email", "mailing list"]
 +++
 
@@ -21,7 +19,7 @@ La gestion interne des listes de diffusions (membres, permissions, etc), se fait
 
 ***
 
-- [Créer une liste de diffusion](create-a-mailing-list)
-- [Ajouter des membres manuellement à une liste](add-members-to-a-mailing-list)
-- [Modifier les droits de diffusion](modify-mailing-list-permissions)
-- [Ajouter un pied-de-page avec un lien de désabonnement](add-a-mailing-list-footer)
+- [Créer une liste de diffusion](/e-mails/mailing-lists/create-a-mailing-list)
+- [Ajouter des membres manuellement à une liste](/e-mails/mailing-lists/add-members-to-a-mailing-list)
+- [Modifier les droits de diffusion](/e-mails/mailing-lists/modify-mailing-list-permissions)
+- [Ajouter un pied-de-page avec un lien de désabonnement](/e-mails/mailing-lists/add-a-mailing-list-footer)

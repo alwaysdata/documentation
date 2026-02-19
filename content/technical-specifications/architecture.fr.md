@@ -1,0 +1,38 @@
++++
+url = "/fr/caracteristiques-techniques/architecture/"
+title = "Architecture alwaysdata"
+tags = ["environnement technique", "infrastructure"]
++++
+
+## Architecture matérielle
+
+Nos serveurs sont hébergés en France, en région parisienne. Nous nous appuyons sur l'expertise d'[Equinix](https://www.equinix.com/) pour nos datacenters principaux. Ils nous certifient un niveau de disponibilité de plus de 99.99999% ([Certifications Equinix](https://www.equinix.co.uk/data-centers/design/standards-compliance)).
+
+alwaysdata est propriétaire de son infrastructure - serveurs, baies de stockage, équipement réseau et tout ce qui permet de soutenir notre plateforme.
+
+Nous opérons notre propre *réseau indépendant* : [AS60362](http://as60362.net/).
+
+Tous nos équipements réseau, switches, routeurs opèrent par paire (deux fabriquants différents) et quatre opérateurs réseaux indépendants assurent la redondance et la neutralité de notre réseau.
+
+Toutes nos machines sont dotées de SSD configurés en *RAID1* (dupliqués en temps réel) et *échangeables à chaud*. Leurs alimentations sont *redondées* via deux chaînes électriques indépendantes et du matériel de rechange est disponible sur nos sites de production pour remplacer tout élément défectueux.
+
+Nous supportons nativement le protocole *IPv6* pour l'ensemble de nos services.
+
+Pour aller plus loin :
+- [Réseau](/technical-specifications/network)
+- [Plages d'IP](/technical-specifications/ip-ranges)
+- [Plan de continuité d'activité](/technical-specifications/drp)
+
+## Architecture logicielle
+
+Nous utilisons autant que possible des solutions open source et nos serveurs tournent sous [Linux Debian x64](https://www.debian.org/). Tous nos services sont accessibles à distance et une [API REST](/development/api) est disponible pour les opérations de configuration sur notre interface d'administration.
+
+Chaque compte est isolé des autres via une conteneurisation basée sur [Cgroups](https://fr.wikipedia.org/wiki/Cgroups). Il exécute ainsi ses propres programmes, ses propres serveurs HTTP pour offrir une sécurisation et une personnalisation poussée.
+
+Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d’un serveur. Lorsque un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes peu ou pas actifs, pour les réaffecter temporairement.
+
+- [Stack HTTP](/web-hosting/sites/http-stack)
+- [Mises à jour de sécurité](/technical-specifications/security-upgrades)
+
+---
+- [Bug Bounty](/technical-specifications/bug-bounty)

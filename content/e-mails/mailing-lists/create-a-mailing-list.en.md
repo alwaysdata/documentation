@@ -1,7 +1,5 @@
 +++
 title = "Create a Mailing List"
-layout = "man"
-hidden = true
 tags = ["e-mail", "mailing list"]
 +++
 
@@ -28,5 +26,5 @@ To define a new mailing list, go to **Add a mailing list**.
 Define:
 
 - a name for your mailing list that will be the local part of the list's email address (for example, for a mailing list behind the email address `foo@example.org`, the list name will be `foo`),
-- the domain to which the list is attached. This domain must be available in the [list of domains](domains) for which you have administrative permissions,
+- the domain to which the list is attached. This domain must be available in the [list of domains](/domains) for which you have administrative permissions,
 - the permissions attached to the users you have defined in the *User Management* section.

@@ -1,7 +1,5 @@
 +++
 title = "Setting DNS Servers"
-layout = "howto"
-weight = 21
 tags = ["dns", "domain"]
 +++
 

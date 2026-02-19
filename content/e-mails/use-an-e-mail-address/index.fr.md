@@ -2,8 +2,6 @@
 url = "/fr/emails/utiliser-une-adresse-email/"
 title = "Comment consulter une adresse email"
 linkTitle = "Consulter une adresse email"
-layout = "howto"
-weight = 10
 tags = ["email"]
 +++
 
@@ -36,10 +34,10 @@ L'authentification par mot de passe est **nécessaire** pour utiliser notre serv
 
 Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
 
-* [Configurer Apple/iOS](e-mails/clients/apple-ios)
-* [Configurer Gmail](e-mails/clients/gmail)
-* [Configurer Mozilla Thunderbird](e-mails/clients/thunderbird)
-* [Configurer Outlook](e-mails/clients/outlook)
+* [Configurer Apple/iOS](/e-mails/clients/apple-ios)
+* [Configurer Gmail](/e-mails/clients/gmail)
+* [Configurer Mozilla Thunderbird](/e-mails/clients/thunderbird)
+* [Configurer Outlook](/e-mails/clients/outlook)
 
 ## Webmail
 

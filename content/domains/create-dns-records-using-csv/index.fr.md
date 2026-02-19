@@ -1,8 +1,7 @@
 +++
-url = "/fr/emails/creer-des-enregistrements-DNS-via-csv/"
-title = "Comment créer plusieurs enregistrements DNS via CSV"
-layout = "howto"
-hidden = true
+url = "/fr/domaines/creer-des-enregistrements-DNS-via-csv/"
+title = "Créer plusieurs enregistrements DNS via CSV"
+linkTitle = "Créer des enregistrements avec CSV"
 tags = ["dns", "domains"]
 +++
 

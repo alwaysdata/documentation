@@ -1,8 +1,7 @@
 +++
 url = "/fr/emails/adresse-collectrice/"
 title = "Adresse collectrice (catch-all)"
-layout = "faq"
-hidden = true
+linkTitle = "Catch-all"
 tags = ["email"]
 +++
 
@@ -18,7 +17,7 @@ Représentation : `*@example.org`
 ## Divers
 
 - De part ses spécificités, il n'est pas possible de mettre en place réponse automatique. Cela pourrait sinon provoquer des vagues de spam.
-	- Néanmoins il est possible de l'utiliser pour des destinataires précis via les [scripts Sieve](e-mails/use-sieve-scripts) en ajoutant ces adresses destinataires dans les instructions `vacation` :
+	- Néanmoins il est possible de l'utiliser pour des destinataires précis via les [scripts Sieve](/e-mails/use-sieve-scripts) en ajoutant ces adresses destinataires dans les instructions `vacation` :
 
 	```
 	addresses ["foo@example.org", "bar@example.org"]

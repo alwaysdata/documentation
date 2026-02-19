@@ -1,8 +1,6 @@
 +++
 title = "Configuring Mail.app (Apple/iOS)"
-layout = "howto"
 tags = ["e-mail", "ios", "macos", "apple"]
-hidden = true
 +++
 
 In our examples we consider the following information:

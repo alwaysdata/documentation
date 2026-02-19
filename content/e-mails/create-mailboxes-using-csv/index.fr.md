@@ -1,8 +1,7 @@
 +++
 url = "/fr/emails/creer-des-adresses-email-via-csv/"
-title = "Comment créer plusieurs adresses email via CSV"
-layout = "howto"
-hidden = true
+title = "Créer plusieurs adresses email via CSV"
+linkTitle = "Créer des adresses via CSV"
 tags = ["email"]
 +++
 

@@ -1,8 +1,6 @@
 +++
 title = "Configuring Thunderbird"
-layout = "howto"
 tags = ["e-mail", "thunderbird", "mozilla"]
-hidden = true
 +++
 
 ## General

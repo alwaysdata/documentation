@@ -1,13 +1,11 @@
 +++
 title = "Reacting to Spam"
-layout = "howto"
-hidden = true
 tags = ["e-mail", "scam", "spam"]
 +++
 
 There are three main reasons for sending spam:
 
-- [a website infection](sites/clean-up-a-site),
+- [a website infection](/web-hosting/sites/clean-up-a-site),
 - a form attack on website,
 - a password theft.
 
@@ -23,7 +21,7 @@ When the alwaysdata team encounters spam sent due to a form attack, they will:
 
 The user will have to put a more efficient protection on the form, through the use of a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
 
-The [WAF](sites/waf) can be useful to block some attacks.
+The [WAF](/web-hosting/sites/waf) can be useful to block some attacks.
 
 ## Password theft
 

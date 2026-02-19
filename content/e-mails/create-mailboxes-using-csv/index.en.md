@@ -1,7 +1,6 @@
 +++
-title = "How to Create Several Mailboxes using CSV"
-layout = "howto"
-hidden = true
+title = "Creating Several Mailboxes using CSV"
+linkTitle = "Creating Mailboxes with CSV"
 tags = ["e-mail"]
 +++
 

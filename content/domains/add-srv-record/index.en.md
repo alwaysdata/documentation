@@ -1,7 +1,5 @@
 +++
-title = "Adding an SRV Record"
-layout = "howto"
-hidden = true
+title = "Adding a SRV Record"
 tags = ["dns", "domain"]
 +++
 

@@ -13,7 +13,7 @@ Si vous êtes satisfaits des services proposés par notre équipe, sachez qu'il 
 * Contactez-nous par [ticket](https://admin.alwaysdata.com/support/) pour toute remarque/suggestion ;
 * Laissez-nous un avis sur les plateformes [Trustpilot](https://fr.trustpilot.com/evaluate/alwaysdata.com) et [Google](https://g.page/r/CdUxURUC1V4SEB0/review) ;
 * Veillez à bien remplir votre [profil](https://admin.alwaysdata.com/user/) (particulièrement les champs pays et origine) ;
-* Recommandez-nous (et profitez de notre système de [parrainage](accounts/billing/sponsorship)) ;
+* Recommandez-nous (et profitez de notre système de [parrainage](/admin-billing/billing/sponsorship)) ;
 * [Contribuez](https://github.com/alwaysdata/documentation/) à l'amélioration de notre documentation.
 
 Toutes ces actions contribuent, à leur échelle, à améliorer nos moyens, grâce à une meilleure visibilité ou encore une meilleure connaissance de notre collaboration avec vous, nos utilisateurs.

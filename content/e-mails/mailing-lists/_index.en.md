@@ -1,7 +1,5 @@
 +++
 title = "Mailing Lists"
-weight = 50
-layout = "man"
 tags = ["e-mail", "mailing list"]
 +++
 
@@ -20,7 +18,7 @@ The internal management of the mailing lists (members, permissions, etc) is done
 
 ***
 
-- [Create a mailing list](create-a-mailing-list)
-- [Add members manually to a list](add-members-to-a-mailing-list)
-- [Modify mailing permissions](modify-mailing-list-permissions)
-- [Add footer with unsubscribe link](add-a-mailing-list-footer)
+- [Create a mailing list](/e-mails/mailing-lists/create-a-mailing-list)
+- [Add members manually to a list](/e-mails/mailing-lists/add-members-to-a-mailing-list)
+- [Modify mailing permissions](/e-mails/mailing-lists/modify-mailing-list-permissions)
+- [Add footer with unsubscribe link](/e-mails/mailing-lists/add-a-mailing-list-footer)
