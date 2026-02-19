@@ -20,8 +20,8 @@ In the case of loss of two-factor authentication, send an email to *contact[at]a
 
 ## OTP applications
 
-- **[FreeOTP](https://freeotp.github.io/)**: [Android](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp), [iOS](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8) and [F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp) ([Github](https://github.com/freeotp))
-- **Google Authenticator**: [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605)
+- **[2FAS Auth](https://2fas.com/)** : [Google Play](https://apps.apple.com/us/app/2fas-auth/id1217793794) and [Apple Store](https://apps.apple.com/us/app/2fas-auth/id1217793794)
+- **[EnteAuth](https://ente.io/auth/)** : [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth), [Apple Store](https://apps.apple.com/us/app/ente-auth/id6444121398) and [F-Droid](https://f-droid.org/packages/io.ente.auth/).
 
 ---
 Two-factor authentication is also available [in SSH](/web-hosting/remote-access/ssh/ssh-two-factor-authentication) for users of our alwaysdata [Private Cloud offers](/admin-billing/billing/private-cloud-prices).
