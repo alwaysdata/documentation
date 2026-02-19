@@ -39,21 +39,17 @@ A change of owner needs to be accepted by both the former and the new owner with
 
 ## Domain suspended by ICANN
 
-[ICANN](https://www.icann.org) checks the e-mail addresses of domain owners to ensure their proper operation. Owners have 15 days to validate the e-mail sent by ICANN.
+Many registries verify domain owners' email addresses to ensure they are functioning correctly. For domains managed by [ICANN](https://www.icann.org/), in particular, owners have 15 days to validate their email address.
 
 A `whois` will show the following message: `Domain Status: clientHold`
 
-From the alwaysdata administration interface, the following message - **Domains > Details o [example.org] - 🔎 > Status** tab - lets you send the e-mail:
+From the alwaysdata administration interface, the following message - **Domains > Details of [example.org] - 🔎 > Status** tab - lets you send the e-mail:
 
 ```
 This domain was suspended by ICANN as its owner did not confirm their e-mail address within 15 days of creation, transfer or sale.
 ```
 
-If you are not sure of the e-mail address, you can change it in the owner’s contact information from the **Domains > Manage contacts** menu:
-
-{{< fig "images/admin-panel_domains-list.en.png" "Administration interface: access to the Manage contacts menu" >}}
-
-{{< fig "images/admin-panel_contacts-management.en.png" "Administration interface: Manage contacts menu" >}}
+If you are not sure of the e-mail address, you can change it in the owner’s contact information from the **Domains > Details of [example.org] - 🔎 > MODIFY** (oposite **Owner**).
 
 ## Links
 

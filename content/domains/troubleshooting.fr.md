@@ -32,8 +32,8 @@ Le prestataire actuel du domaine a bloqué le transfert. Contactez-les pour en c
 ### "Max waiting duration for owner responses (15 days) reached"
 Un changement de propriétaire doit être accepté par l'ancien et le nouveau propriétaire dans un délai de 15 jours. Vérifiez les adresses email des deux contacts.
 
-## Domaine suspendu par l'ICANN
-L'[ICANN](https://www.icann.org/fr) vérifie les adresses email des propriétaires de domaine pour s'assurer de leur bon fonctionnement. Les propriétaires ont 15 jours pour valider l'email envoyé par l'ICANN.
+## Domaine suspendu
+De nombreux registres vérifient les adresses email des propriétaires de domaine pour s'assurer de leur bon fonctionnement. Pour les domaines gérés par l'[ICANN](https://www.icann.org/), notamment, les propriétaires ont 15 jours pour valider l'email.
 
 Un `whois` indiquera le message suivant : `Domain Status: clientHold`
 
@@ -43,11 +43,7 @@ Dans l'interface d'administration alwaysdata, le message suivant - onglet **Doma
 Ce domaine a été suspendu par l'ICANN car son propriétaire n'a pas confirmé son adresse email dans les 15 jours suivant sa création, son transfert ou sa cession.
 ```
 
-Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le détail du contact propriétaire, menu **Domaines > Gestion des contacts** :
-
-{{< fig "images/admin-panel_domains-list.fr.png" "Interface d'administration : accès au menu Gestion des contacts" >}}
-
-{{< fig "images/admin-panel_contacts-management.fr.png" "Interface d'administration : menu Gestion des contacts" >}}
+Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le détail du contact propriétaire, menu **Domaines > Détails de [example.org] - 🔎 > MODIFIER** (en face de **Propriétaire**).
 
 ## Liens
 
