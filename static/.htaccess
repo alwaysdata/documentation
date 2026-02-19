@@ -63,6 +63,7 @@ RewriteRule ^bug-bounty/?$  /en/technical-specifications/bug-bounty/ [QSA,L,R=30
 
 ## Redirects footer
 Redirect 301 /fr/securite/bug-bounty/ /fr/caracteristiques-techniques/bug-bounty/
+Redirect 301 /en/security/bug-bounty/ /en/technical-specifications/bug-bounty/
 
 ## Redirects install scripts
 Redirect 301 /en/marketplace/build-application-script/ /en/development/marketplace/build-application-script/
