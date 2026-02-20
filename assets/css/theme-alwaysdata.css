@@ -1,5 +1,6 @@
 :root {
   /* alwaysdata Relearn theme customizations */
+  --LOGO-IMAGE-width: 2rem;
   --PRIMARY-color: rgba( 233, 86, 142, 1 ); /* brand primary color */
   --SECONDARY-color: rgba( 207, 74, 125, 1 ); /* brand secondary color */
   --ACCENT-color: rgb( 255, 102, 78 ); /* brand accent color, used for search highlights */
@@ -38,12 +39,21 @@
 }
 
 #R-logo {
-  padding: 0 2rem;
-  width: 100%;
+  display: block;
+  margin-top: 0.7em;
 }
+
+#R-logo svg { max-width: 12rem; }
 
 .logo-title {
   display: none;
+}
+
+.topbar-control {
+  color: var(--PRIMARY-color);
+  background-color: transparent;
+  border-right: 0;
+  border-left: 0;
 }
 
 h1 {
