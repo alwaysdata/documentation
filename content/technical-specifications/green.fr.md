@@ -16,7 +16,7 @@ Ainsi, notre entreprise a intégré les éléments suivant dans son fonctionneme
 
 ## Compensation
 
-_Dernière mise à jour : 28 janvier 2025_
+_Dernière mise à jour : 26 février 2026_
 
 Chaque année, nous souhaitons **compenser à hauteur de 200%** nos émissions de GES (gaz à effet de serre). Bien que notre impact soit extrêment compliqué à déterminer de manière précise, nous voulons détailler ici en toute transparence notre méthode de calcul pour déterminer le budget alloué à cette compensation.
 
@@ -25,26 +25,26 @@ Chaque année, nous souhaitons **compenser à hauteur de 200%** nos émissions d
 Afin de simplifier la méthode, mais également de compenser dans le bon sens, certaines données sont margées. Nous précisons cela dans le tableau suivant.
 
 
-| Donnée | Détails | Valeur 2024 |
+| Donnée | Détails | Valeur 2025 |
 |--------|---------|------------:|
-| Nombre de serveurs | Ensemble des appareils consommateurs (serveurs, routeurs, hyperviseurs, etc.) achetés et intégrés à notre infrastructure dans le courant de l'année. | 39 |
-| Puissance apparente (kVA)| Puissance souscrite auprès des datacenters sur l'ensemble de notre infrastructure. Marge : le calcul utilise donc la puissance maximale souscrite plutôt que la consommation réelle. | 31 kVA |
+| Nombre de serveurs | Ensemble des appareils consommateurs (serveurs, routeurs, hyperviseurs, etc.) achetés et intégrés à notre infrastructure dans le courant de l'année. | 45 |
+| Puissance apparente (kVA)| Puissance souscrite auprès des datacenters sur l'ensemble de notre infrastructure. Marge : le calcul utilise donc la puissance maximale souscrite plutôt que la consommation réelle. | 32 kVA |
 | Facteur de puissance (cos φ) | En général, on prend 0.8 comme valeur moyenne pour des installations standards. Marge : même si la plupart des serveurs modernes ont un facteur supérieur à 0.9 (s'approchant effectivement du Power Factor [affiché par nos alimentations](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-606P-1R/PWS-606P-1R_quick_spec.pdf)), nous choisissons de rester sur cette valeur plus pessimiste. | 0.8 |
-| Durée d'utilisation annuelle | Temps total de consommation des serveurs. Marge : hypothèse la plus énergivore, donc 100% du temps. | 8760 heures |
-|PUE|Efficacité énergétique moyenne de [nos datacenters partenaires](https://sustainability.equinix.com/environment/operational-sustainability/).|1.42|
-| Facteur d'émission | Prenons la moyenne en France. Dernière valeur 2024 : source [RTE-france.com](https://www.rte-france.com/actualites/production-electricite-francaise-atteint-plus-haut-niveau-depuis-5-ans). | 21,3 gCO₂eq/kWh |
+| Durée d'utilisation annuelle | Temps total de consommation des serveurs. Marge : hypothèse la plus énergivore, donc 100% du temps (1 an). | 8760 heures |
+|PUE|Efficacité énergétique moyenne de [nos datacenters partenaires](https://sustainability.equinix.com/environment/operational-sustainability/).|1.39|
+| Facteur d'émission | Prenons la moyenne en France. Dernière valeur 2025 : source [RTE-france.com](https://analysesetdonnees.rte-france.com/bilan-electrique-2025/emissions#Vuedensemble). | 19,6 gCO₂eq/kWh |
 | Consommation de production d'un serveur | Estimation de la consommation engendrée lors de la production d'un serveur : voir [Boavizta](https://boavizta.org/blog/empreinte-de-la-fabrication-d-un-serveur). Marge : information très complexe à trouver, qui dépend de nombreux facteurs. Les valeurs se situent toujours sous l'entier. On arrondit à l'entier supérieur. | 1 tCO₂eq |
 
 ### Calcul
 
 ```python
 # Données pour le calcul
-serveurs = 39           # Serveurs arrivés en 2024
-kVA = 31                # Consommation en kVA
+serveurs = 45           # Serveurs arrivés en 2025
+kVA = 32                # Consommation en kVA
 cos_phi = 0.8           # Facteur de puissance moyen
 heures_par_an = 8760    # Nombre d'heures dans une année
-pue = 1.42              # Efficacité énergétique du DC
-facteur_emission = 21.3 # Facteur d'émission en gCO₂eq/kWh
+pue = 1.39              # Efficacité énergétique du DC
+facteur_emission = 19.6 # Facteur d'émission en gCO₂eq/kWh
 emission_production = 1 # Émission de la production d'un serveur en tCO₂eq
 
 # Conversion de kVA en kW
@@ -65,12 +65,12 @@ emissions = emissions_consommation + emissions_production
 
 Le résultat :
 
-- Consommation électrique pour l'année 2024 : **217 248 kWh** ;
-- Émissions liées à la consommation électrique : **6,57 tCO₂eq** ;
-- Émissions liées à la production des serveurs : **39 tCO₂eq** ;
-- Émissions totales : **45,57 tCO₂eq** ;
-- Compensation nécessaire (200%) : **92 tonnes de CO₂**.
+- Consommation électrique pour l'année 2025 : **224 256 kWh** ;
+- Émissions liées à la consommation électrique : **6,11 tCO₂eq** ;
+- Émissions liées à la production des serveurs : **45 tCO₂eq** ;
+- Émissions totales : **51,11 tCO₂eq** ;
+- Compensation nécessaire (200%) : **103 tonnes de CO₂**.
 
 Nous avons fait le choix de [Gold Standard](https://www.goldstandard.org/) pour acter notre compensation.
-Voir notre [certificat](https://files.alwaysdata.com/certifications/2025_GOLDSTANDARD_CERTIFICATE.zip).
+Voir notre [certificat](https://files.alwaysdata.com/certifications/2026_GOLDSTANDARD_CERTIFICATE.pdf).
 
