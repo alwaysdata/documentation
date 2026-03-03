@@ -8,10 +8,6 @@ WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.we
 - [WebDAV - API](https://api.alwaysdata.com/v1/webdav/doc/)
 - [Create a WebDAV user](/web-hosting/remote-access/webdav/create-a-webdav-user)
 
-{{% notice info %}}
-WebDAV is not enabled by default on the [Private Cloud](/admin-billing/billing/private-cloud-prices) (the default ports are used by the sites). Contact [support](https://admin.alwaysdata.com/support/add/) if you need it.
-{{% /notice %}}
-
 ## Connecting with WebDAV
 
 |Information||
