@@ -51,7 +51,7 @@ Voici une liste *non exhaustive* d'options matérielles :
     - 128 Go
     - 256 Go
     - 512 Go
-- **Trafic/mois** (1 Gbps) : l'ajout de trafic se fait par tranche de 1 To.
+- **Trafic/mois** (1 Gbps) : l'ajout de trafic se fait par tranche de 1 To
 - **GPU**
     - Nvidia A1000
     - Nvidia L4
@@ -61,7 +61,6 @@ Voici une liste *non exhaustive* d'options matérielles :
 {{% notice info %}}
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs](/admin-billing/billing/servers-interventions). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
-
 
 ### Rappels utiles
 
