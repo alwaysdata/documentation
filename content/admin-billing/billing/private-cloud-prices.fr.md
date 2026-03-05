@@ -5,110 +5,68 @@ linkTitle = "Tarifs Offres Max"
 tags = ["facturation", "serveur dédié", "serveur gold"]
 +++
 
-{{% notice warning %}}
-En raison de la situation actuelle sur le marché IT, les matériels utilisés sur nos serveurs subissent une hausse significative des coûts et des délais de livraison prolongés. **Ces prix ne sont donc qu'indicatifs.** Contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/contact/) ou notre [équipe clientèle](https://admin.alwaysdata.com/support) pour plus d'informations.
+L'offre Max désigne les serveurs physiques **dédiés** à votre usage et **infogérés** par notre équipe, qui s'occupe de l'installation, la configuration, et le déploiement de votre architecture. Vous n'avez pas à gérer l'administration des systèmes (mises à jour, monitoring, etc.).
+
+{{% notice info %}}
+Toute commande s'effectue *sur devis*.
+
+[Contactez](https://www.alwaysdata.com/fr/contact/) notre équipe pour échanger sur votre projet et recevoir un devis personnalisé.
 {{% /notice %}}
 
-Pour tout achat d'une configuration Cloud Privé, l'installation du serveur s'effectue après validation des contrats et paiement de la première facture. Il n'y a pas de frais d'installation.
 
-{{% notice note %}}
-*Cloud Privé* constitue une offre de serveurs infogérée et managée par nos soins. Notre équipe s'occupe de l'installation, configuration, et déploiement des plateformes. Vous n'avez pas à gérer l'administration des systèmes.
+## Exemple d'architecture mono-serveur
+
+*Dernière mise à jour : 26 février 2026*
+
+Tous ces éléments sont modifiables pour proposer la configuration **la plus appropriée** (voir plus bas les options matérielles).
+
+Configuration |
+--- | ----
+ **CPU**               | 8 cores • AMD EPYC • 3.2 GHz
+ **Disques**           | SSD 1 To NVMe • RAID1
+ **RAM**               | 16 Go
+ **Trafic/mois**       | 3 To (1 Gbps)
+ **Prix mensuel**      | 369€ HT (paiement annuel) ou 409€ HT (paiement mensuel)
+
+{{% notice info %}}
+Dans le cadre d'un engagement mensuel, la première facture correspond aux *trois premiers mois*. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
 {{% /notice %}}
 
-## Serveurs dédiés infogérés
 
-* Garantie de Temps d'Intervention (GTI) : 15min
-* Garantie de Temps de Rétablissement (GTR) : 1h
-* Taux de disponibilité : 99.9 %
+### Options matérielles
 
-- Sauvegardes : 30 jours glissants
+Voici une liste *non exhaustive* d'options matérielles :
 
-| Configuration de base |                                    | Paiement annuel | Paiement mensuel |
-| --------------------- | ---------------------------------- | --------------- | ------------- |
-| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
-| **Disques**           | SSD 1 To NVMe • RAID1                  |                 |               |
-| **RAM**               | 32 Go                              |                 |               |
-| **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
-| **Total**             |                                    | 369 €/mois           | 409 €/mois         |
-
----
-
-| Options                             | Tarifs          |
-| ----------------------------------- | --------------- |
-| **CPU**                             |                 |
-| 16 cores • AMD EPYC • 3.3 GHz   | + 60 €/mois          |
-| 32 cores • AMD EPYC • 3.3 GHz | + 300 €/mois         |
-| 64 cores • AMD EPYC • 3.3 GHz   | + 600 €/mois         |
-| **Disques**                         |                 |
-| SSD 1.9 To NVMe • RAID1                   | + 30 €/mois          |
-| SSD 3.8 To NVMe • RAID1                   | + 70 €/mois         |
-| SSD 7.6 To NVMe • RAID1                   | + 150 €/mois         |
-| SSD 15 To NVMe • RAID1                | + 320 €/mois            |
-| **RAM**                             |                 |
-| 64 Go | + 40 €/mois |
-| 128 Go | + 120 €/mois |
-| 256 Go | + 280 €/mois |
-| 512 Go | + 600 €/mois |
-| **Trafic/mois**                     |                 |
-| 1 To (1 Gbps) [^1]                  | + 10 €/mois          |
-|  **GPU** ||
-| Nvidia A1000 | 50 €/mois |
-| Nvidia L4 | 250 €/mois |
-| Nvidia RTX PRO 6000 Blackwell | 1000 €/mois (engagement annuel requis) |
-
-Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
-
-Si le serveur dédié a été pris avant [mars 2020](https://blog.alwaysdata.com/fr/2020/03/03/harderware-better-faster-stronger/), rendez-vous sur la page [Montant des options - anciennes configurations](/admin-billing/billing/prices-options-old-configurations).
-
-## Serveurs Gold infogérés
-
-Serveur dédié redondé[^2] dans un autre datacenter.
-
-* Garantie de Temps d'Intervention (GTI) : 15min
-* Garantie de Temps de Rétablissement (GTR) : 1h
-* Taux de disponibilité : 99.95 %
-
-- Sauvegardes : 30 jours glissants
-
-| Configuration de base |                                    | Paiement annuel | Paiement mensuel |
-| --------------------- | ---------------------------------- | --------------- | ------------- |
-| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |                 |               |
-| **Disques**           | SSD 1 To NVMe • RAID1                |                 |               |
-| **RAM**               | 32 Go                              |                 |               |
-| **Trafic/mois**       | 3 To (1 Gbps)                      |                 |               |
-| **Total**             |                                    | 949 €/mois      | 1039 €/mois   |
-
----
-
-| Options                             | Tarif           |
-| ----------------------------------- | --------------- |
-| **CPU**                            |                 |
-| 16 cores • AMD EPYC • 3.3 GHz   | + 120 €/mois         |
-| 32 cores • AMD EPYC • 3.3 GHz | + 600 €/mois         |
-| 64 cores • AMD EPYC • 3.3 GHz   | + 1200 €/mois        |
-| **Disques**                         |                 |
-| SSD 1.9 To NVMe • RAID1                   | + 60 €/mois         |
-| SSD 3.8 To NVMe • RAID1                   | + 140 €/mois         |
-| SSD 7.6 To NVMe • RAID1                   | + 300 €/mois         |
-| SSD 15 To NVMe • RAID1                | + 640 €/mois           |
-| **RAM**                             |                 |
-| 64 Go | + 80 €/mois |
-| 128 Go | + 240 €/mois |
-| 256 Go | + 560 €/mois |
-| 512 Go | + 1200 €/mois |
-| **Trafic/mois**                     |                 |
-| 1 To (1 Gbps) [^1]                  | + 20 €/mois          |
-|  **GPU** ||
-| Nvidia A1000 | 100 €/mois |
-| Nvidia L4 | 500 €/mois |
-| Nvidia RTX PRO 6000 Blackwell | 2000 €/mois (engagement annuel requis) |
-
-Dans le cadre d'un engagement mensuel, la première facture correspond aux trois premiers mois. Si le client ne souhaite pas de cet engagement, une majoration de 20 % est à prévoir pour ces trois mois.
+- **CPU**
+    - 16 cores • AMD EPYC • 3.3 GHz
+    - 32 cores • AMD EPYC • 3.3 GHz
+    - 64 cores • AMD EPYC • 3.3 GHz
+- **Disques**
+    - SSD 1.9 To NVMe • RAID1
+    - SSD 3.8 To NVMe • RAID1
+    - SSD 7.6 To NVMe • RAID1
+    - SSD 15 To NVMe • RAID1
+- **RAM**
+    - 64 Go
+    - 128 Go
+    - 256 Go
+    - 512 Go
+- **Trafic/mois** (1 Gbps) : l'ajout de trafic se fait par tranche de 1 To
+- **GPU**
+    - Nvidia A1000
+    - Nvidia L4
+    - Nvidia RTX PRO 6000 Blackwell
+- Option **Gold** : architecture *redondée* (réplication en temps réel) dans un datacenter distinct (taux de disponibilité 99,95 %)
 
 {{% notice info %}}
 Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs](/admin-billing/billing/servers-interventions). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 {{% /notice %}}
 
+### Rappels utiles
 
-[^1]: L'ajout de trafic se fait par tranche de 1 To.
-[^2]: Réplication en temps réel
+* Sauvegardes : 30 jours glissants
+* Garantie de Temps d'Intervention (GTI) : 15min
+* Garantie de Temps de Rétablissement (GTR) : 1h
+* Taux de disponibilité : 99.9 %
+
+

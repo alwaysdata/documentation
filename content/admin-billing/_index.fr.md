@@ -51,7 +51,6 @@ Vous disposez de **30 jours** pour la régler dans **Facturation > Transactions 
 
 * [Changer d'offre](billing/upgrade-your-plan)
 * [Tarifs des interventions](billing/servers-interventions)
-* [Prix options - anciennes configurations](billing/prices-options-old-configurations)
 * [Diverses questions](billing/misc)
 
 L'ensemble de vos factures et reçus est téléchargeable au format `zip` dans l'onglet **Facturation > Transactions**.
