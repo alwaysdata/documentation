@@ -1,7 +1,7 @@
 +++
 url = "/fr/admin-facturation/facturation/interventions-sur-serveurs/"
-title = "Montant des interventions sur serveurs"
-linkTitle = "Montant des interventions"
+title = "Tarifs des interventions sur serveurs"
+linkTitle = "Tarifs des interventions"
 tags = ["facturation"]
 +++
 La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
@@ -20,4 +20,4 @@ Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'in
 
 Toute opération annulée dans les 24 heures précédent l'intervention sera facturée.
 
-[^1]: Pour les [serveurs Gold](/admin-billing/billing/private-cloud-prices#serveurs-gold-infogérés), le prix des interventions est doublé. Le plafond est alors à 1200 € HT.
+[^1]: Pour les serveurs Gold, le prix des interventions est doublé. Le plafond est alors à 1200 € HT.

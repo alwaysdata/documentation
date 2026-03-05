@@ -49,7 +49,6 @@ You have **30 days** to pay it in **Billing > Transactions > Credit the account*
 
 - [Change plan](billing/upgrade-your-plan)
 - [Interventions fees](billing/servers-interventions)
-- [Options prices - old configurations](billing/prices-options-old-configurations)
 - [Miscellaneous questions](billing/misc)
 
 All of your invoices and receipts can be downloaded in `zip` archive from the **Billing > Transactions** tab.
