@@ -28,9 +28,6 @@ Une attaque [DDoS](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_servic
 
 Tous les serveurs d'alwaysdata sont configurés avec une protection anti-DDoS de niveau 3/4 selon le [modèle OSI](https://fr.wikipedia.org/wiki/Mod%C3%A8le_OSI). À vous de gérer l'applicatif.
 
-Les utilisateurs de Cloud Privé peuvent contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir de l'aide dans son installation ou qu'il intervienne.
-
-
 
 
 

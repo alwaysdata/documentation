@@ -26,5 +26,3 @@ You can also implement an [application firewall](/web-hosting/sites/waf) directl
 A [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack) attack aims to render a server, service or infrastructure unavailable. It may take different forms: bandwidth saturation, exhausting machine system resources, etc.
 
 All of the alwaysdata servers are configured with [OSI model](https://en.wikipedia.org/wiki/OSI_model) level 3/4 anti-DDoS protection. It is up to you to manage the application side.
-
-Private Cloud users can contact [support](https://admin.alwaysdata.com/support/add/) to get help with installation or for support.
