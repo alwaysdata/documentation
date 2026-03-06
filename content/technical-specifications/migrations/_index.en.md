@@ -17,6 +17,9 @@ Some migrations are optional: you choose whether or not to migrate. Other migrat
 ## Migrations currently offered
 
 * [MariaDB 11.4](/technical-specifications/migrations/mariadb-11_4)
+* [MariaDB 11.8](/technical-specifications/migrations/mariadb-11_8)
+* [PostgreSQL 17](/technical-specifications/migrations/postgresql-17)
+* [PostgreSQL 18](/technical-specifications/migrations/postgresql-18)
 
 ## Former migrations
 
