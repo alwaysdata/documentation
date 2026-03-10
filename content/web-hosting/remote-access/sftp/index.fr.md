@@ -23,6 +23,6 @@ Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons
 
 ## Divers
 
-Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`.
+Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`. Ce shell ne permet d'accéder aux répertoires `$HOME/admin/mail` et `$HOME/admin/backup`.
 
 Il ne doit pas être confondu avec le protocole [FTPS](/web-hosting/remote-access/ftp) : transfert FTP sécurisé par les protocoles SSL ou TLS.

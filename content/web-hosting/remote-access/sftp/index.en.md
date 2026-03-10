@@ -22,6 +22,6 @@ Then from your FTP client, fill-in the SSH connection information. Let us take t
 
 ## Miscellaneous
 
-Users with the **SFTP only** shell are `chrooted`.
+Users with the **SFTP only** shell are `chrooted`. This shell does not allow access to the directories `$HOME/admin/mail` and `$HOME/admin/backup`.
 
 This must not be confused with the [FTPS](/web-hosting/remote-access/ftp) protocol: FTP transfer secured by SSL or TLS protocols.
