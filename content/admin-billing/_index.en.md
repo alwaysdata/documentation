@@ -37,7 +37,7 @@ An invoice is issued a few hours after subscribing to an alwaysdata service (hos
 
 {{< fig "user_space_menu.en.png" "" >}}
 
-You have **30 days** to pay it in **Billing > Transactions > Credit the account** or **Billing > Payment methods > Credit the account** using various [payment methods](billing/payment-methods).
+You have **30 days** to pay it in **Billing > Transactions > Credit the account** or **Billing > Payment methods > Credit the account** using various [payment methods](/admin-billing/billing/payment-methods).
 
 - [Choose your hosting plan](billing/choose-its-paas)
 - [Private Cloud prices](billing/private-cloud-prices)

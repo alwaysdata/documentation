@@ -28,7 +28,7 @@ Si votre script a besoin d'autoriser certaines IP, autorisez ces [plages d'adres
 - [Configuration Apache](/web-hosting/sites/configure-apache)
 - [Fichier .htaccess](/web-hosting/sites/htaccess-file)
 * [Redémarrer un site](/web-hosting/sites/restart-a-site)
-* [Changer de prestataire](/web-hosting/sites//transfer-in)
+* [Changer de prestataire](/web-hosting/sites/transfer-in)
 * [Changer l'adresse d'un site web](/web-hosting/sites/change-a-website-address)
 * [Déplacer un site](/web-hosting/sites/move-a-site)
 * [Désactiver un site](/web-hosting/sites/deactivate-a-site)

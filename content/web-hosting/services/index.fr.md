@@ -36,7 +36,7 @@ $ nc -z services-[compte].alwaysdata.net 8300
 Il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
 {{% /notice %}}
 
-Pour les utilisateurs du [Cloud Public](/admin-billinh/billing/public-cloud-prices) :
+Pour les utilisateurs du [Cloud Public](/admin-billing/billing/public-cloud-prices) :
 
 - Les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
 - La consommation doit rester raisonnable ;

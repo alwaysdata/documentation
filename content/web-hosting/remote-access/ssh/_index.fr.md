@@ -12,7 +12,7 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 - [Créer un utilisateur SSH](/web-hosting/remote-access/ssh/create-a-ssh-user)
 - [Problèmes fréquents](/web-hosting/remote-access/ssh/troubleshooting)
 
-* Utilisateurs de [Cloud privé](/admin-billing//billing/private-cloud-prices) :
+* Utilisateurs de [Cloud Privé](/admin-billing/billing/private-cloud-prices) :
 	- [Authentification 2 facteurs SSH](/web-hosting/remote-access/ssh/ssh-two-factor-authentication)
 	- [Clés SSH globales](/web-hosting/remote-access/ssh/install-globally-ssh-keys)
 

@@ -44,7 +44,7 @@ The next step is to configure the application to connect to Redis using `service
 
 ## Authentication
 
-By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/management/security/acl/) can be set up.
+By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/) can be set up.
 
 You will need to create the `users.acl` file and modify the `aclfile` line in the Redis configuration file `redis.conf`.
 

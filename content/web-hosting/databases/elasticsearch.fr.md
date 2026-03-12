@@ -14,7 +14,7 @@ tags = ["base de données", "elasticsearch"]
 Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 {{% notice info %}}
-Elasticsearch n'est disponible qu'en environnements [Cloud Privé](accounts/billing/private-cloud-prices).
+Elasticsearch n'est disponible qu'en environnements [Cloud Privé](/admin-billing/billing/private-cloud-prices).
 {{% /notice %}}
 
 

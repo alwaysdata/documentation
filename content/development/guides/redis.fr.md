@@ -43,7 +43,7 @@ Il restera ensuite la configuration de l'application qui pour se connecter à Re
 
 ## Authentification
 
-Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/docs/management/security/acl/) peut donc être mise en place.
+Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/) peut donc être mise en place.
 
 Il faudra créer le fichier `users.acl` et modifier la ligne `aclfile` dans le fichier de configuration Redis `redis.conf`.
 
