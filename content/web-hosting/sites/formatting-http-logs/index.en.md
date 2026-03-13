@@ -1,5 +1,5 @@
 +++
-title = "Formating HTTP Logs"
+title = "Formatting HTTP Logs"
 tags = ["http", "site"]
 +++
 

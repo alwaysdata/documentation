@@ -10,7 +10,7 @@ In our example, we use the [SSH access](/web-hosting/remote-access/ssh) and cons
 - Account name: `foo`
 
 {{% notice note %}}
-`[foo]`, `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` must be replaced by accurate informations.
+`[foo]`, `[newrelic-last-version]`, `[version]` and `REPLACE_WITH_LICENSE_KEY` must be replaced by accurate information.
 {{% /notice %}}
 
 ## PHP
