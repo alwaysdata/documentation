@@ -11,7 +11,7 @@ In our example, we use the [SSH access](/web-hosting/remote-access/ssh) and cons
 - Tideways directory: `$HOME/tideways/`
 
 {{% notice note %}}
-`[foo]`, `[version]` and `[php_version]` must be replaced by accurate informations.
+`[foo]`, `[version]` and `[php_version]` must be replaced by accurate information.
 {{% /notice %}}
 
 ## Step 1: Download the agent and the daemon

@@ -11,7 +11,7 @@ In our example, we use the [SSH access](/web-hosting/remote-access/ssh) and cons
 - Blackfire directory: `$HOME/blackfire/`
 
 {{% notice note %}}
-`[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by accurate informations.
+`[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by accurate information.
 {{% /notice %}}
 
 ## Step 1: Agent download

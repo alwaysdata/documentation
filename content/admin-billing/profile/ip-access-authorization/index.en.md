@@ -1,5 +1,5 @@
 +++
-title = "Restricting Admin Panel Acces by IP-Filtering"
+title = "Restricting Admin Panel Access by IP-Filtering"
 linkTitle = "Restricting Admin Access by IP"
 tags = ["profile", "security"]
 +++

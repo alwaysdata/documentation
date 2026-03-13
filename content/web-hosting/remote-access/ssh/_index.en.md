@@ -12,7 +12,7 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 - [Frequent issues](/web-hosting/remote-access/ssh/troubleshooting)
 
 * Users of [Private Cloud](/admin-billing/billing/private-cloud-prices):
-	- [SSH 2-factor authentification](/web-hosting/remote-access/ssh/ssh-two-factor-authentication)
+	- [SSH 2-factor authentication](/web-hosting/remote-access/ssh/ssh-two-factor-authentication)
 	- [Global SSH keys](/web-hosting/remote-access/ssh/install-globally-ssh-keys)
 
 {{% notice info %}}

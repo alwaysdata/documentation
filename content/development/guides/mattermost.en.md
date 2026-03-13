@@ -12,7 +12,7 @@ In our example, we use the [SSH access](/web-hosting/remote-access/ssh) and cons
 - Port: 8300 (ports between 8300 and 8499 can be used)
 
 {{% notice note %}}
-`[foo]` and `[version]` must be replaced by accurate informations.
+`[foo]` and `[version]` must be replaced by accurate information.
 {{% /notice %}}
 
 ## Installation

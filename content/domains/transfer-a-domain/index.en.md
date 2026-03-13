@@ -1,5 +1,5 @@
 +++
-title = "Transfering a Domain"
+title = "Transferring a Domain"
 tags = ["domain"]
 +++
 
@@ -86,4 +86,4 @@ Regarding the website, there are a number of possible choices:
 - [Transfers: error codes](/domains/troubleshooting#transfer)
 
 
-[^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
+[^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)
