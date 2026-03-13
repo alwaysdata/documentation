@@ -67,3 +67,6 @@ Redirect 301 /en/security/bug-bounty/ /en/technical-specifications/bug-bounty/
 
 ## Redirects install scripts
 Redirect 301 /en/marketplace/build-application-script/ /en/development/marketplace/build-application-script/
+
+## Redirects website
+Redirect 301 /fr/comptes/restrictions-du-cloud-public/ /fr/admin-facturation/restrictions-du-cloud-public/
