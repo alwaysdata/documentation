@@ -71,4 +71,4 @@ Deny from all
 Allow from env=AllowCountry
 ```
 
-[^1]: MaxMind DB peut aussi être utilisé pour marketing géographique et propose des bases villes.
+[^1]: MaxMind DB peut aussi être utilisé pour du marketing géographique et propose des bases villes.
