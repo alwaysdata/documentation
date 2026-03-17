@@ -70,3 +70,8 @@ Redirect 301 /en/marketplace/build-application-script/ /en/development/marketpla
 
 ## Redirects website
 Redirect 301 /fr/comptes/restrictions-du-cloud-public/ /fr/admin-facturation/restrictions-du-cloud-public/
+
+## Redirects admin
+
+Redirect 301 /fr/acces-distant/ssh/problemes-frequents/#droits /fr/hebergement-web/acces-distant/ssh/problemes-frequents/#droits
+Redirect 301 /en/remote-access/ssh/troubleshooting/#rights /en/web-hosting/remote-access/ssh/troubleshooting/#rights
