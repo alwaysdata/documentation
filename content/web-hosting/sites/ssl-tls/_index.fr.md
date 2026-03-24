@@ -16,6 +16,7 @@ Tous les services (HTTP, mais aussi accès distant, bases de données, emails...
 * [API](https://api.alwaysdata.com/v1/ssl/doc/)
 * [Configurer TLS](/web-hosting/sites/ssl-tls/configure-tls)
 * [Implémenter HSTS](/web-hosting/sites/ssl-tls/hsts)
+* [Diverses questions](/web-hosting/sites/ssl-tls/misc)
 
 - Vérifier le certificat renvoyé et la configuration d'un nom d'hôte : [SSL Labs](https://www.ssllabs.com), [SSL Tools](https://ssl-tools.net/) ou [Security Headers](https://securityheaders.com).
 - Trouver le contenu mixte [^1] de son site web : [Why no Padlock](https://www.whynopadlock.com/).
