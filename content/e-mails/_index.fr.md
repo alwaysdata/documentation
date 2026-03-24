@@ -33,14 +33,16 @@ Vous pouvez [créer une adresse email](/e-mails/create-an-e-mail-address) dans l
 * [File d'attente SMTP](/e-mails/smtp-queue)
 * [Lire la source d'un email](/e-mails/read-an-e-mail-source)
 * [Réagir à un envoi de spam](/e-mails/react-to-spam-mailing)
+* [Bloquer l'utilisation des emails](/e-mails/block-e-mail-usage)
 - [Restaurer des emails](/web-hosting/backups/restore-e-mails)
 - [Sender Rewriting Scheme](/e-mails/srs)
 - [Catch-all](/e-mails/catch-all)
 - [Questions diverses](/e-mails/misc)
 
-## Clients mails
+## Clients mails et logiciels
 
 - [iOS](/e-mails/clients/apple-ios)
 - [Gmail](/e-mails/clients/gmail)
 - [Outlook](/e-mails/clients/outlook)
 - [Thunderbird](/e-mails/clients/thunderbird)
+- [Authentification Brevo](/e-mails/brevo)

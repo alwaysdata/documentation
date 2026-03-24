@@ -32,14 +32,16 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 * [SMTP waiting queue](/e-mails/smtp-queue)
 * [Read an e-mail source](/e-mails/read-an-e-mail-source)
 * [React to spam mailing](/e-mails/react-to-spam-mailing)
+* [Block the use of e-mails](/e-mails/block-e-mail-usage)
 - [Restore e-mails](/web-hosting/backups/restore-e-mails)
 - [Sender Rewriting Scheme](/e-mails/srs)
 - [Catch-all](/e-mails/catch-all)
 - [Miscellaneous questions](/e-mails/misc)
 
-## E-mail clients
+## E-mail clients & Softwares
 
 - [iOS](/e-mails/clients/apple-ios)
 - [Gmail](/e-mails/clients/gmail)
 - [Outlook](/e-mails/clients/outlook)
 - [Thunderbird](/e-mails/clients/thunderbird)
+- [Brevo authentication](/e-mails/brevo)
