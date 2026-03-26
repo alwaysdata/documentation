@@ -47,6 +47,10 @@ Pour les utilisateurs du [Cloud Privé](/admin-billing/billing/private-cloud-pri
 - Les ports `8300` à `8499` ne sont *pas* ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de parefeu](/technical-specifications/configure-firewall) ;
 - Vous pouvez utiliser d'autres ports, par exemple le port par défaut de l'application.
 
+## Problèmes fréquents
+
+- Ils utilisent les versions de langages par défaut des comptes (définies dans **Environnement**). Pour en utiliser d'autres, indiquez-les dans le champ *Variables d'environnement*.
+
 ## Exemples
 
 - [Mattermost](/development/guides/mattermost#lancement-du-service)

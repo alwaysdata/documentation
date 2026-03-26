@@ -46,6 +46,10 @@ For [Private Cloud](/admin-billing/billing/private-cloud-prices) users:
 - Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule](/technical-specifications/configure-firewall).
 - You can use other ports ; for example the default port of the application.
 
+## Troubleshooting
+
+- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in the *Environment variables* field.
+
 ## Examples
 
 - [Mattermost](/development/guides/mattermost#service-launch)

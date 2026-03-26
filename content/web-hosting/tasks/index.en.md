@@ -49,7 +49,8 @@ If your script needs to allow some IPs, allow these [IP adresses ranges](/techni
 ## Troubleshooting
 
 - `source venv/bin/activate && python` is specific to [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and can't function. To replace by `venv/bin/python`,
-- Shortcuts with an **@** - examples *@hourly* or *@reboot* - are not accepted (non-standard syntax).
+- Shortcuts with an **@** - examples *@hourly* or *@reboot* - are not accepted (non-standard syntax),
+- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in the *Environment variables* field.
 
 ## Examples
 
