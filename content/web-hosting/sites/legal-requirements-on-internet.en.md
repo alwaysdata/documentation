@@ -18,7 +18,7 @@ The legal statements must appear clearly on any website. They protect web surfer
 
 **Private individuals** need only provide information on the host. This information is generally already accessible via the `whois` system.
 
-France's [Law for Trust in the Digital Economy of June 2004](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000005789847&dateTexte=20080724) (LCEN) plans to make available to web surfers an easily identifiable and accessible page comprising this legal information.
+France's [Law for Trust in the Digital Economy of June 2004](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005789847) (LCEN) plans to make available to web surfers an easily identifiable and accessible page comprising this legal information.
 
 Publishers are liable for everything that is accessible on their website (including comments of all kinds that the publisher is required to control and moderate). They are required to implement some way (e-mail address, contact form, etc.) for visitors to report any shocking or illegal content.
 

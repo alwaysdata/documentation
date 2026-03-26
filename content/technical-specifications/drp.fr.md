@@ -56,7 +56,7 @@ Nous opérons nous-même notre réseau au sein des datacenters.
 
 Notre accès Internet est garanti par quatre fournisseurs d'accès indépendants.
 
-Nous sommes également membres du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgpview.io/asn/60362), et de nos propres plages d'IP.
+Nous sommes également membres du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://www.peeringdb.com/asn/60362), et de nos propres plages d'IP.
 
 ## Infrastructure matérielle
 

@@ -19,7 +19,7 @@ Les mentions légales doivent obligatoirement apparaître de façon claire sur u
 
 Les personnes **physiques** ne doivent fournir que les informations sur l'hébergeur. Ces informations sont généralement déjà accessibles via le système `whois`.
 
-La [loi pour la confiance dans l'économie numérique de juin 2004](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000005789847&dateTexte=20080724) (LCEN) prévoit de mettre à disposition des internautes une page facilement identifiable et accessible contenant ces informations légales.
+La [loi pour la confiance dans l'économie numérique de juin 2004](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005789847) (LCEN) prévoit de mettre à disposition des internautes une page facilement identifiable et accessible contenant ces informations légales.
 
 Les éditeurs sont tenus responsables de tout ce qui est accessible sur leur site (y compris les commentaires de tous types dont l'éditeur doit avoir obligation de contrôle et de modération). Ceux-ci doivent mettre en place un moyen (adresse email, formulaire de contact, etc.) pour les visiteurs de signaler un contenu choquant ou illicite.
 

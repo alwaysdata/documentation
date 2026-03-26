@@ -53,7 +53,7 @@ We operate our own network ourselves in the datacenters.
 
 Our Internet access is guaranteed by four independent service providers.
 
-We are also members of RIPE, have our own [AS number (AS60362)](https://bgpview.io/asn/60362), and our own IP ranges.
+We are also members of RIPE, have our own [AS number (AS60362)](https://www.peeringdb.com/asn/60362), and our own IP ranges.
 
 ## Hardware infrastructure
 
