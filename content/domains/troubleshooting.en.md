@@ -46,7 +46,7 @@ A `whois` will show the following message: `Domain Status: clientHold`
 From the alwaysdata administration interface, the following message - **Domains > Details of [example.org] - 🔎 > Status** tab - lets you send the e-mail:
 
 ```
-This domain was suspended by ICANN as its owner did not confirm their e-mail address within 15 days of creation, transfer or sale.
+This domain has been suspended by ICANN because its owner did not confirm their email address before the deadline following its creation, transfer, or change of ownership.
 ```
 
 If you are not sure of the e-mail address, you can change it in the owner’s contact information from the **Domains > Details of [example.org] - 🔎 > MODIFY** (oposite **Owner**).
