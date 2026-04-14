@@ -10,6 +10,7 @@ Vous retrouverez dedans :
 
 - _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (Cloud Public) ou un lien symbolique (Cloud Privé) des [emails](/e-mails) ;
 - _config_ ;
+- _data_ : stocke des fichiers de configuration [WebDAV](/web-hosting/remote-access/webdav) ;
 - _logs_ ;
 - _tmp_ : stocke les fichiers temporaires de vos applications (remplaçant /tmp) ;
 - _backup_ : montage NFS des [sauvegardes](/web-hosting/backups) qui ne sont donc PAS stockées localement.
