@@ -29,7 +29,6 @@ Notre interface de [ticket](https://admin.alwaysdata.com/support/) est le moyen 
 - [Supprimer un profil](profile/delete-profile)
 
 * [Serveur dédié : ticket urgent](urgent-ticket)
-* [Cloud Public : restrictions](public-cloud-restrictions)
 * [Terminologie](terminology)
 * [Diverses questions](misc)
 

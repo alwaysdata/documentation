@@ -27,4 +27,4 @@ We offer [several programs](/admin-billing/programs) to benefit from discounts.
 The disk quota includes files, mails and databases.
 {{% /notice %}}
 
-[^1]: The free 100 MB Cloud is subject to [special restrictions](/admin-billing/public-cloud-restrictions#free-plan). It cannot be used for lucratives goals, among other things.
+[^1]: The Free plan is subject to [special restrictions](/admin-billing/profile/suspension#failure-to-comply-with-the-terms-of-service). It cannot be used for lucratives goals, among other things.

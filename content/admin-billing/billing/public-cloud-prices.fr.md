@@ -28,4 +28,4 @@ Nous proposons [plusieurs programmes](/admin-billing/programs) pour profiter de 
 Le quota disque inclut fichiers, mails et bases de données.
 {{% /notice %}}
 
-[^1]: Le pack Free est sujet à des [restrictions spéciales](/admin-billing/public-cloud-restrictions#compte-gratuit) et ne peut notamment servir à des fins lucratives.
+[^1]: Le pack Free est sujet à des [restrictions spéciales](/admin-billing/profile/suspension#non-respect-des-cgvcgu) et ne peut notamment servir à des fins lucratives.
