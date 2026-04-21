@@ -11,14 +11,18 @@ The restricted mode that we have implemented (and that we hope to improve as we 
 
 To show how honest your intentions are, nothing could be easier! You will need to do one of the following:
 
-- fill-in your credit card details in your means of payment area (even if you have a free account),
+- fill-in your *credit card* details in your means of payment area (even if you have a free account),
 - make at least one payment on our platform.
 
 It's as simple as that and we feel that this should allow us to filter out the vast majority of users with bad intentions. Therefore, if you comply with one of these requirements, no restriction will be applied to your profile.
 
+{{% notice warning %}}
+Adding a bank account (even with direct debit) does not lift the restriction.
+{{% /notice %}}
+
 ## Restrictions
 
-If on the other hand no credit card is provided for your account and you have not yet paid for anything, your alwaysdata accounts will be technically restricted.
+If on the other hand no *credit card* is provided for your account and you have not yet paid for anything, your alwaysdata accounts will be technically restricted.
 
 This restriction is not an inhibiting one for the relevant account but it does allow us to limit possible misuse. For example:
 
