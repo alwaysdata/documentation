@@ -22,6 +22,7 @@ Vous pouvez [créer une adresse email](/e-mails/create-an-e-mail-address) dans l
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
 - [Ajouter plusieurs adresses email en utilisant CSV](/e-mails/create-mailboxes-using-csv)
 * [Ajouter une règle de filtrage](/e-mails/add-a-filter-rule)
+* [Créer ses propres carnets d'adresses et calendriers avec CardDAV et CalDAV](/e-mails/carddav-caldav)
 * [Utiliser les scripts Sieve](/e-mails/use-sieve-scripts)
 * [Liste blanche de réception](/e-mails/whitelist)
 - [Changer de prestataire](/e-mails/transfer-in)
