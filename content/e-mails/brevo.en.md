@@ -19,3 +19,9 @@ It is necessary to [add their servers](https://help.brevo.com/hc/en-us/articles/
 Type | Hostname | Value
 --- | --- | ---
 TXT | [leave blank] | v=spf1 include:_spf.alwaysdata.com include:spf.brevo.com ~all
+
+They are also requesting changes to the `DMARC` record by adding `rua=mailto:rua@dmarc.brevo.com`:
+
+Type | Hostname | Value
+--- | --- | ---
+TXT | _dmarc | v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com

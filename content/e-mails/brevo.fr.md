@@ -20,3 +20,9 @@ Il est nécessaire de [rajouter leurs serveurs](https://help.brevo.com/hc/fr/art
 Type | Nom d'hôte | Valeur
 --- | --- | ---
 TXT | [laisser vide] | v=spf1 include:_spf.alwaysdata.com include:spf.brevo.com ~all
+
+Ils demandent aussi des changements sur l'enregistrement DMARC et l'ajout de `rua=mailto:rua@dmarc.brevo.com` :
+
+Type | Nom d'hôte | Valeur
+--- | --- | ---
+TXT | _dmarc | v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
