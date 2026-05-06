@@ -17,6 +17,9 @@ This information is retrieved from the **Domains > Details of [example.org] - ðŸ
 
 {{< fig "images/admin-panel_domain-details.en.png" "Prepare a transfer" >}}
 
+He can also disable [DNSSEC](/domains/dnssec/) to avoid *potential* issues.
+
+>[!NOTE]
 A transfer cannot be made during the first 60 days after creation or after a previous transfer.
 
 [^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)
