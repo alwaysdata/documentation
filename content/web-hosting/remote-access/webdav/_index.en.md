@@ -29,7 +29,7 @@ These users can be configured in the **Remote access > WebDAV** tab in your alwa
 
 3.  Click on *Connect* under a different user name, then enter your identifiers. Validate and click on *Finish*.
 
-### With Mac OS X
+### With macOS
 
 1.  From the **Finder**, choose *Go > Connect to server*,
 
