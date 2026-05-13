@@ -3,10 +3,9 @@
 {#- Main Menu -#}
 {% if navigation.main %}
   <ul class="mb-6 space-y-1">
-    {{ locale }}
     {% for item in navigation.main %}
       <li>
-        <a href="{{ item.url | locale_url }}" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 no-underline hover:bg-slate-100 dark:text-neutral-300 dark:hover:bg-neutral-800
+        <a href="{{ item.url | locale_url }}" class="block rounded-md px-3 py-2 font-medium text-slate-700 no-underline hover:bg-slate-100 dark:text-neutral-300 dark:hover:bg-neutral-800
           {% if page.url == item.url | locale_url %}bg-slate-100 text-slate-900 dark:bg-neutral-800 dark:text-white{% endif %}"
         >
           {{ item.text[page.lang] }}
@@ -26,7 +25,7 @@
   <ul class="space-y-1">
     {% for item in navigation.legal %}
       <li>
-        <a href="{{ item.url | locale_url }}" class="block rounded-md px-3 py-2 text-sm text-slate-500 no-underline hover:bg-slate-100 hover:text-slate-700 dark:text-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-neutral-300
+        <a href="{{ item.url | locale_url }}" class="block rounded-md px-3 py-2 text-slate-500 no-underline hover:bg-slate-100 hover:text-slate-700 dark:text-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-neutral-300
         {% if page.url == item.url | locale_url %}bg-slate-100 text-slate-900 dark:bg-neutral-800 dark:text-white{% endif %}"
         >
           {{ item.text }}

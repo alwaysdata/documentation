@@ -1,27 +1,12 @@
 {
-  "name": "juicydocs-11ty-starter",
+  "name": "alwaysdata-doc",
   "version": "1.0.0",
-  "description": "An Eleventy starter project to craft slick and responsive documentation",
+  "description": "Help & documentation for alwaysdata's services.",
   "license": "MIT",
   "author": {
-    "name": "FreshJuice",
-    "email": "contact@freshjuice.dev",
-    "url": "https://freshjuice.dev/"
-  },
-  "contributors": [
-    {
-      "name": "Alex Zappa",
-      "email": "alex@zappa.dev",
-      "url": "https://alex.zappa.dev/"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freshjuice-dev/juicydocs-11ty-starter.git"
-  },
-  "homepage": "≈",
-  "bugs": {
-    "url": "https://github.com/freshjuice-dev/juicydocs-11ty-starter/issues"
+    "name": "alwaysdata",
+    "email": "contact@alwaysdata.com",
+    "url": "https://www.alwaysdata.com/"
   },
   "type": "module",
   "scripts": {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}"
-      dir="{{ dir }}"
+<html lang="{{ locale or page.lang }}"
+      dir="{{ dir or "ltr" }}"
       class="{{ html_class }}"
       data-build-hash="{{ build.hash.short }}"
       data-build-timestamp="{{ build.timestamp.iso }}"
