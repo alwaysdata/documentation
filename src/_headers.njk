@@ -1,0 +1,44 @@
+---
+permalink: '/_headers'
+eleventyExcludeFromCollections: true
+---
+
+# Security headers
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+
+# No-index for system files
+/_*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+
+# Pagefind search index
+/pagefind/*
+  X-Robots-Tag: noindex, nofollow
+
+# Static assets - long cache
+/assets/fonts/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+/assets/images/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+/*.svg
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+/*.ico
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+/*.webmanifest
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+
+# Text files
+/*.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600

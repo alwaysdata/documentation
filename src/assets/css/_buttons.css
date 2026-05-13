@@ -1,0 +1,49 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 text-base rounded-full no-underline;
+    @apply font-medium cursor-pointer;
+    @apply inline-flex items-center justify-center gap-2;
+    @apply border border-solid border-brand-main;
+    @apply bg-brand-main text-body-light;
+    @apply transition-all duration-150 ease-in-out;
+    @apply hover:bg-brand-dark;
+    @apply whitespace-nowrap;
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-main focus:ring-offset-2;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none;
+  }
+}
+
+@utility btn--ghost {
+  @apply bg-transparent border-transparent text-slate-700 shadow-none;
+  @apply hover:bg-slate-100 hover:border-transparent;
+  @apply dark:text-neutral-300 dark:hover:bg-neutral-800;
+}
+
+/* Button sizes */
+@utility btn--xs {
+  @apply px-2.5 py-1 text-xs gap-1;
+}
+
+@utility btn--sm {
+  @apply px-3 py-1.5 text-sm gap-1.5;
+}
+
+@utility btn--md {
+  @apply px-4 py-2 text-base gap-2;
+}
+
+@utility btn--lg {
+  @apply px-6 py-3 text-lg gap-2.5;
+}
+
+@utility btn--xl {
+  @apply px-8 py-4 text-xl gap-3;
+}
+
+@utility btn--full {
+  @apply w-full;
+}
+
+@utility btn--icon {
+  @apply p-2 aspect-square;
+}

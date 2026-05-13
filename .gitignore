@@ -1,6 +1,34 @@
-hugo
-public
-resources
-themes
+# Dependencies
+node_modules/
+
+# Build output
+_site/
+dist/
+
+# Cache
+.cache/
+.eleventy-cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
-.hugo_build.lock
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.bak
+*.tmp

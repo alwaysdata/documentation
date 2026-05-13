@@ -1,0 +1,54 @@
+{#- Docs Pagination (Previous / Next) -#}
+
+{%- set navPages = collections.all | pageLang | eleventyNavigation | flattenNavigation -%}
+{%- set currentIndex = -1 -%}
+
+{#- Find current page index -#}
+{%- for item in navPages -%}
+    {%- if item.url == page.url -%}
+        {%- set currentIndex = loop.index0 -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- if currentIndex >= 0 -%}
+    {%- set prevPage = navPages[currentIndex - 1] if currentIndex > 0 else null -%}
+    {%- set nextPage = navPages[currentIndex + 1] if currentIndex < navPages.length - 1 else null -%}
+
+    {%- if prevPage or nextPage -%}
+        <nav class="mt-12 grid gap-4 lg:grid-cols-2" aria-label="Pagination">
+            {%- if prevPage -%}
+                <a href="{{ prevPage.url }}"
+                   class="group flex items-center justify-start gap-4 rounded-xl border border-slate-200 px-4 py-3 no-underline transition-colors hover:border-slate-300 dark:border-neutral-800 dark:hover:border-neutral-700">
+                    <div class="space-y-1">
+                        <div class="font-medium text-slate-900 dark:text-neutral-200">
+                            {{ prevPage.title }}
+                        </div>
+                        <div class="flex items-center gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
+                            {% phosphor "caret-left", "bold", { size: 14 } %}
+                            {% set label = page.lang == 'en' and "Previous" or "Précédent" %}
+                            <span class="font-medium">{{ label }}</span>
+                        </div>
+                    </div>
+                </a>
+            {%- else -%}
+                <div></div>
+            {%- endif -%}
+
+            {%- if nextPage -%}
+                <a href="{{ nextPage.url }}"
+                   class="group flex items-center justify-end gap-4 rounded-xl border border-slate-200 px-4 py-3 no-underline transition-colors hover:border-slate-300 dark:border-neutral-800 dark:hover:border-neutral-700">
+                    <div class="space-y-1">
+                        <div class="font-medium text-right text-slate-900 dark:text-neutral-200">
+                            {{ nextPage.title }}
+                        </div>
+                        <div class="flex items-center justify-end gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
+                          {% set label = page.lang == 'en' and "Next" or "Suivant" %}
+                          <span class="font-medium">{{ label }}</span>
+                            {% phosphor "caret-right", "bold", { size: 14 } %}
+                        </div>
+                    </div>
+                </a>
+            {%- endif -%}
+        </nav>
+    {%- endif -%}
+{%- endif -%}

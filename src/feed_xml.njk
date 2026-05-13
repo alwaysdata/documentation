@@ -1,0 +1,27 @@
+---
+layout: nada
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language }}">
+    <title>{{ metadata.title }}</title>
+    <subtitle>{{ metadata.description }}</subtitle>
+    <link href="{{ metadata.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="{{ metadata.url }}/changelog/" rel="alternate" type="text/html"/>
+    <updated>{{ collections.changelog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ metadata.url }}/</id>
+    <author>
+        <name>{{ metadata.author }}</name>
+    </author>
+    {%- for release in collections.changelog %}
+    {%- set absoluteUrl = metadata.url + release.url %}
+    <entry>
+        <title>{{ release.data.title | htmlEscape }}</title>
+        <link href="{{ absoluteUrl }}" rel="alternate" type="text/html"/>
+        <updated>{{ release.date | dateToRfc3339 }}</updated>
+        <id>{{ absoluteUrl }}</id>
+        <summary>{{ release.data.description | default(release.data.title) | htmlEscape }}</summary>
+    </entry>
+    {%- endfor %}
+</feed>

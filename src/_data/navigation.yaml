@@ -1,0 +1,62 @@
+# Navigation Links
+
+topnav:
+  - text: GitHub
+    url: https://github.com/alwaysdata/documentation
+    icon: github-logo
+
+# Main menu - shown at top of sidebar
+main:
+  - text:
+      en: Home
+      fr: Accueil
+    url: /
+  - text:
+      en: Under the hood
+      fr: Sous le capot
+    url: /blog/
+
+# Legal/Footer pages
+legal:
+  - text: ❤️ alwaysdata
+    url: /love/
+
+footer:
+  - title:
+      en: Ecosystem
+      fr: Écosystème
+    links:
+      - text: Administration
+        url: https://admin.alwaysdata.com
+      - text: Status
+        url: https://status.alwaysdata.com
+      - text: Changelog
+        url: https://changelog.alwaysdata.com
+
+  - title:
+      en: Social networks
+      fr: Réseaux sociaux
+    links:
+      - text: Linkedin
+        url: https://www.linkedin.com/company/alwaysdata/
+        icon: linkedin-logo
+      - text: X
+        url: https://x.com/alwaysdata
+        icon: x-logo
+      - text: Mastodon
+        url: https://mastodon.social/@alwaysdata/
+        icon: mastodon-logo
+      - text: Bluesky
+        url: https://bsky.app/profile/alwaysdata.bsky.social
+        icon: butterfly
+
+  - title:
+      en: Recommendations
+      fr: Recommandations
+    links:
+      - text: Trustpilot
+        url: https://www.trustpilot.com/review/alwaysdata.com
+        icon: star
+      - text: Google
+        url: https://g.page/r/CdUxURUC1V4SEB0
+        icon: google-logo

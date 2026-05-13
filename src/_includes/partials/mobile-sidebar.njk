@@ -1,0 +1,22 @@
+{#- Mobile Sidebar Overlay -#}
+<div id="sidebar-overlay"
+     class="fixed inset-0 z-30 hidden bg-neutral-900/70 backdrop-blur-sm lg:hidden"></div>
+
+{#- Mobile Sidebar -#}
+<aside id="mobile-sidebar"
+       class="fixed inset-y-0 left-0 z-40 hidden w-72 overflow-y-auto bg-white pb-20 dark:bg-neutral-950 lg:hidden">
+    <div class="flex h-14 items-center border-b border-slate-900/10 px-4 dark:border-neutral-50/5">
+        <a href="/" class="font-semibold text-slate-900 no-underline dark:text-white">
+            {{ metadata.title }}
+        </a>
+        <button type="button"
+                id="mobile-menu-close"
+                class="ml-auto flex h-8 w-8 items-center justify-center rounded-md text-slate-500 hover:text-slate-600 dark:text-neutral-400 dark:hover:text-neutral-300"
+                aria-label="Close navigation">
+            {% phosphor "x", "bold", { size: 20 } %}
+        </button>
+    </div>
+    <nav class="px-4 pt-6">
+        {% include 'partials/sidebar-nav.njk' %}
+    </nav>
+</aside>

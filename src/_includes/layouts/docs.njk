@@ -1,0 +1,151 @@
+---
+layout: layouts/base.njk
+---
+{%- set pageTitle = title -%}
+{%- set pageDescription = description -%}
+
+{#- Generate Navigation Menu -#}
+{%- set navOptions = {
+    listElement: "ul",
+    listItemElement: "li",
+    listClass: "",
+    listItemClass: "",
+    listItemHasChildrenClass: "",
+    activeListItemClass: "",
+    anchorClass: "",
+    activeAnchorClass: "active",
+    activeKey: eleventyNavigation.key
+} -%}
+{%- set eleventyNavigationMenu = collections.all | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
+
+{#- Generate Breadcrumb -#}
+{%- set breadcrumb = collections.all | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
+
+{#- Generate TOC -#}
+{%- set tocMarkup = content | toc -%}
+
+<div class="mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
+    <div class="lg:flex lg:justify-between lg:gap-12">
+
+        {% include 'partials/sidebar.njk' %}
+        {% include 'partials/mobile-sidebar.njk' %}
+
+        {#- Main Content Area -#}
+        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1">
+            <article class="py-10">
+                {#- Breadcrumb -#}
+                {% include 'partials/breadcrumb.njk' %}
+
+                {#- Page Header -#}
+                <header class="mb-9">
+                    {#- GitHub Links -#}
+                    {% if metadata.github.owner and metadata.github.repo %}
+                        {%- set githubBaseUrl = "https://github.com/" + metadata.github.owner + "/" + metadata.github.repo -%}
+                        {%- set githubBranch = metadata.github.editBranch | default("main") -%}
+                        {%- set editUrl = githubBaseUrl + "/edit/" + githubBranch + "/" + page.inputPath -%}
+                        {%- set rawUrl = "https://raw.githubusercontent.com/" + metadata.github.owner + "/" + metadata.github.repo + "/" + githubBranch + "/" + page.inputPath -%}
+                        <div class="mb-4 hidden flex-wrap items-center justify-end gap-x-4 gap-y-2 text-sm sm:flex">
+                            <a href="{{ editUrl }}"
+                               target="_blank"
+                               rel="noopener"
+                               class="inline-flex items-center gap-1.5 text-slate-500 no-underline hover:text-slate-700 dark:text-neutral-400 dark:hover:text-neutral-200">
+                                {% phosphor "pencil-simple", "regular", { size: 16 } %}
+                                Edit this page
+                            </a>
+                            <a href="{{ rawUrl }}"
+                               target="_blank"
+                               rel="noopener"
+                               class="inline-flex items-center gap-1.5 text-slate-500 no-underline hover:text-slate-700 dark:text-neutral-400 dark:hover:text-neutral-200">
+                                {% phosphor "file-text", "regular", { size: 16 } %}
+                                View source
+                            </a>
+                        </div>
+                    {% endif %}
+                    <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-neutral-100">
+                        {{ pageTitle }}
+                    </h1>
+                    {% if pageDescription %}
+                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400">
+                            {{ pageDescription | safe }}
+                        </p>
+                    {% endif %}
+                </header>
+
+                {#- Main Content -#}
+                <div class="prose prose-slate max-w-none dark:prose-invert">
+                    {{ content | safe }}
+                </div>
+
+                {#- Docs Pagination (Prev/Next) -#}
+                {% include "partials/docs-pagination.njk" %}
+            </article>
+
+            {#- Footer -#}
+            {% include "partials/footer.njk" %}
+        </main>
+
+        {#- Right Sidebar - Table of Contents -#}
+        <aside class="hidden xl:block xl:w-56 xl:shrink-0">
+            {% if tocMarkup %}
+                <nav id="toc" class="toc sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto overflow-x-hidden py-10">
+                    <h5 class="mb-4 text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-neutral-100">
+                        On this page
+                    </h5>
+                    {{ tocMarkup | safe }}
+                </nav>
+            {% endif %}
+        </aside>
+
+    </div>
+</div>
+
+{#- Mobile TOC Drawer -#}
+{% if tocMarkup %}
+    <div id="mobile-toc-overlay"
+         class="fixed inset-x-0 top-0 bottom-14 z-[60] hidden bg-neutral-900/70 backdrop-blur-sm lg:hidden"></div>
+    <aside id="mobile-toc"
+           class="fixed inset-x-0 bottom-14 z-[60] hidden max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 dark:bg-neutral-950 lg:hidden">
+        <div class="sticky top-0 flex items-center justify-between border-b border-slate-900/10 bg-white px-4 py-3 dark:border-neutral-50/5 dark:bg-neutral-950">
+            <h5 class="text-sm font-semibold text-slate-900 dark:text-neutral-100">On this page</h5>
+            <button type="button"
+                    id="mobile-toc-close"
+                    class="flex h-8 w-8 items-center justify-center rounded-md text-slate-500 hover:text-slate-600 dark:text-neutral-400 dark:hover:text-neutral-300"
+                    aria-label="Close">
+                {% phosphor "x", "bold", { size: 20 } %}
+            </button>
+        </div>
+        <nav class="mobile-toc-nav px-4 pt-2">
+            {{ tocMarkup | safe }}
+        </nav>
+    </aside>
+{% endif %}
+
+{#- Mobile Bottom Navigation -#}
+<nav id="mobile-bottom-nav"
+     class="fixed bottom-0 left-0 right-0 z-50 flex h-14 items-center justify-around border-t border-slate-900/10 bg-white dark:border-neutral-50/5 dark:bg-neutral-950 lg:hidden">
+    <a href="/"
+       class="flex flex-col items-center gap-0.5 text-slate-600 no-underline dark:text-neutral-400">
+        {% phosphor "house", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Home</span>
+    </a>
+    <button type="button"
+            data-search-trigger
+            class="flex flex-col items-center gap-0.5 text-slate-600 dark:text-neutral-400">
+        {% phosphor "magnifying-glass", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Search</span>
+    </button>
+    {% if tocMarkup %}
+        <button type="button"
+                id="mobile-toc-toggle"
+                class="flex flex-col items-center gap-0.5 text-slate-600 dark:text-neutral-400">
+            {% phosphor "list-dashes", "regular", { size: 20 } %}
+            <span class="text-[10px] font-medium uppercase">TOC</span>
+        </button>
+    {% endif %}
+    <button type="button"
+            id="mobile-top-btn"
+            class="flex flex-col items-center gap-0.5 text-slate-600 dark:text-neutral-400">
+        {% phosphor "arrow-line-up", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Top</span>
+    </button>
+</nav>

@@ -1,0 +1,55 @@
+{#- Changelog Pagination (Newer / Older) -#}
+
+{%- set changelogPages = collections.changelog -%}
+{%- set currentIndex = -1 -%}
+
+{#- Find current page index -#}
+{%- for item in changelogPages -%}
+    {%- if item.url == page.url -%}
+        {%- set currentIndex = loop.index0 -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- if currentIndex >= 0 -%}
+    {#- Collection is sorted newest first, so: -#}
+    {#- - Lower index = newer version -#}
+    {#- - Higher index = older version -#}
+    {%- set newerPage = changelogPages[currentIndex - 1] if currentIndex > 0 else null -%}
+    {%- set olderPage = changelogPages[currentIndex + 1] if currentIndex < changelogPages.length - 1 else null -%}
+
+    {%- if newerPage or olderPage -%}
+        <nav class="mt-12 grid gap-4 border-t border-slate-200 pt-6 dark:border-neutral-800 sm:grid-cols-2" aria-label="Changelog pagination">
+            {%- if olderPage -%}
+                <a href="{{ olderPage.url }}"
+                   class="group flex items-center justify-start gap-4 rounded-xl border border-slate-200 px-4 py-3 no-underline transition-colors hover:border-slate-300 dark:border-neutral-800 dark:hover:border-neutral-700">
+                    <div class="space-y-1">
+                        <div class="font-medium text-slate-900 dark:text-neutral-200">
+                            {{ olderPage.data.title }}
+                        </div>
+                        <div class="flex items-center gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
+                            {% phosphor "caret-left", "bold", { size: 14 } %}
+                            <span class="font-medium">Older</span>
+                        </div>
+                    </div>
+                </a>
+            {%- else -%}
+                <div></div>
+            {%- endif -%}
+
+            {%- if newerPage -%}
+                <a href="{{ newerPage.url }}"
+                   class="group flex items-center justify-end gap-4 rounded-xl border border-slate-200 px-4 py-3 no-underline transition-colors hover:border-slate-300 dark:border-neutral-800 dark:hover:border-neutral-700">
+                    <div class="space-y-1">
+                        <div class="font-medium text-right text-slate-900 dark:text-neutral-200">
+                            {{ newerPage.data.title }}
+                        </div>
+                        <div class="flex items-center justify-end gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
+                            <span class="font-medium">Newer</span>
+                            {% phosphor "caret-right", "bold", { size: 14 } %}
+                        </div>
+                    </div>
+                </a>
+            {%- endif -%}
+        </nav>
+    {%- endif -%}
+{%- endif -%}

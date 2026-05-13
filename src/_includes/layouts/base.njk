@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default(metadata.language) }}"
+      class="{{ html_class }}"
+      data-build-hash="{{ build.hash.short }}"
+      data-build-timestamp="{{ build.timestamp.iso }}"
+      data-build-label="{{ build.timestamp.formatted }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {# Meta tags #}
+    {% include "partials/metatags.njk" %}
+
+    {# Stylesheets #}
+    <link rel="stylesheet" href="/assets/css/main.css?v={{ build.timestamp.raw }}">
+
+    {# Prevent flash of wrong theme - must run before render #}
+    <script>
+        (function() {
+            const stored = localStorage.getItem('juicyDocs');
+            const prefs = stored ? JSON.parse(stored) : {};
+            const theme = prefs.colorScheme || 'auto';
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (theme === 'auto' && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
+</head>
+<body class="bg-white antialiased dark:bg-neutral-900 {{ body_class }}">
+
+    {# Top Navigation #}
+    {% include "partials/topnav.njk" %}
+
+    {# Main content #}
+    {{ content | safe }}
+
+    {#- Command Palette Search Component -#}
+    <command-palette></command-palette>
+
+    {# JavaScript #}
+    <script defer src="/assets/js/main.js?v={{ build.timestamp.raw }}"></script>
+
+</body>
+</html>

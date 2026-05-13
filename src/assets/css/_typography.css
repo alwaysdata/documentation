@@ -1,0 +1,130 @@
+/* Typography and prose styles */
+@layer components {
+
+  /* Main content area typography */
+  main {
+    @apply leading-relaxed;
+
+    /* Headings */
+    h1 {
+      @apply text-4xl font-bold mb-6;
+    }
+
+    h2 {
+      @apply text-3xl font-bold mt-8 mb-4 pb-2;
+      @apply border-b border-dashed border-slate-400 dark:border-neutral-600;
+    }
+
+    h3 {
+      @apply text-2xl font-semibold mt-6 mb-3;
+    }
+
+    h4 {
+      @apply text-xl font-semibold mt-5 mb-2;
+    }
+
+    h5, h6 {
+      @apply text-lg font-semibold mt-4 mb-2;
+    }
+
+    /* Paragraphs */
+    p {
+      @apply mb-4;
+    }
+
+    /* Lists */
+    ul, ol {
+      @apply list-disc pl-6 mb-4;
+    }
+
+    ol {
+      @apply list-decimal;
+    }
+
+    li {
+      @apply mb-2;
+
+      p {
+        @apply mb-2;
+      }
+    }
+
+    /* Inline code */
+    code:not(pre code) {
+      @apply bg-slate-200 dark:bg-neutral-800;
+      @apply py-0.5 px-1 rounded text-[0.875em];
+    }
+
+    /* Code blocks */
+    pre {
+      @apply bg-slate-800 text-slate-100;
+      @apply p-4 rounded-lg overflow-x-auto mb-4;
+
+      code {
+        @apply bg-transparent p-0 text-sm leading-relaxed;
+      }
+    }
+
+    /* Blockquotes */
+    blockquote {
+      @apply border-l-4 border-red-500 dark:border-amber-400;
+      @apply pl-4 my-4 italic;
+      @apply text-slate-700 dark:text-neutral-300;
+    }
+
+    /* Tables */
+    table {
+      @apply mb-4 border border-slate-300 dark:border-neutral-600;
+    }
+
+    th, td {
+      @apply py-2 px-3 text-left;
+      @apply border border-slate-300 dark:border-neutral-600;
+    }
+
+    th {
+      @apply bg-slate-100 dark:bg-neutral-800 font-semibold;
+    }
+
+    /* Horizontal rule */
+    hr {
+      @apply border-0 border-t border-dashed;
+      @apply border-slate-400 dark:border-neutral-600;
+      @apply my-6;
+    }
+
+    /* Strong and emphasis */
+    strong, b {
+      @apply font-bold;
+    }
+
+    em, i {
+      @apply italic;
+    }
+
+    /* External links */
+    a.__external-link::after {
+      content: '';
+      @apply inline-block size-[0.9em] ml-1 align-text-bottom;
+      @apply bg-current;
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M224,104a8,8,0,0,1-16,0V59.32l-66.33,66.34a8,8,0,0,1-11.32-11.32L196.68,48H152a8,8,0,0,1,0-16h64a8,8,0,0,1,8,8Zm-40,24a8,8,0,0,0-8,8v72H48V80h72a8,8,0,0,0,0-16H48A16,16,0,0,0,32,80V208a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V136A8,8,0,0,0,184,128Z'/%3E%3C/svg%3E");
+      mask-size: contain;
+      mask-repeat: no-repeat;
+    }
+  }
+
+  /* Global elements (outside main) */
+  kbd {
+    @apply inline-block py-0.5 px-2 text-sm leading-snug;
+    @apply text-slate-800 dark:text-neutral-200;
+    @apply bg-slate-100 dark:bg-neutral-800;
+    @apply border border-slate-300 dark:border-neutral-500 rounded;
+    @apply shadow-[inset_0_-1px_0_theme(colors.neutral.200)] dark:shadow-[inset_0_-1px_0_theme(colors.neutral.600)];
+  }
+
+  mark {
+    @apply bg-amber-200 dark:bg-amber-700;
+    @apply dark:text-amber-100;
+    @apply px-0.5 rounded-sm;
+  }
+}

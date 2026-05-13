@@ -1,0 +1,11 @@
+---
+permalink: /.well-known/security.txt
+eleventyExcludeFromCollections: true
+---
+# Security Policy for {{ metadata.title }}
+# https://securitytxt.org/
+
+Contact: mailto:{{ metadata.email }}
+Expires: {{ build.timestamp.plusSixMonths }}
+Preferred-Languages: en
+Canonical: {{ build.url }}/.well-known/security.txt

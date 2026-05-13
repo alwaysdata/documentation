@@ -1,0 +1,12 @@
+---
+layout: nada
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+# {{ metadata.title }} - robots.txt
+# Build: {{ build.timestamp.formatted }}
+
+User-agent: *
+Disallow: /404.html
+
+Sitemap: {{ metadata.url }}/sitemap.xml

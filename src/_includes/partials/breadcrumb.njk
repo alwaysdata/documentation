@@ -1,0 +1,34 @@
+{#- Breadcrumb Navigation -#}
+{%- set pageUrlSplit = page.url.split('/') -%}
+
+<nav class="mb-4 flex items-center gap-1 text-sm text-slate-500 dark:text-neutral-400" aria-label="Breadcrumb">
+    <a href="/" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline" aria-label="Home">
+        {% phosphor "house", "regular", { size: 14 } %}
+    </a>
+
+    {% if breadcrumb.length > 0 %}
+        {% for item in breadcrumb %}
+            <span class="text-slate-400 dark:text-neutral-600">/</span>
+            <a href="{{ item.url }}" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline">
+                {{ item.key }}
+            </a>
+        {% endfor %}
+    {% endif %}
+
+    {% if pageUrlSplit[1] == "changelog" and pageUrlSplit[2].length > 0 %}
+        <span class="text-slate-400 dark:text-neutral-600">/</span>
+        <a href="/changelog/" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline">
+            Changelog
+        </a>
+    {% endif %}
+
+    {% if tag %}
+        <span class="text-slate-400 dark:text-neutral-600">/</span>
+        <a href="/tags/" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline">
+            Tags
+        </a>
+    {% endif %}
+
+    <span class="text-slate-400 dark:text-neutral-600">/</span>
+    <span class="text-slate-700 dark:text-neutral-200 truncate">{{ pageTitle }}</span>
+</nav>

@@ -1,0 +1,19 @@
+# Site Metadata
+title: alwaysdata
+description: Help & documentation for alwaysdata's services.
+url: https://help.alwaysdata.com
+language: en
+author: alwaysdata
+email: contact@alwaysdata.com
+
+# Social/SEO
+twitter: "@alwaysdata"
+ogImageFR: /og-fr.png
+ogImageEN: /og-en.png
+themeColor: "#e11d68"
+
+# GitHub
+github:
+  owner: alwaysdata
+  repo: documentation
+  editBranch: master

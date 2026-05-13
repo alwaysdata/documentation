@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+permalink: /404.html
+eleventyExcludeFromCollections: true
+title: "404 - Page not found"
+---
+
+<main class="flex min-h-[calc(100dvh-4rem)] flex-col items-center justify-center px-6 py-16">
+    <div class="w-full text-center">
+        <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">This is <u>not</u> the page<br/> you're looking for</h1>
+        <p class="mt-0 mb-4 font-mono text-sm">Error 404</p>
+
+        <p><img src="assets/images/obione.gif" alt="Obi one"></p>
+
+        <div class="mt-8 md:mt-16 max-w-md mx-auto text-pretty">
+          <a href="{{"/" | locale_url }}" class="btn btn--primary">Go back to the homepage</a>
+        </div>
+    </div>
+</main>

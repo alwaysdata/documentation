@@ -1,0 +1,84 @@
+---
+layout: layouts/base.njk
+---
+{%- set pageTitle = title -%}
+{%- set pageDescription = description -%}
+
+{#- Generate Navigation Menu -#}
+{%- set navOptions = {
+    listElement: "ul",
+    listItemElement: "li",
+    listClass: "",
+    listItemClass: "",
+    listItemHasChildrenClass: "",
+    activeListItemClass: "",
+    anchorClass: "",
+    activeAnchorClass: "active",
+    activeKey: eleventyNavigation.key
+} -%}
+{%- set eleventyNavigationMenu = collections.all | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
+
+{#- Generate Breadcrumb -#}
+{%- set breadcrumb = collections.all | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
+
+<div class="mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
+    <div class="lg:flex lg:justify-between lg:gap-12">
+
+        {% include 'partials/sidebar.njk' %}
+        {% include 'partials/mobile-sidebar.njk' %}
+
+        {#- Main Content Area -#}
+        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1">
+            <article class="py-10">
+                {#- Breadcrumb -#}
+                {% include 'partials/breadcrumb.njk' %}
+
+                {#- Page Header -#}
+                <header class="mb-9">
+                    <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-neutral-100">
+                        {{ pageTitle }}
+                    </h1>
+                    {% if pageDescription %}
+                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400">
+                            {{ pageDescription | safe }}
+                        </p>
+                    {% endif %}
+                </header>
+
+                {#- Main Content -#}
+                <div class="prose prose-slate max-w-none dark:prose-invert">
+                    {{ content | safe }}
+                </div>
+            </article>
+
+            {#- Footer -#}
+            {% include "partials/footer.njk" %}
+        </main>
+
+        {#- Right Sidebar Placeholder (for alignment) -#}
+        <aside class="hidden xl:block xl:w-56 xl:shrink-0"></aside>
+
+    </div>
+</div>
+
+{#- Mobile Bottom Navigation -#}
+<nav id="mobile-bottom-nav"
+     class="fixed bottom-0 left-0 right-0 z-50 flex h-14 items-center justify-around border-t border-slate-900/10 bg-white dark:border-neutral-50/5 dark:bg-neutral-950 lg:hidden">
+    <a href="/"
+       class="flex flex-col items-center gap-0.5 text-slate-600 no-underline dark:text-neutral-400">
+        {% phosphor "house", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Home</span>
+    </a>
+    <button type="button"
+            data-search-trigger
+            class="flex flex-col items-center gap-0.5 text-slate-600 dark:text-neutral-400">
+        {% phosphor "magnifying-glass", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Search</span>
+    </button>
+    <button type="button"
+            onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            class="flex flex-col items-center gap-0.5 text-slate-600 dark:text-neutral-400">
+        {% phosphor "arrow-line-up", "regular", { size: 20 } %}
+        <span class="text-[10px] font-medium uppercase">Top</span>
+    </button>
+</nav>

@@ -1,8 +1,0 @@
-{{ $img := $.Page.Resources.GetMatch (.Get 0) }}
-{{ $caption := (.Get 1) }}
-<figure>
-	<img src="{{ $img.RelPermalink }}" alt="{{ default "" $caption }}" />
-	{{- if $caption -}}
-	<figcaption>{{ $caption }}</figcaption>
-	{{- end -}}
-</figure>

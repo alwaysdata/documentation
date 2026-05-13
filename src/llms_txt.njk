@@ -1,0 +1,33 @@
+---
+layout: nada
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+{%- set allDocs = collections.docs -%}
+{%- set recentChangelog = collections.changelog | head(10) -%}
+# {{ metadata.title }}
+
+> {{ metadata.description }}
+
+## Core Pages
+
+- [Homepage]({{ metadata.url }}/): Main landing page
+- [Documentation]({{ metadata.url }}/docs/): Comprehensive guides and references
+- [Changelog]({{ metadata.url }}/changelog/): Version history and updates
+- [Credits]({{ metadata.url }}/credits/): Acknowledgments and technologies used
+
+## Documentation
+
+{% for doc in allDocs %}
+- [{{ doc.data.title | default(doc.page.fileSlug) }}]({{ metadata.url }}{{ doc.url }}){{ ": " + (doc.data.description | striptags) if doc.data.description }}
+{% endfor %}
+
+## Recent Changelog
+
+{% for release in recentChangelog %}
+- [{{ release.data.title | default(release.page.fileSlug) }}]({{ metadata.url }}{{ release.url }}){{ ": " + (release.data.description | striptags) if release.data.description }}
+{% endfor %}
+
+---
+
+*Last updated: {{ build.timestamp.formatted }}*

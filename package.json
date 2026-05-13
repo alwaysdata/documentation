@@ -1,0 +1,75 @@
+{
+  "name": "juicydocs-11ty-starter",
+  "version": "1.0.0",
+  "description": "An Eleventy starter project to craft slick and responsive documentation",
+  "license": "MIT",
+  "author": {
+    "name": "FreshJuice",
+    "email": "contact@freshjuice.dev",
+    "url": "https://freshjuice.dev/"
+  },
+  "contributors": [
+    {
+      "name": "Alex Zappa",
+      "email": "alex@zappa.dev",
+      "url": "https://alex.zappa.dev/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshjuice-dev/juicydocs-11ty-starter.git"
+  },
+  "homepage": "≈",
+  "bugs": {
+    "url": "https://github.com/freshjuice-dev/juicydocs-11ty-starter/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf ./_site ./.cache",
+    "start": "ELEVENTY_ENV=development npm-run-all --parallel watch:*",
+    "dev": "npm run start",
+    "build": "ELEVENTY_ENV=production NODE_ENV=production npm-run-all --serial build:*",
+    "watch:11ty": "eleventy --serve --quiet",
+    "build:11ty": "eleventy",
+    "watch:js": "esbuild ./src/assets/js/main.js --outfile=./_site/assets/js/main.js --bundle --watch --sourcemap",
+    "build:js": "esbuild ./src/assets/js/main.js --outfile=./_site/assets/js/main.js --bundle --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./src/assets/css/main.css -o ./_site/assets/css/main.css --watch",
+    "build:css": "npx @tailwindcss/cli -i ./src/assets/css/main.css -o ./_site/assets/css/main.css --minify",
+    "postbuild": "npm-run-all --parallel postbuild:*",
+    "postbuild:pagefind": "pagefind --site ./_site",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "debug": "DEBUG=Eleventy* eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@sindresorhus/slugify": "^3.0.0",
+    "@tailwindcss/cli": "^4.2.2",
+    "@types/markdown-it": "^14.1.2",
+    "@zachleat/table-saw": "^1.0.7",
+    "eleventy-plugin-phosphoricons": "^2.0.0",
+    "eleventy-plugin-speculation-rules": "^2.0.0",
+    "esbuild": "^0.27.4",
+    "eslint": "^10.1.0",
+    "html-minifier-terser": "^7.2.0",
+    "js-yaml": "^4.1.1",
+    "linkedom": "^0.18.12",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-github-alerts": "^1.0.1",
+    "npm-run-all": "^4.1.5",
+    "pagefind": "^1.4.0",
+    "prettier": "^3.8.1",
+    "rimraf": "^6.1.3",
+    "sharp": "^0.34.5",
+    "shiki": "^4.0.2",
+    "slugify": "^1.6.8",
+    "tailwindcss": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

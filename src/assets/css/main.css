@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Custom dark mode variant using .dark class */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Source paths for content scanning - relative to src/assets/css/ */
+@source "../../**/*.{njk,md,html,js}";
+
+/* Tailwind v4 Theme Configuration - JuicyDocs / FreshJuice */
+@theme {
+  /* Font families */
+  --font-sans:
+    "General Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono:
+    "Fira Code", "Fira Mono", "Roboto Mono", "SF Mono", "Ubuntu Mono", Menlo,
+    Consolas, "Liberation Mono", monospace;
+
+  /* Max widths - Tailwind docs style */
+  --max-width-8xl: 90rem; /* 1440px */
+  --max-width-9xl: 105rem; /* 1680px */
+
+  /* Custom breakpoints */
+  --breakpoint-xs: 24.375rem; /* 390px */
+
+  /* Custom colors */
+  --color-body-dark: hsl(242 21% 26%);
+  --color-body-light: hsl(0 0% 95%);
+  --color-brand: hsl(337 77% 63%);
+  --color-brand-main: hsl(337 77% 50%);
+  --color-brand-dark: hsl(337 77% 41%);
+  --color-brand-darker: hsl(337 77% 31%);
+  --color-brand-lighter: hsl(338 100% 95%);
+  --color-brand-disabled: hsl(337 30% 50%);
+}
+
+/* Import component styles */
+@import "./_base.css";
+@import "./_typography.css";
+@import "./_buttons.css";
+@import "./_navigation.css";
+@import "./_code.css";
+@import "./_utilities.css";
+
+/* Github alerts */
+@import "markdown-it-github-alerts/styles/github-colors-light.css";
+@import "markdown-it-github-alerts/styles/github-colors-dark-class.css";
+@import "markdown-it-github-alerts/styles/github-base.css";
+
+.markdown-alert {
+  padding: 1rem;
+}
+.markdown-alert.markdown-alert-note {
+  background-color: hsl(from var(--color-note) h s calc(l + 50));
+}
+.markdown-alert.markdown-alert-tip {
+  background-color: hsl(from var(--color-tip) h s calc(l + 65));
+}
+.markdown-alert.markdown-alert-warning {
+  background-color: hsl(from var(--color-warning) h s calc(l + 63));
+}
+.markdown-alert.markdown-alert-caution {
+  background-color: hsl(from var(--color-caution) h s calc(l + 48));
+}
+.markdown-alert.markdown-alert-important {
+  background-color: hsl(from var(--color-important) h s calc(l + 35));
+}
+
+.dark {
+  & .markdown-alert.markdown-alert-note {
+    background-color: hsl(from var(--color-note) h s calc(l - 40));
+  }
+  & .markdown-alert.markdown-alert-tip {
+    background-color: hsl(from var(--color-tip) h s calc(l - 35));
+  }
+  & .markdown-alert.markdown-alert-warning {
+    background-color: hsl(from var(--color-warning) h s calc(l - 35));
+  }
+  & .markdown-alert.markdown-alert-caution {
+    background-color: hsl(from var(--color-caution) h s calc(l - 50));
+  }
+  & .markdown-alert.markdown-alert-important {
+    background-color: hsl(from var(--color-important) h s calc(l - 55));
+  }
+}

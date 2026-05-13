@@ -1,0 +1,94 @@
+{#- Page Footer -#}
+
+<footer class="mt-16 border-t border-slate-200 pt-8 pb-24 lg:pb-8 dark:border-neutral-800">
+
+    {#- Footer Navigation -#}
+    {% if navigation.footer | length %}
+        <nav class="grid xs:grid-cols-2 gap-8 sm:grid-cols-3 mb-10">
+            {% for column in navigation.footer %}
+                <div>
+                    <h5 class="mb-3 text-sm font-semibold text-slate-900 dark:text-white">
+                        {{ column.title[page.lang] }}
+                    </h5>
+                    <ul class="space-y-2">
+                        {% for link in column.links %}
+                            <li>
+                                <a href="{{ link.url }}"
+                                   class="text-sm text-slate-600 no-underline hover:text-slate-900 dark:text-neutral-400 dark:hover:text-neutral-200"
+                                   {% if link.url | isExternalUrl %}target="_blank" rel="noopener"{% endif %}>
+                                     {% if link.icon %}
+                                     {% phosphor link.icon, "regular", { size: 24, class: "inline align-bottom" } %}
+                                     {% endif %}
+                                     {{ link.text }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </nav>
+    {% endif %}
+
+    {#- Bottom Bar -#}
+    <div class="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
+
+        {#- Theme Switcher -#}
+        <div class="theme-switcher inline-flex gap-0.5 rounded-full bg-slate-950/5 p-1 dark:bg-white/10"
+             role="radiogroup"
+             aria-label="Theme">
+            <button type="button"
+                    data-theme="auto"
+                    class="theme-option rounded-full p-2 text-slate-700 dark:text-neutral-300"
+                    role="radio"
+                    aria-checked="true"
+                    aria-label="System theme">
+                {% phosphor "desktop", "regular", { size: 20 } %}
+            </button>
+            <button type="button"
+                    data-theme="light"
+                    class="theme-option rounded-full p-2 text-slate-700 dark:text-neutral-300"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Light theme">
+                {% phosphor "sun", "regular", { size: 20 } %}
+            </button>
+            <button type="button"
+                    data-theme="dark"
+                    class="theme-option rounded-full p-2 text-slate-700 dark:text-neutral-300"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Dark theme">
+                {% phosphor "moon", "regular", { size: 20 } %}
+            </button>
+        </div>
+
+        {#- Links and Copyright -#}
+        <div class="flex flex-col gap-4 text-sm text-slate-600 sm:flex-row sm:items-center sm:gap-2 dark:text-neutral-400">
+            <span>Copyright © {{ build.timestamp.year }} {{ metadata.author }}</span>
+            <span class="hidden sm:inline">·</span>
+            {% if editThisPageRootUrl | length > 0 %}
+                <a href="{{ editThisPageUrl }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="no-underline hover:text-slate-900 dark:hover:text-neutral-200">
+                    Edit this page
+                </a>
+                <span class="hidden sm:inline">·</span>
+            {% endif %}
+            Made with
+            <a href="https://www.11ty.dev"
+               target="_blank"
+               rel="noopener"
+               class="no-underline hover:text-slate-900 dark:hover:text-neutral-200">
+                11ty
+            </a>
+            &
+            <a href="https://github.com/freshjuice-dev/juicydocs-11ty-starter"
+               target="_blank"
+               rel="noopener"
+               class="no-underline hover:text-slate-900 dark:hover:text-neutral-200">
+                JuicyDocs {{ build.version }}
+            </a>
+        </div>
+    </div>
+</footer>

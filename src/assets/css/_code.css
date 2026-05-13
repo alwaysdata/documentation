@@ -1,0 +1,17 @@
+/* Shiki syntax highlighting */
+@layer components {
+  pre.shiki {
+    @apply p-4 overflow-x-auto rounded-lg text-sm leading-relaxed max-w-full;
+    @apply whitespace-pre break-normal;
+    tab-size: 2;
+  }
+
+  pre.shiki code {
+    @apply font-mono bg-transparent p-0;
+  }
+
+  /* Selection styling */
+  pre.shiki ::selection {
+    @apply bg-gray-500/30;
+  }
+}

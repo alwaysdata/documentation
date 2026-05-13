@@ -1,0 +1,76 @@
+{# SEO Meta Tags #}
+
+{# Set page-specific or fallback values #}
+{% set pageTitle = title | default(metadata.title) %}
+{% set pageDescription = description | default(metadata.description) | striptags %}
+{% set pageUrl = build.url + page.url %}
+{% set pageImage = page.lang == "en" and metadata.ogImageEN or metadata.ogImageFR %}
+{% set pageAuthor = metadata.author %}
+
+{# Basic meta tags #}
+<title>{{ pageTitle }}{% if title %} | {{ metadata.title }}{% endif %}</title>
+<meta name="description" content="{{ pageDescription | truncate(160) }}">
+<meta name="author" content="{{ pageAuthor }}">
+<meta name="generator" content="{{ eleventy.generator }}">
+
+{# Canonical URL #}
+<link rel="canonical" href="{{ pageUrl }}">
+
+{# Robots #}
+{% if noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% else %}
+<meta name="robots" content="index, follow">
+{% endif %}
+
+{# Open Graph #}
+<meta property="og:type" content="{% if layout == 'layouts/post.njk' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ pageTitle }}">
+<meta property="og:description" content="{{ pageDescription | truncate(160) }}">
+<meta property="og:url" content="{{ pageUrl }}">
+<meta property="og:site_name" content="{{ metadata.title }}">
+<meta property="og:locale" content="{{ page.lang }}">
+{% if pageImage %}
+<meta property="og:image" content="{{ build.url }}{{ pageImage }}">
+{% endif %}
+
+{# Twitter Card #}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pageTitle }}">
+<meta name="twitter:description" content="{{ pageDescription | truncate(160) }}">
+{% if metadata.twitter %}
+<meta name="twitter:site" content="{{ metadata.twitter }}">
+{% endif %}
+{% if pageImage %}
+<meta name="twitter:image" content="{{ build.url }}{{ pageImage }}">
+{% endif %}
+
+{# Article specific (for blog posts) #}
+{% if layout == 'layouts/post.njk' %}
+<meta property="article:published_time" content="{{ date | dateToISOString }}">
+{% if pageAuthor %}
+<meta property="article:author" content="{{ pageAuthor }}">
+{% endif %}
+{% if tags %}
+{% for tag in tags %}
+{% if tag != "release" %}
+<meta property="article:tag" content="{{ tag }}">
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{# Favicon by https://realfavicongenerator.net #}
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="{{ metadata.title }}">
+<link rel="manifest" href="/site.webmanifest">
+
+{# Theme color & color scheme #}
+<meta name="theme-color" content="{{ metadata.themeColor | default('#f97316') }}">
+<meta name="color-scheme" content="light dark">
+
+{# Mobile app capable #}
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">

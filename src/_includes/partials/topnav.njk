@@ -1,0 +1,54 @@
+{#- Top Navigation Bar -#}
+
+<header class="sticky top-0 z-50 w-full border-b border-slate-900/10 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:border-neutral-50/10 dark:bg-neutral-950/75">
+    <div class="mx-auto flex h-14 max-w-9xl items-center justify-between px-4 sm:px-6 lg:px-8">
+
+        {#- Logo / Site Title -#}
+        <div class="flex flex-1 items-center gap-4">
+            {#- Mobile menu toggle -#}
+            <button type="button"
+                    id="mobile-menu-toggle"
+                    class="lg:hidden -ml-2 flex h-8 w-8 items-center justify-center rounded-md text-slate-500 hover:text-slate-600 dark:text-neutral-400 dark:hover:text-neutral-300"
+                    aria-label="Toggle navigation">
+                <span id="menu-icon-open">{% phosphor "list", "bold", { size: 20 } %}</span>
+                <span id="menu-icon-close" class="hidden">{% phosphor "x", "bold", { size: 20 } %}</span>
+            </button>
+
+            <a href="{{ "/" | locale_url }}" class="flex items-center gap-2 font-semibold text-slate-900 no-underline dark:text-white min-w-10 shrink-0">
+                <img src="/assets/images/alwaysdata-logo.svg"
+                     alt="{{ metadata.title }} logo"
+                     class="size-50 h-auto shrink-0">
+            </a>
+        </div>
+
+        {#- Center: Search trigger (desktop) -#}
+        <search-trigger class="hidden lg:block lg:max-w-md lg:flex-auto"></search-trigger>
+
+        {#- Right: Links -#}
+        <nav class="flex flex-1 justify-end items-center gap-1">
+            {#- Switch lang -#}
+            {% for link in page.url | locale_links %}
+            <a href="{{ link.url }}"
+               class="hidden px-3 py-2 text-sm font-medium text-slate-700 no-underline hover:text-slate-900 dark:text-neutral-400 dark:hover:text-neutral-300 sm:block"
+               lang="{{link.lang}}" hreflang="{{link.lang}}">
+              {% phosphor "translate", "regular", { size: 24 } %}
+            </a>
+            {% endfor %}
+            {#- RSS Feed -#}
+            <a href="/feed.xml"
+               class="hidden px-3 py-2 text-sm font-medium text-slate-700 no-underline hover:text-slate-900 dark:text-neutral-400 dark:hover:text-neutral-300 sm:block">
+                {% phosphor "rss", "regular", { size: 24 } %}
+            </a>
+
+            {#- Navigation links -#}
+            {% for item in navigation.topnav %}
+                <a href="{{ item.url }}"
+                   class="hidden px-3 py-2 text-sm font-medium text-slate-700 no-underline hover:text-slate-900 dark:text-neutral-400 dark:hover:text-neutral-300 sm:block"
+                   {% if item.url | isExternalUrl %}target="_blank" rel="noopener"{% endif %}>
+                    {% phosphor item.icon, "regular", { size: 24 } %}
+                </a>
+            {% endfor %}
+
+        </nav>
+    </div>
+</header>

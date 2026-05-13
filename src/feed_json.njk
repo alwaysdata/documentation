@@ -1,0 +1,26 @@
+---
+layout: nada
+permalink: /feed.json
+eleventyExcludeFromCollections: true
+---
+{
+"version": "https://jsonfeed.org/version/1.1",
+"title": "{{ metadata.title }}",
+"language": "{{ metadata.language }}",
+"home_page_url": "{{ metadata.url }}",
+"feed_url": "{{ metadata.url }}/feed.json",
+"description": "{{ metadata.description }}",
+"icon": "{{ metadata.url }}/favicon-96x96.png",
+"items": [
+{%- for release in collections.changelog | head(20) %}
+  {%- set absoluteUrl = metadata.url + release.url %}
+  {
+  "id": "{{ absoluteUrl }}",
+  "url": "{{ absoluteUrl }}",
+  "title": "{{ release.data.title }}",
+  "summary": "{{ release.data.description | default(release.data.title) | striptags }}",
+  "date_published": "{{ release.date | dateToRfc3339 }}"
+  }{% if not loop.last %},{% endif %}
+{%- endfor %}
+]
+}
