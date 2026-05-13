@@ -14,6 +14,8 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginPhosphorIcons from "eleventy-plugin-phosphoricons";
 import pluginSpeculationRules from "eleventy-plugin-speculation-rules";
 import { I18nPlugin } from "@11ty/eleventy";
+import i18n from "eleventy-plugin-i18n";
+import translations from "../src/_data/translations.js";
 
 // Image transform configuration
 const CONTENT_WIDTH = 700;
@@ -121,6 +123,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(I18nPlugin, {
     defaultLanguage: "en",
     errorMode: "strict",
+  });
+
+  eleventyConfig.addPlugin(i18n, {
+    translations,
+    fallbackLocales: {
+      "*": "en",
+    },
   });
 
   // Speculation Rules - prefetching/prerendering for faster navigation

@@ -25,8 +25,7 @@
                         </div>
                         <div class="flex items-center gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
                             {% phosphor "caret-left", "bold", { size: 14 } %}
-                            {% set label = page.lang == 'en' and "Previous" or "Précédent" %}
-                            <span class="font-medium">{{ label }}</span>
+                            <span class="font-medium">{{ 'pagination.prev' | i18n }}</span>
                         </div>
                     </div>
                 </a>
@@ -42,8 +41,7 @@
                             {{ nextPage.title }}
                         </div>
                         <div class="flex items-center justify-end gap-1 text-sm text-slate-500 group-hover:text-slate-600 dark:text-neutral-500 dark:group-hover:text-neutral-400">
-                          {% set label = page.lang == 'en' and "Next" or "Suivant" %}
-                          <span class="font-medium">{{ label }}</span>
+                          <span class="font-medium">{{ 'pagination.next' | i18n }}</span>
                             {% phosphor "caret-right", "bold", { size: 14 } %}
                         </div>
                     </div>

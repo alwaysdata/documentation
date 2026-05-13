@@ -1,3 +1,4 @@
+import translations from "../../../_data/translations.js";
 /**
  * Search Components
  * Command Palette + Search Trigger as custom elements
@@ -12,44 +13,6 @@ const SHORTCUT = IS_MAC ? "⌘K" : "Ctrl+K";
 
 // i18n
 const locale = document.documentElement.lang;
-const i18n = {
-  quickPlaceholder: {
-    en: "Quick search…",
-    fr: "Recherche rapide…",
-  },
-  mainPlaceholder: {
-    en: "Search documentation",
-    fr: "Rechercher dans la documentation",
-  },
-  type: {
-    en: "Type to search…",
-    fr: "Tapez pour rechercher…",
-  },
-  navigate: {
-    en: "Navigate",
-    fr: "Navigation",
-  },
-  select: {
-    en: "Select",
-    fr: "Sélectionner",
-  },
-  close: {
-    en: "Close",
-    fr: "Fermer",
-  },
-  unavailable: {
-    en: "Search is not available. Please try again later.",
-    fr: "La recherche est momentanément indisponible. <br/>Réssayer ultérieurement.",
-  },
-  pending: {
-    en: "Search is loading…",
-    fr: "Recherche en cours…",
-  },
-  fail: {
-    en: "Search failed. Please try again.",
-    fr: "La recherche a échouée, veuillez réssayer",
-  },
-};
 
 /**
  * Search Trigger Web Component
@@ -69,7 +32,7 @@ export class SearchTrigger extends HTMLElement {
               data-search-trigger
               class="hidden h-8 w-full items-center gap-2 rounded-full bg-white pl-2 pr-3 text-sm text-slate-600 ring-1 ring-slate-900/10 transition hover:ring-slate-900/20 dark:bg-neutral-900/75 dark:text-neutral-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-neutral-700/40 lg:flex">
         ${SEARCH_ICON.replace('width="20"', 'width="16"').replace('height="20"', 'height="16"')}
-        <span class="flex-auto text-left">${i18n.quickPlaceholder[locale]}</span>
+        <span class="flex-auto text-left">${translations.search.quickPlaceholder[locale]}</span>
         <span class="text-xs text-slate-600 dark:text-neutral-200">${SHORTCUT}</span>
       </button>
     `;
@@ -121,11 +84,11 @@ export class CommandPalette extends HTMLElement {
           <div class="search-header">
             <div class="search-input-wrapper">
               <span class="search-icon">${SEARCH_ICON}</span>
-              <label for="search-input" class="sr-only">${i18n.mainPlaceholder[locale]}</label>
+              <label for="search-input" class="sr-only">${translations.search.mainPlaceholder[locale]}</label>
               <input type="search"
                      id="search-input"
                      class="search-input"
-                     placeholder="${i18n.mainPlaceholder[locale]}"
+                     placeholder="${translations.search.mainPlaceholder[locale]}"
                      autocomplete="off"
                      autofocus>
               <kbd class="search-shortcut">esc</kbd>
@@ -133,14 +96,14 @@ export class CommandPalette extends HTMLElement {
           </div>
           <div class="search-results">
             <div class="search-empty">
-              <p>${i18n.type[locale]}</p>
+              <p>${translations.search.type[locale]}</p>
             </div>
           </div>
           <div class="search-footer">
             <div class="search-hints">
-              <span class="search-hint"><kbd>↑</kbd><kbd>↓</kbd> ${i18n.navigate[locale]}</span>
-              <span class="search-hint"><kbd>↵</kbd> ${i18n.select[locale]}</span>
-              <span class="search-hint"><kbd>esc</kbd> ${i18n.close[locale]}</span>
+              <span class="search-hint"><kbd>↑</kbd><kbd>↓</kbd> ${translations.search.navigate[locale]}</span>
+              <span class="search-hint"><kbd>↵</kbd> ${translations.search.select[locale]}</span>
+              <span class="search-hint"><kbd>esc</kbd> ${translations.search.close[locale]}</span>
             </div>
           </div>
         </div>
@@ -348,7 +311,7 @@ export class CommandPalette extends HTMLElement {
   renderEmpty() {
     this.results.innerHTML = `
       <div class="search-empty">
-        <p>${i18n.type[locale]}</p>
+        <p>${translations.search.type[locale]}</p>
       </div>
     `;
   }
