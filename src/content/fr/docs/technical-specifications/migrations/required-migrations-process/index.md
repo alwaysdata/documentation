@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/deroulement-migrations-obligatoires/
 title: "Cloud Privé : Déroulement des migrations obligatoires"
+eleventyNavigation:
+  key: Déroulement des migrations obligatoires
+  parent: Migrations
 ---
 
 Ces migrations sont effectuées à quatre mains avec le [support](https://admin.alwaysdata.com/support/).

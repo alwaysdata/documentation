@@ -1,5 +1,8 @@
 ---
 title: "Private Cloud: Required Migrations Procedure"
+eleventyNavigation:
+  key: Required Migrations Procedure
+  parent: Migrations
 ---
 
 These migrations are done in four hands with the [support](https://admin.alwaysdata.com/support/).

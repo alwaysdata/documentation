@@ -1,5 +1,8 @@
 ---
 title: How to Migrate on Private Cloud
+eleventyNavigation:
+  key: Migrate on Private Cloud
+  parent: Migrations
 ---
 
 Most migrations imply a complete change on the server. For example, migration to a new version of our software infrastructure will call for the complete reinstallation of the server.

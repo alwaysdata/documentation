@@ -16,10 +16,10 @@ layout: layouts/base.njk
     activeAnchorClass: "active",
     activeKey: eleventyNavigation.key
 } -%}
-{%- set eleventyNavigationMenu = collections.all | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
+{%- set eleventyNavigationMenu = collections.docs | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
 
 {#- Generate Breadcrumb -#}
-{%- set breadcrumb = collections.all | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
+{%- set breadcrumb = collections.docs | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
 
 <div class="mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
     <div class="lg:flex lg:justify-between lg:gap-12">

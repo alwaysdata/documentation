@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/postgresql-17/
 title: Migration PostgreSQL 17
+eleventyNavigation:
+  key: Migration PostgreSQL 17
+  parent: Migrations
 ---
 
 Cette migration met à jour vos bases de données vers la version 17 de PostgreSQL.

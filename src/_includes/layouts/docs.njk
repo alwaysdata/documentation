@@ -16,10 +16,10 @@ layout: layouts/base.njk
     activeAnchorClass: "active",
     activeKey: eleventyNavigation.key
 } -%}
-{%- set eleventyNavigationMenu = collections.all | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
+{%- set eleventyNavigationMenu = collections.docs | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
 
 {#- Generate Breadcrumb -#}
-{%- set breadcrumb = collections.all | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
+{%- set breadcrumb = collections.docs | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
 
 {#- Generate TOC -#}
 {%- set tocMarkup = content | toc -%}

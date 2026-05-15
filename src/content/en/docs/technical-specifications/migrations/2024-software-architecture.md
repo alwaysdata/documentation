@@ -1,5 +1,8 @@
 ---
 title: 2024 Software Architecture
+eleventyNavigation:
+  key: 2024 Software Architecture
+  parent: Migrations
 ---
 
 ## Major Changes

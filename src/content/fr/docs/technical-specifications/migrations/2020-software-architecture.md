@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2020/
 title: Architecture Logicielle 2020
+eleventyNavigation:
+  key: Architecture Logicielle 2020
+  parent: Migrations
 ---
 
 Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.

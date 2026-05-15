@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/mariadb-11_8/
 title: Migration MariaDB 11.8
+eleventyNavigation:
+  key: Migration MariaDB 11.8
+  parent: Migrations
 ---
 
 Cette migration met à jour vos bases de données vers la version 11.4 de MariaDB.

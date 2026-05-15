@@ -1,5 +1,8 @@
 ---
 title: MariaDB 11.4 Migration
+eleventyNavigation:
+  key: MariaDB 11.4 Migration
+  parent: Migrations
 ---
 
 This migration upgrades your databases to MariaDB version 11.4.

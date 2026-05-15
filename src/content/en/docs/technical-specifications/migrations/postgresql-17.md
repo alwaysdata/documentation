@@ -1,5 +1,8 @@
 ---
 title: PostgreSQL 17 Migration
+eleventyNavigation:
+  key: PostgreSQL 17 Migration
+  parent: Migrations
 ---
 
 This migration upgrades your databases to PostgreSQL version 17.

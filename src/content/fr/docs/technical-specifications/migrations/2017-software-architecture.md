@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2017/
 title: Architecture Logicielle 2017
+eleventyNavigation:
+  key: Architecture Logicielle 2017
+  parent: Migrations
 ---
 
 Cette migration regroupe de nombreuses modifications ayant pour objectifs principaux :

@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/migration-cloud-prive/
 title: Processus des migrations en Cloud Privé
+eleventyNavigation:
+  key: Processus des migrations en Cloud Privé
+  parent: Migrations
 ---
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.

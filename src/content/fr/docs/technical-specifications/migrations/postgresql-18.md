@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/postgresql-18/
 title: Migration PostgreSQL 18
+eleventyNavigation:
+  key: Migration PostgreSQL 18
+  parent: Migrations
 ---
 
 Cette migration met à jour vos bases de données vers la version 18 de PostgreSQL.

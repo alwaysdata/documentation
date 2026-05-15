@@ -1,6 +1,9 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2024/
 title: Architecture Logicielle 2024
+eleventyNavigation:
+  key: Architecture Logicielle 2024
+  parent: Migrations
 ---
 
 ## Les changements majeurs
