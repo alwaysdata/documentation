@@ -15,15 +15,15 @@ it was created.
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | **Admin**                |                                                                                                    |
 | URL                      | https://admin.alwaysdata.com                                                                       |
-|                          | E-mail/password, [2-factors auth ready](/admin-billing/profile/two-factor-authentication)          |
-| API                      | [api.alwaysdata.com/v1](/development/api) (with a *[rate limit](/development/api/usage#rate-limit)*) |
-|                          | [Tokens](/admin-billing/profile/tokens) available in *Profile*                                     |
+|                          | E-mail/password, [2-factors auth ready](/en/docs/admin-billing/profile/two-factor-authentication)          |
+| API                      | [api.alwaysdata.com/v1](/en/docs/development/api) (with a *[rate limit](/en/docs/development/api/usage#rate-limit)*) |
+|                          | [Tokens](/en/docs/admin-billing/profile/tokens) available in *Profile*                                     |
 | **Generic**              |                                                                                                    |
 | DNS                      | Primary: dns1.alwaysdata.com                                                                       |
 |                          | Secondary: dns2.alwaysdata.com                                                                     |
 | MX                       | Primary: mx1.alwaysdata.com (TTL: 10)                                                              |
 |                          | Secondary: mx2.alwaysdata.com (TTL: 20)                                                            |
-|                          | if [Private Cloud](/admin-billing/billing/private-cloud-prices): [server].alwaysdata.net (TTL: 5) |
+|                          | if [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices): [server].alwaysdata.net (TTL: 5) |
 | **Databases**            |                                                                                                    |
 | MySQL                    | Host: mysql-[account].alwaysdata.net                                                               |
 |                          | Port: 3306                                                                                         |

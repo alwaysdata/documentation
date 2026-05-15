@@ -15,7 +15,7 @@ Before describing the incident, we need to introduce the type of architecture af
 
 alwaysdata is a web hosting provider and, as such, serves over 80,000 websites. These sites can be static or dynamic (PHP, Python, JavaScript...), in which case they are executed by a dedicated server. These servers are standard third-party software such as Apache HTTP, uWSGI, Node.js...
 
-A reverse proxy sits in front of these execution servers. It receives requests, handles all the TLS/HTTP protocol layer (including HTTP/2), and then forwards traffic to the appropriate execution server. This reverse proxy is an in-house piece of software called `alproxy`, combining custom code with third-party libraries. This architecture is described in our [documentation](/web-hosting/sites/http-stack/).
+A reverse proxy sits in front of these execution servers. It receives requests, handles all the TLS/HTTP protocol layer (including HTTP/2), and then forwards traffic to the appropriate execution server. This reverse proxy is an in-house piece of software called `alproxy`, combining custom code with third-party libraries. This architecture is described in our [documentation](/en/docs/web-hosting/sites/http-stack/).
 
 Like any hosting provider, we regularly experience (and handle) DDoS attacks, offer caching, and provide a WAF. Nevertheless, some customers still choose to host their site behind a Cloudflare relay. In that case, the web browser accessing the site connects to Cloudflare, which connects to our `alproxy`, which in turn connects to our execution server. The connection between Cloudflare and `alproxy` is configured by the customer and can use HTTP/1 or HTTP/2, with different levels of certificate verification on our end and different TLS protocol requirements.
 

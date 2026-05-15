@@ -26,13 +26,13 @@ To go further :
 
 ## Software architecture
 
-We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API](/development/api) is available for configuration operations on our administration interface.
+We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API](/en/docs/development/api) is available for configuration operations on our administration interface.
 
 Each account is isolated from each other via a containeristation based on [Cgroups](https://en.wikipedia.org/wiki/Cgroups). It runs its own programs, its own HTTP servers to provide high level security and customization.
 
 Our system distributes the available resources equally between all accounts on a server. When an account encounters consumption peaks, the platform redistributes its resources, from accounts who don’t need them, to temporarily reallocate them.
 
-- [HTTP stack](/web-hosting/sites/http-stack)
+- [HTTP stack](/en/docs/web-hosting/sites/http-stack)
 - [Security Upgrades](/en/docs/technical-specifications/security-upgrades)
 
 ---

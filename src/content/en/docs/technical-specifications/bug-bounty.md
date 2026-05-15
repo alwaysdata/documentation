@@ -173,10 +173,10 @@ The following list includes vulnerability reports not accepted by our services:
 - Reports about vulnerabilities from third-party applications that we use that are either unknown, unfixed or fixed in unreleased versions.
 
 Note that:
-* the name of the accounts is accessible [in many different ways](/web-hosting/remote-access/misc#list-accounts);
+* the name of the accounts is accessible [in many different ways](/en/docs/web-hosting/remote-access/misc#list-accounts);
 * addresses in `.alwaysdata.net` are linked to our customers' accounts. Their flaws are beyond our control;
 	* in particular if they disclose their connection details;
-* The `/tmp` directory is a [shared directory](/web-hosting/remote-access/misc#tmp-directory);
+* The `/tmp` directory is a [shared directory](/en/docs/web-hosting/remote-access/misc#tmp-directory);
 * “https://files.alwaysdata.com” and “https://share.alwaysdata.com” features public files;
 * the password reset link expires after 3 days or upon the next login to the administration interface; 
 * a user may reuse an old password. This is not a [NIST-listed best practice](https://pages.nist.gov/800-63-3/sp800-63-3.html);

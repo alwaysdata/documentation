@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ## Firewall
 
-Users who own [Private Clouds](/admin-billing/billing/private-cloud-prices) can [configure their firewall](/en/docs/technical-specifications/configure-firewall) directly from their administration interface, via the server's **Firewall** menu.
+Users who own [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices) can [configure their firewall](/en/docs/technical-specifications/configure-firewall) directly from their administration interface, via the server's **Firewall** menu.
 
 ### Incoming firewall
 
@@ -21,7 +21,7 @@ All of the ports are open without any filtering; you can therefore define your o
 
 alwaysdata uses [Fail2ban](http://www.fail2ban.org/) as the intrusion system on all of its servers. This system analyzes the connection logs for the various services and will block the IP addresses for a 10-minute period after about fifty failed connection attempts within 10 minutes.
 
-You can also implement an [application firewall](/web-hosting/sites/waf) directly in your account to protect your websites from malicious attacks.
+You can also implement an [application firewall](/en/docs/web-hosting/sites/waf) directly in your account to protect your websites from malicious attacks.
 
 ## DDoS
 

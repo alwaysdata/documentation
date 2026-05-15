@@ -13,7 +13,7 @@ These guarantees *are not* optional: they are embedded by default in the platfor
 
 ### Is there a backup of my data?
 
-Your account data is automatically backup every day, without any action on your part. [Depending on the offer chosen](/web-hosting/backups), they are retained for up to 30 rolling days.
+Your account data is automatically backup every day, without any action on your part. [Depending on the offer chosen](/en/docs/web-hosting/backups), they are retained for up to 30 rolling days.
 
 ### What data is concerned?
 
@@ -31,17 +31,17 @@ This datacenter is operated by [Interxion](https://www.digitalrealty.com/data-ce
 
 ### How can you guarantee access to backups from the user account file system?
 
-Backups are accessible from your user account file system (via [SSH](/web-hosting/remote-access/ssh), [SFTP](/web-hosting/remote-access/sftp)...) thanks to the NFS protocol, which allows us to mount read-only access to your backups over the network.
+Backups are accessible from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) thanks to the NFS protocol, which allows us to mount read-only access to your backups over the network.
 
 ### How can I recover these backups?
 
-You can make a copy of your backups from your user account file system (via [SSH](/web-hosting/remote-access/ssh), [SFTP](/web-hosting/remote-access/sftp)...) by copying the directories located in `$HOME/admin/backup/`.
+You can make a copy of your backups from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) by copying the directories located in `$HOME/admin/backup/`.
 
 The `latest` directory is a shortcut to the last available backup.
 
 ### How do I restore these backups?
 
-To restore your backups, please have a look at the [available documentation](/web-hosting/backups).
+To restore your backups, please have a look at the [available documentation](/en/docs/web-hosting/backups).
 
 ## Network
 
@@ -77,7 +77,7 @@ Additional servers are available for backup, allowing us to quickly switch your 
 
 The data on each server is duplicated on two disks in RAID1 mode, to mitigate a hardware storage failure.
 
-We also have a [Gold offer](/admin-billing/billing/private-cloud-prices#managed-gold-servers) providing synchronized redundancy of the servers in separate datacenters to guarantee continuity of service.
+We also have a [Gold offer](/en/docs/admin-billing/billing/private-cloud-prices#managed-gold-servers) providing synchronized redundancy of the servers in separate datacenters to guarantee continuity of service.
 
 ### Is access to the servers secure?
 

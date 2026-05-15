@@ -19,14 +19,14 @@ SSL encryption is now mandatory for connecting to the following protocols:
 * Mail: IMAP, SMTP, POP3
 * Remote access: FTP and WebDAV
 
-This does not apply to your websites, which are still accessible without encryption (although you can choose to [force encryption](/web-hosting/sites/ssl-tls/redirect-http-to-https/)).
+This does not apply to your websites, which are still accessible without encryption (although you can choose to [force encryption](/en/docs/web-hosting/sites/ssl-tls/redirect-http-to-https/)).
 
 ### Supported TLS Versions
 
 * TLS 1.2 and 1.3 are supported.
 * TLS 1.0 and 1.1 are no longer supported.
 
-This does not affect your websites, where you can still [configure TLS yourself](/web-hosting/sites/ssl-tls/configure-tls/).
+This does not affect your websites, where you can still [configure TLS yourself](/en/docs/web-hosting/sites/ssl-tls/configure-tls/).
 
 ## End of MongoDB Support
 
@@ -34,7 +34,7 @@ This does not affect your websites, where you can still [configure TLS yourself]
 
 You can:
 
-* run MongoDB yourself [in a service](/development/guides/mongodb). *MongoDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* run MongoDB yourself [in a service](/en/docs/development/guides/mongodb). *MongoDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
 * migrate your databases to [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## End of CouchDB Support
@@ -43,7 +43,7 @@ We introduced support for **CouchDB** [in 2011](https://blog.alwaysdata.com/2011
 
 You can:
 
-* run CouchDB yourself [in a service](/development/guides/couchdb). *CouchDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
+* run CouchDB yourself [in a service](/en/docs/development/guides/couchdb). *CouchDB will no longer be managed by alwaysdata.* If you're a private cloud customer, we can help you do this.
 * migrate your databases to third-party hosting service such as [Cloudant](https://www.ibm.com/products/cloudant).
 
 
@@ -118,7 +118,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 ## Miscellaneous
 
 * The `composer` command now runs **Composer** 2. You can start Composer 1 with the `composer1` command.
-* The [default HTTP log format](/web-hosting/sites/formatting-http-logs) is now the **Advanced** format.
+* The [default HTTP log format](/en/docs/web-hosting/sites/formatting-http-logs) is now the **Advanced** format.
 * Sites of type **Transparent Redirect** are converted to **Reverse Proxy**.
 * The IP 185.31.40.10 is an old, deprecated IP and will be removed.
 
@@ -126,7 +126,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 
 * You can make some changes yourself *before the migration*, such as selecting major language versions, using the *Advanced* log format, or modifying your sites from *Transparent Redirect* to *Reverse Proxy*.
 
-* In [Public cloud](/admin-billing/billing/public-cloud-prices), your account will be moved to new servers during the migration, all services will change their IP. The IPs used by each server are listed in the **Advanced > Server Status** menu.
+* In [Public cloud](/en/docs/admin-billing/billing/public-cloud-prices), your account will be moved to new servers during the migration, all services will change their IP. The IPs used by each server are listed in the **Advanced > Server Status** menu.
     - Addresses of type `[service]-[account].alwaysdata.net` may not be immediately accessible from outside due to DNS propagation,
     - For domains not using our DNS servers, the previous HTTP server will redirect requests to the new HTTP server. However, the redirection may stop working, and it is advisable to update the IP to point to the correct server.
 

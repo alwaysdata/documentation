@@ -47,7 +47,7 @@ CouchDB will be updated to [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Languages
 
-To determine your current account version: log in through [SSH](/web-hosting/remote-access/ssh) and run the command `cat /etc/debian_version`.
+To determine your current account version: log in through [SSH](/en/docs/web-hosting/remote-access/ssh) and run the command `cat /etc/debian_version`.
 
 ### PHP
 
@@ -196,7 +196,7 @@ A number of actions can be performed on the 2017 architecture - Debian Jessie (8
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
 
-- change the [TLS configuration](/web-hosting/sites/sl-tls/configure-tls) to *Intermediate* in the **Web > Configuration > SSL** menu,
+- change the [TLS configuration](/en/docs/web-hosting/sites/sl-tls/configure-tls) to *Intermediate* in the **Web > Configuration > SSL** menu,
 
 - replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP`,
 
@@ -231,6 +231,6 @@ $ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 - Drupal
-    - [CSS and JS files precompression](/development/marketplace/drupal#cssjs-files-precompression) in versions prior to **8.9**.
+    - [CSS and JS files precompression](/en/docs/development/marketplace/drupal#cssjs-files-precompression) in versions prior to **8.9**.
 
 - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

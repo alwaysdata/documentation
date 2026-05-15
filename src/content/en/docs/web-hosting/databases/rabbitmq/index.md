@@ -1,0 +1,20 @@
+---
+title: RabbitMQ
+eleventyNavigation:
+  key: RabbitMQ
+  parent: Databases
+---
+
+## Connection
+
+|||
+|--- |--- |
+|Server|rabbitmq-[account].alwaysdata.net|
+|Port|5672 (RabbitMQ port by default)|
+
+The connection data depends on the relevant account. You can find the precise values in the administration interface section under **Databases > RabbitMQ**.
+
+---
+
+- [RabbitMQ documentation](https://www.rabbitmq.com/documentation.html)
+- [Management plugin](/en/docs/web-hosting/databases/rabbitmq/management-plugin) ([Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices)'s option)

@@ -2,6 +2,7 @@
 title: Technical Specifications
 eleventyNavigation:
   key: Technical Specifications
+  order: 4
 ---
 
 ## Index

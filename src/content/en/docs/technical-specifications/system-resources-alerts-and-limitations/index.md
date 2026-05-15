@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 
 > [!NOTE]
-> Feature only available on [Private Cloud](/admin-billing/billing/private-cloud-prices) environments.
+> Feature only available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) environments.
 
 The **Resources** menu allows to configure sysadmin resources, as the disk space, CPU or memory:
 

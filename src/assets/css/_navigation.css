@@ -33,7 +33,7 @@
 
   /* 2nd level and more items*/
   :is(#sidebar, #mobile-sidebar) nav > ul > li > ul ul,
-  :is(#sidebar, #mobile-sidebar) nav > ul ul:not(:has(.active)) {
+  :is(#sidebar, #mobile-sidebar) nav > ul > li:not(:has(.active)) ul {
     @apply hidden;
   }
 

@@ -1,0 +1,29 @@
+---
+title: Using Static Files Type
+eleventyNavigation:
+  key: Static Files
+  parent: Websites
+---
+
+Whether to manage a static site, like an HTML site or to serve site
+media using uWSGI, you can use the static file type.
+
+Go to the **Web > Sites > Add a site** menu.
+
+![Administration interface: list of sites](images/admin-panel_sites-list.png)
+
+- Name: used for display purposes in the alwaysdata administration interface, it is purely for information purposes,
+- Addresses: the addresses used to reach your site (`*.example.org` for _catch-all_),
+
+![Add a site: general](images/admin-panel_add-site-general.png)
+
+- Type: Static files,
+- Root directory: the directory where your application is located.
+
+![Add a site: Static files](images/admin-panel_static-files.png)
+
+## Error messages
+
+### 403 Forbidden
+
+Per default Apache will search for a file named `index.html` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.

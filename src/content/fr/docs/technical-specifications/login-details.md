@@ -16,15 +16,15 @@ Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez
 |:---------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Administration**         |                                                                                                           |
 | URL                        | https://admin.alwaysdata.com                                                                              |
-|                            | Email/mot de passe, [Double authentification possible](/admin-billing/profile/two-factor-authentication)  |
-| API                        | [api.alwaysdata.com/v1](/development/api) (soumis à un *[rate limit](/development/api/usage#rate-limit)*) |
-|                            | [Tokens](/admin-billing/profile/tokens) disponibles via *Profil*                                          |
+|                            | Email/mot de passe, [Double authentification possible](/en/docs/admin-billing/profile/two-factor-authentication)  |
+| API                        | [api.alwaysdata.com/v1](/en/docs/development/api) (soumis à un *[rate limit](/en/docs/development/api/usage#rate-limit)*) |
+|                            | [Tokens](/en/docs/admin-billing/profile/tokens) disponibles via *Profil*                                          |
 | **Générique**              |                                                                                                           |
 | DNS                        | Primaire : dns1.alwaysdata.com                                                                            |
 |                            | Secondaire : dns2.alwaysdata.com                                                                          |
 | MX                         | Primaire : mx1.alwaysdata.com (TTL : 10)                                                                  |
 |                            | Secondaire : mx2.alwaysdata.com (TTL : 20)                                                                |
-|                            | si [Cloud Privé](/admin-billing/billing/private-cloud-prices) : [serveur].alwaysdata.net (TTL : 5) |
+|                            | si [Cloud Privé](/en/docs/admin-billing/billing/private-cloud-prices) : [serveur].alwaysdata.net (TTL : 5) |
 | **Bases de données**       |                                                                                                           |
 | MySQL                      | Hôte : mysql-[compte].alwaysdata.net                                                                      |
 |                            | Port : 3306                                                                                               |
