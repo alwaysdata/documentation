@@ -10,7 +10,7 @@ eleventyNavigation:
 
 Voici un guide d'installation sur le Cloud Public.
 
-> [!TIP]
+> [!TIP] Astuce
 > *Memcached* peut être [installé au niveau serveur](/web-hosting/databases/memcached) pour les utilisateurs du Cloud Privé.
 
 
@@ -40,7 +40,7 @@ Créez le [service](/web-hosting/services) suivant :
 
 Plus d'options via `$HOME/memcached/memcached -h`.
 
-> [!WARNING]
+> [!WARNING] Attention
 > Par défaut n'importe qui peut se connecter au Memcached ; il n'y a aucune sécurité. Une [authentification](https://github.com/memcached/memcached/wiki/SASLHowto) peut être mise en place.
 
 

@@ -24,7 +24,7 @@ Nous proposons ces différentes méthodes :
 
 Les paiements par *mandat administratif* sont possibles et reçus comme des virements.
 
-> [!WARNING]
+> [!WARNING] Attention
 > Nous n'acceptons pas les paiements par *chèque*. Tout chèque reçu sera systématiquement détruit.
 
 

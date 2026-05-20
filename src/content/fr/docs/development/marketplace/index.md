@@ -16,7 +16,7 @@ Le système créé leurs répertoires durant l'installation.
 
 - [Changer l'adresse d'un site web](/web-hosting/sites/change-a-website-address)
 
-> [!TIP]
+> [!TIP] Astuce
 > Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main et automatisez son déploiement en créant un [script d'installation applicatif](/fr/docs/developpement/marketplace/creer-script-dapplication/).
 
 

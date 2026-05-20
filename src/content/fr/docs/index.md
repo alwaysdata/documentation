@@ -21,7 +21,7 @@ Vous n'êtes pas encore client ? Inscrivez-vous sur notre [plateforme](https://w
 
 Vous nous aimez ? [Montrez-nous votre ❤](love) !
 
-> [!TIP]
+> [!TIP] Astuce
 > Toute publication sur Internet comporte des [obligations légales](/en/docs/web-hosting/sites/legal-requirements-on-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
 
 

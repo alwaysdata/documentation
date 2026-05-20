@@ -44,7 +44,7 @@ La migration des comptes entraîne une coupure par compte de quelques secondes �
 
 ![](images/migration-4.png)
 
-> [!TIP]
+> [!TIP] Astuce
 > Pour les domaines n'utilisant pas les DNS d'alwaysdata, pas besoin de faire le changement d'IP - *enregistrements A et AAAA*. Le serveur client fera la redirection de manière transparente.
 
 

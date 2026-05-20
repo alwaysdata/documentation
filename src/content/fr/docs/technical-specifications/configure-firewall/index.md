@@ -43,7 +43,7 @@ Vous y retrouverez les IP actuellement bannies et les services sur lesquels elle
 
 Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire.
 
-> [!TIP]
+> [!TIP] Astuce
 > Le banissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
 
 

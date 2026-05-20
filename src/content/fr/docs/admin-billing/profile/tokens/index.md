@@ -14,7 +14,7 @@ Pour en générer rendez-vous dans le menu **Profil**.
 
 Il est nécessaire d'avoir activé l'[authentification 2 facteurs](/fr/docs/admin-facturation/profil/two-factor-authentication) pour générer/modifier ses tokens.
 
-> [!TIP]
+> [!TIP] Astuce
 > Pour encore plus de sécurité, générez en un par application.
 
 

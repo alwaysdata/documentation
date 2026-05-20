@@ -13,11 +13,11 @@ $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 ```
 Vos tokens sont disponibles dans le menu **[Profil](/fr/docs/admin-facturation/profil/tokens)**.
 
-> [!WARNING]
+> [!WARNING] Attention
 > Pour l'utilisation de vos tokens, n'oubliez pas les deux points (:) après la clé, ce qui permet de préciser que le mot de passe n'est pas nécessaire.
 
 
-> [!TIP]
+> [!TIP] Astuce
 > Une limite du nombre de requêtes à l'API s'applique. Plus d'informations [ici](#rate-limit).
 
 

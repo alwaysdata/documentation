@@ -60,7 +60,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 > **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
 
 
-> [!TIP]
+> [!TIP] Astuce
 > Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
 
 
