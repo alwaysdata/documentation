@@ -9,7 +9,7 @@ eleventyNavigation:
 
 An [IP blockage](/en/docs/technical-specifications/network) occurs after some ten failed attempts to connect to the server.
 
-> [!INFO]
+> [!NOTE]
 > alwaysdata has connection logs that you may exceptionally request a copy of.
 
 
@@ -35,7 +35,7 @@ The connection locks up before reaching alwaysdata servers, check:
 
 If none of these solutions works, try the [SFTP](/en/docs/web-hosting/remote-access/sftp) connection.
 
-> [!INFO]
+> [!NOTE]
 > The Wi-Fi connections at educational facilities and hotels often block such services.
 
 

@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Memcached only runs in local mode with isolated permissions (separate user).
 
-> [!INFO]
+> [!NOTE]
 > Memcached is only available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) environments. On the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) you can run it by following this [guide](/en/docs/development/guides/memcached).
 
 

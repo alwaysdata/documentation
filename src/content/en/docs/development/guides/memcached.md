@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Here is a guide to installing it on the Public Cloud.
 
-> [!INFO]
+> [!NOTE]
 > For Private Cloud users *Memcached* can be [installed at server level](/en/docs/web-hosting/databases/memcached).
 
 

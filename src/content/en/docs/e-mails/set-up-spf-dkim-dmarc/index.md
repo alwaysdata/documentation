@@ -94,7 +94,7 @@ If the domain doesn’t use alwaysdata’s DNS servers, this record must be reco
 
 ![](images/globalcyberalliance-dmarc.png)
 
-> [!INFO]
+> [!NOTE]
 > To use DMARC, DKIM and SPF must already be implemented.
 
 

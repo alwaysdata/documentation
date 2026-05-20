@@ -13,7 +13,7 @@ To do this, go to **Domains > Details of [example.org] - 🔎 > Delegations > Ad
 
 ![Add a delegation: form](images/admin-panel_subdomain-add-delegation.png)
 
-> [!INFO]
+> [!NOTE]
 > Do not place the root in **Subdomain**.
 > For example, by putting `www.example.org` in this box, you will create a delegation for `www.example.org.example.org`.
 

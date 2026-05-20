@@ -17,7 +17,7 @@ On Private Cloud plans:
 - [Memcached](/en/docs/web-hosting/databases/memcached)
 - [Redis](/en/docs/web-hosting/databases/redis)
 
-> [!INFO]
+> [!NOTE]
 > For security reasons, it is only possible to create databases and database users from the administration interface or from our [API](/en/docs/development/api). Therefore this is not possible using a third party application (e.g. phpMyAdmin).
 
 

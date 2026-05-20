@@ -48,13 +48,13 @@ Otherwise, you can do it manually by creating the database on the _destination_ 
     bar@ssh:~$ rm foo_base.sql
     ```
 
-> [!INFO]
+> [!NOTE]
 > In both cases, you will need to modify the configuration file of the previously copied site to point to the newly imported database.
 
 
 ## 3. Moving addresses
 
-> [!INFO]
+> [!NOTE]
 > Only the *account owner* can initiate a transfer.
 
 
@@ -70,7 +70,7 @@ Now what remains is to move the addresses that link the site and the automatical
     
 WARNING: For websites using a command[^1], the transferred website MAY have its port changed.
 
-> [!INFO]
+> [!NOTE]
 > A `.alwaysdata.net` address can not be transferred as it is linked to the account name.
 
 

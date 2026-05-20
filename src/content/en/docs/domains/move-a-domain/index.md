@@ -15,7 +15,7 @@ This article explains how to transfer a domain *and* its e-mail addresses to **a
 3.  And follow the steps.
     ![Administration interface: move domain - step 2](images/admin-panel_domain-move-2.png)
 
-> [!INFO]
+> [!NOTE]
 > Only the *account owner* can initiate a transfer.
 
 

@@ -13,7 +13,7 @@ This program gives formers the opportunity to invite - via the **Profile > Acade
 
 To benefit from this fill in your profile with your school's information and [open a ticket](https://admin.alwaysdata.com/support/add/). The program is free of charge for public establishments and available via partnerships for private entities.
 
-> [!INFO]
+> [!NOTE]
 > During the registration process, students can choose between several plans. To have the free Academic Cloud, they need to choose the *Free* plan.
 
 

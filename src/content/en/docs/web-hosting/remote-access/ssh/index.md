@@ -17,7 +17,7 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 	- [SSH 2-factor authentification](/en/docs/web-hosting/remote-access/ssh/ssh-two-factor-authentication)
 	- [Global SSH keys](/en/docs/web-hosting/remote-access/ssh/install-globally-ssh-keys)
 
-> [!INFO]
+> [!NOTE]
 > All of our offers are managed ones, it is not possible to gain `root` access.
 
 
@@ -51,7 +51,7 @@ Useful when located after a firewall, our [web interface](https://tsl0922.github
 
 Be aware however that this solution is hardly reliable and slow and does not replace a SSH client.
 
-> [!INFO]
+> [!NOTE]
 > This interface is not compatible with the [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices).
 
 

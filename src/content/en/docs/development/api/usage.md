@@ -17,7 +17,7 @@ Your tokens are available in the **[Profile](/en/docs/admin-billing/profile/toke
 > To use your tokens, don't forget the colon (`:`) after the key, meaning that the password is not needed.
 
 
-> [!INFO]
+> [!NOTE]
 > A rate limit is applied on API requests. See [here](#rate-limit) for more details.
 
 

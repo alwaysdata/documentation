@@ -1,4 +1,5 @@
 ---
+layout: layouts/indexed.njk
 title: Mailing Lists
 eleventyNavigation:
   key: Mailing Lists
@@ -17,10 +18,3 @@ Mailing lists allow you to define a *pool* of email addresses to which to send a
 The creation/modification/deletion of mailing lists is done from the administration panel: https://admin.alwaysdata.com/mailinglist/.
 
 The internal management of the mailing lists (members, permissions, etc) is done from the Postorius administration interface: https://mailman.alwaysdata.com/.
-
-***
-
-- [Create a mailing list](/en/docs/e-mails/mailing-lists/create-a-mailing-list)
-- [Add members manually to a list](/en/docs/e-mails/mailing-lists/add-members-to-a-mailing-list)
-- [Modify mailing permissions](/en/docs/e-mails/mailing-lists/modify-mailing-list-permissions)
-- [Add footer with unsubscribe link](/en/docs/e-mails/mailing-lists/add-a-mailing-list-footer)

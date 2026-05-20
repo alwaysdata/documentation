@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Backups of your e-mails are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
 
-> [!INFO]
+> [!NOTE]
 > The e-mails present on the backup date will be restored. No e-mail sent or received since will be deleted.
 
 

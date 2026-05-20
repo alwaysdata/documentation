@@ -9,7 +9,7 @@ eleventyNavigation:
 
 As this library requires major processing resources it is not available by default on the Public Cloud.
 
-> [!INFO]
+> [!NOTE]
 > If you own a [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), contact our [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
 
 

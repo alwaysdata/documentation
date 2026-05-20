@@ -37,7 +37,7 @@ It also gathers different types of logs:
 
 The alwaysdata administration's interface presents an excerpt of these logs (**Logs** - 📄).
 
-> [!INFO]
+> [!NOTE]
 > A **retention period** of logs can be set up for each account via the **Advanced > Logs** menu. For Private Cloud it is possible to do it at the server level in its **HTTP** menu.
 > *All logs (http, sites, jobs...) will be deleted once the desired period has passed.*
 

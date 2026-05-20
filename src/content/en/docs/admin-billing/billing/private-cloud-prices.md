@@ -7,7 +7,7 @@ eleventyNavigation:
 
 The Max offer refers to physical servers **dedicated** to your use and **managed** by our team, which handles the installation, configuration, and deployment of your architecture. You do not have to manage system administration (updates, monitoring, etc.).
 
-> [!INFO]
+> [!NOTE]
 All orders are made *upon quotation*.
 
 > [Contact](https://www.alwaysdata.com/en/contact/) our team to discuss your project and receive a personalized quote.
@@ -27,7 +27,7 @@ Configuration |
  **Traffic/month**       | 3 To (1 Gbps)
  **Monthly price**      | 369€ HT (annual payment) or 409€ HT (monthly payment)
 
-> [!INFO]
+> [!NOTE]
 > In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
 
  
@@ -56,7 +56,7 @@ Here is a *non-exhaustive* list of hardware options:
     - Nvidia RTX PRO 6000 Blackwell
 - **Gold** option: *redundant* architecture (real-time replication) in a separate datacenter (99.95% availability rate)
 
-> [!INFO]
+> [!NOTE]
 > Adding/change of configuration operations prices are available in the [servers interventions page](/en/docs/admin-billing/billing/servers-interventions). Contact the [support](https://admin.alwaysdata.com/support/add/) for more information and plan the intervention.
 
 

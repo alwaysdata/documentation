@@ -16,7 +16,7 @@ Regardless the taken plan, backups are stored in a *dedicated datacenter* that i
 
 You can restore [a website](/en/docs/web-hosting/backups/restore-a-site) or [e-mails](/en/docs/web-hosting/backups/restore-e-mails) from the **Advanced > Restore backups** tab in your administration interface.
 
-> [!INFO]
+> [!NOTE]
 > Backups are not counted as part of an account’s disk space quota.
 
 

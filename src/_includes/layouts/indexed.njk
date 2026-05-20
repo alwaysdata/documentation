@@ -1,0 +1,23 @@
+---
+layout: layouts/docs.njk
+---
+
+{{ content | safe }}
+
+<h2>Index</h2>
+
+{% set navPages = collections.docs | pageLang | eleventyNavigation(eleventyNavigation.key) %}
+{% macro renderNavListItem(entry) -%}
+<li{% if entry.url == page.url %} class="active"{% endif %}>
+  <a href="{{ entry.url }}">{{ entry.title }}</a>
+{%- if entry.children.length -%}
+  <ul>
+    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+  </ul>
+{%- endif -%}
+</li>
+{%- endmacro %}
+
+<ul class="index">
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>

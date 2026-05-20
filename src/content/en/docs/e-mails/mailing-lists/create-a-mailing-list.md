@@ -9,7 +9,7 @@ To create a mailing list, login to the administration interface, menu **Emails >
 
 ## User management
 
-> [!INFO]
+> [!NOTE]
 > You must define at least one administrator user to manage your mailing list.
 
 

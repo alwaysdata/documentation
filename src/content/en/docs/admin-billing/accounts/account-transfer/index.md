@@ -25,7 +25,7 @@ Go to **Subscriptions > Transfer to another user**. You will have to indicate th
 
 ![](images/accounts.png)
 
-> [!INFO]
+> [!NOTE]
 > Only the *account owner* can initiate a transfer.
 
 

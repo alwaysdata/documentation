@@ -40,7 +40,7 @@ A transfer cannot take place within 60 days of its creation or a previous transf
   
     ![Administration interface: step 1](images/admin-panel_add-domain-1.png)
 
-> [!INFO]
+> [!NOTE]
 Enter the domain only, without the subdomain.
 > For example: `example.org` and not `www.example.org`.
 

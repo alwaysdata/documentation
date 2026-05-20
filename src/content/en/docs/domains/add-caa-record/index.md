@@ -25,7 +25,7 @@ Three tags are available:
 - `issuewild` which allows an authority for wildcard certificates,
 - `iodef` which gives a URL that certification authorities can contact in case of problems.
 
-> [!INFO]
+> [!NOTE]
 > [Let's Encrypt certificates](/en/docs/web-hosting/sites/ssl-tls/lets-encrypt) are generated for every HTTP address hosted on our servers. They must be authorized.
 
 

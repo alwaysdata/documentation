@@ -24,7 +24,7 @@ The [Public Cloud configuration change](/en/docs/admin-billing/billing/upgrade-y
 
 We offer [several programs](/en/docs/admin-billing/programs) to benefit from discounts.
 
-> [!INFO]
+> [!NOTE]
 > The disk quota includes files, mails and databases.
 
 

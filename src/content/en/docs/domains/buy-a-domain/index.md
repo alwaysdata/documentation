@@ -11,7 +11,7 @@ eleventyNavigation:
 2.  Fill-in the domain names that you wish to buy,
     ![Administration interface: step 1](images/admin-panel_add-domain-1.png)
 
-> [!INFO]
+> [!NOTE]
 Enter the domain only, without the subdomain.
 > For example: `example.org` and not `www.example.org`.
 

@@ -42,5 +42,5 @@ $ wget http://pear.php.net/go-pear.phar
 $ php go-pear.phar
 ```
 
-> [!INFO]
+> [!NOTE]
 > The PHP executable indicated at the PEAR binary level does not take into account the necessary preloaded extensions (e.g. XML). These paths need to be changed and specify `/usr/bin/php` in place of `/usr/alwaysdata/php/[VERSION]/bin/php`.

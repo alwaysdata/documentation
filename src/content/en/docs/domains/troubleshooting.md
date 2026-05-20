@@ -22,7 +22,7 @@ The protection needs to be eliminated with the current registrar.
 
 Check that no typos were made when rekeying the authorization code or generate a new authorization code.
 
-> [!INFO]
+> [!NOTE]
 > To generate a new one for an outgoing transfer, contact our [support](https://admin.alwaysdata.com/support/add).
 
 

@@ -54,5 +54,5 @@ Users of the [Private Cloud](/en/docs/admin-billing/billing/choose-its-paas) can
 
 3.  Connecting with SSH: on the next SSH connection, you will be prompted to enter your passphrase (or nothing at all if your passphrase is blank).
 
-> [!INFO]
+> [!NOTE]
 > DSA keys are [not accepted](https://www.openssh.com/legacy.html).

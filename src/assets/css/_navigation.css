@@ -239,4 +239,26 @@
     @apply ring-1 ring-slate-900/10;
     @apply dark:bg-neutral-800 dark:text-white dark:ring-1 dark:ring-white/50;
   }
+
+  /* Index list */
+  .index {
+    @apply p-0 list-none;
+    @apply divide-y divide-solid divide-brand-lighter;
+  }
+
+  .index > li {
+    @apply mbe-5 pbe-5;
+  }
+
+  .index > li > a {
+    @apply text-base font-semibold;
+  }
+
+  .index > li > ul {
+    @apply m-0 grid grid-cols-3 gap-4 items-stretch list-none py-3;
+  }
+  .index > li > ul a {
+    @apply block h-full p-4 border-2 border-brand-lighter rounded-lg no-underline bg-transparent transition-colors;
+    @apply hover:bg-brand-lighter hover:text-brand-dark;
+  }
 }

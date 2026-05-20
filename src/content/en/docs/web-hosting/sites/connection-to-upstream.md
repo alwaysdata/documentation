@@ -46,7 +46,7 @@ Spurious characters or directives that do not use the correct syntax have been a
 
 Correct them or delete them.
 
-> [!INFO]
+> [!NOTE]
 > There is only one Apache server per account so prefer managing [Apache directives](https://httpd.apache.org/docs/) at the virtual host or `.htaccess` level where possible.
 
 

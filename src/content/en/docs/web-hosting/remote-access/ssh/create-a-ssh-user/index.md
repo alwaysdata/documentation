@@ -20,5 +20,5 @@ To connect to your account using *SSH*, you need to have a user. By default, a u
 > Unlike FTP, SSH does not propose any isolation. Hence, users can move around freely in all of the account directories.
 
 
-> [!INFO]
+> [!NOTE]
 > Even if this is not recommended for reasons relating to rights on folders and files, you can create as many SSH users as you wish.
