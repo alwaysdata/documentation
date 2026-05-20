@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Gérer son profil
 ---
 
-Les tokens sont des identifiants utilisés pour authentifier un utilisateur ou un programme appelant notre [API](/development/api). 
+Les tokens sont des identifiants utilisés pour authentifier un utilisateur ou un programme appelant notre [API](/fr/docs/developpement/api). 
 
 Pour en générer rendez-vous dans le menu **Profil**.
 

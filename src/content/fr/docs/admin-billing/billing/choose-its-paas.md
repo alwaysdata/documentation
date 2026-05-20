@@ -32,7 +32,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Tickets urgents](/fr/docs/admin-facturation/ticket-urgent/) |❌|✔️|✔️|
 || Téléphone |❌|✔️|✔️|
 | Sites web | Serveur HTTP configurable |✔️|✔️|✔️|
-|| [Applithèque](/development/marketplace) |✔️|✔️|✔️|
+|| [Applithèque](/fr/docs/developpement/marketplace) |✔️|✔️|✔️|
 || [SSL Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) |✔️|✔️|✔️|
 || [Cache HTTP](/web-hosting/sites/http-cache) |✔️|✔️|✔️|
 || [WAF](/web-hosting/sites/waf) |✔️|✔️|✔️|
@@ -66,12 +66,12 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [SSH](/web-hosting/remote-access/ssh) |✔️|✔️|✔️|
 || [WebDAV](/web-hosting/remote-access/webdav) |✔️|✔️|✔️|
 | Sauvegardes[^4] ||✔️|✔️|✔️|
-| Autres | [API](/development/api) |✔️|✔️|✔️|
+| Autres | [API](/fr/docs/developpement/api) |✔️|✔️|✔️|
 || [Tâches planifiées](/web-hosting/tasks) |✔️|✔️|✔️|
 || Services[^5] |✔️|✔️|✔️|
 || [Gestion du firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall) |❌|✔️|✔️|
-|| [Docker](/development/docker) |❌|✔️|✔️|
-|| [VPN](/development/vpn) |❌|✔️|✔️|
+|| [Docker](/fr/docs/developpement/docker) |❌|✔️|✔️|
+|| [VPN](/fr/docs/developpement/vpn) |❌|✔️|✔️|
 || Réplication SGBD |❌|Sur demande|✔️|
 || Réplication des données en temps réel |❌|❌|✔️|
 
