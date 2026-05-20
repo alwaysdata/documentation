@@ -8,7 +8,7 @@ tags = ["développement"]
 
 Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](/admin-billing/billing/private-cloud-prices)**, voici les étapes à suivre.
 
-**Les SGBD [PostgreSQL](databases/postgresql) et [Redis](databases/redis) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
+**Les SGBD [PostgreSQL](/web-hosting/databases/postgresql) et [Redis](/web-hosting/databases/redis) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
 
 L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
 

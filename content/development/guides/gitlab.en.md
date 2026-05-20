@@ -7,7 +7,7 @@ tags = ["development"]
 
 It is possible to install it in **[Private Cloud - dedicated and Gold servers](accounts/billing/private-cloud-prices)**, here are the steps to follow.
 
-**[PostgreSQL](databases/postgresql) and [Redis](databases/redis) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
+**[PostgreSQL](/web-hosting/databases/postgresql) and [Redis](/web-hosting/databases/redis) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
 
 The installation must be done on an **empty account**. We consider the following information for our example:
 
