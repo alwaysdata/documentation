@@ -6,8 +6,6 @@ tags = ["accès distant", "ssh"]
 
 SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un protocole de connexion sécurisé par un échange de clés de chiffrement en début de connexion. alwaysdata le propose sur TOUS ses environnements.
 
-**L'accès distant par SSH est désactivé par défaut.** Pour l'activer, modifiez votre utilisateur et cochez la connexion par mot de passe. Il est ensuite possible de mettre en place une connexion par [clés SSH](/web-hosting/remote-access/ssh/use-keys) et désactiver la connexion par mot de passe.
-
 - [API - SSH](https://api.alwaysdata.com/v1/ssh/doc/)
 - [Créer un utilisateur SSH](/web-hosting/remote-access/ssh/create-a-ssh-user)
 - [Problèmes fréquents](/web-hosting/remote-access/ssh/troubleshooting)
