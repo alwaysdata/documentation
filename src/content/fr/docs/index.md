@@ -10,10 +10,10 @@ description: description
 
 Apprenez comment utiliser _alwaysdata_. Trouvez comment mettre en place un compte. Découvrez comment déployer un site web/service en une minute.
 
-- Retrouvez toutes les [informations de connexion](/en/docs/technical-specifications/login-details) liées à votre compte ;
+- Retrouvez toutes les [informations de connexion](/fr/docs/caracteristiques-techniques/informations-de-connexion) liées à votre compte ;
 - connectez-vous à votre [interface d'administration](https://admin.alwaysdata.com) ;
-- créez un [site web](/en/docs/web-hosting/sites/add-a-site), [achetez](/en/docs/domains/buy-a-domain) ou [transférez](/en/docs/domains/transfer-a-domain) un domaine, créez des [adresses email](/en/docs/e-mails/create-an-e-mail-address) ;
-- transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP](/en/docs/web-hosting/remote-access/sftp) par exemple - et créez votre [base de données](/en/docs/web-hosting/databases).
+- créez un [site web](/fr/docs/web-hosting/sites/add-a-site), [achetez](/fr/docs/domaines/acheter-un-domaine) ou [transférez](/fr/docs/domaines/transferer-un-domaine) un domaine, créez des [adresses email](/fr/docs/e-mails/create-an-e-mail-address) ;
+- transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP](/fr/docs/web-hosting/remote-access/sftp) par exemple - et créez votre [base de données](/fr/docs/web-hosting/databases).
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).
 
@@ -22,10 +22,10 @@ Vous n'êtes pas encore client ? Inscrivez-vous sur notre [plateforme](https://w
 Vous nous aimez ? [Montrez-nous votre ❤](love) !
 
 > [!TIP] Astuce
-> Toute publication sur Internet comporte des [obligations légales](/en/docs/web-hosting/sites/legal-requirements-on-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
+> Toute publication sur Internet comporte des [obligations légales](/fr/docs/web-hosting/sites/legal-requirements-on-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
 
 
-- [Terminologie](/en/docs/admin-billing/terminology)
+- [Terminologie](/fr/docs/admin-facturation/terminologie)
 
 ## Contribuer à la documentation
 

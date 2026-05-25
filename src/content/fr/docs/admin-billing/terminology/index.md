@@ -24,7 +24,7 @@ Les adresses emails hébergées sont liées à des domaines. Elles sont *toujour
 Les [adresses des sites](/web-hosting/sites/add-a-site/#adresses) *peuvent* aussi être liées à des domaines. Si c'est le cas elles peuvent être :
 - sur le même compte ;
 - sur un autre compte du même profil alwaysdata ;
-- [déléguées](/domains/delegate-a-subdomain) à un compte d'un autre profil alwaysdata.
+- [déléguées](/fr/docs/domaines/deleguer-un-sous-domaine/) à un compte d'un autre profil alwaysdata.
 
 ![](images/delegation.png)
 
