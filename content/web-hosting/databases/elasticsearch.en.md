@@ -3,6 +3,13 @@ title = "Elasticsearch"
 tags = ["databases", "elasticsearch"]
 +++
 
+## Supported versions
+
+||
+|---|
+| 7.17 |
+| 8.17 |
+
 ## Connection
 
 |||

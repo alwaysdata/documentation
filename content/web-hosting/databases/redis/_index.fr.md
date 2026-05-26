@@ -20,7 +20,4 @@ Cette configuration est disponible sur le [Cloud Privé](/admin-billing/billing/
 ---
 
 - [Documentation Redis](https://redis.io/documentation)
-
-Retrouvez nos guides :
-
 - [Configurer une application PHP avec Redis](/web-hosting/databases/redis/php)

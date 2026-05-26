@@ -3,6 +3,14 @@ title = "PostgreSQL"
 tags = ["databases", "postgresql"]
 +++
 
+## Supported versions
+
+||
+|---|
+| 16 |
+| 17 |
+| 18 |
+
 ## Connection
 
 |||

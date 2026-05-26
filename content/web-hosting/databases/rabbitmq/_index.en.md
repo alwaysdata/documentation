@@ -3,6 +3,13 @@ title = "RabbitMQ"
 tags = ["databases", "rabbitmq"]
 +++
 
+
+## Supported versions
+
+||
+|---|
+| 3.10 |
+
 ## Connection
 
 |||

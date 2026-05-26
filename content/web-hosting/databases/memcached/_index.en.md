@@ -20,9 +20,4 @@ Memcached is only available on [Private Cloud](/admin-billing/billing/private-cl
 ---
 
 - [Memcached documentation](https://github.com/memcached/memcached/wiki)
-
----
-
-Find our guides:
-
 - [Configuring a PHP application with Memcached](/web-hosting/databases/memcached/php)

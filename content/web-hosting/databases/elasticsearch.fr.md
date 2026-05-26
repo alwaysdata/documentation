@@ -4,6 +4,13 @@ title = "Elasticsearch"
 tags = ["base de données", "elasticsearch"]
 +++
 
+## Versions supportées
+
+||
+|---|
+| 7.17 |
+| 8.17 |
+
 ## Connexion
 
 |             |                                              |
@@ -16,7 +23,6 @@ Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinc
 {{% notice info %}}
 Elasticsearch n'est disponible qu'en environnements [Cloud Privé](/admin-billing/billing/private-cloud-prices).
 {{% /notice %}}
-
 
 ---
 

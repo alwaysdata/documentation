@@ -20,9 +20,4 @@ Cette configuration est disponible en environnements [Cloud Privé](/admin-billi
 ---
 
 - [Documentation Memcached](https://github.com/memcached/memcached/wiki)
-
----
-
-Retrouvez nos guides :
-
 - [Configurer une application PHP avec Memcached](/web-hosting/databases/memcached/php)

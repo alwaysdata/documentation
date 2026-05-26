@@ -19,9 +19,4 @@ This configuration is for the [Private Cloud](/admin-billing/billing/private-clo
 ---
 
 - [Redis documentation](https://redis.io/documentation)
-
----
-
-Find our guides:
-
 - [Configuring a PHP application with Redis](/web-hosting/databases/redis/php)

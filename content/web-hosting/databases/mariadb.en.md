@@ -3,6 +3,15 @@ title = "MariaDB / MySQL"
 tags = ["databases", "mariadb", "mysql"]
 +++
 
+## Supported versions
+
+||
+|---|
+| 10.6 |
+| 10.11 |
+| 11.4 |
+| 11.8 |
+
 ## Connection
 
 |||
@@ -66,7 +75,7 @@ To check the MariaDB configuration use the SQL query `show variables`.
 In the Public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 {{% notice info %}}
-MariaDB is offered by default on our servers but the [Private Cloud](/admin-billing/billing/private-cloud-prices) users may request to use MySQL.
+MariaDB is offered by default on our servers but the [Private Cloud](/admin-billing/billing/private-cloud-prices) users may request to use MySQL 8.0.
 {{% /notice %}}
 
 ---
