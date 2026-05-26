@@ -24,7 +24,7 @@ Cela va ajouter le domaine en tant que _domaine externe_ dans la liste.
 
 ![Interface d'administration : Domaine externe](images/admin-panel_domain-list2.png)
 
-Vous pourrez alors créer des [adresses email](/e-mails/create-an-e-mail-address), des [sites web](/web-hosting/sites/add-a-site) et gérer les [enregistrements DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/).
+Vous pourrez alors créer des [adresses email](/fr/docs/emails/creer-une-adresse-email/), des [sites web](/fr/docs/hebergement-web/sites/ajouter-un-site/) et gérer les [enregistrements DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/).
 
 > [!WARNING] Attention
 > Si certains enregistrements DNS doivent être gardés - par exemple ne pas changer de prestataire emails - il faudra préparer la [zone DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/) avant d'effectuer le changement de serveurs DNS.

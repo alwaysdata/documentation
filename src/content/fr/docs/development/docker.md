@@ -16,7 +16,7 @@ Docker tourne en mode [rootless](https://docs.docker.com/engine/security/rootles
 
 Après avoir [contacté le support](https://admin.alwaysdata.com/support/add) pour installer Docker sur le serveur, il faut **pour chaque compte** devant l'utiliser :
 
-- exécuter en [SSH](/web-hosting/remote-access/ssh) :
+- exécuter en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) :
 
 ```sh
 $ dockerd-rootless-setuptool.sh install
@@ -32,16 +32,16 @@ dockerd-rootless.sh
 Successfully created context "rootless"
 ```
 
-- créer un [service](/web-hosting/services) :
+- créer un [service](/fr/docs/hebergement-web/services/) :
     - *Commande* : `dockerd-rootless.sh`
     
 > L'installation est terminée, vous pouvez désormais utiliser la commande `docker` normalement.
 
 ## Utilisation
 
-Vous pouvez utiliser Docker pour faire tourner des [sites](/web-hosting/sites), des [services](/web-hosting/services), des [tâches planifiées](/web-hosting/tasks) ou tout simplement en [SSH](/web-hosting/remote-access/ssh).
+Vous pouvez utiliser Docker pour faire tourner des [sites](/fr/docs/hebergement-web/sites/), des [services](/fr/docs/hebergement-web/services/), des [tâches planifiées](/fr/docs/hebergement-web/taches-planifiees/) ou tout simplement en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/).
 
-Pour faire tourner un site avec Docker, vous devrez utiliser le type [programme utilisateur](/web-hosting/sites/user-program) et indiquer votre commande `docker run`. Il faudra que votre conteneur Docker écoute en HTTP sur le port `$PORT`, par exemple :
+Pour faire tourner un site avec Docker, vous devrez utiliser le type [programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/) et indiquer votre commande `docker run`. Il faudra que votre conteneur Docker écoute en HTTP sur le port `$PORT`, par exemple :
 
 ```txt
 docker run -p $PORT:80 gitlab/gitlab-ee:latest

@@ -27,7 +27,7 @@ Trois étiquettes sont définies :
 - `iodef` qui signale une URL que peut contacter les autorités de certifications en cas de problèmes.
 
 > [!NOTE]
-> Des [certificats Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) sont générés pour toute adresse HTTP hébergée sur nos serveurs. Ils doivent donc faire partie des autorités validées.
+> Des [certificats Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/) sont générés pour toute adresse HTTP hébergée sur nos serveurs. Ils doivent donc faire partie des autorités validées.
 
 
 ## Quelques exemples

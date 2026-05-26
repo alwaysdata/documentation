@@ -17,7 +17,7 @@ Cette page recense les prix (hors taxes) des configurations Cloud Public. Pour p
 | Espace disque | 1 Go | 50 Go | 100 Go | 200 Go | 500 Go |
 | RAM | 256 Mo | 1 Go | 2 Go | 4 Go | 8 Go
 | CPU | 1/4 | 1 | 2 | 4 | 8 |
-| [Sauvegardes](/web-hosting/backups) (jours glissants) | 3 jours | 7 jours | 20 jours | 20 jours | 30 jours |
+| [Sauvegardes](/fr/docs/hebergement-web/sauvegardes/) (jours glissants) | 3 jours | 7 jours | 20 jours | 20 jours | 30 jours |
 | Paiement annuel | Gratuit | 5 €/mois | 20 €/mois | 50 €/mois | 150 €/mois |
 | Paiement mensuel | Gratuit | 6 €/mois | 22 €/mois | 55 €/mois | 165 €/mois |
 

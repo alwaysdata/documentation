@@ -8,7 +8,7 @@ eleventyNavigation:
 
 [MongoDB](https://www.mongodb.com/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH](/web-hosting/remote-access/ssh) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de MongoDB : `$HOME/mongodb/`
@@ -32,7 +32,7 @@ Choisissez le paquet *tgz* et la plateforme *Debian* de la [dernière version de
 
 ### Lancement du service
 
-Créez un [service](/web-hosting/services) avec les détails suivants :
+Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
 - *Commande* : `./bin/mongod --dbpath ./data/ --logpath ./log/mongo.log --ipv6 --bind_ip_all --port=27017`
 - *Répertoire de travail* : `/home/[foo]/mongodb`

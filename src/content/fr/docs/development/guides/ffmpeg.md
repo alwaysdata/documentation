@@ -14,7 +14,7 @@ Cette bibliothèque étant source de traitements lourds elle n'est pas disponibl
 > Si vous êtes propriétaire d'un [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), contactez notre [support](https://admin.alwaysdata.com/support/add/). Il l'installera globalement sur le serveur.
 
 
-Dans notre exemple, nous utilisons l'[accès SSH](/web-hosting/remote-access/ssh) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de ffmpeg : `$HOME/ffmpeg/`

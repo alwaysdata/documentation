@@ -73,11 +73,11 @@ l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre d
 Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
 
 - mettant à jour vos [enregistrements DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/) si vous utilisez d'autres serveurs pour certains services ;
-- créant les [adresses email](/e-mails/create-an-e-mail-address).
+- créant les [adresses email](/fr/docs/emails/creer-une-adresse-email/).
 
 Concernant le site internet, plusieurs choix sont possibles :
 
-- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) ;
+- ajouter les adresses avant qu'elles pointent sur nos serveurs. Dans ce cas, il peut y avoir un délai concernant la génération des [certificats SSL Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/) ;
 - préparer le site sur une autre adresse et attendre le dernier moment pour ajouter les adresses au site. Il peut alors se passer un temps où le site n'est plus accessible.
 
 ---

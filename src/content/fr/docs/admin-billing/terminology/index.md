@@ -10,7 +10,7 @@ Un utilisateur alwaysdata, nommé **profil** est représenté par une adresse em
 
 Celui-ci *peut* être propriétaire de **comptes** sur notre [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) ainsi que des **[serveurs](/accounts/billing/private-cloud-prices)** sur lequel il peut y créer des comptes. Chaque **compte** est *isolé* les uns des autres.
 
-Sur ces **comptes**, il est possible de gérer des [domaines](/domains), d'héberger des [adresses emails](/e-mails), des [sites web](/web-hosting/sites), des [bases de données](/web-hosting/databases) ou encore d'autres applications.
+Sur ces **comptes**, il est possible de gérer des [domaines](/domains), d'héberger des [adresses emails](/e-mails), des [sites web](/fr/docs/hebergement-web/sites/), des [bases de données](/fr/docs/hebergement-web/bases-de-donnees/) ou encore d'autres applications.
 
 ![](images/terminology.png)
 
@@ -21,7 +21,7 @@ Il peut aussi avoir des **[permissions](/fr/docs/admin-facturation/permissions)*
 
 Les adresses emails hébergées sont liées à des domaines. Elles sont *toujours* sur le même compte que le domaine.
 
-Les [adresses des sites](/web-hosting/sites/add-a-site/#adresses) *peuvent* aussi être liées à des domaines. Si c'est le cas elles peuvent être :
+Les [adresses des sites](/fr/docs/hebergement-web/sites/ajouter-un-site/#adresses) *peuvent* aussi être liées à des domaines. Si c'est le cas elles peuvent être :
 - sur le même compte ;
 - sur un autre compte du même profil alwaysdata ;
 - [déléguées](/fr/docs/domaines/deleguer-un-sous-domaine/) à un compte d'un autre profil alwaysdata.

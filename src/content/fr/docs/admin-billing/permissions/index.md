@@ -29,36 +29,36 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 
 - __Contact technique__ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant le compte ;
 - __Consommation__ : suivez la consommation d'espace disque (menus *Espace disque*, *Avancé > Logs*) ;
-- __Ressources__ : permission pour les comptes sur [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) permet de gérer les [sondes](/web-hosting/sites/use-probes) (menu *Web > Sondes*) et [ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) (menu *Avancé > Ressources*) ;
-- __[Statistiques](/web-hosting/analytics)__ : analysez les visites de vos sites (menu *Web > Analytics*)  ;
-- __[Sites](/web-hosting/sites)__ : configurez les sites web et l'environnement Apache (menus *Web > Sites*, *Web > Configuration*) ;
+- __Ressources__ : permission pour les comptes sur [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) permet de gérer les [sondes](/fr/docs/hebergement-web/sites/utiliser-les-sondes-de-monitoring/) (menu *Web > Sondes*) et [ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) (menu *Avancé > Ressources*) ;
+- __[Statistiques](/fr/docs/hebergement-web/statistiques/)__ : analysez les visites de vos sites (menu *Web > Analytics*)  ;
+- __[Sites](/fr/docs/hebergement-web/sites/)__ : configurez les sites web et l'environnement Apache (menus *Web > Sites*, *Web > Configuration*) ;
 - __[Domaines](/domains)__ gérez techniquement les domaines et leurs DNS (menu *Domaines*). Pour toutes les opérations facturables, il faudra aussi les permissions __Facturation__ sur le profil propriétaire ;
 - __[Emails](/e-mails)__ (menus *Emails > Adresses*, *Emails > Listes de diffusion*, *Emails > Configuration*) ;
-- __[Historique des emails envoyés](/e-mails/check-email-sending)__ (menu *Emails > Historique*) ;
-- __[Bases de données](/web-hosting/databases)__ (menu *Bases de données*) ;
-- __[FTP](/web-hosting/remote-access/ftp)__ (menu *Accès distant > FTP*) ;
-- __[SSH](/web-hosting/remote-access/ssh)__ (menu *Accès distant > SSH*) ;
-- __[WebDAV](/web-hosting/remote-access/webdav)__ (menu *Accès distant > WebDAV*) ;
-- __[Environnement](/web-hosting/languages)__ : configurez les langages de programmation (menu *Environnement*) ;
+- __[Historique des emails envoyés](/fr/docs/emails/verifier-l-envoi-d-un-email/)__ (menu *Emails > Historique*) ;
+- __[Bases de données](/fr/docs/hebergement-web/bases-de-donnees/)__ (menu *Bases de données*) ;
+- __[FTP](/fr/docs/hebergement-web/acces-distant/ftp/)__ (menu *Accès distant > FTP*) ;
+- __[SSH](/fr/docs/hebergement-web/acces-distant/ssh/)__ (menu *Accès distant > SSH*) ;
+- __[WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/)__ (menu *Accès distant > WebDAV*) ;
+- __[Environnement](/fr/docs/hebergement-web/languages/)__ : configurez les langages de programmation (menu *Environnement*) ;
 - __Processus__ : processus en cours d'exécution pouvant être analysés ou tués (menu *Avancé > Processus*) ;
-- __[Adresses IP](/web-hosting/dedicated-ip-addresses)__ : louer des IP dédiées pour HTTP ou SMTP (menu *Avancé > Adresses IP*) ;
-- __[Certificats SSL](/web-hosting/sites/ssl-tls)__ (menu *Avancé > Certificats SSL*) ;
+- __[Adresses IP](/fr/docs/hebergement-web/adresses-ip-dediees/)__ : louer des IP dédiées pour HTTP ou SMTP (menu *Avancé > Adresses IP*) ;
+- __[Certificats SSL](/fr/docs/hebergement-web/sites/ssl-tls)__ (menu *Avancé > Certificats SSL*) ;
 - __[Migration](/fr/docs/caracteristiques-techniques/migrations/)__ (menu *Avancé > Migrations*) ;
-- __[Tâches planifiées](/web-hosting/tasks)__ (menu *Avancé > Tâches planifiées*) ;
-- __[Sauvegardes](/web-hosting/backups)__ (menu *Avancé > Restauration de sauvegardes*) ;
-- __[Services](/web-hosting/services)__ (menu *Avancé > Services*).
+- __[Tâches planifiées](/fr/docs/hebergement-web/taches-planifiees/)__ (menu *Avancé > Tâches planifiées*) ;
+- __[Sauvegardes](/fr/docs/hebergement-web/sauvegardes/)__ (menu *Avancé > Restauration de sauvegardes*) ;
+- __[Services](/fr/docs/hebergement-web/services/)__ (menu *Avancé > Services*).
 
 ### Par serveur
 
 À partir du moment où un profil a des permissions sur le serveur, il a accès au menu *Configuration*.
 
 - __Contact technique__ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
-- __[Utilisateurs SSH](/web-hosting/remote-access/ssh/install-globally-ssh-keys)__ : installez des clés SSH pour un accès simplifié aux différents comptes (menu *Clés SSH*);
+- __[Utilisateurs SSH](/fr/docs/hebergement-web/acces-distant/ssh/install-globally-ssh-keys)__ : installez des clés SSH pour un accès simplifié aux différents comptes (menu *Clés SSH*);
 - __[Règles firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall/)__ : créez des règles firewall et consultez le bannissement automatique d'IP au niveau du serveur  (menu *Firewall*);
 - __Configuration SMTP__ : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam (menu *SMTP*);
 - __Utilisateurs base de données__ : donnez un accès global aux bases de données de l'ensemble des comptes (menu *Utilisateurs MySQL*) ;
-- __Configuration SSL__ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS](/web-hosting/sites/ssl-tls/configure-tls) du serveur (menu *SSL*) ;
-- __Configuration HTTP__ : choisissez un site web qui sera la [page d'accueil par défaut](/web-hosting/sites/misc#site-http-par-defaut) et la [période de rétention des logs](/web-hosting/remote-access/admin-directory#logs) (menu *HTTP*) ;
+- __Configuration SSL__ : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la [configuration TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/) du serveur (menu *SSL*) ;
+- __Configuration HTTP__ : choisissez un site web qui sera la [page d'accueil par défaut](/fr/docs/hebergement-web/sites/divers/#site-http-par-defaut) et la [période de rétention des logs](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs) (menu *HTTP*) ;
 - __Consommation__ : accédez à un ensemble d'information sur votre serveur (menus Comptes, Statut du serveur). Pour ouvrir des comptes sur le serveur il sera nécessaire d'avoir la permission __Gestion des comptes__ sur le profil propriétaire ;
 - __[Ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/)__ : modifiez les limitations de ressources par compte - RAM, CPU, espace disque (menu *Ressources*).
 - __[Migration](/fr/docs/caracteristiques-techniques/migrations/)__ (menu *Migrations*) ;

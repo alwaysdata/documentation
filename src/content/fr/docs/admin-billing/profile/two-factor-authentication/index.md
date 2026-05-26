@@ -27,4 +27,4 @@ Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un cod
 - **[EnteAuth](https://ente.io/auth/)** : [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth), [Apple Store](https://apps.apple.com/us/app/ente-auth/id6444121398) et [F-Droid](https://f-droid.org/packages/io.ente.auth/).
 
 ---
-Une authentification à deux facteurs est aussi disponible [en SSH](/web-hosting/remote-access/ssh/ssh-two-factor-authentication) pour les utilisateurs des [offres Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.
+Une authentification à deux facteurs est aussi disponible [en SSH](/fr/docs/hebergement-web/acces-distant/ssh/ssh-two-factor-authentication) pour les utilisateurs des [offres Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.

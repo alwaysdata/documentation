@@ -33,41 +33,41 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || Téléphone |❌|✔️|✔️|
 | Sites web | Serveur HTTP configurable |✔️|✔️|✔️|
 || [Applithèque](/fr/docs/developpement/marketplace) |✔️|✔️|✔️|
-|| [SSL Let's Encrypt](/web-hosting/sites/ssl-tls/lets-encrypt) |✔️|✔️|✔️|
-|| [Cache HTTP](/web-hosting/sites/http-cache) |✔️|✔️|✔️|
-|| [WAF](/web-hosting/sites/waf) |✔️|✔️|✔️|
-|| [Statistiques de visites](/web-hosting/analytics)|✔️|✔️|✔️|
-|| [Sondes de monitoring](/web-hosting/sites/use-probes) |❌|✔️|✔️|
+|| [SSL Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/) |✔️|✔️|✔️|
+|| [Cache HTTP](/fr/docs/hebergement-web/sites/cache-http/) |✔️|✔️|✔️|
+  || [WAF](/fr/docs/hebergement-web/sites/waf/) |✔️|✔️|✔️|
+|| [Statistiques de visites](/fr/docs/hebergement-web/statistiques/)|✔️|✔️|✔️|
+|| [Sondes de monitoring](/fr/docs/hebergement-web/sites/utiliser-les-sondes-de-monitoring/) |❌|✔️|✔️|
 || Conseils d'optimisation |❌|✔️|✔️|
-| Langages | [PHP](/web-hosting/languages/php) |✔️|✔️|✔️|
-|| [Python](/web-hosting/languages/python) |✔️|✔️|✔️|
-|| [Ruby](/web-hosting/languages/ruby) |✔️|✔️|✔️|
-|| [Node.js](/web-hosting/languages/nodejs) |✔️|✔️|✔️|
-|| [Java](/web-hosting/languages/java) |✔️|✔️|✔️|
-|| [Deno](/web-hosting/languages/deno) |✔️|✔️|✔️|
-|| [Elixir](/web-hosting/languages/elixir) |✔️|✔️|✔️|
-|| [Lua](/web-hosting/languages/lua) |✔️|✔️|✔️|
-|| [Go](/web-hosting/languages/go) |✔️|✔️|✔️|
-|| [Tout autre langage](/web-hosting/languages) |✔️|✔️|✔️|
-| Bases de données[^3] | [MariaDB (MySQL)](/web-hosting/databases/mariadb) |✔️|✔️|✔️|
-|| [PostgreSQL](/web-hosting/databases/postgresql) |✔️|✔️|✔️|
-|| [RabbitMQ](/web-hosting/databases/rabbitmq) |✔️|✔️|✔️|
-|| [Memcached](/web-hosting/databases/memcached) |❌|✔️|✔️|
-|| [Redis](/web-hosting/databases/redis) |❌|✔️|✔️|
-|| [ElasticSearch](/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
+| Langages | [PHP](/fr/docs/hebergement-web/langages/php/) |✔️|✔️|✔️|
+|| [Python](/fr/docs/hebergement-web/langages/python/) |✔️|✔️|✔️|
+|| [Ruby](/fr/docs/hebergement-web/langages/ruby/) |✔️|✔️|✔️|
+|| [Node.js](/fr/docs/hebergement-web/langages/nodejs/) |✔️|✔️|✔️|
+|| [Java](/fr/docs/hebergement-web/langages/java/) |✔️|✔️|✔️|
+|| [Deno](/fr/docs/hebergement-web/langages/deno/) |✔️|✔️|✔️|
+|| [Elixir](/fr/docs/hebergement-web/langages/elixir/) |✔️|✔️|✔️|
+|| [Lua](/fr/docs/hebergement-web/langages/lua/) |✔️|✔️|✔️|
+|| [Go](/fr/docs/hebergement-web/langages/go/) |✔️|✔️|✔️|
+|| [Tout autre langage](/fr/docs/hebergement-web/languages/) |✔️|✔️|✔️|
+| Bases de données[^3] | [MariaDB (MySQL)](/fr/docs/hebergement-web/bases-de-donnees/mariadb/) |✔️|✔️|✔️|
+|| [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) |✔️|✔️|✔️|
+|| [RabbitMQ](/fr/docs/hebergement-web/bases-de-donnees/rabbitmq/) |✔️|✔️|✔️|
+|| [Memcached](/fr/docs/hebergement-web/bases-de-donnees/memcached/) |❌|✔️|✔️|
+|| [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) |❌|✔️|✔️|
+|| [ElasticSearch](/fr/docs/hebergement-web/bases-de-donnees/elasticsearch/) |❌|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|
-|| [Filtrage via scripts Sieve](/e-mails/use-sieve-scripts) |✔️|✔️|✔️|
-|| [Listes de diffusion](/e-mails/mailing-lists) |✔️|✔️|✔️|
-|| [File d'attente SMTP](/e-mails/smtp-queue) |❌|✔️|✔️|
-|| [Relais SMTP](/e-mails/smtp-relay) |❌|✔️|✔️|
-| Accès distant | [FTP](/web-hosting/remote-access/ftp) |✔️|✔️|✔️|
-|| [SFTP](/web-hosting/remote-access/sftp) |✔️|✔️|✔️|
-|| [SSH](/web-hosting/remote-access/ssh) |✔️|✔️|✔️|
-|| [WebDAV](/web-hosting/remote-access/webdav) |✔️|✔️|✔️|
+|| [Filtrage via scripts Sieve](/fr/docs/emails/utiliser-les-scripts-sieve/) |✔️|✔️|✔️|
+|| [Listes de diffusion](/fr/docs/emails/listes-de-diffusion/) |✔️|✔️|✔️|
+|| [File d'attente SMTP](/fr/docs/emails/file-dattente-smtp/) |❌|✔️|✔️|
+|| [Relais SMTP](/fr/docs/emails/relais-smtp/) |❌|✔️|✔️|
+| Accès distant | [FTP](/fr/docs/hebergement-web/acces-distant/ftp/) |✔️|✔️|✔️|
+|| [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) |✔️|✔️|✔️|
+|| [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) |✔️|✔️|✔️|
+|| [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/) |✔️|✔️|✔️|
 | Sauvegardes[^4] ||✔️|✔️|✔️|
 | Autres | [API](/fr/docs/developpement/api) |✔️|✔️|✔️|
-|| [Tâches planifiées](/web-hosting/tasks) |✔️|✔️|✔️|
+|| [Tâches planifiées](/fr/docs/hebergement-web/taches-planifiees/) |✔️|✔️|✔️|
 || Services[^5] |✔️|✔️|✔️|
 || [Gestion du firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall) |❌|✔️|✔️|
 || [Docker](/fr/docs/developpement/docker) |❌|✔️|✔️|
@@ -83,6 +83,6 @@ La migration vers une offre supérieure est possible et gratuite : dans l'onglet
 
 [^1]: De ce fait, les utilisateurs n'ont pas les droits root et ne peuvent utiliser `sudo`. L'installation de nombreux services peut se faire directement au niveau du compte et les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent solliciter le support pour des services dont ce ne serait pas le cas.
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
-[^3]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services](/web-hosting/services). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
-[^4]: [Sauvegardes](/web-hosting/backups) quotidiennes et directement accessibles dans le compte. Selon l'offre choisie, elles sont conservées jusqu'à 30 jours glissants.
-[^5]: [Programmes génériques](/web-hosting/services) devant fonctionner 24h / 24.
+[^3]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services](/fr/docs/hebergement-web/services/). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
+[^4]: [Sauvegardes](/fr/docs/hebergement-web/sauvegardes/) quotidiennes et directement accessibles dans le compte. Selon l'offre choisie, elles sont conservées jusqu'à 30 jours glissants.
+[^5]: [Programmes génériques](/fr/docs/hebergement-web/services/) devant fonctionner 24h / 24.

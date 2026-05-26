@@ -51,7 +51,7 @@ Il peut être utile de court-circuiter les MX externes pour joindre directement 
 
 Pour envoyer un email à `foobar@example.org` en passant par les MX d'alwaysdata (alors que les MX de `example.org` sont externes) :
 
-- créez [l'adresse email](/e-mails/create-an-e-mail-address) sur l'interface d'administration ;
+- créez [l'adresse email](/fr/docs/emails/creer-une-adresse-email/) sur l'interface d'administration ;
 - envoyez un email à :
     - `foobar%example.org@mx.alwaysdata.com` si le compte est sur le Cloud Public ;
     - `foobar%example.org@serveur.alwaysdata.com` si le compte est sur un Cloud Privé (`serveur` à remplacer par le nom du serveur).

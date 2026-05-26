@@ -1,0 +1,25 @@
+---
+permalink: /fr/docs/hebergement-web/bases-de-donnees/elasticsearch/
+title: Elasticsearch
+eleventyNavigation:
+  key: Elasticsearch
+  parent: Bases de données
+---
+
+## Connexion
+
+|             |                                              |
+|-------------|----------------------------------------------|
+| **Serveur** | localhost ou 127.0.0.1                       |
+| **Ports**   | 9200 & 9300 (Ports Elasticsearch par défaut) |
+
+Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinct).
+
+> [!NOTE]
+> Elasticsearch n'est disponible qu'en environnements [Cloud Privé](accounts/billing/private-cloud-prices).
+
+
+
+---
+
+- [Documentation Elasticsearch](https://www.elastic.co/guide/index.html)

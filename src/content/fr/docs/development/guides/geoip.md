@@ -6,11 +6,11 @@ eleventyNavigation:
   parent: Guides
 ---
 
-[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] est un module [Apache](/web-hosting/sites/configure-apache) de GeoIP qui vise à localiser un utilisateur en se basant sur son adresse IP.
+[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] est un module [Apache](/fr/docs/hebergement-web/sites/configurer-apache/) de GeoIP qui vise à localiser un utilisateur en se basant sur son adresse IP.
 
 ## Installation
 
-Lancez les commandes suivantes en [SSH](/web-hosting/remote-access/ssh) à la racine du compte :
+Lancez les commandes suivantes en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) à la racine du compte :
 
 > [!NOTE]
 > Prendre la [dernière version disponible de `mod_maxminddb`](https://github.com/maxmind/mod_maxminddb)

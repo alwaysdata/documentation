@@ -10,7 +10,7 @@ eleventyNavigation:
 
 Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)**, voici les étapes à suivre.
 
-**Les SGBD [PostgreSQL](/web-hosting/databases/postgresql) et [Redis](/web-hosting/databases/redis) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
+**Les SGBD [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) et [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
 
 L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
 
@@ -26,7 +26,7 @@ GitLab a impérativement besoin de ces versions qui sont à définir dans le men
 
 2. Si vous utilisez une [limite de RAM](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) inférieure à 10 Go, augmentez-la dans le menu **Avancé > Ressources**.
 
-3. Lancez les commandes suivantes en [SSH](/web-hosting/remote-access/ssh) à la racine du compte :
+3. Lancez les commandes suivantes en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) à la racine du compte :
 
 ```sh
 npm install --global yarn
@@ -142,14 +142,14 @@ C'est cette dernière commande qui nécessite une quantité de RAM importante. L
 
 ## Création du service
 
-Créez un [service](/web-hosting/services) avec les détails suivants :
+Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
   * *Nom* : GitLab
   * *Commande* : `~/init restart -f`
 
 ## Création du site
 
-Créez un [site](/web-hosting/sites/add-a-site) avec les détails suivants :
+Créez un [site](/fr/docs/hebergement-web/sites/ajouter-un-site/) avec les détails suivants :
 
   * *Nom* : GitLab
   * *Type* : Programme utilisateur

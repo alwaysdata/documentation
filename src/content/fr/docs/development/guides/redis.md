@@ -8,9 +8,9 @@ eleventyNavigation:
 
 [Redis](https://redis.io/) est système de gestion de base de données clé-valeur extensible.
 
-Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/). Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander l'installation de *Redis* [au niveau serveur](/web-hosting/databases/redis).
+Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/). Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander l'installation de *Redis* [au niveau serveur](/fr/docs/hebergement-web/bases-de-donnees/redis/).
 
-Dans notre exemple, nous utilisons un [accès SSH](/web-hosting/remote-access/ssh) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de Redis : `$HOME/redis/`
@@ -31,7 +31,7 @@ foo@ssh:~/redis$ make
 
 ### Lancement du service
 
-Créez le [service](/web-hosting/services) suivant :
+Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
 - *Commande* : `./src/redis-server --bind :: --port 8300 --protected-mode no`
 - *Commande de monitoring* : `./src/redis-cli  redis.conf -h services-[foo].alwaysdata.net -p 8300 ping`
@@ -41,7 +41,7 @@ Plus d'options via `$HOME/redis/src/redis-cli -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
 
-- [Installer l'extension PHP](/web-hosting/databases/redis/php)
+- [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/redis/php)
 
 ## Authentification
 

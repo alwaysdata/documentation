@@ -8,7 +8,7 @@ eleventyNavigation:
 
 [CouchDB](https://couchdb.apache.org/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH](/web-hosting/remote-access/ssh) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
 - Nom du compte : `foo`
 - Répertoire de CouchDB : `$HOME/couchdb/`
@@ -54,7 +54,7 @@ Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-c
 
 ### Lancement du service
 
-Créez un [service](/web-hosting/services) avec les détails suivants :
+Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
 - *Commande* : `./bin/couchdb -couch_ini /home/[foo]/couchdb/local.ini`
 - *Répertoire de travail* : `/home/[foo]/couchdb/rel/couchdb`

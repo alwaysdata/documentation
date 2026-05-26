@@ -17,7 +17,7 @@ simple serveur Web](https://create-react-app.dev/docs/deployment) fera l'affaire
 
 ## Côté _alwaysdata_
 
-Créez simplement un site de type [Fichiers statiques](/web-hosting/sites/static-files) pointant vers le répertoire de votre choix (par exemple
+Créez simplement un site de type [Fichiers statiques](/fr/docs/hebergement-web/sites/fichiers-statiques/) pointant vers le répertoire de votre choix (par exemple
 `www/my-app`).
 
 ## Côté développement
@@ -34,7 +34,7 @@ React App](https://create-react-app.dev) pour initialiser votre projet, celle-ci
 `npm run build`. Cette commande va produire les _assets_ statiques dans un répertoire `build`.
 
 Vous pouvez ensuite déployer ces fichiers résultant du _build_ dans le répertoire indiqué précédemment lors de la
-création du site, par exemple via [_rsync/SSH_](/web-hosting/remote-access/ssh) :
+création du site, par exemple via [_rsync/SSH_](/fr/docs/hebergement-web/acces-distant/ssh/) :
 
 ```sh
 rsync -rz --mkpath build/ [account]@ssh-[account].alwaysdata.net:www/my-app

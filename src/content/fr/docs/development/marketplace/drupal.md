@@ -14,4 +14,4 @@ Si vous utilisez une version de Drupal inférieure à la **8.9** avec précompre
 
 ## Autres informations
 
-Nous proposons un [profil spécifique](/web-hosting/sites/waf#profils-disponibles) sur notre WAF.
+Nous proposons un [profil spécifique](/fr/docs/hebergement-web/sites/waf/#profils-disponibles) sur notre WAF.
