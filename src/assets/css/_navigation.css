@@ -244,6 +244,7 @@
   .index:has(ul) {
     @apply p-0 list-none;
     @apply divide-y divide-solid divide-brand-lighter;
+    @apply dark:divide-neutral-600;
   }
 
   .index:has(ul) > li {
@@ -262,5 +263,6 @@
   .index:not(:has(ul)) a {
     @apply block h-full p-4 border-2 border-brand-lighter rounded-lg no-underline bg-transparent transition-colors;
     @apply hover:bg-brand-lighter hover:text-brand-dark;
+    @apply dark:border-brand-lighter dark:hover:bg-brand-darker dark:text-brand-lighter dark:hover:text-brand-lighter;
   }
 }
