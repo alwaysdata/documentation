@@ -228,7 +228,7 @@ export class CommandPalette extends HTMLElement {
       await this.pagefind.init();
     } catch (error) {
       console.error("Failed to load Pagefind:", error);
-      this.renderError(i18n.unavailable[locale]);
+      this.renderError(translations.search.unavailable[locale]);
     }
   }
 
@@ -247,7 +247,7 @@ export class CommandPalette extends HTMLElement {
     }
 
     if (!this.pagefind) {
-      this.renderError(i18n.pending[locale]);
+      this.renderError(translations.search.pending[locale]);
       return;
     }
 
@@ -267,7 +267,7 @@ export class CommandPalette extends HTMLElement {
       this.renderResults(results, query);
     } catch (error) {
       console.error("Search error:", error);
-      this.renderError(i18n.fail[locale]);
+      this.renderError(translations.search.fail[locale]);
     }
   }
 
@@ -320,7 +320,7 @@ export class CommandPalette extends HTMLElement {
     this.results.innerHTML = `
       <div class="search-loading">
         <div class="search-loading-spinner"></div>
-        <p>Searching...</p>
+        <p>${translations.search.searching[locale]}</p>
       </div>
     `;
   }

@@ -22,6 +22,10 @@ export default {
       en: "Type to search…",
       fr: "Tapez pour rechercher…",
     },
+    searching: {
+      en: "Searching…",
+      fr: "En cours…",
+    },
     navigate: {
       en: "Navigate",
       fr: "Navigation",
