@@ -56,8 +56,8 @@ RewriteRule ^_tickets/?$ /en/admin-billing/urgent-ticket/ [QSA,L,R=307]
 RewriteRule ^_domains/?$ /en/domains/troubleshooting/ [QSA,L,R=307]
 RewriteRule ^marketplace-script/?$ /en/development/marketplace/build-application-script/ [QSA,L,R=307]
 RewriteRule ^log-http/?$ /en/web-hosting/sites/formatting-http-logs/ [QSA,L,R=307]
-RewriteRule ^green/?$  /en/technical-specifications/green-hosting/ [QSA,L,R=307]
-RewriteRule ^api/?$  /en/developement/api/ [QSA,L,R=307]
+RewriteRule ^green/?$  /en/technical-specifications/green/ [QSA,L,R=307]
+RewriteRule ^api/?$  /en/development/api/ [QSA,L,R=307]
 RewriteRule ^signin-issues/?$  /en/admin-billing/profile/admin-access-loss/ [QSA,L,R=307]
 RewriteRule ^bug-bounty/?$  /en/technical-specifications/bug-bounty/ [QSA,L,R=307]
 
@@ -70,3 +70,4 @@ Redirect 301 /en/marketplace/build-application-script/ /en/development/marketpla
 
 ## Redirects website
 Redirect 301 /fr/comptes/restrictions-du-cloud-public/ /fr/admin-facturation/profil/suspension/
+Redirect 301 /en/admin-billing/public-cloud-restrictions/ /en/admin-billing/profile/suspension/
