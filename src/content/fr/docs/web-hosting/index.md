@@ -11,7 +11,7 @@ eleventyNavigation:
 - [Sites web](/fr/docs/hebergement-web/sites/)
 - [Accès distant](/fr/docs/hebergement-web/acces-distant/)
 - [Bases de données](/fr/docs/hebergement-web/bases-de-donnees/)
-- [Langages supportés](/fr/docs/hebergement-web/languages/)
+- [Langages supportés](/fr/docs/hebergement-web/langages/)
 - [Services](/fr/docs/hebergement-web/services/) (programmes devant fonctionner 24h / 24)
 - [Tâches planifiées](/fr/docs/hebergement-web/taches-planifiees/)
 - [Sauvegardes](/fr/docs/hebergement-web/sauvegardes/)

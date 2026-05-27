@@ -9,7 +9,7 @@ eleventyNavigation:
 WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.org/), permet aux utilisateurs de modifier et de gérer en collaboration des fichiers sur des serveurs Web distants.
 
 - [API - WebDAV](https://api.alwaysdata.com/v1/webdav/doc/)
-- [Créer un utilisateur WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/create-a-webdav-user)
+- [Créer un utilisateur WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/creer-un-utilisateur-webdav/)
 
 ## Se connecter avec WebDAV
 

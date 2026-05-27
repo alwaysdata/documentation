@@ -11,7 +11,7 @@ eleventyNavigation:
 Service externe permettant de vérifier la disponibilité : [Where's It Up?](https://wheresitup.com/)
 
 - [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response](/fr/docs/hebergement-web/sites/erreurs-connection-to-upstream/)
-- [PHP](/fr/docs/hebergement-web/langages/php/troubleshooting)
+- [PHP](/fr/docs/hebergement-web/langages/php/problemes-frequents/)
 
 ### This site can’t be reached / server DNS address could not be found
 

@@ -19,7 +19,7 @@ eleventyNavigation:
 
 La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
-Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/languages/#versions).
+Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
 ## Logs d'erreur
 

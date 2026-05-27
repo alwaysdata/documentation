@@ -20,7 +20,7 @@ En plans Cloud Privé :
 
 
 > [!NOTE]
-> Pour des raisons de sécurité, la création des bases de données et des utilisateurs bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API](/fr/docs/development/api). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
+> Pour des raisons de sécurité, la création des bases de données et des utilisateurs bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API](/fr/docs/developpement/api). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
 
 
 > [!WARNING] Attention

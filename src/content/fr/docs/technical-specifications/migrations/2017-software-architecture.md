@@ -60,7 +60,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 * Le seul binaire Python disponible est `python`. N'utilisez plus, par exemple, `python2.6`. Vous devrez notamment penser à remplacer vos shebangs (première ligne d'un script, par exemple `#!/usr/bin/python`) s'ils n'utilisent pas déjà `python`.
 
-* Les quelques bibliothèques auparavant préinstallées par défaut sont supprimées, y compris Django. Vous devez donc [manuellement installer](/en/docs/web-hosting/languages/python/configuration#environnement) toutes les bibliothèques dont vous aurez besoin.
+* Les quelques bibliothèques auparavant préinstallées par défaut sont supprimées, y compris Django. Vous devez donc [manuellement installer](/en/docs/web-hosting/languages/python/configuration/#environnement) toutes les bibliothèques dont vous aurez besoin.
 
 * Les applications de type *WSGI* sont désormais servies par [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) et non plus [mod_wsgi](https://modwsgi.readthedocs.io/en/develop/). Dans la grande majorité des cas cela ne changera rien pour vous. Si vous aviez compilé votre propre mod_wsgi avec un site de type *Apache personnalisé*, il continuera à fonctionner.
 
@@ -71,7 +71,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 * Le seul binaire Ruby disponible est `ruby`. N'utilisez plus, par exemple, `ruby1.8`. Vous devrez notamment penser à remplacer vos shebangs (première ligne d'un script, par exemple `#!/usr/bin/ruby`) s'ils n'utilisent pas déjà `ruby`.
 
-* Les quelques bibliothèques auparavant préinstallées par défaut sont supprimées, y compris Ruby on Rails. Vous devez donc [manuellement installer](/en/docs/web-hosting/languages/ruby/configuration#environnement) toutes les bibliothèques dont vous aurez besoin.
+* Les quelques bibliothèques auparavant préinstallées par défaut sont supprimées, y compris Ruby on Rails. Vous devez donc [manuellement installer](/en/docs/web-hosting/languages/ruby/configuration/#environnement) toutes les bibliothèques dont vous aurez besoin.
 
 * Les applications de type *Ruby Rack* ou *Ruby on Rails* sont désormais servies par [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) et non plus [Passenger](https://www.phusionpassenger.com). Dans la grande majorité des cas cela ne changera rien pour vous. Si vous aviez compilé votre propre Passenger avec un site de type *Apache personnalisé*, il continuera à fonctionner.
 
@@ -219,7 +219,7 @@ Les bibliothèques suivantes sont concernées :
 
 En général, ces bibliothèques ne sont pas utilisées directement par les applications, mais par l'intermédiaire de dépendances (module Python, gem Ruby, extension PHP). Recompiler ces modules sur la nouvelle infrastructure leur permettra en général d'utiliser la nouvelle version de la bibliothèque, mais ils ne fonctionneront alors plus sur l'ancienne infrastructure.
 
-Une autre solution est parfois possible : indiquer à la compilation du module de désactiver certaines fonctionnalités pour éviter qu'il n'utilise la bibliothèque en question. Par exemple, vous pouvez compiler le module [Pillow](https://python-pillow.org/) sans le support des fichiers TIFF de cette manière :
+Une autre solution est parfois possible : indiquer à la compilation du module de désactiver certaines fonctionnalités pour éviter qu'il n'utilise la bibliothèque en question. Par exemple, vous pouvez compiler le module [Pillow](https://python-pillow.github.io/) sans le support des fichiers TIFF de cette manière :
 
 ```
 $ pip install Pillow --global-option="build_ext" --global-option="--disable-tiff"

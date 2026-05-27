@@ -13,7 +13,7 @@ Here is a - non-exhaustive - list of restrictions:
 	- send [spam](https://en.wikipedia.org/wiki/Email_spam#European_Union) ;
 		- any message must be sent with the **express consent** (_opt-in_) of the recipient,
 		- using a list purchased from a third party is therefore considered to be spam,
-		- [several questions to ask yourself before launching the emailing](e-mails/delivery#emailing),
+		- [several questions to ask yourself before launching the emailing](/en/docs/e-mails/delivery/#emailing),
 	- any other illegal use.
 
 If any of these restrictions are violated, we reserve the right to suspend and/or cancel the profile.

@@ -56,7 +56,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 - The only Python binary available is `python`. For example, do not use `python2.6`. You will especially need to remember to replace your shebangs (the first line in a script, e.g. `#!/usr/bin/python`) if they do not already use `python`.
 
-- The few libraries that were previously ready installed by default are now deleted, including Django. You will therefore need to [manually install](/en/docs/web-hosting/languages/python/configuration#environment) all of the libraries that you will need.
+- The few libraries that were previously ready installed by default are now deleted, including Django. You will therefore need to [manually install](/en/docs/web-hosting/languages/python/configuration/#environment) all of the libraries that you will need.
 
 - The *WSGI* type applications are now served by [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) and not by [mod_wsgi](https://modwsgi.readthedocs.io/en/develop/). In the vast majority of cases this will make no difference to you. If you compiled your own mod_wsgi with a *customized Apache* type website, it will continue to work.
 
@@ -66,7 +66,7 @@ FCGIWrapper /usr/bin/php-cgi .php5
 
 - The only Ruby binary available is `ruby`. For example, do not use `ruby1.8`. You will especially need to remember to replace your shebangs (the first line in a script, e.g. `#!/usr/bin/ruby`) if they do not already use `ruby`.
 
-- The few libraries that were previously ready installed by default are now deleted, including Ruby on Rails. You will therefore need to [manually install](/en/docs/web-hosting/languages/ruby/configuration#environment) all of the libraries that you will need.
+- The few libraries that were previously ready installed by default are now deleted, including Ruby on Rails. You will therefore need to [manually install](/en/docs/web-hosting/languages/ruby/configuration/#environment) all of the libraries that you will need.
 
 - The *Ruby Rack* or *Ruby on Rails* type applications are now served by [uWSGI](http://uwsgi-docs.readthedocs.io/en/latest/) and not [Passenger](https://www.phusionpassenger.com). In the vast majority of cases this will make no difference to you. If you compiled your own Passenger with a *customized Apache* type website, it will continue to work.
 
@@ -205,7 +205,7 @@ The following libraries are affected:
 
 In general, these libraries are not used directly by the applications, but through dependencies (Python module, Ruby gem, PHP extension). Recompiling these modules on the new infrastructure will generally let them use the new library version, but then they will no longer run on the former infrastructure.
 
-Another solution is sometimes possible: when compiling the module, choosing to disable some functions to stop it from using the relevant library. For example, you can compile the [Pillow](https://python-pillow.org/) module without support for TIFF files by proceeding as follows:
+Another solution is sometimes possible: when compiling the module, choosing to disable some functions to stop it from using the relevant library. For example, you can compile the [Pillow](https://python-pillow.github.io/) module without support for TIFF files by proceeding as follows:
 
 ```
 $ pip install Pillow --global-option="build_ext" --global-option="--disable-tiff"

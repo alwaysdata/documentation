@@ -8,9 +8,9 @@ eleventyNavigation:
 
 Un utilisateur alwaysdata, nommé **profil** est représenté par une adresse email qui est utilisé pour se connecter à l'[interface d'administration](https://admin.alwaysdata.com).
 
-Celui-ci *peut* être propriétaire de **comptes** sur notre [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) ainsi que des **[serveurs](/accounts/billing/private-cloud-prices)** sur lequel il peut y créer des comptes. Chaque **compte** est *isolé* les uns des autres.
+Celui-ci *peut* être propriétaire de **comptes** sur notre [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) ainsi que des **[serveurs](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)** sur lequel il peut y créer des comptes. Chaque **compte** est *isolé* les uns des autres.
 
-Sur ces **comptes**, il est possible de gérer des [domaines](/domains), d'héberger des [adresses emails](/e-mails), des [sites web](/fr/docs/hebergement-web/sites/), des [bases de données](/fr/docs/hebergement-web/bases-de-donnees/) ou encore d'autres applications.
+Sur ces **comptes**, il est possible de gérer des [domaines](/fr/docs/domaines/), d'héberger des [adresses emails](/fr/docs/emails/), des [sites web](/fr/docs/hebergement-web/sites/), des [bases de données](/fr/docs/hebergement-web/bases-de-donnees/) ou encore d'autres applications.
 
 ![](images/terminology.png)
 

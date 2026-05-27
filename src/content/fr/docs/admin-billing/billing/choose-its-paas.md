@@ -48,7 +48,7 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [Elixir](/fr/docs/hebergement-web/langages/elixir/) |✔️|✔️|✔️|
 || [Lua](/fr/docs/hebergement-web/langages/lua/) |✔️|✔️|✔️|
 || [Go](/fr/docs/hebergement-web/langages/go/) |✔️|✔️|✔️|
-|| [Tout autre langage](/fr/docs/hebergement-web/languages/) |✔️|✔️|✔️|
+|| [Tout autre langage](/fr/docs/hebergement-web/langages/) |✔️|✔️|✔️|
 | Bases de données[^3] | [MariaDB (MySQL)](/fr/docs/hebergement-web/bases-de-donnees/mariadb/) |✔️|✔️|✔️|
 || [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) |✔️|✔️|✔️|
 || [RabbitMQ](/fr/docs/hebergement-web/bases-de-donnees/rabbitmq/) |✔️|✔️|✔️|

@@ -10,10 +10,10 @@ Tous les services (HTTP, mais aussi accès distant, bases de données, emails...
 
 - [Certificats Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/)
 - [Rediriger HTTP vers HTTPS](/fr/docs/hebergement-web/sites/ssl-tls/rediriger-HTTP-vers-HTTPS/)
-- [Générer une CSR](/fr/docs/hebergement-web/sites/ssl-tls/csr)
+- [Générer une CSR](/fr/docs/hebergement-web/sites/ssl-tls/generer-csr/)
 - [Ajouter un certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/ajouter-certificat-ssl/)
-- [Renouveler un certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/renew-a-ssl-certificate)
-- [Priorité des certificats](/fr/docs/hebergement-web/sites/ssl-tls/certificates-priorities)
+- [Renouveler un certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/renouveler-un-certificat-ssl/)
+- [Priorité des certificats](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/)
 
 * [API](https://api.alwaysdata.com/v1/ssl/doc/)
 * [Configurer TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/)

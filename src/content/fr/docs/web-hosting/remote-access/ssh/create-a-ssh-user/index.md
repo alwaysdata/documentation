@@ -11,7 +11,7 @@ Afin de vous connecter à votre compte en _SSH_, il est nécessaire de disposer 
 ![Interface d'administration : liste des utilisateurs SSH](images/admin-panel_ssh-users-list.png)
 
 - Nom : nom de l'utilisateur SSH, préfixé du nom de votre compte ;
-- Mot de passe : mot de passe associé à l'utilisateur. Il est nécessaire pour la première connexion SSH ; la [connexion par clés](/fr/docs/hebergement-web/acces-distant/ssh/use-keys) peut ensuite être utilisée ;
+- Mot de passe : mot de passe associé à l'utilisateur. Il est nécessaire pour la première connexion SSH ; la [connexion par clés](/fr/docs/hebergement-web/acces-distant/ssh/utiliser-des-cles-ssh/) peut ensuite être utilisée ;
 - Répertoire "HOME" : répertoire dans lequel l'utilisateur arrive à sa connexion ;
 - [Shell](https://fr.wikipedia.org/wiki/Shell_Unix) : interpréteur de commande de votre utilisateur.
 

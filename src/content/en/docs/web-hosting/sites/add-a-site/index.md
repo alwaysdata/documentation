@@ -16,7 +16,7 @@ Go to the **Web > Sites > Add a site** menu.
 ## Addresses
 Adding all the addresses in this menu is **mandatory** to access them as sites:
 - for example, to access a website on *www\.example.org* and *example.org* both addresses must be added,
-- entering your domain in the **Domains** menu is not enough either. Even for a domain using our [DNS servers](/domains#dns-management).
+- entering your domain in the **Domains** menu is not enough either. Even for a domain using our [DNS servers](/en/docs/domains/#dns-management).
 
 Also, if the domain does not use our DNS servers, you will need to [create DNS records](/en/docs/web-hosting/sites/use-external-addresses) with the DNS provider.
 

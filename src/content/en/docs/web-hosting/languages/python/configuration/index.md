@@ -134,7 +134,7 @@ You can also fill-in a number of optional fields:
 
 ## ASGI deployement
 
-Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://www.uvicorn.org/).
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
 
 ![User Program Type](images/user-program.png)
 

@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Emails
 ---
 
-À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine](/domains)).
+À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine](/fr/docs/domaines/)).
 
 ![Interface d'administration : Liste des boîtes emails](images/admin-panel_mailbox-list.png)
 

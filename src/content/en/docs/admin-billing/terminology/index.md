@@ -9,7 +9,7 @@ An alwaysdata user, named **profile** is represented by an email address used to
 
 This user *can* be the owner of **accounts** on our [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) as well as **[servers](/en/docs/admin-billing/billing/private-cloud-prices)** on which they can create accounts. Each **account** is *isolated* from one another.
 
-On these **accounts**, it is possible to manage [domains](/domains), host [email addresses](/e-mails), [websites](/en/docs/web-hosting/sites), [databases](/en/docs/web-hosting/databases), or other applications.
+On these **accounts**, it is possible to manage [domains](/en/docs/domains/), host [email addresses](/en/docs/e-mails/), [websites](/en/docs/web-hosting/sites), [databases](/en/docs/web-hosting/databases), or other applications.
 
 ![](images/terminology.png)
 

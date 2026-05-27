@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Hébergement web
 ---
 
-Pour qu'une adresse hébergée chez alwaysdata soit accessible en HTTP/HTTPS elle **doit** être déclarée dans **Web > Sites**. Choisissez le [langage](/fr/docs/hebergement-web/languages/) ou type de votre choix et paramétrez-les.
+Pour qu'une adresse hébergée chez alwaysdata soit accessible en HTTP/HTTPS elle **doit** être déclarée dans **Web > Sites**. Choisissez le [langage](/fr/docs/hebergement-web/langages/) ou type de votre choix et paramétrez-les.
 
 Vous pouvez avoir autant de sites que vous le souhaitez sur un seul et même compte. À noter que cela entraîne cependant un risque de sécurité, l'isolation étant au niveau des comptes.
 

@@ -7,7 +7,7 @@ eleventyNavigation:
 
 [Redis](https://redis.io/) is an in-memory data structure store.
 
-Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices). [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users can ask us to install *Redis* [at server level](/en/docs/web-hosting/databases/redis).
+Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices). [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users can ask us to install *Redis* [at server level](/en/docs/web-hosting/databases/redis/).
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 

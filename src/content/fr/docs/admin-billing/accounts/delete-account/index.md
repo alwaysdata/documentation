@@ -20,4 +20,4 @@ Cela va supprimer tous les domaines, adresses email, sites web, fichiers, bases 
 > Seul le **propriétaire du compte** peut effectuer cette action. Par ailleurs, aucun remboursement n'est prévu lors d'une suppression avant échéance.
 
 
-- [Comment supprimer son profil](/fr/docs/admin-facturation/profil/supprimer-un-compte/)
+- [Comment supprimer son profil](/fr/docs/admin-facturation/comptes/supprimer-un-compte/)

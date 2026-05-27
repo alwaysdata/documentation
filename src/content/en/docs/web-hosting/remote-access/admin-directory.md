@@ -9,7 +9,7 @@ Every account have a `$HOME/admin` directory, accessible in [FTP](/en/docs/web-h
 
 It contains:
 
-- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](/e-mails),
+- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](/en/docs/e-mails/),
 - _config_,
 - _logs_,
 - _tmp_: temporary storage for your apps (we *strongly* recommend using this instead of `/tmp`),

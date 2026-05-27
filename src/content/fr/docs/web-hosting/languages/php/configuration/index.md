@@ -17,7 +17,7 @@ eleventyNavigation:
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
 
-Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/languages/#versions).
+Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
 ## Paramètres (php.ini)
 

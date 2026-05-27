@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: E-mails
 ---
 
-From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name](/domains).
+From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name](/en/docs/domains/).
 
 ![Administration interface: List of e-mail boxes](images/admin-panel_mailbox-list.png)
 

@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Sites web
 ---
 
-Pour utiliser ses propres adresses sans [gérer son domaine](/domains/add-an-external-domain) chez alwaysdata, il faut :
+Pour utiliser ses propres adresses sans [gérer son domaine](/fr/docs/domaines/ajouter-un-domaine-externe/) chez alwaysdata, il faut :
 
 1. chez le prestataire DNS du domaine, créer des [enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS) pointant vers votre compte alwaysdata ;
 

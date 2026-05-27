@@ -17,7 +17,7 @@ eleventyNavigation:
 
 La version par défaut est Lua 5.4. C'est cette version qui est notamment utilisée lorsque vous démarrez `lua`.
 
-Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/languages/#versions).
+Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
 ## Binaire à utiliser
 

@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Programmes
 ---
 
-Un **[pack Small](/fr/docs/admin-billing/billing/public-cloud-prices)** est offert **gratuitement** aux projets libres actifs.
+Un **[pack Small](/fr/docs/admin-facturation/facturation/prix-cloud-public/)** est offert **gratuitement** aux projets libres actifs.
 
 Pour en bénéficier présentez-nous votre projet en nous contactant par email (*community[at]alwaysdata.com*) ou en ouvrant un [ticket de support](https://admin.alwaysdata.com/support/add/).
 

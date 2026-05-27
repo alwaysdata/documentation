@@ -9,7 +9,7 @@ eleventyNavigation:
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > RENOUVELER**.
 ![Renouveler un domaine](images/admin-panel_renew.png)
 
-- [Dates limites](domains/deadlines)
+- [Dates limites](/fr/docs/domaines/dates-limites/)
 
 ## Renouvellement automatique
 

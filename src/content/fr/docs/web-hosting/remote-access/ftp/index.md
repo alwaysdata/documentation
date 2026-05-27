@@ -9,9 +9,9 @@ eleventyNavigation:
 FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le partage de fichiers sur un réseau distant.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)
-- [Créer un utilisateur FTP](/fr/docs/hebergement-web/acces-distant/ftp/create-a-ftp-user)
-- [Télécharger des fichiers avec FileZilla](/fr/docs/hebergement-web/acces-distant/ftp/use-filezilla)
-- [Problèmes fréquents](/fr/docs/hebergement-web/acces-distant/ftp/troubleshooting)
+- [Créer un utilisateur FTP](/fr/docs/hebergement-web/acces-distant/ftp/creer-un-utilisateur-ftp/)
+- [Télécharger des fichiers avec FileZilla](/fr/docs/hebergement-web/acces-distant/ftp/utiliser-filezilla/)
+- [Problèmes fréquents](/fr/docs/hebergement-web/acces-distant/ftp/problemes-frequents/)
 
 ## Se connecter en FTP
 

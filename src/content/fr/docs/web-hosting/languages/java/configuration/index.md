@@ -18,7 +18,7 @@ eleventyNavigation:
 
 La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Java**. C'est cette version qui est notamment utilisée lorsque vous démarrez `java`.
 
-Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/languages/#-versions).
+Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#-versions).
 
 > [!NOTE]
 > Seules les **[versions LTS](https://www.java.com/releases/)** sont rendues disponibles.

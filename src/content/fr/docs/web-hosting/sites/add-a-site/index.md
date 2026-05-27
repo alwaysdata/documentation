@@ -10,13 +10,13 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 ![Interface d'administration : liste des sites](images/admin-panel_sites-list.png)
 
 > [!TIP] Astuce
-> Si vous partez de zéro vous pouvez profiter de notre [marketplace](/fr/docs/development/marketplace) en allant dans **Web > Sites > Installer une application**.
+> Si vous partez de zéro vous pouvez profiter de notre [marketplace](/fr/docs/developpement/marketplace) en allant dans **Web > Sites > Installer une application**.
 
 
 ## Adresses
 L'ajout de toutes les adresses dans ce menu est un **impératif** pour qu'elles soient accessibles comme sites :
 - par exemple, pour accéder à un site sur *www\.example.org* et *example.org* les deux adresses doivent être ajoutées ;
-- renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [serveurs DNS](/domains#gestion-dns).
+- renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [serveurs DNS](/fr/docs/domaines/#gestion-dns).
 
 Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer des enregistrements DNS](/fr/docs/hebergement-web/sites/utiliser-des-adresses-externes/) chez le prestataire DNS.
 

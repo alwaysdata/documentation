@@ -18,4 +18,4 @@ Cet import est effectué avec une authentification [IMAP](https://fr.wikipedia.o
 
 3. Changer les enregistrements MX, pour utiliser les serveurs d'alwaysdata : `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 
-Cette migration peut être couplée par une [migration de site web](/fr/docs/hebergement-web/sites/migrer-un-site-chez-alwaysdata/) ou encore un [transfert de domaine](/fr/docs/domaines/transfer-a-domain).
+Cette migration peut être couplée par une [migration de site web](/fr/docs/hebergement-web/sites/migrer-un-site-chez-alwaysdata/) ou encore un [transfert de domaine](/fr/docs/domaines/transferer-un-domaine/).

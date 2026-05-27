@@ -14,7 +14,7 @@ You can configure permissions through the **Permissions** menu in your customer 
 ## Overall permissions
 
 - **Account management**: delegates account opening to your associates (*Subscriptions* menu),
-- **[Billing](/admin-billing#billing)**: lets accounting or administrative departments receive an alert when your account balance is negative or when a ticket relating to billing is opened by us, buy/renew/transfer domains (*Billing* menu),
+- **[Billing](/en/docs/admin-billing/billing/)**: lets accounting or administrative departments receive an alert when your account balance is negative or when a ticket relating to billing is opened by us, buy/renew/transfer domains (*Billing* menu),
 - **Technical at account level**: lets technical teams manage the purely technical aspects of your hosting (sites, e-mails, databases) without worrying about its management or billing,
 - **Technical at server level**: available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), your network administrator can manage the rules for the firewalls, e-mail send queues and many other aspects.
 
@@ -31,8 +31,8 @@ As long as a profile has permissions on the account, it has access to the *Serve
 - **Resources**: permission for accounts on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) allows to manage [probes](/en/docs/web-hosting/sites/use-probes) (*Web > Probes* menu) and [resources](/en/docs/technical-specifications/system-resources-alerts-and-limitations) (*Advanced > Resources* menu),
 - **[Statistics](/en/docs/web-hosting/analytics)**: analyze the visits to your sites (*Web > Analytics* menu),
 - **[Sites](/en/docs/web-hosting/sites)**: configure the websites and the Apache environment (*Web > Sites*, *Web > Configuration* menus),
-- **[Domains](/domains)** technically manage domains and their DNS (*Domains* menu). For all billable operations, you will also need the __Billing__ permissions on the owner profile,
-- **[Emails](/e-mails)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
+- **[Domains](/en/docs/domains/)** technically manage domains and their DNS (*Domains* menu). For all billable operations, you will also need the __Billing__ permissions on the owner profile,
+- **[Emails](/en/docs/e-mails/)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
 - **[History of sent emails](/en/docs/e-mails/check-email-sending)** (*Emails > History* menu),
 - **[Databases](/en/docs/web-hosting/databases)** (*Databases* menu),
 - **[FTP](/en/docs/web-hosting/remote-access/ftp)** (*Remote access > FTP* menu),

@@ -13,7 +13,7 @@ Using Redis in PHP requires [installing a PECL extension](/en/docs/web-hosting/l
 $ ad_install_pecl redis
 ```
 
-Then don’t forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration#parameters-phpini):
+Then don’t forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration/#parameters-phpini):
 
 ```
 extension=/home/[account]/path/to/redis-[VERSION].so

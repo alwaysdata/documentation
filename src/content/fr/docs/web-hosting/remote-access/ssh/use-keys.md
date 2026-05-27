@@ -50,7 +50,7 @@ Ou en copiant le contenu de ce fichier dans le fichier `$HOME/.ssh/authorized_ke
 > Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d'hôte SSH.
 
 
-Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/choisir-son-plan/) peuvent les déclarer [directement dans l'interface d'administration](/fr/docs/hebergement-web/acces-distant/ssh/install-globally-ssh-keys), elles seront alors globales au serveur et donc utilisables par tous les comptes.
+Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/choisir-son-plan/) peuvent les déclarer [directement dans l'interface d'administration](/fr/docs/hebergement-web/acces-distant/ssh/cles-ssh-globales/), elles seront alors globales au serveur et donc utilisables par tous les comptes.
 
 3. Se connecter en SSH : à la prochaine connexion SSH, votre passphrase vous sera demandée (ou rien du tout si votre passphrase est vide).
 

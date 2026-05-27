@@ -18,7 +18,7 @@ Cela vous donnera accès à vos codes personnels (code secret et QR code).
 Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un code de sécurité à usage unique à indiquer lors des prochaines connexions à l'interface d'administration. Ce code de sécurité est renouvelé toutes les _30 secondes_ (calcul basé sur l'heure ou un compteur).
 
 > [!NOTE]
-> En cas de perte de l'authentification à deux facteurs, envoyez un email à *contact[at]alwaysdata.com* pour la désactiver. [Une vérification sera effectuée](/fr/docs/admin-facturation/profil/admin-access-loss#blocage-lié-à-lauthentification-2-facteurshahahugoshortcode-s0-hbhb).
+> En cas de perte de l'authentification à deux facteurs, envoyez un email à *contact[at]alwaysdata.com* pour la désactiver. [Une vérification sera effectuée](/fr/docs/admin-facturation/profil/perte-dacces-admin/#blocage-lie-a-l-authentification-a-2-facteurs).
 
 
 ## OTP applications
@@ -27,4 +27,4 @@ Vous pourrez alors _paramétrer votre application TOTP_ qui vous renverra un cod
 - **[EnteAuth](https://ente.io/auth/)** : [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth), [Apple Store](https://apps.apple.com/us/app/ente-auth/id6444121398) et [F-Droid](https://f-droid.org/packages/io.ente.auth/).
 
 ---
-Une authentification à deux facteurs est aussi disponible [en SSH](/fr/docs/hebergement-web/acces-distant/ssh/ssh-two-factor-authentication) pour les utilisateurs des [offres Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.
+Une authentification à deux facteurs est aussi disponible [en SSH](/fr/docs/hebergement-web/acces-distant/ssh/authentification-2-facteurs-ssh/) pour les utilisateurs des [offres Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.

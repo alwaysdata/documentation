@@ -32,14 +32,14 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 - __Ressources__ : permission pour les comptes sur [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) permet de gérer les [sondes](/fr/docs/hebergement-web/sites/utiliser-les-sondes-de-monitoring/) (menu *Web > Sondes*) et [ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) (menu *Avancé > Ressources*) ;
 - __[Statistiques](/fr/docs/hebergement-web/statistiques/)__ : analysez les visites de vos sites (menu *Web > Analytics*)  ;
 - __[Sites](/fr/docs/hebergement-web/sites/)__ : configurez les sites web et l'environnement Apache (menus *Web > Sites*, *Web > Configuration*) ;
-- __[Domaines](/domains)__ gérez techniquement les domaines et leurs DNS (menu *Domaines*). Pour toutes les opérations facturables, il faudra aussi les permissions __Facturation__ sur le profil propriétaire ;
-- __[Emails](/e-mails)__ (menus *Emails > Adresses*, *Emails > Listes de diffusion*, *Emails > Configuration*) ;
+- __[Domaines](/fr/docs/domaines/)__ gérez techniquement les domaines et leurs DNS (menu *Domaines*). Pour toutes les opérations facturables, il faudra aussi les permissions __Facturation__ sur le profil propriétaire ;
+- __[Emails](/fr/docs/emails/)__ (menus *Emails > Adresses*, *Emails > Listes de diffusion*, *Emails > Configuration*) ;
 - __[Historique des emails envoyés](/fr/docs/emails/verifier-l-envoi-d-un-email/)__ (menu *Emails > Historique*) ;
 - __[Bases de données](/fr/docs/hebergement-web/bases-de-donnees/)__ (menu *Bases de données*) ;
 - __[FTP](/fr/docs/hebergement-web/acces-distant/ftp/)__ (menu *Accès distant > FTP*) ;
 - __[SSH](/fr/docs/hebergement-web/acces-distant/ssh/)__ (menu *Accès distant > SSH*) ;
 - __[WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/)__ (menu *Accès distant > WebDAV*) ;
-- __[Environnement](/fr/docs/hebergement-web/languages/)__ : configurez les langages de programmation (menu *Environnement*) ;
+- __[Environnement](/fr/docs/hebergement-web/langages/)__ : configurez les langages de programmation (menu *Environnement*) ;
 - __Processus__ : processus en cours d'exécution pouvant être analysés ou tués (menu *Avancé > Processus*) ;
 - __[Adresses IP](/fr/docs/hebergement-web/adresses-ip-dediees/)__ : louer des IP dédiées pour HTTP ou SMTP (menu *Avancé > Adresses IP*) ;
 - __[Certificats SSL](/fr/docs/hebergement-web/sites/ssl-tls)__ (menu *Avancé > Certificats SSL*) ;
@@ -53,7 +53,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 À partir du moment où un profil a des permissions sur le serveur, il a accès au menu *Configuration*.
 
 - __Contact technique__ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur ;
-- __[Utilisateurs SSH](/fr/docs/hebergement-web/acces-distant/ssh/install-globally-ssh-keys)__ : installez des clés SSH pour un accès simplifié aux différents comptes (menu *Clés SSH*);
+- __[Utilisateurs SSH](/fr/docs/hebergement-web/acces-distant/ssh/cles-ssh-globales/)__ : installez des clés SSH pour un accès simplifié aux différents comptes (menu *Clés SSH*);
 - __[Règles firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall/)__ : créez des règles firewall et consultez le bannissement automatique d'IP au niveau du serveur  (menu *Firewall*);
 - __Configuration SMTP__ : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam (menu *SMTP*);
 - __Utilisateurs base de données__ : donnez un accès global aux bases de données de l'ensemble des comptes (menu *Utilisateurs MySQL*) ;
@@ -65,7 +65,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 
 ## 2FA nécessaire
 
-Lorsque la case **2FA nécessaire** est cochée, l'utilisateur en question doit se connecter [avec 2 facteurs](/fr/docs/admin-facturation/profil/two-factor-authentication) pour accéder aux menus auxquels on lui a donné accès.
+Lorsque la case **2FA nécessaire** est cochée, l'utilisateur en question doit se connecter [avec 2 facteurs](/fr/docs/admin-facturation/profil/authentification-2-facteurs/) pour accéder aux menus auxquels on lui a donné accès.
 
 ## Mes permissions
 

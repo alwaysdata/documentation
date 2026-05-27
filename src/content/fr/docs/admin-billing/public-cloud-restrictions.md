@@ -14,7 +14,7 @@ Voici une liste - non exhaustive - d'interdictions :
 	- envoyer du [spam](https://fr.wikipedia.org/wiki/Spam#Dans_l'Union_europ%C3%A9enne) ;
 		- tout message doit être envoyé avec le **consentement explicite** (_opt-in_) du destinataire ;
 		- utiliser une liste achetée à un tiers est donc considéré comme du spam ;
-		- [plusieurs questions à se poser avant de se lancer dans l'emailing](e-mails/delivery#emailing).
+		- [plusieurs questions à se poser avant de se lancer dans l'emailing](/fr/docs/emails/delivrabilite-bonnes-pratiques/#emailing).
 	- tout autre usage illicite.
 
 Pour toutes ces restrictions, nous nous réservons le droit de suspendre et/ou résilier le profil.

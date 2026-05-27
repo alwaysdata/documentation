@@ -19,7 +19,7 @@ A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
 
 Not yet a customer? Sign-up to our [platform](https://www.alwaysdata.com/en/register/) or contact our [sales department](https://www.alwaysdata.com/en/).
 
-Want to show your support? [Give us some ❤](love) !
+Want to show your support? [Give us some ❤](/en/love/) !
 
 > [!TIP]
 > Any publication on Internet entails [legal obligations](/en/docs/web-hosting/sites/legal-requirements-on-internet), make yourself aware of them before placing your content on-line.

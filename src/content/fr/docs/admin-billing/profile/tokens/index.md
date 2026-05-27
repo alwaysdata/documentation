@@ -12,12 +12,12 @@ Pour en générer rendez-vous dans le menu **Profil**.
 
 ![Gérer les tokens](images/profile-token.png)
 
-Il est nécessaire d'avoir activé l'[authentification 2 facteurs](/fr/docs/admin-facturation/profil/two-factor-authentication) pour générer/modifier ses tokens.
+Il est nécessaire d'avoir activé l'[authentification 2 facteurs](/fr/docs/admin-facturation/profil/authentification-2-facteurs/) pour générer/modifier ses tokens.
 
 > [!TIP] Astuce
 > Pour encore plus de sécurité, générez en un par application.
 
 
-Comme pour l'interface d'administration vous pouvez ne donner accès qu'à [certaines IP](/fr/docs/admin-facturation/profil/ip-access-authorization).
+Comme pour l'interface d'administration vous pouvez ne donner accès qu'à [certaines IP](/fr/docs/admin-facturation/profil/autorisation-dacces-selon-IP).
 
-Ils ont les mêmes [permissions](/fr/docs/admin-facturation/permissions) que le profil auquel ils sont liés.
+Ils ont les mêmes [permissions](/fr/docs/admin-facturation/permissions/) que le profil auquel ils sont liés.

@@ -16,7 +16,7 @@ Pour prendre en compte certaines modifications, il est nécessaire de redémarre
 	
 ![Bouton de redémarrage](images/site-restart.png)
 
-Ces actions sont aussi accessibles via notre [API](/fr/docs/development/api).
+Ces actions sont aussi accessibles via notre [API](/fr/docs/developpement/api).
 
 > [!NOTE]
 > Un seul serveur Apache existe par compte. En redémarrant un site utilisant ce serveur web (PHP, Redirection, Fichiers statiques et Apache personnalisé), tous les sites Apache du compte seront redémarrés.

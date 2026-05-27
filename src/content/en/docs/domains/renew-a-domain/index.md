@@ -9,7 +9,7 @@ Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
 ![Renew a domain](images/admin-panel_renew.png)
 
-- [Deadlines](domains/deadlines)
+- [Deadlines](/en/docs/domains/deadlines)
 
 
 ## Automatic renewal

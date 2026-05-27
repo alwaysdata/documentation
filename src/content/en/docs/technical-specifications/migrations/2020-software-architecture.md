@@ -196,7 +196,7 @@ A number of actions can be performed on the 2017 architecture - Debian Jessie (8
 
 - switch to *Apache 2.4* in the **Web > Configuration > Apache** menu,
 
-- change the [TLS configuration](/en/docs/web-hosting/sites/sl-tls/configure-tls) to *Intermediate* in the **Web > Configuration > SSL** menu,
+- change the [TLS configuration](/en/docs/web-hosting/sites/ssl-tls/configure-tls) to *Intermediate* in the **Web > Configuration > SSL** menu,
 
 - replace `ALWAYSDATA_HTTPD_PORT` and `ALWAYSDATA_HTTPD_IP` environment variables in your applications with `PORT` and `IP`,
 

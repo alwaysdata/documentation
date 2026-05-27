@@ -24,4 +24,4 @@ Une fois le fichier `.so` compilé et ajouté à votre [espace de fichiers](/fr/
 LoadModule <MODULE> $HOME/chemin/vers/le/module.so
 ```
 
-- [GeoIP](/fr/docs/development/guides/geoip)
+- [GeoIP](/fr/docs/developpement/guides/geoip/)
