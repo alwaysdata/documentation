@@ -29,7 +29,7 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > WebDAV** d
     - sous Vista et supérieurs : `https://webdav-[compte].alwaysdata.net/` 
 3. Cliquez sur _Se connecter_ sous un nom d'utilisateur différent, puis rentrez vos identifiants. Validez et cliquez sur _Terminer_.
 
-### Avec Mac OS X
+### Avec macOS
 
 1. Dans le **Finder**, choisissez _Aller > Se connecter au serveur_ ;
 2. Dans le champ _Adresse du serveur_, entrez `http://webdav-[compte].alwaysdata.net/` ;
