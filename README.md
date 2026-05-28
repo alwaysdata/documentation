@@ -151,9 +151,8 @@ ELEVENTY_ENV=production npm run build
 - [Shiki](https://shiki.style/) - Syntax highlighting
 - [Phosphor Icons](https://phosphoricons.com/) - Icon set
 - [General Sans](https://www.fontshare.com/fonts/general-sans) - Typography
-- [lite-youtube-embed](https://github.com/nicholashudson/lite-youtube-embed) - Lazy YouTube
 - [table-saw](https://github.com/zachleat/table-saw) - Responsive tables
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License
