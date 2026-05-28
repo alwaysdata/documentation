@@ -19,6 +19,9 @@ Avant de lancer l'opération le propriétaire doit :
 Ces informations doivent se récupérer dans l'onglet **Domaines > Détails de [example.org] - 🔎** :
 ![Préparer un transfert](images/admin-panel_domain-details.png)
 
+Il peut aussi désactiver [DNSSEC](/domains/dnssec/) pour éviter de *possibles* problèmes.
+ 
+>[!NOTE]
 Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.
 
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)
