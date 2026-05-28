@@ -22,9 +22,4 @@ Memcached only runs in local mode with isolated permissions (separate user).
 ---
 
 - [Memcached documentation](https://github.com/memcached/memcached/wiki)
-
----
-
-Find our guides:
-
 - [Configuring a PHP application with Memcached](/en/docs/web-hosting/databases/memcached/php)

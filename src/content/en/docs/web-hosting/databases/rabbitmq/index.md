@@ -5,6 +5,12 @@ eleventyNavigation:
   parent: Databases
 ---
 
+## Supported versions
+
+||
+|---|
+| 3.10 |
+
 ## Connection
 
 |||

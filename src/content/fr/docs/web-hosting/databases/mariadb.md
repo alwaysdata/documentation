@@ -6,6 +6,15 @@ eleventyNavigation:
   parent: Bases de données
 ---
 
+## Versions supportées
+
+||
+|---|
+| 10.6 |
+| 10.11 |
+| 11.4 |
+| 11.8 |
+
 ## Connexion
 
 |                   |                                                  |
@@ -69,7 +78,7 @@ Les *events MySQL* ne sont pas supportés sur notre Cloud Public.
 Sur le Cloud Public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
 > [!NOTE]
-> MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander à utiliser MySQL.
+> MariaDB est proposé par défaut sur nos serveurs mais les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander à utiliser MySQL 8.0.
 
 
 ---

@@ -21,9 +21,4 @@ Redis only runs in local mode with isolated permissions (separate user).
 ---
 
 - [Redis documentation](https://redis.io/documentation)
-
----
-
-Find our guides:
-
 - [Configuring a PHP application with Redis](/en/docs/web-hosting/databases/redis/php)

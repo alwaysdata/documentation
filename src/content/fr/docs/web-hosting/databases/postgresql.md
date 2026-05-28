@@ -6,6 +6,14 @@ eleventyNavigation:
   parent: Bases de données
 ---
 
+## Versions supportées
+
+||
+|---|
+| 16 |
+| 17 |
+| 18 |
+
 ## Connexion
 
 |                   |                                                  |

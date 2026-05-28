@@ -6,6 +6,13 @@ eleventyNavigation:
   parent: Bases de données
 ---
 
+## Versions supportées
+
+||
+|---|
+| 7.17 |
+| 8.17 |
+
 ## Connexion
 
 |             |                                              |
@@ -17,8 +24,6 @@ Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinc
 
 > [!NOTE]
 > Elasticsearch n'est disponible qu'en environnements [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/).
-
-
 
 ---
 

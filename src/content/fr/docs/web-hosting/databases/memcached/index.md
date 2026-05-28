@@ -22,9 +22,4 @@ Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 ---
 
 - [Documentation Memcached](https://github.com/memcached/memcached/wiki)
-
----
-
-Retrouvez nos guides :
-
 - [Configurer une application PHP avec Memcached](/fr/docs/hebergement-web/bases-de-donnees/memcached/php)

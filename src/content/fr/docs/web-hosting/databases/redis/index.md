@@ -22,7 +22,4 @@ Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 ---
 
 - [Documentation Redis](https://redis.io/documentation)
-
-Retrouvez nos guides :
-
 - [Configurer une application PHP avec Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/php)
