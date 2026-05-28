@@ -11,20 +11,20 @@
     }
 
     h2 {
-      @apply text-3xl font-bold mt-8 mb-4 pb-2;
+      @apply text-3xl font-semibold mt-8 mb-4 pb-2;
       @apply border-b border-dashed border-slate-400 dark:border-neutral-600;
     }
 
     h3 {
-      @apply text-2xl font-semibold mt-6 mb-3;
+      @apply text-2xl font-medium mt-6 mb-3;
     }
 
     h4 {
-      @apply text-xl font-semibold mt-5 mb-2;
+      @apply text-xl font-medium mt-5 mb-2;
     }
 
     h5, h6 {
-      @apply text-lg font-semibold mt-4 mb-2;
+      @apply text-lg font-medium mt-4 mb-2;
     }
 
     /* Paragraphs */
@@ -95,7 +95,7 @@
 
     /* Strong and emphasis */
     strong, b {
-      @apply font-bold;
+      @apply font-semibold;
     }
 
     em, i {

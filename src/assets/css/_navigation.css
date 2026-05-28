@@ -28,7 +28,7 @@
   /* Top-level parent items (root categories) */
   #sidebar nav > ul > li > a,
   #mobile-sidebar nav > ul > li > a {
-    @apply font-semibold text-slate-900 dark:text-neutral-100;
+    @apply font-medium text-slate-900 dark:text-neutral-100;
   }
 
   /* 2nd level and more items*/
@@ -252,7 +252,7 @@
   }
 
   .index:has(ul) > li > a {
-    @apply block py-2 text-lg font-semibold;
+    @apply block py-2 text-lg font-medium;
   }
 
   .index:has(ul) ul,

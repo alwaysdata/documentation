@@ -18,16 +18,15 @@ import i18n from "eleventy-plugin-i18n";
 import translations from "../src/_data/translations.js";
 
 // Image transform configuration
-const CONTENT_WIDTH = 700;
+const CONTENT_WIDTH = 500;
 
 function getImageTransformConfig() {
   return {
     urlPath: "/assets/img/",
     outputDir: "./_site/assets/img/",
-    formats: ["svg", "avif", "webp"],
+    formats: ["webp"],
     useCache: true,
-    svgShortCircuit: true,
-    widths: [CONTENT_WIDTH + 30, CONTENT_WIDTH * 2, CONTENT_WIDTH * 4],
+    widths: [CONTENT_WIDTH, CONTENT_WIDTH * 2, CONTENT_WIDTH * 3],
     filenameFormat: function (id, src, width, format, options) {
       const filename = src.split("/").slice(-1)[0].split(".")[0];
       return `${slugify(filename)}-${id}-__${width}__.${format}`;
