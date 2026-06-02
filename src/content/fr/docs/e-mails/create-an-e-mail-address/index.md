@@ -8,13 +8,13 @@ eleventyNavigation:
 
 À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine](/fr/docs/domaines/)).
 
-![Interface d'administration : Liste des boîtes emails](images/admin-panel_mailbox-list.png)
+![](images/admin-panel_mailbox-list.png)
 
 Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
 
 ## Informations obligatoires
 
-![Interface d'administration : Emails - informations obligatoire](images/admin-panel_create-mailbox_required-infos.png)
+![](images/admin-panel_create-mailbox_required-infos.png)
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
 - _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)](/fr/docs/emails/adresse-collectrice/).
@@ -28,7 +28,7 @@ L'antispam utilisé pour filtrer le courrier électronique publicitaire non souh
 > L'antispam paramétrable est l'antispam des courriers entrants. Les emails partant de nos serveurs passent obligatoirement par un antispam non-paramétrable.
 
 
-![Interface d'administration : Emails - Antispam](images/admin-panel_mailbox_antispam.png)
+![](images/admin-panel_mailbox_antispam.png)
 
 - _Score_ : l'anti-spam attribue à chaque message un score suivant la probabilité qu'il s'agisse d'un spam. Les messages dépassant ce score seront stockés dans un dossier. Plus le score est bas, plus un email a la possibilité d'être marqué comme spam, il est donc préférable de laisser la valeur par défaut ;
 - _Dossier_ : dossier dans lequel les spams seront déplacés. Le dossier par défaut est `Spam` ;
@@ -38,7 +38,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ## Purge des dossiers
 
-![Interface d'administration : Emails - Purge des dossiers](images/admin-panel_mailbox_purge.png)
+![](images/admin-panel_mailbox_purge.png)
 
 - _Durée de conservation_ : après cette durée, les messages seront définitivement effacés ;
 - _Dossiers_ : liste de dossiers à purger (séparés par un espace).
@@ -49,7 +49,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ## Redirection
 
-![Interface d'administration : Emails - Redirection](images/admin-panel_mailbox_redirection.png)
+![](images/admin-panel_mailbox_redirection.png)
 
 - _Adresses_ : adresses vers lesquelles les emails seront redirigés (séparées par un espace) ;
 - _Copie locale_ : en cochant cette case, tous les emails redirigés seront également copiés dans cette boîte email. Sinon les emails ne seront pas stockés, uniquement redirigés.
@@ -65,7 +65,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ## Réponse automatique
 
-![Interface d'administration : Emails - Répondeur automatique](images/admin-panel_mailbox_responder.png)
+![](images/admin-panel_mailbox_responder.png)
 
 - _Fréquence de répétition_ : un seul message automatique par adresse sera envoyé pour la durée de cette période (en jours) ;
 - _Sujet_ : sujet du message automatique ;
@@ -73,7 +73,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ## Quota
 
-![Interface d'administration : Emails - Quota](images/admin-panel_mailbox_quota.png)
+![](images/admin-panel_mailbox_quota.png)
 
 - _Taille_ : taille maximale de la boîte email, en Mo (si ce quota est atteint, les nouveaux messages seront refusés).
 
@@ -83,6 +83,6 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ## Script Sieve
 
-![Interface d'administration : Emails - Script Sieve](images/admin-panel_mailbox_sieve.png)
+![](images/admin-panel_mailbox_sieve.png)
 
 Cette technologie permet d'effectuer des [opérations plus précises](/fr/docs/emails/utiliser-les-scripts-sieve/) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.

@@ -10,7 +10,7 @@ Le firewall (pare-feu) se gère dans le menu **Firewall** du serveur.
 
 ## Règles
 Menu pour retrouver, créer et ajuster ses règles de firewall.
-![Interface d'administration : liste des règles de firewall actives](images/admin-panel_list-rules.png)
+![](images/admin-panel_list-rules.png)
 
 Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité sur les autres.
 
@@ -29,7 +29,7 @@ Pour ajouter une règle, choisissez :
 
 Ne rien mettre dans *Hôtes* et *Ports* va activer la règle pour tous sauf si une règle supérieure indique le contraire.
 
-![Interface d'administration : ajouter une règle](images/admin-panel_add-rule.png)
+![Ajouter une règle](images/admin-panel_add-rule.png)
 
 Il est possible de donner un label par règles (**Annotations**) et directement dans les règles en utilisant le caractère `#`.
 
@@ -39,7 +39,7 @@ Il est possible de donner un label par règles (**Annotations**) et directement 
 
 ## Banissements firewall
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
-![Interface d'administration : liste des bannissements en cours](images/admin-panel_list-bans.png)
+![Liste des banissements en cours](images/admin-panel_list-bans.png)
 
 Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire.
 

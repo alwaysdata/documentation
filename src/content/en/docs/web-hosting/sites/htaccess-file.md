@@ -14,11 +14,9 @@ Use an ID and password to protect the access to file for certain users.
 ```
 AuthName "Protected access"
 AuthType Basic
-AuthUserFile /absolute/path/to/.htpasswd
+AuthUserFile /home/[account]/path/to/.htpasswd
 Require valid-user
 ```
-
-The `$HOME` variable can be used to indicate the root of the account.
 
 The `.htpasswd` contains the list of Id/password combinations allowed. It can be placed anywhere but it must not be readable from the outside.
 
@@ -78,7 +76,7 @@ RewriteRule ^(.*)$ {Fichier source}/$1
 
 ## Possible errors
 
-Any error linked to `.htaccess` will be visible in the `$HOME/admin/logs/apache/apache.log` file.
+Any error linked to `.htaccess` will be visible in the `/home/[account]/admin/logs/apache/apache.log` file.
 
 ```
 Invalid command '\xef\xbb\xbf', perhaps misspelled or defined by a module not included in the server configuration

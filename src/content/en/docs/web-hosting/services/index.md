@@ -19,7 +19,7 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 
 - It must runs in `foreground`, not fork and leave [^2].
 - When needing to be reached from an external application, bind it to `::` (_IPv6_) and a port from `8300` to `8499`.
-- Log files for running services are located at `$HOME/admin/logs/services/`, containing services' outputs.
+- Log files for running services are located at `/home/[account]/admin/logs/services/`, containing services' outputs.
 	- An extract of those logs is presented in the administration’s interface (**Logs** - 📄).
 - Current processes are accessible via the **Advanced > Processes > Services** menu.
 - The restart of a service sends the `SIGHUP` signal.

@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Go to the **Web > Sites > Modify the [site] - ⚙️ > SSL** section in your alwaysdata interface. Check the *Force HTTPS* box:
 
-![Modify a site: SSL ](images/admin-panel_add-site-ssl.png)
+![](images/admin-panel_add-site-ssl.png)
 
 Redirection will take place at our proxy level - ahead of the HTTP server.
 

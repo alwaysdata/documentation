@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Sites web
 ---
 
-Rendez-vous dans l'onglet **Logs** de votre site (menu **Web > Sites**) pour personnaliser les logs d'accès HTTP ; stockés ensuite dans le répertoire `$HOME/admin/logs/http/`.
+Rendez-vous dans l'onglet **Logs** de votre site (menu **Web > Sites**) pour personnaliser les logs d'accès HTTP ; stockés ensuite dans le répertoire `/home/[compte]/admin/logs/http/`.
 
 ![](images/admin-panel_add-site-logs_standard.png)
 
@@ -33,7 +33,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02
 ```
 
 > [!TIP] Astuce
-> Pour extraire les requêtes longues, utilisez la commande suivante : `awk '{print $NF,$0}' $HOME/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
+> Pour extraire les requêtes longues, utilisez la commande suivante : `awk '{print $NF,$0}' /home/[compte]/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
 
 
 - le format *Personnalisé*. La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.

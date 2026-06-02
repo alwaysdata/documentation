@@ -7,9 +7,9 @@ eleventyNavigation:
 ---
 
 [Apache](http://httpd.apache.org/) 2.4 est disponible sur nos serveurs. Pour ajouter des directives globales à votre configuration Apache rendez-vous dans **Web > Configuration > Apache**.
-![Interface d'administration : configurer Apache](images/admin-panel_apache.png)
+![](images/admin-panel_apache.png)
 
-L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier `$HOME/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier `$HOME/admin/logs/apache/apache.log`. Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier `/home/[compte]/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier `/home/[compte]/admin/logs/apache/apache.log`. Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 
 Apache sert les sites de type PHP, Fichiers statiques et Apache personnalisé.
 
@@ -21,7 +21,7 @@ Apache sert les sites de type PHP, Fichiers statiques et Apache personnalisé.
 Une fois le fichier `.so` compilé et ajouté à votre [espace de fichiers](/fr/docs/hebergement-web/acces-distant/), insérez cette ligne dans les directives globales :
 
 ```
-LoadModule <MODULE> $HOME/chemin/vers/le/module.so
+LoadModule <MODULE> /home/[compte]/chemin/vers/le/module.so
 ```
 
 - [GeoIP](/fr/docs/developpement/guides/geoip/)

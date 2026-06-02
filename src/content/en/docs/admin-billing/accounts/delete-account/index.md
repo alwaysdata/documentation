@@ -9,7 +9,7 @@ You can delete an *account* (e.g. `my_project`) or your *profile* (e.g. `<name@e
 
 In the first case, go to the **Subscriptions** menu and click on the *trash* for the account to delete.
 
-![Delete an account](images/delete-account.png)
+![](images/delete-account.png)
 
 This will delete all of the domains, e-mail addresses, websites, files, databases (...) linked to this account.
 

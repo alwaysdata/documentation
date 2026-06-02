@@ -15,15 +15,18 @@ As this library requires major processing resources it is not available by defau
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- ffmpeg directory: `$HOME/ffmpeg/`
+- Account name: `[account]`
+- ffmpeg directory: `/home/[account]/ffmpeg/`
+
+> [!NOTE]
+> Feel free to adjust according to your needs.
 
 ```sh
-foo@ssh:~/ffmpeg$ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
-foo@ssh:~/ffmpeg$ tar -xJf ffmpeg-release-amd64-static.tar.xz --strip-components=1
-foo@ssh:~/ffmpeg$ rm ffmpeg-release-amd64-static.tar.xz
+[account]@ssh:~/ffmpeg$ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+[account]@ssh:~/ffmpeg$ tar -xJf ffmpeg-release-amd64-static.tar.xz --strip-components=1
+[account]@ssh:~/ffmpeg$ rm ffmpeg-release-amd64-static.tar.xz
 ```
 
-Binary files will be available in the `$HOME/ffmpeg/` directory.
+Binary files will be available in the `/home/[account]/ffmpeg/` directory.
 
 Take the [last amd64 stable version available](https://johnvansickle.com/ffmpeg/).

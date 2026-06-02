@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > CHANGER** (en face de **Propriétaire**). Vous arriverez sur un formulaire vous permettant de renseigner les informations du nouveau propriétaire.
-![Changer le propriétaire d'un domaine](images/admin-panel_owner-change.png)
+![](images/admin-panel_owner-change.png)
 
 Un email de confirmation est envoyé aux deux parties. __Vérifiez les adresses email avant de lancer l'opération__.
 

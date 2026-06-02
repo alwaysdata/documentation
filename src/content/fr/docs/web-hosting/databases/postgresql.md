@@ -29,12 +29,12 @@ Un *pgBouncer* tourne sur le port `5433`. Il est possible de s'y connecter à la
 ### Exemple avec `psql`
 Dans notre exemple, nous utilisons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Nom de la base de données : `foo_base`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
+- Nom du compte : `[compte]`
+- Nom de la base de données : `[compte]_base`
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes.
 
 ```sh
-foo@ssh:~$ psql -h postgresql-foo.alwaysdata.net -U foo -W -d foo_base
+[compte]@ssh:~$ psql -h postgresql-[compte].alwaysdata.net -U [compte] -W -d [compte]_base
 ```
 
 ## Permissions
@@ -76,7 +76,7 @@ Plusieurs possibilités :
 - utiliser la commande suivante :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
+    $ zstdcat /home/[compte]/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
     ```
 
 - récupérer l'archive et utiliser le client de son choix.

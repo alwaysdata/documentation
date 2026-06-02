@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Any user may propose a script in the *language of their choice* allowing users to install their application. This script will be run with the *permissions for the account where installation took place* and must start with a YAML format comment.
 
-![Create an application script](images/create-script.png)
+![](images/create-script.png)
 
 Scripts comprise two parts:
 

@@ -46,9 +46,9 @@ Si vous désirez consulter votre boîte depuis un navigateur, nous mettons à vo
 
 Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (celle de sa première connexion). Pour changer de langue, cliquez sur **Settings** dans le coin supérieur droit, puis **User Interface > Language**.
 
-![Webmail : changer de paramètres - étape 1](images/roundcube_change-parameter-1.png)
+![](images/roundcube_change-parameter-1.png)
 
-![Webmail : changer de paramètres - étape 2](images/roundcube_change-parameter-2.png)
+![](images/roundcube_change-parameter-2.png)
 
 > [!TIP] Astuce
 > Si vous changez votre mot de passe via le webmail, vous devrez procéder à une déconnexion puis reconnexion.
@@ -56,7 +56,7 @@ Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (ce
 
 ## Remarques
 
-- Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `$HOME/admin/mail` ;
+- Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `/home/[compte]/admin/mail` ;
 - Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des tentatives régulières de renvoi ;
 - La taille limite des emails envoyés est fixée à **50 Mo** ;
 - L'authentification SMTP n'est pas nécessaire dans le cas d'un service hébergé sur les serveurs alwaysdata (site internet ou tâche planifiée par exemple).

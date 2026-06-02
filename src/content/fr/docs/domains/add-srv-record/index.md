@@ -9,12 +9,12 @@ eleventyNavigation:
 Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service) définit l'emplacement de services précis.
 
 1.   Rendez-vous sur **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
-    ![Interface d'administration : liste des enregistrements DNS](images/admin-panel_dns-record-list.png)
+    ![](images/admin-panel_dns-record-list.png)
 
 2.   Choisissez **Ajouter un enregistrement DNS** ;
 
 3.   Renseignez le formulaire.
-    ![Interface d'administration : ajouter un enregistrement SRV](images/admin-panel_add-srv.png)
+    ![](images/admin-panel_add-srv.png)
 
 > [!WARNING] Attention
 > Ne mettez pas la racine dans **Nom d'hôte**.

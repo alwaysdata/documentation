@@ -28,12 +28,12 @@ Your Deno environment starts off empty, with no ready installed libraries.
 
 To deploy an HTTP application with Deno, create a *Deno* type site in the **Web > Sites** section. 
 
-![Type de site De](images/deno.png)
+![](images/deno.png)
 
 You need to specify the command that will start your Deno application, for example:
 
 ```
-deno run --allow-env --allow-net $HOME/myapp/index.ts
+deno run --allow-env --allow-net /home/[account]/myapp/index.ts
 ```
 
 > [!WARNING]

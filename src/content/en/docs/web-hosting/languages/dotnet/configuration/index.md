@@ -30,7 +30,7 @@ Your .NET environment starts off empty, with no ready installed libraries.
 
 To deploy an HTTP application with .NET, create a *.NET* type site in the **Web > Sites** section. 
 
-![Type de site .N](images/net.png)
+![](images/net.png)
 
 You need to specify the command that will start your Deno application, for example:
 

@@ -7,8 +7,8 @@ eleventyNavigation:
 ---
 
 Ajoutez votre certificat dans la section **Avancé > Certificats SSL > Ajouter un certificat SSL** de votre interface alwaysdata.
-![Interface d'administration : menu Certificats SSL](images/admin-panel_ssl-list.png)
-![Interface d'administration : ajouter un certificat](images/admin-panel_ssl-add.png)
+![Menu Certificats SSL](images/admin-panel_ssl-list.png)
+![Ajouter un certificat](images/admin-panel_ssl-add.png)
 
 Clé privée, certificat et certificats intermédiaires doivent être au format PEM.
 

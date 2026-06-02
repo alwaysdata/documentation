@@ -9,13 +9,16 @@ eleventyNavigation:
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- MapServer installation directory: `$HOME/mapserver`
+- Account name: `[account]`
+- MapServer installation directory: `/home/[account]/mapserver`
+
+> [!NOTE]
+> Feel free to adjust according to your needs.
 
 1. Create the soft link:
 
 ```sh
-foo@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
+[account]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
 ```
 
 2. Create a `.htaccess` file with:

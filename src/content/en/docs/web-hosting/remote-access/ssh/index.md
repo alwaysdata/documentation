@@ -29,19 +29,15 @@ SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connec
 
 These users can be configured in the **Remote access > SSH/SFTP** tab in your alwaysdata administration interface (among their [shell](https://en.wikipedia.org/wiki/Unix_shell)). The *fingerprints* for the SSH server where the account is located are also found there.
 
-![Administration interface: list of SSH users](admin-panel_ssh-users-list.png)
+![](admin-panel_ssh-users-list.png)
 
 ### Using a terminal
 
 Open your terminal and enter the following command:
 
 ```ssh
-$ ssh [user]@ssh-[account].alwaysdata.net
+$ ssh [account]@ssh-[account].alwaysdata.net
 ```
-
-> [!NOTE]
-> Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with your SSH hostname.
-
 
 ### Via the web
 

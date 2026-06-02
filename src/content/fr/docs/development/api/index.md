@@ -23,17 +23,17 @@ etc.) depuis votre code.
 ## Exemples rapides
 
 ```sh
-$ curl --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/mailbox/
+$ curl --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/mailbox/
 ```
 
 
 ### Redémarrer un site
 
 ```sh
-$ curl -X POST --basic --user "APIKEY account=foo:" https://api.alwaysdata.com/v1/site/1234/restart/
+$ curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `foo` par le nom du compte concerné et `1234` par l'ID du site.
+`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `[compte]` par le nom du compte concerné et `1234` par l'ID du site.
 
 ## Tout savoir
 

@@ -15,5 +15,5 @@ Le spam est totalement interdit.
 ## Certains dossiers ne sont pas visibles sur le webmail
 
 Rendez-vous dans **Paramètres > Dossiers**, les dossiers non visibles ne doivent pas être cochés :
-![Accès pour s'abonner à des dossiers](images/folders-apparence-1.png)
-![Cocher les dossiers à s'abonner](images/folders-apparence-2.png)
+![Menu pour s'abonner aux dossiers](images/folders-apparence-1.png)
+![Vérifier les dossiers auxquels s'abonner](images/folders-apparence-2.png)

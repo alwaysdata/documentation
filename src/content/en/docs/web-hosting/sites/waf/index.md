@@ -7,7 +7,7 @@ eleventyNavigation:
 
 A [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) examines every HTTP request to protect the web applications from the various attack vehicles to minimize infections. It may allow them to transit to the application or block them, alert, record whether they are deemed malevolent.
 
-![Path of an HTTP request faced with a W](images/waf.png)
+![Path of an HTTP request faced with a WAF](images/waf.png)
 
 alwaysdata uses WAF ModSecurity and all of the [OWASP Modsecurity Core Rule Set](https://coreruleset.org/) (CRS).
 
@@ -49,7 +49,7 @@ Use the administration interface from **Web > Sites > Edit the [site] - ⚙️ >
 
 Depending on your usage case, **the way WAF behaves may be too restrictive**. It may also generate **false positives** during its analysis. If you consider its behavior unsuitable, then you have the option of excluding some of the rules used during the analysis.
 
-Only specify the **number of the rule to exclude**. You will find this in the Sites logs (`$HOME/admin/logs/sites`). Example:
+Only specify the **number of the rule to exclude**. You will find this in the Sites logs (`/home/[account]/admin/logs/sites`). Example:
 
 ```
 [08/Jan/2019:11:09:19 +0100] [waf] - <attack IP> "GET /?param=%22><script>alert(1);</script> HTTP/1.1" - 941100 | XSS Attack Detected via libinjection' with value: "><script>alert(1);</script>

@@ -8,12 +8,12 @@ eleventyNavigation:
 
 Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 
-![Liste des derniers envois](images/history.png)
+![](images/history.png)
 
 - *[Score](/fr/docs/emails/delivrabilite-bonnes-pratiques/#système-de-notation)* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
 - *Bloqué* : si l'email a été bloqué par l'antispam d'alwaysdata. À ne pas confondre avec un *bounce*[^2] qui englobe d'autres raisons.
 
-![Exemple d'un envoi](images/example.png)
+![](images/example.png)
 
 - *Score interne* : score donné par l'antispam d'alwaysdata ;
 - *Rapport interne* : détails du score donné par l'antispam d'alwaysdata. Il tient compte du score Rspamd ;

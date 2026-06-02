@@ -7,7 +7,7 @@ eleventyNavigation:
 
 To add several DNS records in a single action, go to the menu **Domains > Details of [example.org] - ⚙️ > DNS records > Add several mailboxes**.
 
-![Menu](images/menu.png)
+![](images/menu.png)
 
 The file for importation should be in [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format, which you can create with spreadsheet software - like Microsoft Excel or LibreOffice Calc. Example:
 

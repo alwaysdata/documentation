@@ -10,29 +10,29 @@ eleventyNavigation:
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de CouchDB : `$HOME/couchdb/`
+- Nom du compte : `[compte]`
+- Répertoire de CouchDB : `/home/[compte]/couchdb/`
 
 > [!NOTE]
-> `[foo]` doit être remplacé par le nom de votre compte.
+> N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## Installation
 ### Téléchargement et compilation
 
 ```sh
-foo@ssh:~$ mkdir couchdb
-foo@ssh:~$ cd couchdb
-foo@ssh:~/couchdb$ wget -O- https://dlcdn.apache.org/couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz | tar -xz --strip-components=1
-foo@ssh:~/couchdb$ ./configure --spidermonkey-version 78
-foo@ssh:~/couchdb$ make release
+[compte]@ssh:~$ mkdir couchdb
+[compte]@ssh:~$ cd couchdb
+[compte]@ssh:~/couchdb$ wget -O- https://dlcdn.apache.org/couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/couchdb$ ./configure --spidermonkey-version 78
+[compte]@ssh:~/couchdb$ make release
 ```
 
 Choisissez le paquet *tar.gz* de la dernière version disponible sur [le site institutionnel de CouchDB](https://dlcdn.apache.org/couchdb/source/).
 
 ### Configuration
 
-Créez un fichier `local.ini` dans le répertoire `$HOME/couchdb` avec les directives suivantes :
+Créez un fichier `local.ini` dans le répertoire `/home/[compte]/couchdb` avec les directives suivantes :
 
 ```
 [admins]
@@ -56,13 +56,13 @@ Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-c
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-- *Commande* : `./bin/couchdb -couch_ini /home/[foo]/couchdb/local.ini`
-- *Répertoire de travail* : `/home/[foo]/couchdb/rel/couchdb`
+- *Commande* : `./bin/couchdb -couch_ini /home/[compte]/couchdb/local.ini`
+- *Répertoire de travail* : `/home/[compte]/couchdb/rel/couchdb`
 
-L'adresse pour se connecter à l'instance CouchDB sera `services-[foo].alwaysdata.net:[port]`. Par exemple, pour lister les bases de données :
+L'adresse pour se connecter à l'instance CouchDB sera `services-[compte].alwaysdata.net:[port]`. Par exemple, pour lister les bases de données :
 
 ```
-$ curl -X GET http://admin:monsupermotdepasse@services-[foo].alwaysdata.net:[port]/_all_dbs
+$ curl -X GET http://admin:monsupermotdepasse@services-[compte].alwaysdata.net:[port]/_all_dbs
 ```
 
 > [!NOTE]

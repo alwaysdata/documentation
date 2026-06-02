@@ -5,14 +5,14 @@ eleventyNavigation:
   parent: API
 ---
 
-`APIKEY`, `1234` or `arkhamcity` are to be replaced by your own values.
+`APIKEY`, `1234` or `[account]` are to be replaced by your own values.
 
 ## Restart a website
 
 ### With cURL
 
 ```shell
-$ curl -X POST --basic --user "APIKEY account=arkhamcity:" https://api.alwaysdata.com/v1/site/1234/restart/
+$ curl -X POST --basic --user "APIKEY account=[account]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
 ### With PHP & Guzzle
@@ -25,7 +25,7 @@ use GuzzleHttp\Client;
 
 $client = new Client([
     'base_uri' => 'https://api.alwaysdata.com/',
-    'auth' => ['APIKEY account=arkhamcity', ''],
+    'auth' => ['APIKEY account=[account]', ''],
 ]);
 
 $response = $client->request('POST', 'v1/site/1234/restart/');
@@ -41,7 +41,7 @@ $response = $client->request('POST', 'v1/site/1234/restart/');
 import requests
 
 address = 'https://api.alwaysdata.com/v1/site/'
-credentials = ('APIKEY account=arkhamcity', '')
+credentials = ('APIKEY account=[account]', '')
 
 # Send HTTP request
 response = requests.get(
@@ -59,7 +59,7 @@ response = requests.get(
 $ch = curl_init("https://api.alwaysdata.com/v1/site/");
 
 // Initialize HTTP headers
-$credentials = "APIKEY account=arkhamcity";
+$credentials = "APIKEY account=[account]";
 curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
 curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 
@@ -82,7 +82,7 @@ use GuzzleHttp\Client;
 
 $client = new Client([
     'base_uri' => 'https://api.alwaysdata.com/',
-    'auth' => ['APIKEY account=arkhamcity', ''],
+    'auth' => ['APIKEY account=[account]', ''],
 ]);
 
 $response = $client->request('GET', 'v1/site/');
@@ -101,13 +101,13 @@ import json
 import requests
 
 address = 'https://api.alwaysdata.com/v1/site/'
-credentials = ('APIKEY account=arkhamcity', '')
+credentials = ('APIKEY account=[account]', '')
 
 data = {
     'name': 'Wayne Enterprise Forum',
     'addresses': [
-        'forum.arkhamcity.com',
-        'forum-dev.arkhamcity.com',
+        'forum.[account].com',
+        'forum-dev.[account].com',
     ],
     'type': 'apache_standard',
     'path': '/www/myforum',
@@ -129,7 +129,7 @@ response = requests.post(
 $ch = curl_init("https://api.alwaysdata.com/v1/site/");
 
 // Initialize HTTP headers
-$credentials = "APIKEY account=arkhamcity";
+$credentials = "APIKEY account=[account]";
 curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
 curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 
@@ -137,8 +137,8 @@ curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 $data = array(
     'name' => 'Wayne Enterprise Forum',
     'addresses' => array(
-        'forum.arkhamcity.com',
-        'forum-dev.arkhamcity.com',
+        'forum.[account].com',
+        'forum-dev.[account].com',
     ),
     'type' => 'apache_standard',
     'path' => '/www/myforum'
@@ -165,15 +165,15 @@ use GuzzleHttp\Client;
 
 $client = new Client([
     'base_uri' => 'https://api.alwaysdata.com/v1/site/',
-    'auth' => ['APIKEY account=arkhamcity', ''],
+    'auth' => ['APIKEY account=[account]', ''],
 ]);
 
 // Define data to POST
 $data = array(
     'name' => 'Wayne Enterprise Forum',
     'addresses' => array(
-        'forum.arkhamcity.com',
-        'forum-dev.arkhamcity.com',
+        'forum.[account].com',
+        'forum-dev.[account].com',
     ),
     'type' => 'php',
     'path' => '/www/myforum'
@@ -196,11 +196,11 @@ import json
 import requests
 
 address = 'https://api.alwaysdata.com/v1/site/1234/'
-credentials = ('APIKEY account=arkhamcity', '')
+credentials = ('APIKEY account=[account]', '')
 
 data = {
     'addresses': [
-        'forum.arkhamcity.com',
+        'forum.[account].com',
     ],
 }
 
@@ -220,14 +220,14 @@ response = requests.patch(
 $ch = curl_init("https://api.alwaysdata.com/v1/site/1234/");
 
 // Initialize HTTP headers
-$credentials = "APIKEY account=arkhamcity";
+$credentials = "APIKEY account=[account]";
 curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
 curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 
 // Define data to POST
 $data = array(
     'addresses' => array(
-        'forum.arkhamcity.com',
+        'forum.[account].com',
     )
 );
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -253,13 +253,13 @@ use GuzzleHttp\Client;
 
 $client = new Client([
     'base_uri' => 'https://api.alwaysdata.com/v1/site/1234/',
-    'auth' => ['APIKEY account=arkhamcity', ''],
+    'auth' => ['APIKEY account=[account]', ''],
 ]);
 
 // Define data to POST
 $data = array(
     'addresses' => array(
-        'forum.arkhamcity.com',
+        'forum.[account].com',
     )
 );
 
@@ -279,7 +279,7 @@ $response = $client->request('PATCH', '', [
 import requests
 
 address = 'https://api.alwaysdata.com/v1/site/1234/'
-credentials = ('APIKEY account=arkhamcity', '')
+credentials = ('APIKEY account=[account]', '')
 
 response = requests.delete(
     address,
@@ -295,7 +295,7 @@ response = requests.delete(
 $ch = curl_init("https://api.alwaysdata.com/v1/site/1234/");
 
 // Initialize HTTP headers
-$credentials = "APIKEY account=arkhamcity";
+$credentials = "APIKEY account=[account]";
 curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
 curl_setopt($ch, CURLOPT_USERPWD, $credentials);
 
@@ -321,7 +321,7 @@ use GuzzleHttp\Client;
 
 $client = new Client([
     'base_uri' => 'https://api.alwaysdata.com/v1/site/1234/',
-    'auth' => ['APIKEY account=arkhamcity', ''],
+    'auth' => ['APIKEY account=[account]', ''],
 ]);
 
 $response = $client->request('DELETE', '');

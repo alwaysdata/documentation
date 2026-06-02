@@ -17,6 +17,9 @@ Not yet a customer? Sign-up to our [platform](https://www.alwaysdata.com/en/regi
 
 Want to show your support? [Give us some ❤](/en/love/) !
 
+> [!NOTE]
+Each time you encounter `[account]` you can replace it by the name of your account.
+
 > [!TIP]
 Any publication on Internet entails [legal obligations](/en/docs/web-hosting/sites/legal-requirements-on-internet), make yourself aware of them before placing your content on-line.
 

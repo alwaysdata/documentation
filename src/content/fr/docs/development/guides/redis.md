@@ -12,12 +12,12 @@ Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/f
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de Redis : `$HOME/redis/`
+- Nom du compte : `[compte]`
+- Répertoire de Redis : `/home/[compte]/redis/`
 - Port : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
 > [!NOTE]
-> `[foo]` doit être remplacé par le nom de compte correct.
+> N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## Installation
@@ -25,8 +25,8 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 ### Téléchargement et compilation
 
 ```sh
-foo@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
-foo@ssh:~/redis$ make
+[compte]@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/redis$ make
 ```
 
 ### Lancement du service
@@ -34,12 +34,12 @@ foo@ssh:~/redis$ make
 Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
 - *Commande* : `./src/redis-server --bind :: --port 8300 --protected-mode no`
-- *Commande de monitoring* : `./src/redis-cli  redis.conf -h services-[foo].alwaysdata.net -p 8300 ping`
-- *Répertoire de travail* : `/home/[foo]/redis`
+- *Commande de monitoring* : `./src/redis-cli  redis.conf -h services-[compte].alwaysdata.net -p 8300 ping`
+- *Répertoire de travail* : `/home/[compte]/redis`
 
-Plus d'options via `$HOME/redis/src/redis-cli -h`.
+Plus d'options via `/home/[compte]/redis/src/redis-cli -h`.
 
-Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
+Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[compte].alwaysdata.net` et le port `8300`.
 
 - [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/redis/php)
 
@@ -52,22 +52,22 @@ Il faudra créer le fichier `users.acl` et modifier la ligne `aclfile` dans le f
 Dans l'exemple suivant, nous allons indiquer un mot de passe (`[mot de passe]`) à l'utilisateur par défaut.
 
 ```sh
-foo@ssh:~/redis$ ./src/redis-cli -h services-[foo].alwaysdata.net -p 8300
-services-[foo].alwaysdata.net:8300> ACL LIST
+[compte]@ssh:~/redis$ ./src/redis-cli -h services-[compte].alwaysdata.net -p 8300
+services-[compte].alwaysdata.net:8300> ACL LIST
 1) "user default on nopass sanitize-payload ~* &* +@all"
 
-services-[foo].alwaysdata.net:8300> ACL SETUSER default on >[mot de passe]
+services-[compte].alwaysdata.net:8300> ACL SETUSER default on >[mot de passe]
 
-services-[foo].alwaysdata.net:8300> ACL LIST
+services-[compte].alwaysdata.net:8300> ACL LIST
 1) "user default on sanitize-payload #1ccc91f99d0c4c7a24e77941b18c0339ecb3eaf5ad7ae9ad816a7e69d83b69db ~* &* +@all"
 
-services-[foo].alwaysdata.net:8300> ACL SAVE
+services-[compte].alwaysdata.net:8300> ACL SAVE
 OK
 
-services-[foo].alwaysdata.net:8300> CONFIG REWRITE
+services-[compte].alwaysdata.net:8300> CONFIG REWRITE
 OK
 
-services-[foo].alwaysdata.net:8300> AUTH default [mot de passe]
+services-[compte].alwaysdata.net:8300> AUTH default [mot de passe]
 OK
 ```
 

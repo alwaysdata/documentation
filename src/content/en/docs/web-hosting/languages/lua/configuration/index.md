@@ -29,12 +29,12 @@ To use a different version of Lua than the default one, use `lua5.X`.
 
 To deploy an HTTP application with Lua, create a *[User program](/en/docs/web-hosting/sites/user-program)* type site in the **Web > Sites** section.
 
-![User Program Site Ty](images/user-program.png)
+![](images/user-program.png)
 
 You need to specify the command that will start your Lua application, for example:
 
 ```
-lua5.1 $HOME/myapp/start-server.lua
+lua5.1 /home/[account]/myapp/start-server.lua
 ```
 
 > [!WARNING]

@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Remote Access
 ---
 
-Every account have a `$HOME/admin` directory, accessible in [FTP](/en/docs/web-hosting/remote-access/ftp), [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp) or [WebDAV](/en/docs/web-hosting/remote-access/webdav).
+Every account have a `/home/[account]/admin` directory, accessible in [FTP](/en/docs/web-hosting/remote-access/ftp), [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp) or [WebDAV](/en/docs/web-hosting/remote-access/webdav).
 
 It contains:
 

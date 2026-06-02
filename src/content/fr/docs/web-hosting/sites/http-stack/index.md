@@ -10,11 +10,11 @@ Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute l
 
 - lance les serveurs HTTP et programmes [définis](/fr/docs/hebergement-web/sites/ajouter-un-site/) pour servir vos données ;
 - renvoie le bon [certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/) ;
-- logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `$HOME/admin/logs`](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs).
+- logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `/home/[compte]/admin/logs`](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs).
 
 Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites/waf/) et le [cache HTTP](/fr/docs/hebergement-web/sites/cache-http/) activables dans **Web > Sites**.
 
-![Fonctionnement du reverse-proxy alwaysdata](images/http-stack.png)
+![](images/http-stack.png)
 
  Nous ajoutons aux *headers* :
 

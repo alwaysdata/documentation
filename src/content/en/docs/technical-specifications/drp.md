@@ -35,7 +35,7 @@ Backups are accessible from your user account file system (via [SSH](/en/docs/we
 
 ### How can I recover these backups?
 
-You can make a copy of your backups from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) by copying the directories located in `$HOME/admin/backup/`.
+You can make a copy of your backups from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) by copying the directories located in `/home/[account]/admin/backup/`.
 
 The `latest` directory is a shortcut to the last available backup.
 

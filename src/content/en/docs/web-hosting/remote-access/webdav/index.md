@@ -16,11 +16,11 @@ WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.we
 |--- |--- |
 |Host|webdav-[account].alwaysdata.net|
 |Ports|80 (HTTP) or 443 (HTTPS)|
-|Identifier|assigned user and password|
+|Identifier|assigned **user** (**[account]**) and **password**|
 
 These users can be configured in the **Remote access > WebDAV** tab in your alwaysdata administration interface.
 
-![Administration interface: list of WebDAV users](admin-panel_list-webdav-users.png)
+![](admin-panel_list-webdav-users.png)
 
 ### With Windows
 

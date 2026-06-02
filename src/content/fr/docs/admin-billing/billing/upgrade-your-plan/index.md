@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 Pour changer d'offre, rendez-vous dans **Abonnements > Modifier - ⚙️ le compte concerné** :
-![Interface d'administration : liste de ses comptes](images/list-accounts.png)
+![](images/list-accounts.png)
 
 Vous pouvez changer de _[pack](/fr/docs/admin-facturation/facturation/prix-cloud-public/)_ et de _période d'engagement_. La facture pour le nouvel abonnement est éditée le lendemain et vous aurez alors 30 jours pour la payer.
 

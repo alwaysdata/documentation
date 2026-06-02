@@ -80,10 +80,10 @@ All of these files must be **deleted**.
 
 ## 2. Looking for the breach
 
-Depending on the date when the files were created, their name and their calls, it is possible to find the permissive URL called up. To do this, go through the POST requests in your Apache logs located in directory `$HOME/admin/logs/http`:
+Depending on the date when the files were created, their name and their calls, it is possible to find the permissive URL called up. To do this, go through the POST requests in your Apache logs located in directory `/home/[account]/admin/logs/http`:
 
 ```sh
-$ grep POST $HOME/admin/logs/http/[year]/http-[date].log[.gz]
+$ grep POST /home/[account]/admin/logs/http/[year]/http-[date].log[.gz]
 ```
 
 Examples of suspect calls:

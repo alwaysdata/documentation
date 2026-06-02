@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Web Hosting
 ---
 
-From the raw HTTP logs (`$HOME/admin/logs/http`) we generate single visits statistics[^1] in *real time*. They are available in the **Web > Analytics** section.
+From the raw HTTP logs (`/home/[account]/admin/logs/http`) we generate single visits statistics[^1] in *real time*. They are available in the **Web > Analytics** section.
 
 ![](images/stats-panel.png)
 

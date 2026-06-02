@@ -27,12 +27,12 @@ The connection data depends on the relevant account. You can find the precise va
 ### Example with `mysql`
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- Database name: `foo_base`
-- We will use the default SSH users and databases, i.e. the ones created when the accounts are opened (e.g. `foo` for the *foo* account).
+- Account name: `[account]`
+- Database name: `[account]_base`
+- We will use the default SSH users and databases, i.e. the ones created when the accounts are opened.
 
 ```sh
-foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
+[account]@ssh:~$ mysql -h mysql-[account].alwaysdata.net -u [account] -p [account]_base
 ```
 
 ## Permissions
@@ -55,7 +55,7 @@ Several options :
 - use the following command :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/mysql/[database].sql.zst | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
+    $ zstdcat /home/[account]/admin/backup/[date]/mysql/[database].sql.zst | mysql -h mysql-[account].alwaysdata.net -u [user] -p [database]
     ```
 
 - get the tarbal and use the client of your choice.

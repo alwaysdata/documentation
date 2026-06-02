@@ -72,7 +72,7 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 
 A pair of keys is created by default, whose public key (the `TXT` record) will be found in the **DNS Records** tab of the domain:
 
-![DKIM record](images/dkim-record.png)
+![](images/dkim-record.png)
 
 If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
 

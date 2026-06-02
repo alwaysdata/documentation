@@ -19,4 +19,4 @@ si Cloud Public :
 - le produit (le pack) ;
 - la fréquence de paiement (mensuel ou annuel).
 
-![Interface d'administration : créer un compte](images/create-account.png)
+![](images/create-account.png)

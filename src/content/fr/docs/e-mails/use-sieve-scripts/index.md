@@ -8,9 +8,9 @@ eleventyNavigation:
 
 [Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage](/fr/docs/emails/ajouter-regle-filtrage/).
 
-![Interface d'administration : Emails - Script Sieve](images/admin-panel_mailbox_sieve.png)
+![](images/admin-panel_mailbox_sieve.png)
 
-Le script final est stocké dans le fichier `$HOME/admin/mail/[domaine]/[boite]/filter_user.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
+Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]/[boite]/filter_user.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
 
 ## Extensions supportées
 

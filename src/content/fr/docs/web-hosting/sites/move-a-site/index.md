@@ -64,9 +64,9 @@ Reste à déplacer les adresses joignant le site et leur certificat SSL auto-gé
 
 1. Rendez-vous dans la section **Web > Sites** du compte d'origine ;
 2. Choisissez l'action **Céder à un autre compte** ;
-![Interface d'administration : déplacement de site - étape 1](images/admin-panel_move-website-1.png)
+![](images/admin-panel_move-website-1.png)
 3. Et suivez les étapes.
-![Interface d'administration : déplacement de site - étape 2](images/admin-panel_move-website-2.png)
+![](images/admin-panel_move-website-2.png)
 
 ATTENTION : Pour les sites utilisant une commande[^1], le site cédé PEUT voir son port changé.
 

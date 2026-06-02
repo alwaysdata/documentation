@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.
 
-![Change the domain owner](images/admin-panel_owner-change.png)
+![](images/admin-panel_owner-change.png)
 
 A confirmation e-mail is sent to both parties. *Check the e-mail addresses before starting the operation*.
 

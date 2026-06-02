@@ -12,7 +12,7 @@ Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (
 
 Allez dans le menu **Abonnements** et cliquez sur la _poubelle_ du compte à supprimer.
 
-![Supprimer un compte](images/delete-account.png)
+![](images/delete-account.png)
 
 Cela va supprimer tous les domaines, adresses email, sites web, fichiers, bases de données (...) liés à ce compte.
 

@@ -17,6 +17,9 @@ Vous n'êtes pas encore client ? Inscrivez-vous sur notre [plateforme](https://w
 
 Vous nous aimez ? [Montrez-nous votre ❤](/fr/love/) !
 
+> [!NOTE]
+Chaque fois que vous rencontrez `[compte]`, vous pouvez le remplacer par le nom de votre compte.
+
 > [!TIP]
 Toute publication sur Internet comporte des [obligations légales](/fr/docs/hebergement-web/sites/obligations-legales-sur-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
 

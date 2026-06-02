@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.
 
-![Créer un script d'application](images/create-script.png)
+![](images/create-script.png)
 
 Les scripts se composent de deux parties :
 

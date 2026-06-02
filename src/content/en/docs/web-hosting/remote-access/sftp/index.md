@@ -13,17 +13,17 @@ From **Remote access > SSH/SFTP** allow your SSH user *password connection* perm
 
 ![Administration interface: list of SSH use](images/admin-panel_ssh-users-list.png)
 
-Then from your FTP client, fill-in the SSH connection information. Let us take the example of the *test* account and the [FileZilla](https://filezilla-project.org/) FTP client:
+Then from your FTP client, fill-in the SSH connection information. Let us take the following example and the [FileZilla](https://filezilla-project.org/) FTP client:
 
-  - user: `test`
+  - user: `[account]`
   - password
-  - hostname: `ssh-test.alwaysdata.net`
+  - hostname: `ssh-[account].alwaysdata.net`
   - port: `22`
 
-![FileZilla interface: SFTP connection](images/filezilla_sftp-connection.png)
+![](images/filezilla_sftp-connection.png)
 
 ## Miscellaneous
 
-Users with the **SFTP only** shell are `chrooted`. This shell does not allow access to the directories `$HOME/admin/mail` and `$HOME/admin/backup`.
+Users with the **SFTP only** shell are `chrooted`. This shell does not allow access to the directories `/home/[account]/admin/mail` and `/home/[account]/admin/backup`.
 
 This must not be confused with the [FTPS](/en/docs/web-hosting/remote-access/ftp) protocol: FTP transfer secured by SSL or TLS protocols.

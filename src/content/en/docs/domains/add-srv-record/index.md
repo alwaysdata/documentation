@@ -8,12 +8,12 @@ eleventyNavigation:
 An [SRV record](https://en.wikipedia.org/wiki/SRV_record) defines the location of specific services.
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records**,
-    ![Administration interface: list of DNS records](images/admin-panel_dns-record-list.png)
+    ![](images/admin-panel_dns-record-list.png)
 
 2.  Choose **Add a DNS record**,
 
 3.  Fill-in the form. 
-    ![Administration interface: add an SRV record](images/admin-panel_add-srv.png)
+    ![](images/admin-panel_add-srv.png)
 
 > [!WARNING]
 > Do not put the root into the **Hostname**.

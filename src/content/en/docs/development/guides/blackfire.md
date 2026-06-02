@@ -9,25 +9,25 @@ eleventyNavigation:
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- Blackfire directory: `$HOME/blackfire/`
+- Account name: `[account]`
+- Blackfire directory: `/home/[account]/blackfire/`
 
 > [!NOTE]
-> `[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by accurate informations.
+> `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by the accurate data. Feel free to adjust according to your needs.
 
 
 ## Step 1: Agent download
 
 ```sh
-foo@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
-foo@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
+[account]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
+[account]@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
 ```
 [Download page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php): take the DEB 64 bits package.
 
 ## Step 2: Agent configuration
 
 ```sh
-foo@ssh:~/blackfire$ cat << EOF > etc/blackfire/agent-prod
+[account]@ssh:~/blackfire$ cat << EOF > etc/blackfire/agent-prod
 [blackfire]
 ; setting: server-id
 ; You can find your personal server-id at https://blackfire.io/my/settings/credentials
@@ -38,7 +38,7 @@ server-id=<YOUR_SERVER_ID>
 server-token=<YOUR_SERVER_TOKEN>
 
 ; setting: log-file
-log-file=/home/[foo]/blackfire/agent.log
+log-file=/home/[account]/blackfire/agent.log
 
 ; setting: log-level
 ; desc   : log verbosity level (4: debug, 3: info, 2: warning, 1: error)
@@ -59,8 +59,8 @@ More options are available on their [documentation](https://blackfire.io/docs/up
 
 Create a [service](/en/docs/web-hosting/services) with the following details:
 
-- *Command*: `/home/[foo]/blackfire/usr/bin/blackfire --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
-- *Working directory*: `/home/[foo]/blackfire`
+- *Command*: `/home/[account]/blackfire/usr/bin/blackfire --config=/home/[account]/blackfire/etc/blackfire/agent-prod`
+- *Working directory*: `/home/[account]/blackfire`
 
 ## Step 4: Probes installation
 
@@ -71,15 +71,15 @@ See [Blackfire for PHP](https://blackfire.io/docs/php).
 **Download**
 
 ```sh
-foo@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
-foo@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
+[account]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
+[account]@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
 ```
 [Download page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) - point D: take the DEB 64 bits package.
 
 **php.ini modification (Environment > PHP)**
 
 ```ini
-extension = /home/[foo]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so
+extension = /home/[account]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so
 ```
 
 More options are available on their [documentation](https://blackfire.io/docs/php/configuration). To set up logs:
@@ -87,7 +87,7 @@ More options are available on their [documentation](https://blackfire.io/docs/ph
 ```ini
 blackfire.log_level = 1
 # Log verbosity level (4: debug, 3: info, 2: warning, 1: error)
-blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
+blackfire.log_file = /home/[account]/blackfire/blackfire-php.log
 ```
 
 ### Python
@@ -95,7 +95,7 @@ blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
 See [Blackfire for Python](https://blackfire.io/docs/python).
 
 ```sh
-foo@ssh:~$ python -m pip install blackfire
+[account]@ssh:~$ python -m pip install blackfire
 ```
 
 ---

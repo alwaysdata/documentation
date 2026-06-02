@@ -7,9 +7,9 @@ eleventyNavigation:
 
 Add your certificate to the **Advanced > SSL certificates > Add an SSL certificate** in your alwaysdata interface.
 
-![Administration interface: SSL certificates menu](images/admin-panel_ssl-list.png)
+![SSL certificates menu](images/admin-panel_ssl-list.png)
 
-![](images/admin-panel_ssl-add.png""Administration interface: add a certificate
+![Add a certificate](images/admin-panel_ssl-add.png)
 
 Private key, certificate and intermediate certificates must be in PEM format.
 

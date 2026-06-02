@@ -30,15 +30,15 @@ A transfer cannot take place within 60 days of its creation or a previous transf
 
 1.  From your administration interface, go to **Domains > Add a domain**,
     
-    ![](images/admin-panel_domain-list.png""Administration interface: list of domains" >}}
+    ![](images/admin-panel_domain-list.png)
     
     If the domain has already been [added](/en/docs/domains/add-an-external-domain) to your alwaysdata interface, you can transfer it via **Domains > Details** for the relevant domain and **> Transfer**.
 
-    ![](images/admin-panel_transfer-domain.png""Administration interface: Transferring a domain already under management" >}}
+    ![](images/admin-panel_transfer-domain.png)
 
 2.  Fill-in the domain names that you wish to buy,
   
-    ![Administration interface: step 1](images/admin-panel_add-domain-1.png)
+    ![](images/admin-panel_add-domain-1.png)
 
 > [!NOTE]
 Enter the domain only, without the subdomain.
@@ -47,14 +47,14 @@ Enter the domain only, without the subdomain.
 
 3.  Choose to **transfer** it,
     
-    ![Administration interface: step 2](images/admin-panel_add-domain-2.png)
+    ![](images/admin-panel_add-domain-2.png)
     
 4.
     - Provide the *authorization code* if the extension requires it,
     - Choose whether or not to use our DNS servers: this entails transferring the domain’s technical management to alwaysdata, and
     - Enter the owner’s contact information. This information depends on the extension taken. 
     
-    ![Administration interface: step 3](images/admin-panel_add-domain-3.png)
+    ![](images/admin-panel_add-domain-3.png)
 
 > [!WARNING]
 > A validation e-mail is set for a certain number of extensions. Without validation, the transfer is aborted.
@@ -88,4 +88,4 @@ Regarding the website, there are a number of possible choices:
 - [Transfers: error codes](/en/docs/domains/troubleshooting#transfer)
 
 
-[^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
+[^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)

@@ -26,7 +26,7 @@ Commencez par ajouter dans votre fichier `package.json` une entrée [indiquant a
 production](https://create-react-app.dev/docs/deployment/#building-for-relative-paths), par exemple :
 
 ```json
-"homepage": "https://[account].alwaysdata.net/my-app"
+"homepage": "https://[compte].alwaysdata.net/my-app"
 ```
 
 Dans votre environnement local de développement, lancez la tâche de _build_. Si vous avez utilisé un outil comme [Create
@@ -37,5 +37,5 @@ Vous pouvez ensuite déployer ces fichiers résultant du _build_ dans le répert
 création du site, par exemple via [_rsync/SSH_](/fr/docs/hebergement-web/acces-distant/ssh/) :
 
 ```sh
-rsync -rz --mkpath build/ [account]@ssh-[account].alwaysdata.net:www/my-app
+rsync -rz --mkpath build/ [compte]@ssh-[compte].alwaysdata.net:www/my-app
 ```

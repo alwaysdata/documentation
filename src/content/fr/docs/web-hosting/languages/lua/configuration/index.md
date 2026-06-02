@@ -32,12 +32,12 @@ Pour se servir d'une version de Lua différente que celle par défaut utilisez `
 
 Pour déployer une application HTTP avec Lua, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**.
 
-![Type de site Programme utilisateur](images/user-program.png)
+![](images/user-program.png)
 
 Vous devrez spécifier la commande qui démarre votre application Lua, par exemple :
 
 ```
-lua5.1 $HOME/myapp/start-server.lua
+lua5.1 /home/[compte]/myapp/start-server.lua
 ```
 
 > [!WARNING] Attention

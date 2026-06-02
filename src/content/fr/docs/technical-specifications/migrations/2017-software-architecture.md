@@ -20,13 +20,13 @@ Ce document ne décrit pas les nouvelles fonctionnalités apportées par l'infra
 
 ## Généralités
 
-* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services [introduit en 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). Vous trouverez les adresses à utiliser dans l'administration alwaysdata, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.compte.alwaysdata.net`) cesseront totalement de fonctionner. 
+* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services [introduit en 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). Vous trouverez les adresses à utiliser dans l'administration alwaysdata, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.[compte].alwaysdata.net`) cesseront totalement de fonctionner. 
 
 * Plusieurs fichiers et répertoires situés dans chaque compte sont déplacés ou supprimés. Notamment :
-    * les 4 fichiers par défaut (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) du répertoire `$HOME/cgi-bin` sont supprimés, et le répertoire également s'il est désormais vide ;
-    * les différents fichiers de configuration internes (`$HOME/.env.*`, `$HOME/admin/apache`) sont déplacés dans un répertoire `$HOME/admin/config` ;
-    * les répertoires `$HOME/admin/ssl`, `$HOME/admin/session` et `$HOME/admin/log/awstats` sont supprimés ;
-    * les logs sont désormais stockés dans le répertoire `$HOME/admin/logs`, avec un sous-répertoire par type (`http`, `apache`, etc.). L'ancien répertoire de logs (`$HOME/admin/log`) est déplacé dans `$HOME/admin/logs/old`.
+    * les 4 fichiers par défaut (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) du répertoire `/home/[compte]/cgi-bin` sont supprimés, et le répertoire également s'il est désormais vide ;
+    * les différents fichiers de configuration internes (`/home/[compte]/.env.*`, `/home/[compte]/admin/apache`) sont déplacés dans un répertoire `/home/[compte]/admin/config` ;
+    * les répertoires `/home/[compte]/admin/ssl`, `/home/[compte]/admin/session` et `/home/[compte]/admin/log/awstats` sont supprimés ;
+    * les logs sont désormais stockés dans le répertoire `/home/[compte]/admin/logs`, avec un sous-répertoire par type (`http`, `apache`, etc.). L'ancien répertoire de logs (`/home/[compte]/admin/log`) est déplacé dans `/home/[compte]/admin/logs/old`.
 
 
 ## Langages
@@ -232,10 +232,10 @@ Vous avez une application Python (par exemple, utilisant [Django](https://www.dj
 * en SSH, installez l'ensemble des bibliothèques dont vous avez besoin, par exemple :
 
     ```
-    $ mkdir $HOME/python_libs; PYTHONPATH=$HOME/python_libs easy_install --always-copy --install-dir $HOME/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
+    $ mkdir /home/[compte]/python_libs; PYTHONPATH=/home/[compte]/python_libs easy_install --always-copy --install-dir /home/[compte]/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
     ```
 
-* modifiez votre fichier `.fcgi` pour remplacer le shebang (la première ligne), généralement `#!/usr/bin/python`, par `#!/usr/bin/eval PYTHONPATH=/home/foo/python_libs python`, `foo` étant à remplacer par le nom de votre compte.
+* modifiez votre fichier `.fcgi` pour remplacer le shebang (la première ligne), généralement `#!/usr/bin/python`, par `#!/usr/bin/eval PYTHONPATH=/home/[compte]/python_libs python`, `[compte]` étant à remplacer par le nom de votre compte.
 
 ### Vous utilisez votre propre module mod_wsgi
 
@@ -245,10 +245,10 @@ Vous avez compilé votre propre interpréteur Python et le module [mod_wsgi](htt
 ImportError: No module named _sysconfigdata_nd
 ```
 
-Si votre interpréteur Python est dans le répertoire `/home/foo/python`, alors vous devrez avoir utilisé la directive :
+Si votre interpréteur Python est dans le répertoire `/home/[compte]/python`, alors vous devrez avoir utilisé la directive :
 
 ```
-WSGIPythonHome /home/foo/python
+WSGIPythonHome /home/[compte]/python
 ```
 
 ### Vous utilisez le module mod_wsgi du système
@@ -261,4 +261,4 @@ Vous avez un site de type *Apache personnalisé* qui charge le module système `
     wget https://files.alwaysdata.com/migrations/software-2017/mod_wsgi.so-2.6
     ```
 
-* remplacer le chemin `/usr/lib/apache2/modules/mod_wsgi.so-2.6` dans les directives de votre site *Apache personnalisé* par le chemin du fichier téléchargé sur votre compte, par exemple `/home/foo/mod_wsgi.so-2.6`.
+* remplacer le chemin `/usr/lib/apache2/modules/mod_wsgi.so-2.6` dans les directives de votre site *Apache personnalisé* par le chemin du fichier téléchargé sur votre compte, par exemple `/home/[compte]/mod_wsgi.so-2.6`.

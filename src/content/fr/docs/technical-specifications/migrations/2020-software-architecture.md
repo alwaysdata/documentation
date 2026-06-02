@@ -155,7 +155,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut** sur le protocole HTTP, ces protocoles anciens présentant des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant la configuration **Ancien**.
 
-- Le répertoire des fichiers temporaires **(TEMPDIR)** devient `~/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
+- Le répertoire des fichiers temporaires **(TEMPDIR)** devient `/home/[compte]/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
 
 - Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**. La nouvelle IP sera donnée dans le helptext de la commande du site web.
 
@@ -163,7 +163,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans vos applications HTTP.
 
-- L'utilisateur propriétaire de votre répertoire personnel `$HOME` (par exemple `/home/foobar`, si votre compte s'appelle *foobar*), auparavant identique à votre nom d'utilisateur (par exemple `foobar`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `foobar`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en conséquence réinitialisées à 0770.
+- L'utilisateur propriétaire de votre répertoire personnel `/home/[compte]`, auparavant identique à votre nom d'utilisateur (`[compte]`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `[compte]`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en conséquence réinitialisées à 0770.
 
 - Les binaires des langages sont désormais installés à la demande. Dans le cas où vous auriez besoin, par exemple, de `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, assurez-vous d'avoir lancé préalablement `python` en version 2.7.18 au moins une fois.
 

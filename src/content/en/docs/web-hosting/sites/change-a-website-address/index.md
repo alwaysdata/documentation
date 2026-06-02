@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Your site points to an address and you want to use another address/domain. Here are the steps to follow:
 
-In this example, the starting address will be `foobar.alwaysdata.net` and the new address `foobar.com`. 
+In this example, the starting address will be `[account].alwaysdata.net` and the new address `foobar.com`. 
 
 > [!NOTE]
 > `.alwaysdata.net` addresses won't be a possible choice.

@@ -10,10 +10,10 @@ This article explains how to transfer a domain *and* its e-mail addresses to **a
 1.  From the **Domains** menu in the initial account,
 
 2.  Choose the **Transfer to another account** action,
-    ![Administration interface: move domain - step 1](images/admin-panel_domain-move-1.png)
+    ![](images/admin-panel_domain-move-1.png)
 
 3.  And follow the steps.
-    ![Administration interface: move domain - step 2](images/admin-panel_domain-move-2.png)
+    ![](images/admin-panel_domain-move-2.png)
 
 > [!NOTE]
 > Only the *account owner* can initiate a transfer.

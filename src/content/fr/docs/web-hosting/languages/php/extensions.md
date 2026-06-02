@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Langages
 ---
 
-`[compte]` et `[extension]` sont à remplacer par le nom de l'extension à installer et du compte sur lequel elle doit l'être.
+`[extension]` est à remplacer par le nom de l'extension à installer.
 
 ## Gestion des extensions
 
@@ -31,7 +31,7 @@ $ ls $(php-config --extension-dir)
 Pour voir la liste des extensions déjà chargées sur votre compte :
 
 ```sh
-$ grep extension $HOME/admin/config/php/php.ini
+$ grep extension /home/[compte]/admin/config/php/php.ini
 ```
 
 Pour charger une extension incluse dans PHP, vous n'aurez pas besoin de spécifier le répertoire complet, seul le nom du fichier suffit :
@@ -72,7 +72,7 @@ Certaines extensions sont directement téléchargeables depuis le site de l'édi
 Il faudra ensuite ajouter le chemin absolu au  `php.ini`. Par exemple si elle est téléchargé à la racine du compte :
 
 ```ini
-extension = /home/[account]/[extension].so
+extension = /home/[compte]/[extension].so
 ```
 
 ### Depuis des paquets de distribution
@@ -87,5 +87,5 @@ $ dpkg-deb -x php5-mapscript_7.0.4-1~bpo8+1_amd64.deb .
 Il faudra ensuite ajouter le chemin absolu au  `php.ini`. Par exemple si elle est téléchargé à la racine du compte :
 
 ```ini
-extension = /home/[account]/[extension].so
+extension = /home/[compte]/[extension].so
 ```

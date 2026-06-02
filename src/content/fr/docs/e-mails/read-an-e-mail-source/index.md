@@ -13,7 +13,7 @@ La source d'un email va afficher son contenu réel, le code brut du message avan
 
 Vous pouvez la récupérer via n'importe quel client mail. Par exemple, via le [webmail](https://webmail.alwaysdata.com), vous la retrouverez dans **... Plus > Afficher la source**
 
-![Roundcube : afficher la source](images/roundcube-source-menu.png)
+![](images/roundcube-source-menu.png)
 
 La source du mail est composée :
 

@@ -9,10 +9,10 @@ eleventyNavigation:
 
 ## Installation
 
-Run the following commands in [SSH](/en/docs/web-hosting/remote-access/ssh) at the root of the account:
+Run the following commands in [SSH](/en/docs/web-hosting/remote-access/ssh) at the root of the account (`/home/[account]/`):
 
 > [!NOTE]
-> Take the [last available version of `mod_maxminddb`](https://github.com/maxmind/mod_maxminddb)
+> Take the [last available version of `mod_maxminddb`](https://github.com/maxmind/mod_maxminddb). Feel free to adjust according to your needs.
 
 
 ```sh
@@ -30,7 +30,7 @@ rm -fr mod_maxminddb
 Then add in the **Web > Configuration** menu of your alwaysdata administration interface:
 
 ```
-LoadModule maxminddb_module $HOME/mod_maxminddb.so
+LoadModule maxminddb_module /home/[account]/mod_maxminddb.so
 ```
 
 Finally create an account on their interface to retrieveone of their databases: [free](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en) or [paid](https://www.maxmind.com/en/geoip2-databases) depending on your needs.
@@ -45,7 +45,7 @@ Add the following at the top of a `.htaccess` file at the root of the website:
 
 ```
 MaxMindDBEnable On
-MaxMindDBFile COUNTRY_DB $HOME/GeoLite2-Country.mmdb
+MaxMindDBFile COUNTRY_DB /home/[account]/GeoLite2-Country.mmdb
 MaxMindDBEnv COUNTRY_CODE COUNTRY_DB/country/iso_code
 
 SetEnvIf COUNTRY_CODE CN BlockCountry
@@ -62,7 +62,7 @@ Add the following at the top of a `.htaccess` file at the root of the website:
 
 ```
 MaxMindDBEnable On
-MaxMindDBFile COUNTRY_DB $HOME/GeoLite2-Country.mmdb
+MaxMindDBFile COUNTRY_DB /home/[account]/GeoLite2-Country.mmdb
 MaxMindDBEnv COUNTRY_CODE COUNTRY_DB/country/iso_code
 
 SetEnvIf COUNTRY_CODE FR AllowCountry

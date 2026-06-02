@@ -10,7 +10,7 @@ Les tokens sont des identifiants utilisés pour authentifier un utilisateur ou u
 
 Pour en générer rendez-vous dans le menu **Profil**.
 
-![Gérer les tokens](images/profile-token.png)
+![](images/profile-token.png)
 
 Il est nécessaire d'avoir activé l'[authentification 2 facteurs](/fr/docs/admin-facturation/profil/authentification-2-facteurs/) pour générer/modifier ses tokens.
 

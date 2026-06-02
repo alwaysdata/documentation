@@ -9,9 +9,9 @@ The [DNS servers](https://en.wikipedia.org/wiki/Domain_Name_System) define which
 
 1.  Ask your new provider for their DNS servers,
 2.  From your administration interface, go to **Domains > Details** for the relevant domain and **> Modify** its DNS servers,
-    ![Administration interface: Domain details](images/admin-panel_domain-details.png)
+    ![](images/admin-panel_domain-details.png)
 3.  Specify the addresses for your new DNS servers. 
-    ![Administration interface: Change DNS servers](images/admin-panel_change-dns.png)
+    ![](images/admin-panel_change-dns.png)
     
 > [!NOTE]
 > When the DNS server fields are empty, the domain uses the alwaysdata DNS servers.

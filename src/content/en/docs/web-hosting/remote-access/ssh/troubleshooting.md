@@ -7,11 +7,7 @@ eleventyNavigation:
 
 ## Connection
 
-Should connection issues arise, you can always use the `ssh -v [user]@ssh-[account].alwaysdata.net` command to get more information.
-
-> [!NOTE]
-> Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with your SSH hostname.
-
+Should connection issues arise, you can always use the `ssh -v [account]@ssh-[account].alwaysdata.net` command to get more information.
 
 An [IP blockage](/en/docs/technical-specifications/network#intrusion-prevention) occurs after some ten failed attempts to connect to the server.
 

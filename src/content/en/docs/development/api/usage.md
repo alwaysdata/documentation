@@ -28,10 +28,10 @@ If you access resources linked to a user or a specific account, then you will ne
 - **account**: this is the account you wish to access. If for example you have a number of accounts but you wish to access a resource in a specific account.
 - **customer**: if you have certain permissions on another user, then you need to specify their e-mail address.
 
-For example, accessing the FTP users of your *mycompany* in this way:
+For example, accessing the FTP users in this way:
 
 ```sh
-$ curl --basic --user "APIKEY account=mycompany:" https://api.alwaysdata.com/v1/ftp/
+$ curl --basic --user "APIKEY account=[account]:" https://api.alwaysdata.com/v1/ftp/
 ```
 
 ## Format

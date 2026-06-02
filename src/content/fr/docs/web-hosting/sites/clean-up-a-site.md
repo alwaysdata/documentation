@@ -82,10 +82,10 @@ Tous ces fichiers doivent être **supprimés**.
 ## 2. Recherche de la faille
 
 En fonction de la date de création des fichiers, de leur nom et de leur appel, il est possible de retrouver l'URL permissive appelée.
-Pour se faire, épluchez les requêtes POST de vos logs Apache situés dans le répertoire `$HOME/admin/logs/http` :
+Pour se faire, épluchez les requêtes POST de vos logs Apache situés dans le répertoire `/home/[compte]/admin/logs/http` :
 
 ```sh
-$ grep POST $HOME/admin/logs/http/[année]/http-[date].log[.gz]
+$ grep POST /home/[compte]/admin/logs/http/[année]/http-[date].log[.gz]
 ```
 
 Exemple d'appels suspects :

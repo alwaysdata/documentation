@@ -45,9 +45,9 @@ If you wish to access your mailbox from a browser, we make available [our webmai
 
 By default, the webmail is using the user's web browser language (the one of its first connection). To change the language, click on **Settings** in the top right corner, then **User Interface > Language**.
 
-![Webmail: change parameters - step 1](images/roundcube_change-parameter-1.png)
+![](images/roundcube_change-parameter-1.png)
 
-![Webmail: change parameters - step 2](images/roundcube_change-parameter-2.png)
+![](images/roundcube_change-parameter-2.png)
 
 > [!TIP]
 > When you change your password via the webmail, you will need to log out and log back in.
@@ -55,7 +55,7 @@ By default, the webmail is using the user's web browser language (the one of its
 
 ## Notes
 
-- The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `$HOME/admin/mail`,
+- The e-mails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `/home/[account]/admin/mail`,
 - If the destination MX server is not available, the email will be kept for a maximum of five days, with regular attempts made to resend it,
 - The maximum size of e-mails sent is set at **50 Mb**,
 - SMTP authentication is not required when the service is hosted on alwaysdata servers (e.g. website or scheduled task).

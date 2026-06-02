@@ -16,19 +16,19 @@ Voici un guide d'installation sur le Cloud Public.
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de Memcached : `$HOME/memcached/`
+- Nom du compte : `[compte]`
+- Répertoire de Memcached : `/home/[compte]/memcached/`
 - Port : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
 > [!NOTE]
-> `[foo]` doit être remplacé par le nom de compte correct.
+> N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## Étape 1 : Installation
 
 ```sh
-foo@ssh:~/memcached$ wget -O- http://memcached.org/latest| tar -xz --strip-components=1
-foo@ssh:~/memcached$ ./configure && make
+[compte]@ssh:~/memcached$ wget -O- http://memcached.org/latest| tar -xz --strip-components=1
+[compte]@ssh:~/memcached$ ./configure && make
 ```
 
 ## Étape 2 : Lancement du service
@@ -36,14 +36,14 @@ foo@ssh:~/memcached$ ./configure && make
 Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
 - *Commande* : `./memcached -p 8300`
-- *Répertoire de travail* : `/home/[foo]/memcached`
+- *Répertoire de travail* : `/home/[compte]/memcached`
 
-Plus d'options via `$HOME/memcached/memcached -h`.
+Plus d'options via `/home/[compte]/memcached/memcached -h`.
 
 > [!WARNING] Attention
 > Par défaut n'importe qui peut se connecter au Memcached ; il n'y a aucune sécurité. Une [authentification](https://github.com/memcached/memcached/wiki/SASLHowto) peut être mise en place.
 
 
-Il restera ensuite la configuration de l'application qui pour se connecter au Memcached devra utiliser `services-[foo].alwaysdata.net` et le port `8300`.
+Il restera ensuite la configuration de l'application qui pour se connecter au Memcached devra utiliser `services-[compte].alwaysdata.net` et le port `8300`.
 
 - [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/memcached/php)

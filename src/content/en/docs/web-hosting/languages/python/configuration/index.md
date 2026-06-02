@@ -20,7 +20,7 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages#
 
 ## Error logs
 
-You can view the error logs in the `$HOME/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.
+You can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.
 
 An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
@@ -56,7 +56,7 @@ Your Python environment starts off empty, with no ready installed libraries othe
 $ python -m pip install [package]
 ```
 
-Packages are installed in the standard `$HOME/.local` directory and they are automatically added to `sys.path` by Python.
+Packages are installed in the standard `/home/[account]/.local` directory and they are automatically added to `sys.path` by Python.
 
 Note that you will need to re-install the packages if you change the major Python version (versions 3.5 and 3.6 are two different major versions, whereas 3.5.1 and 3.5.2 use the same major version).
 
@@ -120,7 +120,7 @@ If you use a virtual environment, there is no need to specify `--user`.
 
 For a [WSGI](https://wsgi.readthedocs.io) application to be accessible by the web, you need to add a site in the administration **Web > Sites** section:
 
-![](images/python-wsgi.png
+![](images/python-wsgi.png)
 
 - type: choose *Python WSGI*,
 - application path: the path to your WSGI application.
@@ -136,7 +136,7 @@ You can also fill-in a number of optional fields:
 
 Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
 
-![User Program Type](images/user-program.png)
+![](images/user-program.png)
 
 You will have to use the and make the HTTP server listen in IPv6 and on the given port. For example:
 

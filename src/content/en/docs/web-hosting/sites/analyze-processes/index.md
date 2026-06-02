@@ -13,7 +13,7 @@ The process analysis produces a file, available from the root of your account (c
 
 The process analysis function is available via **Advanced > Process > Analyze the processes**.
 
-![Process menu: list](images/admin-panel_processes-list.png)
+![Processes menu: list](images/admin-panel_processes-list.png)
 
 ![Analyze the processes](images/admin-panel_processes-analysis.png)
 

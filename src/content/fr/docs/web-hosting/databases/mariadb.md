@@ -28,12 +28,12 @@ Ces informations de connexion dépendent du compte concerné. Vous pouvez retrou
 ### Exemple avec `mysql`
 Dans notre exemple, nous utilisons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Nom de la base de données : `foo_base`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (c'est-à-dire `foo` pour le compte _foo_).
+- Nom du compte : `[compte]`
+- Nom de la base de données : `[compte]_base`
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes.
 
 ```sh
-foo@ssh:~$ mysql -h mysql-foo.alwaysdata.net -u foo -p foo_base
+[compte]@ssh:~$ mysql -h mysql-[compte].alwaysdata.net -u [compte] -p [compte]_base
 ```
 
 ## Permissions
@@ -56,7 +56,7 @@ Plusieurs possibilités :
 - utiliser la commande suivante :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
+    $ zstdcat /home/[compte]/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
     ```
 
 - récupérer l'archive et utiliser le client de son choix.

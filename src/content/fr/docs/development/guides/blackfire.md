@@ -10,25 +10,25 @@ eleventyNavigation:
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de Blackfire : `$HOME/blackfire/`
+- Nom du compte : `[compte]`
+- Répertoire de Blackfire : `/home/[compte]/blackfire/`
 
 > [!NOTE]
-> `[foo]`, `<version>`, `[version]`, `<YOUR_SERVER_ID>` et `<YOUR_SERVER_TOKEN>` doivent être remplacées par les informations correctes.
+> `<version>`, `[version]`, `<YOUR_SERVER_ID>` et `<YOUR_SERVER_TOKEN>` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## Étape 1 : Téléchargement de l'agent
 
 ```sh
-foo@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
-foo@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
+[compte]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
+[compte]@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
 ```
 [Page de téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) : prendre le paquet DEB 64 bits.
 
 ## Étape 2 : Configuration de l'agent
 
 ```sh
-foo@ssh:~/blackfire$ cat << EOF > etc/blackfire/agent-prod
+[compte]@ssh:~/blackfire$ cat << EOF > etc/blackfire/agent-prod
 [blackfire]
 ; setting: server-id
 ; You can find your personal server-id at https://blackfire.io/my/settings/credentials
@@ -39,7 +39,7 @@ server-id=<YOUR_SERVER_ID>
 server-token=<YOUR_SERVER_TOKEN>
 
 ; setting: log-file
-log-file=/home/[foo]/blackfire/agent.log
+log-file=/home/[compte]/blackfire/agent.log
 
 ; setting: log-level
 ; desc   : log verbosity level (4: debug, 3: info, 2: warning, 1: error)
@@ -60,8 +60,8 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-- *Commande* : `/home/[foo]/blackfire/usr/bin/blackfire --config=/home/[foo]/blackfire/etc/blackfire/agent-prod`
-- *Répertoire de travail* : `/home/[foo]/blackfire`
+- *Commande* : `/home/[compte]/blackfire/usr/bin/blackfire --config=/home/[compte]/blackfire/etc/blackfire/agent-prod`
+- *Répertoire de travail* : `/home/[compte]/blackfire`
 
 ## Étape 4 : Installation des sondes
 
@@ -72,15 +72,15 @@ Voir [Blackfire for PHP](https://blackfire.io/docs/php)
 **Téléchargement**
 
 ```sh
-foo@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
-foo@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
+[compte]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
+[compte]@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
 ```
 [Page de téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) - point D : prendre le paquet DEB 64 bits.
 
 **Ajout de l'extension dans le php.ini (Environnement > PHP)**
 
 ```ini
-extension = /home/[foo]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so
+extension = /home/[compte]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so
 ```
 
 Plus d'options sont données sur leur [documentation](https://blackfire.io/docs/php/configuration). Notamment pour mettre en place un log :
@@ -88,7 +88,7 @@ Plus d'options sont données sur leur [documentation](https://blackfire.io/docs/
 ```ini
 blackfire.log_level = 1
 # Log verbosity level (4: debug, 3: info, 2: warning, 1: error)
-blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
+blackfire.log_file = /home/[compte]/blackfire/blackfire-php.log
 ```
 
 ### Python
@@ -96,7 +96,7 @@ blackfire.log_file = /home/[foo]/blackfire/blackfire-php.log
 Voir [Blackfire for Python](https://blackfire.io/docs/python)
 
 ```sh
-foo@ssh:~$ python -m pip install blackfire
+[compte]@ssh:~$ python -m pip install blackfire
 ```
 
 ---

@@ -9,15 +9,15 @@ eleventyNavigation:
 Pour mieux gérer ses emails et les trier automatiquement, on peut utiliser les règles de filtrage. Ces règles peuvent être créées au niveau du client email ou du serveur email.
 
 Pour le faire sur ce dernier, rendez-vous dans **Emails > Adresses > Modifier** l'adresse voulue **> Règles de filtrage**.
-![Interface d'administration : aller dans les règles de filtrage](images/filter-rule1.png)
+![](images/filter-rule1.png)
 
 Vous y retrouverez la liste de vos règles et pourrez en ajouter.
 
-![Liste de ses règles de filtrage](images/filter-rule2.png)
+![](images/filter-rule2.png)
 ![Ajouter une règle de filtrage](images/filter-rule3.png)
 
 
-Les règles de filtrages sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier `$HOME/admin/mail/[domaine]/[partie-locale]/filter.sieve` sur votre espace de fichiers.
+Les règles de filtrages sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier `/home/[compte]/admin/mail/[domaine]/[partie-locale]/filter.sieve` sur votre espace de fichiers.
 
 > [!TIP] Astuce
 > Pour créer des règles plus compliquées, ce sera des [règles Sieve](/fr/docs/emails/utiliser-les-scripts-sieve/).

@@ -28,12 +28,12 @@ A *pgBouncer* is running on port `5433`. It is possible to use it instead of Pos
 ### Example with `psql`
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- Database name: `foo_base`
-- We will use the default SSH users and databases, i.e. the ones created when the accounts are opened (e.g. `foo` for the *foo* account).
+- Account name: `[account]`
+- Database name: `[account]_base`
+- We will use the default SSH users and databases, i.e. the ones created when the accounts are opened.
 
 ```sh
-foo@ssh:~$ psql -h postgresql-foo.alwaysdata.net -U foo -W -d foo_base
+[account]@ssh:~$ psql -h postgresql-[account].alwaysdata.net -U [account] -W -d [account]_base
 ```
 
 ## Permissions
@@ -74,7 +74,7 @@ Several options :
 - use the following command :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[database].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
+    $ zstdcat /home/[account]/admin/backup/[date]/postgresql/[database].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [database]
     ```
 
 - get the tarbal and use the client of your choice.

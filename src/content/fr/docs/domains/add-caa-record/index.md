@@ -9,12 +9,12 @@ eleventyNavigation:
 Un [enregistrement CAA](https://fr.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) liste les autorités de certifications homologuées à émettre des certificats pour un domaine. Toute autorité de certification ne faisant pas partie des émetteurs autorisés par l'enregitrement CAA d'un domaine, ne sera pas autorisée à émettre de certificat pour ce domaine ou tout sous-domaine.
 
 1.   Rendez-vous sur **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
-    ![Interface d'administration : liste des enregistrements DNS](images/admin-panel_dns-record-list.png)
+    ![](images/admin-panel_dns-record-list.png)
 
 2.   Choisissez **Ajouter un enregistrement DNS** ;
 
 3.   Renseignez le formulaire.
-    ![Interface d'administration : ajouter un enregistrement CAA](images/admin-panel_add-caa.png)
+    ![](images/admin-panel_add-caa.png)
 
 > [!WARNING] Attention
 > Ne mettez pas la racine dans **Nom d'hôte**.

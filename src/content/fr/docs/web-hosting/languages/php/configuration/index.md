@@ -21,7 +21,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Paramètres (php.ini)
 
-Le fichier `php.ini` par défaut active plusieurs extensions essentielles et définit quelques paramètres de base. Ce fichier est accessible en lecture à l'emplacement `$HOME/admin/config/php/php.ini`. Voici son contenu (pour un compte configuré sur une version 8.2 de PHP) :
+Le fichier `php.ini` par défaut active plusieurs extensions essentielles et définit quelques paramètres de base. Ce fichier est accessible en lecture à l'emplacement `/home/[compte]/admin/config/php/php.ini`. Voici son contenu (pour un compte configuré sur une version 8.2 de PHP) :
 
 ```ini
 ; Core settings

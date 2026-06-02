@@ -6,13 +6,13 @@ eleventyNavigation:
   parent: Sauvegardes
 ---
 
-Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire `$HOME/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
+Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire `/home/[compte]/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.
 
 1. Choisissez la date voulue ;
-    ![Interface d'administration : restauration de sauvegarde - étape 1](images/admin-panel_restoration.png)
+    ![](images/admin-panel_restoration.png)
 
 2. Puis cochez la/les base(s) de données et/ou le/les répertoire(s) voulu(s) [^1].
-    ![Interface d'administration : restauration de sauvegarde - étape 2](images/admin-panel_restoration-site.png)
+    ![](images/admin-panel_restoration-site.png)
 
 > [!WARNING] Attention
 > La restauration va écraser la configuration actuelle, effectuez donc auparavant une sauvegarde.
@@ -31,7 +31,7 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
 - Restaurez des fichiers :
 
     ```sh
-    $ rsync -av --delete $HOME/admin/backup/[date]/files/[répertoire]/ $HOME/[répertoire]/
+    $ rsync -av --delete /home/[compte]/admin/backup/[date]/files/[répertoire]/ /home/[compte]/[répertoire]/
     ```
 
 > [!WARNING] Attention
@@ -42,13 +42,13 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
 - Restaurer une base de données MySQL :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
+    $ zstdcat /home/[compte]/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[compte].alwaysdata.net -u [utilisateur] -p [base]
     ```
 
 - Restaurer une base de données PostgreSQL :
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
+    $ zstdcat /home/[compte]/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[compte].alwaysdata.net -U [utilisateur] -W -d [base]
     ```
 
 > [!TIP] Astuce

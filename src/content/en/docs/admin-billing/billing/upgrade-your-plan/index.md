@@ -7,7 +7,7 @@ eleventyNavigation:
 
 To change the offer, go to **Subscriptions > Edit - ⚙️ the relevant account**:
 
-![Administration interface: list of accounts.](images/list-accounts.png)
+![](images/list-accounts.png)
 
 You can change the *[pack](/en/docs/admin-billing/billing/public-cloud-prices)* and the *commitment period*. The invoice for the new subscription is generated the next day and you will have 30 days to pay it.
 

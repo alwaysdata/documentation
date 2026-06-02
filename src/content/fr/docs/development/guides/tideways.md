@@ -10,18 +10,18 @@ eleventyNavigation:
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de Tideways : `$HOME/tideways/`
+- Nom du compte : `[compte]`
+- Répertoire de Tideways : `/home/[compte]/tideways/`
 
 > [!NOTE]
-> `[foo]`, `[version]` et `[php_version]` doivent être remplacées par les informations correctes.
+> `[version]` et `[php_version]` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## Étape 1 : Téléchargement de l'agent et du démon
 
 ```sh
-foo@ssh:~/tideways$ wget -O- https://s3-eu-west-1.amazonaws.com/tideways/extension/[version]/tideways-php-[version]-x86_64.tar.gz | tar -xz --strip-components=1
-foo@ssh:~/tideways$ wget -O- https://s3-eu-west-1.amazonaws.com/tideways/daemon/[version]/tideways-daemon_linux_amd64-[version].tar.gz | tar -xz --strip-components=0
+[compte]@ssh:~/tideways$ wget -O- https://s3-eu-west-1.amazonaws.com/tideways/extension/[version]/tideways-php-[version]-x86_64.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/tideways$ wget -O- https://s3-eu-west-1.amazonaws.com/tideways/daemon/[version]/tideways-daemon_linux_amd64-[version].tar.gz | tar -xz --strip-components=0
 ```
 
 [Page de téléchargement](https://tideways.io/profiler/downloads)
@@ -31,7 +31,7 @@ foo@ssh:~/tideways$ wget -O- https://s3-eu-west-1.amazonaws.com/tideways/daemon/
 Ajoutez dans le `php.ini` (**Environnement > PHP** ou **Web > Sites > Modifier le [site] - ⚙️ > Configuration**) :
 
 ```ini
-extension = /home/[foo]/tideways/tideways-[version]/tideways-php-[php-version].so
+extension = /home/[compte]/tideways/tideways-[version]/tideways-php-[php-version].so
 ```
 
 [Documentation de configuration](https://support.tideways.com/documentation/setup/configuration)
@@ -39,10 +39,10 @@ extension = /home/[foo]/tideways/tideways-[version]/tideways-php-[php-version].s
 ## Étape 3 : Lancement du démon
 
 ```sh
-foo@ssh:~/tideways$ chmod +x tideways-daemon_[version]/tideways-daemon
+[compte]@ssh:~/tideways$ chmod +x tideways-daemon_[version]/tideways-daemon
 ```
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-- *Commande* : `/home/[foo]/tideways/tideways-daemon_[version]/tideways-daemon -address /home/[foo]/tideways/tidewaysd.sock`
-- *Répertoire de travail* : `/home/[foo]/tideways/tideways-daemon_[version]/`
+- *Commande* : `/home/[compte]/tideways/tideways-daemon_[version]/tideways-daemon -address /home/[compte]/tideways/tidewaysd.sock`
+- *Répertoire de travail* : `/home/[compte]/tideways/tideways-daemon_[version]/`

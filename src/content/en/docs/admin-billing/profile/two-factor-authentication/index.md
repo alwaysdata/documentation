@@ -10,8 +10,8 @@ eleventyNavigation:
 The technology chosen by alwaysdata is a [Time-based One Time Password](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) (TOTP) algorithm: **sharing an individual and single use secret code** between our database and the client secure authentication applications.
 
 To use it, go to **Profile** to activate *Two factor authentication*.
-
-![](images/profile-security.png This will allow you access to your personal secret code and QR code.
+![](images/profile-security.png)
+This will allow you access to your personal secret code and QR code.
 
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 

@@ -42,7 +42,7 @@ To deploy an HTTP application with Java, create a site in the **Web > Sites** se
 
 It uses the [Apache Tomcat](https://tomcat.apache.org/) HTTP server.
 
-![](images/java-tomcat.png
+![](images/java-tomcat.png)
 
 - type: choose *Java*,
 - application path: the path to the file of your Java application.
@@ -56,7 +56,7 @@ You can also fill-in a number of optional fields:
 
 [Presentation](/en/docs/web-hosting/sites/user-program)
 
-![](images/user-program.png
+![](images/user-program.png)
 
 You need to specify the command that will start your Java application, for example[^1]:
 

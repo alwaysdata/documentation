@@ -10,13 +10,13 @@ eleventyNavigation:
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom de compte : `foo`
-- Répertoire d'installation de MapServer : `$HOME/mapserver`
+- Nom de compte : `[compte]`
+- Répertoire d'installation de MapServer : `/home/[compte]/mapserver`
 
 1. Créer le lien symbolique :
 
 ```sh
-foo@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
+[compte]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
 ```
 
 2. Créer un fichier `.htaccess` contenant :

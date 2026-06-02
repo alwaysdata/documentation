@@ -19,15 +19,11 @@ FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Pr
 |Host|**ftp-[account].alwaysdata.net**|
 |Port|**990 (SSL/TLS)**|
 |Alternative port|21 (STARTTLS)|
-|Identifier|assigned **user** and **password**|
+|Identifier|assigned **user** (**[account]**) and **password**|
 
 These users can be configured in the **Remote access > FTP** tab in your alwaysdata administration interface.
 
-![Administration interface: list of FTP users](admin-panel_list-ftp-users.png)
-
-> [!NOTE]
-> Replace `ftp-[account].alwaysdata.net` with your FTP hostname.
-
+![](admin-panel_list-ftp-users.png)
 
 The maximum number of simultaneous connections per user is *10*. On request, it is possible to change this in Private Cloud environments.
 

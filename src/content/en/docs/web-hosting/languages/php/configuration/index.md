@@ -20,7 +20,7 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages#
 
 ## Parameters (php.ini)
 
-By default, the `php.ini` file activates a number of essential extensions and defines some basic parameters. This file is accessible in read from the following location `$HOME/admin/config/php/php.ini`. Here is its content (for an account configured on PHP version 8.2):
+By default, the `php.ini` file activates a number of essential extensions and defines some basic parameters. This file is accessible in read from the following location `/home/[account]/admin/config/php/php.ini`. Here is its content (for an account configured on PHP version 8.2):
 
 ```ini
 ; Core settings
@@ -90,7 +90,7 @@ You can also create `.user.ini` files to only apply parameters to some directori
 
 For a PHP application to be accessible via the web, create a site in the **Web > Sites** section of the alwaysdata administration by selecting the **PHP** type.
 
-![](images/php-type.png
+![](images/php-type.png)
 
 ### Versions management
 

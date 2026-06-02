@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ## mod_fcgid: can't apply process slot
 
-This error message returned by the Apache log (`$HOME/admin/logs/apache/`) indicates that the limit on the number of PHP processes (*20*) at a given time has been reached and that new connections are waiting for a PHP process to become available.
+This error message returned by the Apache log (`/home/[account]/admin/logs/apache/`) indicates that the limit on the number of PHP processes (*20*) at a given time has been reached and that new connections are waiting for a PHP process to become available.
 
 To quickly restart the site you can do it in **Web > Sites**. This will however only "artificially" and temporarily fix the problem. You can [analyze the processes](/en/docs/web-hosting/sites/analyze-processes) or use PHP profiling services such as [New Relic](https://newrelic.com/products/application-monitoring), [Tideways](https://tideways.com/) or [Blackfire](https://blackfire.io/) to find the source.
 
@@ -56,4 +56,4 @@ or else for the `php.ini`:
 $ php -c /path/to/php.ini
 ```
 
-The `php.ini` files are available in read-only in the directory `$HOME/admin/config/php/`.
+The `php.ini` files are available in read-only in the directory `/home/[account]/admin/config/php/`.

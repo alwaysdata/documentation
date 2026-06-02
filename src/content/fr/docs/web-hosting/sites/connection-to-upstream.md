@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Sites web
 ---
 
-Les erreurs **Connection to upstream refused** et **Connection to upstream skipped** indiquent un problème au lancement de l'application. Cela peut soit être le _serveur HTTP_ qui n'arrive pas à se lancer soit l'_application_ qui se lance mais n'écoute pas sur la bonne IP. Quelle que soit la raison plus d'informations sont disponibles dans les logs `$HOME/admin/logs/sites`.
+Les erreurs **Connection to upstream refused** et **Connection to upstream skipped** indiquent un problème au lancement de l'application. Cela peut soit être le _serveur HTTP_ qui n'arrive pas à se lancer soit l'_application_ qui se lance mais n'écoute pas sur la bonne IP. Quelle que soit la raison plus d'informations sont disponibles dans les logs `/home/[compte]/admin/logs/sites`.
 
 Voici une liste non exhaustive d'exemples :
 
@@ -17,7 +17,7 @@ Voici une liste non exhaustive d'exemples :
 => Log sites pour un site utilisant Apache :
 STDERR: (122)Disk quota exceeded: apache: could not open error log file /home/foo/admin/logs/apache/apache.log.
 
-=> Logs Apache ($HOME/admin/logs/apache) :
+=> Logs Apache (/home/[compte]/admin/logs/apache) :
 [error] (122)Disk quota exceeded: Couldn't bind unix domain socket /home/foo/admin/config/apache/run/cgisoc
 k.XXXXXXX
 [error] (122)Disk quota exceeded: could not create /home/foo/admin/config/apache/run/apache.pid
@@ -55,7 +55,7 @@ Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on 
 STDERR: [uWSGI] getting INI configuration from /home/foo/admin/config/uwsgi/XXXXX.conf
 Upstream starting failed: /usr/alwaysdata/uwsgi/2.0.17.1/bin/uwsgi --ini /home/foo/admin/config/uwsgi/XXXXX.conf (return code: 1 | reason: -)
 
-=> Logs uWSGI ($HOME/admin/logs/uwsgi) :
+=> Logs uWSGI (/home/[compte]/admin/logs/uwsgi) :
 chdir() to /home/foowww
 chdir(): No such file or directory [core/uwsgi.c line 2631]
 -----

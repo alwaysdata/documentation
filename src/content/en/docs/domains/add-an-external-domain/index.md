@@ -10,21 +10,21 @@ An operation that is free, this allows transferring the domain’s *technical* m
 Here we wish to add the domain and **change of DNS servers** at the registrar to put `dns1.alwaysdata.com` and `dns2.alwaysdata.com`.
 
 1.  From your administration interface, go to **Domains > Add a domain**;
-    ![Administration interface: list of domains](images/admin-panel_domain-list.png)
+    ![](images/admin-panel_domain-list.png)
 
 2.  Fill-in the domain names that you wish to add,
-    ![Administration interface: step 1](images/admin-panel_add-domain-1.png)
+    ![](images/admin-panel_add-domain-1.png)
 
 > [!NOTE]
 > Enter the domain only, without the subdomain. For example: `example.org` and not `www.example.org`.
 
 
 3.  Choose to **manage** it.
-    ![Administration interface: step 2](images/admin-panel_add-domain-2.png)
+    ![](images/admin-panel_add-domain-2.png)
 
 This will add the domain as an *external domain* in the list.
 
-![Administration interface: External domain](images/admin-panel_domain-list2.png)
+![](images/admin-panel_domain-list2.png)
 
 Then you can create [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/add-dns).
 

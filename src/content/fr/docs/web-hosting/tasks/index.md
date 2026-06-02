@@ -30,7 +30,7 @@ Plusieurs types d’informations sont à fournir :
 
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
-- Un log est automatiquement créé et disponible dans le répertoire `$HOME/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
+- Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
 	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄) ;
 	- les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs ;
 - Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées** ;
@@ -62,13 +62,13 @@ Lancement, toutes les dix minutes, de l'outil [WordPress](https://developer.word
 
 Interface d'administration alwaysdata :
 
-- _valeur_ : `php $HOME/wordpress/htdocs/wp cron event run --due-now`
+- _valeur_ : `php /home/[compte]/wordpress/htdocs/wp cron event run --due-now`
 - _fréquence_ : deuxième choix - Toutes les 10 minutes
 
 Syntaxe crontab équivalente :
 
 ```
-*/10 * * * * php $HOME/wordpress/htdocs/wp cron event run --due-now
+*/10 * * * * php /home/[compte]/wordpress/htdocs/wp cron event run --due-now
 ```
 
 ### tt-rss
@@ -77,13 +77,13 @@ Syntaxe crontab équivalente :
 
 Interface d'administration alwaysdata :
 
-- _valeur_ : `php $HOME/tt-rss/update.php --feeds --quiet`
+- _valeur_ : `php /home/[compte]/tt-rss/update.php --feeds --quiet`
 - _fréquence_ : premier choix - Tous les jours à 10:30
 
 Syntaxe crontab équivalente :
 
 ```
-30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
+30 10 * * * php /home/[compte]/tt-rss/update.php --feeds --quiet
 ```
 
 [^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si le tâche n'est pas exécutée, aucun mail n'est envoyé.

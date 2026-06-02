@@ -16,11 +16,11 @@ Before starting the operation the owner needs to:
 
 This information is retrieved from the **Domains > Details of [example.org] - 🔎** tab:
 
-![Prepare a transfer](images/admin-panel_domain-details.png)
+![](images/admin-panel_domain-details.png)
 
 He can also disable [DNSSEC](/domains/dnssec/) to avoid *potential* issues.
  
 >[!NOTE]
 A transfer cannot be made during the first 60 days after creation or after a previous transfer.
 
-[^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
+[^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)

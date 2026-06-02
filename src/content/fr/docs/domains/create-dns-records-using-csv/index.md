@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS > Ajouter plusieurs enregistrements DNS**.
 
-![Menu](images/menu.png)
+![](images/menu.png)
 
 Le fichier à importer devra être au format [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values), que vous pouvez créer avec un logiciel de tableur - comme Microsoft Excel ou LibreOffice Calc. Exemple :
 

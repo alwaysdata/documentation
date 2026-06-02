@@ -11,7 +11,7 @@ The firewall is managed from the server's **Firewall** menu.
 
 Use this menu to find, create and adjust your firewall rules.
 
-![Administration interface: list of active firewall rules](images/admin-panel_list-rules.png)
+![](images/admin-panel_list-rules.png)
 
 If you have a number of rules, the rule placed highest will take precedence over the others.
 
@@ -30,7 +30,7 @@ To add a rule, choose:
 
 Not putting anything in *Hosts* and *Ports* will enable the rule for all unless a higher rule states the opposite.
 
-![Administration interface: adding a rule](images/admin-panel_add-rule.png)
+![Adding a rule](images/admin-panel_add-rule.png)
 
 It is possible to give a label by rules (**Annotations**) and directly in your rules by using the string `#`.
 
@@ -42,7 +42,7 @@ It is possible to give a label by rules (**Annotations**) and directly in your r
 
 Here you will see the IP addresses currently banned and the services that they are banned from.
 
-![Administration interface: list of current bans](images/admin-panel_list-bans.png)
+![List of current bans](images/admin-panel_list-bans.png)
 
 If you end up banned from a service, check this menu and delete your IP if it is banned and add the necessary rule.
 

@@ -45,9 +45,9 @@ Le périmètre de recherche inclus seulement les adresses suivantes :
 - https://admin.alwaysdata.com
 - https://webmail.alwaysdata.com
 - https://api.alwaysdata.com
-- ssh://ssh-[accountid].alwaysdata.net
-- https://webdav-[accountid].alwaysdata.net
-- ftp://ftp-[accountid].alwaysdata.net
+- ssh://ssh-[compte].alwaysdata.net
+- https://webdav-[compte].alwaysdata.net
+- ftp://ftp-[compte].alwaysdata.net
 ```
 
 Les failles signalées sur d'autres services ou applications ne seront pas prises en compte.
@@ -59,7 +59,7 @@ Lors du test d'un bug, veuillez garder à l'esprit :
 * Utilisez des comptes de test pour ne pas compromettre involontairement la confidentialité de nos utilisateurs ;
 * Lorsque vous tentez de démontrer des permissions root avec les primitives suivantes dans un processus vulnérable, veuillez utiliser les commandes suivantes :
 	- Lire : `cat /proc/1/maps`
-	- Écrire : `touch /root/<accountid>`
+	- Écrire : `touch /root/[compte]`
 	- Exécuter : `id, hostname, pwd`
 
 **Minimisez le chaos.** Respectez les règles du programme en tout temps. N'utilisez pas de scanners/outils automatisés — ces outils incluent des charges utiles qui pourraient déclencher des changements d'état ou endommager les systèmes de production et/ou les données.

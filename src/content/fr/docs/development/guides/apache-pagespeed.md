@@ -12,15 +12,18 @@ Du fait des particularités de notre infrastructure, leur script d'installation 
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom de compte : `foo`
-- Répertoire de PageSpeed : `$HOME/pagespeed/`
+- Nom de compte : `[compte]`
+- Répertoire de PageSpeed : `/home/[compte]/pagespeed/`
 - Apache 2.4
+
+> [!NOTE]
+> N'hésitez pas à ajuster en fonction de vos besoins.
 
 ## Étape 1 : Téléchargement
 
 ```sh
-foo@ssh:~/pagespeed$ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
-foo@ssh:~/pagespeed$ dpkg -x mod-pagespeed-stable_current_amd64.deb .
+[compte]@ssh:~/pagespeed$ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
+[compte]@ssh:~/pagespeed$ dpkg -x mod-pagespeed-stable_current_amd64.deb .
 ```
 Il y a deux modules, un pour Apache 2.2 et l'autre pour Apache 2.4.
 
@@ -29,8 +32,8 @@ Il y a deux modules, un pour Apache 2.2 et l'autre pour Apache 2.4.
 Dans **Web > Configuration > Apache**, ajoutez :
 
 ```
-LoadModule pagespeed_module          "/home/[foo]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"
-ModPagespeedFileCachePath            "/home/[foo]/pagespeed/cache/pagespeed/"
+LoadModule pagespeed_module          "/home/[compte]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"
+ModPagespeedFileCachePath            "/home/[compte]/pagespeed/cache/pagespeed/"
 ModPagespeedFileCacheSizeKb          102400
 ModPagespeedFileCacheCleanIntervalMs 3600000
 ModPagespeedFileCacheInodeLimit      500000

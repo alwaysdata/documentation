@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Go to the **Web > Sites > Add a site** menu.
 
-![Administration interface: list of sites](images/admin-panel_sites-list.png)
+![List of sites](images/admin-panel_sites-list.png)
 
 > [!TIP]
 > If you are starting from scratch you can take advantage of our [application library](/en/docs/development/marketplace) by going to **Web > Sites > Install an application**.
@@ -53,7 +53,7 @@ PHP, Static Files and Custom Apache websites are served by [Apache](https://http
 See [SSL](/en/docs/web-hosting/sites/ssl-tls/redirect-http-to-https).
 
 ## WAF
-![Configure the web application firewall](images/admin-panel_add-site-waf.png)
+![Configure the Web Application Direwall](images/admin-panel_add-site-waf.png)
 See [WAF](/en/docs/web-hosting/sites/waf).
 
 ## Cache
@@ -71,4 +71,4 @@ See [Logs](/en/docs/web-hosting/sites/formatting-http-logs).
 
 ---
 
-HTTP logs are available from directory `$HOME/admin/logs/http/`. The *site* logs showing "upstream" web site starts, stops and malfunctions are available from `$HOME/admin/logs/sites/`. An extract of these logs (with Apache & uWSGI logs) is presented in the administration’s interface (**Logs** - 📄).
+HTTP logs are available from directory `/home/[account]/admin/logs/http/`. The *site* logs showing "upstream" web site starts, stops and malfunctions are available from `/home/[account]/admin/logs/sites/`. An extract of these logs (with Apache & uWSGI logs) is presented in the administration’s interface (**Logs** - 📄).

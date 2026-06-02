@@ -22,7 +22,7 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages#
 
 ## Error logs
 
-You can view the error logs in the `$HOME/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the Web > Sites section.
+You can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the Web > Sites section.
 
 An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
@@ -62,7 +62,7 @@ You can use `gem` to install packages:
 $ gem install [package]
 ```
 
-Packages are installed in the standard `$HOME/.gem` directory and they are automatically added to load path by Ruby.
+Packages are installed in the standard `/home/[account]/.gem` directory and they are automatically added to load path by Ruby.
 
 Note that you will need to re-install the packages if you change the major Ruby version (versions 2.3 and 2.4 are two different major versions, whereas 2.3.1 and 2.3.0 use the same major version).
 
@@ -90,7 +90,7 @@ $ bundle install
 
 To make a Ruby application accessible over the web, you need to add a site in the **Web > Sites** section of the alwaysdata administration. We offer the **Ruby Rack** type which uses the [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) web server.
 
-![Ruby Rack Site Ty](images/ruby-rack.png)
+![](images/ruby-rack.png)
 
 - type: choose *Ruby Rack*,
 - application path: the path to your Rack application.

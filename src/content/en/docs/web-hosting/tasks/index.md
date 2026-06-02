@@ -29,7 +29,7 @@ Several kinds of information need to be provided:
 
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
-- A log is created automatically and is available from the `$HOME/admin/logs/jobs/` directory. It gives you the start and end of the task.
+- A log is created automatically and is available from the `/home/[account]/admin/logs/jobs/` directory. It gives you the start and end of the task.
 	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
 	- email addresses provided to receive error reports do not replace these logs.
 - Current processes are accessible via the **Advanced > Processes > Scheduled Tasks** menu.
@@ -60,13 +60,13 @@ Every ten minutes, the [WordPress](https://developer.wordpress.org/cli/commands/
 
 alwaysdata administration interface:
 
-- *value*: `php $HOME/wordpress/htdocs/wp cron event run --due-now`
+- *value*: `php /home/[account]/wordpress/htdocs/wp cron event run --due-now`
 - *frequency*: second choice - Every 10 minutes
 
 Equivalent crontab syntax:
 
 ```
-*/10 * * * * php $HOME/wordpress/htdocs/wp cron event run --due-now
+*/10 * * * * php /home/[account]/wordpress/htdocs/wp cron event run --due-now
 ```
 
 ### tt-rss
@@ -75,13 +75,13 @@ Equivalent crontab syntax:
 
 alwaysdata administration interface:
 
-- *value*: `php $HOME/tt-rss/update.php --feeds --quiet`
+- *value*: `php /home/[account]/tt-rss/update.php --feeds --quiet`
 - *frequency*: first choice - Every day at 10:30
 
 Equivalent crontab syntax:
 
 ```
-30 10 * * * php $HOME/tt-rss/update.php --feeds --quiet
+30 10 * * * php /home/[account]/tt-rss/update.php --feeds --quiet
 ```
 
 [^1]: A report is sent when the return code is different from 0. If the task is not executed, no email is sent.

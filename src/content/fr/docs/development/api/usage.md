@@ -30,10 +30,10 @@ vous avez plusieurs comptes mais souhaitez accéder à une ressource d'un compte
   * **customer** : si vous disposez de certaines permissions sur un autre utilisateur,
   alors vous devez spécifier son adresse email.
 
-Par exemple, accédez aux utilisateurs FTP de votre compte *mycompany* de cette manière :
+Par exemple, accédez aux utilisateurs FTP de cette manière :
 
 ```sh
-$ curl --basic --user "APIKEY account=mycompany:" https://api.alwaysdata.com/v1/ftp/
+$ curl --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/ftp/
 ```
 
 ## Format

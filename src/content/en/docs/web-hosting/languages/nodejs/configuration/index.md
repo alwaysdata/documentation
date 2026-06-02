@@ -54,7 +54,7 @@ Your Node.js environment starts off empty, with no ready installed libraries. Yo
 $ npm install [package]
 ```
 
-You can also use `npm` in global mode, the package will be installed in the `$HOME/.npm-packages` directory:
+You can also use `npm` in global mode, the package will be installed in the `/home/[account]/.npm-packages` directory:
 
 ```sh
 $ npm install -g [package]
@@ -64,12 +64,12 @@ $ npm install -g [package]
 
 To deploy an HTTP application with Node.js, create a *Node.js* type site in the **Web > Sites** section.
 
-![Node.js Site Ty](images/nodejs.png)
+![](images/nodejs.png)
 
 You need to specify the command that will start your Node.js application, for example:
 
 ```
-node $HOME/myapp/index.js
+node /home/[account]/myapp/index.js
 ```
 
 > [!WARNING]

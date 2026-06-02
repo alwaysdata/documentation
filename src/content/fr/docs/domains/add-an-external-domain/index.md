@@ -11,18 +11,18 @@ Opération gratuite, elle permet de transférer la gestion _technique_ du domain
 Nous voulons ici ajouter le domaine et **changer de serveurs DNS** chez le registrar pour mettre `dns1.alwaysdata.com` et `dns2.alwaysdata.com`.
 
 1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
-   ![Interface d'administration : liste des domaines](images/admin-panel_domain-list.png)
+   ![](images/admin-panel_domain-list.png)
 2. Renseignez les noms de domaines que vous souhaitez ajouter ;
-   ![Interface d'administration : étape 1](images/admin-panel_add-domain-1.png)
+   ![](images/admin-panel_add-domain-1.png)
    > [!NOTE]
    > Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.exemple\.org.
    
 3. Choisissez de le **gérer**.
-   ![Interface d'administration : étape 2](images/admin-panel_add-domain-2.png)
+   ![](images/admin-panel_add-domain-2.png)
 
 Cela va ajouter le domaine en tant que _domaine externe_ dans la liste.
 
-![Interface d'administration : Domaine externe](images/admin-panel_domain-list2.png)
+![](images/admin-panel_domain-list2.png)
 
 Vous pourrez alors créer des [adresses email](/fr/docs/emails/creer-une-adresse-email/), des [sites web](/fr/docs/hebergement-web/sites/ajouter-un-site/) et gérer les [enregistrements DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/).
 

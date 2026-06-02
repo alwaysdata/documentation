@@ -13,7 +13,7 @@ It is possible to install it in **[Private Cloud - dedicated and Gold servers](/
 
 The installation must be done on an **empty account**. We consider the following information for our example:
 
-- Account name: `foobar`
+- Account name: `[account]`
 - Ruby version: `2.7`
 - Node.js version: `14.17`
 
@@ -55,12 +55,12 @@ nano config/gitlab.yml
 ```
 
 In the *production > gitlab* section change:
-- the `host: localhost` string to fill in the desired address of the GitLab site. This can be for example the account address: `foobar.alwaysdata.net`.
+- the `host: localhost` string to fill in the desired address of the GitLab site. This can be for example the account address: `[account].alwaysdata.net`.
 - the `email` paragraph with the desired email information. For example:
 
 ```yml
-email_from: foobar@alwaysdata.net
-email_reply_to: foobar@alwaysdata.net
+email_from: [account]@alwaysdata.net
+email_reply_to: [account]@alwaysdata.net
 ```
 ---
 
@@ -92,10 +92,10 @@ nano config/database.yml
 Replace the `database`, `username` , `host` and `password` keys and the first section (production) with those of your account. Example:
 
 ```yml
-database: foobar_gitlab
-username: foobar
+database: [account]_gitlab
+username: [account]
 password: "its password"
-host: postgresql-foobar.alwaysdata.net
+host: postgresql-[account].alwaysdata.net
 ```
 
 The database is the one created earlier in this guide.
@@ -151,7 +151,7 @@ Create a [website](/en/docs/web-hosting/sites/add-a-site) with the following det
 
   * *Name*: GitLab
   * *Type*: User program
-  * *Addresses*: the address specified in the config.yml file - In our example `foobar.alwaysdata.net`
+  * *Addresses*: the address specified in the config.yml file - In our example `[account].alwaysdata.net`
   * *Command*: `true`
   
 This site must listen on port `8100`, check in the explanatory text of the *Command* field. This is normally the case, since it is the only site.

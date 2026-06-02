@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
-![Interface d'administration : liste des sites](images/admin-panel_sites-list.png)
+![Liste des sites](images/admin-panel_sites-list.png)
 
 > [!TIP] Astuce
 > Si vous partez de zéro vous pouvez profiter de notre [marketplace](/fr/docs/developpement/marketplace) en allant dans **Web > Sites > Installer une application**.
@@ -74,4 +74,4 @@ Voir [Logs](/fr/docs/hebergement-web/sites/formater-les-logs-http/).
 
 ---
 
-Les logs HTTP sont disponibles dans le répertoire `$HOME/admin/logs/http/`. Les logs _sites_ reprenant les lancements, arrêts et dysfonctionnements des serveurs web "upstream" sont disponibles dans `$HOME/admin/logs/sites/`. Un extrait de ces logs (ainsi que les logs Apache et uWSGI) est présenté dans l'interface d'administration alwaysdata  (**Logs** - 📄).
+Les logs HTTP sont disponibles dans le répertoire `/home/[compte]/admin/logs/http/`. Les logs _sites_ reprenant les lancements, arrêts et dysfonctionnements des serveurs web "upstream" sont disponibles dans `/home/[compte]/admin/logs/sites/`. Un extrait de ces logs (ainsi que les logs Apache et uWSGI) est présenté dans l'interface d'administration alwaysdata  (**Logs** - 📄).

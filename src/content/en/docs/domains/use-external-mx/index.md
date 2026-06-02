@@ -8,12 +8,12 @@ eleventyNavigation:
 To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive e-mail.
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records** ;
-    ![Administration interface: list of DNS records](images/admin-panel_dns-record-list.png)
+    ![](images/admin-panel_dns-record-list.png)
 
 2.  Choose **Add a DNS record**,
 
 3.  Fill-in the form.
-    ![Administration interface: add an MX record](images/admin-panel_add-mx.png)
+    ![](images/admin-panel_add-mx.png)
     This will automatically disable our MX records.
 
 > [!WARNING]

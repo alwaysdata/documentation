@@ -9,17 +9,17 @@ eleventyNavigation:
 Que ce soit pour gérer un site statique, comme un site HTML, ou pour servir des médias d'un site utilisant uWSGI, vous pouvez utiliser le type Fichiers statiques.
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
-![Interface d'administration : liste des sites](images/admin-panel_sites-list.png)
+![](images/admin-panel_sites-list.png)
 
 - Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
 - Adresses : les adresses pour joindre votre site (`*.example.org` pour les _catch-all_) ;
 
-![Ajouter un site : général](images/admin-panel_add-site-general.png)
+![](images/admin-panel_add-site-general.png)
 
 - Type : Fichiers statiques ;
 - Répertoire racine : répertoire dans lequel est placé votre application.
 
-![Ajouter un site : Fichiers statiques](images/admin-panel_static-files.png)
+![](images/admin-panel_static-files.png)
 
 ## Messages d'erreurs
 

@@ -16,12 +16,12 @@ Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 
 Pour déployer une application HTTP avec Rust, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**.
 
-![Type de site Programme utilisateur](images/user-program.png)
+![](images/user-program.png)
 
 Après avoir compilé le programme et l'avoir chargé sur votre compte, vous devrez spécifier la commande qui démarre votre application Rust, par exemple :
 
 ```
-$ $HOME/myapp/hello
+$ /home/[compte]/myapp/hello
 ```
 
 > [!WARNING] Attention

@@ -16,15 +16,15 @@ Cette bibliothèque étant source de traitements lourds elle n'est pas disponibl
 
 Dans notre exemple, nous utilisons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
-- Répertoire de ffmpeg : `$HOME/ffmpeg/`
+- Nom du compte : `[compte]`
+- Répertoire de ffmpeg : `/home/[compte]/ffmpeg/`
 
 ```sh
-foo@ssh:~/ffmpeg$ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
-foo@ssh:~/ffmpeg$ tar -xJf ffmpeg-release-amd64-static.tar.xz --strip-components=1
-foo@ssh:~/ffmpeg$ rm ffmpeg-release-amd64-static.tar.xz
+[compte]@ssh:~/ffmpeg$ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+[compte]@ssh:~/ffmpeg$ tar -xJf ffmpeg-release-amd64-static.tar.xz --strip-components=1
+[compte]@ssh:~/ffmpeg$ rm ffmpeg-release-amd64-static.tar.xz
 ```
 
-Les binaires seront disponibles dans le répertoire `$HOME/ffmpeg/`.
+Les binaires seront disponibles dans le répertoire `/home/[compte]/ffmpeg/`.
 
 Prenez la [dernière version amd64 stable disponible](https://johnvansickle.com/ffmpeg/).

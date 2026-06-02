@@ -21,7 +21,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Logs d'erreur
 
-Python tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
+Python tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `/home/[compte]/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
 Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 
@@ -57,7 +57,7 @@ Votre environnement Python est initialement vide, sans aucune bibliothèque pré
 $ python -m pip install [paquet]
 ```
 
-Les paquets sont installés dans le répertoire standard `$HOME/.local` et sont automatiquement ajoutés au `sys.path` par Python.
+Les paquets sont installés dans le répertoire standard `/home/[compte]/.local` et sont automatiquement ajoutés au `sys.path` par Python.
 
 Attention, il faudra réinstaller les paquets si vous changez de version majeure de Python (3.5 et 3.6 sont deux versions majeures différentes, tandis que 3.5.1 et 3.5.2 ont la même version majeure).
 
@@ -137,7 +137,7 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 
 Les applications se basant sur la norme [ASGI](https://asgi.readthedocs.io) comme les frameworks Python asynchrone peuvent utiliser le type de site *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**. Le serveur HTTP le plus connu est [Uvicorn](https://uvicorn.dev/).
 
-![Type de site Programme utilisateur](images/user-program.png)
+![](images/user-program.png)
 
 Il faudra faire écouter le serveur HTTP en IPv6 et sur le port donné. Par exemple :
 

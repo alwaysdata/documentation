@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: PHP
 ---
 
-`[account]` and `[extension]` have to be replaced by the name of the extension to be installed and the account on which it is to be installed.
+`[extension]` has to be replaced by the name of the extension to be installed.
 
 ## Managing extensions
 
@@ -30,7 +30,7 @@ $ ls $(php-config --extension-dir)
 To see the list of extensions already loaded in your account:
 
 ```sh
-$ grep extension $HOME/admin/config/php/php.ini
+$ grep extension /home/[account]/admin/config/php/php.ini
 ```
 
 To load an extension included in PHP, you will not need to specify the

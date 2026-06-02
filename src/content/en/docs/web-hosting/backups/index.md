@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Web Hosting
 ---
 
-A backup of your files, databases and e-mails is made **daily** and is available from the `$HOME/admin/backup` directory in your account. These backups are retained for a *rolling* number of days, depending on the chosen plan:
+A backup of your files, databases and e-mails is made **daily** and is available from the `/home/[account]/admin/backup` directory in your account. These backups are retained for a *rolling* number of days, depending on the chosen plan:
 
 | Public Cloud ||||| Private Cloud ||
 |---|---|---|---|---|---|---|

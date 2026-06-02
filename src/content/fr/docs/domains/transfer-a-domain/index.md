@@ -31,15 +31,15 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
 
 1.  Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
     
-    ![Interface d'administration : liste des domaines](images/admin-panel_domain-list.png)
+    ![](images/admin-panel_domain-list.png)
     
     Si le domaine a déjà été [ajouté](/fr/docs/domaines/ajouter-un-domaine-externe/) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
     
-    ![Interface d'administration : Transfert d'un domaine déjà en gestion](images/admin-panel_transfer-domain.png)
+    ![](images/admin-panel_transfer-domain.png)
 
 2.  Renseignez les noms de domaines que vous souhaitez acheter ;
    
-    ![Interface d'administration : étape 1](images/admin-panel_add-domain-1.png)
+    ![](images/admin-panel_add-domain-1.png)
 
 > [!NOTE]
 Saisissez uniquement le domaine, sans le sous-domaine.
@@ -47,14 +47,14 @@ Saisissez uniquement le domaine, sans le sous-domaine.
 
 
 3.  Choisissez de le **transférer** ;
-    ![Interface d'administration : étape 2](images/admin-panel_add-domain-2.png)
+    ![](images/admin-panel_add-domain-2.png)
 
 4. 
     - Indiquez le _code d'authorisation_ si l'extension le demande ;
     - Choisissez d'utiliser ou non nos serveurs DNS : cela entraîne le transfert de la gestion technique du domaine chez alwaysdata ;
     - Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
    
-    ![Interface d'administration : étape 3](images/admin-panel_add-domain-3.png)
+    ![](images/admin-panel_add-domain-3.png)
 
 > [!WARNING] Attention
 > Un email de validation est envoyé pour un certain nombre d'extensions. Sans validation, le transfert est abandonné.

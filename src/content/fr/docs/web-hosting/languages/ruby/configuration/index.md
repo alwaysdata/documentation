@@ -23,7 +23,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Logs d'erreur
 
-Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `$HOME/admin/logs/uwsgi/[id].log`, où `[id]` est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
+Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `/home/[compte]/admin/logs/uwsgi/[id].log`, où `[id]` est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
 Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
 
@@ -63,7 +63,7 @@ Vous pouvez utiliser `gem` pour installer des paquets :
 $ gem install [paquet]
 ```
 
-Les paquets sont installés dans le répertoire standard `$HOME/.gem` et sont automatiquement ajoutés au load path par Ruby.
+Les paquets sont installés dans le répertoire standard `/home/[compte]/.gem` et sont automatiquement ajoutés au load path par Ruby.
 
 Attention, il faudra réinstaller les paquets si vous changez de version majeure de Ruby (2.3 et 2.4 sont deux versions majeures différentes, tandis que 2.3.1 et 2.3.0 ont la même version majeure).
 
@@ -91,7 +91,7 @@ $ bundle install
 
 Pour qu'une application Ruby soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration alwaysdata. Nous proposons le type **Ruby Rack** qui utilise le serveur web [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
-![Type de site Ruby Rack](images/ruby-rack.png)
+![](images/ruby-rack.png)
 
 * type : choisissez *Ruby Rack* ;
 * chemin de l'application : le chemin du fichier de votre application Rack.

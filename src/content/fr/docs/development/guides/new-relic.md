@@ -10,24 +10,24 @@ eleventyNavigation:
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
-- Nom du compte : `foo`
+- Nom du compte : `[compte]`
 
 > [!NOTE]
-> `[foo]`, `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` doivent être remplacées par les informations correctes.
+> `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
 
 
 ## PHP
 
 Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
 
-- Répertoire de New Relic : `$HOME/newrelic/`
+- Répertoire de New Relic : `/home/[compte]/newrelic/`
 
 ### Cloud Privé
 
 #### Étape 1 : Téléchargement de l'agent
 
 ```sh
-foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
 ```
 
 [Page de téléchargement](https://download.newrelic.com/php_agent/release/)
@@ -37,28 +37,28 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[ne
 Ajoutez dans le `php.ini` (**Environnement > PHP**):
 
 ```ini
-extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+extension = /home/[compte]/newrelic/agent/x64/newrelic-[version].so
 newrelic.license = "REPLACE_WITH_LICENSE_KEY"
 newrelic.enabled = true
 newrelic.loglevel = "info"
-newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
+newrelic.logfile = "/home/[compte]/newrelic/php_agent.log"
 ```
 
-Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
+Plus d'options sont disponibles dans le fichier `/home/[compte]/newrelic/scripts/newrelic.ini.template`.
 
 #### Étape 3 : Lancement du démon
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-- *Commande* : `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
-- *Répertoire de travail* : `/home/[foo]/newrelic`
+- *Commande* : `/home/[compte]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[compte]/newrelic/daemon/log`
+- *Répertoire de travail* : `/home/[compte]/newrelic`
 
 ### Cloud Public
 
 #### Étape 1 : Téléchargement de l'agent
 
 ```sh
-foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[newrelic-last-version]-linux.tar.gz | tar -xz --strip-components=1
 ```
 
 [Page de téléchargement](https://download.newrelic.com/php_agent/release/)
@@ -68,15 +68,15 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/[ne
 Ajoutez dans le `php.ini` (**Environnement > PHP**):
 
 ```ini
-extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+extension = /home/[compte]/newrelic/agent/x64/newrelic-[version].so
 newrelic.license = "REPLACE_WITH_LICENSE_KEY"
 newrelic.enabled = true
 newrelic.loglevel = "info"
-newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
-newrelic.daemon.location="/home/[foo]/newrelic/daemon/newrelic-daemon.x64"
+newrelic.logfile = "/home/[compte]/newrelic/php_agent.log"
+newrelic.daemon.location="/home/[compte]/newrelic/daemon/newrelic-daemon.x64"
 ```
 
-Plus d'options sont disponibles dans le fichier `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
+Plus d'options sont disponibles dans le fichier `/home/[compte]/newrelic/scripts/newrelic.ini.template`.
 
 ## Python
 
@@ -85,8 +85,8 @@ New Relic est un module Python à installer comme les autres. Si l'application u
 ### Étape 1 : Installation de l'agent
 
 ```sh
-foo@ssh:~$ python -m pip install newrelic
-foo@ssh:~$ newrelic-admin generate-config REPLACE_WITH_LICENSE_KEY newrelic.ini
+[compte]@ssh:~$ python -m pip install newrelic
+[compte]@ssh:~$ newrelic-admin generate-config REPLACE_WITH_LICENSE_KEY newrelic.ini
 ```
 
 ### Étape 2 : Modification de la configuration applicative
@@ -95,7 +95,7 @@ Ajoutez dans le fichier `.py` de l'application :
 
 ```txt
 import newrelic.agent
-newrelic.agent.initialize('/home/[foo]/newrelic.ini')
+newrelic.agent.initialize('/home/[compte]/newrelic.ini')
 ```
 
 ---

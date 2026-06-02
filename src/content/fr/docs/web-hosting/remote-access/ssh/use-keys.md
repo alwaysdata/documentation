@@ -11,7 +11,6 @@ Se connecter en SSH avec sa clé publique (avec ou en désactivant la connexion 
 > [!NOTE]
 > L'accès SSH est **désactivé par défaut**. Il faudra activer la connexion par mot de passe au moins temporairement pour y ajouter ses clés SSH.
 
-
 ## Sous Windows
 
 Les manipulations sont réalisées grâce à *PuTTY*, un client SSH [disponible gratuitement](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
@@ -41,14 +40,10 @@ $ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
 2. Déclarer la clé publique (.pub) sur le serveur :
 
 ```sh
-$ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [utilisateur]@ssh-[compte].alwaysdata.net
+$ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [compte]@ssh-[compte].alwaysdata.net
 ```
     
 Ou en copiant le contenu de ce fichier dans le fichier `$HOME/.ssh/authorized_keys` de votre compte alwaysdata.
-
-> [!NOTE]
-> Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d'hôte SSH.
-
 
 Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/choisir-son-plan/) peuvent les déclarer [directement dans l'interface d'administration](/fr/docs/hebergement-web/acces-distant/ssh/cles-ssh-globales/), elles seront alors globales au serveur et donc utilisables par tous les comptes.
 

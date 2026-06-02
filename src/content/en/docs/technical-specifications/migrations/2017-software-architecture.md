@@ -18,13 +18,13 @@ This document does not describe the new functions provided by the 2017 software 
 
 ## General
 
-- You must absolutely use the new host names for access to services [introduced in 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). You will find the addresses to use in the alwaysdata administration information, in every relevant section. The former formats, using the `alwaysdata.com` domain (e.g. `mysql.alwaysdata.com` or `postgresql1.alwaysdata.com`) or with a dot between the service name and the account name (e.g. `mysql.compte.alwaysdata.net`) will completely stop working.
+- You must absolutely use the new host names for access to services [introduced in 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). You will find the addresses to use in the alwaysdata administration information, in every relevant section. The former formats, using the `alwaysdata.com` domain (e.g. `mysql.alwaysdata.com` or `postgresql1.alwaysdata.com`) or with a dot between the service name and the account name (e.g. `mysql.[account].alwaysdata.net`) will completely stop working.
 
 - A number of files and directories located in each account are moved or deleted. Especially:
-    - The four default files (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) in the `$HOME/cgi-bin` directory are deleted and the directory too, if it is now empty,
-    - The various internal configuration files (`$HOME/.env.*`, `$HOME/admin/apache`) are moved to a `$HOME/admin/config` directory,
-    - The `$HOME/admin/ssl`, `$HOME/admin/session` and `$HOME/admin/log/awstats` directories are deleted,
-    - Now the logs are stored in the `$HOME/admin/logs` directory with a sub-directory by type (`http`, `apache`, etc.). The former log directory (`$HOME/admin/log`) is moved to `$HOME/admin/logs/old`.
+    - The four default files (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) in the `/home/[account]/cgi-bin` directory are deleted and the directory too, if it is now empty,
+    - The various internal configuration files (`/home/[account]/.env.*`, `/home/[account]/admin/apache`) are moved to a `/home/[account]/admin/config` directory,
+    - The `/home/[account]/admin/ssl`, `/home/[account]/admin/session` and `/home/[account]/admin/log/awstats` directories are deleted,
+    - Now the logs are stored in the `/home/[account]/admin/logs` directory with a sub-directory by type (`http`, `apache`, etc.). The former log directory (`/home/[account]/admin/log`) is moved to `/home/[account]/admin/logs/old`.
 
 ## Languages
 
@@ -218,10 +218,10 @@ If you have a Python application (e.g. using [Django](https://www.djangoproject.
 - In SSH, install all of the libraries that you need, for example:
 
     ```
-    $ mkdir $HOME/python_libs; PYTHONPATH=$HOME/python_libs easy_install --always-copy --install-dir $HOME/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
+    $ mkdir /home/[account]/python_libs; PYTHONPATH=/home/[account]/python_libs easy_install --always-copy --install-dir /home/[account]/python_libs Django==1.6 flup==1.0.3.dev-20110405 psycopg2==2.0.11
     ```
 
-- Change your `.fcgi` file to replace the shebang (the first line), generally `#!/usr/bin/python` with `#!/usr/bin/eval PYTHONPATH=/home/foo/python_libs python`, `foo` being replaced by your account name.
+- Change your `.fcgi` file to replace the shebang (the first line), generally `#!/usr/bin/python` with `#!/usr/bin/eval PYTHONPATH=/home/[account]/python_libs python`.
 
 ### Using your own mod_wsgi module
 
@@ -231,10 +231,10 @@ You compiled your own Python interpreter and the [mod_wsgi](https://modwsgi.read
 ImportError: No module named _sysconfigdata_nd
 ```
 
-If your Python interpreter is in the `/home/foo/python` directory, then you need to use directive:
+If your Python interpreter is in the `/home/[account]/python` directory, then you need to use directive:
 
 ```
-WSGIPythonHome /home/foo/python
+WSGIPythonHome /home/[account]/python
 ```
 
 ### Using the system mod_wsgi module
@@ -247,4 +247,4 @@ You have a *customized Apache* type site that loads the system module `/usr/lib/
     wget https://files.alwaysdata.com/migrations/software-2017/mod_wsgi.so-2.6
     ```
 
-- replace the `/usr/lib/apache2/modules/mod_wsgi.so-2.6` path in your *customized Apache* web site directives with the path to the file downloaded to your account, e.g. `/home/foo/mod_wsgi.so-2.6`.
+- replace the `/usr/lib/apache2/modules/mod_wsgi.so-2.6` path in your *customized Apache* web site directives with the path to the file downloaded to your account, e.g. `/home/[account]/mod_wsgi.so-2.6`.

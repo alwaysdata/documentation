@@ -7,12 +7,12 @@ eleventyNavigation:
 
 You have access to outgoing logs in the menu **Emails > History**.
 
-![List of latest sendings](images/history.png)
+![](images/history.png)
 
 - *[Score](/en/docs/e-mails/delivery#scoring-system)*: score given by alwaysdata's antispam that determines if an email is sent or not[^1],
 - *Blocked*: if the email has been blocked by alwaysdata's antispam. Must not be confused with a *bounce*[^2] which includes other reasons.
 
-![Sending example](images/example.png)
+![](images/example.png)
 
 - *Internal score*: score given by alwaysdata's antispam,
 - *Internal report*: details of alwaysdata's antispam score. It takes int account the Rspamd score,

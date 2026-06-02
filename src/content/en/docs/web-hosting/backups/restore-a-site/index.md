@@ -5,13 +5,13 @@ eleventyNavigation:
   parent: Backups
 ---
 
-Backups of your files and databases are located in the `$HOME/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
+Backups of your files and databases are located in the `/home/[account]/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.
 
 1.  Choose the required date,
-    ![Administration interface: restore backups - step 1](images/admin-panel_restoration.png)
+    ![](images/admin-panel_restoration.png)
 
 2.  Then check the one or more databases and/or directories required [^1].
-    ![Administration interface: restore backups - step 2](images/admin-panel_restoration-site.png)
+    ![](images/admin-panel_restoration-site.png)
 
 > [!WARNING]
 > Restore will overwrite the current configuration, so make a backup first.
@@ -30,7 +30,7 @@ To restore a backup manually.
 - Restore files:
 
     ```sh
-    $ rsync -av --delete $HOME/admin/backup/[date]/files/[directory]/ $HOME/[directory]/
+    $ rsync -av --delete /home/[account]/admin/backup/[date]/files/[directory]/ /home/[account]/[directory]/
     ```
 
 > [!WARNING]
@@ -41,13 +41,13 @@ To restore a backup manually.
 - Restore a MySQL database:
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
+    $ zstdcat /home/[account]/admin/backup/[date]/mysql/[base].sql.zst | mysql -h mysql-[account].alwaysdata.net -u [user] -p [base]
     ```
 
 - Restore a PostgreSQL database:
 
     ```sh
-    $ zstdcat $HOME/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
+    $ zstdcat /home/[account]/admin/backup/[date]/postgresql/[base].sql.zst | psql -h postgresql-[account].alwaysdata.net -U [user] -W -d [base]
     ```
 
 > [!TIP]

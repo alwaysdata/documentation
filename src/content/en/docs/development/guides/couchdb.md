@@ -9,29 +9,29 @@ eleventyNavigation:
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
-- CouchDB directory: `$HOME/couchdb/`
+- Account name: `[account]`
+- CouchDB directory: `/home/[account]/couchdb/`
 
 > [!NOTE]
-> `[foo]` must be replaced by the name of your account.
+> Feel free to adjust according to your needs.
 
 
 ## Installation
 ### Downloading and Compiling
 
 ```sh
-foo@ssh:~$ mkdir couchdb
-foo@ssh:~$ cd couchdb
-foo@ssh:~/couchdb$ wget -O- https://dlcdn.apache.org/couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz | tar -xz --strip-components=1
-foo@ssh:~/couchdb$ ./configure --spidermonkey-version 78
-foo@ssh:~/couchdb$ make release
+[account]@ssh:~$ mkdir couchdb
+[account]@ssh:~$ cd couchdb
+[account]@ssh:~/couchdb$ wget -O- https://dlcdn.apache.org/couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz | tar -xz --strip-components=1
+[account]@ssh:~/couchdb$ ./configure --spidermonkey-version 78
+[account]@ssh:~/couchdb$ make release
 ```
 
 Choose the *tar.gz* package of the latest version available from the [official CouchDB site](https://dlcdn.apache.org/couchdb/source/).
 
 ### Configuring
 
-Create a `local.ini` file in the `$HOME/couchdb` directory with the following directives:
+Create a `local.ini` file in the `/home/[account]/couchdb` directory with the following directives:
 
 ```
 [admins]
@@ -55,13 +55,13 @@ port = 5984
 
 Create a [service](/en/docs/web-hosting/services) with following details:
 
-- *Command*: `./bin/couchdb -couch_ini /home/[foo]/couchdb/local.ini`
-- *Working directory*: `/home/[foo]/couchdb/rel/couchdb`
+- *Command*: `./bin/couchdb -couch_ini /home/[account]/couchdb/local.ini`
+- *Working directory*: `/home/[account]/couchdb/rel/couchdb`
 
-The address to connect to the CouchDB instance will be `services-[foo].alwaysdata.net:[port]`. For example, to list the databases:
+The address to connect to the CouchDB instance will be `services-[account].alwaysdata.net:[port]`. For example, to list the databases:
 
 ```
-$ curl -X GET http://admin:mysuperpassword@services-[foo].alwaysdata.net:[port]/_all_dbs
+$ curl -X GET http://admin:mysuperpassword@services-[account].alwaysdata.net:[port]/_all_dbs
 ```
 
 > [!NOTE]

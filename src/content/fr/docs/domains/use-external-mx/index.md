@@ -9,10 +9,10 @@ eleventyNavigation:
 Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d'[enregistrements MX](https://fr.wikipedia.org/wiki/Enregistrement_Mail_eXchanger). Ils determinent le serveur de réception d'un courrier électronique.
 
 1. Allez dans **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
-![Interface d'administration : liste des enregistrements DNS](images/admin-panel_dns-record-list.png)
+![](images/admin-panel_dns-record-list.png)
 2. Choisissez **Ajouter un enregistrement DNS** ;
 3. Renseignez le formulaire.
-![Interface d'administration : ajouter un enregistrement MX](images/admin-panel_add-mx.png)
+![](images/admin-panel_add-mx.png)
 
 Cela désactivera automatiquement nos enregistrements MX.
 

@@ -63,10 +63,10 @@ Now what remains is to move the addresses that link the site and the automatical
 1.  Go to the **Web > Sites** section in the original account,
 
 2.  Choose the **Transfer to another account** action,
-    ![Administration interface: move site - step 1](images/admin-panel_move-website-1.png)
+    ![](images/admin-panel_move-website-1.png)
 
 3.  And follow the steps.
-    ![Administration interface: move site - step 2](images/admin-panel_move-website-2.png)
+    ![](images/admin-panel_move-website-2.png)
     
 WARNING: For websites using a command[^1], the transferred website MAY have its port changed.
 

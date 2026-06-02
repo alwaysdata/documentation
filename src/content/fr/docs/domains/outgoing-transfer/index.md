@@ -17,7 +17,7 @@ Avant de lancer l'opération le propriétaire doit :
 - récupérer le code d'autorisation.
 
 Ces informations doivent se récupérer dans l'onglet **Domaines > Détails de [example.org] - 🔎** :
-![Préparer un transfert](images/admin-panel_domain-details.png)
+![](images/admin-panel_domain-details.png)
 
 Il peut aussi désactiver [DNSSEC](/domains/dnssec/) pour éviter de *possibles* problèmes.
  

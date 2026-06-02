@@ -7,12 +7,12 @@ eleventyNavigation:
 
 Go to the **Web > Sites > Add a site** menu.
 
-![Administration interface: list of sites](images/admin-panel_sites-list.png)
+![](images/admin-panel_sites-list.png)
 
 - Name: used for display purposes in the alwaysdata administration interface, it is purely for information purposes,
 - Addresses: the addresses used to reach your site (`*.example.org` for _catch-all_),
 
-![Add a site: general](images/admin-panel_add-site-general.png)
+![](images/admin-panel_add-site-general.png)
 
 - Type: Redirect,
 - Destination URL: address that the redirect leads to,
@@ -21,7 +21,7 @@ Go to the **Web > Sites > Add a site** menu.
     - temporary (HTTP code `302`): generally used during site maintenance. The search engines retain the original page in their index,
 - Add the request path to the destination URL.
 
-![Add a site: redire](images/admin-panel_redirect.png)
+![](images/admin-panel_redirect.png)
 
 ## Redirect via Apache
 

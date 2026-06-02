@@ -34,7 +34,7 @@ Une page blanche sans message ni code d'erreur signifie généralement un probl�
 
 ## Logs Apache
 
-Les logs sont disponibles dans le répertoire `$HOME/logs/apache`.
+Les logs sont disponibles dans le répertoire `/home/[compte]/logs/apache`.
 
 ### Broken pipe / Connection reset by peer
 

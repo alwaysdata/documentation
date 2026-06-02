@@ -9,24 +9,24 @@ eleventyNavigation:
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
-- Account name: `foo`
+- Account name: `[account]`
 
 > [!NOTE]
-> `[foo]`, `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` must be replaced by accurate informations.
+> `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` must be replaced by the accurate data. Feel free to adjust according to your needs.
 
 
 ## PHP
 
 Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
 
-- New Relic directory: `$HOME/newrelic/`
+- New Relic directory: `/home/[account]/newrelic/`
 
 ### Private Cloud
 
 #### Step 1: Download the agent
 
 ```sh
-foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
+[account]@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
 ```
 
 [Download page](https://download.newrelic.com/php_agent/release/)
@@ -36,28 +36,28 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 Add to `php.ini` (**Environment > PHP**):
 
 ```ini
-extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+extension = /home/[account]/newrelic/agent/x64/newrelic-[version].so
 newrelic.license = "REPLACE_WITH_REAL_KEY"
 newrelic.enabled = true
 newrelic.loglevel = "info"
-newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
+newrelic.logfile = "/home/[account]/newrelic/php_agent.log"
 ```
 
-More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
+More options are available from file `/home/[account]/newrelic/scripts/newrelic.ini.template`.
 
 #### Step 3: Start the daemon
 
 Create a [service](/en/docs/web-hosting/services) with the following details:
 
-- *Command*: `/home/[foo]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[foo]/newrelic/daemon/log`
-- *Working directory*: `/home/[foo]/newrelic`
+- *Command*: `/home/[account]/newrelic/daemon/newrelic-daemon.x64 -f --logfile /home/[account]/newrelic/daemon/log`
+- *Working directory*: `/home/[account]/newrelic`
 
 ### Public Cloud
 
 #### Step 1: Download the agent
 
 ```sh
-foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
+[account]@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<newrelic-last-version>-linux.tar.gz | tar -xz --strip-components=1
 ```
 
 [Download page](https://download.newrelic.com/php_agent/release/)
@@ -67,15 +67,15 @@ foo@ssh:~/newrelic$ wget -O- https://download.newrelic.com/php_agent/release/<ne
 Add to `php.ini` (**Environment > PHP**):
 
 ```ini
-extension = /home/[foo]/newrelic/agent/x64/newrelic-[version].so
+extension = /home/[account]/newrelic/agent/x64/newrelic-[version].so
 newrelic.license = "REPLACE_WITH_REAL_KEY"
 newrelic.enabled = true
 newrelic.loglevel = "info"
-newrelic.logfile = "/home/[foo]/newrelic/php_agent.log"
-newrelic.daemon.location="/home/[foo]/newrelic/daemon/newrelic-daemon.x64"
+newrelic.logfile = "/home/[account]/newrelic/php_agent.log"
+newrelic.daemon.location="/home/[account]/newrelic/daemon/newrelic-daemon.x64"
 ```
 
-More options are available from file `/home/[foo]/newrelic/scripts/newrelic.ini.template`.
+More options are available from file `/home/[account]/newrelic/scripts/newrelic.ini.template`.
 
 ## Python
 
@@ -84,8 +84,8 @@ New Relic is a Python module to be installed as other ones. If the application u
 ### Step 1: Install the agent
 
 ```sh
-foo@ssh:~$ python -m pip install newrelic
-foo@ssh:~$ newrelic-admin generate-config REPLACE_WITH_LICENSE_KEY newrelic.ini
+[account]@ssh:~$ python -m pip install newrelic
+[account]@ssh:~$ newrelic-admin generate-config REPLACE_WITH_LICENSE_KEY newrelic.ini
 ```
 
 ### Step 2: Modify the app configuration
@@ -94,7 +94,7 @@ Add to the `.py` application file:
 
 ```txt
 import newrelic.agent
-newrelic.agent.initialize('/home/[foo]/newrelic.ini')
+newrelic.agent.initialize('/home/[account]/newrelic.ini')
 ```
 
 ---

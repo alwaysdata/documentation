@@ -11,9 +11,9 @@ Cet article explique comment transférer un domaine _et_ ses adresses email sur 
 1. Dans le menu **Domaines** du compte initial ;
 
 2. Choisissez l'action **Céder à un autre compte** ;
-![Interface d'administration : déplacement de domaine - étape 1](images/admin-panel_domain-move-1.png)
+![](images/admin-panel_domain-move-1.png)
 3. Et suivez les étapes.
-![Interface d'administration : déplacement de domaine - étape 2](images/admin-panel_domain-move-2.png)
+![](images/admin-panel_domain-move-2.png)
 
 > [!NOTE]
 > Seul le _propriétaire du compte_ peut initier la cession.

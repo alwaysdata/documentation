@@ -7,20 +7,20 @@ eleventyNavigation:
 ---
 
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > RENOUVELER**.
-![Renouveler un domaine](images/admin-panel_renew.png)
+![](images/admin-panel_renew.png)
 
 - [Dates limites](/fr/docs/domaines/dates-limites/)
 
 ## Renouvellement automatique
 
 Il se met en place via  **Domaines > Détails de [example.org] - 🔎 > ACTIVER** (en face de **Renouvellement automatique**).
-![Paramétrer le renouvellement automatique d'un domaine](images/admin-panel_auto-renew.png)
+![](images/admin-panel_auto-renew.png)
 
 Pour mettre en place le renouvellement automatique sur tous les nouveaux domaines d'un compte, rendez-vous dans **Domaines > Configuration** (accessible via le menu déroulant à droite de **Ajouter un domaine**).
-![Paramétrer le renouvellement automatique des nouveaux domaines](images/admin-panel_auto-renew-all.png)
+![](images/admin-panel_auto-renew-all.png)
 
 Un domaine pour lequel le renouvellement automatique est activé a une icône l'indiquant :
-![Domaine en renouvellement automatique](images/auto-renew.png)
+![](images/auto-renew.png)
 
 Par défaut le renouvellement automatique aura lieu 45 jours avant expiration.
 

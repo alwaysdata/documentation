@@ -8,12 +8,12 @@ eleventyNavigation:
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 
-![Interface d'administration : liste des sites](images/admin-panel_sites-list.png)
+![](images/admin-panel_sites-list.png)
 
 - Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
 - Adresses : les adresses pour joindre votre site (`*.example.org` pour les _catch-all_) ;
 
-![Ajouter un site : général](images/admin-panel_add-site-general.png)
+![](images/admin-panel_add-site-general.png)
 
 - Type : Redirection ;
 - URL de destination : adresse vers laquelle la redirection sera faite ;
@@ -22,7 +22,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
      - temporaire (code HTTP `302`) : généralement utilisé lors de maintenance d'un site. Les moteurs de recherche conservent la page de départ dans leur index ;
 - Ajouter le chemin de la requête à l'URL de destination.
 
-![Ajouter un site : redirection](images/admin-panel_redirect.png)
+![](images/admin-panel_redirect.png)
 
 
 ## Rediriger via Apache

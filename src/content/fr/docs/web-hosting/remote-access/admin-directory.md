@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Accès distant
 ---
 
-Tout compte contient un répertoire `$HOME/admin` placé à sa racine et accessible en [FTP](/fr/docs/hebergement-web/acces-distant/ftp/), [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou encore [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/). 
+Tout compte contient un répertoire `/home/[compte]/admin` placé à sa racine et accessible en [FTP](/fr/docs/hebergement-web/acces-distant/ftp/), [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou encore [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/). 
 
 Vous retrouverez dedans :
 

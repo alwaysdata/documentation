@@ -38,7 +38,7 @@ Les sauvegardes sont accessibles depuis votre système de fichier du compte util
 
 ### Comment puis-je récupérer ces sauvegardes ?
 
-Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)…) en copiant les répertoires situés dans `$HOME/admin/backup/`.
+Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)…) en copiant les répertoires situés dans `/home/[compte]/admin/backup/`.
 
 Le répertoire `latest` est un raccourci vers la dernière sauvegarde disponible.
 

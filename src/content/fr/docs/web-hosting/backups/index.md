@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Hébergement web
 ---
 
-Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quotidiennement** et disponible dans le répertoire `$HOME/admin/backup` de votre compte. Ces sauvegardes sont conservées durant un nombre de jours *glissants*, selon l'offre choisie :
+Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quotidiennement** et disponible dans le répertoire `/home/[compte]/admin/backup` de votre compte. Ces sauvegardes sont conservées durant un nombre de jours *glissants*, selon l'offre choisie :
 
 | Cloud Public ||||| Cloud Privé ||
 |---|---|---|---|---|---|---|

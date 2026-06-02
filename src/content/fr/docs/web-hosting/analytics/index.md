@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Hébergement web
 ---
 
-À partir des logs bruts HTTP (`$HOME/admin/logs/http`) nous générons des statistiques de visites uniques[^1] en *temps réel*. Celles-ci sont disponibles dans la section **Web > Analytics**.
+À partir des logs bruts HTTP (`/home/[compte]/admin/logs/http`) nous générons des statistiques de visites uniques[^1] en *temps réel*. Celles-ci sont disponibles dans la section **Web > Analytics**.
 
 ![](images/stats-panel.png)
 

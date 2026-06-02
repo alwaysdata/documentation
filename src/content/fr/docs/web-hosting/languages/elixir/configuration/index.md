@@ -39,12 +39,12 @@ Votre environnement Elixir est initialement vide, sans aucune bibliothèque pré
 
 Pour déployer une application HTTP avec Elixir, créez un site de type *Elixir* dans la section **Web > Sites**.
 
-![Type de site Elixir](images/elixir.png)
+![](images/elixir.png)
 
 Vous devrez spécifier la commande qui démarre votre application Elixir, par exemple :
 
 ```
-mix $HOME/myapp/phx.server
+mix /home/[compte]/myapp/phx.server
 ```
 
 > [!WARNING] Attention

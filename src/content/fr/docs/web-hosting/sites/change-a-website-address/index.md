@@ -14,7 +14,7 @@ Dans cet exemple, l'adresse de base sera `foobar.alwaysdata.net` et la nouvelle 
 > Les adresses `.alwaysdata.net` ne seront pas un choix possible.
 
 
-![Etat initial](images/step1.png)
+![État initial](images/step1.png)
 
 1. Faire pointer les adresses de votre domaine sur nos serveurs :
 
@@ -32,4 +32,4 @@ Dans cet exemple, l'adresse de base sera `foobar.alwaysdata.net` et la nouvelle 
 
 4. Supprimer l'ancienne adresse dans **Web > Sites**. Ce dernier point n'est *pas indispensable*, si vous ne le faites pas le site restera juste accessible sur l'ancienne adresse - tant qu'elle pointe sur nos serveurs.
 
-![Etat final](images/step3.png)
+![État final](images/step3.png)

@@ -33,7 +33,7 @@ An empty page without a message or error code usually indicates an application i
 
 ## Apache logs
 
-Logs are available in the `$HOME/logs/apache` directory.
+Logs are available in the `/home/[account]/logs/apache` directory.
 
 ### Broken pipe / Connection reset by peer
 
@@ -54,4 +54,4 @@ The *server* stopped suddenly and Apache returned a 500 error. **This should not
 
 You need to analyze all the logs at your disposal to find the cause: application logs, PHP logs...
 
-[^1]: More informations on [whois](https://en.wikipedia.org/wiki/Whois)
+[^1]: More information on [whois](https://en.wikipedia.org/wiki/Whois)

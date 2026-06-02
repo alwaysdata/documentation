@@ -15,11 +15,9 @@ Protégez à l'aide d'un identifiant et d'un mot de passe l'accès à des fichie
 ```
 AuthName "Accès protégé"
 AuthType Basic
-AuthUserFile /chemin/absolu/au/.htpasswd
+AuthUserFile /home/[compte]/chemin/au/.htpasswd
 Require valid-user
 ```
-
-La variable `$HOME` peut être utilisée pour indiquer la racine du compte.
 
 Le fichier `.htpasswd` contient la liste des couples d'identifiants/mot de passe autorisés. Il peut être placé n'importe où, mais ne doit pas être lisible de l'extérieur.
 
@@ -81,7 +79,7 @@ RewriteRule ^(.*)$ {Fichier source}/$1
 
 ## Erreurs possibles
 
-Toute erreur liée au `.htaccess` sera visible dans le fichier **`$HOME/admin/logs/apache/apache.log`**.
+Toute erreur liée au `.htaccess` sera visible dans le fichier **`/home/[compte]/admin/logs/apache/apache.log`**.
 
 ```
 Invalid command '\xef\xbb\xbf', perhaps misspelled or defined by a module not included in the server configuration

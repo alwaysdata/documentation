@@ -31,7 +31,7 @@ Votre environnement .NET est initialement vide, sans aucune bibliothèque préin
 
 Pour déployer une application HTTP avec .NET, créez un site de type *.NET* dans la section **Web > Sites**.
 
-![.NET Site Type](images/net.png)
+![](images/net.png)
 
 Vous devrez spécifier la commande qui démarre votre application .NET, par exemple :
 

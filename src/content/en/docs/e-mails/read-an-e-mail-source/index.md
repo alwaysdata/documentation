@@ -12,7 +12,7 @@ An e-mail source will display its true content, the raw message code prior to in
 
 You can retrieve it via any mail client. For example, via [webmail](https://webmail.alwaysdata.com), you will find it in **... Plus > Show source**
 
-![Roundcube: display the source](images/roundcube-source-menu.png)
+![](images/roundcube-source-menu.png)
 
 The e-mail source comprises:
 

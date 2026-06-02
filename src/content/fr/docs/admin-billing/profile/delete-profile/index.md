@@ -10,7 +10,7 @@ Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (
 
 Pour supprimer ce second, allez dans le menu **Profil** et cliquez sur _Supprimer ce profil_.
 
-![Supprimer un profil](images/delete-profile.png)
+![](images/delete-profile.png)
 
 Cela va supprimer tous les comptes et serveurs attachés, ainsi que votre historique.
 

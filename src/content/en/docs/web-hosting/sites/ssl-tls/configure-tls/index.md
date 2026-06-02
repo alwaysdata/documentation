@@ -18,10 +18,10 @@ Three presets for HTTP connections are available:
 
 
 To change the TLS profile at the account level you need to edit the profile in the **Web > Configuration > SSL** menu:
-![Admin interface: configure TLS at the account level](images/account-tls-configuration.png)
+![](images/account-tls-configuration.png)
 
 ## Private Cloud
 
 Owners of [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices) can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
 
-![Admin interface: configure TLS at the server level](images/server-tls-configuration.png)
+![](images/server-tls-configuration.png)

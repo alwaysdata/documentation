@@ -8,8 +8,7 @@ eleventyNavigation:
 
 Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non _.com_ comme les autres domaines d'alwaysdata.
 
-Chaque fois que vous rencontrez la forme `*-[compte].alwaysdata.net`, vous devez remplacer `[compte]` par le nom de votre compte, choisi lors de sa création.
-
+> N'hésitez pas à ajuster [compte] en fonction de vos besoins.
 
 
 | Fonctionnalité                    | Informations                                                                                       |

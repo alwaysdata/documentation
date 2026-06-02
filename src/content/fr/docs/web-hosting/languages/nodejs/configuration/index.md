@@ -55,7 +55,7 @@ Votre environnement Node.js est initialement vide, sans aucune bibliothèque pr�
 $ npm install [paquet]
 ```
 
-Vous pouvez également utiliser `npm` en mode global, les paquets seront installés dans le répertoire `$HOME/.npm-packages` :
+Vous pouvez également utiliser `npm` en mode global, les paquets seront installés dans le répertoire `/home/[compte]/.npm-packages` :
 
 ```sh
 $ npm install -g [paquet]
@@ -65,12 +65,12 @@ $ npm install -g [paquet]
 
 Pour déployer une application HTTP avec Node.js, créez un site de type *Node.js* dans la section **Web > Sites**.
 
-![Type de site Node.js](images/nodejs.png)
+![](images/nodejs.png)
 
 Vous devrez spécifier la commande qui démarre votre application Node.js, par exemple :
 
 ```
-node $HOME/myapp/index.js
+node /home/[compte]/myapp/index.js
 ```
 
 > [!WARNING] Attention

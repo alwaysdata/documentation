@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
-![Renew a domain](images/admin-panel_renew.png)
+![](images/admin-panel_renew.png)
 
 - [Deadlines](/en/docs/domains/deadlines)
 
@@ -16,15 +16,15 @@ Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
 This is set up via **Domains > Details of [example.org] - 🔎 > ACTIVATE** (opposite **Automatic renewal**).
 
-![Configure automatic renewal for one domain](images/admin-panel_auto-renew.png)
+![](images/admin-panel_auto-renew.png)
 
 To set up automatic renewal for all of the new domains in an account, go to **Domains > Configuration** (accessible via the drop down menu on the right of **Add a domain**).
 
-![Configure automatic renewal for new domains](images/admin-panel_auto-renew-all.png)
+![](images/admin-panel_auto-renew-all.png)
 
 A domain with automatic renewal in place has an icon showing this:
 
-![Automatic renewal domain](images/auto-renew.png)
+![](images/auto-renew.png)
 
 By default the automatic renewal will take place 45 days before expiration.
 

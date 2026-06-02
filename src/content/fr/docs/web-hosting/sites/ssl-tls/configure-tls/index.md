@@ -19,9 +19,9 @@ Trois profils pour les connexions HTTP sont possibles :
 
 
 Pour changer de profil TLS au niveau du compte il faut modifier le profil dans l'onglet **Web > Configuration > SSL** :
-![Interface d'administration : configurer TLS au niveau compte](images/account-tls-configuration.png)
+![](images/account-tls-configuration.png)
 
 ## Cloud Privé
 
 Les propriétaires de [Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent configurer le profil TLS HTTP au niveau du _serveur_ dans l'onglet **SSL > Configuration** :
-![Interface d'administration : configurer TLS au niveau serveur](images/server-tls-configuration.png)
+![](images/server-tls-configuration.png)

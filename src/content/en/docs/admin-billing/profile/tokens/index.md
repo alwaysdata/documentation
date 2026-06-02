@@ -9,7 +9,7 @@ Tokens are identifiers used to authenticate a user or a program calling our [API
 
 They can be generated in the **Profile** menu.
 
-![Managing tokens](images/profile-token.png)
+![](images/profile-token.png)
 
 It is necessary to have enabled [two-factor authentication](/en/docs/admin-billing/profile/two-factor-authentication) to generate/modify your tokens.
 

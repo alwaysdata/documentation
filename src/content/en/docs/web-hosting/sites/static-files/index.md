@@ -10,17 +10,17 @@ media using uWSGI, you can use the static file type.
 
 Go to the **Web > Sites > Add a site** menu.
 
-![Administration interface: list of sites](images/admin-panel_sites-list.png)
+![](images/admin-panel_sites-list.png)
 
 - Name: used for display purposes in the alwaysdata administration interface, it is purely for information purposes,
 - Addresses: the addresses used to reach your site (`*.example.org` for _catch-all_),
 
-![Add a site: general](images/admin-panel_add-site-general.png)
+![](images/admin-panel_add-site-general.png)
 
 - Type: Static files,
 - Root directory: the directory where your application is located.
 
-![Add a site: Static files](images/admin-panel_static-files.png)
+![](images/admin-panel_static-files.png)
 
 ## Error messages
 

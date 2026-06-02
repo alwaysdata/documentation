@@ -44,9 +44,9 @@ The research scope only includes following addresses:
 - https://admin.alwaysdata.com
 - https://webmail.alwaysdata.com
 - https://api.alwaysdata.com
-- ssh://ssh-[accountid].alwaysdata.net
-- https://webdav-[accountid].alwaysdata.net
-- ftp://ftp-[accountid].alwaysdata.net
+- ssh://ssh-[account].alwaysdata.net
+- https://webdav-[account].alwaysdata.net
+- ftp://ftp-[account].alwaysdata.net
 ```
 
 Vulnerabilities reported on other services or applications will not be addressed.
@@ -58,7 +58,7 @@ When testing for a bug, please keep in mind:
 * Use test accounts so as not to inadvertently compromise the privacy of our users.
 * When attempting to demonstrate root permissions with the following primitives in a vulnerable process please use the following commands:
 	- Read: `cat /proc/1/maps`
-	- Write: `touch /root/<accountid>`
+	- Write: `touch /root/[account]`
 	- Execute: `id, hostname, pwd`
 
 **Minimize the mayhem.** Adhere to program rules at all times. Do not use automated scanners/tools — these tools include payloads that could trigger state changes or damage production systems and/or data.
@@ -84,7 +84,7 @@ Qualification|Examples of vulnerabilities (non-comprehensive list)|Score CVSS|Bo
 None||N/A|No Bounty
 Low|Accessing restricted parts of third-party elements or their plugins (blog, forum, etc.)|0.1 - 3.9|Up to €50
 Medium|Accessing permissions/config on users account w/o accessing their content|4.0 - 6.9|Up to €200
-High|Accessing customers data/informations|7.0 - 8.9|Up to €350
+High|Accessing customers data/information|7.0 - 8.9|Up to €350
 Critical|Accessing in read or read-write mode to the core platform architecture|9.0 - 10.0|Up to €500
 
 ### Eligibility
@@ -166,7 +166,7 @@ The following list includes vulnerability reports not accepted by our services:
 - Issues that require physical access to a victim’s computer/device/interface (for example if the victim left it open or if the attacker is the victim).
 - Logout and other instances of low-severity Cross-Site Request Forgery.
 - Reports from automated web vulnerability scanners (Acunetix, Vega, etc.) that have not been validated.
-- Reports about third-party applications we provide to our customers but aren’t part of our system directly (phpMyAdmin, Roundcube Webmail, etc.), if the vulnerability doesn’t directly exposes customers data and/or metadatas.
+- Reports about third-party applications we provide to our customers but aren’t part of our system directly (phpMyAdmin, Roundcube Webmail, etc.), if the vulnerability doesn’t directly exposes customers data and/or metadata.
 - Reports on third-party applications that we provide to our customers but are not directly part of our system (phpMyAdmin, Webmail Roundcube, etc.), unless the vulnerability that exposes user data and/or metadata is fixed for more than a month in the upstream version and we are not up to date.
 - Reports about know vulnerabilities in sub-component parts (e.g. OpenSSH) that are just being disclosed. We aim to apply security patches in 30 days or less, so reports that concern to recent disclosed vulnerabilities are not relevant.
 - Reports about sites or applications hosted by our customer, except if the vulnerability is due to our platform in conjunction with the customer application.

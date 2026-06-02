@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Websites
 ---
 
-Go to the **Logs** tab of your site (menu **Web > Sites**) to customize the HTTP access logs; stored afterwards in the `$HOME/admin/logs/http/` directory.
+Go to the **Logs** tab of your site (menu **Web > Sites**) to customize the HTTP access logs; stored afterwards in the `/home/[account]/admin/logs/http/` directory.
 
 ![](images/admin-panel_add-site-logs_standard.png)
 
@@ -32,7 +32,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02
 ```
 
 > [!TIP]
-> To extract long requests, use the following command: `awk '{print $NF,$0}' $HOME/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
+> To extract long requests, use the following command: `awk '{print $NF,$0}' /home/[account]/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
 
 
 

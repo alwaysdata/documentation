@@ -7,14 +7,14 @@ eleventyNavigation:
 
 To connect to your account using *SSH*, you need to have a user. By default, a user with your *account* name was created with the account. You can administer your SSH users from your administration interface, **Remote access > SSH** tab.
 
-![Administration interface: list of SSH use](images/admin-panel_ssh-users-list.png)
+![](images/admin-panel_ssh-users-list.png)
 
-- Name: SSH user name prefixed with your account name,
+- Name: SSH user name prefixed with your account name (`[account]`),
 - Password: the password assigned to the user. It is required for the first SSH connection; Once this is done, a [key connection](/en/docs/web-hosting/remote-access/ssh/use-keys) can then be used,
 - "HOME" directory: the directory where the user finds their connection,
 - [Shell](https://en.wikipedia.org/wiki/Unix_shell): your user's command interpreter.
 
-![Administration interface: add SSH use](images/admin-panel_ssh-users-add.png)
+![](images/admin-panel_ssh-users-add.png)
 
 > [!NOTE]
 > Unlike FTP, SSH does not propose any isolation. Hence, users can move around freely in all of the account directories.

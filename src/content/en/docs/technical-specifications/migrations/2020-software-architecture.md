@@ -162,7 +162,7 @@ Java will soon become a major language, manageable via the administration panel.
 
 - The `PATH` environment variable now includes the local paths for all languages, e.g. `~/.local/bin`, `~/npm-packages/bin`, etc., even in non-login or non-interactive SSH connections, and in your HTTP applications.
 
-- The own user of your `$HOME` directory (e.g. `/home/foobar`, if your account is *foobar*), previously set to your username (e.g. `foobar`), now becomes `root`. The owner group will still match your username (here, `foobar`), so it won't change anything in practice. Your home directory permissions will therefore be reset to 0770.
+- The own user of your `$HOME` directory (e.g. `/home/[account]`, previously set to your username (e.g. `[account]`), now becomes `root`. The owner group will still match your username, so it won't change anything in practice. Your home directory permissions will therefore be reset to 0770.
 
 - Language binaries are now installed on-demand. In case your would need, for instance, `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, make sure you have launched `python` in version 2.7.18 at least once.
 

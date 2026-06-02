@@ -6,10 +6,10 @@ eleventyNavigation:
 ---
 
 1.  From your administration interface, go to **Domains > Add a domain**,
-    ![Administration interface: list of domains](images/admin-panel_domain-list.png)
+    ![](images/admin-panel_domain-list.png)
 
 2.  Fill-in the domain names that you wish to buy,
-    ![Administration interface: step 1](images/admin-panel_add-domain-1.png)
+    ![](images/admin-panel_add-domain-1.png)
 
 > [!NOTE]
 Enter the domain only, without the subdomain.
@@ -17,12 +17,12 @@ Enter the domain only, without the subdomain.
 
 
 3.  Choose *save*. **Buy** may not be offered: when the domain already exists, if alwaysdata does not handle the extension, if the domain is already recorded for another alwaysdata account, etc.
-    ![Administration interface: step 2](images/admin-panel_add-domain-2.png)
+    ![](images/admin-panel_add-domain-2.png)
 
 4.  Choose the *existence duration* for the domain. It may be renewed again later on, and
 
 5.  Enter the owner’s contact information. This information depends on the extension taken.
-    ![Administration interface: step 3](images/admin-panel_add-domain-3.png)
+    ![](images/admin-panel_add-domain-3.png)
 
 > [!NOTE]
 > The domain will be created a few minutes after payment.

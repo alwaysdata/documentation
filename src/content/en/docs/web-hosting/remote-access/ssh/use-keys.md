@@ -40,13 +40,10 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 
 2.  Declare the public key (.pub) on the server:
     ```sh
-    $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [user]@ssh-[account].alwaysdata.net
+    $ ssh-copy-id -i $HOME/.ssh/id_ed25519.pub [account]@ssh-[account].alwaysdata.net
     ```
 
     Or by copying the content of this file to the `$HOME/.ssh/authorized_keys` file in your alwaysdata account.
-
-> [!NOTE]
-> Replace `[user]` with your SSH user name and `ssh-[account].alwaysdata.net` with your SSH hostname.
 
 
 Users of the [Private Cloud](/en/docs/admin-billing/billing/choose-its-paas) can state them [directly in the administration interface](/en/docs/web-hosting/remote-access/ssh/install-globally-ssh-keys), they will be global to the entire server and all accounts can use them.

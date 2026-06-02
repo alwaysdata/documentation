@@ -7,7 +7,7 @@ eleventyNavigation:
 
 To allow access to the alwaysdata administration interface by some IP addresses only, go to **Profile**.
 
-![](images/profile-security.png
+![](images/profile-security.png)
 
 Access will be blocked for any other connection from an IP address that is not filled-in.
 

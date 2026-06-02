@@ -7,18 +7,18 @@ eleventyNavigation:
 ---
 
 1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
-![Interface d'administration : liste des domaines](images/admin-panel_domain-list.png)
+![](images/admin-panel_domain-list.png)
 2. Renseignez les noms de domaines que vous souhaitez acheter ;
-![Interface d'administration : étape 1](images/admin-panel_add-domain-1.png)
+![](images/admin-panel_add-domain-1.png)
 > [!NOTE]
 > Saisissez uniquement le domaine, sans le sous-domaine. Par exemple : example.org et non www.exemple\.org.
 
 
 3. Choisissez de l'_enregistrer_. **Acheter** peut ne pas être proposé : quand le domaine existe déjà, si alwaysdata ne gère pas l'extension, si le domaine est déjà renseigné sur un autre compte alwaysdata...
-![Interface d'administration : étape 2](images/admin-panel_add-domain-2.png)
+![](images/admin-panel_add-domain-2.png)
 4. Choisissez la _durée d'existence_ du domaine. Il pourra être renouvelé par la suite ;
 5. Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
-![Interface d'administration : étape 3](images/admin-panel_add-domain-3.png)
+![](images/admin-panel_add-domain-3.png)
 
 > [!NOTE]
 > Le domaine sera créé quelques minutes après le paiement.
