@@ -1,0 +1,13 @@
+@layer components {
+  .cookie-banner {
+    @apply flex flex-nowrap justify-center items-center gap-3 bg-brand-lighter border-b-2 border-brand p-3 text-sm;
+    @apply dark:bg-brand-darker;
+
+    & p {
+      @apply max-w-5xl;
+    }
+    & a {
+      @apply dark:text-brand-lighter;
+    }
+  }
+}

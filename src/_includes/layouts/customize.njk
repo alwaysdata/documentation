@@ -1,0 +1,24 @@
+---
+layout: layouts/docs.njk
+banner: true
+---
+
+{{ content | safe }}
+
+<hr>
+
+<form id="accountForm" class="flex flex-col items-center my-7" action="#">
+  <div>
+    <label for="account">{{ "Nom de compte" if page.lang == "fr" else "Account's name" }}</label>
+    <div class="flex items-center gap-2 mt-2">
+      <input id="account" name="account" type="text" value="" />
+      <button class="btn btn--sm h-9" type="submit">
+        {{ "Valider" if page.lang == "fr" else "Submit" }}
+      </button>
+    </div>
+  </div>
+</form>
+
+<div class="info-registered text-center hidden"><p>✅&nbsp;<span class="info-text font-medium"></span><code></code></p> </div>
+
+<p class="info-none hidden"><em></em></p>

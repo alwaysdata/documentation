@@ -51,4 +51,22 @@ export default {
       fr: "La recherche a échouée, veuillez réssayer",
     },
   },
+  banner: {
+    notice: {
+      en: "We noticed that you are a customer of alwaysdata so we personalized the interface for you, using your account ",
+      fr: "Nous avons remarqué que vous étiez client chez alwaysdata alors nous avons personnalisé l'interface pour vous en utilisant votre compte ",
+    },
+    custom: {
+      en: "If this is an error or if you wish to use another account, go to ",
+      fr: "S'il s'agit d'une erreur ou si vous souhaitez utiliser un autre compte, rendez-vous sur ",
+    },
+    link: {
+      en: "our UI customization page",
+      fr: "notre page de personnalisation de l'interface",
+    },
+    button: {
+      en: "Understood!",
+      fr: "Compris !",
+    },
+  },
 };

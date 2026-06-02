@@ -41,6 +41,7 @@
 @import "./_navigation.css";
 @import "./_code.css";
 @import "./_utilities.css";
+@import "./_banner.css";
 
 /* Github alerts */
 @import "markdown-it-github-alerts/styles/github-colors-light.css";

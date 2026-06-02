@@ -168,4 +168,11 @@
     -webkit-appearance: none;
     appearance: none;
   }
+
+  input[type="text"] {
+    @apply h-9 px-3 py-1;
+    @apply bg-white rounded-full;
+    @apply ring-1 ring-slate-900/10;
+    @apply dark:bg-neutral-800/75 dark:ring-inset dark:ring-white/9;
+  }
 }

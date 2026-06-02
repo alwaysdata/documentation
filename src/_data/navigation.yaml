@@ -18,7 +18,13 @@ main:
 
 # Legal/Footer pages
 legal:
-  - text: ❤️ alwaysdata
+  - text:
+      en: UI Customization
+      fr: Personnalisation de l'UI
+    url: /custom/
+  - text:
+      en: ❤️ alwaysdata
+      fr: ❤️ alwaysdata
     url: /love/
 
 footer:

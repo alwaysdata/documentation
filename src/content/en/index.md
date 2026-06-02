@@ -1,5 +1,6 @@
 ---
-title = "Help"
+title: Help
+banner: true
 ---
 
 ## Start with alwaysdata
