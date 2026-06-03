@@ -19,7 +19,7 @@ Vous n'êtes pas encore client ? Inscrivez-vous sur notre [plateforme](https://w
 Vous nous aimez ? [Montrez-nous votre ❤](/fr/love/) !
 
 > [!NOTE]
-Chaque fois que vous rencontrez `[compte]`, vous pouvez le remplacer par le nom de votre compte.
+Chaque fois que vous rencontrez `[compte]`, vous pouvez le remplacer manuellement par le nom de compte de votre choix ou bien vous pouvez utiliser [notre outil de personnalisation d'interface](/fr/custom/) pour le faire automatiquement pour vous.
 
 > [!TIP]
 Toute publication sur Internet comporte des [obligations légales](/fr/docs/hebergement-web/sites/obligations-legales-sur-internet), prenez-en connaissance avant de mettre en ligne vos contenus.

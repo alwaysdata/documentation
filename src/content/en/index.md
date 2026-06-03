@@ -19,7 +19,7 @@ Not yet a customer? Sign-up to our [platform](https://www.alwaysdata.com/en/regi
 Want to show your support? [Give us some ❤](/en/love/) !
 
 > [!NOTE]
-Each time you encounter `[account]` you can replace it by the name of your account.
+Each time you encounter `[account]` you can replace it manually by the name of your account of choice or you can use [our UI customization tool](/en/custom/) to do automatically for you.
 
 > [!TIP]
 Any publication on Internet entails [legal obligations](/en/docs/web-hosting/sites/legal-requirements-on-internet), make yourself aware of them before placing your content on-line.

@@ -8,7 +8,7 @@ import Cookies from "js-cookie";
 // --- Settings
 const accountFR = "[compte]";
 const accountEN = "[account]";
-const mainTarget = ".doc-page *";
+const mainTarget = "main article *";
 const formId = "#accountForm";
 const bannerClass = ".cookie-banner";
 const closeBannerButtonClass = ".close-banner";
