@@ -10,6 +10,7 @@ RewriteRule ^$ /en/ [L]
 # Exceptions
 RewriteRule ^(fr|en)/blog(/.*)?$ - [L]
 RewriteRule ^(fr|en)/love(/.*)?$ - [L]
+RewriteRule ^(fr|en)/custom(/.*)?$ - [L]
 
 # Redirect all other doc pages
 RewriteRule ^(fr|en)/(?!docs/)(.+)$ /$1/docs/$2 [R=301,L]
