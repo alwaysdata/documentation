@@ -6,6 +6,7 @@ import { initThemeSwitcher } from "./components/theme-switcher.js";
 import { initMobileMenu } from "./components/mobile-menu.js";
 import { initTocTracker } from "./components/toc-tracker.js";
 import { initAccountSwitcher } from "./components/account-switcher.js";
+import { initCodeblock } from "./components/codeblock.js";
 
 /**
  * DOM ready handler
@@ -21,6 +22,7 @@ document.addEventListener(
     initMobileMenu();
     initTocTracker();
     initAccountSwitcher();
+    initCodeblock();
   },
   { once: true },
 );

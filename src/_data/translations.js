@@ -69,4 +69,18 @@ export default {
       fr: "Compris !",
     },
   },
+  copy: {
+    title: {
+      en: "Copy to my clipboard",
+      fr: "Copier dans mon presse-papier",
+    },
+    label: {
+      en: "Copy",
+      fr: "Copier",
+    },
+    done: {
+      en: "Copied",
+      fr: "Copié",
+    },
+  },
 };

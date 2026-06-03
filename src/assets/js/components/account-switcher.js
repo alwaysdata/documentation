@@ -1,4 +1,8 @@
 import Cookies from "js-cookie";
+/**
+ * Account Switcher Component
+ * Handles replacement of generic `[account]/[compte]` string with user account name
+ */
 
 // VARS
 // --- Settings

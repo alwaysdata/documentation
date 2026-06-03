@@ -58,7 +58,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.on("eleventy.before", async () => {
     shikiHighlighter = await createHighlighter({
-      themes: ["github-dark-high-contrast"],
+      themes: ["one-dark-pro"],
       langs: Object.keys(bundledLanguages),
     });
   });
@@ -76,7 +76,14 @@ export default function (eleventyConfig) {
 
           return shikiHighlighter.codeToHtml(code, {
             lang: langToUse,
-            theme: "github-dark-high-contrast",
+            theme: "one-dark-pro",
+            transformers: [
+              {
+                pre: function () {
+                  this.pre.properties.dataLang = this.options.lang;
+                },
+              },
+            ],
           });
         } catch (e) {
           console.warn(`Shiki error for lang "${lang}":`, e.message);
