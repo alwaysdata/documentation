@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/
 title: Configurer TLS
 eleventyNavigation:
   key: Configurer TLS
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 [TLS](https://fr.wikipedia.org/wiki/Transport_Layer_Security) est un protocole cryptographique de sécurisation des échanges sur internet.

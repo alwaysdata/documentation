@@ -43,7 +43,7 @@ Un `whois` indiquera le message suivant : `Domain Status: clientHold`
 Dans l'interface d'administration alwaysdata, le message suivant - onglet **Domaines > Détails de [example.org] - 🔎 > Statut** - vous permettra de renvoyer l'email :
 
 ```
-Ce domaine a été suspendu par l'ICANN car son propriétaire n'a pas confirmé son adresse email dans les 15 jours suivant sa création, son transfert ou sa cession.
+Ce domaine a été suspendu par l'ICANN car son propriétaire n'a pas confirmé son adresse email avant la date limite suivant sa création, son transfert ou sa cession.
 ```
 
 Si vous n'êtes pas sûr de l'adresse email, vous pouvez la changer dans le détail du contact propriétaire, menu **Domaines > Détails de [example.org] - 🔎 > MODIFIER** (en face de **Propriétaire**).

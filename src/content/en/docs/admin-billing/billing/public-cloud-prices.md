@@ -28,4 +28,4 @@ We offer [several programs](/en/docs/admin-billing/programs) to benefit from dis
 > The disk quota includes files, mails and databases.
 
 
-[^1]: The free 100 MB Cloud is subject to [special restrictions](/en/docs/admin-billing/public-cloud-restrictions#free-plan). It cannot be used for lucratives goals, among other things.
+[^1]: The Free plan cannot be used for profit purposes and the creation of websites on this plan is limited to the `alwaysdata.net` account's address.

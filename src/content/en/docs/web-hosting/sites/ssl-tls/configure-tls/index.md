@@ -2,7 +2,7 @@
 title: Change TLS Configuration
 eleventyNavigation:
   key: Change TLS Configuration
-  parent: Websites
+  parent: SSL/TLS
 ---
 
 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is a cryptographic protocol to secure Internet communications.

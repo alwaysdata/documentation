@@ -2,7 +2,7 @@
 title: Adding a SSL Certificate
 eleventyNavigation:
   key: Adding a SSL Certificate
-  parent: Websites
+  parent: SSL/TLS
 ---
 
 Add your certificate to the **Advanced > SSL certificates > Add an SSL certificate** in your alwaysdata interface.

@@ -2,7 +2,7 @@
 title: Renew a SSL Certificate
 eleventyNavigation:
   key: Renew a SSL Certificate
-  parent: Websites
+  parent: SSL/TLS
 ---
 
 When you renew the SSL certificate with your supplier, they should provide you with a file containing the new certificate.

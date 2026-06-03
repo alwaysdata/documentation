@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/
 title: Certificats Let's Encrypt
 eleventyNavigation:
   key: Certificats Let's Encrypt
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 [Let's Encrypt](https://letsencrypt.org/fr/) est une autorité de certification proposant une génération simple de certificats gratuits. Les certificats proposés sont de type [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) et sont valides [90 jours](https://letsencrypt.org/2015/11/09/why-90-days.html).
@@ -27,8 +27,6 @@ Vous pouvez les consulter dans la section **Avancé > Certificats SSL > Certific
 #### Certificat non généré
 
 La création de ces certificats est **dépendante de la propagation DNS** : il faut que l'adresse pointe sur les serveurs alwaysdata (une vérification HTTP est effectuée). Une fois l'adresse ajoutée dans **Web > Sites**, le système va tenter de générer son certificat toutes les *30 minutes durant 24 heures*. Cela passe ensuite à *une fois par jour*.
-
-De ce fait, notre système ne pourra générer de certificats Let's Encrypt pour les adresses utilisant un [proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) d'une entreprise tierce devant nos serveurs.
 
 > [!TIP] Astuce
 > Les personnes ajoutant les adresses avant de changer les enregistrements DNS peuvent, une fois les modifications chez le prestataire DNS effectuées, relancer l'autogénération en supprimant les adresses du site dans **Web > Sites** puis en les remettant quelques secondes après. **`ATTENTION`** cette action n'est à effectuer **qu'une fois**, trop de tentatives peuvent bloquer le processus et la génération du certificat pendant une semaine. [Contactez le support](https://admin.alwaysdata.com/support/add) si la première tentative est infructueuse.

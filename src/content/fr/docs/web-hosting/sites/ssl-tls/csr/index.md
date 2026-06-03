@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/generer-csr/
 title: Comment générer une CSR
 eleventyNavigation:
   key: Comment générer une CSR
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 Une CSR (Certificate Signing Request ou [Demande de signature de certificat](https://fr.wikipedia.org/wiki/Demande_de_signature_de_certificat)) vous sera demandée lors de l'achat d'un certificat.

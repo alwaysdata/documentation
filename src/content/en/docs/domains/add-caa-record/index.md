@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Domains
 ---
 
-A [CAA record](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) lists the certification authorities approved to issue certificats for a domain. Any certification authority that is not listed in a CAA record of a domain, will not be allowed to issue certificates for that domain or any subdomain.
+A [CAA record](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) lists the certification authorities approved to issue certificates for a domain. Any certification authority that is not listed in a CAA record of a domain, will not be allowed to issue certificates for that domain or any subdomain.
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records**,
     ![](images/admin-panel_dns-record-list.png)

@@ -26,7 +26,7 @@ A domain with automatic renewal in place has an icon showing this:
 
 ![](images/auto-renew.png)
 
-By default the automatic renewal will take place 45 days before expiration.
+By default the automatic renewal will take place 30 days before expiration.
 
 > [!WARNING]
 > Automatic renewal for a domain can only be completed if the **prepaid account** has the necessary credit to pay for this OR a **credit card** or **bank account** is provided for automatic debits. To set up automatic payments, go to the **Billing > Payment Methods** menu in your **Client Area**.

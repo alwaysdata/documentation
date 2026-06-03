@@ -1,5 +1,5 @@
 ---
-title: Restricting Admin Panel Acces by IP-Filtering
+title: Restricting Admin Panel Access by IP-Filtering
 eleventyNavigation:
   key: Restricting Admin Access by IP
   parent: Profile Management

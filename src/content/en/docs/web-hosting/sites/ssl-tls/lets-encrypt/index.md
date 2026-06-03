@@ -2,12 +2,12 @@
 title: Let's Encrypt Certificates
 eleventyNavigation:
   key: Let's Encrypt Certificates
-  parent: Websites
+  parent: SSL/TLS
 ---
 
 [Let's Encrypt](https://letsencrypt.org) is a certification authority that proposes a simple way to generate free certificates. The certificates offered are [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) type ones, valid for [90 days](https://letsencrypt.org/2015/11/09/why-90-days.html).
 
-To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificats](/en/docs/web-hosting/sites/ssl-tls/lets-encrypt#certificates-wildcard).
+To avoid duplicates, alwaysdata enables the generation of Let's Encrypt certificates only for [wildcard certificates](/en/docs/web-hosting/sites/ssl-tls/lets-encrypt#certificates-wildcard).
 
 *.alwaysdata.net* addresses are handled by the `*.alwaysdata.net` wildcard certificate returned by default by the servers.
 
@@ -28,8 +28,6 @@ You can view them in the **Advanced > SSL certificates > Automatically generated
 #### Certificate not created
 
 The creation of these certificates is **dependent on DNS propagation**: the address must point to alwaysdata servers (an HTTP check is performed). Once the address is added in **Web > Sites**, the system will attempt to generate its certificate *every 30 minutes for 24 hours*. This will then change to *once a day*.
-
-As a result, our system will not be able to generate Let's Encrypt certificates for addresses using a [proxy](https://en.wikipedia.org/wiki/Reverse_proxy) from a third-party company in front of our servers.
 
 > [!TIP]
 > People who add the addresses before changing the DNS records can, after making the changes with their DNS provider, restart the autogeneration by deleting the addresses from the site in **Web > Sites** and putting them back a few seconds later. **`WARNING`** this action is to be done **only once**, too many attempts can block the process and the certificate generation for a week. [Contact support](https://admin.alwaysdata.com/support/add) if the first attempt is unsuccessful.

@@ -29,4 +29,4 @@ Nous proposons [plusieurs programmes](/fr/docs/admin-facturation/programmes/) po
 > Le quota disque inclut fichiers, mails et bases de données.
 
 
-[^1]: Le pack Free est sujet à des [restrictions spéciales](/fr/docs/admin-facturation/restrictions-du-cloud-public/#compte-gratuit) et ne peut notamment servir à des fins lucratives.
+[^1]: Le pack Free ne peut notamment servir à des fins lucratives et la création de sites web sur ce pack est limitée à l'adresse `alwaysdata.net` du compte.

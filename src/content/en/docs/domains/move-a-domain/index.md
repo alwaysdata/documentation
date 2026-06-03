@@ -1,7 +1,7 @@
 ---
-title: Transfering Internally a Domain
+title: Transferring Internally a Domain
 eleventyNavigation:
-  key: Transfering Internally a Domain
+  key: Transferring Internally a Domain
   parent: Domains
 ---
 

@@ -12,7 +12,7 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 - Account name: `[account]`
 
 > [!NOTE]
-> `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` must be replaced by the accurate data. Feel free to adjust according to your needs.
+> `[newrelic-last-version]`, `[version]` and `REPLACE_WITH_LICENSE_KEY` must be replaced by the accurate data. Feel free to adjust according to your needs.
 
 
 ## PHP

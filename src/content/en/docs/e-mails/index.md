@@ -20,6 +20,7 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 - [API](https://api.alwaysdata.com/v1/mailbox/doc/)
 - [Add Several Mailboxes using CSV](/en/docs/e-mails/create-mailboxes-using-csv/)
 * [Add a filter rule](/en/docs/e-mails/add-a-filter-rule/)
+* [Creating your own address books and calendars with CardDAV and CalDAV](/en/docs/e-mails/carddav-caldav/)
 * [Use Sieve scripts](/en/docs/e-mails/use-sieve-scripts/)
 * [Incoming whitelist](/en/docs/e-mails/whitelist/)
 - [Change hosting provider](/en/docs/e-mails/transfer-in/)
@@ -31,14 +32,16 @@ Once the mailbox is created, it is possible to send e-mails via our SMTP servers
 * [SMTP waiting queue](/en/docs/e-mails/smtp-queue/)
 * [Read an e-mail source](/en/docs/e-mails/read-an-e-mail-source)
 * [React to spam mailing](/en/docs/e-mails/react-to-spam-mailing)
+* [Block the use of e-mails](/en/docs/e-mails/block-e-mail-usage)
 - [Restore e-mails](/en/docs/web-hosting/backups/restore-e-mails)
 - [Sender Rewriting Scheme](/en/docs/e-mails/srs)
 - [Catch-all](/en/docs/e-mails/catch-all)
 - [Miscellaneous questions](/en/docs/e-mails/misc)
 
-## E-mail clients
+## E-mail clients & Softwares
 
 - [iOS](/en/docs/e-mails/clients/apple-ios)
 - [Gmail](/en/docs/e-mails/clients/gmail)
 - [Outlook](/en/docs/e-mails/clients/outlook)
 - [Thunderbird](/en/docs/e-mails/clients/thunderbird)
+- [Brevo authentication](/en/docs/e-mails/brevo)

@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/rediriger-HTTP-vers-HTTPS/
 title: Rediriger HTTP vers HTTPS
 eleventyNavigation:
   key: Rediriger HTTP vers HTTPS
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 

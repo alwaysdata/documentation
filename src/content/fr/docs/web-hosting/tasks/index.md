@@ -52,7 +52,8 @@ Utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud
 ## Problèmes fréquents
 
 - `source venv/bin/activate && python` est spécifique à [Bash](https://fr.wikipedia.org/wiki/Bourne-Again_shell) et ne peut fonctionner. À remplacer par `venv/bin/python` ;
-- les raccourcis en **@** - exemples _@hourly_ ou _@reboot_ - ne sont pas acceptés (syntaxe non-normalisée).
+- les raccourcis en **@** - exemples _@hourly_ ou _@reboot_ - ne sont pas acceptés (syntaxe non-normalisée) ;
+- Elles utilisent les versions de langages par défaut des comptes (définies dans **Environnement**). Pour en utiliser d'autres, indiquez-les dans le champ *Variables d'environnement*.
 
 ## Exemples
 

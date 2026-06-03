@@ -1,7 +1,7 @@
 ---
-title: Transfering a Domain
+title: Transferring a Domain
 eleventyNavigation:
-  key: Transfering a Domain
+  key: Transferring a Domain
   parent: Domains
 ---
 

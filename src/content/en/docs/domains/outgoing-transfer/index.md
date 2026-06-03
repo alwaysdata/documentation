@@ -1,7 +1,7 @@
 ---
-title: Transfering a Domain to Another Provider
+title: Transferring a Domain to Another Provider
 eleventyNavigation:
-  key: Outgoing Transfert
+  key: Outgoing Transfer
   parent: Domains
 ---
 

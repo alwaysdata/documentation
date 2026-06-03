@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Migrations
 ---
 
-Cette migration met à jour vos bases de données vers la version 11.4 de MariaDB.
+Cette migration met à jour vos bases de données vers la version 11.8 de MariaDB.
 
 Les changements sont mineurs. Pour les consulter, rendez-vous sur la ou les notes de mises à jour concernées par votre version actuelle (visible dans la section *Bases de données > MySQL* de votre compte).
 

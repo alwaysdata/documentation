@@ -37,7 +37,7 @@ The support team prepares the transit server with a configuration equivalent to 
 ### Step 4 - Accounts migration to the new architecture
 The transit server is ready. The user can migrate the accounts - one by one - in the transit server, via the **Migrations** menu of the server's panel or the **Advanced > Migrations** menu of the account's panel.
 
-> The user is **independant** in this step. He can perform his migrations whenever he wants.
+> The user is **independent** in this step. He can perform his migrations whenever he wants.
 
 The migration entails a downtime per account of a few seconds to a few hours; depending on the size of each account (especially databases). Usually there is one minute of downtime per gigabyte of databases.
 

@@ -17,6 +17,7 @@ All services (HTTP, but also remote access, databases, emails...) are secured by
 * [API](https://api.alwaysdata.com/v1/ssl/doc/)
 * [Configure TLS](/en/docs/web-hosting/sites/ssl-tls/configure-tls)
 * [Implement HSTS](/en/docs/web-hosting/sites/ssl-tls/hsts)
+* [Miscellaneous questions](/en/docs/web-hosting/sites/ssl-tls/misc)
 
 - Verify the returned certificate and configuration of a hostname: [SSL Labs](https://www.ssllabs.com), [SSL Tools](https://ssl-tools.net/) or [Security Headers](https://securityheaders.com).
 - Find the mixed content[^1] of its website: [Why no Padlock](https://www.whynopadlock.com/).

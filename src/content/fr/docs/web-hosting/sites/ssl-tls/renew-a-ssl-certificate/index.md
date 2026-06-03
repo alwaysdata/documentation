@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/renouveler-un-certificat-ssl/
 title: Renouveler un certificat SSL
 eleventyNavigation:
   key: Renouveler un certificat SSL
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 Lorsque vous renouvelez le certificat SSL chez votre fournisseur, celui-ci doit vous livrer un fichier contenant le nouveau certificat.

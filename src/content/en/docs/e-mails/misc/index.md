@@ -15,4 +15,4 @@ Spam mailing is strictly forbidden.
 
 Go on **Settings > Folders** to check hidden folders:
 ![Access to subscribe to folders](images/folders-apparence-1.png)
-![Check folders to susbcribe](images/folders-apparence-2.png)
+![Check folders to subscribe](images/folders-apparence-2.png)

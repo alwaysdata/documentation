@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/sites/ssl-tls/ajouter-certificat-ssl/
 title: Ajouter un certificat SSL
 eleventyNavigation:
   key: Ajouter un certificat SSL
-  parent: Sites web
+  parent: SSL/TLS
 ---
 
 Ajoutez votre certificat dans la section **Avancé > Certificats SSL > Ajouter un certificat SSL** de votre interface alwaysdata.

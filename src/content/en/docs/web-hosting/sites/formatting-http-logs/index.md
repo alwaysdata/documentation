@@ -1,7 +1,7 @@
 ---
-title: Formating HTTP Logs
+title: Formatting HTTP Logs
 eleventyNavigation:
-  key: Formating HTTP Logs
+  key: Formatting HTTP Logs
   parent: Websites
 ---
 

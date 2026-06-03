@@ -11,6 +11,7 @@ It contains:
 
 - _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](/en/docs/e-mails/),
 - _config_,
+- _data_ : stores [WebDAV](/en/docs/web-hosting/remote-access/webdav) configuration files,
 - _logs_,
 - _tmp_: temporary storage for your apps (we *strongly* recommend using this instead of `/tmp`),
 - _backup_: read-only NFS mounting for [backups](/en/docs/web-hosting/backups) which are NOT stored locally.

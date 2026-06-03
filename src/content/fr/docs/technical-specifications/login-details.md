@@ -11,55 +11,57 @@ Le sous-domaine qui vous est attribué à la création de votre compte se termin
 > N'hésitez pas à ajuster [compte] en fonction de vos besoins.
 
 
-| Fonctionnalité                    | Informations                                                                                       |
-|:---------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Administration**         |                                                                                                           |
-| URL                        | https://admin.alwaysdata.com                                                                              |
-|                            | Email/mot de passe, [Double authentification possible](/en/docs/admin-billing/profile/two-factor-authentication)  |
-| API                        | [api.alwaysdata.com/v1](/en/docs/development/api) (soumis à un *[rate limit](/en/docs/development/api/usage#rate-limit)*) |
-|                            | [Tokens](/en/docs/admin-billing/profile/tokens) disponibles via *Profil*                                          |
-| **Générique**              |                                                                                                           |
-| DNS                        | Primaire : dns1.alwaysdata.com                                                                            |
-|                            | Secondaire : dns2.alwaysdata.com                                                                          |
-| MX                         | Primaire : mx1.alwaysdata.com (TTL : 10)                                                                  |
-|                            | Secondaire : mx2.alwaysdata.com (TTL : 20)                                                                |
-|                            | si [Cloud Privé](/en/docs/admin-billing/billing/private-cloud-prices) : [serveur].alwaysdata.net (TTL : 5) |
-| **Bases de données**       |                                                                                                           |
-| MySQL                      | Hôte : mysql-[compte].alwaysdata.net                                                                      |
-|                            | Port : 3306                                                                                               |
-|                            | Interface d'administration : [phpMyAdmin](https://phpmyadmin.alwaysdata.com)                              |
-| PostgreSQL                 | Hôte : postgresql-[compte].alwaysdata.net                                                                 |
-|                            | Port : 5432                                                                                               |
-|                            | Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com)                              |
-| RabbitMQ                   | Hôte : rabbitmq-[compte].alwaysdata.net                                                                   |
-|                            | Port : 5672                                                                                               |
-| Redis                      | Hôte : localhost ou 127.0.0.1                                                                             |
-|                            | Port : 6380                                                                                               |
-| Memcached                  | Hôte : localhost ou 127.0.0.1                                                                             |
-|                            | Port : 11211                                                                                              |
-| **Emails**                 |                                                                                                           |
-| Webmail                    | [RoundCube](https://webmail.alwaysdata.com)                                                               |
-| Listes de diffusion        | [Mailman](https://mailman.alwaysdata.com)                                                                 |
-| IMAP                       | Hôte : imap-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 993 (SSL/TLS) |
-| POP3                       | Hôte : pop-[compte].alwaysdata.net                                                                        |
-|                            | Ports :  995 (SSL/TLS) |
-| SMTP                       | Hôte : smtp-[compte].alwaysdata.net                                                                       |
-|                            | Ports : 465 (SSL/TLS)                                                                                    |
-|                            | Identification : nécessaire (adresse email et mot de passe associé)                                       |
-| **Accès distant**          |                                                                                                           |
-| FTP                        | Hôte : ftp-[compte].alwaysdata.net                                                                        |
-|                            | Port : 990 (SSL/TLS)                                                                                      |
-| SFTP                       | Hôte : ssh-[compte].alwaysdata.net                                                                        |
-|                            | Port : 22                                                                                                 |
-| SSH                        | Hôte : ssh-[compte].alwaysdata.net                                                                        |
-|                            | Port : 22                                                                                                 |
-|                            | Accès web (via Shell in a box) : https://ssh-[compte].alwaysdata.net                                      |
-| WebDAV                     | Hôte : webdav-[compte].alwaysdata.net                                                                     |
-|                            | Port : 80                                                                                                 |
-| **Services**               |                                                                                                           |
-|                            | Hôte : services-[compte].alwaysdata.net                                                                   |
-|                            | Ports : entre 8300 et 8499                                                                                |
+|Fonctionnalité|Informations|
+|---|---|
+|**Administration**||
+|URL|https://admin.alwaysdata.com|
+||Email/mot de passe, [Double authentification possible](/fr/docs/admin-facturation/profil/authentification-2-facteurs/)|
+|API|[api.alwaysdata.com/v1](/fr/docs/developpement/api/) (soumis à un *[rate limit](/fr/docs/developpement/api/utilisation/#rate-limit)*)|
+||[Tokens](/fr/docs/admin-facturation/profil/tokens/) disponibles via *Profil*|
+|**Générique**||
+|DNS|Primaire : dns1.alwaysdata.com|
+||Secondaire : dns2.alwaysdata.com|
+|MX|Primaire : mx1.alwaysdata.com (TTL : 10)|
+||Secondaire : mx2.alwaysdata.com (TTL : 20)|
+||si [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) : [serveur].alwaysdata.net (TTL : 5)|
+|**Bases de données**||
+|MySQL|Hôte : mysql-[compte].alwaysdata.net|
+||Port : 3306|
+||Interface d'administration : [phpMyAdmin](https://phpmyadmin.alwaysdata.com)|
+|PostgreSQL|Hôte : postgresql-[compte].alwaysdata.net|
+||Port : 5432|
+||Interface d'administration : [phpPgAdmin](https://phppgadmin.alwaysdata.com)|
+|RabbitMQ|Hôte : rabbitmq-[compte].alwaysdata.net|
+||Port : 5672|
+|Redis|Hôte : localhost ou 127.0.0.1|
+||Port : 6380|
+|Memcached|Hôte : localhost ou 127.0.0.1|
+||Port : 11211|
+|**Emails**||
+|Webmail|[RoundCube](https://webmail.alwaysdata.com)|
+|Listes de diffusion|[Mailman](https://mailman.alwaysdata.com)|
+|IMAP|Hôte : imap-[compte].alwaysdata.net|
+||Ports : 993 (SSL/TLS)|
+|POP3|Hôte : pop-[compte].alwaysdata.net|
+||Ports :995 (SSL/TLS)|
+|SMTP|Hôte : smtp-[compte].alwaysdata.net|
+||Ports : 465 (SSL/TLS)|
+||Identification : nécessaire (adresse email et mot de passe associé)|
+|CardDAV|Hôte : carddav-[compte].alwaysdata.net|
+|CalDAV|Hôte : caldav-[compte].alwaysdata.net|
+|**Accès distant**||
+|FTP|Hôte : ftp-[compte].alwaysdata.net|
+||Port : 990 (SSL/TLS)|
+|SFTP|Hôte : ssh-[compte].alwaysdata.net|
+||Port : 22|
+|SSH|Hôte : ssh-[compte].alwaysdata.net|
+||Port : 22|
+||Accès web (via Shell in a box) : https://ssh-[compte].alwaysdata.net|
+|WebDAV|Hôte : webdav-[compte].alwaysdata.net|
+||Port : 80|
+|**Services**||
+||Hôte : services-[compte].alwaysdata.net|
+||Ports : entre 8300 et 8499|
 
 > [!NOTE]
 > Le login par défaut correspond - à l'exception des mails pour lequel l'identifiant est l'adresse email - au **nom du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et donc non récupérables - mais modifiables dans les menus dédiés.
