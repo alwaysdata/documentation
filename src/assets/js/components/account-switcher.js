@@ -65,7 +65,7 @@ function displayCurrentAccount(account, locale) {
     const text =
       locale === "fr"
         ? "Le compte enregistré actuellement est : "
-        : "The current registered account is:";
+        : "The current registered account is: ";
     registered.querySelector(".info-text").textContent = text;
     registered.querySelector("code").textContent = account;
     registered.classList.remove("hidden");
