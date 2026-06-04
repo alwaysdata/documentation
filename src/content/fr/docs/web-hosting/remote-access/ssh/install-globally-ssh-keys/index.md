@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/ssh/cles-ssh-globales/
 title: Accéder à son serveur avec des clés SSH
 eleventyNavigation:
   key: Accéder à son serveur avec des clés SSH
-  parent: Accès distant
+  parent: SSH
 ---
 
 > [!NOTE]

@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/rust/configuration/
 title: Configurer Rust
 eleventyNavigation:
   key: Configurer Rust
-  parent: Langages
+  parent: Rust
 ---
 
 ## Version

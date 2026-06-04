@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/php/configuration/
 title: Configurer PHP
 eleventyNavigation:
   key: Configurer PHP
-  parent: Langages
+  parent: PHP
 ---
 
 ## Versions supportées

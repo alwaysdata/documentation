@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/nodejs/configuration/
 title: Configurer Node.js
 eleventyNavigation:
   key: Configurer Node.js
-  parent: Langages
+  parent: Node.js
 ---
 
 `[paquet]` est à remplacer par le nom du paquet à installer.

@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/webdav/creer-un-utilisateur-we
 title: Créer un utilisateur WebDAV
 eleventyNavigation:
   key: Créer un utilisateur WebDAV
-  parent: Accès distant
+  parent: WebDAV
 ---
 
 Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un utilisateur du nom de votre `[compte]` est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous le souhaitez que vous pouvez administrer depuis votre interface d'administration, onglet **Accès distant > WebDAV**.

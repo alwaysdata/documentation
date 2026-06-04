@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/ftp/utiliser-filezilla/
 title: Télécharger des fichiers avec FileZilla
 eleventyNavigation:
   key: Télécharger des fichiers avec FileZilla
-  parent: Accès distant
+  parent: FTP
 ---
 
 [Rappel des informations de connexion](/fr/docs/hebergement-web/acces-distant/ftp#se-connecter-en-ftp)

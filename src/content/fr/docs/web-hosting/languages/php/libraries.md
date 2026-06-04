@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/php/ajouter-une-bibliotheque/
 title: Comment ajouter une bibliothèque PHP
 eleventyNavigation:
   key: Comment ajouter une bibliothèque PHP
-  parent: Langages
+  parent: PHP
 ---
 
 Modifier un fichier dans `/etc/ld.so.conf.d` change la configuration globale du système, non compatible avec l'infrastructure alwaysdata.

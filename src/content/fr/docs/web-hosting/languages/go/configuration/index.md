@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/go/configuration/
 title: Configurer Go
 eleventyNavigation:
   key: Configurer Go
-  parent: Langages
+  parent: Go
 ---
 
 ## Version

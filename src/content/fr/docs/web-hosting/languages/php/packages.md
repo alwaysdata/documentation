@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/php/installer-un-paquet/
 title: Comment installer un paquet PHP
 eleventyNavigation:
   key: Comment installer un paquet PHP
-  parent: Langages
+  parent: PHP
 ---
 
 ## Gestion des paquets

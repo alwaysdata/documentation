@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/java/configuration/
 title: Configurer Java
 eleventyNavigation:
   key: Configurer Java
-  parent: Langages
+  parent: Java
 ---
 
 ## Versions supportées

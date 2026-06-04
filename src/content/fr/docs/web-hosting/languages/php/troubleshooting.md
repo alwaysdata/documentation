@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/php/problemes-frequents/
 title: PHP - Problèmes fréquents
 eleventyNavigation:
   key: PHP - Problèmes fréquents
-  parent: Langages
+  parent: PHP
 ---
 
 ## mod_fcgid: can't apply process slot

@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/elixir/configuration/
 title: Configurer Elixir
 eleventyNavigation:
   key: Configurer Elixir
-  parent: Langages
+  parent: Elixir
 ---
 
 ## Versions supportées

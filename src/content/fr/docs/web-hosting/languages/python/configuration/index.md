@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/python/configuration/
 title: Configurer Python
 eleventyNavigation:
   key: Configurer Python
-  parent: Langages
+  parent: Python
 ---
 
 `[paquet]` et `[version]` sont à remplacer par le nom du paquet et de la version à installer.

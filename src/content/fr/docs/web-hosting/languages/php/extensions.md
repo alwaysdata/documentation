@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/php/installer-une-extension/
 title: Comment installer une extension PHP
 eleventyNavigation:
   key: Comment installer une extension PHP
-  parent: Langages
+  parent: PHP
 ---
 
 `[extension]` est à remplacer par le nom de l'extension à installer.

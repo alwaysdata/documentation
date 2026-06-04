@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/ssh/creer-un-utilisateur-ssh/
 title: Créer un utilisateur SSH
 eleventyNavigation:
   key: Créer un utilisateur SSH
-  parent: Accès distant
+  parent: SSH
 ---
 
 Afin de vous connecter à votre compte en _SSH_, il est nécessaire de disposer d'un utilisateur. Par défaut, un utilisateur du nom de votre _compte_ est crée à sa création. Vous pouvez administrer vos utilisateurs SSH depuis votre interface d'administration, onglet **Accès distant > SSH**.

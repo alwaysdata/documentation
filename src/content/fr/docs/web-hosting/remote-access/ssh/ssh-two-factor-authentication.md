@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/ssh/authentification-2-facteur
 title: Activer l'authentification 2 facteurs SSH
 eleventyNavigation:
   key: Activer l'authentification 2 facteurs SSH
-  parent: Accès distant
+  parent: SSH
 ---
 
 > [!NOTE]

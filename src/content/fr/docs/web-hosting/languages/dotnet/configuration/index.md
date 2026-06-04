@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/dotnet/configuration/
 title: Configurer .NET
 eleventyNavigation:
   key: Configurer .NET
-  parent: Langages
+  parent: .NET
 ---
 
 ## Versions supportées

@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/ruby/configuration/
 title: Configurer Ruby
 eleventyNavigation:
   key: Configurer Ruby
-  parent: Langages
+  parent: Ruby
 ---
 
 `[paquet]` et `[version]` sont à remplacer par le nom du paquet et de la version à installer.

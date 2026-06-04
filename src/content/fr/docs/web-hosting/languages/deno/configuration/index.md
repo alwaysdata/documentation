@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/deno/configuration/
 title: Configurer Deno
 eleventyNavigation:
   key: Configurer Deno
-  parent: Langages
+  parent: Deno
 ---
 
 ## Versions supportées

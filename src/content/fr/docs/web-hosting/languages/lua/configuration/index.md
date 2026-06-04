@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/langages/lua/configuration/
 title: Configurer Lua
 eleventyNavigation:
   key: Configurer Lua
-  parent: Langages
+  parent: Lua
 ---
 
 ## Versions supportées

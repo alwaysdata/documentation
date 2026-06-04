@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/acces-distant/ftp/problemes-frequents/
 title: FTP - Problèmes fréquents
 eleventyNavigation:
   key: FTP - Problèmes fréquents
-  parent: Accès distant
+  parent: FTP
 ---
 
 ## Connexion
