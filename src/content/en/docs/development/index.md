@@ -1,18 +1,10 @@
 ---
+layout: layouts/indexed.njk
 title: Development
 eleventyNavigation:
   key: Development
   order: 6
 ---
-
-## Index
-- [API](/en/docs/development/api)
-- [Install & deployments guides](/en/docs/development/guides)
-- [Marketplace](/en/docs/development/marketplace)
-
-Private Cloud:
-- [Docker](/en/docs/development/docker)
-- [VPN](/en/docs/development/vpn)
 
 ## Miscellaneous
 
