@@ -7,6 +7,7 @@ import { initMobileMenu } from "./components/mobile-menu.js";
 import { initTocTracker } from "./components/toc-tracker.js";
 import { initAccountSwitcher } from "./components/account-switcher.js";
 import { initCodeblock } from "./components/codeblock.js";
+import { initNav } from "./components/navigation.js";
 
 /**
  * DOM ready handler
@@ -23,6 +24,7 @@ document.addEventListener(
     initTocTracker();
     initAccountSwitcher();
     initCodeblock();
+    initNav();
   },
   { once: true },
 );

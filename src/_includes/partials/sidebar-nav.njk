@@ -17,7 +17,48 @@
 {% endif %}
 
 {#- Documentation Navigation -#}
-{{ eleventyNavigationMenu | safe }}
+{% set navPages = collections.all | pageLang | eleventyNavigation %}
+
+{% macro renderNavSubListItem(entry) -%}
+  <li{% if entry.url == page.url %} class="active"{% endif %}>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  {%- if entry.children.length -%}
+    <ul class="hidden">
+      {%- for child in entry.children %}{{ renderNavSubListItem(child) }}{% endfor -%}
+    </ul>
+  {%- endif -%}
+  </li>
+{%- endmacro %}
+<ul>
+{%- for entry in navPages %}
+  <li>
+    {%- if entry.children.length -%}
+      <details {% if (entry.url == page.url) or (activeChild == true) %}open{% endif %}>
+        <summary>
+          <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.key }}</a>
+          {% phosphor "caret-right", "regular", { size: 20 } %}
+        </summary>
+        <ul>
+          {%- for child in entry.children %}
+          <li>
+            <a {% if child.url == page.url %} class="active"{% endif %} href="{{ child.url }}">{{ child.key }}</a>
+            {%- if child.children.length -%}
+            <ul class="hidden">
+              {%- for child in child.children %}
+              {{ renderNavSubListItem(child) }}
+              {% endfor -%}
+            </ul>
+            {%- endif -%}
+          </li>
+          {% endfor -%}
+        </ul>
+      </details>
+    {% else %}
+      <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.key }}</a>
+    {%- endif -%}
+  </li>
+{%- endfor %}
+</ul>
 
 {#- Legal Links -#}
 {% if navigation.legal %}

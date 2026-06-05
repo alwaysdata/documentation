@@ -4,20 +4,6 @@ layout: layouts/base.njk
 {%- set pageTitle = title -%}
 {%- set pageDescription = description -%}
 
-{#- Generate Navigation Menu -#}
-{%- set navOptions = {
-    listElement: "ul",
-    listItemElement: "li",
-    listClass: "",
-    listItemClass: "",
-    listItemHasChildrenClass: "",
-    activeListItemClass: "",
-    anchorClass: "",
-    activeAnchorClass: "active",
-    activeKey: eleventyNavigation.key
-} -%}
-{%- set eleventyNavigationMenu = collections.docs | pageLang | eleventyNavigation | eleventyNavigationToHtml(navOptions) -%}
-
 {#- Generate Breadcrumb -#}
 {%- set breadcrumb = collections.docs | pageLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) if eleventyNavigation.key else [] -%}
 
