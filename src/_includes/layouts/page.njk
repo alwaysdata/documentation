@@ -20,19 +20,19 @@ layout: layouts/base.njk
                 {% include 'partials/breadcrumb.njk' %}
 
                 {#- Page Header -#}
-                <header class="mb-9">
+                <header class="mb-9" data-pagefind-body>
                     <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-neutral-100">
                         {{ pageTitle }}
                     </h1>
                     {% if pageDescription %}
-                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400">
+                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400"  data-pagefind-meta="description">
                             {{ pageDescription | safe }}
                         </p>
                     {% endif %}
                 </header>
 
                 {#- Main Content -#}
-                <div class="prose prose-slate max-w-none dark:prose-invert">
+                <div class="prose prose-slate max-w-none dark:prose-invert" data-pagefind-body>
                     {{ content | safe }}
                 </div>
             </article>

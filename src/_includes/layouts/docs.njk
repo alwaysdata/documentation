@@ -48,18 +48,18 @@ banner: true
                             </a>
                         </div>
                     {% endif %}
-                    <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-neutral-100">
+                    <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-neutral-100" data-pagefind-body>
                         {{ pageTitle }}
                     </h1>
                     {% if pageDescription %}
-                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400">
+                        <p class="mt-2 text-lg text-slate-600 dark:text-neutral-400" data-pagefind-meta="description">
                             {{ pageDescription | safe }}
                         </p>
                     {% endif %}
                 </header>
 
                 {#- Main Content -#}
-                <div class="prose prose-slate max-w-none dark:prose-invert">
+                <div class="prose prose-slate max-w-none dark:prose-invert" data-pagefind-body>
                     {{ content | safe }}
                 </div>
 

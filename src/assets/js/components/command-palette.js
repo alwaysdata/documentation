@@ -225,6 +225,11 @@ export class CommandPalette extends HTMLElement {
   async loadPagefind() {
     try {
       this.pagefind = await import("/pagefind/pagefind.js");
+      await this.pagefind.options({
+        ranking: {
+          pageLength: 0,
+        },
+      });
       await this.pagefind.init();
     } catch (error) {
       console.error("Failed to load Pagefind:", error);
