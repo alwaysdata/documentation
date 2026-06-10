@@ -21,7 +21,7 @@ Le partage n'est *pas* disponible.
 
 ## Webmail
 
-Le carnet d'adresses est directement accessible via le menu **Contacts**.
+Le carnet d'adresses est directement accessible via le menu **Contacts** et le calendrier via le menu **Calendrier**.
 
 Les groupes créés sont transformés par le système comme des vCards indépendantes assurant une synchronisation simple avec d'autres clients CardDAV.
 
