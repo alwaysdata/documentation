@@ -18,8 +18,8 @@ banner: true
         {% include 'partials/mobile-sidebar.njk' %}
 
         {#- Main Content Area -#}
-        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1" {% if weight %}data-pagefind-weight="{{ weight }}"{% endif %}>
-            <article class="doc-page py-10">
+        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1">
+            <article class="doc-page py-10"{% if weight %} data-pagefind-weight="{{ weight }}"{% endif %}>
                 {#- Breadcrumb -#}
                 {% include 'partials/breadcrumb.njk' %}
 
