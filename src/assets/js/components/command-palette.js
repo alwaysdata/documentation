@@ -94,6 +94,7 @@ export class CommandPalette extends HTMLElement {
               <kbd class="search-shortcut">esc</kbd>
             </div>
           </div>
+          <div class="search-filters"></div>
           <div class="search-results">
             <div class="search-empty">
               <p>${translations.search.type[locale]}</p>
@@ -115,6 +116,7 @@ export class CommandPalette extends HTMLElement {
     this.dialog = this.querySelector("dialog");
     this.input = this.querySelector(".search-input");
     this.results = this.querySelector(".search-results");
+    this.filters = this.querySelector(".search-filters");
   }
 
   bindEvents() {
@@ -197,17 +199,17 @@ export class CommandPalette extends HTMLElement {
 
   async open() {
     if (this.isOpen) return;
-
-    this.isOpen = true;
-    this.dialog.showModal();
-    this.input.focus();
-    this.selectedIndex = -1;
-    document.body.style.overflow = "hidden";
-
     // Load Pagefind on first open
     if (!this.pagefind) {
       await this.loadPagefind();
     }
+
+    this.isOpen = true;
+    this.renderFilters(await this.pagefind.filters());
+    this.dialog.showModal();
+    this.input.focus();
+    this.selectedIndex = -1;
+    document.body.style.overflow = "hidden";
   }
 
   close() {
@@ -257,8 +259,19 @@ export class CommandPalette extends HTMLElement {
     }
 
     try {
+      const filters = [];
+      const filterElements = this.filters.querySelectorAll(
+        ".search-filter:checked",
+      );
+      filterElements.forEach((item) => {
+        filters.push(item.name);
+      });
       this.renderLoading();
-      const search = await this.pagefind.search(query);
+      const search = await this.pagefind.search(query, {
+        filters: {
+          tag: { any: filters },
+        },
+      });
 
       // Load result data (limit to 10 results)
       const results = await Promise.all(
@@ -336,6 +349,29 @@ export class CommandPalette extends HTMLElement {
         <p>${message}</p>
       </div>
     `;
+  }
+
+  renderFilters(filters) {
+    let filters_list = `<span class="filter-label">${translations.search.filters[locale]}</span>`;
+    let index = 0;
+
+    for (const item in filters.tag) {
+      index++;
+      filters_list += `<label class="search-filter"><input type="checkbox" name="${item}"/>${item} <span class="filter-count">(${filters.tag[item]})</span></label>`;
+    }
+    this.filters.innerHTML = `
+      ${filters_list}
+    `;
+
+    function handleChange() {
+      const query = this.input.value;
+      if (query) this.debounceSearch(query);
+    }
+
+    // Search filters events
+    this.filters.querySelectorAll(".search-filter").forEach((filter) => {
+      filter.addEventListener("change", handleChange.bind(this));
+    });
   }
 
   renderResults(results, query) {

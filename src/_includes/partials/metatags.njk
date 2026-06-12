@@ -12,6 +12,9 @@
 <meta name="description" content="{{ pageDescription | truncate(160) }}">
 <meta name="author" content="{{ pageAuthor }}">
 <meta name="generator" content="{{ eleventy.generator }}">
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}" data-pagefind-filter="{{ keywords }}">
+{% endif %}
 
 {# Canonical URL #}
 <link rel="canonical" href="{{ pageUrl }}">

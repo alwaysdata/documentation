@@ -18,6 +18,10 @@ export default {
       en: "Search documentation",
       fr: "Rechercher dans la documentation",
     },
+    filters: {
+      en: "Filters:",
+      fr: "Filtres :",
+    },
     type: {
       en: "Type to search…",
       fr: "Tapez pour rechercher…",

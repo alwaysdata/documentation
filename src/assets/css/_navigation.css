@@ -191,6 +191,40 @@
     @apply text-slate-500 dark:text-neutral-200;
   }
 
+  .search-filters {
+    @apply flex gap-1 flex-wrap;
+    @apply pbe-3 px-5 text-slate-500;
+  }
+
+  .filter-label {
+    @apply basis-full font-semibold text-sm;
+  }
+
+  .search-filter {
+    @apply border border-slate-300 rounded-2xl py-1 px-3;
+    @apply text-sm cursor-pointer;
+
+    & input {
+      @apply sr-only;
+    }
+
+    &:is(:hover, :focus-within) {
+      @apply border-brand-lighter text-brand-main;
+    }
+
+    &:has(input:checked) {
+      @apply bg-brand-lighter border-brand-lighter text-brand-dark;
+
+      &:is(:hover, :focus-within) {
+        @apply border-brand-darker;
+      }
+    }
+  }
+
+  .filter-count {
+    @apply font-semibold p-1;
+  }
+
   .search-results {
     @apply flex-1 overflow-y-auto overscroll-contain;
   }

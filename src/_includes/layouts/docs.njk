@@ -18,7 +18,7 @@ banner: true
         {% include 'partials/mobile-sidebar.njk' %}
 
         {#- Main Content Area -#}
-        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1">
+        <main class="min-w-0 max-w-4xl flex flex-col justify-between flex-1" {% if weight %}data-pagefind-weight="{{ weight }}"{% endif %}>
             <article class="doc-page py-10">
                 {#- Breadcrumb -#}
                 {% include 'partials/breadcrumb.njk' %}
@@ -31,7 +31,7 @@ banner: true
                         {%- set githubBranch = metadata.github.editBranch | default("main") -%}
                         {%- set editUrl = githubBaseUrl + "/edit/" + githubBranch + "/" + page.inputPath -%}
                         {%- set rawUrl = "https://raw.githubusercontent.com/" + metadata.github.owner + "/" + metadata.github.repo + "/" + githubBranch + "/" + page.inputPath -%}
-                        <div class="mb-4 hidden flex-wrap items-center justify-end gap-x-4 gap-y-2 text-sm sm:flex">
+                        <div class="mb-4 hidden flex-wrap items-center justify-end gap-x-4 gap-y-2 text-sm sm:flex" data-pagefind-ignore>
                             <a href="{{ editUrl }}"
                                target="_blank"
                                rel="noopener"

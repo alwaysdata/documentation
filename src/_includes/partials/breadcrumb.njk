@@ -1,7 +1,7 @@
 {#- Breadcrumb Navigation -#}
 {%- set pageUrlSplit = page.url.split('/') -%}
 
-<nav class="mb-4 flex items-center gap-1 text-sm text-slate-500 dark:text-neutral-400" aria-label="Breadcrumb">
+<nav class="mb-4 flex items-center gap-1 text-sm text-slate-500 dark:text-neutral-400" aria-label="Breadcrumb" data-pagefind-ignore>
     <a href="/" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline" aria-label="Home">
         {% phosphor "house", "regular", { size: 14 } %}
     </a>
@@ -9,7 +9,11 @@
     {% if breadcrumb.length > 0 %}
         {% for item in breadcrumb %}
             <span class="text-slate-400 dark:text-neutral-600">/</span>
-            <a href="{{ item.url }}" class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline">
+            <a
+              href="{{ item.url }}"
+              class="hover:text-slate-700 dark:hover:text-neutral-300 no-underline"
+              {% if loop.index == 1 %}data-pagefind-filter="tag"{% endif %}
+            >
                 {{ item.key }}
             </a>
         {% endfor %}
