@@ -1,7 +1,13 @@
 ---
-title: Help
+title: Documentation
 banner: true
 ---
+
+Not yet a customer? [Sign-up](https://www.alwaysdata.com/en/register/) on our platform. Questions? Need a quote? Contact our [sales department](https://www.alwaysdata.com/en/).
+
+Interested in the adventures of a technical team? Come take a look [under the hood](/en/blog/).
+
+<p style="text-align:center;">Want to show your support?  <a href="/en/love">Give us some ❤</a> !</p>
 
 ## Start with alwaysdata
 
@@ -13,10 +19,6 @@ Learn how to use *alwaysdata*. Find out how to set up an account. Discover how t
 - Transfer your files using a remote access protocol - [SFTP](/en/docs/web-hosting/remote-access/sftp) for instance - and create your [database](/en/docs/web-hosting/databases).
 
 A problem? Contact our [support](https://admin.alwaysdata.com/support/add/).
-
-Not yet a customer? Sign-up to our [platform](https://www.alwaysdata.com/en/register/) or contact our [sales department](https://www.alwaysdata.com/en/).
-
-Want to show your support? [Give us some ❤](/en/love/) !
 
 > [!NOTE]
 Each time you encounter `[account]` you can replace it manually by the name of your account of choice or you can use [our UI customization tool](/en/custom/) to do automatically for you.

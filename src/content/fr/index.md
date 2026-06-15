@@ -1,7 +1,13 @@
 ---
-title: Assistance
+title: Documentation
 banner: true
 ---
+
+Vous n'êtes pas encore client ? [Inscrivez-vous](https://www.alwaysdata.com/fr/inscription/) sur notre plateforme. Des questions, besoin d'un devis ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/).
+
+Intéressé par les tribulations d'une équipe technique ? Rendez-vous [sous le capot](/fr/blog/).
+
+<p style="text-align:center;">Vous nous aimez ? <a href="/fr/love">Montrez-nous votre ❤</a> !</p>
 
 ## Démarrer avec alwaysdata
 
@@ -13,10 +19,6 @@ Apprenez comment utiliser _alwaysdata_. Trouvez comment mettre en place un compt
 - transférez vos fichiers en utilisant un protocole d'accès distant - [SFTP](/fr/docs/hebergement-web/acces-distant/sftp) par exemple - et créez votre [base de données](/fr/docs/hebergement-web/bases-de-donnees).
 
 Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/add/).
-
-Vous n'êtes pas encore client ? Inscrivez-vous sur notre [plateforme](https://www.alwaysdata.com/fr/inscription/) ou contactez notre [service commercial](https://www.alwaysdata.com/fr/).
-
-Vous nous aimez ? [Montrez-nous votre ❤](/fr/love/) !
 
 > [!NOTE]
 Chaque fois que vous rencontrez `[compte]`, vous pouvez le remplacer manuellement par le nom de compte de votre choix ou bien vous pouvez utiliser [notre outil de personnalisation d'interface](/fr/custom/) pour le faire automatiquement pour vous.
