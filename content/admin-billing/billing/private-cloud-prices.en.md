@@ -24,7 +24,7 @@ Configuration |
  **Disks**           | SSD 1 To NVMe • RAID1
  **RAM**               | 16 Go
  **Traffic/month**       | 3 To (1 Gbps)
- **Monthly price**      | 369€ HT (annual payment) or 409€ HT (monthly payment)
+ **Monthly price (VAT excluded)**     | €369 (annual payment) or €409 (monthly payment)
 
 {{% notice info %}}
 In the case of a monthly commitment, the first invoice covers the first three months. If the customer does not want this commitment, a 20% surcharge is to be expected for these three months.
