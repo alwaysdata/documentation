@@ -2,8 +2,9 @@
 permalink: /fr/docs/hebergement-web/sites/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions diverses
+  key: Sites - Questions diverses
   parent: Sites web
+  order: 98
 ---
 
 ## Site HTTP par défaut
@@ -18,4 +19,4 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 
 Pour qu'une application ne soit jamais arrêtée, indiquez comme valeur `0`.
 
-Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](/fr/docs/hebergement-web/services/) ainsi qu'un site de type [Redirection "reverse-proxy"](/fr/docs/hebergement-web/sites/redirection/) pour son accès web.
+Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](/fr/docs/hebergement-web/services/) ainsi qu'un site de type [Reverse-proxy](/fr/docs/hebergement-web/sites/ajouter-un-site/#configuration) pour son accès web.

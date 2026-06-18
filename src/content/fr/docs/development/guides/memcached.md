@@ -4,6 +4,7 @@ title: Memcached
 eleventyNavigation:
   key: Memcached
   parent: Guides
+  order: 1
 ---
 
 [Memcached](https://www.memcached.org/) est un moteur de cache orienté objet.
@@ -46,4 +47,4 @@ Plus d'options via `/home/[compte]/memcached/memcached -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter au Memcached devra utiliser `services-[compte].alwaysdata.net` et le port `8300`.
 
-- [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/memcached/php)
+- [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/memcached/php/)

@@ -4,6 +4,7 @@ title: Désactiver un site web
 eleventyNavigation:
   key: Désactiver un site web
   parent: Sites web
+  order: 15
 ---
 
 Vous pourriez avoir besoin de désactiver votre site le temps d'une maintenance ou d'une indisponibilité : cette fonctionnalité n'est pas disponible dans l'interface d’administration. En revanche, des solutions simples permettant cela existent :

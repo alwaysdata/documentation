@@ -4,6 +4,7 @@ title: Autorisation d'accès à l'interface d'administration selon l'IP
 eleventyNavigation:
   key: Autorisation d'accès avec IP
   parent: Gérer son profil
+  order: 2
 ---
 
 Pour permettre l'accès à l'interface d'administration alwaysdata à seulement certaines IP, rendez-vous dans **Profil**.

@@ -4,6 +4,7 @@ title: Supprimer son profil
 eleventyNavigation:
   key: Supprimer son profil
   parent: Gérer son profil
+  order: 8
 ---
 
 Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (par exemple `<name@example.org>` propriétaire du compte `mon_projet`).

@@ -4,6 +4,7 @@ title: Tarifs des interventions sur serveurs
 eleventyNavigation:
   key: Tarifs des interventions
   parent: Facturation
+  order: 7
 ---
 La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
 

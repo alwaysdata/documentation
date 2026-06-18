@@ -4,20 +4,25 @@ title: Créer une adresse email
 eleventyNavigation:
   key: Créer une adresse email
   parent: Emails
+  order: 1
 ---
 
 À partir de la section **Emails > Adresses** de l'administration, vous pouvez créer des boîtes emails (à condition d'avoir ajouté un [nom de domaine](/fr/docs/domaines/)).
 
 ![](images/admin-panel_mailbox-list.png)
 
-Vous aurez alors un ensemble de champs à renseigner. En voici les précisions.
+- Pour en faire plusieurs en même temps, utilisez la [création par fichier CSV](/fr/docs/emails/creer-une-adresse-email/creer-des-adresses-email-via-csv/).
+
+- Vous pouvez aussi [migrer simplement depuis un autre hébergeur](/fr/docs/emails/creer-une-adresse-email/migrer-des-adresses-email-chez-alwaysdata/).
+
+Vous aurez un ensemble de champs à renseigner. En voici les précisions.
 
 ## Informations obligatoires
 
 ![](images/admin-panel_create-mailbox_required-infos.png)
 
 - _Domaine_ : nom de domaine de l'adresse à créer ;
-- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)](/fr/docs/emails/adresse-collectrice/).
+- _Partie locale_ : partie à gauche du *@* de l'adresse email (par exemple, si vous voulez créer `contact@example.org`, la partie locale sera `contact`). Vous pouvez aussi créer une [adresse collectrice (catch-all)](/fr/docs/emails/creer-une-adresse-email/adresse-collectrice/).
 - _Mot de passe_ : mot de passe nécessaire pour la connexion à cette adresse email.
 
 ## Antispam
@@ -85,4 +90,4 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 ![](images/admin-panel_mailbox_sieve.png)
 
-Cette technologie permet d'effectuer des [opérations plus précises](/fr/docs/emails/utiliser-les-scripts-sieve/) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.
+Cette technologie permet d'effectuer des [opérations plus précises](/fr/docs/emails/emails-entrants/utiliser-les-scripts-sieve/) à la réception de vos messages. Si vous activez le script Sieve, alors son exécution aura lieu après toutes les opérations configurées sur le formulaire de création de votre boîte email.

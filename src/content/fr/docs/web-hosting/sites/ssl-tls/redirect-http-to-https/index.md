@@ -4,6 +4,7 @@ title: Rediriger HTTP vers HTTPS
 eleventyNavigation:
   key: Rediriger HTTP vers HTTPS
   parent: SSL/TLS
+  order: 2
 ---
 
 

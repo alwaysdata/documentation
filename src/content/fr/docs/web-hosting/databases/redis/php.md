@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/bases-de-donnees/redis/php/
 title: Configurer une application PHP avec Redis
 eleventyNavigation:
   key: Configurer une application PHP avec Redis
-  parent: Bases de données
+  parent: Redis
 ---
 
 ## Configuration

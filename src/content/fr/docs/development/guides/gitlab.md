@@ -4,13 +4,14 @@ title: GitLab
 eleventyNavigation:
   key: GitLab
   parent: Guides
+  order: 1
 ---
 
 [GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...
 
 Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)**, voici les étapes à suivre.
 
-**Les SGBD [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) et [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add).
+**Les SGBD [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) et [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add/).
 
 L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
 

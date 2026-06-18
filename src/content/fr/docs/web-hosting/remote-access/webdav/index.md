@@ -4,6 +4,7 @@ title: WebDAV
 eleventyNavigation:
   key: WebDAV
   parent: Accès distant
+  order: 4
 ---
 
 WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.org/), permet aux utilisateurs de modifier et de gérer en collaboration des fichiers sur des serveurs Web distants.

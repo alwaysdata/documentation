@@ -2,8 +2,9 @@
 permalink: /fr/docs/admin-facturation/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions diverses
+  key: Espace client - Questions diverses
   parent: Espace client
+  order: 99
 ---
 
 ## Cycle de suppression automatique

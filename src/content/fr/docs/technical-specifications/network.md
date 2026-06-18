@@ -4,6 +4,7 @@ title: Réseau
 eleventyNavigation:
   key: Réseau
   parent: Caractéristiques techniques
+  order: 6
 ---
 
 ## Firewall (pare-feu)

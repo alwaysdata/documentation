@@ -4,6 +4,7 @@ title: Mettre à jour les informations du propriétaire d'un domaine
 eleventyNavigation:
   key: Mettre à jour les informations
   parent: Domaines
+  order: 8
 ---
 
 Chaque domaine est lié à un utilisateur propriétaire. Pour connaître quel utilisateur est lié à un domaine rendez-vous dans **Domaines > Détails de [example.org] - 🔎** :

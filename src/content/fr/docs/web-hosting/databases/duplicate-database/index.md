@@ -4,6 +4,7 @@ title: Dupliquer une base de données
 eleventyNavigation:
   key: Dupliquer une base de données
   parent: Bases de données
+  order : 10
 ---
 
 Il est possible de dupliquer une base de données via **Bases de données > [SGBD] > Dupliquer la [base de donnée] - 📄**.

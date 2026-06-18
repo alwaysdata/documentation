@@ -4,6 +4,7 @@ title: Ajouter un certificat SSL
 eleventyNavigation:
   key: Ajouter un certificat SSL
   parent: SSL/TLS
+  order: 4
 ---
 
 Ajoutez votre certificat dans la section **Avancé > Certificats SSL > Ajouter un certificat SSL** de votre interface alwaysdata.

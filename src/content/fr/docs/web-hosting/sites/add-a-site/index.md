@@ -4,6 +4,7 @@ title: Ajouter un site
 eleventyNavigation:
   key: Ajouter un site
   parent: Sites web
+  order: 1
 ---
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
@@ -16,7 +17,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 ## Adresses
 L'ajout de toutes les adresses dans ce menu est un **impératif** pour qu'elles soient accessibles comme sites :
 - par exemple, pour accéder à un site sur *www\.example.org* et *example.org* les deux adresses doivent être ajoutées ;
-- renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [serveurs DNS](/fr/docs/domaines/#gestion-dns).
+- renseigner son domaine dans le menu **Domaines** n'est pas non plus suffisant. Même pour un domaine utilisant nos [serveurs DNS](/fr/docs/domaines/gestion-dns/).
 
 Par ailleurs, si le domaine n'utilise pas nos serveurs DNS, il faudra [créer des enregistrements DNS](/fr/docs/hebergement-web/sites/utiliser-des-adresses-externes/) chez le prestataire DNS.
 
@@ -39,11 +40,11 @@ Spécifique à chaque type de site :
 - [Deno](/fr/docs/hebergement-web/langages/deno/) ;
 - [.NET](/fr/docs/hebergement-web/langages/dotnet/) ;
 - [Java](/fr/docs/hebergement-web/langages/java/) ;
-- [Redirection](/fr/docs/hebergement-web/sites/redirection/) ;
+- [Redirection](/fr/docs/hebergement-web/sites/serveurs-http/redirection/) ;
 - Reverse proxy : met en place un reverse proxy vers une URL ;
-- [Fichiers statiques](/fr/docs/hebergement-web/sites/fichiers-statiques/) : pour gérer des sites ou fichiers statiques ;
-- [Apache personnalisé](/fr/docs/hebergement-web/sites/apache-personnalise/) : pour totalement configurer son serveur Apache ;
-- [Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/) : pour faire tourner n'importe quel serveur web.
+- [Fichiers statiques](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/) : pour gérer des sites ou fichiers statiques ;
+- [Apache personnalisé](/fr/docs/hebergement-web/sites/serveurs-http/apache-personnalise/) : pour totalement configurer son serveur Apache ;
+- [Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/) : pour faire tourner n'importe quel serveur web.
 
 Les sites de type PHP, Fichiers statiques et Apache personnalisé sont servis par [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack et Ruby on Rails <= 2.x utilisent [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
@@ -55,16 +56,16 @@ Voir [SSL](/fr/docs/hebergement-web/sites/ssl-tls/rediriger-HTTP-vers-HTTPS/).
 ## WAF
 
 ![Configurer le pare-feu applicatif web](images/admin-panel_add-site-waf.png)
-Voir [WAF](/fr/docs/hebergement-web/sites/waf/).
+Voir [WAF](/fr/docs/hebergement-web/sites/personnalisation/waf/).
 
 ## Cache
 ![Mettre en place le cache HTTP](images/admin-panel_add-site-cache.png)
-Voir [Cache](/fr/docs/hebergement-web/sites/cache-http/).
+Voir [Cache](/fr/docs/hebergement-web/sites/personnalisation/cache-http/).
 
 ## Logs
 
 ![Personnaliser les logs HTTP](images/admin-panel_add-site-logs.png)
-Voir [Logs](/fr/docs/hebergement-web/sites/formater-les-logs-http/).
+Voir [Logs](/fr/docs/hebergement-web/sites/personnalisation/formater-les-logs-http/).
 
 ## Avancé
 

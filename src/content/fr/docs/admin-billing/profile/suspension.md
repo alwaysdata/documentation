@@ -4,6 +4,7 @@ title: Profil suspendu
 eleventyNavigation:
   key: Profil suspendu
   parent: Gérer son profil
+  order: 7
 ---
 
 Il peut arriver que votre profil soit suspendu (mention **Account suspended** sur votre site, blocage des différents services FTP, SQL, etc.) et ce pour plusieurs raisons.
@@ -23,7 +24,7 @@ En vous inscrivant sur notre site et donc en créant un profil, vous vous engage
 - envoi de [spam](https://fr.wikipedia.org/wiki/Spam#Dans_l'Union_europ%C3%A9enne) ;
 	- tout message doit être envoyé avec le **consentement explicite** (_opt-in_) du destinataire ;
 	- utiliser une liste achetée à un tiers est donc considéré comme du spam ;
-	- [plusieurs questions à se poser avant de se lancer dans l'emailing](/fr/docs/emails/delivrabilite-bonnes-pratiques/#emailing).
+	- [plusieurs questions à se poser avant de se lancer dans l'emailing](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#emailing).
 - hébergement de [sites d'hameçonnage](https://fr.wikipedia.org/wiki/Hame%C3%A7onnage) (appelé phishing) ;
 - hébergement de sites/applications de contrefaçon ;
 - tentatives de pénétration de systèmes extérieurs (hacking) depuis les serveurs alwaysdata ;

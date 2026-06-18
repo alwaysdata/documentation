@@ -135,7 +135,7 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 
 ## Déploiement ASGI
 
-Les applications se basant sur la norme [ASGI](https://asgi.readthedocs.io) comme les frameworks Python asynchrone peuvent utiliser le type de site *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**. Le serveur HTTP le plus connu est [Uvicorn](https://uvicorn.dev/).
+Les applications se basant sur la norme [ASGI](https://asgi.readthedocs.io) comme les frameworks Python asynchrone peuvent utiliser le type de site *[Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)* dans la section **Web > Sites**. Le serveur HTTP le plus connu est [Uvicorn](https://uvicorn.dev/).
 
 ![](images/user-program.png)
 

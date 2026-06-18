@@ -1,9 +1,10 @@
 ---
 permalink: /fr/docs/hebergement-web/acces-distant/ssh/problemes-frequents/
-title: SSH - Problèmes fréquents
+title: Problèmes fréquents
 eleventyNavigation:
   key: SSH - Problèmes fréquents
   parent: SSH
+  order: 9
 ---
 
 ## Connexion

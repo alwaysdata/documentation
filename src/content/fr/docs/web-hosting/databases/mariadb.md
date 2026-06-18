@@ -4,6 +4,7 @@ title: MariaDB / MySQL
 eleventyNavigation:
   key: MariaDB / MySQL
   parent: Bases de données
+  order: 1
 ---
 
 ## Versions supportées

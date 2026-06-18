@@ -4,6 +4,7 @@ title: Bases de données
 eleventyNavigation:
   key: Bases de données
   parent: Hébergement web
+  order: 3
 ---
 
 Les SGBD (**S**ystèmes de **G**estion de **B**ases de **D**onnées) que nous proposons sont **entièrement infogérés**, sur toutes nos offres : nous nous chargeons de l'installation, la configuration, la maintenance et la sécurisation de vos bases de données. Ainsi, vous vous occupez uniquement des interactions entre vos applications et vos bases de données.

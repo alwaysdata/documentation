@@ -4,6 +4,7 @@ title: Programmes
 eleventyNavigation:
   key: Programmes
   parent: Espace client
+  order: 6
 ---
 
 - [Programme étudiants/sans emploi](/fr/docs/admin-facturation/programmes/etudiants_sans-emploi/) : 50 % de réduction sur les packs du Cloud Public ;

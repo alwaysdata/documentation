@@ -4,6 +4,7 @@ title: PostgreSQL
 eleventyNavigation:
   key: PostgreSQL
   parent: Bases de données
+  order: 2
 ---
 
 ## Versions supportées

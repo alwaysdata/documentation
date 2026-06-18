@@ -4,6 +4,7 @@ title: Éco-responsabilité
 eleventyNavigation:
   key: Éco-responsabilité
   parent: Caractéristiques techniques
+  order: 3
 ---
 
 ## Organisation

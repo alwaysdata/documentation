@@ -4,6 +4,7 @@ title: Bloquer l'utilisation des emails
 eleventyNavigation:
   key: Bloquer l'utilisation des emails
   parent: Emails
+  order: 98
 ---
  
 Chez alwaysdata, la gestion DNS s'effectue via le menu **Domaines > Détails de [example.org] - ⚙️ > Enregistrements DNS**.

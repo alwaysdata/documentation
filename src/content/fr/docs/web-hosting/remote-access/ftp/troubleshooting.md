@@ -1,9 +1,10 @@
 ---
 permalink: /fr/docs/hebergement-web/acces-distant/ftp/problemes-frequents/
-title: FTP - Problèmes fréquents
+title: Problèmes fréquents
 eleventyNavigation:
   key: FTP - Problèmes fréquents
   parent: FTP
+  order: 9
 ---
 
 ## Connexion
@@ -17,7 +18,7 @@ Un [blocage d'IP](/fr/docs/caracteristiques-techniques/reseau/) a lieu après un
 ### 530 Home Directory does not exist
 Vérifiez que le répertoire racine indiqué dans **Accès distant > FTP** existe bien. Si vous n'êtes pas sûr, indiquez la racine du compte : `/`.
 
-Cette erreur peut avoir d'autres raisons et notamment apparaître de façon sporadique. Réessayez de vous connecter ultérieurement ou contactez le [support](https://admin.alwaysdata.com/support/add).
+Cette erreur peut avoir d'autres raisons et notamment apparaître de façon sporadique. Réessayez de vous connecter ultérieurement ou contactez le [support](https://admin.alwaysdata.com/support/add/).
 
 ### Réponse : 530 Login or password incorrect
 Le couple login/mot de passe n'est pas bon vérifiez-le ou modifiez votre mot de passe dans **Accès distant > FTP**.

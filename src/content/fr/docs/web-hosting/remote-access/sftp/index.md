@@ -4,6 +4,7 @@ title: SFTP
 eleventyNavigation:
   key: SFTP
   parent: Accès distant
+  order: 2
 ---
 
 Le protocole SFTP (pour [SSH File Transfer Protocol](https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol)) permet de sécuriser un transfert FTP en passant par un tunnel SSH. Les utilisateurs peuvent de ce fait utiliser une interface graphique simple via le client FTP de leur choix.

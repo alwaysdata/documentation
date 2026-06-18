@@ -4,6 +4,7 @@ title: SSH
 eleventyNavigation:
   key: SSH
   parent: Accès distant
+  order: 3
 ---
 
 SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un protocole de connexion sécurisé par un échange de clés de chiffrement en début de connexion. alwaysdata le propose sur TOUS ses environnements.

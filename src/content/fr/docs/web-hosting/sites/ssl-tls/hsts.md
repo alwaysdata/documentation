@@ -4,6 +4,7 @@ title: Implémenter HSTS
 eleventyNavigation:
   key: Implémenter HSTS
   parent: SSL/TLS
+  order: 8
 ---
 
 La politique [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security) permet de protéger les utilisateurs en déclarant aux navigateurs qu'ils doivent interagir avec le serveur web en utilisant une connexion sécurisée.

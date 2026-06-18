@@ -4,12 +4,13 @@ title: Renouveler un domaine
 eleventyNavigation:
   key: Renouveler un domaine
   parent: Domaines
+  order: 5
 ---
 
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > RENOUVELER**.
 ![](images/admin-panel_renew.png)
 
-- [Dates limites](/fr/docs/domaines/dates-limites/)
+- [Dates limites](/fr/docs/domaines/renouveler-un-domaine/dates-limites/)
 
 ## Renouvellement automatique
 

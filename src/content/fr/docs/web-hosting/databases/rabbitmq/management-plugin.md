@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/bases-de-donnees/rabbitmq/plugin-de-manageme
 title: Plugin de management de RabbitMQ
 eleventyNavigation:
   key: Plugin de management de RabbitMQ
-  parent: Bases de données
+  parent: RabbitMQ
 ---
 
 Le [plugin de management](https://www.rabbitmq.com/management.html) de RabbitMQ peut être utilisé sur le [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Seuls les [accès management](https://www.rabbitmq.com/management.html#permissions) seront disponibles.

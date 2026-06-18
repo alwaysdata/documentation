@@ -4,6 +4,7 @@ title: Langages
 eleventyNavigation:
   key: Langages
   parent: Hébergement web
+  order: 2
 ---
 
 Retrouvez toutes les informations sur les technologies propulsées par nos serveurs :
@@ -20,7 +21,7 @@ Retrouvez toutes les informations sur les technologies propulsées par nos serve
 * [Ruby](/fr/docs/hebergement-web/langages/ruby/)
 * [Rust](/fr/docs/hebergement-web/langages/rust/)
 
-D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/).
+D'autres interpréteurs et langages peuvent aussi être exécutés grâce au [programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/).
 
 ## Versions
 

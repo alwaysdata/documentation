@@ -4,6 +4,7 @@ title: "Admin : Authentification 2 facteurs"
 eleventyNavigation:
   key: Authentification 2 facteurs
   parent: Gérer son profil
+  order: 1
 ---
 
 

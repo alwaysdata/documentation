@@ -4,6 +4,7 @@ title: Renommer un compte
 eleventyNavigation:
   key: Renommer un compte
   parent: Gérer ses comptes
+  order: 3
 ---
 
 Si le nom d'un compte ne convient plus (changement de dénomination, faute d'orthographe, etc.), il est possible d'en changer.

@@ -4,6 +4,7 @@ title: Acheter un domaine
 eleventyNavigation:
   key: Acheter un domaine
   parent: Domaines
+  order: 1
 ---
 
 1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;

@@ -4,6 +4,7 @@ title: Transférer un domaine
 eleventyNavigation:
   key: Transférer un domaine
   parent: Domaines
+  order: 2
 ---
 
 Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet de transférer la gestion _administrative_ de son domaine chez alwaysdata.
@@ -72,7 +73,7 @@ l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre d
 
 Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
 
-- mettant à jour vos [enregistrements DNS](/fr/docs/domaines/ajouter-un-enregistrement-dns/) si vous utilisez d'autres serveurs pour certains services ;
+- mettant à jour vos [enregistrements DNS](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/) si vous utilisez d'autres serveurs pour certains services ;
 - créant les [adresses email](/fr/docs/emails/creer-une-adresse-email/).
 
 Concernant le site internet, plusieurs choix sont possibles :

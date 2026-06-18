@@ -5,4 +5,5 @@ title: Gérer son profil
 eleventyNavigation:
   key: Gérer son profil
   parent: Espace client
+  order: 3
 ---

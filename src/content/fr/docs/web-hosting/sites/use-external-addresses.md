@@ -4,6 +4,7 @@ title: Utiliser des adresses externes
 eleventyNavigation:
   key: Utiliser des adresses externes
   parent: Sites web
+  order: 2
 ---
 
 Pour utiliser ses propres adresses sans [gérer son domaine](/fr/docs/domaines/ajouter-un-domaine-externe/) chez alwaysdata, il faut :

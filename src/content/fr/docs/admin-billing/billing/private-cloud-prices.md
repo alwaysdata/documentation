@@ -4,6 +4,7 @@ title: "Tarifs : Cloud Privé - Offres Max"
 eleventyNavigation:
   key: Tarifs Offres Max
   parent: Facturation
+  order: 2
 ---
 
 L'offre Max désigne les serveurs physiques **dédiés** à votre usage et **infogérés** par notre équipe, qui s'occupe de l'installation, la configuration, et le déploiement de votre architecture. Vous n'avez pas à gérer l'administration des systèmes (mises à jour, monitoring, etc.).

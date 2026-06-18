@@ -4,6 +4,7 @@ title: SSL/TLS
 eleventyNavigation:
   key: SSL/TLS
   parent: Sites web
+  order: 5
 ---
 
 Tous les services (HTTP, mais aussi accès distant, bases de données, emails...) sont sécurisés par une couche SSL/TLS.
@@ -15,7 +16,7 @@ Tous les services (HTTP, mais aussi accès distant, bases de données, emails...
 - [Renouveler un certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/renouveler-un-certificat-ssl/)
 - [Priorité des certificats](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/)
 
-* [API](https://api.alwaysdata.com/v1/ssl/doc/)
+* [Ressource API](https://api.alwaysdata.com/v1/ssl/doc/)
 * [Configurer TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/)
 * [Implémenter HSTS](/fr/docs/hebergement-web/sites/ssl-tls/hsts/)
 * [Diverses questions](/fr/docs/hebergement-web/sites/ssl-tls/divers/)

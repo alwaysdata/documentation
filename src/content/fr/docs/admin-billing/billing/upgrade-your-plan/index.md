@@ -4,6 +4,7 @@ title: Changer d'offre
 eleventyNavigation:
   key: Changer d'offre
   parent: Facturation
+  order: 6
 ---
 
 Pour changer d'offre, rendez-vous dans **Abonnements > Modifier - ⚙️ le compte concerné** :

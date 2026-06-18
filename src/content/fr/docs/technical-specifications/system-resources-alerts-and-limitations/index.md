@@ -4,6 +4,7 @@ title: "Ressources système : alertes et limitations"
 eleventyNavigation:
   key: Ressources système
   parent: Caractéristiques techniques
+  order: 8
 ---
 
 > [!NOTE]

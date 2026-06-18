@@ -4,6 +4,7 @@ title: Changer l'adresse d'un site web
 eleventyNavigation:
   key: Changer l'adresse d'un site web
   parent: Sites web
+  order: 11
 ---
 
 Votre site pointe sur une adresse et vous souhaitez utiliser une autre adresse/un autre domaine. Voici les étapes à suivre :

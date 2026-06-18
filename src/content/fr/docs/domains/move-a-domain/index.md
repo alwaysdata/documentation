@@ -4,6 +4,7 @@ title: Déplacer un domaine
 eleventyNavigation:
   key: Déplacer un domaine
   parent: Domaines
+  order: 6
 ---
 
 Cet article explique comment transférer un domaine _et_ ses adresses email sur **un autre compte alwaysdata**.

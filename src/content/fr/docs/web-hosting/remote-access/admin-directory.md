@@ -4,6 +4,7 @@ title: "Répertoire admin : présentation"
 eleventyNavigation:
   key: "Répertoire admin : présentation"
   parent: Accès distant
+  order: 5
 ---
 
 Tout compte contient un répertoire `/home/[compte]/admin` placé à sa racine et accessible en [FTP](/fr/docs/hebergement-web/acces-distant/ftp/), [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou encore [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/). 

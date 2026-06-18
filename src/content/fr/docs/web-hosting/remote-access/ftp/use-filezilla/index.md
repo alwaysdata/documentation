@@ -4,6 +4,7 @@ title: Télécharger des fichiers avec FileZilla
 eleventyNavigation:
   key: Télécharger des fichiers avec FileZilla
   parent: FTP
+  order: 5
 ---
 
 [Rappel des informations de connexion](/fr/docs/hebergement-web/acces-distant/ftp#se-connecter-en-ftp)

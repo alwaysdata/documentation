@@ -4,6 +4,7 @@ title: API
 eleventyNavigation:
   key: API
   parent: Développement
+  order: 1
 ---
 
 Une [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) (pour Application
@@ -33,7 +34,7 @@ $ curl --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/m
 $ curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `[compte]` par le nom du compte concerné et `1234` par l'ID du site.
+`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `1234` par l'ID du site et `[compte]` par le bon nom.
 
 ## Tout savoir
 

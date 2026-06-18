@@ -4,12 +4,13 @@ title: Migrer un site chez alwaysdata
 eleventyNavigation:
   key: Migrer un site
   parent: Sites web
+  order: 7
 ---
 
 Cet article explique comment procéder à la migration d'un site chez alwaysdata.
 
 > [!TIP] Astuce
-> Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire spécialisé : la société [Déménageur de Site](https://www.demenageur-site.com) par exemple connaît bien notre plateforme et propose même un code promo pour une migration vers alwaysdata ([contactez notre support](https://admin.alwaysdata.com/support/add)).
+> Pour faciliter votre migration, vous pouvez aussi faire appel à un prestataire spécialisé : la société [Déménageur de Site](https://www.demenageur-site.com) par exemple connaît bien notre plateforme et propose même un code promo pour une migration vers alwaysdata ([contactez notre support](https://admin.alwaysdata.com/support/add/)).
 
 
 

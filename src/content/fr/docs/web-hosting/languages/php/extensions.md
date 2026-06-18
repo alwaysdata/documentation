@@ -4,6 +4,7 @@ title: Comment installer une extension PHP
 eleventyNavigation:
   key: Comment installer une extension PHP
   parent: PHP
+  order: 3
 ---
 
 `[extension]` est à remplacer par le nom de l'extension à installer.

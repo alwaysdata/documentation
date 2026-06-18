@@ -4,6 +4,7 @@ title: Accéder à son serveur avec des clés SSH
 eleventyNavigation:
   key: Accéder à son serveur avec des clés SSH
   parent: SSH
+  order: 6
 ---
 
 > [!NOTE]

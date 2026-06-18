@@ -4,6 +4,7 @@ title: Memcached
 eleventyNavigation:
   key: Memcached
   parent: Bases de données
+  order: 6
 ---
 
 ## Connexion
@@ -22,4 +23,4 @@ Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 ---
 
 - [Documentation Memcached](https://github.com/memcached/memcached/wiki)
-- [Configurer une application PHP avec Memcached](/fr/docs/hebergement-web/bases-de-donnees/memcached/php)
+- [Configurer une application PHP avec Memcached](/fr/docs/hebergement-web/bases-de-donnees/memcached/php/)

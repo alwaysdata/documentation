@@ -30,7 +30,7 @@ Pour se servir d'une version de Lua différente que celle par défaut utilisez `
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Lua, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**.
+Pour déployer une application HTTP avec Lua, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)* dans la section **Web > Sites**.
 
 ![](images/user-program.png)
 

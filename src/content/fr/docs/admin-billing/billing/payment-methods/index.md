@@ -4,6 +4,7 @@ title: Moyens de paiement
 eleventyNavigation:
   key: Moyens de paiement
   parent: Facturation
+  order: 5
 ---
 
 Il existe deux façons différentes de payer vos factures alwaysdata.

@@ -4,6 +4,7 @@ title: Plan de continuité d'activité
 eleventyNavigation:
   key: Plan de continuité d'activité
   parent: Caractéristiques techniques
+  order: 4
 ---
 
 Notre architecture est conçue de manière à vous apporter le maximum de garanties sur la préservation de vos données, notamment en cas d'incident majeur sur nos unités de production.

@@ -4,6 +4,7 @@ title: Marketplace
 eleventyNavigation:
   key: Marketplace
   parent: Développement
+  order: 3
 ---
 
 Déployez facilement et rapidement des applications ou frameworks dans votre espace utilisateur.

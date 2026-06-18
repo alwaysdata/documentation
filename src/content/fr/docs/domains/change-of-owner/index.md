@@ -4,6 +4,7 @@ title: Changer le propriétaire d'un domaine
 eleventyNavigation:
   key: Changer le propriétaire
   parent: Domaines
+  order: 7
 ---
 
 Rendez-vous dans **Domaines > Détails de [example.org] - 🔎 > CHANGER** (en face de **Propriétaire**). Vous arriverez sur un formulaire vous permettant de renseigner les informations du nouveau propriétaire.

@@ -4,6 +4,7 @@ title: Comment consulter une adresse email
 eleventyNavigation:
   key: Consulter une adresse email
   parent: Emails
+  order: 2
 ---
 
 Il est possible de consulter vos emails de plusieurs manières. Voici les 2 les plus courantes.
@@ -35,10 +36,10 @@ L'authentification par mot de passe est **nécessaire** pour utiliser notre serv
 
 Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
 
-* [Configurer Apple/iOS](/fr/docs/emails/clients/apple-ios)
-* [Configurer Gmail](/fr/docs/emails/clients/gmail)
-* [Configurer Mozilla Thunderbird](/fr/docs/emails/clients/thunderbird)
-* [Configurer Outlook](/fr/docs/emails/clients/outlook)
+* [Configurer Apple/iOS](/fr/docs/emails/logiciels-tiers/apple-ios)
+* [Configurer Gmail](/fr/docs/emails/logiciels-tiers/gmail)
+* [Configurer Mozilla Thunderbird](/fr/docs/emails/logiciels-tiers/thunderbird)
+* [Configurer Outlook](/fr/docs/emails/logiciels-tiers/outlook)
 
 ## Webmail
 

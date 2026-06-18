@@ -4,6 +4,7 @@ title: Déplacer un site web
 eleventyNavigation:
   key: Déplacer un site web
   parent: Sites web
+  order: 12
 ---
 
 Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata.

@@ -4,6 +4,7 @@ title: Renouveler un certificat SSL
 eleventyNavigation:
   key: Renouveler un certificat SSL
   parent: SSL/TLS
+  order: 5
 ---
 
 Lorsque vous renouvelez le certificat SSL chez votre fournisseur, celui-ci doit vous livrer un fichier contenant le nouveau certificat.

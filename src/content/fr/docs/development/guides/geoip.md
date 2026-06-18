@@ -4,9 +4,10 @@ title: Bloquer des visites via GeoIP
 eleventyNavigation:
   key: Bloquer des visites via GeoIP
   parent: Guides
+  order: 1
 ---
 
-[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] est un module [Apache](/fr/docs/hebergement-web/sites/configurer-apache/) de GeoIP qui vise à localiser un utilisateur en se basant sur son adresse IP.
+[MaxMind DB](https://www.maxmind.com/en/geoip2-services-and-databases)[^1] est un module [Apache](/fr/docs/hebergement-web/sites/serveurs-http/configurer-apache/) de GeoIP qui vise à localiser un utilisateur en se basant sur son adresse IP.
 
 ## Installation
 

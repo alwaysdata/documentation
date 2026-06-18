@@ -5,6 +5,7 @@ title: Listes de diffusion
 eleventyNavigation:
   key: Listes de diffusion
   parent: Emails
+  order: 6
 ---
 
 Les listes de diffusions (*mailing lists*) vous permettent de définir un *pool* d'adresses mails vers lesquelles renvoyer un message. On les distingue dans leur usage par leur capacités de diffusion :

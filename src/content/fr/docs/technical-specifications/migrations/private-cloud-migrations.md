@@ -4,6 +4,7 @@ title: Processus des migrations en Cloud Privé
 eleventyNavigation:
   key: Processus des migrations en Cloud Privé
   parent: Migrations
+  order: 2
 ---
 
 La plupart des migrations impliquent un changement global sur le serveur. Par exemple, la migration vers une nouvelle version de notre infrastructure logicielle va demander une réinstallation complète du serveur.
@@ -12,7 +13,7 @@ Sur le Cloud Public, lors d'une migration, les comptes sont migrés vers un nouv
 
 ##  Migrations obligatoires
 
-Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, [elles se font en plusieurs étapes](/fr/docs/caracteristiques-techniques/migrations/deroulement-migrations-obligatoires).
+Pour vous éviter d'avoir à effectuer la migration brutale de votre serveur, et donc de l'ensemble des comptes s'y trouvant, [elles se font en plusieurs étapes](/fr/docs/caracteristiques-techniques/migrations/migration-cloud-prive/deroulement-migrations-obligatoires).
 
 ## Migrations optionnelles
 

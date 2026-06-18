@@ -4,6 +4,7 @@ title: Configurer TLS
 eleventyNavigation:
   key: Configurer TLS
   parent: SSL/TLS
+  order: 7
 ---
 
 [TLS](https://fr.wikipedia.org/wiki/Transport_Layer_Security) est un protocole cryptographique de sécurisation des échanges sur internet.

@@ -4,6 +4,7 @@ title: Architecture alwaysdata
 eleventyNavigation:
   key: Architecture
   parent: Caractéristiques techniques
+  order: 2
 ---
 
 ## Architecture matérielle

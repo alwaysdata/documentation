@@ -4,6 +4,7 @@ title: "Tarifs : Cloud Public - Packs Plus"
 eleventyNavigation:
   key: Tarifs Offres Plus
   parent: Facturation
+  order: 3
 ---
 
 Cette page recense les prix (hors taxes) des configurations Cloud Public. Pour plus d'informations contactez notre [équipe commerciale](https://www.alwaysdata.com/fr/).

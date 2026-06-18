@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Marketplace
 ---
 
-- [Activer le cache HTTP sur WordPress](/fr/docs/hebergement-web/sites/activer-le-cache-http-sur-wordpress/)
+- [Activer le cache HTTP sur WordPress](/fr/docs/hebergement-web/sites/personnalisation/activer-le-cache-http-sur-wordpress/)
 
 ## Migration depuis un autre prestataire d'hébergement
 
@@ -21,7 +21,7 @@ Sa notoriété en fait une cible prioritaire pour les pirates informatiques, il 
 
 - mettez à jour régulièrement *WordPress* et ses plugins ;
 - informez-vous sur les rapports de bugs et failles de sécurité des plugins avant de les installer ;
-- mettez en place le [profil spécifique](/fr/docs/hebergement-web/sites/waf/#profils-disponibles) de notre WAF ;
+- mettez en place le [profil spécifique](/fr/docs/hebergement-web/sites/personnalisation/waf/#profils-disponibles) de notre WAF ;
 - choisissez un autre préfixe que _wp__ pour le nom de vos tables. Pour changer cette valeur sur un WordPress déjà déployé, modifiez la table `_options` et le fichier `/home/[compte]/chemin/vers/l'application/wp_config.php`.
 - supprimez les thèmes et plugins inactifs ;
 - supprimez le fichier readme.txt à la racine de votre application (contient la version actuelle de votre WordPress, utile pour connaitre les failles de sécurité exploitables) ;
@@ -40,7 +40,7 @@ Sa notoriété en fait une cible prioritaire pour les pirates informatiques, il 
     Pour masquer les erreurs de connexion.
 
 - supprimez le compte "admin" créé par défaut ;
-- d'[autres règles](/fr/docs/hebergement-web/sites/desinfecter-un-site/#3-supprimer-les-vecteurs-dinfection).
+- d'[autres règles](/fr/docs/hebergement-web/sites/problemes-frequents/desinfecter-un-site/#3-supprimer-les-vecteurs-dinfection).
 
 ---
 ## Liens utiles

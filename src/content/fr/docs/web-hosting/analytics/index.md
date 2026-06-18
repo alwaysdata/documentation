@@ -4,6 +4,7 @@ title: Statistiques
 eleventyNavigation:
   key: Statistiques
   parent: Hébergement web
+  order: 8
 ---
 
 À partir des logs bruts HTTP (`/home/[compte]/admin/logs/http`) nous générons des statistiques de visites uniques[^1] en *temps réel*. Celles-ci sont disponibles dans la section **Web > Analytics**.

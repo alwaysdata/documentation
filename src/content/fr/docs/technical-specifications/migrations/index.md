@@ -4,6 +4,7 @@ title: Migrations
 eleventyNavigation:
   key: Migrations
   parent: Caractéristiques techniques
+  order: 10
 ---
 
 Une migration est une opération qui consiste à faire évoluer une caractéristique technique de votre compte. Par exemple, une migration vers une nouvelle version de MySQL.

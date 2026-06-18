@@ -1,9 +1,10 @@
 ---
 permalink: /fr/docs/domaines/problemes-frequents/
-title: Domaines - Problèmes fréquents
+title: Problèmes fréquents
 eleventyNavigation:
   key: Domaines - Problèmes fréquents
   parent: Domaines
+  order: 99
 ---
 
 ## Transfert
@@ -22,7 +23,7 @@ La protection doit être supprimée chez le registrar actuel.
 Vérifiez qu'aucune faute de frappe n'a été effectuée en reprenant le code d'autorisation ou régénérez un code d'autorisation.
 
 > [!NOTE]
-> Pour le régénérer lors d'un transfert sortant contactez notre [support](https://admin.alwaysdata.com/support/add).
+> Pour le régénérer lors d'un transfert sortant contactez notre [support](https://admin.alwaysdata.com/support/add/).
 
 
 ### "Registry error - 2308 : Data management policy violation (domain expired)"

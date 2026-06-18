@@ -4,6 +4,7 @@ title: Tâches planifiées
 eleventyNavigation:
   key: Tâches planifiées
   parent: Hébergement web
+  order: 6
 ---
 
 Les Web apps ou services ont parfois besoin d’exécuter des tâches périodiquement, exécuter des commandes ou appeler des URLs, sans aucune interaction utilisateur. Pour ce faire, vous devez créer une tâche planifiée.

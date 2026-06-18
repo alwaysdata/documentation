@@ -2,8 +2,9 @@
 permalink: /fr/docs/admin-facturation/facturation/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions facturation diverses
+  key: Facturation - Questions diverses
   parent: Facturation
+  order: 99
 ---
 
 ## Accéder à ses contrats
@@ -24,16 +25,16 @@ Une _facture de prorata_ (sur chaque produit souscrit) est générée lors de la
 
 ## Changer de raison sociale
 Pour changer de raison sociale rendez-vous dans l'onglet **Profil**, les prochaines factures seront émises à la nouvelle domiciliation.
-Si une facture vient d'être émise vous pouvez _exceptionnellement_ contactez le [support](https://admin.alwaysdata.com/support/add) pour qu'il la régénère.
+Si une facture vient d'être émise vous pouvez _exceptionnellement_ contactez le [support](https://admin.alwaysdata.com/support/add/) pour qu'il la régénère.
 
 ## Où trouver son numéro client / le RIB d'alwaysdata
 Ils sont disponibles dans **Facturation > Transactions > Alimenter le compte** ou **Facturation > Moyens de paiement > Alimenter le compte**.
 
 ## Devis et factures proforma
-Les factures sont émises à la livraison d'un service. Nous pouvons cependant émettre des devis et factures proforma sur demande. Contactez le [support](https://admin.alwaysdata.com/support/add).
+Les factures sont émises à la livraison d'un service. Nous pouvons cependant émettre des devis et factures proforma sur demande. Contactez le [support](https://admin.alwaysdata.com/support/add/).
 
 ## Supprimer avant échéance
 Aucun remboursement n'aura lieu lors de la suppression d'un compte ou le décommissionnement d'un serveur avant son échéance.
 
 ## Process spéciaux de facturation
-Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add) ou notre [équipe commerciale](https://www.alwaysdata.com/fr/).
+Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add/) ou notre [équipe commerciale](https://www.alwaysdata.com/fr/).

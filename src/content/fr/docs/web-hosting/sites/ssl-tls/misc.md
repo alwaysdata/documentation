@@ -2,8 +2,9 @@
 permalink: /fr/docs/hebergement-web/sites/ssl-tls/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions diverses SSL/TLS
+  key: SSL/TLS - Questions diverses
   parent: SSL/TLS
+  order: 20
 ---
  
 ## Cloudflare et gestion SSL

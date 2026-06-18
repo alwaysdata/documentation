@@ -4,6 +4,7 @@ title: Bug Bounty
 eleventyNavigation:
   key: Bug Bounty
   parent: Caractéristiques techniques
+  order: 99
 ---
 
 > **[Interface de suivi de bugs](https://security.alwaysdata.com/)**

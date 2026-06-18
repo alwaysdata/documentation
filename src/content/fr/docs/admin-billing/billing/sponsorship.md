@@ -4,6 +4,7 @@ title: Comment offrir un parrainage
 eleventyNavigation:
   key: Parrainer
   parent: Facturation
+  order: 4
 ---
 
 Le système de parrainage vous permet de toucher des commissions sur les paiements effectués par vos filleuls.

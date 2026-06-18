@@ -4,6 +4,7 @@ title: Créer un compte
 eleventyNavigation:
   key: Créer un compte
   parent: Gérer ses comptes
+  order: 1
 ---
 
 Allez dans le menu **Abonnements** de votre interface client. 

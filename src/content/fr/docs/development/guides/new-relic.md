@@ -4,6 +4,7 @@ title: New Relic
 eleventyNavigation:
   key: New Relic
   parent: Guides
+  order: 1
 ---
 
 [New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les **agents PHP et Python**.

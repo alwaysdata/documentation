@@ -4,6 +4,7 @@ title: Perte d'accès à l'admin alwaysdata
 eleventyNavigation:
   key: Perte d'accès à l'admin
   parent: Gérer son profil
+  order: 4
 ---
 
 Voici comment procéder lorsque vous perdez vos accès à [notre interface d'administration](https://admin.alwaysdata.com).

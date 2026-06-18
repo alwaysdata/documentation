@@ -4,6 +4,7 @@ title: Déléguer un sous-domaine
 eleventyNavigation:
   key: Déléguer un sous-domaine
   parent: Domaines
+  order: 9
 ---
 
 Pour permettre à un autre utilisateur d'alwaysdata de pouvoir utiliser un sous-domaine de votre domaine, il faut lui donner votre permission.

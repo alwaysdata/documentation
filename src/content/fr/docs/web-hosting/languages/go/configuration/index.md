@@ -14,7 +14,7 @@ Vous pouvez compiler vos programmes ailleurs, localement par exemple.
 
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Go, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/)* dans la section **Web > Sites**.
+Pour déployer une application HTTP avec Go, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)* dans la section **Web > Sites**.
 
 ![](images/user-program.png)
 

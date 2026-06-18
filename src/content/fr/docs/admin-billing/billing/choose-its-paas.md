@@ -4,6 +4,7 @@ title: Quelle offre choisir ?
 eleventyNavigation:
   key: Choisir son plan d'hébergement
   parent: Facturation
+  order: 1
 ---
 
 L'offre d'hébergement d'alwaysdata est qualifiée de [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service)[^1] : elle fournit l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS[^2], inter­pré­teurs, biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements, sécurisations et mises à jours de leurs applications.
@@ -34,16 +35,17 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 | Sites web | Serveur HTTP configurable |✔️|✔️|✔️|
 || [Applithèque](/fr/docs/developpement/marketplace) |✔️|✔️|✔️|
 || [SSL Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/) |✔️|✔️|✔️|
-|| [Cache HTTP](/fr/docs/hebergement-web/sites/cache-http/) |✔️|✔️|✔️|
-  || [WAF](/fr/docs/hebergement-web/sites/waf/) |✔️|✔️|✔️|
+|| [Cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) |✔️|✔️|✔️|
+|| [WAF](/fr/docs/hebergement-web/sites/personnalisation/waf/) |✔️|✔️|✔️|
 || [Statistiques de visites](/fr/docs/hebergement-web/statistiques/)|✔️|✔️|✔️|
-|| [Sondes de monitoring](/fr/docs/hebergement-web/sites/utiliser-les-sondes-de-monitoring/) |❌|✔️|✔️|
+|| [Sondes de monitoring](/fr/docs/hebergement-web/sites/personnalisation/utiliser-les-sondes-de-monitoring/) |❌|✔️|✔️|
 || Conseils d'optimisation |❌|✔️|✔️|
 | Langages | [PHP](/fr/docs/hebergement-web/langages/php/) |✔️|✔️|✔️|
 || [Python](/fr/docs/hebergement-web/langages/python/) |✔️|✔️|✔️|
 || [Ruby](/fr/docs/hebergement-web/langages/ruby/) |✔️|✔️|✔️|
 || [Node.js](/fr/docs/hebergement-web/langages/nodejs/) |✔️|✔️|✔️|
 || [Java](/fr/docs/hebergement-web/langages/java/) |✔️|✔️|✔️|
+|| [Rust](/fr/docs/hebergement-web/langages/rust/) |✔️|✔️|✔️|
 || [Deno](/fr/docs/hebergement-web/langages/deno/) |✔️|✔️|✔️|
 || [Elixir](/fr/docs/hebergement-web/langages/elixir/) |✔️|✔️|✔️|
 || [Lua](/fr/docs/hebergement-web/langages/lua/) |✔️|✔️|✔️|
@@ -57,10 +59,10 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [ElasticSearch](/fr/docs/hebergement-web/bases-de-donnees/elasticsearch/) |❌|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|
-|| [Filtrage via scripts Sieve](/fr/docs/emails/utiliser-les-scripts-sieve/) |✔️|✔️|✔️|
+|| [Filtrage via scripts Sieve](/fr/docs/emails/emails-entrants/utiliser-les-scripts-sieve/) |✔️|✔️|✔️|
 || [Listes de diffusion](/fr/docs/emails/listes-de-diffusion/) |✔️|✔️|✔️|
-|| [File d'attente SMTP](/fr/docs/emails/file-dattente-smtp/) |❌|✔️|✔️|
-|| [Relais SMTP](/fr/docs/emails/relais-smtp/) |❌|✔️|✔️|
+|| [File d'attente SMTP](/fr/docs/emails/emails-sortants/file-dattente-smtp/) |❌|✔️|✔️|
+|| [Relais SMTP](/fr/docs/emails/emails-sortants/relais-smtp/) |❌|✔️|✔️|
 | Accès distant | [FTP](/fr/docs/hebergement-web/acces-distant/ftp/) |✔️|✔️|✔️|
 || [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) |✔️|✔️|✔️|
 || [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) |✔️|✔️|✔️|

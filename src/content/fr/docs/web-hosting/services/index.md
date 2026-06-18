@@ -4,6 +4,7 @@ title: Services
 eleventyNavigation:
   key: Services
   parent: Hébergement web
+  order: 5
 ---
 
 Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion uti­li­sa­teur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.

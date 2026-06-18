@@ -2,8 +2,9 @@
 permalink: /fr/docs/emails/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions diverses
+  key: Emails - Questions diverses
   parent: Emails
+  order: 99
 ---
 
 ## Limite du nombre d'envoi de mails

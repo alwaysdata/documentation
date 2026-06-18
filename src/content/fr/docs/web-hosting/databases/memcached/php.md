@@ -3,7 +3,7 @@ permalink: /fr/docs/hebergement-web/bases-de-donnees/memcached/php/
 title: Configurer une application PHP avec Memcached
 eleventyNavigation:
   key: Configurer une application PHP avec Memcached
-  parent: Bases de données
+  parent: Memcached
 ---
 
 ## Configuration

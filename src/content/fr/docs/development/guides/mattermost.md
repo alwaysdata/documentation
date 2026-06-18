@@ -4,6 +4,7 @@ title: Mattermost
 eleventyNavigation:
   key: Mattermost
   parent: Guides
+  order: 1
 ---
 
 [Mattermost](https://mattermost.com) est un logiciel de messagerie instantané.

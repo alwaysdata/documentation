@@ -4,6 +4,7 @@ title: Stack HTTP
 eleventyNavigation:
   key: Stack HTTP
   parent: Sites web
+  order: 4
 ---
 
 Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute les requêtes HTTP entrantes puis :
@@ -12,7 +13,7 @@ Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute l
 - renvoie le bon [certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/) ;
 - logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `/home/[compte]/admin/logs`](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs).
 
-Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites/waf/) et le [cache HTTP](/fr/docs/hebergement-web/sites/cache-http/) activables dans **Web > Sites**.
+Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites/personnalisation/waf/) et le [cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) activables dans **Web > Sites**.
 
 ![](images/http-stack.png)
 

@@ -2,8 +2,9 @@
 permalink: /fr/docs/developpement/guides/deployer-app-react/
 title: Déployer une application Create React App
 eleventyNavigation:
-  key: Déployer une application Create React App
+  key: Déployer une application React
   parent: Guides
+  order: 1
 ---
 
 Une application conçue avec [React](https://reactjs.org/) est essentiellement constituée, pour sa partie production, d'_assets_ statiques.
@@ -17,7 +18,7 @@ simple serveur Web](https://create-react-app.dev/docs/deployment) fera l'affaire
 
 ## Côté _alwaysdata_
 
-Créez simplement un site de type [Fichiers statiques](/fr/docs/hebergement-web/sites/fichiers-statiques/) pointant vers le répertoire de votre choix (par exemple
+Créez simplement un site de type [Fichiers statiques](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/) pointant vers le répertoire de votre choix (par exemple
 `www/my-app`).
 
 ## Côté développement

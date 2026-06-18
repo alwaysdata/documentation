@@ -4,6 +4,7 @@ title: Facturation
 eleventyNavigation:
   key: Facturation
   parent: Espace client
+  order: 1
 ---
 
 Une facture est émise quelques heures après avoir souscrit à un service d'alwaysdata (hébergement, adresse IP, etc.).

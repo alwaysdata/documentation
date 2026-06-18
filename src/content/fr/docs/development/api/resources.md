@@ -4,6 +4,7 @@ title: Ressources API
 eleventyNavigation:
   key: Ressources API
   parent: API
+  order: 3
 ---
 
 | Nom                   | Description                          | Documentation                                         |

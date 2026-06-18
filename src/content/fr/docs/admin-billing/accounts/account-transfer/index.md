@@ -4,6 +4,7 @@ title: Cession de compte
 eleventyNavigation:
   key: Cession de compte
   parent: Gérer ses comptes
+  order: 2
 ---
 
 Pour certains cas, il n'est pas nécessaire de passer par le processus de cession et un changement des informations de profil suffit. En revanche, si l'historique client[^1] ne doit pas suivre, préférez la cession.

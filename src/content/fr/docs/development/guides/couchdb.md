@@ -4,6 +4,7 @@ title: CouchDB
 eleventyNavigation:
   key: CouchDB
   parent: Guides
+  order: 1
 ---
 
 [CouchDB](https://couchdb.apache.org/) est un SGBD noSQL orienté documents.

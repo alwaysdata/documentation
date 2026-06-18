@@ -4,6 +4,7 @@ title: Système d'alertes
 eleventyNavigation:
   key: Système d'alertes
   parent: Gérer son profil
+  order: 5
 ---
 
 Pour de nombreuses raisons, une alerte peut-être enclenchée par notre système dont voici le fonctionnement :

@@ -4,6 +4,7 @@ title: Utiliser des Tokens d'accès
 eleventyNavigation:
   key: Utiliser des Tokens d'accès
   parent: Gérer son profil
+  order: 3
 ---
 
 Les tokens sont des identifiants utilisés pour authentifier un utilisateur ou un programme appelant notre [API](/fr/docs/developpement/api). 

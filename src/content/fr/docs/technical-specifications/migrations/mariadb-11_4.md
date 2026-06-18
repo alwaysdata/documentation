@@ -4,6 +4,7 @@ title: Migration MariaDB 11.4
 eleventyNavigation:
   key: Migration MariaDB 11.4
   parent: Migrations
+  order: 5 
 ---
 
 Cette migration met à jour vos bases de données vers la version 11.4 de MariaDB.

@@ -4,6 +4,7 @@ title: Tideways
 eleventyNavigation:
   key: Tideways
   parent: Guides
+  order: 1
 ---
 
 [Tideways](https://tideways.com/) surveille les applications PHP et aide à les optimiser. Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.

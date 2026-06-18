@@ -4,6 +4,7 @@ title: Terminologie
 eleventyNavigation:
   key: Terminologie
   parent: Espace client
+  order: 5
 ---
 
 Un utilisateur alwaysdata, nommé **profil** est représenté par une adresse email qui est utilisé pour se connecter à l'[interface d'administration](https://admin.alwaysdata.com).

@@ -4,6 +4,7 @@ title: Redis
 eleventyNavigation:
   key: Redis
   parent: Guides
+  order: 1
 ---
 
 [Redis](https://redis.io/) est système de gestion de base de données clé-valeur extensible.
@@ -41,7 +42,7 @@ Plus d'options via `/home/[compte]/redis/src/redis-cli -h`.
 
 Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[compte].alwaysdata.net` et le port `8300`.
 
-- [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/redis/php)
+- [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/redis/php/)
 
 ## Authentification
 

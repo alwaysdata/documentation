@@ -4,6 +4,7 @@ title: Redémarrer un site
 eleventyNavigation:
   key: Redémarrer un site
   parent: Sites web
+  order: 10
 ---
 
 Pour prendre en compte certaines modifications, il est nécessaire de redémarrer le programme. Celui-ci est effectué :

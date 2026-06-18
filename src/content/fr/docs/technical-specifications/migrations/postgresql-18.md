@@ -4,6 +4,7 @@ title: Migration PostgreSQL 18
 eleventyNavigation:
   key: Migration PostgreSQL 18
   parent: Migrations
+  order: 5
 ---
 
 Cette migration met à jour vos bases de données vers la version 18 de PostgreSQL.

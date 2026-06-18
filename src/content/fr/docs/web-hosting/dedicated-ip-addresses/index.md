@@ -4,6 +4,7 @@ title: Adresses IP dédiées
 eleventyNavigation:
   key: Adresses IP dédiées
   parent: Hébergement web
+  order: 9
 ---
 
 Quel que soit l'environnement pris[^1], des adresses IPv4 sont offertes à la location via le menu **Avancé > Adresses IP**. Ces IP - non partagées - sont facturées 5 € TTC par mois ou 60 € TTC par an[^2].
@@ -23,7 +24,7 @@ Une fois l'IP prise :
 
 Cette IP va servir à l'envoi des mails.
 
-Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam](/fr/docs/emails/delivrabilite-bonnes-pratiques/#système-de-notation) :
+Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#système-de-notation) :
 
 ![](images/dedicated-ip-smtp.png)
 
@@ -32,4 +33,4 @@ Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par ce
 
 
 [^1]: Disponibles sur toutes nos offres, ces IP ne sont pas à confondre avec nos [offres Cloud Privé](/fr/docs/admin-facturation/facturation/choisir-son-plan/).
-[^2]: Pour un engagement annuel, contactez le [support](https://admin.alwaysdata.com/support/add).
+[^2]: Pour un engagement annuel, contactez le [support](https://admin.alwaysdata.com/support/add/).

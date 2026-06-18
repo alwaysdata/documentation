@@ -102,4 +102,4 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 * des variables d'environnement à définir ;
 * une version de Ruby spécifique à utiliser.
 
-Vous pouvez utiliser un autre serveur web en le lançant en type [Programme utilisateur](/fr/docs/hebergement-web/sites/programme-utilisateur/).
+Vous pouvez utiliser un autre serveur web en le lançant en type [Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/).

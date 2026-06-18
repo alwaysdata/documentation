@@ -4,6 +4,7 @@ title: Quel certificat SSL est renvoyé par défaut ?
 eleventyNavigation:
   key: Priorité des certificats
   parent: SSL/TLS
+  order: 6
 ---
 
 Grâce au [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), le serveur renverra dans l'ordre de priorité, s'il est renseigné dans **Avancé > Certificats SSL** et qu'il n'est pas expiré :

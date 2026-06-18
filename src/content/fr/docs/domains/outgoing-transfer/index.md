@@ -4,6 +4,7 @@ title: Transférer un domaine chez un autre prestataire
 eleventyNavigation:
   key: Transfert sortant
   parent: Domaines
+  order: 10
 ---
 
 Pour transférer un domaine chez un autre prestataire, il faut initier la commande chez le nouveau prestataire.

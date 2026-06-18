@@ -4,6 +4,7 @@ title: Utiliser des clés SSH
 eleventyNavigation:
   key: Utiliser des clés SSH
   parent: SSH
+  order: 2
 ---
 
 Se connecter en SSH avec sa clé publique (avec ou en désactivant la connexion par mot de passe) présente quelques avantages : sécurité renforcée, possibilité de définir un mot de passe "vide", etc. Voici les étapes à suivre pour configurer son compte SSH avec clé publique.

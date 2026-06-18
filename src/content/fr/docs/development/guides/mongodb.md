@@ -4,6 +4,7 @@ title: MongoDB
 eleventyNavigation:
   key: MongoDB
   parent: Guides
+  order: 1
 ---
 
 [MongoDB](https://www.mongodb.com/) est un SGBD noSQL orienté documents.

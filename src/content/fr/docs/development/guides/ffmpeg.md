@@ -4,6 +4,7 @@ title: FFmpeg
 eleventyNavigation:
   key: FFmpeg
   parent: Guides
+  order: 1
 ---
 
 [FFmpeg](https://www.ffmpeg.org/) fournit des outils destinés au traitement de flux audio ou vidéo.

@@ -55,7 +55,7 @@ Vous pouvez également renseigner plusieurs champs optionnels :
 
 ### Programme utilisateur
 
-[Présentation](/fr/docs/hebergement-web/sites/programme-utilisateur/)
+[Présentation](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)
 
 ![](images/user-program.png)
 

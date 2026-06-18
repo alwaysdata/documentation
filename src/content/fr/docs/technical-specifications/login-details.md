@@ -4,6 +4,7 @@ title: Informations de connexion
 eleventyNavigation:
   key: Informations de connexion
   parent: Caractéristiques techniques
+  order: 1
 ---
 
 Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non _.com_ comme les autres domaines d'alwaysdata.

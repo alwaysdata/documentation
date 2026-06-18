@@ -4,6 +4,7 @@ title: "Cloud Privé : configurer le firewall"
 eleventyNavigation:
   key: Configurer le firewall
   parent: Caractéristiques techniques
+  order: 7
 ---
 
 Le firewall (pare-feu) se gère dans le menu **Firewall** du serveur.

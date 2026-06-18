@@ -2,8 +2,9 @@
 permalink: /fr/docs/hebergement-web/acces-distant/divers/
 title: Questions diverses
 eleventyNavigation:
-  key: Questions diverses
+  key: Accès distant - Questions diverses
   parent: Accès distant
+  order: 9
 ---
 
 ## Lister les comptes

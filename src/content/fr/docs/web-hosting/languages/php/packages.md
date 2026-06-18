@@ -4,6 +4,7 @@ title: Comment installer un paquet PHP
 eleventyNavigation:
   key: Comment installer un paquet PHP
   parent: PHP
+  order: 4
 ---
 
 ## Gestion des paquets
