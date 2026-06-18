@@ -20,7 +20,7 @@ Sharing is *not* available.
  
 ## Webmail
  
-The address book is directly accessible via the **Contacts** menu.
+The address book is directly accessible via the **Contacts** menu and the calendar in the **Calendar** menu.
  
 The groups created are transformed by the system as independent vCards ensuring simple synchronization with other CardDAV clients.
  
