@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
 
-| Détail                                                          | Tarif (HT)[^1] |
+| Détail                                                          | Tarifs (HT)[^1] |
 | --------------------------------------------------------------- | -------------- |
 | Changement de CPU                                               | 400 €          |
 | Changement de disques                                           | 400 €          |

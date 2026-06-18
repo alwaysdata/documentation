@@ -28,7 +28,7 @@ Tous ces éléments sont modifiables pour proposer la configuration **la plus ap
 | **Disques**           | SSD 1 To NVMe • RAID1 |
 | **RAM**               | 16 Go |
 | **Trafic/mois**       | 3 To (1 Gbps) |
-| **Prix mensuel**      | 369€ HT (paiement annuel) ou 409€ HT (paiement mensuel) |
+| **Prix mensuel (HT)**      | €369 (paiement annuel) ou €409 (paiement mensuel) |
 
 > [!NOTE]
 > Dans le cadre d'un engagement mensuel, la première facture correspond aux *trois premiers mois*. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.

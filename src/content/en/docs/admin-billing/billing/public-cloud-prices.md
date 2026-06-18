@@ -17,8 +17,8 @@ This page lists the prices (VAT excluded) of the Public Cloud configurations. To
 | RAM | 256 MB | 1 GB | 2 GB | 4 GB | 8 GB
 | CPU | 1/4 | 1 | 2 | 4 | 8 |
 | [Backups](/en/docs/web-hosting/backups) (rolling days) | 3 days | 7 days | 20 days | 20 days | 30 days |
-| Annual payment | Free | 5 €/months | 20 €/months | 50 €/months | 150 €/months |
-| Monthly payment | Free | 6 €/months | 22 €/months | 55 €/months | 165 €/months |
+| Annual payment (VAT excluded) | Free | €5 /months | €20 /months | €50 /months | €150 /months |
+| Monthly payment (VAT excluded) | Free | €6 /months | €22 /months | €55 /months | €165 /months |
 
 The [Public Cloud configuration change](/en/docs/admin-billing/billing/upgrade-your-plan) is done through the **Subscriptions** menu.
 

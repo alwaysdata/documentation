@@ -8,11 +8,11 @@ The installation of a new server is **free of charge**. Other operations perform
 
 | Details                                      | Prices (VAT excluded)[^1] |
 | -------------------------------------------- | ------------------------- |
-| CPU Upgrade                                  | 400€                      |
-| Disks Upgrade                                | 400€                      |
-| RAM Change                                   | 200€                      |
-| GPU Addition                                 | 200€                     |
-| Disks Addition                               | 200€                      |
+| CPU Upgrade                                  | €400                      |
+| Disks Upgrade                                | €400                      |
+| RAM Change                                   | €200                      |
+| GPU Addition                                 | €200                      |
+| Disks Addition                               | €200                      |
 
 If several changes occur at the same time, each intervention is billed with a ceiling of €600 excluding VAT.
 
