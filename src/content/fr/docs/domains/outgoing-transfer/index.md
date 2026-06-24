@@ -20,7 +20,7 @@ Avant de lancer l'opération le propriétaire doit :
 Ces informations doivent se récupérer dans l'onglet **Domaines > Détails de [example.org] - 🔎** :
 ![](images/admin-panel_domain-details.png)
 
-Il peut aussi désactiver [DNSSEC](/domains/dnssec/) pour éviter de *possibles* problèmes.
+Il peut aussi désactiver [DNSSEC](/fr/docs/domaines/gestion-dns/dnssec/) pour éviter de *possibles* problèmes.
  
 >[!NOTE]
 Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un précédent transfert.

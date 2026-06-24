@@ -21,14 +21,14 @@ Il est désormais nécessaire d'activer le chiffrement SSL pour vous connecter a
 * de mail (IMAP, SMTP, POP3) ;
 * d'accès distant (FTP et WebDAV).
 
-Cela ne concerne pas vos sites web qui sont toujours accessibles sans chiffrement (vous pouvez toutefois décider de [forcer le chiffrement](/en/docs/web-hosting/sites/ssl-tls/redirect-http-to-https/)).
+Cela ne concerne pas vos sites web qui sont toujours accessibles sans chiffrement (vous pouvez toutefois décider de [forcer le chiffrement](/fr/docs/hebergement-web/sites/ssl-tls/rediriger-HTTP-vers-HTTPS/)).
 
 ### Versions TLS supportées
 
 * Les versions TLS 1.2 et 1.3 sont supportées.
 * Les versions TLS 1.0 et 1.1 ne sont plus supportées.
 
-Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configurer vous-même le TLS](/en/docs/web-hosting/sites/ssl-tls/configure-tls/).
+Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configurer vous-même le TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/).
 
 
 ## Arrêt du support de MongoDB
@@ -37,7 +37,7 @@ Cela ne concerne pas vos sites web pour lesquels vous pouvez toujours [configure
 
 Vous pouvez :
 
-* faire tourner vous-même MongoDB [dans un service](/en/docs/development/guides/mongodb). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même MongoDB [dans un service](/fr/docs/developpement/guides/mongodb). *MongoDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez [MongoDB Atlas](https://www.mongodb.com/atlas).
 
 ## Arrêt du support de CouchDB
@@ -46,7 +46,7 @@ Nous avons lancé le support de **CouchDB** [en 2011](https://blog.alwaysdata.co
 
 Vous pouvez :
 
-* faire tourner vous-même CouchDB [dans un service](/en/docs/development/guides/couchdb). *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
+* faire tourner vous-même CouchDB [dans un service](/fr/docs/developpement/guides/couchdb). *CouchDB ne sera alors plus géré par alwaysdata.* Si vous êtes sur cloud privé, nous pouvons vous aider à réaliser cette opération.
 * migrer vos bases de données chez un hébergeur tiers comme [Cloudant](https://www.ibm.com/products/cloudant).
 
 ## Mise à jour de MariaDB
@@ -124,7 +124,7 @@ Le système d'exploitation passe de *Debian 10 (Buster)* à *Debian 12 (Bookworm
 ## Divers
 
 * La commande `composer` exécute désormais **Composer** 2. Vous pouvez démarrer Composer 1 avec la commande `composer1`.
-* Le [format des logs HTTP](/en/docs/web-hosting/sites/formatting-http-logs) par défaut devient le format **Avancé**.
+* Le [format des logs HTTP](/fr/docs/hebergement-web/sites/personnalisation/formater-les-logs-http/) par défaut devient le format **Avancé**.
 * Les sites de type **Redirection transparente** sont transformés en **Reverse proxy**.
 * L'IP 185.31.40.10 est une ancienne IP dépréciée et sera supprimée.
 

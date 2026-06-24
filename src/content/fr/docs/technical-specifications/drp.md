@@ -13,7 +13,7 @@ Ces garanties *ne sont pas* optionnelles : elles sont embarquées par défaut da
 
 ## Données & Sauvegardes
 
-Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](/en/docs/web-hosting/backups), elles sont conservées jusqu'à 30 jours glissants.
+Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](/fr/docs/hebergement-web/sauvegardes/), elles sont conservées jusqu'à 30 jours glissants.
 
 ### Mes données sont-elles sauvegardées ?
 
@@ -35,17 +35,17 @@ Ce datacenter est opéré par [Interxion](https://www.digitalrealty.fr/data-cent
 
 ### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 
-Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)…) grâce au protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
+Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/)…) grâce au protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
 
 ### Comment puis-je récupérer ces sauvegardes ?
 
-Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)…) en copiant les répertoires situés dans `/home/[compte]/admin/backup/`.
+Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/)…) en copiant les répertoires situés dans `/home/[compte]/admin/backup/`.
 
 Le répertoire `latest` est un raccourci vers la dernière sauvegarde disponible.
 
 ### Comment puis-je restaurer ces sauvegardes ?
 
-Pour restaurer vos sauvegardes, [consultez la documentation disponible](/en/docs/web-hosting/backups).
+Pour restaurer vos sauvegardes, [consultez la documentation disponible](/fr/docs/hebergement-web/sauvegardes/).
 
 ## Réseau
 
@@ -81,7 +81,7 @@ D'autres serveurs sont disponibles en sécurité, nous permettant de basculer ra
 
 Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
 
-Nous disposons d'une [offre Gold](/en/docs/admin-billing/billing/private-cloud-prices#serveurs-gold-infogérés) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
+Nous disposons d'une [offre Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
 
 ### L'accès aux serveurs est-il sécurisé ?
 
@@ -89,4 +89,4 @@ Nos datacenters sont gérés par des partenaires appliquant des normes très str
 
 ### Quelles sont les garanties des data centers ?
 
-Nos unités de production sont hébergées par [Equinix](https://www.equinix.com/data-centers/colocation/), leader mondial de la colocation en infrastructures International Business Exchange™ (IBX®). Ces datacenters sont [certifiés par de nombreux standards](https://www.equinix.com/data-centers/design/standards-compliance/) en matière de qualité et de sécurité.
+Nos unités de production sont hébergées par [Equinix](https://www.equinix.com/data-centers/colocation/), leader mondial de la colocation en infrastructures International Business Exchange™ (IBX®). Ces datacenters sont [certifiés par de nombreux standards](https://www.equinix.com/fr/fr/data-centers/design/standards-compliance) en matière de qualité et de sécurité.

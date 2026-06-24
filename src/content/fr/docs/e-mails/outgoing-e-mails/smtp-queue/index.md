@@ -17,4 +17,4 @@ Le menu **SMTP > File d'attente** du serveur vous affiche les emails en attente 
     - d'accéder au message complet (et notamment ses en-têtes) ;
     - d'accéder aux logs expliquant la raison du blocage temporaire ;
 - de forcer l'envoi de certains emails ;
-- de supprimer de la liste d'attente d'envoi des emails (qui seraient par exemple problématiques en cas d'[envoi de spam](/fr/docs/emails/reagir-envoi-spam//)).
+- de supprimer de la liste d'attente d'envoi des emails (qui seraient par exemple problématiques en cas d'[envoi de spam](/fr/docs/emails/emails-sortants/reagir-envoi-spam/)).

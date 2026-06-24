@@ -19,7 +19,7 @@ This information is retrieved from the **Domains > Details of [example.org] - ðŸ
 
 ![](images/admin-panel_domain-details.png)
 
-He can also disable [DNSSEC](/domains/dns-management/dnssec/) to avoid *potential* issues.
+He can also disable [DNSSEC](/en/docs/domains/dns-management/dnssec/) to avoid *potential* issues.
  
 >[!NOTE]
 A transfer cannot be made during the first 60 days after creation or after a previous transfer.

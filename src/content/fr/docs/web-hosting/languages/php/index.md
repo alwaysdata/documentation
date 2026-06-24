@@ -11,7 +11,7 @@ Le fonctionnement de [PHP](https://www.php.net) chez alwaysdata est très standa
 
 * les [versions proposées](/fr/docs/hebergement-web/langages/php/configuration/#versions-supportées) vont de la 4.4 à la 8.5 ;
 * il est tout à fait possible de [personnaliser le fichier php.ini](/fr/docs/hebergement-web/langages/php/configuration/#paramètres-phpini) ;
-* PHP tourne en *FastCGI*, derrière [Apache](/fr/docs/hebergement-web/sites/configurer-apache/) : il est donc possible de créer des fichiers `.htaccess` ;
+* PHP tourne en *FastCGI*, derrière [Apache](/fr/docs/hebergement-web/sites/serveurs-http/configurer-apache/) : il est donc possible de créer des fichiers `.htaccess` ;
 * il est possible d'[installer des extensions](/fr/docs/hebergement-web/langages/php/installer-une-extension/) (depuis PECL ou autre) ;
 * il est possible d'[installer des paquets](/fr/docs/hebergement-web/langages/php/installer-un-paquet/) (*Composer*, *PEAR*) ;
 * il est possible d'[installer des bibliothèques](/fr/docs/hebergement-web/langages/php/ajouter-une-bibliotheque/).

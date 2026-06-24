@@ -15,6 +15,6 @@ Vous pouvez [créer une adresse email](/fr/docs/emails/creer-une-adresse-email/)
 
 À partir du moment où l'adresse email est créée, il sera possible d'envoyer des emails via nos serveurs SMTP. Pour en recevoir, il faut que le domaine ait des [enregistrements DNS MX](https://fr.wikipedia.org/wiki/Enregistrement_Mail_eXchanger). Pour utiliser nos serveurs de messagerie indiquez `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 
-- [Ressource API](https://api.alwaysdata.com/v1/mailbox/v1)
+- [Ressource API](https://api.alwaysdata.com/v1/mailbox/doc/)
 - [Restaurer des emails](/fr/docs/hebergement-web/sauvegardes/restaurer-des-emails/)
 - [Utiliser des MX externes](/fr/docs/domaines/gestion-dns/utiliser-des-mx-externes/)

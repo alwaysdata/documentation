@@ -25,7 +25,7 @@ By registering with our site and therefore creating a profile, you commit to str
   - sending [spam](https://en.wikipedia.org/wiki/Email_spam#European_Union),
       - any message must be sent with the **express consent** (_opt-in_) of the recipient,
 	- using a list purchased from a third party is therefore considered to be spam,
-	- [several questions to ask yourself before launching the emailing](/en/docs/e-mails/outgoin-e-mails/delivery/#emailing).
+	- [several questions to ask yourself before launching the emailing](/en/docs/e-mails/outgoing-e-mails/delivery/#emailing).
   - hosting [phishing](https://en.wikipedia.org/wiki/Phishing) applications,
   - hosting counterfeit websites/applications,
   - attempts to hack outside systems from alwaysdata servers,

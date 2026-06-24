@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 > [!NOTE]
-> Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](/en/docs/admin-billing/billing/private-cloud-prices).
+> Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive).
 
 
 Le menu **Ressources** permet de configurer ses ressources système, comme  l'espace disque, le CPU ou la mémoire :

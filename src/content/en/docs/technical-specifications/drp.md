@@ -78,7 +78,7 @@ Additional servers are available for backup, allowing us to quickly switch your 
 
 The data on each server is duplicated on two disks in RAID1 mode, to mitigate a hardware storage failure.
 
-We also have a [Gold offer](/en/docs/admin-billing/billing/private-cloud-prices#managed-gold-servers) providing synchronized redundancy of the servers in separate datacenters to guarantee continuity of service.
+We also have a [Gold offer](/en/docs/admin-billing/billing/private-cloud-prices) providing synchronized redundancy of the servers in separate datacenters to guarantee continuity of service.
 
 ### Is access to the servers secure?
 

@@ -174,10 +174,10 @@ La liste suivante comprend les rapports de vulnérabilité non acceptés par nos
 
 Notez que :
 
-* le nom des comptes est [accessible de nombreuses façons différentes](/en/docs/web-hosting/remote-access/misc#lister-les-comptes) ;
+* le nom des comptes est [accessible de nombreuses façons différentes](/fr/docs/hebergement-web/acces-distant/divers#lister-les-comptes) ;
 * les adresses en `.alwaysdata.net` sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
 	* notamment s'ils divulguent leurs informations de connexions ;
-* Le répertoire `/tmp` est un [répertoire partagé](/en/docs/web-hosting/remote-access/misc#répertoire-tmp) ;
+* Le répertoire `/tmp` est un [répertoire partagé](/fr/docs/hebergement-web/acces-distant/divers#repertoire-tmp) ;
 * `https://files.alwaysdata.com` et `https://share.alwaysdata.com` présentent des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface d'administration ; 
 * un utilisateur peut réutiliser un ancien mot de passe. Ce n'est pas une [bonne pratique listée par NIST](https://pages.nist.gov/800-63-3/sp800-63-3.html) ;

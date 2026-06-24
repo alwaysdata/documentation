@@ -9,7 +9,7 @@ eleventyNavigation:
 
 ## Architecture matérielle
 
-Nos serveurs sont hébergés en France, en région parisienne. Nous nous appuyons sur l'expertise d'[Equinix](https://www.equinix.com/) pour nos datacenters principaux. Ils nous certifient un niveau de disponibilité de plus de 99.99999% ([Certifications Equinix](https://www.equinix.co.uk/data-centers/design/standards-compliance)).
+Nos serveurs sont hébergés en France, en région parisienne. Nous nous appuyons sur l'expertise d'[Equinix](https://www.equinix.com/) pour nos datacenters principaux. Ils nous certifient un niveau de disponibilité de plus de 99.99999% ([Certifications Equinix](https://www.equinix.com/fr/fr/data-centers/design/standards-compliance)).
 
 alwaysdata est propriétaire de son infrastructure - serveurs, baies de stockage, équipement réseau et tout ce qui permet de soutenir notre plateforme.
 
@@ -28,14 +28,14 @@ Pour aller plus loin :
 
 ## Architecture logicielle
 
-Nous utilisons autant que possible des solutions open source et nos serveurs tournent sous [Linux Debian x64](https://www.debian.org/). Tous nos services sont accessibles à distance et une [API REST](/en/docs/development/api) est disponible pour les opérations de configuration sur notre interface d'administration.
+Nous utilisons autant que possible des solutions open source et nos serveurs tournent sous [Linux Debian x64](https://www.debian.org/). Tous nos services sont accessibles à distance et une [API REST](/fr/docs/developpement/api/) est disponible pour les opérations de configuration sur notre interface d'administration.
 
 Chaque compte est isolé des autres via une conteneurisation basée sur [Cgroups](https://fr.wikipedia.org/wiki/Cgroups). Il exécute ainsi ses propres programmes, ses propres serveurs HTTP pour offrir une sécurisation et une personnalisation poussée.
 
 Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d’un serveur. Lorsque un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes peu ou pas actifs, pour les réaffecter temporairement.
 
-- [Stack HTTP](/en/docs/web-hosting/sites/http-stack)
-- [Mises à jour de sécurité](/fr/docs/caracteristiques-techniques/mises-a-jour-de-securite)
+- [Stack HTTP](/fr/docs/hebergement-web/sites/stack-http/)
+- [Mises à jour de sécurité](/fr/docs/caracteristiques-techniques/mises-a-jour-de-securite/)
 
 ---
 - [Bug Bounty](/fr/docs/caracteristiques-techniques/bug-bounty)

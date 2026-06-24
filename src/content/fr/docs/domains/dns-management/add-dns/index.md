@@ -38,4 +38,4 @@ Cela supprimera les enregistrements DNS précédemment ajoutés.
 ## Ressources
 
 - [Liste des types d'enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS)
-- [Ajouter des enregistrements DNS avec CSV](/fr/docs/domaines/ajouter-en-enregistrement-dns/creer-des-enregistrements-DNS-via-csv/)
+- [Ajouter des enregistrements DNS avec CSV](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/creer-des-enregistrements-DNS-via-csv/)
