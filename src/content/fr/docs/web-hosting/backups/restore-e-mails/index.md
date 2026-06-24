@@ -4,6 +4,7 @@ title: Restaurer des emails
 eleventyNavigation:
   key: Restaurer des emails
   parent: Sauvegardes
+  order: 2
 ---
 
 Les sauvegardes de vos emails se trouvent dans le répertoire `/home/[compte]/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.

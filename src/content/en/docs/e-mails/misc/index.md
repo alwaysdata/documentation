@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: Miscellaneous Questions
+  key: E-mails - Miscellaneous Questions
   parent: E-mails
+  order: 99
 ---
 
 ## Limit on the number of mails sent

@@ -3,6 +3,7 @@ title: Payment Methods
 eleventyNavigation:
   key: Payment Methods
   parent: Billing
+  order: 5
 ---
 
 There are various ways to pay your alwaysdata invoices.

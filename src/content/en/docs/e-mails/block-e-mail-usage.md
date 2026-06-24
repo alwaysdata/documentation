@@ -1,8 +1,9 @@
 ---
-title: Block email usage
+title: Blocking Email Usage
 eleventyNavigation:
-  key: Block email usage
+  key: Blocking Email Usage
   parent: E-mails
+  order: 98
 ---
  
 At alwaysdata, DNS management is done in the menu **Domains > Details of [example.org]- ⚙️  > DNS Records**.

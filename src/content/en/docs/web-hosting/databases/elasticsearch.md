@@ -3,6 +3,7 @@ title: Elasticsearch
 eleventyNavigation:
   key: Elasticsearch
   parent: Databases
+  order: 5
 ---
 
 ## Supported versions

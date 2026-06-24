@@ -16,7 +16,7 @@ eleventyNavigation:
 
 The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.
 
-Versions are not necessarily [already installed](/en/docs/web-hosting/languages#versions).
+Versions are not necessarily [already installed](/en/docs/web-hosting/languages/#versions).
 
 ## Error logs
 
@@ -134,7 +134,7 @@ You can also fill-in a number of optional fields:
 
 ## ASGI deployment
 
-Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
 
 ![](images/user-program.png)
 

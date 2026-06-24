@@ -3,6 +3,7 @@ title: Removing Restricted Mode
 eleventyNavigation:
   key: Removing Restricted Mode
   parent: Profile Management
+  order: 6
 ---
 
 We have always offered our users the option of free hosting to meet the needs, for example of requirements that take up few resources or simply for testing our platform before committing to a subscription. This is an offer that we do not regret but that has a few obvious drawbacks due mainly to abuse by users with bad intentions.

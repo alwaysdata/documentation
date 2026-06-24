@@ -4,6 +4,7 @@ title: Java
 eleventyNavigation:
   key: Java
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Java](https://www.java.com/fr/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Java sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

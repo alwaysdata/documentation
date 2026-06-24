@@ -3,6 +3,7 @@ title: Migrations
 eleventyNavigation:
   key: Migrations
   parent: Technical Specifications
+  order : 50
 ---
 
 Migration refers to an operation where a technical characteristic of your account is changed. For example, a migration to a new version of MySQL.

@@ -3,6 +3,7 @@ title: Guides
 eleventyNavigation:
   key: Guides
   parent: Development
+  order: 2
 ---
 
 ## Installation / Configuration

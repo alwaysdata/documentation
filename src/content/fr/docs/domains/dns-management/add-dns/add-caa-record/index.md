@@ -4,6 +4,7 @@ title: Ajouter un enregistrement CAA
 eleventyNavigation:
   key: Ajouter un enregistrement CAA
   parent: Ajouter un enregistrement DNS
+  order: 2
 ---
 
 Un [enregistrement CAA](https://fr.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) liste les autorités de certifications homologuées à émettre des certificats pour un domaine. Toute autorité de certification ne faisant pas partie des émetteurs autorisés par l'enregitrement CAA d'un domaine, ne sera pas autorisée à émettre de certificat pour ce domaine ou tout sous-domaine.

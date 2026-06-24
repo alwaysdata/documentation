@@ -3,6 +3,7 @@ title: Modify Mailing List Permissions
 eleventyNavigation:
   key: Modify Mailing List Permissions
   parent: Mailing Lists
+  order: 3
 ---
 
 To modify the broadcasting permissions of a list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you defined at the [creation of your mailing list](/en/docs/e-mails/mailing-lists/create-a-mailing-list).

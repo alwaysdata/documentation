@@ -3,6 +3,7 @@ title: Transferring a Domain to Another Provider
 eleventyNavigation:
   key: Outgoing Transfer
   parent: Domains
+  order: 10
 ---
 
 To transfer a domain to another host services provider, initiate the command from the new provider.
@@ -18,7 +19,7 @@ This information is retrieved from the **Domains > Details of [example.org] - ðŸ
 
 ![](images/admin-panel_domain-details.png)
 
-He can also disable [DNSSEC](/domains/dnssec/) to avoid *potential* issues.
+He can also disable [DNSSEC](/domains/dns-management/dnssec/) to avoid *potential* issues.
  
 >[!NOTE]
 A transfer cannot be made during the first 60 days after creation or after a previous transfer.

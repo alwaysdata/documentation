@@ -4,7 +4,7 @@ title: Sender Rewriting Scheme
 eleventyNavigation:
   key: Sender Rewriting Scheme
   parent: Emails entrants
-  order: 2
+  order: 3
 ---
 
 [Sender Rewriting Scheme](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme) (ou SRS) permet de réécrire l'adresse de l'expéditeur sur l'enveloppe des emails pour contourner les blocages [SPF](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)[^1] et donc d'améliorer la délivrabilité des emails **avec redirection**.

@@ -3,6 +3,7 @@ title: SSL/TLS
 eleventyNavigation:
   key: SSL/TLS
   parent: Websites
+  order: 5
 ---
 
 All services (HTTP, but also remote access, databases, emails...) are secured by a SSL/TLS layer.

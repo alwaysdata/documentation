@@ -3,6 +3,7 @@ title: Databases
 eleventyNavigation:
   key: Databases
   parent: Web Hosting
+  order: 3
 ---
 
 The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entirely hosted** in all of our offers: we install, configure, maintain and secure your databases. This way you only need to handle the interactions between your applications and your databases.

@@ -3,6 +3,7 @@ title: Odoo
 eleventyNavigation:
   key: Odoo
   parent: Marketplace
+  order: 2
 ---
 
 In our example, we consider the following information:

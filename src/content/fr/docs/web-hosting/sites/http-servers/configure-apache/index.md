@@ -2,7 +2,7 @@
 permalink: /fr/docs/hebergement-web/sites/serveurs-http/configurer-apache/
 title: Modifier la configuration de son serveur Apache
 eleventyNavigation:
-  key: Configuration Apache
+  key: Configurer Apache
   parent: Serveurs HTTP
   order: 7
 ---

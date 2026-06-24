@@ -4,6 +4,7 @@ title: Créer son propre script d'installation d'application
 eleventyNavigation:
   key: Créer un script d'installation
   parent: Marketplace
+  order: 1
 ---
 
 Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.

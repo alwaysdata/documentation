@@ -4,6 +4,7 @@ title: Odoo
 eleventyNavigation:
   key: Odoo
   parent: Marketplace
+  order: 2
 ---
 Dans notre exemple, nous considérons les informations suivantes :
 

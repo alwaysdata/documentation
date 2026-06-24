@@ -3,6 +3,7 @@ title: Changing a Website Address
 eleventyNavigation:
   key: Changing a Website Address
   parent: Websites
+  order: 11
 ---
 
 Your site points to an address and you want to use another address/domain. Here are the steps to follow:

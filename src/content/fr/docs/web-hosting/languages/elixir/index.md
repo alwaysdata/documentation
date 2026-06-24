@@ -4,6 +4,7 @@ title: Elixir
 eleventyNavigation:
   key: Elixir
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement d'[Elixir](https://elixir-lang.org/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Elixir sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

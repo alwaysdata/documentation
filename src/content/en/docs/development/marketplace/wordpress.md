@@ -3,9 +3,10 @@ title: WordPress
 eleventyNavigation:
   key: WordPress
   parent: Marketplace
+  order: 2
 ---
 
-- [Activate HTTP cache on WordPress](/en/docs/web-hosting/sites/activate-http-cache-on-wordpress)
+- [Activate HTTP cache on WordPress](/en/docs/web-hosting/sites/customizing/activate-http-cache-on-wordpress)
 
 ## Transfer from another hosting provider
 
@@ -20,7 +21,7 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
 
 - regularly update *WordPress* and its plugins,
 - keep informed on reports of bugs and security breaches relating to plugins before installing them,
-- implement the [specific profile](/en/docs/web-hosting/sites/waf#available-profiles) of our WAF,
+- implement the [specific profile](/en/docs/web-hosting/sites/customizing/waf#available-profiles) of our WAF,
 - choose a prefix other than *wp*_ for your table names. To change this value on a WordPress application that is already deployed, change the `_options` table and the `/home/[account]/path/to/the/application/wp_config.php` file path.
 - delete idle themes and plugins,
 - delete the readme.txt file at the root of your application (contains the current version of your WordPress file that is useful to find security breaches that can be used),
@@ -39,7 +40,7 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
     To mask the connection errors.
 
 - delete the "admin" account created by default,
-- [other rules](/en/docs/web-hosting/sites/clean-up-a-site#3-delete-infection-sources).
+- [other rules](/en/docs/web-hosting/sites/troubleshooting/clean-up-a-site#3-delete-infection-sources).
 
 ---
 ## Useful links

@@ -3,6 +3,7 @@ title: VPN
 eleventyNavigation:
   key: VPN
   parent: Development
+  order: 5
 ---
 
 alwaysdata offers the installation of [virtual private networks (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) software on [dedicated](/en/docs/admin-billing/billing/private-cloud-prices#managed-dedicated-servers) and [Gold](/en/docs/admin-billing/billing/private-cloud-prices#managed-gold-servers) environments. Here is the list of available software :

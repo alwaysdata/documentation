@@ -3,6 +3,7 @@ title: Update Domain Owner's Details
 eleventyNavigation:
   key: Update Domain Owner's Details
   parent: Domains
+  order: 8
 ---
 
 Each domain is linked to a specific owner user. To find out which user is linked to a domain go to **Domains > Details of [example.org] - 🔎**:

@@ -3,6 +3,7 @@ title: SSH
 eleventyNavigation:
   key: SSH
   parent: Remote Access
+  order: 3
 ---
 
 SSH, for [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell), is a connection protocol that is secured by an exchange of encryption keys at the start of the connection. alwaysdata offers it in ALL of their environments.

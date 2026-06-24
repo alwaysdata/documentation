@@ -3,6 +3,7 @@ title: Perform a Migration
 eleventyNavigation:
   key: Perform a Migration
   parent: Migrations
+  order: 1
 ---
 
 Every migration brings changes that may cause incompatibilities with your applications. This is why we recommend that you proceed with the utmost care when performing a migration, especially as no roll back is possible.

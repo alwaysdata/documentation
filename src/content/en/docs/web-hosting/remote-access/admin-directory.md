@@ -3,6 +3,7 @@ title: Admin Directory Overview
 eleventyNavigation:
   key: Admin Directory
   parent: Remote Access
+  order: 5
 ---
 
 Every account have a `/home/[account]/admin` directory, accessible in [FTP](/en/docs/web-hosting/remote-access/ftp), [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp) or [WebDAV](/en/docs/web-hosting/remote-access/webdav).

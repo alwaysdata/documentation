@@ -4,4 +4,5 @@ title: Profile Management
 eleventyNavigation:
   key: Profile Management
   parent: Administration & Billing
+  order: 3
 ---

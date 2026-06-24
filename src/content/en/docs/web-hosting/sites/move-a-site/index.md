@@ -3,6 +3,7 @@ title: Moving a Website
 eleventyNavigation:
   key: Moving a Website
   parent: Websites
+  order: 12
 ---
 
 This article explains how to move a site to another alwaysdata account.

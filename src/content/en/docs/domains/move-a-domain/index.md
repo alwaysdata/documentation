@@ -3,6 +3,7 @@ title: Transferring Internally a Domain
 eleventyNavigation:
   key: Transferring Internally a Domain
   parent: Domains
+  order: 6
 ---
 
 This article explains how to transfer a domain *and* its e-mail addresses to **another alwaysdata account**.

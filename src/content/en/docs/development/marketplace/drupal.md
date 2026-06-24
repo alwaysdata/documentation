@@ -3,6 +3,7 @@ title: Drupal
 eleventyNavigation:
   key: Drupal
   parent: Marketplace
+  order: 2
 ---
 
 ## Troubleshooting
@@ -13,4 +14,4 @@ If you are using a Drupal version prior to **8.9** with CSS and JS files precomp
 
 ## Further information
 
-We provide a [specific profile](/en/docs/web-hosting/sites/waf#available-profiles) on our WAF.
+We provide a [specific profile](/en/docs/web-hosting/sites/customizing/waf#available-profiles) on our WAF.

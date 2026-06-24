@@ -3,6 +3,7 @@ title: WebDAV
 eleventyNavigation:
   key: WebDAV
   parent: Remote Access
+  order: 4
 ---
 
 WebDAV stands for [Web-based Distributed Authoring and Versioning](http://www.webdav.org/) and it allows users to collaboratively modify and manage files on remote web servers.

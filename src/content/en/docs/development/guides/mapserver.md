@@ -3,6 +3,7 @@ title: MapServer CGI
 eleventyNavigation:
   key: MapServer CGI
   parent: Guides
+  order: 1
 ---
 
 [MapServer](https://mapserver.org/) is a platform for publishing spatial data and interactive mapping applications to the web.

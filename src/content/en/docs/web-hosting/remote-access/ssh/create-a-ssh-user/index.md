@@ -3,6 +3,7 @@ title: Creating an SSH User
 eleventyNavigation:
   key: Creating an SSH User
   parent: SSH
+  order: 1
 ---
 
 To connect to your account using *SSH*, you need to have a user. By default, a user with your *account* name was created with the account. You can administer your SSH users from your administration interface, **Remote access > SSH** tab.

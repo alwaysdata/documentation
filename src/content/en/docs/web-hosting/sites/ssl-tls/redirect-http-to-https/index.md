@@ -3,6 +3,7 @@ title: Redirecting HTTP Traffic to HTTPS
 eleventyNavigation:
   key: Redirecting HTTP to HTTPS
   parent: SSL/TLS
+  order: 2
 ---
 
 Go to the **Web > Sites > Modify the [site] - ⚙️ > SSL** section in your alwaysdata interface. Check the *Force HTTPS* box:

@@ -3,6 +3,7 @@ title: Alerts Notifications
 eleventyNavigation:
   key: Alerts Notifications
   parent: Profile Management
+  order: 5
 ---
 
 For many reasons, an alert may be triggered by our system. Here is how it works:

@@ -3,6 +3,7 @@ title: Restore e-mails
 eleventyNavigation:
   key: Restore Emails
   parent: Backups
+  order: 2
 ---
 
 Backups of your e-mails are located in the `/home/[account]/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.

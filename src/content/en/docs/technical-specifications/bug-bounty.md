@@ -3,6 +3,7 @@ title: Bug Bounty
 eleventyNavigation:
   key: Bug Bounty
   parent: Technical Specifications
+  order: 99
 ---
 
 > **[Bug tracking interface](https://security.alwaysdata.com/)**

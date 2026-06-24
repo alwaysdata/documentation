@@ -3,6 +3,7 @@ title: "Admin: 2 Factors Auth"
 eleventyNavigation:
   key: 2 Factors Auth
   parent: Profile Management
+  order: 1
 ---
 
 [Two factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) is used to *secure access to a portal* by checking the identity of the person connecting by linking *two methods*.

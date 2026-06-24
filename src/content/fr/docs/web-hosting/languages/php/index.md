@@ -4,6 +4,7 @@ title: PHP
 eleventyNavigation:
   key: PHP
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [PHP](https://www.php.net) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser PHP sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

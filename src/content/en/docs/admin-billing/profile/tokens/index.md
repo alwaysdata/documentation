@@ -3,6 +3,7 @@ title: Using Access Tokens
 eleventyNavigation:
   key: Using Access Tokens
   parent: Profile Management
+  order: 3
 ---
 
 Tokens are identifiers used to authenticate a user or a program calling our [API](/en/docs/development/api).

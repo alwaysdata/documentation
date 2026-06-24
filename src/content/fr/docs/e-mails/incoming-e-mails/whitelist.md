@@ -4,7 +4,7 @@ title: Liste blanche de reception d'emails
 eleventyNavigation:
   key: Liste blanche de réception
   parent: Emails entrants
-  order: 2
+  order: 5
 ---
 
 Pour être assuré de recevoir les emails d'adresses et domaines précis, ceux-ci peuvent être renseignés dans **Emails > Configuration**. L'antispam entrant n'aura alors plus d'incidence sur leurs emails.

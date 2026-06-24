@@ -3,6 +3,7 @@ title: alwaysdata Architecture
 eleventyNavigation:
   key: Architecture
   parent: Technical Specifications
+  order : 2
 ---
 
 ## Hardware architecture

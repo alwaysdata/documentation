@@ -3,6 +3,7 @@ title: Scheduled Tasks
 eleventyNavigation:
   key: Scheduled Tasks
   parent: Web Hosting
+  order: 6
 ---
 
 Web apps or services sometimes need to periodically run tasks, commands or call up URLs with no user interaction. To manage them you should create a scheduled task.

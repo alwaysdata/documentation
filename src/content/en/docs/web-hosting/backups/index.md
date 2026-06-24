@@ -3,6 +3,7 @@ title: Backups
 eleventyNavigation:
   key: Backups
   parent: Web Hosting
+  order: 7
 ---
 
 A backup of your files, databases and e-mails is made **daily** and is available from the `/home/[account]/admin/backup` directory in your account. These backups are retained for a *rolling* number of days, depending on the chosen plan:

@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: Miscellaneous Questions
+  key: Remote Access - Miscellaneous Questions
   parent: Remote Access
+  order: 9
 ---
 
 ## List accounts

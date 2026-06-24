@@ -4,6 +4,7 @@ title: PrestaShop
 eleventyNavigation:
   key: PrestaShop
   parent: Marketplace
+  order: 2
 ---
 
 ## Migration depuis un autre prestataire d'hébergement

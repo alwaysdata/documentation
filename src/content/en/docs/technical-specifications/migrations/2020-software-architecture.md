@@ -3,6 +3,7 @@ title: 2020 Software Architecture
 eleventyNavigation:
   key: 2020 Software Architecture
   parent: Migrations
+  order: 91
 ---
 
 This migration primarily entails a general update of the available software on our servers. It involves a move of the account to new servers - running with the 2020 architecture. **All** servers (HTTP, SSH, databases, etc) are likely to change.

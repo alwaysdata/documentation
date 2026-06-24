@@ -3,6 +3,7 @@ title: Modify the Domain Owner
 eleventyNavigation:
   key: Modify the Domain Owner
   parent: Domains
+  order: 7
 ---
 
 Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.

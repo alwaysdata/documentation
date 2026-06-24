@@ -3,6 +3,7 @@ title: Connecting To Your Server Using SSH Keys
 eleventyNavigation:
   key: Connecting To Your Server Using SSH Keys
   parent: SSH
+  order: 6
 ---
 
 > [!NOTE]

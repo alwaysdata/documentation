@@ -3,6 +3,7 @@ title: Which Certificate is Returned by Default?
 eleventyNavigation:
   key: Certificates Priority
   parent: SSL/TLS
+  order: 6
 ---
 
 Thanks to [SNI](https://datatracker.ietf.org/doc/html/rfc6066#section-3), the server will in the following priority order and if they are filled in **Advanced > SSL Certificates** and not expired, return:

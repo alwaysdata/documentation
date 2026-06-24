@@ -3,6 +3,7 @@ title: "Pricing: Private Cloud - Max Offers"
 eleventyNavigation:
   key: Pricing - Max Offers
   parent: Billing
+  order: 2
 ---
 
 The Max offer refers to physical servers **dedicated** to your use and **managed** by our team, which handles the installation, configuration, and deployment of your architecture. You do not have to manage system administration (updates, monitoring, etc.).

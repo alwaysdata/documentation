@@ -3,6 +3,7 @@ title: Migrating a Website to alwaysdata
 eleventyNavigation:
   key: Transferring a Website
   parent: Websites
+  order: 7
 ---
 
 This article explains how to move a site to alwaysdata.

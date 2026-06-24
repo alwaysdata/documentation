@@ -3,6 +3,7 @@ title: Dedicated IP Addresses
 eleventyNavigation:
   key: Dedicated IP Addresses
   parent: Web Hosting
+  order: 9
 ---
 
 Regardless of your offer[^1], extras IPv4 addresses are available in **Advanced > IP Addresses** menu. These IPs are bound to your account and are charged 5€ VAT inc./mo or 60€ VAT inc./y[^2].
@@ -22,7 +23,7 @@ Once the extra IP subscribed :
 
 The extra IP will be used to send emails.
 
-Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam](/en/docs/e-mails/delivery#scoring-system):
+Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam](/en/docs/e-mails/outgoing-e-mails/delivery#scoring-system):
 
 ![](images/dedicated-ip-smtp.png)
 

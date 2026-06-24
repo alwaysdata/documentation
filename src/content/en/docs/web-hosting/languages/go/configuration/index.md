@@ -13,7 +13,7 @@ You can compile your programs elsewhere, e.g. locally.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Go, create a *[User program](/en/docs/web-hosting/sites/user-program)* type site in the **Web > Sites** section.
+To deploy an HTTP application with Go, create a *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* type site in the **Web > Sites** section.
 
 ![](images/user-program.png)
 

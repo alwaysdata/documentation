@@ -101,4 +101,4 @@ You can also fill-in a number of optional fields:
 - environment variables to define,
 - a specific version of Ruby to use.
 
-You can use another web server by launching it as a [User Program](/en/docs/web-hosting/sites/user-program) type.
+You can use another web server by launching it as a [User Program](/en/docs/web-hosting/sites/http-servers/user-program) type.

@@ -4,6 +4,7 @@ title: Utiliser des MX externes
 eleventyNavigation:
   key: Utiliser des MX externes
   parent: Gestion DNS
+  order: 5
 ---
 
 Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d'[enregistrements MX](https://fr.wikipedia.org/wiki/Enregistrement_Mail_eXchanger). Ils determinent le serveur de réception d'un courrier électronique.

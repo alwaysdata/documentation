@@ -3,6 +3,7 @@ title: Creating an E-mail Address
 eleventyNavigation:
   key: Creating a Mailbox
   parent: E-mails
+  order: 1
 ---
 
 From the administration **E-mails > Addresses** section, you can create e-mail boxes (so long as you added a [domain name](/en/docs/domains/).
@@ -16,7 +17,7 @@ Then there will be a series of fields to fill-in. Here are the details.
 ![](images/admin-panel_create-mailbox_required-infos.png)
 
 - *Domain*: the domain name for the address to create,
-- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address](/en/docs/e-mails/catch-all).
+- *Local part*: the part to the left of the e-mail address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address](/en/docs/e-mails/create-an-e-mail-address/catch-all).
 - *Password*: the password needed to connect to this e-mail address.
 
 ## Antispam
@@ -84,4 +85,4 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 
 ![](images/admin-panel_mailbox_sieve.png)
 
-This technology is used to perform [more precise operations](/en/docs/e-mails/use-sieve-scripts) when your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured on the form creating your e-mail box.
+This technology is used to perform [more precise operations](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) when your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured on the form creating your e-mail box.

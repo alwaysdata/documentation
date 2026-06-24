@@ -3,6 +3,7 @@ title: Permissions
 eleventyNavigation:
   key: Permissions
   parent: Administration & Billing
+  order: 4
 ---
 
 Because hosting your data often involves different players, our administration lets you grant permissions with different granularity levels.
@@ -28,12 +29,12 @@ As long as a profile has permissions on the account, it has access to the *Serve
 
 - **Technical contact**: be alerted when a technical ticket is opened by our services relating to the account,
 - **Usage**: monitor disk space consumption (*Disk*, *Advanced > Logs* menus),
-- **Resources**: permission for accounts on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) allows to manage [probes](/en/docs/web-hosting/sites/use-probes) (*Web > Probes* menu) and [resources](/en/docs/technical-specifications/system-resources-alerts-and-limitations) (*Advanced > Resources* menu),
+- **Resources**: permission for accounts on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) allows to manage [probes](/en/docs/web-hosting/sites/customizing/use-probes) (*Web > Probes* menu) and [resources](/en/docs/technical-specifications/system-resources-alerts-and-limitations) (*Advanced > Resources* menu),
 - **[Statistics](/en/docs/web-hosting/analytics)**: analyze the visits to your sites (*Web > Analytics* menu),
 - **[Sites](/en/docs/web-hosting/sites)**: configure the websites and the Apache environment (*Web > Sites*, *Web > Configuration* menus),
 - **[Domains](/en/docs/domains/)** technically manage domains and their DNS (*Domains* menu). For all billable operations, you will also need the __Billing__ permissions on the owner profile,
 - **[Emails](/en/docs/e-mails/)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
-- **[History of sent emails](/en/docs/e-mails/check-email-sending)** (*Emails > History* menu),
+- **[History of sent emails](/en/docs/e-mails/outgoing-e-mails/check-email-sending)** (*Emails > History* menu),
 - **[Databases](/en/docs/web-hosting/databases)** (*Databases* menu),
 - **[FTP](/en/docs/web-hosting/remote-access/ftp)** (*Remote access > FTP* menu),
 - **[SSH](/en/docs/web-hosting/remote-access/ssh)** (*Remote access > SSH* menu),

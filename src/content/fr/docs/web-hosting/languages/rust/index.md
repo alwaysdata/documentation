@@ -4,6 +4,7 @@ title: Rust
 eleventyNavigation:
   key: Rust
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Rust](https://www.rust-lang.org/fr) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Rust sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

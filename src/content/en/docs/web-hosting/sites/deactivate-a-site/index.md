@@ -3,6 +3,7 @@ title: Disabling a Website
 eleventyNavigation:
   key: Disabling a Website
   parent: Websites
+  order: 15
 ---
 
 You may need to take down your site the time required for maintenance or unavailability: this function is not available from the administration interface. There are however simple solutions for making this happen:

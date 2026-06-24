@@ -3,6 +3,7 @@ title: Creating your Own Installation Script
 eleventyNavigation:
   key: Creating an Installation Script
   parent: Marketplace
+  order: 1
 ---
 
 Any user may propose a script in the *language of their choice* allowing users to install their application. This script will be run with the *permissions for the account where installation took place* and must start with a YAML format comment.

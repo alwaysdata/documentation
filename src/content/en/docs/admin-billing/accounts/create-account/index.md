@@ -3,6 +3,7 @@ title: Create an Account
 eleventyNavigation:
   key: Create an Account
   parent: Accounts Management
+  order: 1
 ---
 
 Go to the **Subscriptions** menu in your client interface.

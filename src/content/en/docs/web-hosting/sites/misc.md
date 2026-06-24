@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: Miscellaneous Questions
+  key: Websites - Miscellaneous Questions
   parent: Websites
+  order: 99
 ---
 
 ## HTTP Default Site
@@ -17,4 +18,4 @@ To configure in the menu **Web > Sites > Modify the [site] - ⚙️ > Advanced**
 
 To ensure that an application is never stopped, set the value to `0`.
 
-However, there is *no guarantee* that an application will never be stopped, and it can be stopped at any time. If it is *necessary* for a web application to run 24/7, create a [service](/en/docs/web-hosting/services) and a site of type [Redirect "reverse-proxy"](/en/docs/web-hosting/sites/redirect) for its web access.
+However, there is *no guarantee* that an application will never be stopped, and it can be stopped at any time. If it is *necessary* for a web application to run 24/7, create a [service](/en/docs/web-hosting/services) and a site of type [Reverse proxy](/en/docs/web-hosting/sites/add-a-site/#configuration) for its web access.

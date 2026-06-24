@@ -3,6 +3,7 @@ title: CouchDB
 eleventyNavigation:
   key: CouchDB
   parent: Guides
+  order: 1
 ---
 
  [CouchDB](https://couchdb.apache.org/) is a document-oriented noSQL database program. 

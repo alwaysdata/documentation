@@ -3,6 +3,7 @@ title: Restore a Website
 eleventyNavigation:
   key: Restore a Website
   parent: Backups
+  order: 1
 ---
 
 Backups of your files and databases are located in the `/home/[account]/admin/backup` directory for your account. You can restore them using the **Advanced > Restore backups** menu.

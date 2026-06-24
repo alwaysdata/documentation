@@ -3,6 +3,7 @@ title: Billing
 eleventyNavigation:
   key: Billing
   parent: Administration & Billing
+  order: 1
 ---
 
 An invoice is issued a few hours after subscribing to an alwaysdata service (hosting, IP address, etc.).

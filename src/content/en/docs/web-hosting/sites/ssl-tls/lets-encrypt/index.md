@@ -3,6 +3,7 @@ title: Let's Encrypt Certificates
 eleventyNavigation:
   key: Let's Encrypt Certificates
   parent: SSL/TLS
+  order: 1
 ---
 
 [Let's Encrypt](https://letsencrypt.org) is a certification authority that proposes a simple way to generate free certificates. The certificates offered are [Domain Validation](https://en.wikipedia.org/wiki/Domain-validated_certificate) type ones, valid for [90 days](https://letsencrypt.org/2015/11/09/why-90-days.html).

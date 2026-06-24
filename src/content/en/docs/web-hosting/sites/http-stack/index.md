@@ -3,6 +3,7 @@ title: HTTP Stack
 eleventyNavigation:
   key: HTTP Stack
   parent: Websites
+  order: 4
 ---
 
 A front-end reverse-proxy is installed on all our servers. This one listens incoming HTTP requests and:
@@ -11,7 +12,7 @@ A front-end reverse-proxy is installed on all our servers. This one listens inco
 - returns the right [SSL certificate](/en/docs/web-hosting/sites/ssl-tls/certificates-priorities),
 - logs HTTP requests. These logs are available via the [`/home/[account]/admin/logs` directory](/en/docs/web-hosting/remote-access/admin-directory#logs).
 
-It also manages the [Web Application Firewall](/en/docs/web-hosting/sites/waf) and the [HTTP cache](/en/docs/web-hosting/sites/http-cache) which can be activated in **Web > Sites**.
+It also manages the [Web Application Firewall](/en/docs/web-hosting/sites/customizing/waf) and the [HTTP cache](/en/docs/web-hosting/sites/customizing/http-cache) which can be activated in **Web > Sites**.
 
 ![](images/http-stack.png)
 

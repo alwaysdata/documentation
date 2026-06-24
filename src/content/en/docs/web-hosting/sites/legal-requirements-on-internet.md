@@ -3,6 +3,7 @@ title: Legal Requirements on Internet
 eleventyNavigation:
   key: Legal Requirements on Internet
   parent: Websites
+  order: 97
 ---
 
 Website publishers in France, whether they are private individuals or companies entities acting in a personal or professional capacity, are required to comply with a number of precise legal requirements.

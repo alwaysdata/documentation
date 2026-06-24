@@ -2,7 +2,7 @@
 title: RabbitMQ Management plugin
 eleventyNavigation:
   key: RabbitMQ Management plugin
-  parent: Databases
+  parent: RabbitMQ
 ---
 
 The [management plugin](https://www.rabbitmq.com/management.html) of RabbitMQ can be used on the [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices). Only [management access](https://www.rabbitmq.com/management.html#permissions) will be available.

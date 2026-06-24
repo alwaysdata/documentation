@@ -4,6 +4,7 @@ title: Ajouter un enregistrement DNS
 eleventyNavigation:
   key: Ajouter un enregistrement DNS
   parent: Gestion DNS
+  order: 1
 ---
 
 1.   Allez dans **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS** ;
@@ -24,7 +25,7 @@ eleventyNavigation:
 
 - [Ajouter un enregistrement SRV](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/ajouter-un-enregistrement-srv/)
 - [Ajouter un enregistrement CAA](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/ajouter-un-enregistrement-caa/)
-- [Utiliser des MX externes](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/utiliser-des-mx-externes/)
+- [Utiliser des MX externes](/fr/docs/domaines/gestion-dns/utiliser-des-mx-externes/)
 
 ## Importer un fichier de zone
 
@@ -37,4 +38,4 @@ Cela supprimera les enregistrements DNS précédemment ajoutés.
 ## Ressources
 
 - [Liste des types d'enregistrements DNS](https://fr.wikipedia.org/wiki/Liste_des_enregistrements_DNS)
-- [Ajouter des enregistrements DNS avec CSV](/fr/docs/domaines/creer-des-enregistrements-DNS-via-csv/)
+- [Ajouter des enregistrements DNS avec CSV](/fr/docs/domaines/ajouter-en-enregistrement-dns/creer-des-enregistrements-DNS-via-csv/)

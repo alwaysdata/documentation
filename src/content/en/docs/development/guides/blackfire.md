@@ -3,6 +3,7 @@ title: Blackfire
 eleventyNavigation:
   key: Blackfire
   parent: Guides
+  order: 1
 ---
 
 [Blackfire](https://blackfire.io) helps to test, debug optimize applications. It offers agents in a number of languages and here we will present the steps needed to install the _PHP and Python agents_.

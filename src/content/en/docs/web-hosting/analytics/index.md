@@ -3,6 +3,7 @@ title: Analytics
 eleventyNavigation:
   key: Analytics
   parent: Web Hosting
+  order: 8
 ---
 
 From the raw HTTP logs (`/home/[account]/admin/logs/http`) we generate single visits statistics[^1] in *real time*. They are available in the **Web > Analytics** section.

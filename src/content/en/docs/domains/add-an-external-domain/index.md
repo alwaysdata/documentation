@@ -3,6 +3,7 @@ title: Adding an External Domain
 eleventyNavigation:
   key: Adding an External Domain
   parent: Domains
+  order: 3
 ---
 
 An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer](/en/docs/domains/transfer-a-domain).
@@ -26,7 +27,7 @@ This will add the domain as an *external domain* in the list.
 
 ![](images/admin-panel_domain-list2.png)
 
-Then you can create [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/add-dns).
+Then you can create [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/dns-management/).
 
 > [!WARNING]
-> If some DNS records are to be kept - for example not to change email providers - the [DNS zone](/en/docs/domains/add-dns) will need to be prepared before making the DNS server change.
+> If some DNS records are to be kept - for example not to change email providers - the [DNS zone](/en/docs/domains/dns-management/add-dns) will need to be prepared before making the DNS server change.

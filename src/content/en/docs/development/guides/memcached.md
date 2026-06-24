@@ -3,6 +3,7 @@ title: Memcached
 eleventyNavigation:
   key: Memcached
   parent: Guides
+  order: 1
 ---
 
 [Memcached](https://www.memcached.org/) is an object-oriented cache engine.

@@ -3,6 +3,7 @@ title: MongoDB
 eleventyNavigation:
   key: MongoDB
   parent: Guides
+  order: 1
 ---
 
 [MongoDB](https://www.mongodb.com/) is a document-oriented noSQL database program.

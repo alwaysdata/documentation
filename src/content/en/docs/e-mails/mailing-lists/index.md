@@ -4,6 +4,7 @@ title: Mailing Lists
 eleventyNavigation:
   key: Mailing Lists
   parent: E-mails
+  order: 6
 ---
 
 Mailing lists allow you to define a *pool* of email addresses to which to send a message. They are distinguished in their use by their broadcasting capabilities:

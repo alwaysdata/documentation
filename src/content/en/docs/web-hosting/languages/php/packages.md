@@ -3,6 +3,7 @@ title: Installing a PHP Package
 eleventyNavigation:
   key: Installing a PHP Package
   parent: PHP
+  order: 4
 ---
 
 ## Handling packages

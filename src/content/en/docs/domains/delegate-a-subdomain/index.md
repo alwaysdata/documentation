@@ -3,6 +3,7 @@ title: Delegating a Domain
 eleventyNavigation:
   key: Delegating a Domain
   parent: Domains
+  order: 9
 ---
 
 To allow another alwaysdata user to use a subdomain belonging to your domain, you need to grant them permission.

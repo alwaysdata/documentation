@@ -3,13 +3,14 @@ title: Renewing a Domain
 eleventyNavigation:
   key: Renewing a Domain
   parent: Domains
+  order: 5
 ---
 
 Go to **Domains > Details of [example.org] - 🔎 > RENEW**.
 
 ![](images/admin-panel_renew.png)
 
-- [Deadlines](/en/docs/domains/deadlines)
+- [Deadlines](/en/docs/domains/renew-a-domain/deadlines)
 
 
 ## Automatic renewal

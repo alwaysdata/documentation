@@ -3,6 +3,7 @@ title: Restarting a Website
 eleventyNavigation:
   key: Restarting a Website
   parent: Websites
+  order: 10
 ---
 
 To activate certain modifications, it is necessary to restart the program. This is done as follows:

@@ -3,6 +3,7 @@ title: GitLab
 eleventyNavigation:
   key: GitLab
   parent: Guides
+  order: 1
 ---
 
 [GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...

@@ -3,6 +3,7 @@ title: Green Hosting
 eleventyNavigation:
   key: Green Hosting
   parent: Technical Specifications
+  order: 3
 ---
 
 ## Organization

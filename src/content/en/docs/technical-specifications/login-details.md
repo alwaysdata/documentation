@@ -3,6 +3,7 @@ title: Login Information
 eleventyNavigation:
   key: Login Information
   parent: Technical Specifications
+  order: 1
 ---
 
 The subdomain assigned to you when your account is created will end with a **.net** extension and not a _.com_ extension like other alwaysdata domains.

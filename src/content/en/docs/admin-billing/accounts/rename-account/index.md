@@ -3,6 +3,7 @@ title: Rename an Account
 eleventyNavigation:
   key: Rename an Account
   parent: Accounts Management
+  order: 3
 ---
 
 If the name of an account is no longer appropriate (name change, spelling error, etc.), you can change it.

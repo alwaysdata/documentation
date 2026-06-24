@@ -3,6 +3,7 @@ title: Languages
 eleventyNavigation:
   key: Languages
   parent: Web Hosting
+  order: 2
 ---
 
 For all of the information on the technologies driven by servers:
@@ -19,7 +20,7 @@ For all of the information on the technologies driven by servers:
 - [Ruby](/en/docs/web-hosting/languages/ruby)
 - [Rust](/en/docs/web-hosting/languages/rust)
 
-Other interpreters and languages also can be run through the [user program](/en/docs/web-hosting/sites/user-program).
+Other interpreters and languages also can be run through the [user program](/en/docs/web-hosting/sites/http-servers/user-program).
 
 ## Versions
 

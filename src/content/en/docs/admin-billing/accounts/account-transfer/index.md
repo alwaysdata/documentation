@@ -3,6 +3,7 @@ title: Account Transfer
 eleventyNavigation:
   key: Account Transfer
   parent: Accounts Management
+  order: 2
 ---
 
 In some cases, you don’t have to go through the transfer process and a change of profile information is sufficient. If you do not want the client history[^1] to follow the change, however, choose transfer instead.

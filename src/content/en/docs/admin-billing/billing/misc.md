@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: Miscellaneous Questions
+  key: Billing - Miscellaneous Questions
   parent: Billing
+  order: 99
 ---
 
 ## Accessing Your Contracts

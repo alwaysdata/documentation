@@ -17,7 +17,7 @@ eleventyNavigation:
 
 The default version can be changed from the alwaysdata administration, under **Environment > Java**. This is the version that is especially used when you start `java`.
 
-Versions are not necessarily [already installed](/en/docs/web-hosting/languages#versions).
+Versions are not necessarily [already installed](/en/docs/web-hosting/languages/#versions).
 
 > [!NOTE]
 > Only **[LTS versions](https://www.java.com/releases/)** are made available.
@@ -54,7 +54,7 @@ You can also fill-in a number of optional fields:
 
 ### User Program
 
-[Presentation](/en/docs/web-hosting/sites/user-program)
+[Presentation](/en/docs/web-hosting/sites/http-servers/user-program)
 
 ![](images/user-program.png)
 

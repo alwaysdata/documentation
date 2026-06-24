@@ -3,6 +3,7 @@ title: Disaster Recovery Plan
 eleventyNavigation:
   key: Disaster Recovery Plan
   parent: Technical Specifications
+  order: 4
 ---
 
 Our architecture is designed to provide you with the maximum guarantees on data protection, especially in case of a major incident on our production units.

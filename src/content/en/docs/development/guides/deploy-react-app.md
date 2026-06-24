@@ -3,6 +3,7 @@ title: Deploy a (Create) React App
 eleventyNavigation:
   key: Deploy a (Create) React App
   parent: Guides
+  order: 1
 ---
 
 An application designed with [React](https://reactjs.org/) is essentially made of static assets for its production part.
@@ -16,7 +17,7 @@ will do the trick:
 
 ## On the _alwaysdata_ side
 
-Just create a [Static files](/en/docs/web-hosting/sites/static-files) site pointing to the directory of your choice (e.g.
+Just create a [Static files](/en/docs/web-hosting/sites/http-servers/static-files) site pointing to the directory of your choice (e.g.
 `www/my-app`).
 
 ## On the development side

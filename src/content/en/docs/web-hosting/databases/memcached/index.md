@@ -3,6 +3,7 @@ title: Memcached
 eleventyNavigation:
   key: Memcached
   parent: Databases
+  order: 6
 ---
 
 ## Connection

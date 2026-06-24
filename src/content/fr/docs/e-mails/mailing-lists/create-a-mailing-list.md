@@ -4,6 +4,7 @@ title: Créer une liste de diffusion
 eleventyNavigation:
   key: Créer une liste de diffusion
   parent: Listes de diffusion
+  order: 1
 ---
 
 Pour créer une liste de diffusion, vous devez vous connecter à l'interface d'administration alwaysdata - onglet **Emails > Listes de diffusion**.

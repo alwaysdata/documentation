@@ -3,6 +3,7 @@ title: SSH Troubleshooting
 eleventyNavigation:
   key: SSH Troubleshooting
   parent: SSH
+  order: 9
 ---
 
 ## Connection

@@ -4,6 +4,7 @@ title: Ruby
 eleventyNavigation:
   key: Ruby
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Ruby](https://www.ruby-lang.org/fr/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Ruby sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

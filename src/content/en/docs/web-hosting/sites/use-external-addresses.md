@@ -3,6 +3,7 @@ title: Using External Addresses
 eleventyNavigation:
   key: Using External Addresses
   parent: Websites
+  order: 2
 ---
 
 To use your own addresses without [managing your domain](/en/docs/domains/add-an-external-domain) at alwaysdata, proceed as follows:

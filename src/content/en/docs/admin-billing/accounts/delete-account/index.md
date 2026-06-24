@@ -3,6 +3,7 @@ title: Delete an Account
 eleventyNavigation:
   key: Delete an Account
   parent: Accounts Management
+  order: 4
 ---
 
 You can delete an *account* (e.g. `my_project`) or your *profile* (e.g. `<name@example.org>`, the `my_project` account owner).

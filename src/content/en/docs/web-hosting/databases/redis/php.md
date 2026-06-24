@@ -2,7 +2,7 @@
 title: Using Redis with a PHP Backend
 eleventyNavigation:
   key: Using Redis with a PHP Backend
-  parent: Databases
+  parent: Redis
 ---
 
 ## Configuration

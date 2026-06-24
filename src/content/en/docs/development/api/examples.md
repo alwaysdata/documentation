@@ -3,6 +3,7 @@ title: API Usage Examples
 eleventyNavigation:
   key: API Usage Examples
   parent: API
+  order: 2
 ---
 
 `APIKEY`, `1234` or `[account]` are to be replaced by your own values.

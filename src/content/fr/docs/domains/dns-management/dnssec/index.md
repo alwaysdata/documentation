@@ -4,6 +4,7 @@ title: DNSSEC
 eleventyNavigation:
   key: DNSSEC
   parent: Gestion DNS
+  order: 3
 ---
 
 [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ajoute des signatures cryptographiques aux enregistrements DNS existants. Cela permet d'authentifier l'origine des données et de s'assurer qu'elles n'ont pas été modifiées en transit.

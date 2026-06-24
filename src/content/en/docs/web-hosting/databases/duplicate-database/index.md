@@ -3,6 +3,7 @@ title: Duplicate a Database
 eleventyNavigation:
   key: Duplicate a Database
   parent: Databases
+  order: 10
 ---
 
 It is possible to duplicate a database via **Databases > [DBMS] > Duplicate the [database] - 📄**.

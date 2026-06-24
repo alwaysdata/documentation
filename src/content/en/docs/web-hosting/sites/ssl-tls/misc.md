@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: SSL/TLS Miscellaneous Questions
+  key: SSL/TLS - Miscellaneous Questions
   parent: SSL/TLS
+  order: 20
 ---
  
 ## Cloudflare & SSL setup

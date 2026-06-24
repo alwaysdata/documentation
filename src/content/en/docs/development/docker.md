@@ -3,6 +3,7 @@ title: Docker
 eleventyNavigation:
   key: Docker
   parent: Development
+  order: 4
 ---
 
 > [!NOTE]
@@ -40,7 +41,7 @@ Successfully created context "rootless"
 
 You can use Docker to run [sites](/en/docs/web-hosting/sites), [services](/en/docs/web-hosting/services), [scheduled tasks](/en/docs/web-hosting/tasks) or simply in [SSH](/en/docs/web-hosting/remote-access/ssh).
 
-To run a site with Docker, you need to use the [user program](/en/docs/web-hosting/sites/user-program) type and indicate your `docker run` command. Your Docker container needs to listen in HTTP on the `$PORT` portal, for example:
+To run a site with Docker, you need to use the [user program](/en/docs/web-hosting/sites/http-servers/user-program) type and indicate your `docker run` command. Your Docker container needs to listen in HTTP on the `$PORT` portal, for example:
 
 ```txt
 docker run -p $PORT:80 gitlab/gitlab-ee:latest

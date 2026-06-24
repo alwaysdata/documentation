@@ -3,6 +3,7 @@ title: alwaysdata Admin Access Loss
 eleventyNavigation:
   key: alwaysdata Admin Access Loss
   parent: Profile Management
+  order: 4
 ---
 
 Here's how to proceed when you lose access to [our administration interface](https://admin.alwaysdata.com).

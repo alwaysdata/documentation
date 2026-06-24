@@ -3,6 +3,7 @@ title: 2017 Software Architecture
 eleventyNavigation:
   key: 2017 Software Architecture
   parent: Migrations
+  order: 90
 ---
 
 This migration groups a number of changes with the following main objectives:

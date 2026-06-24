@@ -4,6 +4,7 @@ title: Drupal
 eleventyNavigation:
   key: Drupal
   parent: Marketplace
+  order: 2
 ---
 
 ## Problèmes courants

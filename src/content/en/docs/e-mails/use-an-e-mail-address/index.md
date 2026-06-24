@@ -3,6 +3,7 @@ title: Using an E-mail Address
 eleventyNavigation:
   key: Using an Email Address
   parent: E-mails
+  order: 2
 ---
 
 You can access your e-mails in a number of ways. Here are two most used.
@@ -34,10 +35,10 @@ Password authentication is **mandatory** to use our SMTP server, fill-in the sam
 
 It is also possible to use your internet provider's SMTP server.
 
-- [Configure Apple/iOS](/en/docs/e-mails/clients/apple-ios)
-- [Configure Gmail](/en/docs/e-mails/clients/gmail)
-- [Configure Mozilla Thunderbird](/en/docs/e-mails/clients/thunderbird)
-- [Configure Outlook](/en/docs/e-mails/clients/outlook)
+- [Configure Apple/iOS](/en/docs/e-mails/third-party-software/apple-ios)
+- [Configure Gmail](/en/docs/e-mails/third-party-software/gmail)
+- [Configure Mozilla Thunderbird](/en/docs/e-mails/third-party-software/thunderbird)
+- [Configure Outlook](/en/docs/e-mails/third-party-software/outlook)
 
 ## Webmail
 

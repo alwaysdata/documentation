@@ -3,6 +3,7 @@ title: "Pricing: Public Cloud - Plus Plans"
 eleventyNavigation:
   key: Pricing - Plus Plans
   parent: Billing
+  order: 3
 ---
 
 This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).

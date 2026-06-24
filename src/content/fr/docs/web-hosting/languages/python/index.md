@@ -4,6 +4,7 @@ title: Python
 eleventyNavigation:
   key: Python
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Python](https://www.python.org) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Python sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

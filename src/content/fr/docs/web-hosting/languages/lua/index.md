@@ -4,6 +4,7 @@ title: Lua
 eleventyNavigation:
   key: Lua
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Lua](https://www.lua.org/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Lua sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

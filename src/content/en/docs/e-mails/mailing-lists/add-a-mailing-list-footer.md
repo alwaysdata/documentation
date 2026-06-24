@@ -3,6 +3,7 @@ title: Add a Footer to a Mailing List
 eleventyNavigation:
   key: Add a Footer to a Mailing List
   parent: Mailing Lists
+  order: 4
 ---
 
 To add a footer to a mailing list, you must use the [Postorius management interface](https://mailman.alwaysdata.com/). Connect using an administration email address that you will have defined at the [creation of your mailing list](/en/docs/e-mails/mailing-lists/create-a-mailing-list).

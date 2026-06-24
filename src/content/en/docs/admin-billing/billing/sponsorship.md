@@ -3,6 +3,7 @@ title: How to offer a sponsorship
 eleventyNavigation:
   key: Sponsorship
   parent: Billing
+  order: 4
 ---
 
 The referral system lets you earn commissions on payments made by your referrals.

@@ -3,6 +3,7 @@ title: Restricting Admin Panel Access by IP-Filtering
 eleventyNavigation:
   key: Restricting Admin Access by IP
   parent: Profile Management
+  order: 2
 ---
 
 To allow access to the alwaysdata administration interface by some IP addresses only, go to **Profile**.

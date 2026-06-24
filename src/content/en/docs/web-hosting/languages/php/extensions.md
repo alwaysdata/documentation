@@ -3,6 +3,7 @@ title: Installing a PHP Extension
 eleventyNavigation:
   key: Installing a PHP Extension
   parent: PHP
+  order: 3
 ---
 
 `[extension]` has to be replaced by the name of the extension to be installed.

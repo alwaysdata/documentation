@@ -4,6 +4,7 @@ title: Créer plusieurs enregistrements DNS via CSV
 eleventyNavigation:
   key: Créer des enregistrements avec CSV
   parent: Ajouter un enregistrement DNS
+  order: 1
 ---
 
 Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS > Ajouter plusieurs enregistrements DNS**.

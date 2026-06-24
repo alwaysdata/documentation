@@ -2,7 +2,7 @@
 title: Using Memcached with a PHP Backend
 eleventyNavigation:
   key: Using Memcached with a PHP Backend
-  parent: Databases
+  parent: Memcached
 ---
 
 ## Configuration

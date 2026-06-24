@@ -4,6 +4,7 @@ title: .NET
 eleventyNavigation:
   key: .NET
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [.NET](https://dotnet.microsoft.com/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser .NET sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

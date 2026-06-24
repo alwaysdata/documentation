@@ -4,7 +4,7 @@ title: Utiliser les scripts Sieve
 eleventyNavigation:
   key: Utiliser les scripts Sieve
   parent: Emails entrants
-  order: 2
+  order: 4
 ---
 
 [Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage](/fr/docs/emails/emails-entrants/ajouter-regle-filtrage/).

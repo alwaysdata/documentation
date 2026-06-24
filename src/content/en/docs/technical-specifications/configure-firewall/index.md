@@ -3,6 +3,7 @@ title: Configuring the Firewall on Private Cloud environments
 eleventyNavigation:
   key: Configuring Firewall
   parent: Technical Specifications
+  order : 7
 ---
 
 The firewall is managed from the server's **Firewall** menu.

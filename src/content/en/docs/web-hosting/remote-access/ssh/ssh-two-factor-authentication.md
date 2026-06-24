@@ -3,6 +3,7 @@ title: Activate the 2-Factor Authentication
 eleventyNavigation:
   key: Activate the 2-Factor Authentication
   parent: SSH
+  order: 7
 ---
 
 > [!NOTE]

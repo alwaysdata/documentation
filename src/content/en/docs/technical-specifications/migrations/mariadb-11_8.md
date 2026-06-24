@@ -3,6 +3,7 @@ title: MariaDB 11.8 Migration
 eleventyNavigation:
   key: MariaDB 11.8 Migration
   parent: Migrations
+  order: 11
 ---
 
 This migration upgrades your databases to MariaDB version 11.8.

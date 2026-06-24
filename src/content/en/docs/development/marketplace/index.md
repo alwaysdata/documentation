@@ -3,6 +3,7 @@ title: Marketplace
 eleventyNavigation:
   key: Marketplace
   parent: Development
+  order: 3
 ---
 
 Deploy applications or frameworks quickly and easily in your user space.

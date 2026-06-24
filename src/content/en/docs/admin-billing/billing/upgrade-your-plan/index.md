@@ -3,6 +3,7 @@ title: Change your Offer
 eleventyNavigation:
   key: Change your Offer
   parent: Billing
+  order: 6
 ---
 
 To change the offer, go to **Subscriptions > Edit - ⚙️ the relevant account**:

@@ -3,6 +3,7 @@ title: Buying a Domain
 eleventyNavigation:
   key: Buying a Domain
   parent: Domains
+  order: 1
 ---
 
 1.  From your administration interface, go to **Domains > Add a domain**,

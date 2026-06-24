@@ -4,6 +4,7 @@ title: Changer de serveurs DNS
 eleventyNavigation:
   key: Changer de serveurs DNS
   parent: Gestion DNS
+  order: 2
 ---
 
 Les [serveurs DNS](https://fr.wikipedia.org/wiki/Domain_Name_System) définissent quels serveurs contacter pour chaque service. Ils sont donc définis chez le registrar - le prestataire de la gestion administrative du domaine.

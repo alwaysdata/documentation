@@ -3,6 +3,7 @@ title: Apache PageSpeed
 eleventyNavigation:
   key: Apache PageSpeed
   parent: Guides
+  order: 1
 ---
 
 [PageSpeed](https://www.modpagespeed.com/) automatically optimizes your website by changing the resources of this web page to implement web performance [best practices](https://developers.google.com/speed/docs/best-practices/rules_intro). **Apache mod_pagespeed** must be installed on the account.

@@ -3,6 +3,7 @@ title: FTP
 eleventyNavigation:
   key: FTP
   parent: Remote Access
+  order: 1
 ---
 
 FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol) is a protocol for sharing files on a distant network.

@@ -1,8 +1,9 @@
 ---
-title: Domains Troubleshooting
+title: Troubleshooting
 eleventyNavigation:
-  key: Domains Troubleshooting
+  key: Domains - Troubleshooting
   parent: Domains
+  order: 99
 ---
 
 ## Transfer

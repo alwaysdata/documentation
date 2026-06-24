@@ -3,6 +3,7 @@ title: Terminology
 eleventyNavigation:
   key: Terminology
   parent: Administration & Billing
+  order: 5
 ---
 
 An alwaysdata user, named **profile** is represented by an email address used to log in to the [administration interface](https://admin.alwaysdata.com).

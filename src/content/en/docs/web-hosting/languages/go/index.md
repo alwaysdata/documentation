@@ -3,6 +3,7 @@ title: Go
 eleventyNavigation:
   key: Go
   parent: Languages
+  order: 1
 ---
 
 The way [Go](https://golang.org/) works at alwaysdata is very standard. If you are used to using Go on a Unix system, e.g. Linux, then you already know almost everything you need.

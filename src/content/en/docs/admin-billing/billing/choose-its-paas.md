@@ -3,6 +3,7 @@ title: Which plan to choose?
 eleventyNavigation:
   key: Choosing your Hosting Plan
   parent: Billing
+  order: 1
 ---
 
 The alwaysdata hosting services is a [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service)[^1]: it provides the infrastructure (data center, the network...) and the system stack (OS[^2], interpreters, libraries, databases, security...). Customers need only handle deploying, securing and updating their applications.
@@ -33,10 +34,10 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 | Websites | Configurable HTTP server |✔️|✔️|✔️|
 || [Marketplace](/en/docs/development/marketplace) |✔️|✔️|✔️|
 || [SSL Let's Encrypt](/en/docs/web-hosting/sites/ssl-tls/lets-encrypt)  |✔️|✔️|✔️|
-|| [HTTP cache](/en/docs/web-hosting/sites/http-cache) |✔️|✔️|✔️|
-|| [WAF](/en/docs/web-hosting/sites/waf) |✔️|✔️|✔️|
+|| [HTTP cache](/en/docs/web-hosting/sites/customizing/http-cache) |✔️|✔️|✔️|
+|| [WAF](/en/docs/web-hosting/sites/customizing/waf) |✔️|✔️|✔️|
 || [Analytics](/en/docs/web-hosting/analytics)  |✔️|✔️|✔️|
-|| [Monitoring probes](/en/docs/web-hosting/sites/use-probes) |❌|✔️|✔️|
+|| [Monitoring probes](/en/docs/web-hosting/sites/customizing/use-probes) |❌|✔️|✔️|
 || Optimization tips |❌|✔️|✔️|
 | Languages | [PHP](/en/docs/web-hosting/languages/php) |✔️|✔️|✔️|
 || [Python](/en/docs/web-hosting/languages/python) |✔️|✔️|✔️|
@@ -56,9 +57,9 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [ElasticSearch](/en/docs/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|
-|| [Filtering via Sieve](/en/docs/e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|
+|| [Filtering via Sieve](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|
 || [Mailing-lists](/en/docs/e-mails/mailing-lists) |✔️|✔️|✔️|
-|| [SMTP queue](/en/docs/e-mails/smtp-queue) |❌|✔️|✔️|
+|| [SMTP queue](/en/docs/e-mails/outgoing-e-mails/smtp-queue) |❌|✔️|✔️|
 || SMTP relay |❌|✔️|✔️|
 | Remote access | [FTP](/en/docs/web-hosting/remote-access/ftp) |✔️|✔️|✔️|
 || [SFTP](/en/docs/web-hosting/remote-access/sftp) |✔️|✔️|✔️|

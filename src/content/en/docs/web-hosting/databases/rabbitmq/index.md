@@ -3,6 +3,7 @@ title: RabbitMQ
 eleventyNavigation:
   key: RabbitMQ
   parent: Databases
+  order: 3
 ---
 
 ## Supported versions

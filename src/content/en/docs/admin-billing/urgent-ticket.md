@@ -3,6 +3,7 @@ title: Urgent Ticket
 eleventyNavigation:
   key: Urgent Ticket
   parent: Administration & Billing
+  order: 7
 ---
 
 Opening an urgent ticket, reserved for customers with a Dedicated/Gold server will immediately trigger taking charge by an engineer 24/7.

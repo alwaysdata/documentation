@@ -1,8 +1,9 @@
 ---
 title: Miscellaneous Questions
 eleventyNavigation:
-  key: Miscellaneous Questions
+  key: Administration - Miscellaneous Questions
   parent: Administration & Billing
+  order: 99
 ---
 
 ## Automatic deletion cycle

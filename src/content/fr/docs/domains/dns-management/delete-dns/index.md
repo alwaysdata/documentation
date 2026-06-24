@@ -4,6 +4,7 @@ title: Supprimer un enregistrement DNS
 eleventyNavigation:
   key: Supprimer un enregistrement
   parent: Gestion DNS
+  order: 4
 ---
 
 1. Allez dans **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;

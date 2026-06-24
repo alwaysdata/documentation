@@ -3,6 +3,7 @@ title: 2024 Software Architecture
 eleventyNavigation:
   key: 2024 Software Architecture
   parent: Migrations
+  order: 92
 ---
 
 ## Major Changes
@@ -118,7 +119,7 @@ The operating system is being upgraded from *Debian 10 (Buster)* to *Debian 12 (
 ## Miscellaneous
 
 * The `composer` command now runs **Composer** 2. You can start Composer 1 with the `composer1` command.
-* The [default HTTP log format](/en/docs/web-hosting/sites/formatting-http-logs) is now the **Advanced** format.
+* The [default HTTP log format](/en/docs/web-hosting/sites/customizing/formatting-http-logs) is now the **Advanced** format.
 * Sites of type **Transparent Redirect** are converted to **Reverse Proxy**.
 * The IP 185.31.40.10 is an old, deprecated IP and will be removed.
 

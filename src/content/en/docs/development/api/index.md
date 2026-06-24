@@ -3,6 +3,7 @@ title: API
 eleventyNavigation:
   key: API
   parent: Development
+  order: 1
 ---
 
 An [API](https://en.wikipedia.org/wiki/Application_programming_interface) (or Application Programming Interface) is a programming interface used to automate how you manage your resources.

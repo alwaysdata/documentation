@@ -3,6 +3,7 @@ title: Redis
 eleventyNavigation:
   key: Redis
   parent: Databases
+  order: 7
 ---
 
 ## Connection

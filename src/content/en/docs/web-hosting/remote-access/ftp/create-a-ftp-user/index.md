@@ -3,6 +3,7 @@ title: Creating an FTP User
 eleventyNavigation:
   key: Creating an FTP User
   parent: FTP
+  order: 1
 ---
 
 To connect to your account using *FTP*, you need to have a user. By default, a user with your *account* name was created with the account. You can create as many FTP users as you wish and you can administer them from your administration interface, from the **Remote access > FTP** tab.

@@ -3,6 +3,7 @@ title: Uploading Files with FileZilla
 eleventyNavigation:
   key: Uploading Files with FileZilla
   parent: FTP
+  order: 5
 ---
 
 [Connection information reminder](/en/docs/web-hosting/remote-access/ftp#connecting-with-ftp)

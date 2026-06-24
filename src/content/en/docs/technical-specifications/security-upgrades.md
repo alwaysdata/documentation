@@ -3,6 +3,7 @@ title: Security Upgrades
 eleventyNavigation:
   key: Security Upgrades
   parent: Technical Specifications
+  order: 9
 ---
 
 Minor upgrades are regular, and even immediate (< 24 hours) when a severe security flaw is published. As all stable Linux distributions operate, **security patches are applied without changing the version number**.

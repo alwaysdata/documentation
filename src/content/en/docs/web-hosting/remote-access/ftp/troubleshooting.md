@@ -3,6 +3,7 @@ title: FTP Troubleshooting
 eleventyNavigation:
   key: FTP Troubleshooting
   parent: FTP
+  order: 9
 ---
 
 ## Connection

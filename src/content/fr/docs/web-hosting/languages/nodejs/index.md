@@ -4,6 +4,7 @@ title: Node.js
 eleventyNavigation:
   key: Node.js
   parent: Langages
+  order: 1
 ---
 
 Le fonctionnement de [Node.js](https://nodejs.org/) chez alwaysdata est très standard. Si vous avez l'habitude d'utiliser Node.js sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.

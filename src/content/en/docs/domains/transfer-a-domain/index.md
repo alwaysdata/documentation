@@ -3,6 +3,7 @@ title: Transferring a Domain
 eleventyNavigation:
   key: Transferring a Domain
   parent: Domains
+  order: 2
 ---
 
 This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.
@@ -73,7 +74,7 @@ The IPS Tag asked by [Nominet](https://registrars.nominet.uk/) - registry of `.u
 
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
 
-  - updating your [DNS records](/en/docs/domains/add-dns) if you use other servers for certain services,
+  - updating your [DNS records](/en/docs/domains/dns-management/add-dns) if you use other servers for certain services,
   - creating the [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address).
 
 Regarding the website, there are a number of possible choices:

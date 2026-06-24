@@ -3,6 +3,7 @@ title: Redis
 eleventyNavigation:
   key: Redis
   parent: Guides
+  order: 1
 ---
 
 [Redis](https://redis.io/) is an in-memory data structure store.

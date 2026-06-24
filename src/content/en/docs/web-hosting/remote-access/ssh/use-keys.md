@@ -3,6 +3,7 @@ title: Using SSH Keys
 eleventyNavigation:
   key: Using SSH Keys
   parent: SSH
+  order: 2
 ---
 
 Connecting in SSH mode with its public key (with or rather than use the connection via password) offers some advantages: enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH account with a public key.

@@ -3,6 +3,7 @@ title: Create a Mailing List
 eleventyNavigation:
   key: Create a Mailing List
   parent: Mailing Lists
+  order: 1
 ---
 
 To create a mailing list, login to the administration interface, menu **Emails > Mailing-lists**.

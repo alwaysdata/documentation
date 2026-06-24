@@ -3,6 +3,7 @@ title: Configuring PHP
 eleventyNavigation:
   key: Configuring PHP
   parent: PHP
+  order: 1
 ---
 
 ## Supported versions

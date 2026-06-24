@@ -4,6 +4,7 @@ title: Joomla
 eleventyNavigation:
   key: Joomla
   parent: Marketplace
+  order: 2
 ---
 
 ## Problèmes courants

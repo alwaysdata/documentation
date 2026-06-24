@@ -3,6 +3,7 @@ title: Add a PHP Library
 eleventyNavigation:
   key: Add a PHP Library
   parent: PHP
+  order: 2
 ---
 
 Editing a file in `/etc/ld.so.conf.d` changes the overall system configuration, which is not compatible with the alwaysdata infrastructure.

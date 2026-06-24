@@ -4,6 +4,7 @@ title: Modifier les permissions d'une liste de diffusion
 eleventyNavigation:
   key: Modifier les permissions d'une liste de diffusion
   parent: Listes de diffusion
+  order: 3
 ---
 
 Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).

@@ -4,6 +4,7 @@ title: Restaurer un site
 eleventyNavigation:
   key: Restaurer un site
   parent: Sauvegardes
+  order: 1
 ---
 
 Les sauvegardes de vos fichiers et bases de données se trouvent dans le répertoire `/home/[compte]/admin/backup` de votre compte. Vous pouvez les restaurer via le menu **Avancé > Restauration de sauvegardes**.

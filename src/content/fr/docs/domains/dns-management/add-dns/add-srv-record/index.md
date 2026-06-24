@@ -4,6 +4,7 @@ title: Ajouter un enregistrement SRV
 eleventyNavigation:
   key: Ajouter un enregistrement SRV
   parent: Ajouter un enregistrement DNS
+  order: 3
 ---
 
 Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service) définit l'emplacement de services précis.

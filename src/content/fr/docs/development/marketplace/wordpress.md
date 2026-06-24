@@ -4,6 +4,7 @@ title: WordPress
 eleventyNavigation:
   key: WordPress
   parent: Marketplace
+  order: 2
 ---
 
 - [Activer le cache HTTP sur WordPress](/fr/docs/hebergement-web/sites/personnalisation/activer-le-cache-http-sur-wordpress/)

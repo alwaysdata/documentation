@@ -3,6 +3,7 @@ title: Services
 eleventyNavigation:
   key: Services
   parent: Web Hosting
+  order: 5
 ---
 
 You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.

@@ -3,6 +3,7 @@ title: Generating a CSR
 eleventyNavigation:
   key: Generating a CSR
   parent: SSL/TLS
+  order: 3
 ---
 
 When purchasing a certificate, you will be asked for a CSR or [Certificate Signing Request](https://en.wikipedia.org/wiki/Certificate_signing_request).

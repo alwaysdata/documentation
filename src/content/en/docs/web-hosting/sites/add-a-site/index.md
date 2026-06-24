@@ -3,6 +3,7 @@ title: Adding a Site
 eleventyNavigation:
   key: Adding a Site
   parent: Websites
+  order: 1
 ---
 
 Go to the **Web > Sites > Add a site** menu.
@@ -16,7 +17,7 @@ Go to the **Web > Sites > Add a site** menu.
 ## Addresses
 Adding all the addresses in this menu is **mandatory** to access them as sites:
 - for example, to access a website on *www\.example.org* and *example.org* both addresses must be added,
-- entering your domain in the **Domains** menu is not enough either. Even for a domain using our [DNS servers](/en/docs/domains/#dns-management).
+- entering your domain in the **Domains** menu is not enough either. Even for a domain using our [DNS servers](/en/docs/domains/dns-management).
 
 Also, if the domain does not use our DNS servers, you will need to [create DNS records](/en/docs/web-hosting/sites/use-external-addresses) with the DNS provider.
 
@@ -40,11 +41,11 @@ Specific to every type of site:
 - [Deno](/en/docs/web-hosting/languages/deno),
 - [.NET](/en/docs/web-hosting/languages/dotnet),
 - [Java](/en/docs/web-hosting/languages/java),
-- [Redirect](/en/docs/web-hosting/sites/redirect),
+- [Redirect](/en/docs/web-hosting/sites/http-servers/redirect),
 - Reverse proxy: sets up a reverse proxy to a URL,
-- [Static files](/en/docs/web-hosting/sites/static-files): to manage sites or static files,
-- [Custom Apache](/en/docs/web-hosting/sites/apache-custom): to fully configure your Apache server,
-- [User program](/en/docs/web-hosting/sites/user-program): to run any web server.
+- [Static files](/en/docs/web-hosting/sites/http-servers/static-files): to manage sites or static files,
+- [Custom Apache](/en/docs/web-hosting/sites/http-servers/apache-custom): to fully configure your Apache server,
+- [User program](/en/docs/web-hosting/sites/http-servers/user-program): to run any web server.
 
 PHP, Static Files and Custom Apache websites are served by [Apache](https://httpd.apache.org/). Python WSGI, Ruby Rack and Ruby on Rails <= 2.x use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
@@ -54,15 +55,15 @@ See [SSL](/en/docs/web-hosting/sites/ssl-tls/redirect-http-to-https).
 
 ## WAF
 ![Configure the Web Application Direwall](images/admin-panel_add-site-waf.png)
-See [WAF](/en/docs/web-hosting/sites/waf).
+See [WAF](/en/docs/web-hosting/sites/customizing/waf).
 
 ## Cache
 ![Set up the HTTP cache](images/admin-panel_add-site-cache.png)
-See [Cache](/en/docs/web-hosting/sites/http-cache).
+See [Cache](/en/docs/web-hosting/sites/customizing/http-cache).
 
 ## Logs
 ![Customize HTTP logs](images/admin-panel_add-site-logs.png)
-See [Logs](/en/docs/web-hosting/sites/formatting-http-logs).
+See [Logs](/en/docs/web-hosting/sites/customizing/formatting-http-logs).
 
 ## Advanced
 ![](images/admin-panel_add-site-advanced.png)

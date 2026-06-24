@@ -4,6 +4,7 @@ title: Dates limites de renouvellement
 eleventyNavigation:
   key: Dates limites de renouvellement
   parent: Renouveler un domaine
+  order: 1
 ---
 
 Différentes dates existent :
