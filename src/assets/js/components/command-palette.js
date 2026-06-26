@@ -261,7 +261,7 @@ export class CommandPalette extends HTMLElement {
     try {
       const filters = [];
       const filterElements = this.filters.querySelectorAll(
-        ".search-filter:checked",
+        ".search-filter input:checked",
       );
       filterElements.forEach((item) => {
         filters.push(item.name);
@@ -272,6 +272,7 @@ export class CommandPalette extends HTMLElement {
           section: { any: filters },
         },
       });
+      this.renderFilters(search.totalFilters);
 
       // Load result data (limit to 10 results)
       const results = await Promise.all(
@@ -352,26 +353,38 @@ export class CommandPalette extends HTMLElement {
   }
 
   renderFilters(filters) {
-    let filters_list = `<span class="filter-label">${translations.search.filters[locale]}</span>`;
-    let index = 0;
+    const filterLabel = document.querySelector(".filter-label");
 
-    for (const item in filters.section) {
-      index++;
-      filters_list += `<label class="search-filter"><input type="checkbox" name="${item}"/>${item} <span class="filter-count">(${filters.section[item]})</span></label>`;
+    if (!filterLabel) {
+      // Create filters
+      let filters_list = `<span class="filter-label">${translations.search.filters[locale]}</span>`;
+
+      for (const item in filters.section) {
+        filters_list += `<label class="search-filter"><input type="checkbox" name="${item}"/>${item} <span class="filter-count" data-section="${item}">(${filters.section[item]})</span></label>`;
+      }
+      this.filters.innerHTML = `
+        ${filters_list}
+      `;
+
+      function handleChange() {
+        const query = this.input.value;
+        if (query) this.debounceSearch(query);
+      }
+
+      // Search filters events
+      this.filters.querySelectorAll(".search-filter").forEach((filter) => {
+        filter.addEventListener("change", handleChange.bind(this));
+      });
+    } else {
+      // Update filter counts
+      const filterCounts = document.querySelectorAll(".filter-count");
+      for (const item in filters.section) {
+        filterCounts.forEach((count) => {
+          if (count.dataset.section === item)
+            count.textContent = filters.section[item];
+        });
+      }
     }
-    this.filters.innerHTML = `
-      ${filters_list}
-    `;
-
-    function handleChange() {
-      const query = this.input.value;
-      if (query) this.debounceSearch(query);
-    }
-
-    // Search filters events
-    this.filters.querySelectorAll(".search-filter").forEach((filter) => {
-      filter.addEventListener("change", handleChange.bind(this));
-    });
   }
 
   renderResults(results, query) {
