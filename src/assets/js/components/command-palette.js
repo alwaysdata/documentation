@@ -269,7 +269,7 @@ export class CommandPalette extends HTMLElement {
       this.renderLoading();
       const search = await this.pagefind.search(query, {
         filters: {
-          tag: { any: filters },
+          section: { any: filters },
         },
       });
 
@@ -355,9 +355,9 @@ export class CommandPalette extends HTMLElement {
     let filters_list = `<span class="filter-label">${translations.search.filters[locale]}</span>`;
     let index = 0;
 
-    for (const item in filters.tag) {
+    for (const item in filters.section) {
       index++;
-      filters_list += `<label class="search-filter"><input type="checkbox" name="${item}"/>${item} <span class="filter-count">(${filters.tag[item]})</span></label>`;
+      filters_list += `<label class="search-filter"><input type="checkbox" name="${item}"/>${item} <span class="filter-count">(${filters.section[item]})</span></label>`;
     }
     this.filters.innerHTML = `
       ${filters_list}

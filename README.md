@@ -34,6 +34,10 @@ npm run dev
 npm run build
 ```
 
+> [!WARNING]
+> The task `npm run dev` runs a NodeJS http-server but it doesn't understand the `.htaccess` file (Apache server only) which contains a redirection from the root `http://localhost:8080` to `/fr/` or `/en/`.
+> So expect an empty (404) root page then go manually to `/fr/` or `/en/`
+
 ## Requirements
 
 - Node.js 24+ (see `.nvmrc`)
