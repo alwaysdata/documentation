@@ -12,7 +12,7 @@ eleventyNavigation:
 Les contrats sont accessibles via le menu **Abonnements > Contrats**. Vous aurez accès à la dernière version validée, ainsi que les contrats à valider.
 
 ## Souscrire à un plan Cloud Privé
-Pour souscrire à une offre du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), contactez-nous par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/) ou [téléphone](tel:+33184162340), nous vous guiderons sur la démarche à suivre.
+Pour souscrire à une offre du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), contactez-nous par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/contact/) ou [téléphone](tel:+33184162340), nous vous guiderons sur la démarche à suivre.
 
 Il n'y a pas de frais d'installation mais un engagement minimum de 3 mois sera demandé lors de l'achat d'un serveur Dédié/Gold. Si vous ne souhaitez pas de cet engagement, le prix du serveur sera majoré de 20 % lors des 3 premiers mois.
 
@@ -37,4 +37,4 @@ Les factures sont émises à la livraison d'un service. Nous pouvons cependant �
 Aucun remboursement n'aura lieu lors de la suppression d'un compte ou le décommissionnement d'un serveur avant son échéance.
 
 ## Process spéciaux de facturation
-Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add/) ou notre [équipe commerciale](https://www.alwaysdata.com/fr/).
+Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add/) ou notre [équipe commerciale](https://www.alwaysdata.com/fr/contact/).

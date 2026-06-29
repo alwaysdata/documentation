@@ -38,7 +38,7 @@ To simplify the method while ensuring appropriate compensation, some data points
 
 ### Calcul
 
-```python
+```txt
 # Data for calculation
 servers = 45            # Servers added in 2025
 kVA = 32                # Power consumption in kVA

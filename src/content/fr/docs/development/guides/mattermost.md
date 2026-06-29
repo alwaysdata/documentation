@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-[Mattermost](https://mattermost.com) est un logiciel de messagerie instantané.
+[Mattermost](https://mattermost.com) est un logiciel de messagerie instantanée.
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 
@@ -31,7 +31,7 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 
 ## Configuration
 
-Une base de données et son utilisateur devront être créés dans le menu **Bases de données**. Ici nous les créons pour qu'il soient de la forme `[compte]_mattermost`.
+Une base de données et son utilisateur devront être créés dans le menu **Bases de données**. Ici nous les créons pour qu'ils soient de la forme `[compte]_mattermost`.
 
 Modifiez le fichier `/home/[compte]/mattermost/config/config.json` pour indiquer :
 

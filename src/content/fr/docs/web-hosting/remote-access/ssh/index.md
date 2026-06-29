@@ -59,7 +59,7 @@ Attention, cette solution peu fiable et lente ne remplace pas un client SSH.
 
 Les *fingerprints* de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH/SFTP** de votre interface d’administration.
 
-Les processus en cours sont accessible via le menu **Avancé > Processus > SSH**.
+Les processus en cours sont accessibles via le menu **Avancé > Processus > SSH**.
 
 Les utilisateurs SSH ne sont pas `chroot`. Même si le répertoire racine de l'utilisateur n'est pas la racine du compte, il pourra accéder au compte entier. Pour utiliser `chroot` tournez-vous vers [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou [FTP](/fr/docs/hebergement-web/acces-distant/ftp/).
 

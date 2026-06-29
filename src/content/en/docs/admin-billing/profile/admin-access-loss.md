@@ -10,7 +10,7 @@ Here's how to proceed when you lose access to [our administration interface](htt
 
 ## Forgot Password
 
-Visit https://admin.alwaysdata.com/password/lost/ to reset your password.
+Visit [https://admin.alwaysdata.com/password/lost/](https://admin.alwaysdata.com/password/lost/) to reset your password.
 
 ## Forgot Email Address / Loss of Access to the Authenticating Email Address
 

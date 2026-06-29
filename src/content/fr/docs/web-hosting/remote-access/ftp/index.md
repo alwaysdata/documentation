@@ -36,7 +36,7 @@ Il est possible de créer des fichiers [.ftpaccess](http://www.proftpd.org/docs/
 
 Créez un `.ftpaccess` à la racine du dossier avec la directive suivante :
 
-```sh
+```txt
 <Limit WRITE>
 DenyUser [utilisateur FTP]
 </Limit>

@@ -14,9 +14,6 @@ Each email address has its own address book and calendar. Users can access and m
 |CalDAV (calendar)|caldav-[account].alwaysdata.net|
 ||Identifier: **email address** and its **password**|
  
-> [!NOTE]
-> You need to replace `[account]` with the name of your account, the one chosen when it was created.
- 
 Sharing is *not* available.
  
 ## Webmail

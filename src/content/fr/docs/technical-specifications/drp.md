@@ -13,11 +13,9 @@ Ces garanties *ne sont pas* optionnelles : elles sont embarquées par défaut da
 
 ## Données & Sauvegardes
 
-Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](/fr/docs/hebergement-web/sauvegardes/), elles sont conservées jusqu'à 30 jours glissants.
-
 ### Mes données sont-elles sauvegardées ?
 
-Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. Elles sont conservées pendant 30 jours glissants.
+Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](/fr/docs/hebergement-web/sauvegardes/), elles sont conservées jusqu'à 30 jours glissants.
 
 ### Quelles données sont concernées ?
 
@@ -59,7 +57,7 @@ Nous opérons nous-même notre réseau au sein des datacenters.
 
 Notre accès Internet est garanti par quatre fournisseurs d'accès indépendants.
 
-Nous sommes également membres du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgp.tools/as/60362), et de nos propres plages d'IP.
+Nous sommes également membre du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgp.tools/as/60362), et de nos propres plages d'IP.
 
 ## Infrastructure matérielle
 

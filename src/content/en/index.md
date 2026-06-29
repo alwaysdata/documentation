@@ -3,7 +3,7 @@ title: Documentation
 banner: true
 ---
 
-Not yet a customer? [Sign-up](https://www.alwaysdata.com/en/register/) on our platform. Questions? Need a quote? Contact our [sales department](https://www.alwaysdata.com/en/).
+Not yet a customer? [Sign-up](https://www.alwaysdata.com/en/register/) on our platform. Questions? Need a quote? Contact our [sales department](https://www.alwaysdata.com/en/contact/).
 
 Interested in the adventures of a technical team? Come take a look [under the hood](/en/blog/).
 

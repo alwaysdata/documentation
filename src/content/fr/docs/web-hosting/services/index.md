@@ -40,7 +40,7 @@ $ nc -z services-[compte].alwaysdata.net 8300
 
 Pour les utilisateurs du [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) :
 
-- Les services sont exécutés sur des serveurs distinct des serveurs SSH et HTTP ;
+- Les services sont exécutés sur des serveurs distincts des serveurs SSH et HTTP ;
 - La consommation doit rester raisonnable ;
 - Les services ne seront pas joignables en IPv4, uniquement en IPv6.
 

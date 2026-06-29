@@ -33,7 +33,7 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Méthode d'authentification|Mot de passe normal|
 
 > [!TIP] Astuce
-> *[compte]* doit être remplacé par le nom de votre compte et *contact\@example.org* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
+> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
 
 
 ## MacOS : application Mail

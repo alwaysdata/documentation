@@ -11,7 +11,7 @@ Voici comment procéder lorsque vous perdez vos accès à [notre interface d'adm
 
 ## Oubli du mot de passe
 
-Rendez-vous sur https://admin.alwaysdata.com/password/lost/ pour réinitialiser votre mot de passe.
+Rendez-vous sur [https://admin.alwaysdata.com/password/lost/](https://admin.alwaysdata.com/password/lost/) pour réinitialiser votre mot de passe.
 
 ## Oubli de l'adresse email/Perte d'accès à l'adresse email authentifiante
 

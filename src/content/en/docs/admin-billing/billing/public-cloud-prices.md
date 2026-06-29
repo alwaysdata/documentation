@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 3
 ---
 
-This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/).
+This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/contact/).
 
 * Guaranteed Response Time (GRT): 1hr
 * Mean Time To Repair (MTTR): 4hr

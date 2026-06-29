@@ -33,7 +33,7 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > WebDAV** d
 ### Avec macOS
 
 1. Dans le **Finder**, choisissez _Aller > Se connecter au serveur_ ;
-2. Dans le champ _Adresse du serveur_, entrez `http://webdav-[compte].alwaysdata.net/` ;
+2. Dans le champ _Adresse du serveur_, entrez `https://webdav-[compte].alwaysdata.net/` ;
 3. Cliquez sur _Se connecter_.
 
 ### Avec davfs2 (Linux)

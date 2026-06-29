@@ -3,7 +3,7 @@ title: Documentation
 banner: true
 ---
 
-Vous n'êtes pas encore client ? [Inscrivez-vous](https://www.alwaysdata.com/fr/inscription/) sur notre plateforme. Des questions, besoin d'un devis ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/).
+Vous n'êtes pas encore client ? [Inscrivez-vous](https://www.alwaysdata.com/fr/inscription/) sur notre plateforme. Des questions, besoin d'un devis ? Contactez notre [service commercial](https://www.alwaysdata.com/fr/contact/).
 
 Intéressé par les tribulations d'une équipe technique ? Rendez-vous [sous le capot](/fr/blog/).
 
@@ -23,7 +23,7 @@ Un problème ? Contactez notre [support](https://admin.alwaysdata.com/support/ad
 > [!NOTE]
 Chaque fois que vous rencontrez `[compte]`, vous pouvez le remplacer manuellement par le nom de compte de votre choix ou bien vous pouvez utiliser [notre outil de personnalisation d'interface](/fr/custom/) pour le faire automatiquement pour vous.
 
-> [!TIP]
+> [!TIP] Astuce
 Toute publication sur Internet comporte des [obligations légales](/fr/docs/hebergement-web/sites/obligations-legales-sur-internet), prenez-en connaissance avant de mettre en ligne vos contenus.
 
 - [Terminologie](/fr/docs/admin-facturation/terminologie)

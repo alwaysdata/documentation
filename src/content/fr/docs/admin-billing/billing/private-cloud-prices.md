@@ -49,6 +49,7 @@ Voici une liste *non exhaustive* d'options matérielles :
     - SSD 7.6 To NVMe • RAID1
     - SSD 15 To NVMe • RAID1
 - **RAM**
+    - 32 Go
     - 64 Go
     - 128 Go
     - 256 Go

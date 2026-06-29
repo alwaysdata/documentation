@@ -36,7 +36,7 @@ These users can be configured in the **Remote access > WebDAV** tab in your alwa
 
 1.  From the **Finder**, choose *Go > Connect to server*,
 
-2.  From the *Server address* field, enter `http://webdav-[account].alwaysdata.net/` ;
+2.  From the *Server address* field, enter `https://webdav-[account].alwaysdata.net/` ;
 
 3.  Click on *Connect*.
 

@@ -17,6 +17,6 @@ Les listes de diffusions (*mailing lists*) vous permettent de définir un *pool*
 
 ## Connexion
 
-La création / modification / suppression des listes de diffusion se fait depuis l'interface d'administration : https://admin.alwaysdata.com/mailinglist/.
+La création / modification / suppression des listes de diffusion se fait depuis l'interface d'administration : [https://admin.alwaysdata.com/mailinglist/](https://admin.alwaysdata.com/mailinglist/).
 
-La gestion interne des listes de diffusions (membres, permissions, etc), se fait depuis l'interface d'administration Postorius : https://mailman.alwaysdata.com/.
+La gestion interne des listes de diffusions (membres, permissions, etc), se fait depuis l'interface d'administration Postorius : [https://mailman.alwaysdata.com/](https://mailman.alwaysdata.com/).

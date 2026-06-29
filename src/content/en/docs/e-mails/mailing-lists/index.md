@@ -16,6 +16,6 @@ Mailing lists allow you to define a *pool* of email addresses to which to send a
 
 ## Connection
 
-The creation/modification/deletion of mailing lists is done from the administration panel: https://admin.alwaysdata.com/mailinglist/.
+The creation/modification/deletion of mailing lists is done from the administration panel: [https://admin.alwaysdata.com/mailinglist/](https://admin.alwaysdata.com/mailinglist/).
 
-The internal management of the mailing lists (members, permissions, etc) is done from the Postorius administration interface: https://mailman.alwaysdata.com/.
+The internal management of the mailing lists (members, permissions, etc) is done from the Postorius administration interface: [https://mailman.alwaysdata.com/](https://mailman.alwaysdata.com/).

@@ -36,7 +36,7 @@ It is possible to create [.ftpaccess](http://www.proftpd.org/docs/howto/ftpacces
 
 Create a `.ftpaccess` at the root of the file with the following directive:
 
-```sh
+```txt
 <Limit WRITE>
 DenyUser [utilisateur FTP]
 </Limit>

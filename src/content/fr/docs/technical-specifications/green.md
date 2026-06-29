@@ -40,7 +40,7 @@ Afin de simplifier la méthode, mais également de compenser dans le bon sens, c
 
 ### Calcul
 
-```python
+```txt
 # Données pour le calcul
 serveurs = 45           # Serveurs arrivés en 2025
 kVA = 32                # Consommation en kVA

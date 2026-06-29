@@ -34,8 +34,8 @@ eleventyNavigation:
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 
-
-*`[compte]`* doit être remplacé par le nom de votre compte et *`contact@example.org`* par votre adresse email. Ils sont définis dans le menu **Emails > Adresses** de notre interface d'administration.
+> [!TIP] Astuce
+> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
 
 ## Captures d'écran
 

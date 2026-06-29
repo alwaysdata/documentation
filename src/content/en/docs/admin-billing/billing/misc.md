@@ -12,7 +12,7 @@ Contracts are accessible via the **Subscriptions > Contracts** menu. You will ha
 
 ## Signing up for a Private Cloud plan
 
-To sign up to a [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) offer, contact us by [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/en/) or [phone](tel:+33184162340) and we will guide through the various steps.
+To sign up to a [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) offer, contact us by [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/en/contact/) or [phone](tel:+33184162340) and we will guide through the various steps.
 
 There are no installation charges but a minimum three month commitment is required when purchasing a Dedicated/Gold server. If the purchaser does not wish to make this commitment, the server price will be increased by 20% during the first three months.
 
@@ -42,4 +42,4 @@ No refund will be made when an account is deleted or a server decommissioned bef
 
 ## Billing special processes
 
-Contact our [support](https://admin.alwaysdata.com/support/add) if you are already an alwaysdata user or our [sales team](https://www.alwaysdata.com/en/).
+Contact our [support](https://admin.alwaysdata.com/support/add) if you are already an alwaysdata user or our [sales team](https://www.alwaysdata.com/en/contact/).

@@ -33,7 +33,8 @@ eleventyNavigation:
 |||Username|Your email address - for example *contact\@example.org*|
 |||Password|The password of your email address|
 
-*`[account]`* must be replaced by the name of your account and *`contact@example.org`* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+> [!TIP]
+> Replace *contact\@example.org* by your email address. It is defined in the **Emails > Addresses** menu of our administration interface.
 
 ## Screenshots
 

@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-`APIKEY`, `1234` ou encore `[compte]` sont à remplacer par vos valeurs propres.
+`APIKEY`, `1234` ou encore `[compte]` sont à remplacer par vos propres valeurs.
 
 ## Redémarrer un site
 

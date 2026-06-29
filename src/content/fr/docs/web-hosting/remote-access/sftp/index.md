@@ -15,7 +15,7 @@ Dans **Accès distant > SSH/SFTP** autorisez la *connexion par mot de passe* à 
 
 ![](images/admin-panel_ssh-users-list.png)
 
-Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte *test* et du client FTP [FileZilla](https://filezilla-project.org/) :
+Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons l'exemple du compte `[compte]` et du client FTP [FileZilla](https://filezilla-project.org/) :
 
 * utilisateur : `[compte]`
 * mot de passe
@@ -26,6 +26,6 @@ Puis renseignez dans votre client FTP les informations de connexion SSH. Prenons
 
 ## Divers
 
-Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`. Ce shell ne permet d'accéder aux répertoires `/home/[compte]/admin/mail` et `/home/[compte]/admin/backup`.
+Les utilisateurs choisissant le shell **SFTP uniquement** sont `chroot`. Ce shell ne permet pas d'accéder aux répertoires `/home/[compte]/admin/mail` et `/home/[compte]/admin/backup`.
 
 Il ne doit pas être confondu avec le protocole [FTPS](/fr/docs/hebergement-web/acces-distant/ftp/) : transfert FTP sécurisé par les protocoles SSL ou TLS.

@@ -27,7 +27,7 @@ They must be replaced by your personal login information:
 ||||Secured connection|
 
 > [!TIP]
-> *[account]* must be replaced by the name of your account and *contact\@example.org* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+> Replace *contact\@example.org* by your email address. It is defined in the **Emails > Addresses** menu of our administration interface.
 
 
 ## Web browser

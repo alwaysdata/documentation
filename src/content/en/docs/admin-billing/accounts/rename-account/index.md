@@ -9,8 +9,7 @@ eleventyNavigation:
 If the name of an account is no longer appropriate (name change, spelling error, etc.), you can change it.
 
 > [!WARNING]
-This is an **advanced** feature. Renaming an account changes many elements: default addresses, hostnames to different services, databases, users, root directory path...
-
+This is an **advanced** feature. Renaming an account changes many elements: default addresses, hostnames to different services, databases, users, root directory path…  
 > As a result, you'll *certainly* have to make configuration changes in your applications, and this can make services *temporarily unavailable*.
 
 
