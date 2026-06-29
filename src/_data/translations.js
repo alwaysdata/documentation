@@ -9,6 +9,22 @@ export default {
       fr: "Suivant",
     },
   },
+  toc: {
+    page: {
+      en: "On this page",
+      fr: "Sur cette page",
+    },
+  },
+  source: {
+    edit: {
+      en: "Edit this page",
+      fr: "Éditer cette page",
+    },
+    view: {
+      en: "View source",
+      fr: "Voir les sources",
+    },
+  },
   search: {
     quickPlaceholder: {
       en: "Quick search…",

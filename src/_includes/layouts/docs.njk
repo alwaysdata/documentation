@@ -37,14 +37,14 @@ banner: true
                                rel="noopener"
                                class="inline-flex items-center gap-1.5 text-slate-500 no-underline hover:text-slate-700 dark:text-neutral-400 dark:hover:text-neutral-200">
                                 {% phosphor "pencil-simple", "regular", { size: 16 } %}
-                                Edit this page
+                                {{ 'source.edit' | i18n }}
                             </a>
                             <a href="{{ rawUrl }}"
                                target="_blank"
                                rel="noopener"
                                class="inline-flex items-center gap-1.5 text-slate-500 no-underline hover:text-slate-700 dark:text-neutral-400 dark:hover:text-neutral-200">
                                 {% phosphor "file-text", "regular", { size: 16 } %}
-                                View source
+                                {{ 'source.view' | i18n }}
                             </a>
                         </div>
                     {% endif %}
@@ -76,7 +76,7 @@ banner: true
             {% if tocMarkup %}
                 <nav id="toc" class="toc sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto overflow-x-hidden py-10">
                     <h5 class="mb-4 text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-neutral-100">
-                        On this page
+                      {{ 'toc.page' | i18n }}
                     </h5>
                     {{ tocMarkup | safe }}
                 </nav>
@@ -93,7 +93,7 @@ banner: true
     <aside id="mobile-toc"
            class="fixed inset-x-0 bottom-14 z-[60] hidden max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 dark:bg-neutral-950 lg:hidden">
         <div class="sticky top-0 flex items-center justify-between border-b border-slate-900/10 bg-white px-4 py-3 dark:border-neutral-50/5 dark:bg-neutral-950">
-            <h5 class="text-sm font-semibold text-slate-900 dark:text-neutral-100">On this page</h5>
+            <h5 class="text-sm font-semibold text-slate-900 dark:text-neutral-100">{{ 'toc.page' | i18n }}</h5>
             <button type="button"
                     id="mobile-toc-close"
                     class="flex h-8 w-8 items-center justify-center rounded-md text-slate-500 hover:text-slate-600 dark:text-neutral-400 dark:hover:text-neutral-300"
