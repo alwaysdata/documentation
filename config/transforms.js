@@ -4,7 +4,6 @@
  */
 import { minify as minifyHTML } from "html-minifier-terser";
 import { parseHTML } from "linkedom";
-import jsYaml from "js-yaml";
 
 export default function (eleventyConfig) {
   // Wrap tables in <table-saw> for responsive tables
