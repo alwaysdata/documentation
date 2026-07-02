@@ -17,7 +17,7 @@ Nous proposons ces différentes méthodes :
 
 - Carte bancaire ;
 - PayPal ;
-- Virement bancaire : Notre compte bancaire est indiqué sur nos factures. Il faudra préciser dans la description du virement votre _numéro de client_ ou votre _numéro de facture_ dans les commentaires du virement.
+- Virement bancaire : Notre compte bancaire est indiqué sur nos factures. Il faudra préciser dans la description du virement votre _numéro de client_ dans les commentaires du virement.
 
 > [!NOTE]
 > Les alimentations de compte par _virement_ apparaîtront dans votre interface dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.

@@ -16,7 +16,7 @@ We offer the following options:
 
 - Credit card,
 - PayPal,
-- Bank transfer: our bank account details are provided on our invoices. Please include your *customer number* or *invoice number* in the transfer description.
+- Bank transfer: our bank account details are provided on our invoices. Please include your *customer number* in the transfer description.
 
 > [!NOTE]
 > Credits to your account by *bank transfer* will appear in your interface as soon as they have been processed by our team. This may take a few days.
