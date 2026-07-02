@@ -66,5 +66,5 @@ $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alw
 A limit of actions per minute (i.e. rate limit) is set:
 
 - 10 *rpm*
-- 50 *rpm* for sticky connections
+- 50 *rpm* for authenticated users
 - 250 *rpm* for *safe* methods like `GET`
