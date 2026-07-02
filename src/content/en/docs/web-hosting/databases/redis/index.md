@@ -16,7 +16,9 @@ eleventyNavigation:
 Redis only runs in local mode with isolated permissions (separate user).
 
 > [!NOTE]
-> This configuration is for the [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices). On the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) you can run it by following this [guide](/en/docs/development/guides/redis).
+> [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users may request to use Valkey instead.
+>
+> On the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) you can run it by following this [guide](/en/docs/development/guides/redis).
 
 
 ---

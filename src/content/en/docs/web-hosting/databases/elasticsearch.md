@@ -23,7 +23,7 @@ eleventyNavigation:
 Elasticsearch only runs in local mode with isolated permissions (separate user).
 
 > [!NOTE]
-> Elasticsearch is only available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) environments.
+> Elasticsearch is only available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) environments. Users may request to use OpenSearch instead.
 
 ---
 

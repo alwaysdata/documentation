@@ -53,8 +53,8 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [PostgreSQL](/en/docs/web-hosting/databases/postgresql) |✔️|✔️|✔️|
 || [RabbitMQ](/en/docs/web-hosting/databases/rabbitmq) |✔️|✔️|✔️|
 || [Memcached](/en/docs/web-hosting/databases/memcached) |❌|✔️|✔️|
-|| [Redis](/en/docs/web-hosting/databases/redis/) |❌|✔️|✔️|
-|| [ElasticSearch](/en/docs/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
+|| [Redis (or Valkey)](/en/docs/web-hosting/databases/redis/) |❌|✔️|✔️|
+|| [ElasticSearch (or OpenSearch)](/en/docs/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|
 || [Filtering via Sieve](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|
