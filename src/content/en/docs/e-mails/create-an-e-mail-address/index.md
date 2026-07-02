@@ -25,7 +25,7 @@ Then there will be a series of fields to fill-in. Here are the details.
 The antispam used to filter out undesired e-mail advertising (*spam*) is the open-source software [Rspamd](https://rspamd.com/).
 
 > [!WARNING]
-> The configurable antispam is the antispam of incoming mail. The emails leaving our servers inevitably go through a non-configurable antispam.
+> The configurable antispam is the antispam of incoming mail. All outgoing emails from our servers are required to pass through a non-configurable antispam filter.
 
 
 ![](images/admin-panel_mailbox_antispam.png)
