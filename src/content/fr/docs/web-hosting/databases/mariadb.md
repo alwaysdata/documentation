@@ -78,7 +78,7 @@ Les *events MySQL* ne sont pas supportés sur notre Cloud Public.
 
 Sur le Cloud Public, vous pouvez changer `sql_mode` par [connexion](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
-Il est possible de rajouter une restriction IP au niveau d'un utilisateur MySQL. Seule une IP ou un netmask peut être autorisé et les autres connexions seront bloquées. Dans le cas d'un netmask, seules les IPv4 sont supportées.
+Il est possible de rajouter une restriction IP au niveau d'un utilisateur MySQL. Seule une IP ou un netmask peuvent être autorisés et les autres connexions seront bloquées. Dans le cas d'un netmask, seules les IPv4 sont supportées.
 
 > [!NOTE]
 > Les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander à utiliser MySQL à la place.
