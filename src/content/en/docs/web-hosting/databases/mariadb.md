@@ -77,9 +77,10 @@ To check the MariaDB configuration use the SQL query `show variables`.
 
 In the Public Cloud, you can change `sql_mode` by [connection](https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html) (SET SESSION).
 
-> [!NOTE]
-> MariaDB is offered by default on our servers but the [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users may request to use MySQL 8.0.
+It is possible to add an IP restriction at the level of a MySQL user. Only an IP address or a netmask may be allowed, and all other connections will be blocked. In the case of a netmask, only IPv4 addresses are supported.
 
+> [!NOTE]
+> [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users may request to use MySQL instead.
 
 ---
 
