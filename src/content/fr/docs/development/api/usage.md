@@ -68,5 +68,5 @@ $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alw
 Une limite d'actions par minute est mise en place :
 
 - 10 requêtes par minute
-- 50 requêtes pour les connexions permanentes
+- 50 requêtes pour les utilisateurs authentifiés
 - 250 requêtes pour les méthodes *safe* comme `GET`

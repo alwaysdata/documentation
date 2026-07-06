@@ -37,13 +37,8 @@ Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH/SFTP**
 Ouvrez votre terminal et saisissez la commande suivante :
 
 ```ssh
-$ ssh [utilisateur]@ssh-[compte].alwaysdata.net
+$ ssh [compte]@ssh-[compte].alwaysdata.net
 ```
-
-> [!NOTE]
-> Remplacez `[utilisateur]` par le nom de votre utilisateur SSH et `ssh-[compte].alwaysdata.net` par votre nom d'hôte SSH.
-
-
 
 ### Par le web
 

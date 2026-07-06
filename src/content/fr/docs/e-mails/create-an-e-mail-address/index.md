@@ -30,7 +30,7 @@ Vous aurez un ensemble de champs à renseigner. En voici les précisions.
 L'antispam utilisé pour filtrer le courrier électronique publicitaire non souhaité (_spam_) est le logiciel libre [Rspamd](https://rspamd.com/).
 
 > [!WARNING] Attention
-> L'antispam paramétrable est l'antispam des courriers entrants. Les emails partant de nos serveurs passent obligatoirement par un antispam non-paramétrable.
+> L'antispam paramétrable est l'antispam des courriers entrants. Les emails sortants de nos serveurs passent obligatoirement par un antispam non-paramétrable.
 
 
 ![](images/admin-panel_mailbox_antispam.png)

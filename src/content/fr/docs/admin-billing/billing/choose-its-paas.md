@@ -55,8 +55,8 @@ Pour toutes ces offres le nombre de sites, domaines, bases de données, emails (
 || [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) |✔️|✔️|✔️|
 || [RabbitMQ](/fr/docs/hebergement-web/bases-de-donnees/rabbitmq/) |✔️|✔️|✔️|
 || [Memcached](/fr/docs/hebergement-web/bases-de-donnees/memcached/) |❌|✔️|✔️|
-|| [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) |❌|✔️|✔️|
-|| [ElasticSearch](/fr/docs/hebergement-web/bases-de-donnees/elasticsearch/) |❌|✔️|✔️|
+|| [Redis (ou Valkey)](/fr/docs/hebergement-web/bases-de-donnees/redis/) |❌|✔️|✔️|
+|| [ElasticSearch (ou OpenSearch)](/fr/docs/hebergement-web/bases-de-donnees/elasticsearch/) |❌|✔️|✔️|
 || Autres |❌|Sur demande et après analyse de notre équipe technique|Sur demande et après analyse de notre équipe technique|
 | Emails | Configuration personnalisable |✔️|✔️|✔️|
 || [Filtrage via scripts Sieve](/fr/docs/emails/emails-entrants/utiliser-les-scripts-sieve/) |✔️|✔️|✔️|

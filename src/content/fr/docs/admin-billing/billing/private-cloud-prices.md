@@ -24,10 +24,10 @@ Tous ces éléments sont modifiables pour proposer la configuration **la plus ap
 
 | Configuration ||
 | --- | ---- | 
-| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |
+| **CPU**               | 8 cores • AMD EPYC |
 | **Disques**           | SSD 1 To NVMe • RAID1 |
 | **RAM**               | 16 Go |
-| **Trafic/mois**       | 3 To (1 Gbps) |
+| **Trafic/mois**       | 10 To (1 Gbps) |
 | **Prix mensuel (HT)**      | €369 (paiement annuel) ou €409 (paiement mensuel) |
 
 > [!NOTE]
@@ -40,9 +40,9 @@ Tous ces éléments sont modifiables pour proposer la configuration **la plus ap
 Voici une liste *non exhaustive* d'options matérielles :
 
 - **CPU**
-    - 16 cores • AMD EPYC • 3.3 GHz
-    - 32 cores • AMD EPYC • 3.3 GHz
-    - 64 cores • AMD EPYC • 3.3 GHz
+    - 16 cores • AMD EPYC
+    - 32 cores • AMD EPYC
+    - 64 cores • AMD EPYC
 - **Disques**
     - SSD 1.9 To NVMe • RAID1
     - SSD 3.8 To NVMe • RAID1

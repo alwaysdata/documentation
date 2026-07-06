@@ -22,10 +22,10 @@ All these elements can be modified to offer the **most appropriate** configurati
 
 | Configuration | | 
 | --- | ---- |
-| **CPU**               | 8 cores • AMD EPYC • 3.2 GHz |
-| **Disks**           | SSD 1 To NVMe • RAID1 |
-| **RAM**               | 16 Go |
-| **Traffic/month**       | 3 To (1 Gbps) |
+| **CPU**               | 8 cores • AMD EPYC |
+| **Disks**           | SSD 1 TB NVMe • RAID1 |
+| **RAM**               | 16 GB |
+| **Traffic/month**       | 10 TB (1 Gbps) |
 | **Monthly price (VAT excluded)**      | €369 (annual payment) or €409 (monthly payment) |
 
 > [!NOTE]
@@ -37,20 +37,20 @@ All these elements can be modified to offer the **most appropriate** configurati
 Here is a *non-exhaustive* list of hardware options:
 
 - **CPU**
-    - 16 cores • AMD EPYC • 3.3 GHz
-    - 32 cores • AMD EPYC • 3.3 GHz
-    - 64 cores • AMD EPYC • 3.3 GHz
+    - 16 cores • AMD EPYC
+    - 32 cores • AMD EPYC
+    - 64 cores • AMD EPYC
 - **Disks**
-    - SSD 1.9 To NVMe • RAID1
-    - SSD 3.8 To NVMe • RAID1
-    - SSD 7.6 To NVMe • RAID1
-    - SSD 15 To NVMe • RAID1
+    - SSD 1.9 TB NVMe • RAID1
+    - SSD 3.8 TB NVMe • RAID1
+    - SSD 7.6 TB NVMe • RAID1
+    - SSD 15 TB NVMe • RAID1
 - **RAM**
-    - 32 Go
-    - 64 Go
-    - 128 Go
-    - 256 Go
-    - 512 Go
+    - 32 GB
+    - 64 GB
+    - 128 GB
+    - 256 GB
+    - 512 GB
 - **Traffic/month** (1 Gbps): traffic is added per slot of 1 TB
 - **GPU**
     - Nvidia A1000
