@@ -77,9 +77,6 @@ RewriteRule ^bug-bounty/?$  /en/docs/technical-specifications/bug-bounty/ [QSA,L
 Redirect 301 /fr/securite/bug-bounty/ /fr/docs/caracteristiques-techniques/bug-bounty/
 Redirect 301 /en/security/bug-bounty/ /en/docs/technical-specifications/bug-bounty/
 
-## Redirects install scripts
-Redirect 301 /en/marketplace/build-application-script/ /en/docs/development/marketplace/build-application-script/
-
 ## Redirects website
 Redirect 301 /fr/comptes/restrictions-du-cloud-public/ /fr/docs/admin-facturation/profil/suspension/
 Redirect 301 /en/admin-billing/public-cloud-restrictions/ /en/docs/admin-billing/profile/suspension/

@@ -72,7 +72,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 ```
 #!/bin/bash
 
-# Declare site in YAML, as documented on the documentation: https://help.alwaysdata.com/en/marketplace/build-application-script/
+# Declare site in YAML, as documented here: https://help.alwaysdata.com/en/docs/development/marketplace/build-application-script/
 # site:
 #     type: user_program
 #     working_directory: '{INSTALL_PATH_RELATIVE}'
@@ -95,7 +95,7 @@ git clone -b 19.0 --depth 1 https://github.com/odoo/odoo.git .
 
 npm install -g rtlcss
 
-# Create virtualenv & install dependancies in it
+# Create virtualenv & install dependencies in it
 python -m venv .venv
 source .venv/bin/activate
 
@@ -130,7 +130,7 @@ La condition `disk:1400` précise que l'installation d'Odoo nécessite 1400 Mo d
 ```
 #!/bin/bash
 
-# Declare site in YAML, as documented on the documentation: https://help.alwaysdata.com/en/marketplace/build-application-script/
+# Declare site in YAML, as documented here: https://help.alwaysdata.com/en/docs/development/marketplace/build-application-script/
 # site:
 #     type: php
 #     path: '{INSTALL_PATH_RELATIVE}'
