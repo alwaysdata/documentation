@@ -15,12 +15,12 @@ Pour les plus anciens comptes mutualisés, cette migration inclut également la 
 
 Ce document décrit les incompatibilités principales introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif. Nous vous invitons vivement à procéder à un test de la migration pour détecter un maximum d'incompatibilités.
 
-Ce document ne décrit pas les nouvelles fonctionnalités apportées par l'infrastructure logicielle 2017, ceci ayant été fait dans un [article de blog](https://blog.alwaysdata.com/2017/01/24/python-3-6-ruby-2-4-and-others/) dédié.
+Ce document ne décrit pas les nouvelles fonctionnalités apportées par l'infrastructure logicielle 2017, ceci ayant été fait dans un [article de blog](/fr/blog/2017-01-24-python-3-6-ruby-2-4-and-others/) dédié.
 
 
 ## Généralités
 
-* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services [introduit en 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). Vous trouverez les adresses à utiliser dans l'administration alwaysdata, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.[compte].alwaysdata.net`) cesseront totalement de fonctionner. 
+* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services introduit en 2015. Vous trouverez les adresses à utiliser dans l'administration alwaysdata, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.[compte].alwaysdata.net`) cesseront totalement de fonctionner.
 
 * Plusieurs fichiers et répertoires situés dans chaque compte sont déplacés ou supprimés. Notamment :
     * les 4 fichiers par défaut (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) du répertoire `/home/[compte]/cgi-bin` sont supprimés, et le répertoire également s'il est désormais vide ;

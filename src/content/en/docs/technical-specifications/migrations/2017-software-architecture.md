@@ -15,11 +15,11 @@ For the oldest shared accounts, this migration also includes the migration to ou
 
 This document describes the main incompatibilities introduced by this migration. We attempt to be as complete as possible, but it is impossible to be completely exhaustive. We strongly advise you to run a migration test to detect as many incompatibilities as possible.
 
-This document does not describe the new functions provided by the 2017 software infrastructure as this was done in a dedicated [blog article](https://blog.alwaysdata.com/2017/01/24/python-3-6-ruby-2-4-and-others/).
+This document does not describe the new functions provided by the 2017 software infrastructure as this was done in a dedicated [blog article](/en/blog/2017-01-24-python-3-6-ruby-2-4-and-others/).
 
 ## General
 
-- You must absolutely use the new host names for access to services [introduced in 2015](https://blog.alwaysdata.com/2015/03/05/change-of-hostname-for-access-to-our-services/). You will find the addresses to use in the alwaysdata administration information, in every relevant section. The former formats, using the `alwaysdata.com` domain (e.g. `mysql.alwaysdata.com` or `postgresql1.alwaysdata.com`) or with a dot between the service name and the account name (e.g. `mysql.[account].alwaysdata.net`) will completely stop working.
+- You must absolutely use the new host names for access to services introduced in 2015. You will find the addresses to use in the alwaysdata administration information, in every relevant section. The former formats, using the `alwaysdata.com` domain (e.g. `mysql.alwaysdata.com` or `postgresql1.alwaysdata.com`) or with a dot between the service name and the account name (e.g. `mysql.[account].alwaysdata.net`) will completely stop working.
 
 - A number of files and directories located in each account are moved or deleted. Especially:
     - The four default files (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) in the `/home/[account]/cgi-bin` directory are deleted and the directory too, if it is now empty,
