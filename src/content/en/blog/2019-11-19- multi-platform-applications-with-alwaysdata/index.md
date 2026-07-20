@@ -1,5 +1,6 @@
 ---
 title: "Multi-platform applications with alwaysdata"
+description: "Use multiple languages or versions of the same language"
 date: 2019-11-19
 authors: ["Matthias Dugué"]
 ---

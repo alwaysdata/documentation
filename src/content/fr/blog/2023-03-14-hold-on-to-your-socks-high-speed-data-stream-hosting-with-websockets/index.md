@@ -1,5 +1,6 @@
 ---
 title: "Accrochez-vous à vos chaussettes : hébergement de données à grande vitesse avec WebSockets"
+description: "Héberger une application serveur WebSocket"
 date: 2023-03-14
 authors: ["Matthias Dugué"]
 ---

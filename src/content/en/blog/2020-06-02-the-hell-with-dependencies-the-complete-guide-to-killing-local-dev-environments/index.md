@@ -1,5 +1,6 @@
 ---
 title: "The Hell With Dependencies: The Complete Guide to Killing Local Dev Environments"
+description: "Developing remotely with VSCode"
 date: 2020-06-02
 authors: ["Matthias Dugué"]
 ---
@@ -12,7 +13,7 @@ Well, here's the good news: you don't have to do that. Thanks to *remote debuggi
 
 Web Development ecosystems have evolved a lot over the last few years. Not only frameworks and tooling, but often whole environments. The most visible change over the last 4 years has been the massive adoption of [VSCode](https://code.visualstudio.com/) as the main IDE used by most of Web Developers. Using Electron, based on JavaScript, sustained by [Microsoft Open Source teams](https://github.com/Microsoft/vscode), with improved stability and a real performance peak, and backed by a large community providing *a lot* of extensions, it's probably the best bet for your day-to-day tool.
 
-A really cool tool provided by the Microsoft Dev team is a [set of extensions allowing you to work on remote machines](https://code.visualstudio.com/docs/remote/remote-overview) using various protocols, like the venerable SSH! Thanks to our platform, which gives you [SSH access by default](https://www.alwaysdata.com/en/services/ssh-sftp/), you can exploit these extensions easily.
+A really cool tool provided by the Microsoft Dev team is a [set of extensions allowing you to work on remote machines](https://code.visualstudio.com/docs/remote/remote-overview) using various protocols, like the venerable SSH! Thanks to our platform, which gives you [SSH access by default](/en/docs/web-hosting/remote-access/ssh/), you can exploit these extensions easily.
 
 Start your engines! Here's the complete guide!
 
@@ -20,7 +21,7 @@ Start your engines! Here's the complete guide!
 
 First, you need [VSCode](https://code.visualstudio.com/) (of course). Please note that the Remote Extensions can only work with the [official release](https://code.visualstudio.com/Download), not the OSS edition as this uses non-free components. Install this using your regular package manager (on Linux), or download the correct version for your OS.
 
-You also need to enable key-based SSH access on your alwaysdata account. You can refer to the [official documentation on *Using SSH Keys*](https://help.alwaysdata.com/en/remote-access/ssh/use-keys/) if you're not comfortable with the process.
+You also need to enable key-based SSH access on your alwaysdata account. You can refer to the [official documentation on *Using SSH Keys*](/en/docs/web-hosting/remote-access/ssh/use-keys/) if you're not comfortable with the process.
 
 We recommend you rely on the SSH config file to declare your hosts, which will be easier to use inside VSCode. On your local machine, create a `$HOME/.ssh/config` file with the following content:
 

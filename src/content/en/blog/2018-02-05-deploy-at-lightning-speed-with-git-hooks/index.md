@@ -1,5 +1,6 @@
 ---
 title: "Deploy at lightning speed with Git hooks"
+description: "Deploy with Git"
 date: 2018-02-05
 authors: ["Matthias Dugué"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IPv6 pour les gouverner tous"
+description: "Support automatique d'IPv6"
 date: 2018-02-01
 authors: ["Matthias Dugué"]
 ---

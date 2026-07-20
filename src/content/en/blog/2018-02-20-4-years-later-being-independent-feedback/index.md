@@ -1,5 +1,6 @@
 ---
 title: "4 years later: being independent, feedback"
+description: "Feedback on our hardware autonomy initiative"
 date: 2018-02-20
 authors: ["Matthias Dugué"]
 ---

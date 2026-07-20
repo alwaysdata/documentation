@@ -1,5 +1,6 @@
 ---
 title: "Catastrophes et PCA : le Cloud quand tout va mal"
+description: "Pourquoi avoir un Plan de Continuité d'Activité est nécessaire"
 date: 2021-03-18
 authors: ["Matthias Dugué"]
 ---

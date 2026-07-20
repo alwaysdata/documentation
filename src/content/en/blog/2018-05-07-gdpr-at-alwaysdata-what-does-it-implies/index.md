@@ -1,5 +1,6 @@
 ---
 title: "GDPR at alwaysdata: what does it imply?"
+description: "GDPR presentation"
 date: 2018-05-07
 authors: ["Matthias Dugué"]
 ---

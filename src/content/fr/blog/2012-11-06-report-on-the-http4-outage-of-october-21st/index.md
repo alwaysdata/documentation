@@ -1,5 +1,6 @@
 ---
 title: "Retour sur la panne http4 du 21 octobre"
+description: "Postmortem d'incident"
 date: 2012-11-06
 authors: ["Cyril Baÿ"]
 ---

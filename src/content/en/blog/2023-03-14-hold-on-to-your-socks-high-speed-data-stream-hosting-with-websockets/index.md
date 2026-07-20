@@ -1,5 +1,6 @@
 ---
 title: "Hold On to Your Socks: High-Speed Data Stream Hosting with Websockets"
+description: "Host a WebSocket server application"
 date: 2023-03-14
 authors: ["Matthias Dugué"]
 ---

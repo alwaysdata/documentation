@@ -1,5 +1,6 @@
 ---
 title: "Devops React : We can be Heroes, just for one app"
+description: "Deploy a Create React App"
 date: 2023-02-01
 authors: ["Matthias Dugué"]
 ---

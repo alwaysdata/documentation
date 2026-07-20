@@ -1,5 +1,6 @@
 ---
 title: "alwaysdata becomes independent"
+description: "Owning one's hardware infrastructure"
 date: 2014-02-17
 authors: ["Cyril Baÿ"]
 ---

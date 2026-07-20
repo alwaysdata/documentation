@@ -1,5 +1,6 @@
 ---
 title: "Rencontre avec des fabricants du web : 3 questions à Occitech"
+description: "Discussion avec un de nos clients"
 date: 2018-12-13
 authors: ["Matthias Dugué"]
 ---

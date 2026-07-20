@@ -1,5 +1,6 @@
 ---
 title: "Meet Web makers: 3 questions to Occitech"
+description: "Discussion with one of clients"
 date: 2018-12-13
 authors: ["Matthias Dugué"]
 ---

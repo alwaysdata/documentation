@@ -1,5 +1,6 @@
 ---
 title: "Déployer sans peine avec Git hooks"
+description: "Déployer via Git"
 date: 2018-02-05
 authors: ["Matthias Dugué"]
 ---

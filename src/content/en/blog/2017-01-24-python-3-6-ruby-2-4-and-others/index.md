@@ -1,5 +1,6 @@
 ---
 title: "Python 3.6, Ruby 2.4 and others"
+description: "Presentation of the 2017 software architecture"
 date: 2017-01-24
 authors: ["Cyril Baÿ"]
 ---

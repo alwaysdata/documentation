@@ -1,5 +1,6 @@
 ---
 title: "alwaysdata prend son indépendance"
+description: "Devenir propriétaire de son infrastructure matérielle"
 date: 2014-02-17
 authors: ["Cyril Baÿ"]
 ---

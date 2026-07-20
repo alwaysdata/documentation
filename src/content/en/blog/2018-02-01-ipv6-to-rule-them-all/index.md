@@ -1,5 +1,6 @@
 ---
 title: "IPv6 to rule them all"
+description: "Automatic IPv6 support"
 date: 2018-02-01
 authors: ["Matthias Dugué"]
 ---

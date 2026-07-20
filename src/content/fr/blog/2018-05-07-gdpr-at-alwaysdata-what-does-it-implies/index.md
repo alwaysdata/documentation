@@ -1,5 +1,6 @@
 ---
 title: "Quels changements suite à la mise en application du RGPD ?"
+description: "Présentation du RGPD"
 date: 2018-05-07
 authors: ["Matthias Dugué"]
 ---

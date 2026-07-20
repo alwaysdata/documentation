@@ -1,5 +1,6 @@
 ---
 title: "Report on the http4 outage of October 21st"
+description: "Incident postmortem"
 date: 2012-11-06
 authors: ["Cyril Baÿ"]
 ---

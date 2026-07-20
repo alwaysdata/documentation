@@ -1,5 +1,6 @@
 ---
 title: "Pourquoi la vie privée est-elle importante ?"
+description: "Protégez vos données"
 date: 2018-01-28
 authors: ["Matthias Dugué"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "La Crypto de Zéro"
+description: "Introduction au chiffrement"
 date: 2019-09-10
 authors: ["Matthias Dugué"]
 ---

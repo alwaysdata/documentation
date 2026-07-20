@@ -1,5 +1,6 @@
 ---
 title: "SaaS, PaaS, IaaS: what are the differences and what does it matter?"
+description: "Presentation of different web hosting solutions"
 date: 2018-03-05
 authors: ["Matthias Dugué"]
 ---

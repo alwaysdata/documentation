@@ -1,5 +1,6 @@
 ---
 title: "Quatre ans plus tard, retour sur notre indépendance"
+description : "Retour d'expérience sur notre prise d'autonomie matérielle"
 date: 2018-02-20
 authors: ["Matthias Dugué"]
 ---

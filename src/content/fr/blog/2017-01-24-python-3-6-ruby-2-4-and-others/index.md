@@ -1,9 +1,9 @@
 ---
 title: "Python 3.6, Ruby 2.4 et les autres"
+description: "Présentation de l'architecture logicielle 2017"
 date: 2017-01-24
 authors: ["Cyril Baÿ"]
 ---
-
 
 Depuis quelques jours, les nouveaux comptes mutualisés et serveurs dédiés tournent sur notre toute nouvelle infrastructure *logicielle*. Qu’apporte-t-elle ? Ouvrons le capot.
 

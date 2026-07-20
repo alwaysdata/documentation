@@ -1,5 +1,6 @@
 ---
 title: "The Eternal Sunshine of the Zero Build Pipeline"
+description: "Serve frontend dependencies without an intermediate build"
 date: 2020-06-23
 authors: ["Matthias Dugué"]
 ---

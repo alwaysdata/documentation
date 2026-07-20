@@ -1,5 +1,6 @@
 ---
 title: "Why does privacy matter?"
+description: "Protect your data"
 date: 2018-01-28
 authors: ["Matthias Dugué"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Handling the Disaster as a Cloud Provider"
+description: "Why having a Disaster Recovery Plan is necessary"
 date: 2021-03-18
 authors: ["Matthias Dugué"]
 ---
