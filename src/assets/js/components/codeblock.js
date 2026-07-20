@@ -30,10 +30,12 @@ function addLabel(pre) {
 }
 
 function addCopyCodeButton(pre) {
+  const wrapper = document.createElement("div");
   const button = document.createElement("button");
   const label = document.createElement("em");
   const icon = document.createElement("span");
 
+  wrapper.classList.add("shiki-wrapper");
   button.type = "button";
   button.classList.add("copy-code-button");
   button.title = `${translations.copy.title[locale]}`;
@@ -57,7 +59,9 @@ function addCopyCodeButton(pre) {
     });
   });
 
-  pre.appendChild(button);
+  pre.parentNode.insertBefore(wrapper, pre);
+  wrapper.appendChild(button);
+  wrapper.appendChild(pre);
 }
 
 function copyCodeToClipboard(codeblock) {

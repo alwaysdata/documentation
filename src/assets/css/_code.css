@@ -15,12 +15,16 @@
     @apply bg-gray-500/30;
   }
 
-  pre.shiki .copy-code-button {
-    @apply absolute flex flex-nowrap items-start gap-2 inset-e-2 inset-bs-1 py-1 text-sm;
+  .shiki-wrapper {
+    position: relative;
+  }
+
+  .copy-code-button {
+    @apply absolute flex flex-nowrap items-start gap-2 inset-e-2 inset-bs-1 py-1 text-sm z-10 text-slate-200/70 font-mono;
     @apply hover:text-slate-100/90;
   }
 
-  pre.shiki .copy-code-button.copied {
+  .copy-code-button.copied {
     @apply text-green-300;
   }
 
