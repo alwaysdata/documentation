@@ -13,11 +13,20 @@ export default function (eleventyConfig) {
     });
   });
 
-  // blog - Get all blog entries sorted by date descending
-  eleventyConfig.addCollection("blog", function (collectionsApi) {
+  // blogFr - Get all French blog entries sorted by date descending
+  eleventyConfig.addCollection("blogFr", function (collectionsApi) {
     return collectionsApi
       .getFilteredByTag("blog")
-      .sort((a, b) => b.date - a.date);
+      .sort((a, b) => b.date - a.date)
+      .filter((item) => item.page.lang === 'fr');
+  });
+
+  // blogEn - Get all English blog entries sorted by date descending
+  eleventyConfig.addCollection("blogEn", function (collectionsApi) {
+    return collectionsApi
+      .getFilteredByTag("blog")
+      .sort((a, b) => b.date - a.date)
+      .filter((item) => item.page.lang === 'en');
   });
 
   // myTags - Get all tags with their counts, sorted by count descending

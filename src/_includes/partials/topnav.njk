@@ -28,7 +28,7 @@
         {#- Right: Links -#}
         <nav class="flex flex-1 justify-end items-center gap-1">
             {#- Switch lang -#}
-            {% for link in page.url | locale_links %}
+            {% for link in page.url | locale_links | fixLocaleLinks %}
             <a href="{{ link.url }}"
                class="hidden px-3 py-2 text-sm font-medium text-slate-700 no-underline hover:text-slate-900 dark:text-neutral-400 dark:hover:text-neutral-300 sm:block"
                lang="{{link.lang}}" hreflang="{{link.lang}}">

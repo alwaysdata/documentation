@@ -5,7 +5,8 @@ description: Dernières nouvelles de l'équipe
 date: false
 tags: false
 pagination:
-    data: collections.blog
-    size: 20
+    data: collections.blogFr
+    size: 10
     alias: entries
+permalink: "fr/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---

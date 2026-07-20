@@ -1,6 +1,5 @@
-{# permalink: "en/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html" #}
 <ul class="list-none space-y-4 ps-0">
-    {% for item in entries | pageLang %}
+    {% for item in entries %}
         <li>
             <a href="{{ item.url }}" class="block p-4 rounded-lg border border-slate-200 no-underline hover:border-slate-300 hover:bg-slate-50 dark:border-neutral-700 dark:hover:border-neutral-600 dark:hover:bg-neutral-800/50">
                 <div class="flex items-center justify-between gap-4 mb-1">
@@ -21,7 +20,7 @@
     {% endfor %}
 </ul>
 
-{#{% if pagination.pages.length > 1 %}
+{% if pagination.pages.length > 1 %}
     <nav class="flex gap-2 mt-8">
         {% for pageEntry in pagination.pages %}
             <a href="{{ pagination.hrefs[loop.index0] }}"
@@ -31,4 +30,4 @@
             </a>
         {% endfor %}
     </nav>
-{% endif %}#}
+{% endif %}
