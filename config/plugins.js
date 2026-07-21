@@ -16,6 +16,7 @@ import pluginSpeculationRules from "eleventy-plugin-speculation-rules";
 import { I18nPlugin } from "@11ty/eleventy";
 import i18n from "eleventy-plugin-i18n";
 import translations from "../src/_data/translations.js";
+import embeds from "eleventy-plugin-embed-everything";
 
 // Image transform configuration
 const CONTENT_WIDTH = 500;
@@ -140,4 +141,19 @@ export default function (eleventyConfig) {
 
   // Speculation Rules - prefetching/prerendering for faster navigation
   eleventyConfig.addPlugin(pluginSpeculationRules);
+
+  // Embed everything (Twitter, Mastodon, Bluesky…)
+  eleventyConfig.addPlugin(embeds, {
+    add: ['mastodon', 'bluesky'],
+    twitter: {
+      options: {
+        align: "center"
+      }
+    },
+    mastodon: {
+      options: {
+        server: "mastodon.social"
+      }
+    }
+  });
 }

@@ -136,4 +136,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("pageLang", function (value) {
     return value.filter((item) => item.page.lang === this.page.lang);
   });
+
+  // Temporary fix for `i18n | locale_links`
+  // https://github.com/11ty/buildawesome/issues/3555
+  eleventyConfig.addFilter("fixLocaleLinks", function (links, lang) {
+    if (!this.ctx.pagination) { return links; }
+    if (!lang) lang = this.page.lang || this.ctx.lang;
+    const filtered = links.filter(item => item?.url?.endsWith(this.page.url.replace('/' + lang, '')));
+    return filtered;
+  });
 }

@@ -42,7 +42,7 @@ Vous pouvez :
 
 ## Arrêt du support de CouchDB
 
-Nous avons lancé le support de **CouchDB** [en 2011](https://blog.alwaysdata.com/2011/05/12/official-support-of-couchdb/), mais son utilisation est restée très confidentielle (moins de 0,4 % de nos clients en 2024). Par conséquent, nous arrêtons le support de CouchDB : les bases seront supprimées lors de la migration et il ne sera plus possible d'en créer.
+Nous avons lancé le support de **CouchDB** en 2011, mais son utilisation est restée très confidentielle (moins de 0,4 % de nos clients en 2024). Par conséquent, nous arrêtons le support de CouchDB : les bases seront supprimées lors de la migration et il ne sera plus possible d'en créer.
 
 Vous pouvez :
 

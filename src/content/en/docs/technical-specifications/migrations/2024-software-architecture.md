@@ -40,7 +40,7 @@ You can:
 
 ## End of CouchDB Support
 
-We introduced support for **CouchDB** [in 2011](https://blog.alwaysdata.com/2011/05/12/official-support-of-couchdb/), but its use has remained limited (less than 0.4% of our clients in 2024). Therefore, we are ending support for CouchDB: databases will be removed during the migration, and no new ones can be created.
+We introduced support for **CouchDB** in 2011, but its use has remained limited (less than 0.4% of our clients in 2024). Therefore, we are ending support for CouchDB: databases will be removed during the migration, and no new ones can be created.
 
 You can:
 
