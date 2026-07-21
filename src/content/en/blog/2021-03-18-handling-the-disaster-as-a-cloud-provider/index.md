@@ -25,7 +25,7 @@ As the OVHCloud's CTO Octave Klaba tweeted during the fire:
 
 > We recommend to activate your Disaster Recovery Plan.
 
-[Tweet](https://twitter.com/olesovhcom/status/1369478732247932929)
+https://twitter.com/olesovhcom/status/1369478732247932929
 
 For a lot of their customers, this came as a surprise, as spotted in the responses to Octave's tweet: What is a DRP, and how can we activate it?
 

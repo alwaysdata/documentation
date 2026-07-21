@@ -25,7 +25,7 @@ Comme l'a indiqué Octave Klaba, directeur technique d'OVHCloud, pendant l'incen
 
 > We recommend to activate your Disaster Recovery Plan.
 
-[Tweet](https://twitter.com/olesovhcom/status/1369478732247932929)
+https://twitter.com/olesovhcom/status/1369478732247932929
 
 Mais pour beaucoup de leurs clients, ce fut une surprise, comme en témoignent les réactions au tweet : qu'est-ce qu'un PCA, et comment pouvons-nous l'activer ?
 
