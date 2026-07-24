@@ -45,7 +45,7 @@ Quelques détails techniques supplémentaires :
 
 Pour nos clients, rien ne change directement : notre service et nos prix restent identiques.
 
-Nos serveurs actuels, situés chez nos prestataires, seront rapatriés sur notre infrastructure au fur et à mesure — la migration totale prendra sans doute jusqu'à deux ans. Nous annoncerons chaque migration [au préalable](https://status.alwaysdata.com/). Nos clients dédiés seront contactés personnellement et nous organiserons la migration de leur serveur ensemble.
+Nos serveurs actuels, situés chez nos prestataires, seront rapatriés sur notre infrastructure au fur et à mesure — la migration totale prendra sans doute jusqu'à deux ans. Nous annoncerons chaque migration au préalable. Nos clients dédiés seront contactés personnellement et nous organiserons la migration de leur serveur ensemble.
 
 D'ici quelques semaines, les nouveaux comptes mutualisés seront hébergés sur notre propre infrastructure. Pour les nouveaux serveurs dédiés, c'est déjà le cas.
 

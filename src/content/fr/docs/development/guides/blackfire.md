@@ -78,7 +78,7 @@ Voir [Blackfire for PHP](https://blackfire.io/docs/php)
 ```
 [Page de téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) - point D : prendre le paquet DEB 64 bits.
 
-**Ajout de l'extension dans le php.ini (Environnement > PHP)**
+**Modification du php.ini (Environnement > PHP)**
 
 ```ini
 extension = /home/[compte]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so

@@ -29,7 +29,7 @@ Que ce soit pour l'aspect purement technique de vos comptes ou de vos serveurs, 
 À partir du moment où un profil a des permissions sur le compte, il a accès au menu *Statut des serveurs*.
 
 - __Contact technique__ : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant le compte ;
-- __Consommation__ : suivez la consommation d'espace disque (menus *Espace disque*, *Avancé > Logs*) ;
+- __Consommation__ : suivez la consommation du compte (menus *Consommation*, *Avancé > Logs*) ;
 - __Ressources__ : permission pour les comptes sur [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) permet de gérer les [sondes](/fr/docs/hebergement-web/sites/personnalisation/utiliser-les-sondes-de-monitoring/) (menu *Web > Sondes*) et [ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) (menu *Avancé > Ressources*) ;
 - __[Statistiques](/fr/docs/hebergement-web/statistiques/)__ : analysez les visites de vos sites (menu *Web > Analytics*)  ;
 - __[Sites](/fr/docs/hebergement-web/sites/)__ : configurez les sites web et l'environnement Apache (menus *Web > Sites*, *Web > Configuration*) ;

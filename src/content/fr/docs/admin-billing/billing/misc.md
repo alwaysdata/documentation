@@ -14,7 +14,7 @@ Les contrats sont accessibles via le menu **Abonnements > Contrats**. Vous aurez
 ## Souscrire à un plan Cloud Privé
 Pour souscrire à une offre du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), contactez-nous par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/contact/) ou [téléphone](tel:+33184162340), nous vous guiderons sur la démarche à suivre.
 
-Il n'y a pas de frais d'installation mais un engagement minimum de 3 mois sera demandé lors de l'achat d'un serveur Dédié/Gold. Si vous ne souhaitez pas de cet engagement, le prix du serveur sera majoré de 20 % lors des 3 premiers mois.
+Un engagement minimum de 3 mois sera demandé lors de l'achat d'un serveur Dédié/Gold. Si vous ne souhaitez pas de cet engagement, le prix du serveur sera majoré de 20 % lors des 3 premiers mois.
 
 ## Regrouper ses factures
 Il est possible de choisir le jour du mois de facturation, plus souple et pratique lorsque vous avez plusieurs abonnements (hébergement, adresse IP, etc.).

@@ -23,7 +23,7 @@ Que vous ayez manqué les dernières années du développement *front-end*, ou q
 
 Puisqu’une app *React* n’est qu’un ensemble de fichiers statiques, pas besoin d’avoir une architecture *backend* complexe pour servir votre *front-end*. Ni serveur *Node.js*, ni rien. Un simple serveur Web HTTP suffit. Comme l’indique la [documentation de déploiement de *Create React App*](https://create-react-app.dev/docs/deployment/) :
 
-> Set up your favorite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>`.js are served with the contents of the `/static/js/main.<hash>.js` file.
+> Set up your favorite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
 
 J’en profite pour ajouter un mot sur *Create React App*. Si *React* est un framework dédié à la conception d’applications Web, la mise en place de tout son *tooling* peut s’avérer complexe. Des outils encaspulant toute cette logique sont donc apparus pour vous faciliter les choses.
 

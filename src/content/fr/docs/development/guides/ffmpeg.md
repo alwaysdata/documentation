@@ -20,6 +20,9 @@ Dans notre exemple, nous utilisons l'[accès SSH](/fr/docs/hebergement-web/acces
 - Nom du compte : `[compte]`
 - Répertoire de ffmpeg : `/home/[compte]/ffmpeg/`
 
+> [!NOTE]
+> N'hésitez pas à ajuster en fonction de vos besoins.
+
 ```sh
 [compte]@ssh:~/ffmpeg$ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 [compte]@ssh:~/ffmpeg$ tar -xJf ffmpeg-release-amd64-static.tar.xz --strip-components=1

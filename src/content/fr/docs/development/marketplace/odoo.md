@@ -13,7 +13,8 @@ Dans notre exemple, nous considérons les informations suivantes :
 - Adresse HTTP de Odoo : `[compte].alwaysdata.net`
 - Port pour le Live Chat : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
-Elles seront à modifier selon vos besoins.
+> [!NOTE]
+> Elles seront à modifier selon vos besoins.
 
 ## Live Chat
 

@@ -15,7 +15,7 @@ Les scripts se composent de deux parties :
 
 * le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en quatre :
     * **site** : voir la [documentation API](https://api.alwaysdata.com/v1/site/doc/) qui reprend toutes les options possibles.
-    * **database** : mysql, postgresql, couchdb, rabbitmq.
+    * **database** : mysql, postgresql, rabbitmq.
     * **requirements**: spécifier les conditions bloquantes pouvant être problématiques sur certains plan d'hébergement/packs.
     * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même
