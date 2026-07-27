@@ -3,7 +3,7 @@ title: "Sysadmin Resources: Alerts and Limitations"
 eleventyNavigation:
   key: Sysadmin Resources
   parent: Technical Specifications
-  order : 8
+  order: 8
 ---
 
 > [!NOTE]
