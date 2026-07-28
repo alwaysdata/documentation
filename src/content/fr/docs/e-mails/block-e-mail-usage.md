@@ -17,9 +17,9 @@ Il suffit de ne PAS créer d'adresse email chez votre prestataire mail et/ou d'a
  
 Vous pouvez, par exemple, créer l'enregistrement suivant :
  
-Type|Nom d'hôte|Valeur|Priorité
----|---|---|---
-`MX`|[laisser vide ou @ selon le prestataire DNS]|`/dev/null`|1
+|Type|Nom d'hôte|Valeur|Priorité|
+|---|---|---|---|
+|`MX`|[laisser vide ou @ selon le prestataire DNS]|`/dev/null`|1|
  
  
 ## Bloquer les envois
@@ -28,10 +28,10 @@ On veut ici éviter que des pirates informatiques se fassent passer pour vous en
  
 Créez les enregistrements DNS suivants :
  
-Type|Nom d'hôte|Valeur
----|---|---
-`TXT`|[laisser vide ou @ selon le prestataire DNS]|`v=spf1 -all`
-`TXT `|`_dmarc`|`v=DMARC1; p=reject;`
+|Type|Nom d'hôte|Valeur|
+|---|---|---|
+|`TXT`|[laisser vide ou @ selon le prestataire DNS]|`v=spf1 -all`|
+|`TXT `|`_dmarc`|`v=DMARC1; p=reject;`|
  
 Cela indiquera aux serveurs destinataires d'emails utilisant votre domaine qu'ils doivent rejeter les emails. En effet :
  
