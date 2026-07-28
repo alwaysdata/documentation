@@ -14,7 +14,7 @@ Pour utiliser ses propres adresses sans [gérer son domaine](/fr/docs/domaines/a
 	- Le serveur sur lequel est un compte peut changer. Il est donc préconisé d'utiliser des enregistrements de type *CNAME* ayant comme valeur `<compte>.alwaysdata.net` (`<compte>` étant le nom du compte) plutôt que des enregistrements de type _A_/_AAAA_.
 
 > [!TIP] Astuce
-> Le *CNAME* n'est pas disponible pour le sous-domaine vide, on utilisera alors les types _A_/_AAAA_ ou _ALIAS_ avec comme valeur l'adresse IP du serveur HTTP (à retrouver dans la section **Avancé > Statut des serveurs** de l'interface d'administration alwaysdata).
+> Le *CNAME* n'est pas disponible pour le sous-domaine vide, on utilisera alors les types _A_/_AAAA_ ou _ALIAS_ avec comme valeur l'adresse IP du serveur HTTP (à retrouver dans la section **Avancé > Statut des serveurs** de l'interface d'administration).
 
 
-2. sur l'interface d'administration alwaysdata, [déclarer les adresses](/fr/docs/hebergement-web/sites/ajouter-un-site/) dans **Web > Sites**.
+2. sur l'interface d'administration, [déclarer les adresses](/fr/docs/hebergement-web/sites/ajouter-un-site/) dans **Web > Sites**.

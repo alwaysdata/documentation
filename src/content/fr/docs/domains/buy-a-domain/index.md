@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-1. Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
+1. Dans l'interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
 ![](images/admin-panel_domain-list.png)
 2. Renseignez les noms de domaines que vous souhaitez acheter ;
 ![](images/admin-panel_add-domain-1.png)

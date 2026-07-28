@@ -20,7 +20,7 @@ Nous proposons ces différentes méthodes :
 - Virement bancaire : Notre compte bancaire est indiqué sur nos factures. Il faudra préciser dans la description du virement votre _numéro de client_ dans les commentaires du virement.
 
 > [!NOTE]
-> Les alimentations de compte par _virement_ apparaîtront dans votre interface dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.
+> Les alimentations de compte par _virement_ apparaîtront dans votre interface d'administration alwaysdata dès qu'elles auront été prises en compte par notre équipe. Cela peut prendre plusieurs jours.
 
 
 Les paiements par *mandat administratif* sont possibles et reçus comme des virements.
@@ -35,7 +35,7 @@ Les cartes bancaires autorisées par notre prestataire de paiement sont : CB, Vi
 
 ## Prélèvement automatique
 
-Entrez vos coordonnées bancaires - compte ou carte - dans votre administration, menu **Facturation > Moyens de paiement**.
+Entrez vos coordonnées bancaires - compte ou carte - dans l'interface d'administration, menu **Facturation > Moyens de paiement**.
 
 Ce moyen de paiement sera alors prélevé automatiquement de la somme due. Vous n'avez plus à vous soucier de payer votre hébergement alwaysdata.
 

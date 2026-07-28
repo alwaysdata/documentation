@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Les Web apps ou services ont parfois besoin d’exécuter des tâches périodiquement, exécuter des commandes ou appeler des URLs, sans aucune interaction utilisateur. Pour ce faire, vous devez créer une tâche planifiée.
 
-Notre plateforme s’appuie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais permet de les gérer directement dans notre [interface d'administration](https://admin.alwaysdata.com) - onglet **Avancé > Tâches planifiées** - et de faciliter l'utilisation.
+Notre plateforme s’appuie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais permet de les gérer directement dans notre interface d'administration - onglet **Avancé > Tâches planifiées** - et de faciliter l'utilisation.
 
 Plusieurs types d’informations sont à fournir :
 
@@ -32,7 +32,7 @@ Plusieurs types d’informations sont à fournir :
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
 - Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.
-	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄) ;
+	- Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄) ;
 	- les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs ;
 - Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées** ;
 - Pour les tâches de type *Commande*, les versions de langages utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les *Variables d'environnement*.

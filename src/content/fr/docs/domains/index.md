@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-Les domaines sont gérés dans l'onglet **Domaines** de votre interface d'administration. [Achetez](/fr/docs/domaines/acheter-un-domaine/), [transférez](/fr/docs/domaines/transferer-un-domaine/) ou [ajoutez en gestion](/fr/docs/domaines/ajouter-un-domaine-externe/) votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possible. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
+Les domaines sont gérés dans l'onglet **Domaines** de l'interface d'administration. [Achetez](/fr/docs/domaines/acheter-un-domaine/), [transférez](/fr/docs/domaines/transferer-un-domaine/) ou [ajoutez en gestion](/fr/docs/domaines/ajouter-un-domaine-externe/) votre domaine. Revendeur [GANDI](https://www.gandi.net/fr), nous nous appuyons sur leur expérience pour vous proposer le plus d'extensions possible. [Contactez-nous](https://admin.alwaysdata.com/support/add/) si l'extension souhaitée n'est pas proposée par défaut.
 
 > [!NOTE]
 > Étant revendeur GANDI vous pouvez recevoir des mails de notre part, de la leur et des [registres](https://fr.wikipedia.org/wiki/Registre_de_noms_de_domaine) gérant les extensions de domaines prises.

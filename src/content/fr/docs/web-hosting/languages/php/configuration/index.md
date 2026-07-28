@@ -16,7 +16,7 @@ eleventyNavigation:
 | 5.6 \| 5.5 \| 5.4 \| 5.3 \| 5.2 |
 | 4.4 |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
+La version par défaut est modifiable dans l'interface d'administration, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
 
 Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
@@ -91,7 +91,7 @@ Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des para
 ## Déploiement HTTP
 
 
-Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'administration alwaysdata en choisissant le type **PHP**.
+Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'interface d'administration en choisissant le type **PHP**.
 
 ![](images/php-type.png)
 

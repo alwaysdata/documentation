@@ -24,7 +24,7 @@ Vous retrouverez dedans :
 
 ## config
 
-Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**, les changements s'effectuant directement dans votre interface d'administration alwaysdata, onglets **Environnement**, **Web > Configuration** ou **Web > Sites**.
+Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**, les changements s'effectuant directement dans l'interface d'administration, onglets **Environnement**, **Web > Configuration** ou **Web > Sites**.
 
 ## logs
 
@@ -38,7 +38,7 @@ Il recueille différents types de logs :
 - _php_ : un log pour toutes les applications utilisant le langage de programmation PHP ;
 - _uwsgi_ : un log pour chaque application (Python WSGI, Ruby Rack et Ruby on Rails <= 2.x).
 
-Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
+Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄).
 
 > [!NOTE]
 > Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour le Cloud Privé, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.

@@ -15,7 +15,7 @@ eleventyNavigation:
 | 6.0 |
 | 5.0 |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > .NET**. C'est cette version qui est notamment utilisée lorsque vous démarrez `dotnet`.
+La version par défaut est modifiable dans l'interface d'administration, **Environnement > .NET**. C'est cette version qui est notamment utilisée lorsque vous démarrez `dotnet`.
 
 Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 

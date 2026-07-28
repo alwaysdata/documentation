@@ -30,11 +30,11 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
 
 ## Lancement du transfert
 
-1.  Dans votre interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
+1.  Dans l'interface d'administration, allez dans **Domaines > Ajouter un domaine** ;
     
     ![](images/admin-panel_domain-list.png)
     
-    Si le domaine a déjà été [ajouté](/fr/docs/domaines/ajouter-un-domaine-externe/) à votre interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
+    Si le domaine a déjà été [ajouté](/fr/docs/domaines/ajouter-un-domaine-externe/) à l'interface alwaysdata, vous pouvez le transférer via **Domaines > Détails** du domaine concerné **> Transférer**.
     
     ![](images/admin-panel_transfer-domain.png)
 
@@ -71,7 +71,7 @@ l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre d
 
 ## Préparation du domaine
 
-Durant ce temps, le domaine sera ajouté à votre interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
+Durant ce temps, le domaine sera ajouté à l'interface d'administration en temps que _Domaine externe_ avec une opération en cours. Vous pourrez préparer nos serveurs en :
 
 - mettant à jour vos [enregistrements DNS](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/) si vous utilisez d'autres serveurs pour certains services ;
 - créant les [adresses email](/fr/docs/emails/creer-une-adresse-email/).

@@ -23,7 +23,7 @@ FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_P
 |Port alternatif|21 (STARTTLS)|
 |Identifiant|**utilisateur** (**[compte]**) et **mot de passe** associé|
 
-Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de votre interface d'administration alwaysdata.
+Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de l'interface d'administration.
 ![](admin-panel_list-ftp-users.png)
 
 Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en environnements Cloud Privé.

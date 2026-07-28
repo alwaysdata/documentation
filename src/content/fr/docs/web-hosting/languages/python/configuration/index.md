@@ -15,7 +15,7 @@ eleventyNavigation:
 |3.14 \|3.13 \| 3.12 \| 3.11 \| 3.10 \| 3.9 \| 3.8 \| 3.7 \| 3.6 \| 3.5 \| 3.4 \| 3.3 |
 | 2.7 \| 2.6 \| 2.5 \| 2.4 |
 
-La version par défaut est modifiable dans l'administration alwaysdata, **Environnement > Python**. C'est cette version qui est notamment utilisée lorsque vous démarrez `python`.
+La version par défaut est modifiable dans l'interface d'administration, **Environnement > Python**. C'est cette version qui est notamment utilisée lorsque vous démarrez `python`.
 
 Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
@@ -23,7 +23,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 Python tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `/home/[compte]/admin/logs/uwsgi/[id].log`, où [id] est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
-Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+Un extrait de ces logs est présenté dans l'interface d'administration (Logs - 📄).
 
 ## Binaire à utiliser
 
@@ -119,7 +119,7 @@ Si vous utilisez un environnement virtuel, il n'est pas nécessaire de spécifie
 
 ## Déploiement WSGI
 
-Pour qu'une application [WSGI](https://wsgi.readthedocs.io) soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration :
+Pour qu'une application [WSGI](https://wsgi.readthedocs.io) soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'interface d'administration :
 
 ![](images/python-wsgi.png)
 

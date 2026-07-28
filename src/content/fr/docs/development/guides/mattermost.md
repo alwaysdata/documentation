@@ -13,7 +13,7 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 
 - Nom du compte : `[compte]`
 - Répertoire de Mattermost : `/home/[compte]/mattermost/`
-- Base de données PostgreSQL : `[compte]_mattermost` - à créer dans le menu **Bases de données > PostgreSQL** de [l'interface d'administration](https://admin.alwaysdata.com)
+- Base de données PostgreSQL : `[compte]_mattermost` - à créer dans le menu **Bases de données > PostgreSQL** de l'interface d'administration
 - Port : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
 > [!NOTE]

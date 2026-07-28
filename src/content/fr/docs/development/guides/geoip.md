@@ -29,7 +29,7 @@ cd
 rm -fr mod_maxminddb
 ```
 
-Puis ajoutez dans le menu **Web > Configuration** de votre interface d'administration alwaysdata :
+Puis ajoutez dans le menu **Web > Configuration** de l'interface d'administration :
 
 ```
 LoadModule maxminddb_module /home/[compte]/mod_maxminddb.so

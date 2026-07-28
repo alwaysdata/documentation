@@ -20,7 +20,7 @@ Ce document ne décrit pas les nouvelles fonctionnalités apportées par l'infra
 
 ## Généralités
 
-* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services introduit en 2015. Vous trouverez les adresses à utiliser dans l'administration alwaysdata, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.[compte].alwaysdata.net`) cesseront totalement de fonctionner.
+* Vous devez impérativement utiliser le nouveau format des noms d'hôte d'accès aux services introduit en 2015. Vous trouverez les adresses à utiliser dans l'interface d'administration, dans chaque section concernée. Les anciens formats, utilisant le domaine `alwaysdata.com` (par exemple, `mysql.alwaysdata.com` ou `postgresql1.alwaysdata.com`), ou un point entre le nom du service et celui du compte (par exemple `mysql.[compte].alwaysdata.net`) cesseront totalement de fonctionner.
 
 * Plusieurs fichiers et répertoires situés dans chaque compte sont déplacés ou supprimés. Notamment :
     * les 4 fichiers par défaut (`php5.fcgi`, `php5.ini`, `php4.fcgi`, `php4.ini`) du répertoire `/home/[compte]/cgi-bin` sont supprimés, et le répertoire également s'il est désormais vide ;
@@ -158,7 +158,7 @@ Parmi les bibliothèques les plus susceptibles d'être concernées :
 
 ## Changement d'IP du serveur HTTP
 
-Pour certains utilisateurs mutualisés encore hébergés dans notre ancienne infrastructure matérielle, l'adresse IP de leur serveur HTTP sera amenée à changer. Ce sera indiqué, le cas échéant, sur la page de détails de la migration, dans l'administration alwaysdata. Si vous utilisez nos serveurs DNS ou un CNAME, vous n'aurez rien besoin de faire. En revanche, si vous aviez défini manuellement un enregistrement DNS de type A ou AAAA, vous devrez les modifier après avoir effectué la migration afin d'indiquer les nouvelles adresses IP.
+Pour certains utilisateurs mutualisés encore hébergés dans notre ancienne infrastructure matérielle, l'adresse IP de leur serveur HTTP sera amenée à changer. Ce sera indiqué, le cas échéant, sur la page de détails de la migration, dans l'interface d'administration. Si vous utilisez nos serveurs DNS ou un CNAME, vous n'aurez rien besoin de faire. En revanche, si vous aviez défini manuellement un enregistrement DNS de type A ou AAAA, vous devrez les modifier après avoir effectué la migration afin d'indiquer les nouvelles adresses IP.
 
 Les anciennes IP continueront néanmoins à fonctionner pendant encore plusieurs semaines (fonctionnement en *reverse proxy*), mais passer par elles implique une augmentation faible de la latence de vos sites et une augmentation du risque de pannes. Il est donc vivement recommandé de les changer au plus vite.
 

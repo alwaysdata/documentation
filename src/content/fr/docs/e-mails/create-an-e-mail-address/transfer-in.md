@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Voici comment procéder à la migration d'adresses email chez alwaysdata.
 
-1. [Créer les adresses email](/fr/docs/emails/creer-une-adresse-email/) sur votre interface d'administration, onglet **Emails > Adresses** ;
+1. [Créer les adresses email](/fr/docs/emails/creer-une-adresse-email/) sur l'interface d'administration, onglet **Emails > Adresses** ;
 
 2. Migrer les emails déjà présents chez le prestataire actuel via **Emails > Adresses > Modifier [exemple@example.org] -  ⚙️ > Importer des emails**.
 

@@ -75,4 +75,4 @@ Voir [Logs](/fr/docs/hebergement-web/sites/personnalisation/formater-les-logs-ht
 
 ---
 
-Les logs HTTP sont disponibles dans le répertoire `/home/[compte]/admin/logs/http/`. Les logs _sites_ reprenant les lancements, arrêts et dysfonctionnements des serveurs web "upstream" sont disponibles dans `/home/[compte]/admin/logs/sites/`. Un extrait de ces logs (ainsi que les logs Apache et uWSGI) est présenté dans l'interface d'administration alwaysdata  (**Logs** - 📄).
+Les logs HTTP sont disponibles dans le répertoire `/home/[compte]/admin/logs/http/`. Les logs _sites_ reprenant les lancements, arrêts et dysfonctionnements des serveurs web "upstream" sont disponibles dans `/home/[compte]/admin/logs/sites/`. Un extrait de ces logs (ainsi que les logs Apache et uWSGI) est présenté dans l'interface d'administration  (**Logs** - 📄).

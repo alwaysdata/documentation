@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion uti­li­sa­teur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
 
-Ces services sont contrôlés via le menu **Avancé > Services** de l'[interface d'administration](https://admin.alwaysdata.com).
+Ces services sont contrôlés via le menu **Avancé > Services** de l'interface d'administration.
 
 ![](images/admin-panel_create-service.png)
 
@@ -22,7 +22,7 @@ Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdat
 - Il doit rester en avant plan (`foreground`) et non forker et quitter [^2] ;
 - S'il veut écouter sur un port il doit être attaché en _IPv6_ sur `::` et écouter un port entre `8300` et `8499` ;
 - Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/services/`. Il vous donne le démarrage et l'arrêt du service.
-	- Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (**Logs** - 📄).
+	- Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄).
 - Les processus en cours sont accessible via le menu **Avancé > Processus > Services** ;
 - Le redémarrage d'un service renvoie le signal `SIGHUP`;
 - Si un service échoue à plusieurs reprises en peu de temps, il sera automatiquement désactivé ;

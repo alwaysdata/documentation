@@ -16,7 +16,7 @@ Une sauvegarde de vos fichiers, bases de données et emails est effectuée **quo
 
 Quelque soit l'offre prise, les sauvegardes sont stockées dans un *datacenter dédié*, distant de plusieurs kilomètres du centre de production et utilisant un autre prestataire.
 
-Vous pouvez restaurer [un site web](/fr/docs/hebergement-web/sauvegardes/restaurer-un-site/) ou des [emails](/fr/docs/hebergement-web/sauvegardes/restaurer-des-emails/) dans l'onglet **Avancé > Restauration de sauvegardes** de votre interface d'administration.
+Vous pouvez restaurer [un site web](/fr/docs/hebergement-web/sauvegardes/restaurer-un-site/) ou des [emails](/fr/docs/hebergement-web/sauvegardes/restaurer-des-emails/) dans l'onglet **Avancé > Restauration de sauvegardes** de l'interface d'administration.
 
 > [!NOTE]
 > Les sauvegardes ne rentrent pas en compte dans le quota d'espace disque d'un compte.

@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Pour créer une liste de diffusion, vous devez vous connecter à l'interface d'administration alwaysdata - onglet **Emails > Listes de diffusion**.
+Pour créer une liste de diffusion, vous devez vous connecter à l'interface d'administration - onglet **Emails > Listes de diffusion**.
 
 ## Gestion utilisateur
 

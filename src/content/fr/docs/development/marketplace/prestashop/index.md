@@ -17,6 +17,6 @@ Vous aurez besoin de modifier :
 
 ## Envoi de mails
 
-L'utilisation de `/usr/sbin/sendmail` est non-fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et indiquez juste le nom d'hôte SMTP de votre compte (donné dans le menu **Emails > Adresses** de votre interface d'administration alwaysdata).
+L'utilisation de `/usr/sbin/sendmail` est non-fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et indiquez juste le nom d'hôte SMTP de votre compte (donné dans le menu **Emails > Adresses** de l'interface d'administration).
 
 ![](images/prestashop-emails.png)

@@ -17,7 +17,7 @@ Rendez-vous dans le menu **Profil** pour modifier les informations de profil.
 
 ![](images/profile.png)
 
-Toute information de profil peut être modifiée que ce soit au niveau de l'authentification à l'interface d'administration alwaysdata (adresse email, mot de passe) ou de la propriété (raison sociale, nom, adresse). Les prochaines factures seront émises avec les nouvelles informations de profil.
+Toute information de profil peut être modifiée que ce soit au niveau de l'authentification à l'interface d'administration (adresse email, mot de passe) ou de la propriété (raison sociale, nom, adresse). Les prochaines factures seront émises avec les nouvelles informations de profil.
 
 ## Cession
 
@@ -38,4 +38,4 @@ Rendez-vous sur **Abonnements > Céder à un autre utilisateur**. Vous devrez in
 
 Tant que le nouveau propriétaire n'a pas validé la cession le profil émetteur reste propriétaire du compte et peut l'annuler dans l'onglet **Cessions**.
 
-[^1]: L'historique client comprend les tickets de support, la facturation, et les actions effectuées sur l'interface d'administration alwaysdata et son API.
+[^1]: L'historique client comprend les tickets de support, la facturation, et les actions effectuées sur l'interface d'administration et son API.

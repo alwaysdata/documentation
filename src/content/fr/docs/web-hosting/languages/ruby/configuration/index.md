@@ -17,7 +17,7 @@ eleventyNavigation:
 | 2.7 \| 2.6 \| 2.5 \| 2.4 \| 2.3 \| 2.2 \| 2.1 \| 2.0 |
 | 1.9 \| 1.8 |
 
-La version par défaut est modifiable dans l'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
+La version par défaut est modifiable dans l'interface d'administration, section **Environnement > Ruby**. C'est cette version qui est notamment utilisée lorsque vous démarrez `ruby`.
 
 Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
@@ -25,7 +25,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 Ruby tourne derrière [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), vous pouvez consulter les logs d'erreur dans le fichier `/home/[compte]/admin/logs/uwsgi/[id].log`, où `[id]` est l'identifiant de votre site, indiqué dans la section **Web > Sites**.
 
-Un extrait de ces logs est présenté dans l'interface d'administration alwaysdata (Logs - 📄).
+Un extrait de ces logs est présenté dans l'interface d'administration (Logs - 📄).
 
 ## Binaire à utiliser
 
@@ -89,7 +89,7 @@ $ bundle install
 
 ## Déploiement HTTP
 
-Pour qu'une application Ruby soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'administration alwaysdata. Nous proposons le type **Ruby Rack** qui utilise le serveur web [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
+Pour qu'une application Ruby soit accessible par le web, vous devez ajouter un site dans la section **Web > Sites** de l'interface d'administration. Nous proposons le type **Ruby Rack** qui utilise le serveur web [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/).
 
 ![](images/ruby-rack.png)
 

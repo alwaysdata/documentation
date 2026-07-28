@@ -16,7 +16,7 @@ Le type Apache personnalisé permet de faire tourner des sites servis par le ser
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 ![](images/admin-panel_sites-list.png)
 
-- Nom : utilisé pour l'affichage dans l'interface d'administration alwaysdata, purement informatif ;
+- Nom : utilisé pour l'affichage dans l'interface d'administration, purement informatif ;
 - Adresses : les adresses pour joindre votre site (`*.example.org` pour les _catch-all_) ;
 
 ![](images/admin-panel_add-site-general.png)

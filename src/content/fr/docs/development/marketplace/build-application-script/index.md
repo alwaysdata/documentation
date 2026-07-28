@@ -54,12 +54,12 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 * Pour rendre un script d'installation publique il faut indiquer la condition `disk` des `requirements` ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
 * Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
-* Les *labels* et *regex_text* sont traductibles. En fonction de la langue choisie sur son interface d'administration alwaysdata, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
+* Les *labels* et *regex_text* sont traductibles. En fonction de la langue choisie sur son interface d'administration, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
 
 > [!NOTE]
 > Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. 
 > **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
-
+in
 
 > [!TIP] Astuce
 > Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.

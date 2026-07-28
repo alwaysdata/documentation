@@ -19,7 +19,7 @@ Dans l'immense majorité des cas, notre monitoring détecte automatiquement les 
 Exemples (liste non exhaustive) :
 
 - un service administré par alwaysdata a cessé de fonctionner (HTTP, FTP, IMAP, SSH, etc.) ;
-- les modifications effectuées depuis l'administration alwaysdata ne sont pas correctement prises en compte.
+- les modifications effectuées depuis l'interface d'administration alwaysdata ne sont pas correctement prises en compte.
 
 ## Problèmes NON couverts par la garantie de service
 

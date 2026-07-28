@@ -23,7 +23,7 @@ eleventyNavigation:
 | 8  |
 | 6  |
 
-La version par défaut est modifiable dans l'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
+La version par défaut est modifiable dans l'interface d'administration, section **Environnement > Node.js**. C'est cette version qui est notamment utilisée lorsque vous démarrez `node`.
 
 Versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
