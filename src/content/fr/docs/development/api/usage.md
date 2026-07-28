@@ -59,9 +59,9 @@ $ curl --basic --user APIKEY: --header 'Accept: application/xml' https://api.alw
 
 ## En-têtes HTTP
 
-| En-tête HTTP           | Description                              | Valeur par défaut |
-|------------------------|------------------------------------------|-------------------|
-| alwaysdata-synchronous | Exécution des requêtes en mode synchrone | no                |
+| En-tête HTTP | Description | Valeur par défaut |
+|---|---|---|
+| alwaysdata-synchronous | Exécution des requêtes en mode synchrone | no |
 
 ## Rate-limit
 

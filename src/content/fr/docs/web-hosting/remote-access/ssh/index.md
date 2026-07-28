@@ -23,11 +23,11 @@ SSH, pour [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell), est un pro
 
 ## Se connecter en SSH
 
-| Informations |                                                 |
-|--------------|-------------------------------------------------|
-| Hôte         | ssh-[compte].alwaysdata.net                     |
-| Ports        | 22                                              |
-| Identifiant  | utilisateur et mot de passe associé OU clés SSH |
+|Informations||
+|---|---|
+|Hôte|ssh-[compte].alwaysdata.net|
+|Ports|22|
+|Identifiant|utilisateur et mot de passe associé OU clés SSH|
 
 Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > SSH/SFTP** de votre interface d'administration alwaysdata (dont leurs [shell](https://fr.wikipedia.org/wiki/Shell_Unix)). Vous y retrouverez aussi les _fingerprints_ du serveur SSH sur lequel est le compte.
 ![](admin-panel_ssh-users-list.png)

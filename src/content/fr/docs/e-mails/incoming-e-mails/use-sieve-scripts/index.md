@@ -15,33 +15,33 @@ Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]
 
 ## Extensions supportées
 
-|Extension                 |Description                                                                             |
-|--------------------------|----------------------------------------------------------------------------------------|
-|body                      |Vérifie la présence d'une ou de plusieurs chaînes de caractères dans le corps d'un email|
-|comparator-i;ascii-numeric|Extrait des nombres du texte et les compare pour voir si cela correspond                |
-|copy                      |Spécifie qu'une copie doit être utilisée pour effectuer l'action                        |
-|date                      |Effectue des actions en fonction de la date/l'heure de l'envoi/la réception d'un email  |
-|duplicate                 |Détecte si c'est un duplicata                                                           |
-|editheader                |Ajoute ou supprime du texte aux en-têtes                                                |
-|encoded-character         |Permet l'encodage numérique de caractères spéciaux                                      |
-|enotify                   |Envoie des notifications                                                                |
-|envelope                  |Évalue l'enveloppe ("from", "to"...)                                                    |
-|environment               |Teste différentes valeurs étiquetées de l'environnement d'exécution                     |
-|fileinto                  |Délivre l'email dans le dossier spécifié                                                |
-|foreverypart              |Permet aux commandes d'être exécutées dans toutes les parties MIME de l'email           |
-|ihave                     |Teste si une extension Sieve est disponible et, si c'est le cas, exécute son action     |
-|imap4flags                |Ajoute des indicateurs IMAP et mots clés aux messages                                   |
-|include                   |Permet d'inclure un script Sieve dans un autre                                          |
-|index                     |Permet de faire correspondre des champs d'en-tête spécifiques par index                 |
-|mailbox                   |Vérifie si un répertoire spécifique existe                                              |
-|mime                      |Teste des parties MIME spécifiques du message                                           |
-|extracttext               |Extrait du texte depuis des parties MIME                                                |
-|regex                     |Utilise des expressions régulières                                                      |
-|reject                    |Refuse la délivrance du message                                                         |
-|relational                |Permet des comparaisons relationnelles                                                  |
-|subaddress                |Teste des éléments délimités de la partie locale des adresses                           |
-|vacation                  |Réponses automatiques                                                                   |
-|variables                 |Permet d'ajouter des variables                                                          |
+|Extension|Description|
+|---|---|
+|body|Vérifie la présence d'une ou de plusieurs chaînes de caractères dans le corps d'un email|
+|comparator-i;ascii-numeric|Extrait des nombres du texte et les compare pour voir si cela correspond|
+|copy|Spécifie qu'une copie doit être utilisée pour effectuer l'action|
+|date|Effectue des actions en fonction de la date/l'heure de l'envoi/la réception d'un email|
+|duplicate|Détecte si c'est un duplicata|
+|editheader|Ajoute ou supprime du texte aux en-têtes|
+|encoded-character|Permet l'encodage numérique de caractères spéciaux|
+|enotify|Envoie des notifications|
+|envelope |Évalue l'enveloppe ("from", "to"...) |
+|environment|Teste différentes valeurs étiquetées de l'environnement d'exécution|
+|fileinto |Délivre l'email dans le dossier spécifié|
+|foreverypart|Permet aux commandes d'être exécutées dans toutes les parties MIME de l'email|
+|ihave|Teste si une extension Sieve est disponible et, si c'est le cas, exécute son action|
+|imap4flags|Ajoute des indicateurs IMAP et mots clés aux messages |
+|include|Permet d'inclure un script Sieve dans un autre|
+|index|Permet de faire correspondre des champs d'en-tête spécifiques par index|
+|mailbox|Vérifie si un répertoire spécifique existe|
+|mime|Teste des parties MIME spécifiques du message|
+|extracttext|Extrait du texte depuis des parties MIME|
+|regex|Utilise des expressions régulières|
+|reject|Refuse la délivrance du message|
+|relational|Permet des comparaisons relationnelles|
+|subaddress|Teste des éléments délimités de la partie locale des adresses|
+|vacation |Réponses automatiques|
+|variables|Permet d'ajouter des variables|
 
 ## Exemples
 

@@ -11,14 +11,14 @@ eleventyNavigation:
 
 ||
 |---|
-| 3.10 |
+|3.10|
 
 ## Connexion
 
-|             |                                  |
-|-------------|----------------------------------|
-| **Serveur** | rabbitmq-[compte].alwaysdata.net |
-| **Port**    | 5672 (Port RabbitMQ par défaut)  |
+|||
+|---|---|
+|**Serveur**|rabbitmq-[compte].alwaysdata.net|
+|**Port**|5672 (Port RabbitMQ par défaut)|
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > RabbitMQ** de l'interface d'administration.
 

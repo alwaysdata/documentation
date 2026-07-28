@@ -16,12 +16,12 @@ FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_P
 
 ## Se connecter en FTP
 
-| Informations |                                     |
-|--------------|-------------------------------------|
-| Hôte         | **ftp-[compte].alwaysdata.net**         |
-| Port         | **990 (SSL/TLS)**                   |
-| Port alternatif | 21 (STARTTLS)                    |
-| Identifiant  | **utilisateur** (**[compte]**) et **mot de passe** associé |
+|Informations||
+|---|---|
+|Hôte|**ftp-[compte].alwaysdata.net**|
+|Port|**990 (SSL/TLS)**|
+|Port alternatif|21 (STARTTLS)|
+|Identifiant|**utilisateur** (**[compte]**) et **mot de passe** associé|
 
 Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de votre interface d'administration alwaysdata.
 ![](admin-panel_list-ftp-users.png)

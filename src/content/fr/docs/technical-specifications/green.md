@@ -29,7 +29,7 @@ Afin de simplifier la méthode, mais également de compenser dans le bon sens, c
 
 
 | Donnée | Détails | Valeur 2025 |
-|--------|---------|------------:|
+|---|---|---|
 | Nombre de serveurs | Ensemble des appareils consommateurs (serveurs, routeurs, hyperviseurs, etc.) achetés et intégrés à notre infrastructure dans le courant de l'année. | 45 |
 | Puissance apparente (kVA)| Puissance souscrite auprès des datacenters sur l'ensemble de notre infrastructure. Marge : le calcul utilise donc la puissance maximale souscrite plutôt que la consommation réelle. | 32 kVA |
 | Facteur de puissance (cos φ) | En général, on prend 0.8 comme valeur moyenne pour des installations standards. Marge : même si la plupart des serveurs modernes ont un facteur supérieur à 0.9 (s'approchant effectivement du Power Factor [affiché par nos alimentations](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-606P-1R/PWS-606P-1R_quick_spec.pdf)), nous choisissons de rester sur cette valeur plus pessimiste. | 0.8 |

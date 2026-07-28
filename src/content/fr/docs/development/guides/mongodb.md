@@ -50,14 +50,14 @@ L'adresse pour se connecter à l'instance MongoDB sera `services-[compte].always
 
 Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils souhaitent y accéder depuis l'extérieur :
 
-| Intitulé   | Valeur                                           |
-|------------|--------------------------------------------------|
-| Protocole  | UDP/TCP                                          |
-| Type       | ACCEPT                                           |
-| Direction  | Entrée                                           |
-| Hôtes      | \<ne rien indiquer>                              |
-| Ports      | 27017                                            |
-| Version IP | IPv4/IPv6                                        |
+| Intitulé  | Valeur |
+|---|---|
+| Protocole | UDP/TCP |
+| Type | ACCEPT |
+| Direction | Entrée |
+| Hôtes | \<ne rien indiquer> |
+| Ports | 27017 |
+| Version IP | IPv4/IPv6 |
 
 ## Téléchargement et installation des utilitaires
 

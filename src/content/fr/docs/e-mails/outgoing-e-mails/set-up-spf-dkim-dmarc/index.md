@@ -16,28 +16,28 @@ Voici 3 méthodes pour authentifier vos emails et réduire de ce fait l'usage ab
 
 ### Paramètres
 
-|Mécanisme                |                                                                                                   |
-|-------------------------|---------------------------------------------------------------------------------------------------|
-|ALL                      |Résultat par défaut                                                                                |
-|A                        |Un enregistrement _IN A (ou AAAA)_ pouvant être résolu comme adresse d'expéditeur                  |
-|IP4                      |Plage d'IPv4                                                                                       |
-|IP6                      |Plage d'IPv6                                                                                       |
-|MX                       |Un enregistrement _Mail eXchanger_ pointant vers l'adresse de l'expéditeur                         |
-|EXISTS                   |Le domaine est résolu en n'importe quelle adresse                                                  |
-|INCLUDE                  |Une règle incluse passe le test                                                                    |
-|PTR                      |Le domaine de l'adresse IP correspond au domaine spécifié, et ce dernier pointe vers l'IP en retour|
+|Mécanisme||
+|---|---|
+|ALL|Résultat par défaut|
+|A|Un enregistrement _IN A (ou AAAA)_ pouvant être résolu comme adresse d'expéditeur|
+|IP4|Plage d'IPv4 |
+|IP6|Plage d'IPv6 |
+|MX |Un enregistrement _Mail eXchanger_ pointant vers l'adresse de l'expéditeur|
+|EXISTS|Le domaine est résolu en n'importe quelle adresse|
+|INCLUDE|Une règle incluse passe le test|
+|PTR|Le domaine de l'adresse IP correspond au domaine spécifié, et ce dernier pointe vers l'IP en retour|
 
-|Qualifieurs              |                                                                                                   |
-|-------------------------|---------------------------------------------------------------------------------------------------|
-|+                        |Résultat favorable                                                                                 |
-|?                        |Résultat neutre                                                                                    |
-|~                        |Léger échec "_SOFTMAIL_" (email accepté mais marqué)                                               |
-|-                        |Échec total (email normalement rejeté)                                                             |
+|Qualifieurs||
+|---|---|
+|+|Résultat favorable|
+|?|Résultat neutre|
+|~|Léger échec "_SOFTMAIL_" (email accepté mais marqué)|
+|-|Échec total (email normalement rejeté)|
 
-|Modifiers                |                                                                                                   |
-|-------------------------|---------------------------------------------------------------------------------------------------|
-|exp=some.example.org     |Pour avoir le motif des résultats en échec                                                         |
-|redirect=some.example.org|Pour lier à un enregistrement de règle d'un autre domaine                                          |
+|Modifiers||
+|---|---|
+|exp=some.example.org|Pour avoir le motif des résultats en échec|
+|redirect=some.example.org|Pour lier à un enregistrement de règle d'un autre domaine|
 
 > [!WARNING] Attention
 > Cette technologie peut avoir des répercussions sur les redirections emails : le serveur émetteur n'étant pas forcément le serveur de messagerie de l'expéditeur d'origine de l'email.
@@ -100,26 +100,26 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement do
 
 ### Paramètres
 
-|Variables|                                                                                          |
-|---------|------------------------------------------------------------------------------------------|
-|v        |Version du protocole : `v=DMARC1` (obligatoire)                                           |
-|pct      |Pourcentage de messages à filtrer (défaut : 100)                                          |
-|adkim    |Cohérence avec DKIM                                                                       |
-|         |`s` = mode strict - le domaine de la signature DKIM doit exactement correspondre au _FROM_|
-|         |`r` = mode relax (défaut)                                                                 |
-|aspf     |Cohérence avec SPF (`s`ou `r`)                                                            |
-|p        |Procédure en cas d'échec - domaine principal (obligatoire)                                |
-|         |`none` = livre l'email normalement                                                        |
-|         |`quarantine` = traite l'email comme suspect (score de spam, drapeau...)                   |
-|         |`reject` = rejette l'email                                                                |
-|sp       |Procédure en cas d'echec - sous-domaine (`none`, `quarantine` ou `reject`)                |
-|ruf      |Destinataire des rapports d'échecs détaillés                                              |
-|fo       |Conditions pour l'envoi d'un rapport détaillé                                             |
-|         |`1` = échec de DKIM et/ou SPF                                                             |
-|         |`d` = échec de DKIM                                                                       |
-|         |`s` = échec de SPF                                                                        |
-|         |`0`= échec de DKIM et SPF (défaut)                                                        |
-|rua      |Destinataires des rapports d'échecs agrégés                                               |
+|Variables||
+|---|---|
+|v|Version du protocole : `v=DMARC1` (obligatoire) |
+|pct|Pourcentage de messages à filtrer (défaut : 100)|
+|adkim|Cohérence avec DKIM|
+||`s` = mode strict - le domaine de la signature DKIM doit exactement correspondre au _FROM_|
+||`r` = mode relax (défaut) |
+|aspf|Cohérence avec SPF (`s`ou `r`)|
+|p|Procédure en cas d'échec - domaine principal (obligatoire)|
+||`none` = livre l'email normalement|
+||`quarantine` = traite l'email comme suspect (score de spam, drapeau...)|
+||`reject` = rejette l'email|
+|sp|Procédure en cas d'echec - sous-domaine (`none`, `quarantine` ou `reject`)|
+|ruf|Destinataire des rapports d'échecs détaillés|
+|fo|Conditions pour l'envoi d'un rapport détaillé |
+||`1` = échec de DKIM et/ou SPF|
+||`d` = échec de DKIM|
+||`s` = échec de SPF|
+||`0`= échec de DKIM et SPF (défaut)|
+|rua|Destinataires des rapports d'échecs agrégés|
 
 Pour le mettre en place, un enregistrement DNS de type `TXT` doit être créé. Chez alwaysdata, vous le retrouverez dans l'onglet **Enregistrements DNS** du domaine :
 

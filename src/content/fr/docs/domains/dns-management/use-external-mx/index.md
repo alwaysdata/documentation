@@ -27,20 +27,20 @@ Cela désactivera automatiquement nos enregistrements MX.
 
 ## Serveurs MX de différents prestataires
 
-| Prestataire       | TTL   | Priorité | Valeur                                        |
-|-------------------|-------|----------|-----------------------------------------------|
-| Gandi             | 10800 | 10       | spool.mail.gandi.net                          |
-|                   | 10800 | 50       | fb.mail.gandi.net                             |
-| GSuite            | 3600  | 1        | aspmx.l.google.com                            |
-|                   | 3600  | 5        | alt1.aspmx.l.google.com                       |
-|                   | 3600  | 5        | alt2.aspmx.l.google.com                       |
-|                   | 3600  | 10       | alt3.aspmx.l.google.com                       |
-|                   | 3600  | 10       | alt4.aspmx.l.google.com                       |
-| Microsoft Outlook | 3600  | 1        | [id_mx_microsoft].mail.protection.outlook.com |
-| OVH               | 3600  | 1        | mx0.mail.ovh.net                              |
-|                   | 3600  | 5        | mx1.mail.ovh.net                              |
-|                   | 3600  | 50       | mx2.mail.ovh.net                              |
-|                   | 3600  | 100      | mx3.mail.ovh.net                              |
+| Prestataire | TTL | Priorité | Valeur |
+|---|---|---|---|
+| Gandi | 10800 | 10 | spool.mail.gandi.net |
+|| 10800 | 50 | fb.mail.gandi.net |
+| GSuite | 3600 | 1 | aspmx.l.google.com |
+|| 3600 | 5 | alt1.aspmx.l.google.com |
+|| 3600 | 5 | alt2.aspmx.l.google.com |
+|| 3600 | 10 | alt3.aspmx.l.google.com |
+|| 3600 | 10 | alt4.aspmx.l.google.com |
+| Microsoft Outlook | 3600 | 1 | [id_mx_microsoft].mail.protection.outlook.com |
+| OVH | 3600 | 1 | mx0.mail.ovh.net |
+|| 3600 | 5 | mx1.mail.ovh.net |
+|| 3600 | 50 | mx2.mail.ovh.net |
+|| 3600 | 100 | mx3.mail.ovh.net |
 
 > [!NOTE]
 > `[id_mx_microsoft]` est généré aléatoirement par Microsoft selon le nom du domaine

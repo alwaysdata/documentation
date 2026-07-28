@@ -9,7 +9,7 @@ eleventyNavigation:
 ## Versions supportées
 
 | |
-|----|
+|---|
 | 25 |
 | 21 |
 | 17 |

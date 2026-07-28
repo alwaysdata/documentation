@@ -13,7 +13,7 @@ Chaque adresse email dispose de son propre carnet d'adresses et d'un agenda. Les
 |---|---|
 |CardDAV (carnet d'adresses)|carddav-[compte].alwaysdata.net|
 |CalDAV (agenda)|caldav-[compte].alwaysdata.net|
-||Identifiant : **adresse email** et **mot de passe** associé |
+||Identifiant : **adresse email** et **mot de passe** associé|
 
 Le partage n'est *pas* disponible.
  

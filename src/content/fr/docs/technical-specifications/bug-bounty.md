@@ -81,13 +81,13 @@ Nous offrons des récompenses en espèces.
 
 Ce qui suit est simplement un indicateur de récompenses, mais ne reflète pas ce que pourrait être la décision finale. *Nous valorisons les rapports de qualité et les preuves de concept.*
 
-Qualification|Exemples de failles (liste non exhaustive)|Score CVSS|Prime
----|---|---|---
-Aucune||N/A|Pas de prime
-Faible|Accéder à des parties restreintes d'éléments tiers ou de leurs plugins (blog, forum, etc.)|0.1 - 3.9|Jusqu'à 50 €
-Moyenne|Accéder aux permissions/configurations sur les comptes des utilisateurs sans accéder à leur contenu|4.0 - 6.9|Jusqu'à 200 €
-Élevée|Accéder aux données/informations des clients|7.0 - 8.9|Jusqu'à 350 €
-Critique|Accéder en mode lecture ou lecture-écriture à l'architecture de la plateforme centrale|9.0 - 10.0|Jusqu'à 500 €
+|Qualification|Exemples de failles (liste non exhaustive)|Score CVSS|Prime|
+|---|---|---|---|
+|Aucune||N/A|Pas de prime|
+|Faible|Accéder à des parties restreintes d'éléments tiers ou de leurs plugins (blog, forum, etc.)|0.1 - 3.9|Jusqu'à 50 €|
+|Moyenne|Accéder aux permissions/configurations sur les comptes des utilisateurs sans accéder à leur contenu|4.0 - 6.9|Jusqu'à 200 €|
+|Élevée|Accéder aux données/informations des clients|7.0 - 8.9|Jusqu'à 350 €|
+|Critique|Accéder en mode lecture ou lecture-écriture à l'architecture de la plateforme centrale|9.0 - 10.0|Jusqu'à 500 €|
 
 ### Éligibilité
 

@@ -9,7 +9,7 @@ eleventyNavigation:
 ## Versions supportées
 
 ||
-|-----|
+|---|
 | 10.0 |
 | 8.0 |
 | 6.0 |

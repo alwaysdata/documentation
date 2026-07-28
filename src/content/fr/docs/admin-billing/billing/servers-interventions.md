@@ -8,13 +8,13 @@ eleventyNavigation:
 ---
 La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
 
-| Détail                                                          | Tarifs (HT)[^1] |
-| --------------------------------------------------------------- | -------------- |
-| Changement de CPU                                               | 400 €          |
-| Changement de disques                                           | 400 €          |
-| Changement de RAM                                               | 200 €          |
-| Ajout de GPU                                                    | 200 €          |
-| Ajout de disques                                                | 200 €          |
+|Détail|Tarifs (HT)[^1]|
+|---|---|
+|Changement de CPU|400 €|
+|Changement de disques|400 €|
+|Changement de RAM|200 €|
+|Ajout de GPU|200 €|
+|Ajout de disques|200 €|
 
 Si plusieurs changements ont lieu en même temps chaque intervention est facturée avec un plafond à 600 € HT.
 

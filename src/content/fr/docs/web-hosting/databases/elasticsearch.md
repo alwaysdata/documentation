@@ -11,15 +11,14 @@ eleventyNavigation:
 
 ||
 |---|
-| 7.17 |
-| 8.17 |
+|8.17|
 
 ## Connexion
 
-|             |                                              |
-|-------------|----------------------------------------------|
-| **Serveur** | localhost ou 127.0.0.1                       |
-| **Ports**   | 9200 & 9300 (Ports Elasticsearch par défaut) |
+|||
+|---|---|
+|**Serveur**|localhost ou 127.0.0.1|
+|**Ports**|9200 & 9300 (Ports Elasticsearch par défaut)|
 
 Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 

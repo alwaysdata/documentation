@@ -56,26 +56,26 @@ Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités
 
 ### Autoriser sa propre IP à n'être bloquée sur aucun port entrant
 
-| Intitulé   | Valeur                                           |
-|------------|--------------------------------------------------|
-| Protocole  | UDP/TCP                                          |
-| Type       | ACCEPT                                           |
-| Direction  | Entrée                                           |
-| Hôtes      | \<votre IP>                                      |
-| Ports      | \<ne rien indiquer>                              |
-| Version IP | IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées) |
+|Intitulé|Valeur|
+|---|---|
+|Protocole|UDP/TCP|
+|Type|ACCEPT|
+|Direction|Entrée|
+|Hôtes|\<votre IP>|
+|Ports|\<ne rien indiquer>|
+|Version IP|IPv4, IPv6 ou IPv4/IPv6 (selon les IP indiquées)|
 
 ![](images/rule-example-accept.png)
 
 ### Bloquer le port MySQL sur l'extérieur
 
-| Intitulé   | Valeur                                           |
-|------------|--------------------------------------------------|
-| Protocole  | UDP/TCP                                          |
-| Type       | REJECT                                           |
-| Direction  | Entrée                                           |
-| Hôtes      | \<ne rien indiquer>                              |
-| Ports      | 3306                                             |
-| Version IP | IPv4/IPv6                                        |
+|Intitulé|Valeur|
+|---|---|
+|Protocole|UDP/TCP|
+|Type|REJECT|
+|Direction|Entrée|
+|Hôtes|\<ne rien indiquer>|
+|Ports|3306|
+|Version IP|IPv4/IPv6|
 
 ![](images/rule-example-reject.png)

@@ -13,20 +13,20 @@ Il est possible de consulter vos emails de plusieurs manières. Voici les 2 les 
 
 Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou tout autre appareil, voici les informations que vous devrez renseigner.
 
-| Serveur | Service                                                                | Informations                                        |
-|---------|------------------------------------------------------------------------|-----------------------------------------------------|
-| Entrant | [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) | Hôte : **imap-[compte].alwaysdata.net**                 |
-|         |                                                                        | Port : **993 (SSL/TLS)**                               |
+|Serveur|Service|Informations|
+|---|---|---|
+|Entrant|[IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol)|Hôte : **imap-[compte].alwaysdata.net**|
+|||Port : **993 (SSL/TLS)**|
 |||Port alternatif: 140 (STARTTLS)|
-|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
-|         | [POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)             | Hôte : **pop-[compte].alwaysdata.net**                  |
-|         |                                                                        | Port : **995 (SSL/TLS)**                               |
+|||Identifiant : **adresse email** et **mot de passe** associé|
+||[POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)|Hôte : **pop-[compte].alwaysdata.net**|
+|||Port : **995 (SSL/TLS)**|
 |||Port alternatif: 110 (STARTTLS)|
-|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
-| Sortant | [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)    | Hôte : **smtp-[compte].alwaysdata.net**                 |
-|         |                                                                        | Port : **465 (SSL/TLS)**                              |
+|||Identifiant : **adresse email** et **mot de passe** associé|
+|Sortant|[SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)|Hôte : **smtp-[compte].alwaysdata.net**|
+|||Port : **465 (SSL/TLS)**|
 |||Port alternatif: 587 (STARTTLS)|
-|         |                                                                        | Identifiant : **adresse email** et **mot de passe** associé |
+|||Identifiant : **adresse email** et **mot de passe** associé|
 
 > [!NOTE]
 > Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.

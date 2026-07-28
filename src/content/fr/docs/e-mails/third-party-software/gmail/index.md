@@ -30,7 +30,6 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 > [!TIP] Astuce
 > Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
 
-
 ## Navigateur web
 
 Rendez-vous dans **Paramètres > Comptes et importation**.

@@ -25,10 +25,10 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 
 ---
 
-| Services || Public Cloud | Private Cloud |
+| Services || Public Cloud | Private Cloud ||
 |---|---|---|---|---|
 |||| **Dedicated** | **Gold** |
-| Support | Tickets |✔️|✔️|✔️|✔️|
+| Support | Tickets |✔️|✔️|✔️|
 || [Prioritized tickets](/en/docs/admin-billing/urgent-ticket) |❌|✔️|✔️|
 || Phone |❌|✔️|✔️|
 | Websites | Configurable HTTP server |✔️|✔️|✔️|
@@ -44,6 +44,7 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Ruby](/en/docs/web-hosting/languages/ruby) |✔️|✔️|✔️|
 || [Node.js](/en/docs/web-hosting/languages/nodejs) |✔️|✔️|✔️|
 || [Java](/en/docs/web-hosting/languages/java) |✔️|✔️|✔️|
+|| [Rust](/en/docs/web-hosting/languages/rust) |✔️|✔️|✔️|
 || [Deno](/en/docs/web-hosting/languages/deno) |✔️|✔️|✔️|
 || [Elixir](/en/docs/web-hosting/languages/elixir) |✔️|✔️|✔️|
 || [Lua](/en/docs/web-hosting/languages/lua) |✔️|✔️|✔️|
@@ -57,16 +58,16 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [ElasticSearch (or OpenSearch)](/en/docs/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
 | E-mails | Customizable configuration |✔️|✔️|✔️|
-|| [Filtering via Sieve](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) scripts |✔️|✔️|✔️|
+|| [Filtering via Sieve scripts](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) |✔️|✔️|✔️|
 || [Mailing-lists](/en/docs/e-mails/mailing-lists) |✔️|✔️|✔️|
 || [SMTP queue](/en/docs/e-mails/outgoing-e-mails/smtp-queue) |❌|✔️|✔️|
-|| SMTP relay |❌|✔️|✔️|
+|| [SMTP relay](/en/docs/e-mails/outgoing-e-mails/smtp-relay)  |❌|✔️|✔️|
 | Remote access | [FTP](/en/docs/web-hosting/remote-access/ftp) |✔️|✔️|✔️|
 || [SFTP](/en/docs/web-hosting/remote-access/sftp) |✔️|✔️|✔️|
 || [SSH](/en/docs/web-hosting/remote-access/ssh) |✔️|✔️|✔️|
 || [WebDAV](/en/docs/web-hosting/remote-access/webdav) |✔️|✔️|✔️|
 | Backups[^4] ||✔️|✔️|✔️|
-| Other services | [API](/en/docs/development/api) |✔️|✔️|✔️|
+| Other | [API](/en/docs/development/api) |✔️|✔️|✔️|
 || [Scheluded tasks](/en/docs/web-hosting/tasks) |✔️|✔️|✔️|
 || Services[^5] |✔️|✔️|✔️|
 || [Firewall management](/en/docs/technical-specifications/configure-firewall) |❌|✔️|✔️|

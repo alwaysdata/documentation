@@ -14,11 +14,11 @@ WebDAV, pour [Web-based Distributed Authoring and Versioning](http://www.webdav.
 
 ## Se connecter avec WebDAV
 
-| Informations   |                                      |
-|----------------|--------------------------------------|
-| Hôte           | webdav-[compte].alwaysdata.net       |
-| Ports          | 80 (HTTP) ou 443 (HTTPS)             |
-| Identifiant    | **utilisateur** (**[compte]**) et **mot de passe** associé  |
+|Informations||
+|---|---|
+|Hôte|webdav-[compte].alwaysdata.net|
+|Ports|80 (HTTP) ou 443 (HTTPS)|
+|Identifiant|**utilisateur** (**[compte]**) et **mot de passe** associé|
 
 Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > WebDAV** de votre interface d'administration alwaysdata.
 ![](admin-panel_list-webdav-users.png)

@@ -11,18 +11,17 @@ eleventyNavigation:
 
 ||
 |---|
-| 10.6 |
-| 10.11 |
-| 11.4 |
-| 11.8 |
+|10.11|
+|11.4|
+|11.8|
 
 ## Connexion
 
-|                   |                                                  |
-|-------------------|--------------------------------------------------|
-| **Serveur**       | mysql-[compte].alwaysdata.net                    |
-| **Port**          | 3306 (Port MySQL par défaut)                     |
-| **Interface web** | [phpMyAdmin](https://phpmyadmin.alwaysdata.com/) |
+|||
+|---|---|
+|**Serveur**|mysql-[compte].alwaysdata.net|
+|**Port**|3306 (Port MySQL par défaut)|
+|**Interface web**|[phpMyAdmin](https://phpmyadmin.alwaysdata.com/)|
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > MySQL** de l'interface d'administration.
 

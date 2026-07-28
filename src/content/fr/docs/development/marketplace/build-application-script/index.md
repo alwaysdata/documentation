@@ -23,25 +23,25 @@ Les scripts se composent de deux parties :
 
 ## Variables d’environnement
 
-| Variables             | Description                                                                                           | Exemple                                 |
-|-----------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| USER                  | Nom du compte                                                                                         | `foo`                                   |
-| HOME                  | Racine du compte pour le script                                                                       | `/home/foo/exemple/`                    |
-| APPLICATION_NAME      | Nom de l’application                                                                                  |                                         |
-| INSTALL_URL           | Adresse du site                                                                                       | `foo.exemple.net/test`                  |
-| INSTALL_URL_PATH      | Racine du site (base URL)                                                                             | `/test`                                 |
-| INSTALL_URL_HOSTNAME  | Nom d’hôte du site                                                                                    | `foo.exemple.net`                       |
-| INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final)                                          | `exemple`                               |
-| INSTALL_PATH          | Chemin absolu (sans slash final)                                                                      | `/home/foo/exemple`                     |
-| DATABASE_USERNAME     | Utilisateur de connexion à la base de données (automatiquement généré)                                | `foo_*`                                 |
-| DATABASE_PASSWORD     | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré)              |                                         |
-| DATABASE_NAME         | Base de données du site (automatiquement générée)                                                     | `foo_*`                                 |
-| DATABASE_HOST         | Nom d’hôte de connexion au serveur de base de données                                                 | `mysql-foo.alwaysdata.net` (base MySQL) |
-| SMTP_HOST             | Nom d’hôte de connexion au serveur d’envoi de mails                                                   | `smtp-foo.alwaysdata.net`               |
-| RESELLER_DOMAIN       | Domaine-racine utilisé par l'hébergeur                                                                | `alwaysdata.net`                        |
-| FORM_*                | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML       |                                         |
-| PORT                  | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno                |                                         |
-| `::` ou IP         | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) |                                         |
+| Variables | Description | Exemple |
+|---|---|---|
+| USER | Nom du compte | `foo` |
+| HOME | Racine du compte pour le script   | `/home/foo/exemple/` |
+| APPLICATION_NAME | Nom de l’application ||
+| INSTALL_URL | Adresse du site  | `foo.exemple.net/test` |
+| INSTALL_URL_PATH | Racine du site (base URL)| `/test` |
+| INSTALL_URL_HOSTNAME | Nom d’hôte du site | `foo.exemple.net` |
+| INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final) | `exemple` |
+| INSTALL_PATH | Chemin absolu (sans slash final) | `/home/foo/exemple` |
+| DATABASE_USERNAME | Utilisateur de connexion à la base de données (automatiquement généré) | `foo_*` |
+| DATABASE_PASSWORD | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré) ||
+| DATABASE_NAME | Base de données du site (automatiquement générée) | `foo_*`|
+| DATABASE_HOST | Nom d’hôte de connexion au serveur de base de données | `mysql-foo.alwaysdata.net` (base MySQL) |
+| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi de mails| `smtp-foo.alwaysdata.net` |
+| RESELLER_DOMAIN | Domaine-racine utilisé par l'hébergeur | `alwaysdata.net` |
+| FORM_* | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML ||
+| PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno ||
+| `::` ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) ||
 
 Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
 

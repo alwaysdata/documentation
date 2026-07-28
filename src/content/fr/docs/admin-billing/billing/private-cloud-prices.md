@@ -14,26 +14,22 @@ Toute commande s'effectue *sur devis*.
 
 > [Contactez](https://www.alwaysdata.com/fr/contact/) notre équipe pour échanger sur votre projet et recevoir un devis personnalisé.
 
-
-
 ## Exemple d'architecture mono-serveur
 
 *Dernière mise à jour : 26 février 2026*
 
 Tous ces éléments sont modifiables pour proposer la configuration **la plus appropriée** (voir plus bas les options matérielles).
 
-| Configuration ||
-| --- | ---- | 
-| **CPU**               | 8 cores • AMD EPYC |
-| **Disques**           | SSD 1 To NVMe • RAID1 |
-| **RAM**               | 16 Go |
-| **Trafic/mois**       | 10 To (1 Gbps) |
-| **Prix mensuel (HT)**      | €369 (paiement annuel) ou €409 (paiement mensuel) |
+|Configuration||
+|---|---|
+|**CPU**|8 cores • AMD EPYC|
+|**Disques**|SSD 1 To NVMe • RAID1|
+|**RAM**|16 Go|
+|**Trafic/mois**|10 To (1 Gbps)|
+|**Prix mensuel (HT)**|€369 (paiement annuel) ou €409 (paiement mensuel)|
 
 > [!NOTE]
 > Dans le cadre d'un engagement mensuel, la première facture correspond aux *trois premiers mois*. Cet engagement de 3 mois peut être évité moyennant une majoration de 20% sur les 3 premières factures.
-
-
 
 ### Options matérielles
 
@@ -63,7 +59,6 @@ Voici une liste *non exhaustive* d'options matérielles :
 
 > [!NOTE]
 > Le montant des opérations d'ajout/de changement de configuration est disponible sur la page des [interventions serveurs](/fr/docs/admin-facturation/facturation/interventions-sur-serveurs/). Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
-
 
 ### Rappels utiles
 

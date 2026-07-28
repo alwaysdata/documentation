@@ -17,10 +17,10 @@ eleventyNavigation:
 
 ## Connexion
 
-|                   |                                                  |
-|-------------------|--------------------------------------------------|
-| **Serveur**       | postgresql-[compte].alwaysdata.net               |
-| **Port**          | 5432 (Port PostgreSQL par défaut)                |
+|||
+|---|---|
+| **Serveur** | postgresql-[compte].alwaysdata.net |
+| **Port** | 5432 (Port PostgreSQL par défaut) |
 | **Interface web** | [phpPgAdmin](https://phppgadmin.alwaysdata.com/) |
 
 Ces informations de connexion dépendent du compte concerné. Vous pouvez retrouver les valeurs précises dans la section **Bases de données > PostgreSQL** de l'interface d'administration.
