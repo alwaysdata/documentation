@@ -31,7 +31,7 @@ Si vous trouvez plusieurs fois la même faille, veuillez créer un seul rapport 
 
 ### Considérations juridiques
 
-Nous n'entamerons pas d'action civile ni ne porterons plainte auprès des forces de l'ordre pour des violations accidentelles et de bonne foi de cette politique. Nous considérons les activités menées conformémentplainte contre vous pour avoir contourné les mesures technologiques que nous avons utilisées pour protéger les applications dans le cadre de ce programme.
+Nous n'entamerons pas d'action civile ni ne porterons plainte auprès des forces de l'ordre pour des violations accidentelles et de bonne foi de cette politique. Nous considérons les activités menées conformément à cette politique comme constituant une conduite « autorisée ». Nous ne porterons pas plainte contre vous pour avoir contourné les mesures technologiques que nous avons utilisées pour protéger les applications dans le cadre de ce programme.
 
 Si une action en justice est engagée par un tiers contre vous et que vous avez respecté cette politique de sécurité, nous prendrons des mesures pour faire savoir que vos actions ont été menées conformément à cette politique.
 
