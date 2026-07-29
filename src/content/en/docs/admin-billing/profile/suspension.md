@@ -25,7 +25,7 @@ By registering with our site and therefore creating a profile, you commit to str
   - sending [spam](https://en.wikipedia.org/wiki/Email_spam#European_Union),
       - any message must be sent with the **express consent** (_opt-in_) of the recipient,
 	- using a list purchased from a third party is therefore considered to be spam,
-	- [several questions to ask yourself before launching the emailing](/en/docs/e-mails/outgoing-e-mails/delivery/#emailing).
+	- [several questions to ask yourself before launching the emailing](/en/docs/emails/outgoing-emails/delivery/#emailing).
   - hosting [phishing](https://en.wikipedia.org/wiki/Phishing) applications,
   - hosting counterfeit websites/applications,
   - attempts to hack outside systems from alwaysdata servers,
@@ -37,7 +37,7 @@ Failure to comply with our *Terms of service* will result in a suspension of you
 
 - making excessive requests (scrapping) from alwaysdata servers,
 - having multiple accounts,
-    - pay attention to not confuse account and features (websites, domains, e-mail addresses, databases, etc.),
+    - pay attention to not confuse account and features (websites, domains, email addresses, databases, etc.),
     - an account may host as many features (e.g. as many sites) as you wish,
     - it is also not permitted to have multiple free accounts on multiple alwaysdata profiles.
 - hosting resource-intensive applications (CPU, network, sending emails...),

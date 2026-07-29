@@ -39,7 +39,7 @@ The current registrar blocked the transfer. Contact them to determine the reason
 
 ### "Max waiting duration for owner responses (15 days) reached"
 
-A change of owner needs to be accepted by both the former and the new owner within 15 days. Check the e-mail addresses of both contacts.
+A change of owner needs to be accepted by both the former and the new owner within 15 days. Check the email addresses of both contacts.
 
 ## Domain suspended by ICANN
 
@@ -47,13 +47,13 @@ Many registries verify domain owners' email addresses to ensure they are functio
 
 A `whois` will show the following message: `Domain Status: clientHold`
 
-From the alwaysdata administration interface, the following message - **Domains > Details of [example.org] - 🔎 > Status** tab - lets you send the e-mail:
+From the alwaysdata administration interface, the following message - **Domains > Details of [example.org] - 🔎 > Status** tab - lets you send the email:
 
 ```
 This domain has been suspended by ICANN because its owner did not confirm their email address before the deadline following its creation, transfer, or change of ownership.
 ```
 
-If you are not sure of the e-mail address, you can change it in the owner’s contact information from the **Domains > Details of [example.org] - 🔎 > MODIFY** (oposite **Owner**).
+If you are not sure of the email address, you can change it in the owner’s contact information from the **Domains > Details of [example.org] - 🔎 > MODIFY** (oposite **Owner**).
 
 ## Links
 

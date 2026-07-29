@@ -27,7 +27,7 @@ This will add the domain as an *external domain* in the list.
 
 ![](images/admin-panel_domain-list2.png)
 
-Then you can create [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/dns-management/).
+Then you can create [email addresses](/en/docs/emails/create-an-email-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/dns-management/).
 
 > [!WARNING]
 > If some DNS records are to be kept - for example not to change email providers - the [DNS zone](/en/docs/domains/dns-management/add-dns) will need to be prepared before making the DNS server change.

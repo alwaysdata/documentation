@@ -17,7 +17,7 @@ Scripts comprise two parts:
     - **site**: refer to the [API documentation](https://api.alwaysdata.com/v1/site/doc/) that restates all of the possible options.
     - **database**: mysql, postgresql, couchdb, rabbitmq.
     - **requirements**: specify limiting requirements which blocks their installation on certain plans.
-    - **form**: all of the variables requested from the user creating the site. Example: site title, administrator ID, e-mail address, administrator's name, etc.
+    - **form**: all of the variables requested from the user creating the site. Example: site title, administrator ID, email address, administrator's name, etc.
 - the actual **script**.
 
 ## Environment variables

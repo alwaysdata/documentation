@@ -16,8 +16,8 @@ You can configure permissions through the **Permissions** menu in your customer 
 
 - **Account management**: delegates account opening to your associates (*Subscriptions* menu),
 - **[Billing](/en/docs/admin-billing/billing/)**: lets accounting or administrative departments receive an alert when your account balance is negative or when a ticket relating to billing is opened by us, buy/renew/transfer domains (*Billing* menu),
-- **Technical at account level**: lets technical teams manage the purely technical aspects of your hosting (sites, e-mails, databases) without worrying about its management or billing,
-- **Technical at server level**: available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), your network administrator can manage the rules for the firewalls, e-mail send queues and many other aspects.
+- **Technical at account level**: lets technical teams manage the purely technical aspects of your hosting (sites, emails, databases) without worrying about its management or billing,
+- **Technical at server level**: available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), your network administrator can manage the rules for the firewalls, email send queues and many other aspects.
 
 ## Technical permissions
 
@@ -33,8 +33,8 @@ As long as a profile has permissions on the account, it has access to the *Serve
 - **[Statistics](/en/docs/web-hosting/analytics)**: analyze the visits to your sites (*Web > Analytics* menu),
 - **[Sites](/en/docs/web-hosting/sites)**: configure the websites and the Apache environment (*Web > Sites*, *Web > Configuration* menus),
 - **[Domains](/en/docs/domains/)** technically manage domains and their DNS (*Domains* menu). For all billable operations, you will also need the __Billing__ permissions on the owner profile,
-- **[Emails](/en/docs/e-mails/)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
-- **[History of sent emails](/en/docs/e-mails/outgoing-e-mails/check-email-sending)** (*Emails > History* menu),
+- **[Emails](/en/docs/emails/)** (*Emails > Addresses*, *Emails > Mailing lists*, *Emails > Configuraton* menus),
+- **[History of sent emails](/en/docs/emails/outgoing-emails/check-email-sending)** (*Emails > History* menu),
 - **[Databases](/en/docs/web-hosting/databases)** (*Databases* menu),
 - **[FTP](/en/docs/web-hosting/remote-access/ftp)** (*Remote access > FTP* menu),
 - **[SSH](/en/docs/web-hosting/remote-access/ssh)** (*Remote access > SSH* menu),
@@ -56,7 +56,7 @@ As long as a profile has permissions on the server, it has access to the *Config
 - **Technical contact**: be notified when a technical ticket is opened by our services relating to a server,
 - **[SSH users](/en/docs/web-hosting/remote-access/ssh/install-globally-ssh-keys)**: install SSH keys for simplified access to the various accounts (*SSH keys* menu),
 - **[Firewall rules](/en/docs/technical-specifications/configure-firewall)**: create firewall rules and refer to automatic IP banning by the server (*Firewall* menu),
-- **SMTP configuration**: manage the e-mail send queue, SMTP relaying and spam score (*SMTP* menu),
+- **SMTP configuration**: manage the email send queue, SMTP relaying and spam score (*SMTP* menu),
 - **Database users**: permit overall access to databases for all accounts (*MySQL users* menu),
 - **SSL configuration**: choose the SSL certificate to return to the server (`*.alwaysdata.net` by default) and the server [TLS configuration](/en/docs/web-hosting/sites/ssl-tls/configure-tls) (*SSL* menu),
 - **HTTP configuration**: choose a website that will be the [default home page](/en/docs/web-hosting/sites/misc#http-default-site) and the [log retention period](/en/docs/web-hosting/remote-access/admin-directory#logs) (*HTTP* menu),

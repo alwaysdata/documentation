@@ -15,7 +15,7 @@ The subdomain assigned to you when your account is created will end with a **.ne
 |---|---|
 |**Admin**||
 |URL|https://admin.alwaysdata.com|
-||E-mail/password, [2-factors auth ready](/en/docs/admin-billing/profile/two-factor-authentication)|
+||Email/password, [2-factors auth ready](/en/docs/admin-billing/profile/two-factor-authentication)|
 |API|[api.alwaysdata.com/v1](/en/docs/development/api) (with a *[rate limit](/en/docs/development/api/usage/#rate-limit)*)|
 ||[Tokens](/en/docs/admin-billing/profile/tokens) available in *Profile*|
 |**Generic**||
@@ -37,7 +37,7 @@ The subdomain assigned to you when your account is created will end with a **.ne
 ||Port: 6380|
 |Memcached|Host: localhost or 127.0.0.1|
 ||Port: 11211|
-|**E-mails**||
+|**Emails**||
 |Webmail|[RoundCube](https://webmail.alwaysdata.com)|
 |Mailing-lists|[Mailman](https://mailman.alwaysdata.com)|
 |IMAP|Host: imap-[account].alwaysdata.net|
@@ -46,7 +46,7 @@ The subdomain assigned to you when your account is created will end with a **.ne
 ||Ports: 995 (SSL/TLS)|
 |SMTP|Host: smtp-[account].alwaysdata.net|
 ||Ports: 465 (SSL/TLS)|
-||Identification: e-mail (address and the password assigned to it)|
+||Identification: email (address and the password assigned to it)|
 |CardDAV|Host : carddav-[account].alwaysdata.net|
 |CalDAV|Host : caldav-[account].alwaysdata.net|
 |**Remote access**||

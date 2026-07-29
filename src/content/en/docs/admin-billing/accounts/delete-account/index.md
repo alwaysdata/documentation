@@ -12,7 +12,7 @@ In the first case, go to the **Subscriptions** menu and click on the *trash* for
 
 ![](images/delete-account.png)
 
-This will delete all of the domains, e-mail addresses, websites, files, databases (...) linked to this account.
+This will delete all of the domains, email addresses, websites, files, databases (...) linked to this account.
 
 > [!NOTE]
 > Only the **account owner** can perform this action. Furthermore, no refunds are provided for early deletion.

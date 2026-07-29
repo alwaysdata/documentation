@@ -21,7 +21,7 @@ alwaysdata proposes several kinds of environment:
 ||| Isolation per account without additional billing |
 ||| GRT 15mins, MTTR 1hr, Availability rate 99.95% |
 
-For all these offers you can have unlimited sites, domains, databases, e-mails, etc.
+For all these offers you can have unlimited sites, domains, databases, emails, etc.
 
 ---
 
@@ -57,11 +57,11 @@ For all these offers you can have unlimited sites, domains, databases, e-mails, 
 || [Redis (or Valkey)](/en/docs/web-hosting/databases/redis/) |❌|✔️|✔️|
 || [ElasticSearch (or OpenSearch)](/en/docs/web-hosting/databases/elasticsearch) |❌|✔️|✔️|
 || Others |❌| Upon request and following an analysis by our technical team | Upon request and following an analysis by our technical team |
-| E-mails | Customizable configuration |✔️|✔️|✔️|
-|| [Filtering via Sieve scripts](/en/docs/e-mails/incoming-e-mails/use-sieve-scripts) |✔️|✔️|✔️|
-|| [Mailing-lists](/en/docs/e-mails/mailing-lists) |✔️|✔️|✔️|
-|| [SMTP queue](/en/docs/e-mails/outgoing-e-mails/smtp-queue) |❌|✔️|✔️|
-|| [SMTP relay](/en/docs/e-mails/outgoing-e-mails/smtp-relay)  |❌|✔️|✔️|
+| Emails | Customizable configuration |✔️|✔️|✔️|
+|| [Filtering via Sieve scripts](/en/docs/emails/incoming-emails/use-sieve-scripts) |✔️|✔️|✔️|
+|| [Mailing-lists](/en/docs/emails/mailing-lists) |✔️|✔️|✔️|
+|| [SMTP queue](/en/docs/emails/outgoing-emails/smtp-queue) |❌|✔️|✔️|
+|| [SMTP relay](/en/docs/emails/outgoing-emails/smtp-relay)  |❌|✔️|✔️|
 | Remote access | [FTP](/en/docs/web-hosting/remote-access/ftp) |✔️|✔️|✔️|
 || [SFTP](/en/docs/web-hosting/remote-access/sftp) |✔️|✔️|✔️|
 || [SSH](/en/docs/web-hosting/remote-access/ssh) |✔️|✔️|✔️|

@@ -10,7 +10,7 @@ Every account have a `/home/[account]/admin` directory, accessible in [FTP](/en/
 
 It contains:
 
-- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](/en/docs/e-mails/),
+- _mail_: [NFS](https://en.wikipedia.org/wiki/Network_File_System) mounting (Public Cloud) or symbolic links (Private Cloud) to the account [mailboxes](/en/docs/emails/),
 - _config_,
 - _data_ : stores [WebDAV](/en/docs/web-hosting/remote-access/webdav) configuration files,
 - _logs_,

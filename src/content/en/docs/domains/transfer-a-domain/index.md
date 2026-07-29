@@ -19,7 +19,7 @@ Before starting the operation the owner must :
 - remove the protection against transfers,
 - check that the owner’s information is correct and visible in the `whois` [^1],
 - get the authorization code,
-- retrieve a backup of his data (including e-mail).
+- retrieve a backup of his data (including email).
 
 A transfer cannot take place within 60 days of its creation or a previous transfer.
 
@@ -58,7 +58,7 @@ Enter the domain only, without the subdomain.
     ![](images/admin-panel_add-domain-3.png)
 
 > [!WARNING]
-> A validation e-mail is set for a certain number of extensions. Without validation, the transfer is aborted.
+> A validation email is set for a certain number of extensions. Without validation, the transfer is aborted.
 
 
 > [!NOTE]
@@ -75,7 +75,7 @@ The IPS Tag asked by [Nominet](https://registrars.nominet.uk/) - registry of `.u
 During this time, the domain will be added to your administration interface as an *External Domain Name* with an operation in progress. You can prepare our servers by:
 
   - updating your [DNS records](/en/docs/domains/dns-management/add-dns) if you use other servers for certain services,
-  - creating the [e-mail addresses](/en/docs/e-mails/create-an-e-mail-address).
+  - creating the [email addresses](/en/docs/emails/create-an-email-address).
 
 Regarding the website, there are a number of possible choices:
 

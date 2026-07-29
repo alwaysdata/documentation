@@ -76,7 +76,7 @@ WARNING: For websites using a command[^1], the transferred website MAY have its 
 
 
 > [!TIP]
-> To move it to another of *their* accounts, simply provide their own e-mail address.
+> To move it to another of *their* accounts, simply provide their own email address.
 
 
 [^1]: Node.js, User program, Elixir and Deno types.

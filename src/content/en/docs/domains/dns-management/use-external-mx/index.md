@@ -1,12 +1,12 @@
 ---
-title: Using an External MX E-mail Servers
+title: Using an External MX Email Servers
 eleventyNavigation:
   key: Using External MX
   parent: DNS Management
   order: 5
 ---
 
-To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive e-mail.
+To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive email.
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records** ;
     ![](images/admin-panel_dns-record-list.png)
@@ -50,9 +50,9 @@ To use a message server belonging to another provider, change the [MX records](h
 
 It may be useful to bypass external MX to reach alwaysdata's MX directly.
 
-To send an e-mail to `foobar@example.org` through alwaysdata's MX (while `example.org` uses external MX):
+To send an email to `foobar@example.org` through alwaysdata's MX (while `example.org` uses external MX):
 
-- create the [e-mail address](/en/docs/e-mails/create-an-e-mail-address) in the admin,
-- send an e-mail to:
+- create the [email address](/en/docs/emails/create-an-email-address) in the admin,
+- send an email to:
     - `foobar%example.org@mx.alwaysdata.com` if the account is located on the Public Cloud,
     - `foobar%example.org@server.alwaysdata.com` if the account is located on a Private Cloud (`server` to replace by the name of the server).

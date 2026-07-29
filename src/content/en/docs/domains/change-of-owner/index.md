@@ -10,7 +10,7 @@ Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**
 
 ![](images/admin-panel_owner-change.png)
 
-A confirmation e-mail is sent to both parties. *Check the e-mail addresses before starting the operation*.
+A confirmation email is sent to both parties. *Check the email addresses before starting the operation*.
 
 There is a charge for this operation for the following extensions: _.am_, _.be_, _.me.uk_.
 

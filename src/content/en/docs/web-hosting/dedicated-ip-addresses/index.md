@@ -23,12 +23,12 @@ Once the extra IP subscribed :
 
 The extra IP will be used to send emails.
 
-Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam](/en/docs/e-mails/outgoing-e-mails/delivery#scoring-system):
+Once subscribed, you will be able to indicate which emails should go through the extra IP, according to the [score set by the antispam](/en/docs/emails/outgoing-emails/delivery#scoring-system):
 
 ![](images/dedicated-ip-smtp.png)
 
 > [!NOTE]
-> The lower the score, the better the e-mail will be rated.
+> The lower the score, the better the email will be rated.
 
 
 [^1]: Available for all plans, extras IP differ from [Private Cloud offers](/en/docs/admin-billing/billing/choose-its-paas).

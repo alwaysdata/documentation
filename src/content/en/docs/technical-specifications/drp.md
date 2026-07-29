@@ -22,7 +22,7 @@ All the data in your user account is covered by the backup:
 
 - files
 - databases
-- e-mails
+- emails
 
 ### Where are these backups located?
 
