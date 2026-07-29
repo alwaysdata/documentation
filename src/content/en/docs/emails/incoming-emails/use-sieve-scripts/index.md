@@ -2,7 +2,7 @@
 title: Using Sieve Scripts
 eleventyNavigation:
   key: Using Sieve Scripts
-  parent: Incoming emails
+  parent: Incoming Emails
   order: 4
 ---
 
