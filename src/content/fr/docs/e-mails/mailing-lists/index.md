@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 6
 ---
 
-Les listes de diffusions (*mailing lists*) vous permettent de définir un *pool* d'adresses mails vers lesquelles renvoyer un message. On les distingue dans leur usage par leur capacités de diffusion :
+Les listes de diffusions (*mailing lists*) vous permettent de définir un *pool* d'adresses emails vers lesquelles renvoyer un message. On les distingue dans leur usage par leur capacités de diffusion :
 
 - seuls les adresses "administratrices" sont capables d'expédier du contenu vers les adresses de réception inscrites (par exemple, une newsletter) ;
 - tous les participant·e·s peuvent envoyer des messages sur la liste pour permettre une conversation (par exemple, les membres d'un groupe de travail).

@@ -15,7 +15,7 @@ Voici comment procéder à la migration d'adresses email chez alwaysdata.
 
 Cet import est effectué avec une authentification [IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) classique. Vous devez donc connaître le nom d'hôte, l'utilisateur et le mot de passe de l'adresse email à importer. Certains services ne permettent pas d'utiliser un accès direct en IMAP standard. Vous pouvez alors :
 - suivre les documentations suivantes : [Gmail](https://imapsync.lamiral.info/FAQ.d/FAQ.Gmail.txt) et [Office 365](https://imapsync.lamiral.info/FAQ.d/FAQ.Office365.txt) ;
-- ou faire des exports/imports via un client mail.
+- ou faire des exports/imports via un client email.
 
 3. Changer les enregistrements MX, pour utiliser les serveurs d'alwaysdata : `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 

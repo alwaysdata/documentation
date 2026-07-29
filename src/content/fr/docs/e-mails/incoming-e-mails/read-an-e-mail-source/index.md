@@ -12,11 +12,11 @@ La source d'un email va afficher son contenu réel, le code brut du message avan
 - analyser la délivrabilité de l'email,
 - avoir un certain nombre d'informations sur l'expéditeur et le chemin effectué par le message.
 
-Vous pouvez la récupérer via n'importe quel client mail. Par exemple, via le [webmail](https://webmail.alwaysdata.com), vous la retrouverez dans **... Plus > Afficher la source**
+Vous pouvez la récupérer via n'importe quel client email. Par exemple, via le [webmail](https://webmail.alwaysdata.com), vous la retrouverez dans **... Plus > Afficher la source**
 
 ![](images/roundcube-source-menu.png)
 
-La source du mail est composée :
+La source de l'email est composée :
 
 -   du chemin effectué par le message :
 	```
@@ -54,7 +54,7 @@ La source du mail est composée :
 	Received: from overlord-core.paris1.alwaysdata.com (2a00:b6e0:1:84:1::1)
 	 by ad-roundcube.alwaysdata.net
 	```
-	Le mail est passé par plusieurs de nos serveurs pour arriver dans le serveur de destination _imap1.paris1.alwaysdata.com_. La clé publique DKIM est indiquée.
+	L'email est passé par plusieurs de nos serveurs pour arriver dans le serveur de destination _imap1.paris1.alwaysdata.com_. La clé publique DKIM est indiquée.
 
 -   de différentes informations concernant le message en lui-même et l'agent utilisateur.
 	```
@@ -91,7 +91,7 @@ La source du mail est composée :
 	X-alwaysdata-Spam-Score: -1.10
 	```
 
-	Le mail ne contient pas de virus détecté par [ClamAV](https://www.clamav.net/) et [Rspamd](https://rspamd.com/) donne une note basse permettant l'envoi du message.
+	L'email ne contient pas de virus détecté par [ClamAV](https://www.clamav.net/) et [Rspamd](https://rspamd.com/) donne une note basse permettant l'envoi du message.
 
 ----
 

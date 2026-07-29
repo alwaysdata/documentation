@@ -45,7 +45,7 @@ Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]
 
 ## Exemples
 
-### Ajouter un préfixe `<SPAM>` au sujet d'un mail contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte)
+### Ajouter un préfixe `<SPAM>` au sujet d'un email contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte)
 
 ```
 require ["editheader", "variables", "body"] ;

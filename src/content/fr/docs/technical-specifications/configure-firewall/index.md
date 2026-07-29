@@ -50,7 +50,7 @@ Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez v
 
 ## Services
 
-Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités connues (FTP, mails, SSH, bases de données...). Il n'est alors plus nécessaire de créer la règle par soi-même.
+Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités connues (FTP, emails, SSH, bases de données...). Il n'est alors plus nécessaire de créer la règle par soi-même.
 
 ## Exemples
 

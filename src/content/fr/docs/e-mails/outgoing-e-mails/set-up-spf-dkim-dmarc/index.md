@@ -64,7 +64,7 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, il faudra, chez le pr
 
 [DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) permet d'authentifier le nom de domaine en ajoutant une signature à tous les emails sortants. Concrètement cela fonctionne avec deux clés :
 
-- une clé privée qui est connue - et gardée secrète - des serveurs mails expéditeurs du domaine ;
+- une clé privée qui est connue - et gardée secrète - des serveurs emails expéditeurs du domaine ;
 - une clé publique qui correspond à un enregistrement DNS de type `TXT`.
 
 ![](images/globalcyberalliance-dkim.png)

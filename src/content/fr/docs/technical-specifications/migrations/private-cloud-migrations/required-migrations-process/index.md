@@ -29,7 +29,7 @@ Une fois la migration d'un compte vers le serveur de transit effectuée il sera 
 ![](images/migration-2.png)
 
 ### Étape 3 - Installation du serveur de transit
-Le support prépare le serveur de transit d'une configuration équivalente au serveur client. L'installation peut durer plusieurs heures et précopie les fichiers et mails sur le serveur de transit.
+Le support prépare le serveur de transit d'une configuration équivalente au serveur client. L'installation peut durer plusieurs heures et précopie les fichiers et emails sur le serveur de transit.
 
 > Cette étape dépend de la disponibilité de serveurs de transit correspondant à la configuration du serveur client le jour de la demande. __Il peut y avoir de l'attente.__
 
@@ -60,7 +60,7 @@ Une fois l'ensemble des comptes migrés il contacte le support pour que celui pr
 ### Étape 6 - Réinstallation du serveur client
 **Tous les comptes sont migrés sur la nouvelle infrastructure logicielle et sont sur le serveur de transit.**
 
-Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infrastructure. Cela peut durer plusieures heures et précopie à les fichiers et mails.
+Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infrastructure. Cela peut durer plusieures heures et précopie à les fichiers et emails.
 
 > Le retour en arrière temporaire n'est alors plus possible.
 
@@ -88,7 +88,7 @@ Tous les comptes ont été redéplacés sur le serveur client réinstallé.
 
 - Si l'utilisateur souhaite tester la migration sur certains comptes avant de lancer la migration réelle ou s'il souhaite avoir accès à un serveur de transit plus longtemps (*sans payer*), il peut profiter de notre serveur de transit partagé à tous les clients dédiés et VPS. Néanmoins :
     - ce serveur peut ne pas correspondre à la configuration du serveur client ;
-    - aucune précopie des fichiers et mails n'est effectuée : le temps de migration peut donc être allongé ;
+    - aucune précopie des fichiers et emails n'est effectuée : le temps de migration peut donc être allongé ;
     - les utilisateurs n'ont pas accès aux personnalisations serveurs et au parefeu qu'ils ont paramétré ;
     - la mise à disposition de ce serveur de transit partagé est validée au cas par cas par le support en fonction des caractéristiques du serveur client et de ses comptes.
 

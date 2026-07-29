@@ -24,7 +24,7 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
 
 ## Quelques exemples
 
--   Configurer automatiquement un client mail avec `_autodiscover._tcp` :
+-   Configurer automatiquement un client email avec `_autodiscover._tcp` :
     ```
     » Nom d'hôte : _autodiscover._tcp
     » Valeur : 0 443 adresse.serveur.mail

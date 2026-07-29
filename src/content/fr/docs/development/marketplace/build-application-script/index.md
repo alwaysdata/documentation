@@ -37,7 +37,7 @@ Les scripts se composent de deux parties :
 | DATABASE_PASSWORD | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré) ||
 | DATABASE_NAME | Base de données du site (automatiquement générée) | `foo_*`|
 | DATABASE_HOST | Nom d’hôte de connexion au serveur de base de données | `mysql-foo.alwaysdata.net` (base MySQL) |
-| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi de mails| `smtp-foo.alwaysdata.net` |
+| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi d'emails| `smtp-foo.alwaysdata.net` |
 | RESELLER_DOMAIN | Domaine-racine utilisé par l'hébergeur | `alwaysdata.net` |
 | FORM_* | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML ||
 | PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno ||

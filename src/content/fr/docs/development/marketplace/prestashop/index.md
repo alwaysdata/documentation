@@ -15,7 +15,7 @@ Vous aurez besoin de modifier :
 - la valeur **localhost** du paramètre `physical_URI` de la table `ps_shop_url` par **/** ;
 - le fichier `/home/[compte]/chemin/vers/l'application/app/config/parameters.php`.
 
-## Envoi de mails
+## Envoi d'emails
 
 L'utilisation de `/usr/sbin/sendmail` est non-fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et indiquez juste le nom d'hôte SMTP de votre compte (donné dans le menu **Emails > Adresses** de l'interface d'administration).
 

@@ -88,4 +88,4 @@ Syntaxe crontab équivalente :
 30 10 * * * php /home/[compte]/tt-rss/update.php --feeds --quiet
 ```
 
-[^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si le tâche n'est pas exécutée, aucun mail n'est envoyé.
+[^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si le tâche n'est pas exécutée, aucun email n'est envoyé.

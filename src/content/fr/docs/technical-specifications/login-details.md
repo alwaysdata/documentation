@@ -65,4 +65,4 @@ Le sous-domaine qui vous est attribué à la création de votre compte se termin
 ||Ports : entre 8300 et 8499|
 
 > [!NOTE]
-> Le login par défaut correspond - à l'exception des mails pour lequel l'identifiant est l'adresse email - au **nom du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et donc non récupérables - mais modifiables dans les menus dédiés.
+> Le login par défaut correspond - à l'exception des emails pour lequel l'identifiant est l'adresse email - au **nom du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et donc non récupérables - mais modifiables dans les menus dédiés.

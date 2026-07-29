@@ -8,17 +8,17 @@ eleventyNavigation:
 
 ## Les changements majeurs
 
-* SSL est désormais requis pour les protocoles de mail (IMAP, SMTP, POP3) et d’accès distant (FTP, WebDAV).
+* SSL est désormais requis pour les protocoles d'email (IMAP, SMTP, POP3) et d’accès distant (FTP, WebDAV).
 * Les bases de données MongoDB et CouchDB sont supprimées.
 * MariaDB est mis à jour en version 10.11.
 * PostgreSQL est mis à jour en version 16.
 
 
-## Chiffrement SSL requis pour l'accès mail et l'accès distant
+## Chiffrement SSL requis pour l'accès email et l'accès distant
 
 Il est désormais nécessaire d'activer le chiffrement SSL pour vous connecter aux protocoles :
 
-* de mail (IMAP, SMTP, POP3) ;
+* d'email (IMAP, SMTP, POP3) ;
 * d'accès distant (FTP et WebDAV).
 
 Cela ne concerne pas vos sites web qui sont toujours accessibles sans chiffrement (vous pouvez toutefois décider de [forcer le chiffrement](/fr/docs/hebergement-web/sites/ssl-tls/rediriger-HTTP-vers-HTTPS/)).

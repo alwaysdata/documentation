@@ -13,7 +13,7 @@ Des enregistrements DNS `MX`, `SPF` et `DMARC` sont créés par défaut, l'ajout
  
 ## Bloquer la réception
  
-Il suffit de ne PAS créer d'adresse email chez votre prestataire mail et/ou d'ajouter, chez votre prestataire DNS, un enregistrement de type `MX` pointant sur une valeur n'existant pas. Les expéditeurs recevront une erreur.
+Il suffit de ne PAS créer d'adresse email chez votre prestataire email et/ou d'ajouter, chez votre prestataire DNS, un enregistrement de type `MX` pointant sur une valeur n'existant pas. Les expéditeurs recevront une erreur.
  
 Vous pouvez, par exemple, créer l'enregistrement suivant :
  
@@ -35,5 +35,5 @@ Créez les enregistrements DNS suivants :
  
 Cela indiquera aux serveurs destinataires d'emails utilisant votre domaine qu'ils doivent rejeter les emails. En effet :
  
-- l'enregistrement `SPF` indique qu'il n'existe pas de serveurs SMTP autorisé à envoyer des mails pour votre domaine ;
+- l'enregistrement `SPF` indique qu'il n'existe pas de serveurs SMTP autorisé à envoyer des emails pour votre domaine ;
 - l'enregistrement `DMARC` indique que tous les emails partant de votre domaine doivent donc être à jeter.

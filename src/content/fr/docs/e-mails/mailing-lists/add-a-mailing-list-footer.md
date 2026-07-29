@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 4
 ---
 
-Pour ajouter un pied de page à une liste de diffusion, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse mail d'administration que vous aurez défini à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
+Pour ajouter un pied de page à une liste de diffusion, vous devez vous connecter à l'[interface de gestion Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse email d'administration que vous aurez défini à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
 
 Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
 
@@ -28,4 +28,4 @@ Ajoutez un modèle de type `[list:member:regular:footer]`, avec le contenu suiva
 Unsubscribe: <mailto:$short_listname-unsubscribe@$domain>
 ```
 
-Chaque message diffusé à la liste se verra ajouté un pied de page en signature, contenant l'adresse mail de désincription générée depuis les *placeholders* (par exemple `foo-unsubscribe@example.org`).
+Chaque message diffusé à la liste se verra ajouté un pied de page en signature, contenant l'adresse email de désincription générée depuis les *placeholders* (par exemple `foo-unsubscribe@example.org`).

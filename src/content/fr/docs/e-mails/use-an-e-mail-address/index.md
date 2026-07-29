@@ -57,7 +57,7 @@ Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (ce
 
 ## Remarques
 
-- Les mails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `/home/[compte]/admin/mail` ;
+- Les emails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `/home/[compte]/admin/mail` ;
 - Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des tentatives régulières de renvoi ;
 - La taille limite des emails envoyés est fixée à **50 Mo** ;
 - L'authentification SMTP n'est pas nécessaire dans le cas d'un service hébergé sur les serveurs alwaysdata (site internet ou tâche planifiée par exemple).

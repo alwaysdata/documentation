@@ -65,7 +65,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 
 
 > [!WARNING] Attention
-> Les serveurs mails d'alwaysdata ne sont pas forcément autorisés par les règles d'authentification (SPF, DKIM, DMARC) des expéditeurs. Cela peut bloquer les redirections.
+> Les serveurs emails d'alwaysdata ne sont pas forcément autorisés par les règles d'authentification (SPF, DKIM, DMARC) des expéditeurs. Cela peut bloquer les redirections.
 
 
 ## Réponse automatique
