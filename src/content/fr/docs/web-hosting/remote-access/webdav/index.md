@@ -1,5 +1,5 @@
 ---
-permalink: /fr/docs/hebergement-web/acces-distant/webDAV/
+permalink: /fr/docs/hebergement-web/acces-distant/webdav/
 title: WebDAV
 eleventyNavigation:
   key: WebDAV
