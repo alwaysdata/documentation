@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Web apps or services sometimes need to periodically run tasks, commands or call up URLs with no user interaction. To manage them you should create a scheduled task.
 
-Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our [administration interface](https://admin.alwaysdata.com) - menu **Advanced > Scheduled tasks** - making their use easier.
+Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our administration panel - menu **Advanced > Scheduled tasks** - making their use easier.
 
 Several kinds of information need to be provided:
 
@@ -31,10 +31,10 @@ Several kinds of information need to be provided:
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
 - A log is created automatically and is available from the `/home/[account]/admin/logs/jobs/` directory. It gives you the start and end of the task.
-	- An extract of these logs is presented in the administration’s interface (**Logs** - 📄).
+	- An extract of these logs is presented in the administration panel (**Logs** - 📄).
 	- email addresses provided to receive error reports do not replace these logs.
 - Current processes are accessible via the **Advanced > Processes > Scheduled Tasks** menu.
-- For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the administration interface. It is possible to choose another version using the *Environment variables*.
+- For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the administration panel. It is possible to choose another version using the *Environment variables*.
 
 > [!NOTE]
 > If your script needs to allow some IPs, allow these [IP adresses ranges](/en/docs/technical-specifications/ip-ranges).
@@ -60,7 +60,7 @@ Several kinds of information need to be provided:
 
 Every ten minutes, the [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) tool starts to run the scheduled tasks:
 
-alwaysdata administration interface:
+alwaysdata administration panel:
 
 - *value*: `php /home/[account]/wordpress/htdocs/wp cron event run --due-now`
 - *frequency*: second choice - Every 10 minutes
@@ -75,7 +75,7 @@ Equivalent crontab syntax:
 
 [Refreshing an RSS backend](https://git.tt-rss.org/fox/tt-rss.wiki.git/tree/UpdatingFeeds.md#n58) with TT-rss, every day at 10:30:
 
-alwaysdata administration interface:
+alwaysdata administration panel:
 
 - *value*: `php /home/[account]/tt-rss/update.php --feeds --quiet`
 - *frequency*: first choice - Every day at 10:30

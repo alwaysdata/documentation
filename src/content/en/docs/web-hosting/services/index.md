@@ -8,7 +8,7 @@ eleventyNavigation:
 
 You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
-Those services are declared in the [administration panel](https://admin.alwaysdata.com)'s  **Advanced > Services**.
+Those services are declared in the administration panel  **Advanced > Services**.
 
 ![](images/admin-panel_create-service.png)
 
@@ -21,11 +21,11 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 - It must runs in `foreground`, not fork and leave [^2].
 - When needing to be reached from an external application, bind it to `::` (_IPv6_) and a port from `8300` to `8499`.
 - Log files for running services are located at `/home/[account]/admin/logs/services/`, containing services' outputs.
-	- An extract of those logs is presented in the administration’s interface (**Logs** - 📄).
+	- An extract of those logs is presented in the administration panel (**Logs** - 📄).
 - Current processes are accessible via the **Advanced > Processes > Services** menu.
 - The restart of a service sends the `SIGHUP` signal.
 - If a service fails repeatedly within a short period of time, it will be automatically disabled.
-- The language versions used by default are those specified in the **Environment** menu of the administration interface. It is possible to choose another version using the *Environment variables*.
+- The language versions used by default are those specified in the **Environment** menu of the administration panel. It is possible to choose another version using the *Environment variables*.
 
 The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):
 

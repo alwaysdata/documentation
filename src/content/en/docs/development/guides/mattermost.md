@@ -12,7 +12,7 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 
 - Account name: `[account]`
 - Mattermost directory: `/home/[account]/mattermost/`
-- PostgreSQL database: `[account]_mattermost` - to be created in the **Databases > PostgreSQL** menu of the [administration interface](https://admin.alwaysdata.com)
+- PostgreSQL database: `[account]_mattermost` - to be created in the **Databases > PostgreSQL** menu of the administration panel
 - Port: 8300 (ports between 8300 and 8499 can be used)
 
 > [!NOTE]
