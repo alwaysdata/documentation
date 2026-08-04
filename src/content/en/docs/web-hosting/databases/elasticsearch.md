@@ -10,7 +10,6 @@ eleventyNavigation:
 
 ||
 |---|
-| 7.17 |
 | 8.17 |
 
 ## Connection
