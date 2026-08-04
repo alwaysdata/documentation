@@ -9,7 +9,7 @@ eleventyNavigation:
 An application designed with [React](https://reactjs.org/) is essentially made of static assets for its production part.
 
 If the development cycle uses Node.js HTTP server to serve the pages/views with all the comfort of the development tools
-(_hot-reloading_, etc.), it is not mandatory for its production. A simple web server](https://create-react-app.dev/docs/deployment)
+(_hot-reloading_, etc.), it is not mandatory for its production. [A simple web server](https://create-react-app.dev/docs/deployment)
 will do the trick:
 
 > Set up your favorite HTTP server so that a visitor to your site is served index.html, and requests to static paths
