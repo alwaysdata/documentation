@@ -6,9 +6,13 @@ eleventyNavigation:
   order: 1
 ---
 
-From the administration **Emails > Addresses** section, you can create mailboxes (so long as you added a [domain name](/en/docs/domains/).
+From the administration **Emails > Addresses** section, you can create mailboxes (so long as you added a [domain name](/en/docs/domains/)).
 
 ![](images/admin-panel_mailbox-list.png)
+
+- To create several at once, use [CSV file creation](/en/docs/emails/create-an-email-address/create-mailboxes-using-csv).
+
+- You can also [simply migrate from another host](/en/docs/emails/create-an-email-address/transfer-in).
 
 Then there will be a series of fields to fill-in. Here are the details.
 
@@ -51,7 +55,7 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 
 ![](images/admin-panel_mailbox_redirection.png)
 
-- *Addresses*: addresses that the emails will be redirected to separated by a space).
+- *Addresses*: addresses that the emails will be redirected to (separated by a space).
 - *Local copy*: by checking this box, all redirected emails will also be copied to this mailbox. If not, the emails will not be stored, simply redirected.
 	- If this box is not checked, we therefore create [an alias](https://en.wikipedia.org/wiki/Email_alias).
 
@@ -60,14 +64,14 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 
 
 > [!WARNING]
-> alwaysdata's mail servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the senders. This can block the redirections.
+> alwaysdata's email servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the senders. This can block the redirections.
 
 
 ## Auto-reply
 
 ![](images/admin-panel_mailbox_responder.png)
 
-- *Repeat frequency*: only one automatic message per address will be send for the entire duration of the period (in days).
+- *Repeat frequency*: only one automatic message per address will be sent for the entire duration of the period (in days).
 - *Subject*: the automatic message subject.
 - *Message*: the automatic message body text.
 
@@ -75,7 +79,7 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 
 ![](images/admin-panel_mailbox_quota.png)
 
-- *Size*: the maximum size of the mailbox, in *Mb* (if this quota is reached, new messages will be rejected).
+- *Size*: the maximum size of the mailbox, in *MB* (if this quota is reached, new messages will be rejected).
 
 > [!NOTE]
 > If no maximum size is specified for a mailbox, then the space available in the pack will represent the ceiling.

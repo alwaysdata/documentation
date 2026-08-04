@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 2
 ---
 
-You can access your emails in a number of ways. Here are two most used.
+You can access your emails in a number of ways. Here are the  two most common ones.
 
 ## Email client
 
@@ -14,15 +14,15 @@ If you wish to configure a mail program on your computer or any other device, he
 
 |Server|Service|Information|
 |--- |--- |--- |
-|Incoming|IMAP|Host: **imap-[account].alwaysdata.net**|
+|Incoming|[IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)|Host: **imap-[account].alwaysdata.net**|
 |||Port: **993 (SSL/TLS)**|
 |||Alternative port: 140 (STARTTLS)|
 |||Identifier: **email address** and the **password** assigned to it|
-||POP3|Host: **pop-[account].alwaysdata.net**|
+||[POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)|Host: **pop-[account].alwaysdata.net**|
 |||Port: **995 (SSL/TLS)**|
 |||Alternative port: 110 (STARTTLS)|
 |||Identifier: **email address** and the **password** assigned to it|
-|Outgoing|SMTP|Host: **smtp-[account].alwaysdata.net**|
+|Outgoing|[SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)|Host: **smtp-[account].alwaysdata.net**|
 |||Port: **465 (SSL/TLS)**|
 |||Alternative port: 587 (STARTTLS)|
 |||Identifier: **email address** and the **password** assigned to it|
@@ -58,5 +58,5 @@ By default, the webmail is using the user's web browser language (the one of its
 
 - The emails are saved in [Maildir](https://en.wikipedia.org/wiki/Maildir) format in directory `/home/[account]/admin/mail`,
 - If the destination MX server is not available, the email will be kept for a maximum of five days, with regular attempts made to resend it,
-- The maximum size of emails sent is set at **50 Mb**,
+- The maximum size of emails sent is set at **50 MB**,
 - SMTP authentication is not required when the service is hosted on alwaysdata servers (e.g. website or scheduled task).

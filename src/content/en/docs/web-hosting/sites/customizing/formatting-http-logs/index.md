@@ -33,7 +33,7 @@ blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02
 ```
 
 > [!TIP]
-> To extract long requests, use the following command: `awk '{print $NF,$0}' /home/[account]/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
+> To extract long requests, use the following command: `awk '{print $NF,$0}' /home/[account]/admin/logs/http/[date]/[file].log | sort -n | cut -f2- -d' '`
 
 
 
@@ -52,7 +52,7 @@ The syntax to use is `{variable_name}` to see its value appear in the access log
 | {duration}         | Time taken to serve the request in seconds                                               |
 | {peer_ip}          | IP address of the peer that sent the request (proxy or original user where applicable)   |
 | {protocol}         | Request protocol mechanism (http, https, ws)                                             |
-| {referer}          | Value of the Referer header sent by the request                                          |
+| {referer}          | Value of the [Referer](https://en.wikipedia.org/wiki/HTTP_referer) header sent by the request                                          |
 | {request}          | First request line                                                                       |
 | {request_header}   | Request headers [^3]                                                                     |
 | {request_hostname} | Host name required in the request                                                        |
@@ -64,7 +64,7 @@ The syntax to use is `{variable_name}` to see its value appear in the access log
 | {response_size}    | Response size in bytes, excluding the HTTP headers                                       |
 | {ssl_version}      | Version of the protocol used for the SSL connection                                      |
 | {status}           | Response status code (200, 301, 404, 500, etc.)                                          |
-| {user_agent}       | Value of the User-Agent header sent by the request                                       |
+| {user_agent}       | Value of the [User-Agent](https://en.wikipedia.org/wiki/User_agent_header) header sent by the request                                       |
 
 ## Specific cases
 

@@ -20,7 +20,7 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages/
 
 ## Error logs
 
-You can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.
+Python runs behind [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), you can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.
 
 An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
@@ -103,7 +103,7 @@ $ python -m pip install -r requirements.txt
 ### Uninstalling a package
 
 ```sh
-$ python -m pip uninstall Django
+$ python -m pip uninstall [package]
 ```
 
 ### Installing a package with Distutils
@@ -134,11 +134,11 @@ You can also fill-in a number of optional fields:
 
 ## ASGI deployment
 
-Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronouse Python frameworks can use the *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronous Python frameworks can use the *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
 
 ![](images/user-program.png)
 
-You will have to use the and make the HTTP server listen in IPv6 and on the given port. For example:
+The HTTP server will need to listen on IPv6 and the given port. For example:
 
 - Command: `uvicorn example:app --reload --port $PORT --host $IP`
 

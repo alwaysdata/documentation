@@ -1,12 +1,12 @@
 ---
-title: Using an External MX Email Servers
+title: Using External MX Email Servers
 eleventyNavigation:
   key: Using External MX
   parent: DNS Management
   order: 5
 ---
 
-To use a message server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive email.
+To use an email server belonging to another provider, change the [MX records](https://en.wikipedia.org/wiki/MX_record). These determine the server used to receive email.
 
 1.  Go to **Domains > Details of [example.org] - 🔎 > DNS records** ;
     ![](images/admin-panel_dns-record-list.png)

@@ -22,7 +22,7 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages#
 
 ## Error logs
 
-You can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the Web > Sites section.
+Ruby runs behind [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), you can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the Web > Sites section.
 
 An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
@@ -80,7 +80,7 @@ $ gem uninstall [package]
 
 ### Using Bundler
 
-We recommend using [Bundler](http://bundler.io/) if you use a number of different Ruby applications so that each one has its own separate environment. Bundle installs the packets listed in a *Gemfile*.
+We recommend using [Bundler](http://bundler.io/) if you use a number of different Ruby applications so that each one has its own separate environment. Bundle installs the packages listed in a *Gemfile*.
 
 ```sh
 $ bundle install

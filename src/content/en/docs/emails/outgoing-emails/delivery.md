@@ -52,7 +52,7 @@ Based on this scoring, the message will be sent via an IP address with a more or
 
 This system uses [Rspamd](https://rspamd.com/) and a set of rules specific to alwaysdata.
 
-In order not to be dependent on abuse from other users being the same mail server you can rent a [dedicated IP](/en/docs/web-hosting/dedicated-ip-addresses) in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
+In order not to be dependent on abuse from other users being the same email server you can rent a [dedicated IP](/en/docs/web-hosting/dedicated-ip-addresses) in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
 
 ## Notes
 
