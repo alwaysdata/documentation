@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 2
 ---
 
-You can access your emails in a number of ways. Here are the  two most common ones.
+You can access your emails in a number of ways. Here are the two most common ones.
 
 ## Email client
 
