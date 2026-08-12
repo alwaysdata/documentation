@@ -12,13 +12,13 @@ Those services are declared in the administration panel  **Advanced > Services**
 
 ![](images/admin-panel_create-service.png)
 
-The ports' range `8300` to `8499`, as well as the hostname `services-[account].alwaysdata.net`[^1] are reserved to those services.
+The ports' range `8300` to `8499`, as well as the hostname `services-[account].alwaysdata.net` are reserved to those services.
 
 - [API reference](https://api.alwaysdata.com/v1/service/doc/)
 
 ## Use services
 
-- It must runs in `foreground`, not fork and leave [^2].
+- It must runs in `foreground`, not fork and leave [^1].
 - When needing to be reached from an external application, bind it to `::` (_IPv6_) and a port from `8300` to `8499`.
 - Log files for running services are located at `/home/[account]/admin/logs/services/`, containing services' outputs.
 	- An extract of those logs is presented in the administration panel (**Logs** - 📄).
@@ -59,5 +59,4 @@ For [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users:
 - [MongoDB](/en/docs/development/guides/mongodb#service-launch)
 - [Redis](/en/docs/development/guides/redis#service-launch)
 
-[^1]: `[account]` to be replace by the account name.
-[^2]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.
+[^1]: See [simple `systemd` service](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) for use-cases.

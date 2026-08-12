@@ -57,4 +57,4 @@ Create a [service](/en/docs/web-hosting/services) with following details:
 
 Declare a [site](/en/docs/web-hosting/sites/add-a-site), type **Reverse proxy** with:
 
-- *Remote URL*: `services-[account].alwaysdata.net:8300`
+- *Remote URL*: `http://services-[account].alwaysdata.net:8300`

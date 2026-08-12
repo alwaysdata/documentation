@@ -58,4 +58,4 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 
 Déclarez un [site](/fr/docs/hebergement-web/sites/ajouter-un-site/) de type **Reverse proxy** avec :
 
-- *URL distante* : `services-[compte].alwaysdata.net:8300`
+- *URL distante* : `http://services-[compte].alwaysdata.net:8300`

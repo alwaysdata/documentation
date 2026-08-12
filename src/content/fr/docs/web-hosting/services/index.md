@@ -13,13 +13,13 @@ Ces services sont contrôlés via le menu **Avancé > Services** de l'interface 
 
 ![](images/admin-panel_create-service.png)
 
-Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdata.net`[^1] peuvent être utilisés pour faire tourner ces services.
+Les ports `8300` à `8499` ainsi que le nom d'hôte `services-[compte].alwaysdata.net` peuvent être utilisés pour faire tourner ces services.
 
 - [Référence API](https://api.alwaysdata.com/v1/service/doc/)
 
 ## Utiliser les services
 
-- Il doit rester en avant plan (`foreground`) et non forker et quitter [^2] ;
+- Il doit rester en avant plan (`foreground`) et non forker et quitter [^1] ;
 - S'il veut écouter sur un port il doit être attaché en _IPv6_ sur `::` et écouter un port entre `8300` et `8499` ;
 - Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/services/`. Il vous donne le démarrage et l'arrêt du service.
 	- Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄).
@@ -61,6 +61,4 @@ Pour les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/p
 - [Redis](/fr/docs/developpement/guides/redis/#lancement-du-service)
 
 
-
-[^1]: `[compte]` à remplacer par le nom du compte.
-[^2]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.
+[^1]: voir [service `systemd` "simple"](https://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=) pour des exemples.
