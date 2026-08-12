@@ -26,7 +26,7 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 ### Téléchargement et compilation
 
 ```sh
-[compte]@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
+[compte]@ssh:~/redis$ wget -O- https://github.com/redis/redis/archive/refs/tags/8.10.0.tar.gz | tar -xz --strip-components=1
 [compte]@ssh:~/redis$ make
 ```
 
@@ -34,7 +34,7 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 
 Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
-- *Commande* : `./src/redis-server --bind :: --port 8300 --protected-mode no`
+- *Commande* : `./src/redis-server redis.conf --bind :: --port 8300 --protected-mode no`
 - *Commande de monitoring* : `./src/redis-cli  redis.conf -h services-[compte].alwaysdata.net -p 8300 ping`
 - *Répertoire de travail* : `/home/[compte]/redis`
 

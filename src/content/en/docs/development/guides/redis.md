@@ -24,7 +24,7 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 ### Downloading and Compiling
 
 ```sh
-[account]@ssh:~/redis$ wget -O- https://download.redis.io/redis-stable.tar.gz | tar -xz --strip-components=1
+[account]@ssh:~/redis$ wget -O- https://github.com/redis/redis/archive/refs/tags/8.10.0.tar.gz | tar -xz --strip-components=1
 [account]@ssh:~/redis$ make
 ```
 
@@ -33,11 +33,11 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 Create the following [service](/en/docs/web-hosting/services):
 
 
-- *Command*: `./src/redis-server --bind :: --port 8300 --protected-mode no`
+- *Command*: `./src/redis-server redis.conf --bind :: --port 8300 --protected-mode no`
 - *Monitoring command*: `./src/redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 - *Working directory* : `/home/[account]/redis`
 
-More options via `/home/[account]//redis/src/redis-cli -h`.
+More options via `/home/[account]/redis/src/redis-cli -h`.
 
 The next step is to configure the application to connect to Redis using `services-[account].alwaysdata.net` and port `8300`.
 
