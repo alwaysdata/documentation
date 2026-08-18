@@ -1,5 +1,5 @@
 ---
-title: "The Eternal Sunshine of the Zero Build Pipeline"
+title: "Un nouvel espoir pour le développement frontend : adieu, le build !"
 description: "Servir des dépendances frontend sans build intermédiaire"
 date: 2020-06-23
 authors: ["Matthias Dugué"]
