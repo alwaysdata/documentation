@@ -8,13 +8,13 @@ eleventyNavigation:
 
 ## Configuration
 
-L'utilisation de Memcached en PHP nécessite l'[installation d'une extension PECL](/fr/docs/hebergement-web/langages/php/installer-une-extension/#depuis-peclhttpspeclphpnet) sur votre compte via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/).
+L'utilisation de Memcached en PHP nécessite l'[installation d'une extension PECL](/fr/docs/hebergement-web/langages/php/installer-une-extension/#depuis-pecl) sur votre compte via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/).
 
 ```
 $ ad_install_pecl memcached
 ```
 
-N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#paramètres-phpini) :
+N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#paramètres-php-ini) :
 
 ```
 extension=/home/[compte]/path/to/memcached-[VERSION].so

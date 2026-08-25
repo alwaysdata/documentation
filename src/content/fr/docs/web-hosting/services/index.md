@@ -56,7 +56,7 @@ Pour les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/p
 ## Exemples
 
 - [Mattermost](/fr/docs/developpement/guides/mattermost/#lancement-du-service)
-- [Memcached](/fr/docs/developpement/guides/memcached/#etape-2--lancement-du-service)
+- [Memcached](/fr/docs/developpement/guides/memcached/#etape-2-lancement-du-service)
 - [MongoDB](/fr/docs/developpement/guides/mongodb/#lancement-du-service)
 - [Redis](/fr/docs/developpement/guides/redis/#lancement-du-service)
 

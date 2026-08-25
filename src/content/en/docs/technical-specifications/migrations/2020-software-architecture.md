@@ -232,6 +232,6 @@ $ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 - Drupal
-    - [CSS and JS files precompression](/en/docs/development/marketplace/drupal#cssjs-files-precompression) in versions prior to **8.9**.
+    - [CSS and JS files precompression](/en/docs/development/marketplace/drupal#css-js-files-precompression) in versions prior to **8.9**.
 
 - Segmentation fault issues with [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

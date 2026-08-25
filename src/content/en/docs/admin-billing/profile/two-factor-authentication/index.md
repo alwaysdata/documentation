@@ -17,7 +17,7 @@ This will allow you access to your personal secret code and QR code.
 Then you can *configure your TOTP application* that will send you a single use security code to be specified the next times you connect to your administration interface. This security code is renewed every *30 seconds* (using a calculation based on the time or a meter).
 
 > [!NOTE]
-> In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. [A verification will be carried out](/en/docs/admin-billing/profile/admin-access-loss#blockage-related-to-two-factor-authenticationhahahugoshortcode-s0-hbhb).
+> In the case of loss of two-factor authentication, send an email to *contact[at]alwaysdata.com* to deactivate it. [A verification will be carried out](/en/docs/admin-billing/profile/admin-access-loss#blockage-related-to-two-factor-authentication).
 
 
 ## OTP applications

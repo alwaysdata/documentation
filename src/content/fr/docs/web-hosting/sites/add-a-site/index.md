@@ -71,7 +71,7 @@ Voir [Logs](/fr/docs/hebergement-web/sites/personnalisation/formater-les-logs-ht
 
 ![](images/admin-panel_add-site-advanced.png)
 
-> [Temps d'inactivité](/fr/docs/hebergement-web/sites/divers/#temps-dinactivité)
+> [Temps d'inactivité](/fr/docs/hebergement-web/sites/divers/#temps-d-inactivite)
 
 ---
 

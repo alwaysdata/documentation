@@ -41,7 +41,7 @@ Sa notoriété en fait une cible prioritaire pour les pirates informatiques, il 
     Pour masquer les erreurs de connexion.
 
 - supprimez le compte "admin" créé par défaut ;
-- d'[autres règles](/fr/docs/hebergement-web/sites/problemes-frequents/desinfecter-un-site/#3-supprimer-les-vecteurs-dinfection).
+- d'[autres règles](/fr/docs/hebergement-web/sites/problemes-frequents/desinfecter-un-site/#3-supprimer-les-vecteurs-d-infection).
 
 ---
 ## Liens utiles

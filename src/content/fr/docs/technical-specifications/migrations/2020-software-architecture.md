@@ -231,6 +231,6 @@ Il est possible de savoir si la migration est terminée via le menu des _[Tâche
 $ ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 - Drupal
-    - [Précompression des fichiers CSS et JS](/fr/docs/developpement/marketplace/drupal/#precompression-des-fichiers-css) sur les versions inférieures à la **8.9**.
+    - [Précompression des fichiers CSS et JS](/fr/docs/developpement/marketplace/drupal/#precompression-des-fichiers-css-js) sur les versions inférieures à la **8.9**.
 
 - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

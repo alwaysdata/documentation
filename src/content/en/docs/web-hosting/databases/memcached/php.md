@@ -7,13 +7,13 @@ eleventyNavigation:
 
 ## Configuration
 
-Using Memcached in PHP requires [installing a PECL extension](/en/docs/web-hosting/languages/php/extensions#from-peclhttpspeclphpnet) in your account through [SSH](/en/docs/web-hosting/remote-access/ssh).
+Using Memcached in PHP requires [installing a PECL extension](/en/docs/web-hosting/languages/php/extensions#from-pecl) in your account through [SSH](/en/docs/web-hosting/remote-access/ssh).
 
 ```
 $ ad_install_pecl memcached
 ```
 
-Then don’t forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration/#parameters-phpini):
+Then don’t forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration/#parameters-php-ini):
 
 ```
 extension=/home/[account]/path/to/memcached-[VERSION].so
