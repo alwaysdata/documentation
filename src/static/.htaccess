@@ -15,6 +15,12 @@ RewriteRule ^(fr|en)/custom(/.*)?$ - [L]
 # Redirect all other doc pages
 RewriteRule ^(fr|en)/(?!docs/)(.+)$ /$1/docs/$2 [R=301,L]
 
+## Redirect blog
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^blog/?$  /fr/blog/ [QSA,L,R=307]
+# Rewriting url for all languages (EN default)
+RewriteRule ^blog/?$  /en/blog/ [QSA,L,R=307]
+
 # Rewriting url for FR
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
 RewriteRule ^love/?$  /fr/love/ [QSA,L,R=307]
