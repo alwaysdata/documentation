@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@sindresorhus/slugify": "^3.0.0",
@@ -45,7 +45,7 @@
     "js-cookie": "^3.0.8",
     "js-yaml": "^5.2.1",
     "linkedom": "^0.18.13",
-    "markdown-it-anchor": "^9.2.1",
+    "markdown-it-anchor": "^10.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-github-alerts": "^1.0.1",
     "npm-run-all": "^4.1.5",
