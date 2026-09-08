@@ -35,7 +35,7 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
 - *Commande* : `./src/redis-server redis.conf --bind :: --port 8300 --protected-mode no`
-- *Commande de monitoring* : `./src/redis-cli  redis.conf -h services-[compte].alwaysdata.net -p 8300 ping`
+- *Commande de monitoring* : `./src/redis-cli -h services-[compte].alwaysdata.net -p 8300 ping`
 - *Répertoire de travail* : `/home/[compte]/redis`
 
 Plus d'options via `/home/[compte]/redis/src/redis-cli -h`.
