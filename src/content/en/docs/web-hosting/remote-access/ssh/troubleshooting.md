@@ -27,7 +27,7 @@ An account's SSH server might change from time to time. The new fingerprints are
 You have to update the `known_hosts` file, which is possible via the following command:
 
 ```ssh
-$ ssh-keygen -R [hostname]
+$ ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 ### Input/output error
