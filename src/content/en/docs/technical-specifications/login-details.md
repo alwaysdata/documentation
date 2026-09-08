@@ -38,7 +38,7 @@ The subdomain assigned to you when your account is created will end with a **.ne
 |Memcached|Host: localhost or 127.0.0.1|
 ||Port: 11211|
 |**Emails**||
-|Webmail|[RoundCube](https://webmail.alwaysdata.com)|
+|Webmail|[Roundcube](https://webmail.alwaysdata.com)|
 |Mailing-lists|[Mailman](https://mailman.alwaysdata.com)|
 |IMAP|Host: imap-[account].alwaysdata.net|
 ||Ports: 993 (SSL/TLS)|

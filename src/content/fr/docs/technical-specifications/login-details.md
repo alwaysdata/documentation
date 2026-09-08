@@ -39,7 +39,7 @@ Le sous-domaine qui vous est attribué à la création de votre compte se termin
 |Memcached|Hôte : localhost ou 127.0.0.1|
 ||Port : 11211|
 |**Emails**||
-|Webmail|[RoundCube](https://webmail.alwaysdata.com)|
+|Webmail|[Roundcube](https://webmail.alwaysdata.com)|
 |Listes de diffusion|[Mailman](https://mailman.alwaysdata.com)|
 |IMAP|Hôte : imap-[compte].alwaysdata.net|
 ||Ports : 993 (SSL/TLS)|
