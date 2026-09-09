@@ -94,7 +94,7 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement do
 
 ![](images/globalcyberalliance-dmarc.png)
 
-> [!INFO]
+> [!NOTE]
 > Pour utiliser DMARC, DKIM et SPF doivent donc déjà être implémentés.
 
 

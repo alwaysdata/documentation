@@ -79,20 +79,26 @@ export default function (eleventyConfig) {
   eleventyConfig.addAsyncFilter("toc", async function (content) {
     const htmlTagsFound = extractHtmlTags(content, TOC_HTML_TAGS);
     let tocMarkup = "";
+
     if (htmlTagsFound.length > TOC_MIN_TAGS) {
       tocMarkup = `<ul class="space-y-2 text-sm">`;
       const anchorsIds = [];
-      htmlTagsFound.forEach(function (htmlTag, tagIndex) {
-        const tag = htmlTag.tagName;
+      htmlTagsFound.forEach(function (htmlTag) {
         let slugifiedId = slugify(htmlTag.value);
         if (anchorsIds.includes(slugifiedId)) {
-          slugifiedId += `-${tagIndex}`;
+          for (let i = 1; i <= anchorsIds.length; i++) {
+            if (!anchorsIds.includes(`${slugifiedId}-${i}`)) {
+              slugifiedId += `-${i}`
+              break
+            }
+          }
         }
         anchorsIds.push(slugifiedId);
-        tocMarkup += `<li><a href="#${slugifiedId}" class="toc-${tag}">${htmlTag.value}</a></li>`;
+        tocMarkup += `<li><a href="#${slugifiedId}" class="toc-${htmlTag.tagName}">${htmlTag.value}</a></li>`;
       });
       tocMarkup += "</ul>";
     }
+
     return tocMarkup;
   });
 
