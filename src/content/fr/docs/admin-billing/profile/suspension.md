@@ -40,6 +40,7 @@ Le fait de ne pas respecter nos _CGV/CGU_ est passible d'une suspension de votre
     - un compte peut héberger autant de fonctionnalités (autant de sites par exemple) que vous souhaitez ;
     - il n'est pas non plus autorisé d'avoir plusieurs comptes gratuits sur plusieurs profils alwaysdata.
 - héberger des applications consommatrices de ressources (CPU, réseau, envoi d'emails...) ;
+- héberger des programmes génériques devant tourner 24h / 24 sans aucune interaction utilisateur (les [services](/fr/docs/hebergement-web/services/)).
 - utiliser le compte gratuit pour des sites/adresses email à des *fins lucratives*. Il est donc exclu d’héberger le site ou les emails d’une entreprise commerciale, de placer des publicités qui pourraient générer des profits, de vendre directement sur son site ou via des emails un service ou des biens, etc.
 
 > [!NOTE]

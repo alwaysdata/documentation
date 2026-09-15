@@ -29,4 +29,4 @@ We offer [several programs](/en/docs/admin-billing/programs) to benefit from dis
 > The disk quota includes files, mails and databases.
 
 
-[^1]: The Free plan cannot be used for profit purposes and the creation of websites on this plan is limited to the `alwaysdata.net` account's address.
+[^1]: The Free plan cannot be used for profit purposes. The creation of websites on this plan is limited to the `alwaysdata.net` account's address and it cannot be used to run [services](/en/docs/web-hosting/services/).

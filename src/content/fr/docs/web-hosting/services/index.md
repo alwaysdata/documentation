@@ -9,6 +9,9 @@ eleventyNavigation:
 
 Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion uti­li­sa­teur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement par le système en cas d'arrêt.
 
+> [!WARNING] Avertissement
+> Cette fonctionnalité est disponible sur [toutes nos offres payantes](/fr/docs/admin-facturation/facturation/choisir-son-plan/).
+
 Ces services sont contrôlés via le menu **Avancé > Services** de l'interface d'administration.
 
 ![](images/admin-panel_create-service.png)
@@ -34,7 +37,7 @@ Le champ *Commande de monitoring* — optionnel — permet de spécifier une com
 $ nc -z services-[compte].alwaysdata.net 8300
 ```
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Il n'y a aucun filtrage réseau, n'importe qui peut se connecter à vos services. Assurez-vous que vos services ont un mécanisme d'authentification si nécessaire.
 
 

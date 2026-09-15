@@ -86,4 +86,4 @@ Migration to a higher offer is possible and free of charge: in the _Subscription
 [^2]: Our infrastructure is based on the Debian operating system.
 [^3]: Databases **managed** by alwaysdata. It is also possible to install them via the [services](/en/docs/web-hosting/services). The management of these services will then not be performed by alwaysdata. In the Private Cloud, the SGBD are installed upon request and can be added after installation of the server.
 [^4]: Daily [backups](/en/docs/web-hosting/backups), directly available in the account and retained for up to 30 rolling days.
-[^5]: [Custom programs](/en/docs/web-hosting/services) that operate 24/7.
+[^5]: [Custom programs](/en/docs/web-hosting/services) that operate 24/7. This feature is available from the Small plan.

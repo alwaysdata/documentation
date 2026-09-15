@@ -41,6 +41,7 @@ Failure to comply with our *Terms of service* will result in a suspension of you
     - an account may host as many features (e.g. as many sites) as you wish,
     - it is also not permitted to have multiple free accounts on multiple alwaysdata profiles.
 - hosting resource-intensive applications (CPU, network, sending emails...),
+- hosting generic programs that need to run 24/7 without any user interaction (the [services](/en/docs/web-hosting/services/)),
 - using the free account for *commercial/lucratives goals*. E.g. it’s strictly prohibited to host company’s emails or website; to host ads that could generate incomes; to sell products on the hosted websites and mailboxes, etc.
 
 > [!NOTE]

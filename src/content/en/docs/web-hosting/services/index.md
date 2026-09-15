@@ -8,6 +8,9 @@ eleventyNavigation:
 
 You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
+> [!WARNING]
+> This feature is available on [all our paid plans](/en/docs/admin-billing/billing/choose-your-plan/).
+
 Those services are declared in the administration panel  **Advanced > Services**.
 
 ![](images/admin-panel_create-service.png)
@@ -33,7 +36,7 @@ The optional *Monitoring command* allows you to specify a command used to check 
 $ nc -z services-[account].alwaysdata.net 8300
 ```
 	
-> [!WARNING]
+> [!CAUTION]
 > There is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
 
 

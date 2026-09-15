@@ -87,4 +87,4 @@ La migration vers une offre supérieure est possible et gratuite : dans l'onglet
 [^2]: Notre infrastructure est basée sur le système d'exploitation Debian.
 [^3]: Bases de données **infogérées** par alwaysdata. Il est aussi possible d'en installer via les [services](/fr/docs/hebergement-web/services/). L'infogérance de ces services ne sera alors pas effectuée par alwaysdata. En Cloud Privé, les SGBD sont installés à la demande et peuvent être ajoutés après installation du serveur.
 [^4]: [Sauvegardes](/fr/docs/hebergement-web/sauvegardes/) quotidiennes et directement accessibles dans le compte. Selon l'offre choisie, elles sont conservées jusqu'à 30 jours glissants.
-[^5]: [Programmes génériques](/fr/docs/hebergement-web/services/) devant fonctionner 24h / 24.
+[^5]: [Programmes génériques](/fr/docs/hebergement-web/services/) devant fonctionner 24h / 24. Cette fonctionnalité est disponible à partir de l'offre Small.

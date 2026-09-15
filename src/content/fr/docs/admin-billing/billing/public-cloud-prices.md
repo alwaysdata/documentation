@@ -30,4 +30,4 @@ Nous proposons [plusieurs programmes](/fr/docs/admin-facturation/programmes/) po
 > Le quota disque inclut fichiers, emails et bases de données.
 
 
-[^1]: Le pack Free ne peut notamment servir à des fins lucratives et la création de sites web sur ce pack est limitée à l'adresse `alwaysdata.net` du compte.
+[^1]: Le pack Free ne peut pas servir à des fins lucratives. La création de sites web sur ce pack est limitée à l'adresse `alwaysdata.net` du compte et il ne peut servir pour faire tourner des [services](/fr/docs/hebergement-web/services/).
