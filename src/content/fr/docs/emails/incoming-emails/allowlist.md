@@ -1,8 +1,8 @@
 ---
-permalink: /fr/docs/emails/emails-entrants/liste-blanche/
-title: Liste blanche de reception d'emails
+permalink: /fr/docs/emails/emails-entrants/liste-dautorisation/
+title: Liste d'autorisation de réception d'emails
 eleventyNavigation:
-  key: Liste blanche de réception
+  key: Liste d'autorisation de réception
   parent: Emails entrants
   order: 5
 ---
@@ -11,4 +11,4 @@ Pour être assuré de recevoir les emails d'adresses et domaines précis, ceux-c
 
 Les emails envoyés à ces adresses seront toujours soumis à la [validation antispam](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#système-de-notation).
 
-Les listes blanches sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses email du compte.
+Les listes d'autorisations sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses email du compte.

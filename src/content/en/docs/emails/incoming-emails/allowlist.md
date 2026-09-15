@@ -1,7 +1,7 @@
 ---
-title: Incoming Email whitelist
+title: Incoming Email allowlist
 eleventyNavigation:
-  key: Incoming Email whitelist
+  key: Incoming Email allowlist
   parent: Incoming Emails
   order: 5
 ---
@@ -10,4 +10,4 @@ To be sure to receive emails from specific addresses and domains, they can be de
 
 Mails sent to these addresses will always undergo the [antispam validation](/en/docs/emails/outgoing-emails/delivery#notation-system).
 
-Whitelists are set up at the account level. They will thus be used by all the account email addresses.
+Allowlists are set up at the account level. They will thus be used by all the account email addresses.
