@@ -9,7 +9,7 @@ eleventyNavigation:
 You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
 
 > [!WARNING]
-> This feature is available on [all our paid plans](/en/docs/admin-billing/billing/choose-your-plan/).
+> This feature is available on [all our paid plans](/en/docs/admin-billing/billing/choose-its-paas/).
 
 Those services are declared in the administration panel  **Advanced > Services**.
 
