@@ -16,8 +16,8 @@ An [SRV record](https://en.wikipedia.org/wiki/SRV_record) defines the location o
 3.  Fill-in the form. 
     ![](images/admin-panel_add-srv.png)
 
-> [!WARNING]
-> Do not put the root into the **Hostname**.
+> [!CAUTION]
+> Do not put the root into the **Hostname**.  
 > For example, by putting `www.example.org` in this box, you will create a record for `www.example.org.example.org`.
 
 

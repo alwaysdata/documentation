@@ -55,7 +55,7 @@ When you create your PostgreSQL databases and users, you define the desired perm
     - GRANT SELECT on TABLES, SEQUENCES,
     - GRANT EXECUTE on FUNCTIONS.
 
-> [!WARNING]
+> [!CAUTION]
 > If you change your user's permissions via a third party application, any validation via the administration interface (or via the API) will reset the permissions in line with the directives above.
 
 

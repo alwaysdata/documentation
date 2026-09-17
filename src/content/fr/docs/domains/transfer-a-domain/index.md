@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Opération [payante](https://www.alwaysdata.com/fr/domaines/#main), elle permet de transférer la gestion _administrative_ de son domaine chez alwaysdata.
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Si vous souhaitez transférer le domaine à un autre client alwaysdata, passez par un [déplacement de domaine](/fr/docs/domaines/deplacer-un-domaine/).
 
 
@@ -42,8 +42,8 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
    
     ![](images/admin-panel_add-domain-1.png)
 
-> [!NOTE]
-Saisissez uniquement le domaine, sans le sous-domaine.
+> [!WARNING] Avertissement
+> Saisissez uniquement le domaine, sans le sous-domaine.  
 > Par exemple : `example.org` et non `www.example.org`.
 
 
@@ -57,7 +57,7 @@ Saisissez uniquement le domaine, sans le sous-domaine.
    
     ![](images/admin-panel_add-domain-3.png)
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Un email de validation est envoyé pour un certain nombre d'extensions. Sans validation, le transfert est abandonné.
 
 

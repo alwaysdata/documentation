@@ -15,7 +15,7 @@ Pour supprimer ce second, allez dans le menu **Profil** et cliquez sur _Supprime
 
 Cela va supprimer tous les comptes et serveurs attachés, ainsi que votre historique.
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Une fois cette opération effectuée, il ne sera en aucun cas possible de revenir en arrière.
 
 

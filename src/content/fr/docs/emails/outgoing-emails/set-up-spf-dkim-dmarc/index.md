@@ -39,7 +39,7 @@ Voici 3 méthodes pour authentifier vos emails et réduire de ce fait l'usage ab
 |exp=some.example.org|Pour avoir le motif des résultats en échec|
 |redirect=some.example.org|Pour lier à un enregistrement de règle d'un autre domaine|
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Cette technologie peut avoir des répercussions sur les redirections emails : le serveur émetteur n'étant pas forcément le serveur de messagerie de l'expéditeur d'origine de l'email.
 
 

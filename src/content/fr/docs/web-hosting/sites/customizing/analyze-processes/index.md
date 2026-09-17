@@ -28,7 +28,7 @@ Une fois l'analyse démarrée, il suffit de consulter les pages que l'on souhait
 > Le PID d'un processus est affiché dans le tableau des processus affiché dans le menu **Avancé > Processus**.  Parfois, aucun processus n'est visible dans ce tableau. Ils apparaîtront si vous visitez quelques pages de votre site internet.
 
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Le fichier produit par l'analyse peut contenir des données sensibles, comme des mots de passe. Il est conseillé de le supprimer.
 
 

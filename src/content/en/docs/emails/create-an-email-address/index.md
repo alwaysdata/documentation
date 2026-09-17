@@ -28,7 +28,7 @@ Then there will be a series of fields to fill-in. Here are the details.
 
 The antispam used to filter out undesired email advertising (*spam*) is the open-source software [Rspamd](https://rspamd.com/).
 
-> [!WARNING]
+> [!CAUTION]
 > The configurable antispam is the antispam of incoming mail. All outgoing emails from our servers are required to pass through a non-configurable antispam filter.
 
 
@@ -63,7 +63,7 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 > If you use the antivirus and/or the antispam software, emails considered to be fraudulent are never redirected to avoid passing on these bad messages to outside vendors.
 
 
-> [!WARNING]
+> [!CAUTION]
 > alwaysdata's email servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the senders. This can block the redirections.
 
 

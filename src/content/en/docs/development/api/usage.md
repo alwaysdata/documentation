@@ -14,11 +14,11 @@ $ curl --basic --user APIKEY: https://api.alwaysdata.com/v1/account/
 
 Your tokens are available in the **[Profile](/en/docs/admin-billing/profile/tokens)** section.
 
-> [!WARNING]
+> [!CAUTION]
 > To use your tokens, don't forget the colon (`:`) after the key, meaning that the password is not needed.
 
 
-> [!NOTE]
+> [!TIP]
 > A rate limit is applied on API requests. See [here](#rate-limit) for more details.
 
 

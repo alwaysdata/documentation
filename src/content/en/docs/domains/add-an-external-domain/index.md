@@ -18,8 +18,7 @@ Here we wish to add the domain and **change of DNS servers** at the registrar to
 
 > [!NOTE]
 > Enter the domain only, without the subdomain. For example: `example.org` and not `www.example.org`.
-
-
+  
 3.  Choose to **manage** it.
     ![](images/admin-panel_add-domain-2.png)
 

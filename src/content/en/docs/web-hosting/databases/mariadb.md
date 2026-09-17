@@ -43,7 +43,7 @@ When you create your MySQL databases and users, you have the option of assigning
 - GRANT READONLY,
 - No privileges.
 
-> [!WARNING]
+> [!CAUTION]
 > If you change your user's permissions via a third party application, any validation via the administration interface (or via the API) will reset the permissions in line with the directives above.
 
 

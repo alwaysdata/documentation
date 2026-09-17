@@ -16,8 +16,8 @@ A [CAA record](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authori
 3.  Fill-in the form. 
     ![](images/admin-panel_add-caa.png)
 
-> [!WARNING]
-> Do not put the root into the **Hostname**.
+> [!CAUTION]
+> Do not put the root into the **Hostname**.  
 > For example, by putting `www.example.org` in this box, you will create a record for `www.example.org.example.org`.
 
 

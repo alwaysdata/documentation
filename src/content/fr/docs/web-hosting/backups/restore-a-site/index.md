@@ -15,7 +15,7 @@ Les sauvegardes de vos fichiers et bases de données se trouvent dans le répert
 2. Puis cochez la/les base(s) de données et/ou le/les répertoire(s) voulu(s) [^1].
     ![](images/admin-panel_restoration-site.png)
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > La restauration va écraser la configuration actuelle, effectuez donc auparavant une sauvegarde.
 
 
@@ -35,7 +35,7 @@ Si vous souhaitez restaurer une sauvegarde manuellement.
     $ rsync -av --delete /home/[compte]/admin/backup/[date]/files/[répertoire]/ /home/[compte]/[répertoire]/
     ```
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > `--delete` va supprimer tous les fichiers de ce répertoire ayant été créés depuis la date de la sauvegarde.
 > Pour effectuer un test ajoutez `-n`.
 

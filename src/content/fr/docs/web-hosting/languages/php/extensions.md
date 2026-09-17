@@ -13,7 +13,7 @@ eleventyNavigation:
 
 Une extension PHP se présente sous la forme d'un fichier ayant l'extension `.so`. Pour la charger vous devrez l'ajouter à votre `php.ini` (**Environnement > PHP** ou au niveau du site dans **Web > Sites**).
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Certaines extensions se chargent avec la directive `zend_extension` plutôt que extension, c'est l'éditeur de l'extension qui vous indiquera lorsque cette directive doit être utilisée à la place.
 
 > Les extensions dépendent de la version majeure de PHP. Autrement dit, un fichier `.so` compilé pour la version 5.5 de PHP ne fonctionnera pas avec la 5.6 : **elle devra être recompilée**.

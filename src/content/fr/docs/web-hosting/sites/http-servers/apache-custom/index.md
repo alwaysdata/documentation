@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Le type Apache personnalisé permet de faire tourner des sites servis par le serveur Apache mais n'utilisant pas PHP ou HTML.
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Si vous voulez seulement ajouter des directives globales à Apache modifiez sa [configuration](/fr/docs/hebergement-web/sites/serveurs-http/configurer-apache/) dans **Web > Configuration > Apache**.
 
 

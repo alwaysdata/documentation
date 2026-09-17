@@ -47,5 +47,5 @@ Vous devrez spécifier la commande qui démarre votre application Elixir, par ex
 mix /home/[compte]/myapp/phx.server
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'ip `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.

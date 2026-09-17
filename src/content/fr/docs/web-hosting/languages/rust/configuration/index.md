@@ -24,5 +24,5 @@ Après avoir compilé le programme et l'avoir chargé sur votre compte, vous dev
 $ /home/[compte]/myapp/hello
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'IP et le port indiqués dans la vue de configuration du site sous le champ *Commande*. Vous pouvez utiliser les variables d'environnement `IP` / `HOST` et `PORT`.

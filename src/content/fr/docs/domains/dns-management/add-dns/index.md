@@ -15,8 +15,9 @@ eleventyNavigation:
 3.  Renseignez le formulaire.
     ![](images/admin_panel_add-record.png)
 
-> [!WARNING] Attention
-> Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
+> [!CAUTION] Attention
+> Ne mettez pas la racine dans **Nom d'hôte**.  
+> Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
 
 
 > [!NOTE]

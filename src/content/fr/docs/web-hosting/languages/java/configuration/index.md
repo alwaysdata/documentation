@@ -72,7 +72,7 @@ $ java -Xmx512m -jar jenkins.war --httpListenAddress=$IP --httpPort=$PORT
 $ java -jar app.jar --server.address=:: --server.port=$PORT
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'IP `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.
 
 

@@ -19,5 +19,5 @@ The configuration of the priority of a certificate is possible *only* for certif
 
 To enforce a certificate, go to the SSL certificate configuration in the **Advanced > SSL Certificates** menu or the subdomain configuration in the **Domains > Details of [domain] - ⚙️ > Subdomains** menu.
 
-> [!WARNING]
+> [!CAUTION]
 > An expired certificate, if it is attached to a subdomain, will still be returned by the server.

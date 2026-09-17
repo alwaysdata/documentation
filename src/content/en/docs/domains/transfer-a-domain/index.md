@@ -8,7 +8,7 @@ eleventyNavigation:
 
 This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It allows transferring the *administrative* management of your domain to alwaysdata.
 
-> [!WARNING]
+> [!CAUTION]
 > If you wish to transfer the domain to another alwaysdata client, please proceed with an [internal domain transfer](/en/docs/domains/move-a-domain).
 
 
@@ -41,8 +41,8 @@ A transfer cannot take place within 60 days of its creation or a previous transf
   
     ![](images/admin-panel_add-domain-1.png)
 
-> [!NOTE]
-Enter the domain only, without the subdomain.
+> [!WARNING]
+> Enter the domain only, without the subdomain.  
 > For example: `example.org` and not `www.example.org`.
 
 
@@ -57,7 +57,7 @@ Enter the domain only, without the subdomain.
     
     ![](images/admin-panel_add-domain-3.png)
 
-> [!WARNING]
+> [!CAUTION]
 > A validation email is set for a certain number of extensions. Without validation, the transfer is aborted.
 
 

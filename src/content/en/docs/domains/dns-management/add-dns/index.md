@@ -14,8 +14,9 @@ eleventyNavigation:
 3.  Fill-in the form.
     ![](images/admin_panel_add-record.png)
 
-> [!WARNING]
-> Do not put the root into the **Hostname**. For example, by putting `example.org` in this box, you will create a record for `www.example.org.example.org`.
+> [!CAUTION]
+> Do not put the root into the **Hostname**.  
+> For example, by putting `example.org` in this box, you will create a record for `www.example.org.example.org`.
 
 
 > [!NOTE]

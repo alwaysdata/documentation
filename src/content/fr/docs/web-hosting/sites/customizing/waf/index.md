@@ -60,7 +60,7 @@ Seul le **numéro de la règle à exclure** doit être spécifié. Vous le retro
 
 Ce serait donc `941100`, `941110` et `941160` qui pourraient être indiqués.
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Il faut veiller à ajouter progressivement des règles car l'exclusion est applicable sur tout le site. En effet, même si ajouter un grand nombre de règles à exclure peut améliorer la navigation dans certains cas, la protection sera alors amoindrie dans tous les autres cas.
 
 

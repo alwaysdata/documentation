@@ -17,8 +17,9 @@ To use an email server belonging to another provider, change the [MX records](ht
     ![](images/admin-panel_add-mx.png)
     This will automatically disable our MX records.
 
-> [!WARNING]
-> Do not put the root into the **Hostname**. For example, by putting `example.org` in this box, you will create a record for *example.org.example.org*.
+> [!CAUTION]
+> Do not put the root into the **Hostname**.  
+> For example, by putting `example.org` in this box, you will create a record for *example.org.example.org*.
 
 
 > [!NOTE]

@@ -16,5 +16,5 @@ Les domaines sont gérés dans l'onglet **Domaines** de l'interface d'administra
 - [Ressource API](https://api.alwaysdata.com/v1/domain/doc/)
 - [Ressource API - DNS](https://api.alwaysdata.com/v1/record/doc/)
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Officiellement invalides (d'après [IDNA2008](http://unicode.org/faq/idn.html)), nous ne supportons pas les **emojis** dans un nom de domaine. Notre infrastructure utilise la [bibliothèque Python `idna`](https://github.com/kjd/idna), qui [respecte impérativement](https://github.com/kjd/idna/issues/18) IDNA2008 à ce stade.

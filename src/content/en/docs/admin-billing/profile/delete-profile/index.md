@@ -13,7 +13,7 @@ In the second case, go to the **Profile** menu and click on *Delete this profile
 
 This will delete all of the accounts and servers attached as well as your history.
 
-> [!WARNING]
+> [!CAUTION]
 > Once this operation is done there is no way to undo it.
 
 

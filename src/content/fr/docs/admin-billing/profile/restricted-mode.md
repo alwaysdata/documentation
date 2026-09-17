@@ -20,7 +20,7 @@ Afin de montrer patte blanche et nous témoigner vos intentions les plus honnêt
 
 C'est aussi simple que cela et nous estimons que cela va nous permettre de filtrer une grande majorité des utilisateurs mal intentionnés. Donc si vous respectez un de ces critères, aucune restriction ne sera appliquée à votre profil.
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Ajouter un compte bancaire (même en prélèvement automatique) ne lève pas la restriction.
 
 ## Restrictions

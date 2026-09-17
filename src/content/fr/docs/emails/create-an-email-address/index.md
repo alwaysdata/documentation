@@ -29,7 +29,7 @@ Vous aurez un ensemble de champs à renseigner. En voici les précisions.
 
 L'antispam utilisé pour filtrer le courrier électronique publicitaire non souhaité (_spam_) est le logiciel libre [Rspamd](https://rspamd.com/).
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > L'antispam paramétrable est l'antispam des courriers entrants. Les emails sortant de nos serveurs passent obligatoirement par un antispam non-paramétrable.
 
 
@@ -64,7 +64,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 > Si vous utilisez l'antivirus et/ou l'antispam, les emails considérés comme frauduleux ne sont jamais redirigés, afin d'éviter de relayer ces mauvais messages vers des fournisseurs externes.
 
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Les serveurs emails d'alwaysdata ne sont pas forcément autorisés par les règles d'authentification (SPF, DKIM, DMARC) des expéditeurs. Cela peut bloquer les redirections.
 
 

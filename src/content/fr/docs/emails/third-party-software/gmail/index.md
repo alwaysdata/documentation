@@ -43,7 +43,7 @@ Rendez-vous dans **Ajouter un compte de messagerie > Importer les e-mails de mon
 
 Cochez "Vous devez toujour utiliser une connexion sécurisée (SSL) lorsque vous récupérez vos emails".
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Attention c'est une connexion POP3 qui va récupérer sur ses serveurs les emails.
 
 

@@ -14,7 +14,7 @@ Backups of your files and databases are located in the `/home/[account]/admin/ba
 2.  Then check the one or more databases and/or directories required [^1].
     ![](images/admin-panel_restoration-site.png)
 
-> [!WARNING]
+> [!CAUTION]
 > Restore will overwrite the current configuration, so make a backup first.
 
 
@@ -34,7 +34,7 @@ To restore a backup manually.
     $ rsync -av --delete /home/[account]/admin/backup/[date]/files/[directory]/ /home/[account]/[directory]/
     ```
 
-> [!WARNING]
+> [!CAUTION]
 > `--delete` will delete all of the files from this directory that have been created since the backup date. 
 > To run a test add `-n`.
 

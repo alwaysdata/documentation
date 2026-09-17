@@ -24,7 +24,7 @@ En plans Cloud Privé :
 > Pour des raisons de sécurité, la création des bases de données et des utilisateurs bases de données n'est possible que depuis l'interface d'administration ou depuis notre [API](/fr/docs/developpement/api). Ce n'est donc pas possible par une application tierce (par exemple phpMyAdmin).
 
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Il est interdit d'héberger **uniquement** des bases de données sur le pack gratuit.
 
 

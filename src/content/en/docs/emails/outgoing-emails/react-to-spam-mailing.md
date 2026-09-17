@@ -36,7 +36,7 @@ In this case, they will:
 
 Then the user can provide a new, **more secure**, password to again allow access to their address.
 
-> [!WARNING]
+> [!CAUTION]
 > In repeat cases, the alwaysdata team can always *suspend* the account until the user returns.
 
 > [!TIP]

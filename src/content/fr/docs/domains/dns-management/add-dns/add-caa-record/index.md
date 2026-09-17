@@ -17,8 +17,8 @@ Un [enregistrement CAA](https://fr.wikipedia.org/wiki/DNS_Certification_Authorit
 3.   Renseignez le formulaire.
     ![](images/admin-panel_add-caa.png)
 
-> [!WARNING] Attention
-> Ne mettez pas la racine dans **Nom d'hôte**.
+> [!CAUTION] Attention
+> Ne mettez pas la racine dans **Nom d'hôte**.  
 > Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
 
 

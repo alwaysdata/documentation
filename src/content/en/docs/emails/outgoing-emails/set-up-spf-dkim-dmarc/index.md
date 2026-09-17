@@ -39,7 +39,7 @@ Here are three methods for authenticating your emails and thereby reducing abusi
 |exp=some.example.org|To get the reason for the failure results|
 |redirect=some.example.org|To link to a rule record in another domain|
 
-> [!WARNING]
+> [!CAUTION]
 > This technology may have an impact on email redirects as the sender server is not necessarily the email server belonging to the original email sender.
 
 

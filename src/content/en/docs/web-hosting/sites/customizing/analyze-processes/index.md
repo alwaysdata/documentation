@@ -32,7 +32,7 @@ Once the analysis has started, simply view the pages to be monitored from your b
 > The PID for a process is displayed in the process table displayed in the **Advanced > Process** menu. Sometimes, no processes are visible in this table. They will appear if you visit a few pages of your web site.
 
 
-> [!WARNING]
+> [!CAUTION]
 > The file produced by the analysis may comprise sensitive data like passwords. We recommend deleting it.
 
 

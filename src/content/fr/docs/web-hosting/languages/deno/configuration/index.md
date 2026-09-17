@@ -40,5 +40,5 @@ Vous devrez spécifier la commande qui démarre votre application Deno, par exem
 deno run --allow-env --allow-net /home/[compte]/myapp/index.ts
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'ip et le port indiqués dans la vue de configuration du site sous le champ *Commande*. Vous pouvez utiliser les variables d'environnement `IP` / `HOST` et `PORT`.

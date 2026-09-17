@@ -56,7 +56,7 @@ Lors de la création de vos bases et utilisateurs PostgreSQL, vous définissez l
     * GRANT SELECT sur les TABLES, SEQUENCES ;
     * GRANT EXECUTE sur les FUNCTIONS.
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Si vous modifiez les permissions de vos utilisateurs via une application tierce, toute validation via l'interface d'administration (ou via l'API) réinitialisera les permissions selon les directives ci-dessus.
 
 

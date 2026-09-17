@@ -39,5 +39,5 @@ Vous devrez spécifier la commande qui démarre votre application .NET, par exem
 dotnet run --urls "http://$IP:$PORT"
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'ip et le port indiqués dans la vue de configuration du site sous le champ *Commande*. Vous pouvez utiliser les variables d'environnement `IP` / `HOST` et `PORT`.

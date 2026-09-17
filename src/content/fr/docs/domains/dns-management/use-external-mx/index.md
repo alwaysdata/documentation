@@ -17,8 +17,9 @@ Pour utiliser le serveur de messagerie d'un autre prestataire, il faut changer d
 
 Cela désactivera automatiquement nos enregistrements MX.
 
-> [!WARNING] Attention
-> Ne mettez pas la racine dans **Nom d'hôte**. Par exemple, en indiquant _example.org_ dans cette case, vous créerez un enregistrement pour _example.org.example.org_.
+> [!CAUTION] Attention
+> Ne mettez pas la racine dans **Nom d'hôte**.  
+> Par exemple, en indiquant _example.org_ dans cette case, vous créerez un enregistrement pour _example.org.example.org_.
 
 
 > [!NOTE]

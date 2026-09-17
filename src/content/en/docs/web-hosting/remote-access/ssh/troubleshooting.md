@@ -43,5 +43,5 @@ In this case, you can:
 - delete the problem SSH user. This automatically reassigns the files it owned to the main user.
 - use the `chmod` command with the owner user of the files concerned in order to give the necessary rights to the group.
 
-> [!WARNING]
+> [!CAUTION]
 > The processes started up by a site (**Web > Sites**), typically *Apache* or *PHP*, run with the main user.

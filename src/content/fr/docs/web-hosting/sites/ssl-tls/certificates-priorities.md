@@ -20,5 +20,5 @@ La configuration de la priorité d'un certificat n'est possible *que* pour les c
 
 Pour forcer un certificat rendez-vous au niveau de la configuration du certificat SSL - menu **Avancé > Certificats SSL** ou au niveau de la configuration du sous-domaine - menu **Domaines > Détails du [domaine] - ⚙️ > Sous-domaines**.
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Un certificat expiré, s'il est rattaché à un sous-domaine, sera quand même renvoyé par le serveur.

@@ -40,5 +40,5 @@ Vous devrez spécifier la commande qui démarre votre application Lua, par exemp
 lua5.1 /home/[compte]/myapp/start-server.lua
 ```
 
-> [!WARNING] Attention
+> [!WARNING] Avertissement
 > Votre application doit impérativement écouter sur l'ip `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.

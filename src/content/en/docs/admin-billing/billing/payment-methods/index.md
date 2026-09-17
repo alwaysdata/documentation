@@ -22,7 +22,7 @@ We offer the following options:
 > Credits to your account by *bank transfer* will appear in your interface as soon as they have been processed by our team. This may take a few days.
 
 
-> [!WARNING]
+> [!CAUTION]
 > We do not accept *check* payments. Any check received will be systematically destroyed.
 
 

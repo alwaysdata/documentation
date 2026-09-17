@@ -40,5 +40,5 @@ Si c'est le cas, vous pouvez :
 - supprimer l'utilisateur SSH problématique. Cela réassigne automatiquement les fichiers dont il était propriétaire à l'utilisateur principal.
 - utiliser la commande `chmod` avec l'utilisateur propriétaire des fichiers concernés pour qu'il donne les droits nécessaires au groupe.
 
-> [!WARNING] Attention
+> [!CAUTION] Attention
 > Les processus démarrés par un site (**Web > Sites**), typiquement *Apache* ou *PHP*, tournent avec l'utilisateur principal.

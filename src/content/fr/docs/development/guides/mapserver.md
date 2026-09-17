@@ -14,6 +14,9 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 - Nom de compte : `[compte]`
 - Répertoire d'installation de MapServer : `/home/[compte]/mapserver`
 
+> [!NOTE]
+> N'hésitez pas à ajuster en fonction de vos besoins.
+
 1. Créer le lien symbolique :
 
 ```sh

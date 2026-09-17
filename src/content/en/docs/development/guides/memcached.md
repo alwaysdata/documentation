@@ -8,10 +8,9 @@ eleventyNavigation:
 
 [Memcached](https://www.memcached.org/) is an object-oriented cache engine.
 
-Here is a guide to installing it on the Public Cloud.
-
-> [!NOTE]
-> For Private Cloud users *Memcached* can be [installed at server level](/en/docs/web-hosting/databases/memcached).
+> [!TIP]
+> Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices).  
+> For [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users *Memcached* can be [installed at server level](/en/docs/web-hosting/databases/memcached).
 
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
@@ -41,7 +40,7 @@ Create the following [service](/en/docs/web-hosting/services):
 
 More options via `/home/[account]/memcached/memcached -h`.
 
-> [!WARNING]
+> [!CAUTION]
 > By default anyone can connect to Memcached; there is no security. An [authentication](https://github.com/memcached/memcached/wiki/SASLHowto) can be set up.
 
 

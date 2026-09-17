@@ -9,7 +9,9 @@ eleventyNavigation:
 
 [Redis](https://redis.io/) est un système de gestion de base de données clé-valeur extensible.
 
-Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/). Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander l'installation de *Redis* [au niveau serveur](/fr/docs/hebergement-web/bases-de-donnees/redis/).
+> [!TIP] Astuce
+> Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/).  
+> Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander l'installation de *Redis* [au niveau serveur](/fr/docs/hebergement-web/bases-de-donnees/redis/).
 
 Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
 

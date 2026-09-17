@@ -17,8 +17,8 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
 3.   Renseignez le formulaire.
     ![](images/admin-panel_add-srv.png)
 
-> [!WARNING] Attention
-> Ne mettez pas la racine dans **Nom d'hôte**.
+> [!CAUTION] Attention
+> Ne mettez pas la racine dans **Nom d'hôte**.  
 > Par exemple, en indiquant `www.example.org` dans cette case, vous créerez un enregistrement pour `www.example.org.example.org`.
 
 
@@ -31,7 +31,7 @@ Un [enregistrement SRV](https://fr.wikipedia.org/wiki/Enregistrement_de_service)
     » Priorité : 1
     » TTL : 300
     ```
-
+  
 -   Utiliser Lync (anciennement Skype) avec `_sip._tls` et `_sipfederationtls._tcp` :
     ```
     » Nom d'hôte : _sip._tls
