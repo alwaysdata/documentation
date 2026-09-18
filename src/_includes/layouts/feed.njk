@@ -1,0 +1,26 @@
+---
+layout: layouts/nada.njk
+eleventyExcludeFromCollections: true
+---
+{% set blogposts = collections[source] %}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+    <title>{{ metadata.title }}</title>
+    <subtitle>{{ metadata.description }}</subtitle>
+    <link href="{{ metadata.url }}/feed-{{ lang }}.xml" rel="self" type="application/atom+xml"/>
+    <updated>{{ blogposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ metadata.url }}/</id>
+    <author>
+        <name>{{ metadata.author }}</name>
+    </author>
+    {%- for blogpost in blogposts %}
+    {%- set absoluteUrl = metadata.url + blogpost.url %}
+    <entry>
+        <title>{{ blogpost.data.title | htmlEscape }}</title>
+        <link href="{{ absoluteUrl }}" rel="alternate" type="text/html"/>
+        <updated>{{ blogpost.date | dateToRfc3339 }}</updated>
+        <id>{{ absoluteUrl }}</id>
+        <summary>{{ blogpost.data.description | default(blogpost.data.title) | htmlEscape }}</summary>
+    </entry>
+    {%- endfor %}
+</feed>
