@@ -14,11 +14,11 @@ L'utilisation de Redis en PHP nécessite l'[installation d'une extension PECL](/
 $ ad_install_pecl redis
 ```
 
-N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#paramètres-php-ini) :
+N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#parametres-php-ini) :
 
 ```
 extension=/home/[compte]/path/to/redis-[VERSION].so
 ```
 
 > [!WARNING] Avertissement
-> `[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de PHP](/fr/docs/hebergement-web/langages/php/problemes-frequents/#utiliser-différentes-versions-en-ssh).
+> `[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de PHP](/fr/docs/hebergement-web/langages/php/problemes-frequents/#utiliser-differentes-versions-en-ssh).

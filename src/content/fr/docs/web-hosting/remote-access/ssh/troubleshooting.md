@@ -10,7 +10,7 @@ eleventyNavigation:
 ## Connexion
 Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [compte]@ssh-[compte].alwaysdata.net` pour avoir plus d'informations.
 
-Un [blocage d'IP](/fr/docs/caracteristiques-techniques/reseau/#prévention-des-intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Un [blocage d'IP](/fr/docs/caracteristiques-techniques/reseau/#prevention-des-intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.
 
 > [!NOTE]
 > alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.

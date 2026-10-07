@@ -11,7 +11,7 @@ Vous avez accès aux logs d'envois dans le menu **Emails > Historique**.
 
 ![](images/history.png)
 
-- *[Score](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#système-de-notation)* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
+- *[Score](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#systeme-de-notation)* : score donné par l'antispam d'alwaysdata qui détermine si un email est envoyé ou non[^1] ;
 - *Bloqué* : si l'email a été bloqué par l'antispam d'alwaysdata. À ne pas confondre avec un *bounce*[^2] qui englobe d'autres raisons.
 
 ![](images/example.png)

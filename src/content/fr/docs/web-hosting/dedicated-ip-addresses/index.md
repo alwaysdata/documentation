@@ -24,7 +24,7 @@ Une fois l'IP prise :
 
 Cette IP va servir à l'envoi des emails.
 
-Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#système-de-notation) :
+Une fois l'IP prise vous pourrez lui indiquer quels emails doivent passer par cette IP selon le [score qu'ils auront reçus par l'antispam](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#systeme-de-notation) :
 
 ![](images/dedicated-ip-smtp.png)
 

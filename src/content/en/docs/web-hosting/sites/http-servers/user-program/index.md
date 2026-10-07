@@ -8,7 +8,7 @@ eleventyNavigation:
 
 To run a web program that does not use one of the other types of site you can use the *User program*.
 
-It may be used for [Erlang](https://www.erlang.org/), [Go](/en/docs/web-hosting/languages/go), [Java](/en/docs/web-hosting/languages/java), [Lua](/en/docs/web-hosting/languages/lua), [Rust](/en/docs/web-hosting/languages/rust), [Scala](https://www.scala-lang.org/),) and many other languages and software...[^1]
+It may be used for [Erlang](https://www.erlang.org/), [Go](/en/docs/web-hosting/languages/go), [Java](/en/docs/web-hosting/languages/java), [Lua](/en/docs/web-hosting/languages/lua), [Rust](/en/docs/web-hosting/languages/rust), [Scala](https://www.scala-lang.org/), and many other languages and software...[^1]
 
 Go to the **Web > Sites > Add a site** menu.
 

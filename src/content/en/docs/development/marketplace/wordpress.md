@@ -40,7 +40,7 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
     To mask the connection errors.
 
 - delete the "admin" account created by default,
-- [other rules](/en/docs/web-hosting/sites/troubleshooting/clean-up-a-site#3-delete-infection-sources).
+- [other rules](/en/docs/web-hosting/sites/troubleshooting/clean-up-a-site#3-deleting-infection-vehicles).
 
 ---
 ## Useful links
