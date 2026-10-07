@@ -5,7 +5,7 @@
 import slugify from "@sindresorhus/slugify";
 
 // TOC Configuration
-const TOC_HTML_TAGS = ["h2", "h3", "h4"];
+const TOC_HTML_TAGS = ["h2", "h3"];
 const TOC_MIN_TAGS = 1;
 
 // Extract HTML tags from string for TOC generation

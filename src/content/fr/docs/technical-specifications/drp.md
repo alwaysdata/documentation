@@ -13,11 +13,11 @@ Ces garanties *ne sont pas* optionnelles : elles sont embarquées par défaut da
 
 ## Données & Sauvegardes
 
-**<p style="text-align:center;">Mes données sont-elles sauvegardées ?</p>**
+#### Mes données sont-elles sauvegardées ?
 
 Les données de votre compte utilisateur sont sauvegardées automatiquement chaque jour, sans action de votre part. [Selon l'offre choisie](/fr/docs/hebergement-web/sauvegardes/), elles sont conservées jusqu'à 30 jours glissants.
 
-**<p style="text-align:center;">Quelles données sont concernées ?</p>**
+#### Quelles données sont concernées ?
 
 L'ensemble des données de votre compte utilisateur est concerné par la sauvegarde :
 
@@ -25,35 +25,35 @@ L'ensemble des données de votre compte utilisateur est concerné par la sauvega
 - bases de données
 - emails
 
-**<p style="text-align:center;">Où sont situées ces sauvegardes ?</p>**
+#### Où sont situées ces sauvegardes ?
 
 Ces sauvegardes sont hébergées dans un datacenter situé à plusieurs kilomètres des unités de production. Cette notion est [contractuelle](https://www.alwaysdata.com/fr/mentions-legales/) (point 4.6 des conditions particulières d'hébergement).
 
 Ce datacenter est opéré par [Interxion](https://www.digitalrealty.fr/data-centers), tandis que les datacenters de productions sont gérés par [Equinix](https://www.equinix.com/).
 
-**<p style="text-align:center;">Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?</p>**
+#### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
 
 Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/)…) grâce au protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
 
-**<p style="text-align:center;">Comment puis-je récupérer ces sauvegardes ?</p>**
+#### Comment puis-je récupérer ces sauvegardes ?
 
 Vous pouvez effectuer une copie de vos sauvegardes depuis le système de fichiers de votre compte utilisateur (via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/)…) en copiant les répertoires situés dans `/home/[compte]/admin/backup/`.
 
 Le répertoire `latest` est un raccourci vers la dernière sauvegarde disponible.
 
-**<p style="text-align:center;">Comment puis-je restaurer ces sauvegardes ?</p>**
+#### Comment puis-je restaurer ces sauvegardes ?
 
 Pour restaurer vos sauvegardes, [consultez la documentation disponible](/fr/docs/hebergement-web/sauvegardes/).
 
 ## Réseau
 
-**<p style="text-align:center;">Comment est garanti l'accès au réseau ?</p>**
+#### Comment est garanti l'accès au réseau ?
 
 Chaque serveur dispose de deux arrivées réseau. En cas de rupture du lien principal, le lien secondaire est automatiquement activé pour maintenir la connexion active.
 
 Nous opérons nous-même notre réseau au sein des datacenters.
 
-**<p style="text-align:center;">Comment est garanti l'accès à Internet ?</p>**
+#### Comment est garanti l'accès à Internet ?
 
 Notre accès Internet est garanti par quatre fournisseurs d'accès indépendants.
 
@@ -61,30 +61,30 @@ Nous sommes également membre du RIPE, disposons de [notre propre numéro d'AS (
 
 ## Infrastructure matérielle
 
-**<p style="text-align:center;">Comment sont réparties les baies serveurs ?</p>**
+#### Comment sont réparties les baies serveurs ?
 
 Nos serveurs de production sont répartis dans plusieurs datacenters, plusieurs baies, et plusieurs salles.
 
-**<p style="text-align:center;">Que se passe-t-il en cas de coupure / panne électrique ?</p>**
+#### Que se passe-t-il en cas de coupure / panne électrique ?
 
 Chaque serveur dispose de deux alimentations chacune sur des circuits entièrement autonomes (2N), lui permettant de rester alimenté en cas de rupture matérielle.
 
 Nos datacenters sont également équipés de générateurs de secours capables de fournir plusieurs jours de courant aux infrastructures en cas de panne du réseau principal.
 
-**<p style="text-align:center;">Comment le service est-il restauré en cas de dommage matériel ?</p>**
+#### Comment le service est-il restauré en cas de dommage matériel ?
 
 D'autres serveurs sont disponibles en sécurité, nous permettant de basculer rapidement vos services. En cas de nécessité impérieuse, nous pouvons également basculer sur un hébergeur partenaire en redéployant une infrastructure de secours avec vos dernières données.
 
-**<p style="text-align:center;">Les serveurs sont-ils redondés ?</p>**
+#### Les serveurs sont-ils redondés ?
 
 Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
 
 Nous disposons d'une [offre Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) offrant une redondance synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.
 
-**<p style="text-align:center;">L'accès aux serveurs est-il sécurisé ?</p>**
+#### L'accès aux serveurs est-il sécurisé ?
 
 Nos datacenters sont gérés par des partenaires appliquant des normes très strictes en matière d'accès au matériel, basées sur des permissions d'accès et de l'authentification biométrique.
 
-**<p style="text-align:center;">Quelles sont les garanties des data centers ?</p>**
+#### Quelles sont les garanties des data centers ?
 
 Nos unités de production sont hébergées par [Equinix](https://www.equinix.com/data-centers/colocation/), leader mondial de la colocation en infrastructures International Business Exchange™ (IBX®). Ces datacenters sont [certifiés par de nombreux standards](https://www.equinix.com/fr/fr/data-centers/design/standards-compliance) en matière de qualité et de sécurité.
