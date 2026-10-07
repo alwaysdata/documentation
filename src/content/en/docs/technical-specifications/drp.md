@@ -30,11 +30,11 @@ These backups are hosted in a datacenter located several kilometers from the pro
 
 This datacenter is operated by [Interxion](https://www.digitalrealty.com/data-centers), while the production datacenters are managed by [Equinix](https://www.equinix.com/).
 
-**<p style="text-align:center;">How can you guarantee access to backups from the user account file system?</p>***
+**<p style="text-align:center;">How can you guarantee access to backups from the user account file system?</p>**
 
 Backups are accessible from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) thanks to the NFS protocol, which allows us to mount read-only access to your backups over the network.
 
-**<p style="text-align:center;">How can I recover these backups?</p>***
+**<p style="text-align:center;">How can I recover these backups?</p>**
 
 You can make a copy of your backups from your user account file system (via [SSH](/en/docs/web-hosting/remote-access/ssh), [SFTP](/en/docs/web-hosting/remote-access/sftp)...) by copying the directories located in `/home/[account]/admin/backup/`.
 
