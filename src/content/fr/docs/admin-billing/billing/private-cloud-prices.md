@@ -53,7 +53,7 @@ Voici une liste *non exhaustive* d'options matérielles :
 - **Trafic/mois** (1 Gbps) : l'ajout de trafic se fait par tranche de 1 To
 - **GPU**
     - Nvidia A1000
-    - Nvidia L4
+    - Nvidia Tesla T4
     - Nvidia RTX PRO 6000 Blackwell
 - Option **Gold** : architecture *redondée* (réplication en temps réel) dans un datacenter distinct (taux de disponibilité 99,95 %)
 

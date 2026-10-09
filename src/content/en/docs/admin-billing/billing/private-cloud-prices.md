@@ -54,7 +54,7 @@ Here is a *non-exhaustive* list of hardware options:
 - **Traffic/month** (1 Gbps): traffic is added per slot of 1 TB
 - **GPU**
     - Nvidia A1000
-    - Nvidia L4
+    - Nvidia Tesla T4
     - Nvidia RTX PRO 6000 Blackwell
 - **Gold** option: *redundant* architecture (real-time replication) in a separate datacenter (99.95% availability rate)
 
