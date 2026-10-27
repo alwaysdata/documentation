@@ -5,7 +5,7 @@ date: 2026-10-26
 authors: ["François Lesueur", "Cyril Baÿ"]
 ---
 
-PHP2Shell is a combination of two PHP vulnerabilities [publicly announced on October 20, 2026, at 8:15 p.m. UTC](https://www.php.net/archive/2026.php#2026-10-20-1). The patch, initially announced for October 21 at 2:00 p.m. UTC, was ultimately released about thirty minutes earlier. A general overview of the events can be found on the [Wikipedia page](https://fr.wikipedia.org/wiki/PHP2Shell).
+PHP2Shell is a combination of two PHP vulnerabilities [publicly announced on October 20, 2026, at 8:15 p.m. UTC](https://www.php.net/archive/2026.php#2026-10-20-1). The patch, initially announced for October 21 at 2:00 p.m. UTC, was ultimately released about thirty minutes earlier. A general overview of the events can be found on the [Wikipedia page](https://en.wikipedia.org/wiki/PHP2Shell).
 
 In this article, we do not go into detail about the vulnerabilities or the patches. Instead, we recount our day on October 21 as a managed hosting provider, from the public announcement to the deployment of the patches.
 
