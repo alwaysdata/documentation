@@ -86,3 +86,6 @@ Redirect 301 /en/security/bug-bounty/ /en/docs/technical-specifications/bug-boun
 ## Redirects website
 Redirect 301 /fr/comptes/restrictions-du-cloud-public/ /fr/docs/admin-facturation/profil/suspension/
 Redirect 301 /en/admin-billing/public-cloud-restrictions/ /en/docs/admin-billing/profile/suspension/
+
+## Redirect social networks CloudFlare article
+Redirect 301 /en/under-the-hood/2026-05-05-connectivity-incident-cloudflare/ /en/blog/2026-05-05-connectivity-incident-cloudflare/

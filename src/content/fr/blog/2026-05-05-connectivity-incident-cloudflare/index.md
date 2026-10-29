@@ -1,7 +1,7 @@
 ---
 title: Analyse d'un incident de connectivité HTTP/2 avec Cloudflare
 description: Postmortem pour un hébergeur
-date: 2026-03-15
+date: 2026-05-05
 authors: ["François Lesueur", "Cyril Baÿ"]
 ---
 
