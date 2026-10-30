@@ -130,7 +130,7 @@ Available types: `NOTE`, `TIP`, `WARNING`, `CAUTION`, `IMPORTANT`
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server at localhost:8080 |
+| `npm run dev` | Start development server at localhost:8080 (override with `PORT`, e.g. `PORT=3000 npm run dev`) |
 | `npm run build` | Build for production |
 | `npm run clean` | Remove build artifacts |
 

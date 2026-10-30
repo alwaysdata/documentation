@@ -44,7 +44,7 @@ export default function (eleventyConfig) {
 
   // Server options
   eleventyConfig.setServerOptions({
-    port: 8080,
+    port: process.env.PORT || 8080,
     watch: ["_site/assets/css/**/*.css", "_site/assets/js/**/*.js"],
   });
 
