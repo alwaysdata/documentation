@@ -27,6 +27,13 @@ En plans Cloud Privé :
 > [!CAUTION] Attention
 > Il est interdit d'héberger **uniquement** des bases de données sur le pack gratuit.
 
+## Fonctionnement technique
+
+- Les connexions peuvent être chiffrées en SSL.
+- Les bases de données sont accessibles depuis l'extérieur : leurs ports sont ouverts sur Internet
+  ([informations de connexion](/fr/docs/caracteristiques-techniques/informations-de-connexion/)).
+  Sur l'[offre Max](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), il est possible de fermer cet accès.
+
 
 ---
 

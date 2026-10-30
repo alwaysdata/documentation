@@ -15,8 +15,10 @@ Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais q
 
 ## Temps d'inactivité
 
-À paramétrer dans le menu **Web > Sites > Modifier le [site] - ⚙️ > Avancé**. Cela permet de choisir la durée après laquelle le système arrête l'application ; en cas d'absence d'activité prolongée. Dès qu'une requête HTTP sera exécutée, l'application sera relancée.
+À paramétrer dans le menu **Web > Sites > Modifier le [site] - ⚙️ > Avancé** (30 minutes par défaut).
 
-Pour qu'une application ne soit jamais arrêtée, indiquez comme valeur `0`.
+Le processus d'un site est démarré à la première requête reçue. Il est [arrêté](/fr/docs/caracteristiques-techniques/environnement-execution/#processus) si aucune requête n'est reçue pendant le temps d'inactivité, puis relancé automatiquement à la requête suivante. Un site ne tourne jamais en plusieurs instances simultanées, y compris pendant un redémarrage.
 
-Il n'y a, cependant, *aucune garantie* qu'une application ne sera jamais arrêtée et celle-ci peut être arrêtée à tout moment. S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](/fr/docs/hebergement-web/services/) ainsi qu'un site de type [Reverse-proxy](/fr/docs/hebergement-web/sites/ajouter-un-site/#configuration) pour son accès web.
+Pour qu'une application ne soit jamais arrêtée pour inactivité, indiquez comme valeur `0`.
+
+Il n'y a, cependant, *aucune garantie* qu'une application tourne en permanence : elle n'est lancée qu'à la première requête reçue et peut être arrêtée à tout moment (par exemple lors d'une maintenance de notre part). S'il est *nécessaire* qu'une application web tourne 24h/24, créez un [service](/fr/docs/hebergement-web/services/) ainsi qu'un site de type [Reverse-proxy](/fr/docs/hebergement-web/sites/ajouter-un-site/#configuration) pour son accès web.

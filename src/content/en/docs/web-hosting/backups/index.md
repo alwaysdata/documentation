@@ -25,4 +25,15 @@ You can restore [a website](/en/docs/web-hosting/backups/restore-a-site) or [ema
 > The archived contents (e.g. BDD dumps) in your *backup* space are in [Zstandard](https://github.com/facebook/zstd) format, you can use the [official `zstd*` tools](https://github.com/facebook/zstd/releases/latest) or the [adapted plugin for 7zip](https://www.tc4shell.com/en/7zip/modern7z/) to manipulate them.
 
 
+## Technical operation
+
+- Backups are performed at night (Paris time zone).
+- Files and emails are backed up via `rsync`, non-atomically: a file modified during the backup may be inconsistent with
+  the others.
+- Databases are backed up via `mysqldump` (MariaDB) and `pg_dump` (PostgreSQL).
+- Sending and retrieving backups is encrypted (TLS).
+- Backups are read-only.
+
+---
+
 - [alwaysdata Disaster Recovery Plan](/en/docs/technical-specifications/drp)

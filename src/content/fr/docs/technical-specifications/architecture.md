@@ -26,6 +26,12 @@ Pour aller plus loin :
 - [Plages d'IP](/fr/docs/caracteristiques-techniques/plages-dip)
 - [Plan de continuité d'activité](/fr/docs/caracteristiques-techniques/pca)
 
+## Stockage
+
+- Toutes les données clients (fichiers, emails, bases de données, sauvegardes) sont stockées sur des disques chiffrés au repos (AES-256, via [LUKS](https://fr.wikipedia.org/wiki/LUKS)).
+- Le système de fichiers est [XFS](https://fr.wikipedia.org/wiki/XFS), sauf pour les sauvegardes.
+- Le stockage est local pour les serveurs HTTP et email. Les autres serveurs (SSH, services, tâches planifiées) y accèdent à distance via [NFS](https://fr.wikipedia.org/wiki/Network_File_System).
+
 ## Architecture logicielle
 
 Nous utilisons autant que possible des solutions open source et nos serveurs tournent sous [Linux Debian x64](https://www.debian.org/). Tous nos services sont accessibles à distance et une [API REST](/fr/docs/developpement/api/) est disponible pour les opérations de configuration sur notre interface d'administration.
@@ -36,6 +42,7 @@ Notre système distribue automatiquement les ressources disponibles, équitablem
 
 - [Stack HTTP](/fr/docs/hebergement-web/sites/stack-http/)
 - [Mises à jour de sécurité](/fr/docs/caracteristiques-techniques/mises-a-jour-de-securite/)
+- [Environnement d'exécution](/fr/docs/caracteristiques-techniques/environnement-execution/)
 
 ---
 - [Bug Bounty](/fr/docs/caracteristiques-techniques/bug-bounty)

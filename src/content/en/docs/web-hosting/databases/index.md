@@ -25,6 +25,12 @@ On Private Cloud plans:
 > [!CAUTION]
 > Hosting **only** databases in a free pack is not allowed.
 
+## Technical operation
+
+- Connections can be encrypted with SSL.
+- Databases are accessible from outside: their ports are open to the Internet ([login details](/en/docs/technical-specifications/login-details/)).
+  On the [Max offer](/en/docs/admin-billing/billing/private-cloud-prices/), this access can be closed.
+
 
 ---
 

@@ -20,7 +20,11 @@ Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites
  Nous ajoutons aux *headers* :
 
 - `X-Forwarded-Proto`, qui vaut http ou https selon que la connexion est faite en HTTP ou HTTPS. Ainsi le reverse proxy accède aux serveurs web en HTTP que la connexion au niveau du navigateur soit HTTP ou HTTPS ;
-- `X-Real-IP`, qui prend la valeur de l'adresse IP de l'utilisateur.
+- `X-Forwarded-For` et `X-Real-IP`, qui prennent la valeur de l'adresse IP de l'utilisateur.
+
+Ces *headers* sont supprimés des requêtes entrantes s'ils y figurent.
+
+Le reverse proxy gère HTTP/1 et HTTP/2. Il n'impose aucune limite de durée, de taille ou de nombre de connexions simultanées ([Limites](/fr/docs/caracteristiques-techniques/limites/)).
 
 ---
 Icônes : The Noun Project

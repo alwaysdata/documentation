@@ -28,6 +28,8 @@ Several kinds of information need to be provided:
 
 ## Use scheduled tasks
 
+- The minimum interval is one minute,
+- There is no maximum execution duration,
 - If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
 - Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
 - A log is created automatically and is available from the `/home/[account]/admin/logs/jobs/` directory. It gives you the start and end of the task.

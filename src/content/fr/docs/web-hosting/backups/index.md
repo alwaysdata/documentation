@@ -26,4 +26,15 @@ Vous pouvez restaurer [un site web](/fr/docs/hebergement-web/sauvegardes/restaur
 > Les contenus archivés (e.g. les dumps de BDD) dans votre espace de *backup* sont au format [Zstandard](https://github.com/facebook/zstd), vous pouvez utiliser les [outils `zstd*` officiels](https://github.com/facebook/zstd/releases/latest) ou le [plugin adapté pour 7zip](https://www.tc4shell.com/en/7zip/modern7z/) pour les manipuler.
 
 
+## Fonctionnement technique
+
+- Les sauvegardes sont effectuées la nuit (fuseau horaire de Paris).
+- Les fichiers et emails sont sauvegardés via `rsync`, de manière non atomique : un fichier modifié pendant la
+  sauvegarde peut être incohérent avec les autres.
+- Les bases de données sont sauvegardées via `mysqldump` (MariaDB) et `pg_dump` (PostgreSQL).
+- L'envoi et la récupération des sauvegardes sont chiffrés (TLS).
+- Les sauvegardes sont accessibles en lecture seule.
+
+---
+
 - [Plan de continuité d'activité d'alwaysdata](/fr/docs/caracteristiques-techniques/pca/)

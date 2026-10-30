@@ -25,6 +25,12 @@ To go further :
 - [IP ranges](/en/docs/technical-specifications/ip-ranges)
 - [Disaster recovery plan](/en/docs/technical-specifications/drp)
 
+## Storage
+
+- All customer data (files, emails, databases, backups) is stored on disks encrypted at rest (AES-256, via [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup)).
+- The file system is [XFS](https://en.wikipedia.org/wiki/XFS), except for backups.
+- Storage is local for HTTP and email servers. Other servers (SSH, services, scheduled tasks) access it remotely via [NFS](https://en.wikipedia.org/wiki/Network_File_System).
+
 ## Software architecture
 
 We use open source solutions as much as possible and our servers run on [Linux Debian x64](https://www.debian.org/). All our services are remotely accessible and a [REST API](/en/docs/development/api) is available for configuration operations on our administration interface.
@@ -35,6 +41,7 @@ Our system distributes the available resources equally between all accounts on a
 
 - [HTTP stack](/en/docs/web-hosting/sites/http-stack)
 - [Security Upgrades](/en/docs/technical-specifications/security-upgrades)
+- [Execution environment](/en/docs/technical-specifications/execution-environment/)
 
 ---
 - [Bug Bounty](/en/docs/technical-specifications/bug-bounty)

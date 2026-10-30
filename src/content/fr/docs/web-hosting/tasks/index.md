@@ -29,6 +29,8 @@ Plusieurs types d’informations sont à fournir :
 
 ## Utiliser les tâches planifiées
 
+- L'intervalle minimal est d'une minute ;
+- Il n'y a pas de durée maximale d'exécution ;
 - Si la tâche est programmée à une certaine fréquence, mais que l'exécution de la tâche précédente n'est pas terminée, l'actuelle sera ignorée ;
 - Les tâches sont démarrées dans la minute indiquée. Autrement dit, une tâche devant débuter tous les jours à 6h30, démarrera entre 6:30:00 et 6:30:59 ;
 - Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/jobs/`. Il vous donne le démarrage et l'arrêt de la tâche.

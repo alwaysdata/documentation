@@ -19,7 +19,11 @@ It also manages the [Web Application Firewall](/en/docs/web-hosting/sites/custom
  We add to *headers*:
  
 - `X-Forwarded-Proto`, which equals http or https depending on whether the connection is made in HTTP or HTTPS. Thus the reverse proxy accesses web servers in HTTP whether the connection at the browser level is HTTP or HTTPS,
-- `X-Real-IP`,  which takes the value of the user's IP address.
+- `X-Forwarded-For` and `X-Real-IP`, which take the value of the user's IP address.
+
+These *headers* are removed from incoming requests if present.
+
+The reverse proxy supports HTTP/1 and HTTP/2. It enforces no limit on duration, size or number of simultaneous connections ([Limits](/en/docs/technical-specifications/limits/)).
 
 ---
 Icons: The Noun Project
