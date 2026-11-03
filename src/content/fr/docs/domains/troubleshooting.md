@@ -11,7 +11,7 @@ eleventyNavigation:
 
 ### "2304 : Object status prohibits operation", "Transfer Prohibited from Registry Request" ou "2308 : Data management policy violation (domain [example.org] has invalid status (clientTransferProhibited))"
 
-Domaine protégé contre les transferts un `whois` [^1] renverra :
+Domaine protégé contre les transferts, un `whois` [^1] renverra :
 
 ```txt
 Domain Status: clientTransferProhibited
@@ -32,7 +32,7 @@ Domaine expiré, renouvelez-le avant de relancer le transfert.
 
 ### "Transfer Refused by Registrar (Queue Message #[id])"
 
-Le prestataire actuel du domaine a bloqué le transfert. Contactez-les pour en connaître la cause avant de relancer le transfert.
+Le prestataire actuel du domaine a bloqué le transfert. Contactez-le pour en connaître la cause avant de relancer le transfert.
 
 ## Changement de propriétaire
 

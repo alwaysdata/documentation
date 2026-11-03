@@ -96,7 +96,7 @@ Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des para
 
 ## Déploiement HTTP
 
-Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'interface
+Pour qu'une application PHP soit accessible par le web, créez un site dans la section **Web > Sites** de l'interface
 d'administration en choisissant le type **PHP**.
 
 ![](images/php-type.png)

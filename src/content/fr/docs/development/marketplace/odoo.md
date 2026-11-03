@@ -9,8 +9,8 @@ eleventyNavigation:
 Dans notre exemple, nous considérons les informations suivantes :
 
 - Nom du compte : `[compte]`
-- Répertoire de Odoo : `/home/[compte]/odoo/`
-- Adresse HTTP de Odoo : `[compte].alwaysdata.net`
+- Répertoire d'Odoo : `/home/[compte]/odoo/`
+- Adresse HTTP d'Odoo : `[compte].alwaysdata.net`
 - Port pour le Live Chat : 8300 (les ports entre 8300 et 8499 peuvent être utilisés)
 
 > [!NOTE]

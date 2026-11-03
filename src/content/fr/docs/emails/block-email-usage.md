@@ -37,5 +37,5 @@ Créez les enregistrements DNS suivants :
 
 Cela indiquera aux serveurs destinataires d'emails utilisant votre domaine qu'ils doivent rejeter les emails. En effet :
 
-- l'enregistrement `SPF` indique qu'il n'existe pas de serveurs SMTP autorisé à envoyer des emails pour votre domaine ;
+- l'enregistrement `SPF` indique qu'il n'existe pas de serveurs SMTP autorisés à envoyer des emails pour votre domaine ;
 - l'enregistrement `DMARC` indique que tous les emails partant de votre domaine doivent donc être à jeter.

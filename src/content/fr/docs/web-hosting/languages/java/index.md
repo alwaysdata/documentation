@@ -14,7 +14,7 @@ d'utiliser Java sous un système Unix (par exemple, Linux), vous savez déjà pr
   ;
 * la [configuration d'environnement](/fr/docs/hebergement-web/langages/java/configuration/#environnement) se fait simplement.
 
-Tous les programmes utilisants la *JVM* ([Scala](https://www.scala-lang.org/), [Spring](https://spring.io/),
+Tous les programmes utilisant la *JVM* ([Scala](https://www.scala-lang.org/), [Spring](https://spring.io/),
 [Struts](https://struts.apache.org) ou [Hibernate](https://hibernate.org/) par exemple) peuvent tourner via les sites de
 type *Java* (utilisant [Tomcat](https://tomcat.apache.org/)) ou *[programme
 utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)*.

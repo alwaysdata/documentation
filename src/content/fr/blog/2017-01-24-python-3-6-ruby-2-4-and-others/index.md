@@ -49,7 +49,7 @@ section précédente qu’installer des bibliothèques était désormais trivial
 ## Les sites Python et Ruby propulsés par uWSGI
 
 Les sites de type *WSGI (Python)* ou *Ruby Rack* et *Ruby on Rails* étaient gérés par Apache (via
-[mod_wsgi](https://modwsgi.readthedocs.io/) ou [Passenger](https://www.phusionpassenger.com/). Ils sont désormais gérés
+[mod_wsgi](https://modwsgi.readthedocs.io/) ou [Passenger](https://www.phusionpassenger.com/)). Ils sont désormais gérés
 par [uWSGI](https://github.com/unbit/uwsgi), un serveur d’applications présentant plusieurs avantages. Ce changement est
 largement transparent pour nos clients, mais de nouvelles options (toutes facultatives) font leur apparition dans le
 formulaire de configuration d’un site :

@@ -34,22 +34,22 @@ Ne rien mettre dans *Hôtes* et *Ports* va activer la règle pour tous sauf si u
 
 ![Ajouter une règle](images/admin-panel_add-rule.png)
 
-Il est possible de donner un label par règles (**Annotations**) et directement dans les règles en utilisant le caractère
+Il est possible de donner un label par règle (**Annotations**) et directement dans les règles en utilisant le caractère
 `#`.
 
 > [!NOTE]
 > Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
 
-## Banissements firewall
+## Bannissements firewall
 
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
-![Liste des banissements en cours](images/admin-panel_list-bans.png)
+![Liste des bannissements en cours](images/admin-panel_list-bans.png)
 
 Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la
 règle nécessaire.
 
 > [!TIP] Astuce
-> Le banissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
+> Le bannissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
 
 ## Services
 

@@ -261,7 +261,7 @@ section Web > Sites.
 
 Lorsque vous exécutez la migration de test, l'ensemble de vos bases et utilisateurs de bases de données sont copiés sur
 un serveur temporaire, faisant tourner les nouvelles versions. Vous pourrez ensuite accéder à vos données copiées sur ce
-serveur en utilisant vos identifiants usuels pour faire vos tests. Contrairement aux fichiers utilisés par les serveur
+serveur en utilisant vos identifiants usuels pour faire vos tests. Contrairement aux fichiers utilisés par les serveurs
 SSH et HTTP, vous travaillez donc ici sur une copie de vos données. À chaque exécution de la migration de test, vos
 précédentes copies sont écrasées par de nouvelles.
 

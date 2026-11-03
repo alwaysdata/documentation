@@ -10,7 +10,7 @@ eleventyNavigation:
 ## Accéder à ses contrats
 
 Les contrats sont accessibles via le menu **Abonnements > Contrats**. Vous aurez accès à la dernière version validée,
-ainsi que les contrats à valider.
+ainsi qu'aux contrats à valider.
 
 ## Souscrire à un plan Cloud Privé
 
@@ -18,7 +18,7 @@ Pour souscrire à une offre du [Cloud Privé](/fr/docs/admin-facturation/factura
 par [ticket](https://admin.alwaysdata.com/support/add/), [email](https://www.alwaysdata.com/fr/contact/) ou
 [téléphone](tel:+33184162340), nous vous guiderons sur la démarche à suivre.
 
-Un engagement minimum de 3 mois sera demandé lors de l'achat d'un serveur Dédié/Gold. Si vous ne souhaitez pas de cet
+Un engagement minimum de 3 mois sera demandé lors de l'achat d'un serveur Dédié/Gold. Si vous ne souhaitez pas cet
 engagement, le prix du serveur sera majoré de 20 % lors des 3 premiers mois.
 
 ## Regrouper ses factures
@@ -35,7 +35,7 @@ d’aligner les dates.
 
 Pour changer de raison sociale rendez-vous dans l'onglet **Profil**, les prochaines factures seront émises à la nouvelle
 domiciliation.
-Si une facture vient d'être émise vous pouvez _exceptionnellement_ contactez le
+Si une facture vient d'être émise vous pouvez _exceptionnellement_ contacter le
 [support](https://admin.alwaysdata.com/support/add/) pour qu'il la régénère.
 
 ## Où trouver son numéro client / le RIB d'alwaysdata
@@ -50,9 +50,9 @@ demande. Contactez le [support](https://admin.alwaysdata.com/support/add/).
 
 ## Supprimer avant échéance
 
-Aucun remboursement n'aura lieu lors de la suppression d'un compte ou le décommissionnement d'un serveur avant son échéance.
+Aucun remboursement n'aura lieu lors de la suppression d'un compte ou du décommissionnement d'un serveur avant son échéance.
 
 ## Process spéciaux de facturation
 
-Si vous avez des process spéciaux, contactez-notre [support](https://admin.alwaysdata.com/support/add/) ou notre [équipe
+Si vous avez des process spéciaux, contactez notre [support](https://admin.alwaysdata.com/support/add/) ou notre [équipe
 commerciale](https://www.alwaysdata.com/fr/contact/).

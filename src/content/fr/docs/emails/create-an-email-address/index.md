@@ -65,7 +65,7 @@ L'antivirus [ClamAV](http://www.clamav.net/) est inclus à Rspamd pour filtrer l
 - _Adresses_ : adresses vers lesquelles les emails seront redirigés (séparées par un espace) ;
 - _Copie locale_ : en cochant cette case, tous les emails redirigés seront également copiés dans cette boîte email.
   Sinon les emails ne seront pas stockés, uniquement redirigés.
-  - Si cette case n'est pas cochée, on créé donc un [alias](https://fr.wikipedia.org/wiki/Alias_(adresse_%C3%A9lectronique)).
+  - Si cette case n'est pas cochée, on crée donc un [alias](https://fr.wikipedia.org/wiki/Alias_(adresse_%C3%A9lectronique)).
 
 > [!NOTE]
 > Si vous utilisez l'antivirus et/ou l'antispam, les emails considérés comme frauduleux ne sont jamais redirigés, afin

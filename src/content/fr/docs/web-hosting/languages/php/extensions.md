@@ -82,7 +82,7 @@ Certaines extensions sont directement téléchargeables depuis le site de l'édi
 - [SourceGuardian](https://www.sourceguardian.com/loaders.html)
 - [Zend Guard](http://www.zend.com/en/products/guard/downloads#Linux)
 
-Il faudra ensuite ajouter le chemin absolu au  `php.ini`. Par exemple si elle est téléchargé à la racine du compte :
+Il faudra ensuite ajouter le chemin absolu au `php.ini`. Par exemple si elle est téléchargée à la racine du compte :
 
 ```ini
 extension = /home/[compte]/[extension].so
@@ -98,7 +98,7 @@ wget http://ftp.debian.org/debian/pool/main/m/mapserver/php5-mapscript_7.0.4-1~b
 dpkg-deb -x php5-mapscript_7.0.4-1~bpo8+1_amd64.deb .
 ```
 
-Il faudra ensuite ajouter le chemin absolu au  `php.ini`. Par exemple si elle est téléchargé à la racine du compte :
+Il faudra ensuite ajouter le chemin absolu au `php.ini`. Par exemple si elle est téléchargée à la racine du compte :
 
 ```ini
 extension = /home/[compte]/[extension].so

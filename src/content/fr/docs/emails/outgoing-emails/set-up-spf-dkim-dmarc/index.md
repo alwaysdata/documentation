@@ -93,7 +93,7 @@ Si le domaine n'utilise pas les serveurs DNS d'alwaysdata, cet enregistrement do
 ## Domain-based Message Authentication, Reporting and Conformance
 
 [DMARC](https://fr.wikipedia.org/wiki/DMARC) est un protocole standardisant l'authentification en indiquant aux
-destinataires les actions à entreprendre dans le cas ou une des méthodes d'authentification échouerait. Il va vérifier
+destinataires les actions à entreprendre dans le cas où une des méthodes d'authentification échouerait. Il va vérifier
 que :
 
 - le domaine correspond à la paire de clés DKIM (champ _d=_) ;
@@ -114,18 +114,18 @@ que :
 |adkim|Cohérence avec DKIM|
 ||`s` = mode strict - le domaine de la signature DKIM doit exactement correspondre au _FROM_|
 ||`r` = mode relax (défaut)|
-|aspf|Cohérence avec SPF (`s`ou `r`)|
+|aspf|Cohérence avec SPF (`s` ou `r`)|
 |p|Procédure en cas d'échec - domaine principal (obligatoire)|
 ||`none` = livre l'email normalement|
 ||`quarantine` = traite l'email comme suspect (score de spam, drapeau...)|
 ||`reject` = rejette l'email|
-|sp|Procédure en cas d'echec - sous-domaine (`none`, `quarantine` ou `reject`)|
+|sp|Procédure en cas d'échec - sous-domaine (`none`, `quarantine` ou `reject`)|
 |ruf|Destinataire des rapports d'échecs détaillés|
 |fo|Conditions pour l'envoi d'un rapport détaillé|
 ||`1` = échec de DKIM et/ou SPF|
 ||`d` = échec de DKIM|
 ||`s` = échec de SPF|
-||`0`= échec de DKIM et SPF (défaut)|
+||`0` = échec de DKIM et SPF (défaut)|
 |rua|Destinataires des rapports d'échecs agrégés|
 
 Pour le mettre en place, un enregistrement DNS de type `TXT` doit être créé. Chez alwaysdata, vous le retrouverez dans

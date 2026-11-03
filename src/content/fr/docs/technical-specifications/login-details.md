@@ -44,7 +44,7 @@ comme les autres domaines d'alwaysdata.
 |IMAP|Hôte : imap-[compte].alwaysdata.net|
 ||Ports : 993 (SSL/TLS)|
 |POP3|Hôte : pop-[compte].alwaysdata.net|
-||Ports :995 (SSL/TLS)|
+||Ports : 995 (SSL/TLS)|
 |SMTP|Hôte : smtp-[compte].alwaysdata.net|
 ||Ports : 465 (SSL/TLS)|
 ||Identification : nécessaire (adresse email et mot de passe associé)|
@@ -65,6 +65,6 @@ comme les autres domaines d'alwaysdata.
 ||Ports : entre 8300 et 8499|
 
 > [!NOTE]
-> Le login par défaut correspond - à l'exception des emails pour lequel l'identifiant est l'adresse email - au **nom du
-> compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et
+> Le login par défaut correspond - à l'exception des emails pour lesquels l'identifiant est l'adresse email - au **nom
+> du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots de passe sont chiffrés - et
 > donc non récupérables - mais modifiables dans les menus dédiés.

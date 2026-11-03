@@ -18,7 +18,7 @@ Vous y retrouverez la liste de vos règles et pourrez en ajouter.
 ![](images/filter-rule2.png)
 ![Ajouter une règle de filtrage](images/filter-rule3.png)
 
-Les règles de filtrages sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier
+Les règles de filtrage sont traduites au format [Sieve](http://sieve.info/) que vous pourrez retrouver dans le fichier
 `/home/[compte]/admin/mail/[domaine]/[partie-locale]/filter.sieve` sur votre espace de fichiers.
 
 > [!TIP] Astuce

@@ -14,7 +14,7 @@ Déployez facilement et rapidement des applications ou frameworks dans votre esp
 Les applications sont mises en place avec une configuration sécurisée standard. Libre à vous de modifier, mettre à jour,
 ou personnaliser votre installation par la suite.
 
-Le système créé leurs répertoires durant l'installation.
+Le système crée leurs répertoires durant l'installation.
 
 - [Changer l'adresse d'un site web](/fr/docs/hebergement-web/sites/changer-ladresse-dun-site-web/)
 

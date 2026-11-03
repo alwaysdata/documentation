@@ -14,7 +14,7 @@ plus exigeant, on peut parfois se retrouver dans une situation cocasse : comment
 > [!NOTE] Note lexicale
 > Ce guide se déroulera dans deux environnements :
 >
-> - *Local* : ces commandes sont à exécuter sur votre environnement de développement local (Probablement : votre laptop)
+> - *Local* : ces commandes sont à exécuter sur votre environnement de développement local (probablement : votre laptop)
 >   ;
 > - *Serveur* : sur votre compte d’hébergement. Chez **alwaysdata**, vous pouvez vous connecter en *SSH* pour exécuter
 >   ces commandes.
@@ -38,7 +38,7 @@ l’indique la [documentation de déploiement de *Create React App*](https://cre
 > like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
 
 J’en profite pour ajouter un mot sur *Create React App*. Si *React* est un framework dédié à la conception
-d’applications Web, la mise en place de tout son *tooling* peut s’avérer complexe. Des outils encaspulant toute cette
+d’applications Web, la mise en place de tout son *tooling* peut s’avérer complexe. Des outils encapsulant toute cette
 logique sont donc apparus pour vous faciliter les choses.
 
 ## Le dev vs. la prod
@@ -79,9 +79,9 @@ ssh <account>@ssh-<account>.alwaysdata.net mkdir -p www/my-app/build
 
 ## Déploiement manuel : l’option simple et rapide
 
-Tout est prêt côté serveur pour recevoir votre site *React* ! En-avant pour le déploiement.
+Tout est prêt côté serveur pour recevoir votre site *React* ! En avant pour le déploiement.
 
-Vous devez d’abord indiquer l’*URL* final de votre projet dans le fichier `package.json` pour permettre à la tâche de
+Vous devez d’abord indiquer l’*URL* finale de votre projet dans le fichier `package.json` pour permettre à la tâche de
 *build* de générer les *assets* avec les bons chemins de fichiers. Ajoutez l’entrée suivante :
 
 ```json
@@ -94,7 +94,7 @@ Toujours depuis votre environnement local, lancez la tâche de *build* :
 npm run build
 ```
 
-Votre obtenez un répertoire `build` qui contient vos assets statiques. Pour les déployer, utilisez *rsync* via *SSH* :
+Vous obtenez un répertoire `build` qui contient vos assets statiques. Pour les déployer, utilisez *rsync* via *SSH* :
 
 ```shell
 rsync -rz build <account>@ssh-<account>.alwaysdata.net:www/my-app
@@ -189,18 +189,18 @@ Connectez-vous en SSH et créez le fichier `webhook/hooks.yaml` pour configurer 
 ```
 
 *Note* : pensez à remplacer les valeurs de `<account>` et de `<github_webhook_secret>` dans cette configuration, puis à
-[redémarrer le site *webhook*](https://admin.alwaysdata.com/site/) dans l’interface d’aministration une fois terminé.
+[redémarrer le site *webhook*](https://admin.alwaysdata.com/site/) dans l’interface d’administration une fois terminé.
 
 Ce *webhook* `deploy` définit l’action à exécuter lors d’une notification *GitHub*. Il va appeler le script
 `webhook/deploy.sh` avec plusieurs paramètres, uniquement quand il s’agit d’un *push* sur la branche `main`.
 
-Il ne manque plus que le script de déploiement proprement-dit, celui qui sera exécuté par le serveur de *webhooks* lors
+Il ne manque plus que le script de déploiement proprement dit, celui qui sera exécuté par le serveur de *webhooks* lors
 de la notification. Il aura les tâches suivantes à réaliser :
 
 1. Cloner le repository dans un répertoire temporaire ;
 2. Récupérer la dernière version indiquée par *GitHub* dans sa notification ;
 3. Réaliser la tâche de *build* ;
-4. Tout nettoyer derrière-lui.
+4. Tout nettoyer derrière lui.
 
 Toujours via *SSH*, ajoutez le script `webhook/deploy.sh` sur votre compte serveur :
 
@@ -245,8 +245,8 @@ Faites des modifications sur votre site, poussez sur *GitHub*, rechargez votre s
 ## Le bon *PaaS*, c’est celui qui vous convient
 
 Pas besoin de solutions comme *Netlify*, *Heroku*, ou autre pour gérer la partie **DevOps** de vos déploiements. Même si
-ces plate-formes proposent de nombreux outils pratiques pour faciliter vos mises en production (comme les déploiements
-atomiques, etc), rien ne vous contraint à les utiliser.
+ces plateformes proposent de nombreux outils pratiques pour faciliter vos mises en production (comme les déploiements
+atomiques, etc.), rien ne vous contraint à les utiliser.
 
 Nous avons ici mis en place une solution simple pour automatiser du déploiement d’applications *front-end* statiques sur
 votre compte *alwaysdata* sans passer par des outils tiers. Notre outil de déploiement étant indépendant de

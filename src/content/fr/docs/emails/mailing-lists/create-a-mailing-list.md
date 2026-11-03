@@ -15,10 +15,10 @@ de diffusion**.
 > [!NOTE]
 > Vous devez définir au moins un utilisateur administrateur pour gérer votre liste de diffusion.
 
-Pour définir un nouvel utilisateur pour la gestion de vos listes de diffusion, rendez vous dans la section **Gestion des
+Pour définir un nouvel utilisateur pour la gestion de vos listes de diffusion, rendez-vous dans la section **Gestion des
 utilisateurs**, puis **Ajouter un utilisateur**.
 
-Si des listes de diffusion ont déjà été définies, vous pouvez d'ores-et-déjà associer des permissions vers ces listes à
+Si des listes de diffusion ont déjà été définies, vous pouvez d'ores et déjà associer des permissions vers ces listes à
 ce nouvel utilisateur.
 
 > [!TIP] Astuce
@@ -27,7 +27,7 @@ ce nouvel utilisateur.
 
 ## Gestion des listes de diffusion
 
-Pour définir une nouvelle liste de diffusion, rendez vous dans **Ajouter une liste de diffusion**.
+Pour définir une nouvelle liste de diffusion, rendez-vous dans **Ajouter une liste de diffusion**.
 
 Définissez :
 
@@ -35,4 +35,4 @@ Définissez :
   pour une liste de diffusion derrière l'adresse email `foo@example.org`, le nom de la liste sera `foo`) ;
 - le domaine auquel la liste est attachée. Ce domaine doit être disponible dans la [liste des
   domaines](/fr/docs/domaines/) dont vous avez les permissions d'administration ;
-- les permissions attachées aux utilisateurs que vous aurez défini dans la partie *Gestion utilisateurs*.
+- les permissions attachées aux utilisateurs que vous aurez définis dans la partie *Gestion utilisateurs*.

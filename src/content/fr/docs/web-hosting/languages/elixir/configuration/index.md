@@ -19,7 +19,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Binaire à utiliser
 
-Pour forcer une version de Elixir différente de celle par défaut, définissez la variable d'environnement
+Pour forcer une version d'Elixir différente de celle par défaut, définissez la variable d'environnement
 `ELIXIR_VERSION` :
 
 ```sh

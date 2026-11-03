@@ -41,7 +41,7 @@ manières :
 
 - le profil destinataire est facturé _dès acceptation de la cession_. Un remboursement au prorata est automatiquement
   exécuté sur le profil émetteur ;
-- La date d'échéance de l'ancien abonnement est gardée et le profil destinataire n'est facturé qu'_à échéance_. Aucun
+- la date d'échéance de l'ancien abonnement est gardée et le profil destinataire n'est facturé qu'_à échéance_. Aucun
   remboursement au prorata ne sera effectué sur le profil émetteur.
 
 Tant que le nouveau propriétaire n'a pas validé la cession le profil émetteur reste propriétaire du compte et peut

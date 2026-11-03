@@ -18,7 +18,7 @@ Vous aurez besoin de modifier :
 
 ## Envoi d'emails
 
-L'utilisation de `/usr/sbin/sendmail` est non-fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et
+L'utilisation de `/usr/sbin/sendmail` est non fonctionnelle. Choisissez d'utiliser vos "propres paramètres SMTP" et
 indiquez juste le nom d'hôte SMTP de votre compte (donné dans le menu **Emails > Adresses** de l'interface
 d'administration).
 

@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-1. Allez dans **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS** ;
+1. Allez dans **Domaines > Détails de [example.org] -  ⚙️ > Enregistrements DNS** ;
     ![](images/admin-panel_dns-record-list.png)
 
 2. Choisissez **Ajouter un enregistrement DNS** ;

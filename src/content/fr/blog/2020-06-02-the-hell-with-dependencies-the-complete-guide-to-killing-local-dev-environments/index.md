@@ -29,11 +29,11 @@ défaut](/fr/docs/hebergement-web/access-distant/ssh/), vous pouvez exploiter ce
 
 Attachez vos ceintures, voici le guide complet !
 
-## Pré-requis
+## Prérequis
 
 Tout d'abord, vous aurez besoin de [VSCode](https://code.visualstudio.com/) (évidemment). Veuillez noter que les *Remote
 Extensions* ne peuvent fonctionner qu'avec la [version officielle](https://code.visualstudio.com/Download), et non avec
-l'édition *OSS*, car celles-ci utilisent des composants non-libres. Installez-le en utilisant votre gestionnaire de
+l'édition *OSS*, car celles-ci utilisent des composants non libres. Installez-le en utilisant votre gestionnaire de
 paquets habituel (sous Linux), ou téléchargez la version correspondant à votre système d'exploitation.
 
 Vous devrez également activer l'accès SSH par clef sur votre compte alwaysdata. Vous pouvez vous référer à la
@@ -114,11 +114,11 @@ que nous apporterons ne sera pas répercutée sur la version *production* tant q
 depuis votre panneau d'administration.
 
 Cette distinction *production* vs *développement* est valable uniquement pour les langages en processus persistants,
-comme Node.js, Python, Ruby… Les langages à état transitoires, comme PHP, sont systématiquement relancés à chaque
-requêtes, et vos changements seront donc immédiatement appliqués, sans qu'il soit nécessaire de relancer votre site.
+comme Node.js, Python, Ruby… Les langages à état transitoire, comme PHP, sont systématiquement relancés à chaque
+requête, et vos changements seront donc immédiatement appliqués, sans qu'il soit nécessaire de relancer votre site.
 
 Dans VSCode, ouvrez votre espace de travail distant en activant la connexion `alwaysdata` et ouvrez le dossier qui vient
-d'être créé par l'installateur de l'applithéque. Vous êtes prêt à développer !
+d'être créé par l'installateur de l'applithèque. Vous êtes prêt à développer !
 
 Lançons notre application en mode développement : ouvrez le fichier `package.json` et ajoutez un script de `debug` :
 
@@ -133,7 +133,7 @@ Lançons notre application en mode développement : ouvrez le fichier `package.j
 ```
 
 Notre application [s'attend à trouver la variable d'environnement
-PORT](/fr/docs/hebergement-web/langages/nodejs/configuration/#environnement), exécutons-là à partir du terminal intégré
+PORT](/fr/docs/hebergement-web/langages/nodejs/configuration/#environnement), exécutons-la à partir du terminal intégré
 VSCode : `PORT=3000 npm run debug`. Vous devriez voir un message indiquant que votre application est prête. Mais vous ne
 pouvez pas accéder au port distant depuis votre machine locale !
 
@@ -162,8 +162,8 @@ notre script `debug` pour l'exécuter avec le mode d'inspection activé :
 "debug": "NODE_ENV=development node --inspect=9321 app.js"
 ```
 
-Nous attachons l'inspecteur dans un port non-standard pour éviter tout conflit, surtout avec la dernière partie de ce
-guide. Ne vous préoccupez pas pour le moment.
+Nous attachons l'inspecteur dans un port non standard pour éviter tout conflit, surtout avec la dernière partie de ce
+guide. Ne vous en préoccupez pas pour le moment.
 
 Nous avons maintenant besoin d'une tâche de débogage qui fera tourner notre application et y attachera le débogueur.
 Allez dans le *gestionnaire d'exécution et de débogage* (`Ctrl`+`Shift`+`D`), actuellement vide. Cliquez sur le lien
@@ -222,7 +222,7 @@ Configurons le rechargement à chaud côté serveur !
 
 1. Installez [Nodemon](https://www.npmjs.com/package/nodemon) sur votre projet depuis le terminal intégré :
    `npm install --save-dev nodemon`.
-2. Editez le script `debug` dans le fichier `package.json` pour lancer l'application avec `nodemon` :
+2. Éditez le script `debug` dans le fichier `package.json` pour lancer l'application avec `nodemon` :
    `NODE_ENV=development nodemon --inspect=9321 --exitcrash app.js`.
 3. Modifiez la configuration du débogueur dans le fichier `launch.json` en ajoutant l'option `"restart" : true`,
    permettant au débogueur de se réattacher à chaque fois que nodemon redémarre l'application.
@@ -234,7 +234,7 @@ Configurons le rechargement à chaud côté serveur !
 
 Exécutez à nouveau la configuration du débogueur et rechargez votre navigateur : vous devriez être en mesure d'accéder à
 l'application. Modifiez la chaîne `Hello World!` et sauvegardez le fichier. Votre application est automatiquement
-rechargée et le débogueur ré-attaché. Rechargez votre navigateur : vous avez le nouveau message !
+rechargée et le débogueur réattaché. Rechargez votre navigateur : vous avez le nouveau message !
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGs0bWZpNnAzanh4bDV3dXZsY2dsbGZ1NWV1N3NrZTg5cTc4cGdyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41lUJ1YoZB1lHVPG/giphy.gif)
 
@@ -342,7 +342,7 @@ Maintenant, dans votre *Panneau d'exécution et de débogage*, sélectionnez la 
 exécutez-la. Votre application est lancée en mode développement avec *Nodemon* et attachée au débogueur, et un *Panneau
 de prévisualisation du navigateur* devrait s'ouvrir, pointant sur l'adresse de l'application[^4]. En attendant un
 correctif, vous pouvez mettre à jour manuellement l'adresse pour charger votre application dans le panneau de
-prévisualisation).
+prévisualisation.
 
 ### Go Go, Gadget !
 
@@ -403,13 +403,13 @@ var livereloadServer = livereload.createServer()
 livereloadServer.watch(path.join(__dirname, 'static'))
 ```
 
-Vous pouvez maintenant éditer le fichier `main.js` voir votre navigateur se recharger automatiquement !
+Vous pouvez maintenant éditer le fichier `main.js` et voir votre navigateur se recharger automatiquement !
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VvMnFteXBsb2g0MmRmeDRybGVyaDVsZnBjbHNpMGtmempkc2djaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GKrVGCgcUuKC4/giphy.gif)
 
 C'était un long voyage et un long article juste pour vous donner seulement quelques bases du **Débogage à distance back
 et front**. Il vous offre la possibilité de conserver votre dépôt de code dans votre compte alwaysdata, libérant votre
-environnement local strate technique complexe à maintenir.
+environnement local d'une strate technique complexe à maintenir.
 
 Vous pouvez exécuter votre code à distance en *mode de développement*, attacher le *backend* au débogueur local,
 exécuter votre application Web dans un conteneur de navigateur, et exécuter un second débogueur en parallèle, attaché à

@@ -37,7 +37,7 @@ Puis ajoutez dans le menu **Web > Configuration** de l'interface d'administratio
 LoadModule maxminddb_module /home/[compte]/mod_maxminddb.so
 ```
 
-Enfin créez un compte sur leur interface pour récupérer une de leur base de données :
+Enfin créez un compte sur leur interface pour récupérer une de leurs bases de données :
 [gratuite](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en) ou
 [payante](https://www.maxmind.com/en/geoip2-databases) selon votre besoin.
 

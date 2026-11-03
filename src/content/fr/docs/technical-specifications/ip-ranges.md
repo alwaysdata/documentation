@@ -1,6 +1,6 @@
 ---
 permalink: /fr/docs/caracteristiques-techniques/plages-dip/
-title: Plages d'IP adresses alwaysdata
+title: Plages d'adresses IP alwaysdata
 eleventyNavigation:
   key: Plages d'IP
   parent: Caractéristiques techniques

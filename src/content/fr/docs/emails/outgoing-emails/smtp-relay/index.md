@@ -13,7 +13,7 @@ pour :
 - ne pas toucher à la réputation de votre serveur alwaysdata ;
 - profiter de services spécialisés.
 
-Cette option est disponible sur les [offres Cloud Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.
+Cette option est disponible sur les [offres Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) d'alwaysdata.
 
 ## Mise en place
 

@@ -35,7 +35,7 @@ ssh-keygen -R ssh-[compte].alwaysdata.net
 
 ### Input/output error
 
-Erreur liée à des opérations de notre côté, il faut patienter le temps qu'elle soit terminée mais vous pouvez aussi
+Erreur liée à des opérations de notre côté, il faut patienter le temps qu'elles soient terminées mais vous pouvez aussi
 contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir plus d'informations.
 
 ## Droits

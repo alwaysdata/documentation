@@ -9,13 +9,13 @@ eleventyNavigation:
 
 Pour ajouter des membres à une liste de diffusion, vous devez vous connecter à l'[interface de gestion
 Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse email d'administration que vous aurez
-défini à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
+définie à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
 
-Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
+Une fois identifié, rendez-vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
 
 ## Ajout manuel de membres
 
-Pour ajouter manuellement des membres à la liste, rendez vous dans la section **Opérations groupées → Abonnement en Masse**.
+Pour ajouter manuellement des membres à la liste, rendez-vous dans la section **Opérations groupées → Abonnement en Masse**.
 
 Ajoutez les adresses emails dans la zone de saisie, à raison d'une adresse email par ligne. Les formats acceptés sont
 indiqués sous la section.

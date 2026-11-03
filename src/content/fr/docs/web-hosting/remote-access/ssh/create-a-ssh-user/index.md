@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 Afin de vous connecter à votre compte en _SSH_, il est nécessaire de disposer d'un utilisateur. Par défaut, un
-utilisateur du nom de votre _compte_ est crée à sa création. Vous pouvez administrer vos utilisateurs SSH depuis
+utilisateur du nom de votre _compte_ est créé à sa création. Vous pouvez administrer vos utilisateurs SSH depuis
 l'interface d'administration, onglet **Accès distant > SSH**.
 
 ![](images/admin-panel_ssh-users-list.png)

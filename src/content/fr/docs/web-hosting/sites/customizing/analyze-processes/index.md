@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 11
 ---
 
-Cette fonctionnalité permet aux développeurs expérimentés d'observer le comportement de leurs applications et améliorer
+Cette fonctionnalité permet aux développeurs expérimentés d'observer le comportement de leurs applications et d'améliorer
 leurs performances.
 
 L'analyse des processus produit un fichier, disponible à la racine de votre compte (nommé `analysis_[date]-[heure].log`
@@ -21,7 +21,7 @@ La fonctionnalité d'analyse de processus est disponible via **Avancé > Process
 ![Menu Processus : liste](images/admin-panel_processes-list.png)
 ![Analyser des processus](images/admin-panel_processes-analysis.png)
 
-- _PIDs_ : liste des PID des processus à auditer, séparés par un espace.  Si ce champ reste vide, tous les processus
+- _PIDs_ : liste des PID des processus à auditer, séparés par un espace. Si ce champ reste vide, tous les processus
   répondant à des requêtes HTTP seront analysés.
 - _Durée d'analyse_ : une fois l'analyse lancée, celle-ci durera pendant le temps indiqué (en secondes). Généralement,
   30 à 60 secondes suffisent. L'analyse ne fonctionne que si des pages de votre site sont affichées, il faut donc
@@ -36,7 +36,7 @@ Une fois l'analyse démarrée, il suffit de consulter les pages que l'on souhait
 pendant la durée de l'analyse.
 
 > [!NOTE]
-> Le PID d'un processus est affiché dans le tableau des processus affiché dans le menu **Avancé > Processus**.  Parfois,
+> Le PID d'un processus est affiché dans le tableau des processus affiché dans le menu **Avancé > Processus**. Parfois,
 > aucun processus n'est visible dans ce tableau. Ils apparaîtront si vous visitez quelques pages de votre site internet.
 
 <!-- -->
@@ -60,7 +60,7 @@ Le contenu du fichier contenant les résultats de l'analyse contient une opérat
 Ces lignes contiennent le PID du processus qui a effectué l'opération, l'heure à laquelle elle a été exécutée, sa durée
 et l'opération.
 
-Ici, on peut voir qu'une requête SQL a été envoyée a un serveur MySQL. L'envoi de la requête n'a pris que 0.029ms, ce
+Ici, on peut voir qu'une requête SQL a été envoyée à un serveur MySQL. L'envoi de la requête n'a pris que 0.029ms, ce
 qui est très rapide, mais la ligne suivante montre qu'il a fallu attendre 53ms avant que le serveur MySQL soit prêt à
 envoyer la réponse, ce qui l'est beaucoup moins.
 

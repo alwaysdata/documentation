@@ -20,7 +20,7 @@ s'il est renseigné dans **Avancé > Certificats SSL** et qu'il n'est pas expir�
 Si vous souhaitez renvoyer un certificat dont la priorité est plus basse, vous pouvez rattacher ce dernier directement
 au sous-domaine, **il sera alors prioritaire sur les autres**.
 
-La configuration de la priorité d'un certificat n'est possible *que* pour les certificats que vous avez ajouté. Ce n'est
+La configuration de la priorité d'un certificat n'est possible *que* pour les certificats que vous avez ajoutés. Ce n'est
 pas une option disponible pour les certificats autogénérés Let's Encrypt.
 
 Pour forcer un certificat rendez-vous au niveau de la configuration du certificat SSL - menu **Avancé > Certificats

@@ -21,6 +21,6 @@ Si plusieurs changements ont lieu en même temps chaque intervention est factur�
 
 Contactez le [support](https://admin.alwaysdata.com/support/add/) pour plus d'informations et planifier l'intervention.
 
-Toute opération annulée dans les 24 heures précédent l'intervention sera facturée.
+Toute opération annulée dans les 24 heures précédant l'intervention sera facturée.
 
 [^1]: Pour les serveurs Gold, le prix des interventions est doublé. Le plafond est alors à 1200 € HT.

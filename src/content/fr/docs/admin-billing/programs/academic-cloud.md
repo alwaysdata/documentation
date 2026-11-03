@@ -19,7 +19,7 @@ ticket](https://admin.alwaysdata.com/support/add/). Le programme est gratuit pou
 des partenariats pour les structures privées.
 
 > [!NOTE]
-> Lors de la procédure d'inscription, les étudiants peuvent choisir entre plusieurs packs. Pour bénéficier du Academic
+> Lors de la procédure d'inscription, les étudiants peuvent choisir entre plusieurs packs. Pour bénéficier de l'Academic
 > Cloud gratuit, ils doivent choisir le pack _Free_.
 
 Une fois la formation finie, les étudiants pourront conserver leurs comptes, supprimer les

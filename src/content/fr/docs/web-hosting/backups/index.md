@@ -16,8 +16,8 @@ répertoire `/home/[compte]/admin/backup` de votre compte. Ces sauvegardes sont 
 | Free | Small | Medium | Large | X-Large | Serveurs dédiés | Serveurs Gold |
 | 3 jours | 7 jours | 20 jours | 20 jours | 30 jours | 30 jours | 30 jours |
 
-Quelque soit l'offre prise, les sauvegardes sont stockées dans un *datacenter dédié*, distant de plusieurs kilomètres du
-centre de production et utilisant un autre prestataire.
+Quelle que soit l'offre prise, les sauvegardes sont stockées dans un *datacenter dédié*, distant de plusieurs kilomètres
+du centre de production et utilisant un autre prestataire.
 
 Vous pouvez restaurer [un site web](/fr/docs/hebergement-web/sauvegardes/restaurer-un-site/) ou des
 [emails](/fr/docs/hebergement-web/sauvegardes/restaurer-des-emails/) dans l'onglet **Avancé > Restauration de

@@ -8,10 +8,10 @@ eleventyNavigation:
   order: 6
 ---
 
-Les listes de diffusions (*mailing lists*) vous permettent de définir un *pool* d'adresses emails vers lesquelles
-renvoyer un message. On les distingue dans leur usage par leur capacités de diffusion :
+Les listes de diffusion (*mailing lists*) vous permettent de définir un *pool* d'adresses emails vers lesquelles
+renvoyer un message. On les distingue dans leur usage par leurs capacités de diffusion :
 
-- seuls les adresses "administratrices" sont capables d'expédier du contenu vers les adresses de réception inscrites
+- seules les adresses "administratrices" sont capables d'expédier du contenu vers les adresses de réception inscrites
   (par exemple, une newsletter) ;
 - tous les participant·e·s peuvent envoyer des messages sur la liste pour permettre une conversation (par exemple, les
   membres d'un groupe de travail).
@@ -25,5 +25,5 @@ vous référer à ces documentations pour leur usage quotidien.
 
 La création / modification / suppression des listes de diffusion se fait depuis l'interface d'administration : [https://admin.alwaysdata.com/mailinglist/](https://admin.alwaysdata.com/mailinglist/).
 
-La gestion interne des listes de diffusions (membres, permissions, etc), se fait depuis l'interface d'administration
+La gestion interne des listes de diffusion (membres, permissions, etc.) se fait depuis l'interface d'administration
 Postorius : [https://mailman.alwaysdata.com/](https://mailman.alwaysdata.com/).

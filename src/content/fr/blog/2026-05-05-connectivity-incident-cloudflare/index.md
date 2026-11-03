@@ -89,7 +89,7 @@ permettent de :
 
 La première tentative a été d'augmenter la verbosité du reverse-proxy. Malheureusement, cela n'a pas apporté
 d'informations spécifiques : les en-têtes étaient exactement les mêmes entre les requêtes fonctionnelles et les requêtes
-non-fonctionnelles.
+non fonctionnelles.
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3B5ZXdzbm5qbDhiaWY0Y21wempienZyNHBkcjhvY3l2NWQ2YXZlaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9u3TZfpmeDLkD6/giphy.gif)
 

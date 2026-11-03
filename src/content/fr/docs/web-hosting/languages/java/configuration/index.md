@@ -26,7 +26,7 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Binaire à utiliser
 
-Pour se servir d'une version de Java différente que celle par défaut :
+Pour se servir d'une version de Java différente de celle par défaut :
 
 - rendez-vous dans **Environnement > Java** ;
 - ou utilisez `JAVA_VERSION=[VERSION] java` (en remplaçant `[VERSION]` par la version de Java voulue).

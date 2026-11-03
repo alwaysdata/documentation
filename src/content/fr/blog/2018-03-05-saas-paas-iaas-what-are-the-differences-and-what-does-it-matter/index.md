@@ -42,7 +42,7 @@ couche logicielle capable de faire tourner votre propre application.
 
 Ça peut être évident ou pas, mais il faut bien un endroit où installer, brancher, et faire fonctionner nos serveurs. Le
 *data center* héberge physiquement les machines, et fournit tout ce qui est nécessaire à leur fonctionnement
-(électricité, température contrôlée, accès sécurisés, etc).
+(électricité, température contrôlée, accès sécurisés, etc.).
 
 ### Du réseau
 
@@ -55,7 +55,7 @@ machines), des *firewalls*, des systèmes anti-DDoS, des sondes, etc.
 Oui, c'est trivial, mais il nous faut bien des machines pour pouvoir vous les louer. Les serveurs sont donc installés et
 configurés pour fournir des CPU, de la mémoire, de l'espace de stockage, peut-être des GPU pour des calculs intenses,
 etc. Ils peuvent être fabriqués par différents constructeurs, avec des caractéristiques techniques différentes (modèles
-et architectures de CPU, quantité de RAM, etc).
+et architectures de CPU, quantité de RAM, etc.).
 
 Ils sont la puissance brute de l'infrastructure.
 
@@ -63,7 +63,7 @@ Ils sont la puissance brute de l'infrastructure.
 
 Il s'agit de solutions au niveau du noyau ou équivalent qui exécutent des machines virtuelles ou des conteneurs sur les
 machines physiques[^5] et leur fournissent l'accès aux ressources matérielles (mémoire, temps ou puissance CPU, espace
-disque, réseau, etc). Ces technologies isolent virtuellement les comptes sur le serveur en offrant aux utilisateurs un
+disque, réseau, etc.). Ces technologies isolent virtuellement les comptes sur le serveur en offrant aux utilisateurs un
 accès au système plus ou moins complet, même s'il ne s'agit pas de la machine physique.
 
 ### Un système d'exploitation
@@ -79,10 +79,10 @@ possible.
 
 Vous avez besoin d'exécuter votre code sur votre serveur, et ce code a des dépendances fortes à *beaucoup* d'outils et
 de bibliothèques. Il s'agit de bases de données, de serveurs (comme un serveur *HTTP*), d'interpréteurs (comme *Python*,
-*PHP*, *Node.js*, etc), peut-être de *brokers*, de solutions de caches, d'indexeurs, et autres. Il vous faudra également
-disposer d'accès distant, via *SSH* ou *FTP* ; peut-être d'un système de *versioning* également (sans doute *Git* ou
-*Mercurial*) pour gérer le déploiement ; des serveurs de messagerie seront aussi nécessaires, pas pour héberger vos
-boites emails — même si ça reste possible —, mais au moins pour permettre à votre application ou à votre système de
+*PHP*, *Node.js*, etc.), peut-être de *brokers*, de solutions de caches, d'indexeurs, et autres. Il vous faudra
+également disposer d'accès distant, via *SSH* ou *FTP* ; peut-être d'un système de *versioning* également (sans doute
+*Git* ou *Mercurial*) pour gérer le déploiement ; des serveurs de messagerie seront aussi nécessaires, pas pour héberger
+vos boites emails — même si ça reste possible —, mais au moins pour permettre à votre application ou à votre système de
 remonter les alertes en cas de problème. Il vous faudra sécuriser la machine, mettre en place des *firewalls* et des
 systèmes de bannissement pour prévenir les attaques.
 
@@ -136,7 +136,7 @@ center* — le sien propre ou celui de son sous-traitant —, l'accès réseau, 
   seul·e la responsabilité.
 
 À noter : le fournisseur d'une infrastructure *IaaS* peut lui-même s'appuyer sur une autre infrastructure *IaaS*, par
-exemple en louant des VPS sur des infrastructures physiques elles-même louées à un autre prestataire. Selon vos
+exemple en louant des VPS sur des infrastructures physiques elles-mêmes louées à un autre prestataire. Selon vos
 contraintes — juridiques ou techniques —, pensez à vérifier la façon dont fonctionne votre prestataire.
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2E5anZuYjdxYXBrMGFnZ2V0OG5lcTlkNmowcjRnd3Jza3A4NmRkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11wjBYmS9Q9jTa/giphy.gif)
@@ -160,7 +160,7 @@ projet, un dépôt versionné spécifique, ou une interface web pour un accès c
 
 *Software-as-a-service* est une approche plus avancée où, en tant qu'utilisateur, vous souhaitez accéder à une solution
 logicielle existante sans avoir à la déployer. Dans ce type d'offre, votre abonnement vous donne accès au service en
-tant qu'utilisateur. Le fournisseur du-dit service, lui, utilise sa propre infrastructure ou plateforme, ou celle d'un
+tant qu'utilisateur. Le fournisseur dudit service, lui, utilise sa propre infrastructure ou plateforme, ou celle d'un
 sous-traitant. C'est le modèle principal retenu par les start-up technologiques.
 
 - **ce qui reste à votre charge** : pour vous en tant qu'utilisateur, ces choix sont transparents : vous accédez
@@ -216,7 +216,7 @@ début !
 
 ---
 
-[^1]: pas les patates et carottes, hein, je ne vous ferais pas cet affront — la nouvelle version du site devrait être beaucoup plus claire à ce sujet, mais ce n'est pas une raison pour faire attendre les explications
+[^1]: pas les patates et carottes, hein, je ne vous ferai pas cet affront — la nouvelle version du site devrait être beaucoup plus claire à ce sujet, mais ce n'est pas une raison pour faire attendre les explications
 [^2]: qui sont donc des ordinateurs avec, la plupart du temps, de grosses capacités de calcul
 [^3]: je vous parlerai prochainement du paradigme *server-less* dans un futur article, où nous découvrirons que même ce type de solution implique souvent… un serveur `¯\_(ツ)_/¯`
 [^4]: là encore, je vous prépare un article sur les différences entre virtualisation, conteneurisation et isolation

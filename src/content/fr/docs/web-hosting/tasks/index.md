@@ -25,7 +25,7 @@ Plusieurs types d’informations sont à fournir :
 
 ![](images/admin-panel_create-task_environment.png)
 
-- la périodicité de votre tâche : vous pouvez spécifiez une heure fixe, ou un intervalle
+- la périodicité de votre tâche : vous pouvez spécifier une heure fixe, ou un intervalle
 
 ![](images/admin-panel_create-task_frequency.png)
 
@@ -43,7 +43,7 @@ Plusieurs types d’informations sont à fournir :
   démarrage et l'arrêt de la tâche.
   - Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄) ;
   - les adresses email renseignées pour recevoir les rapports d'erreurs ne remplacent pas ces logs ;
-- Les processus en cours sont accessible via le menu **Avancé > Processus > Tâches planifiées** ;
+- Les processus en cours sont accessibles via le menu **Avancé > Processus > Tâches planifiées** ;
 - Pour les tâches de type *Commande*, les versions de langages utilisées par défaut sont celles renseignées dans le menu
   **Environnement** de l'interface d'administration. Il est possible de choisir une autre version en utilisant les
   *Variables d'environnement*.
@@ -63,7 +63,7 @@ Utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud
 
 - `source venv/bin/activate && python` est spécifique à [Bash](https://fr.wikipedia.org/wiki/Bourne-Again_shell) et ne
   peut fonctionner. À remplacer par `venv/bin/python` ;
-- les raccourcis en **@** - exemples *@hourly* ou *@reboot* - ne sont pas acceptés (syntaxe non-normalisée) ;
+- les raccourcis en **@** - exemples *@hourly* ou *@reboot* - ne sont pas acceptés (syntaxe non normalisée) ;
 - Elles utilisent les versions de langages par défaut des comptes (définies dans **Environnement**). Pour en utiliser
   d'autres, indiquez-les dans le champ *Variables d'environnement*.
 
@@ -101,4 +101,4 @@ Syntaxe crontab équivalente :
 30 10 * * * php /home/[compte]/tt-rss/update.php --feeds --quiet
 ```
 
-[^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si le tâche n'est pas exécutée, aucun email n'est envoyé.
+[^1]: Un rapport est envoyé lorsque le code de retour est différent de 0. Si la tâche n'est pas exécutée, aucun email n'est envoyé.

@@ -54,8 +54,8 @@ Le règlement européen sur la protection des données (RGPD) est le nouveau tex
 texte précédent sur les données à caractère personnel sur tout le territoire européen. Il n'introduit pas de changement
 majeur, mais vise à harmoniser et à renforcer la protection des données personnelles des citoyens européens. Il
 s'applique à l'ensemble du monde et à l'ensemble des structures dès lors qu'elles sont situées sur le territoire
-européen, ou qu'un de ses sous-traitants est situé sur le territoire européen, ou qu'elle collecte et manipule des
-données de citoyens européens. Il entre en application à compter du 25 mai 2018.
+européen, ou qu'un de leurs sous-traitants est situé sur le territoire européen, ou qu'elles collectent et manipulent
+des données de citoyens européens. Il entre en application à compter du 25 mai 2018.
 
 Il introduit principalement les notions suivantes :
 
@@ -105,7 +105,7 @@ facturation.
 - Nous n'accédons et ne traitons aucune donnée hors du consentement explicite du responsable de traitement (nos clients).
 - Les données sont conservées sur le territoire européen, à moins que nos clients ne choisissent explicitement de
   localiser leurs données en dehors du territoire européen. Cette localisation pourra évoluer dans le futur, toujours
-  sous le contrôle express du client lui-même.
+  sous le contrôle exprès du client lui-même.
 - Nous tenons nos clients informés de tout sous-traitant ayant accès à leurs données, des données concernées, et de
   l'usage qui en est fait.
 - Nous appliquons des standards de sécurité pour protéger les données dans tout leur cycle de vie.

@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 Afin de vous connecter à votre compte en _FTP_, il est nécessaire de disposer d'un utilisateur. Par défaut, un
-utilisateur du nom de votre _compte_ est crée à sa création. Vous pouvez créer autant d'utilisateurs FTP que vous le
+utilisateur du nom de votre _compte_ est créé à sa création. Vous pouvez créer autant d'utilisateurs FTP que vous le
 souhaitez que vous pouvez administrer depuis l'interface d'administration, onglet **Accès distant > FTP**.
 
 ![](images/admin-panel_list-ftp-users.png)

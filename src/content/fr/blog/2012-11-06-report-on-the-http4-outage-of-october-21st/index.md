@@ -6,7 +6,7 @@ authors: ["Cyril Baÿ"]
 ---
 
 Le dimanche 21 octobre, le serveur http4 a été indisponible de 1h02 à 10h17 (UTC+2). Cet article revient sur cette panne
-anormalement longue : ce qui s'est passé en détails, ce que nous allons faire pour que cela ne se reproduise plus, et
+anormalement longue : ce qui s'est passé en détail, ce que nous allons faire pour que cela ne se reproduise plus, et
 une mise au point sur la redondance.
 
 ## Ce qui s'est passé
@@ -71,7 +71,7 @@ exemple, ils disposent d'une double alimentation ou de connexions réseau 10 Gb/
 D'expérience (nous avons des serveurs de toutes les gammes), nous constatons que :
 
 - la fiabilité matérielle théoriquement supérieure des serveurs haut de gamme n'est pas significativement différente de
-  celles des autres gammes ;
+  celle des autres gammes ;
 - le parc de serveurs haut de gamme de notre fournisseur est bien plus limité que celui des autres serveurs. En
   conséquence, et d'après notre expérience subjective et limitée :
   - ces serveurs semblent davantage susceptibles d'être victimes de certains types de bugs « rares » (matériel, routage)
@@ -84,7 +84,7 @@ En faisant le bilan, nous constatons que la fiabilité des serveurs haut de gamm
 à celle des autres gammes, paradoxalement. Nous allons donc cesser progressivement d'utiliser ces serveurs (en
 mutualisé, http4 et http6 sont concernés).
 
-*Si http4 avait été sur un serveur de gamme standard, il est possible que le bug mystique de la carte réseau aurait déjà
+*Si http4 avait été sur un serveur de gamme standard, il est possible que le bug mystique de la carte réseau ait déjà
 été découvert et résolu avant qu'il ne nous impacte. Par ailleurs, des serveurs de secours auraient probablement été
 disponibles plus rapidement.*
 
@@ -97,7 +97,7 @@ S'il n'est donc pas question de nous mettre à utiliser les noyaux standards de 
 limitations indiquées), il serait souhaitable qu'en cas d'urgence, il soit au moins possible de booter nos serveurs
 avec. Ne serait-ce que pour aider au débogage.
 
-Concrètement, les modifications à apporter à la configuration de nos serveurs est minime.
+Concrètement, les modifications à apporter à la configuration de nos serveurs sont minimes.
 
 *Si nous avions pu démarrer http4 sur le noyau de notre fournisseur, le serveur aurait été à nouveau accessible bien
 plus rapidement. Quitte à ce que certaines fonctionnalités non essentielles soient désactivées.*
@@ -168,7 +168,7 @@ minutes) :
 Au final, même si la panne de http4 aurait justifié de basculer (panne longue, serveur hors service), nous ne remettons
 pas en cause notre décision d'arrêter la redondance.
 
-Une erreur toutefois : nous aurions dû annoncer publiquement l'arrêt de cette redondance, fut-elle partielle (certains
+Une erreur toutefois : nous aurions dû annoncer publiquement l'arrêt de cette redondance, fût-elle partielle (certains
 serveurs ont encore la redondance d'activée à l'heure actuelle). C'est désormais chose faite.
 
 ### D'autres formes de redondance à l'avenir ?

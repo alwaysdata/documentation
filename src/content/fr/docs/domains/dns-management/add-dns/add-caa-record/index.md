@@ -8,11 +8,11 @@ eleventyNavigation:
 ---
 
 Un [enregistrement CAA](https://fr.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) liste les autorités de
-certifications homologuées à émettre des certificats pour un domaine. Toute autorité de certification ne faisant pas
-partie des émetteurs autorisés par l'enregitrement CAA d'un domaine, ne sera pas autorisée à émettre de certificat pour
+certification homologuées à émettre des certificats pour un domaine. Toute autorité de certification ne faisant pas
+partie des émetteurs autorisés par l'enregistrement CAA d'un domaine, ne sera pas autorisée à émettre de certificat pour
 ce domaine ou tout sous-domaine.
 
-1. Rendez-vous sur **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
+1. Rendez-vous sur **Domaines > Détails de [example.org] - 🔎 > Enregistrements DNS** ;
     ![](images/admin-panel_dns-record-list.png)
 
 2. Choisissez **Ajouter un enregistrement DNS** ;
@@ -28,7 +28,7 @@ Trois étiquettes sont définies :
 
 - `issue` qui autorise une autorité ;
 - `issuewild` qui autorise une autorité pour les certificats wildcard ;
-- `iodef` qui signale une URL que peut contacter les autorités de certifications en cas de problèmes.
+- `iodef` qui signale une URL que peuvent contacter les autorités de certification en cas de problèmes.
 
 > [!NOTE]
 > Des [certificats Let's Encrypt](/fr/docs/hebergement-web/sites/ssl-tls/certificats-lets-encrypt/) sont générés pour

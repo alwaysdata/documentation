@@ -12,7 +12,7 @@ configuration Apache rendez-vous dans **Web > Configuration > Apache**.
 ![](images/admin-panel_apache.png)
 
 L'ensemble des modifications effectuées dans le champ *Directives globales d'Apache* se répercutera dans le fichier
-`/home/[compte]/admin/config/apache/sites.conf`. Les logs d'erreurs Apaches sont disponibles dans le fichier
+`/home/[compte]/admin/config/apache/sites.conf`. Les logs d'erreurs Apache sont disponibles dans le fichier
 `/home/[compte]/admin/logs/apache/apache.log`. Un extrait de ces logs est présenté dans l'interface d'administration
 (Logs - 📄).
 

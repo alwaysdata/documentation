@@ -50,7 +50,7 @@ puis en Python. Libre à vous de le réaliser en PHP, en Ruby, en Java, en Perl�
 
 Notre exemple est tout simple : une fois connecté, notre client pourra envoyer le message `ping` au serveur, qui
 renverra alors `pong` à tous les clients connectés, une seconde plus tard. Ce simple exemple démontre l’interactivité
-entre tous les éléments connectés (c’est à dire du *broadcasting*) de notre application.
+entre tous les éléments connectés (c’est-à-dire du *broadcasting*) de notre application.
 
 ### En Node.js…
 
@@ -193,7 +193,7 @@ dans les devtools.
 Ouvrez maintenant une seconde fois cette page HTML dans un autre onglet, devtools ouverts. Exécutez la fonction `ping()`
 indifféremment dans l’un des deux onglets. Les deux vont recevoir le `pong` depuis le serveur.
 
-Félicitations, vous avez un premier niveau de communication broadcast bi-directionnelle client/serveur en *full-duplex*
+Félicitations, vous avez un premier niveau de communication broadcast bidirectionnelle client/serveur en *full-duplex*
 via WebSocket !
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3pkcmJzbWh4NmdnZ2tmeWdvZmo2bTIxcGc4MndqYngxYm5zNDhqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/psv1zrhPZM6WI/giphy.gif)
@@ -203,7 +203,7 @@ via WebSocket !
 Il nous reste à déployer ce serveur WebSocket et le client dans un environnement de production.
 
 Chez **alwaysdata** nous proposons plusieurs solutions pour déployer des outils devant être exécutés en temps long,
-c’est à dire de manière joignable dans le futur par un client : les *Sites*, et les *Services*.
+c’est-à-dire de manière joignable dans le futur par un client : les *Sites*, et les *Services*.
 
 Pour les *Sites*, pas besoin de faire un dessin : il s’agit de déployer un serveur Web (Apache, WSGI, Node, etc.) qui
 sera requêté ultérieurement par un client pour obtenir différentes ressources via HTTP. Le Web historique traditionnel.
@@ -215,7 +215,7 @@ exemple).
 
 Alors, pour un serveur WebSocket, *Sites*, ou *Services* ?
 
-Si on pourrait imaginer que les Services sont le bon endroit — *un processus long potentiellement joignable de
+Si on peut imaginer que les Services sont le bon endroit — *un processus long potentiellement joignable de
 l’extérieur*— je le répète ici : dans WebSocket, il y a *Web* ! Le protocole WebSocket est logiciel et exploite
 HTTP/TCP, comme n’importe quel *Site*.
 
@@ -248,7 +248,7 @@ Rendez-vous maintenant sur cette adresse : votre communication WebSocket est fon
 Cet article n’est, évidemment, qu’une introduction aux concepts de WebSocket, mais il pointe plusieurs éléments
 fondamentaux :
 
-1. WebSocket permet une communication bi-directionnelle et multi-cliente simultanée.
+1. WebSocket permet une communication bidirectionnelle et multi-cliente simultanée.
 2. Un serveur WebSocket tourne en parallèle du serveur Web de l’application. Ce dernier se charge de distribuer
    l’application au navigateur, qui va la démarrer ; mais c’est le premier qui est responsable du transit des flux de
    données métier.

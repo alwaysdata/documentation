@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Details de
+Pour ajouter plusieurs enregistrements DNS en une seule action, rendez-vous dans le menu **Domaines > Détails de
 [example.org] -  ⚙️ > Enregistrements DNS > Ajouter plusieurs enregistrements DNS**.
 
 ![](images/menu.png)

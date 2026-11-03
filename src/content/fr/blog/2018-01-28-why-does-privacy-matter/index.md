@@ -11,15 +11,15 @@ important, et de nos considérations à ce sujet.
 
 ## Données personnelles et vie privée
 
-La garantie de vie privée est un élément clé de notre fonctionnement psychologique. Il nous assure que nos décisions
+La garantie de vie privée est un élément clé de notre fonctionnement psychologique. Elle nous assure que nos décisions
 peuvent se prendre de façon éclairée, parce que chacun aura pu librement formuler ses propres choix, et dire ce
 qu'il·elle a à dire. Si vous vous savez surveillé·e, ou si vous avez connaissance d'une forme de pression à votre
 encontre, votre esprit va progressivement se conformer à la norme qu'on cherche à vous imposer. Vous perdez ainsi votre
-libre-arbitre, et votre liberté de choix.
+libre arbitre, et votre liberté de choix.
 
 Côté numérique, ça signifie qu'aucun acteur ne doit pouvoir être en mesure de vous enfermer et de contrôler votre vie
 numérique. Personne n'apprécie que ses e-mails puissent être lus, ou ses historiques de navigation ou de déplacement
-analysés. Cette collecte de donnée permet ensuite aux services en ligne de filtrer les contenus qui vous sont présentés
+analysés. Cette collecte de données permet ensuite aux services en ligne de filtrer les contenus qui vous sont présentés
 et vous lie à une plateforme unique. C'est la base de leurs modèles économiques.
 
 Vous produisez des données au kilo(octet) à chaque seconde, sans même vous en rendre compte, qu'il s'agisse de vos
@@ -90,7 +90,7 @@ façon, vous ne subirez pas les pics de consommation de vos voisins, et votre es
 disponible.
 
 Vous pouvez donc être tranquille, *alwaysdata* vous offre la qualité de service et de sécurité nécessaire à un
-hébergement de votre *cloud* personnel, quelle que soit la solution que *vous* aurez choisi.
+hébergement de votre *cloud* personnel, quelle que soit la solution que *vous* aurez choisie.
 
 Profitez donc de cette journée (c'est dimanche, vous n'aviez rien de prévu, non ?), et installez donc quelques-unes des
 solutions possibles pour trouver le *cloud* qui vous convient en **[ouvrant un compte mutualisé

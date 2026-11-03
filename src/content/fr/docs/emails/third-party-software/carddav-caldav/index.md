@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 Chaque adresse email dispose de son propre carnet d'adresses et d'un agenda. Les utilisateurs peuvent y accéder et les
-gérer depuis les logiciels de leurs choix et sur plusieurs logiciels simultanément.
+gérer depuis les logiciels de leur choix et sur plusieurs logiciels simultanément.
 
 |Service|Nom d'hôte|
 |---|---|

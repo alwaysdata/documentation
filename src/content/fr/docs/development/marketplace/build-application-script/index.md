@@ -19,7 +19,7 @@ Les scripts se composent de deux parties :
   nécessaires au script (les variables `FORM_*`). On peut le diviser en quatre :
   * **site** : voir la [documentation API](https://api.alwaysdata.com/v1/site/doc/) qui reprend toutes les options possibles.
   * **database** : mysql, postgresql, rabbitmq.
-  * **requirements**: spécifier les conditions bloquantes pouvant être problématiques sur certains plan d'hébergement/packs.
+  * **requirements** : spécifier les conditions bloquantes pouvant être problématiques sur certains plans d'hébergement/packs.
   * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant
     administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même
@@ -55,7 +55,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
   dépendre de la configuration par défaut du compte ;
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est
   exécuté par défaut) ;
-* Pour rendre un script d'installation publique il faut indiquer la condition `disk` des `requirements` ;
+* Pour rendre un script d'installation public il faut indiquer la condition `disk` des `requirements` ;
 * Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. *Les
   utilisateurs pourront modifier la configuration de leur application ultérieurement.*
 * Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur
@@ -66,8 +66,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
 > [!NOTE]
 > Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case
 > pour le rendre *public*.
-> **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
-in
+> **Tout script marqué comme public doit être maintenu et sera a minima vérifié par l’équipe d’alwaysdata.**
 
 <!-- -->
 

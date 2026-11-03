@@ -53,5 +53,5 @@ recommandations d'usage :
 ## Liens utiles
 
 - [iThemes Security](http://wordpress.org/plugins/better-wp-security/) : améliore la sécurité de votre site WordPress
-- [WordFence](https://wordpress.org/plugins/wordfence/): scanne votre site à la recherche de faille, WAF et autres
+- [WordFence](https://wordpress.org/plugins/wordfence/) : scanne votre site à la recherche de faille, WAF et autres
   outils de sécurisation de votre interface WordPress

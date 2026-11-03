@@ -103,7 +103,7 @@ cp config/database.yml.postgresql config/database.yml
 nano config/database.yml
 ```
 
-Remplacez les clés `database`, `username` , `host` et `password` et la première section (production) par celles de votre
+Remplacez les clés `database`, `username`, `host` et `password` et la première section (production) par celles de votre
 compte. Exemple :
 
 ```yml

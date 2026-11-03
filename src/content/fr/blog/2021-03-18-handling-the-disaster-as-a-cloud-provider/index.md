@@ -85,8 +85,8 @@ minimiser les risques, nous avons appliqué à notre infrastructure plusieurs ch
 2. **Disponibilité** : même en cas de dommage majeur, nous pouvons basculer le service vers d'autres infrastructures et
    le rétablir rapidement ;
 3. **Gestion des sauvegardes** : nous effectuons des copies de l'ensemble de vos données chaque jour et nous les
-   conservons pendant 30 jours glissant ; ces sauvegardes contiennent vos fichiers, bases de données, e-mails,
-   configurations, etc ; elles sont disponibles en lecture seule depuis votre compte à tout moment ; en [sauvegardant
+   conservons pendant 30 jours glissants ; ces sauvegardes contiennent vos fichiers, bases de données, e-mails,
+   configurations, etc. ; elles sont disponibles en lecture seule depuis votre compte à tout moment ; en [sauvegardant
    vos données automatiquement](/fr/docs/hebergement-web/sauvegardes/), nous nous assurons de pouvoir restaurer
    rapidement vos contenus en cas de sinistre ;
 4. **Sécurisation des sauvegardes** : pour éviter qu'une catastrophe naturelle ne détruise tout, ces sauvegardes sont
@@ -127,7 +127,7 @@ nous. La réalité est que quiconque ne peut être prêt que pour le pire des sc
 c'est là qu'intervient votre responsabilité.
 
 Nous avons pensé à tous les scénarios qui pourraient se produire et qui pourraient présenter un important niveau de
-risques. Vous devez faire de même de votre côté car vous connaissez votre business et vos besoins en terme de services.
+risques. Vous devez faire de même de votre côté car vous connaissez votre business et vos besoins en termes de services.
 Lors de la dernière panne d'OVHCloud et de l'incendie de SBG2, OVHCloud était probablement convaincu d'être très bien
 préparé, mais beaucoup de ses clients ont quand même perdu leurs données. Certains parce qu'ils ne savaient pas que la
 sauvegarde de leurs données était optionnelle. D'autres parce qu'ils ont choisi de ne pas payer ce coût supplémentaire.

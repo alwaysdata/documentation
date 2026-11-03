@@ -37,11 +37,11 @@ est [contractuelle](https://www.alwaysdata.com/fr/mentions-legales/) (point 4.6 
 d'hébergement).
 
 Ce datacenter est opéré par [Interxion](https://www.digitalrealty.fr/data-centers), tandis que les datacenters de
-productions sont gérés par [Equinix](https://www.equinix.com/).
+production sont gérés par [Equinix](https://www.equinix.com/).
 
-#### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichier des comptes utilisateur ?
+#### Comment pouvez-vous garantir l'accès aux sauvegardes depuis le système de fichiers des comptes utilisateur ?
 
-Les sauvegardes sont accessibles depuis votre système de fichier du compte utilisateur (via
+Les sauvegardes sont accessibles depuis votre système de fichiers du compte utilisateur (via
 [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/)…) grâce au
 protocole NFS, qui nous permet de monter en lecture-seule, au travers du réseau, votre accès à vos sauvegardes.
 
@@ -64,13 +64,13 @@ Pour restaurer vos sauvegardes, [consultez la documentation disponible](/fr/docs
 Chaque serveur dispose de deux arrivées réseau. En cas de rupture du lien principal, le lien secondaire est
 automatiquement activé pour maintenir la connexion active.
 
-Nous opérons nous-même notre réseau au sein des datacenters.
+Nous opérons nous-mêmes notre réseau au sein des datacenters.
 
 #### Comment est garanti l'accès à Internet ?
 
 Notre accès Internet est garanti par quatre fournisseurs d'accès indépendants.
 
-Nous sommes également membre du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgp.tools/as/60362), et
+Nous sommes également membres du RIPE, disposons de [notre propre numéro d'AS (AS60362)](https://bgp.tools/as/60362), et
 de nos propres plages d'IP.
 
 ## Infrastructure matérielle
@@ -95,7 +95,7 @@ avec vos dernières données.
 
 #### Les serveurs sont-ils redondés ?
 
-Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour palier une défaillance matérielle des stockages.
+Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour pallier une défaillance matérielle des stockages.
 
 Nous disposons d'une [offre Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) offrant une redondance
 synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.

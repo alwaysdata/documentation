@@ -134,7 +134,7 @@ Voici les paramètres :
 
 Veillez à remplacer les valeurs suivantes :
 
-- `IP` : l'*IPv4* sur laquelle l'application doit écouter, indiqué sous le champ *Commande*. Cette adresse est
+- `IP` : l'*IPv4* sur laquelle l'application doit écouter, indiquée sous le champ *Commande*. Cette adresse est
   spécifique à chaque application, et les outils Node.js s'attendent généralement à ce qu'elle soit exposée par la
   variable d'environnement `HOST` (nous travaillons sur ce point).
 - `nom d'utilisateur` : le nom de votre compte alwaysdata

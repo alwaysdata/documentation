@@ -38,12 +38,12 @@ la suspension ou résiliation immédiate de votre profil**. Quelques exemples :
 - tentatives de pénétration de systèmes extérieurs (hacking) depuis les serveurs alwaysdata ;
 - tout autre usage illicite.
 
-## Non respect des CGV/CGU
+## Non-respect des CGV/CGU
 
 Le fait de ne pas respecter nos _CGV/CGU_ est passible d'une suspension de votre profil. Voici une liste - non
 exhaustive - d'interdictions pour nos clients _non payants_ :
 
-- faire des requêtes excessives (scrapping) depuis les serveurs alwaysdata ;
+- faire des requêtes excessives (scraping) depuis les serveurs alwaysdata ;
 - avoir plusieurs comptes ;
   - attention à ne pas confondre compte et fonctionnalités (sites web, domaines, adresses email, bases de données, etc.)
     ;

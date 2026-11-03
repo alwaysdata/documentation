@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 5
 ---
 
-Pour de nombreuses raisons, une alerte peut-être enclenchée par notre système dont voici le fonctionnement :
+Pour de nombreuses raisons, une alerte peut être enclenchée par notre système dont voici le fonctionnement :
 
 - **ouverture** de l'alerte (par un événement déclencheur) avec envoi d'un email informant le(s) utilisateur(s)
   concerné(s) ;
@@ -27,13 +27,13 @@ comptes laissés à l'abandon.
   - un profil ayant été créé entre 1 et 4 ans doit se connecter tous les 6 mois ;
   - un profil ayant 4 ans d'ancienneté, 1 connexion par an est nécessaire.
 - résolution : se connecter à l'interface d'administration ;
-- expiration : suspension du profil inactif et ses comptes.
+- expiration : suspension du profil inactif et de ses comptes.
 
 ### Situation financière irrégulière
 
 - événement déclencheur : solde négatif (à l'émission d'une facture par exemple) ;
 - résolution : régler afin d'avoir un solde supérieur ou égal à zéro ;
-- expiration : suspension du profil concerné et ses comptes.
+- expiration : suspension du profil concerné et de ses comptes.
 
 ### Expiration de domaine
 

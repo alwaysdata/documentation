@@ -41,12 +41,12 @@ Entrez vos coordonnées bancaires - compte ou carte - dans l'interface d'adminis
 Ce moyen de paiement sera alors prélevé automatiquement de la somme due. Vous n'avez plus à vous soucier de payer votre
 hébergement alwaysdata.
 
-Lorsque vous activez le prélèvement automatique sur votre compte bancaire, remettez à votre banque, une [autorisation de
+Lorsque vous activez le prélèvement automatique sur votre compte bancaire, remettez à votre banque une [autorisation de
 prélèvement](http://static.alwaysdata.com/docs/Prelevement.png).
 
 ## Chorus Pro
 
-Les factures d'hébergement peuvent être mise à disposition sur le portail [Chorus Pro](https://portail.chorus-pro.gouv.fr/).
+Les factures d'hébergement peuvent être mises à disposition sur le portail [Chorus Pro](https://portail.chorus-pro.gouv.fr/).
 
 Pour cela, renseignez dans le menu **Facturation > Moyens de paiement > Paramètres** votre SIRET et le code de service
 (si votre administration en utilise un).

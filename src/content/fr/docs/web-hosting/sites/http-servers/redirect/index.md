@@ -20,7 +20,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 - URL de destination : adresse vers laquelle la redirection sera faite ;
 - Type de redirection :
   - permanente (code HTTP `301`) : pour un usage classique, rediriger un visiteur d'une adresse A vers une adresse B.
-    Les moteurs de recherche qui mettent à jour leur index avec la nouvelle page de destination ;
+    Les moteurs de recherche mettent à jour leur index avec la nouvelle page de destination ;
   - temporaire (code HTTP `302`) : généralement utilisé lors de maintenance d'un site. Les moteurs de recherche
     conservent la page de départ dans leur index ;
 - Ajouter le chemin de la requête à l'URL de destination.

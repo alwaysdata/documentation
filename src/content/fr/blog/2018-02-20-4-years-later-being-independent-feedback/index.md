@@ -25,7 +25,7 @@ Et ce parmi d'autres fonctionnalités.
 ![interface d'administration alwaysdata - page de status - capture d'écran [fr]](images/interface-dadministration-alwaysdata-page-de-status-capture-decran-fr.png)
 
 Si nous avons fait le choix d'un développement sur-mesure pour nos outils, c'est parce que dès les débuts d'*alwaysdata*
-en 2006, nous ne parvenions pas à trouver une offre qui répondait à nos besoins en terme d'hébergement. Dix ans plus
+en 2006, nous ne parvenions pas à trouver une offre qui répondait à nos besoins en termes d'hébergement. Dix ans plus
 tard, nous ne regrettons pas ce choix, qui nous permet de vous proposer une solution fiable et pleinement adaptée à la
 souplesse et à la simplicité d'usage que nous vous promettons. Car c'est là notre force et ce qui nous différencie :
 nous ne sommes pas uniquement hébergeur, nous sommes également et principalement infogéreur. Lorsque vous disposez d'un
@@ -44,9 +44,9 @@ Les premières années, nous nous sommes appuyés sur l'architecture d'*OVH*, av
 le temps nécessaire à mûrir notre projet : interface de gestion, supervision, support, *alproxy*, gestionnaires de
 comptes, ordonnanceurs…
 
-Il y a quatre ans, conscients que le chemin parcouru était conséquent, et lassés de devoir s'appuyer sur la qualité de
-service de nos prestataires — qui n'était pas toujours au rendez-vous et avait un impact direct sur nos clients — nous
-avons conclu qu'il était temps de devenir notre propre opérateur matériel et réseau.
+Il y a quatre ans, conscients que le chemin parcouru était conséquent, et lassés de devoir nous appuyer sur la qualité
+de service de nos prestataires — qui n'était pas toujours au rendez-vous et avait un impact direct sur nos clients —
+nous avons conclu qu'il était temps de devenir notre propre opérateur matériel et réseau.
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmprZnFjMzNybG9mYWRtc2FwZGducXpzZzY5ZDdheGgydWlvNzcwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xQQP4ahKiyuxHy/giphy.gif)
 
@@ -144,7 +144,7 @@ encore plus loin. Plutôt que de vous les révéler, je vous propose un petit je
 technos, peut-être même improbables ou loufoques, matérielles ou logicielles, que vous imagineriez voir arriver
 prochainement chez *alwaysdata* ?
 
-[^1]: à part un faux-départ au début, un dimanche, à une heure du matin, qui n'a même pas duré cinq minutes
+[^1]: à part un faux départ au début, un dimanche, à une heure du matin, qui n'a même pas duré cinq minutes
 [^2]: pour des motifs parfois aussi triviaux qu'un coup de chaleur
-[^3]: sous peu, une nouvelle offre **gold** fera son arrivée chez *alwaysdata*, qui vous permettra notamment d'accéder à d'autres options de haute-disponibilité dont vous pourriez avoir besoin, incluant par exemple une redondance physique dans un second data center, et un taux de disponibilité de 99.95%
+[^3]: sous peu, une nouvelle offre **gold** fera son arrivée chez *alwaysdata*, qui vous permettra notamment d'accéder à d'autres options de haute disponibilité dont vous pourriez avoir besoin, incluant par exemple une redondance physique dans un second data center, et un taux de disponibilité de 99.95%
 [^4]: et encore, sur ces derniers mois uniquement, avec des disques neufs qui devaient provenir d'un mauvais lot

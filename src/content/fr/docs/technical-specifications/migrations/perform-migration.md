@@ -24,7 +24,7 @@ requêtes SQL.
 
 ## 3. Préparer la migration
 
-Avant d'effectuer réellement la migration, vous aurez la possibilité d'effectuer un certain nombres d'actions. Cela vous
+Avant d'effectuer réellement la migration, vous aurez la possibilité d'effectuer un certain nombre d'actions. Cela vous
 permet de vous assurer que vos applications continueront à fonctionner, et de les corriger dans le cas contraire.
 
 ### Test des bases de données

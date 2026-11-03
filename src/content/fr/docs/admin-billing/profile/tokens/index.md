@@ -17,7 +17,7 @@ Il est nécessaire d'avoir activé l'[authentification 2
 facteurs](/fr/docs/admin-facturation/profil/authentification-2-facteurs/) pour générer/modifier ses tokens.
 
 > [!TIP] Astuce
-> Pour encore plus de sécurité, générez en un par application.
+> Pour encore plus de sécurité, générez-en un par application.
 
 Comme pour l'interface d'administration vous pouvez ne donner accès qu'à [certaines IP](/fr/docs/admin-facturation/profil/autorisation-dacces-selon-IP).
 

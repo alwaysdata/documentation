@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 10
 ---
 
-Il est possible de dupliquer une base de données via **Bases de données > [SGBD] > Dupliquer la [base de donnée] - 📄**.
+Il est possible de dupliquer une base de données via **Bases de données > [SGBD] > Dupliquer la [base de données] - 📄**.
 
 ![](images/list.png)
 

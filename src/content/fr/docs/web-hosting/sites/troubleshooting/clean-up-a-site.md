@@ -27,7 +27,7 @@ Les commandes ci-après, présentées pour un site utilisant PHP, sont exécuté
 [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) dans le répertoire de votre site.
 
 - Vérifiez que des redirections ou autres directives n'aient pas été rajoutées à votre insu en contrôlant le contenu de
-  vos fichiers `.htaccess`. Il ne devrait y en avoir à priori qu'un, situé à la racine de votre site :
+  vos fichiers `.htaccess`. Il ne devrait y en avoir a priori qu'un, situé à la racine de votre site :
 
     ```sh
     find . -type f -name .htaccess
@@ -79,7 +79,7 @@ Tous ces fichiers doivent être **supprimés**.
     find . -type d -name ".*"
     ```
 
-- Listez les fichiers modifiés ces dernières 24 heures (1 étant le nombre de jour) :
+- Listez les fichiers modifiés ces dernières 24 heures (1 étant le nombre de jours) :
 
     ```sh
     find . -type f -mtime -1 -print
@@ -91,7 +91,7 @@ Tous ces fichiers doivent être **supprimés**.
 
 En fonction de la date de création des fichiers, de leur nom et de leur appel, il est possible de retrouver l'URL
 permissive appelée.
-Pour se faire, épluchez les requêtes POST de vos logs Apache situés dans le répertoire `/home/[compte]/admin/logs/http`
+Pour ce faire, épluchez les requêtes POST de vos logs Apache situés dans le répertoire `/home/[compte]/admin/logs/http`
 :
 
 ```sh

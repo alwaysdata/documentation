@@ -24,7 +24,7 @@ Il peut y avoir de nombreuses raisons : manque d'optimisation, ressource externe
 ### Sessions bloquées
 
 Chaque fois qu'une session PHP est démarrée, un fichier est créé (`session.save_path`) reprenant toutes ses informations
-et lui allouera un ID. Lorsqu'un utilisateur revient il fournira cet ID qui permettra a `session_start()` de récupérer
+et lui allouera un ID. Lorsqu'un utilisateur revient il fournira cet ID qui permettra à `session_start()` de récupérer
 ses données de session. Chaque fois que `session_start()` est démarré le fichier de session est verrouillé à l'aide de
 `flock`.
 
@@ -32,7 +32,7 @@ Cela peut entraîner des problèmes lorsque deux processus PHP tentent d'accéde
 deuxième devra attendre que le premier se termine pour s'exécuter pour éviter des incidents de concurrence. Cela
 entraîne de ce fait des lenteurs voire des indisponibilités.
 
-L'analyse de vos processus HTTP renvoient :
+L'analyse de vos processus HTTP renvoie :
 
 ```sh
 $ strace -f -p1821543 -p1822026
@@ -70,7 +70,7 @@ export PHP_VERSION=<version>
 export PHPRC=/chemin/vers/php.ini
 ```
 
-ou encore pour le `php.ini`:
+ou encore pour le `php.ini` :
 
 ```sh
 php -c /chemin/vers/php.ini

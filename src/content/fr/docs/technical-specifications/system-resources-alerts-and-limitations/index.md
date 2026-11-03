@@ -10,7 +10,7 @@ eleventyNavigation:
 > [!NOTE]
 > Fonctionnalité disponible uniquement sur les environnements [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive).
 
-Le menu **Ressources** permet de configurer ses ressources système, comme  l'espace disque, le CPU ou la mémoire :
+Le menu **Ressources** permet de configurer ses ressources système, comme l'espace disque, le CPU ou la mémoire :
 
 ![](images/admin-panel_resources.png)
 
@@ -26,7 +26,7 @@ Le menu **Ressources** permet de configurer ses ressources système, comme  l'es
 Il est possible de gérer ces trois limites au niveau *serveur* ou au niveau *compte*. Les valeurs au niveau du compte
 **prennent l'avantage** sur les valeurs serveurs.
 
-- *Seuil de RAM* : seuil auquel est effectué le script présenté dessous.
+- *Seuil de RAM* : seuil auquel est effectué le script présenté ci-dessous.
 
 - *Commande à exécuter en cas de dépassement du seuil de RAM* : commande/script exécuté par le système lorsque le seuil
   est atteint. Cela permet de ne pas tuer un processus "au hasard".

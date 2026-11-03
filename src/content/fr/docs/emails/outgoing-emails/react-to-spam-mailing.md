@@ -13,7 +13,7 @@ On observe 3 principales raisons à un envoi de spam :
 - une attaque sur un formulaire de site internet ;
 - un vol de mot de passe.
 
-C'est ces deux dernières que nous allons présenter ici.
+Ce sont ces deux dernières que nous allons présenter ici.
 
 ## Attaque sur formulaire
 

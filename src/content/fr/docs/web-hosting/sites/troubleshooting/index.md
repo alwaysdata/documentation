@@ -34,12 +34,12 @@ directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html
 ### Erreurs 500
 
 Ces erreurs peuvent être renvoyées par le serveur web (exemple Apache), le langage utilisé ou l'application elle-même.
-Mettre en place des logs de debogguage permet d'avoir plus d'informations pour corriger.
+Mettre en place des logs de débogage permet d'avoir plus d'informations pour corriger.
 
 ### Page blanche
 
 Une page blanche sans message ni code d'erreur signifie généralement un problème applicatif : le code renvoyé par les
-logs HTTP est *200*, indiquant que la requête atteint l'application. Mettre en place des logs de debogguage permet
+logs HTTP est *200*, indiquant que la requête atteint l'application. Mettre en place des logs de débogage permet
 d'avoir plus d'informations pour corriger.
 
 ## Logs Apache
@@ -65,6 +65,6 @@ Premature end of script headers: index.php, referer: https://example.org
 Le *serveur* s'est arrêté subitement et Apache renvoie une erreur 500. **Cela ne doit pas arriver en situation
 normale.** Cela peut provenir de nombreuses raisons (bug PHP, bug applicatif, processus PHP tué par le kernel, etc.).
 
-Il vous faut analyser tous les logs à votre disposition pour trouve la cause : logs applicatifs, logs PHP...
+Il vous faut analyser tous les logs à votre disposition pour trouver la cause : logs applicatifs, logs PHP...
 
 [^1]: Plus d'informations sur [whois](https://fr.wikipedia.org/wiki/Whois)

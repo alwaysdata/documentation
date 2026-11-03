@@ -211,12 +211,12 @@ byte[] encrypted = SodiumLibrary.cryptoSecretBoxEasy(dataBytes, nonceBytes, key)
 
 ### Le côté obscur
 
-Le plus tôt les données sont chiffrées, meilleure sera leur protection dans votre architecture. C'est le principe du
+Plus tôt les données sont chiffrées, meilleure sera leur protection dans votre architecture. C'est le principe du
 chiffrement **point à point** : les opérations cryptographiques devraient s'exécuter dans le client. Heureusement,
 *libsodium* est utilisable dans un client mobile grâce à [libsodium-jni](https://github.com/joshjdevl/libsodium-jni)
 pour Android, et [swift-sodium](https://github.com/jedisct1/swift-sodium) pour iOS[^5].
 
-Le problème reste la cible Web. *WebCrypto* est une bonne API bas-niveau, mais… et bien… elle reste bas niveau
+Le problème reste la cible Web. *WebCrypto* est une bonne API bas niveau, mais… eh bien… elle reste bas niveau
 ¯\\*(ツ)*/¯. Au quotidien, c'est inexploitable, et nous avons besoin d'un outil plus efficace. Un autre problème est lié
 à la nature même de *JavaScript* qui ne peut garantir, par son design, des prérequis suffisants pour protéger
 l'environnement autour de la couche cryptographique.

@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 4
 ---
 
-1. Allez dans **Domaines > Details de [example.org] - 🔎 > Enregistrements DNS** ;
+1. Allez dans **Domaines > Détails de [example.org] - 🔎 > Enregistrements DNS** ;
 2. Cliquez sur la **poubelle** correspondant à l'enregistrement à supprimer.
 ![](images/admin-panel_dns-record-list.png)
 

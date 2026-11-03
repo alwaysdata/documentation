@@ -18,19 +18,19 @@ eleventyNavigation:
 |---|---|---|---|
 |Entrant|IMAP|Nom d'hôte|imap-*[compte]*.alwaysdata.net|
 |||Port|993|
-|||Sécurité de la connexion|Sera automatiquement choisi|
+|||Sécurité de la connexion|Sera automatiquement choisie|
 |||Méthode d'authentification|Mot de passe normal|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 ||POP3|Nom d'hôte|pop-*[compte]*.alwaysdata.net|
 |||Port|995|
-|||Sécurité de la connexion|Sera automatiquement choisi|
+|||Sécurité de la connexion|Sera automatiquement choisie|
 |||Méthode d'authentification|Mot de passe normal|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |Sortant|SMTP|Nom d'hôte|smtp-*[compte]*.alwaysdata.net|
 |||Port|465|
-|||Sécurité de la connexion|Sera automatiquement choisi|
+|||Sécurité de la connexion|Sera automatiquement choisie|
 |||Méthode d'authentification|Mot de passe normal|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|

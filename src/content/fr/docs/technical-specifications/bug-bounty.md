@@ -59,7 +59,7 @@ détaillée pour démontrer le problème et qu'elle respecte toujours les direct
 
 ## Périmètre et tests
 
-Le périmètre de recherche inclus seulement les adresses suivantes :
+Le périmètre de recherche inclut seulement les adresses suivantes :
 
 ```txt
 - https://www.alwaysdata.com
@@ -121,7 +121,7 @@ Ce qui suit est simplement un indicateur de récompenses, mais ne reflète pas c
 ### Éligibilité
 
 Nous sommes heureux de remercier tous ceux qui soumettent des rapports valides qui nous aident à améliorer la sécurité
-de *alwaysdata*. Cependant, seuls ceux qui répondent aux exigences d'éligibilité suivantes peuvent recevoir une
+d'*alwaysdata*. Cependant, seuls ceux qui répondent aux exigences d'éligibilité suivantes peuvent recevoir une
 récompense monétaire :
 
 * Vous devez être le premier à signaler une faille ;
@@ -134,7 +134,7 @@ récompense monétaire :
 * Vous devez éviter les tests qui pourraient causer la dégradation ou l'interruption de notre service (s'abstenir
   d'utiliser des outils automatisés et limiter les demandes par seconde) ;
 * Vous ne devez pas divulguer, manipuler ou détruire les données des utilisateurs ;
-* Vous ne devez pas être un ancien employé (depuis 1 an) ou un employé actuel de *alwaysdata*, ou l'un de ses sous-traitants.
+* Vous ne devez pas être un ancien employé (depuis 1 an) ou un employé actuel d'*alwaysdata*, ou l'un de ses sous-traitants.
 
 Aucune divulgation de faille, y compris partielle, n'est autorisée avant que le correctif soit appliqué et que nous
 acceptions la publication.
@@ -184,8 +184,8 @@ La liste suivante comprend les rapports de vulnérabilité non acceptés par nos
 
 * Toute faille hypothétique ou meilleures pratiques sans POC exploitable ;
 * CSRF de connexion, déconnexion, non authentifié ou de faible valeur ;
-* Absence de en-têtes HTTP liés à la sécurité qui ne mènent pas directement à une faille ;
-* Présence/absence de enregistrements SPF/DMARC ;
+* Absence d'en-têtes HTTP liés à la sécurité qui ne mènent pas directement à une faille ;
+* Présence/absence d'enregistrements SPF/DMARC ;
 * Rapports sur des chiffrements SSL/TLS non sécurisés (à moins que vous ayez un POC fonctionnel) ;
 * Attaques par force brute/réutilisation de mot de passe ;
 * Attaques d'énumération d'utilisateurs ;
@@ -229,7 +229,7 @@ Notez que :
 * le nom des comptes est [accessible de nombreuses façons
   différentes](/fr/docs/hebergement-web/acces-distant/divers#lister-les-comptes) ;
 * les adresses en `.alwaysdata.net` sont liées aux comptes de nos clients. Leurs failles ne sont pas de notre ressort ;
-  * notamment s'ils divulguent leurs informations de connexions ;
+  * notamment s'ils divulguent leurs informations de connexion ;
 * Le répertoire `/tmp` est un [répertoire partagé](/fr/docs/hebergement-web/acces-distant/divers#repertoire-tmp) ;
 * `https://files.alwaysdata.com` et `https://share.alwaysdata.com` présentent des fichiers publics ;
 * le lien de réinitialisation du mot de passe expire après 3 jours ou la prochaine connexion à l'interface
@@ -238,7 +238,7 @@ Notez que :
   NIST](https://pages.nist.gov/800-63-3/sp800-63-3.html) ;
 * la vérification de l'email (que ce soit à l'inscription, à la modification d'informations de profil ou autre) n'est
   qu'une pratique, non une faille ;
-* les injections HTML et XSS dans dans l'interface d'administration ne cibleraient que l'attaquant et ne peuvent donc
+* les injections HTML et XSS dans l'interface d'administration ne cibleraient que l'attaquant et ne peuvent donc
   être des failles ;
 * nous n'utilisons pas de CDN et nos IP sont publiques ;
 * le numéro de version des logiciels que nous utilisons [ne peut être déterminant](/fr/docs/caracteristiques-techniques/mises-a-jour-de-securite).

@@ -39,7 +39,7 @@ STDERR: Unable to open logs
 ```
 
 Tentez de redémarrer l'instance Apache (**Web > Sites > Redémarrer** un site de type PHP) pour le régénérer ou effectuez
-un changement notoire sur l'un des sites concerné (par exemple en ajoutant une adresse fictive).
+un changement notoire sur l'un des sites concernés (par exemple en ajoutant une adresse fictive).
 
 ### Caractères parasites
 
@@ -48,9 +48,9 @@ STDERR: Syntax error on line XXX of /home/foo/admin/config/apache/sites.conf:
 STDERR: Invalid command 'XXX', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on été ajoutés dans le champ **Directives
+Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe ont été ajoutés dans le champ **Directives
 globales** d'un site de type **Apache personnalisé**, au niveau du champ **virtual host** du site concerné ou au niveau
-de la configuration Apache (**Web > Configuration > Apache**). Corrigez ou supprimez les.
+de la configuration Apache (**Web > Configuration > Apache**). Corrigez ou supprimez-les.
 
 > [!NOTE]
 > Il n'y a qu'un serveur Apache par compte, préférez donc gérer les [directives Apache](https://httpd.apache.org/docs/)
@@ -86,7 +86,7 @@ Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du pro
 [SSH](/fr/docs/hebergement-web/acces-distant/ssh/). Notamment s'il écoute bien :
 
 - en IPv6 ;
-- sur l'IP et le port donné.
+- sur l'IP et le port donnés.
 
 ### Upstream not ready
 

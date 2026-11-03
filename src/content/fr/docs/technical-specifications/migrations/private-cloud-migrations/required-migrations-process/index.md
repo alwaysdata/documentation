@@ -66,7 +66,8 @@ L'utilisateur peut faire des modifications applicatives une fois un compte migr�
 > Il lui est aussi possible de faire un retour en arrière et repasser *temporairement* sur l'ancienne infrastructure en
 > cas de souci.
 
-Une fois l'ensemble des comptes migrés il contacte le support pour que celui procède à la réinstallation de son serveur.
+Une fois l'ensemble des comptes migrés il contacte le support pour que celui-ci procède à la réinstallation de son
+serveur.
 
 ![](images/migration-5.png)
 
@@ -74,8 +75,8 @@ Une fois l'ensemble des comptes migrés il contacte le support pour que celui pr
 
 **Tous les comptes sont migrés sur la nouvelle infrastructure logicielle et sont sur le serveur de transit.**
 
-Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infrastructure. Cela peut durer plusieures
-heures et précopie à les fichiers et emails.
+Le support réinstalle le serveur client pour qu'il tourne sur la nouvelle infrastructure. Cela peut durer plusieurs
+heures et précopie les fichiers et emails.
 
 > Le retour en arrière temporaire n'est alors plus possible.
 
@@ -91,7 +92,7 @@ heures et précopie à les fichiers et emails.
 ### Étape 7 - Finalisation : redéplacement des comptes sur le serveur client
 
 **Le serveur client est réinstallé.** Le support contacte l'utilisateur pour procéder au redéplacement des comptes.
-*Cette étape de finalisation peut être effectuée par le support en heure et jours ouvrés ou par l'utilisateur.*
+*Cette étape de finalisation peut être effectuée par le support en heures et jours ouvrés ou par l'utilisateur.*
 
 Ce redéplacement final des comptes entraîne une coupure par compte équivalente à l'indisponibilité lors de la première migration.
 
@@ -115,7 +116,7 @@ Tous les comptes ont été redéplacés sur le serveur client réinstallé.
   transit partagé à tous les clients dédiés et VPS. Néanmoins :
   - ce serveur peut ne pas correspondre à la configuration du serveur client ;
   - aucune précopie des fichiers et emails n'est effectuée : le temps de migration peut donc être allongé ;
-  - les utilisateurs n'ont pas accès aux personnalisations serveurs et au parefeu qu'ils ont paramétré ;
+  - les utilisateurs n'ont pas accès aux personnalisations serveurs et au pare-feu qu'ils ont paramétrés ;
   - la mise à disposition de ce serveur de transit partagé est validée au cas par cas par le support en fonction des
     caractéristiques du serveur client et de ses comptes.
 

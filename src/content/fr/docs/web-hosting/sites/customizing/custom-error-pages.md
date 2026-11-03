@@ -17,7 +17,7 @@ il est possible de configurer cela à différents niveaux.
 
 ## Application
 
-Voici une liste non-exhaustive à consulter selon votre application :
+Voici une liste non exhaustive à consulter selon votre application :
 
 - [CakePHP](https://book.cakephp.org/3/fr/development/errors.html) ;
 - [Django](https://docs.djangoproject.com/en/dev/topics/http/views/#customizing-error-views) ;

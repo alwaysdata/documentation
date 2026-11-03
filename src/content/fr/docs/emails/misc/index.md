@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 99
 ---
 
-## Limite du nombre d'envoi d'emails
+## Limite du nombre d'envois d'emails
 
 Il n'y a pas de limites mais lors d'un envoi important, tous les emails ne partiront pas en même temps. Ils seront
 envoyés "au fil de l'eau".

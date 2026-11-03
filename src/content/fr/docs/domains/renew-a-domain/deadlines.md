@@ -17,7 +17,7 @@ Différentes dates existent :
 - Restauration possible : le domaine est en _rédemption_ ; il peut être restauré auprès du registre, mais sa facturation
   est _plus chère_ par le registre.
 - Destruction au registre : date à partir de laquelle le domaine peut _redevenir disponible_ à l’enregistrement.
-  Certains registres ajoute une période aléatoire à cette date avant la destruction du domaine afin de permettre
+  Certains registres ajoutent une période aléatoire à cette date avant la destruction du domaine afin de permettre
   l’application de la règle "premier arrivé, premier servi".
 
 |Extension|Renouvellement possible|Renouvellement tardif possible|Effacement chez alwaysdata|Restauration possible|Destruction par le registre|
@@ -168,7 +168,7 @@ Différentes dates existent :
 |.gl|Jusqu’à expiration|Impossible|Jour de l’expiration|Jusqu’à 30 jours après expiration|30 jours après expiration|
 |.glass|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.global|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
-|.gr|Jusqu’à 2 jour avant expiration|Impossible|1 jour avant expiration|Entre 1 jour avant et 14 jours après expiration|14 jours après expiration|
+|.gr|Jusqu’à 2 jours avant expiration|Impossible|1 jour avant expiration|Entre 1 jour avant et 14 jours après expiration|14 jours après expiration|
 |.graphics|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.gratis|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.green|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|

@@ -11,13 +11,13 @@ L'offre d'hébergement d'alwaysdata est qualifiée de
 [Platform-as-a-Service](https://fr.wikipedia.org/wiki/Plate-forme_en_tant_que_service)[^1] : elle fournit
 l'infrastructure (data cen­ter , réseau, machines phy­siques, etc.) et la pile système (OS[^2], inter­pré­teurs,
 biblio­thèques, bases de don­nées, sécu­ri­té, etc.). Les utilisateurs n'ont à s'occuper que des déploiements,
-sécurisations et mises à jours de leurs applications.
+sécurisations et mises à jour de leurs applications.
 
 alwaysdata propose plusieurs types d'environnement :
 
 | Nom | | Description |
 | --- | --- | --- |
-| [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) / Offres Free et Plus | | Compte d'hébergement dispatché sur plusieurs serveurs - hébergeants des centaines d'utilisateurs |
+| [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) / Offres Free et Plus | | Compte d'hébergement dispatché sur plusieurs serveurs - hébergeant des centaines d'utilisateurs |
 | | | GTI 1h, GTR 4h, Taux de disponibilité 99.7 % |
 | [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) / Offres Max | Dédié | Serveur physique réservé à un seul utilisateur |
 | | | Isolation par compte sans facturation supplémentaire |

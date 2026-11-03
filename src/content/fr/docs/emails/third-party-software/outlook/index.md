@@ -17,19 +17,19 @@ eleventyNavigation:
 |---|---|---|---|
 |Entrant|IMAP|Serveur|imap-*[compte]*.alwaysdata.net|
 |||Port|993|
-|||Méthode de chiffrement|Sera automatiquement choisi|
+|||Méthode de chiffrement|Sera automatiquement choisie|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
 |||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 ||POP3|Serveur|pop-*[compte]*.alwaysdata.net|
 |||Port|995|
-|||Méthode de chiffrement|Sera automatiquement choisi|
+|||Méthode de chiffrement|Sera automatiquement choisie|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
 |||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |Sortant|SMTP|Serveur|smtp-*[compte]*.alwaysdata.net|
 |||Port|465|
-|||Méthode de chiffrement|Sera automatiquement choisi|
+|||Méthode de chiffrement|Sera automatiquement choisie|
 |||Méthode d'authentification|Exiger l'authentification par mot de passe sécurisé (SPA) lors de la connexion|
 |||Adresse de courrier|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|

@@ -39,17 +39,17 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 - *Répertoire de travail* : `/home/[compte]/mongodb`
 
 Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le
-service sur un port entre 8300 à 8499 à la place du port par défaut de MongoDB.
+service sur un port entre 8300 et 8499 à la place du port par défaut de MongoDB.
 
 L'adresse pour se connecter à l'instance MongoDB sera `services-[compte].alwaysdata.net:[port]`.
 
 > [!NOTE]
 > Remplacez `[port]` par le port choisi au niveau de la commande.
 
-### Création de la règle de parefeu
+### Création de la règle de pare-feu
 
 Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port
-utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
+utilisé en créant une règle sur le [pare-feu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
 souhaitent y accéder depuis l'extérieur :
 
 | Intitulé | Valeur |

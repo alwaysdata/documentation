@@ -12,7 +12,7 @@ eleventyNavigation:
 Il est de notre responsabilité à tous d'effectuer les efforts possibles dans le cadre de notre mission afin de limiter
 l'impact de notre activité dans les émissions néfastes pour notre planète.
 
-Ainsi, notre entreprise a intégré les éléments suivant dans son fonctionnement quotidien :
+Ainsi, notre entreprise a intégré les éléments suivants dans son fonctionnement quotidien :
 
 * **Télétravail à 100%** : notre équipe travaille depuis plusieurs années en télétravail, permettant ainsi de limiter
   toutes les émissions liées au transport (à l'exception des déplacements en datacenters) ;
@@ -27,8 +27,8 @@ Ainsi, notre entreprise a intégré les éléments suivant dans son fonctionneme
 _Dernière mise à jour : 26 février 2026._
 
 Chaque année, nous souhaitons **compenser à hauteur de 200%** nos émissions de GES (gaz à effet de serre). Bien que
-notre impact soit extrêment compliqué à déterminer de manière précise, nous voulons détailler ici en toute transparence
-notre méthode de calcul pour déterminer le budget alloué à cette compensation.
+notre impact soit extrêmement compliqué à déterminer de manière précise, nous voulons détailler ici en toute
+transparence notre méthode de calcul pour déterminer le budget alloué à cette compensation.
 
 ### Données et hypothèses
 

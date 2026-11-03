@@ -14,7 +14,7 @@ que votre site supporte la charge ? Voici des actions pouvant être entreprises 
 - activer le **[cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/)** sur l'interface
   d'administration et/ou au niveau applicatif en utilisant [Memcached](/fr/docs/developpement/guides/memcached/),
   [Redis](/fr/docs/developpement/guides/redis/) ou tout autre cache logiciel ;
-- passer sur les versions de langages les plus récentes possibles  - pour améliorer les performances ;
+- passer sur les versions de langages les plus récentes possibles - pour améliorer les performances ;
 - faire une redirection vers une **[page statique](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/)** -
   utilisant bien moins de ressources, elles sont plus rapides à renvoyer.
 
@@ -79,7 +79,7 @@ Percentage of the requests served within a certain time (ms)
 
 L'information importante est : `Requests per second:    13.27 [#/sec] (mean)`.
 
-300 000 visites en 10 heures (petite journée) correspond à 8,3 requêtes par secondes. La configuration actuelle est donc
+300 000 visites en 10 heures (petite journée) correspond à 8,3 requêtes par seconde. La configuration actuelle est donc
 compatible.
 
 - [Documentation de `ab`](https://httpd.apache.org/docs/2.4/programs/ab.html)

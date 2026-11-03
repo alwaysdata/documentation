@@ -7,25 +7,25 @@ eleventyNavigation:
   order: 5
 ---
 
-Le cache HTTP stocke tem­po­rai­re­ment des docu­ments web (exemples : pages HTML, docu­ments CSS, images) pour
-dimi­nuer la latence induite par le ser­veur lors­qu’il doit ser­vir une page et/ou réduire sa charge de travail.
+Le cache HTTP stocke temporairement des documents web (exemples : pages HTML, documents CSS, images) pour
+diminuer la latence induite par le serveur lorsqu’il doit servir une page et/ou réduire sa charge de travail.
 
 - [Activer le cache HTTP sur WordPress](/fr/docs/hebergement-web/sites/personnalisation/activer-le-cache-http-sur-wordpress/)
 
 ## Concept
 
-Lorsqu’un utilisateur tente d'accéder à une page, le serveur web correspondant va géné­rer une page et l’en­voyer sur le
-réseau. Le cache inter­cepte alors la réponse pour la stocker dans sa mémoire locale avant de la ser­vir à
+Lorsqu’un utilisateur tente d'accéder à une page, le serveur web correspondant va générer une page et l’envoyer sur le
+réseau. Le cache intercepte alors la réponse pour la stocker dans sa mémoire locale avant de la servir à
 l'utilisateur.
 
-![Mise en cache d’une res­source lors de sa requête](images/http-cache_part-1.png)
+![Mise en cache d’une ressource lors de sa requête](images/http-cache_part-1.png)
 
 Lorsqu’une requête pour la même page est émise par le même ou un autre utilisateur, le cache la restituera comme il
-détient alors une copie de la res­source deman­dée. Le ser­veur web ne sera plus inter­ro­gé.
+détient alors une copie de la ressource demandée. Le serveur web ne sera plus interrogé.
 
-![Restitution d’une res­source pré­cé­dement mise en cache](images/http-cache_part-2.png)
+![Restitution d’une ressource précédemment mise en cache](images/http-cache_part-2.png)
 
-Les spé­ci­fi­ca­tions du stan­dard sont exposées dans la [RFC 7234](https://tools.ietf.org/html/rfc7234).
+Les spécifications du standard sont exposées dans la [RFC 7234](https://tools.ietf.org/html/rfc7234).
 
 ## Utiliser le cache HTTP
 
@@ -49,7 +49,7 @@ Une réponse ne peut **PAS** être cachée si :
 
 ### 2. Activez le cache HTTP
 
-Rendez vous dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
+Rendez-vous dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
 
 ![](images/admin-panel_add-site-cache.png)
 

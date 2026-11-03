@@ -19,7 +19,7 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 ![](images/admin-panel_add-site-general.png)
 
 - Type : Fichiers statiques ;
-- Répertoire racine : répertoire dans lequel est placé votre application.
+- Répertoire racine : répertoire dans lequel est placée votre application.
 
 ![](images/admin-panel_static-files.png)
 

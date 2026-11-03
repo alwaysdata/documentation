@@ -52,7 +52,7 @@ port = 5984
 > `monsupermotdepasse` est à remplacer par le mot de passe de votre choix.
 
 Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le
-service sur un port entre 8300 à 8499 et modifier cette valeur dans le fichier de configuration.
+service sur un port entre 8300 et 8499 et modifier cette valeur dans le fichier de configuration.
 
 ### Lancement du service
 
@@ -71,10 +71,10 @@ curl -X GET http://admin:monsupermotdepasse@services-[compte].alwaysdata.net:[po
 > [!NOTE]
 > `[port]` est à remplacer par le port indiqué dans le fichier `local.ini`.
 
-### Création de la règle de parefeu
+### Création de la règle de pare-feu
 
 Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port
-utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
+utilisé en créant une règle sur le [pare-feu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
 souhaitent y accéder depuis l'extérieur :
 
 | Intitulé | Valeur |

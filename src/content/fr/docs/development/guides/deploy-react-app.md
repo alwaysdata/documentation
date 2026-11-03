@@ -25,7 +25,7 @@ pointant vers le répertoire de votre choix (par exemple
 
 ## Côté développement
 
-Commencez par ajouter dans votre fichier `package.json` une entrée [indiquant au build l'_URL_ final de votre projet en
+Commencez par ajouter dans votre fichier `package.json` une entrée [indiquant au build l'_URL_ finale de votre projet en
 production](https://create-react-app.dev/docs/deployment/#building-for-relative-paths), par exemple :
 
 ```json

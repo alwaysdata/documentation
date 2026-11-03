@@ -22,7 +22,7 @@ Vous pouvez paramétrer les permissions via le menu **Permissions** de votre esp
   facturation par nos services et de payer les factures, acheter/renouveler/transférer les domaines (menu *Facturation*)
   ;
 - **Technique au niveau des comptes** : permet aux équipes techniques de gérer l'aspect purement technique de votre
-  hébergement (sites, emails, bases de données..) sans se soucier de sa gestion et facturation ;
+  hébergement (sites, emails, bases de données...) sans se soucier de sa gestion et facturation ;
 - **Technique au niveau des serveurs** : disponible sur [Cloud
   Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/), votre administrateur réseau pourra gérer règles de
   firewall, queue d'envoi des emails et bien d'autres...
@@ -49,7 +49,7 @@ externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des
   Analytics*)  ;
 - **[Sites](/fr/docs/hebergement-web/sites/)** : configurez les sites web et l'environnement Apache (menus *Web >
   Sites*, *Web > Configuration*) ;
-- **[Domaines](/fr/docs/domaines/)** gérez techniquement les domaines et leurs DNS (menu *Domaines*). Pour toutes les
+- **[Domaines](/fr/docs/domaines/)** : gérez techniquement les domaines et leurs DNS (menu *Domaines*). Pour toutes les
   opérations facturables, il faudra aussi les permissions **Facturation** sur le profil propriétaire ;
 - **[Emails](/fr/docs/emails/)** (menus *Emails > Adresses*, *Emails > Listes de diffusion*, *Emails > Configuration*) ;
 - **[Historique des emails envoyés](/fr/docs/emails/emails-sortants/verifier-l-envoi-d-un-email/)** (menu *Emails >
@@ -76,10 +76,10 @@ externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des
 - **Contact technique** : soyez alerté lors de l'ouverture d'un ticket technique par nos services concernant un serveur
   ;
 - **[Utilisateurs SSH](/fr/docs/hebergement-web/acces-distant/ssh/cles-ssh-globales/)** : installez des clés SSH pour un
-  accès simplifié aux différents comptes (menu *Clés SSH*);
+  accès simplifié aux différents comptes (menu *Clés SSH*) ;
 - **[Règles firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall/)** : créez des règles firewall et
-  consultez le bannissement automatique d'IP au niveau du serveur  (menu *Firewall*);
-- **Configuration SMTP** : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam (menu *SMTP*);
+  consultez le bannissement automatique d'IP au niveau du serveur  (menu *Firewall*) ;
+- **Configuration SMTP** : gérez la queue d'envoi d'emails, le relais SMTP et le score de spam (menu *SMTP*) ;
 - **Utilisateurs base de données** : donnez un accès global aux bases de données de l'ensemble des comptes (menu
   *Utilisateurs MySQL*) ;
 - **Configuration SSL** : choisissez le certificat SSL à retourner sur le serveur (`*.alwaysdata.net` par défaut) et la
@@ -87,12 +87,12 @@ externes qui ont besoin d'accès même restreints. Vous pouvez donc définir des
 - **Configuration HTTP** : choisissez un site web qui sera la [page d'accueil par
   défaut](/fr/docs/hebergement-web/sites/divers/#site-http-par-defaut) et la [période de rétention des
   logs](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs) (menu *HTTP*) ;
-- **Consommation** : accédez à un ensemble d'information sur votre serveur (menus Comptes, Statut du serveur). Pour
+- **Consommation** : accédez à un ensemble d'informations sur votre serveur (menus Comptes, Statut du serveur). Pour
   ouvrir des comptes sur le serveur il sera nécessaire d'avoir la permission **Gestion des comptes** sur le profil
   propriétaire ;
 - **[Ressources](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/)** : modifiez les
-  limitations de ressources par compte - RAM, CPU, espace disque (menu *Ressources*).
-- **[Migration](/fr/docs/caracteristiques-techniques/migrations/)** (menu *Migrations*) ;
+  limitations de ressources par compte - RAM, CPU, espace disque (menu *Ressources*) ;
+- **[Migration](/fr/docs/caracteristiques-techniques/migrations/)** (menu *Migrations*).
 
 ## 2FA nécessaire
 

@@ -63,7 +63,7 @@ Ce système utilise [Rspamd](https://rspamd.com/) et un ensemble de règles prop
 
 Pour ne pas être dépendant des abus d'autres utilisateurs étant sur le même serveur d'envoi d'emails vous pouvez louer
 une [IP dédiée](/fr/docs/hebergement-web/adresses-ip-dediees/) dans l'onglet **Avancé > Adresses IP** du compte. Vous
-pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçus par l'antispam.
+pourrez indiquer les emails envoyés par cette IP selon la note qu'ils auront reçue par l'antispam.
 
 ## Remarques
 

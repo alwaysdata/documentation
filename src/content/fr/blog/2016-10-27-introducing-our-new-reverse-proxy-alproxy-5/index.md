@@ -89,7 +89,7 @@ Pour finir cette présentation d'alproxy, parlons un peu technique.
 
 Le développement d'alproxy a été l'occasion pour nous de relever de nombreux challenges. Il est développé en
 [Python](https://www.python.org/) et repose essentiellement sur [asyncio](https://www.python.org/dev/peps/pep-3156/). Il
-tire partie de nombreuses nouvelles fonctionnalités de Python (version 3.5) : autant dire que nous avons essuyé quelques
+tire parti de nombreuses nouvelles fonctionnalités de Python (version 3.5) : autant dire que nous avons essuyé quelques
 plâtres (la peinture est [encore un peu fraîche parfois](https://github.com/python/asyncio/pull/428)). Nous en avons
 profité pour développer [asynctest](https://github.com/Martiusweb/asynctest), que nous avons choisi de rendre disponible
 en open-source. Nous espérons avoir l'occasion de publier quelques articles techniques pour vous en parler plus

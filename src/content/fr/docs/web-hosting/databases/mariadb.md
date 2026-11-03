@@ -33,7 +33,7 @@ informations suivantes :
 
 - Nom du compte : `[compte]`
 - Nom de la base de données : `[compte]_base`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes.
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est-à-dire ceux créés à l'ouverture des comptes.
 
 ```sh
 [compte]@ssh:~$ mysql -h mysql-[compte].alwaysdata.net -u [compte] -p [compte]_base

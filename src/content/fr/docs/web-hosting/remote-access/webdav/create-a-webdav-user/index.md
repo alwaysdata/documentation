@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un
-utilisateur du nom de votre `[compte]` est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous
+utilisateur du nom de votre `[compte]` est créé à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous
 le souhaitez que vous pouvez administrer depuis l'interface d'administration, onglet **Accès distant > WebDAV**.
 
 ![](images/admin-panel_list-webdav-users.png)

@@ -9,20 +9,20 @@ eleventyNavigation:
 
 Pour modifier les permissions de diffusion d'une liste, vous devez vous connecter à l'[interface de gestion
 Postorius](https://mailman.alwaysdata.com/). Connectez-vous à l'aide d'une adresse email d'administration que vous aurez
-défini à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
+définie à la [création de votre liste de diffusion](/fr/docs/emails/listes-de-diffusion/creer-une-liste-de-diffusion/).
 
-Une fois identifié, rendez vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
+Une fois identifié, rendez-vous dans la section de gestion de la liste de diffusion concernée en cliquant sur son nom.
 
 ## Modération des contenus
 
-Pour modifier les règles de diffusion, rendez vous dans la rubrique **Paramètres → Message Acceptance**. Vous pouvez y
+Pour modifier les règles de diffusion, rendez-vous dans la rubrique **Paramètres → Message Acceptance**. Vous pouvez y
 définir plusieurs règles de diffusion :
 
 - *Retenir en modération* : les messages doivent être acceptés par un administrateur ou un modérateur pour être diffusés
   aux membres. C'est une modération *a priori*.
 - *Rejeter* : les messages sont supprimés et les administrateurs sont notifiés du rejet.
 - *Éliminer* : les messages sont supprimés, sans notification.
-- *Accepter immédiatement*: aucune action n'est requise et les membres recevront le message.
+- *Accepter immédiatement* : aucune action n'est requise et les membres recevront le message.
 
 Ces règles peuvent s'appliquer à deux typologies d'expéditeurs :
 
@@ -37,6 +37,6 @@ qui pourra envoyer un message aux membres (dans le cas d'une liste de support pa
 Pour définir une **newsletter**, réglez toutes les permissions à *Éliminer* : seuls les administrateurs peuvent envoyer
 un message aux membres.
 
-Pour définir une adresse d'une **groupe de travail**, réglez les permissions des membres à *Accepter* et les permissions
+Pour définir une adresse d'un **groupe de travail**, réglez les permissions des membres à *Accepter* et les permissions
 des non-membres à *Retenir en modération* : les membres peuvent échanger des messages sans modération, et les
 utilisateurs externes au groupe peuvent demander à envoyer des messages en les faisant valider *a priori*.

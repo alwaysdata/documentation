@@ -79,5 +79,5 @@ OK
 
 - [`ACL LIST`](https://redis.io/commands/acl-list/) liste les utilisateurs et donne des informations sur les droits des
   utilisateurs.
-- [`ACL SETUSER`](https://redis.io/commands/acl-setuser/) créé ou modifie les utilisateurs.
+- [`ACL SETUSER`](https://redis.io/commands/acl-setuser/) crée ou modifie les utilisateurs.
 - [`ACL SAVE`](https://redis.io/commands/acl-save/) enregistre les utilisateurs.

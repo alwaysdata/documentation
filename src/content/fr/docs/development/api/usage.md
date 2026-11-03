@@ -27,7 +27,7 @@ Vos tokens sont disponibles dans le menu **[Profil](/fr/docs/admin-facturation/p
 ### Ressources liées
 
 Si vous accédez à des ressources liées à un utilisateur ou un compte spécifique, vous devez le spécifier lors de votre
-authentification en utilisant un des paramètres suivants:
+authentification en utilisant un des paramètres suivants :
 
 * **account** : il s'agit du compte auquel vous désirez accéder. Si par exemple
 vous avez plusieurs comptes mais souhaitez accéder à une ressource d'un compte précis.

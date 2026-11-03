@@ -14,4 +14,4 @@ case _Forcer le HTTPS_ :
 
 La redirection sera effectuée au niveau de notre proxy - avant le serveur HTTP.
 
-Selon le serveur HTTP utilisé il est aussi possible de le faire à son niveau. Pour cela réferrez-vous à sa documentation.
+Selon le serveur HTTP utilisé il est aussi possible de le faire à son niveau. Pour cela référez-vous à sa documentation.

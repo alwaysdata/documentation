@@ -7,8 +7,8 @@ eleventyNavigation:
   order: 5
 ---
 
-Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune inter­ac­tion
-uti­li­sa­teur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement
+Vous pouvez définir des services, c'est-à-dire des programmes génériques qui tournent 24h / 24 sans aucune interaction
+utilisateur. Contrairement à une commande lancée manuellement en SSH, ces services seront relancés automatiquement
 par le système en cas d'arrêt.
 
 > [!WARNING] Avertissement
@@ -30,8 +30,8 @@ tourner ces services.
 - Un log est automatiquement créé et disponible dans le répertoire `/home/[compte]/admin/logs/services/`. Il vous donne
   le démarrage et l'arrêt du service.
   - Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄).
-- Les processus en cours sont accessible via le menu **Avancé > Processus > Services** ;
-- Le redémarrage d'un service renvoie le signal `SIGHUP`;
+- Les processus en cours sont accessibles via le menu **Avancé > Processus > Services** ;
+- Le redémarrage d'un service renvoie le signal `SIGHUP` ;
 - Si un service échoue à plusieurs reprises en peu de temps, il sera automatiquement désactivé ;
 - Les versions de langages utilisées par défaut sont celles renseignées dans le menu **Environnement** de l'interface
   d'administration. Il est possible de choisir une autre version en utilisant les _Variables d'environnement_.
@@ -58,7 +58,7 @@ Pour les utilisateurs du [Cloud Public](/fr/docs/admin-facturation/facturation/p
 Pour les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) :
 
 - Les ports `8300` à `8499` ne sont _pas_ ouverts vers l'extérieur. Il est possible de les ouvrir via une [règle de
-  parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) ;
+  pare-feu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) ;
 - Vous pouvez utiliser d'autres ports, par exemple le port par défaut de l'application.
 
 ## Problèmes fréquents

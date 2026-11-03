@@ -12,5 +12,5 @@ Configuration**. L'antispam entrant n'aura alors plus d'incidence sur leurs emai
 
 Les emails envoyés à ces adresses seront toujours soumis à la [validation antispam](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/#systeme-de-notation).
 
-Les listes d'autorisations sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses
+Les listes d'autorisation sont paramétrées au niveau du compte. Elles seront donc utilisées par toutes les adresses
 email du compte.

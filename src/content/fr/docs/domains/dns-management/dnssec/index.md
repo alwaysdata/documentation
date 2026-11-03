@@ -18,7 +18,7 @@ La mise en place de DNSSEC se fait à la fois sur les serveurs DNS autoritaires 
 
 ## Mise en place chez alwaysdata
 
-Rendez-vous sur **Domaines > Details de [example.org] -  ⚙️ > DNSSEC**
+Rendez-vous sur **Domaines > Détails de [example.org] -  ⚙️ > DNSSEC**
 
 ### Le domaine est enregistré via alwaysdata et utilise les serveurs DNS d'alwaysdata
 

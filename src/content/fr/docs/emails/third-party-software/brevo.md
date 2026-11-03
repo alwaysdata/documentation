@@ -11,7 +11,7 @@ Brevo (anciennement Sendinblue) est une plateforme d'emailing connue. Pour amél
 envoyés, il faut les [authentifier](/fr/docs/emails/emails-sortants/configurer-spf-dkim-dmarc/) en créant, chez votre
 prestataire, des enregistrements DNS qu'ils vous donneront. Voici comment le faire chez alwaysdata.
 
-Rendez-vous dans **Domaines > Details de [example.org] -  ⚙️ > Enregistrements DNS > Ajouter un enregistrement DNS**
+Rendez-vous dans **Domaines > Détails de [example.org] -  ⚙️ > Enregistrements DNS > Ajouter un enregistrement DNS**
 
 |Type|Nom d'hôte|Valeur|
 |---|---|---|

@@ -5,7 +5,7 @@ date: 2018-12-13
 authors: ["Matthias Dugué"]
 ---
 
-Depuis plus de douze ans, *alwaysdata* accompagne les acteurs du Web dans leur hébergement info-géré pour leur permettre
+Depuis plus de douze ans, *alwaysdata* accompagne les acteurs du Web dans leur hébergement infogéré pour leur permettre
 d'offrir leurs services dans les meilleures conditions possible. Cette communauté d'utilisateur·trice·s, riche de
 savoir-faire et d'usages particuliers, méritait d'être mise en avant.
 

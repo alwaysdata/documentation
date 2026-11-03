@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 5
 ---
 
-alwaysdata propose l'installation de [réseaux privé virtuels
+alwaysdata propose l'installation de [réseaux privés virtuels
 (VPN)](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel) sur les environnements [dédiés et
 Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Voici la liste des logiciels proposés :
 

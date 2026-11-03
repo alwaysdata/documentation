@@ -19,7 +19,7 @@ Dans notre exemple, considérons les informations suivantes :
 - Nom de la base de données d'origine : `foo_base`
 - Nom de la base de données de destination : `bar_base`
 - Le site est situé dans le répertoire `$HOME/www/`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est-à-dire ceux créés à l'ouverture des
   comptes (par exemple, `foo` pour le compte _foo_ et `bar` pour le compte _bar_).
 
 ## 1. Copie des fichiers
@@ -32,7 +32,7 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 
 ## 2. Import de la base de données
 
-Cette étape est nécessaire que si votre site est connecté à une base de données.
+Cette étape n'est nécessaire que si votre site est connecté à une base de données.
 
 Si les deux comptes utilisent la même version de SGBD et appartiennent au même profil, vous pouvez utiliser notre
 fonctionnalité de [duplication de base de

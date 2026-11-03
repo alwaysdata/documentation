@@ -39,7 +39,7 @@ voici les étapes à suivre.
 
 #### Étape 2 : Modification du php.ini
 
-Ajoutez dans le `php.ini` (**Environnement > PHP**):
+Ajoutez dans le `php.ini` (**Environnement > PHP**) :
 
 ```ini
 extension = /home/[compte]/newrelic/agent/x64/newrelic-[version].so
@@ -70,7 +70,7 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 
 #### Étape 2 : Modification du php.ini
 
-Ajoutez dans le `php.ini` (**Environnement > PHP**):
+Ajoutez dans le `php.ini` (**Environnement > PHP**) :
 
 ```ini
 extension = /home/[compte]/newrelic/agent/x64/newrelic-[version].so

@@ -16,5 +16,5 @@ cela existent :
   accessible ;
 - la suppression du site dans la section **Web > Sites** le temps de l'indisponibilité et redéclarée par la suite :
 ![](images/admin-panel_delete-site.png)
-- si vous utilisez une application CMS de type Wordress, Joomla (.etc) une option est généralement disponible
+- si vous utilisez une application CMS de type WordPress, Joomla (etc.) une option est généralement disponible
   directement dans leur interface d'administration.

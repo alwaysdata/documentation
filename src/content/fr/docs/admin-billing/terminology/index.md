@@ -7,12 +7,12 @@ eleventyNavigation:
   order: 5
 ---
 
-Un utilisateur alwaysdata, nommé **profil** est représenté par une adresse email qui est utilisé pour se connecter à
+Un utilisateur alwaysdata, nommé **profil** est représenté par une adresse email qui est utilisée pour se connecter à
 l'[interface d'administration](https://admin.alwaysdata.com).
 
 Celui-ci *peut* être propriétaire de **comptes** sur notre [Cloud
 Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) ainsi que des
-**[serveurs](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)** sur lequel il peut y créer des comptes. Chaque
+**[serveurs](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)** sur lesquels il peut créer des comptes. Chaque
 **compte** est *isolé* les uns des autres.
 
 Sur ces **comptes**, il est possible de gérer des [domaines](/fr/docs/domaines/), d'héberger des [adresses

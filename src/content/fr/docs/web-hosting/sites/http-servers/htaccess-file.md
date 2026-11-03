@@ -34,7 +34,7 @@ passe correspondant.
 
 ## Limiter l'accès à un répertoire
 
-Bloquez l'accès à un répertoire pour un domaine ou une adresse IP. Et inversement, vous pouvez n'autorisez l'accès au
+Bloquez l'accès à un répertoire pour un domaine ou une adresse IP. Et inversement, vous pouvez n'autoriser l'accès au
 répertoire que pour les IPs et/ou domaines souhaités.
 
 ```apache
@@ -53,7 +53,7 @@ ErrorDocument 403 /erreurs/403.php
 ErrorDocument 404 /erreurs/404.php
 ```
 
-Cette syntaxe est valable quelque soit le [code de la réponse HTTP](http://fr.wikipedia.org/wiki/Liste_des_codes_HTTP).
+Cette syntaxe est valable quel que soit le [code de la réponse HTTP](http://fr.wikipedia.org/wiki/Liste_des_codes_HTTP).
 
 ## Redirection
 

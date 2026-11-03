@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle
 implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les
-serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
+serveurs (HTTP, SSH, bases de données, etc.) sont susceptibles de changer.
 
 ## Pourquoi imposer une migration ?
 
@@ -262,9 +262,9 @@ versions.
 Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster
 fermera les autres migrations.
 
-Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration
+Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à la migration
 Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le
-déployement HTTP référez-vous au paragraphe [Préparation de la
+déploiement HTTP référez-vous au paragraphe [Préparation de la
 migration](/fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2020#preparation-de-la-migration).
 
 ## Déroulement de la migration
@@ -274,7 +274,7 @@ minutes plus tard en fonction du nombre d'utilisateurs qui migrent au même inst
 étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
 
 - La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une
-  _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de
+  _erreur interne_), de vos tâches planifiées, de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de
   **courte durée** (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos
   fichiers sont **pré-copiés** au préalable.
 
@@ -287,7 +287,7 @@ haut à droite de l'interface d'administration).
 
 ## Conseils & problèmes courants
 
-- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est
+- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagation DNS et il est
   nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez le faire via la commande
   (_[compte] à remplacer par le nom du compte_) :
 

@@ -35,7 +35,7 @@ informations suivantes :
 
 - Nom du compte : `[compte]`
 - Nom de la base de données : `[compte]_base`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes.
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est-à-dire ceux créés à l'ouverture des comptes.
 
 ```sh
 [compte]@ssh:~$ psql -h postgresql-[compte].alwaysdata.net -U [compte] -W -d [compte]_base

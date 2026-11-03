@@ -21,11 +21,11 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 
 ## Binaire à utiliser
 
-Pour se servir d'une version de Lua différente que celle par défaut utilisez `lua5.X`.
+Pour se servir d'une version de Lua différente de celle par défaut utilisez `lua5.X`.
 
 ## Environnement
 
-[Luarocks](https://luarocks.org/) et [LuaJIT](http://luajit.org/) sont préinstallées.
+[Luarocks](https://luarocks.org/) et [LuaJIT](http://luajit.org/) sont préinstallés.
 
 ## Déploiement HTTP
 

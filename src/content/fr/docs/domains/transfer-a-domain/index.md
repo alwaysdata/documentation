@@ -51,7 +51,7 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
     ![](images/admin-panel_add-domain-2.png)
 
 4.
-    - Indiquez le _code d'authorisation_ si l'extension le demande ;
+    - Indiquez le _code d'autorisation_ si l'extension le demande ;
     - Choisissez d'utiliser ou non nos serveurs DNS : cela entraîne le transfert de la gestion technique du domaine chez
       alwaysdata ;
     - Et entrez les informations du contact propriétaire. Ces informations dépendent de l'extension prise.
@@ -68,11 +68,11 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
 
 ### Cas particuliers
 
-l'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre des `.uk` - est **GANDI**.
+L'IPS Tag demandé par [Nominet](https://registrars.nominet.uk/) - le registre des `.uk` - est **GANDI**.
 
 ## Préparation du domaine
 
-Durant ce temps, le domaine sera ajouté à l'interface d'administration en temps que _Domaine externe_ avec une opération
+Durant ce temps, le domaine sera ajouté à l'interface d'administration en tant que _Domaine externe_ avec une opération
 en cours. Vous pourrez préparer nos serveurs en :
 
 - mettant à jour vos [enregistrements DNS](/fr/docs/domaines/gestion-dns/ajouter-un-enregistrement-dns/) si vous

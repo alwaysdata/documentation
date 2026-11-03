@@ -25,9 +25,9 @@ ultérieurement ou contactez le [support](https://admin.alwaysdata.com/support/a
 
 ### Réponse : 530 Login or password incorrect
 
-Le couple login/mot de passe n'est pas bon vérifiez-le ou modifiez votre mot de passe dans **Accès distant > FTP**.
+Le couple login/mot de passe n'est pas bon, vérifiez-le ou modifiez votre mot de passe dans **Accès distant > FTP**.
 
-### ECONNREFUSED - Connexion refusée par le serveur /  ECONNRESET - Connexion réinitialisée par un pair
+### ECONNREFUSED - Connexion refusée par le serveur / ECONNRESET - Connexion réinitialisée par un pair
 
 La connexion se bloque avant d'arriver aux serveurs alwaysdata, vérifiez :
 
@@ -48,7 +48,7 @@ Si aucune de ces solutions ne fonctionne, essayez la connexion [SFTP](/fr/docs/h
 
 La connexion FTP est effectuée avec une IP mais une autre IP se connecte ensuite en mode passif. Assurez-vous de
 n'utiliser qu'une seule IP durant toute la durée de la connexion FTP.
-Si vous ne pouvez corriger ce comportement, vous pouvez essayez la connexion [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/).
+Si vous ne pouvez corriger ce comportement, vous pouvez essayer la connexion [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/).
 
 ## Accès aux fichiers
 

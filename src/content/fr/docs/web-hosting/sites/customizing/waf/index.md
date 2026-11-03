@@ -7,9 +7,9 @@ eleventyNavigation:
   order: 7
 ---
 
-Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) exa­mine chaque requête HTTP pour protéger les
-applications web face à différents vecteurs d'attaques pour minimiser les infections. Il peut les auto­ri­ser à
-tran­si­ter jus­qu’à l’ap­pli­ca­tion, ou les blo­quer, aler­ter, consi­gner si elles sont jugées mal­veillantes.
+Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) examine chaque requête HTTP pour protéger les
+applications web face à différents vecteurs d'attaques pour minimiser les infections. Il peut les autoriser à
+transiter jusqu’à l’application, ou les bloquer, alerter, consigner si elles sont jugées malveillantes.
 
 ![Parcours d’une requête HTTP face à un WAF](images/waf.png)
 
@@ -26,29 +26,29 @@ Cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le 
 |Profil|Description|
 |---|---|
 |Aucun|(par défaut)|
-|Basique|Respect strict du pro­to­cole HTTP|
-||Détection de robots mal­veillants|
-|Fort|L’ensemble des règles du pro­fil basique|
-||Détection d’exécution de code à dis­tance (RCE)|
+|Basique|Respect strict du protocole HTTP|
+||Détection de robots malveillants|
+|Fort|L’ensemble des règles du profil basique|
+||Détection d’exécution de code à distance (RCE)|
 ||Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)|
-||Détection d’[injec­tion SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
-|Complet|L’ensemble des règles du pro­fil fort|
-||Détection d’attaques rela­tives au lan­gage PHP|
-||Détection d’attaque par inclu­sion de fichier local (LFI)|
-||Détection d’attaque par [inclu­sion de fichier dis­tant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
-|WordPress|L’ensemble des règles du pro­fil com­plet|
-||Règles spé­ci­fiques à WordPress|
-|Drupal|L’ensemble des règles du pro­fil com­plet|
-||Règles spé­ci­fiques à Drupal|
-|Nextcloud|L’ensemble des règles du pro­fil com­plet|
-||Règles spé­ci­fiques à Nextcloud|
-|Dokuwiki|L’ensemble des règles du pro­fil com­plet|
-||Règles spé­ci­fiques à Dokuwiki|
+||Détection d’[injection SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
+|Complet|L’ensemble des règles du profil fort|
+||Détection d’attaques relatives au langage PHP|
+||Détection d’attaque par inclusion de fichier local (LFI)|
+||Détection d’attaque par [inclusion de fichier distant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
+|WordPress|L’ensemble des règles du profil complet|
+||Règles spécifiques à WordPress|
+|Drupal|L’ensemble des règles du profil complet|
+||Règles spécifiques à Drupal|
+|Nextcloud|L’ensemble des règles du profil complet|
+||Règles spécifiques à Nextcloud|
+|Dokuwiki|L’ensemble des règles du profil complet|
+||Règles spécifiques à Dokuwiki|
 
 > [!NOTE]
-> L’ac­ti­va­tion d’un pro­fil de pro­tec­tion va se tra­duire par une légère aug­men­ta­tion de la latence lors du
-> trai­te­ment d’une requête HTTP. Cette latence, de l’ordre de quelques mil­li­se­condes, aug­mente avec le degré de
-> pro­tec­tion.
+> L’activation d’un profil de protection va se traduire par une légère augmentation de la latence lors du
+> traitement d’une requête HTTP. Cette latence, de l’ordre de quelques millisecondes, augmente avec le degré de
+> protection.
 
 ### Exclure des règles
 

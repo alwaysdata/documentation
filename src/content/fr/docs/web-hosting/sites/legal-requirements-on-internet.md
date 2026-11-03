@@ -13,7 +13,7 @@ de respecter un certain nombre d'obligations légales précises.
 ## Mentions légales
 
 Les mentions légales doivent obligatoirement apparaître de façon claire sur un site web. Celles-ci protègent les
-internautes et leur permettent d'identifier et de contacter le ou les éditeurs de toute site internet afin de faire
+internautes et leur permettent d'identifier et de contacter le ou les éditeurs de tout site internet afin de faire
 respecter leurs droits.
 
 ### Personne morale
@@ -37,7 +37,7 @@ types dont l'éditeur doit avoir obligation de contrôle et de modération). Ceu
 ### Hébergeur
 
 - sa raison sociale : SARL alwaysdata
-- son adresse :  91 Rue du Faubourg Saint-Honoré, 75008 Paris
+- son adresse : 91 Rue du Faubourg Saint-Honoré, 75008 Paris
 - son numéro de téléphone : +33 1 84 16 23 49
 
 Exemple pouvant être placé sur votre site :

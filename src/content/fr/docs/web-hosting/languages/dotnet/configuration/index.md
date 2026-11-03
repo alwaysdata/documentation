@@ -24,8 +24,8 @@ Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-we
 > Les versions majeures de .NET alternent entre le support à long terme (LTS) et le support à terme standard (STS)
 > suivant [le cycle de vie de leurs
 > versions](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). Seules les **versions
-> LTS** sont rendues disponibles, et elles le sont une fois la prise en charge la version General Availability (GA) par
-> Microsoft.
+> LTS** sont rendues disponibles, et elles le sont une fois la prise en charge de la version General Availability (GA)
+> par Microsoft.
 
 ## Environnement
 

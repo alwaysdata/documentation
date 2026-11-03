@@ -24,7 +24,7 @@ La configuration d'une sonde permet de paramétrer différentes options :
 
 Les interventions enclenchées par les sondes sont facturées si la responsabilité de l'application est engagée.
 
-Exemples (liste non-exhaustive) :
+Exemples (liste non exhaustive) :
 
 - tout problème résultant d'une utilisation incorrecte du serveur par l'utilisateur ;
 - comportement anormal des applications de l'utilisateur ;

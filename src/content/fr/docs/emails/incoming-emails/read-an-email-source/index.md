@@ -102,4 +102,4 @@ La source de l'email est composée :
 
 ----
 
-- [Delivrabilité des emails : bonnes pratiques](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/)
+- [Délivrabilité des emails : bonnes pratiques](/fr/docs/emails/emails-sortants/delivrabilite-bonnes-pratiques/)

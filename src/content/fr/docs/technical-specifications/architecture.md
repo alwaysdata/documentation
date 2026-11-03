@@ -18,7 +18,7 @@ de soutenir notre plateforme.
 
 Nous opérons notre propre *réseau indépendant* : [AS60362](http://as60362.net/).
 
-Tous nos équipements réseau, switches, routeurs opèrent par paire (deux fabriquants différents) et quatre opérateurs
+Tous nos équipements réseau, switches, routeurs opèrent par paire (deux fabricants différents) et quatre opérateurs
 réseaux indépendants assurent la redondance et la neutralité de notre réseau.
 
 Toutes nos machines sont dotées de SSD configurés en *RAID1* (dupliqués en temps réel) et *échangeables à chaud*. Leurs
@@ -53,7 +53,7 @@ Il exécute ainsi ses propres programmes, ses propres serveurs HTTP pour offrir 
 poussée.
 
 Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d’un serveur.
-Lorsque un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes
+Lorsqu'un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes
 peu ou pas actifs, pour les réaffecter temporairement.
 
 - [Stack HTTP](/fr/docs/hebergement-web/sites/stack-http/)
