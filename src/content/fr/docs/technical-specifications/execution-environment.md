@@ -21,7 +21,9 @@ Chaque compte dispose de son propre UID/GID. Il est isolé des autres comptes pa
 ## Processus
 
 - Aucune restriction sur les processus pouvant être exécutés.
-- Aucun filtrage des ports pour les connexions sortantes. Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent en ajouter via le [firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall/).
+- Aucun filtrage des ports pour les connexions sortantes. Les utilisateurs du [Cloud
+  Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent en ajouter via le
+  [firewall](/fr/docs/caracteristiques-techniques/configurer-le-firewall/).
 - Un processus à arrêter reçoit le signal `SIGTERM`, puis `SIGKILL` s'il est toujours actif 30 secondes plus tard.
 
 > [!TIP] Astuce

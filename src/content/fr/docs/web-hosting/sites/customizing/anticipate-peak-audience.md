@@ -7,12 +7,16 @@ eleventyNavigation:
   order: 3
 ---
 
-Vous prévoyez un passage télévision/radio qui risque d'entraîner un nombre plus important de visites et n'êtes pas sûr que votre site supporte la charge ? Voici des actions pouvant être entreprises en amont :
+Vous prévoyez un passage télévision/radio qui risque d'entraîner un nombre plus important de visites et n'êtes pas sûr
+que votre site supporte la charge ? Voici des actions pouvant être entreprises en amont :
 
 - **isoler le site** par compte - pour ne pas gêner d'autres sites, les ressources étant partagées au niveau du compte ;
-- activer le **[cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/)** sur l'interface d'administration et/ou au niveau applicatif en utilisant [Memcached](/fr/docs/developpement/guides/memcached/), [Redis](/fr/docs/developpement/guides/redis/) ou tout autre cache logiciel ;
+- activer le **[cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/)** sur l'interface
+  d'administration et/ou au niveau applicatif en utilisant [Memcached](/fr/docs/developpement/guides/memcached/),
+  [Redis](/fr/docs/developpement/guides/redis/) ou tout autre cache logiciel ;
 - passer sur les versions de langages les plus récentes possibles  - pour améliorer les performances ;
-- faire une redirection vers une **[page statique](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/)** - utilisant bien moins de ressources, elles sont plus rapides à renvoyer.
+- faire une redirection vers une **[page statique](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/)** -
+  utilisant bien moins de ressources, elles sont plus rapides à renvoyer.
 
 Pour observer le comportement de votre application vous pouvez aussi effectuer un **test de charge** (avec `ab` par exemple).
 
@@ -75,11 +79,13 @@ Percentage of the requests served within a certain time (ms)
 
 L'information importante est : `Requests per second:    13.27 [#/sec] (mean)`.
 
-300 000 visites en 10 heures (petite journée) correspond à 8,3 requêtes par secondes. La configuration actuelle est donc compatible.
+300 000 visites en 10 heures (petite journée) correspond à 8,3 requêtes par secondes. La configuration actuelle est donc
+compatible.
 
 - [Documentation de `ab`](https://httpd.apache.org/docs/2.4/programs/ab.html)
 
 ## Liens
-* 2 services externes de tests de charge :
-    - [Loader.io](https://loader.io/)
-    - [K6](https://k6.io/)
+
+- 2 services externes de tests de charge :
+  - [Loader.io](https://loader.io/)
+  - [K6](https://k6.io/)

@@ -18,23 +18,23 @@ etc.) depuis votre code.
 ## Adresse
 
 | Version | URL Racine | Documentation |
-|---|---|---|
-| 1.0 | api.alwaysdata.com/v1 | https://api.alwaysdata.com/doc/ |
+| --- | --- | --- |
+| 1.0 | api.alwaysdata.com/v1 | <https://api.alwaysdata.com/doc/> |
 
 ## Exemples rapides
 
 ```sh
-$ curl --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/mailbox/
+curl --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/mailbox/
 ```
-
 
 ### Redémarrer un site
 
 ```sh
-$ curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
+curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
-`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `1234` par l'ID du site et `[compte]` par le bon nom.
+`APIKEY` à remplacer par le [token API](/fr/docs/admin-facturation/profil/tokens), `1234` par l'ID du site et `[compte]`
+par le bon nom.
 
 ## Tout savoir
 

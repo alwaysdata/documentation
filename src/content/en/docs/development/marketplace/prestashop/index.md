@@ -16,6 +16,7 @@ You will need to change:
 
 ## Email sending
 
-The use of `/usr/sbin/sendmail` is not functional. Please choose to set your "own SMTP parameters" and simply provide the SMTP hostname of your account (given in the menu **Emails > Addresses** of your alwaysdata admin interface).
+The use of `/usr/sbin/sendmail` is not functional. Please choose to set your "own SMTP parameters" and simply provide
+the SMTP hostname of your account (given in the menu **Emails > Addresses** of your alwaysdata admin interface).
 
 ![](images/prestashop-emails.png)

@@ -7,7 +7,9 @@ eleventyNavigation:
   order: 8
 ---
 
-La politique [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security) permet de protéger les utilisateurs en déclarant aux navigateurs qu'ils doivent interagir avec le serveur web en utilisant une connexion sécurisée.
+La politique [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security) permet de
+protéger les utilisateurs en déclarant aux navigateurs qu'ils doivent interagir avec le serveur web en utilisant une
+connexion sécurisée.
 
 Sa mise en place passe par l'ajout de `headers`.
 
@@ -29,10 +31,10 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 </IfModule>
 ```
 
-
 ## uWSGI
 
-Ajouter dans les paramètres supplémentaires uWSGI (menu **Web > Sites > Modifier le [site] - ⚙️ > Configuration avancée**) :
+Ajouter dans les paramètres supplémentaires uWSGI (menu **Web > Sites > Modifier le [site] - ⚙️ > Configuration
+avancée**) :
 
 ```txt
 plugins = router_redirect
@@ -59,7 +61,7 @@ Autre méthode avec le paquet NPM `helmet` :
 
 ```txt
 var helmet = require('helmet')
-    ... 
+    ...
     app.use(helmet.hsts({
           maxAge: 31536000000,
           includeSubdomains: true,
@@ -69,12 +71,13 @@ var helmet = require('helmet')
 
 ## Directives
 
-* `max-age` définit la période d'application d'une politique HSTS par les navigateurs (31536000 = pour un an) ;
-* `includeSubDomains` permet d'appliquer HSTS à la fois au domaine et à ses sous-domaines ;
-* `preload` permet d'autoriser l'ajout du site dans les listes HSTS préchargées.
+- `max-age` définit la période d'application d'une politique HSTS par les navigateurs (31536000 = pour un an) ;
+- `includeSubDomains` permet d'appliquer HSTS à la fois au domaine et à ses sous-domaines ;
+- `preload` permet d'autoriser l'ajout du site dans les listes HSTS préchargées.
 
 `max-age` est obligatoire contrairement aux autres.
 
 ---
+
 - [RFC 6797](https://tools.ietf.org/html/rfc6797)
 - Vérifier sa configuration HSTS via [HSTS preload](https://hstspreload.org/)

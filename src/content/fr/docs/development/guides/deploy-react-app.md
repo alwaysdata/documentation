@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 1
 ---
 
-Une application conçue avec [React](https://reactjs.org/) est essentiellement constituée, pour sa partie production, d'_assets_ statiques.
+Une application conçue avec [React](https://reactjs.org/) est essentiellement constituée, pour sa partie production,
+d'_assets_ statiques.
 
 Si le cycle de développement fait intervenir Node.js pour servir les pages/vues dans un serveur HTTP avec tout le
 confort des outils de développement (_hot-reloading_, etc.), elle n'est pas nécessaire pour sa mise en production. [Un
@@ -18,7 +19,8 @@ simple serveur Web](https://create-react-app.dev/docs/deployment) fera l'affaire
 
 ## Côté _alwaysdata_
 
-Créez simplement un site de type [Fichiers statiques](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/) pointant vers le répertoire de votre choix (par exemple
+Créez simplement un site de type [Fichiers statiques](/fr/docs/hebergement-web/sites/serveurs-http/fichiers-statiques/)
+pointant vers le répertoire de votre choix (par exemple
 `www/my-app`).
 
 ## Côté développement
@@ -31,7 +33,7 @@ production](https://create-react-app.dev/docs/deployment/#building-for-relative-
 ```
 
 Dans votre environnement local de développement, lancez la tâche de _build_. Si vous avez utilisé un outil comme [Create
-React App](https://create-react-app.dev) pour initialiser votre projet, celle-ci est disponible _via_ la tâche _npm_ 
+React App](https://create-react-app.dev) pour initialiser votre projet, celle-ci est disponible _via_ la tâche _npm_
 `npm run build`. Cette commande va produire les _assets_ statiques dans un répertoire `build`.
 
 Vous pouvez ensuite déployer ces fichiers résultant du _build_ dans le répertoire indiqué précédemment lors de la

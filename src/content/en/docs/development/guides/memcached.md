@@ -9,9 +9,9 @@ eleventyNavigation:
 [Memcached](https://www.memcached.org/) is an object-oriented cache engine.
 
 > [!TIP]
-> Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices).  
-> For [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users *Memcached* can be [installed at server level](/en/docs/web-hosting/databases/memcached).
-
+> Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices).
+> For [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users *Memcached* can be [installed at server
+> level](/en/docs/web-hosting/databases/memcached).
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
@@ -21,8 +21,6 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 
 > [!NOTE]
 > Feel free to adjust according to your needs.
-
-
 
 ## Step 1: Installation
 
@@ -41,9 +39,10 @@ Create the following [service](/en/docs/web-hosting/services):
 More options via `/home/[account]/memcached/memcached -h`.
 
 > [!CAUTION]
-> By default anyone can connect to Memcached; there is no security. An [authentication](https://github.com/memcached/memcached/wiki/SASLHowto) can be set up.
+> By default anyone can connect to Memcached; there is no security. An
+> [authentication](https://github.com/memcached/memcached/wiki/SASLHowto) can be set up.
 
-
-The next step is to configure the application to connect to Memcached using `services-[account].alwaysdata.net` and port `8300`.
+The next step is to configure the application to connect to Memcached using `services-[account].alwaysdata.net` and port
+`8300`.
 
 - [Install the PHP extension](/en/docs/web-hosting/databases/memcached/php)

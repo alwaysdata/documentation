@@ -6,13 +6,17 @@ eleventyNavigation:
   order: 6
 ---
 
-Web apps or services sometimes need to periodically run tasks, commands or call up URLs with no user interaction. To manage them you should create a scheduled task.
+Web apps or services sometimes need to periodically run tasks, commands or call up URLs with no user interaction. To
+manage them you should create a scheduled task.
 
-Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but allows them to be directly managed from our administration panel - menu **Advanced > Scheduled tasks** - making their use easier.
+Our platform is based on [Debian](https://www.debian.org/) and its [crontab](https://en.wikipedia.org/wiki/Cron) but
+allows them to be directly managed from our administration panel - menu **Advanced > Scheduled tasks** - making their
+use easier.
 
 Several kinds of information need to be provided:
 
-- the one or more commands that you wish to run or the URLs you wish to request. Email addresses can also be provided to receive error reports[^1] (separated by a space).
+- the one or more commands that you wish to run or the URLs you wish to request. Email addresses can also be provided to
+  receive error reports[^1] (separated by a space).
 
 ![](images/admin-panel_create-task_type.png)
 
@@ -30,17 +34,20 @@ Several kinds of information need to be provided:
 
 - The minimum interval is one minute,
 - There is no maximum execution duration,
-- If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current one will be ignored,
-- Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between 6:30:00 and 6:30:59.
-- A log is created automatically and is available from the `/home/[account]/admin/logs/jobs/` directory. It gives you the start and end of the task.
-	- An extract of these logs is presented in the administration panel (**Logs** - 📄).
-	- email addresses provided to receive error reports do not replace these logs.
+- If the task is scheduled at a certain frequency but the execution of the previous task is not finished, the current
+  one will be ignored,
+- Tasks are started during the set minute. In other words a task scheduled to start every day at 6:30 will start between
+  6:30:00 and 6:30:59.
+- A log is created automatically and is available from the `/home/[account]/admin/logs/jobs/` directory. It gives you
+  the start and end of the task.
+  - An extract of these logs is presented in the administration panel (**Logs** - 📄).
+  - email addresses provided to receive error reports do not replace these logs.
 - Current processes are accessible via the **Advanced > Processes > Scheduled Tasks** menu.
-- For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the administration panel. It is possible to choose another version using the *Environment variables*.
+- For *Command* type tasks, the language versions used by default are those specified in the **Environment** menu of the
+  administration panel. It is possible to choose another version using the *Environment variables*.
 
 > [!NOTE]
 > If your script needs to allow some IPs, allow these [IP adresses ranges](/en/docs/technical-specifications/ip-ranges).
-
 
 [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) users:
 
@@ -52,15 +59,18 @@ Several kinds of information need to be provided:
 
 ## Troubleshooting
 
-- `source venv/bin/activate && python` is specific to [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and can't function. To replace by `venv/bin/python`,
+- `source venv/bin/activate && python` is specific to [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and can't
+  function. To replace by `venv/bin/python`,
 - Shortcuts with an **@** - examples *@hourly* or *@reboot* - are not accepted (non-standard syntax),
-- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in the *Environment variables* field.
+- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in
+  the *Environment variables* field.
 
 ## Examples
 
 ### WordPress
 
-Every ten minutes, the [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) tool starts to run the scheduled tasks:
+Every ten minutes, the [WordPress](https://developer.wordpress.org/cli/commands/cron/event/run/) tool starts to run the
+scheduled tasks:
 
 alwaysdata administration panel:
 
@@ -69,13 +79,14 @@ alwaysdata administration panel:
 
 Equivalent crontab syntax:
 
-```
+```crontab
 */10 * * * * php /home/[account]/wordpress/htdocs/wp cron event run --due-now
 ```
 
 ### tt-rss
 
-[Refreshing an RSS backend](https://git.tt-rss.org/fox/tt-rss.wiki.git/tree/UpdatingFeeds.md#n58) with TT-rss, every day at 10:30:
+[Refreshing an RSS backend](https://git.tt-rss.org/fox/tt-rss.wiki.git/tree/UpdatingFeeds.md#n58) with TT-rss, every day
+at 10:30:
 
 alwaysdata administration panel:
 
@@ -84,7 +95,7 @@ alwaysdata administration panel:
 
 Equivalent crontab syntax:
 
-```
+```crontab
 30 10 * * * php /home/[account]/tt-rss/update.php --feeds --quiet
 ```
 

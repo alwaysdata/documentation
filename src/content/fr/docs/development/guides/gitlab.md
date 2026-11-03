@@ -7,13 +7,18 @@ eleventyNavigation:
   order: 1
 ---
 
-[GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de code, intégration et déploiement continus...
+[GitLab](https://about.gitlab.com/) est une plateforme de développement logiciel avec wiki, suivi de bugs, revue de
+code, intégration et déploiement continus...
 
-Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)**, voici les étapes à suivre.
+Il est possible de l'installer sur le **[Cloud Privé - serveurs dédiés et
+Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)**, voici les étapes à suivre.
 
-**Les SGBD [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) et [Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) devront être installés sur le serveur.** Si ce n'est pas le cas, [contactez le support](https://admin.alwaysdata.com/support/add/).
+**Les SGBD [PostgreSQL](/fr/docs/hebergement-web/bases-de-donnees/postgresql/) et
+[Redis](/fr/docs/hebergement-web/bases-de-donnees/redis/) devront être installés sur le serveur.** Si ce n'est pas le
+cas, [contactez le support](https://admin.alwaysdata.com/support/add/).
 
-L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre exemple :
+L'installation doit être effectuée sur un **compte vide**. Nous considérons les informations suivantes pour notre
+exemple :
 
 - Nom du compte : `[compte]`
 - Version de Ruby : `2.7`
@@ -23,9 +28,12 @@ GitLab a impérativement besoin de ces versions qui sont à définir dans le men
 
 ## Installation
 
-1. Créez la base de données PostgreSQL dans le menu **Bases de données > PostgreSQL** en activant les extensions `pg_trgm` et `btree_gist`.
+1. Créez la base de données PostgreSQL dans le menu **Bases de données > PostgreSQL** en activant les extensions
+   `pg_trgm` et `btree_gist`.
 
-2. Si vous utilisez une [limite de RAM](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) inférieure à 10 Go, augmentez-la dans le menu **Avancé > Ressources**.
+2. Si vous utilisez une [limite de
+   RAM](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/) inférieure à 10 Go,
+   augmentez-la dans le menu **Avancé > Ressources**.
 
 3. Lancez les commandes suivantes en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) à la racine du compte :
 
@@ -57,13 +65,16 @@ nano config/gitlab.yml
 ```
 
 Dans la section *production > gitlab* modifiez :
-- la ligne `host: localhost` pour renseigner l'adresse voulue du site Gitlab. Cela peut par exemple être l'adresse du compte : `[compte].alwaysdata.net`.
+
+- la ligne `host: localhost` pour renseigner l'adresse voulue du site Gitlab. Cela peut par exemple être l'adresse du
+  compte : `[compte].alwaysdata.net`.
 - le paragraphe `email` par les informations emails voulues. Par exemple :
 
 ```yml
 email_from: [compte]@alwaysdata.net
 email_reply_to: [compte]@alwaysdata.net
 ```
+
 ---
 
 ```sh
@@ -92,7 +103,8 @@ cp config/database.yml.postgresql config/database.yml
 nano config/database.yml
 ```
 
-Remplacez les clés `database`, `username` , `host` et `password` et la première section (production) par celles de votre compte. Exemple :
+Remplacez les clés `database`, `username` , `host` et `password` et la première section (production) par celles de votre
+compte. Exemple :
 
 ```yml
 database: [compte]_gitlab
@@ -139,25 +151,28 @@ yarn install --production --pure-lockfile
 bundle exec rake gitlab:assets:compile RAILS_ENV=production NODE_ENV=production
 ```
 
-C'est cette dernière commande qui nécessite une quantité de RAM importante. La quantité nécessaire varie en fonction du nombre de cores et il peut être nécessaire de l'augmenter si vous rencontrez des erreurs à cette étape.
+C'est cette dernière commande qui nécessite une quantité de RAM importante. La quantité nécessaire varie en fonction du
+nombre de cores et il peut être nécessaire de l'augmenter si vous rencontrez des erreurs à cette étape.
 
 ## Création du service
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-  * *Nom* : GitLab
-  * *Commande* : `~/init restart -f`
+- *Nom* : GitLab
+- *Commande* : `~/init restart -f`
 
 ## Création du site
 
 Créez un [site](/fr/docs/hebergement-web/sites/ajouter-un-site/) avec les détails suivants :
 
-  * *Nom* : GitLab
-  * *Type* : Programme utilisateur
-  * *Adresses* : l'adresse renseignée dans le fichier config.yml - Dans notre exemple `[compte].alwaysdata.net`
-  * *Commande* : `true`
+- *Nom* : GitLab
+- *Type* : Programme utilisateur
+- *Adresses* : l'adresse renseignée dans le fichier config.yml - Dans notre exemple `[compte].alwaysdata.net`
+- *Commande* : `true`
 
-Ce site doit impérativement écouter sur le port `8100`, à vérifier dans le texte explicatif du champ *Commande*. C'est normalement le cas, puisque c'est le seul site.
+Ce site doit impérativement écouter sur le port `8100`, à vérifier dans le texte explicatif du champ *Commande*. C'est
+normalement le cas, puisque c'est le seul site.
 
 > [!NOTE]
-> Le nom d'utilisateur du compte par défaut est *root*. Vous choisirez son mot de passe lors de la première connexion au site et pourrez changer son nom d'utilisateur par la suite.
+> Le nom d'utilisateur du compte par défaut est *root*. Vous choisirez son mot de passe lors de la première connexion au
+> site et pourrez changer son nom d'utilisateur par la suite.

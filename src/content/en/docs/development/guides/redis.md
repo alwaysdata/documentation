@@ -9,7 +9,7 @@ eleventyNavigation:
 [Redis](https://redis.io/) is an in-memory data structure store.
 
 > [!TIP]
-> Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices).  
+> Here is a guide to installing it on the [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices).
 > [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users can ask us to install *Redis* [at server level](/en/docs/web-hosting/databases/redis/).
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
@@ -34,7 +34,6 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 
 Create the following [service](/en/docs/web-hosting/services):
 
-
 - *Command*: `./src/redis-server redis.conf --bind :: --port 8300 --protected-mode no`
 - *Monitoring command*: `./src/redis-cli -h services-[account].alwaysdata.net -p 8300 ping`
 - *Working directory* : `/home/[account]/redis`
@@ -47,7 +46,8 @@ The next step is to configure the application to connect to Redis using `service
 
 ## Authentication
 
-By default anyone can connect to Redis; there is no security. An [authentication](https://redis.io/docs/management/security/acl/) can be set up.
+By default anyone can connect to Redis; there is no security. An
+[authentication](https://redis.io/docs/management/security/acl/) can be set up.
 
 You will need to create the `users.acl` file and modify the `aclfile` line in the Redis configuration file `redis.conf`.
 

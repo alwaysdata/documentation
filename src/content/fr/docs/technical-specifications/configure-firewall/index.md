@@ -10,6 +10,7 @@ eleventyNavigation:
 Le firewall (pare-feu) se gère dans le menu **Firewall** du serveur.
 
 ## Règles
+
 Menu pour retrouver, créer et ajuster ses règles de firewall.
 ![](images/admin-panel_list-rules.png)
 
@@ -17,11 +18,12 @@ Si vous avez plusieurs règles, la règle placée la plus en haut aura autorité
 
 - [Ressource API](https://api.alwaysdata.com/v1/firewall/doc/)
 
-
 ### Ajouter une règle
+
 Pour ajouter une règle, choisissez :
 
-- le protocole : [UDP](https://fr.wikipedia.org/wiki/User_Datagram_Protocol) ou [TCP](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol) ;
+- le protocole : [UDP](https://fr.wikipedia.org/wiki/User_Datagram_Protocol) ou
+  [TCP](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol) ;
 - le type de règle : ACCEPT, DROP (rejeter sans avertir l'émetteur) ou REJECT ;
 - la direction : entrée ou sortie ;
 - les IP/hôtes concernés : cela peut être des IP ou des URLs ;
@@ -32,25 +34,27 @@ Ne rien mettre dans *Hôtes* et *Ports* va activer la règle pour tous sauf si u
 
 ![Ajouter une règle](images/admin-panel_add-rule.png)
 
-Il est possible de donner un label par règles (**Annotations**) et directement dans les règles en utilisant le caractère `#`.
+Il est possible de donner un label par règles (**Annotations**) et directement dans les règles en utilisant le caractère
+`#`.
 
 > [!NOTE]
 > Pour indiquer tous les ports vous pouvez laisser vide ou indiquer la plage `0:65535`.
 
-
 ## Banissements firewall
+
 Vous y retrouverez les IP actuellement bannies et les services sur lesquels elles le sont.
 ![Liste des banissements en cours](images/admin-panel_list-bans.png)
 
-Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la règle nécessaire.
+Si vous vous retrouvez bloqués sur un service, vérifiez ce menu et supprimez votre IP si elle est bannie et ajoutez la
+règle nécessaire.
 
 > [!TIP] Astuce
 > Le banissement dure 10 minutes par défaut et a lieu après une cinquantaine d'échecs de connexion.
 
-
 ## Services
 
-Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités connues (FTP, emails, SSH, bases de données...). Il n'est alors plus nécessaire de créer la règle par soi-même.
+Ce menu permet d'ouvrir ou fermer automatiquement les ports des fonctionnalités connues (FTP, emails, SSH, bases de
+données...). Il n'est alors plus nécessaire de créer la règle par soi-même.
 
 ## Exemples
 

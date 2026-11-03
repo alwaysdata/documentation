@@ -35,7 +35,8 @@ npm run build
 ```
 
 > [!WARNING]
-> The task `npm run dev` runs a NodeJS http-server but it doesn't understand the `.htaccess` file (Apache server only) which contains a redirection from the root `http://localhost:8080` to `/fr/` or `/en/`.
+> The task `npm run dev` runs a NodeJS http-server but it doesn't understand the `.htaccess` file (Apache server only)
+> which contains a redirection from the root `http://localhost:8080` to `/fr/` or `/en/`.
 > So expect an empty (404) root page then go manually to `/fr/` or `/en/`
 
 ## Requirements
@@ -44,7 +45,7 @@ npm run build
 
 ## Project Structure
 
-```
+```txt
 ├── config/             # Eleventy configuration modules
 │   ├── collections.js  # Custom collections
 │   ├── filters.js      # Template filters
@@ -79,9 +80,11 @@ Your content here...
 ## Available Markdown extensions
 
 ### Anchor
+
 Adds automatically anchors (`id`) on headings for precise sharable URLs
 
 ### Footnotes
+
 Adds footnotes feature:
 
 #### Block footnote
@@ -106,7 +109,8 @@ note.]
 ```
 
 ### Github-like alerts (or admonitions)
-Adds flavours to blockquotes.  
+
+Adds flavours to blockquotes.
 Available types: `NOTE`, `TIP`, `WARNING`, `CAUTION`, `IMPORTANT`
 
 ```md
@@ -129,7 +133,7 @@ Available types: `NOTE`, `TIP`, `WARNING`, `CAUTION`, `IMPORTANT`
 ## Scripts
 
 | Command | Description |
-|---------|-------------|
+| --------- | ------------- |
 | `npm run dev` | Start development server at localhost:8080 (override with `PORT`, e.g. `PORT=3000 npm run dev`) |
 | `npm run build` | Build for production |
 | `npm run clean` | Remove build artifacts |

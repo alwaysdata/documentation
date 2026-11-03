@@ -17,7 +17,8 @@ will do the trick:
 
 ## On the _alwaysdata_ side
 
-Just create a [Static files](/en/docs/web-hosting/sites/http-servers/static-files) site pointing to the directory of your choice (e.g.
+Just create a [Static files](/en/docs/web-hosting/sites/http-servers/static-files) site pointing to the directory of
+your choice (e.g.
 `www/my-app`).
 
 ## On the development side
@@ -30,7 +31,7 @@ production](https://create-react-app.dev/docs/deployment/#building-for-relative-
 ```
 
 In your local development environment, run the _build_ task. If you used a tool like [Create
-React App](https://create-react-app.dev) to bootstrap your project, it is available using the _npm_ task 
+React App](https://create-react-app.dev) to bootstrap your project, it is available using the _npm_ task
 `npm run build`. This command will produce static assets in a `build` directory.
 
 You can then deploy these files resulting from the _build_ to the directory you specified earlier when you

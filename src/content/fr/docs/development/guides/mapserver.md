@@ -7,9 +7,11 @@ eleventyNavigation:
   order: 1
 ---
 
-[MapServer](https://mapserver.org/) est une plateforme permettant de publier des données spatiales et des applications cartographiques interactives sur le web.
+[MapServer](https://mapserver.org/) est une plateforme permettant de publier des données spatiales et des applications
+cartographiques interactives sur le web.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom de compte : `[compte]`
 - Répertoire d'installation de MapServer : `/home/[compte]/mapserver`
@@ -19,13 +21,13 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 
 1. Créer le lien symbolique :
 
-```sh
-[compte]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
-```
+   ```sh
+   [compte]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
+   ```
 
 2. Créer un fichier `.htaccess` contenant :
 
-```
+```apache
 Options +ExecCGI
 SetHandler cgi-script
 ```

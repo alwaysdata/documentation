@@ -7,17 +7,20 @@ eleventyNavigation:
   order: 6
 ---
 
-1. Installez le plugin [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) dans l'interface d'administration WordPress. Activez-le, puis la mise en cache dans ses réglages :
+1. Installez le plugin [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) dans l'interface d'administration
+   WordPress. Activez-le, puis la mise en cache dans ses réglages :
 
-![](images/activate-wp-cache.png)
+   ![](images/activate-wp-cache.png)
 
-Plusieurs paramètres sont modifiables ultérieurement.
+   Plusieurs paramètres sont modifiables ultérieurement.
 
-2. Activez le [cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) sur le site web dans **Web > Sites > Modifier le [site] - ⚙️ > Cache**.
+2. Activez le [cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) sur le site web dans **Web >
+   Sites > Modifier le [site] - ⚙️ > Cache**.
 
 3. Vérifiez si le cache est activé :
 
-- une fois sur la page d’accueil du WordPress, ouvrez le panel développeur de votre navigateur, menu *Réseau*/*Network*. Effectuez une recherche sur l'en-tête `Age`.
+- une fois sur la page d’accueil du WordPress, ouvrez le panel développeur de votre navigateur, menu *Réseau*/*Network*.
+  Effectuez une recherche sur l'en-tête `Age`.
 
 ![](images/result.png)
 
@@ -25,7 +28,7 @@ Plusieurs paramètres sont modifiables ultérieurement.
 
 ```sh
 $ curl -I https://httpcache.alwaysdata.net
-HTTP/2 200 
+HTTP/2 200
 date: Wed, 01 Dec 2021 16:04:55 GMT
 server: Apache
 vary: Accept-Encoding,Cookie

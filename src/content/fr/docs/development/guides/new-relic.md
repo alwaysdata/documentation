@@ -7,19 +7,23 @@ eleventyNavigation:
   order: 1
 ---
 
-[New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les **agents PHP et Python**.
+[New Relic](https://newrelic.com/products/application-monitoring) surveille les applications et aide à les optimiser. Il
+offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les **agents PHP et
+Python**.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 
 > [!NOTE]
-> `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
-
+> `[newrelic-last-version]`, `[version]` et `REPLACE_WITH_LICENSE_KEY` doivent être remplacées par les informations
+> correctes. N'hésitez pas à ajuster en fonction de vos besoins.
 
 ## PHP
 
-Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
+Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs,
+voici les étapes à suivre.
 
 - Répertoire de New Relic : `/home/[compte]/newrelic/`
 
@@ -81,7 +85,8 @@ Plus d'options sont disponibles dans le fichier `/home/[compte]/newrelic/scripts
 
 ## Python
 
-New Relic est un module Python à installer comme les autres. Si l'application utilise un `virtualenv`, New Relic sera à installer au niveau de celui-ci.
+New Relic est un module Python à installer comme les autres. Si l'application utilise un `virtualenv`, New Relic sera à
+installer au niveau de celui-ci.
 
 ### Étape 1 : Installation de l'agent
 

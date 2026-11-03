@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## Versions supportées
 
-| |
+||
 |---|
 |5.4|
 |5.3|
@@ -27,18 +27,19 @@ Pour se servir d'une version de Lua différente que celle par défaut utilisez `
 
 [Luarocks](https://luarocks.org/) et [LuaJIT](http://luajit.org/) sont préinstallées.
 
-
 ## Déploiement HTTP
 
-Pour déployer une application HTTP avec Lua, créez un site de type *[Programme utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)* dans la section **Web > Sites**.
+Pour déployer une application HTTP avec Lua, créez un site de type *[Programme
+utilisateur](/fr/docs/hebergement-web/sites/serveurs-http/programme-utilisateur/)* dans la section **Web > Sites**.
 
 ![](images/user-program.png)
 
 Vous devrez spécifier la commande qui démarre votre application Lua, par exemple :
 
-```
+```sh
 lua5.1 /home/[compte]/myapp/start-server.lua
 ```
 
 > [!WARNING] Avertissement
-> Votre application doit impérativement écouter sur l'ip `::` et le port indiqués dans la vue de configuration du site sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.
+> Votre application doit impérativement écouter sur l'ip `::` et le port indiqués dans la vue de configuration du site
+> sous le champ *Commande* ; ou utiliser les variables d'environnement IP et PORT.

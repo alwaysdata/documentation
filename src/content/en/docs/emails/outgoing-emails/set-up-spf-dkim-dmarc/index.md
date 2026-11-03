@@ -10,14 +10,16 @@ Here are three methods for authenticating your emails and thereby reducing abusi
 
 ## Sender Policy Framework
 
-[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a `TXT` type DNS request to the sender's domain ("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send emails and compare it with the IP address of the sender's server.
+[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) makes a `TXT` type DNS request to the sender's domain
+("*MAIL FROM*" in the message headers) to find out the list of servers allowed to send emails and compare it with the IP
+address of the sender's server.
 
 ![](images/globalcyberalliance-spf.png)
 
 ### Parameters
 
 |Mechanism||
-|--- |--- |
+|---|---|
 |ALL|Default result|
 |A|An IN A (or AAAA) record that can be resolved as the sender's address|
 |IP4|IPv4 range|
@@ -28,20 +30,20 @@ Here are three methods for authenticating your emails and thereby reducing abusi
 |PTR|The IP address domain corresponds to the specified domain and the latter points to the IP in return|
 
 |Qualifiers||
-|--- |--- |
+|---|---|
 |+|Favorable result|
 |?|Neutral result|
 |~|Slight "SOFTMAIL" failure (email accepted but marked)|
 |-|Total failure (email normally rejected)|
 
 |Modifiers||
-|--- |--- |
+|---|---|
 |exp=some.example.org|To get the reason for the failure results|
 |redirect=some.example.org|To link to a rule record in another domain|
 
 > [!CAUTION]
-> This technology may have an impact on email redirects as the sender server is not necessarily the email server belonging to the original email sender.
-
+> This technology may have an impact on email redirects as the sender server is not necessarily the email server
+> belonging to the original email sender.
 
 #### At alwaysdata
 
@@ -52,7 +54,8 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 - `include:_spf.alwaysdata.com` **explicitly allows our servers** to send emails,
 - `~all` sends a slight "SOFTMAIL" failure result for the other sender servers.
 
- If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add `include:_spf.alwaysdata.com` to the SPF registration.
+ If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add
+ `include:_spf.alwaysdata.com` to the SPF registration.
 
 ### Links
 
@@ -62,7 +65,8 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 
 ## DomainKeys Identified Mail
 
-[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a signature to all of the outgoing emails. Concretely, this works with two keys:
+[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a
+signature to all of the outgoing emails. Concretely, this works with two keys:
 
 - a private key that is known - and kept secret - from the domain’s mail delivery servers;
 - a public key that corresponds to a DNS registration of the `TXT` type.
@@ -71,14 +75,14 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 
 ### At alwaysdata
 
-A pair of keys is created by default, whose public key (the `TXT` record) will be found in the **DNS Records** tab of the domain:
+A pair of keys is created by default, whose public key (the `TXT` record) will be found in the **DNS Records** tab of
+the domain:
 
 ![](images/dkim-record.png)
 
 If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
 
 > It is possible to generate others in **Domains > Details of [example.org] - 🔎 > Configuration**.
-
 
 ### Links
 
@@ -87,7 +91,8 @@ If the domain doesn’t use alwaysdata’s DNS servers, this record must be reco
 
 ## Domain-based Message Authentication, Reporting and Conformance
 
-[DMARC](https://en.wikipedia.org/wiki/DMARC) is a protocol that standardizes authentication by telling the addressees what actions to take should one of the authentication methods fails. It will check that:
+[DMARC](https://en.wikipedia.org/wiki/DMARC) is a protocol that standardizes authentication by telling the addressees
+what actions to take should one of the authentication methods fails. It will check that:
 
 - the domain corresponds to the pair of DKIM keys (field *d=*),
 - the sender server is specified in the SPF record for the domain (*MAIL FROM*),
@@ -98,11 +103,10 @@ If the domain doesn’t use alwaysdata’s DNS servers, this record must be reco
 > [!NOTE]
 > To use DMARC, DKIM and SPF must already be implemented.
 
-
 ### Parameters
 
 |Variables||
-|--- |--- |
+|---|---|
 |v|Protocol version: v=DMARC1 (required)|
 |pct|Percentage of messages to filter (default: 100)|
 |adkim|Coherency with DKIM|
@@ -122,7 +126,8 @@ If the domain doesn’t use alwaysdata’s DNS servers, this record must be reco
 ||0 = DKIM and SPF failure (default)|
 |rua|Recipients of aggregated failure reports|
 
-To implement it, a `TXT` DNS record needs to be created. At alwaysdata, you will find it in the **DNS records** tab of the domain:
+To implement it, a `TXT` DNS record needs to be created. At alwaysdata, you will find it in the **DNS records** tab of
+the domain:
 
 ![](images/dmarc-record.png)
 

@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
-[Tideways](https://tideways.com/) monitors the PHP applications and helps to optimize them. Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
+[Tideways](https://tideways.com/) monitors the PHP applications and helps to optimize them. Given the specificities of
+our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
@@ -15,7 +16,6 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 
 > [!NOTE]
 > `[version]` and `[php_version]` must be replaced by the accurate data. Feel free to adjust according to your needs.
-
 
 ## Step 1: Download the agent and the daemon
 

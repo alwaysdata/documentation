@@ -7,11 +7,14 @@ eleventyNavigation:
   order: 5
 ---
 
-Tout compte contient un répertoire `/home/[compte]/admin` placé à sa racine et accessible en [FTP](/fr/docs/hebergement-web/acces-distant/ftp/), [SSH](/fr/docs/hebergement-web/acces-distant/ssh/), [SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou encore [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/). 
+Tout compte contient un répertoire `/home/[compte]/admin` placé à sa racine et accessible en
+[FTP](/fr/docs/hebergement-web/acces-distant/ftp/), [SSH](/fr/docs/hebergement-web/acces-distant/ssh/),
+[SFTP](/fr/docs/hebergement-web/acces-distant/sftp/) ou encore [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/).
 
 Vous retrouverez dedans :
 
-- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (Cloud Public) ou un lien symbolique (Cloud Privé) des [emails](/fr/docs/emails/) ;
+- _mail_ : montage [NFS](https://fr.wikipedia.org/wiki/Network_File_System) (Cloud Public) ou un lien symbolique (Cloud
+  Privé) des [emails](/fr/docs/emails/) ;
 - _config_ ;
 - _data_ : stocke des fichiers de configuration [WebDAV](/fr/docs/hebergement-web/acces-distant/webdav/) ;
 - _logs_ ;
@@ -21,10 +24,11 @@ Vous retrouverez dedans :
 > [!NOTE]
 > Ce répertoire n'est PAS amené à recevoir vos fichiers.
 
-
 ## config
 
-Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**, les changements s'effectuant directement dans l'interface d'administration, onglets **Environnement**, **Web > Configuration** ou **Web > Sites**.
+Ce répertoire héberge les fichiers de configuration Apache, uWSGI ou des langages. Vous y accédez en **lecture seule**,
+les changements s'effectuant directement dans l'interface d'administration, onglets **Environnement**, **Web >
+Configuration** ou **Web > Sites**.
 
 ## logs
 
@@ -41,8 +45,8 @@ Il recueille différents types de logs :
 Un extrait de ces logs est présenté dans l'interface d'administration (**Logs** - 📄).
 
 > [!NOTE]
-> Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour le Cloud Privé, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
-> *Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée.*
+> Une **période de rétention** des logs peut être mise en place pour chaque compte via le menu **Avancé > Logs**. Pour
+> le Cloud Privé, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
+> _Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée._
 
-
-Seuls les logs *apache*, *php* et *uwsgi* du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.
+Seuls les logs _apache_, _php_ et _uwsgi_ du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.

@@ -7,36 +7,43 @@ eleventyNavigation:
   order: 10
 ---
 
-Rendez-vous dans l'onglet **Logs** de votre site (menu **Web > Sites**) pour personnaliser les logs d'accès HTTP ; stockés ensuite dans le répertoire `/home/[compte]/admin/logs/http/`.
+Rendez-vous dans l'onglet **Logs** de votre site (menu **Web > Sites**) pour personnaliser les logs d'accès HTTP ;
+stockés ensuite dans le répertoire `/home/[compte]/admin/logs/http/`.
 
 ![](images/admin-panel_add-site-logs_standard.png)
 
 ## Types de formats
 
 - le format *Standard*[^1] :
+
 ```txt
 {request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] "{request}" {status} {response_size} "{referer}" "{user_agent}"
 ```
 
 > Exemple :
+
 ```txt
 blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02/01/2022-au-rapport/ HTTP/2.0" 200 16634 "https://blog.alwaysdata.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
 ```
 
 - le format *Avancé* (format par défaut) :
+
 ```txt
 {request_hostname} {client_ip} - - [{completion_date:%d/%b/%Y:%H:%M:%S %z}] "{request}" {status} {response_size} "{referer}" "{user_agent}" {protocol} {duration}
 ```
 
 > Exemple :
+
 ```txt
 blog.alwaysdata.com 198.51.100.42 - - [17/Feb/2022:14:19:01 +0100] "GET /2022/02/01/2022-au-rapport/ HTTP/2.0" 200 16634 "https://blog.alwaysdata.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0" https 0.128109
 ```
 
 > [!TIP] Astuce
-> Pour extraire les requêtes longues, utilisez la commande suivante : `awk '{print $NF,$0}' /home/[compte]/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
+> Pour extraire les requêtes longues, utilisez la commande suivante :
+> `awk '{print $NF,$0}' /home/[compte]/admin/logs/http/[date]/[fichier].log | sort -n | cut -f2- -d' '`
 
-- le format *Personnalisé*. La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
+- le format *Personnalisé*. La personnalisation du format des lignes de log s'effectue dans le champ **Format**. Ce
+  champ accepte les chaînes de caractères ainsi qu'un certain nombre de variables listées ci-après.
 
 ![](images/admin-panel_add-site-logs_custom.png)
 
@@ -67,7 +74,9 @@ La syntaxe à respecter est `{nom_de_variable}` pour voir apparaître sa valeur 
 
 ## Cas spécifiques
 
-Pour afficher l'IP d'un utilisateur derrière [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) utilisez `{request_header:cf-connecting-ip}`.
+Pour afficher l'IP d'un utilisateur derrière
+[Cloudflare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-)
+utilisez `{request_header:cf-connecting-ip}`.
 
 [^1]: [Combined Log Format avec vhosts](https://httpd.apache.org/docs/2.4/logs.html)
 [^2]: Peut être formatée en suivant la syntaxe [strftime](https://docs.python.org/fr/3.6/library/datetime.html?highlight=strftime#strftime-strptime-behavior).

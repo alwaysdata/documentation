@@ -9,22 +9,26 @@ eleventyNavigation:
 
 Un reverse-proxy frontal est installé sur tous nos serveurs. Celui-ci écoute les requêtes HTTP entrantes puis :
 
-- lance les serveurs HTTP et programmes [définis](/fr/docs/hebergement-web/sites/ajouter-un-site/) pour servir vos données ;
+- lance les serveurs HTTP et programmes [définis](/fr/docs/hebergement-web/sites/ajouter-un-site/) pour servir vos
+  données ;
 - renvoie le bon [certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/) ;
 - logue les requêtes HTTP. Ces logs sont disponibles via le [répertoire `/home/[compte]/admin/logs`](/fr/docs/hebergement-web/acces-distant/repertoire-admin/#logs).
 
-Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites/personnalisation/waf/) et le [cache HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) activables dans **Web > Sites**.
+Il gère aussi le [pare-feu applicatif web (WAF)](/fr/docs/hebergement-web/sites/personnalisation/waf/) et le [cache
+HTTP](/fr/docs/hebergement-web/sites/personnalisation/cache-http/) activables dans **Web > Sites**.
 
 ![](images/http-stack.png)
 
  Nous ajoutons aux *headers* :
 
-- `X-Forwarded-Proto`, qui vaut http ou https selon que la connexion est faite en HTTP ou HTTPS. Ainsi le reverse proxy accède aux serveurs web en HTTP que la connexion au niveau du navigateur soit HTTP ou HTTPS ;
+- `X-Forwarded-Proto`, qui vaut http ou https selon que la connexion est faite en HTTP ou HTTPS. Ainsi le reverse proxy
+  accède aux serveurs web en HTTP que la connexion au niveau du navigateur soit HTTP ou HTTPS ;
 - `X-Forwarded-For` et `X-Real-IP`, qui prennent la valeur de l'adresse IP de l'utilisateur.
 
 Ces *headers* sont supprimés des requêtes entrantes s'ils y figurent.
 
-Le reverse proxy gère HTTP/1 et HTTP/2. Il n'impose aucune limite de durée, de taille ou de nombre de connexions simultanées ([Limites](/fr/docs/caracteristiques-techniques/limites/)).
+Le reverse proxy gère HTTP/1 et HTTP/2. Il n'impose aucune limite de durée, de taille ou de nombre de connexions
+simultanées ([Limites](/fr/docs/caracteristiques-techniques/limites/)).
 
 ---
 Icônes : The Noun Project

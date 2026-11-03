@@ -1,0 +1,10 @@
+{
+  "config": {
+    "MD010": { "spaces_per_tab": 4 },
+    "MD013": { "line_length": 120, "code_blocks": false, "tables": false, "headings": false },
+    "MD024": { "siblings_only": true },
+    "MD026": { "punctuation": ".,;:。，；：" },
+    "MD045": false
+  },
+  "globs": ["src/**/*.md"]
+}

@@ -6,11 +6,14 @@ eleventyNavigation:
   order: 1
 ---
 
-[GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review, continuous integration and deployment...
+[GitLab](https://about.gitlab.com/) is a software development platform with wiki, issue tracking, code review,
+continuous integration and deployment...
 
-It is possible to install it in **[Private Cloud - dedicated and Gold servers](/en/docs/admin-billing/billing/private-cloud-prices)**, here are the steps to follow.
+It is possible to install it in **[Private Cloud - dedicated and Gold
+servers](/en/docs/admin-billing/billing/private-cloud-prices)**, here are the steps to follow.
 
-**[PostgreSQL](/en/docs/web-hosting/databases/postgresql) and [Redis](/en/docs/web-hosting/databases/redis/) must be installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
+**[PostgreSQL](/en/docs/web-hosting/databases/postgresql) and [Redis](/en/docs/web-hosting/databases/redis/) must be
+installed on the server.** If it's not the case, [contact the support](https://admin.alwaysdata.com/support/add).
 
 The installation must be done on an **empty account**. We consider the following information for our example:
 
@@ -24,7 +27,8 @@ GitLab needs these versions which must be defined in the **Environment** menu.
 
 1. Create the PostgreSQL database in the menu **Databases > PostgreSQL** and enable `pg_trgm` and `btree_gist` extensions.
 
-2. If you are using a [RAM limit](/en/docs/technical-specifications/system-resources-alerts-and-limitations) of less than 10 GB, increase it in the **Advanced > Resources** menu.
+2. If you are using a [RAM limit](/en/docs/technical-specifications/system-resources-alerts-and-limitations) of less
+   than 10 GB, increase it in the **Advanced > Resources** menu.
 
 3. Launch the following commands in [SSH](/en/docs/web-hosting/remote-access/ssh) at the root of the account:
 
@@ -56,13 +60,16 @@ nano config/gitlab.yml
 ```
 
 In the *production > gitlab* section change:
-- the `host: localhost` string to fill in the desired address of the GitLab site. This can be for example the account address: `[account].alwaysdata.net`.
+
+- the `host: localhost` string to fill in the desired address of the GitLab site. This can be for example the account
+  address: `[account].alwaysdata.net`.
 - the `email` paragraph with the desired email information. For example:
 
 ```yml
 email_from: [account]@alwaysdata.net
 email_reply_to: [account]@alwaysdata.net
 ```
+
 ---
 
 ```sh
@@ -90,7 +97,9 @@ cp config/database.yml.postgresql config/database.yml
 ```sh
 nano config/database.yml
 ```
-Replace the `database`, `username` , `host` and `password` keys and the first section (production) with those of your account. Example:
+
+Replace the `database`, `username` , `host` and `password` keys and the first section (production) with those of your
+account. Example:
 
 ```yml
 database: [account]_gitlab
@@ -137,25 +146,28 @@ yarn install --production --pure-lockfile
 bundle exec rake gitlab:assets:compile RAILS_ENV=production NODE_ENV=production
 ```
 
-It is this last command that requires a significant amount of RAM. The amount needed depends on the number of cores and it may be necessary to increase it if you encounter errors at this stage.
+It is this last command that requires a significant amount of RAM. The amount needed depends on the number of cores and
+it may be necessary to increase it if you encounter errors at this stage.
 
 ## Service creation
 
 Create a [service](/en/docs/web-hosting/services) with the following details:
 
-  * *Name*: GitLab
-  * *Command*: `~/init restart -f`
+- *Name*: GitLab
+- *Command*: `~/init restart -f`
 
 ## Website creation
 
 Create a [website](/en/docs/web-hosting/sites/add-a-site) with the following details:
 
-  * *Name*: GitLab
-  * *Type*: User program
-  * *Addresses*: the address specified in the config.yml file - In our example `[account].alwaysdata.net`
-  * *Command*: `true`
-  
-This site must listen on port `8100`, check in the explanatory text of the *Command* field. This is normally the case, since it is the only site.
+- *Name*: GitLab
+- *Type*: User program
+- *Addresses*: the address specified in the config.yml file - In our example `[account].alwaysdata.net`
+- *Command*: `true`
+
+This site must listen on port `8100`, check in the explanatory text of the *Command* field. This is normally the case,
+since it is the only site.
 
 > [!NOTE]
-> The default account’s username is *root*. You will choose its password at the first website connection and will be able to change the username afterwards.
+> The default account’s username is *root*. You will choose its password at the first website connection and will be
+> able to change the username afterwards.

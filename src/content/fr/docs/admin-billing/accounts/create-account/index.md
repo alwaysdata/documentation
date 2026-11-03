@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Allez dans le menu **Abonnements** de votre interface client. 
+Allez dans le menu **Abonnements** de votre interface client.
 
 ![](images/list-accounts.png)
 
@@ -17,6 +17,7 @@ Après avoir cliqué sur **Ouvrir un nouveau compte** vous trouverez un formulai
 - sa localisation : Cloud Public, Private Cloud ;
 
 si Cloud Public :
+
 - le produit (le pack) ;
 - la fréquence de paiement (mensuel ou annuel).
 

@@ -9,5 +9,5 @@ eleventyNavigation:
 ---
 
 > [!NOTE]
-> Retrouvez toutes les [informations de connexion](/fr/docs/caracteristiques-techniques/informations-de-connexion/) aux différents services de votre compte.
-
+> Retrouvez toutes les [informations de connexion](/fr/docs/caracteristiques-techniques/informations-de-connexion/) aux
+> différents services de votre compte.

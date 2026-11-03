@@ -9,7 +9,8 @@ eleventyNavigation:
 
 ## Limite du nombre d'envoi d'emails
 
-Il n'y a pas de limites mais lors d'un envoi important, tous les emails ne partiront pas en même temps. Ils seront envoyés "au fil de l'eau".
+Il n'y a pas de limites mais lors d'un envoi important, tous les emails ne partiront pas en même temps. Ils seront
+envoyés "au fil de l'eau".
 
 Le spam est totalement interdit.
 

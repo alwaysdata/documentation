@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 5
 ---
 
-alwaysdata offers the installation of [virtual private networks (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) software on [dedicated and Gold](/en/docs/admin-billing/billing/private-cloud-prices) environments. Here is the list of available software :
+alwaysdata offers the installation of [virtual private networks
+(VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) software on [dedicated and
+Gold](/en/docs/admin-billing/billing/private-cloud-prices) environments. Here is the list of available software :
 
 - [IPsec](https://en.wikipedia.org/wiki/IPsec)
 - [OpenVPN](https://openvpn.net/index.php/open-source.html)

@@ -17,9 +17,11 @@ eleventyNavigation:
 Redis ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 > [!NOTE]
-> Les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander à utiliser Valkey à la place.
+> Les utilisateurs de [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander à
+> utiliser Valkey à la place.
 >
-> Sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) vous pouvez le faire tourner en suivant ce [guide](/fr/docs/developpement/guides/redis/).
+> Sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) vous pouvez le faire tourner en
+> suivant ce [guide](/fr/docs/developpement/guides/redis/).
 
 ---
 

@@ -6,19 +6,22 @@ eleventyNavigation:
   order: 1
 ---
 
-[New Relic](https://newrelic.com/products/application-monitoring) monitors the applications and helps to optimize them. It offers agents in a number of languages and here we will present the steps needed to install the **PHP and Python agents**.
+[New Relic](https://newrelic.com/products/application-monitoring) monitors the applications and helps to optimize them.
+It offers agents in a number of languages and here we will present the steps needed to install the **PHP and Python
+agents**.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
 - Account name: `[account]`
 
 > [!NOTE]
-> `[newrelic-last-version]`, `[version]` and `REPLACE_WITH_LICENSE_KEY` must be replaced by the accurate data. Feel free to adjust according to your needs.
-
+> `[newrelic-last-version]`, `[version]` and `REPLACE_WITH_LICENSE_KEY` must be replaced by the accurate data. Feel free
+> to adjust according to your needs.
 
 ## PHP
 
-Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
+Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the
+steps to follow.
 
 - New Relic directory: `/home/[account]/newrelic/`
 
@@ -80,7 +83,8 @@ More options are available from file `/home/[account]/newrelic/scripts/newrelic.
 
 ## Python
 
-New Relic is a Python module to be installed as other ones. If the application uses a `virtualenv`, New Relic will need to be installed at its level.
+New Relic is a Python module to be installed as other ones. If the application uses a `virtualenv`, New Relic will need
+to be installed at its level.
 
 ### Step 1: Install the agent
 

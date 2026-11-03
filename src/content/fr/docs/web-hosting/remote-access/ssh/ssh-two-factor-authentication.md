@@ -10,28 +10,31 @@ eleventyNavigation:
 > [!NOTE]
 > Fonctionnalité disponible uniquement sur les environnements [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/).
 
-
 Vous devrez [contacter le support](https://admin.alwaysdata.com/support/add/) pour installer l'outil `google-authenticator`[^1].
 
-Une fois `google-authenticator` installé sur le serveur, voici comment activer l'authentification 2 facteurs pour chaque compte :
+Une fois `google-authenticator` installé sur le serveur, voici comment activer l'authentification 2 facteurs pour chaque
+compte :
 
 1. Connectez-vous en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) à votre compte ;
 
 2. Créez une nouvelle clé secrète,
 
-    - pour une vérification [TOTP](https://en.wikipedia.org/wiki/Time-based_One-Time_Password) : 
+    - pour une vérification [TOTP](https://en.wikipedia.org/wiki/Time-based_One-Time_Password) :
+
     ```shell
-    $ google-authenticator -tDfuw 3
+    google-authenticator -tDfuw 3
     ```
-    
+
     - pour une vérification [HOTP](https://en.wikipedia.org/wiki/HMAC-based_one-time_password) :
+
     ```shell
-    $ google-authenticator -cfuw 3
+    google-authenticator -cfuw 3
     ```
-  
+
 Le script vous renverra alors :
- - un QR code et la nouvelle clé secrète à rentrer sur votre application de génération de mots de passe[^2] ;
- - plusieurs codes d'urgence à récupérer de votre côté.
+
+- un QR code et la nouvelle clé secrète à rentrer sur votre application de génération de mots de passe[^2] ;
+- plusieurs codes d'urgence à récupérer de votre côté.
 
 Pour les vérifications TOTP, il sera nécessaire d'indiquer le code renvoyé par votre logiciel.
 

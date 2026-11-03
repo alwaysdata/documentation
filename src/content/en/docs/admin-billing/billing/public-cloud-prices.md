@@ -6,27 +6,28 @@ eleventyNavigation:
   order: 3
 ---
 
-This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our [sales team](https://www.alwaysdata.com/en/contact/).
+This page lists the prices (VAT excluded) of the Public Cloud configurations. To have more information contact our
+[sales team](https://www.alwaysdata.com/en/contact/).
 
 * Guaranteed Response Time (GRT): 1hr
 * Mean Time To Repair (MTTR): 4hr
 * Availability rate: 99.7%
 
 | | Free [^1] | Small | Medium | Large | X-Large |
-| --- | --- | --- | --- | ---| --- |
+| --- | --- | --- | --- | --- | --- |
 | Disk space | 1 GB | 50 GB | 100 GB | 200 GB | 500 GB |
-| RAM | 256 MB | 1 GB | 2 GB | 4 GB | 8 GB
+| RAM | 256 MB | 1 GB | 2 GB | 4 GB | 8 GB |
 | CPU | 1/4 | 1 | 2 | 4 | 8 |
 | [Backups](/en/docs/web-hosting/backups) (rolling days) | 3 days | 7 days | 20 days | 20 days | 30 days |
 | Annual payment (VAT excluded) | Free | €5 /months | €20 /months | €50 /months | €150 /months |
 | Monthly payment (VAT excluded) | Free | €6 /months | €22 /months | €55 /months | €165 /months |
 
-The [Public Cloud configuration change](/en/docs/admin-billing/billing/upgrade-your-plan) is done through the **Subscriptions** menu.
+The [Public Cloud configuration change](/en/docs/admin-billing/billing/upgrade-your-plan) is done through the
+**Subscriptions** menu.
 
 We offer [several programs](/en/docs/admin-billing/programs) to benefit from discounts.
 
 > [!NOTE]
 > The disk quota includes files, mails and databases.
-
 
 [^1]: The Free plan cannot be used for profit purposes. The creation of websites on this plan is limited to the `alwaysdata.net` account's address and it cannot be used to run [services](/en/docs/web-hosting/services/).

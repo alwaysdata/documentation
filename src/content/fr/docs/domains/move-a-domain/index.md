@@ -19,10 +19,11 @@ Cet article explique comment transférer un domaine _et_ ses adresses email sur 
 > [!NOTE]
 > Seul le _propriétaire du compte_ peut initier la cession.
 
-
-Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites email se copient sur son compte. Cette action étant dépendante de la taille des boites email, elle peut prendre du temps.
+Le profil destinataire devra simplement l'accepter dans la section **Cessions** et attendre que les boites email se
+copient sur son compte. Cette action étant dépendante de la taille des boites email, elle peut prendre du temps.
 
 ![](images/transfers_menu.png)
 
 > [!TIP] Astuce
-> Pour déplacer un domaine vers un compte appartenant au *même profil* avec lequel vous êtes connecté(e), il suffit d'indiquer votre adresse email.
+> Pour déplacer un domaine vers un compte appartenant au _même profil_ avec lequel vous êtes connecté(e), il suffit
+> d'indiquer votre adresse email.

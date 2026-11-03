@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 2
 ---
 
-Connecting in SSH mode with its public key (with or rather than use the connection via password) offers some advantages: enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH account with a public key.
+Connecting in SSH mode with its public key (with or rather than use the connection via password) offers some advantages:
+enhanced security, the ability to define a "blank" password, etc. Here are the steps to follow to configure your SSH
+account with a public key.
 
 > [!NOTE]
 > DSA keys are [not accepted](https://www.openssh.com/legacy.html).
@@ -24,9 +26,9 @@ The actions are performed using *PuTTY*, an SSH client [available free of charge
 ### In Unix / OS X
 
 ```sh
-$ mkdir -p $HOME/.ssh
-$ chmod 0700 $HOME/.ssh
-$ ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
+mkdir -p $HOME/.ssh
+chmod 0700 $HOME/.ssh
+ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519
 ```
 
 > [!TIP]
@@ -43,4 +45,5 @@ Then click on **Add a SSH Key**.
 ![](images/add-ssh-key.png)
 
 > [!TIP]
-> Users of the [Private Cloud](/en/docs/admin-billing/billing/choose-its-paas) can declare [global keys to the server](/en/docs/web-hosting/remote-access/ssh/install-globally-ssh-keys), which can be used by all accounts.
+> Users of the [Private Cloud](/en/docs/admin-billing/billing/choose-its-paas) can declare [global keys to the
+> server](/en/docs/web-hosting/remote-access/ssh/install-globally-ssh-keys), which can be used by all accounts.

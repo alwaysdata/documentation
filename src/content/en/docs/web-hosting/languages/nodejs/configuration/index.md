@@ -9,8 +9,8 @@ eleventyNavigation:
 
 ## Supported versions
 
-||
-|---|
+| |
+| --- |
 | 24 |
 | 22 |
 | 20 |
@@ -19,16 +19,16 @@ eleventyNavigation:
 | 14 |
 | 12 |
 | 10 |
-| 8  |
-| 6  |
+| 8 |
+| 6 |
 
-The default version can be changed from the administration section, under **Environment > Node.js**. This is the version that is especially used when you start `node`.
+The default version can be changed from the administration section, under **Environment > Node.js**. This is the version
+that is especially used when you start `node`.
 
 Versions are not necessarily [already installed](/en/docs/web-hosting/languages#versions).
 
 > [!NOTE]
 > Only **[LTS versions](https://nodejs.org/en/about/previous-releases)** are made available.
-
 
 ## Binary to use
 
@@ -37,12 +37,12 @@ You need to always use `node` (or `/usr/bin/node`). `nodejs` does not work.
 To force the use of a different version of Node.js other than the default one, define the environment variable `NODEJS_VERSION`:
 
 ```sh
-$ NODEJS_VERSION=12 node
+NODEJS_VERSION=12 node
 ```
 
 In your scripts, use `/usr/bin/node` as *shebang*:
 
-```
+```js
 #!/usr/bin/node
 ```
 
@@ -51,13 +51,13 @@ In your scripts, use `/usr/bin/node` as *shebang*:
 Your Node.js environment starts off empty, with no ready installed libraries. You can use `npm` to install package:
 
 ```sh
-$ npm install [package]
+npm install [package]
 ```
 
 You can also use `npm` in global mode, the package will be installed in the `/home/[account]/.npm-packages` directory:
 
 ```sh
-$ npm install -g [package]
+npm install -g [package]
 ```
 
 ## HTTP deployment
@@ -68,9 +68,10 @@ To deploy an HTTP application with Node.js, create a *Node.js* type site in the 
 
 You need to specify the command that will start your Node.js application, for example:
 
-```
+```sh
 node /home/[account]/myapp/index.js
 ```
 
 > [!WARNING]
-> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The `IP` / `HOST` and `PORT` environment variables can also be used.
+> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The
+> `IP` / `HOST` and `PORT` environment variables can also be used.

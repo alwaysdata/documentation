@@ -21,7 +21,9 @@ Then there will be a series of fields to fill-in. Here are the details.
 ![](images/admin-panel_create-mailbox_required-infos.png)
 
 - *Domain*: the domain name for the address to create,
-- *Local part*: the part to the left of the email address _@_ (_e.g._ if you wish to create `contact@example.org`, the local part will be `contact`). You can also create a [catch-all address](/en/docs/emails/create-an-email-address/catch-all).
+- *Local part*: the part to the left of the email address *@* (*e.g.* if you wish to create `contact@example.org`, the
+  local part will be `contact`). You can also create a [catch-all
+  address](/en/docs/emails/create-an-email-address/catch-all).
 - *Password*: the password needed to connect to this email address.
 
 ## Antispam
@@ -29,14 +31,17 @@ Then there will be a series of fields to fill-in. Here are the details.
 The antispam used to filter out undesired email advertising (*spam*) is the open-source software [Rspamd](https://rspamd.com/).
 
 > [!CAUTION]
-> The configurable antispam is the antispam of incoming mail. All outgoing emails from our servers are required to pass through a non-configurable antispam filter.
-
+> The configurable antispam is the antispam of incoming mail. All outgoing emails from our servers are required to pass
+> through a non-configurable antispam filter.
 
 ![](images/admin-panel_mailbox_antispam.png)
 
-- *Score*: the antispam software assigns every message a score based on the probability of it being spam. Messages that exceed this score will be saved in a folder. The lower the score, the more likely an email will be marked out as spam, so it is preferable to leave the default value.
+- *Score*: the antispam software assigns every message a score based on the probability of it being spam. Messages that
+  exceed this score will be saved in a folder. The lower the score, the more likely an email will be marked out as spam,
+  so it is preferable to leave the default value.
 - *Folder*: the folder that spam is moved to. The default folder is `Spam`.
-- *Score for spam to delete*: messages that exceed this score will be deleted immediately, without even being saved in the spam folder. Unless you are sure of what you are doing, leave the default value.
+- *Score for spam to delete*: messages that exceed this score will be deleted immediately, without even being saved in
+  the spam folder. Unless you are sure of what you are doing, leave the default value.
 
 The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to filter potentially infected email.
 
@@ -50,22 +55,24 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 > [!NOTE]
 > This function is relevant when using the antispam and/or antivirus software: it is up to you to empty the folders regularly.
 
-
 ## Redirect
 
 ![](images/admin-panel_mailbox_redirection.png)
 
 - *Addresses*: addresses that the emails will be redirected to (separated by a space).
-- *Local copy*: by checking this box, all redirected emails will also be copied to this mailbox. If not, the emails will not be stored, simply redirected.
-	- If this box is not checked, we therefore create [an alias](https://en.wikipedia.org/wiki/Email_alias).
+- *Local copy*: by checking this box, all redirected emails will also be copied to this mailbox. If not, the emails will
+  not be stored, simply redirected.
+  - If this box is not checked, we therefore create [an alias](https://en.wikipedia.org/wiki/Email_alias).
 
 > [!NOTE]
-> If you use the antivirus and/or the antispam software, emails considered to be fraudulent are never redirected to avoid passing on these bad messages to outside vendors.
+> If you use the antivirus and/or the antispam software, emails considered to be fraudulent are never redirected to
+> avoid passing on these bad messages to outside vendors.
 
+<!-- -->
 
 > [!CAUTION]
-> alwaysdata's email servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the senders. This can block the redirections.
-
+> alwaysdata's email servers are not necessarily authorized by the authentication rules (SPF, DKIM, DMARC) of the
+> senders. This can block the redirections.
 
 ## Auto-reply
 
@@ -84,9 +91,10 @@ The [ClamAV](http://www.clamav.net/) antivirus included to Rspamd is used to fil
 > [!NOTE]
 > If no maximum size is specified for a mailbox, then the space available in the pack will represent the ceiling.
 
-
 ## Script Sieve
 
 ![](images/admin-panel_mailbox_sieve.png)
 
-This technology is used to perform [more precise operations](/en/docs/emails/incoming-emails/use-sieve-scripts) when your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured on the form creating your mailbox.
+This technology is used to perform [more precise operations](/en/docs/emails/incoming-emails/use-sieve-scripts) when
+your messages are received. If you activate the Sieve script, then it will be run after all of the operations configured
+on the form creating your mailbox.

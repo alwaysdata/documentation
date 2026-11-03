@@ -18,16 +18,21 @@ Go to the **Web > Sites > Add a site** menu.
 - Type: Redirect,
 - Destination URL: address that the redirect leads to,
 - Type of redirect:
-    - permanent (HTTP code `301`): for conventional use, redirects a visitor from an address A to an address B. Search engines will update their index with the new destination,
-    - temporary (HTTP code `302`): generally used during site maintenance. The search engines retain the original page in their index,
+  - permanent (HTTP code `301`): for conventional use, redirects a visitor from an address A to an address B. Search
+    engines will update their index with the new destination,
+  - temporary (HTTP code `302`): generally used during site maintenance. The search engines retain the original page in
+    their index,
 - Add the request path to the destination URL.
 
 ![](images/admin-panel_redirect.png)
 
 ## Redirect via Apache
 
-For PHP sites, static files and custom Apache sites you can also use a `.htaccess` file and the [Redirect](https://httpd.apache.org/docs/2.4/en/mod/mod_alias.html#redirect) directive.
+For PHP sites, static files and custom Apache sites you can also use a `.htaccess` file and the
+[Redirect](https://httpd.apache.org/docs/2.4/en/mod/mod_alias.html#redirect) directive.
 
 ## Redirect via uWSGI
 
-For Python WSGI, Ruby Rack and Ruby on Rails <= 2.x sites, you can also use the [InternalRouting](https://uwsgi-docs.readthedocs.io/en/latest/InternalRouting.html) method and its `router-redirect` plugin in the advanced site configuration.
+For Python WSGI, Ruby Rack and Ruby on Rails <= 2.x sites, you can also use the
+[InternalRouting](https://uwsgi-docs.readthedocs.io/en/latest/InternalRouting.html) method and its `router-redirect`
+plugin in the advanced site configuration.

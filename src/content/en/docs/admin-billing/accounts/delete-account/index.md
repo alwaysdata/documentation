@@ -17,5 +17,4 @@ This will delete all of the domains, email addresses, websites, files, databases
 > [!NOTE]
 > Only the **account owner** can perform this action. Furthermore, no refunds are provided for early deletion.
 
-
 - [How to delete its profile](/en/docs/admin-billing/profile/delete-profile)

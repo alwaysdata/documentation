@@ -11,14 +11,16 @@ An email source will display its true content, the raw message code prior to int
 - analyze email deliverability,
 - gain some information on the sender and the path taken by the message.
 
-You can retrieve it via any mail client. For example, via [webmail](https://webmail.alwaysdata.com), you will find it in **... Plus > Show source**
+You can retrieve it via any mail client. For example, via [webmail](https://webmail.alwaysdata.com), you will find it in
+**... Plus > Show source**
 
 ![](images/roundcube-source-menu.png)
 
 The email source comprises:
 
--   the path taken by the message:
-    ```
+- the path taken by the message:
+
+    ```txt
     Return-Path: <test@alwaysdata.net>
     Delivered-To: test@alwaysdata.net
     Received: from smtpin1.paris1.alwaysdata.com ([2a00:b6e0:1:42:1::1])
@@ -53,11 +55,14 @@ The email source comprises:
     Received: from overlord-core.paris1.alwaysdata.com (2a00:b6e0:1:84:1::1)
      by ad-roundcube.alwaysdata.net
     ```
-    The mail transited a number of our servers to reach the target server *imap1.paris1.alwaysdata.com*. The DKIM public key is shown.
 
--   Various information relating to the message itself and the user
+    The mail transited a number of our servers to reach the target server *imap1.paris1.alwaysdata.com*. The DKIM public
+    key is shown.
+
+- Various information relating to the message itself and the user
     agent is shown.
-    ```
+
+    ```txt
     with HTTP (HTTP/1.1 POST); Wed, 06 Nov 2019 12:43:48 +0100
     MIME-Version: 1.0
     Content-Type: text/plain; charset=US-ASCII;
@@ -71,26 +76,28 @@ The email source comprises:
     X-Sender: test@alwaysdata.net
     User-Agent: Roundcube Webmail/1.3.10
     ```
--   Elements linked to antivirus, antispam software:
 
-    ```
-	X-alwaysdata-Spam-Report:
-	0.00 TO_EQ_FROM - To address matches the From address
-	0.00 TO_DN_NONE - None of the recipients have display names
-	0.00 RCVD_VIA_SMTP_AUTH - Authenticated hand-off was seen in Received headers
-	0.00 RCVD_TLS_LAST - Last hop used encrypted transports
-	0.00 RCVD_COUNT_THREE [3] - Message has 3-5 Received headers
-	0.00 RCPT_COUNT_ONE [1] - One recipient
-	0.00 MIME_TRACE [0:+]
-	0.00 MID_RHS_MATCH_FROM - Message-ID RHS matches From domain
-	0.00 FROM_NO_DN - From header does not have a display name
-	0.00 ARC_NA - ARC signature absent
-	-0.10 MIME_GOOD [text/plain] - Known content-type
-	-1.00 NEURAL_HAM [-0.998] - Neural network ham
-	X-alwaysdata-Spam-Score: -1.10
+- Elements linked to antivirus, antispam software:
+
+    ```txt
+    X-alwaysdata-Spam-Report:
+    0.00 TO_EQ_FROM - To address matches the From address
+    0.00 TO_DN_NONE - None of the recipients have display names
+    0.00 RCVD_VIA_SMTP_AUTH - Authenticated hand-off was seen in Received headers
+    0.00 RCVD_TLS_LAST - Last hop used encrypted transports
+    0.00 RCVD_COUNT_THREE [3] - Message has 3-5 Received headers
+    0.00 RCPT_COUNT_ONE [1] - One recipient
+    0.00 MIME_TRACE [0:+]
+    0.00 MID_RHS_MATCH_FROM - Message-ID RHS matches From domain
+    0.00 FROM_NO_DN - From header does not have a display name
+    0.00 ARC_NA - ARC signature absent
+    -0.10 MIME_GOOD [text/plain] - Known content-type
+    -1.00 NEURAL_HAM [-0.998] - Neural network ham
+    X-alwaysdata-Spam-Score: -1.10
     ```
 
-    The email does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [Rspamd](https://rspamd.com) gives a low score allowing the message to be sent.
+    The email does not contain any virus detected by [ClamAV](https://www.clamav.net/) and [Rspamd](https://rspamd.com)
+    gives a low score allowing the message to be sent.
 
 ---
 

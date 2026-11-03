@@ -9,8 +9,8 @@ eleventyNavigation:
 The custom Apache type is used to run sites served by the Apache server that do not use PHP or HTML.
 
 > [!WARNING]
-> If you only wish to add global directives to Apache, change its [configuration](/en/docs/web-hosting/sites/http-servers/configure-apache) in **Web > Configuration > Apache**.
-
+> If you only wish to add global directives to Apache, change its
+> [configuration](/en/docs/web-hosting/sites/http-servers/configure-apache) in **Web > Configuration > Apache**.
 
 Go to the **Web > Sites > Add a site** menu.
 
@@ -27,4 +27,5 @@ Go to the **Web > Sites > Add a site** menu.
 
 ![](images/admin-panel_apache-custom.png)
 
-All of the modifications will impact the `/home/[account]/admin/config/apache/sites.conf` file. Apache error logs are available in file `/home/[account]/admin/logs/apache/apache.log`.
+All of the modifications will impact the `/home/[account]/admin/config/apache/sites.conf` file. Apache error logs are
+available in file `/home/[account]/admin/logs/apache/apache.log`.

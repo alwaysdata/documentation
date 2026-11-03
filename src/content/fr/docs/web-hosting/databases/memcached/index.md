@@ -9,16 +9,18 @@ eleventyNavigation:
 
 ## Connexion
 
-|||
-|---|---|
+| | |
+| --- | --- |
 | **Serveur** | localhost ou 127.0.0.1 |
 | **Port** | 11211 (Port Memcached par défaut) |
 
 Memcached ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 > [!NOTE]
-> Cette configuration est disponible en environnements [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) vous pouvez le faire tourner en suivant ce [guide](/fr/docs/developpement/guides/memcached/).
-
+> Cette configuration est disponible en environnements [Cloud
+> Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Sur le [Cloud
+> Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) vous pouvez le faire tourner en suivant ce
+> [guide](/fr/docs/developpement/guides/memcached/).
 
 ---
 

@@ -5,11 +5,14 @@ eleventyNavigation:
   parent: RabbitMQ
 ---
 
-The [management plugin](https://www.rabbitmq.com/management.html) of RabbitMQ can be used on the [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices). Only [management access](https://www.rabbitmq.com/management.html#permissions) will be available.
+The [management plugin](https://www.rabbitmq.com/management.html) of RabbitMQ can be used on the [Private
+Cloud](/en/docs/admin-billing/billing/private-cloud-prices). Only [management
+access](https://www.rabbitmq.com/management.html#permissions) will be available.
 
 ## Installation
 
-Create a site of the type [Reverse proxy](/en/docs/web-hosting/sites/add-a-site#configuration) pointing on `https://localhost:15672`. In its vhost directives, add:
+Create a site of the type [Reverse proxy](/en/docs/web-hosting/sites/add-a-site#configuration) pointing on
+`https://localhost:15672`. In its vhost directives, add:
 
 ```txt
 SSLProxyCheckPeerCN off

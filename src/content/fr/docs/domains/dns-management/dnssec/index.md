@@ -7,7 +7,9 @@ eleventyNavigation:
   order: 3
 ---
 
-[DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ajoute des signatures cryptographiques aux enregistrements DNS existants. Cela permet d'authentifier l'origine des données et de s'assurer qu'elles n'ont pas été modifiées en transit.
+[DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ajoute des signatures cryptographiques
+aux enregistrements DNS existants. Cela permet d'authentifier l'origine des données et de s'assurer qu'elles n'ont pas
+été modifiées en transit.
 
 La mise en place de DNSSEC se fait à la fois sur les serveurs DNS autoritaires et sur le registrar d'un domaine :
 
@@ -32,7 +34,8 @@ Cela créera la paire de clés qui sera configurée sur nos serveurs DNS et chez
 
 ![](images/registerad-step1.png)
 
-Créez la paire de clés chez votre prestataire DNS puis cliquez sur **Ajouter une clé publique** reprenant les éléments que vous donnera votre prestataire DNS.
+Créez la paire de clés chez votre prestataire DNS puis cliquez sur **Ajouter une clé publique** reprenant les éléments
+que vous donnera votre prestataire DNS.
 
 ![](images/registerad-step2.png)
 
@@ -49,6 +52,7 @@ Cliquez sur **Activer**. Cela créera la paire de clés.
 Copiez ensuite la clé et renseignez-la chez votre registrar.
 
 ## Liens
+
 - [RFC 4033](https://datatracker.ietf.org/doc/html/rfc4033)
 - [RFC 4034](https://datatracker.ietf.org/doc/html/rfc4034)
 - [RFC 4035](https://datatracker.ietf.org/doc/html/rfc4035)

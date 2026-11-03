@@ -6,16 +6,19 @@ eleventyNavigation:
   order: 1
 ---
 
-The way [PHP](https://www.php.net) works at alwaysdata is very standard. If you are used to using PHP on a Unix system, e.g. Linux, then you already know almost everything you need.
+The way [PHP](https://www.php.net) works at alwaysdata is very standard. If you are used to using PHP on a Unix system,
+e.g. Linux, then you already know almost everything you need.
 
 - the [provisioned versions](/en/docs/web-hosting/languages/php/configuration/#supported-versions) range from 4.4 to 8.5,
 - it is always possible to [customize the php.ini file](/en/docs/web-hosting/languages/php/configuration/#parameters-php-ini),
-- PHP runs in *FastCGI*, behind [Apache](/en/docs/web-hosting/sites/http-servers/configure-apache/): creating `.htaccess` files is therefore possible,
+- PHP runs in *FastCGI*, behind [Apache](/en/docs/web-hosting/sites/http-servers/configure-apache/): creating
+  `.htaccess` files is therefore possible,
 - it is possible to [install extensions](/en/docs/web-hosting/languages/php/extensions) (from PECL or others),
 - it is possible to [install packages](/en/docs/web-hosting/languages/php/packages) (*Composer*, *PEAR*),
 - it is possible to [install libraries](/en/docs/web-hosting/languages/php/libraries).
 
-Our marketplace provides the installation of the [CakePHP](https://cakephp.org/), [Laminas](https://getlaminas.org/), [Laravel](https://laravel.com/), [Symfony](https://symfony.com/) and [TNH](https://github.com/tnhfw/tnh-fw) frameworks.
+Our marketplace provides the installation of the [CakePHP](https://cakephp.org/), [Laminas](https://getlaminas.org/),
+[Laravel](https://laravel.com/), [Symfony](https://symfony.com/) and [TNH](https://github.com/tnhfw/tnh-fw) frameworks.
 
 ---
 

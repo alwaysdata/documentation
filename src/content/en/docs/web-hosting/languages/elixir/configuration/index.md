@@ -11,7 +11,8 @@ eleventyNavigation:
 | --- |
 | 1.13 \| 1.14 \| 1.15 \| 1.16 \| 1.17 \| 1.18 |
 
-The default version can be changed from the administration section, under **Environment > Elixir**. This is the version that is especially used when you start `mix`.
+The default version can be changed from the administration section, under **Environment > Elixir**. This is the version
+that is especially used when you start `mix`.
 
 Versions are not necessarily [already installed](/en/docs/web-hosting/languages#versions).
 
@@ -20,12 +21,12 @@ Versions are not necessarily [already installed](/en/docs/web-hosting/languages#
 To force the use of a different version of Elixir other than the default one, define the environment variable `ELIXIR_VERSION`:
 
 ```sh
-$ ELIXIR_VERSION=1.14 elixir
+ELIXIR_VERSION=1.14 elixir
 ```
 
 In your scripts, use `/usr/bin/elixir` as *shebang*:
 
-```
+```elixir
 #!/usr/bin/elixir
 ```
 
@@ -41,9 +42,10 @@ To deploy an HTTP application with Elixir, create an *Elixir* type site in the *
 
 You need to specify the command that will start your Elixir application, for example:
 
-```
+```sh
 mix /home/[account]/myapp/phx.server
 ```
 
 > [!WARNING]
-> Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
+> Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field
+> or use the IP and PORT environment variables.

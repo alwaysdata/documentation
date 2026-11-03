@@ -7,11 +7,13 @@ eleventyNavigation:
   order: 4
 ---
 
-[Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes, qu'on ne pourrait ajouter via les [règles de filtrage](/fr/docs/emails/emails-entrants/ajouter-regle-filtrage/).
+[Sieve](http://sieve.info/) est un langage permettant de filtrer les emails. Il sert à ajouter des règles complexes,
+qu'on ne pourrait ajouter via les [règles de filtrage](/fr/docs/emails/emails-entrants/ajouter-regle-filtrage/).
 
 ![](images/admin-panel_mailbox_sieve.png)
 
-Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]/[boite]/filter_user.sieve` de votre compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
+Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]/[boite]/filter_user.sieve` de votre
+compte. Vous pouvez le lire pour aider à déboguer votre script, mais pas l'éditer.
 
 ## Extensions supportées
 
@@ -25,12 +27,12 @@ Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]
 |editheader|Ajoute ou supprime du texte aux en-têtes|
 |encoded-character|Permet l'encodage numérique de caractères spéciaux|
 |enotify|Envoie des notifications|
-|envelope |Évalue l'enveloppe ("from", "to"...) |
+|envelope|Évalue l'enveloppe ("from", "to"...)|
 |environment|Teste différentes valeurs étiquetées de l'environnement d'exécution|
-|fileinto |Délivre l'email dans le dossier spécifié|
+|fileinto|Délivre l'email dans le dossier spécifié|
 |foreverypart|Permet aux commandes d'être exécutées dans toutes les parties MIME de l'email|
 |ihave|Teste si une extension Sieve est disponible et, si c'est le cas, exécute son action|
-|imap4flags|Ajoute des indicateurs IMAP et mots clés aux messages |
+|imap4flags|Ajoute des indicateurs IMAP et mots clés aux messages|
 |include|Permet d'inclure un script Sieve dans un autre|
 |index|Permet de faire correspondre des champs d'en-tête spécifiques par index|
 |mailbox|Vérifie si un répertoire spécifique existe|
@@ -40,14 +42,14 @@ Le script final est stocké dans le fichier `/home/[compte]/admin/mail/[domaine]
 |reject|Refuse la délivrance du message|
 |relational|Permet des comparaisons relationnelles|
 |subaddress|Teste des éléments délimités de la partie locale des adresses|
-|vacation |Réponses automatiques|
+|vacation|Réponses automatiques|
 |variables|Permet d'ajouter des variables|
 
 ## Exemples
 
 ### Ajouter un préfixe `<SPAM>` au sujet d'un email contenant un mot clé à définir (que ce soit dans son sujet ou son corps de texte)
 
-```
+```sieve
 require ["editheader", "variables", "body"] ;
 if allof (
 header :contains "subject" "mot",
@@ -69,7 +71,7 @@ addheader "Subject" "<SPAM> ${1}";
 
 ### Extraire des en-têtes de message dans les réponses automatiques
 
-```
+```sieve
 require ["variables", "vacation"];
 
 # Stockage du sujet en variable

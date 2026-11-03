@@ -11,7 +11,7 @@ In our examples we consider the following information:
 - Account name: `test`
 - Mailbox: `test@alwaysdata.net`
 
-They must be replaced by your personal login information: 
+They must be replaced by your personal login information:
 
 |Server|Service|Information||
 |---|---|---|---|
@@ -27,8 +27,8 @@ They must be replaced by your personal login information:
 ||||Secured connection|
 
 > [!TIP]
-> Replace *contact\@example.org* by your email address. It is defined in the **Emails > Addresses** menu of our administration interface.
-
+> Replace *contact\@example.org* by your email address. It is defined in the **Emails > Addresses** menu of our
+> administration interface.
 
 ## Web browser
 
@@ -46,7 +46,6 @@ Check "Always use a secure connectiion (SSL) when retrieving mail.".
 
 > [!CAUTION]
 > This is a POP3 connection that will get email from the email servers.
-
 
 ![Gmail: create a POP account">}}](images/gmail_add-pop.png)
 

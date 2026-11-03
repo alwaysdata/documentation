@@ -6,16 +6,18 @@ eleventyNavigation:
   order: 4
 ---
 
-[Sieve](http://sieve.info/) is a language for filtering emails. It is used to add complex rules that cannot be added via the [filtering rules](/en/docs/emails/incoming-emails/add-a-filter-rule).
+[Sieve](http://sieve.info/) is a language for filtering emails. It is used to add complex rules that cannot be added via
+the [filtering rules](/en/docs/emails/incoming-emails/add-a-filter-rule).
 
 ![](images/admin-panel_mailbox_sieve.png)
 
-The final script is stored in the `/home/[account]/admin/mail/[domain]/[box]/filter_user.sieve` file in your account. You can read it to help debug your script, but you cannot edit it.
+The final script is stored in the `/home/[account]/admin/mail/[domain]/[box]/filter_user.sieve` file in your account.
+You can read it to help debug your script, but you cannot edit it.
 
 ## Extensions supported
 
 |Extension|Description|
-|--- |--- |
+|---|---|
 |body|Checks the presence of one or more character strings in the email message body|
 |comparator-i;ascii-numeric|Extracts numbers from the text and compares them to see if it matches|
 |copy|Specifies that a copy should be used to perform the action|
@@ -46,7 +48,7 @@ The final script is stored in the `/home/[account]/admin/mail/[domain]/[box]/fil
 
 ### Add a `<SPAM>` prefix to the subject of an email comprising a key word to define (whether in the subject or in the body text)
 
-```
+```sieve
 require ["editheader", "variables", "body"] ;
 if allof (
 header :contains "subject" "word",
@@ -68,7 +70,7 @@ addheader "Subject" "<SPAM> ${1}";
 
 ### Use headers in variables for automatic responses
 
-```
+```sieve
 require ["variables", "vacation"];
 
 # Store subject header in variable

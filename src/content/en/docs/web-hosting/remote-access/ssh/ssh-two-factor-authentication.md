@@ -9,8 +9,8 @@ eleventyNavigation:
 > [!NOTE]
 > Feature only available on [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) environments.
 
-
-You will need to [contact the customer support team](https://admin.alwaysdata.com/support/add) to install the `google-authenticator`[^1] tool.
+You will need to [contact the customer support team](https://admin.alwaysdata.com/support/add) to install the
+`google-authenticator`[^1] tool.
 
 Once `google-authenticator` is installed on the server, here is how you activate the 2-factor authentication for each account:
 
@@ -19,17 +19,21 @@ Once `google-authenticator` is installed on the server, here is how you activate
 2. Create a new secret key,
 
     - for [TOTP](https://en.wikipedia.org/wiki/Time-based_One-Time_Password) verification:
+
     ```shell
-    $ google-authenticator -tDfuw 3
+    google-authenticator -tDfuw 3
     ```
+
     - for [HOTP](https://en.wikipedia.org/wiki/HMAC-based_one-time_password) verification:
+
     ```shell
-    $ google-authenticator -cfuw 3
+    google-authenticator -cfuw 3
     ```
-    
+
 The script will then send back to you:
- - a QR code and the new secret key to enter in your password generating application[^2],
- - several emergency codes for recovering your code.
+
+- a QR code and the new secret key to enter in your password generating application[^2],
+- several emergency codes for recovering your code.
 
 For TOTP verifications, you will need to indicate the code sent by your software.
 

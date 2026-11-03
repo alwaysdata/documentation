@@ -7,11 +7,16 @@ eleventyNavigation:
   order: 1
 ---
 
-[PageSpeed](https://www.modpagespeed.com/) optimise automatiquement votre site internet en modifiant les ressources de cette page web pour mettre en œuvre les [meilleures pratiques](https://developers.google.com/speed/docs/best-practices/rules_intro) de performance web. **Apache mod_pagespeed** doit être installé sur le compte.
+[PageSpeed](https://www.modpagespeed.com/) optimise automatiquement votre site internet en modifiant les ressources de
+cette page web pour mettre en œuvre les [meilleures
+pratiques](https://developers.google.com/speed/docs/best-practices/rules_intro) de performance web. **Apache
+mod_pagespeed** doit être installé sur le compte.
 
-Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
+Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs,
+voici les étapes à suivre.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom de compte : `[compte]`
 - Répertoire de PageSpeed : `/home/[compte]/pagespeed/`
@@ -26,13 +31,14 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 [compte]@ssh:~/pagespeed$ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
 [compte]@ssh:~/pagespeed$ dpkg -x mod-pagespeed-stable_current_amd64.deb .
 ```
+
 Il y a deux modules, un pour Apache 2.2 et l'autre pour Apache 2.4.
 
 ## Étape 2 : Modification de la configuration Apache
 
 Dans **Web > Configuration > Apache**, ajoutez :
 
-```
+```apache
 LoadModule pagespeed_module          "/home/[compte]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"
 ModPagespeedFileCachePath            "/home/[compte]/pagespeed/cache/pagespeed/"
 ModPagespeedFileCacheSizeKb          102400

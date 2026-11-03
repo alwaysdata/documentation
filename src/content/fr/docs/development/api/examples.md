@@ -14,7 +14,7 @@ eleventyNavigation:
 ### Via cURL
 
 ```shell
-$ curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
+curl -X POST --basic --user "APIKEY account=[compte]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
 ### Avec PHP et Guzzle

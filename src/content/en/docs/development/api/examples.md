@@ -13,7 +13,7 @@ eleventyNavigation:
 ### With cURL
 
 ```shell
-$ curl -X POST --basic --user "APIKEY account=[account]:" https://api.alwaysdata.com/v1/site/1234/restart/
+curl -X POST --basic --user "APIKEY account=[account]:" https://api.alwaysdata.com/v1/site/1234/restart/
 ```
 
 ### With PHP & Guzzle
@@ -34,6 +34,7 @@ $response = $client->request('POST', 'v1/site/1234/restart/');
 ```
 
 ## Listing (GET)
+
 ### Python
 
 ```python
@@ -93,6 +94,7 @@ echo $response->getBody();
 ```
 
 ## Add a resource (POST)
+
 ### Python
 
 ```python
@@ -287,6 +289,7 @@ response = requests.delete(
     auth=credentials,
 )
 ```
+
 ### PHP
 
 ```php

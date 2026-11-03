@@ -13,4 +13,5 @@ La liste des comptes alwaysdata est visible de plusieurs manières. Leurs conten
 
 ## Répertoire `/tmp`
 
-Le répertoire `/tmp` est un répertoire partagé par tous les utilisateurs d'un serveur. Il est déconseillé de l'utiliser et, par défaut, les fichiers sont lisibles par les autres utilisateurs.
+Le répertoire `/tmp` est un répertoire partagé par tous les utilisateurs d'un serveur. Il est déconseillé de l'utiliser
+et, par défaut, les fichiers sont lisibles par les autres utilisateurs.

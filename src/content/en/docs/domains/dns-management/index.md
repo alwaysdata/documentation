@@ -14,4 +14,6 @@ To use our DNS servers, set on your registrar administration panel `dns1.alwaysd
 - [API Resource](https://api.alwaysdata.com/v1/record/doc/)
 
 > [!NOTE]
-> The [SOA DNS record](https://en.wikipedia.org/wiki/SOA_record) includes a 32-bit serial number (between 1 and 4294967295). We do not follow the *convention* of defining it with a date format that comes from a time when zone files were edited by hand. Not following this convention *should not* be considered an error.
+> The [SOA DNS record](https://en.wikipedia.org/wiki/SOA_record) includes a 32-bit serial number (between 1 and
+> 4294967295). We do not follow the *convention* of defining it with a date format that comes from a time when zone
+> files were edited by hand. Not following this convention *should not* be considered an error.

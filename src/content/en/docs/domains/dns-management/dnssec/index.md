@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 3
 ---
 
-[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) adds cryptographic signatures to existing DNS records. This allows for the authentication of the origin of the data and ensures that it has not been altered in transit.
+[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) adds cryptographic signatures to existing
+DNS records. This allows for the authentication of the origin of the data and ensures that it has not been altered in
+transit.
 
 Setting up DNSSEC is done both on authoritative DNS servers and on a domain's registrar:
 
@@ -31,7 +33,8 @@ This will create the key pair that will be configured on our DNS servers and at 
 
 ![](images/registerad-step1.png)
 
-Create the key pair with your DNS provider and then click on **Add a public key** using the elements provided by your DNS provider.
+Create the key pair with your DNS provider and then click on **Add a public key** using the elements provided by your
+DNS provider.
 
 ![](images/registerad-step2.png)
 
@@ -48,6 +51,7 @@ Click on **Activate**. This will create the key pair.
 Copy the key and enter it with your registrar.
 
 ## Links
+
 - [RFC 4033](https://datatracker.ietf.org/doc/html/rfc4033)
 - [RFC 4034](https://datatracker.ietf.org/doc/html/rfc4034)
 - [RFC 4035](https://datatracker.ietf.org/doc/html/rfc4035)

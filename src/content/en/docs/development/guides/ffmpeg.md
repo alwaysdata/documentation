@@ -11,8 +11,8 @@ eleventyNavigation:
 As this library requires major processing resources it is not available by default on the Public Cloud.
 
 > [!TIP]
-> If you own a [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), contact our [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
-
+> If you own a [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices), contact our
+> [support](https://admin.alwaysdata.com/support/add/). They will install the complete set on the server.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 

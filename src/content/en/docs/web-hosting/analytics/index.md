@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 8
 ---
 
-From the raw HTTP logs (`/home/[account]/admin/logs/http`) we generate single visits statistics[^1] in *real time*. They are available in the **Web > Analytics** section.
+From the raw HTTP logs (`/home/[account]/admin/logs/http`) we generate single visits statistics[^1] in *real time*. They
+are available in the **Web > Analytics** section.
 
 ![](images/stats-panel.png)
 
@@ -18,6 +19,8 @@ A graph at the server level is available in the menu **HTTP > Analytics** for th
 
 Our platform is entirely based on HTTP logs and provides a simple interface. Customized settings cannot be added.
 
-You will need to install your own web statistics measurement software : [Matomo](https://matomo.org/) can be installed via our [marketplace](https://www.alwaysdata.com/en/marketplace/). If you already have an alwaysdata account go to the menu **Web > Sites > Install an application** to install it.
+You will need to install your own web statistics measurement software : [Matomo](https://matomo.org/) can be installed
+via our [marketplace](https://www.alwaysdata.com/en/marketplace/). If you already have an alwaysdata account go to the
+menu **Web > Sites > Install an application** to install it.
 
 [^1]: Estimation on the IP: from a few minutes without requests, the same IP is counted as a single visit again.

@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 5
 ---
 
-You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a command launched by-hand trough SSH, those services will be restarted automatically by the system when the service stops.
+You can register services: custom programs running in a headless mode (i.e. without any user interaction). Unlike a
+command launched by-hand trough SSH, those services will be restarted automatically by the system when the service
+stops.
 
 > [!WARNING]
 > This feature is available on [all our paid plans](/en/docs/admin-billing/billing/choose-its-paas/).
@@ -24,21 +26,23 @@ The ports' range `8300` to `8499`, as well as the hostname `services-[account].a
 - It must runs in `foreground`, not fork and leave [^1].
 - When needing to be reached from an external application, bind it to `::` (_IPv6_) and a port from `8300` to `8499`.
 - Log files for running services are located at `/home/[account]/admin/logs/services/`, containing services' outputs.
-	- An extract of those logs is presented in the administration panel (**Logs** - 📄).
+  - An extract of those logs is presented in the administration panel (**Logs** - 📄).
 - Current processes are accessible via the **Advanced > Processes > Services** menu.
 - The restart of a service sends the `SIGHUP` signal.
 - If a service fails repeatedly within a short period of time, it will be automatically disabled.
-- The language versions used by default are those specified in the **Environment** menu of the administration panel. It is possible to choose another version using the *Environment variables*.
+- The language versions used by default are those specified in the **Environment** menu of the administration panel. It
+  is possible to choose another version using the _Environment variables_.
 
-The optional *Monitoring command* allows you to specify a command used to check the service's status. When this command returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. *8300*):
+The optional _Monitoring command_ allows you to specify a command used to check the service's status. When this command
+returns an error code, the service is restarted. E.g. you can ping the service on the assigned port (i.e. _8300_):
 
 ```sh
-$ nc -z services-[account].alwaysdata.net 8300
+nc -z services-[account].alwaysdata.net 8300
 ```
-	
-> [!CAUTION]
-> There is no network filtering, anyone can connect to your services. Make sure your services have an authentication mechanism if necessary.
 
+> [!CAUTION]
+> There is no network filtering, anyone can connect to your services. Make sure your services have an authentication
+> mechanism if necessary.
 
 For [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) users:
 
@@ -48,12 +52,14 @@ For [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices) users:
 
 For [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices) users:
 
-- Range port `8300` to `8499` are *not* accessible from the external network. You can expose them to Internet using a [firewall rule](/en/docs/technical-specifications/configure-firewall).
+- Range port `8300` to `8499` are _not_ accessible from the external network. You can expose them to Internet using a
+  [firewall rule](/en/docs/technical-specifications/configure-firewall).
 - You can use other ports ; for example the default port of the application.
 
 ## Troubleshooting
- 
-- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in the *Environment variables* field.
+
+- They use the default language versions of the accounts (defined in **Environment**). To use others, specify them in
+  the _Environment variables_ field.
 
 ## Examples
 

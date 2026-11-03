@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 8
 ---
 
-The [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy allows to protect users by declaring to their web browser that they must interact with the webserver using a secure connection.
+The [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy allows to
+protect users by declaring to their web browser that they must interact with the webserver using a secure connection.
 
 It is implemented by adding `headers`.
 
@@ -57,7 +58,7 @@ Other method using the `helmet` NPM package:
 
 ```txt
 var helmet = require('helmet')
-    ... 
+    ...
     app.use(helmet.hsts({
           maxAge: 31536000000,
           includeSubdomains: true,
@@ -67,12 +68,13 @@ var helmet = require('helmet')
 
 ## Directives
 
-* `max-age` defines the period of application of a given HSTS policy by browsers (31536000 = for one year),
-* `includeSubDomains` allows to apply HSTS to both domain and subdomains,
-* `preload` allows to add the site in the preloaded HSTS lists.
+- `max-age` defines the period of application of a given HSTS policy by browsers (31536000 = for one year),
+- `includeSubDomains` allows to apply HSTS to both domain and subdomains,
+- `preload` allows to add the site in the preloaded HSTS lists.
 
 `max-age` is required unlike the other ones.
 
 ---
+
 - [RFC 6797](https://tools.ietf.org/html/rfc6797)
 - Verify its HSTS configuration via [HSTS preload](https://hstspreload.org/)

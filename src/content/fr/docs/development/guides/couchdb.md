@@ -9,7 +9,8 @@ eleventyNavigation:
 
 [CouchDB](https://couchdb.apache.org/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 - Répertoire de CouchDB : `/home/[compte]/couchdb/`
@@ -17,8 +18,8 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 > [!NOTE]
 > N'hésitez pas à ajuster en fonction de vos besoins.
 
-
 ## Installation
+
 ### Téléchargement et compilation
 
 ```sh
@@ -35,7 +36,7 @@ Choisissez le paquet *tar.gz* de la dernière version disponible sur [le site in
 
 Créez un fichier `local.ini` dans le répertoire `/home/[compte]/couchdb` avec les directives suivantes :
 
-```
+```ini
 [admins]
 admin = monsupermotdepasse
 
@@ -50,8 +51,8 @@ port = 5984
 > [!NOTE]
 > `monsupermotdepasse` est à remplacer par le mot de passe de votre choix.
 
-
-Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le service sur un port entre 8300 à 8499 et modifier cette valeur dans le fichier de configuration.
+Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le
+service sur un port entre 8300 à 8499 et modifier cette valeur dans le fichier de configuration.
 
 ### Lancement du service
 
@@ -60,22 +61,24 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 - *Commande* : `./bin/couchdb -couch_ini /home/[compte]/couchdb/local.ini`
 - *Répertoire de travail* : `/home/[compte]/couchdb/rel/couchdb`
 
-L'adresse pour se connecter à l'instance CouchDB sera `services-[compte].alwaysdata.net:[port]`. Par exemple, pour lister les bases de données :
+L'adresse pour se connecter à l'instance CouchDB sera `services-[compte].alwaysdata.net:[port]`. Par exemple, pour
+lister les bases de données :
 
-```
-$ curl -X GET http://admin:monsupermotdepasse@services-[compte].alwaysdata.net:[port]/_all_dbs
+```sh
+curl -X GET http://admin:monsupermotdepasse@services-[compte].alwaysdata.net:[port]/_all_dbs
 ```
 
 > [!NOTE]
 > `[port]` est à remplacer par le port indiqué dans le fichier `local.ini`.
 
-
 ### Création de la règle de parefeu
 
-Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils souhaitent y accéder depuis l'extérieur :
+Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port
+utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
+souhaitent y accéder depuis l'extérieur :
 
-| Intitulé  | Valeur |
-|---|---|
+| Intitulé | Valeur |
+| --- | --- |
 | Protocole | UDP/TCP |
 | Type | ACCEPT |
 | Direction | Entrée |

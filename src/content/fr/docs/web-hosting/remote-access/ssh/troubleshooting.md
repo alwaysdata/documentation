@@ -8,16 +8,20 @@ eleventyNavigation:
 ---
 
 ## Connexion
-Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [compte]@ssh-[compte].alwaysdata.net` pour avoir plus d'informations.
 
-Un [blocage d'IP](/fr/docs/caracteristiques-techniques/reseau/#prevention-des-intrusions) a lieu après une dizaine de tentatives échouées de connexion au serveur.
+Lors de problèmes de connexion vous pouvez utiliser la commande `ssh -v [compte]@ssh-[compte].alwaysdata.net` pour avoir
+plus d'informations.
+
+Un [blocage d'IP](/fr/docs/caracteristiques-techniques/reseau/#prevention-des-intrusions) a lieu après une dizaine de
+tentatives échouées de connexion au serveur.
 
 > [!NOTE]
 > alwaysdata a des logs de connexion dont vous pouvez exceptionnellement demander une copie.
 
-
 ### Too many authentication failures
-C'est un problème de clés SSH, précisez la clé correspondante. Si vous ne la trouvez pas, connectez-vous par mot de passe et mettez à jour le fichier `$HOME/.ssh/authorized_keys`.
+
+C'est un problème de clés SSH, précisez la clé correspondante. Si vous ne la trouvez pas, connectez-vous par mot de
+passe et mettez à jour le fichier `$HOME/.ssh/authorized_keys`.
 
 ### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 
@@ -26,19 +30,25 @@ Un compte peut être déplacé de serveur SSH. Les nouveaux fingerprints sont in
 Il est nécessaire de mettre à jour le fichier `known_hosts`, ce qui est possible via la commande suivante :
 
 ```ssh
-$ ssh-keygen -R ssh-[compte].alwaysdata.net
+ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
 
 ### Input/output error
-Erreur liée à des opérations de notre côté, il faut patienter le temps qu'elle soit terminée mais vous pouvez aussi contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir plus d'informations. 
+
+Erreur liée à des opérations de notre côté, il faut patienter le temps qu'elle soit terminée mais vous pouvez aussi
+contacter le [support](https://admin.alwaysdata.com/support/add/) pour avoir plus d'informations.
 
 ## Droits
-Utiliser plusieurs utilisateurs SSH peut avoir des effets secondaires non désirables : erreurs lors de l'accès à certains fichiers, de la suppression de dossiers...
+
+Utiliser plusieurs utilisateurs SSH peut avoir des effets secondaires non désirables : erreurs lors de l'accès à
+certains fichiers, de la suppression de dossiers...
 
 Si c'est le cas, vous pouvez :
 
-- supprimer l'utilisateur SSH problématique. Cela réassigne automatiquement les fichiers dont il était propriétaire à l'utilisateur principal.
-- utiliser la commande `chmod` avec l'utilisateur propriétaire des fichiers concernés pour qu'il donne les droits nécessaires au groupe.
+- supprimer l'utilisateur SSH problématique. Cela réassigne automatiquement les fichiers dont il était propriétaire à
+  l'utilisateur principal.
+- utiliser la commande `chmod` avec l'utilisateur propriétaire des fichiers concernés pour qu'il donne les droits
+  nécessaires au groupe.
 
 > [!CAUTION] Attention
 > Les processus démarrés par un site (**Web > Sites**), typiquement *Apache* ou *PHP*, tournent avec l'utilisateur principal.

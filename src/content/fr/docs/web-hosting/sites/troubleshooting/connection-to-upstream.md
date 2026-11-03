@@ -7,14 +7,18 @@ eleventyNavigation:
   order: 1
 ---
 
-Les erreurs **Connection to upstream refused** et **Connection to upstream skipped** indiquent un problème au lancement de l'application. Cela peut soit être le _serveur HTTP_ qui n'arrive pas à se lancer soit l'_application_ qui se lance mais n'écoute pas sur la bonne IP. Quelle que soit la raison plus d'informations sont disponibles dans les logs `/home/[compte]/admin/logs/sites`.
+Les erreurs **Connection to upstream refused** et **Connection to upstream skipped** indiquent un problème au lancement
+de l'application. Cela peut soit être le _serveur HTTP_ qui n'arrive pas à se lancer soit l'_application_ qui se lance
+mais n'écoute pas sur la bonne IP. Quelle que soit la raison plus d'informations sont disponibles dans les logs
+`/home/[compte]/admin/logs/sites`.
 
 Voici une liste non exhaustive d'exemples :
 
-##  Apache
+## Apache
+
 ### Quota disque dépassé
 
-```
+```log
 => Log sites pour un site utilisant Apache :
 STDERR: (122)Disk quota exceeded: apache: could not open error log file /home/foo/admin/logs/apache/apache.log.
 
@@ -29,29 +33,32 @@ Passez sur le pack supérieur dans l'onglet **Abonnements** de l'interface d'adm
 
 ### Log Apache introuvable
 
-```
+```log
 STDERR: (2)No such file or directory: apache: could not open error log file /home/foo/admin/logs/apache/apache.log.
 STDERR: Unable to open logs
 ```
 
-Tentez de redémarrer l'instance Apache (**Web > Sites > Redémarrer** un site de type PHP) pour le régénérer ou effectuez un changement notoire sur l'un des sites concerné (par exemple en ajoutant une adresse fictive).
+Tentez de redémarrer l'instance Apache (**Web > Sites > Redémarrer** un site de type PHP) pour le régénérer ou effectuez
+un changement notoire sur l'un des sites concerné (par exemple en ajoutant une adresse fictive).
 
 ### Caractères parasites
 
-```
+```log
 STDERR: Syntax error on line XXX of /home/foo/admin/config/apache/sites.conf:
 STDERR: Invalid command 'XXX', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on été ajoutés dans le champ **Directives globales** d'un site de type **Apache personnalisé**, au niveau du champ **virtual host** du site concerné ou au niveau de la configuration Apache (**Web > Configuration > Apache**). Corrigez ou supprimez les.
+Des caractères parasites ou des directives n'utilisant pas la bonne syntaxe on été ajoutés dans le champ **Directives
+globales** d'un site de type **Apache personnalisé**, au niveau du champ **virtual host** du site concerné ou au niveau
+de la configuration Apache (**Web > Configuration > Apache**). Corrigez ou supprimez les.
 
 > [!NOTE]
-> Il n'y a qu'un serveur Apache par compte, préférez donc gérer les [directives Apache](https://httpd.apache.org/docs/) au niveau du virtual host ou d'un `.htaccess` lorsque c'est possible. 
-
+> Il n'y a qu'un serveur Apache par compte, préférez donc gérer les [directives Apache](https://httpd.apache.org/docs/)
+> au niveau du virtual host ou d'un `.htaccess` lorsque c'est possible.
 
 ## uWSGI
 
-```
+```log
 => Logs sites :
 STDERR: [uWSGI] getting INI configuration from /home/foo/admin/config/uwsgi/XXXXX.conf
 Upstream starting failed: /usr/alwaysdata/uwsgi/2.0.17.1/bin/uwsgi --ini /home/foo/admin/config/uwsgi/XXXXX.conf (return code: 1 | reason: -)
@@ -70,29 +77,32 @@ ModuleNotFoundError: No module named 'XXXX'
 
 Selon l'erreur corrigez le site, l'environnement virtuel ou encore le script lui-même.
 
-Par exemple, pour une application Python (tel que Django), vérifiez que la version dans l'environnement virtuel correspond à la version déclarée dans le site (de l'interface d'administration).
+Par exemple, pour une application Python (tel que Django), vérifiez que la version dans l'environnement virtuel
+correspond à la version déclarée dans le site (de l'interface d'administration).
 
 ## Autres serveurs HTTP
 
-Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en [SSH](/fr/docs/hebergement-web/acces-distant/ssh/). Notamment s'il écoute bien :
+Pour les sites ne passant pas par Apache ou uWSGI, vérifiez le lancement du programme en
+[SSH](/fr/docs/hebergement-web/acces-distant/ssh/). Notamment s'il écoute bien :
 
 - en IPv6 ;
 - sur l'IP et le port donné.
 
 ### Upstream not ready
 
-```
+```log
 Upstream starting failed: node ~/www/app.js (return code: - | reason: No such file or directory: '/www/')
 ```
+
 Le répertoire de travail indiqué dans **Web > Sites** n'existe pas.
 
 ### Commande incorrecte (chemin)
 
-```
+```log
 STDERR: internal/modules/cjs/loader.js:589
 STDERR:     throw err;
 STDERR:     ^
-STDERR: 
+STDERR:
 STDERR: Error: Cannot find module '/home/foo/www/app.js'
 STDERR:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
 STDERR:     at Function.Module._load (internal/modules/cjs/loader.js:513:25)
@@ -101,7 +111,10 @@ STDERR:     at startup (internal/bootstrap/node.js:308:19)
 STDERR:     at bootstrapNodeJSCore (internal/bootstrap/node.js:878:3)
 Upstream starting failed: node ~/www/app.js
 ```
+
 Le fichier _/home/foo/www/app.js_ n'existe pas.
 
-## Cannot parse upstream response 
-Cette erreur signifie qu'une réponse HTTP renvoyée par votre serveur/application est incorrecte (mal formée), et donc que notre proxy ne peut la déchiffrer (et la renvoyer).
+## Cannot parse upstream response
+
+Cette erreur signifie qu'une réponse HTTP renvoyée par votre serveur/application est incorrecte (mal formée), et donc
+que notre proxy ne peut la déchiffrer (et la renvoyer).

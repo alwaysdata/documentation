@@ -21,8 +21,8 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|
-||POP3|Nom d'hôte| pop-*[compte]*.alwaysdata.net|
-|||Port| 995|
+||POP3|Nom d'hôte|pop-*[compte]*.alwaysdata.net|
+|||Port|995|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
 |||Méthode d'authentification|Mot de passe normal|
@@ -33,15 +33,16 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |||Méthode d'authentification|Mot de passe normal|
 
 > [!TIP] Astuce
-> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
-
+> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre
+> interface d'administration.
 
 ## MacOS : application Mail
 
 Rendez-vous dans **Fichier > Ajouter un compte > Autre compte Mail...**
 
-- Indiquez les informations de connexion et choisissez entre IMAP ou POP pour le courrier _entrant_ ;
-- Si vous recevez un message d'erreur SSL, cliquez quand même sur **Connecter**, vous pourrez ensuite renseigner de nouveau les informations de connexion.
+- Indiquez les informations de connexion et choisissez entre IMAP ou POP pour le courrier *entrant* ;
+- Si vous recevez un message d'erreur SSL, cliquez quand même sur **Connecter**, vous pourrez ensuite renseigner de
+  nouveau les informations de connexion.
 
 Laissez l'authentification par mot de passe.
 

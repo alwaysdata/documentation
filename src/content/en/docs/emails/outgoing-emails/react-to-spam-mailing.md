@@ -22,7 +22,8 @@ When the alwaysdata team encounters spam sent due to a form attack, they will:
 - delete all related emails awaiting sending,
 - warn the user.
 
-The user will have to put a more efficient protection on the form, through the use of a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
+The user will have to put a more efficient protection on the form, through the use of a
+[CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) for example.
 
 The [WAF](/en/docs/web-hosting/sites/customizing/waf) can be useful to block some attacks.
 
@@ -38,6 +39,8 @@ Then the user can provide a new, **more secure**, password to again allow access
 
 > [!CAUTION]
 > In repeat cases, the alwaysdata team can always *suspend* the account until the user returns.
+
+<!-- -->
 
 > [!TIP]
 > Test if your email address [has been breached](https://haveibeenpwned.com/).

@@ -22,11 +22,12 @@ Après avoir installé Odoo via notre [marketplace](/fr/docs/developpement/marke
 
 - Dans **Avancé > Services**, créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
-    - *Commande* : `.venv/bin/python odoo-bin --config=.odoorc --http-port=8300 --proxy-mode`
-    - *Répertoire de travail* : `/home/[compte]/odoo/`
-    - *Environnement* : `PYTHON_VERSION=3.10`
+  - *Commande* : `.venv/bin/python odoo-bin --config=.odoorc --http-port=8300 --proxy-mode`
+  - *Répertoire de travail* : `/home/[compte]/odoo/`
+  - *Environnement* : `PYTHON_VERSION=3.10`
 
-- Dans **Web > Sites**, déclarez un [site](/fr/docs/hebergement-web/sites/ajouter-un-site/) de type **Reverse proxy** avec :
+- Dans **Web > Sites**, déclarez un [site](/fr/docs/hebergement-web/sites/ajouter-un-site/) de type **Reverse proxy**
+  avec :
 
-    - *Adresse* : `[compte].alwaysdata.net/websocket/`
-    - *URL distante* : `services-[compte].alwaysdata.net:8300`
+  - *Adresse* : `[compte].alwaysdata.net/websocket/`
+  - *URL distante* : `services-[compte].alwaysdata.net:8300`

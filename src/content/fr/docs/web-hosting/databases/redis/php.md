@@ -8,17 +8,22 @@ eleventyNavigation:
 
 ## Configuration
 
-L'utilisation de Redis en PHP nécessite l'[installation d'une extension PECL](/fr/docs/hebergement-web/langages/php/installer-une-extension/#depuis-pecl) sur votre compte via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/).
+L'utilisation de Redis en PHP nécessite l'[installation d'une extension
+PECL](/fr/docs/hebergement-web/langages/php/installer-une-extension/#depuis-pecl) sur votre compte via
+[SSH](/fr/docs/hebergement-web/acces-distant/ssh/).
 
-```
-$ ad_install_pecl redis
+```sh
+ad_install_pecl redis
 ```
 
-N'oubliez pas ensuite d'[ajouter l'extension dans votre `php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#parametres-php-ini) :
+N'oubliez pas ensuite d'[ajouter l'extension dans votre
+`php.ini`](/fr/docs/hebergement-web/langages/php/configuration/#parametres-php-ini) :
 
-```
+```ini
 extension=/home/[compte]/path/to/redis-[VERSION].so
 ```
 
 > [!WARNING] Avertissement
-> `[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de PHP](/fr/docs/hebergement-web/langages/php/problemes-frequents/#utiliser-differentes-versions-en-ssh).
+> `[VERSION]` correspond à la version majeure de PHP avec laquelle l'extension a été installée. Par défaut, cela prendra
+> la version du menu **Environnement** (utilisée en SSH). Vous pouvez l'installer avec [une autre version de
+> PHP](/fr/docs/hebergement-web/langages/php/problemes-frequents/#utiliser-differentes-versions-en-ssh).

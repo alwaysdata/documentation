@@ -8,31 +8,38 @@ eleventyNavigation:
 
 ## Organization
 
-It is everyone's responsibility to make every possible effort within our mission to limit the impact of our activity on harmful emissions for our planet.
+It is everyone's responsibility to make every possible effort within our mission to limit the impact of our activity on
+harmful emissions for our planet.
 
 Thus, our company has integrated the following elements into its daily operations:
 
-  * **100% Remote Work**: Our team has been working remotely for several years, thereby reducing all transport-related emissions (except for data center visits)
-  * **Minimal Stock Management**: Adding large quantities of servers just to boost sales is not our goal. We anticipate a reasonable   stock based on the order trends observed over recent months
-  * **Appropriate Guidance**: We prioritize providing personalized advice to our users, helping them choose the most suitable offer for their actual needs, thus promoting responsible consumption
+* **100% Remote Work**: Our team has been working remotely for several years, thereby reducing all transport-related
+  emissions (except for data center visits)
+* **Minimal Stock Management**: Adding large quantities of servers just to boost sales is not our goal. We anticipate a
+  reasonable   stock based on the order trends observed over recent months
+* **Appropriate Guidance**: We prioritize providing personalized advice to our users, helping them choose the most
+  suitable offer for their actual needs, thus promoting responsible consumption
 
 ## Carbon offsetting
 
-_Last updated: February 26, 2026_
+_Last updated: February 26, 2026._
 
-Every year, we aim to offset 200% of our greenhouse gas (GHG) emissions. Although accurately determining our impact is extremely complex, we want to provide full transparency regarding our calculation method to allocate the budget for this compensation.
+Every year, we aim to offset 200% of our greenhouse gas (GHG) emissions. Although accurately determining our impact is
+extremely complex, we want to provide full transparency regarding our calculation method to allocate the budget for this
+compensation.
 
 ### Data and Assumptions
 
-To simplify the method while ensuring appropriate compensation, some data points are estimated with a margin. These details are outlined in the following table.
+To simplify the method while ensuring appropriate compensation, some data points are estimated with a margin. These
+details are outlined in the following table.
 
 | Data | Details | 2025 Value |
-|--------|---------|------------:|
+| -------- | --------- | ------------: |
 | Number of Servers | Total power-consuming devices (servers, routers, hypervisors, etc.) purchased and integrated into our infrastructure during the year. | 45 |
 | Apparent Power (kVA) | Subscribed power across all our data centers. Margin: the calculation uses the maximum subscribed power instead of actual consumption. | 32 kVA |
 | Power Factor (cos φ) | A standard average value of 0.8 is used. Margin: while most modern servers have a power factor above 0.9 (close to the Power Factor [displayed by our power supplies](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-606P-1R/PWS-606P-1R_quick_spec.pdf)), we choose to remain conservative with this value. | 0.8 |
 | Annual Usage Duration | Total server operating time. Margin: the most energy-intensive assumption, i.e., 100% uptime (1 year). | 8760 hours |
-|PUE|Average energy efficiency of [our partner data centers](https://sustainability.equinix.com/environment/operational-sustainability/).|1.39|
+| PUE | Average energy efficiency of [our partner data centers](https://sustainability.equinix.com/environment/operational-sustainability/). | 1.39 |
 | Emission Factor | Using the national average for France. Latest 2024 value: source [RTE-france.com](https://analysesetdonnees.rte-france.com/bilan-electrique-2025/emissions#Vuedensemble). | 19,6 gCO₂eq/kWh |
 | Server Production Emissions | Estimated emissions from manufacturing a server: see [Boavizta](https://boavizta.org/blog/empreinte-de-la-fabrication-d-un-serveur). Margin: a highly complex value dependent on numerous factors. The values are always slightly below a whole number, so we round up. | 1 tCO₂eq |
 
@@ -66,11 +73,11 @@ total_emissions = consumption_emissions + production_emissions
 
 The result:
 
-  * Electricity annual consumption for 2024: **224,256 kWh**
-  * Emissions related to electricity consumption: **6.11 tCO₂eq**
-  * Emissions related to server production: **45 tCO₂eq**
-  * Total emissions: **51.11 tCO₂eq**
-  * Required compensation (200%): **103 tons of CO₂**
+* Electricity annual consumption for 2024: **224,256 kWh**
+* Emissions related to electricity consumption: **6.11 tCO₂eq**
+* Emissions related to server production: **45 tCO₂eq**
+* Total emissions: **51.11 tCO₂eq**
+* Required compensation (200%): **103 tons of CO₂**
 
 We have chosen [Gold Standard](https://www.goldstandard.org/) to certify our offset efforts.
 See our [certificate](https://files.alwaysdata.com/certifications/2026_GOLDSTANDARD_CERTIFICATE.pdf).

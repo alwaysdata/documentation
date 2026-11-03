@@ -22,11 +22,11 @@ After installing Odoo via our [marketplace](/en/docs/development/marketplace):
 
 - In **Advanced > Services**, create the following [service](/en/docs/web-hosting/services):
 
-    - *Command*: `.venv/bin/python odoo-bin --config=.odoorc --http-port=8300 --proxy-mode`
-    - *Working directory*: `/home/[account]/odoo/`
-    - *Environment*: `PYTHON_VERSION=3.10`
-	
+  - *Command*: `.venv/bin/python odoo-bin --config=.odoorc --http-port=8300 --proxy-mode`
+  - *Working directory*: `/home/[account]/odoo/`
+  - *Environment*: `PYTHON_VERSION=3.10`
+
 - In **Web > Sites**, declare a [site](/en/docs/web-hosting/sites/add-a-site), type **Reverse proxy** with:
 
-    - *Address*: `[account].alwaysdata.net/websocket/`
-    - *Remote URL*: `services-[account].alwaysdata.net:8300`
+  - *Address*: `[account].alwaysdata.net/websocket/`
+  - *Remote URL*: `services-[account].alwaysdata.net:8300`

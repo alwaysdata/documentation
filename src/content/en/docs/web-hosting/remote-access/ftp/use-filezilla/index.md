@@ -21,7 +21,8 @@ In our example, we are using the account `test` and its primary FTP user. Replac
 
 ![](images/password.png)
 
-- The connection is established, and now you can simply drag and drop files from the **Local Site** directory to the **Remote Site** directory.
+- The connection is established, and now you can simply drag and drop files from the **Local Site** directory to the
+  **Remote Site** directory.
 
 ![](images/interface.png)
 

@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 8
 ---
 
-Chaque domaine est lié à un utilisateur propriétaire. Pour connaître quel utilisateur est lié à un domaine rendez-vous dans **Domaines > Détails de [example.org] - 🔎** :
+Chaque domaine est lié à un utilisateur propriétaire. Pour connaître quel utilisateur est lié à un domaine rendez-vous
+dans **Domaines > Détails de [example.org] - 🔎** :
 
 ![](images/admin-domains-details.png)
 

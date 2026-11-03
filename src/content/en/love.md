@@ -15,6 +15,7 @@ If you're pretty happy with our services, here are some ways to show it:
 * Recommend us (and earn commission thanks to our [sponsorship program](/en/docs/admin-billing/billing/sponsorship))
 * [Contribute](https://github.com/alwaysdata/documentation/) to the amelioration of our documentation
 
-All these actions contribute, at their scale, to improve our means, thanks to a better visibility or a better knowledge of our collaboration with you, our users.
+All these actions contribute, at their scale, to improve our means, thanks to a better visibility or a better knowledge
+of our collaboration with you, our users.
 
 And for that, all our team thanks you warmly! ❤️ &#x1F60A;

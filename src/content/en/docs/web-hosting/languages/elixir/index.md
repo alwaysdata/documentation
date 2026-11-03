@@ -6,9 +6,11 @@ eleventyNavigation:
   order: 1
 ---
 
-The way [Elixir](https://elixir-lang.org/) works at alwaysdata is very standard. If you are used to using Elixir on a Unix system, e.g. Linux, then you already know almost everything you need.
+The way [Elixir](https://elixir-lang.org/) works at alwaysdata is very standard. If you are used to using Elixir on a
+Unix system, e.g. Linux, then you already know almost everything you need.
 
-- the [provisioned versions](/en/docs/web-hosting/languages/elixir/configuration/#supported-versions) range from 1.13 to 1.18,
+- the [provisioned versions](/en/docs/web-hosting/languages/elixir/configuration/#supported-versions) range from 1.13 to
+  1.18,
 - the [environment configuration](/en/docs/web-hosting/languages/elixir/configuration/#environment) is easy to set up.
 
 Our marketplace provides the installation of the [Phoenix](https://www.phoenixframework.org/) framework.

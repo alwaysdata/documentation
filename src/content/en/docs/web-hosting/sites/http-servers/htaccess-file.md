@@ -12,30 +12,32 @@ The `.htaccess` files are Apache configuration files. Here are some examples of 
 
 Use an ID and password to protect the access to file for certain users.
 
-```
+```apache
 AuthName "Protected access"
 AuthType Basic
 AuthUserFile /home/[account]/path/to/.htpasswd
 Require valid-user
 ```
 
-The `.htpasswd` contains the list of Id/password combinations allowed. It can be placed anywhere but it must not be readable from the outside.
+The `.htpasswd` contains the list of Id/password combinations allowed. It can be placed anywhere but it must not be
+readable from the outside.
 
 To create this `.htpasswd` file:
 
 ```sh
-$ htpasswd -c .htpasswd [user]
+htpasswd -c .htpasswd [user]
 ```
 
 Replace `[user]` with the desired user name. The tool will prompt the user to enter the corresponding password twice.
 
 ## Restricting access to a directory
 
-Block access to a directory by a domain or an IP address. You can also allow access to the directory only by selected IPs and/or domains.
+Block access to a directory by a domain or an IP address. You can also allow access to the directory only by selected
+IPs and/or domains.
 
-```
-order deny,allow 
-deny from all 
+```apache
+order deny,allow
+deny from all
 allow from <IP address / domain>
 require user <user login>
 ```
@@ -44,8 +46,8 @@ require user <user login>
 
 The following syntax will define custom error pages:
 
-```
-ErrorDocument 403 /errors/403.php 
+```apache
+ErrorDocument 403 /errors/403.php
 ErrorDocument 404 /errors/404.php
 ```
 
@@ -53,34 +55,37 @@ This syntax is valid regardless of the [HTTP response code](https://en.wikipedia
 
 ## Redirect
 
-This function is available directly by declaring a [Redirect](/en/docs/web-hosting/sites/http-servers/redirect) site type, but you can do this using the `.htaccess` file:
+This function is available directly by declaring a [Redirect](/en/docs/web-hosting/sites/http-servers/redirect) site
+type, but you can do this using the `.htaccess` file:
 
-```
+```apache
 Redirect 301 <Source file> <Destination file>
 ```
 
 You can also redirect an entire directory as follows:
 
-```
+```apache
 RedirectMatch 301 <Source directory>(.*) <Destination directory>/$1
 ```
 
 ## URL rewriting
 
-*URL rewriting* comprises changing the link structure. This practice is often used to improve the indexing of your pages (and therefore your site referencing) by inserting keywords into the addresses.
+*URL rewriting* comprises changing the link structure. This practice is often used to improve the indexing of your pages
+(and therefore your site referencing) by inserting keywords into the addresses.
 
-```
+```apache
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ {Fichier source}/$1 
+RewriteRule ^(.*)$ {Fichier source}/$1
 ```
 
 ## Possible errors
 
 Any error linked to `.htaccess` will be visible in the `/home/[account]/admin/logs/apache/apache.log` file.
 
-```
+```log
 Invalid command '\xef\xbb\xbf', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-The `.htaccess` file was not saved in the correct format. Please pay attention to saving your file without [BOM](https://en.wikipedia.org/wiki/Byte_order_mark). This is generally an option in your editor.
+The `.htaccess` file was not saved in the correct format. Please pay attention to saving your file without
+[BOM](https://en.wikipedia.org/wiki/Byte_order_mark). This is generally an option in your editor.

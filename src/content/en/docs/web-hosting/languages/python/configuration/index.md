@@ -14,13 +14,16 @@ eleventyNavigation:
 |3.14 \|3.13 \| 3.12 \| 3.11 \| 3.10 \| 3.9 \| 3.8 \| 3.7 \| 3.6 \| 3.5 \| 3.4 \| 3.3|
 |2.7 \| 2.6 \| 2.5 \| 2.4|
 
-The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the version that is especially used when you start `python`.
+The default version can be changed from the alwaysdata administration, under **Environment > Python**. This is the
+version that is especially used when you start `python`.
 
 Versions are not necessarily [already installed](/en/docs/web-hosting/languages/#versions).
 
 ## Error logs
 
-Python runs behind [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), you can view the error logs in the `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web > Sites section**.
+Python runs behind [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), you can view the error logs in the
+`/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the **Web >
+Sites section**.
 
 An extract of these logs is presented in the administration’s interface (Logs - 📄).
 
@@ -31,18 +34,18 @@ You need to always use `python` (or `/usr/bin/python`). Never use `python3`, `py
 To force the use of a different version of Python other than the default one, define the environment variable `PYTHON_VERSION`:
 
 ```sh
-$ PYTHON_VERSION=2.7 python
+PYTHON_VERSION=2.7 python
 ```
 
 In your scripts, use `/usr/bin/python` as *shebang*:
 
-```
+```python
 #!/usr/bin/python
 ```
 
 To force the use of a specific version of Python:
 
-```
+```python
 #!/usr/bin/eval PYTHON_VERSION=2.7 python
 ```
 
@@ -50,34 +53,38 @@ The other binaries included in Python (`2to3`, `pep8`, `pip`, `pydoc`, etc.) wor
 
 ## Environment
 
-Your Python environment starts off empty, with no ready installed libraries other than the standard library. You can use `pip` to install packages, this is the standard Python tool:
+Your Python environment starts off empty, with no ready installed libraries other than the standard library. You can use
+`pip` to install packages, this is the standard Python tool:
 
 ```sh
-$ python -m pip install [package]
+python -m pip install [package]
 ```
 
-Packages are installed in the standard `/home/[account]/.local` directory and they are automatically added to `sys.path` by Python.
+Packages are installed in the standard `/home/[account]/.local` directory and they are automatically added to `sys.path`
+by Python.
 
-Note that you will need to re-install the packages if you change the major Python version (versions 3.5 and 3.6 are two different major versions, whereas 3.5.1 and 3.5.2 use the same major version).
+Note that you will need to re-install the packages if you change the major Python version (versions 3.5 and 3.6 are two
+different major versions, whereas 3.5.1 and 3.5.2 use the same major version).
 
-We recommend using virtual environments if you use a number of different Python applications so that each one has its own separate environment.
+We recommend using virtual environments if you use a number of different Python applications so that each one has its
+own separate environment.
 
 With Python 3, use `venv`:
 
 ```sh
-$ python -m venv myenv
+python -m venv myenv
 ```
 
 With Python 2, use `virtualenv`:
 
 ```sh
-$ virtualenv myenv
+virtualenv myenv
 ```
 
 Once your virtual environment is installed, you can activate it with:
 
 ```sh
-$ source myenv/bin/activate
+source myenv/bin/activate
 ```
 
 ### Installing a package
@@ -85,25 +92,25 @@ $ source myenv/bin/activate
 Install the latest version of a package:
 
 ```sh
-$ python -m pip install [package]
+python -m pip install [package]
 ```
 
 You can specify a specific version:
 
 ```sh
-$ python -m pip install [package]==[version]
+python -m pip install [package]==[version]
 ```
 
 To install a set of packages defined in a `requirements.txt` file:
 
 ```sh
-$ python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### Uninstalling a package
 
 ```sh
-$ python -m pip uninstall [package]
+python -m pip uninstall [package]
 ```
 
 ### Installing a package with Distutils
@@ -111,14 +118,15 @@ $ python -m pip uninstall [package]
 You can install a package using Distutils without using pip:
 
 ```sh
-$ python setup.py install --user
+python setup.py install --user
 ```
 
 If you use a virtual environment, there is no need to specify `--user`.
 
 ## WSGI deployment
 
-For a [WSGI](https://wsgi.readthedocs.io) application to be accessible by the web, you need to add a site in the administration **Web > Sites** section:
+For a [WSGI](https://wsgi.readthedocs.io) application to be accessible by the web, you need to add a site in the
+administration **Web > Sites** section:
 
 ![](images/python-wsgi.png)
 
@@ -134,7 +142,9 @@ You can also fill-in a number of optional fields:
 
 ## ASGI deployment
 
-Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronous Python frameworks can use the *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* site type in the section **Web > Sites**. The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
+Applications based on the [ASGI](https://asgi.readthedocs.io/en/latest/) standard as asynchronous Python frameworks can
+use the *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* site type in the section **Web > Sites**.
+The most popular HTTP server is [Uvicorn](https://uvicorn.dev/).
 
 ![](images/user-program.png)
 
@@ -144,4 +154,6 @@ The HTTP server will need to listen on IPv6 and the given port. For example:
 
 ---
 
-- [Deploy a Fastapi (asyncio) application](https://vincent.jousse.org/blog/fr/tech/comment-deployer-fastapi-chez-alwaysdata/) (guide in French written by a user of the platform)
+- [Deploy a Fastapi (asyncio)
+  application](https://vincent.jousse.org/blog/fr/tech/comment-deployer-fastapi-chez-alwaysdata/) (guide in French
+  written by a user of the platform)

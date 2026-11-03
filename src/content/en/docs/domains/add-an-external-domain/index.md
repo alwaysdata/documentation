@@ -6,27 +6,31 @@ eleventyNavigation:
   order: 3
 ---
 
-An operation that is free, this allows transferring the domain’s *technical* management without touching its *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain transfer](/en/docs/domains/transfer-a-domain).
+An operation that is free, this allows transferring the domain’s *technical* management without touching its
+*administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain
+transfer](/en/docs/domains/transfer-a-domain).
 
 Here we wish to add the domain and **change of DNS servers** at the registrar to put `dns1.alwaysdata.com` and `dns2.alwaysdata.com`.
 
-1.  From your administration interface, go to **Domains > Add a domain**;
+1. From your administration interface, go to **Domains > Add a domain**;
     ![](images/admin-panel_domain-list.png)
 
-2.  Fill-in the domain names that you wish to add,
+2. Fill-in the domain names that you wish to add,
     ![](images/admin-panel_add-domain-1.png)
 
-> [!NOTE]
-> Enter the domain only, without the subdomain. For example: `example.org` and not `www.example.org`.
-  
-3.  Choose to **manage** it.
+   > [!NOTE]
+   > Enter the domain only, without the subdomain. For example: `example.org` and not `www.example.org`.
+
+3. Choose to **manage** it.
     ![](images/admin-panel_add-domain-2.png)
 
 This will add the domain as an *external domain* in the list.
 
 ![](images/admin-panel_domain-list2.png)
 
-Then you can create [email addresses](/en/docs/emails/create-an-email-address), [websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/dns-management/).
+Then you can create [email addresses](/en/docs/emails/create-an-email-address),
+[websites](/en/docs/web-hosting/sites/add-a-site) and manage [DNS records](/en/docs/domains/dns-management/).
 
 > [!WARNING]
-> If some DNS records are to be kept - for example not to change email providers - the [DNS zone](/en/docs/domains/dns-management/add-dns) will need to be prepared before making the DNS server change.
+> If some DNS records are to be kept - for example not to change email providers - the [DNS
+> zone](/en/docs/domains/dns-management/add-dns) will need to be prepared before making the DNS server change.

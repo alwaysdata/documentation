@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 8
 ---
 
-Each domain is linked to a specific owner user. To find out which user is linked to a domain go to **Domains > Details of [example.org] - 🔎**:
+Each domain is linked to a specific owner user. To find out which user is linked to a domain go to **Domains > Details
+of [example.org] - 🔎**:
 
 ![](images/admin-domains-details.png)
 

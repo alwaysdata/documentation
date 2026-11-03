@@ -22,6 +22,8 @@ eleventyNavigation:
 |Execution duration|None|
 |Simultaneous executions of the same task|1|
 
-Resources (CPU, memory, disk space) depend on the plan: [Public Cloud](/en/docs/admin-billing/billing/public-cloud-prices/), [Private Cloud](/en/docs/technical-specifications/system-resources-alerts-and-limitations/).
+Resources (CPU, memory, disk space) depend on the plan: [Public
+Cloud](/en/docs/admin-billing/billing/public-cloud-prices/), [Private
+Cloud](/en/docs/technical-specifications/system-resources-alerts-and-limitations/).
 
 - [Execution environment](/en/docs/technical-specifications/execution-environment/)

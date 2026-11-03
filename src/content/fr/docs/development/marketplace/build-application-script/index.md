@@ -7,127 +7,138 @@ eleventyNavigation:
   order: 1
 ---
 
-Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un commentaire au format YAML.
+Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son
+application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un
+commentaire au format YAML.
 
 ![](images/create-script.png)
 
 Les scripts se composent de deux parties :
 
-* le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations nécessaires au script (les variables `FORM_*`). On peut le diviser en quatre :
-    * **site** : voir la [documentation API](https://api.alwaysdata.com/v1/site/doc/) qui reprend toutes les options possibles.
-    * **database** : mysql, postgresql, rabbitmq.
-    * **requirements**: spécifier les conditions bloquantes pouvant être problématiques sur certains plan d'hébergement/packs.
-    * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant administrateur, adresse email, nom/prénom de l’administrateur...
+* le **dataset** au format YAML, permettant de configurer le site et demander à l'utilisateur les informations
+  nécessaires au script (les variables `FORM_*`). On peut le diviser en quatre :
+  * **site** : voir la [documentation API](https://api.alwaysdata.com/v1/site/doc/) qui reprend toutes les options possibles.
+  * **database** : mysql, postgresql, rabbitmq.
+  * **requirements**: spécifier les conditions bloquantes pouvant être problématiques sur certains plan d'hébergement/packs.
+  * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant
+    administrateur, adresse email, nom/prénom de l’administrateur...
 * le **script** en lui-même
-
 
 ## Variables d’environnement
 
 | Variables | Description | Exemple |
-|---|---|---|
+| --- | --- | --- |
 | USER | Nom du compte | `foo` |
-| HOME | Racine du compte pour le script   | `/home/foo/exemple/` |
-| APPLICATION_NAME | Nom de l’application ||
-| INSTALL_URL | Adresse du site  | `foo.exemple.net/test` |
-| INSTALL_URL_PATH | Racine du site (base URL)| `/test` |
+| HOME | Racine du compte pour le script | `/home/foo/exemple/` |
+| APPLICATION_NAME | Nom de l’application | |
+| INSTALL_URL | Adresse du site | `foo.exemple.net/test` |
+| INSTALL_URL_PATH | Racine du site (base URL) | `/test` |
 | INSTALL_URL_HOSTNAME | Nom d’hôte du site | `foo.exemple.net` |
 | INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final) | `exemple` |
 | INSTALL_PATH | Chemin absolu (sans slash final) | `/home/foo/exemple` |
 | DATABASE_USERNAME | Utilisateur de connexion à la base de données (automatiquement généré) | `foo_*` |
-| DATABASE_PASSWORD | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré) ||
-| DATABASE_NAME | Base de données du site (automatiquement générée) | `foo_*`|
+| DATABASE_PASSWORD | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré) | |
+| DATABASE_NAME | Base de données du site (automatiquement générée) | `foo_*` |
 | DATABASE_HOST | Nom d’hôte de connexion au serveur de base de données | `mysql-foo.alwaysdata.net` (base MySQL) |
-| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi d'emails| `smtp-foo.alwaysdata.net` |
+| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi d'emails | `smtp-foo.alwaysdata.net` |
 | RESELLER_DOMAIN | Domaine-racine utilisé par l'hébergeur | `alwaysdata.net` |
-| FORM_* | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML ||
-| PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno ||
-| `::` ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) ||
+| FORM_* | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML | |
+| PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno | |
+| `::` ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) | |
 
 Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
-
 
 ### Notes et astuces
 
 * Le script doit commencer par `set -e` pour le stopper lorsqu’il échoue ;
-* Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de dépendre de la configuration par défaut du compte ;
-* Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est exécuté par défaut) ;
+* Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de
+  dépendre de la configuration par défaut du compte ;
+* Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est
+  exécuté par défaut) ;
 * Pour rendre un script d'installation publique il faut indiquer la condition `disk` des `requirements` ;
-* Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. _Les utilisateurs pourront modifier la configuration de leur application ultérieurement._
-* Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur n'indique rien le champ restera vide ;
-* Les *labels* et *regex_text* sont traductibles. En fonction de la langue choisie sur son interface d'administration, l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
+* Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. *Les
+  utilisateurs pourront modifier la configuration de leur application ultérieurement.*
+* Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur
+  n'indique rien le champ restera vide ;
+* Les *labels* et *regex_text* sont traductibles. En fonction de la langue choisie sur son interface d'administration,
+  l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
 
 > [!NOTE]
-> Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case pour le rendre _public_. 
+> Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case
+> pour le rendre *public*.
 > **Tout script marqué comme public doit être maintenu et sera à minima vérifié par l’équipe d’alwaysdata.**
 in
 
-> [!TIP] Astuce
-> Une _URL d’un dépôt_ peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
+<!-- -->
 
+> [!TIP] Astuce
+> Une *URL d’un dépôt* peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications
+> poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
 
 ## Exemples
 
 1. Script d’installation d'Odoo
 
-```
-#!/bin/bash
+   ```bash
+   #!/bin/bash
 
-# Declare site in YAML, as documented here: https://help.alwaysdata.com/en/docs/development/marketplace/build-application-script/
-# site:
-#     type: user_program
-#     working_directory: '{INSTALL_PATH_RELATIVE}'
-#     command: '.venv/bin/python odoo-bin --config=.odoorc --http-port=$PORT'
-# database:
-#     type: postgresql
-# requirements:
-#     disk: 1400
+   # Declare site in YAML, as documented here: https://help.alwaysdata.com/en/docs/development/marketplace/build-application-script/
+   # site:
+   #     type: user_program
+   #     working_directory: '{INSTALL_PATH_RELATIVE}'
+   #     command: '.venv/bin/python odoo-bin --config=.odoorc --http-port=$PORT'
+   # database:
+   #     type: postgresql
+   # requirements:
+   #     disk: 1400
 
-set -e
+   set -e
 
-# https://www.odoo.com/documentation/19.0/administration/install/source.html
-# https://www.odoo.com/documentation/19.0/administration/on_premise/deploy.html#builtin-server
-# https://www.odoo.com/documentation/19.0/developer/reference/cli.html
+   # https://www.odoo.com/documentation/19.0/administration/install/source.html
+   # https://www.odoo.com/documentation/19.0/administration/on_premise/deploy.html#builtin-server
+   # https://www.odoo.com/documentation/19.0/developer/reference/cli.html
 
-export PYTHON_VERSION=3.13
-export NODEJS_VERSION=24
+   export PYTHON_VERSION=3.13
+   export NODEJS_VERSION=24
 
-git clone -b 19.0 --depth 1 https://github.com/odoo/odoo.git .
+   git clone -b 19.0 --depth 1 https://github.com/odoo/odoo.git .
 
-npm install -g rtlcss
+   npm install -g rtlcss
 
-# Create virtualenv & install dependencies in it
-python -m venv .venv
-source .venv/bin/activate
+   # Create virtualenv & install dependencies in it
+   python -m venv .venv
+   source .venv/bin/activate
 
-pip install --upgrade pip
-pip install -r requirements.txt
+   pip install --upgrade pip
+   pip install -r requirements.txt
 
-mkdir -p odoo-data
+   mkdir -p odoo-data
 
-# Configuration
-cat << EOF > .odoorc
-[options]
-db_name = $DATABASE_NAME
-db_user = $DATABASE_USERNAME
-db_password = $DATABASE_PASSWORD
-db_host = $DATABASE_HOST
-addons_path = $INSTALL_PATH/addons
-data_dir = $INSTALL_PATH/odoo-data
-email_from = $USER@$RESELLER_DOMAIN
-http_interface = ::
-EOF
+   # Configuration
+   cat << EOF > .odoorc
+   [options]
+   db_name = $DATABASE_NAME
+   db_user = $DATABASE_USERNAME
+   db_password = $DATABASE_PASSWORD
+   db_host = $DATABASE_HOST
+   addons_path = $INSTALL_PATH/addons
+   data_dir = $INSTALL_PATH/odoo-data
+   email_from = $USER@$RESELLER_DOMAIN
+   http_interface = ::
+   EOF
 
-# Install
-python odoo-bin --config=.odoorc --init --no-http --stop-after-init
+   # Install
+   python odoo-bin --config=.odoorc --init --no-http --stop-after-init
 
-# Default credentials for first login: admin / admin
-```
+   # Default credentials for first login: admin / admin
+   ```
 
-La condition `disk:1400` précise que l'installation d'Odoo nécessite 1400 Mo d'espace disque. L'offre gratuite (Free) est donc trop juste.
+   La condition `disk:1400` précise que l'installation d'Odoo nécessite 1400 Mo d'espace disque. L'offre gratuite (Free)
+   est donc trop juste.
 
 2. Script d’installation de Backdrop
 
-```
+```bash
 #!/bin/bash
 
 # Declare site in YAML, as documented here: https://help.alwaysdata.com/en/docs/development/marketplace/build-application-script/

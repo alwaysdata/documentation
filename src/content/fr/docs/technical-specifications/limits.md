@@ -23,6 +23,8 @@ eleventyNavigation:
 |Durée d'exécution|Aucune|
 |Exécutions simultanées d'une même tâche|1|
 
-Les ressources (CPU, mémoire, espace disque) dépendent de l'offre : [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/), [Cloud Privé](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/).
+Les ressources (CPU, mémoire, espace disque) dépendent de l'offre : [Cloud
+Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/), [Cloud
+Privé](/fr/docs/caracteristiques-techniques/ressources-systemes-alertes-et-limitations/).
 
 - [Environnement d'exécution](/fr/docs/caracteristiques-techniques/environnement-execution/)

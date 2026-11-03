@@ -23,7 +23,9 @@ eleventyNavigation:
 Elasticsearch ne tourne qu'en local avec des droits isolés (utilisateur distinct).
 
 > [!NOTE]
-> Elasticsearch n'est disponible qu'en environnements [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Les utilisateurs peuvent demander à utiliser OpenSearch à la place.
+> Elasticsearch n'est disponible qu'en environnements [Cloud
+> Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/). Les utilisateurs peuvent demander à utiliser
+> OpenSearch à la place.
 
 ---
 

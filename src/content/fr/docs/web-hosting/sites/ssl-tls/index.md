@@ -16,12 +16,17 @@ Tous les services (HTTP, mais aussi accès distant, bases de données, emails...
 - [Renouveler un certificat SSL](/fr/docs/hebergement-web/sites/ssl-tls/renouveler-un-certificat-ssl/)
 - [Priorité des certificats](/fr/docs/hebergement-web/sites/ssl-tls/priorite-de-renvoi-des-certificats-ssl/)
 
-* [Ressource API](https://api.alwaysdata.com/v1/ssl/doc/)
-* [Configurer TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/)
-* [Implémenter HSTS](/fr/docs/hebergement-web/sites/ssl-tls/hsts/)
-* [Diverses questions](/fr/docs/hebergement-web/sites/ssl-tls/divers/)
+<!-- -->
 
-- Vérifier le certificat renvoyé et la configuration d'un nom d'hôte : [SSL Labs](https://www.ssllabs.com), [SSL Tools](https://ssl-tools.net/) ou [Security Headers](https://securityheaders.com).
+- [Ressource API](https://api.alwaysdata.com/v1/ssl/doc/)
+- [Configurer TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls/)
+- [Implémenter HSTS](/fr/docs/hebergement-web/sites/ssl-tls/hsts/)
+- [Diverses questions](/fr/docs/hebergement-web/sites/ssl-tls/divers/)
+
+<!-- -->
+
+- Vérifier le certificat renvoyé et la configuration d'un nom d'hôte : [SSL Labs](https://www.ssllabs.com), [SSL
+  Tools](https://ssl-tools.net/) ou [Security Headers](https://securityheaders.com).
 - Trouver le contenu mixte [^1] de son site web : [Why no Padlock](https://www.whynopadlock.com/).
 
 [^1]: Les navigateurs renvoient l'erreur `Mixed content` lorsqu'un site web utilise le protocole HTTPS mais que des images, vidéos ou scripts/styles sont renvoyés en HTTP.

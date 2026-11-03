@@ -7,21 +7,21 @@ eleventyNavigation:
 
 ## Supported versions
 
-||
+| |
 | -- |
 | 25 |
 | 21 |
 | 17 |
 | 11 |
-| 8  |
+| 8 |
 
-The default version can be changed from the alwaysdata administration, under **Environment > Java**. This is the version that is especially used when you start `java`.
+The default version can be changed from the alwaysdata administration, under **Environment > Java**. This is the version
+that is especially used when you start `java`.
 
 Versions are not necessarily [already installed](/en/docs/web-hosting/languages/#versions).
 
 > [!NOTE]
 > Only **[LTS versions](https://www.java.com/releases/)** are made available.
-
 
 ## Binary to use
 
@@ -62,17 +62,18 @@ You need to specify the command that will start your Java application, for examp
 
 - [Jenkins](https://www.jenkins.io/doc/book/installing/initial-settings/)
 
+```sh
+java -Xmx512m -jar jenkins.war --httpListenAddress=$IP --httpPort=$PORT
 ```
-$ java -Xmx512m -jar jenkins.war --httpListenAddress=$IP --httpPort=$PORT
-```
+
 - [Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties.server)
 
-```
-$ java -jar app.jar --server.address=:: --server.port=$PORT
+```sh
+java -jar app.jar --server.address=:: --server.port=$PORT
 ```
 
 > [!WARNING]
-> Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field or use the IP and PORT environment variables.
-
+> Your application must absolutely listen to IP `::` and the port shown in the site configuration in the *Command* field
+> or use the IP and PORT environment variables.
 
 [^1]: The options depend on the application: it’s **essential** that you refer to the app's documentation to find out which options to use if you need to specify the IP address and the port in the command. This may also be the configuration file options.

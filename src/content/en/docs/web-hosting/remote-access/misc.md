@@ -12,4 +12,5 @@ The list of accounts can be visualized in different ways. For all of them, their
 
 ## `/tmp` directory
 
-The `/tmp` directory is shared by all users on a server. It is not recommended to use it, and by default, the files are readable by other users.
+The `/tmp` directory is shared by all users on a server. It is not recommended to use it, and by default, the files are
+readable by other users.

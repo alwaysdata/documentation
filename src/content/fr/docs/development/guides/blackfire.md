@@ -7,16 +7,18 @@ eleventyNavigation:
   order: 1
 ---
 
-[Blackfire](https://blackfire.io) permet de tester, débugger, optimiser les applications. Il offre des agents dans plusieurs langages et nous présenterons ici les étapes pour installer les _agents PHP et Python_.
+[Blackfire](https://blackfire.io) permet de tester, débugger, optimiser les applications. Il offre des agents dans
+plusieurs langages et nous présenterons ici les étapes pour installer les _agents PHP et Python_.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 - Répertoire de Blackfire : `/home/[compte]/blackfire/`
 
 > [!NOTE]
-> `<version>`, `[version]`, `<YOUR_SERVER_ID>` et `<YOUR_SERVER_TOKEN>` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
-
+> `<version>`, `[version]`, `<YOUR_SERVER_ID>` et `<YOUR_SERVER_TOKEN>` doivent être remplacées par les informations
+> correctes. N'hésitez pas à ajuster en fonction de vos besoins.
 
 ## Étape 1 : Téléchargement de l'agent
 
@@ -24,7 +26,10 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 [compte]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
 [compte]@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
 ```
-[Page de téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) : prendre le paquet DEB 64 bits.
+
+[Page de
+téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php)
+: prendre le paquet DEB 64 bits.
 
 ## Étape 2 : Configuration de l'agent
 
@@ -61,8 +66,8 @@ Plus d'options sont disponibles sur [leur documentation](https://blackfire.io/do
 
 Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivants :
 
-- *Commande* : `/home/[compte]/blackfire/usr/bin/blackfire --config=/home/[compte]/blackfire/etc/blackfire/agent-prod`
-- *Répertoire de travail* : `/home/[compte]/blackfire`
+- _Commande_ : `/home/[compte]/blackfire/usr/bin/blackfire --config=/home/[compte]/blackfire/etc/blackfire/agent-prod`
+- _Répertoire de travail_ : `/home/[compte]/blackfire`
 
 ## Étape 4 : Installation des sondes
 
@@ -70,21 +75,25 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 
 Voir [Blackfire for PHP](https://blackfire.io/docs/php)
 
-**Téléchargement**
+#### Téléchargement
 
 ```sh
 [compte]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
 [compte]@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
 ```
-[Page de téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) - point D : prendre le paquet DEB 64 bits.
 
-**Modification du php.ini (Environnement > PHP)**
+[Page de
+téléchargement](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php)
+\- point D : prendre le paquet DEB 64 bits.
+
+#### Modification du php.ini (Environnement > PHP)
 
 ```ini
 extension = /home/[compte]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so
 ```
 
-Plus d'options sont données sur leur [documentation](https://blackfire.io/docs/php/configuration). Notamment pour mettre en place un log :
+Plus d'options sont données sur leur [documentation](https://blackfire.io/docs/php/configuration). Notamment pour mettre
+en place un log :
 
 ```ini
 blackfire.log_level = 1

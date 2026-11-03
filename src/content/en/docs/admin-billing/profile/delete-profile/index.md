@@ -16,5 +16,4 @@ This will delete all of the accounts and servers attached as well as your histor
 > [!CAUTION]
 > Once this operation is done there is no way to undo it.
 
-
 - [How to delete an account](/en/docs/admin-billing/accounts/delete-account)

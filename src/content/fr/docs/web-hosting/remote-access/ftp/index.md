@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 1
 ---
 
-FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le partage de fichiers sur un réseau distant.
+FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le
+partage de fichiers sur un réseau distant.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)
 - [Créer un utilisateur FTP](/fr/docs/hebergement-web/acces-distant/ftp/creer-un-utilisateur-ftp/)
@@ -26,11 +27,13 @@ FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_P
 Ces utilisateurs sont paramétrables dans l'onglet **Accès distant > FTP** de l'interface d'administration.
 ![](admin-panel_list-ftp-users.png)
 
-Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en environnements Cloud Privé.
+Le nombre de connexions simultanées maximum par utilisateur est de _10_. Il est possible à la demande de le modifier en
+environnements Cloud Privé.
 
 ## .ftpaccess
 
-Il est possible de créer des fichiers [.ftpaccess](http://www.proftpd.org/docs/howto/ftpaccess.html) pour modifier la configuration FTP des dossiers concernés.
+Il est possible de créer des fichiers [.ftpaccess](http://www.proftpd.org/docs/howto/ftpaccess.html) pour modifier la
+configuration FTP des dossiers concernés.
 
 ### Exemple : Bloquer l'accès en lecture seule à un utilisateur
 
@@ -44,7 +47,8 @@ DenyUser [utilisateur FTP]
 
 ## Divers
 
-La plage de ports utilisée pour le mode passif est *53000-53999*.
+La plage de ports utilisée pour le mode passif est _53000-53999_.
 
 ---
+
 - [FileZilla](https://filezilla-project.org/download.php) : client FTP gratuit

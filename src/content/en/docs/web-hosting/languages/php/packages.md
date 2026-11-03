@@ -18,30 +18,33 @@ To install the dependencies listed in the `composer.json` file:
 
 1. To use *Composer 2* (latest versions):
 
-```sh
-$ composer install
-```
+   ```sh
+   composer install
+   ```
 
-or
+   or
 
-```sh
-$ composer2 install
-```
+   ```sh
+   composer2 install
+   ```
 
 2. To use *Composer 1*:
 
 ```sh
-$ composer1 install
+composer1 install
 ```
 
 ### PEAR
 
-[PEAR](https://pear.php.net/) is one of the oldest package management tools for PHP. It is not ready installed but you can download it and run it:
+[PEAR](https://pear.php.net/) is one of the oldest package management tools for PHP. It is not ready installed but you
+can download it and run it:
 
 ```sh
-$ wget http://pear.php.net/go-pear.phar
-$ php go-pear.phar
+wget http://pear.php.net/go-pear.phar
+php go-pear.phar
 ```
 
 > [!NOTE]
-> The PHP executable indicated at the PEAR binary level does not take into account the necessary preloaded extensions (e.g. XML). These paths need to be changed and specify `/usr/bin/php` in place of `/usr/alwaysdata/php/[VERSION]/bin/php`.
+> The PHP executable indicated at the PEAR binary level does not take into account the necessary preloaded extensions
+> (e.g. XML). These paths need to be changed and specify `/usr/bin/php` in place of
+> `/usr/alwaysdata/php/[VERSION]/bin/php`.

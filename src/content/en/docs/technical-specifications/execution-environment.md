@@ -20,7 +20,8 @@ Each account has its own UID/GID. It is isolated from other accounts by standard
 ## Processes
 
 - No restriction on the processes that can be run.
-- No port filtering for outgoing connections. [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices/) users can add some via the [firewall](/en/docs/technical-specifications/configure-firewall/).
+- No port filtering for outgoing connections. [Private Cloud](/en/docs/admin-billing/billing/private-cloud-prices/)
+  users can add some via the [firewall](/en/docs/technical-specifications/configure-firewall/).
 - A process to be stopped receives the `SIGTERM` signal, then `SIGKILL` if it is still running 30 seconds later.
 
 > [!TIP]

@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
-[Blackfire](https://blackfire.io) helps to test, debug optimize applications. It offers agents in a number of languages and here we will present the steps needed to install the _PHP and Python agents_.
+[Blackfire](https://blackfire.io) helps to test, debug optimize applications. It offers agents in a number of languages
+and here we will present the steps needed to install the _PHP and Python agents_.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
@@ -14,8 +15,8 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 - Blackfire directory: `/home/[account]/blackfire/`
 
 > [!NOTE]
-> `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by the accurate data. Feel free to adjust according to your needs.
-
+> `<version>`, `[version]`, `<YOUR_SERVER_ID>` and `<YOUR_SERVER_TOKEN>` must be replaced by the accurate data. Feel
+> free to adjust according to your needs.
 
 ## Step 1: Agent download
 
@@ -23,7 +24,10 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 [account]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-agent_<version>_amd64.deb
 [account]@ssh:~/blackfire$ dpkg -x blackfire-agent_<version>_amd64.deb .
 ```
-[Download page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php): take the DEB 64 bits package.
+
+[Download
+page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php):
+take the DEB 64 bits package.
 
 ## Step 2: Agent configuration
 
@@ -60,8 +64,8 @@ More options are available on their [documentation](https://blackfire.io/docs/up
 
 Create a [service](/en/docs/web-hosting/services) with the following details:
 
-- *Command*: `/home/[account]/blackfire/usr/bin/blackfire --config=/home/[account]/blackfire/etc/blackfire/agent-prod`
-- *Working directory*: `/home/[account]/blackfire`
+- _Command_: `/home/[account]/blackfire/usr/bin/blackfire --config=/home/[account]/blackfire/etc/blackfire/agent-prod`
+- _Working directory_: `/home/[account]/blackfire`
 
 ## Step 4: Probes installation
 
@@ -69,15 +73,18 @@ Create a [service](/en/docs/web-hosting/services) with the following details:
 
 See [Blackfire for PHP](https://blackfire.io/docs/php).
 
-**Download**
+#### Download
 
 ```sh
 [account]@ssh:~/blackfire$ wget https://packages.blackfire.io/debian/pool/any/main/b/blackfire-php/blackfire-php_<version>_amd64.deb
 [account]@ssh:~/blackfire$ dpkg -x blackfire-php_<version>_amd64.deb .
 ```
-[Download page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php) - point D: take the DEB 64 bits package.
 
-**php.ini modification (Environment > PHP)**
+[Download
+page](https://blackfire.io/docs/up-and-running/installation?action=install&mode=full&location=local&os=manual&language=php)
+\- point D: take the DEB 64 bits package.
+
+#### php.ini modification (Environment > PHP)
 
 ```ini
 extension = /home/[account]/blackfire/usr/lib/blackfire-php/amd64/blackfire-[version].so

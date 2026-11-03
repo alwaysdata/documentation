@@ -9,31 +9,32 @@ eleventyNavigation:
 ## General
 
 > [!TIP]
-> For domains using our DNS servers, Outlook *autoconfiguration* is usable. You just need to provide your username (email address) and password. The other settings are automatically generated.
-
+> For domains using our DNS servers, Outlook *autoconfiguration* is usable. You just need to provide your username
+> (email address) and password. The other settings are automatically generated.
 
 |Server|Service|Information||
 |---|---|---|---|
 |Incoming|IMAP|Server|imap-*[account]*.alwaysdata.net|
 |||Port|993|
-|||Encryption method| Will be automatically set up|
-|||Authentication method| Require logon using Secure Password Authentication (SPA)|
-|||Email address| Your email address - for example *contact\@example.org*|
-|||Password| The password of your email address|
-||POP3|Server| pop-*[account]*.alwaysdata.net|
-|||Port| 995|
-|||Encryption method| Will be automatically set up|
-|||Authentication method| Require logon using Secure Password Authentication (SPA)|
-|||Email address| Your email address - for example *contact\@example.org*|
-|||Password| The password of your email address|
+|||Encryption method|Will be automatically set up|
+|||Authentication method|Require logon using Secure Password Authentication (SPA)|
+|||Email address|Your email address - for example *contact\@example.org*|
+|||Password|The password of your email address|
+||POP3|Server|pop-*[account]*.alwaysdata.net|
+|||Port|995|
+|||Encryption method|Will be automatically set up|
+|||Authentication method|Require logon using Secure Password Authentication (SPA)|
+|||Email address|Your email address - for example *contact\@example.org*|
+|||Password|The password of your email address|
 |Outgoing|SMTP|Server|smtp-*[account]*.alwaysdata.net|
 |||Port|465|
-|||Encryption method| Will be automatically set up|
-|||Authentication method| Require logon using Secure Password Authentication (SPA)|
-|||Email address| Your email address - for example *contact\@example.org*|
-|||Password| The password of your email address|
+|||Encryption method|Will be automatically set up|
+|||Authentication method|Require logon using Secure Password Authentication (SPA)|
+|||Email address|Your email address - for example *contact\@example.org*|
+|||Password|The password of your email address|
 
-*`[account]`* must be replaced by the name of your account and *`contact@example.org`* by your email address. They are defined in the **Emails > Addresses** menu of our administration interface.
+*`[account]`* must be replaced by the name of your account and *`contact@example.org`* by your email address. They are
+defined in the **Emails > Addresses** menu of our administration interface.
 
 ## Screenshots
 

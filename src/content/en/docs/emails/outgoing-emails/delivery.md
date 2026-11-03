@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
-Whether your email addresses are hosted in the Public Cloud or a dedicated environment, the ability to deliver your messages is very important and may be optimized by the hosting provider and their users working together.
+Whether your email addresses are hosted in the Public Cloud or a dedicated environment, the ability to deliver your
+messages is very important and may be optimized by the hosting provider and their users working together.
 
 ## Sender
 
@@ -19,40 +20,48 @@ Whether your email addresses are hosted in the Public Cloud or a dedicated envir
 - Delete addresses that do not exist or are idle.
 - Check for spelling errors in addresses.
 - Avoid mass sending.
-- Fill-in the email addresses in the `Cc` (or `Cci`) fields rather than one after the other in the `To` field for a mail shot.
+- Fill-in the email addresses in the `Cc` (or `Cci`) fields rather than one after the other in the `To` field for a mail
+  shot.
 
 ## Content
 
 - Avoid:
-    - HTML,
-    - using too much punctuation in succession,
-    - writing in red,
-    - writing in block capitals,
-    - using [spam words](https://blog.hubspot.com/blog/tabid/6307/bid/30684/The-Ultimate-List-of-Email-SPAM-Trigger-Words.aspx).
+  - HTML,
+  - using too much punctuation in succession,
+  - writing in red,
+  - writing in block capitals,
+  - using [spam words](https://blog.hubspot.com/blog/tabid/6307/bid/30684/The-Ultimate-List-of-Email-SPAM-Trigger-Words.aspx).
 - Pay attention to the email subject.
 
 ## Emailing
 
-
 Check that best practices are being followed by answering “yes” to the following questions:
+
 - has the recipient expressly agreed to receive these emails?
 - is there an unsubscribe link that is available, works and is easily identifiable?
 
 ## Scoring system
 
-To avoid misuse and optimize the deliverability of emails sent by its servers, alwaysdata has always implemented a scoring system based on various criteria like the content and frequency of the messages sent.
+To avoid misuse and optimize the deliverability of emails sent by its servers, alwaysdata has always implemented a
+scoring system based on various criteria like the content and frequency of the messages sent.
 
-The lower the score, the better the email will be rated and the sending accepted. In the Public Cloud, any email with a score higher than _3_ will be blocked. In [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices), the default value is _5_ and you can change it in the **SMTP > Settings** tab of your server. It cannot be disabled.
+The lower the score, the better the email will be rated and the sending accepted. In the Public Cloud, any email with a
+score higher than *3* will be blocked. In [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices), the
+default value is *5* and you can change it in the **SMTP > Settings** tab of your server. It cannot be disabled.
 
 > [!NOTE]
-> This note is only used to send the email from our servers. It has no incident in the management of the mail on the recipient server side.
+> This note is only used to send the email from our servers. It has no incident in the management of the mail on the
+> recipient server side.
 
-
-Based on this scoring, the message will be sent via an IP address with a more or less good reputation. This way, by optimizing the quality of your emails and their content, you will have a better chance of avoiding your message being considered undesirable.
+Based on this scoring, the message will be sent via an IP address with a more or less good reputation. This way, by
+optimizing the quality of your emails and their content, you will have a better chance of avoiding your message being
+considered undesirable.
 
 This system uses [Rspamd](https://rspamd.com/) and a set of rules specific to alwaysdata.
 
-In order not to be dependent on abuse from other users being the same email server you can rent a [dedicated IP](/en/docs/web-hosting/dedicated-ip-addresses) in the **Advanced > IP Addresses** tab of the account. You will be asked to specify emails sent by this IP according to the rating they will have received by the antispam.
+In order not to be dependent on abuse from other users being the same email server you can rent a [dedicated
+IP](/en/docs/web-hosting/dedicated-ip-addresses) in the **Advanced > IP Addresses** tab of the account. You will be
+asked to specify emails sent by this IP according to the rating they will have received by the antispam.
 
 ## Notes
 

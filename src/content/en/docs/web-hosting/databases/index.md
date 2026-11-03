@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 3
 ---
 
-The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entirely hosted** in all of our offers: we install, configure, maintain and secure your databases. This way you only need to handle the interactions between your applications and your databases.
+The DBMS (**D**ata**B**ase **M**anagement **S**ystems) that we offer are **entirely hosted** in all of our offers: we
+install, configure, maintain and secure your databases. This way you only need to handle the interactions between your
+applications and your databases.
 
 - [MariaDB/MySQL](/en/docs/web-hosting/databases/mariadb/)
 - [PostgreSQL](/en/docs/web-hosting/databases/postgresql/)
@@ -19,8 +21,11 @@ On Private Cloud plans:
 - [Redis](/en/docs/web-hosting/databases/redis/)
 
 > [!NOTE]
-> For security reasons, it is only possible to create databases and database users from the administration interface or from our [API](/en/docs/development/api). Therefore this is not possible using a third party application (e.g. phpMyAdmin).
+> For security reasons, it is only possible to create databases and database users from the administration interface or
+> from our [API](/en/docs/development/api). Therefore this is not possible using a third party application (e.g.
+> phpMyAdmin).
 
+<!-- -->
 
 > [!CAUTION]
 > Hosting **only** databases in a free pack is not allowed.
@@ -30,7 +35,6 @@ On Private Cloud plans:
 - Connections can be encrypted with SSL.
 - Databases are accessible from outside: their ports are open to the Internet ([login details](/en/docs/technical-specifications/login-details/)).
   On the [Max offer](/en/docs/admin-billing/billing/private-cloud-prices/), this access can be closed.
-
 
 ---
 

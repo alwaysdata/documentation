@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
-[MapServer](https://mapserver.org/) is a platform for publishing spatial data and interactive mapping applications to the web.
+[MapServer](https://mapserver.org/) is a platform for publishing spatial data and interactive mapping applications to
+the web.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
@@ -18,13 +19,13 @@ In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) 
 
 1. Create the soft link:
 
-```sh
-[account]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
-```
+   ```sh
+   [account]@ssh:~/mapserver$ ln -s /usr/lib/cgi-bin/mapserv mapserv
+   ```
 
 2. Create a `.htaccess` file with:
 
-```
+```apache
 Options +ExecCGI
 SetHandler cgi-script
 ```

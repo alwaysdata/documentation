@@ -11,7 +11,8 @@ The referral system lets you earn commissions on payments made by your referrals
 ## Signing up a referral
 
 - Communicate your referral link (**Billing > Referral** section) to the world,
-- Anyone who registers for our service thanks to your referral link gets a **10% discount** for *6 months* and becomes your referral.
+- Anyone who registers for our service thanks to your referral link gets a **10% discount** for *6 months* and becomes
+  your referral.
 
 ## Earning a commission
 

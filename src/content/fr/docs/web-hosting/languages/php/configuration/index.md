@@ -9,20 +9,23 @@ eleventyNavigation:
 
 ## Versions supportées
 
-||
-|---|
+| |
+| --- |
 | 8.5 \| 8.4 \| 8.3 \| 8.2 \| 8.1 \| 8.0 |
 | 7.4 \| 7.3 \| 7.2 \| 7.1 \| 7.0 |
 | 5.6 \| 5.5 \| 5.4 \| 5.3 \| 5.2 |
 | 4.4 |
 
-La version par défaut est modifiable dans l'interface d'administration, **Environnement > PHP**. C'est cette version qui est notamment utilisée lorsque vous démarrez `php`.
+La version par défaut est modifiable dans l'interface d'administration, **Environnement > PHP**. C'est cette version qui
+est notamment utilisée lorsque vous démarrez `php`.
 
 Les versions ne sont pas forcément [déjà installées](/fr/docs/hebergement-web/langages/#versions).
 
 ## Paramètres (php.ini)
 
-Le fichier `php.ini` par défaut active plusieurs extensions essentielles et définit quelques paramètres de base. Ce fichier est accessible en lecture à l'emplacement `/home/[compte]/admin/config/php/php.ini`. Voici son contenu (pour un compte configuré sur une version 8.2 de PHP) :
+Le fichier `php.ini` par défaut active plusieurs extensions essentielles et définit quelques paramètres de base. Ce
+fichier est accessible en lecture à l'emplacement `/home/[compte]/admin/config/php/php.ini`. Voici son contenu (pour un
+compte configuré sur une version 8.2 de PHP) :
 
 ```ini
 ; Core settings
@@ -84,20 +87,26 @@ zend_extension = /usr/alwaysdata/php/8.2/lib/php/extensions/no-debug-non-zts-202
 opcache.lockfile_path = /home/test/admin/tmp
 ```
 
-Si vous souhaitez modifier ce `php.ini`, vous pouvez le faire dans la section **Environnement > PHP** (ou au niveau du site dans **Web > Sites**). Toutes les directives que vous définissez seront ajoutées au fichier `php.ini` initial, et peuvent donc écraser les valeurs par défaut. Il n'y a aucune limitation à ce que vous pouvez définir, toutes les options de PHP sont accessibles.
+Si vous souhaitez modifier ce `php.ini`, vous pouvez le faire dans la section **Environnement > PHP** (ou au niveau du
+site dans **Web > Sites**). Toutes les directives que vous définissez seront ajoutées au fichier `php.ini` initial, et
+peuvent donc écraser les valeurs par défaut. Il n'y a aucune limitation à ce que vous pouvez définir, toutes les options
+de PHP sont accessibles.
 
 Vous pouvez également créer des fichiers `.user.ini` pour n'appliquer des paramètres qu'à certains répertoires.
 
 ## Déploiement HTTP
 
-
-Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'interface d'administration en choisissant le type **PHP**.
+Pour qu'une application PHP soit accessible par le web, créez un site dans le section **Web > Sites** de l'interface
+d'administration en choisissant le type **PHP**.
 
 ![](images/php-type.png)
 
 ### Gestion des versions
 
-Gérer les versions de PHP par site entraîne une consommation plus importante de RAM car les sites ne peuvent alors pas se partager les processus PHP. Il est donc préconisé :
+Gérer les versions de PHP par site entraîne une consommation plus importante de RAM car les sites ne peuvent alors pas
+se partager les processus PHP. Il est donc préconisé :
+
 - de privilégier la gestion de PHP au niveau du compte (section **Environnement**) ;
 - d'utiliser peu de versions différentes par compte ;
-- si on doit en utiliser plusieurs et qu'un certain nombre de sites utilisent la même version, de regrouper leurs php.ini via le php.ini global et de les passer sur la version de PHP par défaut.
+- si on doit en utiliser plusieurs et qu'un certain nombre de sites utilisent la même version, de regrouper leurs
+  php.ini via le php.ini global et de les passer sur la version de PHP par défaut.

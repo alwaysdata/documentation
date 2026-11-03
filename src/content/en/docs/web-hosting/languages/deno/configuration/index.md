@@ -7,8 +7,8 @@ eleventyNavigation:
 
 ## Supported versions
 
-||
-|---|
+| |
+| --- |
 | 2.9 |
 | 2.8 |
 | 2.7 |
@@ -19,7 +19,8 @@ eleventyNavigation:
 | 1.45 |
 | 1.43 |
 
-The default version can be changed from the administration section, under **Environment > Deno**. This is the version that is especially used when you start `deno`.
+The default version can be changed from the administration section, under **Environment > Deno**. This is the version
+that is especially used when you start `deno`.
 
 Versions are not necessarily [already installed](/en/docs/web-hosting/languages#versions).
 
@@ -29,15 +30,16 @@ Your Deno environment starts off empty, with no ready installed libraries.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Deno, create a *Deno* type site in the **Web > Sites** section. 
+To deploy an HTTP application with Deno, create a *Deno* type site in the **Web > Sites** section.
 
 ![](images/deno.png)
 
 You need to specify the command that will start your Deno application, for example:
 
-```
+```sh
 deno run --allow-env --allow-net /home/[account]/myapp/index.ts
 ```
 
 > [!WARNING]
-> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The `IP` / `HOST` and `PORT` environment variables can also be used.
+> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The
+> `IP` / `HOST` and `PORT` environment variables can also be used.

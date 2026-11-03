@@ -6,12 +6,13 @@ eleventyNavigation:
   order: 7
 ---
 
-Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can fill-in the data on the new owner.
+Go to **Domains > Details of [example.org] - 🔎 > CHANGE** (opposite **Owner**). This brings you to a form where you can
+fill-in the data on the new owner.
 
 ![](images/admin-panel_owner-change.png)
 
 A confirmation email is sent to both parties. *Check the email addresses before starting the operation*.
 
-There is a charge for this operation for the following extensions: _.am_, _.be_, _.me.uk_.
+There is a charge for this operation for the following extensions: *.am*, *.be*, *.me.uk*.
 
 If you just want to update the address, phone number or email address, you can simply [update owner information](/en/docs/domains/update-owner-details).

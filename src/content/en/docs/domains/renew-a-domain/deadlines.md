@@ -10,12 +10,15 @@ Different dates apply:
 
 - Renewal: this is the *normal* process for adding one or more years to the current domain expiry date.
 - Late renewal: an optional period offered by the registrar so that you can renew the domain after its expiry date.
-- Erasure at alwaysdata: the date when the domain is no longer managed by alwaysdata but may optionally be restored by the registrar. Contact [support](https://admin.alwaysdata.com/support/add/).
-- Restore is possible: the domain is in *redemption*; it may be restored by the registrar but a *more expensive* charge will be billed by the registrar.
-- Deletion by the registrar: date when the domain may *become available again* for registration. Some registrars add a random period to this date before deleting the domain so that they can apply the "first come, first served" rule.
+- Erasure at alwaysdata: the date when the domain is no longer managed by alwaysdata but may optionally be restored by
+  the registrar. Contact [support](https://admin.alwaysdata.com/support/add/).
+- Restore is possible: the domain is in *redemption*; it may be restored by the registrar but a *more expensive* charge
+  will be billed by the registrar.
+- Deletion by the registrar: date when the domain may *become available again* for registration. Some registrars add a
+  random period to this date before deleting the domain so that they can apply the "first come, first served" rule.
 
 |Extension|Renewal is possible|Late renewal is possible|Erasure at alwaysdata|Restore is possible|Deletion by the registrar|
-|--- |--- |--- |--- |--- |--- |
+|---|---|---|---|---|---|
 |.academy|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.accountants|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|
 |.actor|Until expiry|Up to 45 days after expiry|45 days after expiry|Between 45 to 75 days after expiry|80 days after expiry|

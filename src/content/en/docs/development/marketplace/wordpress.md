@@ -22,10 +22,13 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
 - regularly update *WordPress* and its plugins,
 - keep informed on reports of bugs and security breaches relating to plugins before installing them,
 - implement the [specific profile](/en/docs/web-hosting/sites/customizing/waf#available-profiles) of our WAF,
-- choose a prefix other than *wp*_ for your table names. To change this value on a WordPress application that is already deployed, change the `_options` table and the `/home/[account]/path/to/the/application/wp_config.php` file path.
+- choose a prefix other than *wp*_ for your table names. To change this value on a WordPress application that is already
+  deployed, change the `_options` table and the `/home/[account]/path/to/the/application/wp_config.php` file path.
 - delete idle themes and plugins,
-- delete the readme.txt file at the root of your application (contains the current version of your WordPress file that is useful to find security breaches that can be used),
-- edit the `/home/[account]/path/to/the/application/wp-content/themes/theme_name/functions.php` file path for your theme and add:
+- delete the readme.txt file at the root of your application (contains the current version of your WordPress file that
+  is useful to find security breaches that can be used),
+- edit the `/home/[account]/path/to/the/application/wp-content/themes/theme_name/functions.php` file path for your theme
+  and add:
 
     ```php
     remove_action("wp_head", "wp_generator");
@@ -43,7 +46,9 @@ Due to its high profile, it is a target of choice for hackers. Consequently, it 
 - [other rules](/en/docs/web-hosting/sites/troubleshooting/clean-up-a-site#3-deleting-infection-vehicles).
 
 ---
+
 ## Useful links
 
 - [iThemes Security](http://wordpress.org/plugins/better-wp-security/): improves the security of your WordPress site
-- [WordFence](https://wordpress.org/plugins/wordfence/): scans your site looking for breaches, WAF and other tools for securing your WordPress interface
+- [WordFence](https://wordpress.org/plugins/wordfence/): scans your site looking for breaches, WAF and other tools for
+  securing your WordPress interface

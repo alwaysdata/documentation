@@ -19,9 +19,9 @@ For many reasons, an alert may be triggered by our system. Here is how it works:
 This kind of alert only affects *free plans* and is intended to not take up space on our infrastructure with abandoned accounts.
 
 - Triggering event: no connection to the [administration interface](https://admin.alwaysdata.com) for X days:
-	- a profile created in less than a year must connect every 120 days,
-	- a profile created between 1 and 4 years must connect every 6 months,
-	- a profile with 4 years of age, one connection per year is required.
+  - a profile created in less than a year must connect every 120 days,
+  - a profile created between 1 and 4 years must connect every 6 months,
+  - a profile with 4 years of age, one connection per year is required.
 - Resolution: connecting to the administration interface,
 - Expiry: suspension of the inactive profile and its accounts.
 
@@ -40,7 +40,8 @@ This kind of alert only affects *free plans* and is intended to not take up spac
 ### Automatic domain renewal
 
 - Triggering event: automatic domain renewal is enabled but the balance is too low OR no credit card/bank account is configured,
-- Resolution: recharge the prepaid account with enough money OR add a credit card/bank account allowing automatic debits to the means of payment,
+- Resolution: recharge the prepaid account with enough money OR add a credit card/bank account allowing automatic debits
+  to the means of payment,
 - Expiry: this kind of alert does not expire.
 
 ### Credit card expiry

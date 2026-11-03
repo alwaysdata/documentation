@@ -6,7 +6,8 @@ eleventyNavigation:
   parent: Facturation
   order: 7
 ---
-La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs systèmes sont payantes. Voici leur montant :
+La mise en place d'un nouveau serveur est **gratuite** mais d'autres opérations effectuées par nos administrateurs
+systèmes sont payantes. Voici leur montant :
 
 |Détail|Tarifs (HT)[^1]|
 |---|---|

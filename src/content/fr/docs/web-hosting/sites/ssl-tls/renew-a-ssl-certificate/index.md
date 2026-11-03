@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 5
 ---
 
-Lorsque vous renouvelez le certificat SSL chez votre fournisseur, celui-ci doit vous livrer un fichier contenant le nouveau certificat.
+Lorsque vous renouvelez le certificat SSL chez votre fournisseur, celui-ci doit vous livrer un fichier contenant le
+nouveau certificat.
 
 Sur votre interface alwaysdata - onglet **Avancé > Certificats SSL** - modifiez alors le certificat actuel.
 

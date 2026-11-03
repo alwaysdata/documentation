@@ -8,17 +8,19 @@ eleventyNavigation:
 
 ## Connection
 
-Should connection issues arise, you can always use the `ssh -v [account]@ssh-[account].alwaysdata.net` command to get more information.
+Should connection issues arise, you can always use the `ssh -v [account]@ssh-[account].alwaysdata.net` command to get
+more information.
 
-An [IP blockage](/en/docs/technical-specifications/network#intrusion-prevention) occurs after some ten failed attempts to connect to the server.
+An [IP blockage](/en/docs/technical-specifications/network#intrusion-prevention) occurs after some ten failed attempts
+to connect to the server.
 
 > [!NOTE]
 > alwaysdata has connection logs that you may exceptionally request a copy of.
 
-
 ### Too many authentication failures
 
-This is an SSH key issue, state the corresponding key. If you cannot find it, connect by password and update the `$HOME/.ssh/authorized_keys` file.
+This is an SSH key issue, state the corresponding key. If you cannot find it, connect by password and update the
+`$HOME/.ssh/authorized_keys` file.
 
 ### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 
@@ -27,16 +29,18 @@ An account's SSH server might change from time to time. The new fingerprints are
 You have to update the `known_hosts` file, which is possible via the following command:
 
 ```ssh
-$ ssh-keygen -R ssh-[account].alwaysdata.net
+ssh-keygen -R ssh-[account].alwaysdata.net
 ```
 
 ### Input/output error
 
-Error linked to operations at our end. Please wait until these are finished, but you can also contact [support](https://admin.alwaysdata.com/support/add/) for more information.
+Error linked to operations at our end. Please wait until these are finished, but you can also contact
+[support](https://admin.alwaysdata.com/support/add/) for more information.
 
 ## Rights
 
-Employing several SSH users may have secondary and undesirable effects: errors when accessing certain files and when deleting files, etc.
+Employing several SSH users may have secondary and undesirable effects: errors when accessing certain files and when
+deleting files, etc.
 
 In this case, you can:
 

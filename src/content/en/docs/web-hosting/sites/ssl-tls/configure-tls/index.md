@@ -17,12 +17,12 @@ Three presets for HTTP connections are available:
 > [!NOTE]
 > The _Intermediate_ profile is activated by default on alwaysdata's servers.
 
-
 To change the TLS profile at the account level you need to edit the profile in the **Web > Configuration > SSL** menu:
 ![](images/account-tls-configuration.png)
 
 ## Private Cloud
 
-Owners of [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices) can set the HTTP TLS profile at the _server_ level in the **SSL > Configuration** menu:
+Owners of [Private Clouds](/en/docs/admin-billing/billing/private-cloud-prices) can set the HTTP TLS profile at the
+_server_ level in the **SSL > Configuration** menu:
 
 ![](images/server-tls-configuration.png)

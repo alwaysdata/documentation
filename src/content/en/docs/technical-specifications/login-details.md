@@ -6,18 +6,18 @@ eleventyNavigation:
   order: 1
 ---
 
-The subdomain assigned to you when your account is created will end with a **.net** extension and not a _.com_ extension like other alwaysdata domains.
-
+The subdomain assigned to you when your account is created will end with a **.net** extension and not a _.com_ extension
+like other alwaysdata domains.
 
 > Feel free to adjust [account] according to your needs.
 
 |Feature|Information|
 |---|---|
 |**Admin**||
-|URL|https://admin.alwaysdata.com|
+|URL|<https://admin.alwaysdata.com>|
 ||Email/password, [2-factors auth ready](/en/docs/admin-billing/profile/two-factor-authentication)|
-|API|[api.alwaysdata.com/v1](/en/docs/development/api) (with a *[rate limit](/en/docs/development/api/usage/#rate-limit)*)|
-||[Tokens](/en/docs/admin-billing/profile/tokens) available in *Profile*|
+|API|[api.alwaysdata.com/v1](/en/docs/development/api) (with a _[rate limit](/en/docs/development/api/usage/#rate-limit)_)|
+||[Tokens](/en/docs/admin-billing/profile/tokens) available in _Profile_|
 |**Generic**||
 |DNS|Primary: dns1.alwaysdata.com|
 ||Secondary: dns2.alwaysdata.com|
@@ -56,7 +56,7 @@ The subdomain assigned to you when your account is created will end with a **.ne
 ||Port: 22|
 |SSH|Host: ssh-[account].alwaysdata.net|
 ||Port: 22|
-||Web access (via Shell in a box): https://ssh-[account].alwaysdata.net|
+||Web access (via Shell in a box): `https://ssh-[account].alwaysdata.net`|
 |WebDAV|Host: webdav-[account].alwaysdata.net|
 ||Port: 80|
 |**Services**||
@@ -64,4 +64,6 @@ The subdomain assigned to you when your account is created will end with a **.ne
 ||Ports: between 8300 and 8499|
 
 > [!NOTE]
-> The default login corresponds - except for emails for which the username is the email address - to the **account name** and the password is the one indicated at the creation of the account. All passwords are encrypted - and therefore unrecoverable - but can be modified in the dedicated menus.
+> The default login corresponds - except for emails for which the username is the email address - to the **account
+> name** and the password is the one indicated at the creation of the account. All passwords are encrypted - and
+> therefore unrecoverable - but can be modified in the dedicated menus.

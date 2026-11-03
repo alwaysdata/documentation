@@ -7,16 +7,18 @@ eleventyNavigation:
   order: 1
 ---
 
-[Tideways](https://tideways.com/) surveille les applications PHP et aide à les optimiser. Du fait des particularités de notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
+[Tideways](https://tideways.com/) surveille les applications PHP et aide à les optimiser. Du fait des particularités de
+notre infrastructure, leur script d'installation n'est pas exploitable sur nos serveurs, voici les étapes à suivre.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 - Répertoire de Tideways : `/home/[compte]/tideways/`
 
 > [!NOTE]
-> `[version]` et `[php_version]` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en fonction de vos besoins.
-
+> `[version]` et `[php_version]` doivent être remplacées par les informations correctes. N'hésitez pas à ajuster en
+> fonction de vos besoins.
 
 ## Étape 1 : Téléchargement de l'agent et du démon
 

@@ -6,7 +6,9 @@ eleventyNavigation:
   order: 1
 ---
 
-To connect to your account using *WebDAV*, you need to have a user. By default, a user with your `[account]` name was created with the account. You can create as many WebDAV users as you wish and you can administer them from your administration interface, from the **Remote access > WebDAV** tab.
+To connect to your account using *WebDAV*, you need to have a user. By default, a user with your `[account]` name was
+created with the account. You can create as many WebDAV users as you wish and you can administer them from your
+administration interface, from the **Remote access > WebDAV** tab.
 
 ![](images/admin-panel_list-webdav-users.png)
 

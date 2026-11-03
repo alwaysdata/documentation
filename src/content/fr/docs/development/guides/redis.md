@@ -10,10 +10,12 @@ eleventyNavigation:
 [Redis](https://redis.io/) est un système de gestion de base de données clé-valeur extensible.
 
 > [!TIP] Astuce
-> Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/).  
-> Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander l'installation de *Redis* [au niveau serveur](/fr/docs/hebergement-web/bases-de-donnees/redis/).
+> Voici un guide d'installation sur le [Cloud Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/).
+> Les utilisateurs du [Cloud privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) peuvent demander
+> l'installation de *Redis* [au niveau serveur](/fr/docs/hebergement-web/bases-de-donnees/redis/).
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 - Répertoire de Redis : `/home/[compte]/redis/`
@@ -21,7 +23,6 @@ Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acce
 
 > [!NOTE]
 > N'hésitez pas à ajuster en fonction de vos besoins.
-
 
 ## Installation
 
@@ -42,13 +43,15 @@ Créez le [service](/fr/docs/hebergement-web/services/) suivant :
 
 Plus d'options via `/home/[compte]/redis/src/redis-cli -h`.
 
-Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser `services-[compte].alwaysdata.net` et le port `8300`.
+Il restera ensuite la configuration de l'application qui pour se connecter à Redis devra utiliser
+`services-[compte].alwaysdata.net` et le port `8300`.
 
 - [Installer l'extension PHP](/fr/docs/hebergement-web/bases-de-donnees/redis/php/)
 
 ## Authentification
 
-Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une [authentification](https://redis.io/docs/management/security/acl/) peut donc être mise en place.
+Par défaut n'importe qui peut se connecter au Redis ; il n'y a aucune sécurité. Une
+[authentification](https://redis.io/docs/management/security/acl/) peut donc être mise en place.
 
 Il faudra créer le fichier `users.acl` et modifier la ligne `aclfile` dans le fichier de configuration Redis `redis.conf`.
 
@@ -74,6 +77,7 @@ services-[compte].alwaysdata.net:8300> AUTH default [mot de passe]
 OK
 ```
 
-- [`ACL LIST`](https://redis.io/commands/acl-list/) liste les utilisateurs et donne des informations sur les droits des utilisateurs.
+- [`ACL LIST`](https://redis.io/commands/acl-list/) liste les utilisateurs et donne des informations sur les droits des
+  utilisateurs.
 - [`ACL SETUSER`](https://redis.io/commands/acl-setuser/) créé ou modifie les utilisateurs.
 - [`ACL SAVE`](https://redis.io/commands/acl-save/) enregistre les utilisateurs.

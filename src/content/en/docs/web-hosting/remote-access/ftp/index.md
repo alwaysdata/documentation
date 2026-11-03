@@ -6,7 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
-FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol) is a protocol for sharing files on a distant network.
+FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol) is a protocol for sharing files
+on a distant network.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)
 - [Create an FTP user](/en/docs/web-hosting/remote-access/ftp/create-a-ftp-user)
@@ -16,7 +17,7 @@ FTP, for [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Pr
 ## Connecting with FTP
 
 |Information||
-|--- |--- |
+|---|---|
 |Host|**ftp-[account].alwaysdata.net**|
 |Port|**990 (SSL/TLS)**|
 |Alternative port|21 (STARTTLS)|
@@ -26,11 +27,13 @@ These users can be configured in the **Remote access > FTP** tab in your alwaysd
 
 ![](admin-panel_list-ftp-users.png)
 
-The maximum number of simultaneous connections per user is *10*. On request, it is possible to change this in Private Cloud environments.
+The maximum number of simultaneous connections per user is *10*. On request, it is possible to change this in Private
+Cloud environments.
 
 ## .ftpaccess
 
-It is possible to create [.ftpaccess](http://www.proftpd.org/docs/howto/ftpaccess.html) files to modify the FTP configuration of the relevant files.
+It is possible to create [.ftpaccess](http://www.proftpd.org/docs/howto/ftpaccess.html) files to modify the FTP
+configuration of the relevant files.
 
 ### Example: To block access to read only to one user
 
@@ -47,4 +50,5 @@ DenyUser [utilisateur FTP]
 The port range used for passive mode is *53000-53999*.
 
 ---
+
 - [FileZilla](https://filezilla-project.org/download.php): free FTP client

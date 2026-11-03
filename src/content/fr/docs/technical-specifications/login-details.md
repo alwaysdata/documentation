@@ -7,18 +7,18 @@ eleventyNavigation:
   order: 1
 ---
 
-Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non _.com_ comme les autres domaines d'alwaysdata.
+Le sous-domaine qui vous est attribué à la création de votre compte se termine par l'extension **.net** et non _.com_
+comme les autres domaines d'alwaysdata.
 
 > N'hésitez pas à ajuster [compte] en fonction de vos besoins.
-
 
 |Fonctionnalité|Informations|
 |---|---|
 |**Administration**||
-|URL|https://admin.alwaysdata.com|
+|URL|<https://admin.alwaysdata.com>|
 ||Email/mot de passe, [Double authentification possible](/fr/docs/admin-facturation/profil/authentification-2-facteurs/)|
-|API|[api.alwaysdata.com/v1](/fr/docs/developpement/api/) (soumis à un *[rate limit](/fr/docs/developpement/api/utilisation/#rate-limit)*)|
-||[Tokens](/fr/docs/admin-facturation/profil/tokens/) disponibles via *Profil*|
+|API|[api.alwaysdata.com/v1](/fr/docs/developpement/api/) (soumis à un _[rate limit](/fr/docs/developpement/api/utilisation/#rate-limit)_)|
+||[Tokens](/fr/docs/admin-facturation/profil/tokens/) disponibles via _Profil_|
 |**Générique**||
 |DNS|Primaire : dns1.alwaysdata.com|
 ||Secondaire : dns2.alwaysdata.com|
@@ -57,7 +57,7 @@ Le sous-domaine qui vous est attribué à la création de votre compte se termin
 ||Port : 22|
 |SSH|Hôte : ssh-[compte].alwaysdata.net|
 ||Port : 22|
-||Accès web (via Shell in a box) : https://ssh-[compte].alwaysdata.net|
+||Accès web (via Shell in a box) : `https://ssh-[compte].alwaysdata.net`|
 |WebDAV|Hôte : webdav-[compte].alwaysdata.net|
 ||Port : 80|
 |**Services**||
@@ -65,4 +65,6 @@ Le sous-domaine qui vous est attribué à la création de votre compte se termin
 ||Ports : entre 8300 et 8499|
 
 > [!NOTE]
-> Le login par défaut correspond - à l'exception des emails pour lequel l'identifiant est l'adresse email - au **nom du compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et donc non récupérables - mais modifiables dans les menus dédiés.
+> Le login par défaut correspond - à l'exception des emails pour lequel l'identifiant est l'adresse email - au **nom du
+> compte** et son mot de passe est celui indiqué à la création du compte. Tous les mots des passes sont chiffrés - et
+> donc non récupérables - mais modifiables dans les menus dédiés.

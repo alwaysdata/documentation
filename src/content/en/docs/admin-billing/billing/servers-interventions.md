@@ -5,7 +5,8 @@ eleventyNavigation:
   parent: Billing
   order: 7
 ---
-The installation of a new server is **free of charge**. Other operations performed by our system administrators may be charged at the following rates:
+The installation of a new server is **free of charge**. Other operations performed by our system administrators may be
+charged at the following rates:
 
 | Details                                      | Prices (VAT excluded)[^1] |
 | -------------------------------------------- | ------------------------- |

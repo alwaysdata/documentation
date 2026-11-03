@@ -9,32 +9,39 @@ eleventyNavigation:
 
 ## Organisation
 
-Il est de notre responsabilité à tous d'effectuer les efforts possibles dans le cadre de notre mission afin de limiter l'impact de notre activité dans les émissions néfastes pour notre planète.
+Il est de notre responsabilité à tous d'effectuer les efforts possibles dans le cadre de notre mission afin de limiter
+l'impact de notre activité dans les émissions néfastes pour notre planète.
 
 Ainsi, notre entreprise a intégré les éléments suivant dans son fonctionnement quotidien :
 
-  * **Télétravail à 100%** : notre équipe travaille depuis plusieurs années en télétravail, permettant ainsi de limiter toutes les émissions liées au transport (à l'exception des déplacements en datacenters) ;
-  * **Gestion d'un stock minimum** : ajouter des serveurs en grandes quantités juste pour faire plus de chiffre ne nous intéresse pas, nous anticipons un stock raisonnable, en fonction du rythme constaté des commandes effectuées les derniers mois ;
-  * **Conseil approprié** : nous attachons de l'importance à apporter un conseil personnalisé à nos utilisateurs afin qu'ils s'orientent vers l'offre la plus adaptée à leur véritable besoin et donc vers une consommation maîtrisée.
+* **Télétravail à 100%** : notre équipe travaille depuis plusieurs années en télétravail, permettant ainsi de limiter
+  toutes les émissions liées au transport (à l'exception des déplacements en datacenters) ;
+* **Gestion d'un stock minimum** : ajouter des serveurs en grandes quantités juste pour faire plus de chiffre ne nous
+  intéresse pas, nous anticipons un stock raisonnable, en fonction du rythme constaté des commandes effectuées les
+  derniers mois ;
+* **Conseil approprié** : nous attachons de l'importance à apporter un conseil personnalisé à nos utilisateurs afin
+  qu'ils s'orientent vers l'offre la plus adaptée à leur véritable besoin et donc vers une consommation maîtrisée.
 
 ## Compensation
 
-_Dernière mise à jour : 26 février 2026_
+_Dernière mise à jour : 26 février 2026._
 
-Chaque année, nous souhaitons **compenser à hauteur de 200%** nos émissions de GES (gaz à effet de serre). Bien que notre impact soit extrêment compliqué à déterminer de manière précise, nous voulons détailler ici en toute transparence notre méthode de calcul pour déterminer le budget alloué à cette compensation.
+Chaque année, nous souhaitons **compenser à hauteur de 200%** nos émissions de GES (gaz à effet de serre). Bien que
+notre impact soit extrêment compliqué à déterminer de manière précise, nous voulons détailler ici en toute transparence
+notre méthode de calcul pour déterminer le budget alloué à cette compensation.
 
 ### Données et hypothèses
 
-Afin de simplifier la méthode, mais également de compenser dans le bon sens, certaines données sont margées. Nous précisons cela dans le tableau suivant.
-
+Afin de simplifier la méthode, mais également de compenser dans le bon sens, certaines données sont margées. Nous
+précisons cela dans le tableau suivant.
 
 | Donnée | Détails | Valeur 2025 |
-|---|---|---|
+| --- | --- | --- |
 | Nombre de serveurs | Ensemble des appareils consommateurs (serveurs, routeurs, hyperviseurs, etc.) achetés et intégrés à notre infrastructure dans le courant de l'année. | 45 |
-| Puissance apparente (kVA)| Puissance souscrite auprès des datacenters sur l'ensemble de notre infrastructure. Marge : le calcul utilise donc la puissance maximale souscrite plutôt que la consommation réelle. | 32 kVA |
+| Puissance apparente (kVA) | Puissance souscrite auprès des datacenters sur l'ensemble de notre infrastructure. Marge : le calcul utilise donc la puissance maximale souscrite plutôt que la consommation réelle. | 32 kVA |
 | Facteur de puissance (cos φ) | En général, on prend 0.8 comme valeur moyenne pour des installations standards. Marge : même si la plupart des serveurs modernes ont un facteur supérieur à 0.9 (s'approchant effectivement du Power Factor [affiché par nos alimentations](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-606P-1R/PWS-606P-1R_quick_spec.pdf)), nous choisissons de rester sur cette valeur plus pessimiste. | 0.8 |
 | Durée d'utilisation annuelle | Temps total de consommation des serveurs. Marge : hypothèse la plus énergivore, donc 100% du temps (1 an). | 8760 heures |
-|PUE|Efficacité énergétique moyenne de [nos datacenters partenaires](https://sustainability.equinix.com/environment/operational-sustainability/).|1.39|
+| PUE | Efficacité énergétique moyenne de [nos datacenters partenaires](https://sustainability.equinix.com/environment/operational-sustainability/). | 1.39 |
 | Facteur d'émission | Prenons la moyenne en France. Dernière valeur 2025 : source [RTE-france.com](https://analysesetdonnees.rte-france.com/bilan-electrique-2025/emissions#Vuedensemble). | 19,6 gCO₂eq/kWh |
 | Consommation de production d'un serveur | Estimation de la consommation engendrée lors de la production d'un serveur : voir [Boavizta](https://boavizta.org/blog/empreinte-de-la-fabrication-d-un-serveur). Marge : information très complexe à trouver, qui dépend de nombreux facteurs. Les valeurs se situent toujours sous l'entier. On arrondit à l'entier supérieur. | 1 tCO₂eq |
 
@@ -68,11 +75,11 @@ emissions = emissions_consommation + emissions_production
 
 Le résultat :
 
-- Consommation électrique pour l'année 2025 : **224 256 kWh** ;
-- Émissions liées à la consommation électrique : **6,11 tCO₂eq** ;
-- Émissions liées à la production des serveurs : **45 tCO₂eq** ;
-- Émissions totales : **51,11 tCO₂eq** ;
-- Compensation nécessaire (200%) : **103 tonnes de CO₂**.
+* Consommation électrique pour l'année 2025 : **224 256 kWh** ;
+* Émissions liées à la consommation électrique : **6,11 tCO₂eq** ;
+* Émissions liées à la production des serveurs : **45 tCO₂eq** ;
+* Émissions totales : **51,11 tCO₂eq** ;
+* Compensation nécessaire (200%) : **103 tonnes de CO₂**.
 
 Nous avons fait le choix de [Gold Standard](https://www.goldstandard.org/) pour acter notre compensation.
 Voir notre [certificat](https://files.alwaysdata.com/certifications/2026_GOLDSTANDARD_CERTIFICATE.pdf).

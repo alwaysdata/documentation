@@ -23,12 +23,13 @@ Elles sont à remplacer par vos informations de connexion personnelles :
 |Sortant|SMTP|Serveur SMTP|smtp-*[compte]*.alwaysdata.net|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
-|||| Ne pas traiter comme un alias|
+||||Ne pas traiter comme un alias|
 |||Port|465|
 ||||Connexion sécurisée|
 
 > [!TIP] Astuce
-> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
+> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre
+> interface d'administration.
 
 ## Navigateur web
 
@@ -46,15 +47,14 @@ Cochez "Vous devez toujour utiliser une connexion sécurisée (SSL) lorsque vous
 > [!CAUTION] Attention
 > Attention c'est une connexion POP3 qui va récupérer sur ses serveurs les emails.
 
-
 ![Gmail : créer un compte POP](images/gmail_add-pop.png)
 ![Gmail : créer un compte POP - résultat](images/gmail_add-pop-final.png)
-    
+
 ### Courrier sortant (SMTP)
 
 Rendez-vous dans **Ajouter une autre adresse e-mail**.
 
--  Décochez la case **Traiter comme un alias**.
+- Décochez la case **Traiter comme un alias**.
 
 ![Gmail : créer un compte SMTP](images/gmail_add-smtp.png)
 ![Gmail : créer un compte SMTP - résultat](images/gmail_add-smtp-final.png)
@@ -65,4 +65,4 @@ Rendez-vous dans **Paramètres > Ajouter un compte > Autre**.
 
 ![Gmail sur mobile](images/gmail_mobile.png)
 
-- Pour le courrier _sortant_, cochez la case **Exigez une connexion**.
+- Pour le courrier *sortant*, cochez la case **Exigez une connexion**.

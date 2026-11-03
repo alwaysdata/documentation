@@ -15,7 +15,8 @@ Choisissez le compte destinataire et le nom de la nouvelle base.
 
 ![](images/duplication.png)
 
-À la création de cette nouvelle base, aucun utilisateur du compte n'a de droit dessus. Il faudra choisir les permissions pour chaque utilisateur du compte via **Bases de données > [SGBD] > Modifier [la base voulue] - ⚙️**.
+À la création de cette nouvelle base, aucun utilisateur du compte n'a de droit dessus. Il faudra choisir les permissions
+pour chaque utilisateur du compte via **Bases de données > [SGBD] > Modifier [la base voulue] - ⚙️**.
 
 ![](images/list2.png)
 

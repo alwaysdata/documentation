@@ -6,9 +6,12 @@ eleventyNavigation:
   order: 1
 ---
 
-[PageSpeed](https://www.modpagespeed.com/) automatically optimizes your website by changing the resources of this web page to implement web performance [best practices](https://developers.google.com/speed/docs/best-practices/rules_intro). **Apache mod_pagespeed** must be installed on the account.
+[PageSpeed](https://www.modpagespeed.com/) automatically optimizes your website by changing the resources of this web
+page to implement web performance [best practices](https://developers.google.com/speed/docs/best-practices/rules_intro).
+**Apache mod_pagespeed** must be installed on the account.
 
-Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the steps to follow.
+Given the specificities of our infrastructure, their installation script cannot be used on our servers, so here are the
+steps to follow.
 
 In our example, we use the [SSH access](/en/docs/web-hosting/remote-access/ssh) and consider the following information:
 
@@ -32,7 +35,7 @@ There are two modules, one for Apache 2.2 and the other for Apache 2.4.
 
 In **Web > Configuration > Apache**, add:
 
-```
+```apache
 LoadModule pagespeed_module          "/home/[account]/pagespeed/usr/lib/apache2/modules/mod_pagespeed_ap24.so"
 ModPagespeedFileCachePath            "/home/[account]/pagespeed/cache/pagespeed/"
 ModPagespeedFileCacheSizeKb          102400

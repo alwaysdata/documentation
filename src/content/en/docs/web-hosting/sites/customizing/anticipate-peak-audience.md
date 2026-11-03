@@ -6,12 +6,16 @@ eleventyNavigation:
   order: 3
 ---
 
-You are planning a TV/Radio presence that may cause more visits and you are not sure that your site can take the load? Here are some actions you can take ahead of time:
+You are planning a TV/Radio presence that may cause more visits and you are not sure that your site can take the load?
+Here are some actions you can take ahead of time:
 
 - **Isolate the site** by account - to avoid interfering with other sites as resources are shared at the account level,
-- Enable the **[HTTP cache](/en/docs/web-hosting/sites/customizing/http-cache)** on your administration interface and/or at the application level using [Memcached](/en/docs/development/guides/memcached), [Redis](/en/docs/development/guides/redis) or any other software cache,
+- Enable the **[HTTP cache](/en/docs/web-hosting/sites/customizing/http-cache)** on your administration interface and/or
+  at the application level using [Memcached](/en/docs/development/guides/memcached),
+  [Redis](/en/docs/development/guides/redis) or any other software cache,
 - Change to the latest possible language versions - to improve performance,
-- Set a redirect to a **[static page](/en/docs/web-hosting/sites/http-servers/static-files)** - using far less resources, these can be sent faster.
+- Set a redirect to a **[static page](/en/docs/web-hosting/sites/http-servers/static-files)** - using far less
+  resources, these can be sent faster.
 
 To observe the behavior of your application you can also run a **load test** (e.g. using `ab`).
 
@@ -82,5 +86,5 @@ The important information is: `Requests per second:    13.61 [#/sec] (mean)`.
 ## Links
 
 - Two outside load tests:
-    - [Loader.io](https://loader.io/)
-    - [K6](https://k6.io/)
+  - [Loader.io](https://loader.io/)
+  - [K6](https://k6.io/)

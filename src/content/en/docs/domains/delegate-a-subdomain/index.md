@@ -18,5 +18,4 @@ To do this, go to **Domains > Details of [example.org] - 🔎 > Delegations > Ad
 > Do not place the root in **Subdomain**.
 > For example, by putting `www.example.org` in this box, you will create a delegation for `www.example.org.example.org`.
 
-
 ![](images/admin-panel_subdomain-delegation-result.png)

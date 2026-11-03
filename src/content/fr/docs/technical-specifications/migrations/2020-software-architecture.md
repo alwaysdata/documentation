@@ -6,27 +6,42 @@ eleventyNavigation:
   parent: Migrations
 ---
 
-Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
+Cette migration consiste principalement en une mise à jour générale des logiciels disponibles sur nos serveurs. Elle
+implique un déplacement du compte sur de nouveaux serveurs - fonctionnant avec l'architecture 2020. **Tous** les
+serveurs (HTTP, SSH, bases de données, etc) sont susceptibles de changer.
 
 ## Pourquoi imposer une migration ?
 
-Les migrations d'architecture ont pour principal objectif de mettre à jour nos serveurs vers une version plus récente de leur système d'exploitation (Debian). Il est important de procéder à ces mises à jour pour deux raisons :
+Les migrations d'architecture ont pour principal objectif de mettre à jour nos serveurs vers une version plus récente de
+leur système d'exploitation (Debian). Il est important de procéder à ces mises à jour pour deux raisons :
 
-- la sécurité. Les vieilles versions de logiciels ne sont pas supportées éternellement par leurs auteurs ou distributeurs. Lorsqu'un logiciel cesse d'être supporté, il continue à fonctionner, mais les nouvelles failles de sécurité ne sont alors plus corrigées. Continuer à utiliser ces vieilles versions ferait donc courir un risque grave pour la sécurité et la fiabilité de vos applications et données.
+- la sécurité. Les vieilles versions de logiciels ne sont pas supportées éternellement par leurs auteurs ou
+  distributeurs. Lorsqu'un logiciel cesse d'être supporté, il continue à fonctionner, mais les nouvelles failles de
+  sécurité ne sont alors plus corrigées. Continuer à utiliser ces vieilles versions ferait donc courir un risque grave
+  pour la sécurité et la fiabilité de vos applications et données.
 
-- pouvoir utiliser des versions récentes des logiciels. Plus un système d'exploitation est ancien, plus il risque d'avoir des difficultés à faire tourner les logiciels récents. Pour continuer à vous offrir les toutes dernières versions des logiciels que nous proposons (ou que vous pouvez installer vous-même dans votre compte), il est important d'être sur une version relativement récente du système d'exploitation.
+- pouvoir utiliser des versions récentes des logiciels. Plus un système d'exploitation est ancien, plus il risque
+  d'avoir des difficultés à faire tourner les logiciels récents. Pour continuer à vous offrir les toutes dernières
+  versions des logiciels que nous proposons (ou que vous pouvez installer vous-même dans votre compte), il est important
+  d'être sur une version relativement récente du système d'exploitation.
 
-Ces migrations d'infrastructure sont effectuées approximativement tous les quatre ans. Cela correspond à la durée de vie d'une version de Debian (de [cinq ans](https://wiki.debian.org/LTS), mais il faut compter le temps incompressible de développement interne avant de basculer sur les nouvelles versions). Cela nous parait être un bon équilibre, évitant des migrations trop fréquentes, mais permettant de faire tourner la quasi-totalité des logiciels récents.
+Ces migrations d'infrastructure sont effectuées approximativement tous les quatre ans. Cela correspond à la durée de vie
+d'une version de Debian (de [cinq ans](https://wiki.debian.org/LTS), mais il faut compter le temps incompressible de
+développement interne avant de basculer sur les nouvelles versions). Cela nous parait être un bon équilibre, évitant des
+migrations trop fréquentes, mais permettant de faire tourner la quasi-totalité des logiciels récents.
 
 ---
 
-Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus complet possible, mais il est impossible d'être absolument exhaustif.
+Ce document décrit les incompatibilités majeures introduites par cette migration. Nous nous efforçons d'être le plus
+complet possible, mais il est impossible d'être absolument exhaustif.
 
 ## Apache
 
 Apache _2.2_ n'est plus disponible. Les comptes qui utilisaient cette version basculeront automatiquement vers [Apache _2.4_](https://httpd.apache.org/docs/2.4/fr/).
 
-Les directives globales ajoutées par nos utilisateurs, soit dans **Web > Configuration**, soit dans la configuration d'un site de type **Apache personnalisé**, seront désormais insérées **après** les directives par défaut. Cela permet désormais à nos utilisateurs d'écraser ces directives par défaut.
+Les directives globales ajoutées par nos utilisateurs, soit dans **Web > Configuration**, soit dans la configuration
+d'un site de type **Apache personnalisé**, seront désormais insérées **après** les directives par défaut. Cela permet
+désormais à nos utilisateurs d'écraser ces directives par défaut.
 
 ## Bases de données
 
@@ -48,7 +63,8 @@ CouchDB est mis à jour en [version 3.0](https://docs.couchdb.org/en/stable/what
 
 ## Langages
 
-Pour déterminer la version courante de votre compte : connectez-vous via [SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et lancez la commande `cat /etc/debian_version`.
+Pour déterminer la version courante de votre compte : connectez-vous via
+[SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et lancez la commande `cat /etc/debian_version`.
 
 ### PHP
 
@@ -67,8 +83,11 @@ Pour déterminer la version courante de votre compte : connectez-vous via [SSH](
 |`7.4.4` `7.4.6` `7.4.8` `7.4.10` `7.4.12` `7.4.14`|`7.4.0` `7.4.3`|
 |`8.0.0` `8.0.1`|`-`|
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (7.4.4 par exemple pour 7.4).
-- Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_ si vous le souhaitez.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (7.4.4 par
+  exemple pour 7.4).
+- Les extensions `bcmath`, `calendar`, `exif`, `ftp`, `soap`, `xmlreader`, `xmlrpc` et `zip` sont désormais
+  automatiquement chargées. Vous pouvez supprimer les directives de chargement explicites de vos _php.ini personnalisés_
+  si vous le souhaitez.
 
 ### Python
 
@@ -86,11 +105,13 @@ Pour déterminer la version courante de votre compte : connectez-vous via [SSH](
 |`3.8.2` `3.8.3` `3.8.4` `3.8.5` `3.8.6` `3.8.7`|`3.8.0` `3.8.3`|
 |`3.9.0` `3.9.1`|`-`|
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (3.8.2 par exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (3.8.2 par
+  exemple pour 3.8). Si vous aviez créé des `virtualenvs` avec ces versions, vous devrez les recréer.
 
-Lors d'un changement de mineure, plutôt que de recréer l'environnement virtuel, vous pouvez utiliser la commande suivante :
+Lors d'un changement de mineure, plutôt que de recréer l'environnement virtuel, vous pouvez utiliser la commande
+suivante :
 
-```
+```sh
 python -m venv --upgrade [myenv]/
 ```
 
@@ -110,7 +131,8 @@ python -m venv --upgrade [myenv]/
 |`2.7.0` `2.7.1` `2.7.2`|`-`|
 |`3.0.0`||
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (2.6.5 par exemple pour 2.6).
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (2.6.5 par
+  exemple pour 2.6).
 
 ### Node.js
 
@@ -126,7 +148,8 @@ python -m venv --upgrade [myenv]/
 |`14.2.0` `14.5.0` `14.11.0` `14.15.1` `14.15.4|`-`|
 |`15.0.0` `15.2.1` `15.6.0`|`-`|
 
-- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (12.16.1 par exemple pour 12).
+- Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche (12.16.1 par
+  exemple pour 12).
 
 ### Elixir
 
@@ -136,8 +159,8 @@ python -m venv --upgrade [myenv]/
 |`1.10.2` `1.10.3` `1.10.4`|`-`|
 |`1.9.4`|`-`|
 |`1.8.2`|`-`|
-|`1.7.4`|`1.7.3` `1.7.4` |
-|`1.6.6`|`1.5.3` `1.6.6` |
+|`1.7.4`|`1.7.3` `1.7.4`|
+|`1.6.6`|`1.5.3` `1.6.6`|
 
 - Les versions mineures supprimées sont automatiquement remplacées par la version mineure la plus proche.
 
@@ -149,27 +172,43 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
 
 - La version par défaut devient la `11`. C'est cette version qui sera exécutée lorsque vous utilisez le binaire `java`.
 
-- Jusqu'à présent, pour utiliser une version de Java précise, vous pouviez aller chercher le binaire dans `/usr/lib/jvm`. Ce n'est plus possible : désormais, vous pouvez forcer une version différente en définissant la variable d'environnement `JAVA_VERSION`. Par exemple, pour lancer la version 8 : `JAVA_VERSION=8 java`.
+- Jusqu'à présent, pour utiliser une version de Java précise, vous pouviez aller chercher le binaire dans
+  `/usr/lib/jvm`. Ce n'est plus possible : désormais, vous pouvez forcer une version différente en définissant la
+  variable d'environnement `JAVA_VERSION`. Par exemple, pour lancer la version 8 : `JAVA_VERSION=8 java`.
 
 ## Divers
 
-- _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut** sur le protocole HTTP, ces protocoles anciens présentant des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant la configuration **Ancien**.
+- _TLS 1.0_ et _1.1_ sont maintenant **désactivés par défaut** sur le protocole HTTP, ces protocoles anciens présentant
+  des failles de sécurité. Vous pouvez les réactiver en allant dans **Web > Configuration > SSL**, puis en choisissant
+  la configuration **Ancien**.
 
-- Le répertoire des fichiers temporaires **(TEMPDIR)** devient `/home/[compte]/admin/tmp` plutôt que `/tmp`. Les sessions PHP, par exemple, sont créées dans ce répertoire.
+- Le répertoire des fichiers temporaires **(TEMPDIR)** devient `/home/[compte]/admin/tmp` plutôt que `/tmp`. Les
+  sessions PHP, par exemple, sont créées dans ce répertoire.
 
-- Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**. La nouvelle IP sera donnée dans le helptext de la commande du site web.
+- Pour les sites de type Node.js, Elixir et Programme utilisateur, l'IP interne (définie dans la variable
+  d'environnement `IP`) sur laquelle votre application doit écouter changera et passera en **IPv6**. La nouvelle IP sera
+  donnée dans le helptext de la commande du site web.
 
-- Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez utiliser `PORT` et `IP`.
+- Les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` ne sont plus disponibles, vous devrez
+  utiliser `PORT` et `IP`.
 
-- La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans vos applications HTTP.
+- La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par
+  exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans
+  vos applications HTTP.
 
-- L'utilisateur propriétaire de votre répertoire personnel `/home/[compte]`, auparavant identique à votre nom d'utilisateur (`[compte]`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici, `[compte]`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en conséquence réinitialisées à 0770.
+- L'utilisateur propriétaire de votre répertoire personnel `/home/[compte]`, auparavant identique à votre nom
+  d'utilisateur (`[compte]`), devient `root`. Le groupe propriétaire reste identique à votre nom d'utilisateur (ici,
+  `[compte]`), ce qui ne changera donc rien en pratique. Les permissions de votre répertoire personnel seront en
+  conséquence réinitialisées à 0770.
 
-- Les binaires des langages sont désormais installés à la demande. Dans le cas où vous auriez besoin, par exemple, de `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, assurez-vous d'avoir lancé préalablement `python` en version 2.7.18 au moins une fois.
+- Les binaires des langages sont désormais installés à la demande. Dans le cas où vous auriez besoin, par exemple, de
+  `/usr/alwaysdata/python/2.7.18/lib/libpython2.7.so`, assurez-vous d'avoir lancé préalablement `python` en version
+  2.7.18 au moins une fois.
 
 ### Mises à jour diverses
 
-De très nombreux logiciels et bibliothèques seront mis à jour (nos serveurs passent sous Debian Buster, auparavant Debian Jessie). Parmi les mises à jour notables :
+De très nombreux logiciels et bibliothèques seront mis à jour (nos serveurs passent sous Debian Buster, auparavant
+Debian Jessie). Parmi les mises à jour notables :
 
 - Erlang 21.2 (auparavant 19.2)
 - GDAL 2.4 (auparavant 1.10)
@@ -189,48 +228,76 @@ Les services suivants, lorsqu'ils sont installés, seront mis à jour :
 
 Les montées de versions de _MySQL_ (pas MariaDB) et _ElasticSearch_ seront vues au cas par cas avec les utilisateurs.
 
-Seules les versions des langages _explicitement utilisées_, soit dans la section **Web > Sites**, soit dans la section **Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python (définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette version de Python, ou bien que vous changez la version de Python par défaut.
+Seules les versions des langages _explicitement utilisées_, soit dans la section **Web > Sites**, soit dans la section
+**Environnement**, seront désormais préinstallées sur le système. Par exemple, si ni la version par défaut de Python
+(définie dans **Environnement > Python**), ni aucun de vos sites (**Web > Sites**) n'utilise Python 2.4.6, alors cette
+version ne sera plus préinstallée. Elle sera toutefois automatiquement installée si vous créez un site avec cette
+version de Python, ou bien que vous changez la version de Python par défaut.
 
 ## Préparation de la migration
 
 Un certain nombre d'actions peuvent être effectuées sur l'architecture 2017 - Debian Jessie (8.X) :
 
-- passer sur *Apache 2.4* dans l'onglet **Web > Configuration > Apache** ;
+- passer sur _Apache 2.4_ dans l'onglet **Web > Configuration > Apache** ;
 
-- changer de [configuration TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls) pour passer sur la configuration *Intermédiaire* dans l'onglet **Web > Configuration > SSL** ;
+- changer de [configuration TLS](/fr/docs/hebergement-web/sites/ssl-tls/configurer-tls) pour passer sur la configuration
+  _Intermédiaire_ dans l'onglet **Web > Configuration > SSL** ;
 
-- remplacer dans vos applications les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` par `PORT` et `IP` ;
+- remplacer dans vos applications les variables d'environnement `ALWAYSDATA_HTTPD_PORT` et `ALWAYSDATA_HTTPD_IP` par
+  `PORT` et `IP` ;
 
-- changer les versions des langages pour passer sur les _dernières mineures_. Cela se passe dans le menu **Environnement** et/ou au niveau de vos sites dans **Web > Sites**. Vous pouvez, par exemple, passer sur PHP 7.3.9 en remplacement de PHP 7.3.0.
+- changer les versions des langages pour passer sur les _dernières mineures_. Cela se passe dans le menu
+  **Environnement** et/ou au niveau de vos sites dans **Web > Sites**. Vous pouvez, par exemple, passer sur PHP 7.3.9 en
+  remplacement de PHP 7.3.0.
 
 Nous vous incitons vivement à faire ces changements en production, avant d'effectuer la migration.
 
 ### Bases de données
 
-En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les [tester](/fr/docs/caracteristiques-techniques/migrations/effectuer-une-migration) via le bouton **Tester**. L'ensemble de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles versions.
+En parallèle de la migration Buster, nous mettons à disposition les migrations bases de données. Vous pouvez les
+[tester](/fr/docs/caracteristiques-techniques/migrations/effectuer-une-migration) via le bouton **Tester**. L'ensemble
+de vos bases et utilisateurs de bases de données sont copiés sur un serveur temporaire, faisant tourner les nouvelles
+versions.
 
-Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster fermera les autres migrations.
+Les utilisateurs en serveurs mutualisés peuvent faire ces tests en parallèle de la migration Buster. La migration Buster
+fermera les autres migrations.
 
-Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le déployement HTTP référez-vous au paragraphe [Préparation de la migration](/fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2020#preparation-de-la-migration).
+Pour les utilisateurs de serveurs VPS et dédiés, le test des migrations bases de données est lié à à la migration
+Buster. Le bouton **Tester** ne fera que la **copie** des bases de données sur le serveur de test. Concernant le
+déployement HTTP référez-vous au paragraphe [Préparation de la
+migration](/fr/docs/caracteristiques-techniques/migrations/architecture-logicielle-2020#preparation-de-la-migration).
 
 ## Déroulement de la migration
 
-Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques minutes plus tard en fonction du nombre d'utilisateurs qui migrent au même instant. La migration s'effectue en plusieurs étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
+Lorsque vous cliquez sur le bouton **Migrer** le processus s'enclenche en général immédiatement, mais parfois quelques
+minutes plus tard en fonction du nombre d'utilisateurs qui migrent au même instant. La migration s'effectue en plusieurs
+étapes successives, **service par service**. Par exemple, vos fichiers seront migrés avant vos bases de données.
 
-- La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de __courte durée__ (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos fichiers sont __pré-copiés__ au préalable.
+- La migration de vos fichiers, effectuée en premier, entrainera l'indisponibilité de vos sites web (qui afficheront une
+  _erreur interne_), de vos tâches planifiées de vos accès distants (SSH, FTP, etc.). La coupure est toutefois de
+  **courte durée** (quelques secondes en général, davantage si vous avez des dizaines de milliers de fichiers), car vos
+  fichiers sont **pré-copiés** au préalable.
 
-- Durant la migration des bases de données, la __connexion aux bases de données est coupée__. On compte en moyenne 1 minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
+- Durant la migration des bases de données, la **connexion aux bases de données est coupée**. On compte en moyenne 1
+  minute d'indisponibilité par Go de données. Il peut être pertinent de mettre en place une _page de maintenance
+  statique_ sur vos sites web pour éviter que ne s'affiche une erreur générique de connexion aux bases de données.
 
-Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en haut à droite de l'interface d'administration).
+Il est possible de savoir si la migration est terminée via le menu des _[Tâches](https://admin.alwaysdata.com/task)_ (en
+haut à droite de l'interface d'administration).
 
 ## Conseils & problèmes courants
 
-- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez le faire via la commande (*[compte] à remplacer par le nom du compte*) :
+- Les comptes changent de serveurs lors de la migration. Il peut y avoir un temps de propagations DNS et il est
+  nécessaire de mettre à jour son fichier `known_hosts` pour la connexion SSH. Vous pouvez le faire via la commande
+  (_[compte] à remplacer par le nom du compte_) :
 
 ```sh
-$ ssh-keygen -R ssh-[compte].alwaysdata.net
+ssh-keygen -R ssh-[compte].alwaysdata.net
 ```
+
 - Drupal
-    - [Précompression des fichiers CSS et JS](/fr/docs/developpement/marketplace/drupal/#precompression-des-fichiers-css-js) sur les versions inférieures à la **8.9**.
+  - [Précompression des fichiers CSS et
+    JS](/fr/docs/developpement/marketplace/drupal/#precompression-des-fichiers-css-js) sur les versions inférieures à la
+    **8.9**.
 
 - Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

@@ -7,21 +7,25 @@ eleventyNavigation:
 
 ## Version
 
-As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with version 1.26 for the `go` executable.
+As Go is a compiled language, it does not have to be installed at alwaysdata to be used. We do however provision with
+version 1.26 for the `go` executable.
 
 You can compile your programs elsewhere, e.g. locally.
 
 ## HTTP deployment
 
-To deploy an HTTP application with Go, create a *[User program](/en/docs/web-hosting/sites/http-servers/user-program)* type site in the **Web > Sites** section.
+To deploy an HTTP application with Go, create a *[User program](/en/docs/web-hosting/sites/http-servers/user-program)*
+type site in the **Web > Sites** section.
 
 ![](images/user-program.png)
 
-After compiling the program and loading it into your account, you need to specify the command that starts your Go application, for example:
+After compiling the program and loading it into your account, you need to specify the command that starts your Go
+application, for example:
 
-```
-$ /home/[account]/myapp/hello
+```sh
+/home/[account]/myapp/hello
 ```
 
 > [!WARNING]
-> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The `IP` / `HOST` and `PORT` environment variables can also be used.
+> Your application must absolutely listen to IP and the port shown in the site configuration in the *Command* field. The
+> `IP` / `HOST` and `PORT` environment variables can also be used.

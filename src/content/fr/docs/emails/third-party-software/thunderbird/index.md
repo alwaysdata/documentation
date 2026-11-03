@@ -10,8 +10,9 @@ eleventyNavigation:
 ## Général
 
 > [!TIP] Astuce
-> Pour les domaines utilisant nos serveurs DNS, l'*autoconfiguration* Thunderbird est utilisable. Vous n'avez qu'à indiquer votre nom d'utilisateur (adresse email) et votre mot de passe. Les autres paramètres sont automatiquement générés.
-
+> Pour les domaines utilisant nos serveurs DNS, l'*autoconfiguration* Thunderbird est utilisable. Vous n'avez qu'à
+> indiquer votre nom d'utilisateur (adresse email) et votre mot de passe. Les autres paramètres sont automatiquement
+> générés.
 
 |Serveur|Service|Information||
 |---|---|---|---|
@@ -21,8 +22,8 @@ eleventyNavigation:
 |||Méthode d'authentification|Mot de passe normal|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
 |||Mot de passe|Le mot de passe de votre adresse email|
-||POP3|Nom d'hôte| pop-*[compte]*.alwaysdata.net|
-|||Port| 995|
+||POP3|Nom d'hôte|pop-*[compte]*.alwaysdata.net|
+|||Port|995|
 |||Sécurité de la connexion|Sera automatiquement choisi|
 |||Méthode d'authentification|Mot de passe normal|
 |||Nom d'utilisateur|Votre adresse email - par exemple *contact\@example.org*|
@@ -35,11 +36,13 @@ eleventyNavigation:
 |||Mot de passe|Le mot de passe de votre adresse email|
 
 > [!TIP] Astuce
-> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre interface d'administration.
+> Remplacez *contact\@example.org* par votre adresse email. Elle est définie dans le menu **Emails > Adresses** de notre
+> interface d'administration.
 
 ## Captures d'écran
 
-Dans notre exemple nous considérons les informations suivantes (à remplacer par vos informations de connexion personnelles) :
+Dans notre exemple nous considérons les informations suivantes (à remplacer par vos informations de connexion
+personnelles) :
 
 - Nom du compte : `test`
 - Adresse email : `test@alwaysdata.net`
@@ -48,9 +51,10 @@ Rendez-vous dans **Comptes > Configurer un compte : Courrier électronique**.
 
 ![Thunderbird : créer un compte](images/thunderbird_new-account.png)
 
-Pour la modifier une fois créée, rendez-vous dans **Comptes > Voir les paramètres pour ce compte** ou dans la barre de menu **Édition > Paramètres des comptes** :
+Pour la modifier une fois créée, rendez-vous dans **Comptes > Voir les paramètres pour ce compte** ou dans la barre de
+menu **Édition > Paramètres des comptes** :
 
-- Pour le courrier _entrant_, rendez-vous dans les **Paramètres serveur** ;
+- Pour le courrier *entrant*, rendez-vous dans les **Paramètres serveur** ;
 ![Thunderbird : paramètres serveur entrant](images/thunderbird_imap-settings.png)
-- Pour le courrier _sortant_, rendez-vous dans **Serveur sortant SMTP**.
+- Pour le courrier *sortant*, rendez-vous dans **Serveur sortant SMTP**.
 ![Thunderbird : paramètres serveurs sortant](images/thunderbird_smtp-settings.png)

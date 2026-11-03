@@ -9,7 +9,8 @@ eleventyNavigation:
 
 Cet article explique comment procéder au déplacement d'un site vers un autre compte alwaysdata.
 
-Pour ce faire, nous utiliserons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) plutôt que FTP qui nécessite de rapatrier les fichiers localement pour ensuite les transférer sur le compte de destination.
+Pour ce faire, nous utiliserons l'[accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) plutôt que FTP qui nécessite
+de rapatrier les fichiers localement pour ensuite les transférer sur le compte de destination.
 
 Dans notre exemple, considérons les informations suivantes :
 
@@ -18,8 +19,8 @@ Dans notre exemple, considérons les informations suivantes :
 - Nom de la base de données d'origine : `foo_base`
 - Nom de la base de données de destination : `bar_base`
 - Le site est situé dans le répertoire `$HOME/www/`
-- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des comptes (par exemple, `foo` pour le compte _foo_ et `bar` pour le compte _bar_).
-
+- Nous utiliserons les utilisateurs SSH et de base de données par défaut, c'est à dire ceux créés à l'ouverture des
+  comptes (par exemple, `foo` pour le compte _foo_ et `bar` pour le compte _bar_).
 
 ## 1. Copie des fichiers
 
@@ -33,11 +34,15 @@ bar@ssh:~$ scp -r foo@ssh-foo.alwaysdata.net:/home/foo/www/* ~/www/
 
 Cette étape est nécessaire que si votre site est connecté à une base de données.
 
-Si les deux comptes utilisent la même version de SGBD et appartiennent au même profil, vous pouvez utiliser notre fonctionnalité de [duplication de base de données](/fr/docs/hebergement-web/bases-de-donnees/dupliquer-base-de-donnees/).
+Si les deux comptes utilisent la même version de SGBD et appartiennent au même profil, vous pouvez utiliser notre
+fonctionnalité de [duplication de base de
+données](/fr/docs/hebergement-web/bases-de-donnees/dupliquer-base-de-donnees/).
 
-Vous pouvez sinon le faire manuellement en créant la base de données sur le compte de _destination_ puis en lançant les commandes suivantes :
+Vous pouvez sinon le faire manuellement en créant la base de données sur le compte de _destination_ puis en lançant les
+commandes suivantes :
 
 - MySQL :
+
 ```sh
 bar@ssh:~$ mysqldump -u foo -p -h mysql-foo.alwaysdata.net foo_base > foo_base.sql
 bar@ssh:~$ mysql -h mysql-bar.alwaysdata.net -u bar -p bar_base < foo_base.sql
@@ -45,6 +50,7 @@ bar@ssh:~$ rm foo_base.sql
 ```
 
 - PostgreSQL :
+
 ```sh
 bar@ssh:~$ pg_dump -U foo -W -h postgresql-foo.alwaysdata.net foo_base > foo_base.sql
 bar@ssh:~$ psql -h postgresql-bar.alwaysdata.net -U bar -W -d bar_base < foo_base.sql
@@ -52,14 +58,13 @@ bar@ssh:~$ rm foo_base.sql
 ```
 
 > [!NOTE]
-> Dans les deux cas, il faudra modifier le fichier de configuration du site copié précédemment pour qu'il pointe sur la base nouvellement importée.
+> Dans les deux cas, il faudra modifier le fichier de configuration du site copié précédemment pour qu'il pointe sur la
+> base nouvellement importée.
 
- 
 ## 3. Déplacement des adresses
 
 > [!NOTE]
 > Seul le _propriétaire du compte_ peut initier la cession.
-
 
 Reste à déplacer les adresses joignant le site et leur certificat SSL auto-généré.
 
@@ -74,9 +79,9 @@ ATTENTION : Pour les sites utilisant une commande[^1], le site cédé PEUT voir 
 > [!NOTE]
 > Une adresse en `.alwaysdata.net` ne peut être cédée étant liée au nom du compte.
 
+<!-- -->
 
 > [!TIP] Astuce
 > Pour le déplacer dans un autre de _ses_ comptes il n'y a qu'à indiquer sa propre adresse email.
-
 
 [^1]: De types Node.js, Programme utilisateur, Elixir et Deno.

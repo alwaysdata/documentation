@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 2
 ---
 
-Que ce soit pour gérer un site statique, comme un site HTML, ou pour servir des médias d'un site utilisant uWSGI, vous pouvez utiliser le type Fichiers statiques.
+Que ce soit pour gérer un site statique, comme un site HTML, ou pour servir des médias d'un site utilisant uWSGI, vous
+pouvez utiliser le type Fichiers statiques.
 
 Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 ![](images/admin-panel_sites-list.png)
@@ -26,4 +27,6 @@ Rendez-vous dans le menu **Web > Sites > Ajouter un site**.
 
 ### 403 Forbidden
 
-Par défaut, le serveur HTTP va rechercher pour la page d'accueil un fichier nommé `index.html`. Renommez votre fichier ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un `.htaccess`.
+Par défaut, le serveur HTTP va rechercher pour la page d'accueil un fichier nommé `index.html`. Renommez votre fichier
+ou utilisez la directive [DirectoryIndex](https://httpd.apache.org/docs/2.4/fr/mod/mod_dir.html#directoryindex) dans un
+`.htaccess`.

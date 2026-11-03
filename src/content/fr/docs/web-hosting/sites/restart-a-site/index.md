@@ -11,21 +11,23 @@ Pour prendre en compte certaines modifications, il est nécessaire de redémarre
 
 - lorsqu'on clique sur le bouton **Redémarrer** ;
 - lorsqu'on fait des modifications sur le formulaire du site dans **Web > Sites** :
-	- quand une adresse est ajoutée / modifiée / supprimée ;
-	- quand une option du site est modifiée ;
+  - quand une adresse est ajoutée / modifiée / supprimée ;
+  - quand une option du site est modifiée ;
 - lorsqu'on fait des modifications dans le menu **Environnement**.
-	
+
 ![Bouton de redémarrage](images/site-restart.png)
 
 Ces actions sont aussi accessibles via notre [API](/fr/docs/developpement/api).
 
 > [!NOTE]
-> Un seul serveur Apache existe par compte. En redémarrant un site utilisant ce serveur web (PHP, Redirection, Fichiers statiques et Apache personnalisé), tous les sites Apache du compte seront redémarrés.
-
+> Un seul serveur Apache existe par compte. En redémarrant un site utilisant ce serveur web (PHP, Redirection, Fichiers
+> statiques et Apache personnalisé), tous les sites Apache du compte seront redémarrés.
 
 ## Redémarrage à chaud
 
-Il n'existe pas de méthode universelle pour demander un *redémarrage à chaud* (durant lequel aucune requête ne doit être perdue). Par défaut le système envoie donc un `SIGTERM`, qui va donc arrêter le processus et le relancer. Dans ce cas, des requêtes peuvent alors potentiellement être perdues.
+Il n'existe pas de méthode universelle pour demander un *redémarrage à chaud* (durant lequel aucune requête ne doit être
+perdue). Par défaut le système envoie donc un `SIGTERM`, qui va donc arrêter le processus et le relancer. Dans ce cas,
+des requêtes peuvent alors potentiellement être perdues.
 
 Pour les serveurs web *Apache* et *uWSGI*, les signaux permettant d'effectuer un redémarrage à chaud sont gérés par le système.
 

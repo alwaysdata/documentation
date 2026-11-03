@@ -38,7 +38,6 @@ It is possible to give a label by rules (**Annotations**) and directly in your r
 > [!NOTE]
 > To specify all ports you can leave empty or enter the range `0:65535`.
 
-
 ## Firewall bans
 
 Here you will see the IP addresses currently banned and the services that they are banned from.
@@ -50,17 +49,17 @@ If you end up banned from a service, check this menu and delete your IP if it is
 > [!TIP]
 > A ban lasts for 10 minutes by default and takes place after some fifty connection failures.
 
-
 ## Services
 
-This menu allows you to automatically open or close the ports for known functionalities (FTP, mail, SSH, databases, etc.). It is no longer necessary to create the rule manually.
+This menu allows you to automatically open or close the ports for known functionalities (FTP, mail, SSH, databases,
+etc.). It is no longer necessary to create the rule manually.
 
 ## Examples
 
 ### Allow your own IP address to never be blocked on any ingoing port
 
 |Title|Value|
-|--- |--- |
+|---|---|
 |Protocol|UDP/TCP|
 |Type|ACCEPT|
 |Direction|Input|
@@ -73,7 +72,7 @@ This menu allows you to automatically open or close the ports for known function
 ### Block the MySQL port from outside
 
 |Title|Value|
-|--- |--- |
+|---|---|
 |Protocol|UDP/TCP|
 |Type|REJECT|
 |Direction|Input|

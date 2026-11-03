@@ -7,7 +7,9 @@ eleventyNavigation:
   order: 1
 ---
 
-Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un utilisateur du nom de votre `[compte]` est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous le souhaitez que vous pouvez administrer depuis l'interface d'administration, onglet **Accès distant > WebDAV**.
+Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de disposer d'un utilisateur. Par défaut, un
+utilisateur du nom de votre `[compte]` est crée à sa création. Vous pouvez créer autant d'utilisateurs WebDAV que vous
+le souhaitez que vous pouvez administrer depuis l'interface d'administration, onglet **Accès distant > WebDAV**.
 
 ![](images/admin-panel_list-webdav-users.png)
 
@@ -18,4 +20,5 @@ Afin de vous connecter à votre compte en _WebDAV_, il est nécessaire de dispos
 ![](images/admin-panel_add-webdav-user.png)
 
 > [!NOTE]
-> WebDAV propose une isolation : l'utilisateur ne pourra pas circuler librement sur les répertoires parents de son répertoire racine.
+> WebDAV propose une isolation : l'utilisateur ne pourra pas circuler librement sur les répertoires parents de son
+> répertoire racine.

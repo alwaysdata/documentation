@@ -27,4 +27,5 @@ Go to the **Web > Sites > Add a site** menu.
 
 ### 403 Forbidden
 
-Per default Apache will search for a file named `index.html` for the home page. Rename your file or use the [DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.
+Per default Apache will search for a file named `index.html` for the home page. Rename your file or use the
+[DirectoryIndex](https://httpd.apache.org/docs/2.4/en/mod/mod_dir.html#directoryindex) directive in an `.htaccess`.

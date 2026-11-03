@@ -11,15 +11,16 @@ Déployez facilement et rapidement des applications ou frameworks dans votre esp
 
 ![Interface d'administration : accès à notre marketplace](admin-panel_1click-app.png)
 
-Les applications sont mises en place avec une configuration sécurisée standard. Libre à vous de modifier, mettre à jour, ou personnaliser votre installation par la suite.
+Les applications sont mises en place avec une configuration sécurisée standard. Libre à vous de modifier, mettre à jour,
+ou personnaliser votre installation par la suite.
 
 Le système créé leurs répertoires durant l'installation.
 
 - [Changer l'adresse d'un site web](/fr/docs/hebergement-web/sites/changer-ladresse-dun-site-web/)
 
 > [!TIP] Astuce
-> Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main et automatisez son déploiement en créant un [script d'installation applicatif](/fr/docs/developpement/marketplace/creer-script-dapplication/).
-
+> Si notre marketplace ne propose pas ce que vous cherchez, installez-le à la main et automatisez son déploiement en
+> créant un [script d'installation applicatif](/fr/docs/developpement/marketplace/creer-script-dapplication/).
 
 ## Guides
 

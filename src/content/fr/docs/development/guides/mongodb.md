@@ -9,14 +9,14 @@ eleventyNavigation:
 
 [MongoDB](https://www.mongodb.com/) est un SGBD noSQL orienté documents.
 
-Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les informations suivantes :
+Dans notre exemple, nous utilisons un [accès SSH](/fr/docs/hebergement-web/acces-distant/ssh/) et considérons les
+informations suivantes :
 
 - Nom du compte : `[compte]`
 - Répertoire de MongoDB : `/home/[compte]/mongodb/`
 
 > [!NOTE]
 > N'hésitez pas à ajuster en fonction de vos besoins.
-
 
 ## Installation
 
@@ -38,20 +38,22 @@ Créez un [service](/fr/docs/hebergement-web/services/) avec les détails suivan
 - *Commande* : `./bin/mongod --dbpath ./data/ --logpath ./log/mongo.log --ipv6 --bind_ip_all --port=27017`
 - *Répertoire de travail* : `/home/[compte]/mongodb`
 
-Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le service sur un port entre 8300 à 8499 à la place du port par défaut de MongoDB.
+Les utilisateurs du [Cloud public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) devront faire pointer le
+service sur un port entre 8300 à 8499 à la place du port par défaut de MongoDB.
 
 L'adresse pour se connecter à l'instance MongoDB sera `services-[compte].alwaysdata.net:[port]`.
 
 > [!NOTE]
 > Remplacez `[port]` par le port choisi au niveau de la commande.
 
-
 ### Création de la règle de parefeu
 
-Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils souhaitent y accéder depuis l'extérieur :
+Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) devront ouvrir le port
+utilisé en créant une règle sur le [parefeu](/fr/docs/caracteristiques-techniques/configurer-le-firewall) s'ils
+souhaitent y accéder depuis l'extérieur :
 
-| Intitulé  | Valeur |
-|---|---|
+| Intitulé | Valeur |
+| --- | --- |
 | Protocole | UDP/TCP |
 | Type | ACCEPT |
 | Direction | Entrée |
@@ -61,7 +63,8 @@ Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-c
 
 ## Téléchargement et installation des utilitaires
 
-- [mongosh](https://www.mongodb.com/try/download/shell) - choisissez le paquet *tgz* et la plateforme *Linux x64* de la dernière version.
+- [mongosh](https://www.mongodb.com/try/download/shell) - choisissez le paquet *tgz* et la plateforme *Linux x64* de la
+  dernière version.
 
 ```sh
 [compte]@ssh:~/mongodb$ wget -O- https://downloads.mongodb.com/compass/mongosh-2.3.2-linux-x64.tgz | tar -xz --strip-components=0
@@ -69,7 +72,8 @@ Les utilisateurs du [Cloud Privé](/fr/docs/admin-facturation/facturation/prix-c
 [compte]@ssh:~/mongodb$ rm -rf mongosh-2.3.2-linux-x64
 ```
 
-- [cli](https://www.mongodb.com/try/download/database-tools) - choisissez le paquet *tgz* et la plateforme *Debian 12.0 x86-64* de la dernière version.
+- [cli](https://www.mongodb.com/try/download/database-tools) - choisissez le paquet *tgz* et la plateforme *Debian 12.0
+  x86-64* de la dernière version.
 
 ```sh
 [compte]@ssh:~/mongodb$ wget -O- https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.10.0.tgz | tar -xz --strip-components=0
@@ -85,10 +89,10 @@ Nous allons ici créer l'utilisateur *admin* en suivant [leur documentation](htt
 
 ```sh
 [compte]@ssh: ~/mongodb$ ./bin/mongosh services-[compte].alwaysdata.net:[port]
-Current Mongosh Log ID:	6707c8c098d8f59e6efe6910
-Connecting to:		mongodb://services-[compte].alwaysdata.net:[port]/?directConnection=true&appName=mongosh+2.3.2
-Using MongoDB:		8.0.1
-Using Mongosh:		2.3.2
+Current Mongosh Log ID: 6707c8c098d8f59e6efe6910
+Connecting to:          mongodb://services-[compte].alwaysdata.net:[port]/?directConnection=true&appName=mongosh+2.3.2
+Using MongoDB:          8.0.1
+Using Mongosh:          2.3.2
 
 ------
 
@@ -110,6 +114,5 @@ admin>
 
 > [!NOTE]
 > `monsupermotdepasse` est à remplacer par le mot de passe de votre choix.
-
 
 Vous pourrez ensuite rajouter l'option `--auth` à la commande du [service](#lancement-du-service).

@@ -5,11 +5,17 @@ date: 2023-03-14
 authors: ["Matthias Dugué"]
 ---
 
-Created by [WHATWG](https://websockets.spec.whatwg.org/) in 2011 and standardized by [IETF](https://datatracker.ietf.org/doc/html/rfc6455) in the same year, the [WebSocket](https://en.wikipedia.org/wiki/WebSocket) protocol has been providing web application developers with the ability to break free from the traditional TCP Client/Server model for real-time data transfer for over 10 years.
+Created by [WHATWG](https://websockets.spec.whatwg.org/) in 2011 and standardized by
+[IETF](https://datatracker.ietf.org/doc/html/rfc6455) in the same year, the
+[WebSocket](https://en.wikipedia.org/wiki/WebSocket) protocol has been providing web application developers with the
+ability to break free from the traditional TCP Client/Server model for real-time data transfer for over 10 years.
 
-In the initial model, the client requests a resource from the server, the server returns it, and the communication ends. It is not possible for the server to easily “push” messages to the client (such as notifications).
+In the initial model, the client requests a resource from the server, the server returns it, and the communication ends.
+It is not possible for the server to easily “push” messages to the client (such as notifications).
 
-WebSocket provides support for bidirectional communication (known as *full-duplex*) in which the server can now spontaneously “push” data to the client, and where the client can subscribe to messages that interest them and react to them later. Application interactivity, directly in the browser!
+WebSocket provides support for bidirectional communication (known as *full-duplex*) in which the server can now
+spontaneously “push” data to the client, and where the client can subscribe to messages that interest them and react to
+them later. Application interactivity, directly in the browser!
 
 In 2023, how does hosting a WebSocket server application work?
 
@@ -17,7 +23,9 @@ In 2023, how does hosting a WebSocket server application work?
 
 ## When A Stanger Calls
 
-Let’s get back to basics: WebSocket is a network protocol in the application layer (in the famous [OSI model](https://en.wikipedia.org/wiki/OSI_model)). You don’t need to be a networking expert to use it, so everything will happen at the code level. It uses a traditional TCP connection between the client and server and the HTTP architecture.
+Let’s get back to basics: WebSocket is a network protocol in the application layer (in the famous [OSI
+model](https://en.wikipedia.org/wiki/OSI_model)). You don’t need to be a networking expert to use it, so everything will
+happen at the code level. It uses a traditional TCP connection between the client and server and the HTTP architecture.
 
 To put it simply:
 
@@ -26,30 +34,39 @@ To put it simply:
 3. The WebSocket server will register the client as a recipient and push relevant data to them when necessary.
 4. The client, which was previously waiting, will receive data streams from the server and can process this data.
 
-Note that in WebSocket, there is *Web*: the architecture is no different from traditional web applications. We still use HTTP/TCP, we just use a different application protocol. This means that we will need to use dedicated libraries.
+Note that in WebSocket, there is *Web*: the architecture is no different from traditional web applications. We still use
+HTTP/TCP, we just use a different application protocol. This means that we will need to use dedicated libraries.
 
 ## The Service That Does “Pong”
 
-There are plenty of libraries that can provide WebSocket support in almost all available web languages. For the purpose of this demonstration[^1], we will implement a small WebSocket server in Node.js and then in Python. You are free to implement it in PHP, Ruby, Java, Perl, etc.
+There are plenty of libraries that can provide WebSocket support in almost all available web languages. For the purpose
+of this demonstration[^1], we will implement a small WebSocket server in Node.js and then in Python. You are free to
+implement it in PHP, Ruby, Java, Perl, etc.
 
-Our example is very simple: once connected, our client will be able to send the `ping` message to the server, which will then send `pong` back to all connected clients one second later. This simple example demonstrates the interactivity between all connected elements (i.e. *broadcasting*) of our application.
+Our example is very simple: once connected, our client will be able to send the `ping` message to the server, which will
+then send `pong` back to all connected clients one second later. This simple example demonstrates the interactivity
+between all connected elements (i.e. *broadcasting*) of our application.
 
 ### With Node.js…
 
-Currently, the most reputable library for creating a WebSocket server application in Node.js is [websockets/ws](https://github.com/websockets/ws). Add the `ws` package to your project using `npm`[^2], and create a `wss.js` file for your WebSocket server:
+Currently, the most reputable library for creating a WebSocket server application in Node.js is
+[websockets/ws](https://github.com/websockets/ws). Add the `ws` package to your project using `npm`[^2], and create a
+`wss.js` file for your WebSocket server:
 
 ```javascript
 import WebSocket, { WebSocketServer } from 'ws';
- 
+
 const wss = new WebSocketServer({
   host: process.env.IP || '',
   port: process.env.PORT || 8080
 });
 ```
 
-We can attach the WebSocket server to the `IP`/`PORT` pair exposed in the environment variables for more flexibility, with a fallback to port `8080` for ease of development.
+We can attach the WebSocket server to the `IP`/`PORT` pair exposed in the environment variables for more flexibility,
+with a fallback to port `8080` for ease of development.
 
-Our server is ready, now it needs to be equipped with its functionalities. First and foremost, it should be able to receive client connections.
+Our server is ready, now it needs to be equipped with its functionalities. First and foremost, it should be able to
+receive client connections.
 
 ```javascript
 wss.on('connection', (ws) => {
@@ -77,26 +94,28 @@ wss.on('connection', (ws) => {
 
 That’s all. To launch the WebSocket server, simply run the `wss.js` file with Node.js:
 
-```	shell
-$ node wss.js
+```    shell
+node wss.js
 ```
 
 ### … or with Python!
 
-To change things up from the usual examples, let’s create the same WebSocket server in Python using *asyncio* and [websockets](https://pypi.org/project/websockets/). Start by installing the `websockets` package using `pip` in your venv, and then create a `wss.py` file:
+To change things up from the usual examples, let’s create the same WebSocket server in Python using *asyncio* and
+[websockets](https://pypi.org/project/websockets/). Start by installing the `websockets` package using `pip` in your
+venv, and then create a `wss.py` file:
 
 ```python
 #!/usr/bin/env python
- 
+
 import os
- 
+
 import asyncio
 import websockets
- 
- 
+
+
 async def handler(websocket): pass
- 
- 
+
+
 async def main():
     async with websockets.serve(
         handler,
@@ -105,18 +124,19 @@ async def main():
     ):
         # Run forever
         await asyncio.Future()
- 
- 
+
+
 if name == "__main__":
     asyncio.run(main())
 ```
 
-Now let’s define our functionalities: registering clients, and broadcasting the message when a `ping` is received. Add to the `handler` method which contains the logic for our server:
+Now let’s define our functionalities: registering clients, and broadcasting the message when a `ping` is received. Add
+to the `handler` method which contains the logic for our server:
 
 ```python
 connected = set()
- 
- 
+
+
 async def handler(websocket):
     if websocket not in connected:
         connected.add(websocket)
@@ -128,7 +148,8 @@ async def handler(websocket):
 
 ### The Web Client Side
 
-Our client will be simple: a web page with JavaScript that connects to the WebSocket server, sends a `ping` on connection, and has a method to manually send a new `ping`.
+Our client will be simple: a web page with JavaScript that connects to the WebSocket server, sends a `ping` on
+connection, and has a method to manually send a new `ping`.
 
 Create an `index.html` file for your client:
 
@@ -141,29 +162,32 @@ Create an `index.html` file for your client:
         minute: "numeric",
         second: "numeric"
     })
- 
+
     const websocket = new WebSocket(`ws://${WS_SERVER}/`)
- 
+
     const ping = (msg) => {
         msg = msg || 'ping'
         console.log("Send message", msg)
         websocket.send(msg)
     }
- 
+
     websocket.addEventListener('message', ({data}) => {
         console.log("Recv message", data, dateFormatter.format(Date.now()))
     })
- 
+
     websocket.addEventListener('open', () => ping())
 </script>
 <p>Open the developer console and run the <code>ping()</code> function</p>
 ```
 
-Start your WebSocket server (Python or Node.js), and open this HTML page with the developer tools open. You should see `ping`/`pong` messages appear in the console. Try manually executing the `ping()` function in the developer tools.
+Start your WebSocket server (Python or Node.js), and open this HTML page with the developer tools open. You should see
+`ping`/`pong` messages appear in the console. Try manually executing the `ping()` function in the developer tools.
 
-Now open this HTML page again in another tab, with the developer tools open. Execute the `ping()` function in either tab. Both will receive the pong from the server.
+Now open this HTML page again in another tab, with the developer tools open. Execute the `ping()` function in either
+tab. Both will receive the pong from the server.
 
-Congratulations, you have achieved a basic level of bidirectional broadcast communication between the client and server in *full-duplex* via WebSocket!
+Congratulations, you have achieved a basic level of bidirectional broadcast communication between the client and server
+in *full-duplex* via WebSocket!
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3pkcmJzbWh4NmdnZ2tmeWdvZmo2bTIxcGc4MndqYngxYm5zNDhqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/psv1zrhPZM6WI/giphy.gif)
 
@@ -171,29 +195,40 @@ Congratulations, you have achieved a basic level of bidirectional broadcast comm
 
 We now need to deploy this WebSocket server and client in a production environment.
 
-At **alwaysdata**, we offer several solutions for deploying tools that need to be executed for long periods of time and accessed by clients in the future: *Sites* and *Services*.
+At **alwaysdata**, we offer several solutions for deploying tools that need to be executed for long periods of time and
+accessed by clients in the future: *Sites* and *Services*.
 
-For *Sites*, it’s straightforward: deploying a web server (Apache, WSGI, Node, etc.) that will be requested later by a client to obtain various resources via HTTP. This is the traditional historical web.
+For *Sites*, it’s straightforward: deploying a web server (Apache, WSGI, Node, etc.) that will be requested later by a
+client to obtain various resources via HTTP. This is the traditional historical web.
 
-*Services*, on the other hand, are designed to run long processes that can potentially be accessed other than via HTTP, within the environment of your account (such as a Git repository server over SSH with [soft-serve](https://github.com/charmbracelet/soft-serve), or a monitoring/filtering system for messaging.)
+*Services*, on the other hand, are designed to run long processes that can potentially be accessed other than via HTTP,
+within the environment of your account (such as a Git repository server over SSH with
+[soft-serve](https://github.com/charmbracelet/soft-serve), or a monitoring/filtering system for messaging.)
 
 So, for a WebSocket server, should you use *Sites* or *Services*?
 
-While one might imagine that Services are the right place — *for a long-running process that can be accessed from outside* — I will repeat this here: WebSocket includes *Web*! The WebSocket protocol is software that uses HTTP/TCP, just like any *Site*.
+While one might imagine that Services are the right place — *for a long-running process that can be accessed from
+outside* — I will repeat this here: WebSocket includes *Web*! The WebSocket protocol is software that uses HTTP/TCP,
+just like any *Site*.
 
 ### A plan that comes together
 
-Our application consists of two parts: a client and a WebSocket server. The WebSocket server cannot serve as a resource like a traditional web server (that’s not its role), so you will need two sites:
+Our application consists of two parts: a client and a WebSocket server. The WebSocket server cannot serve as a resource
+like a traditional web server (that’s not its role), so you will need two sites:
 
 1. A *Static files* type site that will serve your `index.html` client.
 2. A second site adapted to the language of your WebSocket server to execute it.
 
-For the WebSocket server, use an address of the type: `[my-account].alwaysdata.net/wss`. Your WebSocket client must connect to this address. Make sure the *Trim path* option is enabled as the server is hosted behind a `pathUrl`. You may need to set the value of the *idle time* to `0` to ensure that it will never be stopped by the system, and to keep the connections to the clients active, even in case of prolonged inactivity.
+For the WebSocket server, use an address of the type: `[my-account].alwaysdata.net/wss`. Your WebSocket client must
+connect to this address. Make sure the *Trim path* option is enabled as the server is hosted behind a `pathUrl`. You may
+need to set the value of the *idle time* to `0` to ensure that it will never be stopped by the system, and to keep the
+connections to the clients active, even in case of prolonged inactivity.
 
 ![WebSocket Site (Python)](images/wss-server-site-1_en.png)
 ![WebSocket site, advanced settings: idle time to 0, and trim path checked](images/wss-server-site-2_en.png)
 
-Update the `index.html` file to specify the WebSocket server URL in the `WS_SERVER` variable. Then create a *Static files* site with the address `[my-account].alwaysdata.net` to serve this file.
+Update the `index.html` file to specify the WebSocket server URL in the `WS_SERVER` variable. Then create a *Static
+files* site with the address `[my-account].alwaysdata.net` to serve this file.
 
 ![Static files Client Site](images/wss-static-site_en.png)
 
@@ -204,12 +239,17 @@ Head to this address: your WebSocket communication is up and running!
 This article is, of course, only an introduction to the concepts of WebSocket, but it highlights several fundamental elements:
 
 1. WebSocket enables bi-directional and simultaneous multi-client communication.
-2. A WebSocket server runs in parallel with the application’s Web server. The latter is responsible for distributing the application to the browser, which will then start it; but it is the former that is responsible for the transit of business data flows.
-3. Even though it seems to be a different protocol, WebSocket exploits the fundamentals of the Web, its underlying building blocks, and its robust protocols.
+2. A WebSocket server runs in parallel with the application’s Web server. The latter is responsible for distributing the
+   application to the browser, which will then start it; but it is the former that is responsible for the transit of
+   business data flows.
+3. Even though it seems to be a different protocol, WebSocket exploits the fundamentals of the Web, its underlying
+   building blocks, and its robust protocols.
 
-You don’t need to be a network expert to develop with WebSocket. You will use what you already know well from the *Web*, with its event model.
+You don’t need to be a network expert to develop with WebSocket. You will use what you already know well from the *Web*,
+with its event model.
 
-It’s up to you to find the right uses that suit your needs; to add data processing; to transit JSON or binary formats; to support authentication… Everything you already know how to do on the Web is applicable.
+It’s up to you to find the right uses that suit your needs; to add data processing; to transit JSON or binary formats;
+to support authentication… Everything you already know how to do on the Web is applicable.
 
 Happy coding!
 

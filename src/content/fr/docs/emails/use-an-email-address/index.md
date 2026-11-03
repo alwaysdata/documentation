@@ -11,7 +11,8 @@ Il est possible de consulter vos emails de plusieurs manières. Voici les 2 les 
 
 ## Client email
 
-Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou tout autre appareil, voici les informations que vous devrez renseigner.
+Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou tout autre appareil, voici les
+informations que vous devrez renseigner.
 
 |Serveur|Service|Informations|
 |---|---|---|
@@ -31,8 +32,8 @@ Si vous souhaitez configurer un logiciel de messagerie sur votre ordinateur, ou 
 > [!NOTE]
 > Vous devez remplacer [compte] par le nom de votre compte, choisi lors de sa création.
 
-
-L'authentification par mot de passe est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes identifiants que pour le serveur entrant.
+L'authentification par mot de passe est **nécessaire** pour utiliser notre serveur SMTP, renseignez les mêmes
+identifiants que pour le serveur entrant.
 
 Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet.
 
@@ -43,9 +44,12 @@ Il est aussi possible d'utiliser le serveur SMTP de votre fournisseur d'internet
 
 ## Webmail
 
-Si vous désirez consulter votre boîte depuis un navigateur, nous mettons à votre disposition [notre webmail, Roundcube](https://webmail.alwaysdata.com). Connectez-vous avec l'adresse email que vous souhaitez consulter et son mot de passe associé.
+Si vous désirez consulter votre boîte depuis un navigateur, nous mettons à votre disposition [notre webmail,
+Roundcube](https://webmail.alwaysdata.com). Connectez-vous avec l'adresse email que vous souhaitez consulter et son mot
+de passe associé.
 
-Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (celle de sa première connexion). Pour changer de langue, cliquez sur **Settings** dans le coin supérieur droit, puis **User Interface > Language**.
+Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (celle de sa première connexion). Pour
+changer de langue, cliquez sur **Settings** dans le coin supérieur droit, puis **User Interface > Language**.
 
 ![](images/roundcube_change-parameter-1.png)
 
@@ -54,10 +58,12 @@ Par défaut, le webmail utilise la langue du navigateur web de l'utilisateur (ce
 > [!TIP] Astuce
 > Si vous changez votre mot de passe via le webmail, vous devrez procéder à une déconnexion puis reconnexion.
 
-
 ## Remarques
 
-- Les emails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire `/home/[compte]/admin/mail` ;
-- Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des tentatives régulières de renvoi ;
-- La taille limite des emails envoyés est fixée à **50 Mo** ;
-- L'authentification SMTP n'est pas nécessaire dans le cas d'un service hébergé sur les serveurs alwaysdata (site internet ou tâche planifiée par exemple).
+* Les emails sont conservés au format [Maildir](https://fr.wikipedia.org/wiki/Maildir) dans le répertoire
+  `/home/[compte]/admin/mail` ;
+* Si le serveur MX destinataire n'est pas disponible, l'email sera gardé pour une durée de 5 jours maximum avec des
+  tentatives régulières de renvoi ;
+* La taille limite des emails envoyés est fixée à **50 Mo** ;
+* L'authentification SMTP n'est pas nécessaire dans le cas d'un service hébergé sur les serveurs alwaysdata (site
+  internet ou tâche planifiée par exemple).

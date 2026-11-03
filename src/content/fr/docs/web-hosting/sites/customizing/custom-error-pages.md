@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 1
 ---
 
-Il est conseillé de créer des pages personnalisées pour vos pages d'erreurs (codes HTTP 404, 500, etc.). Pour ce faire, il est possible de configurer cela à différents niveaux.
+Il est conseillé de créer des pages personnalisées pour vos pages d'erreurs (codes HTTP 404, 500, etc.). Pour ce faire,
+il est possible de configurer cela à différents niveaux.
 
 ## Serveur web
 
@@ -30,6 +31,7 @@ Voici une liste non-exhaustive à consulter selon votre application :
 
 ## Conseils
 
-- Suivez le trafic sur ces pages : si vous observez une forte augmentation de visites de vos pages d'erreur, vous pourrez plus facilement trouver l'origine du problème ;
+- Suivez le trafic sur ces pages : si vous observez une forte augmentation de visites de vos pages d'erreur, vous
+  pourrez plus facilement trouver l'origine du problème ;
 - Affichez des liens vers d'autres pages afin que le visiteur puisse poursuivre sa navigation ;
 - Mettez en place un formulaire de contact afin de pouvoir éventuellement vous joindre.

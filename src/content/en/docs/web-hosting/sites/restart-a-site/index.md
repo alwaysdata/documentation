@@ -10,8 +10,8 @@ To activate certain modifications, it is necessary to restart the program. This 
 
 - when you click on the **Restart** button;
 - when making changes to the site form in **Web > Sites**:
-	- when an address is added / modified / deleted;
-	- when a site option is modified;
+  - when an address is added / modified / deleted;
+  - when a site option is modified;
 - when making changes in the **Environment** menu.
 
 ![Restart button](images/site-restart.png)
@@ -19,20 +19,21 @@ To activate certain modifications, it is necessary to restart the program. This 
 These actions are also accessible via our [API](/en/docs/development/api).
 
 > [!NOTE]
-> Only one Apache server exists per account. By restarting a site using this web server (PHP, Redirect, Static Files, and Custom Apache), all Apache sites in the account will be restarted.
-
+> Only one Apache server exists per account. By restarting a site using this web server (PHP, Redirect, Static Files,
+> and Custom Apache), all Apache sites in the account will be restarted.
 
 ## Hot restart
 
-There is no standard way to request a *hot restart* (during which no requests should be lost). By default, the system therefore sends a `SIGTERM`, which will then stop the process and restart it. In this case, requests may then potentially be lost.
+There is no standard way to request a *hot restart* (during which no requests should be lost). By default, the system
+therefore sends a `SIGTERM`, which will then stop the process and restart it. In this case, requests may then
+potentially be lost.
 
 For *Apache* and *uWSGI* web servers, the signals allowing a warm restart are managed by the system.
 
 For other programs, the **Hot restart** field allows you to specify which signal to send to the application.
 
-
 ![](images/hot-restart-signal.png)
 
 Examples:
 
--  [Puma](https://github.com/puma/puma/blob/master/docs/restart.md) - Ruby web server
+- [Puma](https://github.com/puma/puma/blob/master/docs/restart.md) - Ruby web server
