@@ -33,7 +33,7 @@ address of the sender's server.
 |---|---|
 |+|Favorable result|
 |?|Neutral result|
-|~|Slight "SOFTMAIL" failure (email accepted but marked)|
+|~|Slight "SOFTFAIL" failure (email accepted but marked)|
 |-|Total failure (email normally rejected)|
 
 |Modifiers||
@@ -52,7 +52,7 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 ![](images/spf-record.png)
 
 - `include:_spf.alwaysdata.com` **explicitly allows our servers** to send emails,
-- `~all` sends a slight "SOFTMAIL" failure result for the other sender servers.
+- `~all` sends a slight "SOFTFAIL" failure result for the other sender servers.
 
  If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add
  `include:_spf.alwaysdata.com` to the SPF registration.

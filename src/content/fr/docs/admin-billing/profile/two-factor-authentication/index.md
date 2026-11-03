@@ -30,7 +30,8 @@ secondes_ (calcul basé sur l'heure ou un compteur).
 
 ## OTP applications
 
-- **[2FAS Auth](https://2fas.com/)** : [Google Play](https://apps.apple.com/us/app/2fas-auth/id1217793794) et [Apple Store](https://apps.apple.com/us/app/2fas-auth/id1217793794)
+- **[2FAS Auth](https://2fas.com/)** : [Google Play](https://play.google.com/store/apps/details?id=com.twofasapp)
+  et [Apple Store](https://apps.apple.com/us/app/2fas-auth/id1217793794)
 - **[EnteAuth](https://ente.io/auth/)** : [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth),
   [Apple Store](https://apps.apple.com/us/app/ente-auth/id6444121398) et
   [F-Droid](https://f-droid.org/packages/io.ente.auth/).

@@ -91,7 +91,7 @@ access.
 
 ## My Permissions
 
-It is possible to remove the permissions that we have on other profiles through the **Permissions > My Permissions**
+It is possible to remove the permissions that you have on other profiles through the **Permissions > My Permissions**
 menu. The removal is not performed in a detailed manner, they will all be removed.
 
 ## Miscellaneous

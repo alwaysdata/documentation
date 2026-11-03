@@ -35,7 +35,7 @@ fit our ambitions was too great of a challenge at the time. We had to choose, an
 physical infrastructure management to trusted third parties.
 
 Or so we thought. For the first few years, we relied on the *OVH* infrastructure, using extra servers at *Amazon EC2*,
-*Hertzner*, and *Online*. This architecture allowed us to focus on developing our project: management interface,
+*Hetzner*, and *Online*. This architecture allowed us to focus on developing our project: management interface,
 monitoring, support, *alproxy*, account management, and more.
 
 Then, four years ago, we became fed up by the poor quality of our subcontractors. We had come a long way, but the

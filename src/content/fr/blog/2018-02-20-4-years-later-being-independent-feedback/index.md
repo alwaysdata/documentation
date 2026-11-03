@@ -1,6 +1,6 @@
 ---
 title: "Quatre ans plus tard, retour sur notre indépendance"
-description : "Retour d'expérience sur notre prise d'autonomie matérielle"
+description: "Retour d'expérience sur notre prise d'autonomie matérielle"
 date: 2018-02-20
 authors: ["Matthias Dugué"]
 ---
@@ -40,7 +40,7 @@ faire certains choix, et trancher. En nous concentrant sur l'outil, nous allions
 — la gestion matérielle à d'autres opérateurs.
 
 Les premières années, nous nous sommes appuyés sur l'architecture d'*OVH*, avec quelques machines supplémentaires chez
-*Amazon EC2*, *Hertzner* et *Online*. Cette architecture, même si elle reposait sur des acteurs externes, nous a laissé
+*Amazon EC2*, *Hetzner* et *Online*. Cette architecture, même si elle reposait sur des acteurs externes, nous a laissé
 le temps nécessaire à mûrir notre projet : interface de gestion, supervision, support, *alproxy*, gestionnaires de
 comptes, ordonnanceurs…
 

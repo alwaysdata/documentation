@@ -77,7 +77,7 @@ Alors, passons en revue la liste. Qu'avons-nous aujourd'hui dans notre boîte à
 1. *Modules ES6 natifs* : navré pour le format CommonJS, mais son descendant, le *Module ES6*, est bien plus efficace.
    Il est supporté en natif par [Node.js](https://nodejs.org/api/esm.html) et [les
    navigateurs](https://caniuse.com/#feat=es6-module). Il n'y a plus de raison de l'éviter.
-2. *Libres précompilées* : [TypeScript](https://www.typescriptlang.org/) est de plus en plus couramment utilisé[^1]
+2. *Bibliothèques précompilées* : [TypeScript](https://www.typescriptlang.org/) est de plus en plus couramment utilisé[^1]
    et nous avons beaucoup de nouvelles bibliothèques qui sont développées avec ce langage. Même développés en VanillaJS,
    ces modules peuvent être optimisés en dehors de notre chaîne d'outils et distribués dans une version de production.
    Pas besoin de gérer cela de notre côté dans *notre* projet.

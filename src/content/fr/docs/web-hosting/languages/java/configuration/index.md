@@ -52,7 +52,7 @@ Il utilise le serveur HTTP [Apache Tomcat](https://tomcat.apache.org/).
 Vous pouvez également renseigner plusieurs champs optionnels :
 
 - des variables d'environnement à définir ;
-- une version de Python spécifique à utiliser.
+- une version de Java spécifique à utiliser.
 
 ### Programme utilisateur
 

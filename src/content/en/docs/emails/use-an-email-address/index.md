@@ -16,7 +16,7 @@ If you wish to configure a mail program on your computer or any other device, he
 |---|---|---|
 |Incoming|[IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)|Host: **imap-[account].alwaysdata.net**|
 |||Port: **993 (SSL/TLS)**|
-|||Alternative port: 140 (STARTTLS)|
+|||Alternative port: 143 (STARTTLS)|
 |||Identifier: **email address** and the **password** assigned to it|
 ||[POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)|Host: **pop-[account].alwaysdata.net**|
 |||Port: **995 (SSL/TLS)**|

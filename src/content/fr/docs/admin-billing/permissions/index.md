@@ -102,7 +102,7 @@ accès.
 
 ## Mes permissions
 
-Il est possible de supprimer les permissions que nous avons sur d'autres profils via le menu **Permissions > Mes
+Il est possible de supprimer les permissions que vous avez sur d'autres profils via le menu **Permissions > Mes
 permissions**. La suppression ne s'effectue pas finement : elles sont toutes supprimées.
 
 ## Divers

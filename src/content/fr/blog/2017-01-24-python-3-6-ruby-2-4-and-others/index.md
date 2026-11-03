@@ -80,7 +80,8 @@ sera prévenu par email au préalable et aura à sa disposition :
 Les plus téméraires peuvent toutefois demander par ticket une migration dès maintenant, mais à leurs risques et périls,
 et sans possibilité de revenir en arrière. Inutile de dire que si vous avez quoi que ce soit en production, passez votre
 chemin et attendez la migration officielle. Si vous cherchez des sensations fortes, sautez plutôt en parachute.
-Et après ?
+
+## Et après ?
 
 Nous avons conçu cette nouvelle infrastructure pour qu’elle soit beaucoup plus souple que la précédente, et ne plus nous
 retrouver dans une situation avec des logiciels vieillissants. Bien que nous ne puissions pas toujours proposer les

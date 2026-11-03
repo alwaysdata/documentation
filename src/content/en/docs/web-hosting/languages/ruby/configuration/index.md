@@ -86,7 +86,7 @@ gem uninstall [package]
 ### Using Bundler
 
 We recommend using [Bundler](http://bundler.io/) if you use a number of different Ruby applications so that each one has
-its own separate environment. Bundle installs the packages listed in a *Gemfile*.
+its own separate environment. Bundler installs the packages listed in a *Gemfile*.
 
 ```sh
 bundle install

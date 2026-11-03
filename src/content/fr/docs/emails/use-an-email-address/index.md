@@ -18,7 +18,7 @@ informations que vous devrez renseigner.
 |---|---|---|
 |Entrant|[IMAP](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol)|Hôte : **imap-[compte].alwaysdata.net**|
 |||Port : **993 (SSL/TLS)**|
-|||Port alternatif: 140 (STARTTLS)|
+|||Port alternatif: 143 (STARTTLS)|
 |||Identifiant : **adresse email** et **mot de passe** associé|
 ||[POP3](https://fr.wikipedia.org/wiki/Post_Office_Protocol)|Hôte : **pop-[compte].alwaysdata.net**|
 |||Port : **995 (SSL/TLS)**|

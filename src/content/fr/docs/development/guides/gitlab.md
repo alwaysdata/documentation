@@ -66,7 +66,7 @@ nano config/gitlab.yml
 
 Dans la section *production > gitlab* modifiez :
 
-- la ligne `host: localhost` pour renseigner l'adresse voulue du site Gitlab. Cela peut par exemple être l'adresse du
+- la ligne `host: localhost` pour renseigner l'adresse voulue du site GitLab. Cela peut par exemple être l'adresse du
   compte : `[compte].alwaysdata.net`.
 - le paragraphe `email` par les informations emails voulues. Par exemple :
 
