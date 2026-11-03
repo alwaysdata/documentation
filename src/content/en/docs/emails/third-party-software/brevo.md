@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Brevo (formerly Sendinblue) is a well-known email marketing platform. To improve the deliverability of sent emails, you
 need to [authenticate](/en/docs/emails/outgoing-emails/set-up-spf-dkim-dmarc) them by creating, with your DNS provider,
-DNS records that they will provide. Here’s how to do it with alwaysdata.
+DNS records that they will provide. Here's how to do it with alwaysdata.
 
 Go to **Domains > Details of [example.org] - ⚙️ > DNS records > Add a DNS record**
 

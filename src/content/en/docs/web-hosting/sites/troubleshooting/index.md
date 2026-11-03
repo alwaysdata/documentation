@@ -16,7 +16,7 @@ Guru](https://screenshot.guru/) (avec screenshot).
 
 - [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response](/en/docs/web-hosting/sites/troubleshooting/connection-to-upstream)
 
-### This site can’t be reached / server DNS address could not be found
+### This site can't be reached / server DNS address could not be found
 
 - Check if the domain exists, isn't expired or locked by the [ICANN](https://www.icann.org/fr) via a `whois`[^1],
 - Check the [DNS resolution](https://www.dnswatch.info/) address.

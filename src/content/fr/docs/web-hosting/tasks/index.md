@@ -7,14 +7,14 @@ eleventyNavigation:
   order: 6
 ---
 
-Les Web apps ou services ont parfois besoin d’exécuter des tâches périodiquement, exécuter des commandes ou appeler des
+Les Web apps ou services ont parfois besoin d'exécuter des tâches périodiquement, exécuter des commandes ou appeler des
 URLs, sans aucune interaction utilisateur. Pour ce faire, vous devez créer une tâche planifiée.
 
-Notre plateforme s’appuie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais
+Notre plateforme s'appuie sur [Debian](https://www.debian.org/) et sa [crontab](https://fr.wikipedia.org/wiki/Cron) mais
 permet de les gérer directement dans l'interface d'administration - onglet **Avancé > Tâches planifiées** - et d'en
 faciliter l'utilisation.
 
-Plusieurs types d’informations sont à fournir :
+Plusieurs types d'informations sont à fournir :
 
 - la (les) commande(s) que vous souhaitez exécuter, ou les URLs que vous souhaitez requêter. Des adresses email peuvent
   aussi être renseignées pour recevoir les rapports d'erreurs[^1] (séparées par un espace).

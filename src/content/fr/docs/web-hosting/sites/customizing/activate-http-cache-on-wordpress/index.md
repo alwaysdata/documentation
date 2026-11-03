@@ -19,7 +19,7 @@ eleventyNavigation:
 
 3. Vérifiez si le cache est activé :
 
-- une fois sur la page d’accueil du WordPress, ouvrez le panel développeur de votre navigateur, menu *Réseau*/*Network*.
+- une fois sur la page d'accueil du WordPress, ouvrez le panel développeur de votre navigateur, menu *Réseau*/*Network*.
   Effectuez une recherche sur l'en-tête `Age`.
 
 ![](images/result.png)

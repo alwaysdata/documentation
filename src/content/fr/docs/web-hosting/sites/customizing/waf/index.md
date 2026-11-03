@@ -9,9 +9,9 @@ eleventyNavigation:
 
 Un [WAF](https://fr.wikipedia.org/wiki/Web_application_firewall) examine chaque requête HTTP pour protéger les
 applications web face à différents vecteurs d'attaques pour minimiser les infections. Il peut les autoriser à
-transiter jusqu’à l’application, ou les bloquer, alerter, consigner si elles sont jugées malveillantes.
+transiter jusqu'à l'application, ou les bloquer, alerter, consigner si elles sont jugées malveillantes.
 
-![Parcours d’une requête HTTP face à un WAF](images/waf.png)
+![Parcours d'une requête HTTP face à un WAF](images/waf.png)
 
 alwaysdata utilise le WAF ModSecurity et l'ensemble de règles libres [OWASP Modsecurity Core Rule
 Set](https://coreruleset.org/) (CRS).
@@ -28,26 +28,26 @@ Cela se passe sur l'interface d'administration dans **Web > Sites > Modifier le 
 |Aucun|(par défaut)|
 |Basique|Respect strict du protocole HTTP|
 ||Détection de robots malveillants|
-|Fort|L’ensemble des règles du profil basique|
-||Détection d’exécution de code à distance (RCE)|
-||Détection d’attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)|
-||Détection d’[injection SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
-|Complet|L’ensemble des règles du profil fort|
-||Détection d’attaques relatives au langage PHP|
-||Détection d’attaque par inclusion de fichier local (LFI)|
-||Détection d’attaque par [inclusion de fichier distant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
-|WordPress|L’ensemble des règles du profil complet|
+|Fort|L'ensemble des règles du profil basique|
+||Détection d'exécution de code à distance (RCE)|
+||Détection d'attaque type [Cross-Site Scripting (XSS)](https://fr.wikipedia.org/wiki/Cross-site_scripting)|
+||Détection d'[injection SQL](https://fr.wikipedia.org/wiki/Injection_SQL)|
+|Complet|L'ensemble des règles du profil fort|
+||Détection d'attaques relatives au langage PHP|
+||Détection d'attaque par inclusion de fichier local (LFI)|
+||Détection d'attaque par [inclusion de fichier distant (RFI)](https://fr.wikipedia.org/wiki/Remote_File_Inclusion)|
+|WordPress|L'ensemble des règles du profil complet|
 ||Règles spécifiques à WordPress|
-|Drupal|L’ensemble des règles du profil complet|
+|Drupal|L'ensemble des règles du profil complet|
 ||Règles spécifiques à Drupal|
-|Nextcloud|L’ensemble des règles du profil complet|
+|Nextcloud|L'ensemble des règles du profil complet|
 ||Règles spécifiques à Nextcloud|
-|Dokuwiki|L’ensemble des règles du profil complet|
+|Dokuwiki|L'ensemble des règles du profil complet|
 ||Règles spécifiques à Dokuwiki|
 
 > [!NOTE]
-> L’activation d’un profil de protection va se traduire par une légère augmentation de la latence lors du
-> traitement d’une requête HTTP. Cette latence, de l’ordre de quelques millisecondes, augmente avec le degré de
+> L'activation d'un profil de protection va se traduire par une légère augmentation de la latence lors du
+> traitement d'une requête HTTP. Cette latence, de l'ordre de quelques millisecondes, augmente avec le degré de
 > protection.
 
 ### Exclure des règles

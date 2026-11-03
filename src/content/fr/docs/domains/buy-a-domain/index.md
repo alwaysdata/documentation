@@ -29,6 +29,6 @@ eleventyNavigation:
 
 ## Quelle extension de domaine dois-je choisir ?
 
-Beaucoup d’extensions existent, certaines sont géographiques et rattachées à un pays ou une zone institutionnelle,
-d’autres sont génériques. L’extension à choisir dépend de votre besoin, de votre budget mais aussi de la nationalité du
+Beaucoup d'extensions existent, certaines sont géographiques et rattachées à un pays ou une zone institutionnelle,
+d'autres sont génériques. L'extension à choisir dépend de votre besoin, de votre budget mais aussi de la nationalité du
 propriétaire.

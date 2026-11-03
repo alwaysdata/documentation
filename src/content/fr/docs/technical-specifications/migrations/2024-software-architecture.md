@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## Les changements majeurs
 
-* SSL est désormais requis pour les protocoles d'email (IMAP, SMTP, POP3) et d’accès distant (FTP, WebDAV).
+* SSL est désormais requis pour les protocoles d'email (IMAP, SMTP, POP3) et d'accès distant (FTP, WebDAV).
 * Les bases de données MongoDB et CouchDB sont supprimées.
 * MariaDB est mis à jour en version 10.11.
 * PostgreSQL est mis à jour en version 16.

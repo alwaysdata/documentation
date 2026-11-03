@@ -11,10 +11,10 @@ eleventyNavigation:
 ## Rules
 
 We believe that no technology is perfect and that working with skilled security researchers is crucial to identify
-weaknesses in our technology. If you believe you’ve found a security bug in our service, we are happy to work with you
+weaknesses in our technology. If you believe you've found a security bug in our service, we are happy to work with you
 to resolve the issue promptly and ensure you are fairly rewarded for your discovery.
 
-Let us know as soon as possible upon discovery of a potential security issue, and we’ll make every effort to quickly
+Let us know as soon as possible upon discovery of a potential security issue, and we'll make every effort to quickly
 resolve the issue. Provide us a reasonable amount of time to resolve the issue before any disclosure to the public or a
 third-party.
 
@@ -34,7 +34,7 @@ equipment and *alwaysdata* infrastructure.**
 Do not try to over exploit the bug and access internal data for further vulnerabilities. We will determine the severity
 and reward accordingly.
 
-If you find the same vulnerability several times, please create only one report and eventually use comments. You’ll be
+If you find the same vulnerability several times, please create only one report and eventually use comments. You'll be
 rewarded accordingly to your findings.
 
 **Violation of any of these rules can result in ineligibility for a bounty and/or removal from the program.**
@@ -85,7 +85,7 @@ When testing for a bug, please keep in mind:
 **Minimize the mayhem.** Adhere to program rules at all times. Do not use automated scanners/tools — these tools include
 payloads that could trigger state changes or damage production systems and/or data.
 
-**Before causing damage or potential damage: stop, report what you’ve found and request additional testing permission.**
+**Before causing damage or potential damage: stop, report what you've found and request additional testing permission.**
 
 Reports about vulnerabilities are examined by our security analysts. Reports **must** be submitted using our **[bug
 tracking interface](https://security.alwaysdata.com/)**.
@@ -136,7 +136,7 @@ No vulnerability disclosure, including partial, is allowed before the patch is a
 * XSS: For XSS, a simple `alert(document.domain)` should suffice.
 * RCE: Please only execute harmless code. Please refer to the [Testing](#scope-and-testing) section.
 * SQLi: Report it as soon as you have a SQL error that indicates SQL injection or you are able to disclose the SQL
-  server’s version number.
+  server's version number.
 * Unvalidated redirect: Set the redirect endpoint to `http://example.org` *if possible*.
 * CSRF: Either attach a file to demonstrate the issue or paste the code in a code block in your report.
 * SSRF: Do not go playing around on any internal networks. Report as soon as you believe that you have a potential SSRF
@@ -194,12 +194,12 @@ The following list includes vulnerability reports not accepted by our services:
 * Recently disclosed 0-day vulnerabilities.
 * Presence of autocomplete attribute on web forms.
 * Vulnerabilities affecting outdated browsers or platforms.
-* Issues that require physical access to a victim’s computer/device/interface (for example if the victim left it open or
+* Issues that require physical access to a victim's computer/device/interface (for example if the victim left it open or
   if the attacker is the victim).
 * Logout and other instances of low-severity Cross-Site Request Forgery.
 * Reports from automated web vulnerability scanners (Acunetix, Vega, etc.) that have not been validated.
-* Reports about third-party applications we provide to our customers but aren’t part of our system directly (phpMyAdmin,
-  Roundcube Webmail, etc.), if the vulnerability doesn’t directly exposes customers data and/or metadata.
+* Reports about third-party applications we provide to our customers but aren't part of our system directly (phpMyAdmin,
+  Roundcube Webmail, etc.), if the vulnerability doesn't directly exposes customers data and/or metadata.
 * Reports on third-party applications that we provide to our customers but are not directly part of our system
   (phpMyAdmin, Webmail Roundcube, etc.), unless the vulnerability that exposes user data and/or metadata is fixed for
   more than a month in the upstream version and we are not up to date.

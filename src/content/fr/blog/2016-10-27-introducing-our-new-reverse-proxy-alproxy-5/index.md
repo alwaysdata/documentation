@@ -80,7 +80,7 @@ alproxy.
 Il est encore tôt pour parler de HTTP/2 (un gros chantier pour nous), mais pour patienter, nous avons tout de même prévu
 de nombreuses fonctionnalités dans les mois à venir. Dans la liste, il y a notamment un *firewall applicatif*
 ([WAF](https://en.wikipedia.org/wiki/Application_firewall)) qui bloque les requêtes malveillantes (généralement efficace
-contre les bots qui exploitent des failles dans des logiciels comme Wordpress) et un cache HTTP, qui permet d’accélérer
+contre les bots qui exploitent des failles dans des logiciels comme Wordpress) et un cache HTTP, qui permet d'accélérer
 le rendu de votre site et de construire un [CDN](https://fr.wikipedia.org/wiki/Content_delivery_network).
 
 ## Sous le capot

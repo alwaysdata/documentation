@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 9
 ---
 
-Les logiciels sont mis à jour régulièrement et même immédiatement (< 24h) en cas de publication d’une faille de sécurité
+Les logiciels sont mis à jour régulièrement et même immédiatement (< 24h) en cas de publication d'une faille de sécurité
 sévère. Suivant le fonctionnement de toutes les distributions Linux stables, **les correctifs de sécurité sont appliqués
 sans changer le numéro de version**.
 

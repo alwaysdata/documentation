@@ -17,7 +17,7 @@ This operation is [charged](https://www.alwaysdata.com/en/domains/#main) for. It
 Before starting the operation the owner must :
 
 - remove the protection against transfers,
-- check that the owner’s information is correct and visible in the `whois` [^1],
+- check that the owner's information is correct and visible in the `whois` [^1],
 - get the authorization code,
 - retrieve a backup of his data (including email).
 
@@ -52,9 +52,9 @@ A transfer cannot take place within 60 days of its creation or a previous transf
 
 4.
     - Provide the *authorization code* if the extension requires it,
-    - Choose whether or not to use our DNS servers: this entails transferring the domain’s technical management to
+    - Choose whether or not to use our DNS servers: this entails transferring the domain's technical management to
       alwaysdata, and
-    - Enter the owner’s contact information. This information depends on the extension taken.
+    - Enter the owner's contact information. This information depends on the extension taken.
 
     ![](images/admin-panel_add-domain-3.png)
 

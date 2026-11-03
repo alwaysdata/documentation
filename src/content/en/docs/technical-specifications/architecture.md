@@ -48,7 +48,7 @@ Each account is isolated from each other via a containeristation based on
 security and customization.
 
 Our system distributes the available resources equally between all accounts on a server. When an account encounters
-consumption peaks, the platform redistributes its resources, from accounts who don’t need them, to temporarily
+consumption peaks, the platform redistributes its resources, from accounts who don't need them, to temporarily
 reallocate them.
 
 - [HTTP stack](/en/docs/web-hosting/sites/http-stack)

@@ -1,5 +1,5 @@
 ---
-title: "Les sept cercles de l’enfer des dépendances : le guide ultime pour passer au développement distant"
+title: "Les sept cercles de l'enfer des dépendances : le guide ultime pour passer au développement distant"
 description: "Développement distant avec VSCode"
 date: 2020-06-02
 authors: ["Matthias Dugué"]
@@ -430,4 +430,4 @@ aider à débloquer de nouveaux niveaux dans vos tâches quotidiennes !
 [^1]: Peut-être fourni par vos coéquipiers DevOps
 [^2]: Au cours de laquelle VSCode installe les composants nécessaires à distance et démarre un serveur de développement à distance en arrière-plan
 [^3]: VSCode s'appuie sur *SSH Port Forwarding* et a besoin que le serveur SSH ait la directive [`AllowTCPForwarding` activée](https://github.com/microsoft/vscode-remote-release/issues/92). Chez alwaysdata, nous désactivons cette fonction pour des raisons de sécurité, mais nous avons heureusement trouvé un moyen de faire fonctionner le Port Forwarding pour VSCode sans compromettre la sécurité !
-[^4]: En raison de la façon dont les compounds sont exécutés, l’aperçu du navigateur peut pointer sur `about:blank` au lieu de <http://localhost:3000>. Il existe une solution de contournement liée à la possibilité d’exécuter des pré-tâches (voir [le ticket](https://github.com/auchenberg/vscode-browser-preview/issues/114)). En attendant un correctif, vous pouvez mettre à jour manuellement l’adresse pour charger votre application dans le panneau de prévisualisation.
+[^4]: En raison de la façon dont les compounds sont exécutés, l'aperçu du navigateur peut pointer sur `about:blank` au lieu de <http://localhost:3000>. Il existe une solution de contournement liée à la possibilité d'exécuter des pré-tâches (voir [le ticket](https://github.com/auchenberg/vscode-browser-preview/issues/114)). En attendant un correctif, vous pouvez mettre à jour manuellement l'adresse pour charger votre application dans le panneau de prévisualisation.

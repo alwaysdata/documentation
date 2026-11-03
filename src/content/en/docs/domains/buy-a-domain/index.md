@@ -22,7 +22,7 @@ eleventyNavigation:
 
 4. Choose the *existence duration* for the domain. It may be renewed again later on, and
 
-5. Enter the owner’s contact information. This information depends on the extension taken.
+5. Enter the owner's contact information. This information depends on the extension taken.
     ![](images/admin-panel_add-domain-3.png)
 
 > [!NOTE]
@@ -33,4 +33,4 @@ eleventyNavigation:
 ## What domain extension should I choose?
 
 There are many extensions available. Some are geographic and attached to a country or an institutional area, others are
-generic ones. The extension you choose will depend on your requirement, your budget, as well as the owner’s nationality.
+generic ones. The extension you choose will depend on your requirement, your budget, as well as the owner's nationality.

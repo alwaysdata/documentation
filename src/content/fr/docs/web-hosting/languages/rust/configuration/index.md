@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## Version
 
-Rust étant un langage compilé, il n’a pas besoin d’être installé chez alwaysdata pour être utilisé. Nous proposons
+Rust étant un langage compilé, il n'a pas besoin d'être installé chez alwaysdata pour être utilisé. Nous proposons
 cependant la version 1.78 qui est utilisée lorsque vous démarrez `cargo`.
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.

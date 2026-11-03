@@ -169,5 +169,5 @@ This site must listen on port `8100`, check in the explanatory text of the *Comm
 since it is the only site.
 
 > [!NOTE]
-> The default account’s username is *root*. You will choose its password at the first website connection and will be
+> The default account's username is *root*. You will choose its password at the first website connection and will be
 > able to change the username afterwards.

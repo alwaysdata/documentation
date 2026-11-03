@@ -23,8 +23,8 @@ In 2023, how does hosting a WebSocket server application work?
 
 ## When A Stanger Calls
 
-Let’s get back to basics: WebSocket is a network protocol in the application layer (in the famous [OSI
-model](https://en.wikipedia.org/wiki/OSI_model)). You don’t need to be a networking expert to use it, so everything will
+Let's get back to basics: WebSocket is a network protocol in the application layer (in the famous [OSI
+model](https://en.wikipedia.org/wiki/OSI_model)). You don't need to be a networking expert to use it, so everything will
 happen at the code level. It uses a traditional TCP connection between the client and server and the HTTP architecture.
 
 To put it simply:
@@ -92,7 +92,7 @@ wss.on('connection', (ws) => {
 });
 ```
 
-That’s all. To launch the WebSocket server, simply run the `wss.js` file with Node.js:
+That's all. To launch the WebSocket server, simply run the `wss.js` file with Node.js:
 
 ```    shell
 node wss.js
@@ -100,7 +100,7 @@ node wss.js
 
 ### … or with Python!
 
-To change things up from the usual examples, let’s create the same WebSocket server in Python using *asyncio* and
+To change things up from the usual examples, let's create the same WebSocket server in Python using *asyncio* and
 [websockets](https://pypi.org/project/websockets/). Start by installing the `websockets` package using `pip` in your
 venv, and then create a `wss.py` file:
 
@@ -130,7 +130,7 @@ if name == "__main__":
     asyncio.run(main())
 ```
 
-Now let’s define our functionalities: registering clients, and broadcasting the message when a `ping` is received. Add
+Now let's define our functionalities: registering clients, and broadcasting the message when a `ping` is received. Add
 to the `handler` method which contains the logic for our server:
 
 ```python
@@ -198,7 +198,7 @@ We now need to deploy this WebSocket server and client in a production environme
 At **alwaysdata**, we offer several solutions for deploying tools that need to be executed for long periods of time and
 accessed by clients in the future: *Sites* and *Services*.
 
-For *Sites*, it’s straightforward: deploying a web server (Apache, WSGI, Node, etc.) that will be requested later by a
+For *Sites*, it's straightforward: deploying a web server (Apache, WSGI, Node, etc.) that will be requested later by a
 client to obtain various resources via HTTP. This is the traditional historical web.
 
 *Services*, on the other hand, are designed to run long processes that can potentially be accessed other than via HTTP,
@@ -214,7 +214,7 @@ just like any *Site*.
 ### A plan that comes together
 
 Our application consists of two parts: a client and a WebSocket server. The WebSocket server cannot serve as a resource
-like a traditional web server (that’s not its role), so you will need two sites:
+like a traditional web server (that's not its role), so you will need two sites:
 
 1. A *Static files* type site that will serve your `index.html` client.
 2. A second site adapted to the language of your WebSocket server to execute it.
@@ -239,16 +239,16 @@ Head to this address: your WebSocket communication is up and running!
 This article is, of course, only an introduction to the concepts of WebSocket, but it highlights several fundamental elements:
 
 1. WebSocket enables bi-directional and simultaneous multi-client communication.
-2. A WebSocket server runs in parallel with the application’s Web server. The latter is responsible for distributing the
+2. A WebSocket server runs in parallel with the application's Web server. The latter is responsible for distributing the
    application to the browser, which will then start it; but it is the former that is responsible for the transit of
    business data flows.
 3. Even though it seems to be a different protocol, WebSocket exploits the fundamentals of the Web, its underlying
    building blocks, and its robust protocols.
 
-You don’t need to be a network expert to develop with WebSocket. You will use what you already know well from the *Web*,
+You don't need to be a network expert to develop with WebSocket. You will use what you already know well from the *Web*,
 with its event model.
 
-It’s up to you to find the right uses that suit your needs; to add data processing; to transit JSON or binary formats;
+It's up to you to find the right uses that suit your needs; to add data processing; to transit JSON or binary formats;
 to support authentication… Everything you already know how to do on the Web is applicable.
 
 Happy coding!

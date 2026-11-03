@@ -29,7 +29,7 @@ abonnements (hébergement, adresse IP, etc.).
 Pour le faire, rendez-vous dans **Facturation > Paramètres > Jour de facturation**.
 
 Une _facture de prorata_ (sur chaque produit souscrit) est générée lors de la mise en place de cette fonctionnalité afin
-d’aligner les dates.
+d'aligner les dates.
 
 ## Changer de raison sociale
 

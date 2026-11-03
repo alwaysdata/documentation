@@ -73,7 +73,7 @@ On the Public Cloud,the maximum number of simultaneous connections per user is *
 change this on the Private Cloud.
 
 An [ANALYZE TABLE](https://mariadb.com/kb/en/analyze-table/) is carried out daily on all your tables to guarantee good
-performance, but don’t hesitate to do it yourself when your data changes drastically, for example after importing a
+performance, but don't hesitate to do it yourself when your data changes drastically, for example after importing a
 database.
 
 To check the MariaDB configuration use the SQL query `show variables`.

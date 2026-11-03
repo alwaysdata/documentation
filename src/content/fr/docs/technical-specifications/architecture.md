@@ -52,7 +52,7 @@ Chaque compte est isolé des autres via une conteneurisation basée sur [Cgroups
 Il exécute ainsi ses propres programmes, ses propres serveurs HTTP pour offrir une sécurisation et une personnalisation
 poussée.
 
-Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d’un serveur.
+Notre système distribue automatiquement les ressources disponibles, équitablement entre tous les comptes d'un serveur.
 Lorsqu'un compte rencontre un pic de consommation, la plateforme redistribue ses ressources, en prélevant les comptes
 peu ou pas actifs, pour les réaffecter temporairement.
 

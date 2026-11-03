@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 3
 ---
 
-An operation that is free, this allows transferring the domain’s *technical* management without touching its
+An operation that is free, this allows transferring the domain's *technical* management without touching its
 *administrative* management (its registrar). If you wish to move all of the management to alwaysdata, use a [domain
 transfer](/en/docs/domains/transfer-a-domain).
 

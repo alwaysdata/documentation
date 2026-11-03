@@ -39,5 +39,5 @@ For TOTP verifications, you will need to indicate the code sent by your software
 
 > The installation is complete, the SSH 2-factor authentication is now activated.
 
-[^1]: Although it was [developed by Google](https://github.com/google/google-authenticator-libpam/), this is a **general** and **open source** [OTP](https://en.wikipedia.org/wiki/One-time_password) tool. At no time does it communicate with Google’s servers.
+[^1]: Although it was [developed by Google](https://github.com/google/google-authenticator-libpam/), this is a **general** and **open source** [OTP](https://en.wikipedia.org/wiki/One-time_password) tool. At no time does it communicate with Google's servers.
 [^2]: Examples of applications: [FreeOTP](https://freeotp.github.io/) - [Android](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp), [iOS](https://itunes.apple.com/us/app/freeotp-authenticator/id872559395?mt=8) and [F-Droid](https://f-droid.org/packages/org.fedorahosted.freeotp) ([Github](https://github.com/freeotp)) | Google Authenticator - [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://apps.apple.com/fr/app/google-authenticator/id388497605).

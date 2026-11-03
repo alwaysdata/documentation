@@ -27,7 +27,7 @@ Ruby runs behind [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), you can 
 `/home/[account]/admin/logs/uwsgi/[id].log` file where `[id]` is the identifier for your site, shown in the Web > Sites
 section.
 
-An extract of these logs is presented in the administration’s interface (Logs - 📄).
+An extract of these logs is presented in the administration's interface (Logs - 📄).
 
 ## Binary to use
 

@@ -13,7 +13,7 @@ go to **Web > Configuration > Apache**.
 
 All of the modifications made in the *Apache global directives* field will impact the
 `/home/[account]/admin/config/apache/sites.conf` file. Apache error logs are available in file
-`/home/[account]/admin/logs/apache/apache.log`. An extract of these logs is presented in the administration’s interface
+`/home/[account]/admin/logs/apache/apache.log`. An extract of these logs is presented in the administration's interface
 (Logs - 📄).
 
 Apache serves PHP, Static Files and Custom Apache websites.

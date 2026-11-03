@@ -7,7 +7,7 @@ authors: ["Matthias Dugué"]
 
 Dans un écosystème *front-end* toujours plus avancé, toujours plus riche en *frameworks*, avec un *tooling* toujours
 plus exigeant, on peut parfois se retrouver dans une situation cocasse : comment gérer un déploiement fiable et efficace
-? Cas d’école avec **Create React App**, c’est parti !
+? Cas d'école avec **Create React App**, c'est parti !
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJsN2c4ZWs2YXB5MDFuYnpvNjB1NmJrMXQ2OWcyYzN1dnd3d2F6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6MbsFDtuAOwPdBxC/giphy.gif)
 
@@ -16,29 +16,29 @@ plus exigeant, on peut parfois se retrouver dans une situation cocasse : comment
 >
 > - *Local* : ces commandes sont à exécuter sur votre environnement de développement local (probablement : votre laptop)
 >   ;
-> - *Serveur* : sur votre compte d’hébergement. Chez **alwaysdata**, vous pouvez vous connecter en *SSH* pour exécuter
+> - *Serveur* : sur votre compte d'hébergement. Chez **alwaysdata**, vous pouvez vous connecter en *SSH* pour exécuter
 >   ces commandes.
 >
-> Dans le cas d’un hébergement chez **alwaysdata**, les mentions `<account>` dans les chemins/URLs/etc. font référence à
+> Dans le cas d'un hébergement chez **alwaysdata**, les mentions `<account>` dans les chemins/URLs/etc. font référence à
 > votre nom de compte (*i.e.* si votre nom de compte est `superman`, remplacez `<account>` par `superman`)
 
-## *Create React App*, c’est quoi ?
+## *Create React App*, c'est quoi ?
 
 Que vous ayez manqué les dernières années du développement *front-end*, ou que vous soyez un peu perdu dans vos premiers
 pas avec *React*, petit rappel : **React** est un framework *JS/TypeScript* qui vous offre un environnement de
-développement pour vos sites et applications Web. J’insiste sur la partie *front-end* du sujet : même s’il est possible
-d’utiliser *React* avec une partie de rendu côté serveur, son cas d’usage premier est bien de générer des *assets front*
+développement pour vos sites et applications Web. J'insiste sur la partie *front-end* du sujet : même s'il est possible
+d'utiliser *React* avec une partie de rendu côté serveur, son cas d'usage premier est bien de générer des *assets front*
 : *HTML, CSS, JavaScript*. Rien de plus.
 
-Puisqu’une app *React* n’est qu’un ensemble de fichiers statiques, pas besoin d’avoir une architecture *backend*
+Puisqu'une app *React* n'est qu'un ensemble de fichiers statiques, pas besoin d'avoir une architecture *backend*
 complexe pour servir votre *front-end*. Ni serveur *Node.js*, ni rien. Un simple serveur Web HTTP suffit. Comme
-l’indique la [documentation de déploiement de *Create React App*](https://create-react-app.dev/docs/deployment/) :
+l'indique la [documentation de déploiement de *Create React App*](https://create-react-app.dev/docs/deployment/) :
 
 > Set up your favorite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths
 > like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
 
-J’en profite pour ajouter un mot sur *Create React App*. Si *React* est un framework dédié à la conception
-d’applications Web, la mise en place de tout son *tooling* peut s’avérer complexe. Des outils encapsulant toute cette
+J'en profite pour ajouter un mot sur *Create React App*. Si *React* est un framework dédié à la conception
+d'applications Web, la mise en place de tout son *tooling* peut s'avérer complexe. Des outils encapsulant toute cette
 logique sont donc apparus pour vous faciliter les choses.
 
 ## Le dev vs. la prod
@@ -58,12 +58,12 @@ compilation de votre projet.
 La compilation ? Eh oui ! Votre application *front* ne va pas être directement servie à vos clients, mais va devoir être
 transpilée vers JavaScript. *Create React App* a doté votre projet de deux commandes :
 
-- `npm start` : c’est votre commande en mode développement ; elle va lancer un serveur web sur votre machine pour vous
+- `npm start` : c'est votre commande en mode développement ; elle va lancer un serveur web sur votre machine pour vous
   permettre de travailler sur votre application confortablement (avec du *hot-reloading*, etc.) ;
-- `npm run build` : c’est la commande dédiée à la *transpilation*, celle qui va produire les *assets* statiques que vous
+- `npm run build` : c'est la commande dédiée à la *transpilation*, celle qui va produire les *assets* statiques que vous
   devrez ensuite déployer côté serveur.
 
-Côté serveur à présent : dans votre interface d’administration *alwaysdata*, créez un nouveau site de type **Fichiers
+Côté serveur à présent : dans votre interface d'administration *alwaysdata*, créez un nouveau site de type **Fichiers
 statiques**, avec les informations suivantes :
 
 - adresse : `<account>.alwaysdata.net/my-app`
@@ -71,18 +71,18 @@ statiques**, avec les informations suivantes :
 
 ![Création du site « Fichiers statiques »](images/fr_creation-site-statique.png)
 
-Comme ce répertoire n’existe pas encore, créez-le depuis votre environnement local via *SSH* :
+Comme ce répertoire n'existe pas encore, créez-le depuis votre environnement local via *SSH* :
 
 ```shell
 ssh <account>@ssh-<account>.alwaysdata.net mkdir -p www/my-app/build
 ```
 
-## Déploiement manuel : l’option simple et rapide
+## Déploiement manuel : l'option simple et rapide
 
 Tout est prêt côté serveur pour recevoir votre site *React* ! En avant pour le déploiement.
 
-Vous devez d’abord indiquer l’*URL* finale de votre projet dans le fichier `package.json` pour permettre à la tâche de
-*build* de générer les *assets* avec les bons chemins de fichiers. Ajoutez l’entrée suivante :
+Vous devez d'abord indiquer l'*URL* finale de votre projet dans le fichier `package.json` pour permettre à la tâche de
+*build* de générer les *assets* avec les bons chemins de fichiers. Ajoutez l'entrée suivante :
 
 ```json
 "homepage": "//<account>.alwaysdata.net/my-app"
@@ -100,7 +100,7 @@ Vous obtenez un répertoire `build` qui contient vos assets statiques. Pour les 
 rsync -rz build <account>@ssh-<account>.alwaysdata.net:www/my-app
 ```
 
-Vous pouvez vous rendre à l’adresse de votre site, et admirer la première mise en prod. de votre application !
+Vous pouvez vous rendre à l'adresse de votre site, et admirer la première mise en prod. de votre application !
 
 ## Déploiement automatisé depuis Github : la solution des pros
 
@@ -114,11 +114,11 @@ Entrons dans la partie *DevOps* en automatisant le processus via des *Webhooks G
 
 ### *Webhooks*, le lien automagique
 
-Avec les *webhooks*, c’est désormais *GitHub* qui va prévenir votre site qu’une nouvelle version est disponible chaque
+Avec les *webhooks*, c'est désormais *GitHub* qui va prévenir votre site qu'une nouvelle version est disponible chaque
 fois que vous pousserez de nouveaux *commits* sur la branche `main` principale.
 
-Pour ça, il va falloir doter votre compte *alwaysdata* d’un service de *webhooks* qui exécutera la tâche de déploiement
-à votre place. Le projet [adnanh/webhook](https://github.com/adnanh/webhook/) fera très bien l’affaire. Connectez-vous
+Pour ça, il va falloir doter votre compte *alwaysdata* d'un service de *webhooks* qui exécutera la tâche de déploiement
+à votre place. Le projet [adnanh/webhook](https://github.com/adnanh/webhook/) fera très bien l'affaire. Connectez-vous
 sur votre compte via *SSH* et installez-le :
 
 ```shell
@@ -127,7 +127,7 @@ $ wget -O- https://github.com/adnanh/webhook/releases/download/2.8.0/webhook-lin
   | tar -xz --strip-components=1 -C webhook
 ```
 
-Créez ensuite un nouveau site dans votre interface d’administration *alwaysdata* de type **Programme utilisateur** avec
+Créez ensuite un nouveau site dans votre interface d'administration *alwaysdata* de type **Programme utilisateur** avec
 les informations suivantes :
 
 - adresse : `<account>.alwaysdata.net/webhook`
@@ -142,9 +142,9 @@ les informations suivantes :
 ### *GitHub*, le Central Perk
 
 Côté *GitHub* à présent, nous allons configurer un nouveau dépôt pour notre projet. [Créez-le comme
-d’habitude](https://github.com/new) en lui donnant le nom de votre projet.
+d'habitude](https://github.com/new) en lui donnant le nom de votre projet.
 
-![Création d’un dépôt GitHub « my-app »](images/en_github-create-repo.png)
+![Création d'un dépôt GitHub « my-app »](images/en_github-create-repo.png)
 
 Puis rendez-vous dans la partie *Settings* pour ajouter un nouveau *webhook* vers votre serveur :
 
@@ -152,12 +152,12 @@ Puis rendez-vous dans la partie *Settings* pour ajouter un nouveau *webhook* ver
 - secret : *un mot de passe aléatoire*
 - content-type : `application/json`
 
-![Ajout d’un webhook dans le dépôt GitHub](images/en_github-add-webhook.png)
+![Ajout d'un webhook dans le dépôt GitHub](images/en_github-add-webhook.png)
 
 ### Nono, le petit robot
 
 Notre dépôt *GitHub* est configuré, il va maintenant déclencher des requêtes vers votre serveur *webhooks* lors de
-nouveaux évènements, comme les `git push`. Il ne nous reste plus qu’à automatiser le déploiement.
+nouveaux évènements, comme les `git push`. Il ne nous reste plus qu'à automatiser le déploiement.
 
 Connectez-vous en SSH et créez le fichier `webhook/hooks.yaml` pour configurer vos *webhooks* :
 
@@ -189,10 +189,10 @@ Connectez-vous en SSH et créez le fichier `webhook/hooks.yaml` pour configurer 
 ```
 
 *Note* : pensez à remplacer les valeurs de `<account>` et de `<github_webhook_secret>` dans cette configuration, puis à
-[redémarrer le site *webhook*](https://admin.alwaysdata.com/site/) dans l’interface d’administration une fois terminé.
+[redémarrer le site *webhook*](https://admin.alwaysdata.com/site/) dans l'interface d'administration une fois terminé.
 
-Ce *webhook* `deploy` définit l’action à exécuter lors d’une notification *GitHub*. Il va appeler le script
-`webhook/deploy.sh` avec plusieurs paramètres, uniquement quand il s’agit d’un *push* sur la branche `main`.
+Ce *webhook* `deploy` définit l'action à exécuter lors d'une notification *GitHub*. Il va appeler le script
+`webhook/deploy.sh` avec plusieurs paramètres, uniquement quand il s'agit d'un *push* sur la branche `main`.
 
 Il ne manque plus que le script de déploiement proprement dit, celui qui sera exécuté par le serveur de *webhooks* lors
 de la notification. Il aura les tâches suivantes à réaliser :
@@ -225,7 +225,7 @@ rm -rf ${CLONE_DIR}
 
 *Note* : pensez à rendre le fichier exécutable avec la commande `chmod +x webhook/deploy.sh`.
 
-Vous y êtes ! Plus qu’à laisser l’ensemble se dérouler. Retournez dans votre environnement local, et ajoutez le dépôt
+Vous y êtes ! Plus qu'à laisser l'ensemble se dérouler. Retournez dans votre environnement local, et ajoutez le dépôt
 *GitHub* à votre projet avant de pousser la branche principale :
 
 ```shell
@@ -239,21 +239,21 @@ serveur le fichier `webhook/webhook.log`.
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXNtcnMwNXVkZW9xNWp1MDB0NTk5aTZjOThodjY4cmh1a3liOHppcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6HOkD1pSCne4E/giphy.gif)
 
-Faites des modifications sur votre site, poussez sur *GitHub*, rechargez votre site à l’adresse
-`http://<account>.alwaysdata.net/my-app`, et admirez ! Vous n’avez plus rien à faire pour gérer vos déploiements.
+Faites des modifications sur votre site, poussez sur *GitHub*, rechargez votre site à l'adresse
+`http://<account>.alwaysdata.net/my-app`, et admirez ! Vous n'avez plus rien à faire pour gérer vos déploiements.
 
-## Le bon *PaaS*, c’est celui qui vous convient
+## Le bon *PaaS*, c'est celui qui vous convient
 
 Pas besoin de solutions comme *Netlify*, *Heroku*, ou autre pour gérer la partie **DevOps** de vos déploiements. Même si
 ces plateformes proposent de nombreux outils pratiques pour faciliter vos mises en production (comme les déploiements
 atomiques, etc.), rien ne vous contraint à les utiliser.
 
-Nous avons ici mis en place une solution simple pour automatiser du déploiement d’applications *front-end* statiques sur
+Nous avons ici mis en place une solution simple pour automatiser du déploiement d'applications *front-end* statiques sur
 votre compte *alwaysdata* sans passer par des outils tiers. Notre outil de déploiement étant indépendant de
-l’application en elle-même, vous pouvez dès maintenant vous en servir pour déployer d’autres projets : dans un autre
+l'application en elle-même, vous pouvez dès maintenant vous en servir pour déployer d'autres projets : dans un autre
 dépôt *GitHub*, configurez un *webhook* pointant vers le même *endpoint* avec le même `secret`, et observez vos
 déploiements se faire seuls dans votre répertoire `www`.
 
-Libre à vous maintenant d’adapter la solution à des cas plus complexes, intégrant des tâches de migration, de mise à
+Libre à vous maintenant d'adapter la solution à des cas plus complexes, intégrant des tâches de migration, de mise à
 jour de bases de données, de *build* atomique pour prévenir les interruptions de services le temps du redéploiement… la
 liste est longue. À vos claviers 🤓 !

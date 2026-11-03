@@ -7,8 +7,8 @@ eleventyNavigation:
   order: 1
 ---
 
-Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d’installer son
-application. Ce script sera exécuté avec les *droits du compte sur lequel l’installation a lieu* et doit débuter par un
+Tout utilisateur peut proposer un script dans le *langage de son choix* qui permettra aux utilisateurs d'installer son
+application. Ce script sera exécuté avec les *droits du compte sur lequel l'installation a lieu* et doit débuter par un
 commentaire au format YAML.
 
 ![](images/create-script.png)
@@ -21,42 +21,42 @@ Les scripts se composent de deux parties :
   * **database** : mysql, postgresql, rabbitmq.
   * **requirements** : spécifier les conditions bloquantes pouvant être problématiques sur certains plans d'hébergement/packs.
   * **form** : toutes les variables demandées à l'utilisateur créant le site. Exemple : titre du site, identifiant
-    administrateur, adresse email, nom/prénom de l’administrateur...
+    administrateur, adresse email, nom/prénom de l'administrateur...
 * le **script** en lui-même
 
-## Variables d’environnement
+## Variables d'environnement
 
 | Variables | Description | Exemple |
 | --- | --- | --- |
 | USER | Nom du compte | `foo` |
 | HOME | Racine du compte pour le script | `/home/foo/exemple/` |
-| APPLICATION_NAME | Nom de l’application | |
+| APPLICATION_NAME | Nom de l'application | |
 | INSTALL_URL | Adresse du site | `foo.exemple.net/test` |
 | INSTALL_URL_PATH | Racine du site (base URL) | `/test` |
-| INSTALL_URL_HOSTNAME | Nom d’hôte du site | `foo.exemple.net` |
+| INSTALL_URL_HOSTNAME | Nom d'hôte du site | `foo.exemple.net` |
 | INSTALL_PATH_RELATIVE | Chemin relatif depuis la racine du compte (sans slash final) | `exemple` |
 | INSTALL_PATH | Chemin absolu (sans slash final) | `/home/foo/exemple` |
 | DATABASE_USERNAME | Utilisateur de connexion à la base de données (automatiquement généré) | `foo_*` |
-| DATABASE_PASSWORD | Mot de passe de l’utilisateur de connexion à la base de données (automatiquement généré) | |
+| DATABASE_PASSWORD | Mot de passe de l'utilisateur de connexion à la base de données (automatiquement généré) | |
 | DATABASE_NAME | Base de données du site (automatiquement générée) | `foo_*` |
-| DATABASE_HOST | Nom d’hôte de connexion au serveur de base de données | `mysql-foo.alwaysdata.net` (base MySQL) |
-| SMTP_HOST | Nom d’hôte de connexion au serveur d’envoi d'emails | `smtp-foo.alwaysdata.net` |
+| DATABASE_HOST | Nom d'hôte de connexion au serveur de base de données | `mysql-foo.alwaysdata.net` (base MySQL) |
+| SMTP_HOST | Nom d'hôte de connexion au serveur d'envoi d'emails | `smtp-foo.alwaysdata.net` |
 | RESELLER_DOMAIN | Domaine-racine utilisé par l'hébergeur | `alwaysdata.net` |
 | FORM_* | Autres variables explicitement demandées à l'utilisateur dans la section "form" du dataset YAML | |
 | PORT | Port spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno | |
 | `::` ou IP | IP spécifique pour les sites de type Programme utilisateur, Node.js, Elixir, .NET et Deno (préférer `::` à IP) | |
 
-Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
+Si d'autres variables sont nécessaires, ouvrez un [ticket de support](https://admin.alwaysdata.com/support/add/).
 
 ### Notes et astuces
 
-* Le script doit commencer par `set -e` pour le stopper lorsqu’il échoue ;
+* Le script doit commencer par `set -e` pour le stopper lorsqu'il échoue ;
 * Indiquer la **version du langage utilisée** (PHP, Python, Ruby, Node.js et Elixir) est préconisé pour éviter de
   dépendre de la configuration par défaut du compte ;
 * Le répertoire racine indiqué par l'utilisateur (`INSTALL_PATH`) sert de racine pour le script (un `export HOME=` est
   exécuté par défaut) ;
 * Pour rendre un script d'installation public il faut indiquer la condition `disk` des `requirements` ;
-* Il est préférable de demander un nombre minimal d’informations pour éviter de rendre le script exhaustif. *Les
+* Il est préférable de demander un nombre minimal d'informations pour éviter de rendre le script exhaustif. *Les
   utilisateurs pourront modifier la configuration de leur application ultérieurement.*
 * Pour ajouter un champ de formulaire **optionnel**, il faut mettre l'option `required` à `false`. Si l'utilisateur
   n'indique rien le champ restera vide ;
@@ -64,19 +64,19 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
   l'utilisateur peut avoir les questions du formulaire dans les langues précisées.
 
 > [!NOTE]
-> Pour rendre son script accessible aux utilisateurs de la plateforme d’alwaysdata, il est nécessaire de cocher la case
+> Pour rendre son script accessible aux utilisateurs de la plateforme d'alwaysdata, il est nécessaire de cocher la case
 > pour le rendre *public*.
-> **Tout script marqué comme public doit être maintenu et sera a minima vérifié par l’équipe d’alwaysdata.**
+> **Tout script marqué comme public doit être maintenu et sera a minima vérifié par l'équipe d'alwaysdata.**
 
 <!-- -->
 
 > [!TIP] Astuce
-> Une *URL d’un dépôt* peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications
-> poussées sur le dépôt il ne reste qu’à mettre à jour l’application via le bouton prévu à cet effet.
+> Une *URL d'un dépôt* peut être indiquée pour faciliter la maintenance. Dans ce cas, une fois les modifications
+> poussées sur le dépôt il ne reste qu'à mettre à jour l'application via le bouton prévu à cet effet.
 
 ## Exemples
 
-1. Script d’installation d'Odoo
+1. Script d'installation d'Odoo
 
    ```bash
    #!/bin/bash
@@ -135,7 +135,7 @@ Si d’autres variables sont nécessaires, ouvrez un [ticket de support](https:/
    La condition `disk:1400` précise que l'installation d'Odoo nécessite 1400 Mo d'espace disque. L'offre gratuite (Free)
    est donc trop juste.
 
-2. Script d’installation de Backdrop
+2. Script d'installation de Backdrop
 
 ```bash
 #!/bin/bash

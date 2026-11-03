@@ -11,12 +11,12 @@ l'[IETF](https://datatracker.ietf.org/doc/html/rfc6455) la même année, le prot
 d'applications Web de s'affranchir du modèle Client/Server TCP traditionnel pour le transfert de données en temps réel.
 
 Dans ce modèle initial, le client requête auprès du serveur une ressource, ce dernier la lui retourne, fin de la
-communication. Il n’est notamment pas possible pour le serveur de « pousser » facilement des messages au client (comme
+communication. Il n'est notamment pas possible pour le serveur de « pousser » facilement des messages au client (comme
 des notifications).
 
-WebSocket apporte le support d’une communication bidirectionnelle (dite *full-duplex*) dans laquelle le serveur peut
+WebSocket apporte le support d'une communication bidirectionnelle (dite *full-duplex*) dans laquelle le serveur peut
 désormais spontanément « pousser » de la donnée vers le client ; et où le client peut souscrire aux messages qui
-l’intéressent pour y réagir ensuite. L’interactivité applicative, directement dans le navigateur !
+l'intéressent pour y réagir ensuite. L'interactivité applicative, directement dans le navigateur !
 
 En 2023, héberger une application serveur WebSocket, comment ça marche ?
 
@@ -49,12 +49,12 @@ disponibles. Pour les besoins de la démonstration[^1], nous allons implémenter
 puis en Python. Libre à vous de le réaliser en PHP, en Ruby, en Java, en Perl…
 
 Notre exemple est tout simple : une fois connecté, notre client pourra envoyer le message `ping` au serveur, qui
-renverra alors `pong` à tous les clients connectés, une seconde plus tard. Ce simple exemple démontre l’interactivité
-entre tous les éléments connectés (c’est-à-dire du *broadcasting*) de notre application.
+renverra alors `pong` à tous les clients connectés, une seconde plus tard. Ce simple exemple démontre l'interactivité
+entre tous les éléments connectés (c'est-à-dire du *broadcasting*) de notre application.
 
 ### En Node.js…
 
-À l’heure actuelle la librairie la plus réputée pour réaliser une application serveur WebSocket en Node.js est
+À l'heure actuelle la librairie la plus réputée pour réaliser une application serveur WebSocket en Node.js est
 [websockets/ws](https://github.com/websockets/ws). Ajoutez le paquet `ws` à votre projet via `npm`[^2], et créez un
 fichier `wss.js` pour votre serveur WebSocket :
 
@@ -67,10 +67,10 @@ const wss = new WebSocketServer({
 });
 ```
 
-Nous attachons le serveur WebSocket au couple `IP`/`PORT` exposé dans les variables d’environnement pour plus de
+Nous attachons le serveur WebSocket au couple `IP`/`PORT` exposé dans les variables d'environnement pour plus de
 flexibilité, avec un fallback vers le port `8080` pour faciliter le développement.
 
-Notre serveur est prêt, reste à le doter de ses fonctionnalités. Tout d’abord, il doit pouvoir recevoir les connexions
+Notre serveur est prêt, reste à le doter de ses fonctionnalités. Tout d'abord, il doit pouvoir recevoir les connexions
 des clients :
 
 ```javascript
@@ -80,7 +80,7 @@ wss.on('connection', (ws) => {
 });
 ```
 
-Ensuite, lorsqu’un client enverra le message `ping`, il devra renvoyer `pong` à tous les clients actifs :
+Ensuite, lorsqu'un client enverra le message `ping`, il devra renvoyer `pong` à tous les clients actifs :
 
 ```javascript
 wss.on('connection', (ws) => {
@@ -105,8 +105,8 @@ node wss.js
 
 ### … ou en Python !
 
-Pour changer un peu des exemples habituels, réalisons le même serveur WebSocket en Python, à l’aide d’*asyncio* et de
-[websockets](https://pypi.org/project/websockets/). Commencez par installer le paquet `websockets` à l’aide de `pip`
+Pour changer un peu des exemples habituels, réalisons le même serveur WebSocket en Python, à l'aide d'*asyncio* et de
+[websockets](https://pypi.org/project/websockets/). Commencez par installer le paquet `websockets` à l'aide de `pip`
 dans votre venv, puis créez un fichier `wss.py`.
 
 ```python
@@ -135,7 +135,7 @@ if name == "__main__":
     asyncio.run(main())
 ```
 
-Définissons maintenant nos fonctionnalités : enregistrement des clients et diffusion du message lors d’un `ping`.
+Définissons maintenant nos fonctionnalités : enregistrement des clients et diffusion du message lors d'un `ping`.
 Enrichissez la méthode `handler` qui contient la logique de notre serveur :
 
 ```python
@@ -154,7 +154,7 @@ async def handler(websocket):
 ### Le client Web
 
 Notre client va rester simple : une page web embarquant directement le JavaScript à exécuter pour se connecter au
-serveur WebSocket, et envoyer un `ping` lors de la connexion. Il disposera aussi d’une méthode pour renvoyer un nouveau
+serveur WebSocket, et envoyer un `ping` lors de la connexion. Il disposera aussi d'une méthode pour renvoyer un nouveau
 `ping` manuellement.
 
 Créez un fichier `index.html` pour votre client :
@@ -191,7 +191,7 @@ voir apparaître les messages de `ping`/`pong` dans la console. Essayez en exéc
 dans les devtools.
 
 Ouvrez maintenant une seconde fois cette page HTML dans un autre onglet, devtools ouverts. Exécutez la fonction `ping()`
-indifféremment dans l’un des deux onglets. Les deux vont recevoir le `pong` depuis le serveur.
+indifféremment dans l'un des deux onglets. Les deux vont recevoir le `pong` depuis le serveur.
 
 Félicitations, vous avez un premier niveau de communication broadcast bidirectionnelle client/serveur en *full-duplex*
 via WebSocket !
@@ -203,41 +203,41 @@ via WebSocket !
 Il nous reste à déployer ce serveur WebSocket et le client dans un environnement de production.
 
 Chez **alwaysdata** nous proposons plusieurs solutions pour déployer des outils devant être exécutés en temps long,
-c’est-à-dire de manière joignable dans le futur par un client : les *Sites*, et les *Services*.
+c'est-à-dire de manière joignable dans le futur par un client : les *Sites*, et les *Services*.
 
-Pour les *Sites*, pas besoin de faire un dessin : il s’agit de déployer un serveur Web (Apache, WSGI, Node, etc.) qui
+Pour les *Sites*, pas besoin de faire un dessin : il s'agit de déployer un serveur Web (Apache, WSGI, Node, etc.) qui
 sera requêté ultérieurement par un client pour obtenir différentes ressources via HTTP. Le Web historique traditionnel.
 
 Les *Services*, eux, sont destinés à exécuter des processus longs, potentiellement joignables autrement que par HTTP,
-dans l’environnement de votre compte (un serveur de dépôts Git over SSH avec
+dans l'environnement de votre compte (un serveur de dépôts Git over SSH avec
 [soft-serve](https://github.com/charmbracelet/soft-serve) ou un système de surveillance / filtrage de messagerie, par
 exemple).
 
 Alors, pour un serveur WebSocket, *Sites*, ou *Services* ?
 
 Si on peut imaginer que les Services sont le bon endroit — *un processus long potentiellement joignable de
-l’extérieur*— je le répète ici : dans WebSocket, il y a *Web* ! Le protocole WebSocket est logiciel et exploite
-HTTP/TCP, comme n’importe quel *Site*.
+l'extérieur*— je le répète ici : dans WebSocket, il y a *Web* ! Le protocole WebSocket est logiciel et exploite
+HTTP/TCP, comme n'importe quel *Site*.
 
 ### Un plan sans accroc
 
 Votre application se compose de deux briques : un client, et un serveur WebSocket. Le serveur WebSocket ne peut pas
-servir de ressource comme un serveur Web traditionnel (ce n’est pas son rôle), il va donc vous falloir deux sites :
+servir de ressource comme un serveur Web traditionnel (ce n'est pas son rôle), il va donc vous falloir deux sites :
 
 1. un site de type *Fichiers statiques* qui va servir votre client `index.html` ;
 2. un second site adapté au langage de votre serveur WebSocket pour exécuter ce dernier.
 
 Pour le serveur WebSocket, utilisez une adresse du type : `[mon-compte].alwaysdata.net/wss`. Votre client WebSocket
 devra se connecter à cette adresse. Puisque celui-ci se trouve derrière un `pathUrl` (et non à la racine), pensez à
-cocher la case *extraire le chemin*. Il vous faut aussi passer la valeur du *temps d’inactivité* à `0` pour garantir que
+cocher la case *extraire le chemin*. Il vous faut aussi passer la valeur du *temps d'inactivité* à `0` pour garantir que
 celui-ci ne sera jamais arrêté par le système, et maintenir actives les connexions vers les clients, même en cas
-d’absence d’activité prolongée.
+d'absence d'activité prolongée.
 
 ![Site WebSocket (python)](images/wss-server-site-1_fr.png)
-![Site WebSocket, réglages avancés : temps d’inactivité à 0, et exclure le chemin](images/wss-server-site-2_fr.png)
+![Site WebSocket, réglages avancés : temps d'inactivité à 0, et exclure le chemin](images/wss-server-site-2_fr.png)
 
-Modifiez ensuite le fichier `index.html` pour renseigner l’url du serveur WebSocket dans la variable `WS_SERVER`. Créez
-ensuite un site *Fichiers statiques* avec l’adresse `[mon-compte].alwaysdata.net` pour servir ce fichier.
+Modifiez ensuite le fichier `index.html` pour renseigner l'url du serveur WebSocket dans la variable `WS_SERVER`. Créez
+ensuite un site *Fichiers statiques* avec l'adresse `[mon-compte].alwaysdata.net` pour servir ce fichier.
 
 ![Site client statique](images/wss-static-site_fr.png)
 
@@ -245,20 +245,20 @@ Rendez-vous maintenant sur cette adresse : votre communication WebSocket est fon
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzc1a2ZhaXFhc202ejg0ZDZybWw5aDZ0N2hsbjd6dDR0ZGZyaTY1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohryvw2Kca5ggPAAg/giphy.gif)
 
-Cet article n’est, évidemment, qu’une introduction aux concepts de WebSocket, mais il pointe plusieurs éléments
+Cet article n'est, évidemment, qu'une introduction aux concepts de WebSocket, mais il pointe plusieurs éléments
 fondamentaux :
 
 1. WebSocket permet une communication bidirectionnelle et multi-cliente simultanée.
-2. Un serveur WebSocket tourne en parallèle du serveur Web de l’application. Ce dernier se charge de distribuer
-   l’application au navigateur, qui va la démarrer ; mais c’est le premier qui est responsable du transit des flux de
+2. Un serveur WebSocket tourne en parallèle du serveur Web de l'application. Ce dernier se charge de distribuer
+   l'application au navigateur, qui va la démarrer ; mais c'est le premier qui est responsable du transit des flux de
    données métier.
-3. Même s’il semble être un protocole différent, WebSocket exploite les fondamentaux du Web, ses briques sous-jacentes,
+3. Même s'il semble être un protocole différent, WebSocket exploite les fondamentaux du Web, ses briques sous-jacentes,
    et ses protocoles robustes.
 
-Vous n’avez pas besoin d’être un expert réseau pour développer avec WebSocket. Vous utiliserez ce que vous connaissez
-déjà bien du *Web*, avec son modèle d’évènements.
+Vous n'avez pas besoin d'être un expert réseau pour développer avec WebSocket. Vous utiliserez ce que vous connaissez
+déjà bien du *Web*, avec son modèle d'évènements.
 
-Libre à vous de trouver maintenant les bons usages, adaptés à vos besoins ; d’ajouter du traitement de données ; faire
+Libre à vous de trouver maintenant les bons usages, adaptés à vos besoins ; d'ajouter du traitement de données ; faire
 transiter des formats JSON ou binaires ; de supporter une authentification… Tout ce que vous savez déjà faire en Web est
 applicable.
 

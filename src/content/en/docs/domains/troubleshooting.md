@@ -56,7 +56,7 @@ you send the email:
 This domain has been suspended by ICANN because its owner did not confirm their email address before the deadline following its creation, transfer, or change of ownership.
 ```
 
-If you are not sure of the email address, you can change it in the owner’s contact information from the **Domains >
+If you are not sure of the email address, you can change it in the owner's contact information from the **Domains >
 Details of [example.org] - 🔎 > MODIFY** (oposite **Owner**).
 
 ## Links

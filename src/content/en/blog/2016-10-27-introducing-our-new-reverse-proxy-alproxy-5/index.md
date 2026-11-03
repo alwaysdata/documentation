@@ -49,7 +49,7 @@ HTTPS configuration is now ranked A on SSLabs. And thanks to
 [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), a private IP is no longer required to use your own
 certificate.
 
-We are actively working on the integration of [Let’s Encrypt](https://letsencrypt.org/). In a few weeks, Let’s encrypt
+We are actively working on the integration of [Let's Encrypt](https://letsencrypt.org/). In a few weeks, Let's encrypt
 certificates will be fully and automatically managed by alwaysdata. Thus, HTTPS will be enabled by default on all
 websites and domains. We also plan to enable OCSP stapling and TLS session resumption, two features of TLS that will
 bring welcomed performance improvements.

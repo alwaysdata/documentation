@@ -22,7 +22,7 @@ You can restore [a website](/en/docs/web-hosting/backups/restore-a-site) or
 interface.
 
 > [!NOTE]
-> Backups are not counted as part of an account’s disk space quota.
+> Backups are not counted as part of an account's disk space quota.
 
 <!-- -->
 

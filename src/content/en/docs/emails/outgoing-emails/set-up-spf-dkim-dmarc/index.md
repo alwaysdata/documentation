@@ -54,7 +54,7 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 - `include:_spf.alwaysdata.com` **explicitly allows our servers** to send emails,
 - `~all` sends a slight "SOFTFAIL" failure result for the other sender servers.
 
- If the domain doesn’t use alwaysdata’s DNS servers, you must then, in the DNS service provider, add
+ If the domain doesn't use alwaysdata's DNS servers, you must then, in the DNS service provider, add
  `include:_spf.alwaysdata.com` to the SPF registration.
 
 ### Links
@@ -68,7 +68,7 @@ A SPF record is created by default and can be found in the **DNS records** tab f
 [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is used to authenticate the domain name by adding a
 signature to all of the outgoing emails. Concretely, this works with two keys:
 
-- a private key that is known - and kept secret - from the domain’s mail delivery servers;
+- a private key that is known - and kept secret - from the domain's mail delivery servers;
 - a public key that corresponds to a DNS registration of the `TXT` type.
 
 ![](images/globalcyberalliance-dkim.png)
@@ -80,7 +80,7 @@ the domain:
 
 ![](images/dkim-record.png)
 
-If the domain doesn’t use alwaysdata’s DNS servers, this record must be recopied with your DNS service provider.
+If the domain doesn't use alwaysdata's DNS servers, this record must be recopied with your DNS service provider.
 
 > It is possible to generate others in **Domains > Details of [example.org] - 🔎 > Configuration**.
 

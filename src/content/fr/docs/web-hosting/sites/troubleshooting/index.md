@@ -17,7 +17,7 @@ Services externes permettant de vérifier la disponibilité d'un site : [Where's
 
 - [Connection to upstream refused, Connection to upstream skipped, Upstream not ready, Cannot parse upstream response](/fr/docs/hebergement-web/sites/problemes-frequents/erreurs-connection-to-upstream/)
 
-### This site can’t be reached / server DNS address could not be found
+### This site can't be reached / server DNS address could not be found
 
 - Vérifiez si le domaine existe, n'est pas expiré ou bloqué par l'[ICANN](https://www.icann.org/fr) via un `whois`[^1] ;
 - Vérifiez la [résolution DNS](https://www.dnswatch.info/) de l'adresse.

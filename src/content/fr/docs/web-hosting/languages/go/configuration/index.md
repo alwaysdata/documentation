@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## Version
 
-Go étant un langage compilé, il n’a pas besoin d’être installé chez alwaysdata pour être utilisé. Nous proposons
+Go étant un langage compilé, il n'a pas besoin d'être installé chez alwaysdata pour être utilisé. Nous proposons
 cependant la version 1.26 qui est utilisée lorsque vous démarrez `go`.
 
 Vous pouvez compiler vos programmes ailleurs, localement par exemple.

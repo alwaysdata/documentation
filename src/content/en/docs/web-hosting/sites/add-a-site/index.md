@@ -83,4 +83,4 @@ See [Logs](/en/docs/web-hosting/sites/customizing/formatting-http-logs).
 
 HTTP logs are available from directory `/home/[account]/admin/logs/http/`. The *site* logs showing "upstream" web site
 starts, stops and malfunctions are available from `/home/[account]/admin/logs/sites/`. An extract of these logs (with
-Apache & uWSGI logs) is presented in the administration’s interface (**Logs** - 📄).
+Apache & uWSGI logs) is presented in the administration's interface (**Logs** - 📄).

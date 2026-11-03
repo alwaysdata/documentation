@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 97
 ---
 
-En France, tout éditeur de site internet (physique ou moral), qu’il le soit à titre personnel ou professionnel, se doit
+En France, tout éditeur de site internet (physique ou moral), qu'il le soit à titre personnel ou professionnel, se doit
 de respecter un certain nombre d'obligations légales précises.
 
 ## Mentions légales

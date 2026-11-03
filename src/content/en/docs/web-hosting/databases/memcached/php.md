@@ -14,7 +14,7 @@ in your account through [SSH](/en/docs/web-hosting/remote-access/ssh).
 ad_install_pecl memcached
 ```
 
-Then don’t forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration/#parameters-php-ini):
+Then don't forget to [add the extension to your `php.ini`](/en/docs/web-hosting/languages/php/configuration/#parameters-php-ini):
 
 ```ini
 extension=/home/[account]/path/to/memcached-[VERSION].so

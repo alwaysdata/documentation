@@ -36,7 +36,7 @@ To change the company name, go to the **Profile** tab and subsequent invoices wi
 invoice has just been issued, you can *exceptionally* contact [support](https://admin.alwaysdata.com/support/add) and
 get them to generate a new one.
 
-## Finding a customer number / alwaysdata’s bank references
+## Finding a customer number / alwaysdata's bank references
 
 These are available from **Billing > Transactions > Credit the account** or **Billing > Payment methods > Credit the account**.
 

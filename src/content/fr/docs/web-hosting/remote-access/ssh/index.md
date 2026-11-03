@@ -57,7 +57,7 @@ Attention, cette solution peu fiable et lente ne remplace pas un client SSH.
 
 ## Divers
 
-Les _fingerprints_ de nos serveurs SSH sont affichés dans l’onglet **Accès distant > SSH/SFTP** de l'interface d'administration.
+Les _fingerprints_ de nos serveurs SSH sont affichés dans l'onglet **Accès distant > SSH/SFTP** de l'interface d'administration.
 
 Les processus en cours sont accessibles via le menu **Avancé > Processus > SSH**.
 
