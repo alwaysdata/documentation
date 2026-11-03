@@ -1,0 +1,20 @@
+[[repos]]
+repo = "builtin"
+hooks = [
+    { id = "check-added-large-files" },
+    { id = "check-executables-have-shebangs" },
+    { id = "check-merge-conflict" },
+    { id = "check-shebang-scripts-are-executable" },
+    { id = "check-toml" },
+    { id = "end-of-file-fixer" },
+    { id = "fix-byte-order-marker" },
+    { id = "mixed-line-ending" },
+    { id = "trailing-whitespace" },
+]
+
+[[repos]]
+repo = "https://github.com/DavidAnson/markdownlint-cli2"
+rev = "v0.24.0"
+hooks = [
+    { id = "markdownlint-cli2", files = "^src/" },
+]
