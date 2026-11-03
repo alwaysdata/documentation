@@ -25,7 +25,7 @@ comptes laissés à l'abandon.
   certain nombre de jours :
   - un profil ayant moins d'un an d'ancienneté doit se connecter tous les 120 jours ;
   - un profil ayant été créé entre 1 et 4 ans doit se connecter tous les 6 mois ;
-  - un profil ayant 4 ans d'ancienneté, 1 connexion par an est nécessaire.
+  - un profil ayant 4 ans d'ancienneté ou plus doit se connecter une fois par an.
 - résolution : se connecter à l'interface d'administration ;
 - expiration : suspension du profil inactif et de ses comptes.
 
@@ -39,7 +39,7 @@ comptes laissés à l'abandon.
 
 - événement déclencheur : un domaine va expirer dans X jours ;
 - résolution : renouveler le domaine ;
-- expiration : le domaine expirera donc risque de devenir indisponible.
+- expiration : le domaine expirera et risque donc de devenir indisponible.
 
 ### Renouvellement automatique de domaine
 

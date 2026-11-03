@@ -39,7 +39,7 @@ Un transfert ne peut avoir lieu dans les 60 jours suivant sa création ou un pr�
 
     ![](images/admin-panel_transfer-domain.png)
 
-2. Renseignez les noms de domaines que vous souhaitez acheter ;
+2. Renseignez les noms de domaines que vous souhaitez transférer ;
 
     ![](images/admin-panel_add-domain-1.png)
 

@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol) est un protocole permettant le
+FTP, pour [File Transfer Protocol](https://fr.wikipedia.org/wiki/File_Transfer_Protocol), est un protocole permettant le
 partage de fichiers sur un réseau distant.
 
 - [API - FTP](https://api.alwaysdata.com/v1/ftp/doc/)

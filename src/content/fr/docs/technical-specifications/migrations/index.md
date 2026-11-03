@@ -15,7 +15,7 @@ nouvelles migrations sont ajoutées régulièrement et nous avertissons nos util
 
 ![](migrations-menu.png)
 
-Certaines migrations sont facultatives : nous vous laissons le choix de l'effectuer ou non. D'autres migrations sont
+Certaines migrations sont facultatives : nous vous laissons le choix de les effectuer ou non. D'autres migrations sont
 obligatoires : vous disposez alors d'un certain temps pour les effectuer. Une fois la date limite atteinte, les
 migrations non effectuées le seront automatiquement.
 

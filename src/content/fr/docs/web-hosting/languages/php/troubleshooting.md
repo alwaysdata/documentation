@@ -24,7 +24,7 @@ Il peut y avoir de nombreuses raisons : manque d'optimisation, ressource externe
 ### Sessions bloquées
 
 Chaque fois qu'une session PHP est démarrée, un fichier est créé (`session.save_path`) reprenant toutes ses informations
-et lui allouera un ID. Lorsqu'un utilisateur revient il fournira cet ID qui permettra à `session_start()` de récupérer
+et un ID lui est alloué. Lorsqu'un utilisateur revient, il fournit cet ID qui permet à `session_start()` de récupérer
 ses données de session. Chaque fois que `session_start()` est démarré le fichier de session est verrouillé à l'aide de
 `flock`.
 

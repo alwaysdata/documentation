@@ -12,8 +12,8 @@ l'[interface d'administration](https://admin.alwaysdata.com).
 
 Celui-ci *peut* être propriétaire de **comptes** sur notre [Cloud
 Public](/fr/docs/admin-facturation/facturation/prix-cloud-public/) ainsi que des
-**[serveurs](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)** sur lesquels il peut créer des comptes. Chaque
-**compte** est *isolé* les uns des autres.
+**[serveurs](/fr/docs/admin-facturation/facturation/prix-cloud-prive/)** sur lesquels il peut créer des comptes. Les
+**comptes** sont *isolés* les uns des autres.
 
 Sur ces **comptes**, il est possible de gérer des [domaines](/fr/docs/domaines/), d'héberger des [adresses
 emails](/fr/docs/emails/), des [sites web](/fr/docs/hebergement-web/sites/), des [bases de

@@ -21,7 +21,7 @@ vos services seront aussitôt disponibles.
 
 - un profil ayant moins d'un an d'ancienneté doit se connecter tous les 120 jours ;
 - un profil ayant été créé entre 1 et 4 ans doit se connecter tous les 6 mois ;
-- un profil ayant 4 ans d'ancienneté, 1 connexion par an est nécessaire.
+- un profil ayant 4 ans d'ancienneté ou plus doit se connecter une fois par an.
 
 ## Contenu illicite
 

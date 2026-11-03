@@ -20,7 +20,7 @@ Le menu **Ressources** permet de configurer ses ressources système, comme l'esp
 - *Limite de CPU* : limite maximale que peut atteindre un compte à un instant T. Si elle est atteinte, des lenteurs ou
   indisponibilités sont à prévoir.
 
-- *Limite de RAM* : limite maximale que peut atteindre un compte à un instant T. Si elle est atteinte un processus (pas
+- *Limite de RAM* : limite maximale que peut atteindre un compte à un instant T. Si elle est atteinte, un processus (pas
   forcément le plus consommateur) est automatiquement tué par le système.
 
 Il est possible de gérer ces trois limites au niveau *serveur* ou au niveau *compte*. Les valeurs au niveau du compte

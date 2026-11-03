@@ -25,5 +25,5 @@ Par défaut, les adresses emails :
 - *pré-confirmées* : les utilisateurs seront automatiquement inscrits sans confirmation de leur part.
 - *pré-approuvées* : les modérateurs n'auront pas à revalider l'abonnement.
 
-Les adresses ne sont pas *pré-vérifiées* par défaut (ils doivent prouver que leur adresse est correcte en renvoyant un
-message), vous pouvez désactiver cette étape en cochant la case associée.
+Les adresses ne sont pas *pré-vérifiées* par défaut (les membres doivent prouver que leur adresse est correcte en renvoyant
+un message), vous pouvez désactiver cette étape en cochant la case associée.

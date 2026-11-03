@@ -15,7 +15,7 @@ Une fois identifié, rendez-vous dans la section de gestion de la liste de diffu
 
 ## Utilisation des *Modèles*
 
-Les *Modèles* vous permettent de définir des portions de contenus pouvant être injectés ou utilisés dans les messages
+Les *Modèles* vous permettent de définir des portions de contenu pouvant être injectées ou utilisés dans les messages
 automatiques de la liste.
 
 Pour les définir, rendez-vous dans la section *Modèles → Nouveau modèle*. La liste des modèles personnalisables

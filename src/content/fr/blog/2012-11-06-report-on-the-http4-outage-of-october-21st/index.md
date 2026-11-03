@@ -90,7 +90,7 @@ disponibles plus rapidement.*
 
 ### S'assurer que nos serveurs peuvent démarrer avec le noyau de notre fournisseur
 
-Notre fournisseur permet d'utiliser leur propre noyau Linux précompilé. Nous ne les utilisons pas pour de nombreuses
+Notre fournisseur permet d'utiliser ses propres noyaux Linux précompilés. Nous ne les utilisons pas pour de nombreuses
 raisons, notamment l'impossibilité d'en choisir la version, d'appliquer des patches ou de modifier la configuration.
 
 S'il n'est donc pas question de nous mettre à utiliser les noyaux standards de notre fournisseur (à cause des
@@ -122,9 +122,9 @@ techniciens de niveau 2, 24h/24.
 
 ## Et la redondance ?
 
-Nos serveurs étaient jusqu'à peu redondés en Irlande, utilisant la technologie [DRBD](http://www.drbd.org/). Cette
+Nos serveurs étaient jusqu'à récemment redondés en Irlande, utilisant la technologie [DRBD](http://www.drbd.org/). Cette
 redondance en temps réel, mise en place dès le début d'alwaysdata, avait pour but de pallier les pannes graves
-(matérielles, réseau) qui pourraient s'éterniser en basculant vers le datacenter de secours. Pourquoi ce basculement n'a
+(matérielles, réseau) qui pourraient s'éterniser en basculant vers le datacenter de secours. Pourquoi ce basculement n'a-t-il
 pas été fait ?
 
 Après plusieurs années équipés de cette redondance, nous avons progressivement commencé à la désactiver sur certains
@@ -165,7 +165,7 @@ minutes) :
 - le basculement présente des risques de split-brain si on ne peut pas s'assurer que la machine primaire est hors
   service. Cela rend la bascule assez risquée lors d'une panne de réseau, notamment.
 
-Au final, même si la panne de http4 aurait justifié de basculer (panne longue, serveur hors service), nous ne remettons
+Au final, même si la panne de http4 justifiait de basculer (panne longue, serveur hors service), nous ne remettons
 pas en cause notre décision d'arrêter la redondance.
 
 Une erreur toutefois : nous aurions dû annoncer publiquement l'arrêt de cette redondance, fût-elle partielle (certains

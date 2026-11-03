@@ -39,4 +39,4 @@ content-type: text/html; charset=UTF-8
 via: 2.0 alproxy
 ```
 
-Si votre site renvoie l'en-tête `cache-control: max-age=0`, il n'est pas caché.
+Si votre site renvoie l'en-tête `cache-control: max-age=0`, il n'est pas mis en cache.

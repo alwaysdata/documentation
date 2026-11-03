@@ -109,7 +109,7 @@ Différentes dates existent :
 |.cricket|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.cruises|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.cx|Jusqu'à 1 jour avant expiration||||29 jours après expiration|
-|.cz|Jusqu'à expiration|Jusqu'à 59 jours après|||60 jours après expiration|
+|.cz|Jusqu'à expiration|Jusqu'à 59 jours après expiration|||60 jours après expiration|
 |.dance|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.dating|Jusqu’à expiration|Jusqu’à 45 jours après expiration|45 jours après expiration|Entre 45 et 75 jours après expiration|80 jours après expiration|
 |.de|Jusqu’à expiration|Impossible|Jour de l’expiration|Contactez le [support](https://admin.alwaysdata.com/support/add/)|Contactez le [support](https://admin.alwaysdata.com/support/add/)|

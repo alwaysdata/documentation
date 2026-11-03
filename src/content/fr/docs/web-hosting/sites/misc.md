@@ -9,10 +9,10 @@ eleventyNavigation:
 
 ## Site HTTP par défaut
 
-Cette option, des [Clouds Privé](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) et paramétrée dans le menu
-**HTTP** du serveur, permet de renseigner un site sur lequel seront redirigées les requêtes arrivant sur le serveur, dont
-l'adresse ne serait pas définie dans l'interface d'administration alwaysdata. Cela remplacera le "*Site not found*"
-renvoyé par défaut.
+Cette option, propre aux [Clouds Privés](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) et paramétrée dans le
+menu **HTTP** du serveur, permet de renseigner un site sur lequel seront redirigées les requêtes arrivant sur le
+serveur, dont l'adresse ne serait pas définie dans l'interface d'administration alwaysdata. Cela remplacera le
+"*Site not found*" renvoyé par défaut.
 
 Elle est utile lorsque des adresses pointent au niveau DNS sur le serveur mais qu'elles ne sont pas renseignées dans
 **Web > Sites**. Cela peut, par exemple, être dans le cas d'un site avec un nombre très élevé d'adresses - qu'on ne veut

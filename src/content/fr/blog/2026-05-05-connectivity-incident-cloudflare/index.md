@@ -41,7 +41,7 @@ protocole TLS.
 Le 25 mars, nous recevons plusieurs tickets remontant des problèmes ardus, avec des dysfonctionnements applicatifs
 variés et inhabituels. A priori sans lien entre eux, cette densité nous surprend. De premières analyses nous font
 rapidement réaliser qu'ils sont en fait tous des symptômes divers d'un problème plus général entre Cloudflare et nous.
-Étant donnée la place de Cloudflare sur Internet, nous passons en mode « Urgence » et nous nous mobilisons
+Étant donné la place de Cloudflare sur Internet, nous passons en mode « Urgence » et nous nous mobilisons
 immédiatement !
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamQzbzlsYnNhYXZwZ2k0ejA3OG5wdjBzY3VlNGppaDZ4NHpjNzAyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LLZ5N5CqhNpSbFZCyy/giphy.gif)

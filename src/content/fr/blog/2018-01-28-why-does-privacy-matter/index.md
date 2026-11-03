@@ -52,7 +52,7 @@ numériques, et pourquoi les protéger.
 
 ## Protégez vos données facilement chez *alwaysdata*
 
-Avec cette portabilité des données, vous êtes en mesure de pouvoir récupérer et héberger vous-même vos données
+Avec cette portabilité des données, vous êtes en mesure de récupérer et héberger vous-même vos données
 personnelles, et garantir leur intégrité. L'hébergement que vous propose *alwaysdata* est parfaitement adapté à cet
 usage : avec le support de la majorité des langages web et des bases de données, et un espace disque suffisant, même
 avec un [mutualisé](https://www.alwaysdata.com/en/offers/plus/), vous êtes paré·e·s.
@@ -62,7 +62,7 @@ Héberger ses données, c'est commencer par héberger ses fichiers. Voyons donc 
 
 - [Nextcloud](https://nextcloud.com/) (PHP / MariaDB ou MySQL) : solution de centralisation et de partage de documents,
   il vous permettra de réunir vos documents, contacts, agenda, etc. au même endroit, et de les partager facilement,
-  voire même de collaborer avec vos ami·e·s et collègues.
+  voire de collaborer avec vos ami·e·s et collègues.
 - [Cozy Cloud](https://cozy.io) (Go / CouchDB) : un hub de données personnelles, il vous permet de regrouper en un seul
   endroit vos documents, factures, données bancaires, données de santé, etc. Il dispose d'un moyen simple de se
   connecter aux services en ligne que vous utilisez habituellement pour en extraire vos données et les rapatrier.

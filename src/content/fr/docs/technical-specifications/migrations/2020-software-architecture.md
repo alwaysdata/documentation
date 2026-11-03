@@ -193,7 +193,7 @@ Java deviendra prochainement un langage majeur, administrable via l'interface d'
   utiliser `PORT` et `IP`.
 
 - La variable d'environnement `PATH` contiendra désormais toujours les chemins locaux des différents langages, par
-  exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non-interactif, et dans
+  exemple `~/.local/bin`, `~/npm-packages/bin`, etc., y compris en connexion SSH non-login ou non interactive, et dans
   vos applications HTTP.
 
 - L'utilisateur propriétaire de votre répertoire personnel `/home/[compte]`, auparavant identique à votre nom
@@ -300,4 +300,4 @@ ssh-keygen -R ssh-[compte].alwaysdata.net
     JS](/fr/docs/developpement/marketplace/drupal/#precompression-des-fichiers-css-js) sur les versions inférieures à la
     **8.9**.
 
-- Problèmes de failles de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).
+- Problèmes d'erreurs de segmentation avec [psycopg2](https://github.com/psycopg/psycopg2/issues/543).

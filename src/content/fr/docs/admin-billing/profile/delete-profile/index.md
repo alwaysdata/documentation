@@ -10,7 +10,7 @@ eleventyNavigation:
 Vous pouvez supprimer un _compte_ (par exemple `mon_projet`) ou votre _profil_ (par exemple `<name@example.org>`
 propriétaire du compte `mon_projet`).
 
-Pour supprimer ce second, allez dans le menu **Profil** et cliquez sur _Supprimer ce profil_.
+Pour supprimer ce dernier, allez dans le menu **Profil** et cliquez sur _Supprimer ce profil_.
 
 ![](images/delete-profile.png)
 

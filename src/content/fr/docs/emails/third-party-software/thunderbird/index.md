@@ -51,8 +51,8 @@ Rendez-vous dans **Comptes > Configurer un compte : Courrier électronique**.
 
 ![Thunderbird : créer un compte](images/thunderbird_new-account.png)
 
-Pour la modifier une fois créée, rendez-vous dans **Comptes > Voir les paramètres pour ce compte** ou dans la barre de
-menu **Édition > Paramètres des comptes** :
+Pour modifier le compte une fois créé, rendez-vous dans **Comptes > Voir les paramètres pour ce compte** ou dans la
+barre de menu **Édition > Paramètres des comptes** :
 
 - Pour le courrier *entrant*, rendez-vous dans les **Paramètres serveur** ;
 ![Thunderbird : paramètres serveur entrant](images/thunderbird_imap-settings.png)

@@ -45,7 +45,7 @@ Une réponse ne peut **PAS** être cachée si :
 - l'en-tête **`Set-Cookie`** est présent ;
 - l'en-tête **`Authorization`** existe mais que **`Cache-Control`** n'a aucune des valeurs suivantes : `public`,
   `must-revalidate`, `proxy-revalidate`, `s-maxage` ;
-- le **_code de status HTTP_** n'est pas l'un des suivants : 200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501.
+- le **_code de statut HTTP_** n'est pas l'un des suivants : 200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501.
 
 ### 2. Activez le cache HTTP
 

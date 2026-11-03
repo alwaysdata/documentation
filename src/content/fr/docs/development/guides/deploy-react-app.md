@@ -11,7 +11,7 @@ Une application conçue avec [React](https://reactjs.org/) est essentiellement c
 d'_assets_ statiques.
 
 Si le cycle de développement fait intervenir Node.js pour servir les pages/vues dans un serveur HTTP avec tout le
-confort des outils de développement (_hot-reloading_, etc.), elle n'est pas nécessaire pour sa mise en production. [Un
+confort des outils de développement (_hot-reloading_, etc.), il n'est pas nécessaire pour sa mise en production. [Un
 simple serveur Web](https://create-react-app.dev/docs/deployment) fera l'affaire :
 
 > Set up your favorite HTTP server so that a visitor to your site is served index.html, and requests to static paths

@@ -26,6 +26,6 @@ Voici comment procéder à la migration d'adresses email chez alwaysdata.
 
 3. Changer les enregistrements MX, pour utiliser les serveurs d'alwaysdata : `mx1.alwaysdata.com` et `mx2.alwaysdata.com`.
 
-Cette migration peut être couplée par une [migration de site
+Cette migration peut être couplée à une [migration de site
 web](/fr/docs/hebergement-web/sites/migrer-un-site-chez-alwaysdata/) ou encore un [transfert de
 domaine](/fr/docs/domaines/transferer-un-domaine/).

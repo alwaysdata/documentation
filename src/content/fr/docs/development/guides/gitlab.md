@@ -103,8 +103,8 @@ cp config/database.yml.postgresql config/database.yml
 nano config/database.yml
 ```
 
-Remplacez les clés `database`, `username`, `host` et `password` et la première section (production) par celles de votre
-compte. Exemple :
+Dans la première section (production), remplacez les valeurs des clés `database`, `username`, `host` et `password` par
+celles de votre compte. Exemple :
 
 ```yml
 database: [compte]_gitlab

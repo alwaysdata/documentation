@@ -57,7 +57,7 @@ est prioritaire sur IPv4, et vous contacterez vos services et sites par cette ad
 C'est ça.
 
 La seule exception concerne vos applications web. Si votre app garde la trace de vos visiteurs en enregistrant leur
-adresse IP (en base de données par exemple), il vous faudra veiller qu'elle est bien compatible avec IPv6 : la longueur
+adresse IP (en base de données par exemple), il vous faudra veiller à ce qu'elle soit compatible avec IPv6 : la longueur
 de chaîne de caractères pour représenter une IPv4 et une IPv6 est différente, et vous pourriez ne pas enregistrer ces
 informations correctement.
 

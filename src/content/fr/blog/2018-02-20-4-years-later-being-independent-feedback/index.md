@@ -57,11 +57,11 @@ que nous avons choisi d'opérer nous-mêmes la partie matérielle. Nous y avons 
 
 ### Les premiers serveurs
 
-Au départ, c'est quelques machines qu'il a fallu choisir, configurer, installer… c'est une tâche qui n'a pas été sans
+Au départ, ce sont quelques machines qu'il a fallu choisir, configurer, installer… c'est une tâche qui n'a pas été sans
 difficultés. Il nous a fallu descendre encore un peu plus bas dans la cale et prendre en charge le métier de
 l'hébergement, ses contraintes, ses fonctionnements. Malgré tout[^1], nous n'avons jamais connu de panne globale.
 
-Nos choix sont ceux qui ont toujours primé à nos engagements :
+Nos choix ont toujours été dictés par nos engagements :
 
 - une **garantie de neutralité** : depuis les data centers où nous opérons — gérés par un opérateur neutre,
   [Equinix](http://www.equinix.com/) — aux opérateurs réseau — [IELO-LIAZO](http://www.ielo-liazo.com/),

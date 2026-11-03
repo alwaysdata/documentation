@@ -24,7 +24,7 @@ Vous pouvez restaurer [un site web](/fr/docs/hebergement-web/sauvegardes/restaur
 sauvegardes** de l'interface d'administration.
 
 > [!NOTE]
-> Les sauvegardes ne rentrent pas en compte dans le quota d'espace disque d'un compte.
+> Les sauvegardes n'entrent pas en compte dans le quota d'espace disque d'un compte.
 
 <!-- -->
 

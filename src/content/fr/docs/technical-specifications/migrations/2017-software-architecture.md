@@ -270,7 +270,7 @@ précédentes copies sont écrasées par de nouvelles.
 ### Stratégie générale
 
 Il peut être tentant de profiter de la migration pour faire des modifications drastiques sur vos applications web, leur
-configuration ou leur déploiement. Nous vous recommandons plutôt de faire le minimum de changements possibles pour que
+configuration ou leur déploiement. Nous vous recommandons plutôt de faire le minimum de changements possible pour que
 la migration se déroule avec succès (après l'avoir testée), et n'effectuer les grandes modifications qu'après, lorsque
 votre compte sera sur la nouvelle infrastructure.
 

@@ -49,4 +49,4 @@ Un extrait de ces logs est présenté dans l'interface d'administration (**Logs*
 > le Cloud Privé, il est aussi possible de le faire au niveau du serveur dans son menu **HTTP**.
 > _Tous les logs (http, sites, jobs...) seront supprimés une fois la période souhaitée passée._
 
-Seuls les logs _apache_, _php_ et _uwsgi_ du mois en cours rentrent en compte dans le quota d'espace disque d'un compte.
+Seuls les logs _apache_, _php_ et _uwsgi_ du mois en cours entrent en compte dans le quota d'espace disque d'un compte.

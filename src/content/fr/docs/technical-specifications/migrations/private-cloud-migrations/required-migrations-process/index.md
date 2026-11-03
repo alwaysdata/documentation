@@ -19,7 +19,7 @@ Cette étape sert à tester le déplacement des bases de données, vérifier les
 
 > Des serveurs de tests sont disponibles pour les bases de données.
 
-Une fois la migration d'un compte vers le serveur de transit effectuée il sera aussi possible de faire un retour en
+Une fois la migration d'un compte vers le serveur de transit effectuée, il sera aussi possible de faire un retour en
 arrière et de le repasser sur l'ancienne infrastructure *temporairement* en cas de souci.
 
 ![](images/migration-1.png)
@@ -66,7 +66,7 @@ L'utilisateur peut faire des modifications applicatives une fois un compte migr�
 > Il lui est aussi possible de faire un retour en arrière et repasser *temporairement* sur l'ancienne infrastructure en
 > cas de souci.
 
-Une fois l'ensemble des comptes migrés il contacte le support pour que celui-ci procède à la réinstallation de son
+Une fois l'ensemble des comptes migrés, il contacte le support pour que celui-ci procède à la réinstallation de son
 serveur.
 
 ![](images/migration-5.png)
