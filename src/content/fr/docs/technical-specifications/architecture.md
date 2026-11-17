@@ -21,7 +21,7 @@ Nous opérons notre propre *réseau indépendant* : [AS60362](http://as60362.net
 Tous nos équipements réseau, switches, routeurs opèrent par paire (deux fabricants différents) et quatre opérateurs
 réseaux indépendants assurent la redondance et la neutralité de notre réseau.
 
-Toutes nos machines sont dotées de SSD configurés en *RAID1* (dupliqués en temps réel) et *échangeables à chaud*. Leurs
+Toutes nos machines sont dotées de SSD configurés en *RAID* (dupliqués en temps réel) et *échangeables à chaud*. Leurs
 alimentations sont *redondées* via deux chaînes électriques indépendantes et du matériel de rechange est disponible sur
 nos sites de production pour remplacer tout élément défectueux.
 

@@ -90,7 +90,7 @@ emergency, we can also switch over to a partner hosting by redeploying a backup 
 
 #### Are the servers redundant?
 
-The data on each server is duplicated on two disks in RAID1 mode, to mitigate a hardware storage failure.
+The data on each server is duplicated on two disks in RAID mode, to mitigate a hardware storage failure.
 
 We also have a [Gold offer](/en/docs/admin-billing/billing/private-cloud-prices) providing synchronized redundancy of
 the servers in separate datacenters to guarantee continuity of service.

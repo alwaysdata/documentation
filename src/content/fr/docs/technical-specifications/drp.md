@@ -95,7 +95,7 @@ avec vos dernières données.
 
 #### Les serveurs sont-ils redondés ?
 
-Les données sur chaque serveur sont dupliquées sur deux disques en RAID1, pour pallier une défaillance matérielle des stockages.
+Les données sur chaque serveur sont dupliquées sur deux disques en RAID, pour pallier une défaillance matérielle des stockages.
 
 Nous disposons d'une [offre Gold](/fr/docs/admin-facturation/facturation/prix-cloud-prive/) offrant une redondance
 synchronisée des serveurs dans des datacenters séparés pour garantir la continuité de service.

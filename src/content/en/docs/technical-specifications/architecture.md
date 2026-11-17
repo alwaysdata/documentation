@@ -19,7 +19,7 @@ We operate our own *independent network*: [AS60362](http://as60362.net/).
 All our network equipment, switches, routers operate in pairs (two separate manufacturers) and four independent network
 operators ensure the redundancy and neutrality of our network.
 
-All our machines are equipped with *RAID1* (duplicated in real time) and *hot-swappable* SSDs. Their power supplies are
+All our machines are equipped with *RAID* (duplicated in real time) and *hot-swappable* SSDs. Their power supplies are
 *redundant* via two independent electrical chains and spare equipment is available at our production sites to replace
 any defective element.
 
