@@ -19,6 +19,7 @@ durée déterminée.
 
 La fonctionnalité d'analyse de processus est disponible via **Avancé > Processus > Analyser les processus**.
 ![Menu Processus : liste](images/admin-panel_processes-list.png)
+
 ![Analyser des processus](images/admin-panel_processes-analysis.png)
 
 - _PIDs_ : liste des PID des processus à auditer, séparés par un espace. Si ce champ reste vide, tous les processus
