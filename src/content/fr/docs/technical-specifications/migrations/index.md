@@ -24,9 +24,8 @@ migrations non effectuées le seront automatiquement.
 
 ## Migrations actuellement proposées
 
-- [MariaDB 11.4](/fr/docs/caracteristiques-techniques/migrations/mariadb-11_4)
 - [MariaDB 11.8](/fr/docs/caracteristiques-techniques/migrations/mariadb-11_8)
-- [PostgreSQL 17](/fr/docs/caracteristiques-techniques/migrations/postgresql-17)
+- [MariaDB 12.3](/fr/docs/caracteristiques-techniques/migrations/mariadb-12_3)
 - [PostgreSQL 18](/fr/docs/caracteristiques-techniques/migrations/postgresql-18)
 
 ## Anciennes migrations

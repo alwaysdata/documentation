@@ -22,9 +22,8 @@ period of time to migrate. Once the deadline is reached, any remaining migration
 
 ## Migrations currently offered
 
-- [MariaDB 11.4](/en/docs/technical-specifications/migrations/mariadb-11_4)
 - [MariaDB 11.8](/en/docs/technical-specifications/migrations/mariadb-11_8)
-- [PostgreSQL 17](/en/docs/technical-specifications/migrations/postgresql-17)
+- [MariaDB 12.3](/fr/docs/caracteristiques-techniques/migrations/mariadb-12_3)
 - [PostgreSQL 18](/en/docs/technical-specifications/migrations/postgresql-18)
 
 ## Former migrations
