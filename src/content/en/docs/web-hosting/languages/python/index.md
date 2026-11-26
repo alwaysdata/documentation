@@ -10,7 +10,7 @@ The way [Python](https://www.python.org) works at alwaysdata is very standard. I
 system, e.g. Linux, then you already know almost everything you need.
 
 - the [provisioned versions](/en/docs/web-hosting/languages/python/configuration/#supported-versions) range from 2.4 to
-  3.14,
+  3.15,
 - the [environment configuration](/en/docs/web-hosting/languages/python/configuration/#environment) is easy to set up.
 
 The [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/2.0.x/) and

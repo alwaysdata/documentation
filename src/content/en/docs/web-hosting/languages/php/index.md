@@ -9,7 +9,7 @@ eleventyNavigation:
 The way [PHP](https://www.php.net) works at alwaysdata is very standard. If you are used to using PHP on a Unix system,
 e.g. Linux, then you already know almost everything you need.
 
-- the [provisioned versions](/en/docs/web-hosting/languages/php/configuration/#supported-versions) range from 4.4 to 8.5,
+- the [provisioned versions](/en/docs/web-hosting/languages/php/configuration/#supported-versions) range from 4.4 to 8.6,
 - it is always possible to [customize the php.ini file](/en/docs/web-hosting/languages/php/configuration/#parameters-php-ini),
 - PHP runs in *FastCGI*, behind [Apache](/en/docs/web-hosting/sites/http-servers/configure-apache/): creating
   `.htaccess` files is therefore possible,

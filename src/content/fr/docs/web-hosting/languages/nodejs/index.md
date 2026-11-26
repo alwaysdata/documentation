@@ -11,7 +11,7 @@ Le fonctionnement de [Node.js](https://nodejs.org/) chez alwaysdata est très st
 d'utiliser Node.js sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](/fr/docs/hebergement-web/langages/nodejs/configuration/#versions-supportees) vont de la 6 à
-  la 24 ;
+  la 26 ;
 * la [configuration d'environnement](/fr/docs/hebergement-web/langages/nodejs/configuration/#environnement) se fait très
   simplement.
 

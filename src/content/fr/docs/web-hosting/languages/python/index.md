@@ -11,7 +11,7 @@ Le fonctionnement de [Python](https://www.python.org) chez alwaysdata est très 
 d'utiliser Python sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](/fr/docs/hebergement-web/langages/python/configuration/#versions-supportees) vont de la 2.4 à
-  la 3.14 ;
+  la 3.15 ;
 * la [configuration d'environnement](/fr/docs/hebergement-web/langages/python/configuration/#environnement) se fait très
   simplement.
 

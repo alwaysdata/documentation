@@ -11,7 +11,7 @@ Le fonctionnement de [PHP](https://www.php.net) chez alwaysdata est très standa
 PHP sous un système Unix (par exemple, Linux), vous savez déjà presque tout ce qu'il faut.
 
 * les [versions proposées](/fr/docs/hebergement-web/langages/php/configuration/#versions-supportees) vont de la 4.4 à la
-  8.5 ;
+  8.6 ;
 * il est tout à fait possible de [personnaliser le fichier
   php.ini](/fr/docs/hebergement-web/langages/php/configuration/#parametres-php-ini) ;
 * PHP tourne en *FastCGI*, derrière [Apache](/fr/docs/hebergement-web/sites/serveurs-http/configurer-apache/) : il est
